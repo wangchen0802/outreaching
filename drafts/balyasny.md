@@ -17,7 +17,7 @@
   - **BAMAgent**：内部 agent 平台，开发了约 6 个月，支持数千个自主 agent 全天运行，有的团队跑着 300 多个 agent。能做公司研究包、财报和宏观事件准备、把新信息转成财务情景。
   - 其他例子：一个 agent 在 9 万张数据库表里找到共同基金持仓，做了避税亏损收割（tax-loss harvesting）分析；首席经济学家把央行分析从约 2 天缩到约 30 分钟。
   - "most of the infrastructure is built in-house at BAM, including the execution harness, data access, and review controls"。
-- 任务里提到的其他线索（bamfunds.com 新闻、OpenAI 客户案例、MIT CSAIL 演讲）都没能核实，见核实说明。
+- OpenAI 客户案例：BAM 官网的新闻稿（搜索摘要）标题是 "Balyasny Applied AI Team Featured in OpenAI Customer Story"：https://www.bamfunds.com/news-and-insights/balyasny-openai-feature 。MIT CSAIL 演讲仍未核实。
 
 **JD 里的数据需求**
 - 未检索到。bamfunds.com 和招聘网站在本环境无法打开，搜索额度也已用完。发送前建议查一下 BAM 官网上 Applied AI、AI Evaluation 相关的在招岗位。
@@ -36,7 +36,13 @@
 - SimReal 团队来自 Citadel、Millennium，这些是 BAM 的直接竞争对手。这一点可能加分，也可能引起保密或竞业方面的顾虑，沟通时要说清楚不涉及前雇主的任何信息。
 - Chief AI Officer 级别高，冷邮件可能被转给团队成员处理。
 
-**核实说明**：Anthropic 访谈读的是原文，以上事实都来自这篇。本次会话的搜索额度在调研 Balyasny 之前已经用完，bamfunds.com、openai.com 和 MIT CSAIL 在本环境都无法打开，所以任务里提到的其他线索（Applied AI 团队的具体负责人、OpenAI 客户案例、MIT CSAIL 演讲、并购结果预测 agent 的其他报道）都没有核实。发送前建议补查 Applied AI 团队的直接负责人，并确认 Charlie Flanagan 和这个团队的关系。
+**核实说明**：
+- 本次复核（2026-09-25）：
+  - 联系人：BAM 官网 leadership 页面（https://www.bamfunds.com/about-us/leadership/charlie-flanagan ，搜索摘要）写他是 Chief AI Officer、Management Committee 成员，2022 年从 Google 加入；theorg、Hedgeweek 等搜索结果一致。搜索摘要还提到，BAM 的中央 AI 团队由他负责，2026 年 3 月约 20 名研究员。没有查到离职的报道。
+  - 开场白："thousands of real-world financial tasks with verifiable outcomes, across equities, macro, and commodities" 和 BAMAgent 都出自 Anthropic 访谈原文，搜索结果里的原文片段一致。开场白不变。
+  - 之前没能核实的 OpenAI 客户案例，这次在 BAM 官网新闻里找到（搜索摘要）：https://www.bamfunds.com/news-and-insights/balyasny-openai-feature 。BAM 也在用 OpenAI 的工具，所以不是 Anthropic 的独家客户。
+  - 来源里没有 GitHub 副本。
+- 之前的记录：Anthropic 访谈读的是原文，以上事实大多来自这篇。bamfunds.com、openai.com 和 MIT CSAIL 在本环境无法打开，MIT CSAIL 演讲和 Applied AI 团队其他成员仍未核实。发送前建议补查在招的 AI 岗位。
 
 ---
 

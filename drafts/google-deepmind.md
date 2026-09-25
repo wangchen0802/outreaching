@@ -37,10 +37,15 @@
 - 已有供应商：Gemini 的评分员外包给 Hitachi 旗下的 GlobalLogic（2024-12 报道：https://www.msn.com/en-us/news/technology/exclusive-google-s-gemini-is-forcing-contractors-to-rate-ai-responses-outside-their-expertise/ar-AA1w7FUT ）。二手行业文章说 Surge 是 Gemini 团队的首选供应商（https://www.teahose.com/guides/scale-ai-competitors ）。Google 曾是 Scale AI 最大的客户，Meta 入股 Scale 后撤出（CNBC 2025-06-14：https://www.cnbc.com/2025/06/14/google-scale-ais-largest-customer-plans-split-after-meta-deal.html ）。
 - 越来越依赖自动化：3.8 Flash 的博客写到训练用了 "long-running agentic loops designed to recursively evaluate and refine the underlying models"。
 - Google 的供应商准入流程重（安全和隐私审查），试点周期可能比创业公司长，这一点是推测。
-- 组织在调整：8 月换帅，Jeff Dean 离职，人才流失有报道。SemiAnalysis 付费文章的二手摘要说 GDM 的 RL 工作"太分散"，还流失了 RL 人才（https://raw.githubusercontent.com/hczhu/stock-research/main/memos/2026-07-13-semianalysis-meta-superintelligence-1yr-update.md ，观点，非事实）。
+- 组织在调整：8 月换帅，Jeff Dean 离职，人才流失有报道。SemiAnalysis 付费文章的二手摘要说 GDM 的 RL 工作"太分散"，还流失了 RL 人才（原文 2026-07-09，付费，本环境无法阅读：https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence ；二手笔记的 GitHub 副本：https://raw.githubusercontent.com/hczhu/stock-research/main/memos/2026-07-13-semianalysis-meta-superintelligence-1yr-update.md 。这是观点，不是事实）。
 - Data for Gemini BD 岗位偏数据授权（买现成数据集），不一定管专家服务，可能会被转来转去。
 
-**核实说明**：本环境的网络策略不允许直接打开 blog.google、Google Careers 和新闻站。3.8 Flash 的博客原文是在 GitHub 上的全文镜像里读的（https://github.com/ia3andy/devoured/blob/main/templates/full-content/2026-09-03/ai-7.html ），和另外两个独立来源一致。Kalpesh Krishna 的主页读的是原文。其余联系人和岗位信息来自搜索摘要。会话的搜索额度已用完，没能进一步确认 Gemini Data 团队负责人的名字。
+**核实说明**：
+- 本次复核（2026-09-25）：
+  - 联系人：CNBC 2026-09-02 称 Tulsee Doshi 是 Google DeepMind senior director of product management；The Hacker News 2026-09 的报道引用了她对 3.8 Flash Cyber 的评论（https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html ，搜索摘要）。说明目前在职，没有查到离职的报道。
+  - 开场白：3.8 Flash "outperforms 3.7 Flash and other frontier models in benchmarks like Vals Finance Agent V2 and Harvey's Legal Agent Benchmark"，官方博客（搜索结果原文片段）和两个独立来源一致（https://www.vellum.ai/blog/gemini-3-8-flash-benchmarks-explained 、https://www.datacamp.com/blog/gemini-3-8-flash-cyber ）。开场白不变。
+  - 来源：之前读的博客 GitHub 镜像已删掉，改用上面的 blog.google 原始链接。SemiAnalysis 的观点换成了原文链接，二手笔记只作为标注过的副本保留。
+- 之前的记录：本环境的网络策略不允许直接打开 blog.google、Google Careers 和新闻站。Kalpesh Krishna 的主页读的是原文。其余联系人和岗位信息来自搜索摘要。Gemini Data 团队负责人的名字仍未查到。
 
 ---
 

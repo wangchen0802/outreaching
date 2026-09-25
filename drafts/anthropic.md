@@ -30,10 +30,10 @@
   - GDPval-AA v2.1 得 1846 Elo。
 
   来源：https://www.anthropic.com/claude-opus-5-5 （已读原文）
-- 完整时间线：https://github.com/jqueryscript/anthropic-claude-timeline
+- 完整发布列表见官方新闻页：https://www.anthropic.com/news
 
 **JD 里的数据需求**（岗位原文读的是 GitHub 招聘存档 marcus-crane/hirint-ai-adjacent 里的副本，下面给的是 Greenhouse 原始链接）
-- Research Engineer, Domain Scaling（2026-06-19 发布，2026-09-07 的招聘页快照里还在，https://github.com/bojieli/ai-infra-book/blob/main/references/interviews/2026-09-07/second-pass/anthropic-jobs.txt ）：
+- Research Engineer, Domain Scaling（2026-06-19 发布，2026-09-07 的招聘页快照里还在，快照为 GitHub 上的副本：https://github.com/bojieli/ai-infra-book/blob/main/references/interviews/2026-09-07/second-pass/anthropic-jobs.txt ；原始岗位页见下方 Greenhouse 链接）：
   - "make Claude world-class at real-world knowledge work in domains like finance, healthcare, and legal"
   - "own the end-to-end process of creating RL environments… managing vendor relationships"
   - "Develop and improve QA frameworks to catch reward hacking"
@@ -62,9 +62,14 @@
 - 收件人是兜底联系人，冷邮件的回复概率低。
 
 **核实说明**：
-- 读的是原文：anthropic.com 和 claude.com 上的发布页，以及 leadership 页面。
-- 读的是副本：Greenhouse 在本环境打不开，岗位原文读的是 GitHub 招聘存档里的副本。
-- 来自搜索摘要：供应商和花费相关的内容。
+- 本次复核（2026-09-25）：
+  - 联系人：官方 leadership 页面、Hertz Foundation 页面和 Wikipedia（搜索结果）都写 Jared Kaplan 仍是联合创始人兼 Chief Science Officer，没有查到 2025–2026 离职的报道。
+  - 开场白：Opus 5.5 发布页（https://www.anthropic.com/claude-opus-5-5 ）里的 Excel 并购模型测试（63 分钟 vs 93 分钟）和 Optiver "the highest score we've recorded"，在官方页面和两个独立来源里一致（https://www.vellum.ai/blog/claude-opus-5-5-benchmarks-explained 、https://www.technology.org/2026/09/23/anthropic-claude-opus-5-5-launch-pricing-benchmarks/ ）。开场白不变。
+  - 来源：第三方 GitHub 时间线换成了官方新闻页；招聘页快照标注为副本，原始链接是 Greenhouse。
+- 之前的记录：
+  - 读的是原文：anthropic.com 和 claude.com 上的发布页，以及 leadership 页面。
+  - 读的是副本：Greenhouse 在本环境打不开，岗位原文读的是 GitHub 招聘存档里的副本。
+  - 来自搜索摘要：供应商和花费相关的内容。
 
 发送前建议确认 Domain Scaling 岗位还在招。
 
