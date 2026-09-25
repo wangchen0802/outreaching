@@ -2,6 +2,16 @@
 
 第一批客户外联：名单和草稿。所有草稿由人工审核后自己发送，本仓库不发送任何消息。
 
+## 审批页
+
+https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开）
+
+每家一张卡片：批准，或者退回修改并写一句原因。退回的由 Claude 修改后放回待审。页面上方的「发件信息」填一次，复制邮件时会自动替换署名、微信/电话，以及身份核验那句（三选一：保留方括号 / 使用 / 删掉）。
+
+- 页面源码：`approval/index.html`
+- 页面数据由 `tools/build_db.py` 从 `prospects.csv` 和 `drafts/` 生成，写进页面的数据库（`prospects/<slug>`）。审批状态只存在页面数据库里。
+- `tools/check_drafts.py` 逐封核对：和模板相比，只允许开头那句和方括号里的内容不同。
+
 ## 文件
 
 - `prospects.csv`：名单。列：公司、类别、地区、联系人、职位、来源链接、切入点、置信度。UTF-8（带 BOM，Excel 可直接打开）。

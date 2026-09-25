@@ -1,0 +1,655 @@
+<title>SimReal 外联审批</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500&family=Noto+Sans+SC:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #FAF9F6;
+    --surface: #FFFFFF;
+    --ink: #111110;
+    --body: #33322F;
+    --muted: #6E6C66;
+    --rule: #E2E0DA;
+    --rule-strong: #CFCCC4;
+    --accent: #C2410C;
+    --accent-tint: rgba(194, 65, 12, 0.09);
+    --ok: #2E6B3F;
+    --ok-tint: rgba(46, 107, 63, 0.10);
+    --warn: #93580A;
+    --warn-tint: rgba(147, 88, 10, 0.11);
+    --btn-ink: #111110;
+    --btn-paper: #FAF9F6;
+    --serif: "Newsreader", "Noto Serif SC", "Songti SC", Georgia, serif;
+    --sans: "Instrument Sans", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+      --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
+      --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+      --btn-ink: #F3F1EC; --btn-paper: #141311;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+    --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
+    --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+    --btn-ink: #F3F1EC; --btn-paper: #141311;
+  }
+
+  body { background: var(--paper); color: var(--body); font: 14px/1.6 var(--sans); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+  h1, h2, h3, h4 { color: var(--ink); margin: 0; text-wrap: balance; }
+  a { color: inherit; text-decoration-color: var(--rule-strong); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--accent); }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .label { font: 500 11px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+
+  /* Header */
+  .top { display: grid; gap: 14px; }
+  .brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .brand .co { font: 500 13px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .brand h1 { font: 500 34px/1.1 var(--serif); letter-spacing: -0.01em; }
+  .lede { margin: 0; max-width: 62ch; color: var(--body); }
+  .tally { display: grid; gap: 8px; max-width: 560px; }
+  .tally-nums { display: flex; gap: 18px; flex-wrap: wrap; font: 400 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tally-nums b { color: var(--ink); font-weight: 500; }
+  .bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--rule); }
+  .bar span { display: block; height: 100%; }
+  .bar .b-ok { background: var(--ok); }
+  .bar .b-warn { background: var(--warn); }
+  .bar .b-pend { background: var(--rule-strong); }
+
+  /* Sender settings */
+  .sender { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 16px; display: grid; gap: 12px; }
+  .sender-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+  .sender-head p { margin: 0; color: var(--muted); font-size: 13px; }
+  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 16px; }
+  .field { display: grid; gap: 4px; }
+  .field input, .field select, .intro input {
+    background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 7px 10px; min-width: 0; width: 100%; box-sizing: border-box;
+  }
+  .save-state { font: 400 12px var(--mono); color: var(--muted); min-height: 1em; }
+
+  /* Filters */
+  .filters { display: flex; gap: 8px 20px; flex-wrap: wrap; align-items: center; }
+  .seg { display: flex; gap: 4px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--rule-strong); background: transparent; border-radius: 999px; padding: 4px 12px; cursor: pointer; font-size: 13px; color: var(--body); }
+  .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .chip .n { font: 400 12px var(--mono); margin-left: 4px; opacity: 0.75; font-variant-numeric: tabular-nums; }
+
+  /* Cards */
+  #list { display: grid; gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 20px 22px; display: grid; gap: 12px; }
+  .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .who { display: grid; gap: 6px; }
+  .who h2 { font: 500 20px/1.25 var(--sans); }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font: 400 12px/1 var(--mono); color: var(--muted); border: 1px solid var(--rule); border-radius: 4px; padding: 4px 6px; }
+  .status { flex: none; font: 500 12px/1 var(--sans); border-radius: 999px; padding: 6px 10px; white-space: nowrap; }
+  .st-pending { color: var(--muted); border: 1px solid var(--rule-strong); }
+  .st-approved { color: var(--ok); background: var(--ok-tint); }
+  .st-changes { color: var(--warn); background: var(--warn-tint); }
+  .contact { display: flex; gap: 6px 10px; flex-wrap: wrap; align-items: baseline; }
+  .contact .name { color: var(--ink); font-weight: 600; }
+  .conf { font: 400 12px var(--mono); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--rule); }
+  .conf-高 { color: var(--ok); border-color: currentColor; }
+  .conf-中 { color: var(--body); }
+  .conf-低 { color: var(--warn); border-color: currentColor; }
+  .opening { margin: 0; font: 400 18px/1.55 var(--serif); color: var(--ink); max-width: 68ch; }
+  .opening:lang(zh) { font-size: 17px; line-height: 1.75; }
+  .fills { display: flex; gap: 4px 18px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .fills b { color: var(--body); font-weight: 500; }
+  .missing { font-size: 12.5px; color: var(--muted); }
+  .missing b { font-weight: 500; color: var(--body); }
+  .changelog { font-size: 13px; color: var(--body); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 12px; }
+  .review-note { font-size: 13px; }
+  .review-note.warn { color: var(--warn); }
+  .review-note.ok { color: var(--ok); }
+
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .btn { border-radius: 6px; padding: 7px 14px; cursor: pointer; font-weight: 500; font-size: 13.5px; border: 1px solid var(--rule-strong); background: transparent; }
+  .btn-primary { background: var(--btn-ink); color: var(--btn-paper); border-color: var(--btn-ink); }
+  .btn-primary:hover { opacity: 0.88; }
+  .btn:hover { border-color: var(--ink); }
+  .btn-text { border-color: transparent; color: var(--muted); padding-inline: 8px; }
+  .btn-text:hover { color: var(--ink); border-color: transparent; }
+  .btn[disabled] { opacity: 0.45; cursor: not-allowed; }
+  .spacer { flex: 1; }
+
+  .return-form { display: grid; gap: 8px; }
+  .return-form textarea { background: var(--paper); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 8px 10px; min-height: 70px; resize: vertical; }
+  .return-form .row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* Detail */
+  .detail { border-top: 1px solid var(--rule); padding-top: 16px; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 24px; }
+  @media (max-width: 820px) { .detail { grid-template-columns: minmax(0, 1fr); } }
+  .blk { display: grid; gap: 8px; }
+  .blk + .blk { margin-top: 20px; }
+  .blk-h { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .copyrow { display: flex; gap: 6px; flex-wrap: wrap; }
+  .copy { font-size: 12.5px; padding: 4px 10px; }
+  .letter { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; overflow-x: auto; }
+  .letter .subj { font-weight: 600; color: var(--ink); margin-bottom: 10px; }
+  .letter pre { margin: 0; white-space: pre-wrap; word-break: break-word; font: 400 14px/1.65 var(--sans); color: var(--body); }
+  mark.fill { background: var(--accent-tint); color: inherit; border-bottom: 1.5px solid var(--accent); padding: 0 1px; }
+  .ph { border-bottom: 1.5px dashed var(--muted); color: var(--muted); }
+  .legend { font-size: 12px; color: var(--muted); display: flex; gap: 14px; flex-wrap: wrap; }
+  .legend .sw { display: inline-block; width: 18px; height: 0.9em; vertical-align: -0.1em; margin-right: 4px; }
+  .legend .sw-fill { background: var(--accent-tint); border-bottom: 1.5px solid var(--accent); }
+  .legend .sw-ph { border-bottom: 1.5px dashed var(--muted); }
+  .intro { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; }
+  .intro input { width: auto; flex: 1 1 160px; }
+  .fallback { width: 100%; box-sizing: border-box; min-height: 120px; font: 12.5px/1.5 var(--mono); background: var(--paper); border: 1px solid var(--accent); border-radius: 6px; padding: 8px; }
+
+  .notes { font-size: 13.5px; }
+  .notes h4 { font: 600 13px/1.4 var(--sans); margin: 16px 0 6px; }
+  .notes h4:first-child { margin-top: 0; }
+  .notes p { margin: 0 0 8px; }
+  .notes ul { margin: 0 0 8px; padding-left: 18px; }
+  .notes li { margin: 2px 0; }
+  .notes code { font: 12px var(--mono); background: var(--paper); padding: 1px 4px; border-radius: 3px; }
+  .notes a { word-break: break-all; }
+  .notes .meta { padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid var(--rule); }
+
+  .notice { border: 1px solid var(--rule-strong); border-radius: 8px; padding: 14px 16px; background: var(--surface); }
+  .empty { color: var(--muted); padding: 24px 0; }
+  @media (max-width: 520px) {
+    .wrap { padding: 24px 16px 48px; }
+    .card { padding: 16px; }
+    .brand h1 { font-size: 28px; }
+    .opening { font-size: 17px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .card { transition: border-color 0.15s; }
+  }
+  .card:hover { border-color: var(--rule-strong); }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="co">SimReal</span><h1>外联审批</h1></div>
+    <p class="lede">每家公司一张卡片。邮件正文按模板固定，只有标出的部分是针对这家写的：开头那句、称呼和领域。看完点「批准」，或者「退回修改」并写一句原因，Claude 改完会放回待审。批准后在「全文与调研」里复制，自己发送。</p>
+    <div class="tally">
+      <div class="tally-nums" id="tally-nums"><span>正在载入…</span></div>
+      <div class="bar" id="bar" aria-hidden="true"><span class="b-pend" style="width:100%"></span></div>
+    </div>
+  </header>
+
+  <section class="sender" aria-labelledby="sender-title">
+    <div class="sender-head">
+      <h3 id="sender-title" class="label">发件信息</h3>
+      <p>填一次，所有草稿复制时自动替换对应的方括号。没填的保留方括号。</p>
+    </div>
+    <div class="fields">
+      <label class="field"><span class="label">英文署名</span><input id="f-name-en" placeholder="替换 [Your name]" autocomplete="off"></label>
+      <label class="field"><span class="label">中文署名</span><input id="f-name-zh" placeholder="替换 [姓名]" autocomplete="off"></label>
+      <label class="field"><span class="label">微信 / 电话</span><input id="f-contact" placeholder="替换 微信/电话：[ ]" autocomplete="off"></label>
+      <label class="field"><span class="label">身份与资质核验那句</span>
+        <select id="f-idcheck">
+          <option value="undecided">未决定：保留方括号</option>
+          <option value="include">使用：去掉方括号</option>
+          <option value="omit">不用：整句删掉</option>
+        </select>
+      </label>
+    </div>
+    <div class="save-state" id="save-state" aria-live="polite"></div>
+  </section>
+
+  <nav class="filters" aria-label="筛选">
+    <div class="seg" id="f-status"></div>
+    <div class="seg" id="f-region"></div>
+  </nav>
+
+  <main id="list"><p class="empty">正在载入草稿…</p></main>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var ID_EN = "[, and every expert is ID- and credential-checked before starting work]";
+  var ID_ZH = "[，所有专家上岗前均完成身份与资质核验]";
+  var STATUS = {
+    pending: { label: "待审", cls: "st-pending" },
+    approved: { label: "已批准", cls: "st-approved" },
+    changes: { label: "已退回，等 Claude 修改", cls: "st-changes" }
+  };
+  var PH_LABEL = {
+    "[Your name]": "英文署名", "[姓名]": "中文署名", "[ ]": "微信/电话",
+    "[介绍人]": "介绍人"
+  };
+  PH_LABEL[ID_EN] = "身份核验那句"; PH_LABEL[ID_ZH] = "身份核验那句";
+
+  var state = {
+    docs: [], settings: {}, pipeline: null,
+    status: "pending", region: "all",
+    open: {}, returning: {}, returnText: {},
+    canEdit: true, db: null, cards: {}
+  };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function shortUrl(u) {
+    var t = u.replace(/^https?:\/\/(www\.)?/, "");
+    return t.length > 60 ? t.slice(0, 57) + "…" : t;
+  }
+  function inline(s) {
+    var h = esc(s);
+    h = h.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    h = h.replace(/`([^`]+)`/g, "<code>$1</code>");
+    h = h.replace(/https?:\/\/[^\s<>"'）)，、；]+/g, function (u) {
+      var clean = u.replace(/[.。]+$/, "");
+      var tail = u.slice(clean.length);
+      return '<a href="' + clean + '" target="_blank" rel="noopener noreferrer">' + shortUrl(clean) + "</a>" + tail;
+    });
+    return h;
+  }
+  function md(src) {
+    var html = "", depth = 0;
+    String(src || "").split("\n").forEach(function (raw) {
+      if (!raw.trim()) return;
+      var m = raw.match(/^(\s*)- (.*)$/);
+      if (m) {
+        var lvl = Math.min(Math.floor(m[1].length / 2), 3) + 1;
+        while (depth < lvl) { html += "<ul>"; depth++; }
+        while (depth > lvl) { html += "</ul>"; depth--; }
+        html += "<li>" + inline(m[2]) + "</li>";
+      } else {
+        while (depth > 0) { html += "</ul>"; depth--; }
+        var t = raw.trim();
+        if (/^\*\*[^*]+\*\*$/.test(t)) html += "<h4>" + esc(t.slice(2, -2)) + "</h4>";
+        else html += "<p>" + inline(t) + "</p>";
+      }
+    });
+    while (depth > 0) { html += "</ul>"; depth--; }
+    return html;
+  }
+
+  // Fill placeholders from the sender settings; anything unset keeps its brackets.
+  function finalize(text, lang, doc) {
+    var s = state.settings || {};
+    var t = String(text || "");
+    var name = lang === "en" ? s.nameEn : s.nameZh;
+    if (name) t = t.split(lang === "en" ? "[Your name]" : "[姓名]").join(name);
+    var idc = lang === "en" ? ID_EN : ID_ZH;
+    if (s.idCheck === "include") t = t.split(idc).join(idc.slice(1, -1));
+    else if (s.idCheck === "omit") t = t.split(idc).join("");
+    if (s.contact) t = t.split("微信/电话：[ ]").join("微信/电话：" + s.contact);
+    if (doc && doc.introducer) t = t.split("[介绍人]").join(doc.introducer);
+    return t;
+  }
+  function wechatText(doc) {
+    var s = state.settings || {};
+    var t = String(doc.wechat || "");
+    if (s.nameZh) t = t.split("[姓名]").join(s.nameZh);
+    if (doc.introducer) t = t.split("[介绍人]").join(doc.introducer);
+    return t;
+  }
+  function missingIn(text) {
+    var found = [];
+    Object.keys(PH_LABEL).forEach(function (ph) {
+      if (text.indexOf(ph) !== -1 && found.indexOf(PH_LABEL[ph]) === -1) found.push(PH_LABEL[ph]);
+    });
+    return found;
+  }
+  // Escape, then mark the personalised fills and the remaining placeholders.
+  function highlight(text, doc) {
+    var h = esc(text);
+    [doc.opening, doc.domains].forEach(function (f) {
+      if (f) h = h.split(esc(f)).join('<mark class="fill">' + esc(f) + "</mark>");
+    });
+    if (doc.salutation) {
+      var sal = esc(doc.salutation);
+      h = h.replace(sal, '<mark class="fill">' + sal + "</mark>");
+    }
+    Object.keys(PH_LABEL).forEach(function (ph) {
+      var e = esc(ph);
+      h = h.split(e).join('<span class="ph">' + e + "</span>");
+    });
+    return h;
+  }
+  function fullEmail(doc) {
+    var subjLabel = doc.lang === "en" ? "Subject: " : "主题：";
+    return subjLabel + doc.subject + "\n\n" + finalize(doc.body, doc.lang, doc);
+  }
+  function statusOf(doc) {
+    var st = doc.review && doc.review.status;
+    return STATUS[st] ? st : "pending";
+  }
+  function fmtTime(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    if (isNaN(d)) return "";
+    return (d.getMonth() + 1) + "月" + d.getDate() + "日 " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+  }
+
+  function renderTally() {
+    var c = { pending: 0, approved: 0, changes: 0 };
+    state.docs.forEach(function (d) { c[statusOf(d)]++; });
+    var n = state.docs.length;
+    var total = Math.max(n, (state.pipeline && state.pipeline.total) || n);
+    var researching = total - n;
+    var parts = [
+      "<span><b>" + n + "</b> / " + total + " 家已上架</span>",
+      "<span>已批准 <b>" + c.approved + "</b></span>",
+      "<span>待审 <b>" + c.pending + "</b></span>",
+      "<span>已退回 <b>" + c.changes + "</b></span>"
+    ];
+    if (researching > 0) parts.push("<span>调研中 <b>" + researching + "</b></span>");
+    document.getElementById("tally-nums").innerHTML = parts.join("");
+    var pct = function (x) { return total ? (100 * x / total) : 0; };
+    document.getElementById("bar").innerHTML =
+      '<span class="b-ok" style="width:' + pct(c.approved) + '%"></span>' +
+      '<span class="b-warn" style="width:' + pct(c.changes) + '%"></span>' +
+      '<span class="b-pend" style="width:' + pct(c.pending) + '%"></span>';
+    return c;
+  }
+
+  function renderFilters(c) {
+    var byRegion = { all: state.docs.length, 海外: 0, 国内: 0 };
+    state.docs.forEach(function (d) { if (byRegion[d.region] != null) byRegion[d.region]++; });
+    var st = [["pending", "待审", c.pending], ["changes", "已退回", c.changes], ["approved", "已批准", c.approved], ["all", "全部", state.docs.length]];
+    document.getElementById("f-status").innerHTML = st.map(function (x) {
+      return '<button class="chip" data-status="' + x[0] + '" aria-pressed="' + (state.status === x[0]) + '">' + x[1] + '<span class="n">' + x[2] + "</span></button>";
+    }).join("");
+    var rg = [["all", "海外 + 国内"], ["海外", "海外"], ["国内", "国内"]];
+    document.getElementById("f-region").innerHTML = rg.map(function (x) {
+      return '<button class="chip" data-region="' + x[0] + '" aria-pressed="' + (state.region === x[0]) + '">' + x[1] + '<span class="n">' + byRegion[x[0]] + "</span></button>";
+    }).join("");
+  }
+
+  function cardHTML(doc) {
+    var st = statusOf(doc), s = STATUS[st], slug = doc.slug || doc.id;
+    var emailFinal = fullEmail(doc);
+    var miss = missingIn(emailFinal + (doc.wechat ? "\n" + wechatText(doc) : ""));
+    var rev = doc.revision || 1;
+    var review = doc.review || {};
+    var h = "";
+    h += '<div class="card-head"><div class="who"><h2>' + esc(doc.company) + "</h2>";
+    h += '<div class="tags"><span class="tag">' + esc(doc.category) + '</span><span class="tag">' + esc(doc.region) + " · " + (doc.lang === "en" ? "英文邮件" : "中文邮件 + 微信") + "</span>";
+    if (rev > 1) h += '<span class="tag">第 ' + rev + " 版</span>";
+    h += "</div></div>";
+    h += '<span class="status ' + s.cls + '">' + s.label + "</span></div>";
+
+    h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact) + "</span><span>" + esc(doc.role) + '</span><span class="conf conf-' + esc(doc.confidence) + '">置信度 ' + esc(doc.confidence) + "</span></div>";
+    h += '<p class="opening" lang="' + (doc.lang === "en" ? "en" : "zh") + '">' + esc(doc.opening) + "</p>";
+    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span><span>领域 <b>" + esc(doc.domains) + "</b></span></div>";
+    if (doc.angle) h += '<div class="fills"><span>切入点 <b>' + esc(doc.angle) + "</b></span></div>";
+
+    if (doc.changelog && st === "pending" && rev > 1) h += '<div class="changelog"><span class="label">这一版改了什么</span><br>' + esc(doc.changelog) + "</div>";
+    if (st === "changes") h += '<div class="review-note warn">你的意见：' + esc(review.comment || "（未写原因）") + (review.at ? " · " + fmtTime(review.at) : "") + "</div>";
+    if (st === "approved") h += '<div class="review-note ok">已批准' + (review.at ? " · " + fmtTime(review.at) : "") + (miss.length ? "。复制前还要补：" + esc(miss.join("、")) : "。可以复制发送。") + "</div>";
+    else if (miss.length) h += '<div class="missing">复制前还没填的：<b>' + esc(miss.join("、")) + "</b>（在上方发件信息里填）</div>";
+
+    h += '<div class="actions">';
+    if (state.canEdit) {
+      if (st === "pending") {
+        h += '<button class="btn btn-primary" data-act="approve">批准</button>';
+        h += '<button class="btn" data-act="return">退回修改</button>';
+      } else if (st === "approved") {
+        h += '<button class="btn" data-act="reopen">撤销批准</button>';
+      } else {
+        h += '<button class="btn" data-act="reopen">撤回退回</button>';
+      }
+    }
+    h += '<span class="spacer"></span><button class="btn btn-text" data-act="toggle" aria-expanded="' + !!state.open[slug] + '">' + (state.open[slug] ? "收起全文" : "全文与调研") + "</button></div>";
+
+    if (state.returning[slug]) {
+      h += '<form class="return-form" data-form="return"><label class="label" for="rt-' + esc(slug) + '">退回原因（会给 Claude 看）</label>';
+      h += '<textarea id="rt-' + esc(slug) + '" placeholder="例如：开头太长；换一个联系人；领域去掉医疗">' + esc(state.returnText[slug] || "") + "</textarea>";
+      h += '<div class="row"><button class="btn btn-primary" type="submit">退回</button><button class="btn btn-text" type="button" data-act="cancel-return">取消</button></div></form>';
+    }
+
+    if (state.open[slug]) {
+      h += '<div class="detail"><div>';
+      h += '<div class="blk"><div class="blk-h"><span class="label">邮件</span><div class="copyrow">';
+      h += '<button class="btn copy" data-copy="subject">复制主题</button><button class="btn copy" data-copy="body">复制正文</button><button class="btn copy" data-copy="email">复制全部</button></div></div>';
+      h += '<div class="letter"><div class="subj">' + esc(doc.subject) + "</div><pre>" + highlight(finalize(doc.body, doc.lang, doc), doc) + "</pre></div>";
+      h += '<div class="legend"><span><span class="sw sw-fill"></span>针对这家写的</span><span><span class="sw sw-ph"></span>还没填的方括号</span></div></div>';
+      if (doc.wechat) {
+        h += '<div class="blk"><div class="blk-h"><span class="label">微信版（引荐后）</span><div class="copyrow"><button class="btn copy" data-copy="wechat">复制微信版</button></div></div>';
+        h += '<div class="letter"><pre>' + highlight(wechatText(doc), doc) + "</pre></div>";
+        if (state.canEdit) h += '<label class="intro"><span class="label">介绍人</span><input id="intro-' + esc(slug) + '" data-intro value="' + esc(doc.introducer || "") + '" placeholder="替换 [介绍人]" autocomplete="off"></label>';
+        h += "</div>";
+      }
+      h += '<div class="copy-fallback"></div></div>';
+      h += '<div class="notes"><div class="meta">' + md(doc.meta_md) + "</div>" + md(doc.notes_md) + "</div>";
+      h += "</div>";
+    }
+    return h;
+  }
+
+  function visible(doc) {
+    var st = statusOf(doc);
+    if (state.status !== "all" && st !== state.status) return false;
+    if (state.region !== "all" && doc.region !== state.region) return false;
+    return true;
+  }
+
+  function render() {
+    var c = renderTally();
+    renderFilters(c);
+    var list = document.getElementById("list");
+    var docs = state.docs.slice().sort(function (a, b) {
+      return (a.order || 999) - (b.order || 999) || String(a.company).localeCompare(String(b.company));
+    });
+    var shown = 0;
+    var seen = {};
+    docs.forEach(function (doc, i) {
+      var slug = doc.slug || doc.id;
+      seen[slug] = true;
+      var entry = state.cards[slug];
+      var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug]]);
+      if (!entry) {
+        var el = document.createElement("article");
+        el.className = "card";
+        el.dataset.slug = slug;
+        entry = state.cards[slug] = { el: el, sig: "" };
+      }
+      if (entry.sig !== sig) {
+        entry.el.innerHTML = cardHTML(doc);
+        entry.sig = sig;
+      }
+      entry.el.hidden = !visible(doc);
+      if (!entry.el.hidden) shown++;
+      // Move a card only when it is out of place, so a focused field inside it keeps focus.
+      if (list.children[i] !== entry.el) list.insertBefore(entry.el, list.children[i] || null);
+    });
+    Object.keys(state.cards).forEach(function (slug) {
+      if (!seen[slug]) { state.cards[slug].el.remove(); delete state.cards[slug]; }
+    });
+    var empty = list.querySelector(".empty");
+    if (!shown) {
+      if (!empty) { empty = document.createElement("p"); empty.className = "empty"; list.appendChild(empty); }
+      empty.textContent = state.docs.length ? (state.status === "pending" ? "没有待审的卡片了。" : "这个筛选下没有卡片。") : "还没有草稿。";
+    } else if (empty) {
+      empty.remove();
+    }
+  }
+
+  function docBySlug(slug) {
+    return state.docs.find(function (d) { return (d.slug || d.id) === slug; });
+  }
+
+  async function writeReview(slug, review) {
+    if (!state.db) return;
+    try {
+      await state.db.doc("prospects/" + slug).update({ review: review });
+    } catch (e) {
+      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
+    }
+  }
+
+  function showNotice(text) {
+    var n = document.getElementById("notice");
+    if (!n) {
+      n = document.createElement("div");
+      n.id = "notice"; n.className = "notice"; n.setAttribute("role", "status");
+      document.querySelector(".wrap").insertBefore(n, document.getElementById("list"));
+    }
+    n.textContent = text;
+  }
+
+  async function copyText(text, btn) {
+    var card = btn.closest(".card");
+    var slot = card && card.querySelector(".copy-fallback");
+    try {
+      await navigator.clipboard.writeText(text);
+      var old = btn.textContent;
+      btn.textContent = "已复制";
+      setTimeout(function () { btn.textContent = old; }, 1400);
+      if (slot) slot.innerHTML = "";
+    } catch (e) {
+      if (!slot) return;
+      slot.innerHTML = '<p class="missing">这个窗口不允许直接复制。文字已选中，按 Ctrl+C（Mac 上 ⌘C）。</p><textarea class="fallback" readonly></textarea>';
+      var ta = slot.querySelector("textarea");
+      ta.value = text; ta.focus(); ta.select();
+    }
+  }
+
+  document.addEventListener("click", function (ev) {
+    var chip = ev.target.closest(".chip");
+    if (chip) {
+      if (chip.dataset.status) state.status = chip.dataset.status;
+      if (chip.dataset.region) state.region = chip.dataset.region;
+      render();
+      return;
+    }
+    var btn = ev.target.closest("button");
+    if (!btn) return;
+    var card = btn.closest(".card");
+    if (!card) return;
+    var slug = card.dataset.slug, doc = docBySlug(slug);
+    if (!doc) return;
+    var act = btn.dataset.act, cp = btn.dataset.copy;
+    var now = new Date().toISOString(), rev = doc.revision || 1;
+    if (cp) {
+      var text = cp === "subject" ? doc.subject
+        : cp === "body" ? finalize(doc.body, doc.lang, doc)
+        : cp === "wechat" ? wechatText(doc)
+        : fullEmail(doc);
+      copyText(text, btn);
+      return;
+    }
+    if (act === "toggle") { state.open[slug] = !state.open[slug]; render(); return; }
+    if (act === "approve") { writeReview(slug, { status: "approved", comment: "", at: now, forRevision: rev }); return; }
+    if (act === "return") { state.returning[slug] = true; render(); var ta = card.querySelector("textarea"); if (ta) ta.focus(); return; }
+    if (act === "cancel-return") { state.returning[slug] = false; render(); return; }
+    if (act === "reopen") { writeReview(slug, { status: "pending", comment: "", at: now, forRevision: rev }); return; }
+  });
+
+  document.addEventListener("input", function (ev) {
+    var t = ev.target;
+    if (t.matches(".return-form textarea")) {
+      state.returnText[t.closest(".card").dataset.slug] = t.value;
+    }
+  });
+
+  document.addEventListener("submit", function (ev) {
+    var form = ev.target.closest("[data-form='return']");
+    if (!form) return;
+    ev.preventDefault();
+    var slug = form.closest(".card").dataset.slug, doc = docBySlug(slug);
+    var text = (state.returnText[slug] || "").trim();
+    var ta = form.querySelector("textarea");
+    if (!text) { ta.placeholder = "写一句原因再退回，Claude 按这句改。"; ta.focus(); return; }
+    state.returning[slug] = false;
+    state.returnText[slug] = "";
+    writeReview(slug, { status: "changes", comment: text, at: new Date().toISOString(), forRevision: doc.revision || 1 });
+  });
+
+  // Introducer field: save when the viewer leaves the field.
+  document.addEventListener("change", function (ev) {
+    var t = ev.target;
+    if (t.matches("[data-intro]") && state.db) {
+      var slug = t.closest(".card").dataset.slug;
+      state.db.doc("prospects/" + slug).update({ introducer: t.value.trim() }).catch(function (e) {
+        showNotice("介绍人没保存上（" + (e && e.code || "错误") + "）。");
+      });
+    }
+  });
+
+  // Sender settings: debounced save to the shared settings document.
+  var saveTimer = null;
+  function readSettingsForm() {
+    return {
+      nameEn: document.getElementById("f-name-en").value.trim(),
+      nameZh: document.getElementById("f-name-zh").value.trim(),
+      contact: document.getElementById("f-contact").value.trim(),
+      idCheck: document.getElementById("f-idcheck").value
+    };
+  }
+  function scheduleSave() {
+    var st = document.getElementById("save-state");
+    st.textContent = "保存中…";
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(async function () {
+      if (!state.db) { st.textContent = "数据未连接，没有保存。"; return; }
+      var s = readSettingsForm();
+      try {
+        await state.db.doc("settings/sender").set(s);
+        st.textContent = "已保存";
+      } catch (e) {
+        st.textContent = "没保存上（" + (e && e.code || "错误") + "），稍后再改一次。";
+      }
+    }, 600);
+  }
+  ["f-name-en", "f-name-zh", "f-contact"].forEach(function (id) {
+    document.getElementById(id).addEventListener("input", scheduleSave);
+  });
+  document.getElementById("f-idcheck").addEventListener("change", scheduleSave);
+
+  function fillSettingsForm(s) {
+    var map = { "f-name-en": s.nameEn, "f-name-zh": s.nameZh, "f-contact": s.contact };
+    Object.keys(map).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (document.activeElement !== el) el.value = map[id] || "";
+    });
+    var sel = document.getElementById("f-idcheck");
+    if (document.activeElement !== sel) sel.value = s.idCheck || "undecided";
+  }
+
+  async function start() {
+    var claude = window.claude;
+    var db = claude && claude.use ? await claude.use("db") : null;
+    if (!db) {
+      document.getElementById("list").innerHTML = "";
+      showNotice("草稿数据现在连不上。刷新页面试一次；还不行就告诉 Claude。");
+      document.getElementById("tally-nums").innerHTML = "<span>数据未连接</span>";
+      return;
+    }
+    state.db = db;
+    try {
+      var user = await claude.use("user");
+      state.canEdit = user ? await user.canEdit() : true;
+    } catch (e) { state.canEdit = true; }
+    if (!state.canEdit) {
+      document.querySelectorAll(".sender input, .sender select").forEach(function (el) { el.disabled = true; });
+    }
+    db.collection("prospects").onSnapshot(function (snap) {
+      state.docs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
+      render();
+    }, function (e) {
+      showNotice("草稿列表断开了（" + (e && e.code || "错误") + "）。刷新页面重新连接。");
+    });
+    db.doc("settings/sender").onSnapshot(function (snap) {
+      state.settings = snap.exists ? snap.data() : {};
+      fillSettingsForm(state.settings);
+      render();
+    }, function () {});
+    db.doc("meta/pipeline").onSnapshot(function (snap) {
+      state.pipeline = snap.exists ? snap.data() : null;
+      renderTally();
+    }, function () {});
+  }
+  start();
+})();
+</script>
