@@ -2,11 +2,11 @@
 
 - 类别：frontier lab｜地区：海外（美国）
 - 收件人：**Jack Garabedian**，人类数据团队（human data team，也就是训练 Grok 的 AI tutor 团队）负责人。2026-06 接替 Diego Pasini，2021 年起在 SpaceX 做 Starlink 工程
-- 置信度：中。Bloomberg（2026-06-09）报道他接管 xAI 的 human data team，路透快讯和其他几家媒体的转述一致（搜索摘要）。没有官方页面，6 月之后也没有新的公开信息确认他还在这个岗位
+- 置信度：中。Bloomberg（2026-06-09）报道他接管 xAI 的 human data team，路透快讯和其他几家媒体的转述一致（搜索摘要）。2026-09 关于 SpaceX 购买创业公司数据的报道又提到他在整顿这个团队（搜索摘要），说明 9 月仍在任。没有官方页面
 - 来源：https://www.bloomberg.com/news/articles/2026-06-09/musk-s-xai-taps-starlink-staffer-to-run-grok-training-team 、https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42G143:0-jack-garabedian-a-starlink-engineer-will-be-taking-over-the-human-data-team-at-xai-bloomberg-news/ 、https://tribune.net.ph/2026/06/09/xai-shakes-up-grok-leadership
 - 备选：**Michael Nicolls**，SpaceXAI President，原 Starlink 副总裁。只在一条搜索摘要里看到，出处是同一组结果里的维基百科条目（https://en.wikipedia.org/wiki/XAI_(company) 或 https://en.wikipedia.org/wiki/SpaceXAI ，未能打开）。没有交叉核实，置信度低
 - 后训练负责人：**未找到**。
-- 公司结构：SpaceX 于 2026-02-02 以全股票方式收购 xAI（xAI 估值 2,500 亿美元），xAI 成为 SpaceX 全资子公司：https://www.dandodiary.com/2026/03/articles/director-and-officer-liability/the-spacex-xai-merger/ 。2026-07-06 正式更名为 SpaceXAI，X 也归在它下面：https://finance.yahoo.com/technology/ai/articles/xai-makes-rebrand-spacexai-complete-215010760.html 、https://www.lowyat.net/2026/397863/xai-spacexai-rebrand/ 。合并后重组为四个主要开发团队，有裁员，约一半联合创始人已离开（搜索摘要）。邮件里的公司名用 SpaceXAI。
+- 公司结构：SpaceX 于 2026-02-02 以全股票方式收购 xAI（xAI 估值 2,500 亿美元），xAI 成为 SpaceX 全资子公司：https://www.dandodiary.com/2026/03/articles/director-and-officer-liability/the-spacex-xai-merger/ 。2026-07-06 xAI 在 X 上的账号改为 @SpaceXAI 并换了新 logo，Musk 5 月的说法是以后 "just be SpaceXAI, the AI products from SpaceX"（搜索摘要）。有的媒体写成 SpaceX 整体更名为 SpaceXAI，X 归属的说法也不统一：https://finance.yahoo.com/technology/ai/articles/xai-makes-rebrand-spacexai-complete-215010760.html 、https://www.lowyat.net/2026/397863/xai-spacexai-rebrand/ 。合并后重组为四个主要开发团队，有裁员，约一半联合创始人已离开（搜索摘要）。邮件里的公司名用 SpaceXAI。
 - 人员变动：原人类数据负责人 Diego Pasini 在 2026-06 被替换（见上面的 Bloomberg 链接）。据报道，HR 处理不过来，导致一些 AI tutor 离开。
 
 ## 调研备注
@@ -38,6 +38,12 @@
 - 本次没有检索到他们外部数据供应商的公开报道。
 
 **核实说明**：本环境的网络策略不允许直接打开 x.ai、Greenhouse 和 Bloomberg，以上内容来自搜索结果摘要，并经过交叉核对。开头一句用的 Grok 4.7 训练描述，在官方页面摘要和 DataCamp、The New Stack、MarkTechPost 等多个独立来源里表述一致。调研中途整个会话的搜索额度用完了，所以两件事没来得及核实：Michael Nicolls 的职位；专家 tutor 招聘是否已经恢复。发送前建议确认 Jack Garabedian 是否仍负责 human data。
+
+2026-09-25 复核（本次会话，WebSearch 5 次）：
+- 联系人：Bloomberg、路透（TradingView 转载）、Dealroom、GuruFocus 都写 Jack Garabedian 接替 Diego Pasini 负责 human data team；2026-09 的 SpaceX 买数据报道（https://finance.yahoo.com/technology/ai/articles/spacex-discusses-buying-data-ai-154235416.html 、https://thenextweb.com/news/spacex-dead-startups-data-grok ，搜索摘要）提到他接手后在建流程、定训练数据目标，说明仍在任。
+- 开头一句：x.ai 官方页面标题 "Introducing Grok 4.7 | SpaceXAI"，"trained with a longer reinforcement learning run on a harder mix of tasks, weighted toward problems that take many hours to complete" 在官方页面摘要、The New Stack、MarkTechPost 里一致（搜索摘要）。开头一句不改。
+- 公司名：x.ai 官方页面署名 SpaceXAI，xAI 的 X 账号 2026-07-06 改为 @SpaceXAI（Yahoo Finance、Lowyat、Dataconomy 等，搜索摘要）。邮件用 SpaceXAI 是对的。部分媒体把 SpaceXAI 说成 SpaceX 合并后的整体名称，这一点说法不一，已在上面公司结构里注明。
+- 来源链接：本稿没有 GitHub 镜像。TradingView 链接是路透快讯的转载，路透原文在本环境打不开，保留。
 
 ---
 

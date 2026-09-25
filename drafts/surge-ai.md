@@ -1,14 +1,14 @@
 # Surge AI
 
 - 类别：人类数据供应商｜地区：海外（美国）
-- 收件人：**Sushant Mehta**，Surge AI 研究员，负责 RL 环境和专家基准。EnterpriseBench CoreCraft 论文第一作者（2026-02），也是 Riemann-bench、GDP.pdf、HANDBOOK.md、Chartography 的作者之一，署名一般排在 Edwin Chen 之前
-- 置信度：中。职责是从论文署名推断的，没有找到本人主页或官方页面写明职位
+- 收件人：**Sushant Mehta**，Surge AI 研究员，LinkedIn 标题为 "Post-Training Research at Surge AI"（搜索摘要），负责 RL 环境和专家基准。EnterpriseBench CoreCraft 论文第一作者（2026-02），也是 Riemann-bench、GDP.pdf、HANDBOOK.md、Chartography 的作者之一，署名一般排在 Edwin Chen 之前
+- 置信度：中。职责是从论文署名推断的，LinkedIn 标题只见于搜索摘要，没有找到本人主页或官方页面写明职位
 - 来源：
   - CoreCraft 论文（作者：Sushant Mehta, Logan Ritchie, Suhaas Garre, Ian Niebres, Nick Heiner, Edwin Chen；搜索摘要）：https://arxiv.org/abs/2602.16179
-  - Chartography 论文（2026-08，作者：Suhaas Garre, Chris Mutty, Sushant Mehta, Edwin Chen，Surge AI；读的是 GitHub 上的全文镜像）：https://arxiv.org/abs/2608.10677
-  - HANDBOOK.md 论文（作者含 Suhaas Garre、Sushant Mehta、Edwin Chen）：https://arxiv.org/abs/2607.25398 ，论文笔记：https://github.com/lextoumbourou/notes/blob/master/notes/reference/papers/handbook-md-a-benchmark-for-long-context-agentic-instruction-following.md
+  - Chartography 论文（2026-08，作者：Suhaas Garre, Chris Mutty, Sushant Mehta, Edwin Chen，Surge AI；之前读的是 GitHub 上的全文副本）：https://arxiv.org/abs/2608.10677
+  - HANDBOOK.md 论文（作者含 Suhaas Garre、Sushant Mehta、Edwin Chen）：https://arxiv.org/abs/2607.25398 ；项目 README（Surge 官方仓库）：https://github.com/surge-ai/handbook
 - 备选：
-  - **Edwin Chen**，创始人兼 CEO（置信度高）。Lenny's Podcast（2025-12-07）简介写 "founder and CEO of Surge AI"，节目里还说自己常和研究团队一起分析数据：https://www.youtube.com/watch?v=dduQeaqmpnI （文字稿：https://github.com/ChatPRD/lennys-podcast-transcripts/blob/main/episodes/edwin-chen/transcript.md ）
+  - **Edwin Chen**，创始人兼 CEO（置信度高）。Lenny's Podcast（2025-12-07）简介写 "founder and CEO of Surge AI"，节目里还说自己常和研究团队一起分析数据：https://www.youtube.com/watch?v=dduQeaqmpnI ，节目原页面：https://www.lennysnewsletter.com/p/surge-ai-edwin-chen
   - **Suhaas Garre**，研究员（置信度中）。Riemann-bench、GDP.pdf、Chartography 的第一作者：https://arxiv.org/abs/2608.10677
 - 专家供给 / 合作负责人：**未找到**。Surge 没有公开的供给或合作负责人。公司人少（2025 年底不到 100 人），这类合作大概率要 CEO 拍板。
 
@@ -21,7 +21,7 @@
 - Tuesday Work Index 综合基准（2026-08-18）和几期模型评测：https://www.surgehq.ai/blog/tuesday-frontier-work-index
 - **Chartography**（2026-07-16）：100 道专业图表题，每题由 "someone who reads these charts for a living" 编写，再由 "three additional experts" 独立核验。领域覆盖 STEM（含 5 个工程子领域）、金融/投资、制造/供应链、医疗（README 和论文全文已读）：https://github.com/surge-ai/chartography
 - **HANDBOOK.md**（2026-06-25）：每个任务都是一个带内部工具和 MCP 服务的 RL 环境，政策手册由专家根据真实行业规范改写，领域是 Finance、Medical Billing、Insurance、Logistics、HR。没有前沿模型超过 25%（README 已读）：https://github.com/surge-ai/handbook
-- 其他：GDP.pdf（2026-04，被 OpenAI GPT-5.6 和 Anthropic Fable 5 发布材料引用）、Riemann-bench（2026-03）、CoreCraft（2026-02）、Antidote 排行榜，后者由 "doctors, lawyers, and engineers" 评分（2026-05-21）。以上来自 Surge 博客 RSS（GitHub 镜像）：https://github.com/Olshansk/rss-feeds/blob/main/feeds/feed_blogsurgeai.xml
+- 其他：GDP.pdf（2026-04，被 OpenAI GPT-5.6 和 Anthropic Fable 5 发布材料引用）、Riemann-bench（2026-03）、CoreCraft（2026-02）、Antidote 排行榜，后者由 "doctors, lawyers, and engineers" 评分（2026-05-21）。以上来自 Surge 博客 RSS 的 GitHub 副本，原始页面是 Surge 博客：https://www.surgehq.ai/blog
 
 **JD 里的数据需求**
 - HN "Who is hiring"（2026-07），Surge 员工发帖，招 Software Engineers 和 Strategic Project Lead，写到 "Our current focus is RL environments to help our clients ship agents that interact with the world"（读的是 GitHub 存档）：https://news.ycombinator.com/item?id=48753928
@@ -41,6 +41,11 @@
 - 没有查到 Surge 向外部供应商采购的公开报道。
 
 **核实说明**：本环境打不开 surgehq.ai、arXiv 和招聘网站，WebSearch 额度在本次调研中途用完（全会话上限）。Chartography、HANDBOOK.md、DAYJOB 的 README 和 Chartography 论文全文读的是 GitHub 原文；博客列表和日期来自 GitHub 上的 Surge 博客 RSS 镜像；CoreCraft 作者来自搜索摘要，另有 GitHub 上 2026-02-19 的 arXiv 日报检索结果和一个引用 CoreCraft 的仓库，都显示 Sushant Mehta 是第一作者。Sushant Mehta 的具体职位和是否仍在职，发送前请在 LinkedIn 或 Surge 网站上人工确认。
+
+2026-09-25 复核（本次会话，WebSearch 3 次）：
+- 联系人：搜索结果里 Sushant Mehta 的 LinkedIn 标题是 "Post-Training Research at Surge AI"（搜索摘要，https://www.linkedin.com/in/sushant-mehta/ ），说明目前仍在 Surge。没有找到官方页面，置信度维持中。
+- 开头一句：重新从 raw.githubusercontent.com 读了 Chartography README 原文（https://github.com/surge-ai/chartography ），原话是 "Every task was written by someone who reads these charts for a living … then independently verified by three additional experts"，领域为 STEM（含 5 个工程子领域）、Finance / Investing、Manufacturing / Supply Chain、Healthcare；Surge 博客和 benchmark 页面的搜索摘要表述一致（https://surgehq.ai/blog/chartography ）。开头一句不改。
+- 来源链接：Lenny's Podcast 文字稿的 GitHub 副本换成节目原页面 lennysnewsletter.com；博客 RSS 的 GitHub 镜像换成 Surge 博客原址；HANDBOOK.md 的第三方笔记链接换成 Surge 官方仓库。HN 招聘帖链接本来就是原址。
 
 ---
 

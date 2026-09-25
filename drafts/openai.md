@@ -6,12 +6,12 @@
 - 来源：https://www.cnbc.com/2026/04/13/openai-london-office-sam-altman-uk-stargate.html 、https://tech.eu/2026/04/13/openai-to-move-to-first-permanent-london-office-with-capacity-to-more-than-double-headcount/ 、https://www.startuphub.ai/people/phoebe-thacker 、https://humancapitalist.substack.com/p/movers-shakers-and-money-makers-826 （均为搜索摘要）
 - 备选：**Nick Turley**，VP、ChatGPT 负责人。他的团队和 Morgan Stanley、Evercore 一起设计了 ChatGPT for Financial Services（搜索摘要）：https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html 、https://fortune.com/2026/09/10/openai-courts-wall-street-with-chatgpt-for-financial-services-developed-with-morgan-stanley/ 。他管产品，不管数据采购，只适合从金融业务这条线切入
 - 数据 / 人类数据负责人：就是收件人。日常对接的人更可能是 Human Data 团队的 Research Program Manager（Human Data Campaigns），以及 Agent Post-Training 下 Artifacts、Frontier Evals & Environments 方向的研究员。这些人的名字没有找到
-- 人员变动：没有查到她在 2026 年离职。最近一条公开的职位信息是 2026-04 的，发送前再确认
+- 人员变动：2026-09-25 复查，没有查到她在 2026 年离职或转岗。最近一条公开的职位信息仍是 2026-04 的（CNBC、Tech.eu、Border Telegraph 等），发送前再确认
 
 ## 调研备注
 
 **最近发布**
-- **GPT-5.5**（2026-04-23）："Frontier model for coding, research, computer use, documents, spreadsheets, and long-running work"（GitHub 时间线 README，已读原文）：https://github.com/jqueryscript/chatgpt-timeline
+- **GPT-5.5**（2026-04-23）："Frontier model for coding, research, computer use, documents, spreadsheets, and long-running work"（OpenAI 官方发布页；日期经维基百科和 OpenAI 开发者社区公告交叉确认，搜索摘要）：https://openai.com/index/introducing-gpt-5-5/
 - **GPT-5.6 Sol / Terra / Luna**（2026-06-27 开始有限预览）：https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/
 - **GPT-6 Astra**（2026-09-03）：OpenAI 说它在网络安全、专业工作、软件工程和科学上是 "generational leap"（搜索摘要）：https://openai.com/index/gpt-6-astra/ 、https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html 。Artificial Analysis 等测出 Astra 在 GDPval-AA v2 上比 GPT-5.6 Sol 低约 45–80 Elo（搜索摘要）：https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra 。Anthropic 的 Opus 5.5 发布页也说，Opus 5.5 默认档在 GDPval-AA v2.1 上就超过了 Astra 最高档（竞品口径，已读原文）
 - **ChatGPT for Financial Services**（2026-09-10）：基于 GPT-6 Astra，先做投行和股票研究（公司研究、估值、LBO 建模、pitchbook）。Morgan Stanley 和 Evercore 参与设计，接入了 Daloopa、PitchBook、LSEG、Crunchbase 的数据：https://openai.com/index/introducing-chatgpt-financial-services/ 、https://venturebeat.com/data/openai-launches-chatgpt-for-financial-services-with-integrated-data-sources-it-pulls-research-cites-it-and-builds-decks-in-minutes 。Turley 说，OpenAI 单独做行业产品的领域目前是金融、网络安全和软件工程（搜索摘要）
@@ -38,7 +38,7 @@
 - Human Data 团队规模大、流程成熟，有专门的 PGM 和 RPM 管供应商。新供应商要过采购和安全审查，周期可能比较长。
 - 收件人的职位来自 2026-04 的媒体报道和 LinkedIn 搜索摘要，原文没读到。
 
-**核实说明**：本环境打不开 openai.com、Ashby 和新闻站。岗位原文读的是 GitHub 招聘存档里的副本，发布时间线读的是 GitHub README（jqueryscript/chatgpt-timeline）。其余内容来自搜索摘要，都用多个来源交叉核对过。发送前建议确认岗位还在招，以及收件人的现职。
+**核实说明**：2026-09-25 本次会话复核：①联系人：搜索 Phoebe Thacker，2026-04 伦敦办公室报道（CNBC、Tech.eu、Border Telegraph）写她是 Global Head of Data Research Programmes 兼 London Site Lead，LinkedIn 标题仍是 Head of Human Data Ops（搜索摘要），没有离职消息，置信度维持中。②开场白：ChatGPT for Financial Services 2026-09-10 发布、基于 GPT-6 Astra、先面向投行和股票研究团队，由 OpenAI 官方页（搜索结果）和 CNBC、Pulse 2.0、MacObserver 等多个独立来源确认，开场白不改。③来源：GPT-5.5 的 GitHub 时间线链接换成 OpenAI 官方发布页。以下为上一轮的说明：本环境打不开 openai.com、Ashby 和新闻站。岗位原文读的是 GitHub 招聘存档里的副本，发布时间线读的是 GitHub README（jqueryscript/chatgpt-timeline）。其余内容来自搜索摘要，都用多个来源交叉核对过。发送前建议确认岗位还在招，以及收件人的现职。
 
 ---
 

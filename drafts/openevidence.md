@@ -2,7 +2,7 @@
 
 - 类别：垂直 AI（医疗）｜地区：海外（美国）
 - 收件人：**Samuel (Sam) Finlayson**，SVP of Medical AI。医生（儿科和临床遗传学）兼 ML 研究者，Harvard/MIT MD-PhD，NEJM AI 副主编，同时在 Seattle Children's 出诊
-- 置信度：高。本人主页写明 "SVP of Medical AI at OpenEvidence"，"he helps lead work spanning AI product development, clinical data science, strategy, and partnerships"（已读原文）
+- 置信度：高。2026-07-10 EvidenceGrade 官方新闻稿以 "Senior Vice President of Medical AI" 身份引用他（PR Newswire、HIT Consultant 等）。本人主页写明 "SVP of Medical AI at OpenEvidence"，"he helps lead work spanning AI product development, clinical data science, strategy, and partnerships"（已读原文）
 - 来源：https://sgfin.github.io/ （通过 raw.githubusercontent.com/sgfin/sgfin.github.io 读的源码）
 - 称呼：主页上他自称 "Sam Finlayson"，邮件用 Sam
 - 备选：
@@ -10,18 +10,18 @@
   - **Ania Bilski, MD**，VP of Clinical AI，急诊医生。头衔出自 PYMNTS 2026-05 的 Voice Mode 报道（经 Machine Herald 转引，未见原文）：https://www.pymnts.com/healthcare/2026/openevidence-brings-hands-free-medical-ai-to-860000-clinicians/ 。另一份第三方报告（2026-05-25）引用 About 页，把她列为 medical advisor（UCSF & Kaiser）
 - AI / ML 负责人：没找到单独的 Head of ML 或 Head of Research，纯技术方向兜底找 CTO Ziegler。数据 / 人类数据负责人：**未找到**。
 - 其他：据第三方报告转引，About 页还列出 CMO **Travis Zack**（未见原文）。
-- 公司变动：2026-09 有报道说 OpenEvidence 以 150 亿美元估值低调融了 2.5 亿美元，创始人在考虑出售（Business Insider，经新闻摘要转引）：https://github.com/prajwalgajakesari/the-vault-ai/blob/main/editions/2026/09/24/stories/02-openevidence-250m-15b-valuation-sale-talks.md 。另一份摘要说这条消息还没有确认：https://github.com/guzus/ai-research-arm/blob/main/research/digest/2026-09-25-digest.md
+- 公司变动：2026-09 OpenEvidence 以 150 亿美元估值融了 2.5 亿美元，a16z 和 Byers Capital 领投（Axios 2026-09-25，搜索摘要）：https://www.axios.com/pro/health-tech-deals/2026/09/25/openevidence-250m-raise-15b-valuation-a16z 。Business Insider 报道创始人在接触收购方、可能考虑出售（经 AI Weekly 转述，BI 原文链接未找到）：https://aiweekly.co/alerts/openevidence-raises-250m-at-15b-25-above-januarys-12b-mark-and-weighing-sale 。同期还有报道说公司要进入肿瘤药研发（Nadler 接受 Forbes 采访，经 Dealroom 转述）：https://dealroom.co/news/155918-openevidence-raises-250m-at-15b-pivots-into-drug-development/
 
 ## 调研备注
 
 **最近发布**
 - **Series D**（2026-01-21）：以 120 亿美元估值融 2.5 亿美元，Thrive 和 DST 领投。新闻稿说 OpenEvidence 协调 "an orchestra" 个自研的医学专科模型，每个模型负责一个子专科，由一个 "conductor" 把问题分给最合适的模型（第三方竞品报告转引）：https://www.businesswire.com/news/home/20260121029132/en/OpenEvidence-Raises-$250-Million-to-Build-Medical-Superintelligence-for-Doctors 。Nadler 在 JPM26 上说 "the lion's share" 会投到训练新模型和算力（经新闻摘要转引 Fierce Healthcare）：https://www.fiercehealthcare.com/ai-and-machine-learning/jpm26-openevidence-makes-case-ai-powered-medical-superintelligence
-- 2026 上半年的官方公告（标题和日期来自官方公告页的 GitHub 镜像，https://github.com/api-evangelist/openevidence/tree/main/blogs ）：
+- 2026 上半年的官方公告（原始页面：https://www.openevidence.com/announcements ；标题和日期读的是 GitHub 上的镜像副本 https://github.com/api-evangelist/openevidence/tree/main/blogs ，逐条原文链接未核对）：
   - 2026-01-20 "45 Rwandan Clinicians Are Helping Shape Medical AI for Low-Resource Settings"：请当地临床医生参与塑造模型
   - 2026-03-25 Coding Intelligence（医疗编码）；2026-04-07 DotFlows（自然语言自定义工作流）；2026-04-27 接入 NCCN 肿瘤治疗路径
   - 2026-02-11 Sutter Health、2026-03-31 Mount Sinai（嵌入 Epic）
   - 2026-05-20 和 Cedars-Sinai 合作做 "Patient-Aware Clinical Intelligence With Agentic Clinical AI"，同一天上线 Voice Mode。患者数据只用于当次会话，不存储、不用于训练（Machine Herald 汇总 Cedars-Sinai 新闻稿和 HIT Consultant）：https://www.openevidence.com/announcements/openevidence-partners-with-cedars-sinai-to-create-patient-aware-clinical-intelligence-with-agentic-clinical-ai
-- **EvidenceGrade**（2026-07-10）：在每个 AI 回答下面，给引用的证据按 A–D 评级，单篇文献和整体证据都评，基于 GRADE 框架。据一篇案例分析转述，Finlayson 在公告里说正式的专家证据分级只能覆盖一小部分问题，EvidenceGrade 是把这套方法规模化，并会根据临床社区的反馈迭代：https://www.openevidence.com/announcements/openevidence-launches-evidencegrade-empowering-physicians-to-see-the-strength-of-cited-evidence-beneath-each-ai-answer 、https://www.techtarget.com/healthtechanalytics/news/366645822/OpenEvidence-adds-real-time-evidence-quality-grading-to-AI 、https://www.openevidence.com/blog/introducing-evidencegrade-grading-the-strength-of-medical-evidence-in-real-time
+- **EvidenceGrade**（2026-07-10，PR Newswire 新闻稿：https://www.prnewswire.com/news-releases/openevidence-launches-evidencegrade-empowering-physicians-to-see-the-strength-of-cited-evidence-beneath-each-ai-answer-302822750.html ）：在每个 AI 回答下面，给引用的证据按 A–D 评级，单篇文献和整体证据都评，基于 GRADE 框架。据一篇案例分析转述，Finlayson 在公告里说正式的专家证据分级只能覆盖一小部分问题，EvidenceGrade 是把这套方法规模化，并会根据临床社区的反馈迭代：https://www.openevidence.com/announcements/openevidence-launches-evidencegrade-empowering-physicians-to-see-the-strength-of-cited-evidence-beneath-each-ai-answer 、https://www.techtarget.com/healthtechanalytics/news/366645822/OpenEvidence-adds-real-time-evidence-quality-grading-to-AI 、https://www.openevidence.com/blog/introducing-evidencegrade-grading-the-strength-of-medical-evidence-in-real-time
 - 评测争议（2026-06）：Nature Medicine 上的一篇论文说通用大模型在医学 benchmark 上超过 OpenEvidence 等专科工具。OpenEvidence 公开反驳，说题目有污染、HealthBench 的评分标准偏文风、没有预留测试集，评测应该贴近真实临床使用的分布（出自一篇第三方博客的转述）：https://www.nature.com/articles/s41591-026-04431-5 、https://github.com/galsapir/sparse-thoughts/blob/main/_posts/2026-06-14-what-did-they-actually-measure.md
 - 规模：2026-05 有 86 万名经过认证的美国临床医生在用，每天超过 100 万次提问（PYMNTS，经 Machine Herald 转引）。
 
@@ -45,7 +45,7 @@
 - 对信息外泄很敏感：2025 年起诉 Doximity，指控对方冒充医生用 prompt 套取商业机密。
 - 有出售传闻，采购决策可能暂停或换人。
 
-**核实说明**：openevidence.com、Ashby、新闻网站在本环境都打不开，本次会话的搜索额度在调研 OpenEvidence 时只用了一次就耗尽。Finlayson 的主页读的是原文。其余信息来自 GitHub 上能读到原文的二手材料：官方公告页的镜像（只有标题和日期）、Machine Herald 的报道（2026-05-22，附来源列表）、一篇 EvidenceGrade 案例分析（https://github.com/archlizheng/AIPM-Wiki/blob/main/docs/03-case-studies/vertical/openevidence.md ）、一份 2026-07-25 的竞品报告（https://github.com/SONIC445-BYTE/Dissection/blob/main/All%20research%20report/dissection/workspace-019f9858-be62-7019-9698-2ca9db15e647/openevidence_ci/OpenEvidence_Competitive_Intelligence_Report_2026-07-25.md ），以及两份 2026-05 的第三方尽调报告（vibewatch）。开场白用的 EvidenceGrade，是由案例分析和竞品报告这两份互相独立的材料确认的，两份都引用了官方公告或官方博客。发送前建议打开 EvidenceGrade 的官方公告核对一遍。
+**核实说明**：2026-09-25 本次会话复核：①联系人：通过 raw.githubusercontent.com 重读 Finlayson 主页源码，仍写 "SVP of Medical AI, OpenEvidence"；2026-07-10 官方新闻稿也以这个头衔引用他，置信度维持高。②开场白：EvidenceGrade 2026-07-10 上线、给每个回答下面引用的证据评级，由 PR Newswire 新闻稿、openevidence.com 公告和 HIT Consultant、Fierce Healthcare、TechTarget 等多个独立来源确认，开场白不改。③来源：融资和出售传闻的两个 GitHub 新闻摘要换成 Axios、AI Weekly、Dealroom 原文；官方公告的 GitHub 镜像补上原始页面并标为副本。以下为上一轮的说明：openevidence.com、Ashby、新闻网站在本环境都打不开，本次会话的搜索额度在调研 OpenEvidence 时只用了一次就耗尽。Finlayson 的主页读的是原文。其余信息来自 GitHub 上能读到原文的二手材料：官方公告页的镜像（只有标题和日期）、Machine Herald 的报道（2026-05-22，附来源列表）、一篇 EvidenceGrade 案例分析（https://github.com/archlizheng/AIPM-Wiki/blob/main/docs/03-case-studies/vertical/openevidence.md ）、一份 2026-07-25 的竞品报告（https://github.com/SONIC445-BYTE/Dissection/blob/main/All%20research%20report/dissection/workspace-019f9858-be62-7019-9698-2ca9db15e647/openevidence_ci/OpenEvidence_Competitive_Intelligence_Report_2026-07-25.md ），以及两份 2026-05 的第三方尽调报告（vibewatch）。开场白用的 EvidenceGrade，是由案例分析和竞品报告这两份互相独立的材料确认的，两份都引用了官方公告或官方博客。发送前建议打开 EvidenceGrade 的官方公告核对一遍。
 
 ---
 

@@ -2,13 +2,15 @@
 
 - 类别：frontier lab｜地区：海外（美国）
 - 收件人：**Alexandr Wang**，Meta Chief AI Officer，Meta Superintelligence Labs（MSL）负责人；Scale AI 创始人。属于兜底联系人（见下方"数据 / 后训练负责人"）
-- 置信度：中。职位有多家媒体报道（Fortune、TechCrunch 等），官方新闻稿只在搜索结果里看到标题。2026-09-24 他仍以 MSL 负责人身份发布 Muse Charm 和 Muse Spark 1.3 上云的消息（X 帖子，经二手追踪页转述），没有看到离职消息
+- 置信度：中。职位有多家媒体报道（Fortune、TechCrunch 等），官方新闻稿只在搜索结果里看到标题。2026-09-24 他仍以 MSL 负责人身份发布 Muse Charm 和 Muse Spark 1.3 上云的消息（X 帖子，经二手追踪页转述）；2026-09-23 在 Meta Connect 上演讲（搜索摘要）。Meta 官网领导层页面仍列他为 Chief AI Officer（搜索摘要）。没有看到离职消息
 - 来源：
+  - Meta 官网领导层页面（搜索摘要）：https://www.meta.com/about/leadership/alexandr-wang/
   - Meta 官方新闻稿（搜索摘要）：https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
+  - CNBC 2026-06-14（搜索摘要）：https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html
   - Fortune 2026-07-09（搜索摘要）：https://fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/
   - TechCrunch 2026-06-12，"taking the role of chief AI officer and heading up Meta Superintelligence Labs"（读的是 GitHub 上的转载全文）：https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/
 - 备选：
-  - **Maher Saba**，负责 Applied AI Engineering，向 CTO Andrew Bosworth 汇报。其下有一个团队专门做 "task execution, data generation, and evaluations"，是 Meta 内部数据生产的实际负责人。置信度低：来自 2026-06 的媒体报道（Wired / TechCrunch / Business Insider），只在 GitHub 上的二手转述里看到，之后是否变动未核实（https://github.com/prajwalgajakesari/the-vault-ai/blob/main/editions/2026/06/16/stories/01-meta-bosworth-applied-ai-memo.md ）
+  - **Maher Saba**，负责 Applied AI Engineering，向 CTO Andrew Bosworth 汇报。其下有一个团队专门做 "task execution, data generation, and evaluations"，是 Meta 内部数据生产的实际负责人。他原是 Reality Labs VP，2026-03 这个组织成立时由他牵头，分两个团队，一个做界面和工具，一个做任务、数据采集和评测（搜索摘要，多家媒体一致）：https://the-decoder.com/meta-creates-new-applied-ai-engineering-division/ 、https://www.eweek.com/news/meta-forms-new-ai-engineering-org-superintelligence/ 。置信度低：最新信息来自 2026-03 到 2026-06 的报道，之后是否变动未核实
   - **Wufei Ma**，MSL Research Scientist。本人主页写明 "contributed to agentic post-training and evaluation of Muse Spark 1.0 through 1.3, Muse Glimmer, and Muse"（已读原文）：https://wufeim.github.io/ 。是一线研究员，不负责采购
 - 数据 / 后训练负责人：**未找到**。MSL 首席科学家是 **Shengjia Zhao**（2026-07-28 以此身份联署公开信，CNN：https://www.cnn.com/2026/07/28/tech/ai-development-tech-employees-open-letter ），但他不管数据采购。2025 年负责 AI 数据运营的前 Scale 高管 Ruben Mayer 已离开（TechCrunch 2025-08-29：https://techcrunch.com/2025/08/29/cracks-are-forming-in-metas-partnership-with-scale-ai/ ）。
 - 人员变动：没有查到 Wang 或 Zhao 在 2026 年离职。2026-08 从 OpenAI 招来 Luke Metz（Axios：https://www.axios.com/2026/08/24/meta-hires-openai-luke-metz ）。2026-05-20 Meta 裁员约 8,000 人（10%）。
@@ -29,7 +31,7 @@
   - 2026-03 成立 Applied AI，约 6,500 名工程师和产品经理，为 MSL 生产训练数据，工作包括出谜题和编程题（Wired：https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/ ）。
   - 内部公告原话："For agents to understand how people actually complete everyday tasks using computers, we need to train our models on real examples"（TechCrunch 转述 Business Insider）。
   - Meta 记录美国员工的点击和键盘操作，用作 AI 训练数据（Wired，同上）。
-  - SemiAnalysis 付费文章的二手摘要：约 3,000 人的应用 AI 工程组织里，七成新毕业生全职做 RL 任务和环境（观点来源：https://raw.githubusercontent.com/hczhu/stock-research/main/memos/2026-07-13-semianalysis-meta-superintelligence-1yr-update.md ）。
+  - SemiAnalysis 付费文章的二手摘要：约 3,000 人的应用 AI 工程组织里，七成新毕业生全职做 RL 任务和环境（SemiAnalysis 原文，付费墙，要点经搜索摘要和 Techmeme 标题确认：https://newsletter.semianalysis.com/p/the-future-of-meta-superintelligence 、https://www.techmeme.com/260710/p2 ）。
 
 **切入点**
 - 代码和电脑操作类数据 Meta 已经在用几千名员工自产，这块不要碰。SimReal 的机会在员工替代不了的持证专家领域：
@@ -45,7 +47,7 @@
 - 供应商安全审查可能更严：2026-08 Meta 披露，因测试供应商配置错误，Muse Spark 1.1 在测试中侵入了一家外部公司的系统（CNN：https://www.cnn.com/2026/08/05/tech/meta-ai-hacking ）。涉及模型访问的环境类供应商会被重点审查，这一点是推测。
 - 收件人级别很高，直接回复的概率低；更现实的做法是找人引荐到执行层。
 
-**核实说明**：本环境的网络策略不允许直接打开 ai.meta.com、about.fb.com 和新闻站。Muse Spark 的"1,000+ physicians"有多个独立来源一致：HN 摘要、引用 ai.meta.com 原文的知识库、Meta 发布日的科技日报。TechCrunch 2026-06-12 读的是 GitHub 上的转载全文。Wufei Ma 的主页读的是原文。Muse Spark 1.1 以后的版本信息大多来自二手追踪页，它转述的是 Meta 官方账号和 Wang 的 X 帖子，发送前建议打开官方博客核对。会话的搜索额度已用完，没能查 Meta Careers 上的数据类岗位，也没能找到 MSL 内部数据负责人的名字。
+**核实说明**：2026-09-25 本次会话复核：①联系人：搜索到 Meta 官网领导层页面、CNBC 2026-06 报道和 2026-09-23 Meta Connect 演讲，Wang 仍是 Chief AI Officer 兼 MSL 负责人，没有离职消息。②开场白：Muse Spark 健康训练数据 "1,000+ physicians" 由 ai.meta.com 官方博客（搜索结果）和 Help Net Security、Healthcare Digital 等多个独立来源确认，开场白不改。③来源：Maher Saba 的 GitHub 二手转述换成 The Decoder 和 eWeek 原文；SemiAnalysis 的 GitHub 副本换成 SemiAnalysis 原文链接。以下为上一轮的说明：本环境的网络策略不允许直接打开 ai.meta.com、about.fb.com 和新闻站。Muse Spark 的"1,000+ physicians"有多个独立来源一致：HN 摘要、引用 ai.meta.com 原文的知识库、Meta 发布日的科技日报。TechCrunch 2026-06-12 读的是 GitHub 上的转载全文。Wufei Ma 的主页读的是原文。Muse Spark 1.1 以后的版本信息大多来自二手追踪页，它转述的是 Meta 官方账号和 Wang 的 X 帖子，发送前建议打开官方博客核对。会话的搜索额度已用完，没能查 Meta Careers 上的数据类岗位，也没能找到 MSL 内部数据负责人的名字。
 
 ---
 

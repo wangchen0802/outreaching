@@ -2,7 +2,7 @@
 
 - 类别：人类数据供应商｜地区：海外（美国）
 - 收件人：**Bertie Vidgen**，APEX 基准系列的主导作者。APEX-Agents 第一作者（2026-01），APEX-Accounting 末位作者（2026-07），对外发布过 APEX-SWE 和 Mercor Research Fellowship
-- 置信度：中。他主导 APEX 系列，这一点是从论文署名推断的。职位有两种说法：搜索摘要说是 Head of Human Data（2025-06 起），LinkedIn 搜索摘要写 "AI Researcher @ Mercor"，都没有官方页面确认
+- 置信度：中。他主导 APEX 系列，这一点是从论文署名推断的。职位没有官方页面确认：LinkedIn 标题（搜索摘要）写 "AI Researcher @ Mercor"，2026-09-25 复核时搜索摘要还提到他任 Strategic Project Lead、同时是牛津大学访问研究员；原备注里的 Head of Human Data 这次没有搜到佐证
 - 来源：
   - Archipelago README 里的引用条目，第一作者（已读原文）：https://github.com/Mercor-Intelligence/archipelago
   - APEX-Agents 论文：https://arxiv.org/abs/2601.14242
@@ -19,8 +19,8 @@
 **最近发布**
 - **SkyRL 训练指南和开源 recipe**（2026-09-01 前后）：用 1,928 道专家编写的 APEX-Agents 任务对 Qwen3.5-397B-A17B 做 RL，held-out 480 题的 Pass@1 从 16.11% 升到 27.29%；文中说算法选择的影响不如 "the quality of the expert data"。训练数据 "Due to license issues, we cannot open-source"：https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/ 、https://github.com/Mercor-Intelligence/ApexAgents-SkyRL-Recipe （README 已读）、https://www.zenml.io/llmops-database/scaling-reinforcement-learning-for-long-horizon-knowledge-work-agents
 - **APEX-Agents 1.1**（2026-08，参考实现仓库 2026-08-15 创建）：https://www.mercor.com/blog/introducing-apex-agents-1-1 、https://github.com/Mercor-Intelligence/apex_loop_truncated_tools_agent
-- **APEX-Accounting**（arXiv，2026-07-29）：和 Ramp 合作，160 题、10 个世界，"Every task was authored and solved by experts in accounting and bookkeeping, who also wrote grading rubrics"。闭源，可以按需给模型跑榜：https://arxiv.org/abs/2607.27189
-- 收购 **Deeptune**（2026-07-09，agent 训练 / RL 环境公司；来源是 GitHub 上的新闻简报，转引 Fortune）：https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/
+- **APEX-Accounting**（arXiv，2026-07-29）：和 Ramp 合作，160 题、10 个世界，"Every task was authored and solved by experts in accounting and bookkeeping, who also wrote grading rubrics"。闭源，可以按需给模型跑榜：https://arxiv.org/abs/2607.27189 、https://labs.ramp.com/apex-accounting 、https://www.mercor.com/apex/newsletter/introducing-apex-accounting-built-with-ramp/
+- 收购 **Deeptune**（2026-07-09，agent 训练 / RL 环境公司）：https://www.mercor.com/blog/mercor-to-acquire-deeptune/ 、https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/ 、https://siliconangle.com/2026/07/09/mercor-buys-deeptune-build-training-environments-ai-agents/
 - **APEX-SWE**（2026-03）：集成和可观测性两类软件工程任务：https://github.com/Mercor-Intelligence/apex-swe
 - 收购 **Sepal AI**（2026-02）：https://www.orrick.com/en/News/2026/02/Mercor-Acquires-Sepal-AI
 - **APEX-Agents**（2026-01-21）：480 题、33 个模拟公司世界，由投行、管理咨询、公司法专家搭建。Archipelago 开源环境、agent 和评分框架，示例任务是投行的并购增厚/摊薄测算：https://www.mercor.com/blog/introducing-apex-agents/ 、https://github.com/Mercor-Intelligence/archipelago/blob/main/examples/hugging_face_task/README.md
@@ -47,6 +47,11 @@
 - 没有查到 Mercor 向外部专家供应商采购的公开报道。
 
 **核实说明**：本环境打不开 mercor.com、arXiv 和招聘网站，WebSearch 额度在本次调研中途用完（全会话上限）。Archipelago、SkyRL recipe、APEX-SWE、APEX-Agents 1.1 的 README 读的是 GitHub 原文；APEX-Accounting 摘要和作者在 GitHub 上多个 arXiv 日报里一致（CSQianDong、2shin0、dangerwolf、Luvata）；SkyRL 指南的数字在 TLDR AI（2026-09-02）和 ZenML 两处一致。Bertie Vidgen 的具体职位，发送前请人工确认。
+
+本次复核（2026-09-25，5 次 WebSearch，mercor.com 仍打不开，均为搜索摘要）：
+- 联系人：LinkedIn 标题（搜索摘要）仍是 "AI Researcher @ Mercor"，另有搜索摘要说他任 Strategic Project Lead；他是 2026-07 APEX-Accounting 的作者，没有查到离职消息。"Head of Human Data" 的说法找不到佐证，已从置信度说明里删掉。职位仍需人工确认，置信度维持中。
+- 开头一句：APEX-Accounting 的 "Every task was authored and solved by experts in accounting and bookkeeping" 在 arXiv 摘要、Ramp Labs 页面、Mercor 官方 newsletter 的搜索结果里一致（Ramp 页还写到 40 多位会计专业人士、过半来自四大）；APEX-Agents 的任务由投行分析师、管理咨询顾问和公司律师编写，Mercor 官方博客和 Epoch AI 的搜索摘要一致。开头一句不改。
+- 来源：Deeptune 收购原来标注为"GitHub 新闻简报转引"，已确认 Fortune 原文存在，并补上 Mercor 官方博客和 SiliconANGLE。APEX-Accounting 补了 Ramp 和 Mercor 的官方页面。其余 GitHub 链接都是 Mercor 自己的仓库，保留。
 
 ---
 

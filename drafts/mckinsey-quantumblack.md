@@ -4,6 +4,7 @@
 - 收件人：**Tomás Lajous**，Senior Partner，QuantumBlack Labs 全球负责人。Labs 是 QuantumBlack 的研发和软件开发中心，负责自研工具和资产。
 - 置信度：中。AI Magazine 2026 年的报道引用他的话时，头衔写的是 "Senior Partner and Global Leader of QuantumBlack Labs"；McKinsey 官网 Labs 页面出现在同一组搜索结果里；他本人的 LinkedIn 帖子写 "I am excited to join QuantumBlack Labs as Global Leader"（约 2025-01，搜索摘要）。以上原文都没有打开。他是否直接负责模型评测或微调，没有查到。
 - 来源：
+  - McKinsey 官网个人页，搜索摘要写他是纽约的 Senior Partner、QuantumBlack Labs 全球负责人（搜索摘要）：https://www.mckinsey.com/our-people/tomas-lajous
   - https://aimagazine.com/news/quantumblack-a-global-force-in-agentic-ai-transformation （搜索摘要）
   - https://www.mckinsey.com/capabilities/quantumblack/labs （搜索结果）
   - https://www.linkedin.com/posts/tomaslajous_i-am-excited-to-join-quantumblack-labs-as-activity-7287499245123715074-7hRQ （搜索摘要，仅作佐证）
@@ -41,6 +42,11 @@
 - 没有查到供应商相关的公开报道。
 
 **核实说明**：本环境打不开 mckinsey.com、PR Newswire、Medium 和招聘站。ARK 的 README 读的是原文，其余来自搜索结果摘要。WebSearch 额度在调研中途用完（McKinsey 部分约 13 次搜索），JD 和评测负责人都没查。开头一句用的 Google 合作事实，在 Google Cloud Press Corner、McKinsey 官网博客、PR Newswire 和 Yahoo Finance 的搜索结果里说法一致。
+
+本次复核（2026-09-25，3 次 WebSearch，mckinsey.com 仍打不开，均为搜索摘要）：
+- 联系人：McKinsey 官网个人页（mckinsey.com/our-people/tomas-lajous）、AI Magazine 高管页和报道都写他是 Senior Partner、QuantumBlack Labs 全球负责人。没有查到离职或调岗消息，但也没有带 2026 年日期的官方确认，置信度维持中。补了官网个人页链接。
+- 开头一句：Google Cloud Press Corner 新闻稿（2026-04-22）、McKinsey 官网博客、PR Newswire、Yahoo Finance 的搜索摘要都写 "McKinsey's QuantumBlack technologists will collaborate with Google's forward deployed engineers (FDEs) to work on challenging client use cases"。开头一句不改。
+- 来源链接里没有 GitHub 转载的新闻；ARK 的 GitHub 仓库是 McKinsey 自己的项目原文，保留。
 
 ---
 
