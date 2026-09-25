@@ -1,0 +1,279 @@
+<title>RL 数据买方地图</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@500&family=Noto+Sans+SC:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #FAF9F6; --surface: #FFFFFF; --ink: #111110; --body: #33322F; --muted: #6E6C66;
+    --rule: #E2E0DA; --rule-strong: #CFCCC4; --accent: #C2410C; --accent-tint: rgba(194, 65, 12, 0.08);
+    --hi: #2E6B3F; --mid: #33322F; --lo: #93580A;
+    --serif: "Newsreader", "Noto Serif SC", "Songti SC", Georgia, serif;
+    --sans: "Instrument Sans", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+      --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.14);
+      --hi: #7CC28E; --mid: #D5D2CA; --lo: #E3B35A;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+    --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.14);
+    --hi: #7CC28E; --mid: #D5D2CA; --lo: #E3B35A;
+  }
+  body { background: var(--paper); color: var(--body); font: 14px/1.6 var(--sans); }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 32px; }
+  h1, h2, h3 { color: var(--ink); margin: 0; text-wrap: balance; }
+  a { color: inherit; text-decoration-color: var(--rule-strong); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .label { font: 500 11px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+  .num { font-variant-numeric: tabular-nums; }
+
+  header { display: grid; gap: 12px; }
+  .kicker { font: 500 13px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font: 500 36px/1.1 var(--serif); letter-spacing: -0.01em; }
+  .lede { margin: 0; max-width: 70ch; }
+  .stats { display: flex; gap: 8px 28px; flex-wrap: wrap; font: 400 13px/1.4 var(--mono); color: var(--muted); }
+  .stats b { color: var(--ink); font-weight: 500; font-size: 15px; }
+
+  .findings { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .finding { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 18px; display: grid; gap: 6px; align-content: start; }
+  .finding h3 { font: 600 15px/1.35 var(--sans); }
+  .finding p { margin: 0; font-size: 13.5px; }
+
+  section { display: grid; gap: 14px; }
+  .sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+  .sec-head h2 { font: 500 22px/1.2 var(--serif); }
+  .controls { display: flex; gap: 8px 14px; flex-wrap: wrap; align-items: center; }
+  .controls input[type="search"] { background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 7px 10px; min-width: 0; flex: 1 1 220px; font: inherit; color: inherit; }
+  .chip { border: 1px solid var(--rule-strong); background: transparent; border-radius: 999px; padding: 4px 11px; cursor: pointer; font: inherit; font-size: 12.5px; color: var(--body); }
+  .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; }
+
+  .tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 760px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font: 500 11px/1.4 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); background: var(--surface); position: sticky; top: 0; }
+  tbody tr.row { cursor: pointer; }
+  tbody tr.row:hover td { background: var(--accent-tint); }
+  tbody tr.row[aria-expanded="true"] td { background: var(--accent-tint); }
+  td.name { color: var(--ink); font-weight: 600; white-space: nowrap; }
+  td.vendors { max-width: 380px; }
+  td.what { max-width: 320px; color: var(--muted); font-size: 13px; }
+  .conf { font: 400 12px var(--mono); }
+  .c-高 { color: var(--hi); } .c-中 { color: var(--mid); } .c-低 { color: var(--lo); }
+  .onlist { font: 500 11.5px var(--mono); color: var(--accent); white-space: nowrap; }
+  td.conf { white-space: nowrap; }
+  .changed { color: var(--muted); }
+  tr.detail td { background: var(--paper); padding: 4px 12px 14px; }
+  .claims { display: grid; gap: 10px; }
+  .claim { display: grid; gap: 2px; border-top: 1px dashed var(--rule); padding-top: 8px; }
+  .claim:first-child { border-top: 0; }
+  .claim .meta { font-size: 12.5px; color: var(--muted); display: flex; gap: 4px 12px; flex-wrap: wrap; }
+  .claim .meta b { color: var(--body); font-weight: 600; }
+  .claim q { font: 400 14px/1.55 var(--serif); color: var(--ink); quotes: "“" "”"; }
+  .claim a { font: 12px var(--mono); word-break: break-all; color: var(--muted); }
+  .more { justify-self: start; }
+  .btn { border: 1px solid var(--rule-strong); background: transparent; border-radius: 6px; padding: 6px 12px; cursor: pointer; font: inherit; font-size: 13px; color: var(--body); }
+  .btn:hover { border-color: var(--ink); }
+  .empty { color: var(--muted); padding: 18px 12px; }
+  .note { font-size: 12.5px; color: var(--muted); max-width: 80ch; }
+  @media (max-width: 520px) { .wrap { padding: 24px 16px 48px; } h1 { font-size: 30px; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="kicker">SimReal · 市场情报</span>
+    <h1>RL 数据买方地图</h1>
+    <p class="lede">RL 环境、人类数据、专家网络、评测类公司公开点名过的客户和合作方，按买方反向索引。每条都来自公开来源：融资稿、财报、技术报告致谢、共建基准、媒体报道。点开一行看原文证据和链接。</p>
+    <div class="stats num" id="stats"></div>
+  </header>
+
+  <div class="findings" id="findings"></div>
+
+  <section aria-labelledby="buyers-title">
+    <div class="sec-head"><h2 id="buyers-title">买方</h2><span class="label" id="buyers-count"></span></div>
+    <div class="controls">
+      <input type="search" id="q-buyer" placeholder="搜买方、供应商或领域，例如 金融、Surge、RL 环境" aria-label="搜索买方">
+      <div id="type-chips" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+      <label class="toggle"><input type="checkbox" id="only-new"> 只看不在外联名单上的</label>
+      <label class="toggle"><input type="checkbox" id="hide-low"> 隐藏只有低置信度的</label>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>买方</th><th class="num">供应商数</th><th>点名的供应商</th><th>采购内容</th><th>最高置信度</th><th>名单</th></tr></thead>
+        <tbody id="buyers"></tbody>
+      </table>
+    </div>
+    <p class="note">「供应商数」只算点名且仍在合作的供应商；标「（变动）」的是报道过停止或暂停合作、竞购未成交的关系。投资关系不算在买方里，只在供应商明细中出现。</p>
+  </section>
+
+  <section aria-labelledby="vendors-title">
+    <div class="sec-head"><h2 id="vendors-title">供应商</h2><span class="label" id="vendors-count"></span></div>
+    <div class="controls">
+      <input type="search" id="q-vendor" placeholder="搜供应商或类型，例如 RL 环境、评测、国内" aria-label="搜索供应商">
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>供应商</th><th>类型</th><th>规模</th><th>地区</th><th class="num">声明数</th><th>简介</th></tr></thead>
+        <tbody id="vendors"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="note">置信度：高 = 供应商或客户官方发布、财报、技术报告原文；中 = 权威媒体报道；低 = 间接、二手转述、只有搜索摘要，或 2024 年以前的信息。调研环境打不开多数官网，官网客户墙只能通过转述收录，会有遗漏。</p>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("data").textContent);
+  var RANK = { "高": 3, "中": 2, "低": 1 };
+  var RANK_S = { 3: "高", 2: "中", 1: "低" };
+  var TYPES = ["frontier lab", "国内大模型公司", "科技大厂", "AI 应用公司", "垂直 AI", "金融机构", "企业", "政府", "高校研究机构", "其他"];
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function slug(s) { return (D.ids && D.ids[s]) || ("b-" + String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")); }
+  function isChange(c) { return c.rel.indexOf("客户变动") === 0; }
+  function safeUrl(u) { return /^https?:\/\//.test(u) ? u : ""; }
+
+  // Build the buyer index from claims.
+  var buyers = {};
+  D.claims.forEach(function (c) {
+    if (c.vendor === "未具名供应商" || c.rel === "投资方" || c.unnamedBuyer) return;
+    var b = buyers[c.buyer] || (buyers[c.buyer] = { name: c.buyer, claims: [], types: {}, vendors: {}, best: 0, what: {} });
+    b.claims.push(c);
+    if (c.btype) b.types[c.btype] = 1;
+    var prev = b.vendors[c.vendor];
+    if (!prev || (isChange(prev) && !isChange(c))) b.vendors[c.vendor] = c;
+    b.best = Math.max(b.best, RANK[c.conf] || 0);
+    if (c.what) b.what[c.what] = 1;
+  });
+  var list = Object.keys(buyers).map(function (k) {
+    var b = buyers[k];
+    b.current = Object.keys(b.vendors).filter(function (v) { return !isChange(b.vendors[v]); }).length;
+    b.onList = D.onList.indexOf(b.name) !== -1;
+    b.id = slug(b.name);
+    return b;
+  }).sort(function (a, b) { return b.current - a.current || b.best - a.best || a.name.localeCompare(b.name); });
+
+  // Header numbers and findings.
+  document.getElementById("stats").innerHTML =
+    "<span><b>" + D.claims.length + "</b> 条公开声明</span><span><b>" + D.vendors.length + "</b> 家供应商</span><span><b>" + list.length + "</b> 个具名买方</span><span><b>" + list.filter(function (b) { return !b.onList; }).length + "</b> 个不在外联名单上</span><span>截至 " + esc(D.asOf) + "</span>";
+  document.getElementById("findings").innerHTML = D.findings.map(function (f) {
+    return '<article class="finding"><h3>' + esc(f.t) + "</h3><p>" + esc(f.d) + "</p></article>";
+  }).join("");
+
+  var state = { q: "", type: "全部", onlyNew: false, hideLow: false, open: {} };
+  document.getElementById("type-chips").innerHTML = ["全部"].concat(TYPES).map(function (t) {
+    return '<button class="chip" data-type="' + esc(t) + '" aria-pressed="' + (t === "全部") + '">' + esc(t) + "</button>";
+  }).join("");
+
+  function claimHTML(c) {
+    var u = safeUrl(c.url);
+    return '<div class="claim"><div class="meta"><b>' + esc(c.vendor) + " → " + esc(c.buyer) + "</b><span>" + esc(c.rel) + "</span>" +
+      (c.what ? "<span>" + esc(c.what) + "</span>" : "") + "<span>" + esc(c.date || "日期不详") + "</span>" +
+      '<span class="conf c-' + esc(c.conf) + '">置信度 ' + esc(c.conf) + "</span><span>" + esc(c.stype) + "</span></div>" +
+      (c.quote ? "<q>" + esc(c.quote) + "</q>" : "") +
+      (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(u) + "</a>" : "") + "</div>";
+  }
+
+  function matchBuyer(b) {
+    if (state.type !== "全部" && !b.types[state.type]) return false;
+    if (state.onlyNew && b.onList) return false;
+    if (state.hideLow && b.best < 2) return false;
+    if (!state.q) return true;
+    var hay = (b.name + " " + Object.keys(b.vendors).join(" ") + " " + Object.keys(b.what).join(" ")).toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
+  }
+
+  function renderBuyers() {
+    var shown = list.filter(matchBuyer);
+    document.getElementById("buyers-count").textContent = "显示 " + shown.length + " / " + list.length;
+    var h = "";
+    shown.forEach(function (b) {
+      var vend = Object.keys(b.vendors).map(function (v) {
+        return isChange(b.vendors[v]) ? '<span class="changed">' + esc(v) + "（变动）</span>" : esc(v);
+      }).join("、");
+      var what = Object.keys(b.what).join("；");
+      if (what.length > 140) what = what.slice(0, 138) + "…";
+      var open = !!state.open[b.id];
+      h += '<tr class="row" id="' + esc(b.id) + '" data-id="' + esc(b.id) + '" tabindex="0" aria-expanded="' + open + '">' +
+        '<td class="name">' + esc(b.name) + '</td><td class="num">' + b.current + '</td><td class="vendors">' + vend +
+        '</td><td class="what">' + esc(what) + '</td><td class="conf c-' + RANK_S[b.best] + '">' + (RANK_S[b.best] || "") +
+        "</td><td>" + (b.onList ? '<span class="onlist">已在名单</span>' : "") + "</td></tr>";
+      if (open) {
+        var cs = b.claims.slice().sort(function (x, y) { return (RANK[y.conf] || 0) - (RANK[x.conf] || 0); });
+        h += '<tr class="detail"><td colspan="6"><div class="claims">' + cs.map(claimHTML).join("") + "</div></td></tr>";
+      }
+    });
+    document.getElementById("buyers").innerHTML = h || '<tr><td colspan="6" class="empty">没有符合条件的买方。</td></tr>';
+  }
+
+  var vOpen = {};
+  function renderVendors() {
+    var q = (document.getElementById("q-vendor").value || "").toLowerCase();
+    var vs = D.vendors.filter(function (v) {
+      return !q || (v.name + " " + v.type + " " + v.region + " " + v.about + " " + v.fields).toLowerCase().indexOf(q) !== -1;
+    });
+    document.getElementById("vendors-count").textContent = "显示 " + vs.length + " / " + D.vendors.length;
+    var h = "";
+    vs.forEach(function (v) {
+      var id = "v-" + slug(v.name).slice(2);
+      var open = !!vOpen[id];
+      var about = v.about.length > 120 ? v.about.slice(0, 118) + "…" : v.about;
+      h += '<tr class="row" data-vid="' + esc(id) + '" data-name="' + esc(v.name) + '" tabindex="0" aria-expanded="' + open + '"><td class="name">' + esc(v.name) +
+        "</td><td>" + esc(v.type) + "</td><td>" + esc(v.size) + "</td><td>" + esc(v.region) + '</td><td class="num">' + esc(v.n) +
+        '</td><td class="what">' + esc(about) + "</td></tr>";
+      if (open) {
+        var cs = D.claims.filter(function (c) { return c.vendor === v.name; });
+        h += '<tr class="detail"><td colspan="6"><div class="claims">' + (cs.length ? cs.map(claimHTML).join("") : '<p class="empty">没有点名的客户。</p>') + "</div></td></tr>";
+      }
+    });
+    document.getElementById("vendors").innerHTML = h;
+  }
+
+  document.addEventListener("click", function (ev) {
+    var chip = ev.target.closest(".chip");
+    if (chip) {
+      state.type = chip.dataset.type;
+      document.querySelectorAll("#type-chips .chip").forEach(function (c) { c.setAttribute("aria-pressed", c === chip); });
+      renderBuyers();
+      return;
+    }
+    if (ev.target.closest("a")) return;
+    var row = ev.target.closest("tr.row");
+    if (!row) return;
+    if (row.dataset.id) { state.open[row.dataset.id] = !state.open[row.dataset.id]; renderBuyers(); }
+    else if (row.dataset.vid) { vOpen[row.dataset.vid] = !vOpen[row.dataset.vid]; renderVendors(); }
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key !== "Enter" && ev.key !== " ") return;
+    var row = ev.target.closest && ev.target.closest("tr.row");
+    if (!row) return;
+    ev.preventDefault();
+    row.click();
+  });
+  document.getElementById("q-buyer").addEventListener("input", function (e) { state.q = e.target.value.trim(); renderBuyers(); });
+  document.getElementById("only-new").addEventListener("change", function (e) { state.onlyNew = e.target.checked; renderBuyers(); });
+  document.getElementById("hide-low").addEventListener("change", function (e) { state.hideLow = e.target.checked; renderBuyers(); });
+  document.getElementById("q-vendor").addEventListener("input", renderVendors);
+
+  // Deep link: #b-nvidia opens that buyer.
+  var hash = (location.hash || "").slice(1);
+  if (hash && buyers && list.some(function (b) { return b.id === hash; })) state.open[hash] = true;
+  renderBuyers();
+  renderVendors();
+  if (hash) { var el = document.getElementById(hash); if (el) el.scrollIntoView({ block: "start" }); }
+})();
+</script>

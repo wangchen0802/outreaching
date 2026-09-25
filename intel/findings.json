@@ -1,0 +1,8 @@
+[
+ {"t": "买家集中在三家实验室", "d": "Google DeepMind、Anthropic、OpenAI 分别被 27、24、24 家供应商点名，而且都在多家同时采购。据报道 Mercor 2026 上半年收入超过九成来自这三家。"},
+ {"t": "中立和数据安全会直接导致换供应商", "d": "Meta 投资 Scale 后，Google、OpenAI、xAI、Microsoft 减少或退出了 Scale，业务流向 Surge、Mercor、Handshake。2026 年 4 月 Mercor 数据泄露后，Meta 暂停了与它的合作。"},
+ {"t": "NVIDIA 是被低估的大买家", "d": "12 家供应商点名。Nemotron 的技术报告公开写明向 Scale、Translated 采购偏好数据，还买供应商整理的搜索难题和任务包。开源模型需要能署名的数据来源。"},
+ {"t": "中国大厂在直接买美国的数据", "d": "据 Forbes（2026-08），腾讯用 Surge 和 Mercor，阿里用 AfterQuery 和 Mercor，蚂蚁用 AfterQuery，字节用 Turing。SemiAnalysis 称 Surge 的 RL 环境用在了 Kimi K2 Thinking 和 GLM-4.6 上。"},
+ {"t": "国内几乎没有成规模的 RL 环境供应商", "d": "国内标注公司主要做语音、视觉和具身数据；大厂靠自建专家平台（字节 Xpert、阿里晓天睿士、腾讯 AI Expert）。RL 环境只看到 Copula Lab 一家，另有 UniPat、一面千识等后训练数据新公司。"},
+ {"t": "需求集中在五类任务", "d": "编码和终端类 agent 任务、电脑和浏览器操作、专业知识工作（投行、法律、医疗、会计）、安全评测、多语言。Mercor 在收购环境公司（Sepal AI、Deeptune），整合很快。"}
+]

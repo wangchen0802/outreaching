@@ -168,6 +168,22 @@
     .card { transition: border-color 0.15s; }
   }
   .card:hover { border-color: var(--rule-strong); }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); }
+  .tab { background: transparent; border: 0; border-bottom: 2px solid transparent; padding: 8px 14px 10px; cursor: pointer; font: 500 15px/1.2 var(--sans); color: var(--muted); margin-bottom: -1px; }
+  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+  .tab .n { font: 400 12px var(--mono); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .tabpanel { display: grid; gap: 28px; }
+
+  /* Candidates */
+  .cand-intro { margin: 0; max-width: 70ch; }
+  .cand .rank { font: 500 12px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .cand .why { margin: 0; max-width: 72ch; color: var(--body); }
+  .cand .vend { font-size: 13px; color: var(--muted); }
+  .cand .vend b { color: var(--body); font-weight: 500; }
+  .st-add { color: var(--ok); background: var(--ok-tint); }
+  .st-skip { color: var(--muted); border: 1px solid var(--rule); }
 </style>
 
 <div class="wrap">
@@ -180,6 +196,12 @@
     </div>
   </header>
 
+  <nav class="tabs" role="tablist" aria-label="审批内容">
+    <button class="tab" role="tab" id="tabbtn-drafts" data-tab="drafts" aria-selected="true" aria-controls="tab-drafts">草稿审批<span class="n" id="tabn-drafts"></span></button>
+    <button class="tab" role="tab" id="tabbtn-cands" data-tab="cands" aria-selected="false" aria-controls="tab-cands">候选新客户<span class="n" id="tabn-cands"></span></button>
+  </nav>
+
+  <div class="tabpanel" id="tab-drafts" role="tabpanel" aria-labelledby="tabbtn-drafts">
   <section class="sender" aria-labelledby="sender-title">
     <div class="sender-head">
       <h3 id="sender-title" class="label">发件信息</h3>
@@ -206,6 +228,12 @@
   </nav>
 
   <main id="list"><p class="empty">正在载入草稿…</p></main>
+  </div>
+
+  <div class="tabpanel" id="tab-cands" role="tabpanel" aria-labelledby="tabbtn-cands" hidden>
+    <p class="cand-intro">这些公司不在现有外联名单上，但有 RL 环境或数据供应商公开点名它们是客户。点「加入外联」，Claude 会去调研联系人、写草稿，然后放进草稿审批。证据在<a href="https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE" target="_blank" rel="noopener noreferrer">买方地图</a>里。</p>
+    <div id="cands" style="display:grid;gap:14px"><p class="empty">正在载入候选…</p></div>
+  </div>
 </div>
 
 <script>
@@ -229,7 +257,15 @@
     docs: [], settings: {}, pipeline: null,
     status: "pending", region: "all",
     open: {}, returning: {}, returnText: {},
-    canEdit: true, db: null, cards: {}
+    canEdit: true, db: null, cards: {},
+    cands: [], tab: "drafts", candSkipping: {}, candText: {}
+  };
+  var INTEL_URL = "https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE";
+  var CAND_STATUS = {
+    pending: { label: "待定", cls: "st-pending" },
+    add: { label: "已加入，等 Claude 调研", cls: "st-add" },
+    drafted: { label: "草稿已进审批", cls: "st-approved" },
+    skip: { label: "不加", cls: "st-skip" }
   };
 
   function esc(s) {
@@ -336,6 +372,8 @@
     state.docs.forEach(function (d) { c[statusOf(d)]++; });
     var n = state.docs.length;
     var total = Math.max(n, (state.pipeline && state.pipeline.total) || n);
+    var tn = document.getElementById("tabn-drafts");
+    if (tn) tn.textContent = n ? c.pending + " 待审" : "";
     var researching = total - n;
     var parts = [
       "<span><b>" + n + "</b> / " + total + " 家已上架</span>",
@@ -434,6 +472,59 @@
     return true;
   }
 
+  function candStatus(c) {
+    var st = c.decision && c.decision.status;
+    return CAND_STATUS[st] ? st : "pending";
+  }
+
+  function candHTML(c) {
+    var st = candStatus(c), s = CAND_STATUS[st], slug = c.slug || c.id;
+    var h = '<div class="card-head"><div class="who"><span class="rank">#' + esc(c.rank) + "</span><h2>" + esc(c.name) + "</h2>";
+    h += '<div class="tags"><span class="tag">' + esc(c.category) + '</span><span class="tag">' + esc(c.region) + "</span></div></div>";
+    h += '<span class="status ' + s.cls + '">' + s.label + "</span></div>";
+    h += '<p class="why">' + esc(c.why) + "</p>";
+    if (c.vendors) h += '<div class="vend">公开点名它的供应商：<b>' + esc(c.vendors) + "</b></div>";
+    if (st === "skip" && c.decision.comment) h += '<div class="review-note">你的备注：' + esc(c.decision.comment) + "</div>";
+    h += '<div class="actions">';
+    if (state.canEdit) {
+      if (st === "pending") {
+        h += '<button class="btn btn-primary" data-cact="add">加入外联</button><button class="btn" data-cact="skip">不加</button>';
+      } else if (st !== "drafted") {
+        h += '<button class="btn" data-cact="undo">撤销</button>';
+      }
+    }
+    h += '<span class="spacer"></span>';
+    if (c.anchor) h += '<a class="btn btn-text" href="' + INTEL_URL + "#" + esc(c.anchor) + '" target="_blank" rel="noopener noreferrer">看证据</a>';
+    h += "</div>";
+    if (state.candSkipping[slug]) {
+      h += '<form class="return-form" data-form="skip"><label class="label" for="sk-' + esc(slug) + '">不加的原因（可不写）</label>';
+      h += '<textarea id="sk-' + esc(slug) + '" placeholder="例如：预算小；合规风险；已有渠道">' + esc(state.candText[slug] || "") + "</textarea>";
+      h += '<div class="row"><button class="btn btn-primary" type="submit">不加</button><button class="btn btn-text" type="button" data-cact="cancel">取消</button></div></form>';
+    }
+    return h;
+  }
+
+  function renderCands() {
+    var box = document.getElementById("cands");
+    var pending = state.cands.filter(function (c) { return candStatus(c) === "pending"; }).length;
+    document.getElementById("tabn-cands").textContent = state.cands.length ? pending + " 待定" : "";
+    if (!state.cands.length) { box.innerHTML = '<p class="empty">还没有候选。</p>'; return; }
+    var focused = document.activeElement && document.activeElement.closest && document.activeElement.closest(".cand");
+    if (focused && focused.querySelector("textarea") === document.activeElement) return;
+    box.innerHTML = state.cands.slice().sort(function (a, b) { return (a.rank || 99) - (b.rank || 99); }).map(function (c) {
+      return '<article class="card cand" data-slug="' + esc(c.slug || c.id) + '">' + candHTML(c) + "</article>";
+    }).join("");
+  }
+
+  function showTab(tab) {
+    state.tab = tab;
+    ["drafts", "cands"].forEach(function (t) {
+      document.getElementById("tab-" + t).hidden = t !== tab;
+      document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === tab);
+    });
+    try { localStorage.setItem("simreal-tab", tab); } catch (e) {}
+  }
+
   function render() {
     var c = renderTally();
     renderFilters(c);
@@ -515,7 +606,26 @@
     }
   }
 
+  function writeDecision(slug, decision) {
+    if (!state.db) return;
+    state.db.doc("candidates/" + slug).update({ decision: decision }).catch(function (e) {
+      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
+    });
+  }
+
   document.addEventListener("click", function (ev) {
+    var tab = ev.target.closest(".tab");
+    if (tab) { showTab(tab.dataset.tab); return; }
+    var cb = ev.target.closest("[data-cact]");
+    if (cb) {
+      var cslug = cb.closest(".cand").dataset.slug, now0 = new Date().toISOString();
+      var act0 = cb.dataset.cact;
+      if (act0 === "add") writeDecision(cslug, { status: "add", comment: "", at: now0 });
+      else if (act0 === "undo") writeDecision(cslug, { status: "pending", comment: "", at: now0 });
+      else if (act0 === "skip") { state.candSkipping[cslug] = true; renderCands(); var t0 = document.getElementById("sk-" + cslug); if (t0) t0.focus(); }
+      else if (act0 === "cancel") { state.candSkipping[cslug] = false; renderCands(); }
+      return;
+    }
     var chip = ev.target.closest(".chip");
     if (chip) {
       if (chip.dataset.status) state.status = chip.dataset.status;
@@ -554,6 +664,16 @@
   });
 
   document.addEventListener("submit", function (ev) {
+    var sform = ev.target.closest("[data-form='skip']");
+    if (sform) {
+      ev.preventDefault();
+      var sslug = sform.closest(".cand").dataset.slug;
+      var stext = (sform.querySelector("textarea").value || "").trim();
+      state.candSkipping[sslug] = false;
+      state.candText[sslug] = "";
+      writeDecision(sslug, { status: "skip", comment: stext, at: new Date().toISOString() });
+      return;
+    }
     var form = ev.target.closest("[data-form='return']");
     if (!form) return;
     ev.preventDefault();
@@ -649,7 +769,12 @@
       state.pipeline = snap.exists ? snap.data() : null;
       renderTally();
     }, function () {});
+    db.collection("candidates").onSnapshot(function (snap) {
+      state.cands = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
+      renderCands();
+    }, function () {});
   }
+  try { var savedTab = localStorage.getItem("simreal-tab"); if (savedTab === "cands") showTab("cands"); } catch (e) {}
   start();
 })();
 </script>

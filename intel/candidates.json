@@ -1,0 +1,146 @@
+[
+ [
+  "nvidia",
+  "NVIDIA",
+  "NVIDIA",
+  "frontier lab（大厂模型团队）",
+  "海外（美国）",
+  "12 家供应商公开点名。Nemotron 技术报告写明向 Scale、Translated 采购偏好数据，还买供应商整理的搜索难题和任务包，并和 Applied Compute、General Reasoning 合作 RL 环境。开源模型需要能署名的数据来源，Xitadel 和财务结账环境可以作为可公开的环境包。",
+  "Scale AI、Translated、Mercor、AfterQuery、Turing、Patronus AI、Applied Compute、General Reasoning、Prime Intellect"
+ ],
+ [
+  "microsoft-ai",
+  "Microsoft AI（MAI）",
+  "Microsoft",
+  "frontier lab（大厂模型团队）",
+  "海外（美国）",
+  "在自研 MAI 模型。MAI-Thinking-1 发布前请 Surge 的专业评分员做了 1,276 个任务的盲测；和 Invisible 有多年 RLHF 合同。2025 年撤出 Scale 后在多家补位。",
+  "Surge AI、Invisible Technologies、micro1、Toloka、Turing"
+ ],
+ [
+  "amazon-agi",
+  "Amazon（AGI / Nova）",
+  "Amazon",
+  "frontier lab（大厂模型团队）",
+  "海外（美国）",
+  "用 Collinear 的 RL 仿真环境、Toloka 的专家数据、Patronus 的评测，请 METR 做前沿风险评估；Nova 技术报告写明数据用了第三方供应商。",
+  "Collinear AI、Toloka、Patronus AI、METR、Gray Swan AI"
+ ],
+ [
+  "ant-group",
+  "蚂蚁集团",
+  "蚂蚁集团",
+  "国内大模型公司（金融）",
+  "国内（杭州）",
+  "据 Forbes（2026-08），蚂蚁高管承认和美国数据公司 AfterQuery 紧密合作。支付和财富管理场景天然需要金融专家数据和环境，Xitadel、财务结账环境最对口。注意中美合规。",
+  "AfterQuery"
+ ],
+ [
+  "cohere",
+  "Cohere",
+  "Cohere",
+  "frontier lab（企业模型）",
+  "海外（加拿大）",
+  "Command R 和 Invisible 合作降幻觉，Command 用 Appen 的专家标注；Command A 技术报告说指令数据来自专业数据供应商。企业和金融客户多。",
+  "Invisible Technologies、Appen"
+ ],
+ [
+  "applied-compute",
+  "Applied Compute",
+  "Applied Compute",
+  "frontier lab（新实验室）",
+  "海外（美国）",
+  "新实验室。用 Mercor 专家数据做公司法后训练（约 2,000 例），帮 NVIDIA 后训练 Nemotron，客户有 DoorDash、Cognition。既是买家，也可能是渠道。",
+  "Mercor"
+ ],
+ [
+  "cognition",
+  "Cognition",
+  "Cognition",
+  "垂直 AI（代码）",
+  "海外（美国）",
+  "和 Mercor 共建 APEX-SWE 基准，是 Applied Compute 的客户。RL 环境自建较多，切入点是软件工程环境和验证器。",
+  "Mercor、Applied Compute"
+ ],
+ [
+  "legora",
+  "Legora",
+  "Legora",
+  "垂直 AI（法律）",
+  "海外（瑞典）",
+  "法律 AI，Harvey 的主要对手。AfterQuery 公开点名它是客户，采购法律专家数据。",
+  "AfterQuery"
+ ],
+ [
+  "baidu",
+  "百度（文心）",
+  "百度",
+  "国内大模型公司",
+  "国内（北京）",
+  "9 家供应商点名：海天瑞声、数据堂（前五大客户）、恺望、标贝等；另有自建的百度众测专家库。以传统标注为主，缺可执行的 RL 环境。",
+  "海天瑞声、数据堂、恺望数据、标贝科技、晴数智慧"
+ ],
+ [
+  "motif",
+  "Motif Technologies（韩国）",
+  "Motif Technologies（韩国）",
+  "frontier lab（韩国）",
+  "海外（韩国）",
+  "韩国大模型实验室，AfterQuery 公开的客户。同属韩国主权 AI 项目的 Upstage，训练数据由 Flitto 构建。韩国主权 AI 有政府预算。",
+  "AfterQuery"
+ ],
+ [
+  "ai21",
+  "AI21 Labs",
+  "AI21 Labs",
+  "frontier lab（企业模型）",
+  "海外（以色列）",
+  "Invisible（SFT、RLHF 专家）和 Haize（红队）的客户。规模较小。",
+  "Invisible Technologies、Haize Labs"
+ ],
+ [
+  "apple",
+  "Apple",
+  "Apple",
+  "frontier lab（大厂模型团队）",
+  "海外（美国）",
+  "TransPerfect 巴塞罗那约 200 人为 Apple Intelligence 做标注；Huzzle Labs 自称有它的 RL 环境订单（未核实）。采购主要走大型外包商，进入门槛高。",
+  "TransPerfect、Huzzle Labs"
+ ],
+ [
+  "iflytek",
+  "科大讯飞",
+  "科大讯飞",
+  "国内大模型公司",
+  "国内（合肥）",
+  "海天瑞声等点名，做讯飞星火后训练，有教育、医疗场景。现有供应商偏语音数据。",
+  "海天瑞声、倍赛、曼孚科技"
+ ],
+ [
+  "prime-intellect",
+  "Prime Intellect（渠道）",
+  "Prime Intellect",
+  "渠道合作",
+  "海外（美国）",
+  "Environments Hub 分发 RL 环境，自己也有后训练平台客户（Ramp、Zapier 等）。可以把 SimReal 的环境上架，换曝光和实验室试用。",
+  "Snorkel AI、Proximal、BenchFlow"
+ ],
+ [
+  "innodata",
+  "Innodata（渠道）",
+  "",
+  "渠道合作",
+  "海外（美国）",
+  "上市数据公司，客户包括 5 家 Mag7 和 Palantir，但没有 RL 环境产品。可以谈白标的环境加验证器，由它分包给大客户。",
+  ""
+ ],
+ [
+  "abaka",
+  "Abaka AI / 整数智能（渠道）",
+  "",
+  "渠道合作",
+  "国内（杭州）",
+  "和字节 Seed 共建 SuperGPQA 等基准，有大厂客户，没有 RL 环境产品。可以分包或联合交付。",
+  ""
+ ]
+]
