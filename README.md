@@ -33,7 +33,7 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 
 ## 名单
 
-✅ = 草稿已上审批页；调研中 = 由后续会话补查。审批状态以审批页为准。
+✅ = 草稿已上审批页（31 家都已核实一遍，见 `ops/verify-*.md`）。审批状态以审批页为准。
 
 ### 海外（16）
 
@@ -47,7 +47,7 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 | Google DeepMind | frontier lab | ✅ |
 | Meta Superintelligence Labs | frontier lab | ✅ |
 | xAI | frontier lab | ✅ |
-| Scale AI | 人类数据供应商 | 调研中 |
+| Scale AI | 人类数据供应商 | ✅ |
 | Surge AI | 人类数据供应商 | ✅ |
 | Mercor | 人类数据供应商 | ✅ |
 | Harvey | 垂直 AI（法律） | ✅ |
@@ -69,9 +69,9 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 | 阶跃星辰 | 国内大模型公司 | ✅ |
 | 腾讯混元 | 国内大模型公司 | ✅ |
 | 海天瑞声 | 人类数据供应商 | ✅ |
-| 数据堂 | 人类数据供应商 | 调研中 |
+| 数据堂 | 人类数据供应商 | ✅ |
 | 百川智能 | 垂直 AI（医疗） | ✅ |
-| 幂律智能 | 垂直 AI（法律） | 调研中 |
+| 幂律智能 | 垂直 AI（法律） | ✅ |
 | 恒生电子 | 垂直 AI（金融） | ✅ |
 | 九坤投资（AI Lab） | 金融机构 AI 团队 | ✅ |
 | 中国平安 | 金融机构 AI 团队 | ✅ |
