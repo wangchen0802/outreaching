@@ -23,13 +23,13 @@ VENDOR_COLS = ["供应商", "类型", "规模", "地区", "官网", "简介", "�
 ALIASES = {
     "OpenAI": ["openai", "chatgpt"],
     "Anthropic": ["anthropic", "claude"],
-    "Google DeepMind": ["google deepmind", "deepmind", "google", "gemini", "google research", "google cloud"],
-    "Meta": ["meta", "meta ai", "meta superintelligence labs", "msl", "facebook", "llama"],
+    "Google DeepMind": ["google deepmind", "deepmind", "google", "gemini", "google research", "google cloud", "谷歌"],
+    "Meta": ["meta", "meta ai", "meta superintelligence labs", "msl", "facebook", "llama", "meta tbd labs", "tbd labs"],
     "xAI": ["xai", "spacexai", "grok", "x.ai"],
-    "Microsoft": ["microsoft", "microsoft ai", "msft"],
-    "Amazon": ["amazon", "aws", "amazon agi", "amazon nova"],
-    "Apple": ["apple"],
-    "NVIDIA": ["nvidia", "nemotron"],
+    "Microsoft": ["microsoft", "microsoft ai", "msft", "微软"],
+    "Amazon": ["amazon", "aws", "amazon agi", "amazon nova", "amazon web services", "亚马逊"],
+    "Apple": ["apple", "苹果"],
+    "NVIDIA": ["nvidia", "nemotron", "英伟达", "nvidia 英伟达"],
     "Cohere": ["cohere"],
     "Mistral AI": ["mistral", "mistral ai"],
     "Reflection AI": ["reflection", "reflection ai"],
@@ -38,7 +38,8 @@ ALIASES = {
     "Ai2": ["ai2", "allen institute", "allen institute for ai", "allenai"],
     "字节跳动": ["字节跳动", "字节", "bytedance", "seed", "豆包", "doubao", "火山引擎", "volcengine"],
     "阿里巴巴": ["阿里巴巴", "阿里", "alibaba", "qwen", "通义", "通义千问", "阿里云"],
-    "腾讯": ["腾讯", "tencent", "混元", "hunyuan"],
+    "蚂蚁集团": ["蚂蚁集团", "蚂蚁", "ant group", "antgroup", "百灵", "ling"],
+    "腾讯": ["腾讯", "tencent", "混元", "hunyuan", "腾讯混元"],
     "百度": ["百度", "baidu", "文心", "ernie"],
     "月之暗面": ["月之暗面", "moonshot", "moonshot ai", "kimi"],
     "智谱": ["智谱", "zhipu", "z.ai", "glm", "智谱ai"],
@@ -57,14 +58,32 @@ ALIASES = {
 _ALIAS_INDEX = {a: canon for canon, al in ALIASES.items() for a in al + [canon.lower()]}
 
 
-def canon(name):
+def canon(name, strip_suffix=False):
+    """Normalise a company name. strip_suffix drops a trailing bracketed note
+    ("Scale AI（含 Outlier）" -> "Scale AI"), used for vendor names."""
     n = re.sub(r"\s+", " ", (name or "").strip())
     key = n.lower()
     if key in _ALIAS_INDEX:
         return _ALIAS_INDEX[key]
     # "Google (Gemini team)" / "Meta（MSL）" -> look at the part before a bracket.
     head = re.split(r"[（(/,，]", key)[0].strip()
-    return _ALIAS_INDEX.get(head, n)
+    if head in _ALIAS_INDEX:
+        return _ALIAS_INDEX[head]
+    # "字节跳动 seed" / "月之暗面 kimi k2.5" -> the first word names the company.
+    first = head.split(" ")[0] if head else ""
+    if first in _ALIAS_INDEX:
+        return _ALIAS_INDEX[first]
+    if strip_suffix:
+        base = re.split(r"\s*[（(]", n)[0].strip()
+        return base or n
+    return n
+
+
+UNNAMED = re.compile(r"未具名|未点名|unnamed|^\d|^[\"“]|\d+\s*家|\d+\+")
+
+
+def is_unnamed(customer):
+    return bool(UNNAMED.search(customer))
 
 
 def read_csv(path, cols):
@@ -79,8 +98,12 @@ def prospect_names():
     if p.exists():
         with open(p, encoding="utf-8-sig") as f:
             for r in csv.DictReader(f):
-                names.add(canon(r["公司"]))
-                names.add(canon(r["公司"].split(" ")[0]))
+                name = r["公司"]
+                names.add(canon(name))
+                names.update(canon(tok) for tok in re.split(r"[\s（(]", name) if tok)
+                low = name.lower()
+                # "腾讯混元 Tencent Hunyuan" -> 腾讯: any alias the name starts with.
+                names.update(c for a, c in _ALIAS_INDEX.items() if len(a) >= 2 and low.startswith(a))
     return names
 
 
@@ -93,20 +116,24 @@ def main():
     claims, seen = [], set()
     for f in claim_files:
         segment = f.name[: -len("-claims.csv")]
-        for r in read_csv(f, CLAIM_COLS):
-            r["供应商"] = canon(r["供应商"])
-            r["客户或合作方"] = canon(r["客户或合作方"])
-            key = (r["供应商"].lower(), r["客户或合作方"].lower(), r["来源链接"])
-            if key in seen or not r["客户或合作方"]:
-                continue
-            seen.add(key)
-            r["分段"] = segment
-            claims.append(r)
+        for raw in read_csv(f, CLAIM_COLS):
+            vendor = canon(raw["供应商"], strip_suffix=True)
+            # "Figure AI、1X Technologies" / "Hugging Face / Together AI": one claim per named party.
+            for part in re.split(r"、| / |；", raw["客户或合作方"]):
+                r = dict(raw)
+                r["供应商"] = vendor
+                r["客户或合作方"] = canon(part)
+                key = (r["供应商"].lower(), r["客户或合作方"].lower(), r["来源链接"])
+                if key in seen or not r["客户或合作方"]:
+                    continue
+                seen.add(key)
+                r["分段"] = segment
+                claims.append(r)
 
     vendors = {}
     for f in vendor_files:
         for r in read_csv(f, VENDOR_COLS):
-            name = canon(r["供应商"])
+            name = canon(r["供应商"], strip_suffix=True)
             r["供应商"] = name
             old = vendors.get(name)
             # Keep the row with the most filled-in fields.
@@ -130,8 +157,12 @@ def main():
     # Reverse index: customer -> vendors.
     rank = {"高": 3, "中": 2, "低": 1}
     by_cust = collections.defaultdict(list)
+    unnamed_buyers = collections.defaultdict(list)
     for c in claims:
         if c["供应商"] == "未具名供应商" or c["关系类型"] == "投资方":
+            continue
+        if is_unnamed(c["客户或合作方"]):
+            unnamed_buyers[c["客户或合作方"]].append(c)
             continue
         by_cust[c["客户或合作方"]].append(c)
     on_list = prospect_names()
@@ -169,6 +200,11 @@ def main():
     if unnamed:
         lines += ["", "## 公开承认向外采购、但没点名供应商的买方", ""]
         lines += [f"- {c}（{n} 条）" for c, n in unnamed.most_common()]
+    if unnamed_buyers:
+        lines += ["", "## 供应商声称有、但没点名的客户", ""]
+        for c, rows in sorted(unnamed_buyers.items(), key=lambda kv: -len(kv[1])):
+            vend = "、".join(sorted({r["供应商"] for r in rows}))
+            lines.append(f"- {c}：{vend}")
     (INTEL / "buyers.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{len(claims)} claims, {len(vendors)} vendors, {len(by_cust)} buyers, {len(new_prospects)} new prospects")
 

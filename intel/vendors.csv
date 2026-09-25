@@ -1,0 +1,127 @@
+﻿供应商,类型,规模,地区,官网,简介,主要领域,收录声明数
+Scale AI,人类数据/专家网络/标注平台/评测/综合,大,美国,scale.com,数据标注与后训练数据龙头；依据：2025.6 Meta 以 143 亿美元购入 49% 股权、估值约 290 亿美元；2026 年收入预计约 10 亿美元，之后多家实验室减少合作，重心转向政府与企业,RLHF/SFT 数据、评测（SEAL/HLE）、国防与主权 AI,32
+Mercor,人类数据/专家网络/RL 环境/评测,大,美国,mercor.com,专家网络（律师、医生、银行家等）；依据：2025.10 C 轮估值 100 亿美元，2026.6 年化总收入 20 亿美元，Nvidia 洽谈以 200 亿美元估值入股,专业领域专家数据、RL 环境、APEX 评测,30
+光轮智能 Lightwheel,合成数据,大,中国（北京）/美国,https://lightwheel.ai,前英伟达/Cruise仿真负责人谢晨创立的具身智能仿真与合成数据公司，2026年3月完成10亿元融资成为具身数据独角兽（估值约20亿美元），2025年营收破亿,具身智能仿真资产、合成数据、机器人策略评测（Isaac Lab-Arena）,27
+海天瑞声 SpeechOcean/DataOcean AI,综合,大,中国·北京（688787 科创板）,https://www.haitianruisheng.com/ ; https://dataoceanai.com/,A股首家AI训练数据上市公司，2025年营收3.77亿元（+59%），累计客户超1100家；前五大客户占比46.2%,语音/多语种、CV、NLP、大模型SFT/评测、具身智能数采,26
+Snorkel AI,人类数据/专家网络/评测/标注平台,大,美国,snorkel.ai,程序化标注平台转型的专家数据工厂；依据：2026.9 E 轮 3.5 亿美元、估值 35 亿美元，ARR 3.75 亿美元,专家数据、智能体评测基准、金融/保险/法律,26
+Bespoke Labs,RL 环境/合成数据/评测,中,美国（Bay Area）,https://bespokelabs.ai/,2024 年由 Mahesh Sathiamoorthy 与 Alex Dimakis 创立，为前沿实验室与企业构建公司级 RL 环境与智能体训练基础设施，开源 Curator、OpenThoughts，参与 Terminal-Bench。规模依据：2026-07 宣布种子+A 轮累计 4000 万美元（Wing VC 领投 A 轮、8VC 领投种子轮）。,智能体 RL 环境、推理数据、评测,26
+Surge AI,人类数据/专家网络/RL 环境,大,美国,surgehq.ai,自举起家的 RLHF 数据公司；依据：2024 年收入约 12 亿美元，2025 年 ARR 约 14 亿美元，估值 150–250 亿美元,RLHF、专家偏好数据、RL 环境、基准（AdvancedIF、EnterpriseBench）,25
+Vals AI,评测,中,美国（旧金山湾区）,https://www.vals.ai,面向法律、金融、编程、医疗真实任务的独立模型评测与基准平台，发布 Vals Index 和 Legal AI Report；规模依据：2026-08 a16z 领投 $40M A 轮、估值 $400M，累计融资约 $45M。,行业基准（法律/金融/编程）、企业私有评测,21
+Gray Swan AI,评测,小,美国,grayswan.ai,红队/越狱竞技场初创，OpenAI 系统卡外部红队。规模依据：早期初创（小）。,越狱红队、安全评测,20
+恺望数据,综合,中,北京,（未核）,2022年成立，2026年8月逾亿元战略融资（亦庄产业基金等，具身公司跟投），称单月订单超1500万元,自动驾驶、世界模型、具身智能、大模型数据交易,18
+未具名供应商,,,,,,,17
+Abaka AI,评测,中,美国帕洛阿尔托/中国,https://www.abaka.ai,A轮800万美元、累计2000万美元；联合发起2077AI开源基金会做基准；疑为整数智能海外品牌（未确认），规模按融资额判为中,多模态数据、专家标注、模型评测、benchmark,16
+Toloka,人类数据/专家网络/评测,中,荷兰（原 Yandex 旗下，Nebius 控股）,toloka.ai,众包起家，转向专家数据与智能体评测；依据：2025.5 获 Bezos Expeditions 领投 7200 万美元,安全评测、红队、智能体环境（Toloka Arena、Tendem）,15
+Prime Intellect,RL 环境/综合,大,美国（旧金山）,https://www.primeintellect.ai/,开源 RL 全栈（Environments Hub、verifiers、prime-rl、Lab 平台、INTELLECT 系列模型）；2026-07 A 轮 1.3 亿美元、估值 10 亿美元（Radical 领投，NVIDIA/Intel/Dell 跟投），年化收入超 1 亿美元，自称 6000+ 客户、Hub 2500+ 环境。,RL 环境平台/后训练算力,15
+龙猫数据,综合,中,北京,https://www.longmaosoft.com,2014年成立，四轮融资（金沙江、KIP、九合），称腾讯核心供应商,图像/语音/文本/视频采集标注、大模型、自动驾驶,14
+Turing,人类数据/专家网络/RL 环境,大,美国,turing.com,从远程工程师外包转型为实验室研究加速器；依据：2025.3 E 轮估值 22 亿美元，2024 年 ARR 约 3 亿美元,代码/STEM 数据、RL 环境、评测,14
+Patronus AI,评测/人类数据/专家网络,小,美国,patronus.ai,LLM 评测初创；据第三方对 NVIDIA 数据卡的分析，以外部供应商协议为 Nemotron 提供'对话记忆'定制数据。规模依据：A 轮级别（小）。,智能体记忆/长程对话评测与数据,13
+AfterQuery,人类数据/专家网络,小,美国,afterquery.com,美国训练数据初创；Forbes 调查称与蚂蚁集团关系密切、与阿里巴巴有采购协议。规模依据：早期初创（小）。,专家数据、训练数据集,13
+Irregular,评测,小,以色列/美国,irregular.com,前沿模型网络安全评测公司，出现在 OpenAI GPT-5 系统卡网络能力部分。规模依据：A 轮级别（小）。,网络攻防能力评测,13
+晴数智慧 Magic Data,人类数据/专家网络,中,中国·北京,https://www.magicdatatech.cn/,2023年更名，对话式AI数据集，称服务近300家客户,多轮对话、语音、座舱交互数据,13
+Haize Labs,评测,小,美国,haizelabs.com,自动化红队初创，OpenAI o1 外部测试方。规模依据：种子期（小）。,红队测试,12
+曼孚科技 MindFlow,标注平台,中,杭州,https://www.mindflow.com.cn,2025年7月B+++轮近亿元（嘉远资本），近三年累计融资超数亿元,自动驾驶3D/4D点云、大模型、具身智能,11
+标贝科技 DataBaker,综合,中,中国·北京,https://www.data-baker.com/,语音合成+AI数据服务，B2轮超亿元融资，称服务客户超3000家,语音合成/识别数据、语音大模型预训练数据,10
+Invisible Technologies,人类数据/专家网络/综合,大,美国,invisibletech.ai,RLHF 数据加企业 AI 服务；依据：2024 年收入 1.34 亿美元，2025.9 融资 1 亿美元、估值 20 亿美元以上,RLHF、多语言、企业智能体,10
+Centific,人类数据/综合/合成数据,中,美国,centific.com,AI 数据铸造平台；依据：2025.6 A 轮 6000 万美元,SFT/RLHF、红队、合成数据、多模态,10
+Proximal,RL 环境/评测,小,美国（SF）/印度（班加罗尔）,https://www.proximal.so/,Justus Mattern 等创立的编码数据研究实验室，构建长程编码 RL 环境并发布 FrontierSWE 基准。规模依据：种子轮金额未披露（Scribble Ventures 领投，多家前沿实验室员工天使），2026 年成立。,编码 RL 环境、长程编码基准,10
+Prolific,人类数据/专家网络,中,英国,prolific.com,在线被试/众包平台；Google DeepMind 在 Gemini 3 Pro 与 Gemma 2 报告中用于说服力/操纵能力人类实验；Ai2 MultiPref 亦用。规模依据：B 轮后、数十万参与者（中）。,人类被试研究、偏好标注,9
+数据堂 Datatang,综合,中,中国·北京（新三板831428，北交所IPO辅导验收2026-06）,https://www.datatang.com/,成品数据集+定制采集标注；2023年营收2.36亿元；2023年起不再披露客户名称（保密条款）,语音、自动驾驶、大模型SFT/安全数据、AI评测、具身智能,9
+星尘数据 Stardust,标注平台,中,北京/上海,https://stardust.ai,Rosetta标注平台与MorningStar数据闭环，2023年1月A轮5000万元（华映领投）,自动驾驶、大模型数据/benchmark、行业大模型,9
+Handshake AI,人类数据/专家网络,大,美国,joinhandshake.com/ai,校园招聘平台转型的专家数据业务；依据：2026.4 年化总收入约 11 亿美元，净收入约 4.5 亿美元，服务 8 家前沿实验室,学生/研究生/专家 RLHF 与评测,9
+HUD,RL 环境/评测,中,美国（旧金山）,https://www.hud.ai/,YC W25，开源 SDK+云平台构建 RL 环境与评测；2026 年 A 轮 1600 万美元（Standard Capital 领投），自称 50+ 企业用其构建并向 AI 实验室出售环境；约 15 人。,电脑使用 RL 环境/评测平台,9
+Apollo Research,评测,小,英国,apolloresearch.ai,非营利评测组织，为 OpenAI 评测 scheming/欺骗性对齐。规模依据：数十人（小）。,对齐/欺骗性评测,8
+倍赛 BasicFinder,标注平台,中,北京,https://www.basicfinder.com,北京深度搜索科技，B轮（2021东方嘉富领投）；2024-12媒体报道其被列被执行人,数据采集标注、大模型RLHF/蒸馏数据、智驾,8
+Labelbox,标注平台/人类数据/专家网络,大,美国,labelbox.com,标注平台加 Alignerr 专家网络；依据：2025.10 E 轮 1.1 亿美元、估值 10 亿美元,RLHF、专家评测、基准数据,8
+Innodata,人类数据/综合,大,美国（Nasdaq 上市）,innodata.com,上市 AI 数据工程公司；依据：2026 Q2 收入 9210 万美元；2025 年最大客户占收入 58%,大厂 LLM 数据、智能体 RL、RL 环境、联邦/Palantir,8
+Sama,标注平台/人类数据,中,美国/肯尼亚,sama.com,影响力外包起家的标注公司；依据：员工 5000 名以上标注员，服务 25% 的财富 50 强,CV 标注、生成式 AI 评测、红队,8
+Adaptive ML,综合,中,美国（纽约）/法国（巴黎）,https://www.adaptive-ml.com/,Falcon 团队（前 Hugging Face）创立的企业 RLOps 平台 Adaptive Engine，帮企业用 RL 微调开源小模型；2026-06 被 Datadog 收购。规模依据：2024-03 获 Index Ventures 领投 2000 万美元种子轮，估值约 1 亿美元，已被 Datadog 收购。,企业 RL 微调平台（RLOps）,8
+General Reasoning,RL 环境/评测,小,英国（伦敦）/美国实体,https://www.gr.inc/,Ross Taylor（前 Meta Galactica 负责人）创立的研究实验室，运营 OpenReward 开放 RL 环境平台（330+ 环境）与 ORS 标准。规模依据：2025-07 SEC Form D 显示约 1090 万美元股权融资。,开放 RL 环境平台与标准,8
+博登智能 Boden AI,综合,中,宁波,https://www.bodenai.com,2019年成立，2025年A轮亿元（国和投资）、2026年6月A+/A++数亿元,自动驾驶数据闭环、大模型、具身智能、医疗,7
+司南 OpenCompass,评测,大,中国（上海）,https://opencompass.org.cn/,上海人工智能实验室开源评测体系，设评测伙伴计划（非商业公司）,LLM/多模态评测工具链、行业评测集（金融、法律、医疗、安全）,7
+micro1,人类数据/专家网络,大,美国,micro1.ai,AI 面试招聘起家的专家数据平台；依据：2026.8 年化总收入 5 亿美元，2026.9 新一轮估值约 40 亿美元,专家 RLHF 数据、机器人数据,7
+Pareto.AI,人类数据/专家网络,中,美国,pareto.ai,精英标注员平台；依据：估算收入约 6100 万美元（Latka），融资约 1400 万美元,专家标注、对齐研究数据,7
+METR,评测,中,美国（加州伯克利）,https://metr.org,非营利机构，为 OpenAI、Anthropic 等做部署前自主能力/AI 研发风险评测，不收取实验室报酬；规模依据：近 6 个月募得约 $71M 捐赠承诺。,自主能力/时间跨度评测、前沿风险评估,7
+Applied Compute,综合,中,美国旧金山,https://www.appliedcompute.com/,前 OpenAI RL 研究员创办，为企业做定制 RL 后训练与部署（含 Nemotron）。规模：中，2026-04 以 $1.3B 估值融 $80M，洽谈 $3B+ 估值，年化收入约 $5000 万。,企业 RL 后训练,7
+UniPat AI,评测,大,中国（杭州/北京）,https://unipat.ai,2025年底成立，创始人李宽曾在阿里通义做后训练/数据合成/RL；设计贴近真实场景的评测与训练数据；2026年9月传阿里领投3亿美元、估值25亿美元,Agent/Computer-use 基准（SaaS-Bench、BabyVision 等）、后训练数据、预测智能,6
+希尔贝壳 AISHELL,人类数据/专家网络,小,北京,https://www.aishelltech.com,AISHELL系列开源中文语音数据集提供方,语音识别/合成数据,6
+Appen,人类数据/标注平台,大,澳大利亚（ASX 上市）,appen.com,老牌上市标注公司；依据：H1 FY26 收入 1.199 亿美元，其中中国业务 7620 万美元、年化超 1.75 亿美元,LLM 数据、搜索评估、多语言，中国业务增长最快,6
+SuperAnnotate,标注平台/人类数据,中,美国/亚美尼亚,superannotate.com,标注平台加专家服务；依据：2024.11 B 轮 3600 万美元，累计约 9800 万美元,LLM 评测、微调数据、智能体数据,6
+Datacurve,人类数据/专家网络/评测,中,美国（旧金山）,https://datacurve.ai/,YC W24 编码训练数据公司，通过 Shipd 悬赏平台收集数据；累计融资约 1770 万美元（2025-10 A 轮 1500 万美元，Chemistry 领投），2026-05 发布 DeepSWE 基准。,编码数据与评测,6
+Deeptune,RL 环境,中,美国（纽约）,https://deeptune.com/,纽约约 20 人团队，复刻 Excel/Salesforce/Slack 等企业应用的 RL 训练环境；2026-03 a16z 领投 4300 万美元 A 轮，2026-07 被 Mercor（估值 100 亿美元）收购。,企业工作流 RL 环境,6
+Collinear AI,RL 环境/合成数据/评测,中,美国（Sunnyvale/SF）,https://www.collinear.ai/,Nazneen Rajani（前 Hugging Face/Salesforce）2023 年创立的仿真实验室，构建企业工作流 RL 环境、verifier、合成后训练数据与红队评测。规模依据：融资额未公开（Tracxn 显示仅一轮），自称服务全球前四大 AI 实验室中的三家及 Amazon。,企业工作流仿真、RL 环境、AI 安全评测,6
+LMArena,评测/人类数据/专家网络,大,美国（旧金山湾区）,https://lmarena.ai,源自 UC Berkeley 的众包模型对战排行榜，2025-09 推出付费 AI Evaluations；规模依据：2026-01 $150M A 轮、估值 $1.7B，年化收入逾 $30M，月活 500 万。,众包偏好评测、排行榜,6
+Arga Labs,RL 环境,小,美国旧金山,https://www.argalabs.com/,为 Salesforce、Workday、Stripe、Slack 等企业软件构建全量“数字孪生”沙箱，用于训练/测试企业 AI 代理。规模：小，2026-08 获 General Catalyst 领投 $10M 种子，上线七周 MRR 约 $4 万。,企业软件数字孪生 / 代理沙箱,6
+Cua,RL 环境/评测,小,美国旧金山,https://cua.ai/,开源 computer-use 代理沙箱、SDK 与 Cua-Bench 基准，跨 OS 桌面舰队。规模：小，YC S25，$500K 种子，开源社区活跃。,计算机使用代理沙箱,6
+Andon Labs,评测/RL 环境,小,美国,andonlabs.com,YC 支持的 AI 安全初创，与 Anthropic 合作 Project Vend（真实小店经营智能体），Vending-Bench 作者。规模依据：团队很小（小）。,长程智能体真实世界评测,5
+Mechanize,RL 环境,小,美国,mechanize.work,2025年由前 Epoch AI 研究员创立，为 Anthropic 等构建编码类 RL 环境；主张高价高质量任务。规模依据：种子期小团队（小）。,编码 RL 环境与评测,5
+整数智能 MolarData,综合,中,杭州,https://www.molardata.com,源自浙大计算机创新技术研究院，2024年8月A轮数千万元（峰瑞领投），称合作客户1000余家；Abaka AI 疑为其海外品牌（两者宣传用语、海外办公室一致，未确认）,智能驾驶4D标注、生成式AI、具身智能,5
+智能知识,人类数据/专家网络,小,中国,https://meetchances.com/,核心团队来自字节Seed；一面千识专家平台5万+专家，2026年6月获锦秋、耀途天使轮，自称已获头部大模型公司订单,Coding、企业办公（GDPVal类）、Agentic Tool Use、AI4Math/Science 专家数据；Xpert Studio 数据生产软件,5
+Encord,标注平台,中,英国/美国,encord.com,多模态数据平台；依据：2026.2 C 轮 6000 万美元,物理 AI、视频、传感器数据,5
+Veris AI,RL 环境/评测,小,美国（纽约）,https://veris.ai/,企业 agent 模拟训练与测试平台；2025-06 种子轮 850 万美元（Decibel、Acrew 领投），公开案例仅提及一家未具名制造商。,企业 agent 模拟环境,5
+BenchFlow,RL 环境/评测,小,美国旧金山,https://github.com/benchflow-ai/benchflow,通用环境/基准运行框架（SkillsBench 等），用于 RL 环境、后训练与评测。规模：小，2025-01 $1M 种子，团队极小。,代码/代理基准与环境框架,5
+景联文科技,人类数据/专家网络,中,杭州,https://www.jinglianwen.com,2012年成立，2025年5月Pre-A数千万元（杭州金投），称3亿道题库、专家级标注,公共数据、大模型、自动驾驶、医疗,4
+TELUS Digital,人类数据/标注平台/综合,大,加拿大（2025.10 被 TELUS 全资私有化）,telusdigital.com,BPO 加 AI 数据服务；依据：TELUS 2025 年 AI 相关业务收入约 8 亿加元，AI 社区超 100 万贡献者,搜索评估、RLHF、推理链数据,4
+iMerit,标注平台/人类数据/专家网络,中,美国/印度,imerit.ai,标注与专家网络；依据：2026.6 EXL 宣布以最高 3.1 亿美元收购,自动驾驶、医疗、生成式 AI 专家数据,4
+Halluminate,RL 环境/评测/人类数据/专家网络,小,美国（旧金山）,https://www.halluminate.ai/,YC S25，2024 年创立，面向电脑使用/浏览器 agent 的沙盒环境与基准（WebBench、Westworld），2026 年转向金融服务 RL 环境；融资未官宣（目录称约 16 万–50 万美元）。,金融服务 RL 环境/浏览器 agent 基准,4
+Fleet,RL 环境,中,美国（旧金山/纽约）,https://www.fleetai.com/,2024 年创立，复刻 Salesforce、Excel 等企业软件的 RL 环境；此前股权融资 1500 万美元（Sequoia、Menlo、SV Angel），2026-04 据 The Information 洽谈由 Bain Capital Ventures 领投 5000 万美元、估值约 7.5 亿美元，年化收入约 6000 万美元；约 40 人。,企业软件/电脑使用 RL 环境,4
+hillclimb,RL 环境/人类数据/专家网络,小,美国旧金山,https://www.hillclimb.com/,聚集 IMO 奖牌得主与 Putnam 高手构建数学 RL 环境，与 Nous Research 合训 Nomos 1。规模：小，YC F25，约 4 人，种子约 $1M。,数学 RL 环境 / Lean 形式化,4
+Poindexter Labs,人类数据/专家网络,小,英国伦敦,https://www.poindexterlabs.ai/,以学术同行评审结构生产专家推理数据，此前经中间商供数，2026-05 首签头部实验室直签合同。规模：小，自举至 £1.6M 收入后获 £2M 种子。,数学/科学/法律/医学专家推理数据,4
+Epoch AI,评测,小,美国,epoch.ai,非营利研究机构，受 OpenAI 委托出资编写 FrontierMath（OpenAI 拥有题目）。规模依据：几十人研究机构（小）。,数学基准、评测委托,3
+库帕思 Kupas,合成数据,中,中国·上海,未知,2024年成立，上海联和牵头的首家AI语料公司，输出成品语料约200TB,语料生产与供给,3
+热热数据,标注平台,小,中国,https://www.reredata.com/,汇洲智能子公司，2024年营收5140万元，公司称对营收贡献小,数据采集标注、内容审核,3
+Uber AI Solutions,标注平台/人类数据,大,美国（Uber 事业部）,uber.com/ai-solutions,Uber 对外数据服务；依据：母公司为上市公司，平台 1000 万以上贡献者，企业客户 50 家以上，2025.10 收购 Segments.ai,自动驾驶/多传感器标注、生成式 AI 数据、本地化,3
+Matrices,RL 环境,小,美国（旧金山）,未知,面向电脑使用/浏览器 agent 的 RL 训练环境（“游戏化互联网复刻”）；种子轮约 500 万美元（Index Ventures）。,浏览器/电脑使用 RL 环境,3
+Sepal AI,人类数据/专家网络/评测/RL 环境,小,美国（SF）,https://www.ycombinator.com/companies/sepal-ai,YC 孵化的数据研发公司（前 Vercel/Turing 成员创立），做专家基准、评测与 RL 环境；2026-02 被 Mercor 收购。规模依据：2024-09 种子轮约 50 万美元（YC 等），已被 Mercor 收购。,专家数据、基准评测、RL 环境,3
+Refresh,RL 环境,小,美国（SF）,https://www.ycombinator.com/companies/refresh,YC X25 公司，将真实工作流转化为编码与 computer-use 训练 gym，自称与前沿实验室合作。规模依据：YC 批次公司，融资额未公开。,编码/computer-use RL 环境,3
+Huzzle Labs,RL 环境/人类数据/专家网络/评测,小,英国伦敦,https://labs.huzzle.com/,为前沿实验室与欧洲受监管企业构建长时程 RL 环境、专家轨迹与评测。规模：小，累计融资约 $6M，Labs 部门约 30 人。,企业工作流 RL 环境 / 专家轨迹,3
+Spirit Airlines,,,,,,,3
+GlobalLogic,人类数据/专家网络,大,美国/全球,globallogic.com,日立旗下外包公司，多年为 Google 提供 Gemini 'super raters'（硕博评分员）。规模依据：日立子公司、员工数万。,模型回答评分、事实性评估,2
+Flitto,人类数据/专家网络/标注平台,中,韩国,flitto.com,韩国 KOSDAQ 上市语言数据公司；Upstage 主权 AI 联合体中负责数据集构建，Solar Open 2 报告致谢。规模依据：上市小盘股（中）。,韩语/多语言语料、训练数据集构建,2
+SecureBio,评测,小,美国,securebio.org,非营利生物安全组织；为 OpenAI、Anthropic 提供病毒学能力测试（VCT）等生物风险评测。规模依据：非营利小团队（小）。,生物安全评测,2
+澳鹏中国 Appen China,综合,大,中国（Appen ASX:APX 子业务）,https://www.appendata.com/,2024年营收超4.2亿元（+71%），大模型/AIGC业务+526%；中国占集团收入约64%,LLM数据、图文对、专家数据（EliteAI）、医疗/具身标注平台,2
+百度智能云数据众包,标注平台,大,中国（全国12个标注基地）,https://zhongbao.baidu.com/,全国12个标注基地、超11000岗位，服务文心一言及外部客户,大模型RLHF、采集标注,2
+深圳数据交易所,其他,大,中国·深圳,https://www.szdex.com/,国家级数据交易所建设中；撮合全国首单语料场内交易；发放“语料券”,语料交易、可信数据空间,2
+北京国际大数据交易所,其他,大,中国·北京,https://www.bjidex.com/,发布首批约100个大模型高质量训练数据集，北京数据集团2025年揭牌整合北数所,语料/高质量数据集,2
+智源 FlagEval,评测,中,中国（北京）,https://flageval.baai.ac.cn/,北京智源研究院评测平台（非营利研究机构），“百模”评测,多模态评测、辩论评测、评测集共建,2
+xbench,评测,中,中国,https://www.hongshan.com/article/%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%88%91%E4%BB%AC%E6%8E%A8%E5%87%BAxbench/（官网未核实）,红杉中国推出的 Agent 评测基准（投资机构内部工具，非商业服务商）,Agent 生产力评测、招聘/营销职业对齐评测、月报,2
+Deccan AI,人类数据/专家网络/RL 环境,小,美国/印度,deccan.ai,印度专家网络后训练数据；依据：2024.10 成立，2026.3 A 轮 2500 万美元，约 125 人,后训练数据、评测、RL,2
+Preference Model,RL 环境,小,美国（SF）,https://www.preferencemodel.com/,创始团队来自 Anthropic、Stripe、Datology，为前沿实验室构建 ML 研究类 RL 环境，闭源独家供给。规模依据：种子阶段，少于 20 人，仅服务 1–3 家客户（SemiAnalysis 转述）。,ML 研究任务 RL 环境,2
+Calaveras,RL 环境/合成数据,小,美国（SF）,https://calaveras.ai/,提供代码预训练数据集与 STEM/白领任务 RL 环境，自称代码数据卖给头部六家中的四家 AI 公司。规模依据：融资与人数均未公开，按公开信息推断为小型公司。,代码预训练数据、STEM/白领 RL 环境,2
+Vmax,RL 环境,小,美国（SF）,https://vmax.ai/,UCL/UPenn RL 博士 2025 年创立，将企业专有数据与评测自动转换为 RL 环境，发布 unix-ctf。规模依据：约 11 人，Race Capital 与 South Park Commons 投资，金额未公开。,专有数据转 RL 环境、编码/长程任务,2
+Good Start Labs,RL 环境,小,美国布鲁克林,https://goodstartlabs.com/,Every 分拆，基于游戏（AI Diplomacy 等）构建 RL 环境并向前沿实验室出售代理轨迹数据。规模：小，融资约 $3.6M。,游戏类多智能体 RL 环境,2
+Translated,标注平台/人类数据/专家网络,中,意大利,translated.com,意大利翻译与语言数据公司；NVIDIA HelpSteer3 多语言子集标注方。规模依据：老牌私营翻译公司、员工数百人（中）。,多语言标注、翻译、偏好数据,1
+DataForce,标注平台/人类数据/专家网络,大,美国,dataforce.ai,TransPerfect 旗下 AI 数据业务；IBM Granite Guardian 人工标注合作方。规模依据：母公司 TransPerfect 为全球最大语言服务商之一。,多语言标注、安全/风险标注,1
+TransPerfect,标注平台/人类数据/专家网络,大,美国,transperfect.com,语言服务巨头，巴塞罗那约200人为 Apple Intelligence 做回答标注（Politico 报道）。规模依据：年收入十亿美元级。,多语言回答评分、指南执行,1
+Signature Science,评测,中,美国,signaturescience.com,政府科技承包商；与 Deloitte 共建 Anthropic 长程病毒学 CBRN 评测。规模依据：中型政府承包商（中）。,生物/化学风险评测,1
+Deloitte,评测,大,全球,deloitte.com,咨询巨头，参与 Anthropic CBRN 长程病毒学任务评测共建。规模依据：四大会计师事务所。,CBRN 评测、咨询,1
+Virtue AI,评测,小,美国,virtueai.com,AI 安全评测初创，OpenAI o1 外部测试方。规模依据：早期初创（小）。,安全评测,1
+Faculty,评测/综合,中,英国,faculty.ai,英国 AI 公司，OpenAI o1 外部测试方。规模依据：员工数百（中）。,红队与安全评测,1
+CrowdStrike,评测,大,美国,crowdstrike.com,网络安全上市公司，与 Meta 共建 CyberSOCEval 网络安全评测基准。规模依据：纳斯达克上市。,安全运营类评测基准,1
+Upwork,人类数据/专家网络,大,美国,upwork.com,自由职业平台，Anthropic 早期 HH-RLHF 数据来源之一，Ai2 等研究也常用。规模依据：纳斯达克上市。,按小时雇佣高质量众包,1
+Gretel,合成数据,中,美国,gretel.ai,合成数据公司，2025年3月被 NVIDIA 以九位数收购，其 Data Designer 生成 Nemotron-Personas。规模依据：被收购前估值3.2亿美元（中）。,合成数据生成,1
+Copula Lab,RL 环境,小,中国（上海）,https://www.copulalab.com/,2026年成立，创始团队来自MiniMax（Agent业务与内部评测、M2编码后训练）；首轮融资估值数千万美元,专家工作流 SFT 数据、RL 环境（长程多轮任务+评分函数）、经济任务基准、Bad Pattern 数据,1
+SuperCLUE,评测,小,中国,https://www.superclueai.com/,中文大模型第三方评测基准，月度榜单，并提供企业POC/行业测评,通用/Agent/RAG/金融/汽车等行业评测,1
+京东众智,标注平台,中,中国·北京,https://biao.jd.com/,京东内部众智标注平台，服务言犀等内部大模型及外部客户,电商、CV、NLP标注,1
+上海数据交易所,其他,大,中国·上海,https://www.chinadep.com/,语料专区，2024年交易额超50亿元，挂牌产品超5000个,语料交易,1
+云测数据 Testin Data,标注平台,大,北京,https://ai.testin.cn,Testin云测（2011年成立，C轮3000万美元）旗下AI数据品牌，提供采集标注、数据集与标注平台,智能驾驶、智慧城市、智能家居、金融,1
+AGI-Eval,评测,中,中国,未核实（见 http://lmg.cipsc.org.cn/conference/lmg2025/sponsor/meituan/index.html）,美团联合上交、同济、华东师大、Datawhale 等发起的评测社区,代码/推理评测（OIBench、CoreCodeBench）、众包评测,1
+字节跳动,人类数据/专家网络,大,中国,https://xpert.bytedance.com/,字节自建大模型专家标注/评测平台（买方自建，作竞品参考）,金融、法律、医学、科研等专家标注与评测,1
+阿里巴巴,人类数据/专家网络,大,中国,https://www.siriser.com/siriser/home,阿里自建专家社区（买方自建，作竞品参考）,影视、法律、金融、通用复杂指令专家数据,1
+腾讯,人类数据/专家网络,大,中国,未找到官网,腾讯自建AI专家社区（仅见媒体报道）,垂直领域专家数据,1
+百度众测,标注平台,大,中国,https://test.baidu.com/,百度众测，1700万用户、5000专业标注员，千帆平台可直接下单,SFT、RM、模型评估标注，多领域专家库,1
+Welocalize,人类数据/标注平台,中,美国,welodata.ai,本地化公司的 AI 数据品牌；依据：专家社区超 50 万人,搜索评估、多语言 LLM 评测,1
+TaskUs,人类数据/综合,大,美国（Nasdaq 上市）,taskus.com,上市 BPO，AI 服务是增长最快的业务线；依据：2025 年 AI 服务占收入 18%,AI 数据服务、内容安全,1
+LXT,人类数据/标注平台,中,加拿大/德国,lxt.ai,2025 年收购 clickworker（600 万众包工）；依据：企业客户 500 家以上,数据采集、RLHF、多语言,1
+RWS TrainAI,人类数据/标注平台,中,英国（RWS 集团，LSE 上市）,rws.com/artificial-intelligence,本地化集团旗下 AI 数据业务，收入不单独披露,多语言微调、红队、领域专家,1
+Andromede,RL 环境,小,瑞士（洛桑）,https://andromede.ai/,2025 年成立的 RL 数据实验室，从真实数据程序化生成长程任务环境、任务与 verifier，处于私测阶段。规模依据：早期阶段，Unusual Ventures 支持（第三方转述），金额未公开。,长程推理 RL 环境生成,1
+Sciloop,人类数据/专家网络/评测,小,美国旧金山,https://www.sciloop.dev/,IPhO/IMO 奖牌得主出题，向 AI 实验室出售前沿模型做不出的数理难题数据与基准。规模：小，YC F25，约 6 人，未披露客户名。,奥赛级 STEM 推理数据,1
+中文在线,其他,中,中国·北京（300364）,https://www.chineseall.com/,称与众多头部大模型企业签约语料授权（未具名）,网文/出版语料,0
+上海数据集团,其他,大,中国·上海,未知,未检索到命名模型公司的公开合作,公共数据运营,0
+慧听科技,人类数据/专家网络,小,北京,https://pitchhub.36kr.com/project/2114431354068870,语音与文本数据生产服务商（公开信息少）,语音识别、语音合成、语料文本,0
+CloudFactory,标注平台/人类数据,中,英国/尼泊尔,cloudfactory.com,托管标注工作团队；依据：老牌中型 BPO 式标注商，已收购 Dataloop,CV/文本标注、企业 AI,0
+Revelo,人类数据/专家网络/RL 环境,中,美国/拉美,revelo.com,拉美工程师网络转型做代码后训练数据；依据：B 轮，累计融资 4600 万美元，开发者 40 万以上,代码 SFT/RLHF/DPO、代码基准、RL gym,0
+Defined.ai,人类数据/标注平台,中,美国/葡萄牙,defined.ai,AI 数据市场；依据：2025 年收入增长 65%，NRR 143%,数据集授权、语音/多模态数据,0
+Plato,RL 环境,小,美国（旧金山）,https://plato.so/,2025 年创立，为浏览器/电脑使用 agent 构建模拟网站与桌面的 RL 环境；约 10 人，仅披露 Pre-Seed（金额未公开）。,浏览器/电脑使用模拟环境,0
+Habitat,RL 环境,小,美国（纽约）,未知,纽约早期 RL 环境供应商，聚焦白领工作自动化的代码与桌面（computer-use）环境。规模依据：2–10 人，未见公开融资或客户信息。,代码与 computer-use RL 环境,0
+Realset AI / Flatkey,人类数据/专家网络/RL 环境,小,美国,https://www.prnewswire.com/news-releases/realset-ai-and-flatkey-raise-10m-series-a-to-build-real-world-training-data-for-frontier-models-and-embodied-agents-302887825.html,Realset 采集真实工作场所专家演示、构建真实工作流 RL 环境与具身数据；Flatkey 为模型 API 聚合平台。规模：小，2026-09 联合宣布 $10M A 轮，未披露客户名。,真实世界演示/具身数据,0
