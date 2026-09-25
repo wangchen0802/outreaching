@@ -1,0 +1,24 @@
+供应商,类型,规模,地区,官网,简介,主要领域,收录声明数
+Translated,标注平台/人类数据/专家网络,中,意大利,translated.com,意大利翻译与语言数据公司；NVIDIA HelpSteer3 多语言子集标注方。规模依据：老牌私营翻译公司、员工数百人（中）。,多语言标注、翻译、偏好数据,1
+DataForce（TransPerfect）,标注平台/人类数据/专家网络,大,美国,dataforce.ai,TransPerfect 旗下 AI 数据业务；IBM Granite Guardian 人工标注合作方。规模依据：母公司 TransPerfect 为全球最大语言服务商之一。,多语言标注、安全/风险标注,1
+TransPerfect,标注平台/人类数据/专家网络,大,美国,transperfect.com,语言服务巨头，巴塞罗那约200人为 Apple Intelligence 做回答标注（Politico 报道）。规模依据：年收入十亿美元级。,多语言回答评分、指南执行,1
+GlobalLogic（日立）,人类数据/专家网络,大,美国/全球,globallogic.com,日立旗下外包公司，多年为 Google 提供 Gemini 'super raters'（硕博评分员）。规模依据：日立子公司、员工数万。,模型回答评分、事实性评估,2
+Prolific,人类数据/专家网络,中,英国,prolific.com,在线被试/众包平台；Google DeepMind 在 Gemini 3 Pro 与 Gemma 2 报告中用于说服力/操纵能力人类实验；Ai2 MultiPref 亦用。规模依据：B 轮后、数十万参与者（中）。,人类被试研究、偏好标注,2
+Flitto,人类数据/专家网络/标注平台,中,韩国,flitto.com,韩国 KOSDAQ 上市语言数据公司；Upstage 主权 AI 联合体中负责数据集构建，Solar Open 2 报告致谢。规模依据：上市小盘股（中）。,韩语/多语言语料、训练数据集构建,2
+Patronus AI,评测/人类数据/专家网络,小,美国,patronus.ai,LLM 评测初创；据第三方对 NVIDIA 数据卡的分析，以外部供应商协议为 Nemotron 提供'对话记忆'定制数据。规模依据：A 轮级别（小）。,智能体记忆/长程对话评测与数据,1
+Andon Labs,评测/RL 环境,小,美国,andonlabs.com,YC 支持的 AI 安全初创，与 Anthropic 合作 Project Vend（真实小店经营智能体），Vending-Bench 作者。规模依据：团队很小（小）。,长程智能体真实世界评测,1
+AfterQuery,人类数据/专家网络,小,美国,afterquery.com,美国训练数据初创；Forbes 调查称与蚂蚁集团关系密切、与阿里巴巴有采购协议。规模依据：早期初创（小）。,专家数据、训练数据集,2
+Mechanize,RL 环境,小,美国,mechanize.work,2025年由前 Epoch AI 研究员创立，为 Anthropic 等构建编码类 RL 环境；主张高价高质量任务。规模依据：种子期小团队（小）。,编码 RL 环境与评测,1
+Epoch AI,评测,小,美国,epoch.ai,非营利研究机构，受 OpenAI 委托出资编写 FrontierMath（OpenAI 拥有题目）。规模依据：几十人研究机构（小）。,数学基准、评测委托,1
+Signature Science,评测,中,美国,signaturescience.com,政府科技承包商；与 Deloitte 共建 Anthropic 长程病毒学 CBRN 评测。规模依据：中型政府承包商（中）。,生物/化学风险评测,1
+Deloitte,评测,大,全球,deloitte.com,咨询巨头，参与 Anthropic CBRN 长程病毒学任务评测共建。规模依据：四大会计师事务所。,CBRN 评测、咨询,1
+SecureBio,评测,小,美国,securebio.org,非营利生物安全组织；为 OpenAI、Anthropic 提供病毒学能力测试（VCT）等生物风险评测。规模依据：非营利小团队（小）。,生物安全评测,2
+Gray Swan AI,评测,小,美国,grayswan.ai,红队/越狱竞技场初创，OpenAI 系统卡外部红队。规模依据：早期初创（小）。,越狱红队、安全评测,1
+Haize Labs,评测,小,美国,haizelabs.com,自动化红队初创，OpenAI o1 外部测试方。规模依据：种子期（小）。,红队测试,1
+Virtue AI,评测,小,美国,virtueai.com,AI 安全评测初创，OpenAI o1 外部测试方。规模依据：早期初创（小）。,安全评测,1
+Irregular（原 Pattern Labs）,评测,小,以色列/美国,irregular.com,前沿模型网络安全评测公司，出现在 OpenAI GPT-5 系统卡网络能力部分。规模依据：A 轮级别（小）。,网络攻防能力评测,1
+Faculty,评测/综合,中,英国,faculty.ai,英国 AI 公司，OpenAI o1 外部测试方。规模依据：员工数百（中）。,红队与安全评测,1
+Apollo Research,评测,小,英国,apolloresearch.ai,非营利评测组织，为 OpenAI 评测 scheming/欺骗性对齐。规模依据：数十人（小）。,对齐/欺骗性评测,1
+CrowdStrike,评测,大,美国,crowdstrike.com,网络安全上市公司，与 Meta 共建 CyberSOCEval 网络安全评测基准。规模依据：纳斯达克上市。,安全运营类评测基准,1
+Upwork,人类数据/专家网络,大,美国,upwork.com,自由职业平台，Anthropic 早期 HH-RLHF 数据来源之一，Ai2 等研究也常用。规模依据：纳斯达克上市。,按小时雇佣高质量众包,1
+Gretel,合成数据,中,美国,gretel.ai,合成数据公司，2025年3月被 NVIDIA 以九位数收购，其 Data Designer 生成 Nemotron-Personas。规模依据：被收购前估值3.2亿美元（中）。,合成数据生成,1
