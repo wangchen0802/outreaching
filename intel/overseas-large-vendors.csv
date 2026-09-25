@@ -1,0 +1,31 @@
+供应商,类型,规模,地区,官网,简介,主要领域,收录声明数
+Scale AI（含 Outlier、Remotasks）,人类数据/专家网络/标注平台/评测/综合,大,美国,scale.com,数据标注与后训练数据龙头；依据：2025.6 Meta 以 143 亿美元购入 49% 股权、估值约 290 亿美元；2026 年收入预计约 10 亿美元，之后多家实验室减少合作，重心转向政府与企业,RLHF/SFT 数据、评测（SEAL/HLE）、国防与主权 AI,17
+Surge AI（含 DataAnnotation）,人类数据/专家网络/RL 环境,大,美国,surgehq.ai,自举起家的 RLHF 数据公司；依据：2024 年收入约 12 亿美元，2025 年 ARR 约 14 亿美元，估值 150–250 亿美元,RLHF、专家偏好数据、RL 环境、基准（AdvancedIF、EnterpriseBench）,11
+Mercor,人类数据/专家网络/RL 环境/评测,大,美国,mercor.com,专家网络（律师、医生、银行家等）；依据：2025.10 C 轮估值 100 亿美元，2026.6 年化总收入 20 亿美元，Nvidia 洽谈以 200 亿美元估值入股,专业领域专家数据、RL 环境、APEX 评测,12
+Turing,人类数据/专家网络/RL 环境,大,美国,turing.com,从远程工程师外包转型为实验室研究加速器；依据：2025.3 E 轮估值 22 亿美元，2024 年 ARR 约 3 亿美元,代码/STEM 数据、RL 环境、评测,5
+Handshake AI,人类数据/专家网络,大,美国,joinhandshake.com/ai,校园招聘平台转型的专家数据业务；依据：2026.4 年化总收入约 11 亿美元，净收入约 4.5 亿美元，服务 8 家前沿实验室,学生/研究生/专家 RLHF 与评测,4
+Invisible Technologies,人类数据/专家网络/综合,大,美国,invisibletech.ai,RLHF 数据加企业 AI 服务；依据：2024 年收入 1.34 亿美元，2025.9 融资 1 亿美元、估值 20 亿美元以上,RLHF、多语言、企业智能体,3
+micro1,人类数据/专家网络,大,美国,micro1.ai,AI 面试招聘起家的专家数据平台；依据：2026.8 年化总收入 5 亿美元，2026.9 新一轮估值约 40 亿美元,专家 RLHF 数据、机器人数据,3
+Snorkel AI,人类数据/专家网络/评测/标注平台,大,美国,snorkel.ai,程序化标注平台转型的专家数据工厂；依据：2026.9 E 轮 3.5 亿美元、估值 35 亿美元，ARR 3.75 亿美元,专家数据、智能体评测基准、金融/保险/法律,3
+Labelbox（含 Alignerr）,标注平台/人类数据/专家网络,大,美国,labelbox.com,标注平台加 Alignerr 专家网络；依据：2025.10 E 轮 1.1 亿美元、估值 10 亿美元,RLHF、专家评测、基准数据,5
+Toloka,人类数据/专家网络/评测,中,荷兰（原 Yandex 旗下，Nebius 控股）,toloka.ai,众包起家，转向专家数据与智能体评测；依据：2025.5 获 Bezos Expeditions 领投 7200 万美元,安全评测、红队、智能体环境（Toloka Arena、Tendem）,3
+Appen,人类数据/标注平台,大,澳大利亚（ASX 上市）,appen.com,老牌上市标注公司；依据：H1 FY26 收入 1.199 亿美元，其中中国业务 7620 万美元、年化超 1.75 亿美元,LLM 数据、搜索评估、多语言，中国业务增长最快,6
+TELUS Digital（含原 Lionbridge AI）,人类数据/标注平台/综合,大,加拿大（2025.10 被 TELUS 全资私有化）,telusdigital.com,BPO 加 AI 数据服务；依据：TELUS 2025 年 AI 相关业务收入约 8 亿加元，AI 社区超 100 万贡献者,搜索评估、RLHF、推理链数据,4
+Innodata,人类数据/综合,大,美国（Nasdaq 上市）,innodata.com,上市 AI 数据工程公司；依据：2026 Q2 收入 9210 万美元；2025 年最大客户占收入 58%,大厂 LLM 数据、智能体 RL、RL 环境、联邦/Palantir,7
+Sama,标注平台/人类数据,中,美国/肯尼亚,sama.com,影响力外包起家的标注公司；依据：员工 5000 名以上标注员，服务 25% 的财富 50 强,CV 标注、生成式 AI 评测、红队,3
+iMerit（含 Scholars）,标注平台/人类数据/专家网络,中,美国/印度,imerit.ai,标注与专家网络；依据：2026.6 EXL 宣布以最高 3.1 亿美元收购,自动驾驶、医疗、生成式 AI 专家数据,2
+Prolific,人类数据/评测,中,英国,prolific.com,学术被试平台转向 AI 评测；依据：2026.4 年化收入约 3.5 亿美元（Sacra）,人类评测、RLHF、HUMAINE 排行榜,3
+Uber AI Solutions,标注平台/人类数据,大,美国（Uber 事业部）,uber.com/ai-solutions,Uber 对外数据服务；依据：母公司为上市公司，平台 1000 万以上贡献者，企业客户 50 家以上，2025.10 收购 Segments.ai,自动驾驶/多传感器标注、生成式 AI 数据、本地化,2
+Centific,人类数据/综合/合成数据,中,美国,centific.com,AI 数据铸造平台；依据：2025.6 A 轮 6000 万美元,SFT/RLHF、红队、合成数据、多模态,1
+Welocalize（Welo Data）,人类数据/标注平台,中,美国,welodata.ai,本地化公司的 AI 数据品牌；依据：专家社区超 50 万人,搜索评估、多语言 LLM 评测,1
+CloudFactory,标注平台/人类数据,中,英国/尼泊尔,cloudfactory.com,托管标注工作团队；依据：老牌中型 BPO 式标注商，已收购 Dataloop,CV/文本标注、企业 AI,0
+Revelo,人类数据/专家网络/RL 环境,中,美国/拉美,revelo.com,拉美工程师网络转型做代码后训练数据；依据：B 轮，累计融资 4600 万美元，开发者 40 万以上,代码 SFT/RLHF/DPO、代码基准、RL gym,0
+SuperAnnotate,标注平台/人类数据,中,美国/亚美尼亚,superannotate.com,标注平台加专家服务；依据：2024.11 B 轮 3600 万美元，累计约 9800 万美元,LLM 评测、微调数据、智能体数据,2
+Encord,标注平台,中,英国/美国,encord.com,多模态数据平台；依据：2026.2 C 轮 6000 万美元,物理 AI、视频、传感器数据,1
+Defined.ai,人类数据/标注平台,中,美国/葡萄牙,defined.ai,AI 数据市场；依据：2025 年收入增长 65%，NRR 143%,数据集授权、语音/多模态数据,0
+Pareto.AI,人类数据/专家网络,中,美国,pareto.ai,精英标注员平台；依据：估算收入约 6100 万美元（Latka），融资约 1400 万美元,专家标注、对齐研究数据,2
+Deccan AI,人类数据/专家网络/RL 环境,小,美国/印度,deccan.ai,印度专家网络后训练数据；依据：2024.10 成立，2026.3 A 轮 2500 万美元，约 125 人,后训练数据、评测、RL,1
+TaskUs,人类数据/综合,大,美国（Nasdaq 上市）,taskus.com,上市 BPO，AI 服务是增长最快的业务线；依据：2025 年 AI 服务占收入 18%,AI 数据服务、内容安全,1
+LXT（含 clickworker）,人类数据/标注平台,中,加拿大/德国,lxt.ai,2025 年收购 clickworker（600 万众包工）；依据：企业客户 500 家以上,数据采集、RLHF、多语言,1
+RWS TrainAI,人类数据/标注平台,中,英国（RWS 集团，LSE 上市）,rws.com/artificial-intelligence,本地化集团旗下 AI 数据业务，收入不单独披露,多语言微调、红队、领域专家,1
+AfterQuery,人类数据/专家网络,小,美国,afterquery.com,专家数据小公司；本分段只因 Forbes 报道中国客户而收录,专家数据集,2
