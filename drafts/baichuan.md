@@ -2,11 +2,13 @@
 
 - 类别：垂直 AI（医疗）｜地区：国内（北京）
 - 收件人：**鞠强（Qiang Ju）**，模型技术负责人。2026-01 的媒体采访里由他解释百川怎么把医学事实一致性放进强化学习；M3、M4 技术报告的作者名单里都有 "Qiang Ju"
-- 置信度：中。"模型技术负责人"来自 2026-01 的媒体报道（搜索摘要，未读原文）。M3 README 的作者名单（已读原文）和 M4 的 arXiv 作者名单（GitHub 上的 arXiv 订阅镜像，已读）都有 "Qiang Ju"，说明他到 2026-06 仍在职。"鞠强 = Qiang Ju"是按拼音对应的，没有直接出处。两份作者名单都按名字字母排序，看不出谁牵头后训练。
+- 置信度：中。"模型技术负责人"这个头衔有四家媒体在 2026-01 的报道里用过（腾讯新闻、36氪、界面/新浪、知乎转载，都是搜索摘要，原文在本环境打不开）；据报道他在 M3 发布时和王小川一起出面，并说百川约 80% 的算力投在强化学习相关训练上。2026-05 M4 发布的报道里也有他（搜狐，搜索摘要）。M3 README 的作者名单（已读原文）和 M4 的 arXiv 作者名单都有 "Qiang Ju"，说明他到 2026-06 仍在职。"鞠强 = Qiang Ju"仍然只是按拼音对应，本次专门搜索也没有找到同时写出中英文名的出处。两份作者名单都按名字字母排序，看不出谁牵头后训练。
 - 来源：
   - 腾讯新闻（2026-01-14，搜索摘要）：https://news.qq.com/rain/a/20260114A02D2L00 ；同题文章 36氪：https://36kr.com/p/3638614683487360
+  - 腾讯新闻（2026-01-13，搜索摘要）：https://view.inews.qq.com/a/20260113A06A5000 ；界面新闻 / 新浪科技（2026-01-14，搜索摘要）：https://finance.sina.com.cn/tech/roll/2026-01-14/doc-inhhfrsv5195131.shtml
+  - M4 发布报道（搜狐，2026-05，搜索摘要）：https://www.sohu.com/a/1027948979_211762
   - M3 作者名单：https://github.com/baichuan-inc/Baichuan-M3-235B
-  - M4 作者名单（arXiv 订阅镜像）：https://github.com/sifted-network/sifted-awesome-ai-agents/blob/main/feed-entries/2026-06-10/arxiv-cs-ai.md ；论文：https://arxiv.org/abs/2606.08982
+  - M4 作者名单：https://arxiv.org/abs/2606.08982 （HTML 版 https://arxiv.org/html/2606.08982v2 ）。arXiv 在本环境打不开，作者名单当时读的是 GitHub 上的 arXiv 订阅副本（副本，非原始出处）：https://github.com/sifted-network/sifted-awesome-ai-agents/blob/main/feed-entries/2026-06-10/arxiv-cs-ai.md
 - 备选：
   - **王小川**，创始人兼 CEO，只作为兜底（M3 作者名单里有 "Xiaochuan Wang"）：https://finance.sina.com.cn/tech/2026-05-26/doc-inhzezks9075156.shtml
 - 后训练 / 数据 / 医学标注负责人：**未找到**。
@@ -49,11 +51,11 @@
 **风险**
 - 自有医生资源很强：有 150 多位医生参与的自建评测、上百位三甲专家做标注，还和清华合作。M4 的线上自进化闭环也会持续从真实用户和医生纠正里产出数据。外部数据的空间主要在新场景和留出评测。
 - 医疗数据合规：健康数据属于敏感个人信息，病例和对话数据基本不可能出境。专家需要有中国执业医师资质、熟悉国内指南。发送前请确认专家池里国内执业医生和药师的实际人数，不要夸大。
-- 实体清单：这次没能核实（搜索额度用完）。按已知情况百川没有被列入，但发送前请在 federalregister.gov 查一下。
-- 公司稳定性：2025 年有多位联合创始人离职和裁员的报道（离职来自训练知识；裁员见搜索摘要，日期未核实：https://innomd.com/article/c747496ce40dc4e41d7028334dab7739.html ）。业务已经收缩到医疗。
+- 实体清单：没有查到百川被列入的记录。2025-01 首次列入的大模型公司是智谱（C114、观察者网等报道）；百川相关的英文、中文搜索都没有列入的结果。CNBC 2026-06-17 报道，商务部自 2025-10 以后没有再新增实体清单条目，DeepSeek 等公司的列入被白宫暂缓：https://www.cnbc.com/2026/06/17/us-deepseek-blacklist-cxmt-national-security-risks-.html 。清单原文（federalregister.gov、ecfr.gov、trade.gov 的合并筛查清单）在本环境都打不开，发送前请再查一次。
+- 公司稳定性：据报道五位联合创始人已先后离职，包括 2025-03 离职的模型研发负责人陈炜鹏、2025-07 离职的技术联创谢剑；2026-07 最后一位联创茹立云也已离开，出任慧辰股份总裁（网易、观点网，搜索摘要）：https://www.163.com/dy/article/L21F7CF805118I96.html 、https://www.guandian.hk/article/20260717/574164.html 。裁员报道见搜索摘要，日期未核实：https://innomd.com/article/c747496ce40dc4e41d7028334dab7739.html 。业务已经收缩到医疗。
 - M4 闭源，技术细节只能看二手解读。
 
-**核实说明**：M2、M3 和 baichuan-mcp-servers 的 README 读的是原文。M4 技术报告（arXiv）在本环境打不开，技术细节来自 arXiv 页面的搜索摘要、GitHub 上的 arXiv 订阅镜像和第三方解读。联系人职务来自媒体报道的搜索摘要。本次会话的 WebSearch 额度在调研中途用完，没能专门搜索人员离职情况。
+**核实说明**：M2、M3 和 baichuan-mcp-servers 的 README 读的是原文。M4 技术报告（arXiv）在本环境打不开，技术细节来自 arXiv 页面的搜索摘要、GitHub 上的 arXiv 订阅副本和第三方解读。联系人职务来自媒体报道的搜索摘要。2026-09-25 复核：(1) 鞠强的头衔在 2026-01 的四个报道里一致，2026-05 M4 发布报道里仍有他，没有查到离职消息；"鞠强 = Qiang Ju"仍没有直接出处。(2) 开头一句的 SPAR++ "把奖励锚定到关键临床片段上"，在 arXiv HTML v2 和 alphaXiv 中文摘要两个搜索结果里都能对上，保留不改。(3) 实体清单：见风险一节，未查到列入。(4) 补了 2026-07 最后一位联创离职的报道。M4 作者名单的来源改为 arXiv 原始链接，GitHub 副本只作标注保留。
 
 ---
 

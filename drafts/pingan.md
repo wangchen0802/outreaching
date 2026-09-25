@@ -1,35 +1,36 @@
 # 中国平安 Ping An
 
 - 类别：金融机构 AI 团队｜地区：国内（深圳）
-- 收件人：**王晓航**，中国平安集团首席技术官（CTO）
-- 置信度：中。三个互相独立的来源都用这个头衔：财联社 2025-11-19 快讯（深圳金博会讲话）；华尔街见闻 2026-08-26 专访，标题是《对话平安集团CTO王晓航》；2026-09-22 云栖大会主论坛的第三方文字笔记。都是媒体或第三方来源，没有找到平安官网的页面。他下面 AI 团队的具体架构也没有查到。
+- 收件人：**王晓航**，中国平安集团首席技术官（CTO）兼平安科技总经理（2025-07-29 起任，前蚂蚁集团副总裁）
+- 置信度：中。任命见中国经济网和第一财经 2025-07-29 的报道；2026 年仍在任：每经 2026-04-22 专访、华尔街见闻 2026-08-26 专访（腾讯新闻、网易同文转载）、每经 2026-09-22 云栖大会报道都称他为平安集团 CTO（均为搜索摘要，原文在本环境打不开）。没有找到平安官网的页面。他下面 AI 团队的具体架构也没有查到。
 - 来源：
-  - 财联社快讯（2025-11-19，GitHub 新闻镜像，已读原文）：https://github.com/Jessica-Zhangyj/dlquant/blob/main/data/news/20251119.csv
-  - 华尔街见闻专访（2026-08-26，只看到标题，出现在新闻聚合快照里）：https://wallstreetcn.com/articles/3780330 、快照 https://github.com/bobkingdom/TrendRadar/blob/master/output/2026年08月26日/txt/19时24分.txt
-  - 2026 云栖大会主论坛笔记（第三方整理，已读原文）：https://github.com/loulanyue/awesome-claude-notes/blob/main/docs/zh-CN/keynotes/2026-yunqi-conference-keynote-transcript-and-notes.md
+  - 任命（2025-07-29）：https://www.yicai.com/news/102747417.html 、http://finance.ce.cn/insurance1/scrollnews/202507/t20250729_2424285.shtml
+  - 金博会"AI超级客服"（2025-11-19~21）：证券市场周刊 https://static.weeklyonstock.com/25/1121/qdy202324.html 、读特新闻 https://m.dutenews.com/n/article/10257215 （财联社快讯原文未找到单独链接；此前读的是 GitHub 上的转存副本：https://github.com/Jessica-Zhangyj/dlquant/blob/main/data/news/20251119.csv ）
+  - 每经专访（2026-04-22）：https://www.nbd.com.cn/articles/2026-04-22/4352737.html
+  - 华尔街见闻专访（2026-08-26）：https://wallstreetcn.com/articles/3780330 ；转载：https://news.qq.com/rain/a/20260826A08CSE00 、https://www.163.com/dy/article/L593AN8K05198NMR.html
+  - 2026 云栖大会演讲（2026-09-22）：每经 https://www.nbd.com.cn/articles/2026-09-22/4588645.html 、中华网 https://tech.china.com/articles/20260922/202609221961553.html
 - 备选：
-  - **何明科**，平安好医生首席执行官、执行董事，2025-10-07 起任，前百度副总裁；媒体称 AI "或成其撒手锏"（财联社 2025-10-10，新闻镜像，已读原文）：https://github.com/Jessica-Zhangyj/dlquant/blob/main/data/news/20251010.csv 。医疗方向可以找他。
-  - **肖京**，平安集团首席科学家。同济大学兼职教授页面写他"现任平安集团首席科学家，技术研究院院长"（页面无日期，读的是 GitHub 镜像）：https://cs.tongji.edu.cn/info/1062/2748.htm 。最近的其他来源是 2023-10 财联社和 2024-05 CCF 文章标题，没有找到 2025–2026 年的在职确认，置信度低。
-  - **Jianzong Wang**，平安科技（深圳）2026-09 论文 ProbPlug 的第一作者（已读论文原文）。职务和中文名都没有核实。
+  - **何明科**，平安好医生首席执行官、执行董事，2025-10-07 起任，前百度集团资深副总裁（财联社、21 世纪经济报道，搜索摘要）：https://www.cls.cn/detail/2163205 、https://www.21jingji.com/article/20251007/herald/bc72bcfcdda385f637e2ca0172814afd.html 。2026-04 仍以 CEO 身份接受采访，谈"AI+医健养"落地（新浪，搜索摘要）：https://finance.sina.com.cn/roll/2026-04-13/doc-inhuipif9775928.shtml 。医疗方向可以找他。
+  - **肖京**，平安集团首席科学家。同济大学兼职教授页面写他"现任平安集团首席科学家，技术研究院院长"（页面无日期）：https://cs.tongji.edu.cn/info/1062/2748.htm 。2025 年仍以首席科学家身份发声：21 世纪经济报道 2025-09-04（https://www.21jingji.com/article/20250904/herald/853758a15992796814bdbff319c76684.html ）、证券市场周刊 2025-11-24（https://static.weeklyonstock.com/25/1124/zbf140308.html ），平安官网管理团队页：https://www.pingan.cn/about/management-team.shtml （均为搜索摘要）。2026 年的确认没有查到，置信度中。
+  - **Jianzong Wang**，平安科技（深圳）2026-09 论文 ProbPlug 的第一作者（arXiv 2609.10122）。职务和中文名都没有核实。
 - 后训练 / 数据 / 标注负责人：**未找到**。平安科技的 AI 负责人也没有查到。
 - 称呼用"王总"。
 
 ## 调研备注
 
 **最近发布**
-- **2026 云栖大会主论坛**（2026-09-22）：王晓航讲《从Token到价值：平安之解》。唯一来源是 GitHub 上的第三方笔记，可能是 AI 整理的，以下数字都没有核实，发送前请看官方回放（https://yunqi.aliyun.com/2026/session?agendaId=232 ）确认：
-  - 过去一年日均 Token 消耗从 300 亿涨到 3000 亿以上，和阿里云联合做模型蒸馏和推理优化。
-  - 胃癌、乳腺癌等多学科诊疗中，AI 与三甲专家的结论一致性 91%，医学关键事实幻觉率 0.3% 以下；旗下到院问诊里 25% 的首接由 AI 医生负责。
-  - "一句话办事"4 个月覆盖 300 多项服务，复杂业务端到端解决率 92%。
-  - 集团内部 80% 的代码由 AI 编写或补全；产险反欺诈理赔智能体 2026 上半年减损 71.1 亿元。
+- **2026 云栖大会主论坛**（2026-09-22）：王晓航讲《从Token到价值：平安之解》。每经和中华网的报道能对上以下几点（搜索摘要）：https://www.nbd.com.cn/articles/2026-09-22/4588645.html 、https://tech.china.com/articles/20260922/202609221961553.html
+  - 算力从 800PF 扩到 1500PF，日均 Token 用量从去年底的 300 亿涨到 3000 亿以上，"2 倍投入撑起 10 倍增长"；单位算力 Token 产出提升 368%，单位 Token 成本下降 76%。
+  - "一句话办事"的 AI 快捷服务入口上线 4 个月，覆盖交易、融资、理赔等 300 多项高频服务，使用人次破亿。
+  - 此前 GitHub 上的第三方笔记（https://github.com/loulanyue/awesome-claude-notes/blob/main/docs/zh-CN/keynotes/2026-yunqi-conference-keynote-transcript-and-notes.md ）另有几项数字：和阿里云联合做模型蒸馏和推理优化；MDT 中 AI 与三甲专家结论一致性 91%、医学关键事实幻觉率 0.3% 以下、25% 的到院问诊由 AI 医生首接；复杂业务端到端解决率 92%；80% 代码由 AI 编写或补全；产险反欺诈减损 71.1 亿元。这些在媒体报道里没有核对到，发送前请看官方回放（https://yunqi.aliyun.com/2026/session?agendaId=232 ）。
 - **华尔街见闻专访**（2026-08-26）：《对话平安集团CTO王晓航：超前半步，中国平安的AI"务实主义"》，只看到标题：https://wallstreetcn.com/articles/3780330
-- **AI超级客服**：2025-11-19，王晓航在第十九届深圳国际金融博览会上说，平安集团在打造统一的 AI 入口"AI超级客服"，当时在内测（财联社）。格隆汇同日标题是"平安集团拟打造统一AI入口'AI超级客服'"：https://www.gelonghui.com/news/5120242 。一份 2026-01 的新闻摘要引用平安 2025 年度十大头条（2025-12-29），说平安推出了"AI超级客服""AI家庭医生"等三大服务，平安好医生发布了"7+N+1"AI 医疗矩阵（二手摘要）：https://github.com/bfeng7459-maker/bfeng7459-maker.github.com/blob/main/1769536874.html
+- **AI超级客服**：2025-11-19，王晓航在第十九届深圳国际金融博览会上说，平安集团在打造统一的 AI 入口"AI超级客服"，当时在内测（财联社）。格隆汇同日标题是"平安集团拟打造统一AI入口'AI超级客服'"：https://www.gelonghui.com/news/5120242 。一份 2026-01 的新闻摘要引用平安 2025 年度十大头条（2025-12-29），说平安推出了"AI超级客服""AI家庭医生"等三大服务，平安好医生发布了"7+N+1"AI 医疗矩阵（二手摘要，GitHub 副本：https://github.com/bfeng7459-maker/bfeng7459-maker.github.com/blob/main/1769536874.html ）。原始报道：三大服务见证券市场周刊 https://static.weeklyonstock.com/25/1124/zbf145159.html ；"7+N+1"实际是 2025-06 发布的（观察者网 https://www.guancha.cn/economy/2025_06_11_779025.shtml ）
 - **平安好医生换帅**（2025-10-07）：何明科任 CEO，平安集团联席 CEO 郭晓涛兼任董事会主席。
-- **ProbPlug 论文**（arXiv，2026-09 上线，作者单位是平安科技（深圳））：在冻结的 LLM 上加一个轻量模块，估计二分类输出的置信度，面向高风险场景部署，覆盖文本和多模态模型（已读原文，arXiv 镜像）：https://github.com/ZhangCurosr/zhangcursor-papers-arxiv-cl-001/tree/main/2026-09-10
+- **ProbPlug 论文**（arXiv，2026-09 上线，作者单位是平安科技（深圳））：在冻结的 LLM 上加一个轻量模块，估计二分类输出的置信度，面向高风险场景部署，覆盖文本和多模态模型：https://arxiv.org/abs/2609.10122 （当时读的是 GitHub 上的 arXiv 副本：https://github.com/ZhangCurosr/zhangcursor-papers-arxiv-cl-001/tree/main/2026-09-10 ）
 - 没有找到平安 2025–2026 年发布的自研基础模型，或金融、医疗大模型的新版本。受检索条件限制，这不代表没有。
 
 **JD 里的数据需求**
-- **未找到**具体 JD。只有财联社 2025-09-18 的一条：国寿、平安、人保等险企启动 2026 届校招，"狂揽 AI、算法人才"（只有标题和摘要）：https://github.com/Jessica-Zhangyj/dlquant/blob/main/data/news/20250918.csv
+- **未找到**具体 JD。只有财联社 2025-09-18 的一条：国寿、平安、人保等险企启动 2026 届校招，"狂揽 AI、算法人才"（新浪转载的原文）：https://finance.sina.com.cn/money/insurance/bxdt/2025-09-18/doc-infqwqmr4143862.shtml
 - 建议手动看平安招聘官网，以及平安科技和平安好医生的"大模型""数据标注""医学知识"类岗位。
 
 **切入点**
@@ -45,7 +46,7 @@
 - 自建能力强：平安科技研发团队规模大，据云栖笔记还和阿里云联合做模型蒸馏（单一来源）。更可能买专家评测和标注服务，而不是整套环境。
 - 收件人是集团 CTO，层级高。实际对接人（平安科技或平安好医生的模型、数据负责人）没有找到。
 
-**核实说明**：开始调研平安前，本会话的 WebSearch 额度已经用完，本节没有用搜索引擎。信息来自 GitHub 上能读到的原文：财联社快讯的每日镜像（Jessica-Zhangyj/dlquant）、新闻聚合快照（bobkingdom/TrendRadar）、云栖大会第三方笔记、同济大学教师页面镜像和 arXiv 论文镜像。这些都是二手转载，发送前建议打开原链接复核。
+**核实说明**：2026-09-25 复核：王晓航的 CTO 身份用原始媒体链接重新核实（2025-07 任命，2026-04、2026-08、2026-09 均在任）。开头一句的"AI超级客服"是 2025-11 金博会上他发布的统一 AI 入口，证券市场周刊和读特新闻两个独立来源都能对上，保留不改。GitHub 镜像链接都换成了原始出处（每经、中华网、证券市场周刊、财联社、21 世纪经济报道、新浪、arXiv），镜像只在找不到单独原文时标注为副本保留。云栖笔记里能被媒体报道核对的数字已改写，核对不到的单列。肖京补了 2025 年来源，置信度提到中；何明科补了 2026-04 在任来源。以下为原调研说明。开始调研平安前，本会话的 WebSearch 额度已经用完，本节没有用搜索引擎。信息来自 GitHub 上能读到的原文：财联社快讯的每日镜像（Jessica-Zhangyj/dlquant）、新闻聚合快照（bobkingdom/TrendRadar）、云栖大会第三方笔记、同济大学教师页面镜像和 arXiv 论文镜像。这些都是二手转载，发送前建议打开原链接复核。
 
 ---
 

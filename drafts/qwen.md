@@ -7,7 +7,7 @@
   - 本人主页：https://chujiezheng.github.io/ （源文件 https://github.com/chujiezheng/chujiezheng.github.io/blob/master/_pages/about.md ；站点配置里的名字是 "Chujie Zheng 郑楚杰"，描述是 "Research engineer @Qwen"：https://github.com/chujiezheng/chujiezheng.github.io/blob/master/_config.yml ）
   - GSPO 论文（Qwen3 用的 RL 算法），第一作者：https://arxiv.org/abs/2507.18071
 - 备选：
-  - **周浩**：后训练负责人。晚点 LatePost 2026-03-04 报道，郁博文离职后，后训练工作"将由今年初加入阿里通义实验室的前 DeepMind 高级资深研究员周浩接任"，向周靖人汇报（经 GitHub 上的推文存档看到）：https://github.com/artxgj/chinese-study/blob/main/twitter/hanzi-cards/Qwen.md 。量子位 2026-03-05 也说他"将负责千问的后训练"，此前在 Google DeepMind 做 Gemini 的后训练（经 GitHub 上的 RSS 存档看到，原文 https://mp.weixin.qq.com/s/pR65T4hzAjeQxNZ9YjlGMQ ）。置信度中：有两家媒体，但都是 3 月的消息，之后没有看到新的公开信息；英文名不确定，也没法在 Qwen 论文里核对。
+  - **周浩**：后训练负责人。原始报道：21 世纪经济报道 2026-03-05 https://www.21jingji.com/article/20260305/herald/8626d9d7e4b5878d19802e71980542a4.html 、新浪 2026-03-05 https://finance.sina.com.cn/jjxw/2026-03-05/doc-inhpwzrs3350491.shtml 、36氪 https://36kr.com/p/3708425301749891 （搜索摘要：他 2026-01 从 Google DeepMind 加入阿里，先在夸克，后调到通义实验室接手千问后训练）。以下是此前经 GitHub 存档看到的说法。晚点 LatePost 2026-03-04 报道，郁博文离职后，后训练工作"将由今年初加入阿里通义实验室的前 DeepMind 高级资深研究员周浩接任"，向周靖人汇报（经 GitHub 上的推文存档看到）：https://github.com/artxgj/chinese-study/blob/main/twitter/hanzi-cards/Qwen.md 。量子位 2026-03-05 也说他"将负责千问的后训练"，此前在 Google DeepMind 做 Gemini 的后训练（经 GitHub 上的 RSS 存档看到，原文 https://mp.weixin.qq.com/s/pR65T4hzAjeQxNZ9YjlGMQ ）。置信度中：有两家媒体，但都是 3 月的消息，之后没有看到新的公开信息；英文名不确定，也没法在 Qwen 论文里核对。
   - **刘大一恒（Dayiheng Liu）**：2026 年多个 Qwen 项目的资深作者，包括 E-Commerce Bench（2026-08，末位作者）、Confident Decoding、FlashQLA、Qwen-VLA、Qwen-Drive 和 RecreationWorld（已读各 README 的引用信息）。具体头衔没有核实，个人主页停在 2021 年：https://github.com/QwenLM/E-CommerceBench 。置信度中。
   - **周靖人**，通义负责人（高管，只作为兜底）。据二手资料，2026-04 执掌通义大模型事业部，6 月升任阿里集团首席科学家：https://github.com/xbtlin/ai-berkshire/blob/main/reports/中国大模型六强横向研究-20260721/02-阿里Qwen-通义.md
 - 数据 / 标注 / 数据采购负责人：**未找到**。
@@ -46,9 +46,9 @@
 - 人员变动大：林俊旸、郁博文 2026-03 离职，后训练改由周浩负责，6 月又做了组织调整。联系人和决策链可能还在变。
 - 自建倾向强：AgentWorld、WebWorld、RecreationWorld、E-Commerce Bench 都是自己搭的环境和世界模型。要卖的是"难以合成"的部分：专家评分标准、带理由的评审、留出评测集。
 - 阿里是大公司，走采购流程可能慢；没有查到外部数据供应商的公开信息。
-- 合规：本次没能核实阿里是否在美国相关限制名单上，发送前请确认。
+- 合规：没有查到阿里被列入实体清单的记录（清单原文在本环境打不开）。2026-09-08 NSA、CISA、FBI 联合发布通报，点名 DeepSeek、Moonshot AI、阿里、MiniMax、阶跃星辰和 Z.ai（智谱）对美国前沿模型做工业级蒸馏（搜索摘要，通报页和 ExecutiveGov 报道一致）：https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a 、https://www.executivegov.com/articles/nsa-fbi-cisa-warn-china-ai-distillation-attacks 。这不是制裁或实体清单，但会加重美国籍专家和合作高校的顾虑。发送前请确认。
 
-**核实说明**：郑楚杰和林俊旸的主页，以及 QwenLM 各仓库 README，读的是原文。周浩的职务来自 LatePost 和量子位的 GitHub 存档；Qwen3.7、组织调整和离职去向来自 GitHub 上的二手研究报告，原始链接没打开。
+**核实说明**：2026-09-25 复核：郑楚杰主页原文仍写 "Leading the OPD team for post-training consolidation"。周浩接任后训练负责人补了 21 世纪经济报道、新浪、36氪三个原始链接；GitHub 上的推文和 RSS 存档只作副本保留。开头一句（Qwen3.8 在 coding、professional work、research 和 long-horizon agentic tasks 上有明显提升）重新读了 README 原文，一致，保留不改。补充了 2026-09 蒸馏通报。以下为原调研说明。郑楚杰和林俊旸的主页，以及 QwenLM 各仓库 README，读的是原文。周浩的职务来自 LatePost 和量子位的 GitHub 存档；Qwen3.7、组织调整和离职去向来自 GitHub 上的二手研究报告，原始链接没打开。
 
 ---
 

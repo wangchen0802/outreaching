@@ -19,7 +19,7 @@
   - **Joey Zhou**，Ubiquant，Logic-RL、One-shot EM、URM 的共同作者，职务未找到（低）。
   - **王琛**，九坤联合创始人、CEO，创始人级别，只作兜底。来源是一份第三方 GitHub 汇编，它引用了中证报 2022-07 的报道（二手）：https://www.cs.com.cn/tzjj/jjks/202207/t20220725_6286624.html
 - 数据 / 标注负责人：**未找到**。
-- 称呼：Bryan Dai 的中文名没有核实，邮件里直接用"Bryan Dai"。如果引荐时拿到中文名，再改成"X老师"。
+- 称呼：Bryan Dai 的中文名没有找到（2026-09-25 用中英文专门搜了"九坤 / IQuest / 至知创新研究院 + Bryan Dai"和研究院负责人，公开报道里没有出现他的中文名），邮件里继续用"Bryan Dai"。如果引荐时拿到中文名，再改成"X老师"。
 
 ## 调研备注
 
@@ -40,7 +40,7 @@
 - **早期推理工作**：URM（2025-12），ARC-AGI 1 pass@1 53.8%，ARC-AGI 2 16.0%（已读 README）；One-shot EM 已被 ICML 2026 录用；Logic-RL（2025-02）是和微软亚洲研究院合作的规则奖励 RL（已读 README）：https://github.com/Unakar/Logic-RL
 - **组织**：
   - IQuestLab 名下的 Fleming-R1 README 仍然链接到 UbiquantAI 组织，两个研究员的个人主页也写的是"IQuest Research, Ubiquant"，可以判断是同一个团队。
-  - 第三方汇编称，IQuest Research 就是"至知创新研究院"，由九坤创始团队在 2026-01 成立，2026-06 和上海交大共建了多模态大模型联合实验室（二手，原文未读）：https://finance.sina.cn/stock/jdts/2026-01-01/detail-inheumpq8476135.d.html 、https://news.sjtu.edu.cn/jdyw/20260615/223771.html
+  - IQuest Research 就是"至知创新研究院"：中证报 2026-01 报道"九坤投资创始团队成立至知创新研究院，发布开源代码大模型"，称它是"由九坤投资创始团队发起设立的、独立于量化投研体系的全新平台"（搜索摘要）：https://jnzstatic.cs.com.cn/zzb/htmlInfo/112783.html ；证券时报同期报道：https://www.stcn.com/article/detail/3568306.html 。2026-06 和上海交大共建多模态大模型联合实验室（原文未读）：https://finance.sina.cn/stock/jdts/2026-01-01/detail-inheumpq8476135.d.html 、https://news.sjtu.edu.cn/jdyw/20260615/223771.html
 - 公开发布里没有金融或交易方向的模型和数据集。
 
 **JD 里的数据需求**
@@ -62,7 +62,7 @@
 - IQuest Research 和九坤投资的法律主体关系不清楚（媒体称是创始团队新设的研究院），合同主体需要确认。
 - 合规：量化私募受证监会和中基协监管，程序化交易的监管在收紧。数据出境和美国籍专家参与是否受限需要确认。是否在美国实体清单上没有核实。
 
-**核实说明**：GitHub README（IQuest-Coder-V1、ModularRSI、OTE、ClawGym、TMAS、URM、One-shot EM、Fleming-R1、Logic-RL）、IQuest-Coder 技术报告 PDF 和三个个人主页读的是原文。Bryan Dai 的单位来自第三方转录的论文首页和 ICML 2026 列表，头衔未找到。至知创新研究院、上海交大联合实验室和王琛的信息来自第三方 GitHub 汇编，属于二手。
+**核实说明**：2026-09-25 复核：Bryan Dai 的中文名没有找到，称呼保持英文名。开头一句的 ModularRSI 数字（Terminal-Bench 2.0 从 47.57% 到 52.43%）重新读了 README 原文，一致，保留。至知创新研究院的来源换成中证报和证券时报的原始报道。这份草稿里没有新闻类的 GitHub 镜像链接（GitHub 链接都是一手的仓库 README 或个人主页）。以下为原调研说明。GitHub README（IQuest-Coder-V1、ModularRSI、OTE、ClawGym、TMAS、URM、One-shot EM、Fleming-R1、Logic-RL）、IQuest-Coder 技术报告 PDF 和三个个人主页读的是原文。Bryan Dai 的单位来自第三方转录的论文首页和 ICML 2026 列表，头衔未找到。至知创新研究院、上海交大联合实验室和王琛的信息来自第三方 GitHub 汇编，属于二手。
 
 ---
 
