@@ -40,6 +40,11 @@
 
 **核实说明**：Anthropic 的两个发布页、Claude 客户案例和 Google Cloud 案例读的是原文，其余来自搜索结果摘要，并经过交叉核对。rogo.com、arXiv、Hugging Face 和招聘网站在本环境无法打开；本次会话的搜索额度也在调研中途用完，Alex Wang 的正式头衔和 Joseph Kim 是否离职都没能再查。发送前建议在 Rogo 官网或论文 PDF 上确认 Alex Wang 的职位。
 
+2026-09-25 复核（本次会话，WebSearch 3 次）：
+- 联系人：搜索结果里 Alex Wang 的 LinkedIn 标题是 "AI @ Rogo"（搜索摘要，https://www.linkedin.com/in/alex-wang-403455174/ ），arXiv 页面确认他是 BigFinanceBench 第一作者、单位 Rogo（https://arxiv.org/abs/2606.03829 ）。加上 2026-09 的 Anthropic 发布页，可以认为他目前仍在 Rogo。正式头衔仍未查到，置信度维持中。Joseph Kim 是否离职仍无法确认。
+- 开头一句："928 questions written by ex-finance practitioners, scored against more than 15,000 rubric criteria" 是 Rogo 官方 X 账号的原话（https://x.com/RogoAI/status/2059743405203480888 ），arXiv 摘要和 Hugging Face 数据集页也写 928 题、按分值加权的评分标准（搜索摘要）。两个以上独立来源一致，开头一句不改。
+- 来源链接：本稿没有 GitHub 镜像，无需替换。
+
 ---
 
 ## 邮件
