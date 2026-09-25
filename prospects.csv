@@ -1,0 +1,6 @@
+﻿公司,类别,地区,联系人,职位,来源链接,切入点,置信度
+Reflection AI,frontier lab,海外,Jessica Hamrick,Skills Research Lead（Member of Technical Staff），负责后训练的推理和 agentic RL,https://www.jesshamrick.com/ ; https://www.alphaxiv.org/@jessica-b-hamrick,针对 agentic tool use 和长程推理的 RL 环境与验证器（软件工程、AI 研究、交易、预测）；评分标准和评测集。数据合作负责人岗位在招，说明在找外部供应商,中
+Thinking Machines Lab,frontier lab,海外,Tianle Li,Member of Technical Staff，后训练 Code & Autoresearch 团队负责人；Inkling 发布负责人,https://codingwithtim.github.io/,代码和 AI 研究的 RL 环境与打分器；金融和专业工作环境（Inkling 的 Tau 3 Banking 只有 23.7%）；可以按 Tinker / OpenEnv 格式交付,高
+Mistral AI,frontier lab,海外,Albert Q. Jiang,Research Scientist，推理团队负责人（人类数据负责人未找到）,https://albertqjiang.github.io/,金融专家数据和环境：银行客户多（HSBC、BNP、ABN AMRO），在招金融方向负责人；人类数据 TPM 岗位要向外部供应商采购领域专家的数据,中
+月之暗面 Moonshot AI,国内大模型公司,国内,周昕宇,联合创始人，算法团队负责人（后训练负责人未找到）,https://news.qq.com/rain/a/20240322A0A5B900 ; https://finance.sina.com.cn/tech/roll/2026-07-30/doc-inikqqhm1884301.shtml,带隐藏验证器的金融环境（K3 已经在训练量化因子挖掘、税务审计和投行工作流）；专家评分标准和评测集；可以直接跑在 AgentENV / E2B 上,中
+智谱 Z.ai,国内大模型公司,国内,吕鑫（Xin Lv）,O Team 负责人：推理 RL、RL 基础设施、Agentic RL（slime 框架）,https://davidlvxin.github.io/ ; https://scholar.google.com/citations?user=rJzgbYQAAAAJ,编程以外的长程可验证环境（财务结账、交易、预测）；General RL 阶段的专家数据。注意：已被列入美国实体清单，发送前确认合规,高
