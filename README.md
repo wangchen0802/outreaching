@@ -42,19 +42,19 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 | Reflection AI | frontier lab | ✅ |
 | Thinking Machines Lab | frontier lab | ✅ |
 | Mistral AI | frontier lab | ✅ |
-| OpenAI | frontier lab | |
-| Anthropic | frontier lab | |
-| Google DeepMind | frontier lab | |
-| Meta Superintelligence Labs | frontier lab | |
-| xAI | frontier lab | |
-| Scale AI | 人类数据供应商 | |
-| Surge AI | 人类数据供应商 | |
-| Mercor | 人类数据供应商 | |
-| Harvey | 垂直 AI（法律） | |
-| OpenEvidence | 垂直 AI（医疗） | |
-| Rogo | 垂直 AI（金融） | |
-| Balyasny Asset Management（Applied AI） | 金融机构 AI 团队 | |
-| McKinsey（QuantumBlack） | 咨询公司 AI 团队 | |
+| OpenAI | frontier lab | ✅ |
+| Anthropic | frontier lab | ✅ |
+| Google DeepMind | frontier lab | ✅ |
+| Meta Superintelligence Labs | frontier lab | ✅ |
+| xAI | frontier lab | ✅ |
+| Scale AI | 人类数据供应商 | 调研中 |
+| Surge AI | 人类数据供应商 | ✅ |
+| Mercor | 人类数据供应商 | ✅ |
+| Harvey | 垂直 AI（法律） | ✅ |
+| OpenEvidence | 垂直 AI（医疗） | ✅ |
+| Rogo | 垂直 AI（金融） | ✅ |
+| Balyasny Asset Management（Applied AI） | 金融机构 AI 团队 | ✅ |
+| McKinsey（QuantumBlack） | 咨询公司 AI 团队 | ✅ |
 
 ### 国内（15）
 
@@ -62,16 +62,16 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 |---|---|---|
 | 月之暗面 Moonshot AI | 国内大模型公司 | ✅ |
 | 智谱 Z.ai | 国内大模型公司 | ✅ |
-| DeepSeek | 国内大模型公司 | |
-| 阿里巴巴 通义千问 | 国内大模型公司 | |
-| 字节跳动 Seed | 国内大模型公司 | |
-| MiniMax | 国内大模型公司 | |
-| 阶跃星辰 | 国内大模型公司 | |
-| 腾讯混元 | 国内大模型公司 | |
-| 海天瑞声 | 人类数据供应商 | |
-| 数据堂 | 人类数据供应商 | |
-| 百川智能 | 垂直 AI（医疗） | |
-| 幂律智能 | 垂直 AI（法律） | |
-| 恒生电子 | 垂直 AI（金融） | |
-| 九坤投资（AI Lab） | 金融机构 AI 团队 | |
-| 中国平安 | 金融机构 AI 团队 | |
+| DeepSeek | 国内大模型公司 | ✅ |
+| 阿里巴巴 通义千问 | 国内大模型公司 | ✅ |
+| 字节跳动 Seed | 国内大模型公司 | ✅ |
+| MiniMax | 国内大模型公司 | ✅ |
+| 阶跃星辰 | 国内大模型公司 | ✅ |
+| 腾讯混元 | 国内大模型公司 | ✅ |
+| 海天瑞声 | 人类数据供应商 | ✅ |
+| 数据堂 | 人类数据供应商 | 调研中 |
+| 百川智能 | 垂直 AI（医疗） | ✅ |
+| 幂律智能 | 垂直 AI（法律） | 调研中 |
+| 恒生电子 | 垂直 AI（金融） | ✅ |
+| 九坤投资（AI Lab） | 金融机构 AI 团队 | ✅ |
+| 中国平安 | 金融机构 AI 团队 | ✅ |
