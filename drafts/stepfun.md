@@ -16,7 +16,7 @@
 ## 调研备注
 
 **最近发布**
-- **Step 5 Preview**（2026-09-19/20）：600B 总参数、27B 激活的 MoE 模型，支持 1M 上下文。官方定位是 AI 编程、软件工程、专业知识工作和金融分析，计划 10-15 开源权重，AA 智能指数 44 分（搜索摘要）：https://news.qq.com/rain/a/20260920A06SE900 、https://www.sohu.com/a/1078596495_121948396 、https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/
+- **Step 5 Preview**（2026-09-19/20）：复核时 21 世纪经济报道和新浪也能对上，另外提到金融方向有三套自研 FinStepBench 评测，覆盖实时检索、估值建模和完整研究流程（搜索摘要）：https://www.21jingji.com/article/20260921/herald/742325e7deb08d056e5801bcae9c9974.html 。600B 总参数、27B 激活的 MoE 模型，支持 1M 上下文。官方定位是 AI 编程、软件工程、专业知识工作和金融分析，计划 10-15 开源权重，AA 智能指数 44 分（搜索摘要）：https://news.qq.com/rain/a/20260920A06SE900 、https://www.sohu.com/a/1078596495_121948396 、https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/
 - **Step 3.7 Flash**（2026-05-28，GitHub 首次提交）：198B MoE 视觉语言模型。README 里写的场景包括 "parsing massive financial reports in one pass"。GDPVal-AA（45.8）和 Terminal-Bench 2.1（59.5）被他们自己列为 "clear areas for future optimization"（已读原文）：https://github.com/stepfun-ai/Step-3.7-Flash
 - **Step 3.5 Flash 技术报告**（2026-02，arXiv 2602.10604；PDF 在 GitHub 仓库里，已读原文）：https://github.com/stepfun-ai/Step-3.5-Flash
   - 后训练流程：先做统一 SFT，再按领域做 RL，训出数学、代码、STEM、工具调用、长上下文、人类偏好、Agentic Reasoning 等专家模型，最后用自蒸馏加规模化 RL 合并成一个通用模型。
@@ -45,12 +45,12 @@
 
 **风险**
 - 自建倾向强：SFT 数据以开源、合成和用户回流为主，环境和训练框架（SteptronOss）都是自研的。融资主要花在算力上。
-- 合规：没有查到阶跃被列入美国实体清单的记录，但本环境打不开 federalregister 原文，发送前请复核。
+- 合规：没有查到阶跃被列入美国实体清单的记录，但本环境打不开 federalregister 原文，发送前请复核。2026-09-08 NSA、CISA、FBI 联合发布通报，点名 DeepSeek、Moonshot AI、阿里、MiniMax、阶跃星辰和 Z.ai（智谱）对美国前沿模型做工业级蒸馏（搜索摘要，通报页和 ExecutiveGov 报道一致）：https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a 、https://www.executivegov.com/articles/nsa-fbi-cisa-warn-china-ai-distillation-attacks 。这不是制裁或实体清单，但会加重美国籍专家和合作高校的顾虑。
 - 数据出境：如果涉及境外专家或数据存在境外，对方可能要求数据留在境内。
 - 联系人信息偏旧："数据负责人"的说法来自 2024 年，需要请引荐人确认他现在是否还管后训练数据。
 - 阶跃在准备港股上市。招股书如果披露前五大供应商，可以看到他们现在用哪些数据供应商。
 
-**核实说明**：Step 3.5 Flash 技术报告 PDF，以及 Step 3.5 Flash、Step 3.7 Flash、SteptronOss 的 README 读的是原文，仓库日期来自 git 提交记录。Step 5 Preview、联系人和融资信息来自搜索摘要。JD 来自第三方 GitHub 汇总表，官方页面没有打开。
+**核实说明**：2026-09-25 复核：焦斌星 2026 年的分工仍没有公开说法；Step 3.5 Flash 论文（arXiv 2602.10604）作者名单里有他，另有搜索摘要称他是联合创始人兼 VP（LinkedIn 摘要，只作旁证），置信度维持中。开头一句的两个事实：Step 5 Preview 主打金融和专业知识工作，腾讯新闻、21 世纪经济报道、新浪三个来源一致；Step 3.5 Flash 要把 RL 用到专业工作的专家级任务上，重新读了 README 原文，一致，保留不改。补充了 2026-09 蒸馏通报。以下为原调研说明。Step 3.5 Flash 技术报告 PDF，以及 Step 3.5 Flash、Step 3.7 Flash、SteptronOss 的 README 读的是原文，仓库日期来自 git 提交记录。Step 5 Preview、联系人和融资信息来自搜索摘要。JD 来自第三方 GitHub 汇总表，官方页面没有打开。
 
 ---
 

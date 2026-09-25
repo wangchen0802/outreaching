@@ -30,7 +30,7 @@
 - **融资**：据报道 2026-05 到 06 月完成首轮外部融资，约 500 亿元；IPO 最快 2026 年内递交材料（二手资料，出处同上 ai-berkshire 报告）。
 
 **JD 里的数据需求**（talent.deepseek.com 在本环境打不开，以下没有 JD 原文）
-- 2026-06-25 发"英雄帖"：33 个岗位，分七大类，"所有部门规模至少扩大一倍"；另设不限专业背景的"AI 跨界技术人才"岗位。Investing.com 的摘要说招聘重点是数据工程师、开发工程师和 AI 跨学科人才（新闻摘要，经 GitHub 新闻存档看到）：https://github.com/EstLLLLL/Claude01/blob/main/news/2026-06-26.md
+- 2026-06-25 发"英雄帖"：33 个岗位，分七大类，"所有部门规模至少扩大一倍"；另设不限专业背景的"AI 跨界技术人才"岗位。Investing.com 的摘要说招聘重点是数据工程师、开发工程师和 AI 跨学科人才（新闻摘要，原始报道没有找到，读的是 GitHub 上的新闻存档副本）：https://github.com/EstLLLLL/Claude01/blob/main/news/2026-06-26.md
 - 新浪 2026-09-08 的标题是"DeepSeek一口气扩招150人！0个AI研究岗"（只看到搜索结果标题，正文没读）：https://finance.sina.com.cn/tech/csj/2026-09-08/doc-iniraite6059201.shtml
 - 没有找到数据标注、数据采购或供应商管理岗位的原文。建议手动看一下招聘页里数据相关的岗位。
 
@@ -44,10 +44,10 @@
 **风险**
 - 自建倾向很强：团队小（媒体称公司约 170 人，二手），报告明确写要尽量少用人工标注，公开资料里看不到任何外部数据供应商。
 - 很少对外发声，后训练的分工没有公开，联系人只能按论文和主页推断。
-- 合规：本次没能核实 DeepSeek 是否在美国实体清单等名单上，发送前请确认 SimReal 的主体、合作高校和美国籍专家参与是否受影响。
+- 合规：DeepSeek 目前不在实体清单上，但据 CNBC 2026-06-17 报道，美国跨部门委员会已批准把它列入，白宫为避免贸易摩擦暂缓发布（搜索摘要）：https://www.cnbc.com/2026/06/17/us-deepseek-blacklist-cxmt-national-security-risks-.html 。2026-09-08 NSA、CISA、FBI 联合发布通报，点名 DeepSeek、Moonshot AI、阿里、MiniMax、阶跃星辰和 Z.ai（智谱）对美国前沿模型做工业级蒸馏（搜索摘要，通报页和 ExecutiveGov 报道一致）：https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a 、https://www.executivegov.com/articles/nsa-fbi-cisa-warn-china-ai-distillation-attacks 。这不是制裁或实体清单，但会加重美国籍专家和合作高校的顾虑。发送前请确认 SimReal 的主体、合作高校和美国籍专家参与是否受影响。
 - 人员有流动（V4 报告里 10 人标了离职），但邵智宏和吴俣都没有标。
 
-**核实说明**：邵智宏主页、V4 技术报告全文（GitHub 上的文本副本，页眉写着 arXiv:2606.19348v1）、deepseek-harness 和 deepseek-recipe 的 README 读的是原文。V4.1-Flash、吴俣的职务、离职去向和招聘信息来自搜索摘要或 GitHub 上的二手存档。
+**核实说明**：2026-09-25 复核：邵智宏主页原文仍写 "I am a Research Scientist at DeepSeek"；2026 年没有查到离职报道。开头一句（V4 对难验证任务改用 rubric 引导的 RL 数据和生成式奖励模型、只需少量人工标注）除 GitHub 文本副本外，Fireworks 和 Kili 两篇独立文章的搜索摘要也能对上，保留不改。V4 技术报告的原始链接是 arXiv 2606.19348，GitHub 文本只作副本。补充：实体清单暂缓和 2026-09 蒸馏通报两条合规信息；DeepSeek Harness 桌面版预览在 2026-09-25 有报道（新浪，搜索摘要）：https://finance.sina.com.cn/tech/digi/2026-09-25/doc-iniszfcz4504743.shtml 。以下为原调研说明。邵智宏主页、V4 技术报告全文（GitHub 上的文本副本，页眉写着 arXiv:2606.19348v1）、deepseek-harness 和 deepseek-recipe 的 README 读的是原文。V4.1-Flash、吴俣的职务、离职去向和招聘信息来自搜索摘要或 GitHub 上的二手存档。
 
 ---
 

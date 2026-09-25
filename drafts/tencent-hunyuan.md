@@ -1,22 +1,22 @@
 # 腾讯混元 Tencent Hunyuan
 
 - 类别：国内大模型公司｜地区：国内（深圳、北京）
-- 收件人：**姚顺雨（Shunyu Yao）**，腾讯首席 AI 科学家，同时负责基础模型部（2026-07 由大语言模型部和多模态模型部合并而成）和 AI Infra 部；据晚点 2026-09-24 报道，他还兼任了 AI Data 部负责人
+- 收件人：**姚顺雨（Shunyu Yao）**，腾讯首席 AI 科学家，同时负责基础模型部（2026-07 由大语言模型部和多模态模型部合并而成）和 AI Infra 部；另有一条 2026-09-24 的二手转述称他还兼任了 AI Data 部负责人，本次没能核实
 - 置信度：中。
-  - 2025-12-17 腾讯内部公告任命他为首席 AI 科学家，兼任大语言模型部和 AI Infra 部负责人，36氪和机器之心都报道过。我是通过 GitHub 上的新闻转录看到的，媒体原文页面在本环境打不开。
-  - 2026-07-23 合并成立基础模型部、由他统一负责，据转述有财新、第一财经、每经互相印证。
-  - AI Data 部这一条只有一个二手来源，而且是昨天才出的消息，发送前请核实。
+  - 2025-12-17 腾讯内部公告任命他为首席 AI 科学家（"CEO/总裁办公室"），兼任大语言模型部和 AI Infra 部负责人，36氪、澎湃、量子位、21 世纪经济报道都报道过（搜索摘要，原文在本环境打不开）。
+  - 2026-07-23 合并混元多模态和大语言模型部门，成立基础模型部，由他统一负责、向 TEG 总裁卢山汇报：财新、21 世纪经济报道、新浪科技、观察者网都能对上（搜索摘要）。
+  - AI Data 部这一条仍只有一个二手来源（GitHub 上的日报转述"晚点"报道）。本次用中文专门搜了两次，只查到 2025-12 的安排（刘煜宏负责 AI Data 部，向蒋杰汇报），没有查到 9 月的调整，发送前请核实。
   - 腾讯混元官方仓库的 CL-bench 两篇论文，末位作者都是他（已读原文）。他的个人主页 2025-04 以后没有更新，上面没有写腾讯的职务。
 - 来源：
-  - 2025-12 任命（36氪报道的转录）：https://github.com/jobcher/new-blog/blob/main/content/new/daily/github_trending_2025-12-18.md ；机器之心原文（未打开）：https://www.jiqizhixin.com/articles/2025-12-17-17
-  - 2025-12 任命细节，包括 AI Data 部的职责和刘煜宏、王迪的任职（机器之心报道的转述）：https://github.com/JordanFu/talotd/blob/main/daily/2026-07-16.md
-  - 2026-07-23 成立基础模型部：https://github.com/JordanFu/talotd/blob/main/research/wechat-od-intel/daily/2026-07-28.md 、https://github.com/coodoing/reports/blob/main/_posts/2026-07-26-ai-weekly-2026-07-26.md
-  - 2026-09-24 兼任 AI Data 部负责人（晚点报道的转述）：https://github.com/coodoing/reports/blob/main/_posts/2026-09-25-ai-daily-2026-09-25.md
+  - 2025-12 任命：36氪 https://36kr.com/p/3599552216957189 、澎湃 https://www.thepaper.cn/newsDetail_forward_32195162 、机器之心 https://www.jiqizhixin.com/articles/2025-12-17-17
+  - 2025-12 任命细节，包括 AI Data 部的职责和刘煜宏、王迪的任职：量子位 https://www.qbitai.com/2025/12/361841.html 、21 世纪经济报道 https://www.21jingji.com/article/20251217/herald/a2817947f0176395b935ba6b1ed52151.html
+  - 2026-07-23 成立基础模型部：财新 https://companies.caixin.com/2026-07-24/102467665.html 、21 世纪经济报道 https://m.21jingji.com/article/20260724/herald/03f8e18f8f5d4450ea494f10e809748e.html 、观察者网 https://www.guancha.cn/economy/2026_07_27_825239.shtml
+  - 2026-09-24 兼任 AI Data 部负责人：原始的晚点报道没有找到，只有 GitHub 上的日报转述（副本，未核实）：https://github.com/coodoing/reports/blob/main/_posts/2026-09-25-ai-daily-2026-09-25.md
   - CL-bench（作者名单最后两位是 Di Wang 和 Shunyu Yao）：https://github.com/Tencent-Hunyuan/CL-bench
-- 后训练负责人：**未找到**。36氪 2026-08-14 报道，混元的后训练已经拆成多个小组并行推进；原来负责其中一个方向的徐灿已经转岗到微信 WeLM（RSS 转录，原文未打开）：https://36kr.com/p/3939234424700041 （转录：https://github.com/hongfei7/ai-research-radar/blob/main/archive/2026-08-14.jsonl ）
+- 后训练负责人：**未找到**。36氪 2026-08-14 报道，混元的后训练已经拆成多个小组并行推进；原来负责其中一个方向的徐灿已经转岗到微信 WeLM（原文未打开，当时读的是 GitHub 上的 RSS 副本）：https://36kr.com/p/3939234424700041 （副本：https://github.com/hongfei7/ai-research-radar/blob/main/archive/2026-08-14.jsonl ）
 - 备选：
-  - **王迪（Di Wang）**，2025-12 起任大语言模型部副总经理，向姚顺雨汇报（机器之心报道的转述，链接同上）。2026-07 部门合并后的职务没有查到。他是 CL-bench 倒数第二作者。
-  - **刘煜宏**，腾讯云副总裁，2025-12 起任 AI Data 部负责人。这个部门"负责数据及评测体系建设"，当时向副总裁蒋杰汇报（机器之心报道的转述，链接同上）。如果 9-24 的调整属实，他可能已经不是这个部门的负责人，现在的职务不清楚。
+  - **王迪（Di Wang）**，2025-12 起任大语言模型部副总经理，向姚顺雨汇报（量子位、21 世纪经济报道，链接同上）。2026-07 部门合并后的职务没有查到。他是 CL-bench 倒数第二作者。
+  - **刘煜宏**，腾讯云副总裁，2025-12 起任 AI Data 部负责人。这个部门"负责数据及评测体系建设"，当时向副总裁蒋杰汇报（量子位、21 世纪经济报道，链接同上）。如果 9-24 的调整属实，他可能已经不是这个部门的负责人，现在的职务不清楚。
 - 称呼用"姚老师"：他是研究员出身，技术圈一般这么称呼。如果是通过商务线引荐，可以改成"姚总"。
 
 ## 调研备注
@@ -31,7 +31,7 @@
 - **Hy3 preview**（2026-04-23）："the first model trained on our rebuilt infrastructure"（已读原文），也是姚顺雨主导的第一个模型（二手说法）：https://github.com/Tencent-Hunyuan/Hy3-preview
 - **CL-bench**（2026-02）和 **CL-bench Life**（2026-04）：上下文学习评测，和复旦 NLP 组合作。CL-bench 有 1,899 个任务，"All instances are annotated by experienced domain experts"，平均每个上下文有 63.2 条 rubric，花约 20 小时专家工时（已读原文）：https://github.com/Tencent-Hunyuan/CL-bench
 - 其他开源：PlanningBench（2026-05，约束驱动合成加人工质检）、RepoProbe（2026-08，代码理解评测，按 checklist 评分）、UniRL（2026-06，RL 训练框架）。
-- 组织变动：2026-03 撤销 AI Lab，部分人员并入混元（二手转述）：https://github.com/JordanFu/talotd/blob/main/daily/2026-04-14.md ；2026-07-23 合并成立基础模型部；2026-09-24 据报道 AI Data 部也归姚顺雨管。
+- 组织变动：2026-03-20 内部通知撤销 AI Lab，部分人员并入大语言模型部（混元），向姚顺雨汇报，其余转入 TEG 产学合作中心（第一财经、新浪，搜索摘要）：https://www.yicai.com/news/103097489.html 、https://finance.sina.com.cn/tech/roll/2026-03-20/doc-inhrrzuq3836417.shtml ；2026-07-23 合并成立基础模型部；另有未核实的二手转述称 2026-09-24 AI Data 部也归姚顺雨管。
 
 **JD 里的数据需求**（腾讯招聘官网在本环境打不开。以下摘自 GitHub 上的第三方内推站岗位表 https://github.com/cyruspeaces/MillionCareer/blob/main/scripts/jobs-prod.sql ，日期是表里记录的发布时间）
 - 混元大模型数据交付负责人（北京/深圳），AI Data 部（2026-04-09，招聘中）："制定大模型后训练分Topic数据策略，搭建数据质量评估体系与数据生产标准"，"全面管理数据合成、数据质检、数据标注、数据运营小组"。
@@ -50,11 +50,11 @@
 **风险**
 - 内部专家资源很多：腾讯内部有大量工程师、金融和游戏专家，外部专家的价值要体现在内部覆盖不到的领域或规模上。
 - 大厂采购流程长，要走供应商准入。
-- 合规：2025-01-06 美国国防部把腾讯列入 1260H "中国军事企业"清单。这不是制裁或出口管制，但可能影响美籍专家参与，发送前请法务确认（路透报道，转录见 GitHub）：https://www.reuters.com/world/us-adds-tencent-catl-list-chinese-firms-allegedly-aiding-beijings-military-2025-01-06/ 。没有查到腾讯被列入实体清单的记录。
+- 合规：2025-01-06 美国国防部把腾讯列入 1260H "中国军事企业"清单。这不是制裁或出口管制，但可能影响美籍专家参与，发送前请法务确认（路透报道）：https://www.reuters.com/world/us-adds-tencent-catl-list-chinese-firms-allegedly-aiding-beijings-military-2025-01-06/ 。没有查到腾讯被列入实体清单的记录。
 - 数据出境：混元训练数据大概率要求在境内存储和处理。
 - 组织变动频繁：2025-12、2026-03、2026-07、2026-09 连续调整，联系人随时可能变。
 
-**核实说明**：Hy4 preview、Hy3、Hy3 preview 和 CL-bench 的 README 读的是原文，发布日期取自 GitHub 提交记录。人事信息来自 GitHub 上转录的 36氪、机器之心、晚点等媒体报道，媒体原文在本环境打不开。JD 来自第三方岗位表，没有在腾讯招聘官网核对。
+**核实说明**：2026-09-25 复核：姚顺雨的首席 AI 科学家和基础模型部负责人身份，改用 36氪、澎湃、量子位、财新、21 世纪经济报道等原始链接，多个独立来源一致。"兼任 AI Data 部负责人"查不到原始报道，已在收件人一行和来源里降为"未核实"。开头一句（Hy4 preview 训练数据和内部软件工程师、金融分析师、安全专家共建）在 IT之家、新浪、腾讯新闻的报道和官网 hy.tencent.com 的搜索摘要里都能对上，保留不改。GitHub 上的新闻转录都换成了原始出处，只有 9-24 那条和 36氪 08-14 那条因为找不到或打不开原文，标注为副本保留。以下为原调研说明。Hy4 preview、Hy3、Hy3 preview 和 CL-bench 的 README 读的是原文，发布日期取自 GitHub 提交记录。人事信息来自 GitHub 上转录的 36氪、机器之心、晚点等媒体报道，媒体原文在本环境打不开。JD 来自第三方岗位表，没有在腾讯招聘官网核对。
 
 ---
 

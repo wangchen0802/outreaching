@@ -8,7 +8,7 @@
   - 讲座视频（列表里的链接，没打开）：https://bilibili.com/video/BV1H8iCBEEgT 、https://youtu.be/HzUmDxDLOoQ
   - 讲座对应的官方文章 "MiniMax M2.1: Post-Training Experience and Insights for Agent Models"（搜索结果标题，作者未核实）：https://www.minimax.io/news/post-training-experience-and-insights-for-agent-models
 - 备选：
-  - **Olive Song**，高级研究员，方向是 RL 和模型评测。来源是 Turing Post 2026-01 的访谈和 Cognitive Revolution 播客（搜索摘要）：https://www.turingpost.com/p/olive 、https://www.cognitiverevolution.ai/intelligence-with-everyone-rl-minimax-with-olive-song-from-aie-nyc-inference-by-turing-post/ 。另有一条搜索摘要和一份 GitHub 上的韩文笔记称她是 MiniMax 的 "RL research lead"（二手，头衔未核实）。她在 AI Engineer World's Fair 2026 上以 M3 为例讲过训练和部署：https://www.youtube.com/watch?v=AVMr9PMINyo 。中文名没有查到。
+  - **Olive Song**，高级研究员，方向是 RL 和模型评测。AI Engineer 大会讲者页称她是 MiniMax 的 RL research lead，负责包括 M3 在内的模型的 RL 研究（搜索摘要，2026-09 复核）：https://ai.engineer/speakers/olive-song 。来源是 Turing Post 2026-01 的访谈和 Cognitive Revolution 播客（搜索摘要）：https://www.turingpost.com/p/olive 、https://www.cognitiverevolution.ai/intelligence-with-everyone-rl-minimax-with-olive-song-from-aie-nyc-inference-by-turing-post/ 。另有一条搜索摘要和一份 GitHub 上的韩文笔记称她是 MiniMax 的 "RL research lead"（二手，头衔未核实）。她在 AI Engineer World's Fair 2026 上以 M3 为例讲过训练和部署：https://www.youtube.com/watch?v=AVMr9PMINyo 。中文名没有查到。
   - **闫俊杰**，创始人兼 CEO（只作为兜底；来源是第三方研究笔记转引的业绩会内容，二手）：https://github.com/xbtlin/ai-berkshire/tree/main/reports/MINIMAX
 - 数据 / 标注 / 数据采购负责人：**未找到**。
 - 称呼用"程老师"：中文名来自讲座列表，他是技术负责人。如果改发 Olive Song，因为中文名未核实，直接用"Olive"。
@@ -23,7 +23,7 @@
   - 技术报告的内容（搜索摘要，不确定出自 M3 报告还是 M2 系列报告）：agent 数据管线覆盖 agentic coding、cowork、reasoning 和 general knowledge 几类任务，"each task is accompanied by its corresponding static/runtime environments, verifiable rewards, or credible feedback signals"；SFT 数据覆盖 chat、reasoning、code、cowork 四个领域。
   - 媒体称 M3 在 12 小时内无人干预完成了 4 个基座模型的后训练（腾讯新闻 2026-06-01，搜索摘要）：https://news.qq.com/rain/a/20260601A05BUS00
 - **MiniMax-M2 系列技术报告**（arXiv 2605.26494，2026-05）："The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence"（只看到搜索结果标题）。
-- **M2.7**（2026-04，已读 README）：https://github.com/MiniMax-AI/MiniMax-M2.7
+- **M2.7**（已读 README；发布日期此前写的是 2026-04，搜索摘要显示是 2026-03-18，以后者为准）：https://github.com/MiniMax-AI/MiniMax-M2.7
   - 定位是 "our first model deeply participating in its own evolution"：开发过程中让模型 "build dozens of complex skills for RL experiments"。
   - GDPval-AA 的 ELO 是 1495。
 - **M2.5**（2026-02-13，已读 README）：https://github.com/MiniMax-AI/MiniMax-M2.5
@@ -46,9 +46,9 @@
 - 自建倾向强：Forge 是自研的，公司内部任务都做成了环境，M2.7 起还让模型自己搭 RL 实验的 skills。静态数据的需求可能会下降，卖点要放在公司内部没有的专业工作流和专家校准上。
 - 已经有专家合作渠道（见 M2.5 README），可能已有供应商或直接雇专家。供应商名称没有查到。
 - 上市公司，有成本压力。第三方研究笔记称 MiniMax 于 2026-01-09 在港交所上市（00100.HK），2025 年研发开支约 2.53 亿美元，前五大供应商占采购额 57.5%，最大单一供应商（阿里云）占 23.3%（转引年报和招股书，原文没读）：https://github.com/xbtlin/ai-berkshire/tree/main/reports/MINIMAX 。没有找到标注或数据服务支出的单独披露。
-- 合规和声誉：本次没有核实 MiniMax 的出口管制状态。同一份第三方笔记还提到 2026-02-23 Anthropic 指控 MiniMax 大规模蒸馏 Claude（仍是指控，本次未核实），可能会影响海外专家和合作高校的参与意愿，发送前请确认。
+- 合规和声誉：没有查到 MiniMax 被列入实体清单的记录（清单原文在本环境打不开）。2026-09-08 NSA、CISA、FBI 联合发布通报，点名 DeepSeek、Moonshot AI、阿里、MiniMax、阶跃星辰和 Z.ai（智谱）对美国前沿模型做工业级蒸馏（搜索摘要，通报页和 ExecutiveGov 报道一致）：https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a 、https://www.executivegov.com/articles/nsa-fbi-cisa-warn-china-ai-distillation-attacks 。这不是制裁或实体清单，但会加重美国籍专家和合作高校的顾虑。同一份第三方笔记还提到 2026-02-23 Anthropic 指控 MiniMax 大规模蒸馏 Claude（仍是指控，本次未核实），可能会影响海外专家和合作高校的参与意愿，发送前请确认。
 
-**核实说明**：M3、M2.7、M2.5 的 README 和 M3 榜单图读的是原文，引文已逐条对照。程威宇的头衔来自青稞 Talk 的 GitHub 列表原文。Olive Song、发布日期和技术报告细节来自搜索摘要。上市和财务信息来自 GitHub 上的第三方研究笔记，是二手资料。本次 WebSearch 额度中途用完，JD 没能查。
+**核实说明**：2026-09-25 复核：程威宇的头衔重新读了青稞 Talk 列表原文（第 81 行），条目仍在；用中文搜他的名字没有其他公开来源，也没有离职报道，置信度维持中。Olive Song 补了 AI Engineer 讲者页（RL research lead）。开头一句：M3 的 BankerToolBench 76.1 除了 README 榜单图，MiniMax 官网博客、Qubrid、OfficeChai 的搜索摘要都能对上；M2.5 和金融、法律等资深从业者一起建数据、定标准，重新读了 README 原文，一致，保留不改。M2.7 发布日期更正为 2026-03-18（搜索摘要）。补充了 2026-09 蒸馏通报。以下为原调研说明。M3、M2.7、M2.5 的 README 和 M3 榜单图读的是原文，引文已逐条对照。程威宇的头衔来自青稞 Talk 的 GitHub 列表原文。Olive Song、发布日期和技术报告细节来自搜索摘要。上市和财务信息来自 GitHub 上的第三方研究笔记，是二手资料。本次 WebSearch 额度中途用完，JD 没能查。
 
 ---
 
