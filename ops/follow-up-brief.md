@@ -50,54 +50,16 @@ Reference files (structure and tone):
 The metadata and 调研备注 sections are written in Chinese for all companies (plain, concise, declarative). Sections: header bullets (类别｜地区, 收件人, 置信度, 来源, 备选, 数据负责人 未找到 if applicable, 称呼 note for Chinese), then `## 调研备注` with **最近发布** / **JD 里的数据需求** / **切入点** / **风险** / **核实说明**, then `---`, `## 邮件`, and for domestic companies `---` + `## 微信版（引荐后）`.
 Category labels: frontier lab / 国内大模型公司 / 人类数据供应商 / 垂直 AI（法律|医疗|金融） / 金融机构 AI 团队 / 咨询公司 AI 团队. 地区: 海外（国家） / 国内（城市）.
 
-## Email templates — copy VERBATIM. Only change (a) the opening line and (b) these bracket fills: [Company]/[公司名], [Name]/[称呼], and the domain list [finance, law, medicine, engineering, ...]/[金融、法律、医疗、工程……] (fill in 3–5 domains relevant to this prospect, written without brackets, e.g. "finance, accounting, law and software engineering" / "金融、会计、法律、软件工程"). Leave these EXACTLY as they are, brackets included: [Your name], [姓名], [, and every expert is ID- and credential-checked before starting work], [，所有专家上岗前均完成身份与资质核验], 微信/电话：[ ], [介绍人]. In the WeChat version change ONLY [称呼].
+## Email templates
+Use the templates in ops/templates.md (version 2) — copy them VERBATIM. Only these fills change per company: [Company], [Name], [Hook] in English; [公司名], [称呼], [合作句] in Chinese; in the WeChat version only [称呼]. Leave [Your name], [姓名], 微信/电话：[ ] and [介绍人] exactly as they are.
+Easiest: write the draft file with any email section, put {"<slug>": "<hook sentence>"} in a JSON file and run `python3 tools/render_drafts.py hooks.json <slug>`; it rewrites the email (and WeChat) section from the template.
 
-Template 1 (overseas, English):
-Subject: Expert data for [Company]'s post-training
-
-Hi [Name],
-
-[One line about them, e.g. "Saw [Company] just released [model] with a big jump on [domain] — curious how you're sourcing expert data for that."]
-
-I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
-
-Our edge is expert supply. Through 21 partner universities and our corporate networks, we reach 200,000+ professionals, from PhD students to senior practitioners, across [finance, law, medicine, engineering, ...]. 7,000+ have already signed up to our expert waitlist[, and every expert is ID- and credential-checked before starting work].
-
-Before pitching anything, I'd like to understand where you're short: which domains, which formats (SFT, preference data, rubrics, RL tasks, evals), and what volume and turnaround you need. If there's a fit, we'd start with a small paid pilot so you can judge the quality yourselves.
-
-Open to a 20-minute call next week?
-
-Best,
-[Your name]
-Co-founder, SimReal
-
-Template 2 (domestic email, Chinese):
-主题：SimReal｜[公司名] 后训练专家数据
-
-[称呼]您好，
-
-[一句关于对方的话，例如：看到贵司最近发布了[模型]，在[领域]上提升明显，想请教一下这类专家数据是怎么采集的。]
-
-我是 SimReal（simreal.co）联合创始人[姓名]。我们为大模型后训练提供 RL 环境、验证器和专家数据，团队来自 Citadel、Millennium 和 Jane Street。
-
-我们的优势在专家供给：通过 21 所合作高校和企业网络，可触达 20 万+ 专业人士，从博士生到资深从业者，覆盖[金融、法律、医疗、工程……]等行业，其中 7,000+ 位已报名加入我们的专家候补名单[，所有专家上岗前均完成身份与资质核验]。
-
-在介绍方案之前，想先了解贵司目前的数据缺口：哪些领域、什么形式（SFT、偏好数据、评分标准、RL 任务、评测集），以及需要的量级和交付周期。如果匹配，我们可以先做一个小批量付费试点，质量由你们直接判断。
-
-下周是否方便约 20 分钟简单聊聊？
-
-[姓名]
-SimReal 联合创始人
-微信/电话：[ ]
-
-Template 3 (domestic WeChat, after an intro):
-[称呼]您好，我是 SimReal 联合创始人[姓名]，[介绍人]推荐我联系您。我们为大模型团队做后训练专家数据和 RL 环境，团队来自 Citadel / Millennium / Jane Street，通过 21 所合作高校和企业网络可触达 20 万+ 各行业专业人士。想了解一下贵司现在数据上缺哪些（领域、形式、量级、交付周期），合适的话先做个小批量试点。您看下周方便约 20 分钟吗？
+The hook ([Hook] / [合作句]) is ONE sentence: something the company recently did (verified, per the rules above) + where we would like to work with them. English ≤ 30 words, e.g. "Saw Gemini 3.8 Flash lead on Vals Finance Agent and Harvey's legal benchmark, and we'd like to support the finance and legal data behind the next step." Chinese ≤ 50 字, e.g. "看到 K3 用独立验证器训练量化因子挖掘、税务审计这类任务，希望在金融环境和验证器上和贵司合作。" No flattery, no stacked facts, no section numbers.
 
 Fill conventions:
 - [Company] in the English subject: the company's usual name + 's (e.g. "Scale AI's"), never change the "'s".
 - [Name]: first name. [称呼]: 创始人/高管 → "X总"; 研究员/技术负责人 → "X老师" (surname only; only if the Chinese surname is verified — otherwise use the name as published and say so in the note).
-- Opening line: ONE sentence, declarative, specific, verifiable, about something they recently did (release, report, job posting), ending with a question-like clause about how they source expert data/environments ("— curious how you're sourcing …" / "，想请教一下……"). No flattery, no marketing words, no "impressive/amazing/久仰/钦佩".
-- For 人类数据供应商 (Scale/Surge/Mercor/海天瑞声/数据堂): the pitch is expert-supply partnership — the opening line should reference their expert-hiring demand (e.g. domains they are recruiting experts for) and ask how they cover it; the body stays verbatim.
-- For vertical AI / financial institutions / consulting: hook on their domain model/agent work; domain list matches their vertical.
+- For 人类数据供应商 (Scale/Surge/Mercor/海天瑞声/数据堂): the pitch is expert-supply partnership — the hook references their expert-hiring demand (e.g. domains they recruit experts for) and offers our experts as supply.
+- For vertical AI / financial institutions / consulting: hook on their domain model or agent work.
 - Never mention SimReal's funding, term sheets, investors, or any GitHub link in the email. Never write "200,000 verified experts" / "20 万已验证专家".
 

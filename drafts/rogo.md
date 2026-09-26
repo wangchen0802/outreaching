@@ -53,13 +53,11 @@ Subject: Expert data for Rogo's post-training
 
 Hi Alex,
 
-Saw Big Finance Bench grades agents against 15,000+ rubric criteria from ex-bankers — curious how you source the practitioners who keep extending it.
+I'm [Your name], co-founder of SimReal (simreal.co), where we build RL environments, verifiers and expert data for post-training.
 
-I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
+Professionals from Jane Street and Citadel support our work, and every environment is red-teamed before release: 400 reward-hacking attempts so far, none successful.
 
-Our edge is expert supply. Through 21 partner universities and our corporate networks, we reach 200,000+ professionals, from PhD students to senior practitioners, across investment banking, private equity, equity research and accounting. 7,000+ have already signed up to our expert waitlist[, and every expert is ID- and credential-checked before starting work].
-
-Before pitching anything, I'd like to understand where you're short: which domains, which formats (SFT, preference data, rubrics, RL tasks, evals), and what volume and turnaround you need. If there's a fit, we'd start with a small paid pilot so you can judge the quality yourselves.
+Saw Big Finance Bench grades agents against 15,000+ rubric criteria from ex-bankers, and we'd like to help extend it with more practitioners. I'd like to understand where you're short: which domains, which formats (SFT, preference data, rubrics, RL tasks, evals), and what volume and turnaround you need. We can start with a small paid pilot: high-quality data at a competitive price.
 
 Open to a 20-minute call next week?
 

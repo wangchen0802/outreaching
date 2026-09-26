@@ -48,12 +48,11 @@ def parse_draft(path):
     body = body.strip()
     paragraphs = body.split("\n\n")
     salutation = paragraphs[0].strip()
-    opening = paragraphs[1].strip()
-    if lang == "en":
-        m = re.search(r"professionals, from PhD students to senior practitioners, across (.+?)\. 7,000\+", body)
-    else:
-        m = re.search(r"从博士生到资深从业者，覆盖(.+?)等行业", body)
-    domains = m.group(1) if m else ""
+    # Template v2: greeting, intro, credentials, then the paragraph that opens with the per-company hook.
+    coop = paragraphs[3].strip()
+    marker = " I'd like to understand" if lang == "en" else "想了解贵司"
+    opening = coop.split(marker, 1)[0].strip()
+    domains = ""
     return {
         "title": title,
         "lang": lang,

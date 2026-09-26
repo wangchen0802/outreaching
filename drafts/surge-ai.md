@@ -55,13 +55,11 @@ Subject: Expert data for Surge AI's post-training
 
 Hi Sushant,
 
-Saw every Chartography task was checked by three experts after its author — curious how you staff that depth of review as your environment work grows.
+I'm [Your name], co-founder of SimReal (simreal.co), where we build RL environments, verifiers and expert data for post-training.
 
-I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
+Professionals from Jane Street and Citadel support our work, and every environment is red-teamed before release: 400 reward-hacking attempts so far, none successful.
 
-Our edge is expert supply. Through 21 partner universities and our corporate networks, we reach 200,000+ professionals, from PhD students to senior practitioners, across finance, medicine, law, engineering and mathematics. 7,000+ have already signed up to our expert waitlist[, and every expert is ID- and credential-checked before starting work].
-
-Before pitching anything, I'd like to understand where you're short: which domains, which formats (SFT, preference data, rubrics, RL tasks, evals), and what volume and turnaround you need. If there's a fit, we'd start with a small paid pilot so you can judge the quality yourselves.
+Saw every Chartography task was checked by three experts after its author, and we'd like to add reviewers from our network as your environment work grows. I'd like to understand where you're short: which domains, which formats (SFT, preference data, rubrics, RL tasks, evals), and what volume and turnaround you need. We can start with a small paid pilot: high-quality data at a competitive price.
 
 Open to a 20-minute call next week?
 

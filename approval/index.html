@@ -189,7 +189,7 @@
 <div class="wrap">
   <header class="top">
     <div class="brand"><span class="co">SimReal</span><h1>外联审批</h1></div>
-    <p class="lede">每家公司一张卡片。邮件正文按模板固定，只有标出的部分是针对这家写的：开头那句、称呼和领域。看完点「批准」，或者「退回修改」并写一句原因，Claude 改完会放回待审。批准后在「全文与调研」里复制，自己发送。</p>
+    <p class="lede">你只需要做两件事：每张草稿点「批准」，或者点「退回修改」写一句原因；「候选新客户」里每家点「加入外联」或「不加」。其余由 Claude 处理。批准后在「全文与调研」里复制邮件，自己发送。</p>
     <div class="tally">
       <div class="tally-nums" id="tally-nums"><span>正在载入…</span></div>
       <div class="bar" id="bar" aria-hidden="true"><span class="b-pend" style="width:100%"></span></div>
@@ -205,19 +205,12 @@
   <section class="sender" aria-labelledby="sender-title">
     <div class="sender-head">
       <h3 id="sender-title" class="label">发件信息</h3>
-      <p>填一次，所有草稿复制时自动替换对应的方括号。没填的保留方括号。</p>
+      <p>填一次，复制邮件时自动替换署名和联系方式。没填的保留方括号。</p>
     </div>
     <div class="fields">
       <label class="field"><span class="label">英文署名</span><input id="f-name-en" placeholder="替换 [Your name]" autocomplete="off"></label>
       <label class="field"><span class="label">中文署名</span><input id="f-name-zh" placeholder="替换 [姓名]" autocomplete="off"></label>
       <label class="field"><span class="label">微信 / 电话</span><input id="f-contact" placeholder="替换 微信/电话：[ ]" autocomplete="off"></label>
-      <label class="field"><span class="label">身份与资质核验那句</span>
-        <select id="f-idcheck">
-          <option value="undecided">未决定：保留方括号</option>
-          <option value="include">使用：去掉方括号</option>
-          <option value="omit">不用：整句删掉</option>
-        </select>
-      </label>
     </div>
     <div class="save-state" id="save-state" aria-live="polite"></div>
   </section>
@@ -419,7 +412,7 @@
 
     h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact) + "</span><span>" + esc(doc.role) + '</span><span class="conf conf-' + esc(doc.confidence) + '">置信度 ' + esc(doc.confidence) + "</span></div>";
     h += '<p class="opening" lang="' + (doc.lang === "en" ? "en" : "zh") + '">' + esc(doc.opening) + "</p>";
-    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span><span>领域 <b>" + esc(doc.domains) + "</b></span></div>";
+    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span>" + (doc.domains ? "<span>领域 <b>" + esc(doc.domains) + "</b></span>" : "") + "</div>";
     if (doc.angle) h += '<div class="fills"><span>切入点 <b>' + esc(doc.angle) + "</b></span></div>";
 
     if (doc.changelog && st === "pending" && rev > 1) h += '<div class="changelog"><span class="label">这一版改了什么</span><br>' + esc(doc.changelog) + "</div>";
@@ -703,8 +696,7 @@
     return {
       nameEn: document.getElementById("f-name-en").value.trim(),
       nameZh: document.getElementById("f-name-zh").value.trim(),
-      contact: document.getElementById("f-contact").value.trim(),
-      idCheck: document.getElementById("f-idcheck").value
+      contact: document.getElementById("f-contact").value.trim()
     };
   }
   function scheduleSave() {
@@ -725,7 +717,6 @@
   ["f-name-en", "f-name-zh", "f-contact"].forEach(function (id) {
     document.getElementById(id).addEventListener("input", scheduleSave);
   });
-  document.getElementById("f-idcheck").addEventListener("change", scheduleSave);
 
   function fillSettingsForm(s) {
     var map = { "f-name-en": s.nameEn, "f-name-zh": s.nameZh, "f-contact": s.contact };
@@ -733,8 +724,6 @@
       var el = document.getElementById(id);
       if (document.activeElement !== el) el.value = map[id] || "";
     });
-    var sel = document.getElementById("f-idcheck");
-    if (document.activeElement !== sel) sel.value = s.idCheck || "undecided";
   }
 
   async function start() {

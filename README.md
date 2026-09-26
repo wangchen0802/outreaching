@@ -10,7 +10,7 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 
 - 页面源码：`approval/index.html`
 - 页面数据由 `tools/build_db.py` 从 `prospects.csv` 和 `drafts/` 生成，写进页面的数据库（`prospects/<slug>`）。审批状态只存在页面数据库里。
-- `tools/check_drafts.py` 逐封核对：和模板相比，只允许开头那句和方括号里的内容不同。
+- 模板在 `ops/templates.md`（第 2 版：一句自我介绍、一句背书、合作意向和需求）。`tools/render_drafts.py` 按模板生成邮件，`tools/check_drafts.py` 逐封核对，只允许称呼、公司名和合作那句不同。
 
 ## 市场情报：RL 数据买方地图
 
@@ -35,9 +35,8 @@ RL 环境、人类数据、专家网络、评测类公司公开点名过的客�
   - 中：权威媒体报道或技术报告署名可以推断。
   - 低：信息间接或可能过时。
 - 联系人只用公开职业信息。查不到写"未找到"；这时 CSV 里填的是备选联系人（通常是创始人或 CTO），并注明"备选"。
-- 模板里只改开头那句和方括号里的内容。以下几处方括号保持原样，由你决定：
+- 模板里只改称呼、公司名和合作那句。以下几处方括号保持原样，由你决定：
   - `[Your name]` / `[姓名]`：发件人姓名
-  - 身份与资质核验那句：`[, and every expert is ID- and credential-checked before starting work]` 和 `[，所有专家上岗前均完成身份与资质核验]`
   - `微信/电话：[ ]`
   - `[介绍人]`
 - 不提融资、TS、投资方；不放 GitHub 链接。
