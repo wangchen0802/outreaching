@@ -57,7 +57,7 @@ Subject: Expert data for Meta's post-training
 
 Hi Alexandr,
 
-Saw that Muse Spark's health training data was curated with more than 1,000 physicians — curious how you're sourcing that kind of expert input for other domains, like law and finance.
+Saw Muse Spark's health data was curated with 1,000+ physicians — curious whether you plan the same depth for law and finance.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

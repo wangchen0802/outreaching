@@ -56,7 +56,7 @@ Subject: Expert data for QuantumBlack's post-training
 
 Hi Tomás,
 
-Saw that the McKinsey Google Transformation Group launched in April has QuantumBlack technologists working alongside Google's forward-deployed engineers on client use cases — curious how you're sourcing the expert evals and domain test sets those client agents are checked against.
+Saw QuantumBlack now builds client agents alongside Google's engineers — curious what expert-built evals those agents have to pass before they ship.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

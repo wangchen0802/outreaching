@@ -46,7 +46,7 @@ Subject: Expert data for Thinking Machines Lab's post-training
 
 Hi Tianle,
 
-Saw that most of Inkling's post-training compute went to RL on synthetic and human-created environments — curious how you're sourcing the human-created ones for code and autoresearch.
+Saw most of Inkling's post-training compute went to RL on synthetic and human-built environments — curious how you source the human-built ones for code and autoresearch.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

@@ -52,7 +52,7 @@ Subject: Expert data for Scale AI's post-training
 
 Hi Yuan,
 
-Saw that DrugDiscoveryBench's 82 tasks are graded against expert-authored rubrics and CliniCARE-Bench runs 750 clinical audit cases, while the Human Frontier Collective keeps recruiting MDs and STEM PhDs — curious how you're covering that clinical and life-science expert demand as these benchmarks grow.
+Saw DrugDiscoveryBench and CliniCARE-Bench both run on expert-written rubrics — curious how you're covering clinical and life-science expert demand as they grow.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

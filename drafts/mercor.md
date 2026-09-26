@@ -61,7 +61,7 @@ Subject: Expert data for Mercor's post-training
 
 Hi Bertie,
 
-Saw that every APEX-Accounting task was authored and solved by accounting and bookkeeping experts, on top of the bankers, consultants and lawyers behind APEX-Agents — curious how you're sourcing enough of those experts as you build more worlds.
+Saw every APEX-Accounting task was written and solved by accountants — curious how you keep expert supply ahead of demand as you build more worlds.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

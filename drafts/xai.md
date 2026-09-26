@@ -53,7 +53,7 @@ Subject: Expert data for SpaceXAI's post-training
 
 Hi Jack,
 
-Saw that Grok 4.7 was trained with a longer RL run weighted toward tasks that take many hours to complete — curious how your human data team is sourcing expert-built tasks for domains like finance and law.
+Saw Grok 4.7's RL run leaned toward tasks that take hours to finish — curious how your human data team sources long expert tasks in finance and law.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

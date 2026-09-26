@@ -72,7 +72,7 @@
 
 Bryan Dai 您好，
 
-看到 IQuest Research 9 月发布的 ModularRSI，用终端和软件工程任务演化 agent harness，把 Terminal-Bench 2.0 从 47.57% 提到 52.43%，想请教一下这类可验证任务和验证器往代码以外、比如交易和预测场景扩展时，是怎么搭建的。
+看到 ModularRSI 在终端任务上提了近 5 个点，想请教一下这套方法往交易和预测场景扩展时怎么搭。
 
 我是 SimReal（simreal.co）联合创始人[姓名]。我们为大模型后训练提供 RL 环境、验证器和专家数据，团队来自 Citadel、Millennium 和 Jane Street。
 

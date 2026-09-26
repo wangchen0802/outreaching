@@ -48,7 +48,7 @@ Subject: Expert data for OpenAI's post-training
 
 Hi Phoebe,
 
-Saw OpenAI launched ChatGPT for Financial Services on GPT-6 Astra this month, starting with investment banking and equity research work — curious how your team is sourcing finance expertise for the post-training and evals behind it.
+Saw ChatGPT for Financial Services launched this month with banking and equity research — curious how you source the finance experts behind its post-training.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

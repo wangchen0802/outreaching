@@ -44,7 +44,7 @@ Subject: Expert data for Reflection AI's post-training
 
 Hi Jessica,
 
-Saw Reflection is hiring a data partnerships lead to source data for agentic tool use and long-horizon reasoning ahead of your first open-weight release — curious how you're sourcing expert-built RL environments for those skills.
+Saw Reflection is hiring a data partnerships lead ahead of your first open-weight release — curious how you're sourcing RL environments for agentic tool use.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

@@ -52,7 +52,7 @@ Subject: Expert data for Balyasny's post-training
 
 Hi Charlie,
 
-Saw in your Anthropic interview that BAM tests new models on thousands of real-world financial tasks with verifiable outcomes across equities, macro and commodities — curious how you're sourcing new tasks and graders as BAMAgent takes on longer-running work.
+Saw BAM tests every new model on thousands of verifiable financial tasks — curious how you keep that task set growing as BAMAgent takes on longer work.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

@@ -55,7 +55,7 @@ Subject: Expert data for Surge AI's post-training
 
 Hi Sushant,
 
-Saw that each Chartography task was written by a working professional and then verified by three more experts, across engineering, finance, supply chain and healthcare — curious how you're sourcing that depth of expert review as your RL environment work grows.
+Saw every Chartography task was checked by three experts after its author — curious how you staff that depth of review as your environment work grows.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

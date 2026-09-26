@@ -42,7 +42,7 @@ Subject: Expert data for Mistral AI's post-training
 
 Hi Albert,
 
-Saw Mistral is hiring a Lead AI Scientist for finance and a program manager to run human-data campaigns with subject-matter experts — curious how you're sourcing finance expertise for post-training today.
+Saw Mistral is hiring a finance lead and a program manager for expert data campaigns — curious how you source finance expertise for post-training today.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

@@ -57,7 +57,7 @@ Subject: Expert data for Harvey's post-training
 
 Hi Niko,
 
-Saw that Harvey post-trained Tenet on public legal data, synthetic data and human expert data simulating long-horizon legal work — curious how you're sourcing that expert data as you scale RL across practice areas.
+Saw Tenet was post-trained on expert data simulating long-horizon legal work — curious how you'll source that data as RL expands across practice areas.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

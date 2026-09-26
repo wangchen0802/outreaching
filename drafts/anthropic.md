@@ -81,7 +81,7 @@ Subject: Expert data for Anthropic's post-training
 
 Hi Jared,
 
-Saw the Opus 5.5 launch post includes an Excel merger-model test and Optiver's highest recorded score on one of its trading-desk suites — curious how you're sourcing finance experts and environments for post-training.
+Saw Opus 5.5 was tested on Excel merger models and trading-desk tasks — curious how you source the finance experts and environments behind that.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

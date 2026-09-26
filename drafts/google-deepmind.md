@@ -55,7 +55,7 @@ Subject: Expert data for Google DeepMind's post-training
 
 Hi Tulsee,
 
-Saw Google report that Gemini 3.8 Flash beat 3.7 Flash and other frontier models on Vals Finance Agent V2 and Harvey's Legal Agent Benchmark — curious how you're sourcing finance and legal expert data for Gemini post-training.
+Saw Gemini 3.8 Flash lead on Vals Finance Agent and Harvey's legal benchmark — curious how you source finance and legal expert data for post-training.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

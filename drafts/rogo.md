@@ -53,7 +53,7 @@ Subject: Expert data for Rogo's post-training
 
 Hi Alex,
 
-Saw Rogo's Big Finance Bench grades agents on 928 questions written by ex-finance practitioners against 15,000+ rubric criteria — curious how you're sourcing the practitioners who write and review those rubrics.
+Saw Big Finance Bench grades agents against 15,000+ rubric criteria from ex-bankers — curious how you source the practitioners who keep extending it.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 

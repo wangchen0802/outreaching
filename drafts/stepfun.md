@@ -60,7 +60,7 @@
 
 焦总您好，
 
-看到 Step 5 Preview 把金融分析和专业知识工作列为重点场景，Step 3.5 Flash 技术报告里也写到下一步要把 RL 用到专业工作中的专家级任务上，想请教一下这类金融任务的专家数据和 RL 环境目前是怎么来的。
+看到 Step 5 Preview 主打金融分析，想请教一下这类金融任务的专家数据和 RL 环境目前是怎么来的。
 
 我是 SimReal（simreal.co）联合创始人[姓名]。我们为大模型后训练提供 RL 环境、验证器和专家数据，团队来自 Citadel、Millennium 和 Jane Street。
 

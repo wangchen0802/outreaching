@@ -55,7 +55,7 @@ Subject: Expert data for OpenEvidence's post-training
 
 Hi Sam,
 
-Saw OpenEvidence launched EvidenceGrade to grade the strength of the evidence beneath each answer — curious how you're sourcing the specialist physicians who calibrate and evaluate it.
+Saw EvidenceGrade now rates the evidence behind each answer — curious how you source the specialist physicians who calibrate it.
 
 I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training. Our team is ex-Citadel, Millennium and Jane Street.
 
