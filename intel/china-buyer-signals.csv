@@ -1,0 +1,31 @@
+机构,信号类型,信号内容,原文证据,来源链接,来源日期,来源类型,置信度
+DeepSeek 深度求索,招聘,2026-06 大规模扩招（33岗/7类），模型数据策略方向开放5岗：Code Agent数据工程师、通用Agent数据产品经理、专业领域数据产品经理（小语种/医学/法律等）、AI创意数据、情商数据；另有Agent数据标注策略、评测算法、标注平台开发岗,“模型数据策略方向开放5个岗位，包括Code Agent数据工程师、通用Agent数据产品经理、专业领域数据产品经理（小语种、医学、法律等）…”；“Agent数据标注策略、评测算法、数据产品和标注平台开发”,https://www.stcn.com/article/detail/3980996.html,2026-06-26前后,媒体报道/搜索摘要,低
+DeepSeek 深度求索,招聘,2026-03 急招Agent方向，一次放出17个岗位,标题：“DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先”,https://www.qbitai.com/2026/03/392024.html,2026-03,媒体报道/搜索摘要（仅标题）,低
+阶跃星辰 StepFun,招聘,招聘Agent RL算法研究员、Agent数据算法工程师、GUI/Browser-use Agent研究员；职责含结合强化学习环境构建智能体、数据迭代流程优化,“Agent RL 算法迭代（结合强化学习环境，构建具备记忆、反思、规划、自进化及工具调用能力的类人智能体）…数据迭代流程优化”,https://zhuanlan.zhihu.com/p/1941521619219620455,2025-08,知乎招聘帖/搜索摘要,低
+MiniMax,模型发布(RL/Agent),M2.5 基于20万+真实环境做RL（编程/搜索/办公），Forge Agent RL框架集成数百种scaffold/环境、数千种工具调用格式,"“基于200,000+真实环境进行RL训练…覆盖编程、搜索和办公场景”；Forge“集成了数百种scaffold（环境）和数千种工具调用格式”",https://huggingface.co/blog/MiniMax-AI/forge-scalable-agent-rl-framework-and-algorithm,2026-02前后,官方博客/搜索摘要,低
+MiniMax,公开表态,官方文章《MiniMax M2.1：在Agent场景下的后训练技术与实践经验》分享Agent后训练与环境构建,官方新闻页标题：MiniMax M2.1：在 Agent 场景下的后训练技术与实践经验,https://www.minimaxi.com/news/minimax-m21%E5%9C%A8-agent-%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E5%90%8E%E8%AE%AD%E7%BB%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%AE%9E%E8%B7%B5%E7%BB%8F%E9%AA%8C,2025-12/2026-01,官方博客/搜索摘要（仅标题）,低
+小米 MiMo,模型发布(RL/Agent),2026-09-22 开源MiMo-V2.6，多任务智能体RL混合多框架/多环境，公开沙箱环境池、反reward-hacking管线等遥测；半年投入“高质量数据、强化学习环境”,“把算力和心思砸进了高质量数据、强化学习环境和研究本身”；“沙箱环境池、反reward-hacking管线”,https://www.sohu.com/a/1077331440_122066678,2026-09,媒体报道/搜索摘要,低
+美团 LongCat,模型发布(RL/Agent),LongCat-Flash-Thinking-2601：环境扩展+多环境强化学习，多套训练环境每套集成60余种工具；自研RL基建DORA,“构建了多套高质量训练环境，每套集成60余种工具…训练环境越丰富，模型在未知场景中的泛化能力越强”,https://tech.meituan.com/2026/01/20/longcat-flash-thinking-2601.html,2026-01-20,官方技术博客/搜索摘要,低
+快手 Kwaipilot,模型发布(RL/Agent),KAT-Coder-Pro V2.5：大规模Agentic RL系统；AutoBuilder自动构建可执行仓库环境，成功率从约16.5%提升至57.2%,“AutoBuilder自动化流水线，将可执行仓库环境构建成功率从行业平均约16.5%提升至57.2%”,https://www.agentren.cn/2026/0710/20259.shtml,2026-07-10,媒体报道/搜索摘要,低
+蚂蚁集团 百灵 Ling,模型发布(RL/Agent),2026-05-15 开源Ring-2.6-1T，面向Agent工作流，异步RL训练架构,“面向Agent工作流、工程开发…企业自动化流程等真实生产环境”；“采用异步强化学习训练架构”,https://www.qbitai.com/2026/05/417961.html,2026-05,媒体报道/搜索摘要,低
+智谱 Zhipu,模型发布(RL/Agent),GLM-5 面向Agentic Engineering，slime异步Agent RL框架（Rollout与环境交互收集轨迹、剔除环境故障样本）,“生成池与环境交互并收集轨迹…识别因环境故障而非模型能力导致失败的样本”,https://zhuanlan.zhihu.com/p/2009393352567697921,2026-02前后,知乎技术解读/搜索摘要,低
+智谱 Zhipu,招聘,招聘数据标注/AI训练师（多模态数据标注、质检、合规），面向硕士在读,“对文本、图像、语音、视频等多模态数据按规范标注，执行数据质量把控”,https://www.liepin.com/zpzpaipjo7bw/,2026,招聘平台/搜索摘要（岗位归属需核实）,低
+月之暗面 Kimi,招聘,招聘强化学习-大模型算法工程师/研究员（RL方向，40-70k），Agent RL、Agent数据算法岗,“强化学习-大模型算法工程师/研究员（RL方向）…参与大模型及智能体（Agent）的核心算法研发”,https://m.zhipin.com/companys/89f959974af368f703R40tq1F1A~.html,2026,招聘平台/搜索摘要,低
+腾讯 混元,招聘,混元后训练岗覆盖Reward System、User Feedback RM、Coding、Agent、Deep-research等，含RL方向,“后训练方向涉及指令微调、Reward System、User Feedback RM、Coding、Agent、Deep-research…”,https://jobs.niuqizp.com/job-vmU55NnaZ.html,2025-2026,招聘平台/搜索摘要,低
+字节 Seed,招聘,Seed 2027届基础模型校招开放（含后训练/强化学习系统方向）,“Seed 2027 foundation model campus recruitment program…”；方向含post-training、foundation model reinforcement systems,https://seed.bytedance.com/en/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included,2026,官方博客/搜索摘要,低
+百度 文心,自建专家平台,百度数据众包平台（1700万用户）与百度众测“服务商招募”——自有标注供应链，也对外招募服务商,众包平台“累计1700万用户…”；众测平台页面“服务商招募”,https://test.baidu.com/mark/home/newRecruit,未知,官方平台页/搜索摘要,低
+网易 伏羲,自建专家平台,网易有灵众包平台：人机协作数据标注平台，定位为大模型高质量数据与人类对齐解决方案（兼为潜在竞品/渠道）,“致力于打造生成式AI高质量数据解决方案…协助大模型厂商解决…问题”,https://fuxi.163.com/productDetail/zb,未知（2024-2025）,官方产品页/搜索摘要,低
+百川智能,模型发布(RL/Agent),Baichuan-M3（2026-01）Fact-Aware RL，强调顶级医生定义评测标准；2026-05发布M4,“由顶级医生定义标准而非简单标注数据”；“Fact-Aware RL…将医学事实核验融入每一轮奖惩”,https://www.huxiu.com/article/4826082.html,2026-01,媒体报道/搜索摘要,低
+零一万物,公开表态,万智2.5企业级多智能体，自研RL基于企业生产反馈持续学习；判断2026为“多智能体上岗元年”,“基于数据反馈的强化学习…从企业专业生产流程中的正负反馈中持续学习”,https://www.infoq.cn/news/8lkAlTOp8etL1u8LGmxq,2026-01,媒体报道/搜索摘要,低
+面壁智能,招聘,招聘大模型评测算法工程师（2026）,职位名：“面壁智能2026年大模型评测算法工程师(A123687)”,https://www.zhipin.com/job_detail/96369a99a7ccafbc0nZ62966EFpZ.html,2026,招聘平台/搜索摘要（仅标题）,低
+昆仑万维 Skywork,招聘,2050研究院RL方向招聘（熟悉verl/OpenRLHF等）,“熟悉大模型和RLHF的常见训练框架，例如Deepspeed、Megatron、Verl、Openrlhf”,https://zhuanlan.zhihu.com/p/28540665501,2025,知乎招聘帖/搜索摘要,低
+华为 盘古/诺亚,招聘,诺亚决策推理团队：大模型自演进、RLHF、LLM-based Agent，对接盘古；盘古5.5 DeepDiver用长链难题合成与渐进式奖励,“主要研究方向包括大模型自演进、强化学习RLHF、LLM-based Agent…业务对接自研盘古大模型”,https://zhuanlan.zhihu.com/p/681153032,2024（帖已失效）,知乎招聘帖/搜索摘要,低
+商汤 日日新,其他,2026-07 启动“无限原力”顶尖人才计划；日日新采用种子数据SFT+多轮RL,“商汤科技「无限原力」顶尖人才计划招募启动”,https://job.lzu.edu.cn/html/22/article/2026/90270.html,2026-07,高校就业网/搜索摘要（信号弱）,低
+京东 JoyAI,采购/招标,2026-09-09 京东公布数据基建：京东云1000万小时人类数据采集，建“采存标训评仿测”具身数据基础设施（大规模数据采集/标注需求，也可能自建）,“京东云进行1000万小时人类最大规模数据采集行动，建设了覆盖‘采、存、标、训、评、仿、测’全流程的具身数据基础设施”,https://www.yicai.com/news/102743698.html,2026-09（搜索摘要称）,媒体报道/搜索摘要（URL为2025 JoyAI发布稿，2026信息可能来自其他页）,低
+中国联通,采购/招标,“2026年福州联通大模型微调数据清洗及标[注]”项目公告（仅在搜索摘要中提及，未见原文）,摘要：“2026年福州联通大模型微调数据清洗及标”,https://www.tvoao.com/a/223487.aspx,2026,搜索摘要（链接非公告原文，需在联通招标网核实）,低
+中国移动/中国电信/联通,采购/招标,2025年四大运营商“数据要素”公开市场总中标超10.47亿；运营商既是数据服务卖方也有数据采购需求,标题：“四大运营商2025年‘数据要素’公开市场总中标金额超10.47亿，联通反超电信14.4%”,https://www.tvoao.com/a/223487.aspx,2026初,媒体报道/搜索摘要,低
+中国电信 星辰/TeleAI,公开表态,天翼AI构建超10万亿Tokens高质量数据集（数据体系建设投入大）,标题：“超10万亿Tokens的高质量数据集是怎么炼成的？专访中国电信天翼AI阮宜龙”,https://www.qbitai.com/2025/09/336479.html,2025-09,媒体报道/搜索摘要（仅标题）,低
+招商银行/平安（金融）,采购/招标,中国银行2026软件中心大模型技术服务招标（500人天），要求具备招行/平安等大行大模型建设案例；股份行以“外部引入+工程改造”为主,“要求投标人具备招商银行或平安银行等大行大模型平台建设或应用场景开发案例，需求500人天”,https://security.zone.ci/secarticles/wx/486286.html,2026,转载公众号/搜索摘要,低
+智元机器人,自建专家平台,上海4000+平米数据采集工厂，日产3-5万条高质量数据（自建为主，可能外采标注/仿真环境）,“智元机器人在上海投建超4000平米的数据采集工厂，日均可产出3万-5万条高质量数据”,https://news.qq.com/rain/a/20260603A07KSA00,2026-06,媒体报道/搜索摘要,低
+银河通用/灵初等具身,其他,具身企业大额融资重点投向大规模数据采集体系（灵初20亿元）；行业认为需万亿级数据,“资金重点投向…以及大规模数据采集体系”,https://m.jiemian.com/article/14531147.html,2026-06,媒体报道/搜索摘要,低
+阿里 通义,招聘,通义实验室官方招聘站 Token Foundry（careers-tongyi），未检索到具体专家数据/RL环境岗,官网标题“Token Foundry招聘官网”,https://careers-tongyi.alibaba.com/,2026,官方招聘站/搜索摘要（信号弱）,低

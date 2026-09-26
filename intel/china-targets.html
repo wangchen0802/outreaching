@@ -1,0 +1,412 @@
+<title>国内外联目标</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500&family=Noto+Sans+SC:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #FAF9F6; --surface: #FFFFFF; --ink: #111110; --body: #33322F; --muted: #6E6C66;
+    --rule: #E2E0DA; --rule-strong: #CFCCC4; --accent: #C2410C; --accent-tint: rgba(194, 65, 12, 0.09);
+    --ok: #2E6B3F; --ok-tint: rgba(46, 107, 63, 0.10); --warn: #93580A; --warn-tint: rgba(147, 88, 10, 0.11);
+    --bad: #9B2C2C; --bad-tint: rgba(155, 44, 44, 0.09);
+    --btn-ink: #111110; --btn-paper: #FAF9F6;
+    --serif: "Newsreader", "Noto Serif SC", "Songti SC", Georgia, serif;
+    --sans: "Instrument Sans", "Noto Sans SC", "PingFang SC", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "Noto Sans SC", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+      --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
+      --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+      --bad: #EE8A8A; --bad-tint: rgba(238, 138, 138, 0.13);
+      --btn-ink: #F3F1EC; --btn-paper: #141311;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
+    --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
+    --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+    --bad: #EE8A8A; --bad-tint: rgba(238, 138, 138, 0.13);
+    --btn-ink: #F3F1EC; --btn-paper: #141311;
+  }
+
+  body { background: var(--paper); color: var(--body); font: 14px/1.6 var(--sans); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; display: grid; gap: 24px; }
+  h1, h2, h3 { color: var(--ink); margin: 0; text-wrap: balance; }
+  a { color: inherit; text-decoration-color: var(--rule-strong); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--accent); }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .label { font: 500 11px/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+
+  .top { display: grid; gap: 14px; }
+  .brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .brand .co { font: 500 13px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .brand h1 { font: 500 34px/1.1 var(--serif); letter-spacing: -0.01em; }
+  .lede { margin: 0; max-width: 66ch; }
+  .tally { display: grid; gap: 8px; max-width: 620px; }
+  .tally-nums { display: flex; gap: 18px; flex-wrap: wrap; font: 400 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tally-nums b { color: var(--ink); font-weight: 500; }
+  .bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--rule); }
+  .bar span { display: block; height: 100%; }
+  .b-ok { background: var(--ok); } .b-warn { background: var(--warn); } .b-bad { background: var(--bad); }
+
+  .filters { display: grid; gap: 10px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 14px; }
+  .frow { display: flex; gap: 8px 14px; flex-wrap: wrap; align-items: center; }
+  .frow .label { min-width: 3.5em; }
+  .seg { display: flex; gap: 4px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--rule-strong); background: transparent; border-radius: 999px; padding: 3px 11px; cursor: pointer; font-size: 13px; color: var(--body); }
+  .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .chip .n { font: 400 12px var(--mono); margin-left: 4px; opacity: 0.75; font-variant-numeric: tabular-nums; }
+  .search { flex: 1 1 220px; min-width: 0; background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 6px 10px; }
+  .tools { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+  #list { display: grid; gap: 8px; }
+  .row { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; }
+  .row[open] { border-color: var(--rule-strong); }
+  .row > summary { list-style: none; cursor: pointer; padding: 12px 16px; display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+  .row > summary::-webkit-details-marker { display: none; }
+  .pri { font: 500 12px/1 var(--mono); text-align: center; border-radius: 4px; padding: 5px 0; border: 1px solid var(--rule-strong); color: var(--muted); }
+  .pri-P0 { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .pri-P1 { color: var(--accent); border-color: var(--accent); }
+  .main { display: grid; gap: 3px; min-width: 0; }
+  .nm { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .nm h2 { font: 600 16px/1.3 var(--sans); }
+  .sub { font-size: 12.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tag { font: 400 11.5px/1 var(--mono); color: var(--muted); border: 1px solid var(--rule); border-radius: 4px; padding: 3px 6px; white-space: nowrap; }
+  .tag.t-客户 { color: var(--ok); border-color: currentColor; }
+  .tag.t-潜在 { color: var(--accent); border-color: currentColor; }
+  .status { font: 500 12px/1 var(--sans); border-radius: 999px; padding: 5px 10px; white-space: nowrap; }
+  .st-pending { color: var(--muted); border: 1px solid var(--rule-strong); }
+  .st-approved { color: var(--ok); background: var(--ok-tint); }
+  .st-hold { color: var(--warn); background: var(--warn-tint); }
+  .st-rejected { color: var(--bad); background: var(--bad-tint); }
+
+  .detail { border-top: 1px solid var(--rule); padding: 16px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 24px; }
+  @media (max-width: 820px) { .detail { grid-template-columns: minmax(0, 1fr); } .row > summary { grid-template-columns: 34px minmax(0, 1fr); } .row > summary .status { grid-column: 2; justify-self: start; } }
+  .edit { display: grid; gap: 12px; align-content: start; }
+  .field { display: grid; gap: 4px; }
+  .field input, .field select, .field textarea { background: var(--paper); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 7px 10px; min-width: 0; width: 100%; box-sizing: border-box; }
+  .field textarea { min-height: 84px; resize: vertical; line-height: 1.55; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .btn { border-radius: 6px; padding: 6px 13px; cursor: pointer; font-weight: 500; font-size: 13.5px; border: 1px solid var(--rule-strong); background: transparent; }
+  .btn:hover { border-color: var(--ink); }
+  .btn-primary { background: var(--btn-ink); color: var(--btn-paper); border-color: var(--btn-ink); }
+  .btn-ok[aria-pressed="true"] { background: var(--ok-tint); color: var(--ok); border-color: var(--ok); }
+  .btn-hold[aria-pressed="true"] { background: var(--warn-tint); color: var(--warn); border-color: var(--warn); }
+  .btn-bad[aria-pressed="true"] { background: var(--bad-tint); color: var(--bad); border-color: var(--bad); }
+  .btn[disabled] { opacity: 0.45; cursor: not-allowed; }
+  .save-state { font: 400 12px var(--mono); color: var(--muted); min-height: 1em; }
+  .meta { font-size: 12.5px; color: var(--muted); }
+  .meta b { color: var(--body); font-weight: 500; }
+  .chips-inline { display: flex; gap: 4px; flex-wrap: wrap; }
+
+  .ev { display: grid; gap: 10px; align-content: start; }
+  .ev-list { display: grid; gap: 8px; max-height: 460px; overflow-y: auto; padding-right: 4px; }
+  .ev-item { border-left: 2px solid var(--rule-strong); padding: 2px 0 2px 10px; display: grid; gap: 2px; font-size: 13px; }
+  .ev-item.c-高 { border-left-color: var(--ok); }
+  .ev-item.c-低 { border-left-color: var(--warn); }
+  .ev-h { display: flex; gap: 6px 10px; flex-wrap: wrap; align-items: baseline; }
+  .ev-h .src { font-weight: 600; color: var(--ink); }
+  .ev-h .rel, .ev-h .dt { font: 400 12px var(--mono); color: var(--muted); }
+  .ev-q { font: 400 14px/1.55 var(--serif); color: var(--ink); }
+  .ev-q:lang(zh) { font-family: "Noto Serif SC", var(--serif); }
+  .ev-w { color: var(--muted); font-size: 12.5px; }
+  .ev-l { font-size: 12px; word-break: break-all; color: var(--muted); }
+  .empty { color: var(--muted); font-size: 13px; }
+
+  .notice { background: var(--warn-tint); color: var(--warn); border-radius: 6px; padding: 10px 14px; font-size: 13px; }
+  .add { border-top: 1px solid var(--rule); padding-top: 16px; display: grid; gap: 10px; }
+  .add-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+  .foot { font-size: 12.5px; color: var(--muted); max-width: 72ch; }
+  @media (prefers-reduced-motion: no-preference) { .row { transition: border-color .15s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><span class="co">SimReal · 国内</span><h1>外联目标</h1></div>
+    <p class="lede">从 39 家国内数据、评测、RL 环境供应商公开声明的客户和合作方反推出来的名单，外加没有公开供应商、但属于后训练数据天然买家的潜在客户，以及可以做分包或联合交付的供应商本身。展开一行可以改优先级、切入点、联系人，并审批。</p>
+    <div class="tally">
+      <div class="tally-nums" id="tally-nums"><span>正在加载…</span></div>
+      <div class="bar" id="tally-bar"></div>
+    </div>
+  </header>
+
+  <div id="notice" class="notice" hidden></div>
+
+  <section class="filters" aria-label="筛选">
+    <div class="frow"><span class="label">类别</span><div class="seg" id="f-tier"></div></div>
+    <div class="frow"><span class="label">优先级</span><div class="seg" id="f-pri"></div></div>
+    <div class="frow"><span class="label">状态</span><div class="seg" id="f-status"></div></div>
+    <div class="frow">
+      <input id="f-q" class="search" type="search" placeholder="搜公司、供应商、证据原文…" aria-label="搜索">
+      <div class="tools">
+        <button class="btn" id="exp-approved" type="button" hidden>导出已通过（CSV）</button>
+        <button class="btn" id="exp-all" type="button" hidden>导出全部（CSV）</button>
+      </div>
+    </div>
+  </section>
+
+  <div id="list"><p class="empty">正在加载名单…</p></div>
+
+  <section class="add" id="add" hidden>
+    <h3 class="label">新增目标</h3>
+    <div class="add-grid">
+      <div class="field"><label class="label" for="a-name">公司</label><input id="a-name" placeholder="例如：面壁智能"></div>
+      <div class="field"><label class="label" for="a-cat">客户类型</label><input id="a-cat" placeholder="国内大模型公司"></div>
+      <div class="field"><label class="label" for="a-tier">类别</label><select id="a-tier"></select></div>
+      <div class="field"><label class="label" for="a-pri">优先级</label><select id="a-pri"></select></div>
+    </div>
+    <div class="field"><label class="label" for="a-angle">切入点</label><textarea id="a-angle" placeholder="为什么找他们、卖什么"></textarea></div>
+    <div class="actions"><button class="btn btn-primary" id="a-go" type="button">添加</button><span class="save-state" id="a-state"></span></div>
+  </section>
+
+  <p class="foot">证据来自公开的新闻稿、财报、媒体报道和搜索摘要，每条附来源链接；左边框绿色为高置信，橙色为低置信。"潜在客户"是推断，没有供应商关系证据，只有公开信号。审批状态、联系人和备注只存在这个页面里。</p>
+</div>
+
+<script>
+(function () {
+  var TIERS = ["已证实客户", "合作伙伴", "潜在客户", "渠道伙伴"];
+  var PRIS = ["P0", "P1", "P2", "P3"];
+  var STATUS = [["pending", "待审"], ["approved", "通过"], ["hold", "暂缓"], ["rejected", "否决"]];
+  var STATUS_LABEL = {}; STATUS.forEach(function (s) { STATUS_LABEL[s[0]] = s[1]; });
+  var state = { db: null, docs: [], canEdit: true, f: { tier: "", pri: "", status: "", q: "" }, open: {}, downloads: null };
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function st(d) { return (d.review && d.review.status) || "pending"; }
+  function showNotice(t) { var n = document.getElementById("notice"); n.textContent = t; n.hidden = !t; }
+
+  function chips(elId, items, key) {
+    var el = document.getElementById(elId);
+    var counts = {};
+    state.docs.forEach(function (d) {
+      var v = key === "status" ? st(d) : key === "pri" ? d.priority : d.tier;
+      counts[v] = (counts[v] || 0) + 1;
+    });
+    var all = [["", "全部", state.docs.length]].concat(items.map(function (x) {
+      var v = Array.isArray(x) ? x[0] : x, lb = Array.isArray(x) ? x[1] : x;
+      return [v, lb, counts[v] || 0];
+    }));
+    el.innerHTML = all.map(function (a) {
+      return '<button class="chip" type="button" data-k="' + key + '" data-v="' + esc(a[0]) + '" aria-pressed="' + (state.f[key] === a[0]) + '">' + esc(a[1]) + '<span class="n">' + a[2] + '</span></button>';
+    }).join("");
+  }
+
+  function renderTally() {
+    var n = state.docs.length, c = { approved: 0, hold: 0, rejected: 0, pending: 0 };
+    state.docs.forEach(function (d) { c[st(d)]++; });
+    document.getElementById("tally-nums").innerHTML =
+      "<span><b>" + n + "</b> 个目标</span><span>通过 <b>" + c.approved + "</b></span><span>暂缓 <b>" + c.hold + "</b></span><span>否决 <b>" + c.rejected + "</b></span><span>待审 <b>" + c.pending + "</b></span>";
+    function w(x) { return n ? (100 * x / n) + "%" : "0"; }
+    document.getElementById("tally-bar").innerHTML =
+      '<span class="b-ok" style="width:' + w(c.approved) + '"></span><span class="b-warn" style="width:' + w(c.hold) + '"></span><span class="b-bad" style="width:' + w(c.rejected) + '"></span>';
+  }
+
+  function matches(d) {
+    var f = state.f;
+    if (f.tier && d.tier !== f.tier) return false;
+    if (f.pri && d.priority !== f.pri) return false;
+    if (f.status && st(d) !== f.status) return false;
+    if (f.q) {
+      var hay = [d.name, d.category, d.angle, (d.vendors || []).join(" "), (d.clients || []).join(" "),
+        d.review && d.review.contact, d.review && d.review.note,
+        (d.evidence || []).map(function (e) { return e.quote + " " + e.what + " " + e.src; }).join(" ")].join(" ").toLowerCase();
+      if (hay.indexOf(f.q.toLowerCase()) < 0) return false;
+    }
+    return true;
+  }
+
+  function sorted() {
+    var tr = {}; TIERS.forEach(function (t, i) { tr[t] = i; });
+    return state.docs.filter(matches).sort(function (a, b) {
+      return (a.priority || "P9").localeCompare(b.priority || "P9") || (tr[a.tier] - tr[b.tier]) ||
+        ((b.evidence || []).length - (a.evidence || []).length) || a.name.localeCompare(b.name, "zh");
+    });
+  }
+
+  function evHtml(d) {
+    var ev = d.evidence || [];
+    if (!ev.length) return '<p class="empty">没有收录到关系证据。' + (d.tier === "潜在客户" ? "这是推断出来的潜在客户。" : "") + '</p>';
+    return '<div class="ev-list">' + ev.map(function (e) {
+      return '<div class="ev-item c-' + esc(e.conf) + '"><div class="ev-h"><span class="src">' + esc(e.src) + '</span><span class="rel">' + esc(e.rel) + '</span><span class="dt">' + esc(e.date) + ' · ' + esc(e.conf) + '</span></div>' +
+        '<div class="ev-q" lang="zh">' + esc(e.quote) + '</div>' +
+        (e.what ? '<div class="ev-w">' + esc(e.what) + '</div>' : '') +
+        '<div class="ev-l"><a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.url) + '</a> · ' + esc(e.stype) + '</div></div>';
+    }).join("") + '</div>';
+  }
+
+  function opt(list, cur) { return list.map(function (x) { return '<option' + (x === cur ? ' selected' : '') + '>' + esc(x) + '</option>'; }).join(""); }
+
+  function rowHtml(d) {
+    var s = st(d), rv = d.review || {};
+    var dis = state.canEdit ? "" : " disabled";
+    var tagCls = d.tier === "已证实客户" ? "t-客户" : d.tier === "潜在客户" ? "t-潜在" : "";
+    var subBits = [];
+    if ((d.vendors || []).length) subBits.push("供应商：" + d.vendors.map(function (v) { return v.split(/[ （(]/)[0]; }).join("、"));
+    if ((d.clients || []).length) subBits.push("服务：" + d.clients.join("、"));
+    if (rv.contact) subBits.unshift("联系人：" + rv.contact);
+    if (!subBits.length) subBits.push(d.angle || "");
+    return '<details class="row" data-id="' + esc(d.id) + '"' + (state.open[d.id] ? " open" : "") + '>' +
+      '<summary><span class="pri pri-' + esc(d.priority) + '">' + esc(d.priority) + '</span>' +
+      '<div class="main"><div class="nm"><h2>' + esc(d.name) + '</h2><span class="tag ' + tagCls + '">' + esc(d.tier) + '</span><span class="tag">' + esc(d.category) + '</span>' +
+      ((d.evidence || []).length ? '<span class="tag">' + d.evidence.length + ' 条证据</span>' : '') + (d.draft ? '<span class="tag">已有草稿</span>' : '') + '</div>' +
+      '<div class="sub">' + esc(subBits.join(" · ")) + '</div></div>' +
+      '<span class="status st-' + s + '">' + STATUS_LABEL[s] + '</span></summary>' +
+      '<div class="detail"><div class="edit">' +
+        '<div class="actions" role="group" aria-label="审批">' +
+          '<button class="btn btn-ok" type="button" data-act="approved" aria-pressed="' + (s === "approved") + '"' + dis + '>通过</button>' +
+          '<button class="btn btn-hold" type="button" data-act="hold" aria-pressed="' + (s === "hold") + '"' + dis + '>暂缓</button>' +
+          '<button class="btn btn-bad" type="button" data-act="rejected" aria-pressed="' + (s === "rejected") + '"' + dis + '>否决</button>' +
+          (s !== "pending" ? '<button class="btn" type="button" data-act="pending"' + dis + '>改回待审</button>' : '') +
+        '</div>' +
+        '<div class="pair"><div class="field"><label class="label" for="p-' + esc(d.id) + '">优先级</label><select id="p-' + esc(d.id) + '" data-f="priority"' + dis + '>' + opt(PRIS, d.priority) + '</select></div>' +
+        '<div class="field"><label class="label" for="t-' + esc(d.id) + '">类别</label><select id="t-' + esc(d.id) + '" data-f="tier"' + dis + '>' + opt(TIERS, d.tier) + '</select></div></div>' +
+        '<div class="field"><label class="label" for="g-' + esc(d.id) + '">切入点</label><textarea id="g-' + esc(d.id) + '" data-f="angle"' + dis + '>' + esc(d.angle) + '</textarea></div>' +
+        '<div class="field"><label class="label" for="c-' + esc(d.id) + '">联系人 / 渠道</label><input id="c-' + esc(d.id) + '" data-f="review.contact" value="' + esc(rv.contact) + '" placeholder="姓名、职位、介绍人"' + dis + '></div>' +
+        '<div class="field"><label class="label" for="n-' + esc(d.id) + '">备注</label><textarea id="n-' + esc(d.id) + '" data-f="review.note" placeholder="审批意见、下一步"' + dis + '>' + esc(rv.note) + '</textarea></div>' +
+        '<div class="save-state" data-save></div>' +
+        ((d.vendors || []).length ? '<div class="meta"><b>它的供应商：</b>' + d.vendors.map(esc).join("、") + '</div>' : '') +
+        ((d.clients || []).length ? '<div class="meta"><b>名单里它服务的客户：</b>' + d.clients.map(esc).join("、") + '</div>' : '') +
+        (d.channel ? '<div class="meta"><b>规模：</b>' + esc(d.channel.size) + ' · <b>领域：</b>' + esc(d.channel.domains) + (d.channel.site ? ' · ' + esc(d.channel.site) : '') + '</div>' : '') +
+        (d.draft ? '<div class="meta"><b>主名单草稿：</b>drafts/' + esc(d.draft) + '.md</div>' : '') +
+      '</div><div class="ev"><h3 class="label">证据（' + (d.evidence || []).length + '）</h3>' + evHtml(d) + '</div></div></details>';
+  }
+
+  function render() {
+    renderTally();
+    chips("f-tier", TIERS, "tier");
+    chips("f-pri", PRIS, "pri");
+    chips("f-status", STATUS, "status");
+    var list = document.getElementById("list");
+    var focus = document.activeElement && list.contains(document.activeElement) ? document.activeElement : null;
+    if (focus && (focus.tagName === "TEXTAREA" || focus.tagName === "INPUT")) return; // 编辑中不重绘
+    var rows = sorted();
+    list.innerHTML = rows.length ? rows.map(rowHtml).join("") : '<p class="empty">没有符合筛选条件的目标。</p>';
+  }
+
+  document.querySelector(".filters").addEventListener("click", function (e) {
+    var b = e.target.closest(".chip"); if (!b) return;
+    state.f[b.dataset.k] = b.dataset.v; render();
+  });
+  var qT;
+  document.getElementById("f-q").addEventListener("input", function (e) {
+    clearTimeout(qT); qT = setTimeout(function () { state.f.q = e.target.value.trim(); render(); }, 150);
+  });
+
+  var list = document.getElementById("list");
+  list.addEventListener("toggle", function (e) {
+    var r = e.target; if (!r.classList || !r.classList.contains("row")) return;
+    state.open[r.dataset.id] = r.open;
+  }, true);
+
+  async function write(id, patch, row) {
+    var s = row && row.querySelector("[data-save]");
+    if (s) s.textContent = "保存中…";
+    try {
+      await state.db.doc("targets/" + id).update(patch);
+      if (s) s.textContent = "已保存";
+    } catch (err) {
+      if (s) s.textContent = "没保存上（" + (err && err.code || "错误") + "），再试一次。";
+      if (err && err.code === "invalid_argument") { state.canEdit = false; showNotice("你对这个页面只有查看权限，改动不会保存。"); }
+    }
+  }
+
+  list.addEventListener("click", function (e) {
+    var b = e.target.closest("[data-act]"); if (!b) return;
+    var row = b.closest(".row"), id = row.dataset.id;
+    var d = state.docs.find(function (x) { return x.id === id; });
+    var rv = Object.assign({}, d.review || {}, { status: b.dataset.act, at: new Date().toISOString() });
+    write(id, { review: rv }, row);
+  });
+
+  var timers = {};
+  function fieldPatch(el) {
+    var f = el.dataset.f, v = el.value;
+    if (f.indexOf("review.") === 0) { var p = { review: {} }; p.review[f.slice(7)] = v; return p; }
+    var o = {}; o[f] = v; return o;
+  }
+  list.addEventListener("input", function (e) {
+    var el = e.target; if (!el.dataset.f || el.tagName === "SELECT") return;
+    var row = el.closest(".row"), key = row.dataset.id + el.dataset.f;
+    var s = row.querySelector("[data-save]"); if (s) s.textContent = "未保存…";
+    clearTimeout(timers[key]);
+    timers[key] = setTimeout(function () { write(row.dataset.id, fieldPatch(el), row); }, 700);
+  });
+  list.addEventListener("change", function (e) {
+    var el = e.target; if (!el.dataset.f) return;
+    var row = el.closest(".row");
+    if (el.tagName === "SELECT") { write(row.dataset.id, fieldPatch(el), row); return; }
+    var key = row.dataset.id + el.dataset.f;
+    clearTimeout(timers[key]); write(row.dataset.id, fieldPatch(el), row);
+  });
+  list.addEventListener("focusout", function () { setTimeout(function () { if (!list.contains(document.activeElement)) render(); }, 0); });
+
+  // 新增目标
+  document.getElementById("a-tier").innerHTML = opt(TIERS, "潜在客户");
+  document.getElementById("a-pri").innerHTML = opt(PRIS, "P2");
+  document.getElementById("a-go").addEventListener("click", async function () {
+    var name = document.getElementById("a-name").value.trim(), out = document.getElementById("a-state");
+    if (!name) { out.textContent = "先填公司名。"; return; }
+    var id = "u-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 7);
+    out.textContent = "添加中…";
+    try {
+      await state.db.doc("targets/" + id).set({
+        name: name, category: document.getElementById("a-cat").value.trim() || "未分类",
+        tier: document.getElementById("a-tier").value, priority: document.getElementById("a-pri").value,
+        angle: document.getElementById("a-angle").value.trim(), vendors: [], evidence: [], draft: "", manual: true,
+        review: { status: "pending", note: "", contact: "" }
+      });
+      out.textContent = "已添加：" + name;
+      ["a-name", "a-cat", "a-angle"].forEach(function (i) { document.getElementById(i).value = ""; });
+      state.open[id] = true;
+    } catch (err) { out.textContent = "没加上（" + (err && err.code || "错误") + "）。"; }
+  });
+
+  // 导出
+  function csvCell(v) { v = String(v == null ? "" : v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  async function exportCsv(onlyApproved) {
+    if (!state.downloads) return;
+    var head = ["公司", "类别", "客户类型", "优先级", "状态", "联系人", "切入点", "备注", "供应商", "证据数", "首条证据链接"];
+    var rows = sorted().filter(function (d) { return !onlyApproved || st(d) === "approved"; }).map(function (d) {
+      var rv = d.review || {};
+      return [d.name, d.tier, d.category, d.priority, STATUS_LABEL[st(d)], rv.contact, d.angle, rv.note, (d.vendors || []).join("；"), (d.evidence || []).length, d.evidence && d.evidence[0] ? d.evidence[0].url : ""];
+    });
+    var text = "﻿" + [head].concat(rows).map(function (r) { return r.map(csvCell).join(","); }).join("\n");
+    try { await state.downloads.save({ filename: onlyApproved ? "china-targets-approved.csv" : "china-targets.csv", data: text }); }
+    catch (err) { showNotice("没导出（" + (err && err.code || "错误") + "）。"); }
+  }
+  document.getElementById("exp-approved").addEventListener("click", function () { exportCsv(true); });
+  document.getElementById("exp-all").addEventListener("click", function () { exportCsv(false); });
+
+  async function start() {
+    var claude = window.claude;
+    var db = claude && claude.use ? await claude.use("db") : null;
+    if (!db) {
+      document.getElementById("list").innerHTML = "";
+      document.getElementById("tally-nums").innerHTML = "<span>数据未连接</span>";
+      showNotice("名单数据现在连不上。刷新页面试一次；还不行就告诉 Claude。");
+      return;
+    }
+    state.db = db;
+    try {
+      var user = await claude.use("user");
+      var can = user ? await user.can("data.write") : null;
+      state.canEdit = can !== false;
+    } catch (e) { state.canEdit = true; }
+    document.getElementById("add").hidden = !state.canEdit;
+    db.collection("targets").onSnapshot(function (snap) {
+      state.docs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
+      render();
+    }, function (e) { showNotice("名单连接断开了（" + (e && e.code || "错误") + "）。刷新页面重新连接。"); });
+    claude.use("downloads").then(function (dl) {
+      state.downloads = dl;
+      document.getElementById("exp-approved").hidden = !dl;
+      document.getElementById("exp-all").hidden = !dl;
+    });
+  }
+  start();
+})();
+</script>
