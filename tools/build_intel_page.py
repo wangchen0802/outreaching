@@ -45,7 +45,12 @@ def main():
         "onList": sorted(prospect_names()),
         "findings": json.loads((INTEL / "findings.json").read_text(encoding="utf-8")),
         "ids": {c["buyer"]: anchor(c["buyer"]) for c in claims},
+        "vcFunds": [],
     }
+    vc = INTEL / "vc-funds.csv"
+    if vc.exists():
+        with open(vc, encoding="utf-8-sig") as f:
+            data["vcFunds"] = [dict(r) for r in csv.DictReader(f)]
     blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     tpl = (INTEL / "page" / "template.html").read_text(encoding="utf-8")
     out = INTEL / "page" / "index.html"

@@ -1,0 +1,43 @@
+{
+ "海外": [
+  ["HRT Ventures（Hudson River Trading）", "量化机构本身，今年跟投了评测公司 Vals 和红队公司 Gray Swan，最认可我们的团队背景。"],
+  ["General Catalyst", "Yuri Sagalov 专做种子，8 月领投 RL 沙箱公司 Arga；它和 Mercor 绑定很深，要讲清差异。"],
+  ["Andreessen Horowitz (a16z)", "公开说 RL 环境是 AI 栈的下一层；Deeptune 被 Mercor 收购后，这个方向留出了空位。"],
+  ["Index Ventures", "两次领投前 Citadel Securities 量化团队创办的 Moment，还领投过后训练公司 Adaptive ML。"],
+  ["Chemistry", "Mark Goldberg 写过投资论文《RL Reigns Supreme》，领投了 Datacurve，对华人团队友好。"],
+  ["Kleiner Perkins", "Leigh Marie Braswell 出身 Scale，领投 Applied Compute；Applied Compute 也是我们的潜在客户。"],
+  ["Lightspeed", "Faraz Fatemi 今年领投了训练数据公司 Origin Lab 和评测公司 Judgment Labs 的种子轮。"],
+  ["Scribble Ventures", "领投编码 RL 环境公司 Proximal 的种子轮，单笔小、决策快，适合做种子锚定。"],
+  ["Menlo Ventures", "Deedy Das 一直在整理这个赛道的图谱，最懂行；但已投 Fleet 和 Mercor 两家竞品。"],
+  ["Susquehanna International Group（SIG）", "量化做市机构，跟投了人类数据公司 Deccan AI 的 A 轮。"],
+  ["Conviction（Sarah Guo）", "种子基金，关注 agent 上线后的持续学习。"],
+  ["Wing VC", "Peter Wagner 的研究认为 RL 环境的瓶颈在验证，正对上我们的验证器；但已投 Bespoke Labs。"],
+  ["Elad Gil", "投了后训练、评测、数据策展三类公司，适合做信号型天使。"],
+  ["Standard Capital", "领投 HUD 的 A 轮，可作为下一轮的储备。"],
+  ["Jane Street", "团队前东家之一，有以机构名义领投 AI 种子轮的先例，也可能是金融环境的客户；要处理好前雇主关系。"]
+ ],
+ "国内": [
+  ["红杉中国 HongShan（HSG）", "国内唯一自己做 Agent 评测基准（xbench）的 VC，投了 UniPat 和 TalentsAI；先找 xbench 牵头人公元。"],
+  ["五源资本 5Y Capital", "种子轮投了专家数据公司一面千识，又投了金融 AI 公司 GIM，懂数据也懂金融，有美元基金。"],
+  ["锦秋基金 Jinqiu Capital", "美元基金，天使轮投过专家数据，出手快；最大 LP 是字节，可能帮忙打通 Seed。"],
+  ["Monolith 砺思资本", "投了 GIM，曹曦公开称赞团队懂前沿 AI 也懂金融，和我们的叙事最接近。"],
+  ["九坤创投 Ubiquant Ventures", "量化私募的创投平台，最认可 Citadel、Jane Street 背景，也可能成为金融环境的客户。"],
+  ["耀途资本 Glory Ventures", "双币基金，天使轮投过专家数据，看重大模型客户订单。"],
+  ["BV百度风投 Baidu Ventures", "种子轮领投过数据公司，公开称赞 90 后团队，有美元基金。"],
+  ["线性资本 Linear Capital", "第六期美元基金刚首关，天使到 A 轮领投，单笔 100 万–1000 万美元，和我们的种子轮最吻合。"],
+  ["高榕创投 Gaorong Ventures", "领投语用科技（前 Qwen 负责人创办），可以帮忙引荐这家新实验室做客户。"],
+  ["奇绩创坛 MiraclePlus", "最早孵化 RL 数据和环境方向（一面千识），可借它背书接触它投的大模型公司。"],
+  ["蚂蚁集团（战略投资部）", "金融场景的大买家，也领投过数据基础设施；先做客户，再谈投资。"],
+  ["字节跳动（投资部）", "国内最大的数据买家，新团队开始系统投 AI 初创。"],
+  ["经纬创投 Matrix Partners China", "早期领投过光轮，认可中美两边都能交付、服务海外实验室的数据公司。"],
+  ["顺为资本 Shunwei Capital", "天使轮领投过数据基建公司简智。"],
+  ["云锋基金 Yunfeng Capital", "香港主体，和阿里、蚂蚁生态关系深，刚开始投美国的 AI 金融科技。"]
+ ],
+ "谨慎": [
+  ["Khosla Ventures", "Vinod Khosla 公开说永远不会投中国相关。"],
+  ["Founders Fund", "合伙人公开嘲讽 Benchmark 投 Manus 被审查一事。"],
+  ["Benchmark", "领投 Manus 后遭美国财政部审查。"],
+  ["阿里巴巴（战略投资）", "已重注竞品 UniPat，更适合当客户。"],
+  ["腾讯（投资）", "已重注竞品 UniPat，更适合当客户。"]
+ ]
+}

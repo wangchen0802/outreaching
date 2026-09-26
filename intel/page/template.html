@@ -83,6 +83,20 @@
   .btn:hover { border-color: var(--ink); }
   .empty { color: var(--muted); padding: 18px 12px; }
   .note { font-size: 12.5px; color: var(--muted); max-width: 80ch; }
+  .prio { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+  .prio-col { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 18px; }
+  .prio-col h3 { font: 600 14px/1.4 var(--sans); margin-bottom: 8px; }
+  .prio-col ol { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+  .prio-col li { font-size: 13.5px; }
+  .prio-col li b { color: var(--ink); font-weight: 600; }
+  .prio-col li span { color: var(--muted); }
+  .prio-col.caution h3 { color: var(--lo); }
+  .vc-detail { display: grid; gap: 8px; font-size: 13.5px; }
+  .vc-detail .k { font: 500 11px/1.4 var(--mono); letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); display: block; }
+  .vc-detail .v { color: var(--body); }
+  .vc-detail q { font: 400 14px/1.55 var(--serif); color: var(--ink); quotes: "“" "”"; }
+  .vc-detail a { font: 12px var(--mono); word-break: break-all; color: var(--muted); }
+  .rank { font: 500 12px var(--mono); color: var(--accent); }
   @media (max-width: 520px) { .wrap { padding: 24px 16px 48px; } h1 { font-size: 30px; } }
 </style>
 
@@ -90,7 +104,7 @@
   <header>
     <span class="kicker">SimReal · 市场情报</span>
     <h1>RL 数据买方地图</h1>
-    <p class="lede">RL 环境、人类数据、专家网络、评测类公司公开点名过的客户和合作方，按买方反向索引。每条都来自公开来源：融资稿、财报、技术报告致谢、共建基准、媒体报道。点开一行看原文证据和链接。</p>
+    <p class="lede">RL 环境、人类数据、专家网络、评测类公司公开点名过的客户和合作方，按买方反向索引。每条都来自公开来源：融资稿、财报、技术报告致谢、共建基准、媒体报道。点开一行看原文证据和链接。页面最后是投资这个赛道的机构和天使，附优先接触名单。</p>
     <div class="stats num" id="stats"></div>
   </header>
 
@@ -122,6 +136,23 @@
       <table>
         <thead><tr><th>供应商</th><th>类型</th><th>规模</th><th>地区</th><th class="num">声明数</th><th>简介</th></tr></thead>
         <tbody id="vendors"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section aria-labelledby="vc-title">
+    <div class="sec-head"><h2 id="vc-title">投资人</h2><span class="label" id="vc-count"></span></div>
+    <p class="note">投了 RL 环境、人类数据、评测、后训练基础设施的机构和天使。先看下面的优先名单；表格里点开一行，能看到已投公司、对接合伙人、公开观点原话和来源。</p>
+    <div class="prio" id="vc-prio"></div>
+    <div class="controls">
+      <input type="search" id="q-vc" placeholder="搜机构、合伙人或被投公司，例如 Mercor、RL 环境、金融" aria-label="搜索投资人">
+      <div id="vc-seg" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+      <div id="vc-fit" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>投资人</th><th>类型</th><th>地区</th><th>匹配度</th><th>对接合伙人</th><th>投过的竞品</th></tr></thead>
+        <tbody id="vcs"></tbody>
       </table>
     </div>
   </section>
@@ -244,7 +275,7 @@
   }
 
   document.addEventListener("click", function (ev) {
-    var chip = ev.target.closest(".chip");
+    var chip = ev.target.closest(".chip[data-type]");
     if (chip) {
       state.type = chip.dataset.type;
       document.querySelectorAll("#type-chips .chip").forEach(function (c) { c.setAttribute("aria-pressed", c === chip); });
@@ -269,11 +300,88 @@
   document.getElementById("hide-low").addEventListener("change", function (e) { state.hideLow = e.target.checked; renderBuyers(); });
   document.getElementById("q-vendor").addEventListener("input", renderVendors);
 
+  // Investors.
+  var VC = D.vcFunds || [];
+  var vcState = { q: "", seg: "全部", fit: "全部", open: {} };
+  function linkify(text) {
+    return String(text || "").split(/[；;]\s*/).filter(Boolean).map(function (part) {
+      var u = safeUrl(part.trim());
+      return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(u) + "</a>" : esc(part);
+    }).join("<br>");
+  }
+  function fitOf(v) { return (v["匹配度"] || "").charAt(0); }
+  function renderPrio() {
+    var cols = [["海外", "海外：先接触这 15 家"], ["国内", "国内：先接触这 15 家"]].map(function (x) {
+      var rows = VC.filter(function (v) { return v["分段"] === x[0] && v["优先级"]; })
+        .sort(function (a, b) { return +a["优先级"] - +b["优先级"]; });
+      return '<div class="prio-col"><h3>' + esc(x[1]) + "</h3><ol>" + rows.map(function (v) {
+        return "<li><b>" + esc(v["投资方"]) + "</b> <span>" + esc(v["优先级理由"]) + "</span></li>";
+      }).join("") + "</ol></div>";
+    });
+    var caut = VC.filter(function (v) { return v["谨慎"]; });
+    if (caut.length) cols.push('<div class="prio-col caution"><h3>谨慎接触</h3><ol>' + caut.map(function (v) {
+      return "<li><b>" + esc(v["投资方"]) + "</b> <span>" + esc(v["谨慎"]) + "</span></li>";
+    }).join("") + "</ol></div>");
+    document.getElementById("vc-prio").innerHTML = cols.join("");
+  }
+  function chipRow(id, key, vals) {
+    document.getElementById(id).innerHTML = vals.map(function (t) {
+      return '<button class="chip" data-vc-' + key + '="' + esc(t) + '" aria-pressed="' + (vcState[key] === t) + '">' + esc(t) + "</button>";
+    }).join("");
+  }
+  function renderVCs() {
+    chipRow("vc-seg", "seg", ["全部", "海外", "国内"]);
+    chipRow("vc-fit", "fit", ["全部", "高", "中", "低"]);
+    var q = vcState.q.toLowerCase();
+    var rows = VC.filter(function (v) {
+      if (vcState.seg !== "全部" && v["分段"] !== vcState.seg) return false;
+      if (vcState.fit !== "全部" && fitOf(v) !== vcState.fit) return false;
+      if (!q) return true;
+      return Object.keys(v).map(function (k) { return v[k]; }).join(" ").toLowerCase().indexOf(q) !== -1;
+    });
+    document.getElementById("vc-count").textContent = "显示 " + rows.length + " / " + VC.length;
+    var h = "";
+    rows.forEach(function (v, i) {
+      var id = "vc-" + (v["分段"] === "海外" ? "o" : "c") + "-" + VC.indexOf(v);
+      var open = !!vcState.open[id];
+      var fit = fitOf(v);
+      h += '<tr class="row" data-vcid="' + id + '" tabindex="0" aria-expanded="' + open + '"><td class="name">' +
+        (v["优先级"] ? '<span class="rank">#' + esc(v["优先级"]) + "</span> " : "") + esc(v["投资方"]) + "</td><td>" + esc(v["类型"]) +
+        "</td><td>" + esc(v["地区"]) + '</td><td class="conf c-' + esc(fit) + '">' + esc(fit) + '</td><td class="what">' + esc(v["对接合伙人"]) +
+        '</td><td class="what">' + esc(v["投过的直接竞品"]) + "</td></tr>";
+      if (open) {
+        var f = function (k, label, html) { return v[k] ? '<div><span class="k">' + label + '</span><span class="v">' + (html ? linkify(v[k]) : esc(v[k])) + "</span></div>" : ""; };
+        h += '<tr class="detail"><td colspan="6"><div class="vc-detail">' +
+          f("优先级理由", "为什么先找") + f("谨慎", "谨慎原因") + f("匹配理由", "匹配理由") +
+          f("本赛道已投", "本赛道已投") + f("领投过的", "领投过的") + f("常投阶段和金额", "常投阶段和金额") +
+          (v["公开观点原话"] ? '<div><span class="k">公开观点</span><q>' + esc(v["公开观点原话"]) + "</q></div>" : "") +
+          f("观点链接", "观点来源", true) + f("合伙人来源链接", "合伙人来源", true) + f("置信度", "置信度") +
+          "</div></td></tr>";
+      }
+    });
+    document.getElementById("vcs").innerHTML = h || '<tr><td colspan="6" class="empty">没有符合条件的投资人。</td></tr>';
+  }
+  document.getElementById("q-vc").addEventListener("input", function (e) { vcState.q = e.target.value.trim(); renderVCs(); });
+  document.addEventListener("click", function (ev) {
+    var c = ev.target.closest("[data-vc-seg],[data-vc-fit]");
+    if (c) {
+      if (c.dataset.vcSeg) vcState.seg = c.dataset.vcSeg;
+      if (c.dataset.vcFit) vcState.fit = c.dataset.vcFit;
+      renderVCs();
+      return;
+    }
+    if (ev.target.closest("a")) return;
+    var r = ev.target.closest("tr.row[data-vcid]");
+    if (r) { vcState.open[r.dataset.vcid] = !vcState.open[r.dataset.vcid]; renderVCs(); }
+  });
+
   // Deep link: #b-nvidia opens that buyer.
   var hash = (location.hash || "").slice(1);
   if (hash && buyers && list.some(function (b) { return b.id === hash; })) state.open[hash] = true;
   renderBuyers();
   renderVendors();
+  renderPrio();
+  renderVCs();
   if (hash) { var el = document.getElementById(hash); if (el) el.scrollIntoView({ block: "start" }); }
 })();
 </script>

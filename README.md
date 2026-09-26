@@ -22,6 +22,7 @@ RL 环境、人类数据、专家网络、评测类公司公开点名过的客�
 - `intel/claims.csv`、`intel/vendors.csv`、`intel/buyers.md`：`tools/intel_merge.py` 合并去重后的结果和买方索引
 - `intel/page/`：页面模板和生成结果，`tools/build_intel_page.py` 重建
 - `intel/candidates.json`：从买方索引里挑出的候选新客户，在审批页「候选新客户」里决定是否加入外联
+- 投资人：`intel/vc-funds.csv`（112 家机构和天使）、`intel/vc-deals.csv`（110 笔交易），由 `tools/vc_merge.py` 从 `intel/vc-overseas-*`、`intel/vc-china-*` 合并；优先接触名单在 `intel/vc-priority.json`，页面上是「投资人」区块。调研说明见 `ops/vc-brief.md`
 
 ## 文件
 
