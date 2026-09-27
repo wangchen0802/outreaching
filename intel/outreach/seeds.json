@@ -1,0 +1,2324 @@
+{
+ "P1": [
+  {
+   "名称": "Scale AI",
+   "官网": "scale.com",
+   "简介": "数据标注与后训练数据龙头；依据：2025.6 Meta 以 143 亿美元购入 49% 股权、估值约 290 亿美元；2026 年收入预计约 10 亿美元，之后多家实验室减少合作，重心转向政府与企业",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/标注平台/评测/综合",
+   "提示": "客户草稿里已调研过联系人，先读 drafts/scale-ai.md，核实后沿用，钩子按渠道伙伴重写"
+  },
+  {
+   "名称": "Mercor",
+   "官网": "mercor.com",
+   "简介": "专家网络（律师、医生、银行家等）；依据：2025.10 C 轮估值 100 亿美元，2026.6 年化总收入 20 亿美元，Nvidia 洽谈以 200 亿美元估值入股",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/RL 环境/评测",
+   "提示": "客户草稿里已调研过联系人，先读 drafts/mercor.md，核实后沿用，钩子按渠道伙伴重写"
+  },
+  {
+   "名称": "Turing",
+   "官网": "turing.com",
+   "简介": "从远程工程师外包转型为实验室研究加速器；依据：2025.3 E 轮估值 22 亿美元，2024 年 ARR 约 3 亿美元",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/RL 环境"
+  },
+  {
+   "名称": "Invisible Technologies",
+   "官网": "invisibletech.ai",
+   "简介": "RLHF 数据加企业 AI 服务；依据：2024 年收入 1.34 亿美元，2025.9 融资 1 亿美元、估值 20 亿美元以上",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/综合"
+  },
+  {
+   "名称": "Handshake AI",
+   "官网": "joinhandshake.com/ai",
+   "简介": "校园招聘平台转型的专家数据业务；依据：2026.4 年化总收入约 11 亿美元，净收入约 4.5 亿美元，服务 8 家前沿实验室",
+   "地区": "美国",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "micro1",
+   "官网": "micro1.ai",
+   "简介": "AI 面试招聘起家的专家数据平台；依据：2026.8 年化总收入 5 亿美元，2026.9 新一轮估值约 40 亿美元",
+   "地区": "美国",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "Snorkel AI",
+   "官网": "snorkel.ai",
+   "简介": "程序化标注平台转型的专家数据工厂；依据：2026.9 E 轮 3.5 亿美元、估值 35 亿美元，ARR 3.75 亿美元",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/评测/标注平台"
+  },
+  {
+   "名称": "Labelbox",
+   "官网": "labelbox.com",
+   "简介": "标注平台加 Alignerr 专家网络；依据：2025.10 E 轮 1.1 亿美元、估值 10 亿美元",
+   "地区": "美国",
+   "类型": "标注平台/人类数据/专家网络"
+  },
+  {
+   "名称": "Toloka",
+   "官网": "toloka.ai",
+   "简介": "众包起家，转向专家数据与智能体评测；依据：2025.5 获 Bezos Expeditions 领投 7200 万美元",
+   "地区": "荷兰（原 Yandex 旗下，Nebius 控股）",
+   "类型": "人类数据/专家网络/评测"
+  },
+  {
+   "名称": "Prolific",
+   "官网": "prolific.com",
+   "简介": "在线被试/众包平台；Google DeepMind 在 Gemini 3 Pro 与 Gemma 2 报告中用于说服力/操纵能力人类实验；Ai2 MultiPref 亦用。规模依据：B 轮后、数十万参与者（中）。",
+   "地区": "英国",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "Pareto.AI",
+   "官网": "pareto.ai",
+   "简介": "精英标注员平台；依据：估算收入约 6100 万美元（Latka），融资约 1400 万美元",
+   "地区": "美国",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "Datacurve",
+   "官网": "https://datacurve.ai/",
+   "简介": "YC W24 编码训练数据公司，通过 Shipd 悬赏平台收集数据；累计融资约 1770 万美元（2025-10 A 轮 1500 万美元，Chemistry 领投），2026-05 发布 DeepSWE 基准。",
+   "地区": "美国（旧金山）",
+   "类型": "人类数据/专家网络/评测"
+  },
+  {
+   "名称": "Deccan AI",
+   "官网": "deccan.ai",
+   "简介": "印度专家网络后训练数据；依据：2024.10 成立，2026.3 A 轮 2500 万美元，约 125 人",
+   "地区": "美国/印度",
+   "类型": "人类数据/专家网络/RL 环境"
+  },
+  {
+   "名称": "Sepal AI",
+   "官网": "https://www.ycombinator.com/companies/sepal-ai",
+   "简介": "YC 孵化的数据研发公司（前 Vercel/Turing 成员创立），做专家基准、评测与 RL 环境；2026-02 被 Mercor 收购。规模依据：2024-09 种子轮约 50 万美元（YC 等），已被 Mercor 收购。",
+   "地区": "美国（SF）",
+   "类型": "人类数据/专家网络/评测/RL 环境"
+  },
+  {
+   "名称": "Revelo",
+   "官网": "revelo.com",
+   "简介": "拉美工程师网络转型做代码后训练数据；依据：B 轮，累计融资 4600 万美元，开发者 40 万以上",
+   "地区": "美国/拉美",
+   "类型": "人类数据/专家网络/RL 环境"
+  },
+  {
+   "名称": "Centific",
+   "官网": "centific.com",
+   "简介": "AI 数据铸造平台；依据：2025.6 A 轮 6000 万美元",
+   "地区": "美国",
+   "类型": "人类数据/综合/合成数据"
+  },
+  {
+   "名称": "Innodata",
+   "官网": "innodata.com",
+   "简介": "上市 AI 数据工程公司；依据：2026 Q2 收入 9210 万美元；2025 年最大客户占收入 58%",
+   "地区": "美国（Nasdaq 上市）",
+   "类型": "人类数据/综合"
+  },
+  {
+   "名称": "Sama",
+   "官网": "sama.com",
+   "简介": "影响力外包起家的标注公司；依据：员工 5000 名以上标注员，服务 25% 的财富 50 强",
+   "地区": "美国/肯尼亚",
+   "类型": "标注平台/人类数据"
+  },
+  {
+   "名称": "iMerit",
+   "官网": "imerit.ai",
+   "简介": "标注与专家网络；依据：2026.6 EXL 宣布以最高 3.1 亿美元收购",
+   "地区": "美国/印度",
+   "类型": "标注平台/人类数据/专家网络"
+  },
+  {
+   "名称": "Appen",
+   "官网": "appen.com",
+   "简介": "老牌上市标注公司；依据：H1 FY26 收入 1.199 亿美元，其中中国业务 7620 万美元、年化超 1.75 亿美元",
+   "地区": "澳大利亚（ASX 上市）",
+   "类型": "人类数据/标注平台"
+  },
+  {
+   "名称": "TELUS Digital",
+   "官网": "telusdigital.com",
+   "简介": "BPO 加 AI 数据服务；依据：TELUS 2025 年 AI 相关业务收入约 8 亿加元，AI 社区超 100 万贡献者",
+   "地区": "加拿大（2025.10 被 TELUS 全资私有化）",
+   "类型": "人类数据/标注平台/综合"
+  },
+  {
+   "名称": "TaskUs",
+   "官网": "taskus.com",
+   "简介": "上市 BPO，AI 服务是增长最快的业务线；依据：2025 年 AI 服务占收入 18%",
+   "地区": "美国（Nasdaq 上市）",
+   "类型": "人类数据/综合"
+  },
+  {
+   "名称": "Uber AI Solutions",
+   "官网": "uber.com/ai-solutions",
+   "简介": "Uber 对外数据服务；依据：母公司为上市公司，平台 1000 万以上贡献者，企业客户 50 家以上，2025.10 收购 Segments.ai",
+   "地区": "美国（Uber 事业部）",
+   "类型": "标注平台/人类数据"
+  },
+  {
+   "名称": "GlobalLogic",
+   "官网": "globallogic.com",
+   "简介": "日立旗下外包公司，多年为 Google 提供 Gemini 'super raters'（硕博评分员）。规模依据：日立子公司、员工数万。",
+   "地区": "美国/全球",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "DataForce",
+   "官网": "dataforce.ai",
+   "简介": "TransPerfect 旗下 AI 数据业务；IBM Granite Guardian 人工标注合作方。规模依据：母公司 TransPerfect 为全球最大语言服务商之一。",
+   "地区": "美国",
+   "类型": "标注平台/人类数据/专家网络"
+  },
+  {
+   "名称": "TransPerfect",
+   "官网": "transperfect.com",
+   "简介": "语言服务巨头，巴塞罗那约200人为 Apple Intelligence 做回答标注（Politico 报道）。规模依据：年收入十亿美元级。",
+   "地区": "美国",
+   "类型": "标注平台/人类数据/专家网络"
+  },
+  {
+   "名称": "Welocalize",
+   "官网": "welodata.ai",
+   "简介": "本地化公司的 AI 数据品牌；依据：专家社区超 50 万人",
+   "地区": "美国",
+   "类型": "人类数据/标注平台"
+  },
+  {
+   "名称": "LXT",
+   "官网": "lxt.ai",
+   "简介": "2025 年收购 clickworker（600 万众包工）；依据：企业客户 500 家以上",
+   "地区": "加拿大/德国",
+   "类型": "人类数据/标注平台"
+  },
+  {
+   "名称": "RWS TrainAI",
+   "官网": "rws.com/artificial-intelligence",
+   "简介": "本地化集团旗下 AI 数据业务，收入不单独披露",
+   "地区": "英国（RWS 集团，LSE 上市）",
+   "类型": "人类数据/标注平台"
+  },
+  {
+   "名称": "Defined.ai",
+   "官网": "defined.ai",
+   "简介": "AI 数据市场；依据：2025 年收入增长 65%，NRR 143%",
+   "地区": "美国/葡萄牙",
+   "类型": "人类数据/标注平台"
+  },
+  {
+   "名称": "CloudFactory",
+   "官网": "cloudfactory.com",
+   "简介": "托管标注工作团队；依据：老牌中型 BPO 式标注商，已收购 Dataloop",
+   "地区": "英国/尼泊尔",
+   "类型": "标注平台/人类数据"
+  },
+  {
+   "名称": "SuperAnnotate",
+   "官网": "superannotate.com",
+   "简介": "标注平台加专家服务；依据：2024.11 B 轮 3600 万美元，累计约 9800 万美元",
+   "地区": "美国/亚美尼亚",
+   "类型": "标注平台/人类数据"
+  },
+  {
+   "名称": "Encord",
+   "官网": "encord.com",
+   "简介": "多模态数据平台；依据：2026.2 C 轮 6000 万美元",
+   "地区": "英国/美国",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "Poindexter Labs",
+   "官网": "https://www.poindexterlabs.ai/",
+   "简介": "以学术同行评审结构生产专家推理数据，此前经中间商供数，2026-05 首签头部实验室直签合同。规模：小，自举至 £1.6M 收入后获 £2M 种子。",
+   "地区": "英国伦敦",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "Realset AI / Flatkey",
+   "官网": "https://www.prnewswire.com/news-releases/realset-ai-and-flatkey-raise-10m-series-a-to-build-real-world-training-data-for-frontier-models-and-embodied-agents-302887825.html",
+   "简介": "Realset 采集真实工作场所专家演示、构建真实工作流 RL 环境与具身数据；Flatkey 为模型 API 聚合平台。规模：小，2026-09 联合宣布 $10M A 轮，未披露客户名。",
+   "地区": "美国",
+   "类型": "人类数据/专家网络/RL 环境"
+  },
+  {
+   "名称": "Sciloop",
+   "官网": "https://www.sciloop.dev/",
+   "简介": "IPhO/IMO 奖牌得主出题，向 AI 实验室出售前沿模型做不出的数理难题数据与基准。规模：小，YC F25，约 6 人，未披露客户名。",
+   "地区": "美国旧金山",
+   "类型": "人类数据/专家网络/评测"
+  },
+  {
+   "名称": "Flitto",
+   "官网": "flitto.com",
+   "简介": "韩国 KOSDAQ 上市语言数据公司；Upstage 主权 AI 联合体中负责数据集构建，Solar Open 2 报告致谢。规模依据：上市小盘股（中）。",
+   "地区": "韩国",
+   "类型": "人类数据/专家网络/标注平台"
+  },
+  {
+   "名称": "Translated",
+   "官网": "translated.com",
+   "简介": "意大利翻译与语言数据公司；NVIDIA HelpSteer3 多语言子集标注方。规模依据：老牌私营翻译公司、员工数百人（中）。",
+   "地区": "意大利",
+   "类型": "标注平台/人类数据/专家网络"
+  },
+  {
+   "名称": "GLG (Gerson Lehrman Group)",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "AlphaSights",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Guidepoint",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Third Bridge",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "AlphaSense (Tegus)",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Dialectica",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Office Hours",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Braintrust",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  },
+  {
+   "名称": "Toptal",
+   "提示": "买方地图里没有，专家网络/人才平台，查是否已做 AI 训练数据业务"
+  }
+ ],
+ "P2": [
+  {
+   "名称": "Prime Intellect",
+   "官网": "https://www.primeintellect.ai/",
+   "简介": "开源 RL 全栈（Environments Hub、verifiers、prime-rl、Lab 平台、INTELLECT 系列模型）；2026-07 A 轮 1.3 亿美元、估值 10 亿美元（Radical 领投，NVIDIA/Intel/Dell 跟投），年化收入超 1 亿美元，自称 6000+ 客户、Hub 2",
+   "地区": "美国（旧金山）",
+   "类型": "RL 环境/综合"
+  },
+  {
+   "名称": "Bespoke Labs",
+   "官网": "https://bespokelabs.ai/",
+   "简介": "2024 年由 Mahesh Sathiamoorthy 与 Alex Dimakis 创立，为前沿实验室与企业构建公司级 RL 环境与智能体训练基础设施，开源 Curator、OpenThoughts，参与 Terminal-Bench。规模依据：2026-07 宣布种子+A 轮累计 4000 万美元（Wing VC",
+   "地区": "美国（Bay Area）",
+   "类型": "RL 环境/合成数据/评测"
+  },
+  {
+   "名称": "HUD",
+   "官网": "https://www.hud.ai/",
+   "简介": "YC W25，开源 SDK+云平台构建 RL 环境与评测；2026 年 A 轮 1600 万美元（Standard Capital 领投），自称 50+ 企业用其构建并向 AI 实验室出售环境；约 15 人。",
+   "地区": "美国（旧金山）",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "Proximal",
+   "官网": "https://www.proximal.so/",
+   "简介": "Justus Mattern 等创立的编码数据研究实验室，构建长程编码 RL 环境并发布 FrontierSWE 基准。规模依据：种子轮金额未披露（Scribble Ventures 领投，多家前沿实验室员工天使），2026 年成立。",
+   "地区": "美国（SF）/印度（班加罗尔）",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "Collinear AI",
+   "官网": "https://www.collinear.ai/",
+   "简介": "Nazneen Rajani（前 Hugging Face/Salesforce）2023 年创立的仿真实验室，构建企业工作流 RL 环境、verifier、合成后训练数据与红队评测。规模依据：融资额未公开（Tracxn 显示仅一轮），自称服务全球前四大 AI 实验室中的三家及 Amazon。",
+   "地区": "美国（Sunnyvale/SF）",
+   "类型": "RL 环境/合成数据/评测"
+  },
+  {
+   "名称": "Arga Labs",
+   "官网": "https://www.argalabs.com/",
+   "简介": "为 Salesforce、Workday、Stripe、Slack 等企业软件构建全量“数字孪生”沙箱，用于训练/测试企业 AI 代理。规模：小，2026-08 获 General Catalyst 领投 $10M 种子，上线七周 MRR 约 $4 万。",
+   "地区": "美国旧金山",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Cua",
+   "官网": "https://cua.ai/",
+   "简介": "开源 computer-use 代理沙箱、SDK 与 Cua-Bench 基准，跨 OS 桌面舰队。规模：小，YC S25，$500K 种子，开源社区活跃。",
+   "地区": "美国旧金山",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "Andon Labs",
+   "官网": "andonlabs.com",
+   "简介": "YC 支持的 AI 安全初创，与 Anthropic 合作 Project Vend（真实小店经营智能体），Vending-Bench 作者。规模依据：团队很小（小）。",
+   "地区": "美国",
+   "类型": "评测/RL 环境"
+  },
+  {
+   "名称": "Mechanize",
+   "官网": "mechanize.work",
+   "简介": "2025年由前 Epoch AI 研究员创立，为 Anthropic 等构建编码类 RL 环境；主张高价高质量任务。规模依据：种子期小团队（小）。",
+   "地区": "美国",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Veris AI",
+   "官网": "https://veris.ai/",
+   "简介": "企业 agent 模拟训练与测试平台；2025-06 种子轮 850 万美元（Decibel、Acrew 领投），公开案例仅提及一家未具名制造商。",
+   "地区": "美国（纽约）",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "BenchFlow",
+   "官网": "https://github.com/benchflow-ai/benchflow",
+   "简介": "通用环境/基准运行框架（SkillsBench 等），用于 RL 环境、后训练与评测。规模：小，2025-01 $1M 种子，团队极小。",
+   "地区": "美国旧金山",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "Halluminate",
+   "官网": "https://www.halluminate.ai/",
+   "简介": "YC S25，2024 年创立，面向电脑使用/浏览器 agent 的沙盒环境与基准（WebBench、Westworld），2026 年转向金融服务 RL 环境；融资未官宣（目录称约 16 万–50 万美元）。",
+   "地区": "美国（旧金山）",
+   "类型": "RL 环境/评测/人类数据/专家网络"
+  },
+  {
+   "名称": "Fleet",
+   "官网": "https://www.fleetai.com/",
+   "简介": "2024 年创立，复刻 Salesforce、Excel 等企业软件的 RL 环境；此前股权融资 1500 万美元（Sequoia、Menlo、SV Angel），2026-04 据 The Information 洽谈由 Bain Capital Ventures 领投 5000 万美元、估值约 7.5 亿美元，年化",
+   "地区": "美国（旧金山/纽约）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "hillclimb",
+   "官网": "https://www.hillclimb.com/",
+   "简介": "聚集 IMO 奖牌得主与 Putnam 高手构建数学 RL 环境，与 Nous Research 合训 Nomos 1。规模：小，YC F25，约 4 人，种子约 $1M。",
+   "地区": "美国旧金山",
+   "类型": "RL 环境/人类数据/专家网络"
+  },
+  {
+   "名称": "Matrices",
+   "官网": "未知",
+   "简介": "面向电脑使用/浏览器 agent 的 RL 训练环境（“游戏化互联网复刻”）；种子轮约 500 万美元（Index Ventures）。",
+   "地区": "美国（旧金山）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Refresh",
+   "官网": "https://www.ycombinator.com/companies/refresh",
+   "简介": "YC X25 公司，将真实工作流转化为编码与 computer-use 训练 gym，自称与前沿实验室合作。规模依据：YC 批次公司，融资额未公开。",
+   "地区": "美国（SF）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Huzzle Labs",
+   "官网": "https://labs.huzzle.com/",
+   "简介": "为前沿实验室与欧洲受监管企业构建长时程 RL 环境、专家轨迹与评测。规模：小，累计融资约 $6M，Labs 部门约 30 人。",
+   "地区": "英国伦敦",
+   "类型": "RL 环境/人类数据/专家网络/评测"
+  },
+  {
+   "名称": "Preference Model",
+   "官网": "https://www.preferencemodel.com/",
+   "简介": "创始团队来自 Anthropic、Stripe、Datology，为前沿实验室构建 ML 研究类 RL 环境，闭源独家供给。规模依据：种子阶段，少于 20 人，仅服务 1–3 家客户（SemiAnalysis 转述）。",
+   "地区": "美国（SF）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Calaveras",
+   "官网": "https://calaveras.ai/",
+   "简介": "提供代码预训练数据集与 STEM/白领任务 RL 环境，自称代码数据卖给头部六家中的四家 AI 公司。规模依据：融资与人数均未公开，按公开信息推断为小型公司。",
+   "地区": "美国（SF）",
+   "类型": "RL 环境/合成数据"
+  },
+  {
+   "名称": "Vmax",
+   "官网": "https://vmax.ai/",
+   "简介": "UCL/UPenn RL 博士 2025 年创立，将企业专有数据与评测自动转换为 RL 环境，发布 unix-ctf。规模依据：约 11 人，Race Capital 与 South Park Commons 投资，金额未公开。",
+   "地区": "美国（SF）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Good Start Labs",
+   "官网": "https://goodstartlabs.com/",
+   "简介": "Every 分拆，基于游戏（AI Diplomacy 等）构建 RL 环境并向前沿实验室出售代理轨迹数据。规模：小，融资约 $3.6M。",
+   "地区": "美国布鲁克林",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Plato",
+   "官网": "https://plato.so/",
+   "简介": "2025 年创立，为浏览器/电脑使用 agent 构建模拟网站与桌面的 RL 环境；约 10 人，仅披露 Pre-Seed（金额未公开）。",
+   "地区": "美国（旧金山）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Habitat",
+   "官网": "未知",
+   "简介": "纽约早期 RL 环境供应商，聚焦白领工作自动化的代码与桌面（computer-use）环境。规模依据：2–10 人，未见公开融资或客户信息。",
+   "地区": "美国（纽约）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "Andromede",
+   "官网": "https://andromede.ai/",
+   "简介": "2025 年成立的 RL 数据实验室，从真实数据程序化生成长程任务环境、任务与 verifier，处于私测阶段。规模依据：早期阶段，Unusual Ventures 支持（第三方转述），金额未公开。",
+   "地区": "瑞士（洛桑）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "General Reasoning",
+   "官网": "https://www.gr.inc/",
+   "简介": "Ross Taylor（前 Meta Galactica 负责人）创立的研究实验室，运营 OpenReward 开放 RL 环境平台（330+ 环境）与 ORS 标准。规模依据：2025-07 SEC Form D 显示约 1090 万美元股权融资。",
+   "地区": "英国（伦敦）/美国实体",
+   "类型": "RL 环境/评测"
+  },
+  {
+   "名称": "Adaptive ML",
+   "官网": "https://www.adaptive-ml.com/",
+   "简介": "Falcon 团队（前 Hugging Face）创立的企业 RLOps 平台 Adaptive Engine，帮企业用 RL 微调开源小模型；2026-06 被 Datadog 收购。规模依据：2024-03 获 Index Ventures 领投 2000 万美元种子轮，估值约 1 亿美元，已被 Datadog 收",
+   "地区": "美国（纽约）/法国（巴黎）",
+   "类型": "综合"
+  },
+  {
+   "名称": "Vals AI",
+   "官网": "https://www.vals.ai",
+   "简介": "面向法律、金融、编程、医疗真实任务的独立模型评测与基准平台，发布 Vals Index 和 Legal AI Report；规模依据：2026-08 a16z 领投 $40M A 轮、估值 $400M，累计融资约 $45M。",
+   "地区": "美国（旧金山湾区）",
+   "类型": "评测"
+  },
+  {
+   "名称": "Gray Swan AI",
+   "官网": "grayswan.ai",
+   "简介": "红队/越狱竞技场初创，OpenAI 系统卡外部红队。规模依据：早期初创（小）。",
+   "地区": "美国",
+   "类型": "评测"
+  },
+  {
+   "名称": "Patronus AI",
+   "官网": "patronus.ai",
+   "简介": "LLM 评测初创；据第三方对 NVIDIA 数据卡的分析，以外部供应商协议为 Nemotron 提供'对话记忆'定制数据。规模依据：A 轮级别（小）。",
+   "地区": "美国",
+   "类型": "评测/人类数据/专家网络"
+  },
+  {
+   "名称": "Haize Labs",
+   "官网": "haizelabs.com",
+   "简介": "自动化红队初创，OpenAI o1 外部测试方。规模依据：种子期（小）。",
+   "地区": "美国",
+   "类型": "评测"
+  },
+  {
+   "名称": "Irregular",
+   "官网": "irregular.com",
+   "简介": "前沿模型网络安全评测公司，出现在 OpenAI GPT-5 系统卡网络能力部分。规模依据：A 轮级别（小）。",
+   "地区": "以色列/美国",
+   "类型": "评测"
+  },
+  {
+   "名称": "Abaka AI",
+   "官网": "https://www.abaka.ai",
+   "简介": "A轮800万美元、累计2000万美元；联合发起2077AI开源基金会做基准；疑为整数智能海外品牌（未确认），规模按融资额判为中",
+   "地区": "美国帕洛阿尔托/中国",
+   "类型": "评测"
+  },
+  {
+   "名称": "LMArena",
+   "官网": "https://lmarena.ai",
+   "简介": "源自 UC Berkeley 的众包模型对战排行榜，2025-09 推出付费 AI Evaluations；规模依据：2026-01 $150M A 轮、估值 $1.7B，年化收入逾 $30M，月活 500 万。",
+   "地区": "美国（旧金山湾区）",
+   "类型": "评测/人类数据/专家网络"
+  },
+  {
+   "名称": "Virtue AI",
+   "官网": "virtueai.com",
+   "简介": "AI 安全评测初创，OpenAI o1 外部测试方。规模依据：早期初创（小）。",
+   "地区": "美国",
+   "类型": "评测"
+  },
+  {
+   "名称": "Deeptune",
+   "官网": "https://deeptune.com/",
+   "简介": "纽约约 20 人团队，复刻 Excel/Salesforce/Slack 等企业应用的 RL 训练环境；2026-03 a16z 领投 4300 万美元 A 轮，2026-07 被 Mercor（估值 100 亿美元）收购。",
+   "地区": "美国（纽约）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "（自行补充）",
+   "提示": "再找 5–10 家 2025–2026 新成立、公开说给前沿实验室做 RL 环境或专家评测的初创"
+  }
+ ],
+ "P3": [
+  {
+   "名称": "海天瑞声 SpeechOcean/DataOcean AI",
+   "官网": "https://www.haitianruisheng.com/ ; https://dataoceanai.com/",
+   "简介": "A股首家AI训练数据上市公司，2025年营收3.77亿元（+59%），累计客户超1100家；前五大客户占比46.2%",
+   "地区": "中国·北京（688787 科创板）",
+   "类型": "综合",
+   "提示": "客户草稿里已调研过联系人，先读 drafts/haitian-ruisheng.md，核实后沿用，钩子按渠道伙伴重写"
+  },
+  {
+   "名称": "数据堂 Datatang",
+   "官网": "https://www.datatang.com/",
+   "简介": "成品数据集+定制采集标注；2023年营收2.36亿元；2023年起不再披露客户名称（保密条款）",
+   "地区": "中国·北京（新三板831428，北交所IPO辅导验收2026-06）",
+   "类型": "综合",
+   "提示": "客户草稿里已调研过联系人，先读 drafts/datatang.md，核实后沿用，钩子按渠道伙伴重写"
+  },
+  {
+   "名称": "龙猫数据",
+   "官网": "https://www.longmaosoft.com",
+   "简介": "2014年成立，四轮融资（金沙江、KIP、九合），称腾讯核心供应商",
+   "地区": "北京",
+   "类型": "综合"
+  },
+  {
+   "名称": "恺望数据",
+   "官网": "（未核）",
+   "简介": "2022年成立，2026年8月逾亿元战略融资（亦庄产业基金等，具身公司跟投），称单月订单超1500万元",
+   "地区": "北京",
+   "类型": "综合"
+  },
+  {
+   "名称": "晴数智慧 Magic Data",
+   "官网": "https://www.magicdatatech.cn/",
+   "简介": "2023年更名，对话式AI数据集，称服务近300家客户",
+   "地区": "中国·北京",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "曼孚科技 MindFlow",
+   "官网": "https://www.mindflow.com.cn",
+   "简介": "2025年7月B+++轮近亿元（嘉远资本），近三年累计融资超数亿元",
+   "地区": "杭州",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "标贝科技 DataBaker",
+   "官网": "https://www.data-baker.com/",
+   "简介": "语音合成+AI数据服务，B2轮超亿元融资，称服务客户超3000家",
+   "地区": "中国·北京",
+   "类型": "综合"
+  },
+  {
+   "名称": "星尘数据 Stardust",
+   "官网": "https://stardust.ai",
+   "简介": "Rosetta标注平台与MorningStar数据闭环，2023年1月A轮5000万元（华映领投）",
+   "地区": "北京/上海",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "倍赛 BasicFinder",
+   "官网": "https://www.basicfinder.com",
+   "简介": "北京深度搜索科技，B轮（2021东方嘉富领投）；2024-12媒体报道其被列被执行人",
+   "地区": "北京",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "博登智能 Boden AI",
+   "官网": "https://www.bodenai.com",
+   "简介": "2019年成立，2025年A轮亿元（国和投资）、2026年6月A+/A++数亿元",
+   "地区": "宁波",
+   "类型": "综合"
+  },
+  {
+   "名称": "整数智能 MolarData",
+   "官网": "https://www.molardata.com",
+   "简介": "源自浙大计算机创新技术研究院，2024年8月A轮数千万元（峰瑞领投），称合作客户1000余家；Abaka AI 疑为其海外品牌（两者宣传用语、海外办公室一致，未确认）",
+   "地区": "杭州",
+   "类型": "综合"
+  },
+  {
+   "名称": "景联文科技",
+   "官网": "https://www.jinglianwen.com",
+   "简介": "2012年成立，2025年5月Pre-A数千万元（杭州金投），称3亿道题库、专家级标注",
+   "地区": "杭州",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "希尔贝壳 AISHELL",
+   "官网": "https://www.aishelltech.com",
+   "简介": "AISHELL系列开源中文语音数据集提供方",
+   "地区": "北京",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "智能知识",
+   "官网": "https://meetchances.com/",
+   "简介": "核心团队来自字节Seed；一面千识专家平台5万+专家，2026年6月获锦秋、耀途天使轮，自称已获头部大模型公司订单",
+   "地区": "中国",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "热热数据",
+   "官网": "https://www.reredata.com/",
+   "简介": "汇洲智能子公司，2024年营收5140万元，公司称对营收贡献小",
+   "地区": "中国",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "库帕思 Kupas",
+   "官网": "未知",
+   "简介": "2024年成立，上海联和牵头的首家AI语料公司，输出成品语料约200TB",
+   "地区": "中国·上海",
+   "类型": "合成数据"
+  },
+  {
+   "名称": "澳鹏中国 Appen China",
+   "官网": "https://www.appendata.com/",
+   "简介": "2024年营收超4.2亿元（+71%），大模型/AIGC业务+526%；中国占集团收入约64%",
+   "地区": "中国（Appen ASX:APX 子业务）",
+   "类型": "综合"
+  },
+  {
+   "名称": "百度智能云数据众包",
+   "官网": "https://zhongbao.baidu.com/",
+   "简介": "全国12个标注基地、超11000岗位，服务文心一言及外部客户",
+   "地区": "中国（全国12个标注基地）",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "京东众智",
+   "官网": "https://biao.jd.com/",
+   "简介": "京东内部众智标注平台，服务言犀等内部大模型及外部客户",
+   "地区": "中国·北京",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "云测数据 Testin Data",
+   "官网": "https://ai.testin.cn",
+   "简介": "Testin云测（2011年成立，C轮3000万美元）旗下AI数据品牌，提供采集标注、数据集与标注平台",
+   "地区": "北京",
+   "类型": "标注平台"
+  },
+  {
+   "名称": "慧听科技",
+   "官网": "https://pitchhub.36kr.com/project/2114431354068870",
+   "简介": "语音与文本数据生产服务商（公开信息少）",
+   "地区": "北京",
+   "类型": "人类数据/专家网络"
+  },
+  {
+   "名称": "UniPat AI",
+   "官网": "https://unipat.ai",
+   "简介": "2025年底成立，创始人李宽曾在阿里通义做后训练/数据合成/RL；设计贴近真实场景的评测与训练数据；2026年9月传阿里领投3亿美元、估值25亿美元",
+   "地区": "中国（杭州/北京）",
+   "类型": "评测"
+  },
+  {
+   "名称": "Copula Lab",
+   "官网": "https://www.copulalab.com/",
+   "简介": "2026年成立，创始团队来自MiniMax（Agent业务与内部评测、M2编码后训练）；首轮融资估值数千万美元",
+   "地区": "中国（上海）",
+   "类型": "RL 环境"
+  },
+  {
+   "名称": "司南 OpenCompass",
+   "官网": "https://opencompass.org.cn/",
+   "简介": "上海人工智能实验室开源评测体系，设评测伙伴计划（非商业公司）",
+   "地区": "中国（上海）",
+   "类型": "评测"
+  },
+  {
+   "名称": "智源 FlagEval",
+   "官网": "https://flageval.baai.ac.cn/",
+   "简介": "北京智源研究院评测平台（非营利研究机构），“百模”评测",
+   "地区": "中国（北京）",
+   "类型": "评测"
+  },
+  {
+   "名称": "xbench",
+   "官网": "https://www.hongshan.com/article/%E4%BB%8A%E5%A4%A9%EF%BC%8C%E6%88%91%E4%BB%AC%E6%8E%A8%E5%87%BAxbench/（官网未核实）",
+   "简介": "红杉中国推出的 Agent 评测基准（投资机构内部工具，非商业服务商）",
+   "地区": "中国",
+   "类型": "评测"
+  },
+  {
+   "名称": "SuperCLUE",
+   "官网": "https://www.superclueai.com/",
+   "简介": "中文大模型第三方评测基准，月度榜单，并提供企业POC/行业测评",
+   "地区": "中国",
+   "类型": "评测"
+  },
+  {
+   "名称": "AGI-Eval",
+   "官网": "未核实（见 http://lmg.cipsc.org.cn/conference/lmg2025/sponsor/meituan/index.html）",
+   "简介": "美团联合上交、同济、华东师大、Datawhale 等发起的评测社区",
+   "地区": "中国",
+   "类型": "评测"
+  },
+  {
+   "名称": "深圳数据交易所",
+   "官网": "https://www.szdex.com/",
+   "简介": "国家级数据交易所建设中；撮合全国首单语料场内交易；发放“语料券”",
+   "地区": "中国·深圳",
+   "类型": "其他"
+  },
+  {
+   "名称": "北京国际大数据交易所",
+   "官网": "https://www.bjidex.com/",
+   "简介": "发布首批约100个大模型高质量训练数据集，北京数据集团2025年揭牌整合北数所",
+   "地区": "中国·北京",
+   "类型": "其他"
+  },
+  {
+   "名称": "上海数据交易所",
+   "官网": "https://www.chinadep.com/",
+   "简介": "语料专区，2024年交易额超50亿元，挂牌产品超5000个",
+   "地区": "中国·上海",
+   "类型": "其他"
+  },
+  {
+   "名称": "一面千识",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "TalentsAI",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "觅蜂科技",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "凯盛融英（专家网络）",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "六度人和（专家网络）",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "爱数智慧",
+   "提示": "买方地图里没有，查是否为大模型公司提供专家数据或评测"
+  },
+  {
+   "名称": "（自行补充）",
+   "提示": "再找 3–5 家给国内大模型公司提供专家数据、RL 环境或评测的公司"
+  }
+ ],
+ "V1": [
+  {
+   "名称": "HRT Ventures（Hudson River Trading）",
+   "类型": "战略投资",
+   "地区": "美国（纽约）",
+   "优先级": "1",
+   "已知对接人": "未找到（HRT 合伙人为 Jason Carroll、Oaz Nir、Prashant Lal，未见证据表明谁负责 ventures）",
+   "对接人来源": "https://www.hudsonrivertrading.com/ventures/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Vals AI（A 轮，2026-08）；Gray Swan AI（A 轮，2026-05，以 Hudson River Trading 名义）",
+   "匹配理由": "量化机构本身，与 Citadel/Millennium/Jane Street 背景天然相通；2026 年连投两家评测/红队公司，说明认可 AI 数据/评测赛道；有种子轮先例。对接人需通过 HRT 官网渠道确认。"
+  },
+  {
+   "名称": "General Catalyst",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "2",
+   "已知对接人": "Yuri Sagalov（董事总经理，负责种子项目，领投 Arga）",
+   "对接人来源": "https://www.generalcatalyst.com/team/yuri-sagalov",
+   "公开观点": "\"Having a repeatable sandbox environment is very important, and much more important with agents than it was with humans.\"",
+   "观点链接": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+   "本赛道已投": "Arga Labs（种子领投 $10M，2026-08）；Mercor（种子领投 2023，B/C 轮跟投，据报洽谈领投 ~$20B 新一轮）；Haize Labs（种子领投 $12.5M）；Good Start Labs（种子）；General Intuition（种子联合领投 $133.7M）",
+   "匹配理由": "Sagalov 专做种子且刚在企业 RL 沙箱领投，观点与 SimReal 高度吻合；Arga CTO 有 Goldman Sachs 背景。风险：与 Mercor 关系深，需说明差异化（金融垂直 + 验证器）。"
+  },
+  {
+   "名称": "Andreessen Horowitz (a16z)",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "3",
+   "已知对接人": "Martin Casado（GP，Infrastructure，Deeptune/Braintrust）；Jennifer Li（GP，基础设施，Vals 相关公开表态）；Marco Mascorro（Deeptune 投资文联署）；Anjney Midha（LMArena 种子时为 GP）",
+   "对接人来源": "https://a16z.com/announcement/investing-in-deeptune/",
+   "公开观点": "\"Reinforcement learning (RL) environments are already becoming the next critical layer of the AI stack.\"；Jennifer Li: \"All the big AI labs are building RL environments in-house. But creating these dat",
+   "观点链接": "https://a16z.com/announcement/investing-in-deeptune/；https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+   "本赛道已投": "Deeptune（A 轮领投 $43M，2026-03，后被 Mercor 收购）；Vals AI（A 轮领投 $40M）；LMArena（种子领投 $100M，A 轮跟投）；Braintrust（A 轮领投 $36M，B 轮跟投）；Periodic Labs（种子）；Moment（老股东）；Huzzle Labs（a16z Scout Fund）",
+   "匹配理由": "公开且明确的 RL 环境投资论点，Deeptune 退出后在该赛道留有空位；跟投过前 Citadel Securities 量化团队创办的 Moment。阶段偏 A 轮，种子可走 Casado/Li 线。"
+  },
+  {
+   "名称": "Index Ventures",
+   "类型": "VC",
+   "地区": "美国/欧洲（伦敦）",
+   "优先级": "4",
+   "已知对接人": "未找到（Adaptive ML、Moment 负责合伙人均未查到）",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Adaptive ML（种子领投 $20M，2024-03，后被 Datadog 收购）；Matrices（种子）；Scale AI（老股东）；Moment（B、C 轮领投，前 Citadel Securities 量化团队，非本赛道）",
+   "匹配理由": "唯一查到连续领投前 Citadel 量化团队（Moment）的一线基金，且领投过后训练 RL 平台种子轮（Adaptive ML）；美欧双中心。需先找到具体合伙人。"
+  },
+  {
+   "名称": "Chemistry",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "5",
+   "已知对接人": "Mark Goldberg（领投 Datacurve）",
+   "对接人来源": "https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/",
+   "公开观点": "大意：AI 进步的真正瓶颈不只是算力或模型设计，而是数据（搜索摘要，逐字未核实）；另有投资论文 \"RL Reigns Supreme\"",
+   "观点链接": "https://www.chemistry.vc/post/staying-ahead-of-the-curve；https://www.chemistry.vc/post/rl-reigns-supreme",
+   "本赛道已投": "Datacurve（A 轮领投 $15M，2025-10）",
+   "匹配理由": "有专门的 RL 投资论文且已领投一家年轻创始人数据公司；Datacurve 联合创始人 Serena Ge 被 36Kr 称为“19 岁中国女孩”（国籍未核实，https://eu.36kr.com/en/p/3546634395742088），说明不排斥华人创始人。与 Datacurve 在编码数据上重叠，SimReal 金融方向可区分。"
+  },
+  {
+   "名称": "Kleiner Perkins",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "6",
+   "已知对接人": "Leigh Marie Braswell（合伙人，据摘要领投 Applied Compute 并任董事；曾在 Scale AI 工作）",
+   "对接人来源": "https://www.kleinerperkins.com/people/leigh-marie-braswell/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Applied Compute（2026-04 领投 $80M，投后 $1.3B）；LMArena（种子、A 轮跟投）",
+   "匹配理由": "Braswell 有 Scale AI 数据业务经验，对后训练数据赛道认知深；Applied Compute 是 RL 环境的潜在客户，可形成组合协同。"
+  },
+  {
+   "名称": "Lightspeed",
+   "类型": "VC",
+   "地区": "美国/全球",
+   "优先级": "7",
+   "已知对接人": "Faraz Fatemi（合伙人，领投 Origin Lab）；James Alcorn（合伙人，与 Judgment Labs 相关，搜索摘要）",
+   "对接人来源": "https://www.businesswire.com/news/home/20260513129175/en/Origin-Lab-Raises-$8M-Seed-Led-by-Lightspeed-to-Build-the-Platform-Turning-Video-Game-Worlds-Into-Training-Data-for-AI",
+   "公开观点": "Faraz Fatemi: \"Frontier AI is moving from understanding language to understanding worlds. That shift requires a different class of data: licensed, structured, multimodal, and grounded in interactive e",
+   "观点链接": "https://www.businesswire.com/news/home/20260513129175/en/Origin-Lab-Raises-$8M-Seed-Led-by-Lightspeed-to-Build-the-Platform-Turning-Video-Game-Worlds-Into-Training-Data-for-AI",
+   "本赛道已投": "Origin Lab（种子领投 $8M，2026-05）；Judgment Labs（种子+A 轮领投 $32M，2026-05）；Ineffable Intelligence（种子联合领投）；Snorkel AI（D 轮跟投）；LMArena（种子、A 轮跟投）；Patronus AI（B 轮跟投）",
+   "匹配理由": "2026 年在训练数据/评测连续领投种子轮；投过 Pika（华人创始人 Demi Guo、Chenlin Meng），对华人团队友好。"
+  },
+  {
+   "名称": "Scribble Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "8",
+   "已知对接人": "Elizabeth Weil（创始人/管理合伙人）；Stu Smith（发布 Proximal 投资帖）",
+   "对接人来源": "https://www.scribble.vc/elizabeth-weil",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Proximal（种子领投，约 2026-02）；Poolside",
+   "匹配理由": "种子领投过 RL 环境公司，单笔小、决策快，适合作为种子领投或早期锚定。"
+  },
+  {
+   "名称": "Menlo Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "9",
+   "已知对接人": "Deedy Das（合伙人，种子到 B 轮 AI/基础设施，持续整理训练数据/RL 环境市场图谱）；Tim Tully（合伙人，官网所列投资含 Fleet）",
+   "对接人来源": "https://menlovc.com/team/deedy-das/；https://menlovc.com/team/tim-tully/",
+   "公开观点": "Deedy Das 的市场图谱帖 \"Every single startup selling AI Training Data (July 2026)\"，统计 50+ 家公司、合计约 $85 亿收入（为概述，非逐字原话）",
+   "观点链接": "https://x.com/deedydas/status/2076124392711696455",
+   "本赛道已投": "Fleet（种子、A 轮）；Mercor（B 轮跟投）；Prime Intellect（种子扩展跟投）",
+   "匹配理由": "赛道认知最深的机构之一（Deedy 的市场图谱），种子到 B 轮对得上；但已投 Fleet、Mercor 两家直接竞品，需强调金融垂直差异。"
+  },
+  {
+   "名称": "Susquehanna International Group（SIG）",
+   "类型": "战略投资",
+   "地区": "美国（费城）",
+   "优先级": "10",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Deccan AI（A 轮跟投 $25M，2026-03，印度专家数据）",
+   "匹配理由": "量化做市机构投人类数据公司，与 SimReal 量化背景+专家数据叙事契合。"
+  },
+  {
+   "名称": "Conviction（Sarah Guo）",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "11",
+   "已知对接人": "Sarah Guo（创始人）",
+   "对接人来源": "https://x.com/saranormous/status/2059785254077116890",
+   "公开观点": "\"AI is largely frozen after deployment. That has to change.\"",
+   "观点链接": "https://x.com/saranormous/status/2059785254077116890",
+   "本赛道已投": "Trajectory Labs（用真实交互信号改进 agent）",
+   "匹配理由": "种子基金，关注 agent 持续学习；投过 HeyGen（已与中国投资人切割后的华人团队）。本赛道直接案例少。"
+  },
+  {
+   "名称": "Wing VC",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "12",
+   "已知对接人": "Peter Wagner（创始合伙人，公开评论 Bespoke Labs 投资）；Jake Flomenberg（与 Gray Swan 相关，搜索摘要）",
+   "对接人来源": "https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents",
+   "公开观点": "Wing 官方 X: \"AI agents are unreliable. That's the single biggest thing standing between today's demos and the coworker-grade agents everyone keeps promising.\"；另有研究文 \"Who Will Win the RL Environment Mar",
+   "观点链接": "https://x.com/Wing_VC/status/2074160585529585979；https://www.wing.vc/content/who-will-win-the-rl-environment-market--and-why",
+   "本赛道已投": "Bespoke Labs（A 轮领投，2026-07）；Gray Swan AI（A 轮联合领投 $40M）",
+   "匹配理由": "发表过 RL 环境市场专题研究，强调验证器——与 SimReal 的验证器卖点直接对应；但已投 Bespoke，偏 A 轮。"
+  },
+  {
+   "名称": "Elad Gil",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "13",
+   "已知对接人": "Elad Gil（本人）",
+   "对接人来源": "https://aiweekly.co/alerts/applied-compute-in-talks-for-3b-round-led-by-elad-gil",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Applied Compute（2026-04 跟投，据报领投 $350M 新一轮）；Braintrust（B 轮）；DatologyAI（A 轮）；Scale AI（F 轮）",
+   "匹配理由": "覆盖后训练、评测、数据策展全链条，影响力大；投过 HeyGen。对种子轮单笔较小，可作为信号型天使。"
+  },
+  {
+   "名称": "Standard Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "14",
+   "已知对接人": "Dalton Caldwell（领投 HUD）",
+   "对接人来源": "https://www.linkedin.com/posts/daltoncaldwell_hud-standard-capital-series-a-activity-7473502415812448256-wRab",
+   "公开观点": "\"HUD is to ScaleAI what Airbnb is to Hilton.\"（搜索摘要）",
+   "观点链接": "https://www.linkedin.com/posts/daltoncaldwell_hud-standard-capital-series-a-activity-7473502415812448256-wRab",
+   "本赛道已投": "HUD（A 轮领投 $16M，2026-06）",
+   "匹配理由": "对 RL 环境市场有明确判断；但专做 A 轮，适合作为下一轮储备。"
+  },
+  {
+   "名称": "Jane Street",
+   "类型": "战略投资",
+   "地区": "美国（纽约）",
+   "优先级": "15",
+   "已知对接人": "未找到",
+   "对接人来源": "https://www.coreweave.com/news/jane-street-and-coreweave-announce-seed-investment-in-numerata-developer-of-ai-powered-software-development-tools",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Numerata（AI 编程工具种子领投，与 CoreWeave 联投；非本赛道）",
+   "匹配理由": "SimReal 团队的前东家之一，已有以机构名义领投 AI 种子轮的先例；也是潜在客户（金融 RL 环境）。需注意前雇主关系。"
+  },
+  {
+   "名称": "Sequoia Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Shaun Maguire、Dean Meyer（Irregular 投资文作者）；Fleet 负责合伙人未找到",
+   "对接人来源": "https://sequoiacap.com/article/partnering-with-irregular-ahead-of-the-curve/",
+   "公开观点": "Shaun Maguire: \"The real AI security threats haven't emerged yet. What stood out about the Irregular team is how far ahead they're thinking.\"",
+   "观点链接": "https://finance.yahoo.com/news/irregular-raises-80-million-set-121500443.html",
+   "本赛道已投": "Fleet（种子、A 轮）；Irregular（$80M 领投，2025-09）；Applied Compute（2025-10 跟投）；Ineffable Intelligence（种子联合领投 $1.1B）；Vals AI（种子，搜索摘要）",
+   "匹配理由": "多家 RL/评测公司股东，并做过 Brendan Foody 谈 RL 环境的播客；但持有 Fleet，负责合伙人不明。"
+  },
+  {
+   "名称": "SV Angel",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Fleet（种子、A 轮）；Arga Labs（种子）；Origin Lab（种子）；Judgment Labs（跟投）",
+   "匹配理由": "种子阶段活跃跟投者，本赛道已投 4 家；投过 HeyGen。适合作为跟投方补齐轮次。"
+  },
+  {
+   "名称": "Altos Ventures",
+   "类型": "VC",
+   "地区": "美国（韩国背景为常识，未核实）",
+   "优先级": "",
+   "已知对接人": "Zac Mohring（入 AfterQuery 董事会）",
+   "对接人来源": "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation",
+   "公开观点": "\"Human data is an enormous market and critical bottleneck for frontier models, and for advancing the quality of AI.\"",
+   "观点链接": "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation",
+   "本赛道已投": "AfterQuery（A 轮领投 $30M，2026-04）",
+   "匹配理由": "已投过前 Citadel Securities 创始人（AfterQuery 的 Carlos Georgescu，来自 rl-list 摘要）做金融专家数据，赛道判断完全一致；但 AfterQuery 与 SimReal 高度重叠，冲突最大。"
+  },
+  {
+   "名称": "Y Combinator",
+   "类型": "加速器",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "投 RL 环境/数据方向的具体合伙人未找到；Gustaf Alströmer 公开评论 AfterQuery",
+   "对接人来源": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+   "公开观点": "未找到",
+   "观点链接": "https://www.ycombinator.com/companies/industry/Reinforcement%20Learning",
+   "本赛道已投": "AfterQuery（W25）；HUD（W25）；Halluminate（S25）；Datacurve（W24）；Refresh（X25）；Andon Labs（W24）；Sepal AI；Cua（S25）；BenchFlow；Sciloop（F25）；hillclimb（F25）；Arga Labs（P26）；Coval",
+   "匹配理由": "本赛道孵化最多的机构，AfterQuery 成为 YC 最快独角兽；但批次内竞品多，且对已有团队意义主要在网络与客户引荐。"
+  },
+  {
+   "名称": "Felicis",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Sundeep Peechu（管理合伙人，Mercor，搜索摘要推断）；Peter Deng（GP，LMArena 董事会观察员）；Viviana Faga、Astasia Myers（DatologyAI）",
+   "对接人来源": "https://x.com/pxd/status/2008573160220745912",
+   "公开观点": "Peter Deng: \"Progress in AI can't be measured in labs by benchmarks alone. It needs to take into account how real people want to use these systems and what they prefer.\"",
+   "观点链接": "https://www.prnewswire.com/news-releases/lmarena-raises-150-million-to-build-the-worlds-most-trusted-ai-evaluation-platform-302653012.html",
+   "本赛道已投": "Mercor（B、C 轮领投）；LMArena（A 轮联合领投）；DatologyAI（A 轮领投）；Periodic Labs（种子）",
+   "匹配理由": "赛道认知强，但深度绑定 Mercor 且偏 A 轮以后，种子阶段不对口。"
+  },
+  {
+   "名称": "Radical Ventures",
+   "类型": "VC",
+   "地区": "加拿大（多伦多）/美国",
+   "优先级": "",
+   "已知对接人": "未找到具体合伙人；官方投资文 \"Prime Intellect: Owning the Learning Loop\"",
+   "对接人来源": "https://radical.vc/prime-intellect-owning-the-learning-loop/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Prime Intellect（A 轮领投 $130M，2026-07）；DatologyAI（种子、A 轮跟投）",
+   "匹配理由": "偏大额 A 轮，已投 Prime Intellect；种子阶段匹配度低。"
+  },
+  {
+   "名称": "Bain Capital Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Fleet（A 轮，据 The Information 为洽谈中的领投方）",
+   "匹配理由": "已投 Fleet，负责人不明，阶段偏 A 轮。"
+  },
+  {
+   "名称": "Thrive Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Scale AI（老股东）；Irregular（据报领投新一轮）",
+   "匹配理由": "阶段偏后；投过 HeyGen（切割中国投资人之后）。"
+  },
+  {
+   "名称": "BoxGroup",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "AfterQuery（早期股东，A 轮跟投）；Arga Labs（种子跟投）",
+   "匹配理由": "同时投了 AfterQuery（前 Citadel Securities 创始人）和 Arga（Goldman 背景 CTO），熟悉金融背景团队做 AI 数据；作为跟投方合适。"
+  },
+  {
+   "名称": "Abstract Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Deeptune（A 轮跟投）；Applied Compute（跟投）",
+   "匹配理由": "在 RL 环境和后训练两边都有跟投。"
+  },
+  {
+   "名称": "8VC",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Bespoke Labs（种子领投 $8.25M）；Vals AI（种子、A 轮）",
+   "匹配理由": "领投过 RL 环境种子轮，同时是评测公司 Vals 的老股东；已投 Bespoke 构成冲突。"
+  },
+  {
+   "名称": "Insight Partners",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Lonne Jaffe（董事总经理）",
+   "对接人来源": "https://www.insightpartners.com/ideas/behind-the-investment-snorkel-ai/",
+   "公开观点": "\"Snorkel's research-grade approach to AI data, environments, and measurement is becoming an increasingly important ingredient in building capable and reliable AI systems\"",
+   "观点链接": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+   "本赛道已投": "Snorkel AI（E 轮联合领投 $350M，2026-09）",
+   "匹配理由": "成长期基金，种子阶段不对口；可作为后期参照。"
+  },
+  {
+   "名称": "S32",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Snorkel AI（E 轮联合领投）；Gretel（此前投资方）",
+   "匹配理由": "阶段偏后。"
+  },
+  {
+   "名称": "Addition",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Snorkel AI（D 轮领投 $100M，E 轮跟投）",
+   "匹配理由": "阶段偏后。"
+  },
+  {
+   "名称": "Vanara Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Hayden Lekacz（联合创始人/管理合伙人，入董事会）；Neil Kamath（联合创始人/管理合伙人）",
+   "对接人来源": "https://www.businesswire.com/news/home/20250916425748/en/Invisible-Technologies-Raises-$100-Million-to-Power-the-Next-Generation-of-AI-Infrastructure-for-the-Enterprise",
+   "公开观点": "\"Invisible is optimizing the adoption of enterprise AI at scale, building the foundational layer of the AI ecosystem that enterprises need, but few have figured out.\"",
+   "观点链接": "https://www.businesswire.com/news/home/20250916425748/en/Invisible-Technologies-Raises-$100-Million-to-Power-the-Next-Generation-of-AI-Infrastructure-for-the-Enterprise",
+   "本赛道已投": "Invisible Technologies（$100M 领投，2025-09）",
+   "匹配理由": "成长期基金。"
+  },
+  {
+   "名称": "01 Advisors",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Adam Bain（联合创始人，入 micro1 董事会）；Dick Costolo",
+   "对接人来源": "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "micro1（A 轮领投 $35M，2025-09）",
+   "匹配理由": "已投 micro1（专家数据直接竞品），阶段偏 A 轮。"
+  },
+  {
+   "名称": "Accel",
+   "类型": "VC",
+   "地区": "美国/欧洲",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Scale AI（F 轮领投 $1B）；Periodic Labs（种子）",
+   "匹配理由": "本赛道只有 Scale 一笔大额，未见早期 RL 环境投资。"
+  },
+  {
+   "名称": "Madrona",
+   "类型": "VC",
+   "地区": "美国（西雅图）",
+   "优先级": "",
+   "已知对接人": "Vivek Ramaswami（合伙人）",
+   "对接人来源": "https://www.madrona.com/gray-swan-series-a/",
+   "公开观点": "\"I have never heard such a chorus of praise for one company.\"（搜索摘要）",
+   "观点链接": "https://www.madrona.com/gray-swan-series-a/",
+   "本赛道已投": "Gray Swan AI（A 轮联合领投 $40M）",
+   "匹配理由": "领投过红队/评测公司，无 RL 环境竞品冲突；阶段偏 A 轮。"
+  },
+  {
+   "名称": "Greenfield Partners",
+   "类型": "VC",
+   "地区": "以色列/美国",
+   "优先级": "",
+   "已知对接人": "Itay Inbar（合伙人）",
+   "对接人来源": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+   "公开观点": "\"The future of AI will depend on systems that can learn and operate reliably in complex environments, and simulations are becoming essential to making that possible.\"",
+   "观点链接": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+   "本赛道已投": "Patronus AI（B 轮领投 $50M，2026-06）",
+   "匹配理由": "观点吻合，但阶段为 B 轮。"
+  },
+  {
+   "名称": "Decibel Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Veris AI（种子联合领投 $8.5M，2025-06）",
+   "匹配理由": "领投过 RL 环境种子轮，阶段对口；负责人未找到。"
+  },
+  {
+   "名称": "Acrew Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Veris AI（种子联合领投）；Invisible Technologies（老股东）",
+   "匹配理由": "种子领投过 RL 环境公司，并持有专家数据公司股份。"
+  },
+  {
+   "名称": "Lux Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Applied Compute（2025-10、2026-04 跟投）",
+   "匹配理由": "持续加注后训练平台，无直接竞品冲突。"
+  },
+  {
+   "名称": "Redpoint",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Irregular（$80M 联合领投）",
+   "匹配理由": "领投过前沿模型安全评测公司，无直接竞品冲突。"
+  },
+  {
+   "名称": "Emergence Capital",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Arga Labs（种子跟投）",
+   "匹配理由": "投过企业 RL 沙箱；另据摘要为 Genspark 早期投资人（前百度团队），对华人团队友好（低）。"
+  },
+  {
+   "名称": "Gradient Ventures（Google）",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Arga Labs（种子跟投）",
+   "匹配理由": "Google 旗下种子基金，投过企业 RL 沙箱；Google 同时是 RL 环境大买家（Mechanize 交易）。"
+  },
+  {
+   "名称": "Bezos Expeditions",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到（Mikhail Parakhin 随之任 Toloka 执行董事长）",
+   "对接人来源": "https://toloka.ai/blog/toloka-strategic-investment-led-by-bezos-expeditions/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Toloka（$72M 领投，2025-05）",
+   "匹配理由": "阶段偏后，已投 Toloka。"
+  },
+  {
+   "名称": "NVIDIA（NVentures）",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Prime Intellect（A 轮跟投）；Ineffable Intelligence（种子）；Scale AI（老股东）；据报洽谈入股 Mercor；收购 Gretel（合成数据）",
+   "匹配理由": "战略投资多在后期，且覆盖多家竞品；对华合规敏感。"
+  },
+  {
+   "名称": "GV（Google Ventures）",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Snorkel AI（E 轮跟投）",
+   "匹配理由": "本赛道只见 Snorkel 后期跟投。"
+  },
+  {
+   "名称": "Datadog",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Patronus AI（A、B 轮跟投）；收购 Adaptive ML（2026-06）",
+   "匹配理由": "通过收购 Adaptive ML 成为后训练/RL 买家，是潜在战略方与退出方。"
+  },
+  {
+   "名称": "Samsung Next / Samsung",
+   "类型": "战略投资",
+   "地区": "韩国/美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Gray Swan AI（A 轮跟投）；Patronus AI（B 轮跟投）",
+   "匹配理由": "韩国战略方，连投两家评测公司；无 RL 环境竞品。"
+  },
+  {
+   "名称": "Intel Capital",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Prime Intellect（A 轮跟投）；Scale AI（F 轮）",
+   "匹配理由": "后期战略跟投。"
+  },
+  {
+   "名称": "Dell Technologies Capital",
+   "类型": "战略投资",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Prime Intellect（A 轮跟投）",
+   "匹配理由": "后期战略跟投。"
+  },
+  {
+   "名称": "The Raine Group",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "AfterQuery（A 轮跟投）",
+   "匹配理由": "商人银行背景，投过金融背景团队做专家数据；冲突同 AfterQuery。"
+  },
+  {
+   "名称": "Mayfield",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Bespoke Labs（A 轮跟投）",
+   "匹配理由": "投过 RL 环境公司，种子阶段活跃。"
+  },
+  {
+   "名称": "Pear VC",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Vals AI（种子、A 轮）；BenchFlow（种子 $1M）",
+   "匹配理由": "种子阶段评测公司股东，无 RL 环境直接冲突。"
+  },
+  {
+   "名称": "Kindred Ventures",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "https://kindredventures.com/announcement/scorecard-solving-ai-agent-evaluation-at-scale/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Scorecard（种子领投 $3.75M，2025-09）",
+   "匹配理由": "种子领投过 agent 评测公司，无冲突。"
+  },
+  {
+   "名称": "Episode 1 Ventures",
+   "类型": "VC",
+   "地区": "英国（伦敦）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Poindexter Labs（种子领投 £2M，2026-06）",
+   "匹配理由": "欧洲少数领投 AI 训练数据种子轮的机构。"
+  },
+  {
+   "名称": "776",
+   "类型": "VC",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Deeptune（A 轮跟投）",
+   "匹配理由": "投过 RL 环境公司。"
+  },
+  {
+   "名称": "Nat Friedman & Daniel Gross（AI Grant / NFDG）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "Nat Friedman；Daniel Gross（二人 2025-06 加入 Meta，AI Grant 2026 年是否开放批次未确认）",
+   "对接人来源": "https://www.datacenterdynamics.com/en/news/meta-in-talks-to-partially-acquire-vc-fund-nfdg-hire-nat-friedman-and-daniel-gross-for-ai-shakeup/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Mechanize（种子）；Matrices（AI Grant）；Scale AI（Nat Friedman）",
+   "匹配理由": "二人已进入 Meta MSL，作为投资人可及性下降，但 Meta 是 RL 环境大买家。"
+  },
+  {
+   "名称": "Brendan Foody（Mercor CEO）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/",
+   "公开观点": "Sequoia 播客 \"How RL Environments Are Built, and Why They're Your AI Moat\"（仅标题，未取得原话）",
+   "观点链接": "https://finance.biggo.com/podcast/4135dc09c35e841c",
+   "本赛道已投": "Deeptune（A 轮天使，随后 Mercor 收购）",
+   "匹配理由": "直接竞品创始人；天使投资可能是收购前奏，需谨慎。"
+  },
+  {
+   "名称": "Noam Brown（OpenAI）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Deeptune（A 轮天使）",
+   "匹配理由": "前沿实验室 RL 研究员，背书价值高；可及性低。"
+  },
+  {
+   "名称": "Yash Patil（Applied Compute CEO）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Deeptune（A 轮天使）",
+   "匹配理由": "后训练创业者，天使投资 RL 环境公司；Applied Compute 亦为潜在客户。"
+  },
+  {
+   "名称": "Jeff Dean（Google）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Bespoke Labs（种子天使）",
+   "匹配理由": "顶级背书，可及性低。"
+  },
+  {
+   "名称": "Dylan Patel（SemiAnalysis）",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "https://www.hud.ai/blog/announcing-16m-series-a",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "HUD（A 轮天使）；Prime Intellect（种子扩展天使）",
+   "匹配理由": "活跃的 RL 基础设施天使，影响力大。"
+  },
+  {
+   "名称": "Patrick Collison",
+   "类型": "天使",
+   "地区": "美国",
+   "优先级": "",
+   "已知对接人": "本人",
+   "对接人来源": "https://techfundingnews.com/google-mechanize-1-5b-ai-deal/",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Mechanize（种子）",
+   "匹配理由": "可及性低，且已投 Mechanize。"
+  },
+  {
+   "名称": "（自行补充）",
+   "提示": "再找 20–30 家：2025–2026 投过 AI 数据、RL 环境、评测、后训练基础设施种子轮的美元基金和知名天使；以及量化/交易机构的风投部门"
+  }
+ ],
+ "V2": [
+  {
+   "名称": "红杉中国 HongShan（HSG）",
+   "类型": "VC",
+   "地区": "中国大陆/香港（人民币+美元）",
+   "优先级": "1",
+   "已知对接人": "公元（合伙人，xbench 牵头人）；计越（合伙人，AI）；负责 UniPat 交易的具体合伙人：未找到",
+   "对接人来源": "https://news.qq.com/rain/a/20250526A02TX700；https://www.jiemian.com/article/1632283.html",
+   "公开观点": "公元（转述）：团队经历了三次题库迭代，每次模型都能很快\"刷爆\"现有题库（搜索摘要）",
+   "观点链接": "https://www.qbitai.com/2025/05/288023.html",
+   "本赛道已投": "UniPat AI（早期老股东，2026-09 A轮跟投）；TalentsAI（天使）；觅蜂科技（种子/天使领投，2026-08追加）；自建评测基准 xbench，并与 UniPat 联合发布 BabyVision 评测集（2026-01）",
+   "匹配理由": "【美元】【投过90后年轻团队】唯一一家自己做 Agent 评测基准的国内 VC，同时投了评测公司和专家数据公司，种子基金的阶段也对得上；缺点是已经投了 UniPat 和 TalentsAI，要先讲清差异（可执行环境+验证器+金融场景）"
+  },
+  {
+   "名称": "五源资本 5Y Capital",
+   "类型": "VC",
+   "地区": "中国大陆/香港（人民币+美元）",
+   "优先级": "2",
+   "已知对接人": "刘芹（创始合伙人）；孟醒（合伙人，前滴滴自动驾驶COO）；井绪天（90后合伙人，2025-09晋升）；具体负责智能知识的人：未找到",
+   "对接人来源": "https://www.5ycap.com/en/team/；https://news.qq.com/rain/a/20260106A0363600",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "智能知识/一面千识（种子轮）；GIM（金融垂域AI，天使轮，与 Monolith 联合）",
+   "匹配理由": "【美元】【投过金融背景年轻团队】在种子轮投了专家数据公司，又投了由前五源投资人和港大教授创办的金融 AI 公司 GIM，同时懂数据和金融；阶段也对得上"
+  },
+  {
+   "名称": "锦秋基金 Jinqiu Capital",
+   "类型": "VC",
+   "地区": "中国大陆（美元为主，另有人民币新基金）",
+   "优先级": "3",
+   "已知对接人": "杨洁（创始合伙人，前字节跳动财务投资负责人、前红杉）；臧天宇（合伙人）",
+   "对接人来源": "https://news.qq.com/rain/a/20251103A01BJN00；https://www.nbd.com.cn/articles/2371979.html",
+   "公开观点": "杨洁（英文转述）：the data flywheel truly works——数据飞轮要真正推动收入、留存等具体业务指标（搜索摘要）",
+   "观点链接": "https://news.qq.com/rain/a/20251103A01BJN00",
+   "本赛道已投": "智能知识/一面千识（天使轮，与耀途联合）；星尘智能（A/A+领投，具身本体，非数据）",
+   "匹配理由": "【美元】【大模型LP：字节是最大LP（杨洁本人说法，另有报道称字节出资新基金近半）】投过专家数据，出手频率高，通过 LP 关系可能打通字节 Seed 这个最大买家"
+  },
+  {
+   "名称": "Monolith 砺思资本",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "4",
+   "已知对接人": "曹曦（创始合伙人，前红杉中国合伙人）",
+   "对接人来源": "https://news.pedaily.cn/202511/557110.shtml",
+   "公开观点": "曹曦：团队既有前沿AI研究能力，也真正理解金融和资产管理的复杂性（搜索摘要，谈 GIM）",
+   "观点链接": "https://news.pedaily.cn/202606/564923.shtml",
+   "本赛道已投": "本赛道未找到直接数据公司；GIM（金融垂域AI，天使轮）；月之暗面、沐曦科技（AI基础设施）",
+   "匹配理由": "【美元】【投过金融/量化方向年轻团队】【大模型资源：月之暗面股东】愿意为\"AI研究能力+懂金融\"的团队下注，和 SimReal 的叙事最接近；不过还没投过数据公司"
+  },
+  {
+   "名称": "九坤创投 Ubiquant Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（北京）",
+   "优先级": "5",
+   "已知对接人": "王琛、姚齐聪（九坤投资创始人，共同创立九坤创投）",
+   "对接人来源": "https://news.qq.com/rain/a/20250327A0ACXQ00",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；原力灵机（具身，天使）；九坤投资与微软亚洲研究院合作研究基于规则的 RL（推理模型）",
+   "匹配理由": "【量化背景】量化私募的创投平台，本身做过 RL 推理研究，也有 AI Lab 和 Data Lab。对来自 Citadel/Millennium/Jane Street 的团队最容易认可，本身也可能成为金融 RL 环境的客户；需要核实是否有美元主体"
+  },
+  {
+   "名称": "耀途资本 Glory Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（双币）",
+   "优先级": "6",
+   "已知对接人": "杨光、白宗义（创始合伙人）；温廷灿（投资总监，负责智能知识）",
+   "对接人来源": "https://www.glory-ventures.com/；https://news.qq.com/rain/a/20260608A079S700",
+   "公开观点": "温廷灿：智识已获得头部大模型公司订单，完成初步PMF（搜索摘要）",
+   "观点链接": "https://zhuanlan.zhihu.com/p/2044128857192714401",
+   "本赛道已投": "智能知识/一面千识（天使轮，与锦秋联合）",
+   "匹配理由": "【美元：双币】投过专家数据，看重大模型客户的订单；偏向硬件和基础设施，对纯数据服务的偏好一般"
+  },
+  {
+   "名称": "BV百度风投 Baidu Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（北京）/美国（美元+人民币）",
+   "优先级": "7",
+   "已知对接人": "刘维（CEO）；齐玉杰、蔡薇（合伙人）；崔轲迪（投资副总裁，负责简智）",
+   "对接人来源": "https://www.vbdata.cn/orgDetail/79ac61ad3598468689eb21a50216fee1；https://www.sohu.com/a/966588070_439726",
+   "公开观点": "崔轲迪：这支以90后为核心驱动的团队，帮助我们清晰勾勒出一家优秀数据智能公司应有的模样（搜索摘要）",
+   "观点链接": "https://www.sohu.com/a/966588070_439726",
+   "本赛道已投": "简智机器人（种子领投，之后连续跟投）；觅蜂科技（种子跟投）",
+   "匹配理由": "【美元】【投过90后年轻团队】【大模型资源：百度文心】敢在种子轮领投数据公司，也投年轻团队；但目前方向集中在具身"
+  },
+  {
+   "名称": "线性资本 Linear Capital",
+   "类型": "VC",
+   "地区": "中国大陆（上海）/德国慕尼黑（美元为主）",
+   "优先级": "8",
+   "已知对接人": "王淮（创始合伙人，斯坦福硕士，Facebook 第二位华人工程师）",
+   "对接人来源": "https://news.qq.com/rain/a/20260902A05SIU00；https://36kr.com/p/2826124530845959",
+   "公开观点": "王淮（转述）：AI 落地需要大量数据，数据往往是实际应用的重要限制（搜索摘要）",
+   "观点链接": "https://www.sohu.com/a/203332622_610473",
+   "本赛道已投": "本赛道未找到；方向覆盖 AI Infra 和具身",
+   "匹配理由": "【美元】【偏好技术和海归创始人】阶段和金额都和 SimReal 的种子轮吻合，新美元基金正在投资期；但对这个赛道的认知未经证实"
+  },
+  {
+   "名称": "高榕创投 Gaorong Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "9",
+   "已知对接人": "张震、岳斌（创始合伙人）；负责语用科技的合伙人：未找到",
+   "对接人来源": "https://www.itjuzi.com/investfirm/233",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；语用科技（林俊旸创办，前 Qwen 技术负责人，2026-08 联合领投）",
+   "匹配理由": "【美元】【大模型资源：语用科技】被投的语用科技是一家新的后训练/Agent 实验室，也是 SimReal 的潜在客户；高榕本身没有投过数据公司"
+  },
+  {
+   "名称": "奇绩创坛 MiraclePlus",
+   "类型": "加速器",
+   "地区": "中国大陆（北京）",
+   "优先级": "10",
+   "已知对接人": "陆奇（创始人）",
+   "对接人来源": "https://www.stdaily.com/web/gdxw/2026-05/06/content_512299.html",
+   "公开观点": "陆奇（转述）：研究成为直接生产力，算力成为核心生产工具，数据成为重要生产要素（搜索摘要）",
+   "观点链接": "https://www.huxiu.com/article/4864883.html",
+   "本赛道已投": "智能知识/一面千识（种子，2025秋季营）；光轮智能（天使）；枢途科技（天使）；2026春季营数据方向10个项目",
+   "匹配理由": "【研究型创始人占45%】对 RL 数据和环境方向最早有认知；但主要投人民币、需要入营，对已经在融种子轮的团队价值有限，更适合拿来做背书或接触被投的大模型公司"
+  },
+  {
+   "名称": "蚂蚁集团（战略投资部）",
+   "类型": "战略投资",
+   "地区": "中国大陆（杭州）",
+   "优先级": "11",
+   "已知对接人": "纪纲（战略投资部副总裁）；齐源（投资总监，AI方向）",
+   "对接人来源": "https://www.chnfund.com/article/AR04e1da73-1974-1946-c063-3a18e3edd362",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "光轮智能（2026-05 领投，估值超20亿美元）；简智机器人（2026-06 联合领投）；星尘智能、星海图（具身本体）",
+   "匹配理由": "【金融机构资源】蚂蚁本身就是金融场景的大买家（支付宝、财富、保险），也投数据基础设施；但战投偏后期，更现实的路径是先做客户再谈投资"
+  },
+  {
+   "名称": "字节跳动（投资部）",
+   "类型": "战略投资",
+   "地区": "香港/中国大陆",
+   "优先级": "12",
+   "已知对接人": "蒋恺（香港财务投资部负责人，前 Coatue 合伙人，2026-09 加入，向 CFO 高准汇报）",
+   "对接人来源": "https://news.pedaily.cn/202609/569061.shtml",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到直接数据公司；未来不远机器人（看中家庭场景数据闭环）；自变量机器人；是锦秋基金最大LP",
+   "匹配理由": "【大模型客户资源】国内最大的数据买家，新的投资负责人在香港，开始系统布局 AI 初创；但字节自建了专家平台，SimReal 更适合先做供应商"
+  },
+  {
+   "名称": "经纬创投 Matrix Partners China",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "13",
+   "已知对接人": "王华东（管理合伙人）",
+   "对接人来源": "https://startup.aliyun.com/info/1085453.html",
+   "公开观点": "王华东：光轮智能正迅速成为合成数据领域的国际顶尖企业，占据全球领先地位（搜索摘要）",
+   "观点链接": "https://startup.aliyun.com/info/1085453.html",
+   "本赛道已投": "光轮智能（Pre-A 领投，Pre-A+ 跟投）",
+   "匹配理由": "【美元】早期领投过数据/仿真基础设施，认可\"中美双栖、服务海外实验室\"的数据公司（光轮的客户包括英伟达、DeepMind）；在后训练数据方向的认知未经证实"
+  },
+  {
+   "名称": "顺为资本 Shunwei Capital",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "14",
+   "已知对接人": "耿益璇（执行董事，负责简智）",
+   "对接人来源": "https://www.sohu.com/a/966588070_439726",
+   "公开观点": "耿益璇：具身智能正迈向规模落地，高质量规模化数据供给是核心突破口（搜索摘要）",
+   "观点链接": "https://www.sohu.com/a/966588070_439726",
+   "本赛道已投": "简智机器人（天使领投，之后跟投）",
+   "匹配理由": "【美元】敢在天使轮领投数据基建；小米生态有场景，但偏硬件和具身"
+  },
+  {
+   "名称": "云锋基金 Yunfeng Capital",
+   "类型": "VC",
+   "地区": "香港/上海（美元+人民币）",
+   "优先级": "15",
+   "已知对接人": "虞锋（创始人、主席）",
+   "对接人来源": "https://finance.sina.com.cn/stock/estate/integration/2026-08-06/doc-inimmayv4440690.shtml",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "觅蜂科技（种子跟投）；千寻智能（具身）；Corgi（美国AI保险，约3000万美元，2026-08，是其首笔美国交易）",
+   "匹配理由": "【美元】【金融机构资源：与阿里/蚂蚁生态关系深】香港主体，开始投美国 AI 和金融科技（Corgi）；阶段偏后"
+  },
+  {
+   "名称": "启明创投 Qiming Venture Partners",
+   "类型": "VC",
+   "地区": "中国大陆/香港（美元+人民币）",
+   "优先级": "",
+   "已知对接人": "周志峰（主管合伙人，2026 Midas List 第80位）",
+   "对接人来源": "https://www.qimingvc.com/cn/team/%E5%91%A8%E5%BF%97%E5%B3%B0",
+   "公开观点": "启明 2026 AI 十大展望（周志峰发布）：具身智能的有效数据要从万小时级跳到百万小时级（搜索摘要）",
+   "观点链接": "https://news.pedaily.cn/202607/566546.shtml",
+   "本赛道已投": "本赛道未找到；AI 领域投了超过100个项目、合计120亿元",
+   "匹配理由": "【美元】对\"数据是瓶颈\"有公开判断，但只落在具身方向；可以作为 A 轮时的储备"
+  },
+  {
+   "名称": "国方创投 / 国方创新",
+   "类型": "VC（国资背景）",
+   "地区": "中国大陆（上海）",
+   "优先级": "",
+   "已知对接人": "张治（行业合伙人）",
+   "对接人来源": "https://news.pedaily.cn/202606/565296.shtml",
+   "公开观点": "张治：觅蜂科技不仅是数据服务商，更是数据要素市场的关键基建",
+   "观点链接": "https://news.pedaily.cn/202606/565296.shtml",
+   "本赛道已投": "光轮智能（A++/A+++ 及2026-05跟投）；觅蜂科技（2026-06 天使+领投）；据量子位统计，过去一年投具身数据服务商次数最多（3次）",
+   "匹配理由": "人民币国资，看重\"数据要素\"和上海产业落地；和美元、跨境的叙事不太合"
+  },
+  {
+   "名称": "鼎晖投资（鼎晖VGC / 鼎晖百孚）",
+   "类型": "VC/PE",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "觅蜂科技（种子跟投、天使+超额追加）；枢途科技（Pre-A 联合领投）；博登智能（A+/A++ 联合投资）",
+   "匹配理由": "【美元】过去一年连续投了三家数据公司，对数据赛道很积极；但目前都是具身或传统数据服务"
+  },
+  {
+   "名称": "辰韬资本",
+   "类型": "VC",
+   "地区": "中国大陆（上海）",
+   "优先级": "",
+   "已知对接人": "萧伊婷（合伙人）",
+   "对接人来源": "https://36kr.com/p/2357911477796104",
+   "公开观点": "萧伊婷：算法、算力和数据是人工智能的三要素，其中合成数据是构建高质量AI模型的核心关键（搜索摘要）",
+   "观点链接": "https://36kr.com/p/2357911477796104",
+   "本赛道已投": "光轮智能（种子/天使/天使+，A轮加注）",
+   "匹配理由": "最早看好合成数据的机构之一，阶段对得上；但偏自动驾驶和具身，主要是人民币"
+  },
+  {
+   "名称": "峰瑞资本 FreesFund",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "陈石（投资合伙人）",
+   "对接人来源": "https://www.chinaventure.com.cn/news/80-20240813-382497.html",
+   "公开观点": "陈石：\"前沿数据缺失\"已成为阻碍AI行业发展的最大障碍，解决方法是人机结合方式的\"数据生产\"（搜索摘要）",
+   "观点链接": "https://www.chinaventure.com.cn/news/80-20240813-382497.html",
+   "本赛道已投": "整数智能（A轮领投）",
+   "匹配理由": "对\"人机结合生产前沿数据\"有明确判断，和专家数据+环境的叙事一致；需要核实美元能力"
+  },
+  {
+   "名称": "东方富海",
+   "类型": "VC",
+   "地区": "中国大陆（深圳）",
+   "优先级": "",
+   "已知对接人": "王鑫（合伙人）",
+   "对接人来源": "https://finance.sina.com.cn/roll/2025-11-19/doc-infxyazu2920960.shtml",
+   "公开观点": "王鑫：具身智能是人工智能发展的必然方向，而数据是制约其发展的核心瓶颈（搜索摘要）",
+   "观点链接": "https://finance.sina.com.cn/roll/2025-11-19/doc-infxyazu2920960.shtml",
+   "本赛道已投": "光轮智能（A/A+ 联合投资）",
+   "匹配理由": "认可数据是瓶颈，但只看具身，人民币"
+  },
+  {
+   "名称": "琥珀资本",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "琥珀资本投资人（未具名）：高质量、物理精准的仿真数据是稀缺资源（搜索摘要）",
+   "观点链接": "https://finance.sina.com.cn/roll/2025-11-19/doc-infxyazu2920960.shtml",
+   "本赛道已投": "光轮智能（A轮）",
+   "匹配理由": "只投过一笔具身仿真数据"
+  },
+  {
+   "名称": "三七互娱",
+   "类型": "战略投资",
+   "地区": "中国大陆（广州）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "三七互娱投资人（未具名）：光轮智能将高精度仿真技术用于AI训练……与三七互娱在AI产业链和数字资产方面的布局高度契合（搜索摘要）",
+   "观点链接": "https://finance.sina.com.cn/roll/2025-11-19/doc-infxyazu2920960.shtml",
+   "本赛道已投": "光轮智能（A轮，2026-05 超额跟投）",
+   "匹配理由": "上市游戏公司做产业投资，关注3D/仿真，和金融环境关系不大"
+  },
+  {
+   "名称": "清新资本",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "光轮智能（A++/A+++）；博登智能（A+/A++）",
+   "匹配理由": "连续跟投两家数据公司，但阶段偏后"
+  },
+  {
+   "名称": "建投投资（建投华科）",
+   "类型": "VC（国资）",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "光轮智能（A++/A+++ 及2026-05）",
+   "匹配理由": "国资财务投资，阶段偏后"
+  },
+  {
+   "名称": "北京市人工智能产业投资基金",
+   "类型": "VC（政府产业基金）",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "光轮智能（Pre-A+ 主导）",
+   "匹配理由": "北京 AI 产业基金敢在早期主导数据基础设施，但要求在北京落地、用人民币"
+  },
+  {
+   "名称": "中关村科学城基金",
+   "类型": "VC（政府基金）",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "光轮智能（2026-06 10亿元战略轮，领衔）",
+   "匹配理由": "政府基金，阶段偏后"
+  },
+  {
+   "名称": "天际资本 FutureX Capital",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "张倩（创始合伙人）；邵海涛（合伙人，LinkedIn 搜索摘要）",
+   "对接人来源": "https://www.sohu.com/a/762711136_121669651",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "恺望数据（2026-08 联合领投）",
+   "匹配理由": "投过具身/自动驾驶数据，阶段偏后"
+  },
+  {
+   "名称": "北京亦庄产业升级基金",
+   "类型": "VC（政府产业基金）",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "恺望数据（2026-08 联合领投）",
+   "匹配理由": "地方产业基金，要求本地落地"
+  },
+  {
+   "名称": "华方资本",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "恺望数据（2026-08 联合领投）",
+   "匹配理由": "只投过一笔具身数据"
+  },
+  {
+   "名称": "滴滴（战略投资）",
+   "类型": "战略投资",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "简智机器人（2026-06 联合领投）",
+   "匹配理由": "产业战投，关注出行和具身"
+  },
+  {
+   "名称": "德联资本",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "简智机器人（2026-06 联合领投）",
+   "匹配理由": "只投过一笔具身数据"
+  },
+  {
+   "名称": "Momenta（战略投资）",
+   "类型": "战略投资",
+   "地区": "中国大陆（苏州/北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "简智机器人（种子跟投，2026-08 A轮领投）",
+   "匹配理由": "简智创始人来自 Momenta，属于老东家战投"
+  },
+  {
+   "名称": "中国电信（战略投资）",
+   "类型": "战略投资（央企）",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "觅蜂科技（2026-08 领投）",
+   "匹配理由": "央企战投，看重具身数据的平台属性"
+  },
+  {
+   "名称": "赛富投资基金 SAIF Partners",
+   "类型": "VC",
+   "地区": "中国大陆/香港（美元+人民币）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；GIM（金融垂域AI，天使+领投）",
+   "匹配理由": "【美元】【投过金融AI年轻团队】愿意在天使轮领投金融 AI"
+  },
+  {
+   "名称": "今日资本 Capital Today",
+   "类型": "VC",
+   "地区": "中国大陆/香港（美元）",
+   "优先级": "",
+   "已知对接人": "徐新（创始合伙人）",
+   "对接人来源": "https://www.cls.cn/detail/1730097",
+   "公开观点": "徐新（转述）：人口多、场景多，所以数据量在我们手上（搜索摘要）",
+   "观点链接": "https://caifuhao.eastmoney.com/news/20260803105404152054380",
+   "本赛道已投": "TalentsAI（TalentsAI 官网称获其投资，未核）；智谱（早期，B3轮）；星海图",
+   "匹配理由": "【美元】【大模型资源：智谱早期股东】如果确实投了 TalentsAI，说明认可专家数据；需要先核实"
+  },
+  {
+   "名称": "Sky9 Capital（天善资本）",
+   "类型": "VC",
+   "地区": "美国旧金山、波士顿/北京/上海/新加坡（美元）",
+   "优先级": "",
+   "已知对接人": "未找到（https://www.sky9capital.com/team/ 未能打开）",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；月之暗面",
+   "匹配理由": "【美元】【新加坡】在中美和新加坡都有团队，适合\"中美双栖\"的公司；赛道认知未经证实"
+  },
+  {
+   "名称": "蓝驰创投 BlueRun Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "",
+   "已知对接人": "陈维广、朱天宇（管理合伙人）",
+   "对接人来源": "https://www.geekpark.net/news/339166",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；月之暗面、PPIO、潞晨科技（AI基础设施）",
+   "匹配理由": "【美元】【大模型资源：月之暗面】重仓 AI 基础设施早期，但没有投过数据公司"
+  },
+  {
+   "名称": "美团龙珠 / 美团战投",
+   "类型": "战略投资",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "朱拥华（美团龙珠创始合伙人）；陈少晖（美团CFO，负责美团战投）",
+   "对接人来源": "https://www.21jingji.com/article/20260606/762a171888d08f153e5c5722d19563b5.html",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；月之暗面（2026-05 领投20亿美元）；智谱（持股约4%）",
+   "匹配理由": "【大模型资源：月之暗面、智谱】可以把 SimReal 引荐给被投的大模型公司，但本身不投早期数据公司"
+  },
+  {
+   "名称": "智谱 Z基金",
+   "类型": "战略投资",
+   "地区": "中国大陆（北京）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；趋境科技等 AI 基础设施",
+   "匹配理由": "【大模型客户资源：智谱】大模型公司的生态基金，更适合当渠道"
+  },
+  {
+   "名称": "Spinel Capital（尖晶资本）",
+   "类型": "VC",
+   "地区": "中国大陆（上海）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Abaka AI（A轮）",
+   "匹配理由": "投过中国团队出海做的数据公司；机构信息很少"
+  },
+  {
+   "名称": "Future Value Capital",
+   "类型": "VC",
+   "地区": "中国大陆（上海/福州/深圳）",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "Abaka AI（A轮）",
+   "匹配理由": "投过中国团队出海做的数据公司；机构信息很少"
+  },
+  {
+   "名称": "KIP中国（韩投伙伴）",
+   "类型": "VC",
+   "地区": "中国大陆（上海，韩资）",
+   "优先级": "",
+   "已知对接人": "扈景植 Hudson Ho（中国区负责人）",
+   "对接人来源": "https://www.itjuzi.com/investfirm/1476",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "龙猫数据（Pre-B 领投，日期存疑）",
+   "匹配理由": "只投过传统标注，也没有近期的 AI 数据交易"
+  },
+  {
+   "名称": "金沙江创投 GSR Ventures",
+   "类型": "VC",
+   "地区": "中国大陆（美元+人民币）",
+   "优先级": "",
+   "已知对接人": "朱啸虎（主管合伙人）",
+   "对接人来源": "https://gsrventureschina.com/team",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "龙猫数据（A轮领投，早期）",
+   "匹配理由": "【美元】投过传统标注，而且公开看空部分 AI 硬件，对这个赛道兴趣不明"
+  },
+  {
+   "名称": "华映资本",
+   "类型": "VC",
+   "地区": "中国大陆",
+   "优先级": "",
+   "已知对接人": "章高男（管理合伙人）",
+   "对接人来源": "https://www.chinaventure.com.cn/news/108-20230104-373008.html",
+   "公开观点": "章高男：星尘数据是标注赛道的领先企业……我们看好星尘数据在算法辅助标注方面的技术领先性（搜索摘要）",
+   "观点链接": "https://www.chinaventure.com.cn/news/108-20230104-373008.html",
+   "本赛道已投": "星尘数据（A轮领投，2023）",
+   "匹配理由": "认知停留在自动驾驶标注阶段"
+  },
+  {
+   "名称": "淡马锡 / Vertex（新加坡）",
+   "类型": "VC/主权基金",
+   "地区": "新加坡",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到中国交易；2026年上半年 GIC 和淡马锡共做了13笔 AI 交易（Anthropic、OpenAI 等）；淡马锡在中国的敞口增加77亿美元，转向 AI",
+   "匹配理由": "【新加坡】【美元】如果 SimReal 设新加坡主体，可以作为长期储备；目前没有看到早期数据交易"
+  },
+  {
+   "名称": "香港投资管理有限公司 HKIC（港投公司）",
+   "类型": "VC（政府基金）",
+   "地区": "香港",
+   "优先级": "",
+   "已知对接人": "未找到",
+   "对接人来源": "",
+   "公开观点": "未找到",
+   "观点链接": "",
+   "本赛道已投": "本赛道未找到；在 AI 方向投了商汤、银河通用等",
+   "匹配理由": "【香港】政府引导型基金，要求在香港落地"
+  },
+  {
+   "名称": "（自行补充）",
+   "提示": "再找 15–20 家：投过 AI 数据、评测、大模型基础设施早期项目的人民币/美元基金，含香港、新加坡"
+  }
+ ],
+ "C1": [
+  {
+   "名称": "NVIDIA（Nemotron 后训练）"
+  },
+  {
+   "名称": "Microsoft AI（MAI）"
+  },
+  {
+   "名称": "Amazon AGI（Nova）"
+  },
+  {
+   "名称": "Apple（Foundation Models）"
+  },
+  {
+   "名称": "Cohere"
+  },
+  {
+   "名称": "Applied Compute"
+  },
+  {
+   "名称": "Cognition"
+  },
+  {
+   "名称": "Legora"
+  },
+  {
+   "名称": "Motif Technologies（韩国）"
+  },
+  {
+   "名称": "AI21 Labs"
+  },
+  {
+   "名称": "Safe Superintelligence"
+  },
+  {
+   "名称": "Periodic Labs"
+  },
+  {
+   "名称": "Poolside"
+  },
+  {
+   "名称": "Reka"
+  },
+  {
+   "名称": "Liquid AI"
+  },
+  {
+   "名称": "Nous Research"
+  },
+  {
+   "名称": "Sakana AI"
+  },
+  {
+   "名称": "Perplexity"
+  },
+  {
+   "名称": "Anysphere（Cursor）"
+  },
+  {
+   "名称": "Writer"
+  },
+  {
+   "名称": "Databricks（Mosaic Research）"
+  },
+  {
+   "名称": "Salesforce AI Research"
+  },
+  {
+   "名称": "IBM（Granite）"
+  },
+  {
+   "名称": "ServiceNow AI Research"
+  },
+  {
+   "名称": "LG AI Research（EXAONE）"
+  },
+  {
+   "名称": "Upstage"
+  },
+  {
+   "名称": "Sarvam AI"
+  },
+  {
+   "名称": "Hebbia"
+  },
+  {
+   "名称": "AlphaSense"
+  },
+  {
+   "名称": "Bloomberg（AI Engineering）"
+  },
+  {
+   "名称": "Two Sigma"
+  },
+  {
+   "名称": "Point72"
+  },
+  {
+   "名称": "Man Group（AHL）"
+  },
+  {
+   "名称": "Jump Trading"
+  },
+  {
+   "名称": "BlackRock（AI Labs）"
+  },
+  {
+   "名称": "JPMorgan Chase（AI Research）"
+  },
+  {
+   "名称": "Goldman Sachs"
+  },
+  {
+   "名称": "Morgan Stanley"
+  },
+  {
+   "名称": "Abridge"
+  },
+  {
+   "名称": "Hippocratic AI"
+  },
+  {
+   "名称": "EvenUp"
+  },
+  {
+   "名称": "BCG X"
+  }
+ ],
+ "C2": [
+  {
+   "名称": "蚂蚁集团（百灵 / 蚂蚁数科）"
+  },
+  {
+   "名称": "百度（文心）"
+  },
+  {
+   "名称": "科大讯飞（星火）"
+  },
+  {
+   "名称": "小红书（hi lab）"
+  },
+  {
+   "名称": "美团（LongCat）"
+  },
+  {
+   "名称": "快手（Kwaipilot / 可灵）"
+  },
+  {
+   "名称": "京东（JoyAI / 言犀）"
+  },
+  {
+   "名称": "零一万物"
+  },
+  {
+   "名称": "面壁智能"
+  },
+  {
+   "名称": "商汤科技"
+  },
+  {
+   "名称": "华为（盘古 / 诺亚方舟实验室）"
+  },
+  {
+   "名称": "360 集团"
+  },
+  {
+   "名称": "昆仑万维（天工）"
+  },
+  {
+   "名称": "小米（MiMo）"
+  },
+  {
+   "名称": "网易有道"
+  },
+  {
+   "名称": "语用科技"
+  },
+  {
+   "名称": "上海人工智能实验室"
+  },
+  {
+   "名称": "北京智源人工智能研究院"
+  },
+  {
+   "名称": "华泰证券"
+  },
+  {
+   "名称": "中金公司"
+  },
+  {
+   "名称": "招商银行"
+  },
+  {
+   "名称": "同花顺"
+  },
+  {
+   "名称": "东方财富（妙想）"
+  },
+  {
+   "名称": "度小满"
+  },
+  {
+   "名称": "微众银行"
+  },
+  {
+   "名称": "明汯投资"
+  },
+  {
+   "名称": "灵均投资"
+  },
+  {
+   "名称": "OPPO（AndesGPT）"
+  },
+  {
+   "名称": "vivo（蓝心）"
+  },
+  {
+   "名称": "荣耀（YOYO / 大模型）"
+  }
+ ]
+}
