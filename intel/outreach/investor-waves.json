@@ -1,0 +1,282 @@
+{
+ "kleiner-perkins": {
+  "wave": 3,
+  "why": "合伙人懂数据业务；Applied Compute 是潜在客户，可形成组合协同。",
+  "from": "kleiner"
+ },
+ "8vc": {
+  "wave": 2,
+  "why": "领投过 RL 环境种子轮，也是评测公司股东；持有 Bespoke。",
+  "from": "8vc"
+ },
+ "a16z": {
+  "wave": 3,
+  "why": "公开且明确的 RL 环境投资论点；Deeptune 被收购后留有空位；跟投过前 Citadel 团队的 Moment。",
+  "from": "a16z"
+ },
+ "menlo-ventures": {
+  "wave": 2,
+  "why": "对赛道最熟的合伙人之一；但持有 Fleet、Mercor，要讲清差异。",
+  "from": "menlo"
+ },
+ "standard-capital": {
+  "wave": 2,
+  "why": "对 RL 环境有明确观点，但只做 A 轮；现在认识，为下一轮铺路。",
+  "from": "standard-capital"
+ },
+ "abstract-ventures": {
+  "wave": 1,
+  "why": "RL 环境和后训练两边都跟投过；Deeptune 已并入 Mercor，竞品冲突减弱。",
+  "from": "abstract"
+ },
+ "elad-gil": {
+  "wave": 1,
+  "why": "信号型天使，后训练、评测、数据策展都投过；投过 HeyGen。",
+  "from": "elad-gil"
+ },
+ "sv-angel": {
+  "wave": 1,
+  "why": "本赛道跟投最活跃的种子基金之一；投过 HeyGen，对华人团队友好。",
+  "from": "sv-angel"
+ },
+ "boxgroup": {
+  "wave": 1,
+  "why": "早早投了两家金融背景团队做的 AI 数据/环境公司，看得懂我们的背景。",
+  "from": "boxgroup"
+ },
+ "conviction": {
+  "wave": 1,
+  "why": "种子基金，创始人本人关注 agent 持续学习；投过 HeyGen，对华人团队友好。",
+  "from": "conviction"
+ },
+ "sig": {
+  "wave": 2,
+  "why": "量化做市机构投过人类数据公司，背景相通；对接人需找。",
+  "from": "sig"
+ },
+ "jane-street": {
+  "wave": 3,
+  "why": "团队前东家之一，以机构名义领投过 AI 种子轮（Numerata），也是金融 RL 环境的潜在客户。",
+  "from": "jane-street"
+ },
+ "raine-group": {
+  "wave": 2,
+  "why": "商人银行背景，懂金融专家数据；但持有 AfterQuery。",
+  "from": "raine"
+ },
+ "pear-vc": {
+  "wave": 1,
+  "why": "pre-seed/种子基金，评测公司股东，没有 RL 环境竞品。",
+  "from": "pear"
+ },
+ "01-advisors": {
+  "wave": 9,
+  "why": "领投 micro1（专家数据直接竞品）",
+  "from": "01-advisors"
+ },
+ "noam-brown": {
+  "wave": 9,
+  "why": "可及性低；Friedman 和 Gross 已进入 Meta",
+  "from": "angels-hard"
+ },
+ "jeff-dean": {
+  "wave": 9,
+  "why": "可及性低；Friedman 和 Gross 已进入 Meta",
+  "from": "angels-hard"
+ },
+ "patrick-collison": {
+  "wave": 9,
+  "why": "可及性低；Friedman 和 Gross 已进入 Meta",
+  "from": "angels-hard"
+ },
+ "mayfield": {
+  "wave": 1,
+  "why": "投过 RL 环境公司，种子阶段活跃。",
+  "from": "mayfield"
+ },
+ "datadog": {
+  "wave": 2,
+  "why": "收购了 Adaptive ML，是后训练的买家和潜在退出方；战略沟通为主。",
+  "from": "datadog"
+ },
+ "scribble-ventures": {
+  "wave": 1,
+  "why": "领投过 RL 环境公司的种子轮，单笔小（约 30 万–75 万美元）、决策快；Proximal 做编码，和金融不重叠。",
+  "from": "scribble"
+ },
+ "felicis": {
+  "wave": 9,
+  "why": "两轮领投 Mercor，且偏 A 轮以后",
+  "from": "felicis"
+ },
+ "sequoia": {
+  "wave": 2,
+  "why": "多家 RL/评测公司股东，但持有 Fleet，负责人不明。",
+  "from": "sequoia"
+ },
+ "lightspeed": {
+  "wave": 2,
+  "why": "2026 年连续领投训练数据和评测的种子轮；投过 Pika，对华人团队友好。重要，但比第三批冲突少，放第二批末尾。",
+  "from": "lightspeed"
+ },
+ "decibel": {
+  "wave": 1,
+  "why": "种子基金，领投过 agent 模拟环境；阶段完全对口。",
+  "from": "decibel"
+ },
+ "brendan-foody": {
+  "wave": 9,
+  "why": "直接竞品创始人",
+  "from": "foody"
+ },
+ "samsung-next": {
+  "wave": 2,
+  "why": "韩国战略方，连投两家评测公司，没有 RL 环境竞品。",
+  "from": "samsung-next"
+ },
+ "dylan-patel": {
+  "wave": 1,
+  "why": "活跃的 RL 基础设施天使，愿意投早期团队。",
+  "from": "dylan-patel"
+ },
+ "madrona": {
+  "wave": 2,
+  "why": "领投过红队/评测，没有 RL 环境竞品；阶段偏 A 轮。",
+  "from": "madrona"
+ },
+ "lux-capital": {
+  "wave": 2,
+  "why": "持续加注后训练平台，没有竞品冲突。",
+  "from": "lux"
+ },
+ "emergence-capital": {
+  "wave": 1,
+  "why": "投过企业软件 RL 沙箱，种子到 A 轮；据摘要是 Genspark 早期投资人（低置信度）。",
+  "from": "emergence"
+ },
+ "seven-seven-six": {
+  "wave": 1,
+  "why": "投过 RL 环境公司，且那家已被收购，组合里出现空位。",
+  "from": "776"
+ },
+ "general-catalyst": {
+  "wave": 3,
+  "why": "合伙人专做种子，刚领投企业 RL 沙箱，观点和我们高度一致；要回应与 Mercor 的关系。",
+  "from": "general-catalyst"
+ },
+ "gradient-ventures": {
+  "wave": 1,
+  "why": "Google 旗下种子基金，投过企业 RL 沙箱；Google 本身是 RL 环境大买家。",
+  "from": "gradient"
+ },
+ "wing-vc": {
+  "wave": 2,
+  "why": "写过 RL 环境市场研究，强调验证，正对我们的卖点；但持有 Bespoke，偏 A 轮。",
+  "from": "wing"
+ },
+ "acrew-capital": {
+  "wave": 1,
+  "why": "同时投了模拟环境和专家数据两类公司，最容易听懂我们的定位；种子阶段对口。",
+  "from": "acrew"
+ },
+ "bain-capital-ventures": {
+  "wave": 9,
+  "why": "持有 Fleet，负责人不明",
+  "from": "bcv"
+ },
+ "hrt-ventures": {
+  "wave": 3,
+  "why": "量化机构本身，背景最契合，今年连投两家评测公司；最重要，放最后，等话术成熟再发。",
+  "from": "hrt"
+ },
+ "radical-ventures": {
+  "wave": 9,
+  "why": "领投 Prime Intellect，偏大额 A 轮",
+  "from": "radical"
+ },
+ "nventures": {
+  "wave": 9,
+  "why": "战略投资多在后期，覆盖多家竞品",
+  "from": "strategic-late"
+ },
+ "gv": {
+  "wave": 9,
+  "why": "战略投资多在后期，覆盖多家竞品",
+  "from": "strategic-late"
+ },
+ "intel-capital": {
+  "wave": 9,
+  "why": "战略投资多在后期，覆盖多家竞品",
+  "from": "strategic-late"
+ },
+ "dell-technologies-capital": {
+  "wave": 9,
+  "why": "战略投资多在后期，覆盖多家竞品",
+  "from": "strategic-late"
+ },
+ "chemistry": {
+  "wave": 3,
+  "why": "有 RL 投资论文，领投过年轻创始人的数据公司，对华人团队友好；持有 Datacurve（编码方向）。",
+  "from": "chemistry"
+ },
+ "episode-1": {
+  "wave": 1,
+  "why": "欧洲少数领投 AI 训练数据种子轮的基金，竞争少、回复率可能更高。",
+  "from": "episode1"
+ },
+ "kindred-ventures": {
+  "wave": 1,
+  "why": "种子领投过 agent 评测，没有 RL 环境竞品。",
+  "from": "kindred"
+ },
+ "y-combinator": {
+  "wave": 2,
+  "why": "本赛道孵化最多（AfterQuery、HUD、Halluminate、Datacurve 等），但批次内竞品多。",
+  "from": "yc"
+ },
+ "index-ventures": {
+  "wave": 3,
+  "why": "唯一查到连续领投前 Citadel 量化团队的一线基金，也领投过后训练平台种子轮。",
+  "from": "index"
+ },
+ "redpoint": {
+  "wave": 2,
+  "why": "领投过前沿模型评测，没有竞品冲突。",
+  "from": "redpoint"
+ },
+ "altos-ventures": {
+  "wave": 2,
+  "why": "判断和我们完全一致，但 AfterQuery 是最直接的竞品，大概率不投；可以听反馈。",
+  "from": "altos"
+ },
+ "yash-patil": {
+  "wave": 1,
+  "why": "天使投过 RL 环境；Applied Compute 同时是潜在客户，一次沟通两种机会。",
+  "from": "yash-patil"
+ },
+ "insight-partners": {
+  "wave": 9,
+  "why": "成长期基金或已投竞品，种子阶段不对口",
+  "from": "growth"
+ },
+ "s32": {
+  "wave": 9,
+  "why": "成长期基金或已投竞品，种子阶段不对口",
+  "from": "growth"
+ },
+ "addition": {
+  "wave": 9,
+  "why": "成长期基金或已投竞品，种子阶段不对口",
+  "from": "growth"
+ },
+ "accel": {
+  "wave": 9,
+  "why": "成长期基金或已投竞品，种子阶段不对口",
+  "from": "growth"
+ },
+ "bezos-expeditions": {
+  "wave": 9,
+  "why": "成长期基金或已投竞品，种子阶段不对口",
+  "from": "growth"
+ }
+}

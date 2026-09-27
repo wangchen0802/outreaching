@@ -16,6 +16,7 @@ import csv
 import datetime as dt
 import json
 import pathlib
+import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -52,6 +53,12 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
+EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+# Contact order for investors (from the earlier investor tab): 1 warm-up, 2 knows the space
+# or has a conflict, unassigned, 3 most important (last), 9 not now.
+WAVE_RANK = {1: 0, 2: 1, None: 2, 3: 3, 9: 9}
+
+
 def split_sources(s):
     return [x.strip() for x in (s or "").split(";") if x.strip()]
 
@@ -67,6 +74,9 @@ def main():
     customers = {r["公司"]: r for r in read_csv("prospects.csv")}
     lists = {"partner": read_csv("lists/partners.csv"), "investor": read_csv("lists/investors.csv")}
     by_slug = {tr: {r["slug"]: (i, r) for i, r in enumerate(rows)} for tr, rows in lists.items()}
+
+    waves_path = ROOT / "intel" / "outreach" / "investor-waves.json"
+    waves = json.loads(waves_path.read_text(encoding="utf-8")) if waves_path.exists() else {}
 
     t = templates.load()
     out = pathlib.Path(args.out)
@@ -103,7 +113,12 @@ def main():
             i, row = hit
             company, category, region = row["名称"], row["类型"], row["地区"]
             order = TRACK_BASE[track] + i
+            wave = waves.get(path.stem, {}).get("wave") if track == "investor" else None
+            if track == "investor":
+                order = TRACK_BASE[track] + WAVE_RANK.get(wave, 2) * 200 + i
         days = templates.FOLLOWUP_DAYS[track]
+        channel = "" if row.get("备用渠道", "") in ("", "未找到") else row["备用渠道"]
+        generic = EMAIL.search(channel)
         doc = {
             "slug": doc_id,
             "track": track,
@@ -117,7 +132,8 @@ def main():
             "confidence": row.get("置信度", ""),
             "to": "" if row.get("邮箱", "未找到") in ("", "未找到") else row["邮箱"].strip(),
             "toSource": row.get("邮箱来源", ""),
-            "channel": "" if row.get("备用渠道", "") in ("", "未找到") else row["备用渠道"],
+            "channel": channel,
+            "toGeneric": generic.group(0) if generic else "",
             "order": order,
             "updatedAt": now,
             "lang": lang,
@@ -132,6 +148,9 @@ def main():
             "meta_md": d["meta_md"],
             "notes_md": d["notes_md"],
         }
+        if track == "investor" and path.stem in waves:
+            doc["wave"] = waves[path.stem]["wave"]
+            doc["waveWhy"] = waves[path.stem]["why"]
         if args.revision is not None:
             doc["revision"] = args.revision
         if args.with_review:

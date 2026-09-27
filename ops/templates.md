@@ -26,7 +26,7 @@ Our founders are quants from Cambridge, LSE and Duke with backgrounds at Jane St
 
 On supply: 7,000+ experts have signed up with us, and through 21 partner universities we can reach 200,000+ professionals. We're raising now and are in conversations with tier-1 VCs.
 
-[Hook] We'd like to become a supply partner: we staff your projects with domain experts, or build environments and verifiers that you deliver to your customers, under your brand or co-branded.
+[Hook] What we have in mind is a supply partnership: we staff your projects with domain experts, or build environments and verifiers that you deliver to your customers, under your brand or co-branded.
 
 Would you be open to 20 minutes next week?
 
