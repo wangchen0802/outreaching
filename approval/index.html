@@ -184,12 +184,33 @@
   .cand .vend b { color: var(--body); font-weight: 500; }
   .st-add { color: var(--ok); background: var(--ok-tint); }
   .st-skip { color: var(--muted); border: 1px solid var(--rule); }
+
+  /* Investors */
+  .inv-intro { margin: 0; max-width: 72ch; }
+  .wave { display: grid; gap: 14px; }
+  .wave-h { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+  .wave-h h3 { font: 500 18px/1.3 var(--serif); }
+  .wave-h p { margin: 0; color: var(--muted); font-size: 13px; }
+  .inv .why { margin: 0; max-width: 72ch; }
+  .inv .facts { display: grid; gap: 2px; font-size: 13px; color: var(--muted); }
+  .inv .facts b { color: var(--body); font-weight: 500; }
+  .inv .noemail { font-size: 13px; color: var(--warn); }
+  .recip { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 13px; }
+  .recip input { background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 6px 10px; flex: 1 1 180px; max-width: 280px; }
+  .st-sent { color: var(--body); background: var(--accent-tint); }
+  .st-replied { color: var(--ok); background: var(--ok-tint); }
+  .st-meeting { color: var(--paper); background: var(--ok); }
+  .st-pass { color: var(--muted); border: 1px solid var(--rule); }
+  .notnow { border: 1px solid var(--rule); border-radius: 10px; padding: 12px 18px; background: var(--surface); }
+  .notnow summary { cursor: pointer; font-weight: 500; color: var(--ink); }
+  .notnow ul { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 4px; font-size: 13.5px; }
+  .notnow li b { color: var(--ink); font-weight: 500; }
 </style>
 
 <div class="wrap">
   <header class="top">
     <div class="brand"><span class="co">SimReal</span><h1>外联审批</h1></div>
-    <p class="lede">每家公司一张卡片。邮件正文按模板固定，只有标出的部分是针对这家写的：开头那句、称呼和领域。看完点「批准」，或者「退回修改」并写一句原因，Claude 改完会放回待审。批准后在「全文与调研」里复制，自己发送。</p>
+    <p class="lede">你只需要做两件事：每张草稿点「批准」，或者点「退回修改」写一句原因；「候选新客户」里每家点「加入外联」或「不加」。其余由 Claude 处理。批准后在「全文与调研」里复制邮件，自己发送。</p>
     <div class="tally">
       <div class="tally-nums" id="tally-nums"><span>正在载入…</span></div>
       <div class="bar" id="bar" aria-hidden="true"><span class="b-pend" style="width:100%"></span></div>
@@ -199,25 +220,19 @@
   <nav class="tabs" role="tablist" aria-label="审批内容">
     <button class="tab" role="tab" id="tabbtn-drafts" data-tab="drafts" aria-selected="true" aria-controls="tab-drafts">草稿审批<span class="n" id="tabn-drafts"></span></button>
     <button class="tab" role="tab" id="tabbtn-cands" data-tab="cands" aria-selected="false" aria-controls="tab-cands">候选新客户<span class="n" id="tabn-cands"></span></button>
+    <button class="tab" role="tab" id="tabbtn-invs" data-tab="invs" aria-selected="false" aria-controls="tab-invs">投资人外联<span class="n" id="tabn-invs"></span></button>
   </nav>
 
   <div class="tabpanel" id="tab-drafts" role="tabpanel" aria-labelledby="tabbtn-drafts">
   <section class="sender" aria-labelledby="sender-title">
     <div class="sender-head">
       <h3 id="sender-title" class="label">发件信息</h3>
-      <p>填一次，所有草稿复制时自动替换对应的方括号。没填的保留方括号。</p>
+      <p>填一次，复制邮件时自动替换署名和联系方式。没填的保留方括号。</p>
     </div>
     <div class="fields">
       <label class="field"><span class="label">英文署名</span><input id="f-name-en" placeholder="替换 [Your name]" autocomplete="off"></label>
       <label class="field"><span class="label">中文署名</span><input id="f-name-zh" placeholder="替换 [姓名]" autocomplete="off"></label>
       <label class="field"><span class="label">微信 / 电话</span><input id="f-contact" placeholder="替换 微信/电话：[ ]" autocomplete="off"></label>
-      <label class="field"><span class="label">身份与资质核验那句</span>
-        <select id="f-idcheck">
-          <option value="undecided">未决定：保留方括号</option>
-          <option value="include">使用：去掉方括号</option>
-          <option value="omit">不用：整句删掉</option>
-        </select>
-      </label>
     </div>
     <div class="save-state" id="save-state" aria-live="polite"></div>
   </section>
@@ -233,6 +248,23 @@
   <div class="tabpanel" id="tab-cands" role="tabpanel" aria-labelledby="tabbtn-cands" hidden>
     <p class="cand-intro">这些公司不在现有外联名单上，但有 RL 环境或数据供应商公开点名它们是客户。点「加入外联」，Claude 会去调研联系人、写草稿，然后放进草稿审批。证据在<a href="https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE" target="_blank" rel="noopener noreferrer">买方地图</a>里。</p>
     <div id="cands" style="display:grid;gap:14px"><p class="empty">正在载入候选…</p></div>
+  </div>
+
+  <div class="tabpanel" id="tab-invs" role="tabpanel" aria-labelledby="tabbtn-invs" hidden>
+    <p class="inv-intro">海外投资人按联系顺序排好：第一批是最可能回复、也最可能出手的种子基金和天使，用来练话术、拿反馈；最重要的几家放在第三批。每张卡片的开头那句是针对这家写的，其余正文相同。发完点「标记已发送」，有回复再更新状态。依据见仓库 <code>intel/vc-overseas-*.csv</code>，对外引用原话前请先打开来源核对。</p>
+    <section class="sender" aria-labelledby="inv-sender-title">
+      <div class="sender-head">
+        <h3 id="inv-sender-title" class="label">融资信息</h3>
+        <p>填一次，所有投资人邮件复制时自动替换。英文署名用「草稿审批」里填的那个。</p>
+      </div>
+      <div class="fields">
+        <label class="field"><span class="label">进展一句（英文）</span><input id="f-traction" placeholder="例如：Two frontier labs are running paid pilots." autocomplete="off"></label>
+        <label class="field"><span class="label">本轮金额</span><input id="f-amount" placeholder="例如：$5M" autocomplete="off"></label>
+      </div>
+      <div class="save-state" id="inv-save-state" aria-live="polite"></div>
+    </section>
+    <nav class="filters" aria-label="投资人筛选"><div class="seg" id="f-inv"></div></nav>
+    <div id="invs" style="display:grid;gap:32px"><p class="empty">正在载入投资人…</p></div>
   </div>
 </div>
 
@@ -258,8 +290,30 @@
     status: "pending", region: "all",
     open: {}, returning: {}, returnText: {},
     canEdit: true, db: null, cards: {},
-    cands: [], tab: "drafts", candSkipping: {}, candText: {}
+    cands: [], tab: "drafts", candSkipping: {}, candText: {},
+    invs: [], invSettings: {}, invOpen: {}, invFilter: "open"
   };
+  var INV_STATUS = {
+    todo: { label: "待联系", cls: "st-pending" },
+    sent: { label: "已发送", cls: "st-sent" },
+    replied: { label: "已回复", cls: "st-replied" },
+    meeting: { label: "已约见", cls: "st-meeting" },
+    pass: { label: "不合适", cls: "st-pass" }
+  };
+  var INV_NEXT = {
+    todo: [["sent", "标记已发送", true], ["pass", "不联系", false]],
+    sent: [["replied", "已回复", true], ["pass", "对方不投", false], ["todo", "撤销", false]],
+    replied: [["meeting", "已约见", true], ["pass", "对方不投", false], ["sent", "撤销", false]],
+    meeting: [["pass", "对方不投", false], ["replied", "撤销", false]],
+    pass: [["todo", "撤销", false]]
+  };
+  var INV_WAVES = [
+    [1, "第一批：先热身", "种子基金和天使，回复和出手的可能性最高，竞品冲突少。用这一批打磨话术。"],
+    [2, "第二批：懂赛道，有冲突或阶段偏后", "认识这个赛道，但投过竞品或偏 A 轮。邮件里主动讲清和竞品的差异。"],
+    [3, "第三批：最重要，最后联系", "和我们最匹配、最想拿下的几家。等前两批的反馈把话术和数据打磨好再发。"]
+  ];
+  var INV_SUBJECT = "SimReal: finance RL environments and verifiers (seed)";
+  var INV_PH = { "[Your name]": "英文署名", "[name]": "收件人姓名", "[amount]": "本轮金额", "[Traction: labs in pilot, revenue run-rate]": "进展一句" };
   var INTEL_URL = "https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE";
   var CAND_STATUS = {
     pending: { label: "待定", cls: "st-pending" },
@@ -419,7 +473,7 @@
 
     h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact) + "</span><span>" + esc(doc.role) + '</span><span class="conf conf-' + esc(doc.confidence) + '">置信度 ' + esc(doc.confidence) + "</span></div>";
     h += '<p class="opening" lang="' + (doc.lang === "en" ? "en" : "zh") + '">' + esc(doc.opening) + "</p>";
-    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span><span>领域 <b>" + esc(doc.domains) + "</b></span></div>";
+    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span>" + (doc.domains ? "<span>领域 <b>" + esc(doc.domains) + "</b></span>" : "") + "</div>";
     if (doc.angle) h += '<div class="fills"><span>切入点 <b>' + esc(doc.angle) + "</b></span></div>";
 
     if (doc.changelog && st === "pending" && rev > 1) h += '<div class="changelog"><span class="label">这一版改了什么</span><br>' + esc(doc.changelog) + "</div>";
@@ -516,9 +570,137 @@
     }).join("");
   }
 
+  function invStatus(v) {
+    var st = v.outreach && v.outreach.status;
+    return INV_STATUS[st] ? st : "todo";
+  }
+  function invSalutation(v) {
+    var sal = v.salutation || "";
+    if (v.recipient) sal = sal.split("[name]").join(v.recipient);
+    return sal;
+  }
+  function invBody(v) {
+    var s = state.settings || {}, x = state.invSettings || {};
+    var traction = x.traction ? " " + x.traction : " [Traction: labs in pilot, revenue run-rate]";
+    var amount = x.amount ? x.amount : "[amount]";
+    var t = [
+      invSalutation(v),
+      v.opening,
+      "I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments, verifiers and expert data for post-training, starting with finance: Xitadel, a trading simulation whose outcomes are scored automatically, and a financial-close environment for long-horizon agent work. Our team is ex-Citadel, Millennium and Jane Street.",
+      "On the expert side, we reach 200,000+ professionals through 21 partner universities and our corporate networks, and 7,000+ experts have joined our waitlist." + traction,
+      "We're raising a " + amount + " seed round. Would you be open to a 20-minute call?",
+      "Best,\n[Your name]\nCo-founder, SimReal"
+    ].join("\n\n");
+    if (s.nameEn) t = t.split("[Your name]").join(s.nameEn);
+    return t;
+  }
+  function invMissing(text) {
+    var found = [];
+    Object.keys(INV_PH).forEach(function (ph) { if (text.indexOf(ph) !== -1) found.push(INV_PH[ph]); });
+    return found;
+  }
+  function invHighlight(text, v) {
+    var h = esc(text);
+    [v.opening, invSalutation(v)].forEach(function (f) {
+      if (f) h = h.split(esc(f)).join('<mark class="fill">' + esc(f) + "</mark>");
+    });
+    Object.keys(INV_PH).forEach(function (ph) {
+      var e = esc(ph);
+      h = h.split(e).join('<span class="ph">' + e + "</span>");
+    });
+    return h;
+  }
+
+  function invHTML(v) {
+    var st = invStatus(v), s = INV_STATUS[st], slug = v.slug || v.id;
+    var h = '<div class="card-head"><div class="who"><span class="rank">#' + esc(v.order) + "</span><h2>" + esc(v.name) + "</h2>";
+    h += '<div class="tags"><span class="tag">' + esc(v.type) + '</span><span class="tag">' + esc(v.region) + "</span></div></div>";
+    h += '<span class="status ' + s.cls + '">' + s.label + (v.outreach && v.outreach.at && st !== "todo" ? " · " + esc(fmtTime(v.outreach.at)) : "") + "</span></div>";
+    h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(v.contact) + "</span><span>" + esc(v.role) + '</span><span class="conf conf-' + esc(v.confidence) + '">置信度 ' + esc(v.confidence) + "</span>";
+    if (v.contactUrl) h += '<a href="' + esc(v.contactUrl) + '" target="_blank" rel="noopener noreferrer">来源</a>';
+    h += "</div>";
+    if (v.opening) h += '<p class="opening" lang="en">' + esc(v.opening) + "</p>";
+    h += '<p class="why">' + esc(v.why) + "</p>";
+    h += '<div class="facts"><span>本赛道已投 <b>' + esc(v.deals) + "</b></span><span>投过的竞品 <b>" + esc(v.conflicts) + "</b></span>";
+    if (v.china && v.china !== "未找到") h += "<span>对华信号 <b>" + esc(v.china) + "</b></span>";
+    h += "</div>";
+    if (v.noEmail) h += '<div class="noemail">' + esc(v.noEmail) + "</div>";
+    if (!v.noEmail && String(v.salutation).indexOf("[name]") !== -1 && state.canEdit) {
+      h += '<label class="recip"><span class="label">收件人姓名</span><input data-recip value="' + esc(v.recipient || "") + '" placeholder="查到后填，替换 [name]" autocomplete="off"></label>';
+    }
+    if (!v.noEmail) {
+      var miss = invMissing(invBody(v));
+      if (miss.length) h += '<div class="missing">复制前还没填的：<b>' + esc(miss.join("、")) + "</b></div>";
+    }
+    h += '<div class="actions">';
+    if (state.canEdit) {
+      (INV_NEXT[st] || []).forEach(function (a) {
+        h += '<button class="btn' + (a[2] ? " btn-primary" : "") + '" data-iact="' + a[0] + '">' + a[1] + "</button>";
+      });
+    }
+    h += '<span class="spacer"></span>';
+    if (!v.noEmail) h += '<button class="btn btn-text" data-iact="toggle" aria-expanded="' + !!state.invOpen[slug] + '">' + (state.invOpen[slug] ? "收起邮件" : "邮件全文") + "</button>";
+    h += "</div>";
+    if (state.invOpen[slug] && !v.noEmail) {
+      h += '<div class="blk"><div class="blk-h"><span class="label">邮件</span><div class="copyrow">';
+      h += '<button class="btn copy" data-icopy="subject">复制主题</button><button class="btn copy" data-icopy="body">复制正文</button><button class="btn copy" data-icopy="email">复制全部</button></div></div>';
+      h += '<div class="letter"><div class="subj">' + esc(INV_SUBJECT) + "</div><pre>" + invHighlight(invBody(v), v) + "</pre></div>";
+      h += '<div class="legend"><span><span class="sw sw-fill"></span>针对这家写的</span><span><span class="sw sw-ph"></span>还没填的方括号</span></div>';
+      h += '<div class="copy-fallback"></div></div>';
+    }
+    return h;
+  }
+
+  function invVisible(v) {
+    var st = invStatus(v);
+    if (state.invFilter === "open") return st === "todo";
+    if (state.invFilter === "active") return st === "sent" || st === "replied" || st === "meeting";
+    if (state.invFilter === "pass") return st === "pass";
+    return true;
+  }
+
+  function renderInvs() {
+    var box = document.getElementById("invs");
+    var active = state.invs.filter(function (v) { return v.wave !== 9; });
+    var c = { todo: 0, sent: 0, replied: 0, meeting: 0, pass: 0 };
+    active.forEach(function (v) { c[invStatus(v)]++; });
+    document.getElementById("tabn-invs").textContent = active.length ? c.todo + " 待联系" : "";
+    var fl = [["open", "待联系", c.todo], ["active", "进行中", c.sent + c.replied + c.meeting], ["pass", "不合适", c.pass], ["all", "全部", active.length]];
+    document.getElementById("f-inv").innerHTML = fl.map(function (x) {
+      return '<button class="chip" data-ifilter="' + x[0] + '" aria-pressed="' + (state.invFilter === x[0]) + '">' + x[1] + '<span class="n">' + x[2] + "</span></button>";
+    }).join("");
+    if (!state.invs.length) { box.innerHTML = '<p class="empty">还没有投资人数据。</p>'; return; }
+    var focused = document.activeElement;
+    if (focused && focused.matches && focused.matches("[data-recip]")) return;
+    var sorted = state.invs.slice().sort(function (a, b) { return (a.order || 999) - (b.order || 999); });
+    var h = "";
+    INV_WAVES.forEach(function (w) {
+      var items = sorted.filter(function (v) { return v.wave === w[0] && invVisible(v); });
+      if (!items.length) return;
+      h += '<section class="wave"><div class="wave-h"><h3>' + esc(w[1]) + "</h3><p>" + esc(w[2]) + "</p></div>";
+      h += items.map(function (v) { return '<article class="card inv" data-slug="' + esc(v.slug || v.id) + '">' + invHTML(v) + "</article>"; }).join("");
+      h += "</section>";
+    });
+    if (!h) h = '<p class="empty">这个筛选下没有投资人。</p>';
+    var later = sorted.filter(function (v) { return v.wave === 9; });
+    if (later.length) {
+      h += '<details class="notnow"><summary>暂不联系（' + later.length + "）</summary><ul>";
+      h += later.map(function (v) { return "<li><b>" + esc(v.name) + "</b>：" + esc(v.why) + "</li>"; }).join("");
+      h += "</ul></details>";
+    }
+    box.innerHTML = h;
+  }
+
+  function writeOutreach(slug, status) {
+    if (!state.db) return;
+    state.db.doc("investors/" + slug).update({ outreach: { status: status, at: new Date().toISOString() } }).catch(function (e) {
+      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
+    });
+  }
+
   function showTab(tab) {
     state.tab = tab;
-    ["drafts", "cands"].forEach(function (t) {
+    ["drafts", "cands", "invs"].forEach(function (t) {
       document.getElementById("tab-" + t).hidden = t !== tab;
       document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === tab);
     });
@@ -616,6 +798,22 @@
   document.addEventListener("click", function (ev) {
     var tab = ev.target.closest(".tab");
     if (tab) { showTab(tab.dataset.tab); return; }
+    var fchip = ev.target.closest("[data-ifilter]");
+    if (fchip) { state.invFilter = fchip.dataset.ifilter; renderInvs(); return; }
+    var ib = ev.target.closest("[data-iact], [data-icopy]");
+    if (ib) {
+      var islug = ib.closest(".inv").dataset.slug;
+      var inv = state.invs.find(function (v) { return (v.slug || v.id) === islug; });
+      if (!inv) return;
+      if (ib.dataset.icopy) {
+        var k = ib.dataset.icopy;
+        copyText(k === "subject" ? INV_SUBJECT : k === "body" ? invBody(inv) : "Subject: " + INV_SUBJECT + "\n\n" + invBody(inv), ib);
+        return;
+      }
+      if (ib.dataset.iact === "toggle") { state.invOpen[islug] = !state.invOpen[islug]; renderInvs(); return; }
+      writeOutreach(islug, ib.dataset.iact);
+      return;
+    }
     var cb = ev.target.closest("[data-cact]");
     if (cb) {
       var cslug = cb.closest(".cand").dataset.slug, now0 = new Date().toISOString();
@@ -689,6 +887,14 @@
   // Introducer field: save when the viewer leaves the field.
   document.addEventListener("change", function (ev) {
     var t = ev.target;
+    if (t.matches("[data-recip]") && state.db) {
+      var rslug = t.closest(".inv").dataset.slug;
+      state.db.doc("investors/" + rslug).update({ recipient: t.value.trim() }).catch(function (e) {
+        showNotice("收件人姓名没保存上（" + (e && e.code || "错误") + "）。");
+      });
+      setTimeout(renderInvs, 0);
+      return;
+    }
     if (t.matches("[data-intro]") && state.db) {
       var slug = t.closest(".card").dataset.slug;
       state.db.doc("prospects/" + slug).update({ introducer: t.value.trim() }).catch(function (e) {
@@ -703,8 +909,7 @@
     return {
       nameEn: document.getElementById("f-name-en").value.trim(),
       nameZh: document.getElementById("f-name-zh").value.trim(),
-      contact: document.getElementById("f-contact").value.trim(),
-      idCheck: document.getElementById("f-idcheck").value
+      contact: document.getElementById("f-contact").value.trim()
     };
   }
   function scheduleSave() {
@@ -725,7 +930,22 @@
   ["f-name-en", "f-name-zh", "f-contact"].forEach(function (id) {
     document.getElementById(id).addEventListener("input", scheduleSave);
   });
-  document.getElementById("f-idcheck").addEventListener("change", scheduleSave);
+
+  var invTimer = null;
+  function scheduleInvSave() {
+    var st = document.getElementById("inv-save-state");
+    st.textContent = "保存中…";
+    clearTimeout(invTimer);
+    invTimer = setTimeout(async function () {
+      if (!state.db) { st.textContent = "数据未连接，没有保存。"; return; }
+      var s = { traction: document.getElementById("f-traction").value.trim(), amount: document.getElementById("f-amount").value.trim() };
+      try { await state.db.doc("settings/investor").set(s); st.textContent = "已保存"; }
+      catch (e) { st.textContent = "没保存上（" + (e && e.code || "错误") + "），稍后再改一次。"; }
+    }, 600);
+  }
+  ["f-traction", "f-amount"].forEach(function (id) {
+    document.getElementById(id).addEventListener("input", scheduleInvSave);
+  });
 
   function fillSettingsForm(s) {
     var map = { "f-name-en": s.nameEn, "f-name-zh": s.nameZh, "f-contact": s.contact };
@@ -733,8 +953,6 @@
       var el = document.getElementById(id);
       if (document.activeElement !== el) el.value = map[id] || "";
     });
-    var sel = document.getElementById("f-idcheck");
-    if (document.activeElement !== sel) sel.value = s.idCheck || "undecided";
   }
 
   async function start() {
@@ -764,6 +982,7 @@
       state.settings = snap.exists ? snap.data() : {};
       fillSettingsForm(state.settings);
       render();
+      renderInvs();
     }, function () {});
     db.doc("meta/pipeline").onSnapshot(function (snap) {
       state.pipeline = snap.exists ? snap.data() : null;
@@ -773,8 +992,20 @@
       state.cands = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
       renderCands();
     }, function () {});
+    db.collection("investors").onSnapshot(function (snap) {
+      state.invs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
+      renderInvs();
+    }, function () {});
+    db.doc("settings/investor").onSnapshot(function (snap) {
+      state.invSettings = snap.exists ? snap.data() : {};
+      [["f-traction", state.invSettings.traction], ["f-amount", state.invSettings.amount]].forEach(function (p) {
+        var el = document.getElementById(p[0]);
+        if (document.activeElement !== el) el.value = p[1] || "";
+      });
+      renderInvs();
+    }, function () {});
   }
-  try { var savedTab = localStorage.getItem("simreal-tab"); if (savedTab === "cands") showTab("cands"); } catch (e) {}
+  try { var savedTab = localStorage.getItem("simreal-tab"); if (savedTab === "cands" || savedTab === "invs") showTab(savedTab); } catch (e) {}
   start();
 })();
 </script>

@@ -12,6 +12,13 @@ https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2 （私有，只有你能打开
 - 页面数据由 `tools/build_db.py` 从 `prospects.csv` 和 `drafts/` 生成，写进页面的数据库（`prospects/<slug>`）。审批状态只存在页面数据库里。
 - `tools/check_drafts.py` 逐封核对：和模板相比，只允许开头那句和方括号里的内容不同。
 
+### 投资人外联
+
+审批页「投资人外联」标签：海外投资人按联系顺序分三批（先热身的种子基金和天使 → 懂赛道但有冲突的 → 最重要的几家最后联系），另有「暂不联系」及原因。每家一句针对性开头，其余正文固定；「融资信息」里填一次进展和金额，复制时自动替换。发送后在卡片上更新状态（已发送 / 已回复 / 已约见 / 不合适），状态只存在页面数据库里。
+
+- 数据：`tools/build_investors.py` 生成 `investors/<slug>` 文档（顺序、联系人、开头那句都在脚本里），依据是 `intel/vc-overseas-*.csv`
+- 页面不发送任何邮件；对外引用投资人原话前先打开来源核对
+
 ## 市场情报：RL 数据买方地图
 
 https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE （私有）
