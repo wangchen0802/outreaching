@@ -17,6 +17,8 @@
     --ok-tint: rgba(46, 107, 63, 0.10);
     --warn: #93580A;
     --warn-tint: rgba(147, 88, 10, 0.11);
+    --info: #2F5A8A;
+    --info-tint: rgba(47, 90, 138, 0.10);
     --btn-ink: #111110;
     --btn-paper: #FAF9F6;
     --serif: "Newsreader", "Noto Serif SC", "Songti SC", Georgia, serif;
@@ -29,6 +31,7 @@
       --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
       --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
       --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+      --info: #8DB4E2; --info-tint: rgba(141, 180, 226, 0.14);
       --btn-ink: #F3F1EC; --btn-paper: #141311;
     }
   }
@@ -37,11 +40,12 @@
     --paper: #141311; --surface: #1C1B18; --ink: #F3F1EC; --body: #D5D2CA; --muted: #9B988F;
     --rule: #302E2A; --rule-strong: #45423C; --accent: #E27A3F; --accent-tint: rgba(226, 122, 63, 0.16);
     --ok: #7CC28E; --ok-tint: rgba(124, 194, 142, 0.14); --warn: #E3B35A; --warn-tint: rgba(227, 179, 90, 0.15);
+    --info: #8DB4E2; --info-tint: rgba(141, 180, 226, 0.14);
     --btn-ink: #F3F1EC; --btn-paper: #141311;
   }
 
   body { background: var(--paper); color: var(--body); font: 14px/1.6 var(--sans); }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 28px; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; display: grid; gap: 24px; }
   h1, h2, h3, h4 { color: var(--ink); margin: 0; text-wrap: balance; }
   a { color: inherit; text-decoration-color: var(--rule-strong); text-underline-offset: 2px; }
   a:hover { text-decoration-color: var(--accent); }
@@ -54,26 +58,33 @@
   .brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .brand .co { font: 500 13px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
   .brand h1 { font: 500 34px/1.1 var(--serif); letter-spacing: -0.01em; }
-  .lede { margin: 0; max-width: 62ch; color: var(--body); }
-  .tally { display: grid; gap: 8px; max-width: 560px; }
-  .tally-nums { display: flex; gap: 18px; flex-wrap: wrap; font: 400 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
-  .tally-nums b { color: var(--ink); font-weight: 500; }
-  .bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--rule); }
-  .bar span { display: block; height: 100%; }
-  .bar .b-ok { background: var(--ok); }
-  .bar .b-warn { background: var(--warn); }
-  .bar .b-pend { background: var(--rule-strong); }
+  .lede { margin: 0; max-width: 66ch; color: var(--body); }
+  .pipeline-note { margin: 0; font-size: 13px; color: var(--info); }
+
+  /* Today strip */
+  .today { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+  .today > div { background: var(--surface); padding: 12px 16px; display: grid; gap: 2px; }
+  .today .num { font: 500 26px/1.1 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .today .num.hot { color: var(--accent); }
+  .today .sub { font-size: 12.5px; color: var(--muted); }
 
   /* Sender settings */
-  .sender { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 16px; display: grid; gap: 12px; }
+  .sender { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 14px; display: grid; gap: 12px; }
   .sender-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
   .sender-head p { margin: 0; color: var(--muted); font-size: 13px; }
-  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 16px; }
+  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px 16px; }
   .field { display: grid; gap: 4px; }
-  .field input, .field select, .intro input {
+  .field input, .intro input {
     background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 6px; padding: 7px 10px; min-width: 0; width: 100%; box-sizing: border-box;
   }
   .save-state { font: 400 12px var(--mono); color: var(--muted); min-height: 1em; }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); overflow-x: auto; }
+  .tab { background: transparent; border: 0; border-bottom: 2px solid transparent; padding: 8px 14px 10px; cursor: pointer; font: 500 15px/1.2 var(--sans); color: var(--muted); margin-bottom: -1px; white-space: nowrap; }
+  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+  .tab .n { font: 400 12px var(--mono); margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .tab-intro { margin: 0; max-width: 72ch; color: var(--muted); font-size: 13.5px; }
 
   /* Filters */
   .filters { display: flex; gap: 8px 20px; flex-wrap: wrap; align-items: center; }
@@ -85,8 +96,9 @@
   /* Cards */
   #list { display: grid; gap: 14px; }
   .card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 20px 22px; display: grid; gap: 12px; }
+  .card:hover { border-color: var(--rule-strong); }
   .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-  .who { display: grid; gap: 6px; }
+  .who { display: grid; gap: 6px; min-width: 0; }
   .who h2 { font: 500 20px/1.25 var(--sans); }
   .tags { display: flex; gap: 6px; flex-wrap: wrap; }
   .tag { font: 400 12px/1 var(--mono); color: var(--muted); border: 1px solid var(--rule); border-radius: 4px; padding: 4px 6px; }
@@ -94,8 +106,13 @@
   .st-pending { color: var(--muted); border: 1px solid var(--rule-strong); }
   .st-approved { color: var(--ok); background: var(--ok-tint); }
   .st-changes { color: var(--warn); background: var(--warn-tint); }
+  .st-sending { color: var(--info); background: var(--info-tint); }
+  .st-due { color: var(--accent); background: var(--accent-tint); }
+  .st-done { color: var(--muted); border: 1px solid var(--rule); }
   .contact { display: flex; gap: 6px 10px; flex-wrap: wrap; align-items: baseline; }
   .contact .name { color: var(--ink); font-weight: 600; }
+  .addr { font: 400 13px var(--mono); color: var(--ink); user-select: all; word-break: break-all; }
+  .addr-missing { font-size: 13px; color: var(--muted); }
   .conf { font: 400 12px var(--mono); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--rule); }
   .conf-高 { color: var(--ok); border-color: currentColor; }
   .conf-中 { color: var(--body); }
@@ -111,8 +128,18 @@
   .review-note.warn { color: var(--warn); }
   .review-note.ok { color: var(--ok); }
 
+  /* Send sequence */
+  .seq { display: flex; gap: 0; flex-wrap: wrap; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+  .seq > div { flex: 1 1 150px; padding: 8px 12px; display: grid; gap: 2px; border-right: 1px solid var(--rule); background: var(--paper); }
+  .seq > div:last-child { border-right: 0; }
+  .seq .s-h { font: 500 11px/1.4 var(--mono); letter-spacing: 0.04em; color: var(--muted); }
+  .seq .s-v { font-size: 13px; color: var(--body); font-variant-numeric: tabular-nums; }
+  .seq .done .s-v { color: var(--ok); }
+  .seq .due { background: var(--accent-tint); }
+  .seq .due .s-v { color: var(--accent); font-weight: 500; }
+
   .actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-  .btn { border-radius: 6px; padding: 7px 14px; cursor: pointer; font-weight: 500; font-size: 13.5px; border: 1px solid var(--rule-strong); background: transparent; }
+  .btn { border-radius: 6px; padding: 7px 14px; cursor: pointer; font-weight: 500; font-size: 13.5px; border: 1px solid var(--rule-strong); background: transparent; text-decoration: none; display: inline-flex; align-items: center; line-height: 1.3; }
   .btn-primary { background: var(--btn-ink); color: var(--btn-paper); border-color: var(--btn-ink); }
   .btn-primary:hover { opacity: 0.88; }
   .btn:hover { border-color: var(--ink); }
@@ -157,7 +184,9 @@
   .notes .meta { padding-bottom: 12px; margin-bottom: 12px; border-bottom: 1px solid var(--rule); }
 
   .notice { border: 1px solid var(--rule-strong); border-radius: 8px; padding: 14px 16px; background: var(--surface); }
-  .empty { color: var(--muted); padding: 24px 0; }
+  .empty { color: var(--muted); padding: 24px 0; margin: 0; }
+  .toolbar { display: flex; gap: 8px 12px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+  .toolbar .hint { font-size: 12.5px; color: var(--muted); }
   @media (max-width: 520px) {
     .wrap { padding: 24px 16px 48px; }
     .card { padding: 16px; }
@@ -167,47 +196,29 @@
   @media (prefers-reduced-motion: no-preference) {
     .card { transition: border-color 0.15s; }
   }
-  .card:hover { border-color: var(--rule-strong); }
-
-  /* Tabs */
-  .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); }
-  .tab { background: transparent; border: 0; border-bottom: 2px solid transparent; padding: 8px 14px 10px; cursor: pointer; font: 500 15px/1.2 var(--sans); color: var(--muted); margin-bottom: -1px; }
-  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
-  .tab .n { font: 400 12px var(--mono); margin-left: 6px; font-variant-numeric: tabular-nums; }
-  .tabpanel { display: grid; gap: 28px; }
-
-  /* Candidates */
-  .cand-intro { margin: 0; max-width: 70ch; }
-  .cand .rank { font: 500 12px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
-  .cand .why { margin: 0; max-width: 72ch; color: var(--body); }
-  .cand .vend { font-size: 13px; color: var(--muted); }
-  .cand .vend b { color: var(--body); font-weight: 500; }
-  .st-add { color: var(--ok); background: var(--ok-tint); }
-  .st-skip { color: var(--muted); border: 1px solid var(--rule); }
 </style>
 
 <div class="wrap">
   <header class="top">
     <div class="brand"><span class="co">SimReal</span><h1>外联审批</h1></div>
-    <p class="lede">你只需要做两件事：每张草稿点「批准」，或者点「退回修改」写一句原因；「候选新客户」里每家点「加入外联」或「不加」。其余由 Claude 处理。批准后在「全文与调研」里复制邮件，自己发送。</p>
-    <div class="tally">
-      <div class="tally-nums" id="tally-nums"><span>正在载入…</span></div>
-      <div class="bar" id="bar" aria-hidden="true"><span class="b-pend" style="width:100%"></span></div>
-    </div>
+    <p class="lede">你要做的只有两件事。第一，每张草稿点「批准」，或者「退回修改」写一句原因，退回的由 Claude 改好再放回来。第二，批准后点「在 Gmail 打开」，从 business@simreal.co 发出，再点「标记已发送」。跟进邮件到期会出现在「今天要发」里。</p>
+    <p class="pipeline-note" id="pipeline-note" hidden></p>
   </header>
 
-  <nav class="tabs" role="tablist" aria-label="审批内容">
-    <button class="tab" role="tab" id="tabbtn-drafts" data-tab="drafts" aria-selected="true" aria-controls="tab-drafts">草稿审批<span class="n" id="tabn-drafts"></span></button>
-    <button class="tab" role="tab" id="tabbtn-cands" data-tab="cands" aria-selected="false" aria-controls="tab-cands">候选新客户<span class="n" id="tabn-cands"></span></button>
-  </nav>
+  <section class="today" aria-label="今天">
+    <div><span class="label">待审</span><span class="num" id="t-pending">–</span><span class="sub">三类合计</span></div>
+    <div><span class="label">今天要发</span><span class="num hot" id="t-todo">–</span><span class="sub" id="t-todo-sub">已批准未发 + 到期跟进</span></div>
+    <div><span class="label">今天已发</span><span class="num" id="t-sent">–</span><span class="sub">新邮箱建议每天不超过 30 封</span></div>
+    <div><span class="label">已回复</span><span class="num" id="t-replied">–</span><span class="sub" id="t-replied-sub">&nbsp;</span></div>
+  </section>
 
-  <div class="tabpanel" id="tab-drafts" role="tabpanel" aria-labelledby="tabbtn-drafts">
   <section class="sender" aria-labelledby="sender-title">
     <div class="sender-head">
       <h3 id="sender-title" class="label">发件信息</h3>
-      <p>填一次，复制邮件时自动替换署名和联系方式。没填的保留方括号。</p>
+      <p>填一次，复制和打开 Gmail 时自动替换署名和联系方式。没填的保留方括号。</p>
     </div>
     <div class="fields">
+      <label class="field"><span class="label">发件邮箱</span><input id="f-from" placeholder="business@simreal.co" autocomplete="off"></label>
       <label class="field"><span class="label">英文署名</span><input id="f-name-en" placeholder="替换 [Your name]" autocomplete="off"></label>
       <label class="field"><span class="label">中文署名</span><input id="f-name-zh" placeholder="替换 [姓名]" autocomplete="off"></label>
       <label class="field"><span class="label">微信 / 电话</span><input id="f-contact" placeholder="替换 微信/电话：[ ]" autocomplete="off"></label>
@@ -215,17 +226,23 @@
     <div class="save-state" id="save-state" aria-live="polite"></div>
   </section>
 
-  <nav class="filters" aria-label="筛选">
-    <div class="seg" id="f-status"></div>
-    <div class="seg" id="f-region"></div>
+  <nav class="tabs" role="tablist" aria-label="外联对象">
+    <button class="tab" role="tab" id="tabbtn-partner" data-tab="partner" aria-selected="true" aria-controls="panel">渠道伙伴<span class="n" id="tabn-partner"></span></button>
+    <button class="tab" role="tab" id="tabbtn-investor" data-tab="investor" aria-selected="false" aria-controls="panel">投资人<span class="n" id="tabn-investor"></span></button>
+    <button class="tab" role="tab" id="tabbtn-customer" data-tab="customer" aria-selected="false" aria-controls="panel">客户<span class="n" id="tabn-customer"></span></button>
   </nav>
 
-  <main id="list"><p class="empty">正在载入草稿…</p></main>
-  </div>
-
-  <div class="tabpanel" id="tab-cands" role="tabpanel" aria-labelledby="tabbtn-cands" hidden>
-    <p class="cand-intro">这些公司不在现有外联名单上，但有 RL 环境或数据供应商公开点名它们是客户。点「加入外联」，Claude 会去调研联系人、写草稿，然后放进草稿审批。证据在<a href="https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE" target="_blank" rel="noopener noreferrer">买方地图</a>里。</p>
-    <div id="cands" style="display:grid;gap:14px"><p class="empty">正在载入候选…</p></div>
+  <div id="panel" role="tabpanel" style="display:grid;gap:18px">
+    <p class="tab-intro" id="tab-intro"></p>
+    <nav class="filters" aria-label="筛选">
+      <div class="seg" id="f-status"></div>
+      <div class="seg" id="f-region"></div>
+    </nav>
+    <div class="toolbar">
+      <span class="hint" id="export-hint">批量发送时，可以把这一栏「待发送」的邮件导出成 CSV，用 Gmail 的邮件合并工具发。</span>
+      <button class="btn" id="export-btn" type="button" hidden>导出待发送 CSV</button>
+    </div>
+    <main id="list"><p class="empty">正在载入草稿…</p></main>
   </div>
 </div>
 
@@ -233,32 +250,24 @@
 (function () {
   "use strict";
 
-  var ID_EN = "[, and every expert is ID- and credential-checked before starting work]";
-  var ID_ZH = "[，所有专家上岗前均完成身份与资质核验]";
-  var STATUS = {
+  var TRACKS = {
+    partner: { label: "渠道伙伴", intro: "数据供应商、专家网络、RL 环境和评测公司。我们做它们的供给方：出专家，或者出环境和验证器由它们交付给实验室。邮件写了团队背景、专家数量、Surge AI 和 AfterQuery 合作、正在融资。" },
+    investor: { label: "投资人", intro: "美元和人民币基金、天使、量化机构的投资部门。每封写了为什么找这家（它投过什么或说过什么），加上团队、Xitadel 结果、进展和 2,000 万美元种子轮。" },
+    customer: { label: "客户", intro: "前沿实验室、国内大模型公司、垂直 AI、金融机构。邮件写团队和产品背书，然后问数据缺口，提小批量付费试点。为避免和渠道伙伴撞单，客户邮件里没写 Surge AI 和 AfterQuery。" }
+  };
+  var REVIEW = {
     pending: { label: "待审", cls: "st-pending" },
-    approved: { label: "已批准", cls: "st-approved" },
+    approved: { label: "待发送", cls: "st-approved" },
     changes: { label: "已退回，等 Claude 修改", cls: "st-changes" }
   };
-  var PH_LABEL = {
-    "[Your name]": "英文署名", "[姓名]": "中文署名", "[ ]": "微信/电话",
-    "[介绍人]": "介绍人"
-  };
-  PH_LABEL[ID_EN] = "身份核验那句"; PH_LABEL[ID_ZH] = "身份核验那句";
+  var PH_LABEL = { "[Your name]": "英文署名", "[姓名]": "中文署名", "[ ]": "微信/电话", "[介绍人]": "介绍人" };
+  var DAY = 86400000;
 
   var state = {
     docs: [], settings: {}, pipeline: null,
-    status: "pending", region: "all",
+    tab: "partner", status: "pending", region: "all",
     open: {}, returning: {}, returnText: {},
-    canEdit: true, db: null, cards: {},
-    cands: [], tab: "drafts", candSkipping: {}, candText: {}
-  };
-  var INTEL_URL = "https://claude.ai/artifact/WrAr9qDnxYctaMi8KRLrjE";
-  var CAND_STATUS = {
-    pending: { label: "待定", cls: "st-pending" },
-    add: { label: "已加入，等 Claude 调研", cls: "st-add" },
-    drafted: { label: "草稿已进审批", cls: "st-approved" },
-    skip: { label: "不加", cls: "st-skip" }
+    canEdit: true, db: null, downloads: null, cards: {}
   };
 
   function esc(s) {
@@ -302,24 +311,18 @@
     return html;
   }
 
+  function trackOf(doc) { return TRACKS[doc.track] ? doc.track : "customer"; }
+  function fromAddr() { return (state.settings && state.settings.from) || "business@simreal.co"; }
+
   // Fill placeholders from the sender settings; anything unset keeps its brackets.
   function finalize(text, lang, doc) {
     var s = state.settings || {};
     var t = String(text || "");
     var name = lang === "en" ? s.nameEn : s.nameZh;
     if (name) t = t.split(lang === "en" ? "[Your name]" : "[姓名]").join(name);
-    var idc = lang === "en" ? ID_EN : ID_ZH;
-    if (s.idCheck === "include") t = t.split(idc).join(idc.slice(1, -1));
-    else if (s.idCheck === "omit") t = t.split(idc).join("");
+    if (s.nameZh) t = t.split("[姓名]").join(s.nameZh);
     if (s.contact) t = t.split("微信/电话：[ ]").join("微信/电话：" + s.contact);
     if (doc && doc.introducer) t = t.split("[介绍人]").join(doc.introducer);
-    return t;
-  }
-  function wechatText(doc) {
-    var s = state.settings || {};
-    var t = String(doc.wechat || "");
-    if (s.nameZh) t = t.split("[姓名]").join(s.nameZh);
-    if (doc.introducer) t = t.split("[介绍人]").join(doc.introducer);
     return t;
   }
   function missingIn(text) {
@@ -329,12 +332,9 @@
     });
     return found;
   }
-  // Escape, then mark the personalised fills and the remaining placeholders.
   function highlight(text, doc) {
     var h = esc(text);
-    [doc.opening, doc.domains].forEach(function (f) {
-      if (f) h = h.split(esc(f)).join('<mark class="fill">' + esc(f) + "</mark>");
-    });
+    if (doc.opening) h = h.split(esc(doc.opening)).join('<mark class="fill">' + esc(doc.opening) + "</mark>");
     if (doc.salutation) {
       var sal = esc(doc.salutation);
       h = h.replace(sal, '<mark class="fill">' + sal + "</mark>");
@@ -345,111 +345,261 @@
     });
     return h;
   }
-  function fullEmail(doc) {
-    var subjLabel = doc.lang === "en" ? "Subject: " : "主题：";
-    return subjLabel + doc.subject + "\n\n" + finalize(doc.body, doc.lang, doc);
+  function subjectOf(doc, step) {
+    if (!step) return doc.subject;
+    return (doc.lang === "en" ? "Re: " : "回复：") + doc.subject;
   }
-  function statusOf(doc) {
+  function bodyOf(doc, step) {
+    var raw = step ? ((doc.followups || [])[step - 1] || {}).text : doc.body;
+    return finalize(raw, doc.lang, doc);
+  }
+  function fullText(doc, step) {
+    return (doc.lang === "en" ? "Subject: " : "主题：") + subjectOf(doc, step) + "\n\n" + bodyOf(doc, step);
+  }
+  function gmailCompose(doc, step) {
+    var q = "authuser=" + encodeURIComponent(fromAddr()) + "&view=cm&fs=1&tf=1" +
+      "&to=" + encodeURIComponent(doc.to || "") +
+      "&su=" + encodeURIComponent(subjectOf(doc, step)) +
+      "&body=" + encodeURIComponent(bodyOf(doc, step));
+    return "https://mail.google.com/mail/?" + q;
+  }
+  function gmailThread(doc) {
+    var term = doc.to ? "to:" + doc.to : '"' + doc.subject + '"';
+    return "https://mail.google.com/mail/u/?authuser=" + encodeURIComponent(fromAddr()) + "#search/" + encodeURIComponent(term);
+  }
+
+  // Review + send state -> one stage per card.
+  function reviewOf(doc) {
     var st = doc.review && doc.review.status;
-    return STATUS[st] ? st : "pending";
+    return REVIEW[st] ? st : "pending";
+  }
+  function sendOf(doc) {
+    var s = doc.send || {};
+    return { log: Array.isArray(s.log) ? s.log : [], outcome: s.outcome || null };
+  }
+  function seqInfo(doc) {
+    var s = sendOf(doc), fus = doc.followups || [];
+    var first = s.log.length ? new Date(s.log[0].at).getTime() : null;
+    var next = s.log.length; // 0 = first email, 1..n = follow-ups
+    var total = 1 + fus.length;
+    var due = null;
+    if (first != null && next < total) due = first + (fus[next - 1] ? fus[next - 1].day : 0) * DAY;
+    return { log: s.log, outcome: s.outcome, next: next, total: total, first: first, due: due };
+  }
+  function stageOf(doc) {
+    var r = reviewOf(doc);
+    if (r !== "approved") return r;
+    var q = seqInfo(doc);
+    if (q.outcome === "replied") return "replied";
+    if (q.outcome === "stopped" || (q.log.length && q.next >= q.total)) return "finished";
+    if (!q.log.length) return "tosend";
+    return q.due != null && q.due <= Date.now() ? "due" : "waiting";
+  }
+  var STAGE = {
+    pending: { label: "待审", cls: "st-pending" },
+    changes: { label: "已退回，等 Claude 修改", cls: "st-changes" },
+    tosend: { label: "待发送", cls: "st-approved" },
+    due: { label: "跟进到期", cls: "st-due" },
+    waiting: { label: "跟进中", cls: "st-sending" },
+    replied: { label: "已回复", cls: "st-approved" },
+    finished: { label: "序列结束", cls: "st-done" }
+  };
+  var FILTERS = [
+    ["pending", "待审", ["pending"]],
+    ["changes", "已退回", ["changes"]],
+    ["todo", "今天要发", ["tosend", "due"]],
+    ["waiting", "跟进中", ["waiting"]],
+    ["closed", "已结束", ["replied", "finished"]],
+    ["all", "全部", null]
+  ];
+
+  function fmtDay(ms) {
+    var d = new Date(ms);
+    return (d.getMonth() + 1) + "月" + d.getDate() + "日";
   }
   function fmtTime(iso) {
     if (!iso) return "";
     var d = new Date(iso);
     if (isNaN(d)) return "";
-    return (d.getMonth() + 1) + "月" + d.getDate() + "日 " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+    return fmtDay(d.getTime()) + " " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+  }
+  function sameDay(a, b) {
+    var x = new Date(a), y = new Date(b);
+    return x.getFullYear() === y.getFullYear() && x.getMonth() === y.getMonth() && x.getDate() === y.getDate();
+  }
+  function stepName(i) { return i === 0 ? "第 1 封" : "跟进 " + i; }
+
+  function renderToday() {
+    var pending = 0, todo = 0, tosend = 0, due = 0, sentToday = 0, replied = 0, sent = 0, now = Date.now();
+    state.docs.forEach(function (d) {
+      var st = stageOf(d);
+      if (st === "pending") pending++;
+      if (st === "tosend") { todo++; tosend++; }
+      if (st === "due") { todo++; due++; }
+      if (st === "replied") replied++;
+      var q = seqInfo(d);
+      if (q.log.length) sent++;
+      q.log.forEach(function (e) { if (e && e.at && sameDay(e.at, now)) sentToday++; });
+    });
+    document.getElementById("t-pending").textContent = pending;
+    document.getElementById("t-todo").textContent = todo;
+    document.getElementById("t-todo-sub").textContent = "首封 " + tosend + " · 跟进 " + due;
+    document.getElementById("t-sent").textContent = sentToday;
+    document.getElementById("t-replied").textContent = replied;
+    document.getElementById("t-replied-sub").textContent = sent ? "已发出 " + sent + " 家" : "还没有发出";
+    Object.keys(TRACKS).forEach(function (tr) {
+      var p = 0, t = 0;
+      state.docs.forEach(function (d) {
+        if (trackOf(d) !== tr) return;
+        var st = stageOf(d);
+        if (st === "pending") p++;
+        if (st === "tosend" || st === "due") t++;
+      });
+      var el = document.getElementById("tabn-" + tr);
+      var parts = [];
+      if (p) parts.push(p + " 待审");
+      if (t) parts.push(t + " 要发");
+      el.textContent = parts.join(" · ");
+    });
+    var note = document.getElementById("pipeline-note");
+    var msg = state.pipeline && state.pipeline.note;
+    note.hidden = !msg;
+    note.textContent = msg || "";
   }
 
-  function renderTally() {
-    var c = { pending: 0, approved: 0, changes: 0 };
-    state.docs.forEach(function (d) { c[statusOf(d)]++; });
-    var n = state.docs.length;
-    var total = Math.max(n, (state.pipeline && state.pipeline.total) || n);
-    var tn = document.getElementById("tabn-drafts");
-    if (tn) tn.textContent = n ? c.pending + " 待审" : "";
-    var researching = total - n;
-    var parts = [
-      "<span><b>" + n + "</b> / " + total + " 家已上架</span>",
-      "<span>已批准 <b>" + c.approved + "</b></span>",
-      "<span>待审 <b>" + c.pending + "</b></span>",
-      "<span>已退回 <b>" + c.changes + "</b></span>"
-    ];
-    if (researching > 0) parts.push("<span>调研中 <b>" + researching + "</b></span>");
-    document.getElementById("tally-nums").innerHTML = parts.join("");
-    var pct = function (x) { return total ? (100 * x / total) : 0; };
-    document.getElementById("bar").innerHTML =
-      '<span class="b-ok" style="width:' + pct(c.approved) + '%"></span>' +
-      '<span class="b-warn" style="width:' + pct(c.changes) + '%"></span>' +
-      '<span class="b-pend" style="width:' + pct(c.pending) + '%"></span>';
-    return c;
+  function tabDocs() {
+    return state.docs.filter(function (d) { return trackOf(d) === state.tab; });
   }
-
-  function renderFilters(c) {
-    var byRegion = { all: state.docs.length, 海外: 0, 国内: 0 };
-    state.docs.forEach(function (d) { if (byRegion[d.region] != null) byRegion[d.region]++; });
-    var st = [["pending", "待审", c.pending], ["changes", "已退回", c.changes], ["approved", "已批准", c.approved], ["all", "全部", state.docs.length]];
-    document.getElementById("f-status").innerHTML = st.map(function (x) {
-      return '<button class="chip" data-status="' + x[0] + '" aria-pressed="' + (state.status === x[0]) + '">' + x[1] + '<span class="n">' + x[2] + "</span></button>";
+  function renderFilters() {
+    var docs = tabDocs();
+    var counts = {};
+    FILTERS.forEach(function (f) {
+      counts[f[0]] = docs.filter(function (d) { return !f[2] || f[2].indexOf(stageOf(d)) !== -1; }).length;
+    });
+    document.getElementById("f-status").innerHTML = FILTERS.map(function (f) {
+      return '<button class="chip" data-status="' + f[0] + '" aria-pressed="' + (state.status === f[0]) + '">' + f[1] + '<span class="n">' + counts[f[0]] + "</span></button>";
     }).join("");
+    var byRegion = { all: docs.length, 海外: 0, 国内: 0 };
+    docs.forEach(function (d) { if (byRegion[d.region] != null) byRegion[d.region]++; });
     var rg = [["all", "海外 + 国内"], ["海外", "海外"], ["国内", "国内"]];
     document.getElementById("f-region").innerHTML = rg.map(function (x) {
       return '<button class="chip" data-region="' + x[0] + '" aria-pressed="' + (state.region === x[0]) + '">' + x[1] + '<span class="n">' + byRegion[x[0]] + "</span></button>";
     }).join("");
+    document.getElementById("tab-intro").textContent = TRACKS[state.tab].intro;
+    var exportable = docs.filter(function (d) { return stageOf(d) === "tosend"; }).length;
+    var btn = document.getElementById("export-btn");
+    btn.hidden = !state.downloads || !exportable;
+    btn.textContent = "导出待发送 CSV（" + exportable + " 封）";
+    document.getElementById("export-hint").hidden = !state.downloads || !exportable;
+  }
+
+  function seqHTML(doc) {
+    var q = seqInfo(doc), fus = doc.followups || [];
+    var h = '<div class="seq">';
+    for (var i = 0; i < q.total; i++) {
+      var cls = "", val;
+      var logged = q.log[i];
+      if (logged) { cls = "done"; val = "已发 · " + fmtDay(new Date(logged.at).getTime()); }
+      else if (q.first == null) { val = i === 0 ? "待发送" : "第 1 封后第 " + fus[i - 1].day + " 天"; }
+      else {
+        var dueAt = q.first + fus[i - 1].day * DAY;
+        if (q.outcome) val = "不再发送";
+        else if (i === q.next && dueAt <= Date.now()) { cls = "due"; val = "今天该发（" + fmtDay(dueAt) + " 到期）"; }
+        else val = fmtDay(dueAt) + " 到期";
+      }
+      h += '<div class="' + cls + '"><span class="s-h">' + stepName(i) + '</span><span class="s-v">' + esc(val) + "</span></div>";
+    }
+    return h + "</div>";
   }
 
   function cardHTML(doc) {
-    var st = statusOf(doc), s = STATUS[st], slug = doc.slug || doc.id;
-    var emailFinal = fullEmail(doc);
-    var miss = missingIn(emailFinal + (doc.wechat ? "\n" + wechatText(doc) : ""));
+    var st = stageOf(doc), s = STAGE[st], slug = doc.slug || doc.id;
+    var q = seqInfo(doc);
     var rev = doc.revision || 1;
     var review = doc.review || {};
+    var allText = fullText(doc, 0) + "\n" + (doc.followups || []).map(function (f) { return f.text; }).join("\n") + (doc.wechat ? "\n" + finalize(doc.wechat, "zh", doc) : "");
+    var miss = missingIn(finalize(allText, doc.lang, doc));
     var h = "";
     h += '<div class="card-head"><div class="who"><h2>' + esc(doc.company) + "</h2>";
-    h += '<div class="tags"><span class="tag">' + esc(doc.category) + '</span><span class="tag">' + esc(doc.region) + " · " + (doc.lang === "en" ? "英文邮件" : "中文邮件 + 微信") + "</span>";
+    h += '<div class="tags"><span class="tag">' + esc(doc.category) + '</span><span class="tag">' + esc(doc.region) + " · " + (doc.lang === "en" ? "英文" : "中文") + "</span>";
     if (rev > 1) h += '<span class="tag">第 ' + rev + " 版</span>";
     h += "</div></div>";
     h += '<span class="status ' + s.cls + '">' + s.label + "</span></div>";
 
-    h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact) + "</span><span>" + esc(doc.role) + '</span><span class="conf conf-' + esc(doc.confidence) + '">置信度 ' + esc(doc.confidence) + "</span></div>";
+    h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact || "未找到") + "</span>";
+    if (doc.role) h += "<span>" + esc(doc.role) + "</span>";
+    if (doc.confidence) h += '<span class="conf conf-' + esc(doc.confidence) + '">置信度 ' + esc(doc.confidence) + "</span>";
+    h += "</div>";
+    h += '<div class="contact"><span class="label">邮箱</span>';
+    if (doc.to) h += '<span class="addr">' + esc(doc.to) + "</span>" + (doc.toSource ? '<a class="btn-text" href="' + esc(doc.toSource) + '" target="_blank" rel="noopener noreferrer" style="font-size:12.5px">公开来源</a>' : "");
+    else h += '<span class="addr-missing">公开渠道里没找到个人邮箱' + (doc.channel ? "。备用：" + inline(doc.channel) : "") + "</span>";
+    h += "</div>";
+
     h += '<p class="opening" lang="' + (doc.lang === "en" ? "en" : "zh") + '">' + esc(doc.opening) + "</p>";
-    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span>" + (doc.domains ? "<span>领域 <b>" + esc(doc.domains) + "</b></span>" : "") + "</div>";
-    if (doc.angle) h += '<div class="fills"><span>切入点 <b>' + esc(doc.angle) + "</b></span></div>";
+    h += '<div class="fills"><span>称呼 <b>' + esc(doc.salutation) + "</b></span>" + (doc.angle ? "<span>切入点 <b>" + esc(doc.angle) + "</b></span>" : "") + "</div>";
 
     if (doc.changelog && st === "pending" && rev > 1) h += '<div class="changelog"><span class="label">这一版改了什么</span><br>' + esc(doc.changelog) + "</div>";
     if (st === "changes") h += '<div class="review-note warn">你的意见：' + esc(review.comment || "（未写原因）") + (review.at ? " · " + fmtTime(review.at) : "") + "</div>";
-    if (st === "approved") h += '<div class="review-note ok">已批准' + (review.at ? " · " + fmtTime(review.at) : "") + (miss.length ? "。复制前还要补：" + esc(miss.join("、")) : "。可以复制发送。") + "</div>";
-    else if (miss.length) h += '<div class="missing">复制前还没填的：<b>' + esc(miss.join("、")) + "</b>（在上方发件信息里填）</div>";
+    if (reviewOf(doc) === "approved") {
+      h += seqHTML(doc);
+      if (miss.length) h += '<div class="missing">发之前还要补：<b>' + esc(miss.join("、")) + "</b>（在上方发件信息里填）</div>";
+    } else if (miss.length && st === "pending") {
+      h += '<div class="missing">批准后发送前要填：<b>' + esc(miss.join("、")) + "</b>（上方发件信息，填一次即可）</div>";
+    }
 
     h += '<div class="actions">';
     if (state.canEdit) {
       if (st === "pending") {
         h += '<button class="btn btn-primary" data-act="approve">批准</button>';
         h += '<button class="btn" data-act="return">退回修改</button>';
-      } else if (st === "approved") {
-        h += '<button class="btn" data-act="reopen">撤销批准</button>';
-      } else {
+      } else if (st === "changes") {
         h += '<button class="btn" data-act="reopen">撤回退回</button>';
+      } else if (st === "tosend") {
+        h += '<a class="btn btn-primary" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开第 1 封</a>';
+        h += '<button class="btn" data-act="sent">标记已发送</button>';
+        h += '<button class="btn btn-text" data-act="reopen">撤销批准</button>';
+      } else if (st === "due" || st === "waiting") {
+        var nx = q.next;
+        h += '<a class="btn' + (st === "due" ? " btn-primary" : "") + '" href="' + esc(gmailThread(doc)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 找原邮件</a>';
+        h += '<button class="btn copy" data-copy="fu' + nx + '">复制' + stepName(nx) + "</button>";
+        h += '<button class="btn" data-act="sent">标记' + stepName(nx) + "已发送</button>";
+        h += '<button class="btn" data-act="replied">对方已回复</button>';
+        h += '<button class="btn btn-text" data-act="stop">不再跟进</button>';
+      } else {
+        h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : "恢复跟进") + "</button>";
       }
     }
     h += '<span class="spacer"></span><button class="btn btn-text" data-act="toggle" aria-expanded="' + !!state.open[slug] + '">' + (state.open[slug] ? "收起全文" : "全文与调研") + "</button></div>";
+    if (st === "due" || st === "waiting") h += '<div class="missing">跟进最好在原邮件里点「回复」再粘贴，这样对方看到的是同一个对话。找不到原邮件时，用「全文与调研」里的「在 Gmail 打开」另起一封（主题带 Re:）。</div>';
 
     if (state.returning[slug]) {
       h += '<form class="return-form" data-form="return"><label class="label" for="rt-' + esc(slug) + '">退回原因（会给 Claude 看）</label>';
-      h += '<textarea id="rt-' + esc(slug) + '" placeholder="例如：开头太长；换一个联系人；领域去掉医疗">' + esc(state.returnText[slug] || "") + "</textarea>";
+      h += '<textarea id="rt-' + esc(slug) + '" placeholder="例如：钩子太长；换一个联系人；这家不发">' + esc(state.returnText[slug] || "") + "</textarea>";
       h += '<div class="row"><button class="btn btn-primary" type="submit">退回</button><button class="btn btn-text" type="button" data-act="cancel-return">取消</button></div></form>';
     }
 
     if (state.open[slug]) {
       h += '<div class="detail"><div>';
-      h += '<div class="blk"><div class="blk-h"><span class="label">邮件</span><div class="copyrow">';
-      h += '<button class="btn copy" data-copy="subject">复制主题</button><button class="btn copy" data-copy="body">复制正文</button><button class="btn copy" data-copy="email">复制全部</button></div></div>';
+      h += '<div class="blk"><div class="blk-h"><span class="label">第 1 封</span><div class="copyrow">';
+      h += '<button class="btn copy" data-copy="subject">复制主题</button><button class="btn copy" data-copy="body">复制正文</button>';
+      if (reviewOf(doc) === "approved") h += '<a class="btn copy" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
+      h += "</div></div>";
       h += '<div class="letter"><div class="subj">' + esc(doc.subject) + "</div><pre>" + highlight(finalize(doc.body, doc.lang, doc), doc) + "</pre></div>";
       h += '<div class="legend"><span><span class="sw sw-fill"></span>针对这家写的</span><span><span class="sw sw-ph"></span>还没填的方括号</span></div></div>';
+      (doc.followups || []).forEach(function (f, i) {
+        h += '<div class="blk"><div class="blk-h"><span class="label">跟进 ' + (i + 1) + "（第 " + f.day + ' 天）</span><div class="copyrow"><button class="btn copy" data-copy="fu' + (i + 1) + '">复制正文</button>';
+        if (reviewOf(doc) === "approved") h += '<a class="btn copy" href="' + esc(gmailCompose(doc, i + 1)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
+        h += '</div></div><div class="letter"><pre>' + highlight(finalize(f.text, doc.lang, doc), doc) + "</pre></div></div>";
+      });
       if (doc.wechat) {
         h += '<div class="blk"><div class="blk-h"><span class="label">微信版（引荐后）</span><div class="copyrow"><button class="btn copy" data-copy="wechat">复制微信版</button></div></div>';
-        h += '<div class="letter"><pre>' + highlight(wechatText(doc), doc) + "</pre></div>";
+        h += '<div class="letter"><pre>' + highlight(finalize(doc.wechat, "zh", doc), doc) + "</pre></div>";
         if (state.canEdit) h += '<label class="intro"><span class="label">介绍人</span><input id="intro-' + esc(slug) + '" data-intro value="' + esc(doc.introducer || "") + '" placeholder="替换 [介绍人]" autocomplete="off"></label>';
         h += "</div>";
+      }
+      if (doc.dm) {
+        h += '<div class="blk"><div class="blk-h"><span class="label">短消息（LinkedIn 等，自己手动发）</span><div class="copyrow"><button class="btn copy" data-copy="dm">复制短消息</button></div></div>';
+        h += '<div class="letter"><pre>' + highlight(finalize(doc.dm, "en", doc), doc) + "</pre></div></div>";
       }
       h += '<div class="copy-fallback"></div></div>';
       h += '<div class="notes"><div class="meta">' + md(doc.meta_md) + "</div>" + md(doc.notes_md) + "</div>";
@@ -459,79 +609,27 @@
   }
 
   function visible(doc) {
-    var st = statusOf(doc);
-    if (state.status !== "all" && st !== state.status) return false;
+    if (trackOf(doc) !== state.tab) return false;
+    var f = FILTERS.find(function (x) { return x[0] === state.status; });
+    if (f && f[2] && f[2].indexOf(stageOf(doc)) === -1) return false;
     if (state.region !== "all" && doc.region !== state.region) return false;
     return true;
   }
 
-  function candStatus(c) {
-    var st = c.decision && c.decision.status;
-    return CAND_STATUS[st] ? st : "pending";
-  }
-
-  function candHTML(c) {
-    var st = candStatus(c), s = CAND_STATUS[st], slug = c.slug || c.id;
-    var h = '<div class="card-head"><div class="who"><span class="rank">#' + esc(c.rank) + "</span><h2>" + esc(c.name) + "</h2>";
-    h += '<div class="tags"><span class="tag">' + esc(c.category) + '</span><span class="tag">' + esc(c.region) + "</span></div></div>";
-    h += '<span class="status ' + s.cls + '">' + s.label + "</span></div>";
-    h += '<p class="why">' + esc(c.why) + "</p>";
-    if (c.vendors) h += '<div class="vend">公开点名它的供应商：<b>' + esc(c.vendors) + "</b></div>";
-    if (st === "skip" && c.decision.comment) h += '<div class="review-note">你的备注：' + esc(c.decision.comment) + "</div>";
-    h += '<div class="actions">';
-    if (state.canEdit) {
-      if (st === "pending") {
-        h += '<button class="btn btn-primary" data-cact="add">加入外联</button><button class="btn" data-cact="skip">不加</button>';
-      } else if (st !== "drafted") {
-        h += '<button class="btn" data-cact="undo">撤销</button>';
-      }
-    }
-    h += '<span class="spacer"></span>';
-    if (c.anchor) h += '<a class="btn btn-text" href="' + INTEL_URL + "#" + esc(c.anchor) + '" target="_blank" rel="noopener noreferrer">看证据</a>';
-    h += "</div>";
-    if (state.candSkipping[slug]) {
-      h += '<form class="return-form" data-form="skip"><label class="label" for="sk-' + esc(slug) + '">不加的原因（可不写）</label>';
-      h += '<textarea id="sk-' + esc(slug) + '" placeholder="例如：预算小；合规风险；已有渠道">' + esc(state.candText[slug] || "") + "</textarea>";
-      h += '<div class="row"><button class="btn btn-primary" type="submit">不加</button><button class="btn btn-text" type="button" data-cact="cancel">取消</button></div></form>';
-    }
-    return h;
-  }
-
-  function renderCands() {
-    var box = document.getElementById("cands");
-    var pending = state.cands.filter(function (c) { return candStatus(c) === "pending"; }).length;
-    document.getElementById("tabn-cands").textContent = state.cands.length ? pending + " 待定" : "";
-    if (!state.cands.length) { box.innerHTML = '<p class="empty">还没有候选。</p>'; return; }
-    var focused = document.activeElement && document.activeElement.closest && document.activeElement.closest(".cand");
-    if (focused && focused.querySelector("textarea") === document.activeElement) return;
-    box.innerHTML = state.cands.slice().sort(function (a, b) { return (a.rank || 99) - (b.rank || 99); }).map(function (c) {
-      return '<article class="card cand" data-slug="' + esc(c.slug || c.id) + '">' + candHTML(c) + "</article>";
-    }).join("");
-  }
-
-  function showTab(tab) {
-    state.tab = tab;
-    ["drafts", "cands"].forEach(function (t) {
-      document.getElementById("tab-" + t).hidden = t !== tab;
-      document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === tab);
-    });
-    try { localStorage.setItem("simreal-tab", tab); } catch (e) {}
-  }
-
   function render() {
-    var c = renderTally();
-    renderFilters(c);
+    renderToday();
+    renderFilters();
     var list = document.getElementById("list");
     var docs = state.docs.slice().sort(function (a, b) {
-      return (a.order || 999) - (b.order || 999) || String(a.company).localeCompare(String(b.company));
+      return (a.order || 9999) - (b.order || 9999) || String(a.company).localeCompare(String(b.company));
     });
-    var shown = 0;
-    var seen = {};
+    var shown = 0, seen = {};
     docs.forEach(function (doc, i) {
       var slug = doc.slug || doc.id;
       seen[slug] = true;
       var entry = state.cards[slug];
-      var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug]]);
+      var st = stageOf(doc);
+      var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug], st]);
       if (!entry) {
         var el = document.createElement("article");
         el.className = "card";
@@ -544,7 +642,6 @@
       }
       entry.el.hidden = !visible(doc);
       if (!entry.el.hidden) shown++;
-      // Move a card only when it is out of place, so a focused field inside it keeps focus.
       if (list.children[i] !== entry.el) list.insertBefore(entry.el, list.children[i] || null);
     });
     Object.keys(state.cards).forEach(function (slug) {
@@ -553,7 +650,10 @@
     var empty = list.querySelector(".empty");
     if (!shown) {
       if (!empty) { empty = document.createElement("p"); empty.className = "empty"; list.appendChild(empty); }
-      empty.textContent = state.docs.length ? (state.status === "pending" ? "没有待审的卡片了。" : "这个筛选下没有卡片。") : "还没有草稿。";
+      var n = tabDocs().length;
+      empty.textContent = !n ? "这一栏的草稿还在调研中，写好会自动出现在这里。"
+        : state.status === "pending" ? "这一栏没有待审的了。点「今天要发」看要发的邮件。"
+        : "这个筛选下没有卡片。";
     } else if (empty) {
       empty.remove();
     }
@@ -562,24 +662,22 @@
   function docBySlug(slug) {
     return state.docs.find(function (d) { return (d.slug || d.id) === slug; });
   }
-
-  async function writeReview(slug, review) {
-    if (!state.db) return;
-    try {
-      await state.db.doc("prospects/" + slug).update({ review: review });
-    } catch (e) {
-      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
-    }
-  }
-
   function showNotice(text) {
     var n = document.getElementById("notice");
     if (!n) {
       n = document.createElement("div");
       n.id = "notice"; n.className = "notice"; n.setAttribute("role", "status");
-      document.querySelector(".wrap").insertBefore(n, document.getElementById("list"));
+      document.querySelector(".wrap").insertBefore(n, document.querySelector(".today"));
     }
     n.textContent = text;
+  }
+  async function writeDoc(slug, patch) {
+    if (!state.db) return;
+    try {
+      await state.db.doc("prospects/" + slug).update(patch);
+    } catch (e) {
+      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
+    }
   }
 
   async function copyText(text, btn) {
@@ -592,33 +690,40 @@
       setTimeout(function () { btn.textContent = old; }, 1400);
       if (slot) slot.innerHTML = "";
     } catch (e) {
-      if (!slot) return;
+      if (!slot) {
+        state.open[card.dataset.slug] = true; render();
+        card = document.querySelector('.card[data-slug="' + card.dataset.slug + '"]');
+        slot = card && card.querySelector(".copy-fallback");
+        if (!slot) return;
+      }
       slot.innerHTML = '<p class="missing">这个窗口不允许直接复制。文字已选中，按 Ctrl+C（Mac 上 ⌘C）。</p><textarea class="fallback" readonly></textarea>';
       var ta = slot.querySelector("textarea");
       ta.value = text; ta.focus(); ta.select();
     }
   }
 
-  function writeDecision(slug, decision) {
-    if (!state.db) return;
-    state.db.doc("candidates/" + slug).update({ decision: decision }).catch(function (e) {
-      showNotice("没保存上（" + (e && e.code || "错误") + "）。刷新页面后再试一次。");
-    });
+  function csvCell(v) {
+    var s = String(v == null ? "" : v);
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  async function exportCsv() {
+    if (!state.downloads) return;
+    var rows = [["名称", "收件人", "邮箱", "备用渠道", "主题", "正文"]];
+    tabDocs().filter(function (d) { return stageOf(d) === "tosend"; })
+      .sort(function (a, b) { return (a.order || 9999) - (b.order || 9999); })
+      .forEach(function (d) { rows.push([d.company, d.contact, d.to || "", d.channel || "", d.subject, bodyOf(d, 0)]); });
+    var csv = "﻿" + rows.map(function (r) { return r.map(csvCell).join(","); }).join("\r\n");
+    try {
+      await state.downloads.save({ filename: "SimReal-待发送-" + TRACKS[state.tab].label + ".csv", data: csv });
+    } catch (e) {
+      if (e && e.code !== "declined") showNotice("导出没成功（" + (e.code || "错误") + "）。可以在每张卡片上逐封打开 Gmail。");
+    }
   }
 
   document.addEventListener("click", function (ev) {
     var tab = ev.target.closest(".tab");
     if (tab) { showTab(tab.dataset.tab); return; }
-    var cb = ev.target.closest("[data-cact]");
-    if (cb) {
-      var cslug = cb.closest(".cand").dataset.slug, now0 = new Date().toISOString();
-      var act0 = cb.dataset.cact;
-      if (act0 === "add") writeDecision(cslug, { status: "add", comment: "", at: now0 });
-      else if (act0 === "undo") writeDecision(cslug, { status: "pending", comment: "", at: now0 });
-      else if (act0 === "skip") { state.candSkipping[cslug] = true; renderCands(); var t0 = document.getElementById("sk-" + cslug); if (t0) t0.focus(); }
-      else if (act0 === "cancel") { state.candSkipping[cslug] = false; renderCands(); }
-      return;
-    }
+    if (ev.target.closest("#export-btn")) { exportCsv(); return; }
     var chip = ev.target.closest(".chip");
     if (chip) {
       if (chip.dataset.status) state.status = chip.dataset.status;
@@ -636,37 +741,32 @@
     var now = new Date().toISOString(), rev = doc.revision || 1;
     if (cp) {
       var text = cp === "subject" ? doc.subject
-        : cp === "body" ? finalize(doc.body, doc.lang, doc)
-        : cp === "wechat" ? wechatText(doc)
-        : fullEmail(doc);
+        : cp === "body" ? bodyOf(doc, 0)
+        : cp === "wechat" ? finalize(doc.wechat, "zh", doc)
+        : cp === "dm" ? finalize(doc.dm, "en", doc)
+        : cp.indexOf("fu") === 0 ? bodyOf(doc, Number(cp.slice(2)))
+        : fullText(doc, 0);
       copyText(text, btn);
       return;
     }
+    var q = seqInfo(doc);
     if (act === "toggle") { state.open[slug] = !state.open[slug]; render(); return; }
-    if (act === "approve") { writeReview(slug, { status: "approved", comment: "", at: now, forRevision: rev }); return; }
+    if (act === "approve") { writeDoc(slug, { review: { status: "approved", comment: "", at: now, forRevision: rev } }); return; }
     if (act === "return") { state.returning[slug] = true; render(); var ta = card.querySelector("textarea"); if (ta) ta.focus(); return; }
     if (act === "cancel-return") { state.returning[slug] = false; render(); return; }
-    if (act === "reopen") { writeReview(slug, { status: "pending", comment: "", at: now, forRevision: rev }); return; }
+    if (act === "reopen") { writeDoc(slug, { review: { status: "pending", comment: "", at: now, forRevision: rev } }); return; }
+    if (act === "sent") { writeDoc(slug, { send: { log: q.log.concat([{ step: q.next, at: now }]), outcome: null } }); return; }
+    if (act === "replied") { writeDoc(slug, { send: { log: q.log, outcome: "replied", outcomeAt: now } }); return; }
+    if (act === "stop") { writeDoc(slug, { send: { log: q.log, outcome: "stopped", outcomeAt: now } }); return; }
+    if (act === "resume") { writeDoc(slug, { send: { log: q.log, outcome: null } }); return; }
   });
 
   document.addEventListener("input", function (ev) {
     var t = ev.target;
-    if (t.matches(".return-form textarea")) {
-      state.returnText[t.closest(".card").dataset.slug] = t.value;
-    }
+    if (t.matches(".return-form textarea")) state.returnText[t.closest(".card").dataset.slug] = t.value;
   });
 
   document.addEventListener("submit", function (ev) {
-    var sform = ev.target.closest("[data-form='skip']");
-    if (sform) {
-      ev.preventDefault();
-      var sslug = sform.closest(".cand").dataset.slug;
-      var stext = (sform.querySelector("textarea").value || "").trim();
-      state.candSkipping[sslug] = false;
-      state.candText[sslug] = "";
-      writeDecision(sslug, { status: "skip", comment: stext, at: new Date().toISOString() });
-      return;
-    }
     var form = ev.target.closest("[data-form='return']");
     if (!form) return;
     ev.preventDefault();
@@ -676,36 +776,28 @@
     if (!text) { ta.placeholder = "写一句原因再退回，Claude 按这句改。"; ta.focus(); return; }
     state.returning[slug] = false;
     state.returnText[slug] = "";
-    writeReview(slug, { status: "changes", comment: text, at: new Date().toISOString(), forRevision: doc.revision || 1 });
+    writeDoc(slug, { review: { status: "changes", comment: text, at: new Date().toISOString(), forRevision: doc.revision || 1 } });
   });
 
-  // Introducer field: save when the viewer leaves the field.
   document.addEventListener("change", function (ev) {
     var t = ev.target;
     if (t.matches("[data-intro]") && state.db) {
       var slug = t.closest(".card").dataset.slug;
-      state.db.doc("prospects/" + slug).update({ introducer: t.value.trim() }).catch(function (e) {
-        showNotice("介绍人没保存上（" + (e && e.code || "错误") + "）。");
-      });
+      writeDoc(slug, { introducer: t.value.trim() });
     }
   });
 
   // Sender settings: debounced save to the shared settings document.
+  var FIELDS = { "f-from": "from", "f-name-en": "nameEn", "f-name-zh": "nameZh", "f-contact": "contact" };
   var saveTimer = null;
-  function readSettingsForm() {
-    return {
-      nameEn: document.getElementById("f-name-en").value.trim(),
-      nameZh: document.getElementById("f-name-zh").value.trim(),
-      contact: document.getElementById("f-contact").value.trim()
-    };
-  }
   function scheduleSave() {
     var st = document.getElementById("save-state");
     st.textContent = "保存中…";
     clearTimeout(saveTimer);
     saveTimer = setTimeout(async function () {
       if (!state.db) { st.textContent = "数据未连接，没有保存。"; return; }
-      var s = readSettingsForm();
+      var s = {};
+      Object.keys(FIELDS).forEach(function (id) { s[FIELDS[id]] = document.getElementById(id).value.trim(); });
       try {
         await state.db.doc("settings/sender").set(s);
         st.textContent = "已保存";
@@ -714,16 +806,22 @@
       }
     }, 600);
   }
-  ["f-name-en", "f-name-zh", "f-contact"].forEach(function (id) {
-    document.getElementById(id).addEventListener("input", scheduleSave);
-  });
-
+  Object.keys(FIELDS).forEach(function (id) { document.getElementById(id).addEventListener("input", scheduleSave); });
   function fillSettingsForm(s) {
-    var map = { "f-name-en": s.nameEn, "f-name-zh": s.nameZh, "f-contact": s.contact };
-    Object.keys(map).forEach(function (id) {
+    Object.keys(FIELDS).forEach(function (id) {
       var el = document.getElementById(id);
-      if (document.activeElement !== el) el.value = map[id] || "";
+      if (document.activeElement !== el) el.value = s[FIELDS[id]] || "";
     });
+  }
+
+  function showTab(tab) {
+    if (!TRACKS[tab]) return;
+    state.tab = tab;
+    Object.keys(TRACKS).forEach(function (t) {
+      document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === tab);
+    });
+    try { localStorage.setItem("simreal-track", tab); } catch (e) {}
+    render();
   }
 
   async function start() {
@@ -732,17 +830,15 @@
     if (!db) {
       document.getElementById("list").innerHTML = "";
       showNotice("草稿数据现在连不上。刷新页面试一次；还不行就告诉 Claude。");
-      document.getElementById("tally-nums").innerHTML = "<span>数据未连接</span>";
       return;
     }
     state.db = db;
+    try { state.downloads = await claude.use("downloads"); } catch (e) { state.downloads = null; }
     try {
       var user = await claude.use("user");
       state.canEdit = user ? await user.canEdit() : true;
     } catch (e) { state.canEdit = true; }
-    if (!state.canEdit) {
-      document.querySelectorAll(".sender input, .sender select").forEach(function (el) { el.disabled = true; });
-    }
+    if (!state.canEdit) document.querySelectorAll(".sender input").forEach(function (el) { el.disabled = true; });
     db.collection("prospects").onSnapshot(function (snap) {
       state.docs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
       render();
@@ -756,14 +852,13 @@
     }, function () {});
     db.doc("meta/pipeline").onSnapshot(function (snap) {
       state.pipeline = snap.exists ? snap.data() : null;
-      renderTally();
-    }, function () {});
-    db.collection("candidates").onSnapshot(function (snap) {
-      state.cands = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
-      renderCands();
+      renderToday();
     }, function () {});
   }
-  try { var savedTab = localStorage.getItem("simreal-tab"); if (savedTab === "cands") showTab("cands"); } catch (e) {}
+  try { var saved = localStorage.getItem("simreal-track"); if (TRACKS[saved]) state.tab = saved; } catch (e) {}
+  Object.keys(TRACKS).forEach(function (t) {
+    document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === state.tab);
+  });
   start();
 })();
 </script>
