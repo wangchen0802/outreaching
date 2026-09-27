@@ -145,6 +145,15 @@
   .st-sent { color: var(--paper); background: var(--ok); }
   .copyhint { font-size: 12px; color: var(--muted); }
   .spacer { flex: 1; }
+  .contacts { grid-column: 1 / -1; border-top: 1px solid var(--rule); padding-top: 14px; display: grid; gap: 8px; }
+  .ct { border-left: 2px solid var(--rule-strong); padding: 2px 0 2px 10px; display: grid; gap: 2px; font-size: 13px; }
+  .ct.ct-高 { border-left-color: var(--ok); } .ct.ct-低 { border-left-color: var(--warn); }
+  .ct-h { display: flex; gap: 6px 10px; flex-wrap: wrap; align-items: baseline; }
+  .ct-h b { color: var(--ink); font-weight: 600; }
+  .ct-role { font: 500 11px/1 var(--mono); color: var(--accent); border: 1px solid currentColor; border-radius: 3px; padding: 2px 5px; }
+  .ct-t { font: 400 12px var(--mono); color: var(--muted); }
+  .ct-b { color: var(--body); word-break: break-all; }
+  .btn-xs { font-size: 12px; padding: 2px 6px; }
   .row > summary .stwrap { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
   .mailaddr { font-family: var(--mono); user-select: all; }
 </style>
@@ -365,6 +374,23 @@
       (miss.length ? '<div class="missing">还没填：' + miss.map(esc).join("、") + '</div>' : '<div class="copyhint">已填完，可以发送。</div>');
   }
 
+  function contactsHtml(d) {
+    var cs = d.contacts || [];
+    if (!cs.length) return "";
+    var dis = state.canEdit ? "" : " disabled";
+    return '<div class="contacts"><h3 class="label">公开联系方式（' + cs.length + '）</h3>' + cs.map(function (c, i) {
+      var bits = [];
+      if (c.email) bits.push('<span class="mailaddr">' + esc(c.email) + '</span>' + (isChannel(d) ? ' <button class="btn btn-text btn-xs" type="button" data-useemail="' + i + '"' + dis + '>设为收件人</button>' : ''));
+      if (c.phone) bits.push('电话 <span class="mailaddr">' + esc(c.phone) + '</span>');
+      if (c.social) bits.push(esc(c.social));
+      if (c.other) bits.push(esc(c.other));
+      return '<div class="ct ct-' + esc(c.conf) + '"><div class="ct-h"><span class="ct-role">' + esc(c.role) + '</span><b>' + esc(c.name || "公司渠道") + '</b>' + (c.title ? '<span class="ct-t">' + esc(c.title) + '</span>' : '') + '<span class="ct-t">' + esc(c.conf) + '</span></div>' +
+        (bits.length ? '<div class="ct-b">' + bits.join(' · ') + '</div>' : '') +
+        (c.note ? '<div class="ev-w">' + esc(c.note) + '</div>' : '') +
+        (c.url ? '<div class="ev-l"><a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.url) + '</a> · ' + esc(c.stype) + '</div>' : '') + '</div>';
+    }).join("") + '</div>';
+  }
+
   function composeHtml(d) {
     if (!isChannel(d)) return "";
     var rv = d.review || {}, dis = state.canEdit ? "" : " disabled", sent = rv.sent;
@@ -428,7 +454,7 @@
         ((d.clients || []).length ? '<div class="meta"><b>名单里它服务的客户：</b>' + d.clients.map(esc).join("、") + '</div>' : '') +
         (d.channel ? '<div class="meta"><b>规模：</b>' + esc(d.channel.size) + ' · <b>领域：</b>' + esc(d.channel.domains) + (d.channel.site ? ' · ' + esc(d.channel.site) : '') + '</div>' : '') +
         (d.draft ? '<div class="meta"><b>主名单草稿：</b>drafts/' + esc(d.draft) + '.md</div>' : '') +
-      '</div><div class="ev"><h3 class="label">证据（' + (d.evidence || []).length + '）</h3>' + evHtml(d) + '</div>' + composeHtml(d) + '</div></details>';
+      '</div><div class="ev"><h3 class="label">证据（' + (d.evidence || []).length + '）</h3>' + evHtml(d) + '</div>' + contactsHtml(d) + composeHtml(d) + '</div></details>';
   }
 
   function render() {
@@ -514,6 +540,17 @@
       var row = c.closest(".row"), d = docById(row.dataset.id), em = buildEmail(d), k = c.dataset.copy;
       var map = { body: [em.body, "正文"], subject: [em.subject, "主题"], to: [(d.review && d.review.email) || "", "收件邮箱"], wechat: [buildWechat(d), "微信版"], followup: [buildFollowup(d), "跟进邮件"] };
       copyText(map[k][0], row, map[k][1]); return;
+    }
+    var ue = e.target.closest("[data-useemail]");
+    if (ue) {
+      var r3 = ue.closest(".row"), d3 = docById(r3.dataset.id), c3 = (d3.contacts || [])[+ue.dataset.useemail];
+      if (!c3 || !c3.email) return;
+      var patch = { review: { email: c3.email } };
+      if (c3.name && /^[\u4e00-\u9fff]/.test(c3.name) && !(d3.review && d3.review.salutation)) patch.review.salutation = c3.name.slice(0, 1) + "总";
+      applyLocal(r3.dataset.id, patch);
+      var inp = r3.querySelector('[data-f="review.email"]'); if (inp) inp.value = c3.email;
+      var sal = r3.querySelector('[data-f="review.salutation"]'); if (sal && patch.review.salutation) sal.value = patch.review.salutation;
+      refreshPreview(r3); write(r3.dataset.id, patch, r3); return;
     }
     var sb = e.target.closest("[data-sent]");
     if (sb) {
