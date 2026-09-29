@@ -49,9 +49,10 @@
 [称呼]您好，我是 SimReal 联合创始人[姓名]。我们为大模型和 AI Agent 提供后训练数据，可提供：
 · Rubric 设计与拆解、Reference Answer、逐项评分与质检
 · LLM-as-a-Judge 评测数据、私有评测集 / Benchmark 定制
-· 复杂 Query 构造、SFT、CoT 推理链、RLHF 偏好与 Reward 数据
-· Agent 长程轨迹（多轮对话、工具调用、完整 Session）、DeepResearch 数据
+· 复杂 Query 构造、SFT、CoT / Reasoning 推理数据、RLHF 偏好与 Reward 数据
+· Agent 长程轨迹（多轮对话、工具调用、完整 Session）、Terminal-Bench 类终端任务、DeepResearch 数据
 · 代码 SFT 与调试数据、RL 训练环境与验证器
+· 多模态数据（图文、视频、音频），以及图片、视频、音频、文本、多语种原始数据
 覆盖金融、法律、医疗、供应链、代码，支持高度定制，7,000+ 行业专家已报名。
 团队来自剑桥、Jane Street、Citadel、Millennium。已与 Surge AI、AfterQuery 合作，正在和一线 VC 推进融资。
 可以先给样例或做小批量 Demo，方便约 20 分钟聊聊您的需求吗？
@@ -61,9 +62,10 @@
 Hi [Name], I'm [Your name], co-founder of SimReal. We provide post-training data for LLMs and AI agents:
 · Rubric design and decomposition, reference answers, item-by-item scoring and QA
 · LLM-as-a-Judge data, private eval sets and custom benchmarks
-· Complex query construction, SFT, chain-of-thought, RLHF preference and reward data
-· Long-horizon agent trajectories (multi-turn, tool calls, full sessions) and DeepResearch data
+· Complex query construction, SFT, chain-of-thought and reasoning data, RLHF preference and reward data
+· Long-horizon agent trajectories (multi-turn, tool calls, full sessions), Terminal-Bench-style tasks and DeepResearch data
 · Code SFT and debugging data, RL environments and verifiers
+· Multimodal data (image-text, video, audio), plus raw image, video, audio, text and multilingual data
 Across finance, law, medicine, supply chain and code, fully customizable, with 7,000+ domain experts signed up.
 Our team comes from Cambridge, Jane Street, Citadel and Millennium. We already work with Surge AI and AfterQuery, and we're raising with tier-1 VCs.
 Happy to share samples or run a small demo. Open to a 20-minute call about your needs?
