@@ -79,8 +79,8 @@ children.push(new Paragraph({
   children: [new ImageRun({ type: "png", data: logo, transformation: { width: 170, height: 46 }, altText: { title: "SimReal", description: "SimReal logo", name: "logo" } })],
   spacing: { after: 240 },
 }));
-children.push(p([r("公司简介、产品清单与报价参考", { bold: true, size: 40, color: INK })], { after: 80 }));
-children.push(p([r("草稿 · 2026 年 9 月 · 仅供合作沟通，数字以正式报价为准", { color: MUTED, size: 18 })], { after: 240 }));
+children.push(p([r("公司简介、产品清单与参考报价", { bold: true, size: 40, color: INK })], { after: 80 }));
+children.push(p([r("2026 年 9 月", { color: MUTED, size: 18 })], { after: 240 }));
 children.push(p([r("让 AI 从会考试，变成会干活。", { bold: true, size: 28, color: ACCENT })], { after: 120 }));
 children.push(p("SimReal 为大模型公司和 AI 应用企业搭建真实工作的训练环境，提供行业专家数据和评测。AI 在环境里做真实的事，按真实结果打分，再用结果训练自己，在金融、法律、医疗、代码等专业领域越练越强。"));
 
@@ -121,30 +121,8 @@ children.push(step([r("验收：", { bold: true, color: INK }), r("客户按自�
 children.push(step([r("批量与长期合作：", { bold: true, color: INK }), r("数据按批次交付；环境打包交付，接入客户的训练或测试流程。")]));
 
 // 4. Pricing
-children.push(h1("四、报价参考"));
-children.push(note("本节为草稿。4.1 是公开资料里的市场价，4.2 是按市场价和成本推算的我们的参考报价（模拟数字），发给合作方前请按实际情况修改或删除。"));
-
-children.push(h2("4.1 市场参考价（公开信息）"));
-children.push(table([2300, 3900, 2000, 1438], [
-  ["品类", "公开区间", "来源", "可信度"],
-  ["RL 任务（含验证器）", "每个任务 $200–2,000；复杂软件工程任务可达 $20,000", "Epoch AI", "高"],
-  ["独家 vs 非独家", "独家约为非独家的 4–5 倍", "Epoch AI", "高"],
-  ["界面复刻环境", "网站复刻约 $20,000/个；Slack 级复杂产品约 $300,000", "Epoch AI、SemiAnalysis", "中高"],
-  ["实验室合同规模", "每季度六到七位数美元，常见 $30 万–100 万以上", "Epoch AI", "高"],
-  ["单任务训练算力", "约 $2,400/任务（说明任务质量值得多花钱）", "Mechanize", "中（估算）"],
-  ["专家时薪（付给专家）", "Mercor 平均约 $85/时；律师 $55–150+；医生 $110–250；金融 $60–250", "Mercor 官网及第三方", "中"],
-  ["平台加价", "约 30–35%，专家拿到客户付款的 60–70%", "第三方估算", "中低"],
-  ["专家小时（向客户收）", "Surge 约 $85–200+/专家小时；专家撰写任务 $200–2,000/个；企业合同 $5–6 万/年起", "第三方评测站", "中低"],
-  ["SFT 示范数据", "通用 $0.1–1/条；研究生级专家题约 $58/题（约 35 分钟）", "行业博客", "中低"],
-  ["偏好数据", "通用 $0.5–5/条；专家对比可达约 $100/对", "行业博客", "中低"],
-  ["私有评测", "平台订阅 $249–10,000/月；定制评测项目 $12.5 万–82 万/年", "AI Superior", "低"],
-  ["合成 Agent 轨迹", "纯模型生成 $0.3–0.6/条（只算算力，不含人工）", "AgentTrek、Explorer 等论文", "高"],
-  ["国内通用文本标注", "0.05–0.5 元/条", "标注公司公开报价", "中"],
-  ["国内专家数据", "奥赛级数学题 1,000 道约 20 万元；一般 150–800 元/条", "整数智能", "中"],
-  ["国内专家时薪", "字节 Xpert 100–500 元/时；高端 800–1,000 元/时", "媒体报道", "中"],
-], { boldFirst: true }));
-
-children.push(h2("4.2 SimReal 参考报价（草稿，模拟数字）"));
+children.push(h1("四、参考报价"));
+children.push(note("以下为参考区间，按领域、难度、数量和交付周期浮动，以正式报价为准。"));
 children.push(table([2500, 1300, 1700, 1700, 2438], [
   ["产品", "计价单位", "海外（USD）", "国内（RMB）", "说明"],
   ["试点 / Demo", "每项目", "5,000–30,000", "2 万–10 万", "通常 50–200 条，验收后转批量"],
@@ -155,50 +133,21 @@ children.push(table([2500, 1300, 1700, 1700, 2438], [
   ["Rubric 逐项评分与质检", "每条回答", "5–30", "30–150", "含抽检复核"],
   ["LLM-as-a-Judge 校准数据", "每条", "20–80", "100–400", "专家逐项分数和理由"],
   ["Agent 长程轨迹（专家实跑）", "每 Session", "200–1,500", "1,000–8,000", "30 次以上工具调用，完整 Session"],
-  ["RL 任务（含验证器）", "每任务", "300–2,000", "2,000–12,000", "非独家；独家约 4–5 倍"],
+  ["RL 任务（含验证器）", "每任务", "300–2,000", "2,000–12,000", "非独家；独家另议"],
   ["RL 环境授权", "每环境每季度", "50,000–300,000", "30 万–200 万", "含持续更新；独家另议"],
   ["私有评测集 / Benchmark 定制", "每项目", "30,000–150,000", "20 万–100 万", "200–1,000 题，含 Rubric 和评分"],
   ["持续训练服务", "每季度", "100,000–1,000,000+", "另议", "面向前沿实验室"],
 ], { boldFirst: true, tintCol: 2 }));
 
-children.push(h2("4.3 报价怎么算"));
-children.push(p("单价 ≈ 专家时薪 × 单条工时 × 1.3–1.5（质检与管理）× 1.5–2（毛利与风险）"));
-children.push(bullet("海外例子：金融专家 $120/时，每条 30 分钟，成本 $60；加质检管理约 $84；报价约 $130–170/条。"));
-children.push(bullet("国内例子：金融专家 300 元/时，每条 30 分钟，成本 150 元；加质检管理约 210 元；报价约 320–420 元/条。"));
-children.push(bullet("独家交付按非独家价格的 4–5 倍报；加急、特殊合规要求另议。"));
+children.push(bullet("独家交付另行报价；加急和特殊合规要求另议。"));
 
 // 5. Contact
 children.push(h1("五、联系方式"));
 children.push(p([r("business@simreal.co", { bold: true, color: INK }), r("  ·  simreal.co", { color: BODY })]));
 
-// Sources
-children.push(h2("附：市场价来源"));
-const src = [
-  ["Epoch AI：An FAQ on Reinforcement Learning Environments", "https://epoch.ai/gradient-updates/state-of-rl-envs"],
-  ["SemiAnalysis：RL Environments and RL for Science", "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science"],
-  ["Mechanize：Cheap RL tasks will waste compute", "https://www.mechanize.work/blog/cheap-rl-tasks-will-waste-compute/"],
-  ["Mercor：AI Trainer Salary", "https://www.mercor.com/resources/experts/ai-trainer-salary-hourly-rates/"],
-  ["Mercor：律师专家页", "https://www.mercor.com/experts/lawyers/"],
-  ["ValueAdd VC：Mercor 收入与抽成分析", "https://valueaddvc.com/blog/how-does-mercor-make-money-2b-arr-20b-valuation-and-the-expert-data-marketplace-explained"],
-  ["HeroHunt：Top 10 Data Annotators for AI Labs (2026)", "https://www.herohunt.ai/blog/top-10-data-annotators-for-ai-labs-2026-benchmark/"],
-  ["Olostep：AI Training Data Providers: Costs", "https://www.olostep.com/blog/ai-training-data-providers"],
-  ["Digital Divide Data：RLHF Services", "https://www.digitaldividedata.com/blog/rlhf-services-end-to-end-provider"],
-  ["AI Superior：Cost of Private LLM Evaluation Services in 2026", "https://aisuperior.com/cost-of-private-llm-evaluation-services/"],
-  ["AgentTrek", "https://agenttrek.github.io/"],
-  ["整数智能：当老板问起 LLM 的落地，数据要花多少钱", "https://www.molardata.com/article/LLMluodideshujuchengben"],
-  ["曼孚科技：数据标注服务收费标准", "https://www.mindflow.com.cn/NewsStd_1177.html"],
-  ["新浪科技：时薪冲上 400 元，985 硕博被批量招募做数据标注", "https://finance.sina.com.cn/tech/roll/2025-12-16/doc-inhaxefx3811644.shtml"],
-  ["投资界：深扒 151 份 JD，揭秘数据标注员", "https://news.pedaily.cn/202606/564988.shtml"],
-];
-src.forEach(([t, u]) => children.push(new Paragraph({
-  numbering: { reference: "dots", level: 0 },
-  spacing: { after: 40, line: 276 },
-  children: [r(t + "  ", { size: 17 }), new ExternalHyperlink({ link: u, children: [new TextRun({ text: u, font: FONT, size: 15, color: ACCENT, underline: {} })] })],
-})));
-
 const doc = new Document({
   creator: "SimReal",
-  title: "SimReal 公司简介、产品清单与报价参考",
+  title: "SimReal 公司简介、产品清单与参考报价",
   styles: {
     default: { document: { run: { font: FONT, size: 20, color: BODY } } },
     paragraphStyles: [
@@ -224,4 +173,4 @@ const doc = new Document({
   }],
 });
 
-Packer.toBuffer(doc).then((buf) => { fs.writeFileSync("SimReal-公司简介与报价参考.docx", buf); console.log("ok", buf.length); });
+Packer.toBuffer(doc).then((buf) => { fs.writeFileSync("SimReal-公司简介与参考报价.docx", buf); console.log("ok", buf.length); });
