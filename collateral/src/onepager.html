@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>SimReal 公司简介与产品清单</title>
+<style>
+  @font-face { font-family: "Newsreader"; src: url("fonts/Newsreader-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-SemiBold.ttf"); font-weight: 600; }
+  @font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Regular.otf"); font-weight: 400; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Medium.otf"); font-weight: 500; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Bold.otf"); font-weight: 700; }
+  @font-face { font-family: "Noto Serif SC"; src: url("fonts/NotoSerifSC-Medium.otf"); font-weight: 500; }
+
+  :root {
+    --paper: #FAF9F6;
+    --surface: #FFFFFF;
+    --ink: #111110;
+    --body: #33322F;
+    --muted: #6E6C66;
+    --rule: #E2E0DA;
+    --accent: #C2410C;
+    --accent-tint: #F6E8E0;
+    --serif: "Newsreader", "Noto Serif SC", serif;
+    --sans: "Instrument Sans", "Noto Sans SC", sans-serif;
+    --mono: "Plex Mono", "Noto Sans SC", monospace;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); }
+  body { color: var(--body); font: 400 9.6pt/1.62 var(--sans); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 16mm 17mm 13mm; display: flex; flex-direction: column; gap: 7mm; page-break-after: always; overflow: hidden; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  h1, h2, h3 { color: var(--ink); margin: 0; font-weight: 500; }
+  .label { font: 400 7.2pt/1.3 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  /* Header */
+  .top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 5mm; border-bottom: 0.6pt solid var(--rule); }
+  .top img { height: 9mm; }
+  .top .meta { text-align: right; }
+  .top .meta b { display: block; font: 500 9pt/1.4 var(--sans); color: var(--ink); }
+
+  /* Hero */
+  .hero { display: grid; gap: 3mm; padding-top: 2mm; }
+  .hero h1 { font: 500 25pt/1.25 "Noto Serif SC", serif; letter-spacing: 0.01em; }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero p { margin: 0; font-size: 10.6pt; line-height: 1.7; color: var(--body); max-width: 160mm; }
+
+  /* Stats */
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1.2pt solid var(--ink); border-bottom: 0.6pt solid var(--rule); }
+  .stat { padding: 4mm 3mm 4mm 0; display: grid; gap: 1mm; }
+  .stat + .stat { padding-left: 4mm; border-left: 0.6pt solid var(--rule); }
+  .stat .n { font: 400 24pt/1.05 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .stat .n.hot { color: var(--accent); }
+  .stat .d { font-size: 8.2pt; line-height: 1.5; color: var(--muted); }
+
+  /* Sections */
+  .sec { display: grid; grid-template-columns: 36mm 1fr; gap: 6mm; }
+  .sec > h2 { font: 500 12.5pt/1.35 "Noto Serif SC", serif; padding-top: 0.4mm; }
+  .sec > h2 small { display: block; margin-top: 1.2mm; }
+  .sec p { margin: 0 0 2mm; }
+  ul.plain { margin: 0; padding: 0; list-style: none; display: grid; gap: 1.6mm; }
+  ul.plain li { position: relative; padding-left: 4mm; }
+  ul.plain li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 1.6mm; height: 0.6pt; background: var(--accent); }
+  b.k { color: var(--ink); font-weight: 500; }
+
+  .logos { display: flex; align-items: center; justify-content: space-between; gap: 4mm; flex-wrap: nowrap; margin: 2mm 0 2mm; }
+  .logos img { height: 3.9mm; width: auto; opacity: 0.88; }
+  .logos img.tall { height: 5.6mm; }
+  .fine { font-size: 7.2pt; color: var(--muted); }
+
+  /* Products */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm 7mm; }
+  .prod { border-top: 0.6pt solid var(--ink); padding-top: 3mm; display: grid; gap: 1.8mm; align-content: start; }
+  .prod h3 { font: 500 11pt/1.35 var(--sans); display: flex; align-items: baseline; gap: 2.5mm; }
+  .prod h3 .tag { font: 400 7pt/1 var(--mono); letter-spacing: 0.06em; color: var(--accent); text-transform: uppercase; }
+  .prod p.what { margin: 0; color: var(--muted); font-size: 8.6pt; line-height: 1.55; }
+  .chips { display: flex; flex-wrap: wrap; gap: 1.4mm; }
+  .chip { font-size: 8.2pt; line-height: 1; padding: 1.5mm 2.2mm; border: 0.6pt solid var(--rule); background: var(--surface); border-radius: 1mm; color: var(--body); white-space: nowrap; }
+
+  /* Environments table */
+  table.env { width: 100%; border-collapse: collapse; font-size: 8.6pt; }
+  table.env td { padding: 1.9mm 0; border-bottom: 0.6pt solid var(--rule); vertical-align: top; }
+  table.env td:first-child { width: 38mm; color: var(--ink); font-weight: 500; }
+  table.env td.proof { width: 52mm; text-align: right; font-family: var(--mono); font-size: 7.6pt; color: var(--accent); }
+
+  /* Process */
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; counter-reset: s; }
+  .step { padding: 3mm 3mm 3mm 0; border-top: 1.2pt solid var(--ink); display: grid; gap: 1mm; align-content: start; }
+  .step + .step { padding-left: 3mm; }
+  .step .no { font: 400 7.2pt/1 var(--mono); color: var(--accent); letter-spacing: 0.06em; }
+  .step b { font: 500 9.8pt/1.35 var(--sans); color: var(--ink); }
+  .step span { font-size: 8.2pt; line-height: 1.5; color: var(--muted); }
+
+  .pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; }
+  .pricing div { display: grid; gap: 1mm; align-content: start; }
+  .pricing b { font: 500 9.4pt/1.35 var(--sans); color: var(--ink); }
+  .pricing span { font-size: 8.4pt; line-height: 1.55; color: var(--body); }
+
+  /* Footer */
+  .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; padding-top: 4mm; border-top: 0.6pt solid var(--rule); }
+  .foot .contact { display: flex; align-items: center; gap: 4mm; }
+  .foot .contact img { height: 8mm; }
+  .foot .contact div { display: grid; gap: 0.5mm; }
+  .foot .contact b { font: 500 10pt/1.3 var(--sans); color: var(--ink); }
+  .foot .contact span { font: 400 8.4pt/1.3 var(--mono); color: var(--body); }
+  .foot .pg { font: 400 7.2pt/1 var(--mono); color: var(--muted); }
+</style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<section class="page">
+  <header class="top">
+    <img src="img/simreal-logo-ink.png" alt="SimReal">
+    <div class="meta"><span class="label">Company Profile</span><b>公司简介与产品清单 · 2026 年 9 月</b></div>
+  </header>
+
+  <div class="hero">
+    <span class="label">AI 训练环境 · 专家数据 · 评测</span>
+    <h1>让 AI 从<em>会考试</em>，<br>变成<em>会干活</em>。</h1>
+    <p>SimReal 为大模型公司和 AI 应用企业搭建真实工作的训练环境，提供行业专家数据和评测。AI 在环境里做真实的事，按真实结果打分，再用结果训练自己，在金融、法律、医疗、代码等专业领域越练越强。</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><span class="n hot">+12%</span><span class="d">开源模型在 Xitadel 训练后，在从未见过的真实行情上的交易表现提升，多次独立运行均复现</span></div>
+    <div class="stat"><span class="n">7,000+</span><span class="d">行业专家已报名，通过 21 所合作高校可触达 20 万+ 专业人士</span></div>
+    <div class="stat"><span class="n">0 / 400</span><span class="d">谜题基准经受 400 次作弊攻击，0 次成功；上线前逐一对抗测试</span></div>
+    <div class="stat"><span class="n">14 天</span><span class="d">成立 14 天做出 7 款产品，交付速度就是我们的优势</span></div>
+  </div>
+
+  <div class="sec">
+    <h2>团队<small class="label">Team</small></h2>
+    <div>
+      <p>四位量化出身的创始人，来自<b class="k">剑桥、LSE、杜克</b>，有 <b class="k">Jane Street、Citadel、D. E. Shaw、Millennium、Optiver</b> 的从业经历，以及剑桥机器学习研究背景。四人都放弃了顶级量化机构的 return offer 出来做 SimReal。</p>
+      <div class="logos">
+        <img class="tall" src="img/cambridge-ink.png" alt="Cambridge">
+        <img class="tall" src="img/duke-ink.png" alt="Duke">
+        <img src="img/jane-street-ink.png" alt="Jane Street">
+        <img src="img/citadel-ink.png" alt="Citadel">
+        <img src="img/de-shaw-ink.png" alt="D. E. Shaw">
+        <img src="img/millennium-ink.png" alt="Millennium">
+        <img src="img/optiver-ink.png" alt="Optiver">
+      </div>
+      <span class="fine">标识代表团队成员就读或任职过的机构，不代表这些机构的背书。</span>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>进展<small class="label">Traction</small></h2>
+    <ul class="plain">
+      <li>两家前沿 AI 实验室正在洽谈。</li>
+      <li>已与 <b class="k">Surge AI、AfterQuery</b> 合作。</li>
+      <li>正在融资，已与一线机构接触。</li>
+      <li>三个训练世界已上线：交易、AI 研究、未来预测。</li>
+    </ul>
+  </div>
+
+  <div class="sec">
+    <h2>为什么选我们<small class="label">Why SimReal</small></h2>
+    <ul class="plain">
+      <li><b class="k">行业专家出题和把关</b>，不是简单众包；复杂 Query、标准答案、评分标准都由懂行的人写。</li>
+      <li><b class="k">评分信得过</b>：每个环境和评分标准上线前先经受攻击，财务月结环境评分漏洞 6 → 0。</li>
+      <li><b class="k">懂训练</b>：团队理解 SFT、RLHF、RL 和 LLM-as-a-Judge，能对齐客户的格式和流程。</li>
+      <li><b class="k">独立中立</b>：不接受模型公司入股，每家客户都能放心采购。</li>
+    </ul>
+  </div>
+
+  <footer class="foot">
+    <div class="contact"><img src="img/simreal-mark-ink.png" alt=""><div><b>business@simreal.co</b><span>simreal.co</span></div></div>
+    <span class="pg">01 / 02</span>
+  </footer>
+</section>
+
+<!-- Page 2 -->
+<section class="page">
+  <header class="top">
+    <img src="img/simreal-logo-ink.png" alt="SimReal">
+    <div class="meta"><span class="label">Products</span><b>产品清单</b></div>
+  </header>
+
+  <div class="grid">
+    <div class="prod">
+      <h3>专家数据<span class="tag">Expert Data</span></h3>
+      <p class="what">行业专家出题、写答案、做判断，用于模型训练。</p>
+      <div class="chips"><span class="chip">SFT 指令数据</span><span class="chip">CoT 推理链</span><span class="chip">复杂 Query 构造</span><span class="chip">Reference Answer</span><span class="chip">RLHF 偏好数据</span><span class="chip">Reward 数据</span><span class="chip">代码 SFT / 调试</span></div>
+    </div>
+    <div class="prod">
+      <h3>Rubric 与评测<span class="tag">Evaluation</span></h3>
+      <p class="what">把"好答案"拆成可逐条检查的评分标准，测出模型真实水平。</p>
+      <div class="chips"><span class="chip">Rubric 设计与拆解</span><span class="chip">逐项评分与质检</span><span class="chip">LLM-as-a-Judge 数据</span><span class="chip">私有评测集</span><span class="chip">Benchmark 定制</span></div>
+    </div>
+    <div class="prod">
+      <h3>Agent 数据<span class="tag">Agent</span></h3>
+      <p class="what">记录 Agent 完成长任务的全过程，含工具调用与中间步骤。</p>
+      <div class="chips"><span class="chip">多轮工具调用轨迹</span><span class="chip">长程任务</span><span class="chip">完整 Session</span><span class="chip">DeepResearch</span></div>
+    </div>
+    <div class="prod">
+      <h3>企业定制与持续训练<span class="tag">Custom</span></h3>
+      <p class="what">围绕客户自己的工作流搭建环境和评测；模型每次升级，都回到环境里继续训练和对比。</p>
+      <div class="chips"><span class="chip">专属训练环境</span><span class="chip">专属评测</span><span class="chip">持续训练</span></div>
+    </div>
+  </div>
+
+  <div class="sec" style="grid-template-columns: 1fr; gap: 2.5mm;">
+    <div style="display:flex;align-items:baseline;gap:3mm;"><h2 style="font:500 12.5pt/1.35 'Noto Serif SC',serif;">RL 训练环境与验证器</h2><span class="label">Environments</span></div>
+    <p style="margin:0;color:var(--muted);font-size:8.6pt;">把真实工作做成模型能反复练习的环境，做完由验证器按真实结果自动打分。</p>
+    <table class="env">
+      <tr><td>Xitadel · 交易</td><td>AI 在真实行情中交易，按盈亏评分</td><td class="proof">训练后交易表现 +12%</td></tr>
+      <tr><td>财务月结</td><td>让 AI 零差错完成月末结账</td><td class="proof">评分漏洞 6 → 0</td></tr>
+      <tr><td>软件工程</td><td>检验 AI 写的代码能否经受住后续版本</td><td class="proof"></td></tr>
+      <tr><td>数学证明 · 逻辑推理</td><td>让 AI 证明答案，而不是猜答案</td><td class="proof">709 道防作弊谜题</td></tr>
+      <tr><td>AI 研究 · MLBench</td><td>AI 独立完成研究项目，从读数据到交结果</td><td class="proof">60 个研究任务</td></tr>
+      <tr><td>未来预测</td><td>对真实事件提前判断，揭晓后按结果打分</td><td class="proof">数据实时接入</td></tr>
+    </table>
+  </div>
+
+  <div class="sec" style="grid-template-columns: 1fr; gap: 3mm;">
+    <div style="display:flex;align-items:baseline;gap:3mm;"><h2 style="font:500 12.5pt/1.35 'Noto Serif SC',serif;">合作方式</h2><span class="label">How we work</span></div>
+    <div class="steps">
+      <div class="step"><span class="no">STEP 1</span><b>需求沟通</b><span>领域、数据形式、量级、交付周期</span></div>
+      <div class="step"><span class="no">STEP 2</span><b>样例或试点</b><span>先给样例，或做小批量付费试点</span></div>
+      <div class="step"><span class="no">STEP 3</span><b>验收</b><span>客户按自己的标准测评</span></div>
+      <div class="step"><span class="no">STEP 4</span><b>批量与长期合作</b><span>数据按批次交付，环境打包接入客户流程</span></div>
+    </div>
+    <div class="pricing">
+      <div><b>数据</b><span>按量和难度报价；领域越专业、题越难，单价越高。可按项目或按月结算。</span></div>
+      <div><b>训练环境</b><span>环境授权费，加持续训练服务。模型每次升级都回来再训练，长期合作。</span></div>
+      <div><b>评测</b><span>公开基准免费试用；私有评测和定制按项目报价。</span></div>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <div class="contact"><img src="img/simreal-mark-ink.png" alt=""><div><b>business@simreal.co</b><span>simreal.co</span></div></div>
+    <span class="pg">02 / 02</span>
+  </footer>
+</section>
+
+</body>
+</html>
