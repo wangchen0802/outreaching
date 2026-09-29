@@ -44,64 +44,30 @@
 
 你好，SimReal，一线 VC 支持，团队来自剑桥、Jane Street、Millennium、城堡。做 Rubric/Benchmark、SFT/CoT/RLHF、Agent 长程轨迹、RL 环境，覆盖金融/医疗/法律/供应链/代码，已给 Surge AI、AfterQuery 供给，可先做 Demo。方便聊吗？
 
-## 邮件短版（手动发送）
+## 短消息模板（手动发送，邮件和私信通用）
 
-发往官方通用邮箱时，第一句加：
-- 中文：您好，麻烦转交[负责人]，或负责商务合作的同事。
-- 英文：Hi team, could you forward this to [Name], or whoever handles partnerships?
-
-### 客户｜大模型公司
-
-主题：SimReal × [公司名]｜后训练专家数据与 RL 环境
-
-[称呼]您好，我是 SimReal 联合创始人[姓名]。我们为大模型后训练提供专家数据、Rubric 评测和 RL 训练环境，覆盖金融、法律、医疗、代码。团队来自剑桥和 Jane Street、Citadel、Millennium，7,000+ 行业专家已报名。想了解贵司目前的数据需求，可以先给样例或做小批量试点。方便约 20 分钟聊聊吗？
-
-[姓名]｜SimReal｜business@simreal.co
-
-Subject: SimReal x [Company]: expert data and RL environments
-
-Hi [Name], I'm [Your name], co-founder of SimReal. We supply expert data, rubric-based evals and RL environments for post-training across finance, law, medicine and code. Our team comes from Cambridge, Jane Street, Citadel and Millennium, and 7,000+ domain experts have signed up with us. Happy to share samples or run a small pilot. Open to a 20-minute call?
-
-[Your name] | SimReal | business@simreal.co
-
-### 客户｜AI 应用 / Agent 公司
-
-主题：SimReal × [公司名]｜Agent 评测与训练数据
-
-[称呼]您好，我是 SimReal 联合创始人[姓名]。我们可以帮贵司做两件事：按你们的业务出一套评测（题目加评分标准），上线前先测，换模型时直接对比；再用行业专家数据把模型练得更懂你们的场景。团队来自剑桥和 Jane Street、Citadel、Millennium。可以先给样例看效果，方便约 20 分钟吗？
+[称呼]您好，我是 SimReal 联合创始人[姓名]。我们为大模型和 AI Agent 提供后训练数据，可提供：
+· Rubric 设计与拆解、Reference Answer、逐项评分与质检
+· LLM-as-a-Judge 评测数据、私有评测集 / Benchmark 定制
+· 复杂 Query 构造、SFT、CoT 推理链、RLHF 偏好与 Reward 数据
+· Agent 长程轨迹（多轮对话、工具调用、完整 Session）、DeepResearch 数据
+· 代码 SFT 与调试数据、RL 训练环境与验证器
+覆盖金融、法律、医疗、供应链、代码，支持高度定制，7,000+ 行业专家已报名。
+团队来自剑桥、Jane Street、Citadel、Millennium。已与 Surge AI、AfterQuery 合作，正在和一线 VC 推进融资。
+可以先给样例或做小批量 Demo，方便约 20 分钟聊聊您的需求吗？
 
 [姓名]｜SimReal｜business@simreal.co
 
-Subject: SimReal x [Company]: evals and training data for your agents
-
-Hi [Name], I'm [Your name], co-founder of SimReal. We help AI product teams in two ways: a private eval built around your workflow, so you can test before launch and compare models when you switch, and expert data to make your model better at your domain. Our team comes from Cambridge, Jane Street, Citadel and Millennium. Happy to share samples first. Open to a 20-minute call?
-
-[Your name] | SimReal | business@simreal.co
-
-### 渠道伙伴
-
-主题：SimReal × [公司名]｜专家供给与 RL 环境合作
-
-[称呼]您好，我是 SimReal 联合创始人[姓名]。我们做后训练的专家数据和 RL 环境，已与 Surge AI、AfterQuery 合作，7,000+ 行业专家已报名，可触达 20 万+ 专业人士。想和贵司谈供给合作：我们出金融、法律、医疗专家和 RL 环境，贵司交付客户，贴牌或联名都可以。方便约 20 分钟吗？
-
-[姓名]｜SimReal｜business@simreal.co
-
-Subject: SimReal x [Company]: expert supply partnership
-
-Hi [Name], I'm [Your name], co-founder of SimReal. We build expert data and RL environments for post-training and already work with Surge AI and AfterQuery; 7,000+ domain experts have signed up with us. We'd like to be a supply partner: our finance, legal and medical experts and environments, delivered to your customers under your brand or co-branded. Open to a 20-minute call?
+Hi [Name], I'm [Your name], co-founder of SimReal. We provide post-training data for LLMs and AI agents:
+· Rubric design and decomposition, reference answers, item-by-item scoring and QA
+· LLM-as-a-Judge data, private eval sets and custom benchmarks
+· Complex query construction, SFT, chain-of-thought, RLHF preference and reward data
+· Long-horizon agent trajectories (multi-turn, tool calls, full sessions) and DeepResearch data
+· Code SFT and debugging data, RL environments and verifiers
+Across finance, law, medicine, supply chain and code, fully customizable, with 7,000+ domain experts signed up.
+Our team comes from Cambridge, Jane Street, Citadel and Millennium. We already work with Surge AI and AfterQuery, and we're raising with tier-1 VCs.
+Happy to share samples or run a small demo. Open to a 20-minute call about your needs?
 
 [Your name] | SimReal | business@simreal.co
 
-### 投资人
-
-主题：SimReal｜让 AI 在真实工作中按结果进化（种子轮）
-
-[称呼]您好，我是 SimReal 联合创始人[姓名]。我们为 AI 搭建真实工作的训练环境：旗舰交易环境让开源模型在真实行情上交易表现提升 12%。团队四位量化出身，来自剑桥、LSE、杜克，有 Jane Street、Citadel、Millennium、Optiver 经历；已与 Surge AI、AfterQuery 合作。正在进行种子轮融资，方便的话我把 BP 发您？
-
-[姓名]｜SimReal｜business@simreal.co
-
-Subject: SimReal: RL environments where AI learns from real outcomes (seed)
-
-Hi [Name], I'm [Your name], co-founder of SimReal. We build the environments where AI does real work and learns from real outcomes; our trading environment lifted an open model's trading performance by 12% on unseen market data. We're four quants from Cambridge, LSE and Duke with backgrounds at Jane Street, Citadel, Millennium and Optiver, and we already work with Surge AI and AfterQuery. We're raising a seed round. Can I send you the deck?
-
-[Your name] | SimReal | business@simreal.co
+发往官方通用邮箱时，第一句加"您好，麻烦转交[负责人]，或负责商务合作的同事。"（英文：Hi team, could you forward this to [Name], or whoever handles partnerships?）
