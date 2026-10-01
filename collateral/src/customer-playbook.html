@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>SimReal 客户获取手册</title>
+<style>
+  @font-face { font-family: "Newsreader"; src: url("fonts/Newsreader-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-SemiBold.ttf"); font-weight: 600; }
+  @font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Regular.otf"); font-weight: 400; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Medium.otf"); font-weight: 500; }
+  @font-face { font-family: "Noto Sans SC"; src: url("fonts/NotoSansSC-Bold.otf"); font-weight: 700; }
+  @font-face { font-family: "Noto Serif SC"; src: url("fonts/NotoSerifSC-Medium.otf"); font-weight: 500; }
+
+  :root {
+    --surface: #FFFFFF;
+    --paper: #FAF9F6;
+    --ink: #111110;
+    --body: #33322F;
+    --muted: #6E6C66;
+    --rule: #E2E0DA;
+    --accent: #C2410C;
+    --accent-tint: #F6E8E0;
+    --serif: "Newsreader", "Noto Serif SC", serif;
+    --sans: "Instrument Sans", "Noto Sans SC", sans-serif;
+    --mono: "Plex Mono", "Noto Sans SC", monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--surface); }
+  body { color: var(--body); font: 400 9.4pt/1.7 var(--sans); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  h1, h2, h3, h4 { color: var(--ink); margin: 0; font-weight: 500; }
+  p { margin: 0 0 2.2mm; }
+  b, strong { color: var(--ink); font-weight: 500; }
+  .label { font: 400 7.2pt/1.3 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .accent { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .fine { font-size: 7.6pt; line-height: 1.55; color: var(--muted); }
+
+  /* Cover */
+  .top { display: flex; justify-content: space-between; align-items: center; padding-bottom: 5mm; border-bottom: 0.6pt solid var(--rule); }
+  .top img { height: 9mm; }
+  .top .meta { text-align: right; }
+  .top .meta b { display: block; font: 500 9pt/1.4 var(--sans); }
+  .hero { padding: 9mm 0 6mm; display: grid; gap: 3.5mm; }
+  .hero h1 { font: 500 26pt/1.25 "Noto Serif SC", serif; letter-spacing: 0.01em; }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero p { font-size: 10.6pt; line-height: 1.75; max-width: 160mm; margin: 0; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1.2pt solid var(--ink); border-bottom: 0.6pt solid var(--rule); margin: 2mm 0 7mm; }
+  .stat { padding: 4mm 3mm 4mm 0; display: grid; gap: 1mm; }
+  .stat + .stat { padding-left: 4mm; border-left: 0.6pt solid var(--rule); }
+  .stat .n { font: 400 23pt/1.05 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums; }
+  .stat .n.hot { color: var(--accent); }
+  .stat .d { font-size: 8.1pt; line-height: 1.5; color: var(--muted); }
+
+  .summary { background: var(--paper); border: 0.6pt solid var(--rule); padding: 5mm 6mm; display: grid; gap: 3mm; break-inside: avoid; }
+  .summary h2 { font: 500 12pt/1.4 "Noto Serif SC", serif; }
+  .summary ol { margin: 0; padding-left: 5mm; display: grid; gap: 2mm; }
+  .summary li::marker { color: var(--accent); font-family: var(--mono); }
+
+  /* Sections */
+  section.chapter { break-before: page; }
+  section.chapter.flow { break-before: auto; margin-top: 12mm; }
+  .chapter-head { display: grid; gap: 1.5mm; padding-bottom: 4mm; margin-bottom: 5mm; border-bottom: 1.2pt solid var(--ink); }
+  .chapter-head h2 { font: 500 17pt/1.3 "Noto Serif SC", serif; }
+  .chapter-head p { margin: 0; color: var(--muted); font-size: 9.6pt; }
+  h3 { font: 500 11.4pt/1.4 var(--sans); margin: 6mm 0 2.5mm; display: flex; align-items: baseline; gap: 2.5mm; }
+  h3 .no { font: 400 8pt/1 var(--mono); color: var(--accent); letter-spacing: 0.06em; }
+  h4 { font: 500 9.8pt/1.4 var(--sans); margin: 3.5mm 0 1.5mm; }
+
+  ul.plain { margin: 0 0 2.5mm; padding: 0; list-style: none; display: grid; gap: 1.5mm; }
+  ul.plain li { position: relative; padding-left: 4.2mm; }
+  ul.plain li::before { content: ""; position: absolute; left: 0; top: 0.78em; width: 1.8mm; height: 0.6pt; background: var(--accent); }
+  ol.num { margin: 0 0 2.5mm; padding-left: 5.5mm; display: grid; gap: 1.4mm; }
+  ol.num li::marker { color: var(--accent); font-family: var(--mono); font-size: 8.4pt; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 8.5pt; line-height: 1.55; margin: 1.5mm 0 3.5mm; }
+  thead { display: table-header-group; }
+  tr { break-inside: avoid; }
+  th { text-align: left; font: 500 8pt/1.4 var(--sans); color: var(--ink); padding: 2mm 2.5mm 2mm 0; border-bottom: 1pt solid var(--ink); vertical-align: bottom; }
+  td { padding: 1.7mm 2.5mm 1.7mm 0; border-bottom: 0.6pt solid var(--rule); vertical-align: top; }
+  td:first-child { color: var(--ink); font-weight: 500; }
+  td.num { font-family: var(--mono); font-size: 8pt; color: var(--accent); white-space: nowrap; }
+
+  .callout { border-left: 2pt solid var(--accent); background: var(--accent-tint); padding: 3mm 4mm; margin: 2mm 0 4mm; break-inside: avoid; }
+  .callout p:last-child { margin: 0; }
+  .note { border: 0.6pt solid var(--rule); background: var(--paper); padding: 3mm 4mm; margin: 2mm 0 4mm; break-inside: avoid; }
+  .note p:last-child, .note ul:last-child { margin-bottom: 0; }
+
+  .channel { border-top: 0.6pt solid var(--ink); padding-top: 3mm; margin-top: 5mm; break-inside: avoid; }
+  .channel h3 { margin-top: 0; }
+  .channel .grid { display: grid; grid-template-columns: 22mm 1fr; gap: 1.6mm 4mm; font-size: 8.9pt; }
+  .channel .grid > span:nth-child(odd) { font: 400 7.6pt/1.7 var(--mono); color: var(--muted); letter-spacing: 0.04em; }
+
+  .steps { display: grid; grid-template-columns: repeat(7, 1fr); margin: 3mm 0 5mm; }
+  .step { padding: 2.5mm 2mm 2.5mm 0; border-top: 1.2pt solid var(--ink); display: grid; gap: 1mm; align-content: start; }
+  .step + .step { padding-left: 2mm; }
+  .step .no { font: 400 7.2pt/1 var(--mono); color: var(--accent); }
+  .step b { font: 500 9pt/1.35 var(--sans); }
+  .step span { font-size: 7.6pt; line-height: 1.45; color: var(--muted); }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .funnel { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1.2pt solid var(--ink); border-bottom: 0.6pt solid var(--rule); margin: 2mm 0 3mm; }
+  .funnel div { padding: 3mm 2mm 3mm 0; display: grid; gap: 0.6mm; }
+  .funnel div + div { padding-left: 3mm; border-left: 0.6pt solid var(--rule); }
+  .funnel .n { font: 400 18pt/1.1 var(--serif); color: var(--ink); }
+  .funnel .d { font-size: 7.8pt; color: var(--muted); line-height: 1.45; }
+
+  .sources { font-size: 7.4pt; line-height: 1.6; color: var(--muted); break-inside: avoid; }
+  .sources ol { padding-left: 5mm; margin: 0; }
+  .sources a { color: var(--muted); text-decoration: none; word-break: break-all; }
+  .end { margin-top: 8mm; padding-top: 4mm; border-top: 0.6pt solid var(--rule); display: flex; align-items: center; gap: 4mm; }
+  .end img { height: 8mm; }
+  .end b { display: block; font: 500 10pt/1.3 var(--sans); }
+  .end span { font: 400 8.4pt/1.3 var(--mono); }
+</style>
+</head>
+<body>
+
+<!-- Cover -->
+<header class="top">
+  <img src="img/simreal-logo-ink.png" alt="SimReal">
+  <div class="meta"><span class="label">Internal · Go-to-market</span><b>客户获取手册 · 2026 年 10 月</b></div>
+</header>
+
+<div class="hero">
+  <span class="label">How we find customers</span>
+  <h1>我们怎么找客户：<em>找谁、去哪找、怎么谈、怎么成交</em></h1>
+  <p>这份手册写给创始团队，讲 SimReal 获取客户的完整打法：谁会付钱、他们什么时候要买、通过哪些渠道找到他们、第一次电话问什么、怎么从样例走到合同，以及每周该做什么。所有名单、模板和材料都已准备好，文末附位置。</p>
+</div>
+
+<div class="stats">
+  <div class="stat"><span class="n">98</span><span class="d">家目标客户已建卡<br>海外 55 · 国内 43</span></div>
+  <div class="stat"><span class="n">112</span><span class="d">家渠道伙伴已建卡<br>数据公司 · 专家网络 · RL 环境</span></div>
+  <div class="stat"><span class="n hot">7 位数</span><span class="d">美元 / 季度<br>实验室环境合同的常见规模</span></div>
+  <div class="stat"><span class="n">4–5×</span><span class="d">独家合同相对非独家的<br>价格倍数</span></div>
+</div>
+
+<div class="summary">
+  <h2>一页看懂</h2>
+  <ol>
+    <li><b>付钱的有三类：</b>训练模型的公司（前沿实验室、国内大模型公司）；用 AI 和 Agent 做产品的公司（金融、法律、医疗、代码等垂直 AI，以及金融机构的 AI 团队）；手上有实验室合同、需要分包的渠道伙伴（数据公司、专家网络、RL 环境公司）。</li>
+    <li><b>先后顺序：</b>先做渠道伙伴分包，最快拿到收入和第一个案例；同时直接打前沿实验室，Anthropic 常是新环境公司的第一个客户；有了案例再打垂直 AI 和金融机构。</li>
+    <li><b>主力渠道：</b>伙伴分包、冷邮件和私信、引荐、采购帖和社群、公开基准带来的主动咨询、行业名录与供应商入库、会议和线下。</li>
+    <li><b>成交路径：</b>首次沟通 → 需求确认 → 样例或付费试点 → NDA 和安全审查 → 合同（预付 50%）→ 交付验收 → 扩单或长期合同。</li>
+    <li><b>我们的卖点就是买方的头号标准：</b>买方最看重验证器能不能被钻空子。我们的谜题基准经受 400 次作弊攻击 0 次成功，财务月结环境的评分漏洞从 6 个降到 0。</li>
+    <li><b>节奏：</b>每天发 8–10 封邮件或私信，24 小时内回复所有回信；每周 3–5 个首次电话、推进 1 个样例或试点；每周五复盘。</li>
+  </ol>
+</div>
+
+<!-- Chapter 1 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">01 · Market</span>
+    <h2>市场怎么运转：钱从哪来，买方看重什么</h2>
+    <p>先弄清买方的采购习惯，才能决定先找谁、先卖什么。</p>
+  </div>
+
+  <h3><span class="no">1.1</span>买方集中，合同大</h3>
+  <ul class="plain">
+    <li>向实验室卖数据和 RL 环境的公司有 50 多家，合计年收入约 85 亿美元，其中 75% 以上集中在 Scale、Surge、Mercor、Handshake 四家。<sup>[1]</sup></li>
+    <li>实验室的环境合同常见是<b>每季度七位数美元</b>；新实验室也有 30–50 万美元的合同，按任务数计价。单个 RL 任务 200–2,000 美元，复杂的软件工程任务可到 2 万美元。<sup>[2]</sup></li>
+    <li><b>独家合同价格约是非独家的 4–5 倍。</b>研究密集的实验室要"研究服务"，更可能要求独家；其他实验室更多直接买现成的。<sup>[2]</sup></li>
+  </ul>
+
+  <h3><span class="no">1.2</span>新供应商的第一个客户往往是 Anthropic</h3>
+  <p>Epoch AI 访谈了 18 位 RL 环境公司、新实验室和前沿实验室的从业者：Anthropic 常是几十家新公司的第一个客户，和十几家 RL 环境公司签了外包合同，有时给独家合同，还会指导环境怎么搭。<sup>[2]</sup> 所以在海外实验室里，Anthropic 是我们第一个要攻的目标。</p>
+
+  <h3><span class="no">1.3</span>买方的头号质量标准：验证器不能被钻空子</h3>
+  <p>Epoch 调研的环境公司创始人一致认为，最重要的质量标准是能不能防住 reward hacking：只要检查有漏洞，模型就会找到并利用它。<sup>[2]</sup> 这正是我们的卖点，每次沟通都要讲：</p>
+  <ul class="plain">
+    <li>谜题基准经受 400 次作弊攻击，0 次成功。</li>
+    <li>财务月结环境的评分漏洞从 6 个降到 0。</li>
+    <li>交易环境 Xitadel 让 Qwen3.8-27B 在从未见过的真实行情上交易表现提升 12%，多次独立运行均复现。</li>
+  </ul>
+
+  <h3><span class="no">1.4</span>大供应商也在分包</h3>
+  <p>Mercor 的转折点之一是：一家同行找它为自己的项目招 1,000 多名外包人员。<sup>[3]</sup> 据报道，Surge AI 和 Mercor 也在给中国实验室供数据。<sup>[4]</sup> 头部供应商同样缺高端专家和垂直环境，所以<b>给他们做分包是真实、可规模化的生意</b>，不只是过渡。</p>
+
+  <h3><span class="no">1.5</span>国内：大模型公司重样例，金融机构走招标</h3>
+  <ul class="plain">
+    <li>国内大模型公司的采购帖普遍要求：先给小批量 Demo 或样例，提供脱敏样本做内部测评，质检流程成熟，能稳定批量交付，技术团队懂 RL、SFT、LLM-as-a-Judge，拒绝低价流水线外包。</li>
+    <li>银行等金融机构用公开的供应商征集和招标采购大模型项目，有的要求供应商提供金融预训练语料和指令微调数据，例如兴业银行。<sup>[5]</sup> 可以直接报名，也可以找中标的集成商做分包。</li>
+  </ul>
+
+  <div class="callout">
+    <p><b>结论：</b>海外先打 Anthropic 等前沿实验室的 RL 环境和后训练团队，国内先打大模型公司的后训练和评测团队；同时给头部数据公司做分包，用最短路径拿到第一个案例。</p>
+  </div>
+</section>
+
+<!-- Chapter 2 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">02 · Customer profiles</span>
+    <h2>客户画像：五类买方，各找谁、各卖什么</h2>
+    <p>五类买方都已按这套分类建卡，放在审批页的"客户"和"渠道伙伴"标签里。</p>
+  </div>
+
+  <table>
+    <thead><tr><th style="width:22mm">类型</th><th style="width:36mm">代表公司</th><th style="width:30mm">找谁</th><th>他们买什么</th><th style="width:34mm">我们先卖什么</th></tr></thead>
+    <tbody>
+      <tr><td>A 前沿实验室<br><span class="muted" style="font-weight:400">海外</span></td><td>Anthropic、OpenAI、Google DeepMind、Meta、xAI、Amazon AGI、Mistral、Thinking Machines、Reflection AI</td><td>后训练、RL 环境、Human Data 负责人；数据采购和供应商管理</td><td>RL 环境与验证器、专家数据、私有评测；研究型实验室要独家和研究服务</td><td>金融 RL 环境（Xitadel、月结）＋专家 Rubric</td></tr>
+      <tr><td>B 国内大模型公司</td><td>月之暗面、智谱、DeepSeek、通义千问、字节 Seed、MiniMax、阶跃星辰、腾讯混元、百度文心、蚂蚁百灵</td><td>后训练、数据、评测、Agent / RL 负责人</td><td>SFT、CoT、偏好和奖励数据、Rubric、Agent 长程轨迹、评测集</td><td>金融、法律、医疗专家数据和 Rubric；Agent 轨迹</td></tr>
+      <tr><td>C 垂直 AI 与 Agent 公司</td><td>Harvey、Hebbia、Rogo、AlphaSense、OpenEvidence、Abridge、Cursor、Cognition；国内金融 Agent 创业公司</td><td>AI 或算法负责人、评测负责人</td><td>私有评测集、领域专家数据、Agent 评测环境</td><td>私有 Benchmark ＋专家 Rubric</td></tr>
+      <tr><td>D 金融机构 AI 团队</td><td>平安、招行、华泰、恒生电子、同花顺、东方财富；高盛、摩根大通、Two Sigma、Point72、Balyasny</td><td>AI 实验室负责人、首席数据官、量化研究负责人</td><td>金融语料、指令微调数据、内部模型和 Agent 评测</td><td>金融 Agent 评测环境＋专家数据</td></tr>
+      <tr><td>E 渠道伙伴（分包）</td><td>Scale、Mercor、Turing、Handshake AI、Invisible、micro1、Toloka；海天瑞声、数据堂、整数智能、龙猫数据</td><td>BD、供给、交付负责人；小公司找创始人</td><td>高端领域专家、能白标交付的环境和验证器</td><td>专家供给＋环境白标</td></tr>
+    </tbody>
+  </table>
+
+  <h3><span class="no">2.1</span>每类的采购特点</h3>
+  <table>
+    <thead><tr><th style="width:22mm">类型</th><th style="width:34mm">单笔规模</th><th style="width:32mm">决策周期</th><th>门槛与注意</th></tr></thead>
+    <tbody>
+      <tr><td>A 前沿实验室</td><td>大：环境合同常见每季度七位数美元</td><td>长：安全审查和法务是最慢的一步</td><td>要 NDA、数据处理说明；研究型实验室要独家。先拿一个小任务包证明质量</td></tr>
+      <tr><td>B 国内大模型公司</td><td>中：按条或按项目</td><td>中：样例过了就能下单</td><td>看样例、质检、交付规模；价格敏感，要讲清专家数据和众包的区别</td></tr>
+      <tr><td>C 垂直 AI</td><td>小到中，单价高</td><td>短：负责人往往能直接拍板</td><td>在乎领域专业度和保密；评测集通常要独家</td></tr>
+      <tr><td>D 金融机构</td><td>中到大，走预算</td><td>长：供应商征集、招标、合规</td><td>国内数据不出境；常通过集成商采购，可做分包</td></tr>
+      <tr><td>E 渠道伙伴</td><td>中，量稳定</td><td>短：有项目就开工</td><td>毛利低于直签；合同写清客户归属和竞业；按报价单的伙伴价</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Chapter 3 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">03 · Buying signals</span>
+    <h2>购买信号：怎么判断谁现在要买</h2>
+    <p>冷邮件失败，多半是找错了人、找错了时机，而不是写得不好。每周一花 30 分钟看下面这些信号，看到就更新审批页的卡片和开场句。</p>
+  </div>
+
+  <table>
+    <thead><tr><th style="width:42mm">信号</th><th style="width:48mm">去哪看</th><th>怎么用</th></tr></thead>
+    <tbody>
+      <tr><td>发布新模型或技术报告，提到外部数据、RL 环境、评测</td><td>arXiv、官方博客、X、Hugging Face</td><td>开场句引用报告里的具体细节，说明我们能补哪一块</td></tr>
+      <tr><td>招聘后训练、数据、RL 环境、评测岗位</td><td>官网招聘页；LinkedIn、BOSS 直聘只浏览</td><td>说明团队在扩这块；岗位描述里的任务类型就是我们的切入点</td></tr>
+      <tr><td>公开采购帖：Rubric、SFT、Agent 轨迹、评测</td><td>小红书、即刻、微信群、X</td><td>24 小时内回复，用关键词版短消息，附样例</td></tr>
+      <tr><td>刚融到钱</td><td>36 氪、晚点、TechCrunch、公司公告</td><td>融资后 1–3 个月通常是扩团队、买数据的窗口</td></tr>
+      <tr><td>发布 Benchmark 或排行榜</td><td>GitHub、Hugging Face、论文</td><td>提供更难的私有题目或领域版本</td></tr>
+      <tr><td>金融机构的大模型招标、供应商征集</td><td>银行官网采购公告、千里马等招标网站</td><td>按公告报名；或者找中标的集成商做数据分包</td></tr>
+      <tr><td>同行数据公司在找专家或甲方项目</td><td>小红书、朋友圈、行业群</td><td>互相分包：我们出专家和环境，对方出客户或多模态资源</td></tr>
+      <tr><td>新模型在我们的公开基准上表现异常</td><td>每次大模型发布后自己跑 Xitadel 等基准</td><td>把具体失败案例发给对方团队，作为开场</td></tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    <p><b>红线：</b>所有平台只人工浏览、手动发送，不在 LinkedIn、脉脉、微信、X 上做任何自动操作。联系人只用公开的职业信息，邮箱只用本人或公司公开发布的地址。</p>
+  </div>
+</section>
+
+<!-- Chapter 4 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">04 · Channels</span>
+    <h2>七条获客渠道</h2>
+    <p>按优先级排列。前三条现在就做，后四条每周固定投入一点时间。</p>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 1</span>渠道伙伴分包（第一优先）</h3>
+    <div class="grid">
+      <span>为什么</span><span>伙伴手上已有实验室合同，安全审查也过了。我们借道进入，最快拿到收入和案例；我们已经在给 Surge AI 和 AfterQuery 供给，这条路已经验证过。</span>
+      <span>找谁</span><span>审批页"渠道伙伴"标签里的 112 家：人类数据 33、RL 环境 28、标注平台 16、评测 15、专家网络 14 等。找 BD、供给、交付负责人，小公司找创始人。</span>
+      <span>怎么做</span><span>发伙伴邮件 → 20 分钟电话 → 提出"先接一个项目试试" → 签分包或白标协议 → 按项目交付。</span>
+      <span>用什么</span><span>伙伴邮件模板（第 4、10 天跟进）、公司简介 PDF、报价单里的伙伴价。</span>
+      <span>注意</span><span>合同写清客户归属、竞业和保密；伙伴的直接竞品放到后面再谈。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 2</span>直接找实验室和模型团队的负责人</h3>
+    <div class="grid">
+      <span>为什么</span><span>合同最大；Anthropic 常是新供应商的第一个客户。</span>
+      <span>找谁</span><span>审批页"客户"标签里的 98 家：frontier lab 26、国内大模型公司 28、垂直 AI 21、金融机构 21、咨询公司 2。找后训练、RL 环境、Human Data、评测负责人。</span>
+      <span>怎么做</span><span>每封邮件一句开场，引用对方最近的模型、报告或岗位，再给一个具体可交付的东西，比如一个金融 RL 环境 Demo、20 条样例数据或一份私有评测。邮件不超过 150 字或 120 词；第 4、10 天跟进。</span>
+      <span>用什么</span><span>客户邮件模板、短消息模板（邮件和私信通用）、邮箱大全。</span>
+      <span>注意</span><span>发到官方通用邮箱时，第一句写明请转交哪位负责人。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 3</span>引荐：朋友、投资人、校友</h3>
+    <div class="grid">
+      <span>为什么</span><span>引荐的回复率远高于冷邮件。投资人最常见的增值服务，就是把你介绍给他们的被投公司。</span>
+      <span>怎么做</span><span>① 把"我们在找的客户"那段话发给朋友，请他们拉群或推微信；② 每次见完投资人，请对方介绍 1–2 家被投的模型或 AI 应用公司；③ 找在实验室工作的剑桥、量化校友，请他们引荐后训练团队。</span>
+      <span>用什么</span><span>发给朋友的引荐说明（完整版和短版）、微信版模板。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 4</span>采购帖和社群</h3>
+    <div class="grid">
+      <span>为什么</span><span>发帖的人需求明确、预算已批，转化最快。</span>
+      <span>怎么做</span><span>每天看一次小红书、即刻、微信群和 X 上的采购帖。24 小时内回复：先用关键词对上对方的需求，再附样例或 Demo 邀请。</span>
+      <span>用什么</span><span>短消息模板：Rubric 采购、金融 Agent 轨迹、基座模型长期采购、数据同行四个版本。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 5</span>用产品和公开基准带来主动咨询</h3>
+    <div class="grid">
+      <span>为什么</span><span>实验室研究员看结果、不看广告。Xitadel 公开版上前沿模型最高只有 77.3 分，人类参考线是 80 分，本身就是话题。</span>
+      <span>怎么做</span><span>① 每次有大模型发布，就跑我们的公开基准，在 X 上发结果，并把失败案例私信给对方团队；② 写 1–2 篇技术文章，讲怎么防 reward hacking（漏洞从 6 个降到 0）；③ 在实验室研究员活跃的社群里分享。</span>
+      <span>注意</span><span>对外材料暂时不放 GitHub 链接。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 6</span>行业名录、交易所和供应商入库</h3>
+    <div class="grid">
+      <span>怎么做</span><span>① 提交到 rl-list.com 和 Pavlov's List 两个 RL 环境与数据公司名录，实验室和投资人都在看；② 国内在上海、北京、深圳的数据交易所上架数据产品（交易所已在伙伴名单里）；③ 和大厂的对接人谈过以后，走对方的采购平台完成供应商注册。</span>
+    </div>
+  </div>
+
+  <div class="channel">
+    <h3><span class="no">渠道 7</span>会议和线下</h3>
+    <div class="grid">
+      <span>怎么做</span><span>NeurIPS 2026：主会场在悉尼（12 月 6–12 日），亚特兰大和巴黎有分会场（12 月 8–13 日）。<sup>[6]</sup> 提前约好后训练研究员见面，或者办一场小型晚宴或闭门交流；国内关注智源大会、WAIC 等大会。会前两周发邮件约时间，比现场碰运气有效。</span>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter 5 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">05 · From first call to contract</span>
+    <h2>从第一次沟通到签约</h2>
+    <p>每一步要拿到什么、用什么材料。条款和报价单一致。</p>
+  </div>
+
+  <div class="steps">
+    <div class="step"><span class="no">01</span><b>首次沟通</b><span>20–30 分钟，问清需求</span></div>
+    <div class="step"><span class="no">02</span><b>需求确认</b><span>格式、规模、验收、时间表写成需求单</span></div>
+    <div class="step"><span class="no">03</span><b>样例或试点</b><span>免费样例 5–20 条，或付费试点</span></div>
+    <div class="step"><span class="no">04</span><b>NDA 与安全</b><span>保密协议、数据处理说明</span></div>
+    <div class="step"><span class="no">05</span><b>合同</b><span>预付 50%，约定验收标准</span></div>
+    <div class="step"><span class="no">06</span><b>交付验收</b><span>5 个工作日内验收，合格率 ≥95%</span></div>
+    <div class="step"><span class="no">07</span><b>扩单</b><span>持续训练、独家定制、长期合同</span></div>
+  </div>
+
+  <h3><span class="no">5.1</span>第一次电话问这 10 个问题</h3>
+  <ol class="num">
+    <li>你们现在在训练或评测哪项能力？用在哪个模型或产品上？</li>
+    <li>现在的数据从哪来：自己做、外包还是合成？卡在哪里？</li>
+    <li>需要什么形式：SFT、偏好数据、Rubric、Agent 轨迹，还是环境加验证器？</li>
+    <li>要多少量，时间表是什么？</li>
+    <li>怎么验收：抽检比例、合格率、谁来评？</li>
+    <li>对专家有什么要求：领域、资格、语种？</li>
+    <li>要独家还是非独家？</li>
+    <li>安全和合规有什么要求：NDA、数据不出境、模型使用条款？</li>
+    <li>预算大概多少？采购流程是什么，谁来批，要多久？</li>
+    <li>以前用过哪些供应商，哪里不满意？如果试点成功，下一步量有多大？</li>
+  </ol>
+
+  <h3><span class="no">5.2</span>提前准备好安全审查材料</h3>
+  <p>和前沿实验室合作，最耗时的一步往往是供应商安全审查；深入技术交流之前，要先签双向 NDA。<sup>[7]</sup> 提前准备一份标准答复：</p>
+  <ul class="plain">
+    <li>数据怎么产生、存在哪、谁能接触、多久删除。</li>
+    <li>专家怎么签保密协议和知识产权转让。</li>
+    <li>会不会把客户数据用于别的客户或训练别的模型（答案必须是不会）。</li>
+    <li>用了哪些第三方工具和模型服务。</li>
+  </ul>
+
+  <h3><span class="no">5.3</span>常见顾虑和回答</h3>
+  <table>
+    <thead><tr><th style="width:38mm">对方说</th><th>我们怎么答</th></tr></thead>
+    <tbody>
+      <tr><td>"你们太新了"</td><td>先做小批量试点，验收合格再付尾款；团队来自 Jane Street、Citadel、Millennium；已在为 Surge AI、AfterQuery 供给。</td></tr>
+      <tr><td>"我们已经有 Scale / Surge / Mercor"</td><td>我们专做金融等高门槛领域，以及环境加验证器，不抢通用量。也可以通过他们分包给你们。</td></tr>
+      <tr><td>"我们自己做"</td><td>实验室内部团队同样会把难做的环境外包出去。我们提供防作弊的验证器和领域专家，帮你们省时间，内部团队专注研究。</td></tr>
+      <tr><td>"太贵"</td><td>按难度分级报价；非独家更便宜；试点费可协商抵扣正式订单。</td></tr>
+      <tr><td>"质量怎么保证"</td><td>上线前做对抗测试（400 次攻击 0 次成功，漏洞从 6 个降到 0）；双人复核；合同写明验收标准：合格率 ≥95%。</td></tr>
+      <tr><td>"合规呢"</td><td>只用自有专家、经本人同意产生的数据；国内项目数据不出境；Agent 轨迹会事先说明模型使用条款的限制。</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Chapter 6 -->
+<section class="chapter flow">
+  <div class="chapter-head">
+    <span class="label">06 · Cadence &amp; metrics</span>
+    <h2>每周节奏和指标</h2>
+    <p>节奏比单封邮件写得多好更重要。下面的数字是起步建议，按实际回复率每两周调一次。</p>
+  </div>
+
+  <div class="two">
+    <div>
+      <h4>每周节奏</h4>
+      <ul class="plain">
+        <li><b>周一：</b>看信号（新模型、采购帖、融资、招标），更新审批页卡片和开场句，30 分钟。</li>
+        <li><b>每天：</b>发 8–10 封邮件或私信（伙伴加客户），24 小时内回复所有回信。</li>
+        <li><b>每周：</b>3–5 个首次电话，推进至少 1 个样例或试点。</li>
+        <li><b>周五：</b>复盘回复率、会议数、试点数；把回复最好的开场句写法用到下周。</li>
+      </ul>
+    </div>
+    <div>
+      <h4>分工建议</h4>
+      <ul class="plain">
+        <li><b>CEO：</b>前沿实验室、金融机构、投资人引荐。</li>
+        <li><b>CTO：</b>技术电话、样例和 Demo、安全审查答复。</li>
+        <li><b>COO：</b>渠道伙伴、合同和交付、专家调度。</li>
+        <li><b>CPO：</b>公开基准、内容、采购帖和社群。</li>
+      </ul>
+    </div>
+  </div>
+
+  <h4>漏斗（每 200 次触达的估算）</h4>
+  <div class="funnel">
+    <div><span class="n">200</span><span class="d">邮件和私信</span></div>
+    <div><span class="n">10–20</span><span class="d">回复（5–10%）</span></div>
+    <div><span class="n">5–10</span><span class="d">首次电话</span></div>
+    <div><span class="n">2–3</span><span class="d">样例或试点</span></div>
+    <div><span class="n">1</span><span class="d">合同</span></div>
+  </div>
+  <p class="fine">冷邮件的平均回复率是 1–5%；个性化、再加上具体数据，能到 10–15%。<sup>[8]</sup> 引荐和采购帖的转化率会高得多。</p>
+
+  <h4>跟踪</h4>
+  <p>审批页记录每封邮件的发送、跟进和结果，每周导出一次 CSV 看漏斗。每张卡片的结果只分四种：没回复、回复但没兴趣、约到电话、进入试点。</p>
+</section>
+
+<!-- Chapter 7 -->
+<section class="chapter">
+  <div class="chapter-head">
+    <span class="label">07 · 90-day plan</span>
+    <h2>90 天计划</h2>
+    <p>目标是建议值，按实际进度调整。</p>
+  </div>
+
+  <table>
+    <thead><tr><th style="width:26mm">时间</th><th>要做的事</th><th style="width:44mm">完成标志</th></tr></thead>
+    <tbody>
+      <tr><td>第 1–30 天</td><td>发完第一批伙伴（约 40 家）和第一批客户（约 30 家）；准备三套标准样例包：金融 Rubric、Agent 长程轨迹、Xitadel 环境 Demo；提交 rl-list 和 Pavlov's List；写好安全审查标准答复</td><td>1–2 个分包项目或样例在做</td></tr>
+      <tr><td>第 31–60 天</td><td>发第二批伙伴和客户；新模型发布时跑公开基准并发帖；把第一个项目做成脱敏案例；跟进所有试点的验收</td><td>1–2 个付费试点；第一个案例</td></tr>
+      <tr><td>第 61–90 天</td><td>用案例打垂直 AI 和金融机构；参加 NeurIPS（12 月）；把方向扩展到法律、医疗</td><td>第一个长期合同或持续训练订单</td></tr>
+    </tbody>
+  </table>
+
+  <h3><span class="no">7.1</span>现成材料在哪</h3>
+  <table>
+    <thead><tr><th style="width:44mm">材料</th><th>位置（outreaching 仓库）</th></tr></thead>
+    <tbody>
+      <tr><td>审批页（客户、伙伴、投资人卡片，一键生成 Gmail 草稿，记录发送和跟进）</td><td>claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2</td></tr>
+      <tr><td>公司简介与产品清单（PDF）</td><td>collateral/SimReal-公司简介.pdf</td></tr>
+      <tr><td>产品与服务报价单（Word）</td><td>collateral/SimReal-产品与服务报价单.docx</td></tr>
+      <tr><td>邮箱大全</td><td>collateral/SimReal-邮箱大全.xlsx</td></tr>
+      <tr><td>邮件模板（伙伴、投资人、客户，含跟进）</td><td>ops/templates.md</td></tr>
+      <tr><td>短消息模板（采购帖关键词版、手动发送版）</td><td>ops/templates-dm.md</td></tr>
+      <tr><td>发给朋友的引荐说明</td><td>ops/target-customers.md</td></tr>
+      <tr><td>产品速查（各类数据是什么、买方看重什么）</td><td>ops/data-products.md</td></tr>
+    </tbody>
+  </table>
+
+  <h3><span class="no">7.2</span>合规红线</h3>
+  <ul class="plain">
+    <li>所有邮件和消息只写草稿，由人审核后手动发送。不在任何平台上自动操作。</li>
+    <li>联系人只用公开的职业信息；邮箱只用本人或公司公开的地址，不按格式猜，不用数据经纪网站。</li>
+    <li>对外写"7,000+ 专家已报名，通过 21 所合作高校可触达 20 万+ 专业人士"，不写"20 万已验证专家"。</li>
+    <li>Agent 轨迹只用自有专家、经本人同意产生的记录；部分模型的使用条款禁止用其输出训练别的模型，要事先和买方说清楚。</li>
+    <li>和中国机构合作前，先确认对方是否在美国实体清单上，以及我们的海外客户合同有没有相关限制。</li>
+  </ul>
+
+  <div class="sources">
+    <h4 style="margin-top:6mm">来源</h4>
+    <ol>
+      <li>Deedy Das（Menlo Ventures），2026 年 7 月：<a href="https://x.com/deedydas/status/2076124392711696455">x.com/deedydas/status/2076124392711696455</a></li>
+      <li>Epoch AI，An FAQ on Reinforcement Learning Environments：<a href="https://epoch.ai/gradient-updates/state-of-rl-envs">epoch.ai/gradient-updates/state-of-rl-envs</a></li>
+      <li>Contrary Research，Mercor：<a href="https://research.contrary.com/company/mercor">research.contrary.com/company/mercor</a></li>
+      <li>Forbes，2026-08-05：<a href="https://www.forbes.com/sites/annatong/2026/08/05/silicon-valleys-other-china-problem-its-training-their-ai/">forbes.com/sites/annatong/2026/08/05/…</a></li>
+      <li>移动支付网，兴业银行大模型招标：<a href="https://m.mpaypass.com.cn/news/202408/23150542.html">m.mpaypass.com.cn/news/202408/23150542.html</a></li>
+            <li>AI Weekly，NeurIPS 2026 分会场：<a href="https://aiweekly.co/alerts/neurips-2026-splits-across-sydney-atlanta-and-paris-in-december">aiweekly.co/alerts/neurips-2026-…</a></li>
+      <li>Merciv，AI Vendor Legal Review：<a href="https://www.merciv.com/blog/ai-vendor-security-review-process">merciv.com/blog/ai-vendor-security-review-process</a></li>
+      <li>Prospeo，How to Cold Email Investors：<a href="https://prospeo.io/s/how-to-cold-email-investors">prospeo.io/s/how-to-cold-email-investors</a></li>
+    </ol>
+  </div>
+
+  <div class="end">
+    <img src="img/simreal-mark-ink.png" alt="">
+    <div><b>SimReal</b><span>business@simreal.co · simreal.co</span></div>
+  </div>
+</section>
+
+</body>
+</html>
