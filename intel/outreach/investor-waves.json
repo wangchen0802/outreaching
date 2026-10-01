@@ -278,5 +278,10 @@
   "wave": 9,
   "why": "成长期基金或已投竞品，种子阶段不对口",
   "from": "growth"
+ },
+ "air-street-capital": {
+  "wave": 1,
+  "why": "只投 AI-first 公司，官网写明回复所有可信的创业者来信；创始人剑桥博士，State of AI 报告一直在跟 RL 后训练。",
+  "from": "air-street"
  }
 }

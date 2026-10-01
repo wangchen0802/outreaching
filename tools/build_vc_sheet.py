@@ -1,12 +1,14 @@
-"""Build collateral/SimReal-海外VC名单.xlsx from intel/outreach/vc-overseas-refresh.json and the drafts.
+"""Build collateral/SimReal-海外VC名单.xlsx from lists/investors.csv, the investor waves and the drafts.
 
-Sheets: 可直接发邮件 (a published address), 无公开邮箱 (form / profile / intro), 暂不联系, 说明.
-Needs openpyxl.
+Overseas investors only. Sheets: 可直接发邮件 (a published address), 无公开邮箱 (form, public
+profile or intro), 暂不联系 (wave 9), 说明. Needs openpyxl.
 
 Usage: python3 tools/build_vc_sheet.py
 """
+import csv
 import json
 import pathlib
+import re
 import sys
 
 from openpyxl import Workbook
@@ -18,8 +20,12 @@ import drafts  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "collateral" / "SimReal-海外VC名单.xlsx"
+EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 NONE = ("", "未找到", "无")
-TYPE_RANK = {"个人公开": 0, "官方投递": 1, "官方通用": 2, "未找到": 3}
+WAVE_LABEL = {1: "第 1 批：先发", 2: "第 2 批", None: "第 2 批", 3: "第 3 批：最重要，话术熟了再发"}
+WAVE_RANK = {1: 0, 2: 1, None: 1, 3: 2}
+CONF_RANK = {"高": 0, "中": 1, "低": 2}
+OFFICIAL_INBOX = ("pitch@", "seed@", "deals@", "submit@", "apply@", "embed@", "aistart@", "ventures@", "build@", "strategicvc@")
 HEAD_FONT = Font(name="Arial", bold=True, color="FFFFFF")
 HEAD_FILL = PatternFill("solid", fgColor="111110")
 BODY_FONT = Font(name="Arial", size=10)
@@ -30,12 +36,24 @@ def blank(v):
     return (v or "").strip() in NONE
 
 
-def how_to(r):
-    who = r["contact"] if not blank(r["contact"]) else ""
-    if r["emailType"] == "个人公开":
-        return f"直接写给 {who}" if who else "直接发"
+def address(r):
+    """(email, type, source) for a row: the partner's own address first, then a fund inbox."""
+    if not blank(r["邮箱"]):
+        return r["邮箱"].strip(), "个人公开", r["邮箱来源"]
+    m = EMAIL.search(r["备用渠道"] or "")
+    if m:
+        e = m.group(0)
+        kind = "官方投递" if e.lower().startswith(OFFICIAL_INBOX) else "官方通用"
+        return e, kind, r["备用渠道"]
+    return "", "", ""
+
+
+def how_to(r, kind):
+    who = r["联系人"] if not blank(r["联系人"]) else ""
+    if kind == "个人公开":
+        return f"直接写给 {who}"
     if who:
-        return f"第一句写明请转交 {who}（Could you forward this to {who}?）"
+        return f"第一句写明请转交 {who}（Could you pass this to {who}?）"
     return "写给团队（Hi team）"
 
 
@@ -60,55 +78,60 @@ def sheet(wb, title, cols, rows):
             cell.font, cell.alignment = BODY_FONT, WRAP
     for i, (_, width) in enumerate(cols, 1):
         ws.column_dimensions[get_column_letter(i)].width = width
-    ws.freeze_panes = "C2"
+    ws.freeze_panes = "D2"
     ws.auto_filter.ref = ws.dimensions
-    return ws
 
 
 def main():
-    recs = json.loads((ROOT / "intel" / "outreach" / "vc-overseas-refresh.json").read_text(encoding="utf-8"))
-    keep = [r for r in recs if r["keep"]]
-    order = lambda r: (r["priority"], TYPE_RANK[r["emailType"]], r["name"].lower())  # noqa: E731
-    with_email = sorted([r for r in keep if not blank(r["email"])], key=order)
-    no_email = sorted([r for r in keep if blank(r["email"])], key=order)
-    dropped = sorted([r for r in recs if not r["keep"]], key=lambda r: r["name"].lower())
+    with open(ROOT / "lists" / "investors.csv", encoding="utf-8-sig") as f:
+        rows = [r for r in csv.DictReader(f) if r["地区"].startswith("海外")]
+    waves = json.loads((ROOT / "intel" / "outreach" / "investor-waves.json").read_text(encoding="utf-8"))
+    for r in rows:
+        w = waves.get(r["slug"], {})
+        r["_wave"], r["_why"] = w.get("wave"), w.get("why", "")
+        r["_email"], r["_kind"], r["_src"] = address(r)
+    order = lambda r: (WAVE_RANK.get(r["_wave"], 1), CONF_RANK.get(r["置信度"], 1), r["名称"].lower())  # noqa: E731
+    live = [r for r in rows if r["_wave"] != 9]
+    with_email = sorted([r for r in live if r["_email"]], key=order)
+    no_email = sorted([r for r in live if not r["_email"]], key=order)
+    later = sorted([r for r in rows if r["_wave"] == 9], key=lambda r: r["名称"].lower())
 
     wb = Workbook()
     wb.remove(wb.active)
-    cols = [("序号", 6), ("优先级", 7), ("机构", 22), ("类型", 8), ("地区", 14), ("联系人", 18), ("职位", 26),
-            ("邮箱", 30), ("邮箱类型", 10), ("写法", 30), ("开场句（英文，已写进正文）", 60), ("为什么找他们", 40),
-            ("冲突 / 注意", 36), ("投资阶段", 18), ("邮箱来源", 50), ("联系人来源", 40), ("审批页卡片", 22),
-            ("邮件主题", 40), ("邮件正文", 90)]
-    rows = []
+    cols = [("序号", 6), ("批次", 14), ("机构", 22), ("类型", 8), ("地区", 14), ("联系人", 18), ("职位", 26),
+            ("邮箱", 30), ("邮箱类型", 10), ("写法", 30), ("开场句（英文，已写进正文）", 60), ("为什么找他们", 44),
+            ("注意", 44), ("邮箱来源", 60), ("联系人来源", 44), ("审批页卡片", 22), ("邮件主题", 40), ("邮件正文", 90)]
+    out = []
     for i, r in enumerate(with_email, 1):
         subject, body = email_of(r["slug"])
-        rows.append([i, r["priority"], r["name"], r["type"], r["region"], r["contact"], r["role"], r["email"],
-                     r["emailType"], how_to(r), r["hook"], r["thesisFit"], r["conflicts"], r["stage"],
-                     f"{r['emailSource']} ｜ 原文：{r['emailEvidence']}", r["contactSource"], "v-" + r["slug"],
-                     subject, body])
-    sheet(wb, "可直接发邮件", cols, rows)
+        out.append([i, WAVE_LABEL.get(r["_wave"], "第 2 批"), r["名称"], r["类型"], r["地区"], r["联系人"], r["职位"],
+                    r["_email"], r["_kind"], how_to(r, r["_kind"]), r["钩子"], r["_why"] or r["切入点"], r["风险"],
+                    r["_src"], r["联系人来源"], "v-" + r["slug"], subject, body])
+    sheet(wb, "可直接发邮件", cols, out)
 
-    cols = [("序号", 6), ("优先级", 7), ("机构", 22), ("类型", 8), ("地区", 14), ("联系人", 18), ("职位", 26),
-            ("备用渠道（表单 / 公开主页）", 60), ("开场句（英文）", 60), ("为什么找他们", 40), ("冲突 / 注意", 36),
-            ("联系人来源", 40), ("审批页卡片", 22)]
-    rows = [[i, r["priority"], r["name"], r["type"], r["region"], r["contact"], r["role"], r["altChannel"],
-             r["hook"], r["thesisFit"], r["conflicts"], r["contactSource"], "v-" + r["slug"]]
-            for i, r in enumerate(no_email, 1)]
-    sheet(wb, "无公开邮箱", cols, rows)
+    cols = [("序号", 6), ("批次", 14), ("机构", 22), ("类型", 8), ("地区", 14), ("联系人", 18), ("职位", 26),
+            ("备用渠道（官网表单 / 公开主页）", 60), ("开场句（英文）", 60), ("为什么找他们", 44), ("注意", 44),
+            ("联系人来源", 44), ("审批页卡片", 22)]
+    out = [[i, WAVE_LABEL.get(r["_wave"], "第 2 批"), r["名称"], r["类型"], r["地区"], r["联系人"], r["职位"],
+            r["备用渠道"], r["钩子"], r["_why"] or r["切入点"], r["风险"], r["联系人来源"], "v-" + r["slug"]]
+           for i, r in enumerate(no_email, 1)]
+    sheet(wb, "无公开邮箱", cols, out)
 
-    cols = [("机构", 26), ("联系人", 20), ("原因", 80)]
-    sheet(wb, "暂不联系", cols, [[r["name"], r["contact"], r["dropReason"]] for r in dropped])
+    sheet(wb, "暂不联系", [("机构", 26), ("联系人", 22), ("原因", 80)],
+          [[r["名称"], r["联系人"], r["_why"]] for r in later])
 
     ws = wb.create_sheet("说明")
+    personal = sum(1 for r in with_email if r["_kind"] == "个人公开")
     notes = [
-        f"共 {len(recs)} 家海外投资人：可直接发邮件 {len(with_email)} 家，无公开邮箱 {len(no_email)} 家，暂不联系 {len(dropped)} 家。",
-        "优先级：A = 2025–2026 投过 RL 环境 / 专家数据 / 评测 / 后训练公司（或公开写过这个方向），投种子，且有可用邮箱；B = 方向对但没邮箱，或有邮箱但匹配弱一些；C = 弱相关，或大机构只能靠引荐。",
-        "邮箱类型：个人公开 = 本人或所在基金公开发布的本人地址；官方投递 = 基金公开的 BP 投递邮箱（pitch@、deals@ 等）；官方通用 = info@、hello@ 等。",
-        "所有邮箱都由第二个调研员逐条复核：搜到本人或基金公开发布的原文才保留。没有按格式猜，没有用 RocketReach、ContactOut 等数据经纪网站。",
-        "发到官方邮箱时，第一句写明请转交哪位合伙人（见'写法'列）。",
-        "发件邮箱 business@simreal.co。正文按模板 ops/templates.md 生成，开场句是针对这家机构的一句话；跟进：第 5 天、第 12 天（模板同一处）。",
-        "审批页（https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2）的'投资人'标签里有同样的卡片，可以一键打开 Gmail 草稿并记录发送和跟进。",
-        "来源后面标'(搜索摘要)'的，是在搜索结果里看到的原文；本环境打不开基金官网，发之前可以点开来源再看一眼。",
+        f"海外投资人共 {len(rows)} 家：可直接发邮件 {len(with_email)} 家（其中合伙人本人邮箱 {personal} 家，基金官方邮箱 {len(with_email) - personal} 家），"
+        f"无公开邮箱 {len(no_email)} 家，暂不联系 {len(later)} 家。",
+        "批次：第 1 批是匹配度高、冲突小的种子基金和天使，先发，用回复打磨话术；第 3 批是最重要的几家，话术成熟后再发。",
+        "邮箱只用本人或所在基金公开发布的地址，'邮箱来源'列写了出处。没有按格式猜，没有用 RocketReach、ZoomInfo 等数据经纪网站。",
+        "标'搜索摘要'的来源是在搜索结果里看到的；本环境打不开基金官网，发之前可以点开来源再确认一次。",
+        "发到基金官方邮箱时，第一句写明请转交哪位合伙人（见'写法'列）。",
+        "正文由 ops/templates.md 的投资人模板生成，开场句针对每家机构。跟进：第 5 天、第 12 天，模板在同一个文件。",
+        "发件邮箱 business@simreal.co。审批页（https://claude.ai/artifact/WCBiAySyzEqAHkJ2YkbUj2）'投资人'标签里有同样的卡片，可以一键打开 Gmail 草稿并记录发送和跟进。",
+        "无公开邮箱的机构：优先找共同联系人引荐；其次用官网表单，或在 X / LinkedIn 上手动私信本人。",
     ]
     for n in notes:
         ws.append([n])
@@ -119,7 +142,8 @@ def main():
 
     OUT.parent.mkdir(exist_ok=True)
     wb.save(OUT)
-    print(f"wrote {OUT.relative_to(ROOT)}: {len(with_email)} with email, {len(no_email)} without, {len(dropped)} dropped")
+    print(f"wrote {OUT.relative_to(ROOT)}: {len(with_email)} with email ({personal} personal), "
+          f"{len(no_email)} without, {len(later)} not now")
 
 
 if __name__ == "__main__":
