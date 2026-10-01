@@ -42,23 +42,25 @@
 - **种子轮冷邮件有用**：B 轮以后投资人基本只看引荐。（[SaaStr](https://www.saastr.com/dear-saastr-does-cold-emailing-vcs-work-what-are-some-tactics-to-help-increase-the-odds/)）
 - **失败的头号原因是找错人**，不是写得不好：阶段、方向、单笔金额要对得上。
 
-我们现在的投资人模板将近 200 词，建议换成下面这个短版（约 100 词）。短版拿掉了"两家前沿实验室在谈"和"GitHub 500+ 星"，这两条还没确认，先不对外写。
+投资人邮件已全部换成短版（`ops/templates.md`，审批页同步更新）。短版拿掉了"两家前沿实验室在谈"和"GitHub 500+ 星"，这两条还没确认，先不对外写：
 
 ```
 Subject: SimReal: RL environments for finance, built by ex-Jane Street and Citadel quants (seed)
 
 Hi [Name],
 
+I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments and verifiers where models do real work and are scored on real outcomes.
+
 [Hook]
 
-I'm [Your name], co-founder of SimReal. We build RL environments and verifiers where models do real finance work and are scored on real outcomes. Our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up.
-
-We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke), raising a $20M seed.
+Our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across independent runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke), raising a $20M seed and in conversations with tier-1 funds.
 
 Worth 20 minutes? Happy to send the deck.
 
+Best,
 [Your name]
-SimReal | business@simreal.co
+Co-founder, SimReal
+business@simreal.co | simreal.co
 ```
 
 ## 现在能申请的项目（按截止时间）

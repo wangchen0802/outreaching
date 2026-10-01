@@ -25,20 +25,17 @@
 
 ## 邮件
 
-Subject: SimReal: RL environments where AI learns from real outcomes (seed)
+Subject: SimReal: RL environments for finance, built by ex-Jane Street and Citadel quants (seed)
 
 Hi Faraz,
 
-I'm [Your name], co-founder of SimReal (simreal.co). We build the environments where AI does real work, is scored by real outcomes, and trains on those outcomes.
+I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments and verifiers where models do real work and are scored on real outcomes.
 
 You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.
 
-- Team: four quants from Cambridge, LSE and Duke, with backgrounds at Jane Street, Citadel, D. E. Shaw, Millennium and Optiver. All four turned down return offers.
-- Proof: our trading environment, Xitadel, improved Qwen3.8-27B's trading performance by 12% on unseen market data, reproduced across independent runs. On its public preview the best frontier model scores 77.3 against a human reference of 80.
-- Speed: seven products in our first 14 days with no outside capital; 500+ GitHub stars in week one.
-- Commercial: in talks with two frontier labs; already working with Surge AI and AfterQuery; 7,000+ experts signed up and 200,000+ professionals reachable through 21 partner universities.
+Our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across independent runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke), raising a $20M seed and in conversations with tier-1 funds.
 
-We're raising a $20M seed and are in conversations with tier-1 funds. Can I send you the deck, or find 30 minutes next week?
+Worth 20 minutes? Happy to send the deck.
 
 Best,
 [Your name]

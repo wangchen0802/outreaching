@@ -12,7 +12,8 @@
 - 质量：谜题基准 400 次作弊攻击 0 次成功；财务结账环境评分漏洞 6 → 0。
 - 专家：7,000+ 已报名；通过 21 所合作高校可触达 20 万+ 专业人士（不写"20 万已验证专家"）。
 - 合作与融资（你提供）：已和 Surge AI、AfterQuery 合作；正在融资，和一线机构接触。投资人邮件写 2,000 万美元种子轮（BP）。
-- 进展（BP）：两家前沿实验室在洽谈；首周 GitHub 500+ 星标（不放链接）。
+- 进展（BP）：两家前沿实验室在洽谈；首周 GitHub 500+ 星标（不放链接）。这两条还没确认，投资人短版邮件（2026-10）不写。
+- 投资人邮件用短版（英文约 120 词）：投资人每周收几百封 AI 写的长邮件，拿到回复的冷邮件大多不到 100 词。
 
 ## 渠道伙伴邮件（英文）
 
@@ -99,20 +100,17 @@ Best,
 
 ## 投资人邮件（英文）
 
-Subject: SimReal: RL environments where AI learns from real outcomes (seed)
+Subject: SimReal: RL environments for finance, built by ex-Jane Street and Citadel quants (seed)
 
 Hi [Name],
 
-I'm [Your name], co-founder of SimReal (simreal.co). We build the environments where AI does real work, is scored by real outcomes, and trains on those outcomes.
+I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments and verifiers where models do real work and are scored on real outcomes.
 
 [Hook]
 
-- Team: four quants from Cambridge, LSE and Duke, with backgrounds at Jane Street, Citadel, D. E. Shaw, Millennium and Optiver. All four turned down return offers.
-- Proof: our trading environment, Xitadel, improved Qwen3.8-27B's trading performance by 12% on unseen market data, reproduced across independent runs. On its public preview the best frontier model scores 77.3 against a human reference of 80.
-- Speed: seven products in our first 14 days with no outside capital; 500+ GitHub stars in week one.
-- Commercial: in talks with two frontier labs; already working with Surge AI and AfterQuery; 7,000+ experts signed up and 200,000+ professionals reachable through 21 partner universities.
+Our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across independent runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke), raising a $20M seed and in conversations with tier-1 funds.
 
-We're raising a $20M seed and are in conversations with tier-1 funds. Can I send you the deck, or find 30 minutes next week?
+Worth 20 minutes? Happy to send the deck.
 
 Best,
 [Your name]
@@ -121,20 +119,17 @@ business@simreal.co | simreal.co
 
 ## 投资人邮件（中文）
 
-主题：SimReal｜让 AI 在真实工作中按结果进化（种子轮）
+主题：SimReal｜量化团队做的金融 RL 训练环境（种子轮）
 
 [称呼]您好，
 
-我是 SimReal（simreal.co）联合创始人[姓名]。我们为 AI 搭建真实工作的训练环境：AI 在里面做真实的事，按真实结果打分，再用结果训练自己。
+我是 SimReal（simreal.co）联合创始人[姓名]。我们为 AI 搭建真实工作的训练环境和验证器：模型在里面做真实的事，按真实结果打分。
 
 [投资句]
 
-- 团队：四位量化出身的创始人，来自剑桥、LSE 和杜克，有 Jane Street、Citadel、D. E. Shaw、Millennium、Optiver 的经历，都放弃了 return offer。
-- 结果：旗舰交易环境 Xitadel 让开源模型 Qwen3.8-27B 在从未见过的真实行情上交易表现提升 12%，多次独立运行均复现；公开版里前沿模型最高 77.3 分，人类参考线 80 分。
-- 速度：成立 14 天、零外部融资做出 7 款产品，首周 GitHub 500+ 星标。
-- 商业：两家前沿实验室在洽谈；已和 Surge AI、AfterQuery 合作；7,000+ 专家已报名，通过 21 所合作高校可触达 20 万+ 专业人士。
+旗舰交易环境 Xitadel 让 Qwen3.8-27B 在从未见过的真实行情上交易表现提升 12%，多次独立运行均复现。我们已在为 Surge AI、AfterQuery 供给，7,000+ 行业专家已报名。创始团队四人来自 Jane Street、Citadel、Millennium、Optiver，毕业于剑桥、LSE、杜克。目前正在进行 2,000 万美元种子轮，已在和一线机构接触。
 
-我们正在进行 2,000 万美元种子轮融资，已在和一线机构接触。方便的话我把 BP 发给您，或者下周约 30 分钟？
+方便约 20 分钟聊聊吗？可以先把 BP 发您。
 
 [姓名]
 SimReal 联合创始人
