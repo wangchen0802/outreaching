@@ -106,7 +106,7 @@ Co-founder, SimReal | business@simreal.co
 
 **英文私信版（LinkedIn / X）**
 
-Hi [Name], [one line about them]. Whoever owns the best training world for an industry will own its best AI; SimReal builds those worlds from real data, starting with trading. We're three 21-year-old maths undergrads (Cambridge, LSE, Duke) from Jane Street, Citadel, Optiver and Millennium, plus the first employee of a stablecoin that went from 0 to $1.4B in a year. In 14 days we shipped seven products; a model trained in our trading world did up to 12% better on unseen trading days. Public at github.com/Simreal-AI. Raising RMB 40M; open to a quick call?
+Hi [Name], [one line about them]. Whoever owns the best training world for an industry will own its best AI; SimReal builds those worlds from real data, starting with trading. We're three 21-year-old quants, maths undergrads at Cambridge, LSE and Duke with stints at Jane Street, Citadel, Optiver and Millennium; our CEO was the first employee of a stablecoin that grew from 0 to $1.4B in a year. In 14 days we shipped seven products; a model trained in our trading world did up to 12% better on unseen trading days. Public at github.com/Simreal-AI. Raising RMB 40M; open to a quick call?
 
 **中文版（邮件 / 微信）**
 
