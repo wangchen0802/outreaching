@@ -30,16 +30,27 @@ BODY_FONT = Font(name="Arial", size=10)
 WRAP = Alignment(wrap_text=True, vertical="top")
 
 
+FULL_DATE = re.compile(r"(20\d\d)[-/.年](\d{1,2})[-/.月](\d{1,2})")
+SHORT_DATE = re.compile(r"(?<![\d年/-])(\d{1,2})/(\d{1,2})(?![\d/])")
+RANGE_GAP = re.compile(r"^\s*日?\s*[–—\-~～至到]\s*$")
+
+
 def next_deadline(text):
-    """First date on or after today mentioned in a timing string, as YYYY-MM-DD, else ''."""
-    found = []
-    for y, m, d in re.findall(r"(20\d\d)[-/.年](\d{1,2})[-/.月](\d{1,2})", text or ""):
-        found.append((int(y), int(m), int(d)))
-    for m, d in re.findall(r"(?<![\d年/-])(\d{1,2})/(\d{1,2})(?![\d/])", text or ""):
-        y = TODAY.year if (int(m), int(d)) >= (TODAY.month, TODAY.day) else TODAY.year + 1
-        found.append((y, int(m), int(d)))
+    """Nearest date on or after today in a timing string, as YYYY-MM-DD, else ''.
+    For a range ("10/12–11/1", "2026-10-12 至 2026-11-01") only the end counts."""
+    text = text or ""
+    found = []  # (start, end, (y, m, d))
+    for mt in FULL_DATE.finditer(text):
+        found.append((mt.start(), mt.end(), tuple(int(x) for x in mt.groups())))
+    for mt in SHORT_DATE.finditer(text):
+        m, d = int(mt.group(1)), int(mt.group(2))
+        y = TODAY.year if (m, d) >= (TODAY.month, TODAY.day) else TODAY.year + 1
+        found.append((mt.start(), mt.end(), (y, m, d)))
+    found.sort()
+    ends = [f for i, f in enumerate(found)
+            if not (i + 1 < len(found) and RANGE_GAP.match(text[f[1]:found[i + 1][0]]))]
     dates = []
-    for y, m, d in found:
+    for _, _, (y, m, d) in ends:
         try:
             day = dt.date(y, m, d)
         except ValueError:
