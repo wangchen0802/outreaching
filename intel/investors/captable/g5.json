@@ -1,0 +1,105 @@
+{
+  "rounds": [
+    {
+      "company": "Sepal AI",
+      "round": "Pre-Seed",
+      "date": "2024-09",
+      "amount": "$500K",
+      "leads": ["Y Combinator"],
+      "participants": ["186 Ventures", "Global Founders Capital", "One Way Ventures", "Village Global"],
+      "partners": [],
+      "source": "https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a"
+    },
+    {
+      "company": "Sepal AI",
+      "round": "Seed",
+      "date": "未披露",
+      "amount": "未披露",
+      "leads": [],
+      "participants": ["SID Venture Partners"],
+      "partners": [],
+      "source": "https://tracxn.com/d/companies/sepal-ai/__FS5Kt1wvJBc0c-Er0ClPRtWQ3E4L3vuadJ-02OWv7z8/funding-and-investors (Tracxn: 2 rounds totaling $500K, one Seed from SID Venture Partners; latest round 2025-01-22; company acquired/merged 2026-02-06)"
+    },
+    {
+      "company": "Origin Lab",
+      "round": "Seed",
+      "date": "2026-05",
+      "amount": "$8M",
+      "leads": ["Lightspeed Venture Partners"],
+      "participants": ["SV Angel", "Eniac", "Seven Stars", "FPV", "Kevin Lin (Twitch co-founder, angel)", "Kyle Vogt (Cruise founder, angel)"],
+      "partners": ["Faraz Fatemi (Lightspeed Venture Partners)"],
+      "source": "https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html | partner: https://finance.yahoo.com/sectors/technology/articles/origin-lab-raises-8m-seed-233100359.html"
+    },
+    {
+      "company": "Judgment Labs",
+      "round": "Seed + Series A (announced together)",
+      "date": "2026-05",
+      "amount": "$32M (combined Seed + Series A)",
+      "leads": ["Lightspeed Venture Partners"],
+      "participants": ["Nova Global", "SV Angel", "Valor Equity Partners", "Dynamic"],
+      "partners": ["James Alcorn (Lightspeed Venture Partners)", "Guru Chahal (Lightspeed Venture Partners)"],
+      "source": "https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents"
+    },
+    {
+      "company": "Trajectory (continual learning)",
+      "round": "Seed",
+      "date": "2026-05",
+      "amount": "$15M ($115M post-money)",
+      "leads": ["Conviction"],
+      "participants": ["Bessemer Venture Partners", "Radical Ventures", "BoxGroup", "Jeff Dean (angel)", "Fei-Fei Li (angel)"],
+      "partners": [],
+      "source": "https://www.finsmes.com/2026/05/trajectory-raises-15m-in-seed-funding.html"
+    },
+    {
+      "company": "Trajectory (continual learning)",
+      "round": "Series A",
+      "date": "2026-08",
+      "amount": "$40M ($300M post-money)",
+      "leads": ["Sequoia Capital"],
+      "participants": ["NVIDIA", "Bessemer Venture Partners"],
+      "partners": [],
+      "source": "https://www.finsmes.com/2026/08/trajectory-raises-40m-in-series-a-funding-at-300m-post-money-valuation.html"
+    },
+    {
+      "company": "AgileRL",
+      "round": "Pre-Seed",
+      "date": "未披露",
+      "amount": "£1.5M",
+      "leads": ["Octopus Ventures", "Counterview Capital"],
+      "participants": [],
+      "partners": [],
+      "source": "https://www.thebaehq.com/news/agilerl-secures-ps1-5m-pre-seed-funding-to-revolutionise-reinforcement-learning (angel investors participated, unnamed in snippet; company is an Entrepreneur First 2023 alum)"
+    },
+    {
+      "company": "AgileRL",
+      "round": "Seed",
+      "date": "2026-01",
+      "amount": "$5.4M (total raised $7.5M)",
+      "leads": ["Fusion Fund"],
+      "participants": ["Flying Fish", "Octopus Ventures", "Counterview Capital", "Entrepreneur First"],
+      "partners": [],
+      "source": "https://x.com/join_ef/status/2008928173950439872 | https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html | EF listed as participant by https://www.startupmag.co.uk/funding/agilerl-2026-growth-funding/"
+    },
+    {
+      "company": "Good Start Labs",
+      "round": "Seed",
+      "date": "2025-10",
+      "amount": "$3.6M",
+      "leads": ["Inovia Capital", "General Catalyst"],
+      "participants": ["Every"],
+      "partners": [],
+      "source": "https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games | leads per https://tracxn.com/d/companies/goodstartlabs/__nJ4evVrro2f8gwXOvfUnRpGfpHMUoajTP2yHl7_QVRo/funding-and-investors (angels from DeepMind and other AI labs, unnamed; Tracxn counts 33 angels)"
+    },
+    {
+      "company": "Cua (trycua)",
+      "round": "Seed",
+      "date": "2025-06",
+      "amount": "$500K",
+      "leads": [],
+      "participants": ["Y Combinator (P25 batch)", "468 Capital", "Orange Collective", "Script Capital", "Eight Capital Management", "Mark Kahn (angel)"],
+      "partners": [],
+      "source": "https://www.rl-list.com/vendors/cua (468 Capital, Orange Collective, Script Capital) | https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY (YC, Eight Capital Management) | https://startupintros.com/orgs/cua (Mark Kahn, YC) - sources conflict on investor list"
+    }
+  ],
+  "notFound": []
+}

@@ -80,7 +80,7 @@ def main():
     data = json.loads(SRC.read_text(encoding="utf-8"))
     items = [r for r in data["items"] if r.get("verdict") != "撤下"]
     for r in items:
-        r["_deadline"] = next_deadline(r["timing"])
+        r["_deadline"] = "" if r["status"] == "已截止" else next_deadline(r["timing"])
     order = lambda r: (STATUS_RANK.get(r["status"], 3), r["_deadline"] or "9999",  # noqa: E731
                        FIT_RANK[r["fit"]], EFFORT_RANK[r["effort"]], r["name"].lower())
 

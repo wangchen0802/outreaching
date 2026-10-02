@@ -1,0 +1,2335 @@
+{
+ "companies": [
+  "Adaptive ML",
+  "AfterQuery",
+  "AgileRL",
+  "Andon Labs",
+  "Applied Compute",
+  "Arga Labs",
+  "Bespoke Labs",
+  "Collinear AI",
+  "Cua",
+  "Datacurve",
+  "Deccan AI",
+  "Deeptune",
+  "Fleet",
+  "GIM",
+  "Good Start Labs",
+  "Gray Swan AI",
+  "HUD",
+  "Halluminate",
+  "Handshake AI",
+  "Hillclimb",
+  "Intelligence / Design Arena",
+  "Invisible Technologies",
+  "Irregular",
+  "Judgment Labs",
+  "LMArena",
+  "Matrices",
+  "Mechanize",
+  "Mercor",
+  "Origin Lab",
+  "Patronus AI",
+  "Preference Model",
+  "Prime Intellect",
+  "Proximal",
+  "Refly.AI",
+  "Scorecard",
+  "Sepal AI",
+  "Snorkel AI",
+  "Trajectory",
+  "Turing",
+  "UniPat",
+  "Vals AI",
+  "Veris AI",
+  "micro1",
+  "博登智能",
+  "心识宇宙 Mindverse",
+  "星尘数据",
+  "枢途科技",
+  "语用科技"
+ ],
+ "rounds": 92,
+ "notFound": [
+  "Habitat (Habitat Inc, NYC RL-environment vendor)",
+  "Plato",
+  "General Reasoning"
+ ],
+ "investors": [
+  {
+   "name": "Amjad Masad (CEO, Replit)",
+   "companies": [
+    "Patronus AI",
+    "Hillclimb"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "未标明"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Balaji Srinivasan",
+   "companies": [
+    "Datacurve",
+    "Prime Intellect"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 3
+  },
+  {
+   "name": "Benchmark",
+   "companies": [
+    "Mercor",
+    "Applied Compute"
+   ],
+   "leads": 3,
+   "stages": [
+    "A 轮",
+    "B 轮及以后",
+    "种子",
+    "未标明"
+   ],
+   "group": 3
+  },
+  {
+   "name": "Orange Collective",
+   "companies": [
+    "Halluminate",
+    "Cua"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "腾讯",
+   "companies": [
+    "UniPat",
+    "语用科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮",
+    "pre-seed/天使"
+   ],
+   "group": 2
+  },
+  {
+   "name": "鼎晖百孚",
+   "companies": [
+    "博登智能",
+    "枢途科技"
+   ],
+   "leads": 1,
+   "stages": [
+    "未标明",
+    "A 轮"
+   ],
+   "group": 3
+  },
+  {
+   "name": "11.2 Capital",
+   "companies": [
+    "Collinear AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "186 Ventures",
+   "companies": [
+    "Sepal AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "468 Capital",
+   "companies": [
+    "Cua"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "A91 Partners",
+   "companies": [
+    "Deccan AI"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Afore Capital",
+   "companies": [
+    "Datacurve"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "AI Grant (Nat Friedman & Daniel Gross)",
+   "companies": [
+    "Matrices"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "AltaIR Capital",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Amino Capital",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Andrej Karpathy (angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Antigravity Capital",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Assaf Rappaport (Wiz CEO, angel)",
+   "companies": [
+    "Irregular"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "B Capital",
+   "companies": [
+    "GIM"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Base10 Advancement Initiative",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Batch Ventures",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Bloomberg Beta",
+   "companies": [
+    "Vals AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "BNY",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Breakpoint Capital",
+   "companies": [
+    "Andon Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Browder Capital",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Chan Zuckerberg Initiative",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Chris Re",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "ClassIn",
+   "companies": [
+    "Refly.AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Clem Delangue (Hugging Face, angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "CoinFund",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Collab+Currency",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Compound",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Cooley",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Cory Levy",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Counterview Capital",
+   "companies": [
+    "AgileRL"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使",
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Daniel Gross",
+   "companies": [
+    "Mechanize"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Databricks Ventures",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "DCBuilder (Worldcoin, angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Deepwater Asset Management",
+   "companies": [
+    "Invisible Technologies"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Distributed Global",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Dorothy Chang (angel)",
+   "companies": [
+    "Veris AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Dream Ventures VC",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Dynamic",
+   "companies": [
+    "Judgment Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Eight Capital Management",
+   "companies": [
+    "Cua"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Emad Mostaque (angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Emerson Collective",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Engineering Capital",
+   "companies": [
+    "Collinear AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Entrepreneur First",
+   "companies": [
+    "AgileRL"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "EQT Ventures",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Erik Bernhardsson",
+   "companies": [
+    "Proximal"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Erik Voorhees (ShapeShift, angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Every",
+   "companies": [
+    "Good Start Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Factorial Capital",
+   "companies": [
+    "Patronus AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Factory",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Fei-Fei Li (angel)",
+   "companies": [
+    "Trajectory"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Firestreak Ventures",
+   "companies": [
+    "Collinear AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Flying Fish",
+   "companies": [
+    "AgileRL"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Foundation Capital",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子",
+    "B 轮及以后"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Founders Fund",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "FT Partners",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "GGV Capital",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Global Founders Capital",
+   "companies": [
+    "Sepal AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Greenoaks Capital",
+   "companies": [
+    "Applied Compute"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Greycroft",
+   "companies": [
+    "Invisible Technologies"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Greylock",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮",
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Heavybit",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "HOF Capital",
+   "companies": [
+    "Invisible Technologies"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Hudson River Trading",
+   "companies": [
+    "Gray Swan AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "HuggingFund by Factorial",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "HV Fund",
+   "companies": [
+    "Collinear AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "ICONIQ",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Idris Mokhtarzada (Rocket Money, angel)",
+   "companies": [
+    "Veris AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Inception Studio",
+   "companies": [
+    "Scorecard"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Inovia Capital",
+   "companies": [
+    "Good Start Labs"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Inspired Capital",
+   "companies": [
+    "Deeptune"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "IRIS",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Jack Dorsey",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Joe Lallouz (Coinbase, angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Juniper Ventures",
+   "companies": [
+    "Andon Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Kevin Lin (Twitch co-founder, angel)",
+   "companies": [
+    "Origin Lab"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Kevin Weil",
+   "companies": [
+    "Proximal"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Kyle Vogt (Cruise founder, angel)",
+   "companies": [
+    "Origin Lab"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Larry Summers",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Latitude Capital",
+   "companies": [
+    "AfterQuery"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "LAUNCH",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "LDVP",
+   "companies": [
+    "LMArena"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Liam Fedus",
+   "companies": [
+    "Proximal"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Liquid 2 Ventures",
+   "companies": [
+    "HUD"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Magarac Venture Partners (existing investor)",
+   "companies": [
+    "Gray Swan AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Marcus Abramovitch",
+   "companies": [
+    "Mechanize"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Mark Kahn (angel)",
+   "companies": [
+    "Cua"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Motier Ventures",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Nat Friedman",
+   "companies": [
+    "Mechanize"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Naval Ravikant",
+   "companies": [
+    "Matrices"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "NEA",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Neo Ventures",
+   "companies": [
+    "Scorecard"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Nepenthe Capital",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Next Ladder Ventures",
+   "companies": [
+    "Vals AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Northside Ventures",
+   "companies": [
+    "Datacurve"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Notable Capital",
+   "companies": [
+    "Patronus AI"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮",
+    "B 轮及以后"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Nova Global",
+   "companies": [
+    "Judgment Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Oak HC/FT",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Obvious Ventures",
+   "companies": [
+    "Gray Swan AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Octopus Ventures",
+   "companies": [
+    "AgileRL"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使",
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "Ofir Ehrlich (Eon CEO, angel)",
+   "companies": [
+    "Irregular"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "One Way Ventures",
+   "companies": [
+    "Sepal AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Pareto Holdings",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Paul Graham",
+   "companies": [
+    "Hillclimb"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Peter Thiel",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Phosphor Capital",
+   "companies": [
+    "Andon Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Pioneer Fund",
+   "companies": [
+    "Datacurve"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Plug and Play",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Plug and Play中国",
+   "companies": [
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Princeville Capital",
+   "companies": [
+    "Invisible Technologies"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Prosperity 7 Ventures",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Prosus Ventures",
+   "companies": [
+    "Deccan AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Protocol Labs",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "QBE Ventures",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Reach Capital",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Robinhood Ventures",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Roon (OpenAI, angel)",
+   "companies": [
+    "HUD"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Ryan Merket",
+   "companies": [
+    "Datacurve"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Samsung",
+   "companies": [
+    "Patronus AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Sandberg Bernthal Venture Partners",
+   "companies": [
+    "Scorecard"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Sandeep Nailwal (angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Scale Angels Fund",
+   "companies": [
+    "Preference Model"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Script Capital",
+   "companies": [
+    "Cua"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Seaplane Ventures",
+   "companies": [
+    "micro1"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Seldon Lab",
+   "companies": [
+    "Andon Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Seven Stars",
+   "companies": [
+    "Origin Lab"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Shivani Mitra (Nous Research, angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Sholto Douglas",
+   "companies": [
+    "Mechanize"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "SID Venture Partners",
+   "companies": [
+    "Sepal AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Snowflake Ventures",
+   "companies": [
+    "Gray Swan AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Soma Capital",
+   "companies": [
+    "Mercor"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "South Park Commons",
+   "companies": [
+    "Preference Model"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Sozo Ventures",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Spark Capital",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "StepStone Group",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Stone Bridge Ventures",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Superangel",
+   "companies": [
+    "Andon Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Swish Ventures",
+   "companies": [
+    "Irregular"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Team Ignite Ventures",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Tekton Ventures",
+   "companies": [
+    "Scorecard"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Theo Browne (angel)",
+   "companies": [
+    "HUD"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Transpose Platform Management",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Tri Dao (angel)",
+   "companies": [
+    "Prime Intellect"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Tristan Handy (dbt Labs, angel)",
+   "companies": [
+    "Bespoke Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "True Ventures",
+   "companies": [
+    "Handshake AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Twenty Two Ventures",
+   "companies": [
+    "HUD"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Unnamed angels from OpenAI, Apple, Waymo, Uber, Perplexity, Meta",
+   "companies": [
+    "Scorecard"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Unnamed angels from top AI labs",
+   "companies": [
+    "Datacurve"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Unnamed individual researchers from Anthropic, OpenAI and Meta (angels)",
+   "companies": [
+    "Halluminate"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Valor Equity Partners",
+   "companies": [
+    "Judgment Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Village Global",
+   "companies": [
+    "Sepal AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Walden International",
+   "companies": [
+    "Snorkel AI"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "WestBridge Capital",
+   "companies": [
+    "Turing"
+   ],
+   "leads": 2,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Xavier Niel (angel)",
+   "companies": [
+    "Adaptive ML"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "Y Combinator Continuity",
+   "companies": [
+    "AfterQuery"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "上海未来产业基金",
+   "companies": [
+    "语用科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "亿合资本",
+   "companies": [
+    "枢途科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "兼固资本",
+   "companies": [
+    "枢途科技"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 2
+  },
+  {
+   "name": "创势基金",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "厚天资本",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "国和投资",
+   "companies": [
+    "博登智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "天使湾",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 2
+  },
+  {
+   "name": "广州产投",
+   "companies": [
+    "枢途科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "未具名天使投资人",
+   "companies": [
+    "Applied Compute"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "未具名天使（来自 Anthropic、OpenAI、Meta）",
+   "companies": [
+    "Bespoke Labs"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "浙江见识创业投资管理有限公司",
+   "companies": [
+    "博登智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "深产投",
+   "companies": [
+    "博登智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "瑞夏资本",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "红杉中国种子基金",
+   "companies": [
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "老鹰基金",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "英诺天使",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "赛富投资基金",
+   "companies": [
+    "GIM"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 2
+  },
+  {
+   "name": "趋势投资",
+   "companies": [
+    "枢途科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "金涌投资（弘毅投资旗下）",
+   "companies": [
+    "GIM"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "银杏谷资本",
+   "companies": [
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 1,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 2
+  },
+  {
+   "name": "阿里巴巴",
+   "companies": [
+    "UniPat"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  },
+  {
+   "name": "青锐创投",
+   "companies": [
+    "星尘数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "鲁信创投",
+   "companies": [
+    "博登智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "鲲鹏基金",
+   "companies": [
+    "枢途科技"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 2
+  }
+ ],
+ "top": [
+  {
+   "name": "Y Combinator",
+   "companies": [
+    "Datacurve",
+    "Halluminate",
+    "HUD",
+    "AfterQuery",
+    "Andon Labs",
+    "Hillclimb",
+    "Sepal AI",
+    "Cua"
+   ],
+   "leads": 3,
+   "stages": [
+    "pre-seed/天使",
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "Sequoia Capital",
+   "companies": [
+    "Fleet",
+    "Applied Compute",
+    "Vals AI",
+    "AfterQuery",
+    "Trajectory",
+    "Irregular"
+   ],
+   "leads": 5,
+   "stages": [
+    "种子",
+    "A 轮",
+    "未标明",
+    "B 轮及以后"
+   ]
+  },
+  {
+   "name": "Lightspeed Venture Partners",
+   "companies": [
+    "Handshake AI",
+    "Snorkel AI",
+    "Patronus AI",
+    "Origin Lab",
+    "Judgment Labs",
+    "LMArena"
+   ],
+   "leads": 3,
+   "stages": [
+    "B 轮及以后",
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "SV Angel",
+   "companies": [
+    "Fleet",
+    "Proximal",
+    "Origin Lab",
+    "Judgment Labs",
+    "Arga Labs"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "Andreessen Horowitz (a16z)",
+   "companies": [
+    "Vals AI",
+    "AfterQuery",
+    "Deeptune",
+    "LMArena"
+   ],
+   "leads": 4,
+   "stages": [
+    "A 轮",
+    "B 轮及以后",
+    "种子"
+   ]
+  },
+  {
+   "name": "General Catalyst",
+   "companies": [
+    "Mercor",
+    "Proximal",
+    "Good Start Labs",
+    "Arga Labs"
+   ],
+   "leads": 4,
+   "stages": [
+    "种子",
+    "A 轮",
+    "B 轮及以后"
+   ]
+  },
+  {
+   "name": "Jeff Dean",
+   "companies": [
+    "Mechanize",
+    "Bespoke Labs",
+    "Hillclimb",
+    "Trajectory"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "未标明"
+   ]
+  },
+  {
+   "name": "Index Ventures",
+   "companies": [
+    "Matrices",
+    "Intelligence / Design Arena",
+    "Adaptive ML"
+   ],
+   "leads": 2,
+   "stages": [
+    "种子"
+   ]
+  },
+  {
+   "name": "Kleiner Perkins",
+   "companies": [
+    "Handshake AI",
+    "Applied Compute",
+    "LMArena"
+   ],
+   "leads": 1,
+   "stages": [
+    "B 轮及以后",
+    "A 轮",
+    "种子"
+   ]
+  },
+  {
+   "name": "红杉中国",
+   "companies": [
+    "UniPat",
+    "语用科技",
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮",
+    "pre-seed/天使"
+   ]
+  },
+  {
+   "name": "The House Fund",
+   "companies": [
+    "Veris AI",
+    "Bespoke Labs",
+    "LMArena"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "Benchmark",
+   "companies": [
+    "Mercor",
+    "Applied Compute"
+   ],
+   "leads": 3,
+   "stages": [
+    "A 轮",
+    "B 轮及以后",
+    "种子",
+    "未标明"
+   ]
+  },
+  {
+   "name": "Felicis",
+   "companies": [
+    "Mercor",
+    "LMArena"
+   ],
+   "leads": 3,
+   "stages": [
+    "B 轮及以后",
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "Wing VC",
+   "companies": [
+    "Bespoke Labs",
+    "Gray Swan AI"
+   ],
+   "leads": 2,
+   "stages": [
+    "A 轮"
+   ]
+  },
+  {
+   "name": "8VC",
+   "companies": [
+    "Bespoke Labs",
+    "Vals AI"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "Acrew Capital",
+   "companies": [
+    "Invisible Technologies",
+    "Veris AI"
+   ],
+   "leads": 1,
+   "stages": [
+    "B 轮及以后",
+    "种子"
+   ]
+  },
+  {
+   "name": "Balaji Srinivasan",
+   "companies": [
+    "Datacurve",
+    "Prime Intellect"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ]
+  },
+  {
+   "name": "Chemistry",
+   "companies": [
+    "Datacurve",
+    "Proximal"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮",
+    "种子"
+   ]
+  }
+ ]
+}

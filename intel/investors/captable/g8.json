@@ -1,0 +1,24 @@
+{
+  "rounds": [
+    {"company": "UniPat", "round": "A轮", "date": "2026-09", "amount": "3亿美元（估值约25亿美元）", "leads": ["阿里巴巴"], "participants": ["腾讯", "红杉中国"], "partners": [], "source": "https://news.qq.com/rain/a/20260911A06ZQ800"},
+    {"company": "语用科技", "round": "天使轮", "date": "2026-08", "amount": "未披露（估值20亿美元）", "leads": ["高榕创投", "红杉中国"], "participants": ["腾讯", "上海未来产业基金"], "partners": [], "source": "https://www.guandian.cn/article/20260812/583761.html"},
+    {"company": "星尘数据", "round": "天使轮", "date": "2017-08", "amount": "数百万元", "leads": ["天使湾"], "participants": ["英诺天使", "老鹰基金", "创势基金"], "partners": [], "source": "https://www.chinaventure.com.cn/news/108-20230104-373008.html"},
+    {"company": "星尘数据", "round": "Pre-A轮", "date": "2018-01", "amount": "数千万元", "leads": [], "participants": ["青锐创投"], "partners": [], "source": "https://startup.aliyun.com/info/1023935.html"},
+    {"company": "星尘数据", "round": "A轮", "date": "2023-01", "amount": "5000万元人民币", "leads": ["华映资本"], "participants": ["厚天资本", "瑞夏资本"], "partners": [], "source": "https://www.chinaventure.com.cn/news/108-20230104-373008.html"},
+    {"company": "博登智能", "round": "天使轮", "date": "2022-10", "amount": "数千万元", "leads": [], "participants": ["浙江见识创业投资管理有限公司"], "partners": [], "source": "https://www.asmag.com.cn/news/202210/110842.html"},
+    {"company": "博登智能", "round": "A轮", "date": "2025-06", "amount": "亿元（估值7亿元）", "leads": [], "participants": ["国和投资"], "partners": [], "source": "https://finance.sina.com.cn/jjxw/2025-06-10/doc-inezpuqn5913559.shtml"},
+    {"company": "博登智能", "round": "A+轮及A++轮", "date": "2026-06", "amount": "数亿元", "leads": [], "participants": ["鼎晖百孚", "清新资本", "鲁信创投", "深产投"], "partners": [], "source": "https://www.jiemian.com/article/14513362.html"},
+    {"company": "枢途科技", "round": "天使轮（数百万元）", "date": "2024-11", "amount": "数百万元", "leads": [], "participants": ["奇绩创坛"], "partners": [], "source": "https://36kr.com/p/3055618203865224"},
+    {"company": "枢途科技", "round": "天使轮（数千万元）", "date": "2025-10", "amount": "数千万元", "leads": ["东方富海", "兼固资本"], "participants": [], "partners": [], "source": "https://zhuanlan.zhihu.com/p/1961146352781235773"},
+    {"company": "枢途科技", "round": "天使+轮", "date": "2025-12", "amount": "未披露", "leads": [], "participants": ["辰韬资本"], "partners": [], "source": "https://news.qq.com/rain/a/20251212A04C0P00"},
+    {"company": "枢途科技", "round": "Pre-A轮", "date": "2026-09", "amount": "近亿元", "leads": ["鼎晖百孚", "鲲鹏基金"], "participants": ["广州产投", "亿合资本", "趋势投资"], "partners": [], "source": "https://www.jiemian.com/article/15110526.html"},
+    {"company": "心识宇宙 Mindverse", "round": "天使轮", "date": "2022-11", "amount": "未披露（天使及天使+轮合计近亿元）", "leads": [], "participants": ["线性资本"], "partners": [], "source": "https://www.chinaventure.com.cn/news/80-20221110-372027.html"},
+    {"company": "心识宇宙 Mindverse", "round": "天使+轮", "date": "2022-11", "amount": "未披露（天使及天使+轮合计近亿元）", "leads": ["银杏谷资本"], "participants": ["Plug and Play中国", "线性资本", "红杉中国种子基金"], "partners": [], "source": "https://www.chinaventure.com.cn/news/80-20221110-372027.html"},
+    {"company": "心识宇宙 Mindverse", "round": "Pre-A轮", "date": "2026-01", "amount": "超2000万美元", "leads": ["蚂蚁集团"], "participants": ["红杉中国"], "partners": [], "source": "https://www.chinaventure.com.cn/news/113-20260127-389950.html"},
+    {"company": "GIM（金融 AI）", "round": "天使轮", "date": "", "amount": "数千万元（天使及天使+轮合计过亿元人民币）", "leads": ["五源资本"], "participants": ["Monolith砺思资本"], "partners": [], "source": "https://www.163.com/dy/article/L0TVO80O05562SCF.html ; https://eu.36kr.com/zh/p/3734918559842560"},
+    {"company": "GIM（金融 AI）", "round": "天使+轮", "date": "2026-06", "amount": "未披露（天使及天使+轮合计过亿元人民币）", "leads": ["赛富投资基金"], "participants": [], "partners": [], "source": "https://news.pedaily.cn/202606/564923.shtml"},
+    {"company": "GIM（金融 AI）", "round": "A轮", "date": "2026-06", "amount": "数千万美元", "leads": ["B Capital", "金涌投资（弘毅投资旗下）"], "participants": ["IDG资本", "Monolith砺思资本"], "partners": ["Howard Morgan (B Capital)"], "source": "https://www.163.com/dy/article/L0TVO80O05562SCF.html"},
+    {"company": "Refly.AI", "round": "种子轮", "date": "2025-12", "amount": "数百万美元（投后估值近千万美元）", "leads": ["金沙江创投", "高瓴创投"], "participants": ["ClassIn"], "partners": ["朱啸虎 (金沙江创投)"], "source": "https://www.guandian.cn/article/20251210/529861.html"}
+  ],
+  "notFound": []
+}

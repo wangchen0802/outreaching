@@ -1,0 +1,17 @@
+{
+  "rounds": [
+    {"company": "Datacurve", "round": "Pre-seed", "date": "2024-03", "amount": "$500K", "leads": ["Y Combinator"], "participants": ["Ryan Merket", "Pioneer Fund", "Northside Ventures", "Afore Capital"], "partners": [], "source": "https://profiles.crustdata.com/company/datacurve-yc-w24"},
+    {"company": "Datacurve", "round": "Seed", "date": "2025-04", "amount": "$2.7M", "leads": ["Balaji Srinivasan"], "participants": [], "partners": [], "source": "https://profiles.crustdata.com/company/datacurve-yc-w24"},
+    {"company": "Datacurve", "round": "Series A", "date": "2025-10", "amount": "$15M", "leads": ["Chemistry"], "participants": ["Unnamed angels from top AI labs"], "partners": [], "source": "https://www.maginative.com/article/datacurve-raises-15m-series-a-led-by-chemistry/"},
+    {"company": "Mechanize", "round": "Seed", "date": "2025-04 (one source says 2026-04)", "amount": "$9.1M", "leads": [], "participants": ["Nat Friedman", "Daniel Gross", "Patrick Collison", "Dwarkesh Patel", "Jeff Dean", "Sholto Douglas", "Marcus Abramovitch"], "partners": [], "source": "https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"},
+    {"company": "Fleet", "round": "Seed", "date": "unknown", "amount": "$15M", "leads": [], "participants": ["Sequoia Capital", "Menlo Ventures", "SV Angel"], "partners": [], "source": "https://sacra.com/c/fleet/"},
+    {"company": "Fleet", "round": "Series A", "date": "unknown (2026)", "amount": "$45M at $725M valuation", "leads": ["Bain Capital Ventures", "Sequoia Capital", "Menlo Ventures", "SV Angel"], "participants": [], "partners": [], "source": "https://runtimewire.com/article/fleet-raises-45m-series-a-725m"},
+    {"company": "Halluminate", "round": "Seed", "date": "2025-08", "amount": "未披露 (sources conflict: Caplight shows $160K; all pre-Series A funding totals $8.5M)", "leads": [], "participants": ["Y Combinator", "Batch Ventures", "Transpose Platform Management", "Orange Collective", "Team Ignite Ventures", "Antigravity Capital"], "partners": [], "source": "https://www.caplight.com/company/halluminate"},
+    {"company": "Halluminate", "round": "Series A", "date": "2026-10", "amount": "$30M", "leads": ["Oak HC/FT"], "participants": ["Y Combinator", "Orange Collective", "FT Partners", "Heavybit", "Unnamed individual researchers from Anthropic, OpenAI and Meta (angels)"], "partners": [], "source": "https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/"},
+    {"company": "Matrices", "round": "Seed", "date": "2024-03", "amount": "$5.0M", "leads": [], "participants": ["Index Ventures", "AI Grant (Nat Friedman & Daniel Gross)", "Naval Ravikant"], "partners": [], "source": "https://www.vcbacked.co/company/matrices"}
+  ],
+  "notFound": [
+    "Habitat (Habitat Inc, NYC RL-environment vendor): rl-list.com says no public funding, press or Crunchbase record exists",
+    "Plato: only found a different company with the same name, Berlin-based Plato (AI for wholesale distributors; $14.5M seed led by Atomico with Cherry Ventures, Discovery Ventures and D11Z; earlier $6.5M pre-seed led by Cherry Ventures). Not an RL-environment company, so not recorded"
+  ]
+}

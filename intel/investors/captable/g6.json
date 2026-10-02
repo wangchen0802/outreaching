@@ -1,0 +1,85 @@
+{
+  "rounds": [
+    {
+      "company": "LMArena",
+      "round": "Seed",
+      "date": "2025-05",
+      "amount": "$100M",
+      "leads": ["a16z (Andreessen Horowitz)", "UC Investments (University of California)"],
+      "participants": ["Lightspeed", "Laude Ventures", "Felicis", "Kleiner Perkins", "The House Fund"],
+      "partners": ["Anjney Midha (a16z) - board member"],
+      "source": "https://pulse2.com/lmarena-100-million-seed-funding-raised-for-ai-focused-open-community-platform/ ; board: https://a16z.com/author/anjney-midha/"
+    },
+    {
+      "company": "LMArena",
+      "round": "Series A",
+      "date": "2026-01",
+      "amount": "$150M",
+      "leads": ["Felicis", "UC Investments"],
+      "participants": ["Andreessen Horowitz", "The House Fund", "LDVP", "Kleiner Perkins", "Lightspeed Venture Partners", "Laude Ventures"],
+      "partners": [],
+      "source": "https://siliconangle.com/2026/01/06/ai-evaluation-startup-lmarena-raises-150m-1-7b-valuation/"
+    },
+    {
+      "company": "Intelligence / Design Arena",
+      "round": "Seed",
+      "date": "2026-08",
+      "amount": "$7.9M",
+      "leads": ["Index Ventures"],
+      "participants": ["Conviction", "A*", "Valkyrie"],
+      "partners": ["Sarah Guo (Conviction)", "Mike Vernal (Conviction)"],
+      "source": "https://finance.yahoo.com/technology/ai/articles/designarena-creators-raise-7-9-192857317.html"
+    },
+    {
+      "company": "Gray Swan AI",
+      "round": "Series A",
+      "date": "2026-06",
+      "amount": "$40M",
+      "leads": ["Wing Venture Capital", "Madrona"],
+      "participants": ["Obvious Ventures", "Snowflake Ventures", "Hudson River Trading", "Samsung Next", "Magarac Venture Partners (existing investor)"],
+      "partners": [],
+      "source": "https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html"
+    },
+    {
+      "company": "Irregular (formerly Pattern Labs)",
+      "round": "Seed + Series A (combined)",
+      "date": "2025-09",
+      "amount": "$80M",
+      "leads": ["Sequoia Capital", "Redpoint Ventures"],
+      "participants": ["Swish Ventures", "Assaf Rappaport (Wiz CEO, angel)", "Ofir Ehrlich (Eon CEO, angel)"],
+      "partners": [],
+      "source": "https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/"
+    },
+    {
+      "company": "Adaptive ML",
+      "round": "Seed",
+      "date": "2024-03",
+      "amount": "$20M",
+      "leads": ["Index Ventures"],
+      "participants": ["ICONIQ", "Motier Ventures", "IRIS", "Xavier Niel (angel)", "HuggingFund by Factorial", "Databricks Ventures"],
+      "partners": [],
+      "source": "https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed ; Databricks Ventures: https://en.wikipedia.org/wiki/Adaptive_ML"
+    },
+    {
+      "company": "Arga Labs",
+      "round": "Seed",
+      "date": "2026-08",
+      "amount": "$10M",
+      "leads": ["General Catalyst"],
+      "participants": ["Box Group", "Emergence", "Gradient", "SV Angel"],
+      "partners": [],
+      "source": "https://www.thesaasnews.com/news/arga-labs-raises-10m-seed/"
+    },
+    {
+      "company": "Scorecard",
+      "round": "Seed",
+      "date": "2025-09",
+      "amount": "$3.75M",
+      "leads": ["Kindred Ventures"],
+      "participants": ["Inception Studio", "Neo Ventures", "Sandberg Bernthal Venture Partners", "Tekton Ventures", "Unnamed angels from OpenAI, Apple, Waymo, Uber, Perplexity, Meta"],
+      "partners": [],
+      "source": "https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster"
+    }
+  ],
+  "notFound": ["General Reasoning"]
+}
