@@ -1,0 +1,31 @@
+{
+  "rounds": [
+    {"company": "整数智能", "round": "Pre-A轮", "date": "2023-06", "amount": "数千万元人民币", "leads": [], "participants": ["翊宙资本", "藕舫天使", "安益盛银", "图灵启真"], "partners": [], "source": "https://36kr.com/p/2260278268751749"},
+    {"company": "整数智能", "round": "轮次未明确（峰瑞领投A轮之前一年内的投资）", "date": "未知", "amount": "未披露", "leads": [], "participants": ["唐氏（中国）投资", "尖晶资本"], "partners": [], "source": "https://www.sohu.com/a/834223927_121200612"},
+    {"company": "整数智能", "round": "A轮", "date": "2024-08", "amount": "数千万元人民币", "leads": ["峰瑞资本"], "participants": ["藕舫天使"], "partners": [], "source": "https://startup.aliyun.com/info/1087084.html"},
+    {"company": "智能知识", "round": "天使轮", "date": "未知", "amount": "未披露", "leads": [], "participants": ["锦秋基金", "耀途资本"], "partners": [], "source": "https://zhuanlan.zhihu.com/p/2044128857192714401"},
+    {"company": "光轮智能", "round": "种子轮、天使轮、天使+轮（合并披露）", "date": "2023", "amount": "累计数千万元人民币", "leads": [], "participants": ["SEE Fund", "奇绩创坛", "辰韬资本", "变量资本"], "partners": [], "source": "https://36kr.com/p/2360485049124737"},
+    {"company": "光轮智能", "round": "Pre-A轮", "date": "未知", "amount": "数千万元人民币", "leads": ["经纬创投"], "participants": ["奇绩创坛", "辰韬资本"], "partners": [], "source": "https://m.rccaijing.com/news-7202210366859441645.html"},
+    {"company": "光轮智能", "round": "Pre-A+轮", "date": "2024-11", "amount": "数千万元人民币", "leads": ["北京市人工智能产业投资基金"], "participants": ["经纬创投"], "partners": [], "source": "https://news.qq.com/rain/a/20241101A03R4F00"},
+    {"company": "光轮智能", "round": "A轮及A+轮", "date": "2025-11", "amount": "数亿元人民币", "leads": [], "participants": ["东方富海", "三七互娱", "琥珀资本", "九派资本", "辰韬资本"], "partners": [], "source": "https://www.zidonghua.com.cn/news/Finance/79567.html"},
+    {"company": "光轮智能", "round": "A++及A+++轮", "date": "2026-03", "amount": "10亿元人民币", "leads": [], "participants": ["新希望集团", "鼎邦投资", "奥克斯", "鼎石资管", "建投华科", "国方创新", "道禾长期投资", "清新资本"], "partners": [], "source": "https://www.jiemian.com/article/14098498.html"},
+    {"company": "光轮智能", "round": "B轮", "date": "2026-05", "amount": "约10亿元人民币（报道称两周两轮合计20亿元）", "leads": ["蚂蚁集团"], "participants": ["建投投资", "大湾区共同家园基金", "森马方道基金", "山东孚弘", "芯能投资", "临芯投资", "三七互娱", "国方创新", "道禾长期投资", "鼎石资管"], "partners": [], "source": "https://news.pedaily.cn/202605/564400.shtml"},
+    {"company": "光轮智能", "round": "战略融资", "date": "2026-06", "amount": "10亿元人民币", "leads": [], "participants": ["中关村科学城", "四川发展", "山东发展投资集团", "巨人网络", "宇信股份", "宝通科技", "中科产投", "图灵资管", "天钺资本", "建投投资", "三七互娱创投基金", "森马服饰"], "partners": [], "source": "https://www.stcn.com/article/detail/3973592.html"},
+    {"company": "简智机器人", "round": "种子轮", "date": "2025", "amount": "未披露（成立4个月内三轮合计超2亿元）", "leads": ["BV百度风投"], "participants": ["Momenta", "九识", "星海图"], "partners": [], "source": "https://www.sohu.com/a/966588070_439726"},
+    {"company": "简智机器人", "round": "种子+轮", "date": "2025", "amount": "未披露（成立4个月内三轮合计超2亿元）", "leads": ["速腾聚创"], "participants": ["BV百度风投"], "partners": [], "source": "https://www.sohu.com/a/966588070_439726"},
+    {"company": "简智机器人", "round": "天使轮", "date": "2025-12", "amount": "未披露（成立4个月内三轮合计超2亿元）", "leads": ["顺为资本"], "participants": ["初心资本", "BV百度风投"], "partners": [], "source": "https://finance.sina.com.cn/cj/2025-12-18/doc-inhcetxr8714763.shtml"},
+    {"company": "简智机器人", "round": "连续多轮（轮次未逐一披露）", "date": "2026-06", "amount": "合计数亿元人民币", "leads": ["蚂蚁集团", "滴滴", "德联资本"], "participants": ["顺为资本", "BV百度风投", "九识智能"], "partners": [], "source": "https://finance.eastmoney.com/a/202606013755825017.html"},
+    {"company": "简智机器人", "round": "A轮", "date": "2026-08", "amount": "未披露", "leads": ["Momenta"], "participants": [], "partners": [], "source": "https://news.qq.com/rain/a/20260826A042GH00"},
+    {"company": "觅蜂科技", "round": "种子轮及天使轮", "date": "2026", "amount": "数亿元人民币", "leads": ["红杉中国"], "participants": ["鼎晖VGC", "BV百度风投", "云锋基金", "慕华科创", "均普智能", "灵初智能"], "partners": [], "source": "https://cj.sina.com.cn/articles/view/6589734409/188c75e0900101dadi?froms=ggmp"},
+    {"company": "觅蜂科技", "round": "天使+轮", "date": "2026-06", "amount": "数亿元人民币", "leads": ["国方创投"], "participants": ["孚腾资本", "上海电科基金", "元启创新", "均普智能", "鼎晖VGC"], "partners": [], "source": "https://finance.sina.com.cn/tech/roll/2026-06-17/doc-inictaer7051031.shtml"},
+    {"company": "觅蜂科技", "round": "新一轮（轮次未披露）", "date": "未知", "amount": "数亿元人民币", "leads": ["中国电信"], "participants": ["张江集团", "红杉中国", "元启创新"], "partners": [], "source": "https://www.163.com/dy/article/L4IEJT260519DFFO.html"},
+    {"company": "恺望数据", "round": "天使轮", "date": "未知", "amount": "千万元级人民币", "leads": [], "participants": ["辰韬资本", "三一集团", "溪山天使汇"], "partners": [], "source": "https://m.trjcn.com/news/detail_40542.html"},
+    {"company": "恺望数据", "round": "天使轮及天使+轮（投资方合并披露）", "date": "未知", "amount": "未披露", "leads": [], "participants": ["辰韬资本", "璞跃中国", "三一集团", "溪山天使汇"], "partners": [], "source": "https://news.qq.com/rain/a/20230908A07C3000"},
+    {"company": "恺望数据", "round": "Pre-A轮", "date": "2023-09", "amount": "数千万元人民币", "leads": ["亚盛投资"], "participants": ["清智资本"], "partners": [], "source": "https://startup.aliyun.com/info/1062313.html"},
+    {"company": "恺望数据", "round": "战略融资", "date": "2026-08", "amount": "逾亿元人民币", "leads": ["北京亦庄产业升级基金", "华方资本", "天际资本"], "participants": ["新鼎资本", "迈睿资管", "兴华鼎立", "松延动力", "觅蜂科技", "亚盛资本", "清智资本", "璞跃资本"], "partners": [], "source": "https://finance.sina.com.cn/tech/roll/2026-08-04/doc-inimeefi5239798.shtml"},
+    {"company": "Abaka AI", "round": "Series A", "date": "未知", "amount": "$8M", "leads": [], "participants": [], "partners": [], "source": "https://app.dealroom.co/news/note/abaka-ai-secures-8m-series-a-to-expand-multimodal-ai-data-infrastructure"},
+    {"company": "Abaka AI", "round": "累计融资（轮次未区分）", "date": "未知", "amount": "累计$20M", "leads": [], "participants": ["Spinel Capital", "Future Value Capital"], "partners": [], "source": "https://finance.yahoo.com/sectors/technology/articles/abaka-ai-secures-8m-expand-140242975.html"},
+    {"company": "TalentsAI", "round": "天使轮", "date": "2025-12", "amount": "未披露", "leads": [], "participants": ["红杉中国", "BAI Capital", "今日资本"], "partners": [], "source": "https://vc.pedaily.cn/company/891792.html"}
+  ],
+  "notFound": []
+}

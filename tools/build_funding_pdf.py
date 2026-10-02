@@ -153,9 +153,10 @@ def main():
 <h1>先冷邮件：<em>按 Luke Sophinos 的方法融资</em>，再加上这个阶段能争取的所有资源</h1>
 <p>第一部分把 Sophinos 的三阶段冷邮件方法用到我们身上：找投资人、拿到第一次会议、推进融资，写清已经做完什么、下一步做什么。第二部分整理了这个阶段能争取的资源和渠道，来自 Reddit、Hacker News、X 上创业者的讨论和官方页面，重要的已逐项复核截止时间、金额和申请条件。</p></div>""")
     cap_n = len(cap["investors"]) if cap else 0
+    bg = cap["byGroup"] if cap else {"A 组": len(groups[3]), "B 组": len(groups[2]), "C 组": len(groups[1]), "暂缓": len(groups[9])}
     h.append(f"""<div class="stats">
 <div class="stat"><span class="n">{n_inv + cap_n}</span><span class="d">投资人进表<br>已有 {n_inv} 家 + 同类公司反查 {cap_n} 家</span></div>
-<div class="stat"><span class="n" style="font-size:18pt">{len(groups[1])} · {len(groups[2])} · {len(groups[3])}</span><span class="d">C / B / A 组<br>从 C 组先发，A 组最后发</span></div>
+<div class="stat"><span class="n" style="font-size:18pt">{bg["C 组"]} · {bg["B 组"]} · {bg["A 组"]}</span><span class="d">C / B / A 组<br>从 C 组先发，A 组最后发</span></div>
 <div class="stat"><span class="n">{len(items)}</span><span class="d">项资源和渠道<br>其中 {verified} 项已复核</span></div>
 <div class="stat"><span class="n hot">10/4</span><span class="d">PearX W27 截止<br>太平洋时间 23:59，迟交到 10/8</span></div></div>""")
     h.append("""<div class="summary"><h2>一页看懂</h2><ol>
@@ -183,11 +184,19 @@ def main():
 <p><b>投过直接竞品的投资人</b>（如 Mercor、Fleet、Halluminate 的股东）不排除。他们最懂这个赛道，但可能有冲突，邮件开场要讲清我们和那家公司的差别（金融方向、量化团队、自有专家）。</p></div></section>""")
 
     # Phase 2
+    tpath = ROOT / "intel" / "investors" / "table.json"
+    table = json.loads(tpath.read_text(encoding="utf-8")) if tpath.exists() else []
+    ab = [t for t in table if t["group"] in (2, 3)]
+    ab_done = sum(1 for t in ab if t["check"] != "未确认" or t["lead"] and not t["lead"].startswith("同类公司中"))
+    table_status = (f'<div class="note"><p><b>表的现状：</b>共 {len(table)} 家（审批页上已有 {sum(1 for t in table if t["status"] == "已在审批页")} 家，'
+                    f'同类公司反查新增 {sum(1 for t in table if t["status"] != "已在审批页")} 家）。A、B 组 {len(ab)} 家逐家查了四个问题，其中 {ab_done} 家查到了支票大小或领投习惯；'
+                    f'C 组的 ① ③ 先按同类公司融资记录推断，④ 已列出。完整表格在 collateral/SimReal-投资人总表.xlsx。</p></div>') if table else ""
     h.append("""<section class="chapter"><div class="chapter-head"><span class="label">Part 1 · Phase 2</span>
 <h2>阶段 2：拿到第一次会议</h2><p>五步：做投资人表、找邮箱、写五要素邮件、分组发送、追踪并迭代。</p></div>
 <h3><span class="no">2.1</span>投资人表：每人回答四个问题</h3>
 <ol class="num"><li>通常投哪一轮（种子、A 轮还是更后）？</li><li>典型支票多大？</li><li>领投还是跟投？</li><li>投过哪些同类公司？</li></ol>
-<p>投资人的投资论点通常围绕特定市场。投过 RL 环境、专家数据、评测公司的人，更可能对整个领域感兴趣。表里每家都标了 C / B / A 组，审批页上的卡片按同样的组排序。</p>
+<p>投资人的投资论点通常围绕特定市场。投过 RL 环境、专家数据、评测公司的人，更可能对整个领域感兴趣。</p>
+""" + table_status + """
 <h3><span class="no">2.2</span>找邮箱</h3>
 <p>原方法用 Hunter.io 批量查邮箱。我们之前定的规则是：只用本人或所在机构公开发布的地址，不按格式猜，不用数据经纪网站。Hunter.io 的地址大多是按格式推出来的，和这条规则冲突，所以没有用。</p>
 <div class="callout"><p><b>建议：</b>保留原规则。冷邮件被退回或进垃圾箱，会伤到 business@simreal.co 这个域名的发信信誉，之后发给客户和伙伴的邮件也会受影响。如果决定用 Hunter.io，只用它标为已验证（verified）的地址，填到审批页卡片的"自己查到的邮箱"里，并控制每天发送量。</p></div>
@@ -196,18 +205,21 @@ def main():
         f'<div class="row"><div class="k">{e(k)}</div><div class="v{" subj" if subj else ""}">{e(v)}</div></div>' for k, v, subj in email_rows()) + "</div>")
     h.append("""<p class="fine">原方法的例子：开场引用对方的播客观点；能力写 Thiel Fellow、Forbes 30 under 30 和已有的软承诺；公司用一句话讲清；进展写三个月内招到的人和 beta 用户数；最后请求一次短会。我们对应写的是：针对这家的开场、量化团队背景、一句话产品、Xitadel 结果和 Surge AI / AfterQuery 合作、2,000 万美元种子轮加 BP 链接和约 20 分钟。中文邮件结构相同。</p>
 <h3><span class="no">2.4</span>分组发送：C → B → A</h3>""")
-    g = groups
+    tg = {g: [t["name"] for t in table if t["group"] == g] for g in (1, 2, 3, 9)} if table else {
+        g: [r["名称"] for r in rows] for g, rows in groups.items()}
+    g = {k: v for k, v in tg.items()}
     def names(rows, k=14):
-        return "、".join(r["名称"] for r in rows[:k]) + ("等" if len(rows) > k else "")
+        return "、".join(rows[:k]) + ("等" if len(rows) > k else "")
     h.append(f"""<div class="groups">
-<div><span class="n">{len(g[1])}</span><span class="t">C 组：第 1 周</span><span class="d">匹配度相对低：战略投资部门、亚洲综合基金、后期为主的机构、间接相关的天使。用来练手和收集反馈。</span></div>
+<div><span class="n">{len(g[1])}</span><span class="t">C 组：第 1 周</span><span class="d">匹配度相对低：只投过一家同类公司且是跟投的机构和天使、战略投资部门、亚洲综合基金。用来练手和收集反馈。</span></div>
 <div><span class="n">{len(g[2])}</span><span class="t">B 组：第 2 周</span><span class="d">方向对：投过数据或评测公司的种子基金、量化机构的投资部门、相关的天使。</span></div>
-<div><span class="n">{len(g[3])}</span><span class="t">A 组：第 3 周</span><span class="d">最匹配、最想拿下：投过 RL 环境 / 专家数据 / 评测、能领投种子轮的基金。</span></div>
+<div><span class="n">{len(g[3])}</span><span class="t">A 组：第 3 周</span><span class="d">最匹配、最想拿下：投过两家以上同类公司、能领投种子或 A 轮的基金。</span></div>
 <div><span class="n">{len(g[9])}</span><span class="t">暂缓</span><span class="d">已投直接竞品、只投后期，或很难接触到的。</span></div></div>
 <p class="names"><b>A 组：</b>{e(names(g[3], 30))}</p>
 <p class="names"><b>B 组举例：</b>{e(names(g[2]))}</p>
 <p class="names"><b>C 组举例：</b>{e(names(g[1]))}</p>
 <p>原因：pitch 会随着反馈越改越好，不要一上来就打最想拿下的基金。每组发完看回复，改开场和 BP，再发下一组。跟进在第 5 天和第 12 天，模板在审批页每张卡片里。</p>
+<p>审批页上的 148 家已经有草稿，可以直接按组发。反查新增的投资人还没有邮箱，等定了找邮箱的方式（见 2.2），再给有邮箱的生成草稿放进审批页。</p>
 <h3><span class="no">2.5</span>追踪与迭代</h3>
 <ul class="plain"><li><b>邮件打开：</b>在 Gmail 装 Mailtrack 一类的插件，看谁打开了、打开了几次。</li>
 <li><b>BP 阅读：</b>用 DocSend、Papermark 这类能看阅读数据的链接，知道对方看了哪几页、看了多久。</li>

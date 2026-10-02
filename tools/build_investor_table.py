@@ -5,7 +5,7 @@ partners, source), lists/investors.csv and intel/outreach/investor-waves.json (e
 and their C/B/A groups), and intel/investors/profiles.json when present (stage, check size,
 lead/follow and partner per investor).
 
-Writes intel/investors/captable.json (summary used by the funding playbook) and
+Writes intel/investors/captable.json (summary used by the funding playbook), intel/investors/table.json and
 collateral/SimReal-投资人总表.xlsx (the 4-question investor table). Needs openpyxl.
 
 Usage: python3 tools/build_investor_table.py
@@ -41,8 +41,13 @@ BODY_FONT = Font(name="Arial", size=10)
 WRAP = Alignment(wrap_text=True, vertical="top")
 
 
+CN_SUFFIX = re.compile(r"(创业投资|投资基金|产业基金|创投|资本|基金|投资|创新|集团)+$")
+
+
 def norm(name):
     s = re.sub(r"[（(].*?[)）]", " ", name or "").lower()
+    if re.fullmatch(r"[\u4e00-\u9fff]+", s.strip()):
+        return CN_SUFFIX.sub("", s.strip()) or s.strip()
     words = [w for w in re.split(r"[^a-z0-9一-鿿]+", s) if w and w not in STOP]
     key = "".join(words)
     full = re.sub(r"[^a-z0-9一-鿿]+", "", (name or "").lower())
@@ -85,7 +90,11 @@ def main():
     with open(ROOT / "lists" / "investors.csv", encoding="utf-8-sig") as f:
         existing = list(csv.DictReader(f))
     waves = json.loads((ROOT / "intel" / "outreach" / "investor-waves.json").read_text(encoding="utf-8"))
-    profiles = json.loads(PROFILES.read_text(encoding="utf-8")) if PROFILES.exists() else {}
+    profiles = {}
+    if PROFILES.exists():
+        for pr in json.loads(PROFILES.read_text(encoding="utf-8")):
+            profiles[norm(pr["name"])] = pr
+            profiles.setdefault(squash(pr["name"]), pr)
     known = {}
     for r in existing:
         for k in (norm(r["名称"]), squash(r["名称"]), norm(r["slug"].replace("-", " ")), squash(r["slug"])):
@@ -140,15 +149,13 @@ def main():
                       for x in sorted(new, key=lambda x: (-len(x["companies"]), x["name"].lower()))],
         "top": [{"name": x["name"], "companies": x["companies"], "leads": x["leads"], "stages": x["stages"]} for x in top],
     }
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(summary, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     # The 4-question table: every existing investor plus every new one from the cap tables.
     by_slug = {x["existing"]: x for x in rows if x["existing"]}
     table = []
     for r in existing:
         x = by_slug.get(r["slug"], {})
-        prof = profiles.get(r["slug"]) or profiles.get(norm(r["名称"])) or {}
+        prof = profiles.get(norm(r["名称"])) or profiles.get(squash(r["名称"])) or {}
         w = waves.get(r["slug"], {}).get("wave", 2)
         table.append({
             "group": w, "name": r["名称"], "kind": r["类型"], "region": r["地区"],
@@ -161,19 +168,26 @@ def main():
             "status": "已在审批页", "sources": " ; ".join(x.get("sources", [])[:3]) or r["钩子来源"],
         })
     for x in sorted(new, key=lambda x: (-len(x["companies"]), x["name"].lower())):
-        prof = profiles.get(norm(x["name"])) or {}
+        prof = profiles.get(norm(x["name"])) or profiles.get(squash(x["name"])) or {}
         table.append({
             "group": x["group"], "name": x["name"], "kind": prof.get("kind", "未确认"), "region": prof.get("region", "未确认"),
             "stage": prof.get("stage") or "、".join(x["stages"]),
             "check": prof.get("check") or "未确认",
             "lead": prof.get("lead") or f'同类公司中领投 {x["leads"]} 次',
             "similar": "、".join(x["companies"]),
-            "contact": prof.get("contact") or ("、".join(x["partners"]) if x["partners"] else "未找到"),
-            "email": prof.get("email") or "未找到",
+            "contact": (prof.get("contact") if prof.get("contact") not in (None, "", "未找到") else None) or ("、".join(x["partners"]) if x["partners"] else "未找到"),
+            "email": (f'{prof["email"]}（{prof.get("emailSource", "")}）' if prof.get("email") not in (None, "", "未找到") else "未找到"),
             "status": "新增（同类公司反查）", "sources": " ; ".join(x["sources"][:3]),
         })
+    summary["table"] = len(table)
+    summary["byGroup"] = {GROUP_LABEL.get(g, "B 组"): sum(1 for t in table if t["group"] == g) for g in (3, 2, 1, 9)}
+    summary["checkKnown"] = sum(1 for t in table if t["check"] not in ("未确认", ""))
+    summary["withEmail"] = sum(1 for t in table if t["email"] not in ("未找到", ""))
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_JSON.write_text(json.dumps(summary, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     rank = {3: 0, 2: 1, 1: 2, 9: 3}
     table.sort(key=lambda t: (rank.get(t["group"], 1), t["status"] != "已在审批页", t["name"].lower()))
+    (OUT_JSON.parent / "table.json").write_text(json.dumps(table, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     wb = Workbook()
     ws = wb.active

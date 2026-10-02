@@ -1,5 +1,6 @@
 {
  "companies": [
+  "Abaka AI",
   "Adaptive ML",
   "AfterQuery",
   "AgileRL",
@@ -37,19 +38,26 @@
   "Scorecard",
   "Sepal AI",
   "Snorkel AI",
+  "TalentsAI",
   "Trajectory",
   "Turing",
   "UniPat",
   "Vals AI",
   "Veris AI",
   "micro1",
+  "光轮智能",
   "博登智能",
   "心识宇宙 Mindverse",
+  "恺望数据",
+  "整数智能",
   "星尘数据",
+  "智能知识",
   "枢途科技",
+  "简智机器人",
+  "觅蜂科技",
   "语用科技"
  ],
- "rounds": 92,
+ "rounds": 118,
  "notFound": [
   "Habitat (Habitat Inc, NYC RL-environment vendor)",
   "Plato",
@@ -266,6 +274,17 @@
     "A 轮"
    ],
    "group": 2
+  },
+  {
+   "name": "BAI Capital",
+   "companies": [
+    "TalentsAI"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
   },
   {
    "name": "Base10 Advancement Initiative",
@@ -1475,6 +1494,17 @@
    "group": 1
   },
   {
+   "name": "SEE Fund",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
    "name": "Seldon Lab",
    "companies": [
     "Andon Labs"
@@ -1816,6 +1846,17 @@
    "group": 1
   },
   {
+   "name": "三一集团",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
    "name": "上海未来产业基金",
    "companies": [
     "语用科技"
@@ -1827,6 +1868,84 @@
    "group": 1
   },
   {
+   "name": "上海电科基金",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "中科产投",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "临芯投资",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "九派资本",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "九识",
+   "companies": [
+    "简智机器人"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
+   ],
+   "group": 1
+  },
+  {
+   "name": "九识智能",
+   "companies": [
+    "简智机器人"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "亚盛投资",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 1,
+   "stages": [
+    "A 轮",
+    "未标明"
+   ],
+   "group": 2
+  },
+  {
    "name": "亿合资本",
    "companies": [
     "枢途科技"
@@ -1834,6 +1953,29 @@
    "leads": 0,
    "stages": [
     "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "元启创新",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使",
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "兴华鼎立",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
    ],
    "group": 1
   },
@@ -1860,6 +2002,17 @@
    "group": 1
   },
   {
+   "name": "初心资本",
+   "companies": [
+    "简智机器人"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
    "name": "厚天资本",
    "companies": [
     "星尘数据"
@@ -1867,6 +2020,39 @@
    "leads": 0,
    "stages": [
     "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "变量资本",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "唐氏（中国）投资",
+   "companies": [
+    "整数智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "四川发展",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
    ],
    "group": 1
   },
@@ -1882,6 +2068,50 @@
    "group": 1
   },
   {
+   "name": "图灵启真",
+   "companies": [
+    "整数智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "图灵资管",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "均普智能",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "大湾区共同家园基金",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
    "name": "天使湾",
    "companies": [
     "星尘数据"
@@ -1893,6 +2123,105 @@
    "group": 2
   },
   {
+   "name": "天钺资本",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "奥克斯",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "孚腾资本",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "宇信股份",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "安益盛银",
+   "companies": [
+    "整数智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "宝通科技",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "山东发展投资集团",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "山东孚弘",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "巨人网络",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
    "name": "广州产投",
    "companies": [
     "枢途科技"
@@ -1900,6 +2229,72 @@
    "leads": 0,
    "stages": [
     "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "建投华科",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "张江集团",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "慕华科创",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "新希望集团",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "新鼎资本",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "星海图",
+   "companies": [
+    "简智机器人"
+   ],
+   "leads": 0,
+   "stages": [
+    "种子"
    ],
    "group": 1
   },
@@ -1926,6 +2321,39 @@
    "group": 1
   },
   {
+   "name": "松延动力",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "森马方道基金",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "森马服饰",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
    "name": "浙江见识创业投资管理有限公司",
    "companies": [
     "博登智能"
@@ -1948,6 +2376,40 @@
    "group": 1
   },
   {
+   "name": "清智资本",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮",
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "溪山天使汇",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "灵初智能",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
    "name": "瑞夏资本",
    "companies": [
     "星尘数据"
@@ -1955,6 +2417,28 @@
    "leads": 0,
    "stages": [
     "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "璞跃中国",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "璞跃资本",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
    ],
    "group": 1
   },
@@ -1970,6 +2454,17 @@
    "group": 1
   },
   {
+   "name": "翊宙资本",
+   "companies": [
+    "整数智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "A 轮"
+   ],
+   "group": 1
+  },
+  {
    "name": "老鹰基金",
    "companies": [
     "星尘数据"
@@ -1977,6 +2472,17 @@
    "leads": 0,
    "stages": [
     "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "芯能投资",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "B 轮及以后"
    ],
    "group": 1
   },
@@ -1992,15 +2498,26 @@
    "group": 1
   },
   {
-   "name": "赛富投资基金",
+   "name": "藕舫天使",
    "companies": [
-    "GIM"
+    "整数智能"
    ],
-   "leads": 1,
+   "leads": 0,
    "stages": [
-    "pre-seed/天使"
+    "A 轮"
    ],
-   "group": 2
+   "group": 1
+  },
+  {
+   "name": "觅蜂科技",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
   },
   {
    "name": "趋势投资",
@@ -2010,6 +2527,40 @@
    "leads": 0,
    "stages": [
     "A 轮"
+   ],
+   "group": 1
+  },
+  {
+   "name": "迈睿资管",
+   "companies": [
+    "恺望数据"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
+  },
+  {
+   "name": "速腾聚创",
+   "companies": [
+    "简智机器人"
+   ],
+   "leads": 1,
+   "stages": [
+    "种子"
+   ],
+   "group": 2
+  },
+  {
+   "name": "道禾长期投资",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明",
+    "B 轮及以后"
    ],
    "group": 1
   },
@@ -2078,6 +2629,40 @@
     "A 轮"
    ],
    "group": 2
+  },
+  {
+   "name": "鼎晖VGC",
+   "companies": [
+    "觅蜂科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使"
+   ],
+   "group": 1
+  },
+  {
+   "name": "鼎石资管",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明",
+    "B 轮及以后"
+   ],
+   "group": 1
+  },
+  {
+   "name": "鼎邦投资",
+   "companies": [
+    "光轮智能"
+   ],
+   "leads": 0,
+   "stages": [
+    "未标明"
+   ],
+   "group": 1
   }
  ],
  "top": [
@@ -2132,6 +2717,22 @@
    "stages": [
     "B 轮及以后",
     "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "红杉中国",
+   "companies": [
+    "觅蜂科技",
+    "TalentsAI",
+    "UniPat",
+    "语用科技",
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 2,
+   "stages": [
+    "pre-seed/天使",
+    "未标明",
     "A 轮"
    ]
   },
@@ -2195,6 +2796,20 @@
    ]
   },
   {
+   "name": "蚂蚁集团",
+   "companies": [
+    "光轮智能",
+    "简智机器人",
+    "心识宇宙 Mindverse"
+   ],
+   "leads": 3,
+   "stages": [
+    "B 轮及以后",
+    "未标明",
+    "A 轮"
+   ]
+  },
+  {
    "name": "Index Ventures",
    "companies": [
     "Matrices",
@@ -2221,19 +2836,6 @@
    ]
   },
   {
-   "name": "红杉中国",
-   "companies": [
-    "UniPat",
-    "语用科技",
-    "心识宇宙 Mindverse"
-   ],
-   "leads": 1,
-   "stages": [
-    "A 轮",
-    "pre-seed/天使"
-   ]
-  },
-  {
    "name": "The House Fund",
    "companies": [
     "Veris AI",
@@ -2243,6 +2845,19 @@
    "leads": 0,
    "stages": [
     "种子",
+    "A 轮"
+   ]
+  },
+  {
+   "name": "辰韬资本",
+   "companies": [
+    "光轮智能",
+    "恺望数据",
+    "枢途科技"
+   ],
+   "leads": 0,
+   "stages": [
+    "pre-seed/天使",
     "A 轮"
    ]
   },
@@ -2307,29 +2922,15 @@
     "B 轮及以后",
     "种子"
    ]
-  },
-  {
-   "name": "Balaji Srinivasan",
-   "companies": [
-    "Datacurve",
-    "Prime Intellect"
-   ],
-   "leads": 1,
-   "stages": [
-    "种子"
-   ]
-  },
-  {
-   "name": "Chemistry",
-   "companies": [
-    "Datacurve",
-    "Proximal"
-   ],
-   "leads": 1,
-   "stages": [
-    "A 轮",
-    "种子"
-   ]
   }
- ]
+ ],
+ "table": 382,
+ "byGroup": {
+  "A 组": 33,
+  "B 组": 70,
+  "C 组": 262,
+  "暂缓": 17
+ },
+ "checkKnown": 0,
+ "withEmail": 72
 }
