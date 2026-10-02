@@ -227,6 +227,7 @@
       <label class="field"><span class="label">英文署名</span><input id="f-name-en" placeholder="替换 [Your name]" autocomplete="off"></label>
       <label class="field"><span class="label">中文署名</span><input id="f-name-zh" placeholder="替换 [姓名]" autocomplete="off"></label>
       <label class="field"><span class="label">微信 / 电话</span><input id="f-contact" placeholder="替换 微信/电话：[ ]" autocomplete="off"></label>
+      <label class="field"><span class="label">BP 链接</span><input id="f-deck" placeholder="替换 [Deck link] / [BP 链接]" autocomplete="off"></label>
     </div>
     <div class="save-state" id="save-state" aria-live="polite"></div>
   </section>
@@ -257,7 +258,7 @@
 
   var TRACKS = {
     partner: { label: "渠道伙伴", intro: "数据供应商、专家网络、RL 环境和评测公司。我们做它们的供给方：出专家，或者出环境和验证器由它们交付给实验室。邮件写了团队背景、专家数量、Surge AI 和 AfterQuery 合作、正在融资。" },
-    investor: { label: "投资人", intro: "美元和人民币基金、天使、量化机构的投资部门。每封写了为什么找这家（它投过什么或说过什么），加上团队、Xitadel 结果、进展和 2,000 万美元种子轮。海外基金沿用之前定的发送顺序：第 1 批先热身，第 3 批最重要、最后发，暂缓的排在最后。" },
+    investor: { label: "投资人", intro: "美元和人民币基金、天使、量化机构的投资部门。每封写了为什么找这家（它投过什么或说过什么），加上团队、Xitadel 结果、进展和 2,000 万美元种子轮。按 Luke Sophinos 的冷邮件方法分三组：C 组匹配度最低，先发练手；B 组其次；A 组最匹配、最想拿下，最后发；暂缓的排在最后。邮件分五段：针对这家的开场、团队、一句话讲公司、进展、请求（附 BP 链接）。" },
     customer: { label: "客户", intro: "前沿实验室、国内大模型公司、垂直 AI、金融机构。邮件写团队和产品背书，然后问数据缺口，提小批量付费试点。为避免和渠道伙伴撞单，客户邮件里没写 Surge AI 和 AfterQuery。" }
   };
   var REVIEW = {
@@ -265,9 +266,9 @@
     approved: { label: "待发送", cls: "st-approved" },
     changes: { label: "已退回，等 Claude 修改", cls: "st-changes" }
   };
-  var PH_LABEL = { "[Your name]": "英文署名", "[姓名]": "中文署名", "[ ]": "微信/电话", "[介绍人]": "介绍人" };
+  var PH_LABEL = { "[Your name]": "英文署名", "[姓名]": "中文署名", "[ ]": "微信/电话", "[介绍人]": "介绍人", "[Deck link]": "BP 链接", "[BP 链接]": "BP 链接" };
   var DAY = 86400000;
-  var WAVES = { 1: "第 1 批：先热身", 2: "第 2 批：懂赛道或有冲突", 3: "第 3 批：最重要，最后发", 9: "暂缓" };
+  var WAVES = { 1: "C 组：先发练手", 2: "B 组", 3: "A 组：最匹配，最后发", 9: "暂缓" };
 
   var state = {
     docs: [], settings: {}, pipeline: null,
@@ -328,6 +329,7 @@
     if (name) t = t.split(lang === "en" ? "[Your name]" : "[姓名]").join(name);
     if (s.nameZh) t = t.split("[姓名]").join(s.nameZh);
     if (s.contact) t = t.split("微信/电话：[ ]").join("微信/电话：" + s.contact);
+    if (s.deck) t = t.split("[Deck link]").join(s.deck).split("[BP 链接]").join(s.deck);
     if (doc && doc.introducer) t = t.split("[介绍人]").join(doc.introducer);
     return t;
   }
@@ -816,7 +818,7 @@
   });
 
   // Sender settings: debounced save to the shared settings document.
-  var FIELDS = { "f-from": "from", "f-name-en": "nameEn", "f-name-zh": "nameZh", "f-contact": "contact" };
+  var FIELDS = { "f-from": "from", "f-name-en": "nameEn", "f-name-zh": "nameZh", "f-contact": "contact", "f-deck": "deck" };
   var saveTimer = null;
   function scheduleSave() {
     var st = document.getElementById("save-state");

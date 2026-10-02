@@ -1,0 +1,496 @@
+{
+  "items": [
+    {
+      "name": "NeurIPS 2026 (Sydney main hub)",
+      "category": "社区与活动",
+      "region": "全球（澳大利亚悉尼主会场）；不限公司注册地",
+      "offer": "顶级机器学习会议，共 102 个 workshop（含强化学习方向）、Expo Talks、tutorials；前沿实验室后训练/RL 研究员、AI 公司和投资人集中出现",
+      "eligibility": "注册购票即可参会；票价、Expo/赞助展位费用未确认",
+      "timing": "悉尼 2026-12-06 至 12-12：12/6 Expo Talks，12/7 tutorials，12/8-12/10 主会，12/11-12/12 workshops；注册截止日未确认",
+      "status": "未确认",
+      "howToApply": "在 neurips.cc 注册；用 aiworkshoptracker 等列表筛出 RL / evals 相关 workshop，会前联系组织者和讲者约见面",
+      "fit": "高",
+      "fitWhy": "RL 环境、verifier、评测数据的核心买家（实验室后训练团队）和 RL 研究社区都在这里，workshop 和 side events 是建立研究圈曝光的最佳场合",
+      "effort": "中",
+      "community": "TeamBlind 上有人认为 NeurIPS 有 Google Brain 等大厂人员到场，适合 networking，但对非研究岗机会的价值看法不一（https://www.teamblind.com/post/neurips-expo-kkumvm4w）",
+      "sources": [
+        "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/",
+        "https://aiweekly.co/alerts/neurips-2026-accepts-102-workshops-across-three-host-cities",
+        "https://www.beri.net/events/neurips-2026",
+        "https://aiworkshoptracker.com/conference/neurips/2026/",
+        "https://www.teamblind.com/post/neurips-expo-kkumvm4w"
+      ]
+    },
+    {
+      "name": "NeurIPS 2026 satellite hubs (Paris / Atlanta)",
+      "category": "社区与活动",
+      "region": "欧洲（法国巴黎）/ 美国（佐治亚州亚特兰大）",
+      "offer": "NeurIPS 2026 卫星会场：巴黎 12/9-12/11 主会与 tutorials，12/12-12/13 共 28 个 workshop，其中有 Reinforcement Learning for Experimental Sciences workshop；亚特兰大同期举办",
+      "eligibility": "注册购票；票价未确认",
+      "timing": "2026-12-09 至 12-13",
+      "status": "未确认",
+      "howToApply": "在 neurips.cc 注册对应会场；英国成员去巴黎、美国成员去亚特兰大",
+      "fit": "高",
+      "fitWhy": "差旅成本远低于悉尼，同时能接触欧洲/美国本地的 RL 研究者和实验室团队；团队跨英美，可分头覆盖两个会场",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://aiweekly.co/alerts/neurips-2026-accepts-102-workshops-across-three-host-cities",
+        "https://www.vdura.com/ai-infrastructure-events-calendar/neurips-2026-paris/",
+        "https://www.beri.net/events/neurips-2026"
+      ]
+    },
+    {
+      "name": "NVIDIA Launching Legends social at NeurIPS",
+      "category": "投资人渠道",
+      "region": "随 NeurIPS 会场（2026 届举办城市未确认）",
+      "offer": "NVIDIA 在 NeurIPS 期间举办的封闭式社交活动，连接风险投资人、NVIDIA 合作伙伴和行业导师；免费参加；之后有 pitch workshops",
+      "eligibility": "未确认（页面称 exclusive，可能需报名或受邀；是否要求 NVIDIA Inception 会员未确认）",
+      "timing": "2026 届是否举办、日期未确认",
+      "status": "未确认",
+      "howToApply": "关注 nvevents.nvidia.com 该页面；如已加入 NVIDIA Inception，向对接人询问 NeurIPS 2026 名额",
+      "fit": "高",
+      "fitWhy": "零成本见到关注 AI 基础设施的 VC，正好配合 2000 万美元种子轮；与 NeurIPS 行程叠加",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://nvevents.nvidia.com/launchinglegendsatneurips"
+      ]
+    },
+    {
+      "name": "ICLR 2027",
+      "category": "社区与活动",
+      "region": "美国旧金山（Moscone Center）",
+      "offer": "顶级深度学习会议；主会 4/26-4/28，workshops 4/29-4/30；在旧金山举办，湾区实验室研究员和投资人密集",
+      "eligibility": "注册购票参会；主会论文投稿已截止",
+      "timing": "2027-04-26 至 04-30；主会论文截止 2026-09-25 AoE（已过）；workshop 论文与注册开放时间未确认",
+      "status": "未确认",
+      "howToApply": "关注 iclr.cc 注册开放；workshop 投稿通常晚于主会（具体日期未确认），可投 RL / 评测相关 workshop 论文以获得曝光",
+      "fit": "高",
+      "fitWhy": "在旧金山举办，可一趟同时见实验室买家（后训练团队）和湾区 VC，并在会期周办 side event",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://researchtheta.com/conferences/iclr-2027/",
+        "https://www.beri.net/events/iclr-2027",
+        "https://mldeadlines.com/conference/iclr-2027/"
+      ]
+    },
+    {
+      "name": "AGI House SF (hackathons & residency)",
+      "category": "社区与活动",
+      "region": "美国旧金山湾区（线下）；不限公司注册地",
+      "offer": "面向研究者和创始人的 residency + hackathon house；2026 年起与 OpenAI 合办 autoresearch、自我改进 agent 框架、harness 优化等主题 hackathon，频率最高每周 5 场；也与 Nebius 等合办（如 Self Improving AI Agents Emergency Hackathon）",
+      "eligibility": "活动通过 Luma 报名，是否审核未确认；需人在湾区",
+      "timing": "滚动举办，具体场次见 Luma / X",
+      "status": "滚动申请",
+      "howToApply": "关注 agihouse.ai、X @agihouse_org 和 Luma 活动页报名；可联系主办方，以赞助方身份提供金融 RL 环境或数据作为赛题",
+      "fit": "高",
+      "fitWhy": "self-improving agents、autoresearch 等主题正需要 RL 环境和 verifier；能与 OpenAI 等实验室的人面对面，也是展示 Xitadel 的好场合",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://agihouse.ai/",
+        "https://x.com/agihouse_org?lang=en",
+        "https://www.hackathonradar.com/database/hackathon/self-improving-ai-sia-agents-emergency-hackathon-by-agi-hous-2026",
+        "https://luma.com/genaihackathon"
+      ]
+    },
+    {
+      "name": "Cerebral Valley events & hackathons",
+      "category": "社区与活动",
+      "region": "全球（以旧金山为主，也有巴黎、班加罗尔等）",
+      "offer": "全球 AI 社区活动、hackathon、meetup、峰会日历，并为前沿实验室办活动；2026 年场次包括 Google DeepMind 班加罗尔 hackathon（7/11）、RAISE Summit Hackathon（巴黎 7/4）、AI Engineer World's Fair Hackathon（6/27，$35K+ 现金与合作方额度）",
+      "eligibility": "按活动报名，多数需申请",
+      "timing": "持续滚动；上述 2026 年中场次已结束",
+      "status": "滚动申请",
+      "howToApply": "在 cerebralvalley.ai/events 订阅并报名；可联系其讨论赞助或赛道合作",
+      "fit": "高",
+      "fitWhy": "它是 OpenEnv 这类 RL 环境 hackathon 的主办方之一，是接触实验室开发者关系团队和 RL 开发者社区的高效入口",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://cerebralvalley.ai/events?trk=public_post_comment-text",
+        "https://cerebralvalley.ai/showcase",
+        "https://cerebralvalley.ai/e/aiewf-hackathon-2026",
+        "https://cerebralvalley.ai/e/raise-summit-hackathon",
+        "https://cerebralvalley.ai/events/~/e/google-deepmind-bangalore-hackathon?modalCloseUrl=%2Fevents"
+      ]
+    },
+    {
+      "name": "OpenEnv Hackathon SF (PyTorch x Cerebral Valley x Shack15)",
+      "category": "比赛与奖金",
+      "region": "美国旧金山",
+      "offer": "参赛者构建 RL 环境并对 base model 做后训练以提升基准表现；5 个主题（RL 与 agentic orchestration）；现金奖池 $100K+",
+      "eligibility": "报名参赛，具体条件未确认",
+      "timing": "2026-03-07 至 03-08 已举办；下一届未确认",
+      "status": "已截止",
+      "howToApply": "关注 pytorch.org 活动页和 cerebralvalley.ai；下一届可争取赛题/环境提供方或评委角色，或按 OpenEnv 规范开源一个精简版金融环境",
+      "fit": "高",
+      "fitWhy": "与 SimReal 的产品（RL 环境 + 后训练）完全重合，是展示金融环境、结识 Meta/PyTorch 团队和 RL 开发者的理想场景",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://cerebralvalley.ai/e/openenv-hackathon-sf",
+        "https://pytorch.org/event/openenv-hackathon-sf/"
+      ]
+    },
+    {
+      "name": "Cerebral Valley AI Summit (Newcomer)",
+      "category": "投资人渠道",
+      "region": "美国旧金山 / 英国伦敦",
+      "offer": "记者 Eric Newcomer 主办的邀请制峰会，面向获风投支持的创始人、顶级投资人和 AI 领袖",
+      "eligibility": "邀请制；面向 venture-backed 创始人（SimReal 尚无外部融资，可能需投资人引荐）",
+      "timing": "伦敦场 2026-06-24 已举办；下一届旧金山场日期未确认",
+      "status": "未确认",
+      "howToApply": "通过现有投资人或 Newcomer 圈子争取邀请；关注主办方公告",
+      "fit": "中",
+      "fitWhy": "投资人密度极高，但邀请制且偏向已融资公司；种子轮有领投后价值更大",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://eventbrowse.com/event/cerebral-valley-ai-summit/"
+      ]
+    },
+    {
+      "name": "AI Engineer World's Fair",
+      "category": "社区与活动",
+      "region": "美国旧金山（Moscone West）",
+      "offer": "规模最大的技术型 AI 大会之一：29 个 track、300 位讲者、100 家展商、6,000+ AI 工程师、创始人和 AI 负责人；同期 Cerebral Valley hackathon（2026 主题 recursive self-improvement，奖金 $35K+）",
+      "eligibility": "购票；2026 届票价 $450-$1,800，多档票会前售罄",
+      "timing": "2026 届 6/29-7/2 已结束；2027 届日期未确认",
+      "status": "已截止",
+      "howToApply": "关注 ai.engineer 公告尽早买票；申请演讲（CFP 时间未确认）或展位",
+      "fit": "中",
+      "fitWhy": "AI 应用公司的 AI 负责人和工程团队集中，适合找 AI-app 买家和合作方；对前沿实验室后训练团队的触达不如 NeurIPS/ICLR",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.ai.engineer/worldsfair",
+        "https://dev.to/hanzla/inside-ai-engineer-worlds-fair-2026-what-6000-engineers-showed-up-to-build-fgm",
+        "https://cerebralvalley.ai/e/aiewf-hackathon-2026"
+      ]
+    },
+    {
+      "name": "TechCrunch Disrupt 2026",
+      "category": "社区与活动",
+      "region": "美国旧金山（Moscone West）",
+      "offer": "10,000+ 参会者；CrunchMatch 在现场私人会面区安排创始人与投资人会面，并按资料推荐匹配；会期周可自办 side event",
+      "eligibility": "购票参会；票价未确认",
+      "timing": "2026-10-13 至 10-15",
+      "status": "未确认",
+      "howToApply": "在 techcrunch.com/events/techcrunch-disrupt 购票并开通 CrunchMatch 预约投资人；也可申请在会期周办 side event",
+      "fit": "中",
+      "fitWhy": "投资人密度高，适合种子轮预热；但受众偏泛科技，RL / 后训练买家较少，且距今只有约 11 天",
+      "effort": "中",
+      "community": "Launchhawk（Substack）评论称，运作得好的一周 TechCrunch 活动可抵三个月冷邮件，前提是带着目标名单和计划到场（https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston）",
+      "sources": [
+        "https://techcrunch.com/events/techcrunch-disrupt/",
+        "https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston",
+        "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/"
+      ]
+    },
+    {
+      "name": "TechCrunch Startup Battlefield 200",
+      "category": "比赛与奖金",
+      "region": "全球（2026 届覆盖各行业和地区）",
+      "offer": "入选的 200 家早期公司在 Disrupt 现场展示，面向 10,000+ 观众、顶级 VC 和全球媒体",
+      "eligibility": "早期创业公司；具体条件未确认",
+      "timing": "已截止；2026 届申请 5/27 截止并延至 6/8，8 月底通知；2027 届日期未确认",
+      "status": "已截止",
+      "howToApply": "参考 techcrunch.com/startup-battlefield/about 和 TC 发布的“我们在找什么”文章，2027 年春季提前准备",
+      "fit": "中",
+      "fitWhy": "媒体曝光和投资人背书强，但对 B2B 数据/RL 基础设施的买家价值有限",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://techcrunch.com/startup-battlefield/about/",
+        "https://techcrunch.com/2026/05/28/how-to-apply-to-startup-battlefield-2026-what-you-need-ahead-of-the-june-8-deadline/",
+        "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
+        "https://techcrunch.com/2026/05/26/what-were-looking-for-in-startup-battlefield-2026-and-how-to-apply-in-time-for-the-may-27-deadline/"
+      ]
+    },
+    {
+      "name": "Slush 2026 (incl. Slush 100)",
+      "category": "社区与活动",
+      "region": "欧洲（芬兰赫尔辛基）",
+      "offer": "欧洲旗舰创业大会，20,000+ 参与者；11/17 为 Day 0（创始人与投资人日，含专属峰会）；Slush 100 创业比赛冠军通常获得 VC 联合体的股权投资",
+      "eligibility": "购票；第三方指南称创业者票 €395 起、投资人票 €1,195 起；Slush 100 2026 届申请条件与截止未确认",
+      "timing": "2026-11-18 至 11-19（11/17 Day 0）",
+      "status": "未确认",
+      "howToApply": "在 Slush 官网购买 startup pass，会前预约投资人会面（具体机制未确认）",
+      "fit": "中",
+      "fitWhy": "欧洲 VC 最集中的场合之一，适合以英国主体融资时接触欧洲投资人；AI 实验室买家较少",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.47hz.com/blog/slush-2026-founders-guide",
+        "https://www.therecursive.com/slush-2026/",
+        "https://voyeglobal.com/slush-helsinki-event-guide/",
+        "https://conferenceinc.net/post/slush/"
+      ]
+    },
+    {
+      "name": "Web Summit 2026 Lisbon (ALPHA startup program)",
+      "category": "社区与活动",
+      "region": "欧洲（葡萄牙里斯本）",
+      "offer": "70,000+ 参会者，来自 160+ 国家；ALPHA 计划面向 pre-Series A 初创，以远低于常规票的价格提供展位和投资人会面，含结构化投资人匹配、导师时段和媒体曝光",
+      "eligibility": "ALPHA：pre-Series A 早期公司；价格与申请截止未确认",
+      "timing": "2026-11-09 至 11-12（11/9 为预热日）",
+      "status": "未确认",
+      "howToApply": "在 websummit.com 申请 ALPHA 席位",
+      "fit": "低",
+      "fitWhy": "规模大但很泛，对 B2B AI 数据基础设施买家触达弱；投资人匹配有一定价值",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://websummit.com/",
+        "https://mutekigroup.com/events/web-summit-2026/",
+        "https://monet.money/resources/events/web-summit-2026"
+      ]
+    },
+    {
+      "name": "Hong Kong FinTech Week x StartmeupHK 2026",
+      "category": "社区与活动",
+      "region": "中国香港（及大湾区）",
+      "offer": "45,000+ 参与者、120+ 经济体、1,000+ 讲者、800+ 赞助商/展商/初创、30+ 代表团；11/2-11/3 在 HKCEC 办主会，其后一周在香港和大湾区多处办社区活动；AIMA（另类投资管理协会）也列出此活动",
+      "eligibility": "注册购票；票价未确认；StartmeupHK 初创展示条件未确认",
+      "timing": "2026-11-02 至 11-06",
+      "status": "开放中",
+      "howToApply": "在 fintechweek.hk/tickets 注册；会前从 side events 日程中筛出银行、券商、对冲基金相关活动",
+      "fit": "高",
+      "fitWhy": "金融优先、团队华人，可同时接触亚洲银行、券商、对冲基金（金融 RL 环境的潜在客户和专家来源）以及香港/中资投资人",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://dealroom.co/events/hong-kong-fintech-week-2026/",
+        "https://www.investhk.gov.hk/en/events/hong-kong-fintech-week-x-startmeuphk-2026/",
+        "https://www.aima.org/event/hong-kong-fintech-week-x-startmeuphk-2026.html",
+        "https://www.fintechweek.hk/tickets"
+      ]
+    },
+    {
+      "name": "Money20/20 USA 2026",
+      "category": "客户与销售渠道",
+      "region": "美国拉斯维加斯（The Venetian Expo）",
+      "offer": "全球最大的金融科技与支付大会，13,000+ 银行、支付、科技高管；Startup Hub 提供投资人接触、企业买家会面、媒体曝光",
+      "eligibility": "Startup Hub 要求 2023-10-01 之后注册成立；通行证约 $3,599 起，临近会期升至 $4,199（Startup 票价未确认）",
+      "timing": "2026-10-18 至 10-21；无固定报名截止，价格分档上涨，现场也可买",
+      "status": "开放中",
+      "howToApply": "在 money2020.com/get-your-pass 购票，选择 Startup Hub 类别",
+      "fit": "中",
+      "fitWhy": "金融机构买家多，与月结、财务 agent 场景相关；但主题偏支付，对 AI 实验室买家触达弱，费用较高",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.money2020.com/get-your-pass",
+        "https://internaware.org/business/money2020-usa-2026-deadlines/",
+        "https://internaware.org/business/best-startup-opportunities-money2020-usa-2026/",
+        "https://sphinxhq.com/blog-posts/money2020-usa-2026-guide"
+      ]
+    },
+    {
+      "name": "SuperAI Singapore 2027 + NEXT Hackathon",
+      "category": "社区与活动",
+      "region": "亚洲（新加坡 Marina Bay Sands）",
+      "offer": "亚洲最大的 AI 大会之一（2026 届 10,000 人售罄）；NEXT Hackathon 200 名开发者竞逐 US$200,000+ 奖金；全年有 Road to SuperAI 系列前置活动",
+      "eligibility": "购票参会；hackathon 报名条件未确认",
+      "timing": "2027-09-08 至 09-09（NEXT Hackathon 9/7-9/9）；会期超出 6 个月窗口，报名开放时间未确认",
+      "status": "未确认",
+      "howToApply": "关注 superai.com 和 Road to SuperAI 活动页",
+      "fit": "中",
+      "fitWhy": "覆盖亚洲投资人和企业买家，与华人团队的中国/亚洲网络互补；对 RL 研究社区的触达较弱",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://checkout.superai.com/events/singapore-2027",
+        "https://www.superai.com/next-hackathon",
+        "https://www.superai.com/road-to-superai",
+        "https://aijourn.com/superai-singapore-2026-sells-out-asias-largest-ai-event-brings-together-10000-global-innovators/"
+      ]
+    },
+    {
+      "name": "SuperAI Genesis AI Startup Competition",
+      "category": "比赛与奖金",
+      "region": "全球（决赛在新加坡）",
+      "offer": "US$2.3M 奖励资本；50 家初创展示，10 家决赛现场向投资人评委路演",
+      "eligibility": "未确认",
+      "timing": "决赛随 SuperAI 2027（2027-09-08 至 09-09）；申请窗口未确认",
+      "status": "未确认",
+      "howToApply": "关注 superai.com/genesis-startup-competition",
+      "fit": "中",
+      "fitWhy": "奖金规模大、对注册地要求未见限制，但决赛时间晚于种子轮节奏",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.superai.com/genesis-startup-competition"
+      ]
+    },
+    {
+      "name": "Prime Intellect Environments Hub bounties",
+      "category": "曝光与发布平台",
+      "region": "全球（对全球申请者开放）",
+      "offer": "两档赏金：Open Access 任务约 $100-500；Application-Only 任务（更难，常由第三方赞助）约 $1,000-5,000+，按评测结果付费；环境公开发布到 Environments Hub 并署名",
+      "eligibility": "全球个人或团队均可",
+      "timing": "持续开放",
+      "status": "滚动申请",
+      "howToApply": "通过 primeintellect.ai 环境计划页面申请；用其开源 Verifiers 库构建环境",
+      "fit": "高",
+      "fitWhy": "能在开源 RL 社区建立“金融 RL 环境”的署名曝光，并可作为给实验室买家看的公开样品；Application-Only 任务的第三方赞助方本身就是潜在客户线索。需权衡开源对专有数据价值的稀释",
+      "effort": "中",
+      "community": "X 上 Prime Intellect 成员 Alex 发文称，赏金计划持续对全球开放，按评测结果付 $1,000-5,000+（https://x.com/afurgs/status/1997292157212983300）",
+      "sources": [
+        "https://www.primeintellect.ai/blog/scaling-environments-program",
+        "https://www.primeintellect.ai/blog/environments",
+        "https://x.com/afurgs/status/1997292157212983300"
+      ]
+    },
+    {
+      "name": "Prime Intellect RL Residency",
+      "category": "Fellowship 与早期项目",
+      "region": "全球（是否远程未确认）",
+      "offer": "提供算力、津贴和内部研究团队支持，用于构建新的环境和评测；每期 14-16 人",
+      "eligibility": "研究者和工程师（研究生、全职或兼职均有）；上一期 500+ 人申请",
+      "timing": "下一期未确认",
+      "status": "未确认",
+      "howToApply": "关注 Prime Intellect 的 X 和博客上的招募公告",
+      "fit": "中",
+      "fitWhy": "可由一位联合创始人以个人身份申请，获得算力和 RL 研究圈人脉；但录取率低（500+ 人选十几人），且可能与公司全职创业冲突",
+      "effort": "中",
+      "community": "Prime Intellect 在 X 上称社区已向 Environments Hub 交付 100+ 环境，并招募 residency 成员，提供算力、津贴和研究支持（https://x.com/PrimeIntellect/status/1963038995363082719）",
+      "sources": [
+        "https://x.com/PrimeIntellect/status/1963038995363082719",
+        "https://github.com/PrimeIntellect-ai/residency-environments",
+        "https://www.primeintellect.ai/blog/scaling-environments-program",
+        "https://sequoiacap.com/podcast/building-the-github-for-rl-environments-prime-intellects-will-brown-johannes-hagemann"
+      ]
+    },
+    {
+      "name": "Hacker News Show HN",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "免费发布开源 RL 环境、benchmark、评测工具的渠道；先例有 RL 环境实战课程（基于 Verifiers 库）、CivBench、CVE-Bench、Open Operator Evals、BenchFlow 等",
+      "eligibility": "任何人；需有可直接试用的作品",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "在 news.ycombinator.com 提交 “Show HN: ...”，附开源仓库或在线 demo",
+      "fit": "高",
+      "fitWhy": "开源一个精简版交易环境或 month-end-close benchmark，可同时吸引开发者、实验室研究员和投资人注意",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://news.ycombinator.com/item?id=47730587",
+        "https://news.ycombinator.com/item?id=47152571",
+        "https://news.ycombinator.com/item?id=43540413",
+        "https://news.ycombinator.com/item?id=44318333",
+        "https://news.ycombinator.com/item?id=43440893"
+      ]
+    },
+    {
+      "name": "r/LocalLLaMA",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "开源 LLM 开发者社区，用户会讨论和分享数据集、微调方法；可用来发布开源样本数据集或环境",
+      "eligibility": "任何人；需遵守版块的自我推广规则（具体规则未确认）",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "以技术内容（数据集、实验结果）发帖，同时附上 Hugging Face 链接；避免纯广告",
+      "fit": "中",
+      "fitWhy": "能触达做后训练的开源开发者和小型模型公司；不过前沿实验室买家很少直接来自这里",
+      "effort": "低",
+      "community": "存档显示该版块有用户发帖询问“有没有适合向社区发布数据集的地方”，说明发布开放数据集在这里有讨论空间（https://www.huggingface.co/datasets/pszemraj/LocalLLaMA-posts/viewer/default/train?p=2）",
+      "sources": [
+        "https://www.huggingface.co/datasets/pszemraj/LocalLLaMA-posts/viewer/default/train?p=2"
+      ]
+    },
+    {
+      "name": "Crossmint AI Agent Conference Calendar 2026 & 2027",
+      "category": "社区与活动",
+      "region": "全球（线上资源）",
+      "offer": "汇总 2026-2027 年 AI agent 相关会议的日历，可用于补全本清单并安排出行",
+      "eligibility": "无",
+      "timing": "持续更新（更新频率未确认）",
+      "status": "开放中",
+      "howToApply": "直接查看 crossmint.com 页面",
+      "fit": "中",
+      "fitWhy": "低成本找到更多 2027 上半年的 agent / AI 工程会议，补充 AI-app 买家渠道",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.crossmint.com/learn/ai-agent-conference-calendar"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "TechCrunch 活动周：带着目标名单和日程去",
+      "detail": "评论者认为，运作得好的一周 TechCrunch 活动可抵三个月冷邮件，前提是带着投资人短名单和计划到场；用 CrunchMatch 提前预约现场私人会面，并让系统按资料推荐匹配",
+      "source": "https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston"
+    },
+    {
+      "tactic": "在大会周自办 side event",
+      "detail": "TechCrunch 公开邀请第三方在其活动周办 side event。SimReal 可在 Disrupt（10/13-15）或 ICLR 2027（旧金山）期间办“金融 RL 环境/后训练数据”小型晚宴或 happy hour，定向邀请实验室后训练研究员和 AI infra VC",
+      "source": "https://techcrunch.com/2026/03/04/host-a-side-event-during-techcrunch-founder-summit-week-in-boston"
+    },
+    {
+      "tactic": "Startup Battlefield 要按往年节奏提前准备",
+      "detail": "2026 届在 5/27 截止并延至 6/8，8 月底通知；TechCrunch 会发布“我们在找什么”的说明。2027 届宜在春季开放前就备好 demo 视频和 traction（7,000+ 专家、已供货 Surge AI / AfterQuery）",
+      "source": "https://techcrunch.com/2026/05/26/what-were-looking-for-in-startup-battlefield-2026-and-how-to-apply-in-time-for-the-may-27-deadline/"
+    },
+    {
+      "tactic": "用 Verifiers 库构建环境，接入 Environments Hub",
+      "detail": "Show HN 上的 RL 环境实战课程用开源 Verifiers 库构建单轮、多轮和工具调用环境。把 SimReal 的公开样品环境做成兼容格式，可以直接发到 Prime Intellect Environments Hub，并申请赏金",
+      "source": "https://news.ycombinator.com/item?id=47730587"
+    },
+    {
+      "tactic": "Prime Intellect 的 Application-Only 赏金是客户线索",
+      "detail": "Application-Only 档任务更难，常由第三方赞助，按评测结果付 $1,000-5,000+。完成后不仅有署名曝光，还能接触到愿意为特定环境付费的赞助方",
+      "source": "https://www.primeintellect.ai/blog/scaling-environments-program"
+    },
+    {
+      "tactic": "以开源 benchmark 的形式上 Show HN",
+      "detail": "CivBench、CVE-Bench、Open Operator Evals 等都以“benchmark + 排行榜”的形式发布在 Show HN。SimReal 可公开一个 Xitadel 精简版或 month-end-close 评测集，并附上前沿模型得分，既有话题性又不泄露核心数据",
+      "source": "https://news.ycombinator.com/item?id=47152571"
+    },
+    {
+      "tactic": "NeurIPS 期间参加 NVIDIA 的免费 VC 社交活动",
+      "detail": "NVIDIA 在 NeurIPS 办封闭式社交活动，连接 VC、NVIDIA 合作伙伴和导师，免费参加，之后有 pitch workshops；建议同时加入 NVIDIA Inception 以便获得邀请",
+      "source": "https://nvevents.nvidia.com/launchinglegendsatneurips"
+    },
+    {
+      "tactic": "NeurIPS 2026 三城分兵",
+      "detail": "主会场在悉尼（12/6-12），巴黎和亚特兰大卫星会场在 12/9-13，巴黎有 28 个 workshop。英国成员去巴黎、美国成员去亚特兰大，省掉去悉尼的差旅；workshop 日是研究员最集中、最好约人的时段",
+      "source": "https://aiweekly.co/alerts/neurips-2026-accepts-102-workshops-across-three-host-cities"
+    },
+    {
+      "tactic": "用 workshop 追踪器提前锁定 RL / evals 讲者",
+      "detail": "用 NeurIPS 2026 workshop 列表筛出 RL、评测、agent 相关 workshop，会前给组织者和受邀讲者发邮件约 15 分钟咖啡，比现场随机社交高效",
+      "source": "https://aiworkshoptracker.com/conference/neurips/2026/"
+    },
+    {
+      "tactic": "Web Summit 走 ALPHA 而不是买普通票",
+      "detail": "ALPHA 面向 pre-Series A 初创，以远低于常规票的价格提供展位、结构化投资人匹配、导师时段和媒体曝光",
+      "source": "https://mutekigroup.com/events/web-summit-2026/"
+    },
+    {
+      "tactic": "Money20/20 选 Startup Hub 并尽早买票",
+      "detail": "Startup Hub 只要求 2023-10-01 之后注册成立；票价分档上涨（约 $3,599 到 $4,199），越早越便宜，现场也能买",
+      "source": "https://internaware.org/business/money2020-usa-2026-deadlines/"
+    },
+    {
+      "tactic": "HK FinTech Week 主攻城中 side events",
+      "detail": "主会只有 11/2-11/3 两天，其余时间在香港和大湾区有一整周社区与 networking 活动；可以重点找银行、券商、对冲基金相关场次约潜在买家和中资投资人",
+      "source": "https://www.investhk.gov.hk/en/events/hong-kong-fintech-week-x-startmeuphk-2026/"
+    },
+    {
+      "tactic": "给 AGI House / OpenEnv 类 hackathon 提供赛题",
+      "detail": "AGI House 与 OpenAI 合办 autoresearch、self-improving agents、harness 优化等 hackathon，最高每周 5 场；OpenEnv hackathon 要求参赛者构建 RL 环境并后训练模型，奖池 $100K+。以赞助方身份提供金融环境作为赛题，能让上百名 RL 开发者实际用上 SimReal 的环境",
+      "source": "https://cerebralvalley.ai/e/openenv-hackathon-sf"
+    },
+    {
+      "tactic": "对 Prime Intellect RL Residency 的竞争有预期",
+      "detail": "上一期有 500+ 人申请，每期只收 14-16 人；申请时应附上已发布在 Environments Hub 的环境作为作品集",
+      "source": "https://www.primeintellect.ai/blog/scaling-environments-program"
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "items": [
+    {
+      "name": "上海市“模塑申城”工程 语料券（2026）",
+      "category": "客户与销售渠道",
+      "region": "中国大陆（上海）",
+      "offer": "市级发放1亿元语料券：对购买非关联方语料用于大模型、垂类应用、智能体研发和应用的主体，按核定合同额最高30%、最高500万元给予采购补贴。补贴发给买方，SimReal 作为语料/数据供应方，可以对上海客户说“采购我们的数据可申请政府补贴约30%”。",
+      "eligibility": "申报方（买方）须为上海注册主体，且与卖方无关联关系；卖方是否必须是境内主体、语料是否需登记或合规评估：未确认。",
+      "timing": "2026年计划分4批受理：第一批 2026-05-08 10:00 至 05-27 16:00（已截止）；后续批次在每季度首月受理，第四季度批次预计在2026年10月（具体起止日期未确认）。",
+      "status": "即将开放",
+      "howToApply": "由买方按上海市经信委“模塑申城”补贴申报通知线上申报；SimReal 需准备合同、发票、语料说明等材料，配合客户申报。",
+      "fit": "高",
+      "fitWhy": "这项政策直接压低国内模型公司和AI应用公司采购 SimReal 数据的成本，能当作销售话术；前提是要有能在境内签约、开票的主体。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html",
+        "https://www.shanghai.gov.cn/zjfcsj/20251024/28bb5b0d563b468b95cc0defa2a6bc60.html",
+        "https://www.sh-hitech.com/kjcx/22434.html"
+      ]
+    },
+    {
+      "name": "上海市“模塑申城”工程 算力券 / 模型券（Token券）（2026）",
+      "category": "算力与云额度",
+      "region": "中国大陆（上海）",
+      "offer": "算力券补贴租用非关联方智能算力做大模型、智能体研发；模型券（Token券）补贴调用非关联方云上的第三方大模型API，或私有化部署第三方大模型。本次检索没有查到两种券的补贴比例和上限（未确认）。",
+      "eligibility": "上海注册主体；算力供需双方无关联关系；可自行申报，也可经算力服务商通过“市智能算力资源统筹调度服务平台”申报。",
+      "timing": "与语料券同一通知：2026年分4批，第一批 05-08 至 05-27（已截止），之后每季度首月受理，10月批次具体日期未确认。",
+      "status": "即将开放",
+      "howToApply": "按上海市经信委通知申报，或由算力服务商经统筹调度平台代为申报。",
+      "fit": "中",
+      "fitWhy": "RL 环境 rollout、验证器和 baseline 评测都要消耗算力和 Token，模型券对调用第三方 LLM 做 judge 或轨迹生成尤其有用；需要上海主体。",
+      "effort": "中",
+      "community": "钛媒体文章指出，很多 AI 企业主要成本在 Token 而不是算力，拿到的算力券未必用得上；补贴绑定的本地平台对 PyTorch、vLLM 适配差，迁移成本可能抵消补贴（https://www.tmtpost.com/8043721.html）。",
+      "sources": [
+        "https://www.sh-hitech.com/kjcx/22434.html",
+        "https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html",
+        "https://juejin.cn/post/7617853057604042815",
+        "https://www.tmtpost.com/8043721.html"
+      ]
+    },
+    {
+      "name": "张江AI创新小镇 “算力券”“模型券”“语料券” + 人才驿站",
+      "category": "加速器与孵化器",
+      "region": "中国大陆（上海浦东张江）",
+      "offer": "对新入驻张江AI创新小镇的企业，发放最高100%支持的100万元算力券、100万元模型券、100万元语料券，单个企业最多享受1年。人才驿站提供免费共享工位半年、免费注册公司，搬进独立办公室后租金最低1元/平方米/天。",
+      "eligibility": "新入驻张江AI创新小镇的企业（需上海浦东注册或落地）；具体条件见浦东新区申报指南。",
+      "timing": "按季度受理：2026年第1季度批次于4月1日启动，第2季度受理通知已发布；第3、4季度批次时间未确认。",
+      "status": "滚动申请",
+      "howToApply": "先联系张江AI创新小镇或人才驿站办理入驻和注册，再按季度申报通知提交材料。",
+      "fit": "高",
+      "fitWhy": "如果在上海设主体，这是对几周大团队最友好的组合：入驻即可申请，补贴比例最高100%；小镇里的模型公司也能用语料券采购 SimReal 数据。",
+      "effort": "中",
+      "community": "知乎文章《AI 创业者，涌向张江 AI 创新小镇》称，2026年上半年小镇新增200多家AI企业，人才驿站免费工位半年、注册不花钱、房租最低1元/平方米/天（https://zhuanlan.zhihu.com/p/2061166314123802067）。",
+      "sources": [
+        "https://www.pudong.gov.cn/023004003/20250930/815126/673e24d74b884b79a4799abed33ddd2e.pdf",
+        "https://www.sh-hitech.com/kjcx/22064.html",
+        "https://www.sh-hitech.com/kjcx/23489.html",
+        "https://zhuanlan.zhihu.com/p/2061166314123802067"
+      ]
+    },
+    {
+      "name": "深圳市人工智能语料券专项资金（2026年度）",
+      "category": "客户与销售渠道",
+      "region": "中国大陆（深圳）",
+      "offer": "企业通过数据交易所购买非关联方语料用于AI研发应用，按不超过采购总费用30%给予资助，最高200万元；企业通过深圳市政府数据开放平台开放符合要求的语料数据，最高奖励100万元。",
+      "eligibility": "申报企业须在深圳实际经营，语料数据合规；采购必须经数据交易所，所以 SimReal 要先在数据交易所挂牌，深圳客户才能用券采购（是否只限深圳数据交易所未确认）。",
+      "timing": "2026年度申报时间为 2026-09-01 09:00 至 2026-11-10 18:00。",
+      "status": "开放中",
+      "howToApply": "买方通过广东政务服务网、“i深圳”APP 或深圳市政务服务中心线下窗口申报。",
+      "fit": "高",
+      "fitWhy": "直接降低深圳AI公司采购 SimReal 数据的成本，申报窗口正开着，可以立刻拿去跟深圳潜在客户谈；“开放语料奖励”可能也适用于在深圳设立的主体。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html",
+        "https://www.sznews.com/news/content/2026-06/15/content_32089671.htm",
+        "https://m.21jingji.com/article/20260615/herald/a8157f765e8bf22dd5659b6a2e4ec33f.html",
+        "https://www.sz.gov.cn/zfgb/2025/gb1377/content/post_12270291.html"
+      ]
+    },
+    {
+      "name": "深圳市“训力券”（2026）",
+      "category": "算力与云额度",
+      "region": "中国大陆（深圳）",
+      "offer": "每个需求方每年累计最高1000万元。需求方每年租用非关联方智能算力做大模型训练、推理的费用达到50万元（含）以上的，单次可抵扣不超过服务合同金额的50%。",
+      "eligibility": "深圳的算力需求方企业；年算力租用额50万元以上；供需双方无关联。",
+      "timing": "来源称2026年申请已于2026年5月启动；截止日期未确认。",
+      "status": "未确认",
+      "howToApply": "按深圳市训力券申报通知申报（具体渠道未确认）。",
+      "fit": "低",
+      "fitWhy": "门槛是一年50万元的算力支出，对现阶段偏高；以后如果在深圳做大规模 RL rollout 可以再看。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://finance.sina.com.cn/roll/2026-05-09/doc-inhxhkfi1539326.shtml",
+        "https://news.qq.com/rain/a/20250403A01KK300",
+        "https://m.bjnews.com.cn/detail/1740984269129492.html"
+      ]
+    },
+    {
+      "name": "北京市算力券补贴（高精尖产业发展资金，2026年第一批）",
+      "category": "算力与云额度",
+      "region": "中国大陆（北京）",
+      "offer": "AI开源创新项目：按算力合同额不超过50%补贴，最高100万元；新备案登记模型的企业：不超过10%，最高30万元；入围工信部“揭榜挂帅”的企业：不超过20%，最高500万元；AI领域新型研发机构：不超过50%，最高3000万元。",
+      "eligibility": "在京注册的新型研发机构，或有独立法人资格的信息软件业、制造业、科技服务业企业；所租智能算力须来自非关联方。",
+      "timing": "2026年第一批截止于 2026-04-15，已截止；下一批时间未确认。",
+      "status": "已截止",
+      "howToApply": "按北京市经信局、财政局发布的高精尖资金实施指南申报。",
+      "fit": "中",
+      "fitWhy": "“AI开源创新项目”这一条可以对接开源 RL 环境或 benchmark（比如开源 Xitadel 的子集），但需要北京主体，并等下一批。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.ncsti.gov.cn/kjdt/tzgg/202602/t20260224_238787.html",
+        "https://www.keceyun.com/policy/newsdetail/521314.html"
+      ]
+    },
+    {
+      "name": "北京数据交易激励（北京城市副中心数据券 / 数据要素市场示范奖励）",
+      "category": "非稀释资助",
+      "region": "中国大陆（北京）",
+      "offer": "北京城市副中心支持数据产品开发和应用，按企业年度交易额的10%发放数据券补贴，单个主体每年最高100万元。2023年北京数据要素市场示范奖励对企业首笔交易按首年数据交易额的4%奖励，同一企业每年最高200万元；2026年是否延续未确认。",
+      "eligibility": "在京注册企业（示范奖励）；城市副中心数据券的落地要求未确认。",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未确认（可向北京国际大数据交易所、北京市经信局咨询）。",
+      "fit": "中",
+      "fitWhy": "如果数据产品经北京数交所成交，可以按交易额拿返还，相当于给国内销售加一层补贴；需要北京主体。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://m.sohu.com/a/1048004443_121218495?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "https://www.beijing.gov.cn/zhengce/zhengcefagui/202311/W020231121638895790093.doc"
+      ]
+    },
+    {
+      "name": "上海数据交易所 数商入驻 / 数据产品挂牌",
+      "category": "客户与销售渠道",
+      "region": "中国大陆（上海）",
+      "offer": "上海数交所已挂牌数据产品2700多个，2023年数据产品交易额超过11.6亿元；对数商有专项补贴等鼓励措施（2026年细则未确认）。挂牌后可作为国内买方合规采购的入口。",
+      "eligibility": "一般需要境内主体申请成为数商，并完成产品合规评估（细则未确认）。",
+      "timing": "挂牌是常态业务；2026年专项补贴细则未确认。",
+      "status": "未确认",
+      "howToApply": "联系上海数据交易所申请数商资格和产品挂牌（流程未确认）。",
+      "fit": "中",
+      "fitWhy": "金融、语料类训练数据挂牌后，国内客户采购更合规，也更方便叠加上海语料券；但跨境数据合规要单独评估。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://gzw.fujian.gov.cn/zwgk/gzdt/gzjg/cqgl/202409/t20240913_6518028.htm",
+        "https://www.secrss.com/articles/64238"
+      ]
+    },
+    {
+      "name": "深圳数据交易所 数商入驻 / 语料产品挂牌",
+      "category": "客户与销售渠道",
+      "region": "中国大陆（深圳）",
+      "offer": "深数所在全国首推数商风险评级，并提供商机精准匹配、品牌宣传等服务。深圳语料券要求通过数据交易所采购，挂牌后深圳买家可以用券（最高30%、200万元）买 SimReal 的数据。",
+      "eligibility": "境内主体申请数商资格（细则未确认）。",
+      "timing": "挂牌为常态业务；具体流程和时间未确认。",
+      "status": "未确认",
+      "howToApply": "联系深圳数据交易所申请数商入驻并挂牌语料产品（流程未确认）。",
+      "fit": "中",
+      "fitWhy": "这是让深圳语料券真正帮到 SimReal 的前提条件；还能借交易所的商机匹配找到国内买家。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.deo.org.cn/article/sjjy_jydt/detail413.html",
+        "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html"
+      ]
+    },
+    {
+      "name": "2026年“数据要素×”大赛（北京分赛暨北京数智创新大赛 / 广东分赛）",
+      "category": "比赛与奖金",
+      "region": "中国大陆（北京、广东等分赛区）",
+      "offer": "北京分赛的数据赛奖励最高200万元（以奖杯、证书等形式发放），另提供房租减免、算力补贴，并推动参赛企业的优质项目和数据产品在北京国际大数据交易所上架。广东分赛2026年7月启幕，可叠加深圳政策。",
+      "eligibility": "分赛一般要求在当地注册或落地（未确认）。",
+      "timing": "2026年各分赛已启动；报名截止未确认（可能已过）。",
+      "status": "未确认",
+      "howToApply": "通过各分赛官网报名（北京：dexc.data.beijing.gov.cn）。",
+      "fit": "中",
+      "fitWhy": "金融数据和训练数据题目与 SimReal 业务契合；奖金、挂牌通道和政府、交易所的曝光能一次拿到。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://dexc.data.beijing.gov.cn/xwzx/ssdt/03329d63105048dd8491d0c31ba0159c.html",
+        "https://m.mp.oeeee.com/a/BAAFRD0000202607091623671.html"
+      ]
+    },
+    {
+      "name": "工信部《人工智能中小企业创业支持计划（2026—2028年）》",
+      "category": "政府与政策",
+      "region": "中国大陆（全国）",
+      "offer": "用3年时间，在行业应用、数据服务、智能算力等重点领域培育一批AI创业企业，新培育科技型和创新型中小企业1万家以上、专精特新“小巨人”突破2000家；依托中国算力平台的中小企业专区提供低成本普惠算力。",
+      "eligibility": "中国大陆中小企业；具体申报条件要看后续配套细则（未确认）。",
+      "timing": "2026-09-04 印发；落地细则和地方配套未确认。",
+      "status": "未确认",
+      "howToApply": "关注中国中小企业服务网的算力资源对接专区、中国算力平台中小企业专区，以及各地工信部门的配套通知。",
+      "fit": "中",
+      "fitWhy": "“数据服务”被列为重点领域，和 SimReal 的定位一致；后续各地配套（算力、券、认定）值得跟踪。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.cpi.ac.cn/zx/xyzl/202609/t20260904_430845.html",
+        "https://news.qq.com/rain/a/20260904A09X7M00",
+        "https://news.qq.com/rain/a/20260904A09X7U00"
+      ]
+    },
+    {
+      "name": "国家数据局 数据标注产业政策与数据标注基地",
+      "category": "政府与政策",
+      "region": "中国大陆（成都、沈阳、合肥、长沙、海口、保定、大同等基地城市）",
+      "offer": "四部门2025年发布《关于促进数据标注产业高质量发展的实施意见》，目标到2027年产业年均复合增长率超过20%，培育一批科技型数据标注企业，建设特色数据标注基地。2024年公布首批7个基地城市。基地城市对入驻企业的具体补贴未确认。",
+      "eligibility": "中国大陆主体，通常要在基地城市落地；具体条件看各地细则（未确认）。",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "关注国家数据局“数据标注”专题和各基地城市数据局的招商、补贴通知。",
+      "fit": "中",
+      "fitWhy": "SimReal 做的是高端专家数据和 RL 环境，政策方向一致；但基地多面向劳动密集型标注，专家型数据能否享受，要看当地细则。",
+      "effort": "中",
+      "community": "知乎专栏《新规密集落地！2026数据标注行业迎来三大红利期》认为2026年是数据标注政策的落地年（https://zhuanlan.zhihu.com/p/2032145000717398267）。",
+      "sources": [
+        "https://www.nda.gov.cn/sjj/zhuanti/sjbz/list/index_pc_1.html",
+        "https://www.cls.cn/detail/1636216",
+        "https://finance.sina.com.cn/stock/relnews/cn/2025-01-14/doc-ineewsqh2230987.shtml",
+        "https://zhuanlan.zhihu.com/p/2032145000717398267"
+      ]
+    },
+    {
+      "name": "各地高质量数据集 / 语料库建设补贴（2026“补贴赛”）",
+      "category": "非稀释资助",
+      "region": "中国大陆（多地，如南京玄武区等）",
+      "offer": "2026年多地竞相推出高质量数据集建设补贴：对建设、开放高质量数据集或语料库的企事业单位，按数据价值、规模、质量和应用效果评审认定后，最高给予200万元资金支持；上海对纳入国家数据基础设施先行先试试点名单的牵头单位奖励50万元。各项分别对应哪个地区、具体条件：未确认。",
+      "eligibility": "需在对应地区注册；评审标准未确认。",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "查阅各地数据局或区政府数据产业支持政策（如玄武区《关于促进数据产业发展的支持政策》）。",
+      "fit": "中",
+      "fitWhy": "金融 RL 环境和专家数据集可以包装成“高质量行业数据集”申报，属于非稀释资金。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://m.sohu.com/a/1048004443_121218495?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+        "https://www.xwzf.gov.cn/xwqrmzf/202504/t20250411_5126193.html"
+      ]
+    },
+    {
+      "name": "奇绩创坛 MiraclePlus 2026秋季创业营",
+      "category": "加速器与孵化器",
+      "region": "中国大陆为主（是否要求中国主体未确认）",
+      "offer": "早期投资、创业营和路演日（投资金额本次检索未确认）；2026年春季路演日有56个项目。",
+      "eligibility": "面向早期创业团队；主体和地区要求未确认。",
+      "timing": "2026秋季常规截止已过，但仍接受 late application；申请入口全年开放，越早提交越早得到反馈。",
+      "status": "滚动申请",
+      "howToApply": "在 apply.miracleplus.com 注册并提交申请。",
+      "fit": "高",
+      "fitWhy": "国内最接近 YC 的早期平台，AI 项目占比高，可以接触国内大模型公司和投资人；late application 现在就能交。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.miracleplus.com/cn/apply/",
+        "https://apply.miracleplus.com/users/sign_up",
+        "https://zhuanlan.zhihu.com/p/2047380758130582982"
+      ]
+    },
+    {
+      "name": "奇绩算力（MiraclePlus Compute）",
+      "category": "算力与云额度",
+      "region": "中国大陆（未确认是否限地区）",
+      "offer": "为科研和早期项目免费提供高性能算力；没有 KPI 和回报要求，大约每1到2个月交一次简单的进度汇报。",
+      "eligibility": "科研人员和早期项目（是否必须是奇绩被投企业：未确认）。",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "按知乎“奇绩算力”介绍文章中的渠道申请（具体入口未确认）。",
+      "fit": "高",
+      "fitWhy": "免费、义务轻的算力，适合跑 RL 环境 baseline、验证器测试和评测。",
+      "effort": "低",
+      "community": "知乎文章称奇绩算力“没有任何KPI指标和回报要求”，只要求每1到2个月汇报一次进度（https://zhuanlan.zhihu.com/p/19868651261）。",
+      "sources": [
+        "https://zhuanlan.zhihu.com/p/19868651261",
+        "https://zhuanlan.zhihu.com/p/2054934396155836389"
+      ]
+    },
+    {
+      "name": "Cyberport Incubation Programme (CIP) 数码港培育计划",
+      "category": "加速器与孵化器",
+      "region": "中国香港",
+      "offer": "最高 HK$500,000 资助，外加 HK$200,000 场地租金补贴，孵化期24个月，提供技术和商业支持。",
+      "eligibility": "香港主体的科技初创（细则未确认）。",
+      "timing": "全年接受申请，分批截止：2026年10月期截止于2026-08-03（已截止）；2027年2月期截止于 2026-12-01。",
+      "status": "开放中",
+      "howToApply": "在 Cyberport 官网提交 CIP 申请。",
+      "fit": "中",
+      "fitWhy": "如果设香港主体，这是一笔非稀释资金，还能叠加人工智能资助计划（AISS）的超算补贴；数码港偏金融科技和AI，与金融 RL 环境契合。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.cyberport.hk/en/entrepreneurship/cyberport_incubation_programme/",
+        "https://www.smelink.gov.hk/en/web/sme-portal/w/cyberport-incubation-programme.html",
+        "https://www.fundfluent.io/funding-programs/hk-cyberport-incubation-programme-cip"
+      ]
+    },
+    {
+      "name": "HKSTP Incubation Programme（香港科技园培育计划）+ Ideation Programme",
+      "category": "加速器与孵化器",
+      "region": "中国香港",
+      "offer": "三年期孵化，目前为合资格公司提供最高 HK$1.29M 的技术和业务发展资助；另有 Ideation Programme 种子资助（金额未确认）。",
+      "eligibility": "香港主体的科技初创（细则未确认）。",
+      "timing": "随时可以申请，没有固定截止日期。",
+      "status": "滚动申请",
+      "howToApply": "通过 HKSTP 官网提交申请。",
+      "fit": "中",
+      "fitWhy": "非稀释资金额度比数码港更高；需要设香港主体，并在港有实际运营。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.fundfluent.io/funding-programs/hkstp-incubation-programme",
+        "https://fundsforcompanies.fundsforngos.org/training-and-mentorship/hkstps-incubation-programme-to-help-technology-startups-in-hong-kong/",
+        "https://www.hkstp.org/en/programmes/ideation"
+      ]
+    },
+    {
+      "name": "AWS & HKSTP Co-incubation Program: The AI Cohort",
+      "category": "加速器与孵化器",
+      "region": "中国香港",
+      "offer": "AWS 与香港科技园联合的 AI 方向孵化 cohort（具体资源和额度未确认）。",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "通过 AWS 项目页面报名（以页面为准）。",
+      "fit": "中",
+      "fitWhy": "可同时接触 AWS 资源和香港科技园生态；细节需要到官方页面核实。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://pages.awscloud.com/aiml-coincubation-startups-aws-hkstp.html"
+      ]
+    },
+    {
+      "name": "香港人工智能资助计划 AISS（数码港人工智能超算中心）",
+      "category": "算力与云额度",
+      "region": "中国香港",
+      "offer": "总额 HK$30亿、为期三年，资助合资格用户使用数码港人工智能超算中心的算力，最高为服务定价的七成；至今已批出30多个项目，共资助约17亿元；2026年施政报告宣布再注资10亿元。",
+      "eligibility": "五类机构：本地院校、研发机构、政府部门、AI初创企业和重点企业，需要香港主体；初创获批的门槛未确认。",
+      "timing": "计划自2024年起接受申请（三年期）；2026年9月宣布追加注资；截止日期未确认。",
+      "status": "滚动申请",
+      "howToApply": "通过数码港或中小企连线（SME Link）上的 AISS 页面申请。",
+      "fit": "中",
+      "fitWhy": "七成算力补贴对 RL rollout 和训练验证器很有价值；但已获批项目多为院校和大机构，初创的获批概率未确认。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.smelink.gov.hk/zh/web/sme-portal/w/artificial-intelligence-subsidy-scheme.html",
+        "https://www.news.gov.hk/chi/2026/09/20260924/20260924_183701_404.html",
+        "https://www.singtao.ca/7636783/2026-09-24/news-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%B3%87%E5%8A%A9%E8%A8%88%E5%8A%83%E5%B7%B2%E6%89%B9%E9%80%BE30%E9%A0%85%E7%9B%AE+%E5%85%B1%E8%B3%87%E5%8A%A917%E5%84%84%E5%85%83+%E6%95%B8%E7%A2%BC%E6%B8%AF%E8%B6%85%E7%AE%97%E4%B8%AD%E5%BF%83%E5%8A%A0%E5%BF%ABAI%E6%87%89%E7%94%A8/",
+        "https://fundpilot.hk/blog/aiss-complete-guide-2026"
+      ]
+    },
+    {
+      "name": "上海市白玉兰人才计划浦江项目（2026年度）+ 留学人员来沪创业支持",
+      "category": "非稀释资助",
+      "region": "中国大陆（上海）",
+      "offer": "B类（企业创新创业类，在本市企业做科技创新研究，或创办科技型留学人员企业）资助30万元/人；D类（特殊急需类）资助30万元/人或50万元/团队；执行期 2026-12-01 至 2028-11-30。上海另有《关于进一步支持留学人员来沪创业的实施办法》（2020—2026）。",
+      "eligibility": "海外留学人员在沪工作或创业；四位创始人都有海外学历（剑桥、LSE、杜克），可能符合，但国籍和回国时间等细则未确认；需要上海主体。",
+      "timing": "2026年度申请指南于2026年7月发布；申报截止日期未确认（可能已截止，需要核实）。",
+      "status": "未确认",
+      "howToApply": "通过“上海国际人才网”网上申报。",
+      "fit": "中",
+      "fitWhy": "每人30万元的非稀释人才资助，四位创始人可以分别申请；但需要先在上海落地主体。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20260704/d150177f83ef4fc7bd6d6276905939d3.html",
+        "https://www.sh-italent.com/Article/202607/202607010008.shtml",
+        "https://www.sh-hitech.com/ryrd/9610.html"
+      ]
+    },
+    {
+      "name": "火山引擎「AI领航者计划」",
+      "category": "创业福利",
+      "region": "中国大陆",
+      "offer": "面向创新型AI创业团队，依托火山引擎的AI云原生能力和字节跳动业务生态，提供技术支持、商业化场景对接和社区共建（具体资源额度未确认）。",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "按火山引擎发布的计划页面报名（入口未确认）。",
+      "fit": "中",
+      "fitWhy": "可以借这个计划接触字节和火山生态；字节本身也可能是 RL 数据和环境的大买家，“商业化场景对接”有潜在客户价值。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://zhuanlan.zhihu.com/p/1950942337028030823"
+      ]
+    },
+    {
+      "name": "阿里云 2026 算力补贴 / 出海补贴",
+      "category": "算力与云额度",
+      "region": "中国大陆（及阿里云国际站，未确认）",
+      "offer": "第三方汇总称：GPU 算力1折起，最高10万元出海补贴；618期间投入5亿元算力补贴；购买 GPU 云服务器、大模型服务可申请最高50%的算力补贴，单个企业最高100万元。以上均以阿里云官方为准。",
+      "eligibility": "阿里云企业用户（具体条件未确认）。",
+      "timing": "未确认（部分是618等限时活动）。",
+      "status": "未确认",
+      "howToApply": "在阿里云官网活动页或通过客户经理申请（具体流程未确认）。",
+      "fit": "低",
+      "fitWhy": "大多是促销性质的折扣；如果确实要用国内 GPU，可以和客户经理谈初创补贴。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://developer.aliyun.com/article/1707140",
+        "https://zhuanlan.zhihu.com/p/2048107363417208304",
+        "https://www.kufanyun.com/ask/583785.html"
+      ]
+    },
+    {
+      "name": "国内大模型 API 免费额度（腾讯混元 / 百度千帆 / 火山方舟 / 阿里百炼）",
+      "category": "创业福利",
+      "region": "中国大陆",
+      "offer": "腾讯云：通用资源包100万 Tokens（有效期1年）加100万 Embedding Tokens；微信AI小程序成长计划提供免费云开发资源和1亿 Token 混元额度。百度智能云：每个模型100万 Tokens、有效期3个月。火山方舟：新用户每个模型50万 Tokens，激活协作奖励计划后每天200万 Tokens 免费额度。",
+      "eligibility": "完成实名认证（通常需要中国大陆身份或主体）。",
+      "timing": "2026年汇总文章称注册即发放（以各平台官方为准）。",
+      "status": "开放中",
+      "howToApply": "在各云平台注册并完成实名认证后领取。",
+      "fit": "低",
+      "fitWhy": "额度不大，但可以拿中文模型做轨迹生成、LLM judge 或 baseline 对比，几乎零成本。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://cloud.tencent.com/developer/article/2626756",
+        "https://cloud.tencent.com/developer/article/2613128",
+        "https://zhuanlan.zhihu.com/p/2011764188717016119"
+      ]
+    },
+    {
+      "name": "2026全球人工智能创新创业大赛（中国人工智能学会 CAAI）",
+      "category": "比赛与奖金",
+      "region": "全球报名（中国大陆主办）",
+      "offer": "晋级决赛的项目进入启迪·∞计划、启迪之星壹计划的投资绿色通道，优先获得启迪创投投资机会，并对接国内500强产业加速营。",
+      "eligibility": "全球开放报名；是否需要中国主体未确认。",
+      "timing": "2026年7月开放全球报名；截止日期未确认。",
+      "status": "未确认",
+      "howToApply": "通过中国人工智能学会大赛官网 gaiiec.caai.cn 报名。",
+      "fit": "中",
+      "fitWhy": "全球可报名，能接触国内投资机构和产业资源；奖金金额未确认。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.caai.cn/site/content/8473.html",
+        "https://gaiiec.caai.cn/"
+      ]
+    },
+    {
+      "name": "2026新一代人工智能（深圳）创业创新大赛",
+      "category": "比赛与奖金",
+      "region": "中国大陆（深圳），海内外均可报名",
+      "offer": "面向海内外AI创业者的创业大赛（奖金和资源未确认）。",
+      "eligibility": "拥有核心技术或创新商业模式的初创企业、创客团队，海内外均可报名。",
+      "timing": "2026年6月启动；截止日期未确认。",
+      "status": "未确认",
+      "howToApply": "扫描官方宣传中的二维码报名，或通过大赛专题页报名。",
+      "fit": "中",
+      "fitWhy": "允许海外团队参赛，可以借此对接深圳的资源和政策（语料券、训力券）。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.qbitai.com/2026/06/432581.html",
+        "https://finance.sina.com.cn/jjxw/2026-06-09/doc-iniauqux5159864.shtml",
+        "https://tech.163.com/special/2026aiec_mobile/"
+      ]
+    },
+    {
+      "name": "2026中国“人工智能+”创新创业挑战赛（中国人工智能学会）",
+      "category": "比赛与奖金",
+      "region": "中国大陆，面向全球AI创客",
+      "offer": "千万级资金，加上订单、场景和算力资源（具体分配未确认）。",
+      "eligibility": "全球AI创客（细则未确认）。",
+      "timing": "2026年4月启动；截止日期未确认。",
+      "status": "未确认",
+      "howToApply": "通过中国人工智能学会官网的公告报名。",
+      "fit": "中",
+      "fitWhy": "“订单+场景”对找国内客户有帮助；需要核实今年赛程是否还能报名。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.caai.cn/site/content/7744.html"
+      ]
+    },
+    {
+      "name": "2026数字中国创新大赛·人工智能赛道",
+      "category": "比赛与奖金",
+      "region": "中国大陆",
+      "offer": "数字中国建设峰会官方赛事的AI赛道（奖金未确认）。",
+      "eligibility": "未确认",
+      "timing": "报名和作品提交在2月27日至3月31日，4月初初审、4月11–12日复赛、4月下旬决赛；已截止，下一届时间未确认。",
+      "status": "已截止",
+      "howToApply": "关注数字中国建设峰会官网的下一届通知。",
+      "fit": "低",
+      "fitWhy": "本届已结束，作为2027年的备选。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.szzg.gov.cn/2025/xwzx/fhzx/202603/t20260306_5292292.htm",
+        "https://www.szzg.gov.cn/2025/xwzx/fhzx/202603/t20260317_5296624.htm"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "把“语料券”变成销售杠杆",
+      "detail": "上海市级语料券对购买非关联方语料给予合同额最高30%、最高500万元的补贴；深圳语料券对通过数据交易所购买的语料给予最高30%、最高200万元的资助（2026年申报到11月10日18:00截止）。补贴发给买方，所以给国内模型公司报价时可以直接写“可申请政府补贴约30%”，并帮客户准备合同、发票和语料说明材料。",
+      "source": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html"
+    },
+    {
+      "tactic": "先在数据交易所挂牌，深圳客户才能用券",
+      "detail": "深圳语料券明确要求“通过数据交易所购买”，SimReal 的数据产品必须先在交易所挂牌，深圳买家才能报销；挂牌也是参加“数据要素×”大赛、拿北京首交易奖励的前提。",
+      "source": "https://www.sznews.com/news/content/2026-06/15/content_32089671.htm"
+    },
+    {
+      "tactic": "申请算力券前先确认缺的是算力还是 Token",
+      "detail": "钛媒体指出，很多 AI 企业真正的成本是 Token，拿到的算力券却用不上；部分算力券要求上年度营收不低于500万元或团队不少于20人，10人以下团队往往没有申报资格；补贴还绑定本地算力平台，对 PyTorch、vLLM 适配差，迁移成本可能抵消补贴。所以要先看清门槛，再选模型券（Token 券）还是算力券。",
+      "source": "https://www.tmtpost.com/8043721.html"
+    },
+    {
+      "tactic": "算力券合规条件的自查清单",
+      "detail": "常见硬性条件包括：近3年没有失信记录；没有重复申领其他市级算力补贴；算力供需双方没有关联关系。租算力和签合同时就要留好证据，避免选和自己有关联的供应商。",
+      "source": "https://zhuanlan.zhihu.com/p/25260527246"
+    },
+    {
+      "tactic": "张江“先入驻驿站，再申三券”",
+      "detail": "张江AI创新小镇的人才驿站提供免费共享工位半年、免费注册公司；三券（算力、模型、语料各100万元，最高100%支持）面向新入驻企业，按季度受理。最省钱的顺序是先进驿站完成注册，再赶下一个季度批次。",
+      "source": "https://zhuanlan.zhihu.com/p/2061166314123802067"
+    },
+    {
+      "tactic": "奇绩创坛：常规截止后照样投 late application",
+      "detail": "奇绩官网说明，2026秋季常规截止后仍接受申请，入口全年开放，越早提交越早得到反馈。现在可以直接提交，不必等下一期。",
+      "source": "https://www.miracleplus.com/cn/apply/"
+    },
+    {
+      "tactic": "用奇绩算力补齐免费 GPU",
+      "detail": "奇绩算力面向科研和早期项目免费，没有 KPI 和回报要求，只需每1到2个月汇报一次进度，适合跑 RL 环境 baseline 和验证器测试，义务比政府券轻得多。",
+      "source": "https://zhuanlan.zhihu.com/p/19868651261"
+    },
+    {
+      "tactic": "香港组合拳：CIP 加 AISS",
+      "detail": "如果设香港主体：数码港 CIP 的2027年2月期在2026年12月1日截止（最高 HK$500K 资助加 HK$200K 租金补贴）；人工智能资助计划（AISS）对数码港超算中心算力最高补贴七成，AI 初创也在五类合资格机构之列。两者可以叠加，进驻数码港后再申 AISS。在 Reddit 上没有搜到创始人对 HKSTP 或数码港的讨论，建议直接问本地已入驻的团队。",
+      "source": "https://www.smelink.gov.hk/zh/web/sme-portal/w/artificial-intelligence-subsidy-scheme.html"
+    },
+    {
+      "tactic": "用“数据要素×”大赛换取交易所上架和曝光",
+      "detail": "北京分赛除了最高200万元奖励，还会推动参赛企业的数据产品在北京国际大数据交易所上架，并提供房租减免和算力补贴。等于一次参赛同时拿到挂牌、曝光和政府关系。",
+      "source": "https://dexc.data.beijing.gov.cn/xwzx/ssdt/03329d63105048dd8491d0c31ba0159c.html"
+    },
+    {
+      "tactic": "四位创始人分别申请浦江人才 B 类",
+      "detail": "浦江项目 B 类（创办科技型留学人员企业）每人资助30万元，通过“上海国际人才网”网上申报，执行期2026年12月至2028年11月。海外学历背景的创始人可以各自申请，属于非稀释资金；需要先在上海设主体，并核实今年的截止时间和国籍要求。",
+      "source": "https://www.sh-italent.com/Article/202607/202607010008.shtml"
+    },
+    {
+      "tactic": "用开源 RL 环境对接北京“AI开源创新项目”算力券",
+      "detail": "北京算力券对AI开源创新项目按算力合同额50%补贴，最高100万元，比新备案模型那一档（10%、最高30万元）优厚得多。如果开源一部分金融 RL 环境或 benchmark，可以在下一批申报时走这一档（2026年第一批已于4月15日截止）。",
+      "source": "https://www.ncsti.gov.cn/kjdt/tzgg/202602/t20260224_238787.html"
+    }
+  ]
+}

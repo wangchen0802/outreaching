@@ -24,17 +24,19 @@
 
 ## 邮件
 
-Subject: SimReal: RL environments for finance, built by ex-Jane Street and Citadel quants (seed)
+Subject: Ex-Jane Street quants building RL environments, supplying Surge AI
 
 Hi Brendan,
 
-I'm [Your name], co-founder of SimReal (simreal.co). We build RL environments and verifiers where models do real work and are scored on real outcomes.
-
 You angel-invested in Deeptune, then bought it to bring RL environments into Mercor; we build finance environments and verifiers that could plug into that same pipeline.
 
-Our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across independent runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke), raising a $20M seed and in conversations with tier-1 funds.
+I'm [Your name], co-founder of SimReal. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke).
 
-Worth 20 minutes? Happy to send the deck.
+SimReal builds RL environments and verifiers where AI models do real work and are scored on real outcomes.
+
+Traction: our trading environment, Xitadel, lifted Qwen3.8-27B's trading performance 12% on unseen market data, reproduced across independent runs. We already supply Surge AI and AfterQuery, and 7,000+ domain experts have signed up.
+
+We're raising a $20M seed and are in conversations with tier-1 funds. Deck: [Deck link]. Worth 20 minutes next week?
 
 Best,
 [Your name]

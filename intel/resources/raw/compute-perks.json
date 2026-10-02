@@ -1,0 +1,589 @@
+{
+  "items": [
+    {
+      "name": "Google for Startups Cloud Program (Start / Scale / AI tier)",
+      "category": "算力与云额度",
+      "region": "全球（UK、US 主体可申请；中国大陆主体能否使用 GCP 额度未确认）",
+      "offer": "Scale 档最高 $200,000 Google Cloud 额度；AI-first 公司的 Scale AI 档最高 $350,000（含 Firebase，2 年内有效）。第三方指南称 AI 档另含 $12,000 Enhanced Support 额度，并可访问 Gemini 与 Claude 等前沿模型。Start 档面向尚未融资的公司，额度较小（具体金额未确认）。另有 Startup Perks 合作伙伴市场。",
+      "eligibility": "Scale/AI 档要求有 pre-seed 至 Series A 的机构融资（SAFE 算，天使投资、赠款和众筹不算）；AI 档要求 AI-first，即 AI 是产品的基础架构，不能只是附加功能；公司网站域名必须与邮箱域名、计费账户域名一致。",
+      "timing": "滚动申请，无截止日；额度 2 年有效。",
+      "status": "滚动申请",
+      "howToApply": "在 cloud.google.com/startup 在线申请。现阶段没有机构融资，先拿 Start 档；签下第一份机构 SAFE 或进入加速器后再申请升级到 Scale AI 档。",
+      "fit": "高",
+      "fitWhy": "跑 RL 环境、verifier 和生成 agent 轨迹需要大量算力，也要大量调用 Gemini/Claude；$350K 是目前单笔最大的非稀释云额度。但 SimReal 目前没有机构融资，要等种子轮首笔 SAFE 落地后才能拿 AI 档。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://cloud.google.com/startup/faq",
+        "https://cloud.google.com/startup/ai",
+        "https://cloud.google.com/startup/perks",
+        "https://dev.to/googleai/the-2026-ultimate-guide-to-google-for-startups-funding-accelerators-and-350k-in-credits-10ha",
+        "https://guptadeepak.com/startup-offers/programs/google-for-startups-cloud",
+        "https://perkstack.co/blog/google-for-startups-guide"
+      ]
+    },
+    {
+      "name": "AWS Activate (Founders / Portfolio)",
+      "category": "算力与云额度",
+      "region": "全球（Portfolio 档需关联 AWS Activate Provider）",
+      "offer": "Founders 档 $1,000；Portfolio 档最高 $100,000，需要 Activate Provider（VC、加速器、孵化器）提供的 Org ID。额度可用于 Amazon Bedrock 上的第三方基础模型，包括 Anthropic、Meta、Cohere。第三方来源称 YC 的 AI 公司最高可获 $500,000，可用于 Bedrock、SageMaker 和 EC2 GPU；另有第三方称 2026 年有面向大模型训练的最高 $300,000 档（未确认）。",
+      "eligibility": "pre-Series B；有公司网站；成立不超过 10 年；AWS 账户为付费层。Portfolio 档还需关联合格的 VC、加速器或孵化器。",
+      "timing": "滚动申请。HN 讨论称 AWS 额度通常 1 年过期，或分两笔 $50k 在 2 年内发放。",
+      "status": "滚动申请",
+      "howToApply": "在 aws.amazon.com/activate 申请。现在先申请 Founders 档；种子轮谈判时向领投方、加速器或 NVIDIA Inception 索取 Activate Provider Org ID，升级到 Portfolio 档。",
+      "fit": "高",
+      "fitWhy": "额度可以通过 Bedrock 调用 Claude 等模型，用来批量生成 agent 轨迹和跑 eval，相当于把云额度换成模型额度。现阶段只能拿 $1K Founders 档，要靠投资人或加速器才能拿到 $100K。",
+      "effort": "低",
+      "community": "HN 上有创始人发帖称手上 $200k 云额度即将过期、不知如何处理；评论指出 AWS 额度通常 1 年过期或分两笔发放，且额度在提供方资产负债表上是负债，所以必然设期限；另一帖提到 Activate 成员可享专属折扣。https://news.ycombinator.com/item?id=21832427",
+      "sources": [
+        "https://klymentiev.com/blog/aws-activate-credits",
+        "https://grantedai.com/grants/aws-activate-cloud-credits-program-ai-startups-aws-d2e3f4a5",
+        "https://pacewisdom.com/blog/eligibility-criteria-for-startups-in-aws-activate",
+        "https://creditforstartups.com/companies/aws",
+        "https://news.ycombinator.com/item?id=21832427",
+        "https://news.ycombinator.com/item?id=37750262"
+      ]
+    },
+    {
+      "name": "AWS Generative AI Accelerator",
+      "category": "加速器与孵化器",
+      "region": "全球",
+      "offer": "最高 $1,000,000 AWS 促销额度，8 周导师辅导，免费参加 AWS re:Invent；不占股，不收费。形式为混合制：西雅图线下启动，6 周线上，最后在拉斯维加斯 re:Invent 收官。",
+      "eligibility": "做生成式或 agentic AI 的早期创业公司；每期选约 40 家 late-seed 至 Series A 的公司。",
+      "timing": "2026 期申请窗口为 6/10–7/10，已截止。2025、2026 两期都在年中开放；2027 期的具体时间未确认。",
+      "status": "已截止",
+      "howToApply": "在 aws.amazon.com/startups/programs/generative-ai 关注 2027 期开放。",
+      "fit": "中",
+      "fitWhy": "额度极大，且在 re:Invent 收官，能接触 AWS 生态里的 AI 公司（潜在买家）。但该项目偏 late-seed 以上，SimReal 完成 $20M 种子轮后申请 2027 期更有竞争力。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://aws.amazon.com/startups/programs/generative-ai",
+        "https://grantedai.com/grants/aws-generative-ai-accelerator-ai-startups-aws-e7f8a9b0",
+        "https://startupintros.com/resources/aws-generative-ai-accelerator-2026",
+        "https://aws.amazon.com/aws-startups/learn/aws-announces-21-startups-selected-for-the-aws-generative-ai-accelerator/"
+      ]
+    },
+    {
+      "name": "Microsoft for Startups Founders Hub",
+      "category": "算力与云额度",
+      "region": "全球",
+      "offer": "所有合格初创可即时获得 $5,000 Azure 额度。通过 Microsoft for Startups Investor Network 推荐码，或凭经验证的 Azure 实际使用逐步升级，最高可到 $150,000。平台内还有合作伙伴权益，例如 W&B 额度。",
+      "eligibility": "起步档不需要 VC，第三方指南称也不需要注册证书。超过 $5K 的档位需要关联 Investor Network（推荐码），或有经验证的使用增长；闲置的额度不会帮助升级。",
+      "timing": "滚动申请。",
+      "status": "滚动申请",
+      "howToApply": "在 Microsoft for Startups 官网注册 Founders Hub 拿 $5K。种子轮投资方如在 Investor Network 内，向其索取推荐码以拿到更高档。",
+      "fit": "中",
+      "fitWhy": "门槛最低、可以马上拿到；Azure 额度可用于 OpenAI 类模型工作负载和企业演示。但 $5K 之后的升级要靠投资人推荐码或真实用量。",
+      "effort": "低",
+      "community": "HN 上有帖子直接以“Azure startup credits are a bait and switch?”为题，质疑 Azure 创业额度的规则。https://news.ycombinator.com/item?id=35529128",
+      "sources": [
+        "https://learn.microsoft.com/en-us/answers/questions/5894112/request-guidance-for-joining-microsoft-for-startup",
+        "https://learn.microsoft.com/en-us/answers/questions/5888354/inquiry-about-progression-to-higher-azure-credit-t",
+        "https://guptadeepak.com/startup-offers/guides/microsoft-for-startups",
+        "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution",
+        "https://news.ycombinator.com/item?id=35529128"
+      ]
+    },
+    {
+      "name": "NVIDIA Inception",
+      "category": "算力与云额度",
+      "region": "全球",
+      "offer": "免费、不占股。包含 NVIDIA DLI 自学课程额度、NVIDIA 软硬件优惠价、合作伙伴云额度（例如 Nebius AI Lift 最高 $150,000，第三方称还可走 AWS Activate 通道），以及接触全球投资人生态的机会。第三方指南称合格会员可通过 Inception 门户申请最高 $100,000 的 DGX Cloud 额度（未确认）。",
+      "eligibility": "任何融资阶段的 AI 创业公司；无申请费、会员费，不要求股权。",
+      "timing": "滚动申请。",
+      "status": "滚动申请",
+      "howToApply": "在 nvidia.com/startups 提交申请（需公司网站、产品描述）。通过后在 Inception 门户里领取各合作伙伴的权益。",
+      "fit": "高",
+      "fitWhy": "门槛低，加入后可以解锁 Nebius AI Lift 等合作伙伴 GPU 额度，还能获得投资人曝光。第三方建议把它排在 Founders Hub 之后、Google/AWS 之前申请。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.nvidia.com/en-gb/startups",
+        "https://www.nvidia.com/en-eu/startups/faq",
+        "https://www.thundercompute.com/blog/nvidia-inception-program-guide",
+        "https://klymentiev.com/blog/nvidia-inception-program",
+        "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution"
+      ]
+    },
+    {
+      "name": "Nebius AI Lift / Nebius for Startups",
+      "category": "算力与云额度",
+      "region": "全球（地区限制未确认）",
+      "offer": "AI Lift：合格的 NVIDIA Inception 会员最高可获 $150,000 Nebius 云额度。Startup program：最高 $150,000 云额度、$10,000 推理额度，并优先获得最新 NVIDIA GPU；来源中“前三个月内加入”条款的具体含义未确认。",
+      "eligibility": "AI Lift 需为合格的 NVIDIA Inception 会员；其他资质条件未确认。",
+      "timing": "滚动申请（未发现截止日）。",
+      "status": "滚动申请",
+      "howToApply": "先加入 NVIDIA Inception，再通过 nebius.com/startup-program 申请。",
+      "fit": "高",
+      "fitWhy": "SimReal 需要用开源模型做 SFT/RL 来证明自家数据和环境的效果（给买家看 uplift），GPU 云额度可以直接用在这上面；而且不要求 VC 背景，只要求 Inception 会员资格。",
+      "effort": "低",
+      "community": "Nebius 官方 X 账号称 AI Lift 面向 Inception 会员（Inception 当时超 22,000 家成员），提供最高 $150,000 额度。https://x.com/nebiusai/status/1909998003856802187",
+      "sources": [
+        "https://nebius.com/startup-program",
+        "https://x.com/nebiusai/status/1909998003856802187",
+        "https://www.geekwire.com/sponsor-post/supercharging-ai-startups-nebius-accelerates-ai-native-innovation-with-nvidia/"
+      ]
+    },
+    {
+      "name": "Nebius Research Credits Program",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "研究人员可免费使用 Nebius GPU 云、AI 模型和 Tavily agentic 搜索引擎，并获得专家支持；额度金额未确认。",
+      "eligibility": "面向研究人员，具体条件未确认。",
+      "timing": "未确认。",
+      "status": "未确认",
+      "howToApply": "在 nebius.com/nebius-research-credits-program 申请。",
+      "fit": "中",
+      "fitWhy": "如果把金融 RL 环境或 benchmark（例如开源一个 Xitadel 子集）包装成研究项目，可以拿额度，同时在研究社区获得曝光；但项目面向研究人员，不是商业项目。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://nebius.com/nebius-research-credits-program"
+      ]
+    },
+    {
+      "name": "Lambda Research Grant",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "最高 $5,000 Lambda Cloud 额度，加上 Lambda 首席科学官 Chuan Li 的指导。",
+      "eligibility": "面向学术界 AI/ML 研究者，不面向创业公司寻求的通用算力。",
+      "timing": "未确认（Lambda 曾在 NeurIPS 期间宣传该项目）。",
+      "status": "未确认",
+      "howToApply": "通过 Lambda 官网的 Research Grant 页面申请。",
+      "fit": "低",
+      "fitWhy": "只有在创始人仍有学术身份（Cambridge/LSE/Duke），并以研究项目名义申请时才适用；金额小。",
+      "effort": "中",
+      "community": "Lambda 官方 X 账号称该项目面向 AI/ML 研究者（无论是否参加 NeurIPS），提供最高 $5,000 额度和导师指导。https://x.com/LambdaAPI/status/1866246663553323483",
+      "sources": [
+        "https://x.com/LambdaAPI/status/1866246663553323483",
+        "https://www.hpcwire.com/off-the-wire/lambda-launches-grant-for-ai-researchers-expands-research-program/",
+        "https://sourcey.com/c/lambda/offers/research-grant-cloud-credits"
+      ]
+    },
+    {
+      "name": "CoreWeave Startup Accelerator / CoreWeave Ventures",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "Accelerator：提供 CoreWeave Cloud 额度和额外的算力折扣，金额不公开，按阶段、工作负载和用量承诺逐家谈判。CoreWeave 还成立了风投部门，同时提供资金和算力额度（The Information 报道，细节未确认）。",
+      "eligibility": "未公开，按个案谈判。",
+      "timing": "第三方称滚动申请、无截止日。",
+      "status": "滚动申请",
+      "howToApply": "通过 CoreWeave 官网联系销售或加速器团队；风投部门的接触方式未确认。",
+      "fit": "中",
+      "fitWhy": "大规模 GPU 资源适合以后做 RL 训练和环境验证；风投部门既投钱又给算力，可以作为种子轮的战略投资人选项。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.coreweave.com/blog/coreweave-launches-startup-accelerator-program-democratizing-access-to-gpu-compute-in-the-cloud",
+        "https://grantedai.com/grants/coreweave-startup-accelerator-program-for-ai-and-gpu-compute-access-coreweave-41b17a82",
+        "https://www.theinformation.com/briefings/coreweave-starts-venture-arm-offering-funding-computing-credits"
+      ]
+    },
+    {
+      "name": "Modal for Startups",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "官方称提供“数千美元”的免费 GPU 额度，具体金额和有效期未公布；第三方称最高 $50,000。一次性发放。",
+      "eligibility": "必须是 Modal 新客户；并且从 Modal 的 VC 合作网络融资，或从任意基金融资超过 $1M。",
+      "timing": "滚动申请。",
+      "status": "滚动申请",
+      "howToApply": "在 modal.com/startups 申请。SimReal 目前不符合条件，种子轮交割（超过 $1M）后立即申请。",
+      "fit": "中",
+      "fitWhy": "Serverless 的 GPU/CPU 适合弹性运行代码和数学类 RL 环境、verifier 和批量评测；但要先完成融资。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://modal.com/startups",
+        "https://www.getaiperks.com/en/ai/free-modal-credits"
+      ]
+    },
+    {
+      "name": "Together AI Startup Accelerator",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "最高 $50K（来源说法为 credits/funding，用于模型开销；具体形式以官网为准）。Together 已取消免费层，最低预充值 $5。",
+      "eligibility": "有融资门槛（具体金额未确认）。",
+      "timing": "未确认。",
+      "status": "未确认",
+      "howToApply": "在 together.ai/startup-accelerator 申请。",
+      "fit": "中",
+      "fitWhy": "可以用来在开源模型上做微调和推理，验证 SFT/偏好数据的效果；但有融资门槛。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+        "https://www.thundercompute.com/blog/free-cloud-gpu-credits"
+      ]
+    },
+    {
+      "name": "Fireworks AI Startup Program",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "推理和微调额度，金额未确认。",
+      "eligibility": "需已融资 $500K 以上，bootstrapped 或 pre-seed 公司无法申请。",
+      "timing": "未确认。",
+      "status": "未确认",
+      "howToApply": "在 fireworks.ai/startups 申请（种子轮交割后）。",
+      "fit": "中",
+      "fitWhy": "适合低成本跑开源模型的推理和 RFT 实验；但种子轮完成前不符合条件。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+        "https://fin.ai/learn/ai-credits-for-startups"
+      ]
+    },
+    {
+      "name": "Baseten Startup Program",
+      "category": "算力与云额度",
+      "region": "全球（未确认）",
+      "offer": "最高 $25,000，用于专用推理或训练；另有最高 $2,500 Model APIs 额度。",
+      "eligibility": "AI-first 公司；Seed 至 Series A；成立不到 5 年。",
+      "timing": "未确认。",
+      "status": "未确认",
+      "howToApply": "在 baseten.co/startup-program 申请。",
+      "fit": "中",
+      "fitWhy": "训练和推理额度可以用来做数据效果验证；要求 Seed 阶段，种子轮后申请更稳妥。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+        "https://www.thundercompute.com/blog/free-cloud-gpu-credits"
+      ]
+    },
+    {
+      "name": "Anthropic Startup Program (Claude for Startups)",
+      "category": "算力与云额度",
+      "region": "全球（需已注册公司）",
+      "offer": "免费 Claude API 额度：直接申请 $5,000；凭 VC/加速器合作伙伴推荐码 $25,000；最高 $100,000，由 Anthropic 酌情决定。另有优先速率限制和创始人活动。额度有效期 12 个月。",
+      "eligibility": "公司须已注册；成立不超过 4 年；从未领过 Anthropic 创业额度。不强制要求 VC，但合作 VC/加速器背书可以拿更高档。",
+      "timing": "滚动申请；每份额度有效期 12 个月。",
+      "status": "滚动申请",
+      "howToApply": "通过 Anthropic 官网 startup program 页面申请，在申请中写明合作 VC 或加速器关系。也可以请种子轮投资方确认是否在 Anthropic 合作伙伴名单内。",
+      "fit": "高",
+      "fitWhy": "生成高质量 agent 轨迹、rubric 打分和 eval 都要大量调用前沿模型；创始人活动也有机会接触 Anthropic 团队，而 Anthropic 本身是数据买方。",
+      "effort": "低",
+      "community": "HN 有帖子提醒：Anthropic 连付费购买的额度也会在一年后过期，不要一次预充太多。https://news.ycombinator.com/item?id=44793446",
+      "sources": [
+        "https://securityboulevard.com/2026/08/anthropic-claude-for-startups-the-complete-guide-to-credits-tiers-and-eligibility-2026/",
+        "https://guptadeepak.com/startup-offers/programs/anthropic-startup-program",
+        "https://creditforstartups.com/resources/anthropic-claude-startup-credits",
+        "https://news.ycombinator.com/item?id=44793446"
+      ]
+    },
+    {
+      "name": "OpenAI for Startups (partner VC credits)",
+      "category": "算力与云额度",
+      "region": "全球（需由合作 VC 推荐）",
+      "offer": "免费 API 额度（金额未确认），更高速率限制，以及与 OpenAI solutions engineer 交流的时间。",
+      "eligibility": "只对 OpenAI 合作网络内 VC 投资的公司开放；没有直接申请通道，bootstrapped 或天使轮公司拿不到，必须有合作 VC 的推荐码。",
+      "timing": "滚动（通过 VC 推荐）。",
+      "status": "滚动申请",
+      "howToApply": "种子轮谈判时询问各家 VC 是否在 OpenAI 合作网络内、能否提供推荐码。在此之前可以通过 Ramp 的 perk 拿到 $2,500 OpenAI 额度。",
+      "fit": "中",
+      "fitWhy": "做数据生成和跨模型 eval 需要 OpenAI 模型；和 OpenAI 工程师交流也可能变成客户线索。但现在拿不到。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://ideople.com/perks/openai-startup-credits",
+        "https://guptadeepak.com/startup-offers/programs/mercury-raise"
+      ]
+    },
+    {
+      "name": "Mistral AI for Startups (Mistralship)",
+      "category": "算力与云额度",
+      "region": "未确认（偏欧洲）",
+      "offer": "最高 €30,000 额度，外加 cohort 支持。",
+      "eligibility": "pre-seed 至 Series A，不需要 VC 推荐。",
+      "timing": "第三方称截至 2026 年 8 月申请页面返回 404，目前没有公开的申请通道。",
+      "status": "未确认",
+      "howToApply": "关注 Mistral 官网是否重新开放；目前不建议投入时间。",
+      "fit": "低",
+      "fitWhy": "金额不错，但项目现状不明，而且 Mistral 不是 SimReal 的核心工具链。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://guptadeepak.com/startup-offers/programs/mistral-startups",
+        "https://aicredits.dev/submissions/163-mistral-ai-startup-program-mistralship-up-to-30k-credits",
+        "https://www.aicredits.co/en/blogs/mistral-startup-program"
+      ]
+    },
+    {
+      "name": "Weights & Biases for Startups",
+      "category": "创业福利",
+      "region": "全球",
+      "offer": "最高 $3,000 W&B 额度。",
+      "eligibility": "bootstrapped、pre-seed 或 seed 公司，需 VC 或加速器推荐。没有独立申请入口，要先加入 Microsoft Founders Hub 或 Google Cloud Startup Perks，再从其市场中兑换。",
+      "timing": "滚动。",
+      "status": "滚动申请",
+      "howToApply": "加入 Founders Hub 或 Google for Startups Cloud 后，在 perks 市场兑换。",
+      "fit": "中",
+      "fitWhy": "用于追踪 RL/SFT 实验，向客户展示数据带来的效果提升；金额小，但几乎不花力气。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://guptadeepak.com/startup-offers/programs/wandb-startups"
+      ]
+    },
+    {
+      "name": "Hugging Face / Cohere startup programs（已停止）",
+      "category": "算力与云额度",
+      "region": "全球",
+      "offer": "Hugging Face 目前没有创业项目，只有免费版 $0.10/月、PRO $2/月的推理额度。Cohere 的创业项目页面已跳转到首页，原本提供的是折扣而非额度，看起来已撤回。",
+      "eligibility": "不适用。",
+      "timing": "已停止（截至 2026 年第三方核查）。",
+      "status": "已截止",
+      "howToApply": "不必申请；Hugging Face 更适合作为发布开源环境或数据集的曝光渠道。",
+      "fit": "低",
+      "fitWhy": "列出来是为了避免浪费时间。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://guptadeepak.com/startup-offers/programs/huggingface-startups",
+        "https://fin.ai/learn/ai-credits-for-startups"
+      ]
+    },
+    {
+      "name": "Oracle for Startups",
+      "category": "算力与云额度",
+      "region": "全球",
+      "offer": "$500 免费 OCI 额度，加上所有 Oracle Cloud Infrastructure 服务持续 70% 折扣。",
+      "eligibility": "未确认。",
+      "timing": "滚动（未确认）。",
+      "status": "未确认",
+      "howToApply": "通过 Oracle for Startups 官网申请。",
+      "fit": "低",
+      "fitWhy": "额度很小；持续 70% 折扣对长期 GPU 开销可能有用，可作为备选。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://betterstack.com/community/comparisons/best-startup-cloud-credit-programs/",
+        "https://klymentiev.com/blog/free-cloud-credits-developers"
+      ]
+    },
+    {
+      "name": "Cloudflare for Startups",
+      "category": "创业福利",
+      "region": "全球",
+      "offer": "分档额度：bootstrapped $5,000，早期 $25,000，seed 融资 $100,000，高成长 $250,000；用于边缘计算、serverless 和安全服务；不占股。",
+      "eligibility": "排除代理机构、咨询公司、博客、MSP 和经销商；各档的具体认定标准未确认。",
+      "timing": "滚动。",
+      "status": "滚动申请",
+      "howToApply": "在 Cloudflare for Startups 页面申请；种子轮后可争取 $100K 档。",
+      "fit": "低",
+      "fitWhy": "可以用于专家标注平台的前端、存储和分发，但核心 GPU 需求覆盖不到。",
+      "effort": "低",
+      "community": "HN 有一篇“Cloudflare's Expanded Startup Program”讨论帖，评论内容未能抓取。https://news.ycombinator.com/item?id=43688980",
+      "sources": [
+        "https://creditforstartups.com/companies/cloudflare",
+        "https://betterstack.com/community/comparisons/cloudflare-vs-vercel-startups/",
+        "https://news.ycombinator.com/item?id=43688980"
+      ]
+    },
+    {
+      "name": "Vercel for Startups / Vercel AI Accelerator",
+      "category": "创业福利",
+      "region": "全球（未确认）",
+      "offer": "Vercel for Startups 最高 $30,000 额度。AI Accelerator 每期 40 个团队，总额度超过 $8M，优胜者 $100K 以上。",
+      "eligibility": "做 Web 或 AI 应用的团队；AI Accelerator 竞争激烈，具体条件未确认。",
+      "timing": "AI Accelerator 下一期时间未确认。",
+      "status": "未确认",
+      "howToApply": "在 vercel.com 的 startups 页面申请。",
+      "fit": "低",
+      "fitWhy": "只覆盖 Web 前端（如专家平台、官网）；AI Accelerator 偏应用层，和 SimReal 的数据业务匹配度一般。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://betterstack.com/community/comparisons/cloudflare-vs-vercel-startups/",
+        "https://betterstack.com/community/comparisons/best-startup-cloud-credit-programs/"
+      ]
+    },
+    {
+      "name": "Stripe Atlas (incorporation + perks)",
+      "category": "创业福利",
+      "region": "美国（Delaware 主体）；非美国创始人能否使用未在来源中确认",
+      "offer": "注册费 $500（之后每年续费 $100）；最高 $2,500 Stripe 额度，外加价值 $50,000 以上的合作伙伴 perks，其中包括 $5,000 AWS Activate 额度（仅限新用户）和 Replit 额度。",
+      "eligibility": "通过 Atlas 注册公司（面向 bootstrapped、pre-seed、seed 阶段）。",
+      "timing": "随时。",
+      "status": "滚动申请",
+      "howToApply": "在 stripe.com/atlas 注册。如果选 Delaware 主体，先通过 Atlas 领 $5K AWS 额度，再去单独申请 Activate Founders 档，以免“仅限新用户”的条件被占用。",
+      "fit": "中",
+      "fitWhy": "如果确定用 Delaware 主体向美国 VC 融 $20M 种子轮，Atlas 能一步完成注册并拿到 AWS 额度；主体地点还没确定，所以列为中。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://guptadeepak.com/startup-offers/programs/stripe-atlas",
+        "https://guptadeepak.com/startup-offers/guides/stripe-atlas",
+        "https://support.stripe.com/questions/stripe-atlas-perks-partners",
+        "https://sparklaun.ch/compare/stripe-atlas"
+      ]
+    },
+    {
+      "name": "Mercury Perks (Startup Essentials bundle) / Mercury Raise",
+      "category": "创业福利",
+      "region": "美国注册实体（需开 Mercury 账户）",
+      "offer": "Perks 市场合作伙伴额度合计超过 $200,000，包括最高 $5,000 AWS 额度、$5,000 Azure 额度、Google Cloud 相关优惠（来源称 $200,000 off）、QuickBooks 30% 折扣、Segment 免费层，以及 GitHub、Superhuman、1Password 折扣。另有 Mercury Raise。",
+      "eligibility": "需开设 Mercury 企业银行账户（美国公司）。",
+      "timing": "随时。",
+      "status": "滚动申请",
+      "howToApply": "开设 Mercury 账户后，在 mercury.com/perks 领取 Startup Essentials bundle。",
+      "fit": "中",
+      "fitWhy": "如果选美国主体，开户后就能叠加 AWS 和 Azure 额度；Mercury Raise 可能带来投资人接触。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://mercury.com/perks/bundles/startup-launch",
+        "https://guptadeepak.com/startup-offers/programs/mercury-raise",
+        "https://creditforstartups.com/companies/mercury"
+      ]
+    },
+    {
+      "name": "Ramp / Brex startup perks",
+      "category": "创业福利",
+      "region": "美国注册实体",
+      "offer": "Ramp：合作伙伴 perks 价值超过 $350K，含 $2,500 OpenAI 额度。Brex：创业福利价值最高约 $175K（明细未确认）。",
+      "eligibility": "需开通 Ramp 或 Brex 企业卡（美国公司）。",
+      "timing": "随时。",
+      "status": "滚动申请",
+      "howToApply": "开通企业卡后在其 perks 页面领取。",
+      "fit": "中",
+      "fitWhy": "Ramp 的 $2,500 OpenAI 额度是 SimReal 现阶段（没有合作 VC 推荐码时）拿 OpenAI 额度的少数途径之一。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://guptadeepak.com/startup-offers/programs/mercury-raise",
+        "https://www.vcboom.com/perks/mercury"
+      ]
+    },
+    {
+      "name": "UK AI Research Resource (AIRR) – Isambard-AI & Dawn Rapid Access route",
+      "category": "算力与云额度",
+      "region": "英国（仅限 UK 注册的微型、小型和中型企业）",
+      "offer": "每个项目 20,000 GPU 小时，在 Isambard-AI（Bristol）和 Dawn（Cambridge）国家 AI 超算上运行，免费；须在项目开始后 3 个月内用完。另有 Gateway（概念测试）和 Innovator（更大项目）两条通道。",
+      "eligibility": "UK 注册的微型、小型或中型企业，用于早期 AI 产品研发。",
+      "timing": "UKRI 常设 Rapid Access 通道，具体截止或批次未确认。",
+      "status": "未确认",
+      "howToApply": "在 UKRI 的“Isambard-AI and Dawn AIRR supercomputers: Rapid Access route”页面申请。",
+      "fit": "高",
+      "fitWhy": "如果设立 UK 主体，这是免费的大量 GPU 小时，可以在开源模型上验证金融 RL 环境和 SFT 数据的效果；同时也和英国政府的 AI 生态建立了关系。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.ukri.org/opportunity/isambard-ai-and-dawn-airr-supercomputers-rapid-access-route/",
+        "https://www.digit.fyi/uk-opens-up-national-ai-research-resource-to-startups/",
+        "https://www.hpcwire.com/off-the-wire/brics-brings-isambard-ai-compute-to-uk-ai-startups-through-sovereign-program/"
+      ]
+    },
+    {
+      "name": "UK Sovereign AI Unit (£500m) – compute offer",
+      "category": "政府与政策",
+      "region": "英国（英国 AI 创业公司）",
+      "offer": "£5 亿国家级 Sovereign AI 计划。获其支持的创业公司可通过 AIRR 全额资助使用英国最大的 AI 超算，每家最高 100 万 GPU 小时，另有投资以外的支持（Offer Beyond Investment）。",
+      "eligibility": "英国 AI 创业公司，领域须对公众或国家安全有关键意义；具体标准未确认。",
+      "timing": "未确认。",
+      "status": "未确认",
+      "howToApply": "通过 sovereignai.gov.uk 了解并联系。",
+      "fit": "高",
+      "fitWhy": "如果主体设在英国，100 万 GPU 小时的量级远超任何商业额度；金融 AI 和评测基础设施可以往“国家能力”方向叙事。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.sovereignai.gov.uk/offer-beyond-investment",
+        "https://www.bristol.ac.uk/research/centres/bristol-supercomputing/articles/2026/isambard-ai-supercomputer-powers-500m-uk-sovereign-ai-fund.html"
+      ]
+    },
+    {
+      "name": "阿里云初创企业扶持 / 算力补贴 / OPC 创新助力计划",
+      "category": "算力与云额度",
+      "region": "中国（阿里云中国站，需企业实名认证；非中国大陆主体能否申请未确认）",
+      "offer": "注册 10 年以内的企业可限时申领最高 100 万元上云抵扣金（领取后 30 天内有效）；初创企业上云抵扣金 3,500 元至 10 万元；首次迁入阿里云的企业可分享总额 5 亿元的算力补贴；千问焕新计划免费送 7,000 万 Tokens；OPC 创新助力计划提供 1,000 元至 100 万元 Token 补贴。",
+      "eligibility": "完成企业实名认证；注册 10 年以内；部分补贴仅限首次上云或首次迁入阿里云的企业新客。",
+      "timing": "限时活动，滚动更新；具体截止日未确认。",
+      "status": "开放中",
+      "howToApply": "在 startup.aliyun.com 或阿里云开发者社区的活动页，用企业实名账号申领。",
+      "fit": "中",
+      "fitWhy": "如果有中国主体，可以低成本跑千问等开源模型的推理和训练，也能接触中国大模型厂商（潜在买家）；但抵扣金有效期短，需要先规划好用途再领。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://developer.aliyun.com/article/1724597",
+        "https://developer.aliyun.com/article/1748434",
+        "https://developer.aliyun.com/article/1716115",
+        "https://startup.aliyun.com/info/1085837.html"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "按门槛从低到高的顺序申请",
+      "detail": "第三方指南建议没有 VC 的创始人先申请 Microsoft Founders Hub（不需要 VC 或注册证书），再加入 NVIDIA Inception（解锁合作生态和 AWS 通道），然后申请 Google Cloud，最后随着融资进展申请 AWS Activate 高档。熟练的创始人会同时申请多家，按用途分工：AWS 跑后端，Azure 跑 OpenAI 类工作负载，GCP 跑数据管线。",
+      "source": "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution"
+    },
+    {
+      "tactic": "用 AWS 额度经 Bedrock 调用 Claude",
+      "detail": "2026 年起 AWS Activate 额度可用于 Bedrock 上的第三方模型（Anthropic、Meta、Cohere）。生成 agent 轨迹和做 rubric 打分时，可以先用 AWS 额度支付 Claude 调用，Anthropic 自己的额度留着备用。",
+      "source": "https://grantedai.com/grants/aws-activate-cloud-credits-program-ai-startups-aws-d2e3f4a5"
+    },
+    {
+      "tactic": "额度会过期，按消耗计划分批领取",
+      "detail": "HN 讨论指出 AWS 额度通常 1 年过期，或分两笔 $50k 在 2 年内发放；额度在提供方账上是负债，所以必然有期限。不要在没有工作负载时一次性领取大额额度。",
+      "source": "https://news.ycombinator.com/item?id=21832427"
+    },
+    {
+      "tactic": "Anthropic 连付费额度也会过期",
+      "detail": "HN 有帖子提醒 Anthropic 付费购买的额度一年后过期；创业额度本身也是 12 个月有效。按月度用量小额预充，不要一次大额预付。",
+      "source": "https://news.ycombinator.com/item?id=44793446"
+    },
+    {
+      "tactic": "Google 申请要用公司域名，并写清楚 AI-first",
+      "detail": "Google 官方 FAQ 要求公司网站域名与申请邮箱域名、计费账户域名一致，用 Gmail 申请会被拒。AI 档要求 AI 是产品的基础架构而不是附加功能，申请书里要说明 RL 环境、verifier 和数据生成管线本身就是 AI 产品。",
+      "source": "https://cloud.google.com/startup/faq"
+    },
+    {
+      "tactic": "签下第一份机构 SAFE 后立即升级 Google Scale/AI 档",
+      "detail": "Scale 档认机构投资人的 SAFE，不认天使、赠款或众筹。种子轮第一张机构 SAFE 签完就重新申请，最高 $350K；不必等整轮交割。",
+      "source": "https://guptadeepak.com/startup-offers/programs/google-for-startups-cloud"
+    },
+    {
+      "tactic": "Azure 额度要实际用起来才能升级",
+      "detail": "Microsoft 明确表示闲置额度不会帮助升级；从 $5K 升到 $150K 要靠经验证的 Azure 实际使用，或 Investor Network 的推荐码。拿到 $5K 后应尽快在 Azure 上跑真实工作负载。",
+      "source": "https://learn.microsoft.com/en-us/answers/questions/5888354/inquiry-about-progression-to-higher-azure-credit-t"
+    },
+    {
+      "tactic": "把 VC 推荐码列为种子轮比较投资人的一项增值",
+      "detail": "OpenAI 只通过合作 VC 的推荐码发放额度，没有直接申请通道；Anthropic 的合作伙伴档 $25K 也需要 VC 或加速器的推荐码；AWS Portfolio 档需要 Activate Provider 的 Org ID；W&B 也要合作伙伴推荐。种子轮谈判时，逐一问各家 VC 是否在这些合作伙伴名单内。",
+      "source": "https://ideople.com/perks/openai-startup-credits"
+    },
+    {
+      "tactic": "先加入 NVIDIA Inception，再申请 Nebius $150K",
+      "detail": "Nebius AI Lift 只对合格的 Inception 会员开放，最高 $150K GPU 额度，而 Inception 免费、不要求融资。这是目前不需要 VC 背景也能拿到大额 GPU 额度的少数路径之一。",
+      "source": "https://x.com/nebiusai/status/1909998003856802187"
+    },
+    {
+      "tactic": "银行和企业卡 perks 有“仅限新用户”陷阱，先领大额的",
+      "detail": "Stripe Atlas 的 $5K AWS Activate 额度仅限 AWS 新用户。如果先自行申请了 $1K Founders 档，可能就失去资格。选美国主体时，先通过 Atlas、Mercury（$5K AWS、$5K Azure）、Ramp（$2.5K OpenAI）领取，再单独申请。",
+      "source": "https://guptadeepak.com/startup-offers/programs/stripe-atlas"
+    },
+    {
+      "tactic": "种子轮交割后立即申请有融资门槛的 GPU 平台",
+      "detail": "Modal 要求从任意基金融资超过 $1M 或来自其 VC 网络；Fireworks 要求融资 $500K 以上；Baseten 要求 Seed 至 Series A。种子轮交割当周就可以批量申请，现在申请会被拒。",
+      "source": "https://modal.com/startups"
+    },
+    {
+      "tactic": "不要在已停止的项目上浪费时间",
+      "detail": "Hugging Face 已没有创业项目；Cohere 创业页面跳转到首页；Mistralship 申请页截至 2026 年 8 月返回 404；Lambda Research Grant 只面向学术研究者。",
+      "source": "https://guptadeepak.com/startup-offers/programs/huggingface-startups"
+    },
+    {
+      "tactic": "UK AIRR 的 GPU 小时要在 3 个月内用完，先准备好实验计划",
+      "detail": "Rapid Access 每个项目给 20,000 GPU 小时，必须在项目开始后 3 个月内用完。申请前就准备好可以直接运行的实验，例如在开源模型上用 Xitadel 环境做 RL，对比有无 SimReal 数据的效果，以免额度作废。",
+      "source": "https://www.ukri.org/opportunity/isambard-ai-and-dawn-airr-supercomputers-rapid-access-route/"
+    },
+    {
+      "tactic": "警惕额度带来的锁定效应",
+      "detail": "HN 上有创始人认为创业额度是“bait and switch”：先让你绑定平台，额度用完后再付现金。基础设施应保持可迁移（容器化、多云），按各家额度轮换使用。",
+      "source": "https://news.ycombinator.com/item?id=35529128"
+    }
+  ]
+}

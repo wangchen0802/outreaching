@@ -1,0 +1,544 @@
+{
+  "items": [
+    {
+      "name": "Innovate UK — Frontier AI: SME Champions, Phase 1",
+      "category": "非稀释资助",
+      "region": "英国（仅限英国注册 SME）",
+      "offer": "该竞赛总池最高 £3,000,000，用于前沿 AI/ML 技术的可行性研究（feasibility study），要求有清晰、可防御的扩张路径；单项目金额上限未确认",
+      "eligibility": "英国注册的中小企业（SME）；若 SimReal 以英国实体运营即符合主体要求；美国/中国实体不符合",
+      "timing": "2026-10-01 开放，2026-12-02 截止",
+      "status": "开放中",
+      "howToApply": "通过 Innovate UK Innovation Funding Service 搜索 'Frontier AI: SME Champions' 提交申请：https://apply-for-innovation-funding.service.gov.uk/competition/search",
+      "fit": "高",
+      "fitWhy": "直接面向前沿 AI 的英国 SME，可将 RL 环境/verifier/金融评测（Xitadel、月结环境）包装为前沿模型后训练基础设施的可行性研究；时间窗正好在未来两个月内",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+        "https://grantedai.com/grants/innovate-uk-grant-funding-opportunities-live-feed-innovate-uk-a4124a90"
+      ]
+    },
+    {
+      "name": "Innovate UK — Efficient, Structured and Controllable AI Systems",
+      "category": "非稀释资助",
+      "region": "英国（仅限英国注册 SME）",
+      "offer": "竞赛总池最高 £1,660,000，用于对'高效、结构化、可控学习系统'的新型可复用组件做原型 AI 系统实验验证；单项目金额未确认",
+      "eligibility": "英国注册 SME",
+      "timing": "2026-10-12 开放，2026-11-18 截止",
+      "status": "即将开放",
+      "howToApply": "Innovate UK Innovation Funding Service 竞赛列表中提交：https://apply-for-innovation-funding.service.gov.uk/competition/search",
+      "fit": "中",
+      "fitWhy": "verifier/奖励模型/可控性评测可视为'可控学习系统的可复用组件'，但题目偏模型系统本身而非数据，需要较强的技术叙事改写",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+        "https://grantedai.com/grants/innovate-uk-grant-funding-opportunities-live-feed-innovate-uk-a4124a90"
+      ]
+    },
+    {
+      "name": "Innovate UK Growth Catalyst（Smart Grants 替代路径）",
+      "category": "非稀释资助",
+      "region": "英国",
+      "offer": "整合型支持：资助金 + 配套私人投资 + 企业辅导，面向高潜力初创公司扩张；金额未确认。Smart Grants 自 2025 年 1 月起暂停",
+      "eligibility": "英国企业；具体门槛未确认",
+      "timing": "未确认（需在 Innovate UK 竞赛列表中关注各期开放）",
+      "status": "未确认",
+      "howToApply": "关注 https://apply-for-innovation-funding.service.gov.uk/competition/search 中的 Growth Catalyst 各期竞赛",
+      "fit": "中",
+      "fitWhy": "Smart Grants 已暂停，Growth Catalyst 是 Innovate UK 当前对初创公司的主要通用资金通道，且与私募投资挂钩，适合正在募资的公司",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://casrai.org/guides/innovate-uk-smart-grants",
+        "https://apply-for-innovation-funding.service.gov.uk/competition/search"
+      ]
+    },
+    {
+      "name": "Laude Institute Slingshots",
+      "category": "非稀释资助",
+      "region": "全球（已公布批次以美国高校团队为主：Stanford、Berkeley、MIT、CMU、UIUC、Michigan）；公司是否可申请未确认",
+      "offer": "研究资助（来源称入选后立即投放资源；具体金额与形式未确认），明确聚焦 AI 评测：首批含 Terminal-Bench、ARC-AGI，第二批含 FormulaCode、BizBench（白领 AI agent 基准）",
+      "eligibility": "研究团队，要求产出可落地的研究成果（'Research that ships'）；营利公司是否可作为主申请方未确认，建议与高校实验室联合",
+      "timing": "全年滚动接收，每几个月公布一批；第二批于 2026-02-26 公布，第三批已公布",
+      "status": "滚动申请",
+      "howToApply": "通过 Laude Institute 官网提交项目：https://www.laude.org/updates",
+      "fit": "高",
+      "fitWhy": "Slingshots 是目前最对口 RL 环境/agent 基准的资助：BizBench 这类白领 agent 基准与 SimReal 的金融/月结环境几乎同类；入选还能在 RL/eval 研究圈获得高曝光",
+      "effort": "中",
+      "community": "Laude 官方 X 发布 Slingshots // TWO 时称'Research that ships. 14 projects, six institutions'——入选者全部来自高校，说明公司团队最好挂靠学术合作者（https://x.com/LaudeInstitute/status/2027101196348207176）",
+      "sources": [
+        "https://www.laude.org/updates/slingshots-two",
+        "https://www.laude.org/updates/slingshots-three",
+        "https://techcrunch.com/2025/11/06/laude-institute-announces-first-batch-of-slingshots-ai-grants/",
+        "https://x.com/LaudeInstitute/status/2027101196348207176"
+      ]
+    },
+    {
+      "name": "Frontier Model Forum — AI Safety Fund (AISF)",
+      "category": "非稀释资助",
+      "region": "全球（具体资格未确认）",
+      "offer": "1,000 万美元以上的联合资助基金（Anthropic、Google、Microsoft、OpenAI 等前沿实验室出资）；2025-12 公布 11 个新受资方共获超 500 万美元，RFP 方向包括 AI Agent Evaluation、网络安全、生物安全、合成内容",
+      "eligibility": "未确认（过往受资方含研究机构与组织；营利公司资格未确认）",
+      "timing": "下一轮 RFP 时间未确认；FMF 自 2025-06 起直接管理该基金",
+      "status": "未确认",
+      "howToApply": "关注 Frontier Model Forum 官网更新与 RFP 发布：https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+      "fit": "中",
+      "fitWhy": "上一轮明确有 'AI Agent Evaluation' 方向，受资项目含网络安全运营评测、ICS benchmarking、agent 评测，与 SimReal 的 agent 轨迹/环境能力匹配；出资方即 SimReal 的潜在客户（前沿实验室）",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+        "https://grantedai.com/grants/frontier-model-forum-ai-safety-fund-frontier-model-forum-782a468a"
+      ]
+    },
+    {
+      "name": "Coefficient Giving（原 Open Philanthropy）— AI Governance and Policy 通用 RFP / Technical AI Safety RFP",
+      "category": "非稀释资助",
+      "region": "全球",
+      "offer": "资助减轻先进 AI 灾难性风险的项目；金额未确认（按项目）",
+      "eligibility": "来源称任何人都可申请，包括学术界、非营利、产业界与个人",
+      "timing": "AI Governance and Policy RFP 滚动接收；Technical AI Safety RFP 当前状态未确认",
+      "status": "滚动申请",
+      "howToApply": "在 coefficientgiving.org 对应 RFP 页面提交 EOI；已关闭的评测类 RFP 官方建议转投 AI Governance and Policy 通用 RFP",
+      "fit": "中",
+      "fitWhy": "SimReal 的高难度金融/agent 基准若能论证与灾难性风险（如自主 agent 能力评估）相关，可走这条线；纯商业数据业务不符合",
+      "effort": "中",
+      "community": "EA Forum 上 Open Phil 发布的评测 RFP 讨论帖说明其更看重 GCR 相关的高难度基准、评测科学与第三方访问基础设施（https://forum.effectivealtruism.org/posts/bpBANcQwSmfQL3yPg/improving-capability-evaluations-for-ai-governance-open）",
+      "sources": [
+        "https://grantedai.com/grants/ai-governance-and-policy-rfp-open-philanthropy-now-coefficient-giving-2a0c0719",
+        "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/",
+        "https://coefficientgiving.org/tais-rfp-research-areas/"
+      ]
+    },
+    {
+      "name": "Coefficient Giving — Improving Capability Evaluations RFP / Benchmarking LLM Agents on Consequential Real-World Tasks RFP",
+      "category": "非稀释资助",
+      "region": "全球",
+      "offer": "资助三类工作：构建 GCR 相关基准、推进评测科学、改善第三方模型访问基础设施；以及在真实高后果任务上做 LLM agent 基准；金额未确认",
+      "eligibility": "任何人（含产业界）",
+      "timing": "Improving Capability Evaluations 于 2025-04-14 停止接收；LLM Agent Benchmarks RFP 已关闭；官方建议转投更新的评测 RFP / 通用 RFP",
+      "status": "已截止",
+      "howToApply": "不再接收；符合条件的提案可转投 AI Governance and Policy 通用 RFP",
+      "fit": "中",
+      "fitWhy": "主题与 SimReal 高度重合（agent 在真实后果性任务上的基准），虽已关闭，但说明该资助方持续资助此类工作，可作为通用 RFP 的叙事模板",
+      "effort": "中",
+      "community": "EA Forum 原帖：EOI 滚动审核，目标两周内回复（https://forum.effectivealtruism.org/posts/bpBANcQwSmfQL3yPg/improving-capability-evaluations-for-ai-governance-open）",
+      "sources": [
+        "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-improving-capability-evaluations/",
+        "https://coefficientgiving.org/funds/navigating-transformative-ai/rfp-llm-benchmarks/",
+        "https://www.openphilanthropy.org/request-for-proposals-improving-capability-evaluations/"
+      ]
+    },
+    {
+      "name": "Coefficient Giving — AI for Forecasting and Sound Reasoning RFP",
+      "category": "非稀释资助",
+      "region": "全球",
+      "offer": "资助用 AI 改善预测与稳健推理的项目；金额未确认",
+      "eligibility": "任何人（含产业界）",
+      "timing": "已于 2026-02-07 停止接收；下一期未确认",
+      "status": "已截止",
+      "howToApply": "关注 coefficientgiving.org Forecasting 基金页面是否重开",
+      "fit": "中",
+      "fitWhy": "SimReal 有 forecasting 方向数据/环境，若重开属直接对口",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://coefficientgiving.org/funds/forecasting/request-for-proposals-ai-for-forecasting-and-sound-reasoning/"
+      ]
+    },
+    {
+      "name": "UK AISI Challenge Fund",
+      "category": "非稀释资助",
+      "region": "英国主导（国际申请资格未确认）",
+      "offer": "总池 £5,000,000，每项目 £50,000–£200,000，快速响应型 AI 安全/安保研究资助",
+      "eligibility": "未确认（需核实是否接受营利公司及非英国实体）",
+      "timing": "截止 2026-04-01；下一期未确认（来源称 AISI 预计 2026 年还会有其他学术资助计划）",
+      "status": "已截止",
+      "howToApply": "关注 https://aisi.gov.uk/grants",
+      "fit": "中",
+      "fitWhy": "金额适中、周期快，AI 安全评测/verifier 类项目对口；但当前窗口已关",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://aisecurityandsafety.org/en/grants/uk-aisi-challenge-fund/",
+        "https://aisi.gov.uk/grants",
+        "https://grantedai.com/grants/uk-aisi-challenge-fund-ai-safety-security-research-aisi-c5d6e7f8"
+      ]
+    },
+    {
+      "name": "UK AISI — The Alignment Project",
+      "category": "非稀释资助",
+      "region": "国际（由英国 AISI 牵头）",
+      "offer": "总池 £27,000,000，每项目最高 £1,000,000，资助防止先进 AI 出现危险行为的对齐研究",
+      "eligibility": "未确认（营利公司资格需核实）",
+      "timing": "此前关闭，来源称预计 2026 夏季重开；截至 2026-10-02 是否已重开未确认。另有来源称同形式项目 2026 年内不太可能再开（所指项目未确认）",
+      "status": "未确认",
+      "howToApply": "关注 https://alignmentproject.aisi.gov.uk/",
+      "fit": "中",
+      "fitWhy": "对齐研究需要 RL 环境、奖励/verifier 与偏好数据，SimReal 可作为数据/环境方与学术 PI 联合申请",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://aisecurityandsafety.org/en/grants/uk-aisi-alignment-project/",
+        "https://alignmentproject.aisi.gov.uk/",
+        "https://grantedai.com/grants/alignment-project-international-fund-ai-alignment-research-uk-ai-security-institute-aisi-2026"
+      ]
+    },
+    {
+      "name": "ARIA Safeguarded AI — Cybersecurity（Blue Teams 滚动征集）",
+      "category": "非稀释资助",
+      "region": "英国（项目 >50% 成本与人员时间需在英国）",
+      "offer": "£20M 征集，每个 blue team £2.5M–£3.5M，用于构建经 AI 验证、并由 AI 红队渗透测试的可证明安全的网络安全产品",
+      "eligibility": "初创公司、SME、大公司、高校、非营利均可；多数工作须在英国进行",
+      "timing": "当期截止 2026-10-31 14:00 GMT；11 月审核，2026-11-30 通知；预计开放至 2027 年初，约每月审核一次；项目需在 2027-11 底前完成，周期 10–15 个月",
+      "status": "开放中",
+      "howToApply": "ARIA 资助页面提交提案：https://aria.org.uk/funding-opportunities",
+      "fit": "低",
+      "fitWhy": "金额大且对初创开放，但主题是 AI 驱动形式化方法做可证明安全软件，与 SimReal 的 verifier 能力有交集但偏离金融数据主业，需组建专门团队",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://aria.org.uk/media/ififbryj/safeguarded-ai-cybersecurity-solicitation_accessible.pdf",
+        "https://iuk-business-connect.org.uk/opportunities/aria-safeguarded-ai-cybersecurity-rolling-call/",
+        "https://granttree.co.uk/blog/grant-funding/safeguarded-ai-cybersecurity-grants-of-up-to-3-5-million-for-uk-teams-building-provably-secure-software/"
+      ]
+    },
+    {
+      "name": "Foresight Institute — AI for Science & Safety Nodes RFP 2026",
+      "category": "非稀释资助",
+      "region": "全球（节点位于 San Francisco 与 Berlin）",
+      "offer": "每项目 $30,000–$100,000，另有算力与 SF/Berlin 节点办公空间（来源称）；项目须产出开源成果",
+      "eligibility": "开源研究项目，需在 1–3 年内有降低先进 AI 存在性风险的潜力；营利公司资格未确认",
+      "timing": "2026-10-31 截止；通常截止后约 3 个月出结果",
+      "status": "开放中",
+      "howToApply": "Foresight Institute 官网 AI for Science & Safety Nodes 申请页提交",
+      "fit": "中",
+      "fitWhy": "可把一个金融/agent 安全评测环境或 verifier 开源作为项目，同时获得算力与 SF 节点曝光；金额小但门槛低、截止近",
+      "effort": "中",
+      "community": "Foresight 官方 X 曾在上一轮截止前两周提醒申请，说明每轮都有固定截止节奏（https://x.com/foresightinst/status/1901649906210648209）",
+      "sources": [
+        "https://www.globalsouthopportunities.com/2026/09/15/fore/",
+        "https://grantedai.com/grants/foresight-institute-ai-for-science-and-safety-nodes-grants-compute-hub-access-foresight-2026",
+        "https://opportunitydesk.org/2025/12/16/foresight-institute-ai-for-safety-science-nodes-2026/"
+      ]
+    },
+    {
+      "name": "EIC Accelerator 2026",
+      "category": "非稀释资助",
+      "region": "欧盟成员国及 Horizon Europe 关联国（英国实体的具体可申请范围未确认；美国/中国实体不符合）",
+      "offer": "最高 €2,500,000 一次性资助（最高覆盖 70% 成本），另可通过 EIC Fund 获 €1M–€10M 股权投资",
+      "eligibility": "单一初创/SME，需 TRL 6–8、有可运行原型与商业化计划",
+      "timing": "2026 年全文截止日：1/7、3/4、5/6、7/8、9/2、11/4；短申请持续开放，每月第一个周二批处理；短申请流程约 2–4 周",
+      "status": "开放中",
+      "howToApply": "先提交短申请（约 12 页摘要 + 10 页 pitch deck + 3 分钟视频），通过后再提交约 20 页全文：https://www.euacc.ai/programmes/eic-accelerator",
+      "fit": "中",
+      "fitWhy": "金额大且非稀释，但要求 EU/关联国实体和 TRL 6–8；SimReal 刚起步，赶 11/4 很紧，现实目标是 2027 年的截止日",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.euacc.ai/programmes/eic-accelerator",
+        "https://getgrant.ua/en/grants-and-funding/eic-accelerator-2026/",
+        "https://www.onesynergy.eu/2026/06/29/eic-accelerator-2026-july-cutoff/"
+      ]
+    },
+    {
+      "name": "NSF SBIR/STTR（NSF 26-510，含 AI/ML 主题）",
+      "category": "非稀释资助",
+      "region": "美国（美国小企业；外国关联申请人需额外安全审查）",
+      "offer": "本轮共 2.5 亿美元，覆盖 Phase I、Phase II、Fast-Track、补充资助，新增最高 3,000 万美元的 Strategic Breakthrough 档（面向 Phase II 毕业者）；Phase I 单项金额来源未给出（未确认）",
+      "eligibility": "美国小企业；重新授权法案新增对外国关联申请人的安全审查——华人创始团队、中国关联需特别评估；所有权要求以官方 solicitation 为准",
+      "timing": "SBIR 于 2026-04-13 重新授权至 2031-09-30；Project Pitch 于 2026-06-02 重开；首个全文截止 2026-07-27（已过）；后续截止日未确认",
+      "status": "开放中",
+      "howToApply": "先提交 Project Pitch，获邀后再提交全文；参考 https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026",
+      "fit": "低",
+      "fitWhy": "非稀释且 AI/ML 是支持领域，但需美国实体，且外国关联审查对中国背景团队风险较高",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026",
+        "https://grantedai.com/blog/nsf-sbir-sttr-250-million-relaunch-project-pitch-july-27-deadline-deep-tech-startups-strategy-2026",
+        "https://sbirgrantwriters.com/sbir-blog-sbir-sttr-landscape-2026",
+        "https://fundunlocked.com/learn/nsf-sbir-deadlines-2026/"
+      ]
+    },
+    {
+      "name": "Schmidt Sciences — Science of Trustworthy AI RFP 2026",
+      "category": "非稀释资助",
+      "region": "全球（仅高校、研究机构、非营利）",
+      "offer": "$1M 至 $5M 以上；Tier 1 最高 $1M；明确偏好产出可部署的工具、基准与框架",
+      "eligibility": "高校、研究机构、非营利组织（营利公司不能作为主申请方）",
+      "timing": "2026-05-17 截止；下一期未确认",
+      "status": "已截止",
+      "howToApply": "下一期可通过学术合作方（如剑桥/LSE 实验室）作为主申请方，SimReal 作为数据/环境合作方",
+      "fit": "低",
+      "fitWhy": "主题（可部署基准）对口，但公司不能直接申请且本期已关",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://grantedai.com/news/schmidt-sciences-trustworthy-ai-grants-5-million-2026",
+        "https://grantedai.com/grants/schmidt-sciences-trustworthy-ai-rfp-2026-safety-governance-research-schmidt-a1b2c3d4"
+      ]
+    },
+    {
+      "name": "Scaling AI Safety for a Multi-Agent World（Schmidt Sciences + Google DeepMind + ARIA + Cooperative AI Foundation + Google.org）",
+      "category": "非稀释资助",
+      "region": "全球（资格细节未确认）",
+      "offer": "按档位最高 $300,000 或最高 $1,000,000，研究多主体 AI agent 生态的监督与控制",
+      "eligibility": "未确认",
+      "timing": "2026-08-08 截止；下一期未确认",
+      "status": "已截止",
+      "howToApply": "Schmidt Sciences 申请门户：https://schmidtsciences.smapply.io/prog/scaling_ai_safety_for_a_multi_agent_world/",
+      "fit": "低",
+      "fitWhy": "多 agent 交易环境（如 Xitadel）本身就是多主体系统，主题有交集，但已截止",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://schmidtsciences.smapply.io/prog/scaling_ai_safety_for_a_multi_agent_world/",
+        "https://www.albany.edu/ocfr/news/2026-schmidt-sciences-and-others-scaling-ai-safety-multi-agent-world"
+      ]
+    },
+    {
+      "name": "Survival and Flourishing Fund（SFF）— Speculation Grants / S-Process",
+      "category": "非稀释资助",
+      "region": "全球（营利公司资格未确认）",
+      "offer": "2026 各轮合计约 2,000 万–4,000 万美元；历史单笔约 $25,000–$2,000,000；Speculation Grants 为滚动小额快速资助",
+      "eligibility": "未确认（营利公司是否可获资助需查 SFF FAQ）",
+      "timing": "2026 主轮已于 2026-04-22 截止，各主题轮于 6–7 月截止，2026 秋季陆续公布；来源列出 2026-12-31 截止（应为滚动 Speculation Grants）",
+      "status": "滚动申请",
+      "howToApply": "https://survivalandflourishing.fund/2026/application",
+      "fit": "低",
+      "fitWhy": "主要资助 AI 存在性风险相关组织，商业数据公司匹配度低；仅当做开源安全评测时可考虑",
+      "effort": "中",
+      "community": "LessWrong 上发布了 SFF-2026 申请公告，申请者主要来自 AI 安全研究社区（https://www.lesswrong.com/posts/LHrFPojhy9kKvuaiL/sff-2026-s-process-grant-round-application-announcement）",
+      "sources": [
+        "https://survivalandflourishing.fund/2026/application",
+        "https://survivalandflourishing.fund/faq",
+        "https://grantedai.com/grants/survival-flourishing-fund-2026-s-process-ai-safety-existential-risk-long-term-future-sff-b8c9d0e1"
+      ]
+    },
+    {
+      "name": "Manifund（AI 安全 regranting 平台）",
+      "category": "非稀释资助",
+      "region": "全球",
+      "offer": "个人 regranter 拥有资金池，资助在平台公开列出的项目；金额未确认",
+      "eligibility": "在平台公开发布项目即可；资格细节未确认",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "在 Manifund 公开发布项目页面，争取 regranter 关注（入口见 https://aisafety.com/funding）",
+      "fit": "低",
+      "fitWhy": "适合小额开源评测项目，同时能在 AI 安全圈获得公开曝光；对核心业务资金帮助有限",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://aisafety.com/funding"
+      ]
+    },
+    {
+      "name": "Emergent Ventures（Mercatus Center / Tyler Cowen）",
+      "category": "Fellowship 与早期项目",
+      "region": "全球",
+      "offer": "面向'moonshot'想法的 fellowship 与资助；金额未确认（Fast Grants 时期为 $10K–$500K，仅限 COVID 项目）",
+      "eligibility": "个人或项目，不限国籍；具体限制未确认",
+      "timing": "常年接受申请（据公开描述）；具体截止未确认",
+      "status": "滚动申请",
+      "howToApply": "通过 Mercatus Center Emergent Ventures 官网提交简短申请",
+      "fit": "中",
+      "fitWhy": "流程简单、决策快、无地域限制，且有 Tyler Cowen 网络背书；金额可能不大",
+      "effort": "低",
+      "community": "Substack 文章称其申请流程刻意保持简单、决策迅速（https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing）",
+      "sources": [
+        "https://techcrunch.com/?p=1711894",
+        "https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing"
+      ]
+    },
+    {
+      "name": "Thiel Fellowship",
+      "category": "Fellowship 与早期项目",
+      "region": "全球",
+      "offer": "两年共 $200,000（部分来源称 $250,000）+ 指导与人脉；2026 年选 12 人",
+      "eligibility": "22 岁及以下、无大学学位者",
+      "timing": "全年接受申请，年度评选",
+      "status": "滚动申请",
+      "howToApply": "Thiel Fellowship 官网在线申请",
+      "fit": "低",
+      "fitWhy": "创始人均有 Cambridge/LSE/Duke 学位与多年对冲基金经验，基本不符合年龄与学历要求；仅当有符合条件的年轻团队成员时考虑",
+      "effort": "中",
+      "community": "HN 上一位 Figma 联合创始人称 fellowship '绝对值得'，不强迫做媒体、可全程隐身；也有人指出很多 fellow 最后回去上学或进大厂（https://news.ycombinator.com/item?id=11447331）",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+        "https://www.capitaly.vc/blog/thiel-fellowship-application-guide-2026",
+        "https://news.ycombinator.com/item?id=11447331"
+      ]
+    },
+    {
+      "name": "Anthropic Fellows Program",
+      "category": "Fellowship 与早期项目",
+      "region": "美国/英国/加拿大（按薪资币种推断；以官方为准）",
+      "offer": "4 个月，每周津贴 $3,850 / £2,310 / C$4,300 + 福利；算力资金约 $15k/月；Anthropic 研究员直接指导",
+      "eligibility": "个人研究者/工程师，不要求既有经验；面向个人而非公司",
+      "timing": "2026 年 5 月与 7 月两期已开始；下一期未确认",
+      "status": "未确认",
+      "howToApply": "Anthropic 官网 Fellows 页面申请",
+      "fit": "低",
+      "fitWhy": "面向个人，全职创业者难以参加；但可借此与 Anthropic 安全团队建立关系（Anthropic 是潜在客户）",
+      "effort": "中",
+      "community": "X 上汇总帖整理了 2026 年 Anthropic 面向研究者的全部机会，可作为追踪入口（https://x.com/iHarnoorSingh/article/2086191148327178430）",
+      "sources": [
+        "https://x.com/AnthropicAI/status/1999233249579794618",
+        "https://opportunitydesk.org/2026/04/15/anthropic-fellows-program-2026/"
+      ]
+    },
+    {
+      "name": "OpenAI Safety Fellowship",
+      "category": "Fellowship 与早期项目",
+      "region": "未确认",
+      "offer": "带薪 fellowship，资助外部研究者做安全与对齐研究；金额未确认",
+      "eligibility": "外部个人研究者",
+      "timing": "项目期 2026-09-14 至 2027-02-05；申请已于 5/3 截止；下一期未确认",
+      "status": "已截止",
+      "howToApply": "关注 https://openai.com/index/introducing-openai-safety-fellowship/",
+      "fit": "低",
+      "fitWhy": "面向个人研究者且已截止；主要价值是与 OpenAI 安全团队建立联系",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://openai.com/index/introducing-openai-safety-fellowship/",
+        "https://www.helpnetsecurity.com/2026/04/07/openai-safety-fellowship-applications/"
+      ]
+    },
+    {
+      "name": "Slush 100",
+      "category": "比赛与奖金",
+      "region": "全球",
+      "offer": "冠军 €500,000，来源称 0% 股权（条款需核实）；在 Slush 面向大量投资人路演",
+      "eligibility": "早期初创公司；细则未确认",
+      "timing": "比赛 2026-11-18 至 11-19 于赫尔辛基；申请 2026 年 8 月开放，截止日未确认",
+      "status": "未确认",
+      "howToApply": "https://slush.org/audience/startups/slush100",
+      "fit": "中",
+      "fitWhy": "奖金高且时间在 $20M 种子轮募资期内，可同时接触欧洲与全球投资人；需尽快确认是否仍可报名",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://slush.org/audience/startups/slush100",
+        "https://www.growthmentor.com/blog/startup-pitch-competitions"
+      ]
+    },
+    {
+      "name": "TechCrunch Startup Battlefield",
+      "category": "比赛与奖金",
+      "region": "全球",
+      "offer": "$100,000 无股权奖金 + Disrupt Cup；200 家入选，20 家上台，5 家进决赛",
+      "eligibility": "早期初创公司",
+      "timing": "2026 年申请已关闭，Battlefield 200 已于 2026-08-20 公布；比赛 2026-10-13 至 10-15 于旧金山；2027 年申请时间未确认",
+      "status": "已截止",
+      "howToApply": "关注 https://techcrunch.com/startup-battlefield/ 2027 年开放",
+      "fit": "中",
+      "fitWhy": "无股权奖金加大曝光，但 2026 年已错过；可作为 2027 年目标，也可买票去 Disrupt 见投资人",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://techcrunch.com/startup-battlefield/about/",
+        "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/"
+      ]
+    },
+    {
+      "name": "Startup World Cup",
+      "category": "比赛与奖金",
+      "region": "全球（各地区预选）",
+      "offer": "冠军获 $1,000,000 投资（含股权，非无股权奖金）",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未确认（参见来源清单）",
+      "fit": "低",
+      "fitWhy": "奖金为股权投资而非资助；地区预选赛可作为见投资人的场合",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.growthmentor.com/blog/startup-pitch-competitions"
+      ]
+    },
+    {
+      "name": "AISafety.com Funding 目录 + AI Safety Funding Newsletter",
+      "category": "非稀释资助",
+      "region": "全球",
+      "offer": "汇总 AI 安全/评测相关的资助方、RFP 与截止日，定期更新（Substack 已出 2026 年第 19 期）",
+      "eligibility": "公开资源，无门槛",
+      "timing": "持续更新",
+      "status": "滚动申请",
+      "howToApply": "订阅 https://aisafetyfunding.substack.com 并定期查看 https://aisafety.com/funding",
+      "fit": "中",
+      "fitWhy": "评测/基准类 RFP（Coefficient、AISI、FMF、Schmidt、Foresight）开关频繁，这个目录是低成本追踪新窗口的方式",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://aisafety.com/funding",
+        "https://aisafetyfunding.substack.com/p/ai-safety-funding-issue-19-2026"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "资助方大多只收学术/非营利主申请方时，挂靠高校 PI",
+      "detail": "Schmidt Sciences Trustworthy AI 只收高校、研究机构和非营利；Laude Slingshots 第二批 14 个项目全部来自 6 所高校。建议找剑桥/LSE/Duke 的实验室作为主申请方，SimReal 以环境/verifier/专家数据合作方身份进入，同时把基准开源，拿到研究圈曝光",
+      "source": "https://www.laude.org/updates/slingshots-two"
+    },
+    {
+      "tactic": "Schmidt 等资助方偏好'可部署的基准与工具'，而不是纯理论",
+      "detail": "Schmidt Sciences 2026 RFP 明确要求产出从业者可直接使用的工具、基准和框架。提案里要突出可复现的环境、开源 verifier 和使用者（实验室/评测方），不要只写研究问题",
+      "source": "https://grantedai.com/news/schmidt-sciences-trustworthy-ai-grants-5-million-2026"
+    },
+    {
+      "tactic": "Coefficient Giving 专项 RFP 关闭后转投通用 RFP",
+      "detail": "评测类 RFP 关闭后官方建议转投 AI Governance and Policy 通用 RFP；EOI 滚动审核，目标两周内回复。先写一页 EOI，把金融 agent 基准与灾难性风险/自主能力评估挂钩",
+      "source": "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-improving-capability-evaluations/"
+    },
+    {
+      "tactic": "NSF SBIR：先提交 Project Pitch，不要用 AI 代写",
+      "detail": "Project Pitch 自 2026-06-02 重开，是全文申请的前置步骤；NSF 坚持人工评审，并警告 AI 生成内容有明显风险；新法要求对外国关联申请人做安全审查，中国背景团队应先评估再投入",
+      "source": "https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026"
+    },
+    {
+      "tactic": "EIC Accelerator 倒排时间：短申请先行",
+      "detail": "短申请约 12 页摘要 + 10 页 deck + 3 分钟视频，2–4 周，通过率约 70%；全文需 6–12 周准备，进入面试比例约 22–36%。赶 11/4 截止已很紧，建议以 2027 年首批截止日为目标，现在就提交短申请",
+      "source": "https://www.euacc.ai/programmes/eic-accelerator"
+    },
+    {
+      "tactic": "Innovate UK：Smart Grants 已停，盯主题竞赛",
+      "detail": "Smart Grants 自 2025-01 暂停，资金转向 Growth Catalyst 和主题竞赛。若用英国实体，本季最对口的是 Frontier AI: SME Champions（12/2 截止）和 Efficient, Structured and Controllable AI Systems（11/18 截止）",
+      "source": "https://casrai.org/guides/innovate-uk-smart-grants"
+    },
+    {
+      "tactic": "ARIA：注意 >50% 英国成本/人员规则与每月审核节奏",
+      "detail": "ARIA 要求项目过半成本和人员时间在英国；Safeguarded AI Cybersecurity 当期 10/31 截止，之后约每月审核一次直到 2027 年初，可以不赶首批",
+      "source": "https://iuk-business-connect.org.uk/opportunities/aria-safeguarded-ai-cybersecurity-rolling-call/"
+    },
+    {
+      "tactic": "Foresight Nodes：开源产出是硬要求，回款慢",
+      "detail": "须产出开源成果，截止后约 3 个月才有结果；适合把一个非核心的金融 agent 安全评测开源出来申请，不要拿核心商业数据集",
+      "source": "https://www.globalsouthopportunities.com/2026/09/15/fore/"
+    },
+    {
+      "tactic": "Thiel Fellowship：不会被强迫做宣传",
+      "detail": "HN 上 Figma 联合创始人称 fellowship 期间公司可以全程隐身、不强迫做媒体；但门槛是 22 岁及以下、无学位",
+      "source": "https://news.ycombinator.com/item?id=11447331"
+    },
+    {
+      "tactic": "Emergent Ventures：申请写短，突出一个大胆想法",
+      "detail": "申请流程刻意保持简单、决策快；一句话讲清 moonshot（例如'让 AI 学会真实交易台/财务月结'），不要写成长篇商业计划",
+      "source": "https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing"
+    },
+    {
+      "tactic": "用 UK 路演活动清单安排融资期间的曝光",
+      "detail": "Fundraising101 汇总了 100+ 个 2026/2027 年面向英国创始人的路演与比赛，可从中挑与 AI/fintech 相关、有投资人评委的场次，与 $20M 种子轮节奏配合",
+      "source": "https://fundraising101.academy/resources/75-pitch-events-competitions-for-uk-founders-2026-2027/"
+    },
+    {
+      "tactic": "订阅 AI 安全资助通讯追踪评测类 RFP",
+      "detail": "评测/基准类 RFP 开关很快（例如 Coefficient 预测 RFP 2026-02-07 关闭、AISI Challenge Fund 2026-04-01 截止），订阅 AI Safety Funding newsletter 并定期查看 aisafety.com/funding，可赶上下一轮窗口",
+      "source": "https://aisafetyfunding.substack.com/p/ai-safety-funding-issue-19-2026"
+    }
+  ]
+}

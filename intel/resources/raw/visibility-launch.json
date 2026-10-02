@@ -1,0 +1,557 @@
+{
+  "items": [
+    {
+      "name": "Prime Intellect Environments Hub（发布公开版环境）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上），未见实体所在地限制",
+      "offer": "开源 RL 环境与评测社区平台，官网称有 2,500+ 开源环境，并配有 RL/RFT、算力与推理基础设施。发布到这里的环境可被研究者和模型团队直接调用。现有贡献者包括 Arcee AI、HUD、WhyPhy Labs、Groq 等公司；已有 Legal/Finance Tasks 类环境。",
+      "eligibility": "任何个人或公司都可以按 Hub 的环境格式打包并发布；未见地区限制说明。",
+      "timing": "滚动，随时发布",
+      "status": "滚动申请",
+      "howToApply": "在 primeintellect.ai 注册，把 Xitadel 或月结（month-end close）环境的一个公开精简子集（附 verifier 和 baseline 分数）上传到 Environments Hub；完整版和专家数据留作付费产品。",
+      "fit": "高",
+      "fitWhy": "这里是 RL 研究者和 neolab 找环境的主要地方。发一个金融环境的公开版，是向研究社区展示 verifier 质量成本最低的办法，也能和 HUD、Arcee 等名字出现在同一平台上。",
+      "effort": "中",
+      "community": "Prime Intellect 在 X 上称社区两个月内众包了 400+ 前沿环境（这是官方说法，没找到独立创始人对它的评价）；Sequoia 播客把它称为“RL 环境的 GitHub”。https://x.com/PrimeIntellect/status/1963038995363082719",
+      "sources": [
+        "https://www.primeintellect.ai/blog/environments",
+        "https://www.primeintellect.ai/",
+        "https://www.hud.ai/resources/best-platforms-publishing-rl-environments-model-labs",
+        "https://sequoiacap.com/podcast/building-the-github-for-rl-environments-prime-intellects-will-brown-johannes-hagemann",
+        "https://the-decoder.com/prime-intellect-launches-an-open-platform-for-reinforcement-learning-environments/"
+      ]
+    },
+    {
+      "name": "Prime Intellect Environment Bounties（环境悬赏）",
+      "category": "比赛与奖金",
+      "region": "全球（线上）",
+      "offer": "Prime Intellect 承诺拿出“数十万美元”资助全球的环境构建者。悬赏分两档：Open Access 任务 $100–500，面向首次构建者；Application-Only 任务 $1,000–5,000+。",
+      "eligibility": "全球个人或团队；Application-Only 任务需要先申请。地区限制未确认。",
+      "timing": "滚动发放；2026-10 当前还开放哪些悬赏未确认",
+      "status": "未确认",
+      "howToApply": "看 Prime Intellect 博客“Scaling Our Open-Source Environments Program”里的悬赏列表，挑金融、预测、逻辑类的 Application-Only 任务申请。",
+      "fit": "中",
+      "fitWhy": "钱不多，但完成悬赏等于在 Prime Intellect 研究团队和社区面前拿到背书。可以让一位联创或核心专家用 1–2 周交付一个金融环境。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.primeintellect.ai/blog/scaling-environments-program"
+      ]
+    },
+    {
+      "name": "Prime Intellect RL Residency",
+      "category": "Fellowship 与早期项目",
+      "region": "全球（线上）；地区限制未确认",
+      "offer": "入选者获得实验算力、津贴（stipend），以及 Prime Intellect 内部研究团队的支持，在 Environments Hub 上构建环境、做研究。官方称申请人数超过 500。",
+      "eligibility": "官方描述中既有研究生，也有全职在职者；其他条件未确认。",
+      "timing": "首期公告见 X；下一期时间未确认",
+      "status": "未确认",
+      "howToApply": "关注 Prime Intellect 的 X 账号和博客，下一期开放后提交申请，研究方向写金融 RL 环境和 verifier。",
+      "fit": "中",
+      "fitWhy": "津贴对创始团队意义不大，但算力加研究团队背书可以用来跑金融环境的 baseline 训练实验，并公开结果。需要先评估是否与全职创业冲突。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://x.com/PrimeIntellect/status/1963038995363082719",
+        "https://www.primeintellect.ai/blog/scaling-environments-program"
+      ]
+    },
+    {
+      "name": "Terminal-Bench / Harbor（任务贡献与 Registry 适配器）",
+      "category": "曝光与发布平台",
+      "region": "全球（开源，GitHub）",
+      "offer": "Laude Institute 与 Stanford 主导的开源 agent benchmark。Terminal-Bench 2.0 有 89 个精选任务，接受社区提交新的高难度任务。Harbor 框架可以把外部 benchmark 以 adapter 形式注册进 registry，获得日志、并行、主流 agent 集成、CLI 分发和云端托管。另有 terminal-bench-science 子项目。",
+      "eligibility": "全球开源贡献，无地区限制",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "在 GitHub harbor-framework/terminal-bench 按 CONTRIBUTING.md 提交 PR，例如金融数据处理、对账类终端任务；或者把自家 benchmark 写成 Harbor adapter 注册进 registry（可参考 Quesma 把 CompileBench 迁移到 Harbor 的博文）。",
+      "fit": "高",
+      "fitWhy": "前沿实验室发布模型时会报告 Terminal-Bench 2.0 分数，进入贡献者名单或 registry 能直接被实验室评测团队看到。也能和已知的 Laude Institute Slingshots 申请互相加分。",
+      "effort": "中",
+      "community": "CAMEL-AI 的 Guohao Li 在 X 上称 Terminal-Bench 2.0 是“最重要的 benchmark 之一”，也是 GPT-5.3-Codex 和 Opus 4.6 发布时唯一共同报告的 benchmark（https://x.com/guohao_li/status/2019527791876653353）；GitHub 上有 issue 提醒 Harbor adapter 的默认参数（max_tool_calls_per_turn=10）可能让得分变成 0，需要仔细配置。",
+      "sources": [
+        "https://www.tbench.ai/news/registry-and-adapters",
+        "https://github.com/harbor-framework/terminal-bench",
+        "https://github.com/harbor-framework/terminal-bench-science/tree/main/tasks",
+        "https://snorkel.ai/blog/terminal-bench-2-0-raising-the-bar-for-ai-agent-evaluation/",
+        "https://quesma.com/blog/compilebench-in-harbor/",
+        "https://huggingface.co/datasets/harborframework/terminal-bench-2.0",
+        "https://x.com/guohao_li/status/2019527791876653353",
+        "https://github.com/MervinPraison/PraisonAI/issues/3932"
+      ]
+    },
+    {
+      "name": "OpenEnv（Meta PyTorch × Hugging Face 环境标准与 Hub）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上，Hugging Face）",
+      "offer": "2025 年 10 月由 Meta PyTorch 团队和 Hugging Face 发布的 RL 环境标准接口，附带社区 Hub。按 OpenEnv 格式打包的环境可以在 Hugging Face 上发布和复用。",
+      "eligibility": "全球开放，无地区限制",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "按 OpenEnv 规范打包公开版金融环境，发布到 Hugging Face（openenv 组织的 README 在 huggingface.co/spaces/openenv）；同一个环境可以同时发到 Prime Intellect Hub。",
+      "fit": "高",
+      "fitWhy": "这是和 Prime Intellect Hub 并行的第二个环境标准，背后是 Meta 和 HF。一次打包、多平台发布，可以同时覆盖两个生态的研究者。",
+      "effort": "中",
+      "community": "Huzzle Labs 在 X 上宣布在 OpenEnv 开源了两个环境（Phantom Grid 和 Spreadsheet），把它当作对外展示能力的窗口。https://x.com/huzzle_labs",
+      "sources": [
+        "https://x.com/i/article/2096969377002213866",
+        "https://x.com/SergioPaniego/status/2096969377002213866",
+        "https://x.com/huzzle_labs",
+        "https://huggingface.co/spaces/openenv/README/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Meta PyTorch OpenEnv AI Hackathon（印度）",
+      "category": "比赛与奖金",
+      "region": "印度（线上初赛 + 班加罗尔线下决赛）",
+      "offer": "$30,000 奖金池，Meta 和 Hugging Face AI 团队的直接面试机会，Meta 官方证书。",
+      "eligibility": "1–3 人团队，不要求 RL 经验；面向印度开发者（更细的地区限制未确认）。",
+      "timing": "2026-03-14 至 2026-04-26（线上第一轮 3/25–4/8，班加罗尔决赛 4/25–26）",
+      "status": "已截止",
+      "howToApply": "已截止；下一期或全球版时间未确认，可以关注 PyTorch 和 Hugging Face 的 X 账号。",
+      "fit": "低",
+      "fitWhy": "面向个人开发者，偏招聘性质。对 SimReal 的价值主要是一个信号：Meta/HF 在投入环境生态，以后可能有面向公司的环境挑战。",
+      "effort": "中",
+      "community": "AVB 在 X 上称“Meta、Hugging Face 和 PyTorch 这三巨头在办 RL 黑客松”。https://x.com/neural_avb/status/2036484526399160615",
+      "sources": [
+        "https://pytorch.org/event/openenv-ai-hackathon/",
+        "https://x.com/PyTorch/status/2036276566372598162",
+        "https://x.com/neural_avb/status/2036484526399160615",
+        "https://kalinga.ai/openenv-ai-hackathon-india-2026/"
+      ]
+    },
+    {
+      "name": "Hugging Face Community Evals（托管 benchmark 与排行榜）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "Hub 上的 benchmark 数据集可以托管自己的排行榜，并自动从模型仓库收集评测结果。结果会显示在模型卡上，并回链到 benchmark 数据集。评测规范写在 eval.yaml 里（基于 Inspect AI 格式）。目前已有 MMLU-Pro、GPQA、HLE，以及 SWE-bench、AIME 2026 等实时排行榜。",
+      "eligibility": "全球；任何 Hub 用户都能发布数据集。进入官方 benchmark 列表的流程未确认。",
+      "timing": "2026 年 2 月上线（据 InfoQ 报道），滚动",
+      "status": "滚动申请",
+      "howToApply": "把公开版金融 benchmark 作为 HF dataset 发布并附上 eval.yaml；再联系 HF 团队申请收录进官方 benchmark 列表（具体流程未确认）。",
+      "fit": "高",
+      "fitWhy": "这样开源模型团队可以直接在模型卡里报告 SimReal 金融 benchmark 的分数，曝光是长期的；带 official 标签的 benchmark 可信度更高。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://huggingface.co/blog/community-evals",
+        "https://www.infoq.com/news/2026/02/hugging-face-evals/",
+        "https://github.com/huggingface/community-evals",
+        "https://huggingface.co/blog/eee-community-evals",
+        "https://huggingface.co/datasets?benchmark=benchmark%3Aofficial",
+        "https://huggingface.co/docs/leaderboards/index"
+      ]
+    },
+    {
+      "name": "Kaggle Community Benchmarks",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "在 Kaggle 上定义评测任务（Tasks），组合成 Benchmark 并生成公开排行榜。在配额内可以免费调用 Google、Anthropic、DeepSeek 等实验室的前沿模型。社区已创建 10,000+ 个评测任务，也支持本地构建 benchmark。",
+      "eligibility": "全球 Kaggle 用户",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "用 Xitadel 或月结任务的公开子集在 Kaggle Benchmarks 上建一个 Benchmark，发布前沿模型排行榜，再到 X、Reddit、HN 推广。",
+      "fit": "高",
+      "fitWhy": "免费的模型调用配额意味着零推理成本，就能拿到前沿模型在金融任务上的横向对比；有 Google/Kaggle 背书的排行榜也更容易被媒体和实验室引用。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-community-benchmarks/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-kaggle--benchmarks-locally/",
+        "https://www.startuphub.ai/ai-news/ai-research/2026/kaggle-community-benchmarks-decentralize-ai-evaluation/"
+      ]
+    },
+    {
+      "name": "Kaggle Game Arena（Google DeepMind × Kaggle）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "用游戏评测模型的平台，已有国际象棋、狼人杀和扑克（考察社交博弈和风险计算），并直播锦标赛。",
+      "eligibility": "是否接受外部团队提交新游戏或新环境未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "没有公开渠道（未确认）。可以尝试通过 Kaggle 或 Google DeepMind 的联系人，提议一个多智能体交易或做市对抗竞技场。",
+      "fit": "中",
+      "fitWhy": "扑克已经说明风险决策类游戏会被接受。量化团队设计的多智能体交易对抗环境和平台定位吻合，合作成功的话曝光极高，但成功率未知。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+        "https://dev.to/googleai/advancing-ai-benchmarking-with-game-arena-3nda",
+        "https://blog.google/innovation-and-ai/products/kaggle-game-arena/"
+      ]
+    },
+    {
+      "name": "Show HN（Hacker News）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "Hacker News 的 Show HN 栏目。开源 benchmark 和环境类发布在这里很常见，例如 Cua-Bench、Factorio Learning Environment、CVE-Bench、Sales Agent Benchmark，以及一门构建 LLM RL 环境的实操课程。",
+      "eligibility": "全球；需要一个能直接试用的开源项目或产品",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "发布开源的公开版环境或 benchmark，附可复现的排行榜。标题可以用“Show HN: <Name>-Bench, the first ... using real-world ...”这样的结构；创始人在评论区亲自回答技术问题。",
+      "fit": "高",
+      "fitWhy": "HN 读者里有大量实验室工程师和投资人。上面这些例子说明，开源 benchmark/环境是 Show HN 上常见且合规的发布形式，不会被当成广告。",
+      "effort": "中",
+      "community": "CVE-Bench 在 HN 的标题是“首个使用真实 Web 漏洞的 LLM benchmark”，Factorio Learning Environment 则靠有趣的环境吸引注意；“首个 + 真实世界 + 开源”的标题结构反复出现。https://news.ycombinator.com/item?id=43540413",
+      "sources": [
+        "https://news.ycombinator.com/item?id=46768906",
+        "https://news.ycombinator.com/item?id=43331582",
+        "https://news.ycombinator.com/item?id=43540413",
+        "https://news.ycombinator.com/item?id=46946742",
+        "https://news.ycombinator.com/item?id=47730587",
+        "https://news.ycombinator.com/item?id=44796161"
+      ]
+    },
+    {
+      "name": "r/MachineLearning（[P] 项目帖）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "主流 ML 研究社区，项目和演示类帖子需要加 [P] 标签。适合发布 benchmark 结果和论文。",
+      "eligibility": "全球；需遵守版规和标签要求",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "标题用 [P] 开头，正文按这个结构写：做了什么、用什么方法、结果（benchmark 数据）、代码链接、论文链接（如有）。",
+      "fit": "中",
+      "fitWhy": "研究者聚集的地方，适合发 Xitadel 公开版的技术结果（比如各模型的 P&L 和 reward hacking 案例），不适合发产品广告。",
+      "effort": "低",
+      "community": "营销指南称，不符合格式的帖子常被版主删除或重新打标签。https://www.reddit-radar-marketing.com/guides/r/machinelearning",
+      "sources": [
+        "https://www.reddit-radar-marketing.com/guides/r/machinelearning",
+        "https://thehiveindex.com/communities/r-machine-learning/"
+      ]
+    },
+    {
+      "name": "r/LocalLLaMA",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "被认为是最大的本地/开源模型自托管社区，适合发布开源模型在金融环境上的评测结果。",
+      "eligibility": "遵守“限制自我推广”规则（1/10 准则），并且必须披露关联关系",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "以“开源模型（Qwen、DeepSeek、Llama 等）在真实金融任务上的表现”为内容主体，明确说明自己是作者或所在公司，不要频繁发推广帖。",
+      "fit": "中",
+      "fitWhy": "开源模型训练者和微调者聚集在这里，能触达用 RL 微调开源模型的 AI 应用公司；中国背景的开源模型话题在这里关注度高。",
+      "effort": "低",
+      "community": "LaunchWake 的总结是：厂商帖只有在不过量、并且公开披露关联时才被允许。https://www.launchwake.com/channels/r-localllama",
+      "sources": [
+        "https://www.launchwake.com/channels/r-localllama",
+        "https://intoru.ai/subreddits/localllama",
+        "https://agyn.io/blog/top-open-weight-llms-2026",
+        "https://gummysearch.com/r/LocalLLaMA/"
+      ]
+    },
+    {
+      "name": "Epoch AI Gradient Updates / Chris Barber（RL 环境访谈）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "Epoch AI 与 Chris Barber 在 2026-01-12 发表《An FAQ on Reinforcement Learning Environments》，访谈了 18 位来自 RL 环境创业公司、neolab 和前沿实验室的人，是这个赛道的行业认知类内容。",
+      "eligibility": "没有公开申请，需要主动联系",
+      "timing": "未确认（没有固定征集）",
+      "status": "未确认",
+      "howToApply": "在 X 上联系 @chrisbarber 和 @EpochAIResearch，提供金融 RL 环境的一手洞见或数据（如 reward hacking 案例、专家标注成本），争取后续访谈或数据合作。",
+      "fit": "高",
+      "fitWhy": "文章指出企业工作流（操作电子表格、填报表）是增长领域，还引用一位创始人的话：做任务时领域知识比 ML 技巧更重要。这和 SimReal“量化专家 + 月结环境”的定位高度一致。",
+      "effort": "低",
+      "community": "Epoch AI 在 X 上称前沿实验室在 RL 环境上大举投入，但大部分发生在幕后。https://x.com/EpochAIResearch/status/2010814868832887163",
+      "sources": [
+        "https://epoch.ai/gradient-updates/state-of-rl-envs",
+        "https://epochai.substack.com/p/an-faq-on-reinforcement-learning",
+        "https://x.com/EpochAIResearch/status/2010814868832887163",
+        "https://x.com/chrisbarber"
+      ]
+    },
+    {
+      "name": "SemiAnalysis（RL Envs / RL as a Service 报道）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "SemiAnalysis 把 RL 环境、RL for Science、Data Foundries、RL as a Service 列为重点报道主题；Dylan Patel 在 X 上称 RL 环境和 RL for Science 是“大事”。",
+      "eligibility": "没有公开申请",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "通过 X 联系或通过其研究团队提供数据和访谈素材，例如 RL 环境定价、实验室采购模式（具体渠道未确认）。",
+      "fit": "中",
+      "fitWhy": "读者是投资人和实验室高管，被引用对募 $20M 种子轮有帮助；但需要拿出独家数据才有机会。",
+      "effort": "中",
+      "community": "Dylan Patel（@dylan522p）在 X 上称“RL Envs and RL for Science is huge deal”。https://x.com/dylan522p/status/2008613577759105335",
+      "sources": [
+        "https://x.com/dylan522p/status/2008613577759105335"
+      ]
+    },
+    {
+      "name": "Latent Space 播客 / AINews 与 Interconnects（Nathan Lambert）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "Latent Space（swyx、Alessio）多次深入讨论 RLVR 和 RLHF，嘉宾包括 AI2/Interconnects 的 Nathan Lambert；Latent Space 的 AINews 也发布 AI Engineer 大会的征稿信息。",
+      "eligibility": "嘉宾邀请制，没有公开申请",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "先通过 AI Engineer 大会演讲建立联系（AINews 发布过该大会的征稿）；同时把金融 RLVR 实验结果（如 verifier 设计、reward hacking 案例）发给 Nathan Lambert 或 swyx。",
+      "fit": "中",
+      "fitWhy": "这些是 RL 研究者和 AI 工程师最常听的播客和通讯，适合以“金融任务 RLVR 的一手经验”为切入点。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.latent.space/p/the-rlvr-revolution-with-nathan-lambert",
+        "https://www.latent.space/p/rlhf-201",
+        "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch"
+      ]
+    },
+    {
+      "name": "AI Engineer Code Summit 2026（演讲征集）",
+      "category": "社区与活动",
+      "region": "美国旧金山（线下）；全球可投稿",
+      "offer": "申请制的 coding agent 构建者大会，2026-11-10 至 11-12 在旧金山举行。演讲征集面向在生产中构建、部署、评测、运营 AI coding 系统的实践者。",
+      "eligibility": "全球可投稿；国际申请者的早审截止日（2026-09-15）已过",
+      "timing": "最终截止 2026-10-11 23:59 PT，滚动审核；大会 2026-11-10 至 11-12",
+      "status": "开放中",
+      "howToApply": "在 Sessionize（sessionize.com/aiecode26）提交演讲，题目方向如“为 coding agent 构建可验证 RL 环境与 verifier 的经验”；滚动审核，越早提交越好。",
+      "fit": "中",
+      "fitWhy": "听众是 coding agent 公司和 AI 工程师，正是代码类 RL 环境和评测的潜在买家；演讲也能带来 Latent Space 生态的曝光。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://ai.engineer/code/2026",
+        "https://sessionize.com/aiecode26/"
+      ]
+    },
+    {
+      "name": "AI Engineer World's Fair 2027",
+      "category": "社区与活动",
+      "region": "美国旧金山 Moscone West（线下）",
+      "offer": "2027-06-29 至 07-02 举行。2026 届征稿设有 Autoresearch、Memory、World Models、Vertical AI 等主题。",
+      "eligibility": "未确认",
+      "timing": "官方称议程、讲者和票务“即将公布”；2027 届征稿开放时间未确认",
+      "status": "未确认",
+      "howToApply": "关注 ai.engineer 和 @aiDotEngineer，征稿一开就投 Vertical AI/金融或 evals 方向的演讲。",
+      "fit": "中",
+      "fitWhy": "这是 AI 工程师规模最大的年度聚会，适合在种子轮之后集中见客户和投资人。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://ai.engineer/worldsfair/2027",
+        "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch"
+      ]
+    },
+    {
+      "name": "RL 环境行业地图与目录（Troveo、Synaptic、Sapphire、Zylos、rl-list）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "多份 2026 年 RL 环境公司地图和目录：Troveo《RL Environment Companies in 2026: The Landscape》把公司分成三类（加了环境业务的人类数据公司、环境原生创业公司、开放生态）；Synaptic Tip-Offs 有 RL 环境创业公司和创始人列表；Sapphire Ventures 发过 RL 环境文章；Zylos 的研究估计 2026 年中市场年收入约 $1B；rl-list.com 有供应商档案页（如 Halluminate）。",
+      "eligibility": "没有门槛，需要主动联系作者",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "给各家作者发邮件或在 X 私信，附一页公司介绍（金融优先、Xitadel、已服务 Surge AI 和 AfterQuery、7,000+ 专家）申请收录；在 rl-list 申请建立供应商档案。",
+      "fit": "高",
+      "fitWhy": "投资人和实验室采购都用这些地图做尽调。Halluminate 在 2026 年已把定位收窄到“金融服务 RL 环境”，SimReal 如果不在地图上，“金融 RL 环境”的标签就会被竞争对手占去。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.troveo.ai/resources/rl-environment-companies",
+        "https://synaptic.com/resources/tip-offs/rl-evironments-startups-and-founders",
+        "https://sapphireventures.com/blog/reinforcement-learning-environments-ai-agents/",
+        "https://zylos.ai/research/2026-07-15-rl-environments-as-a-service-agentic-training-infrastructure/",
+        "https://www.rl-list.com/",
+        "https://www.rl-list.com/vendors/halluminate"
+      ]
+    },
+    {
+      "name": "GitHub awesome 列表（awesome-evals、awesome-RLVR）",
+      "category": "曝光与发布平台",
+      "region": "全球（GitHub）",
+      "offer": "BenchFlow 维护的 awesome-evals（agent 构建与评测资源精选）和 OpenDILab 维护的 awesome-RLVR（可验证奖励 RL 资源精选，持续更新）。被收录后能长期带来研究者流量。",
+      "eligibility": "开源项目或论文",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "开源环境或论文发布后，向这两个仓库提交 PR 申请收录。",
+      "fit": "中",
+      "fitWhy": "几乎零成本，可以把 SimReal 的公开环境和论文长期挂在研究者常看的列表里。",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://github.com/benchflow-ai/awesome-evals",
+        "https://github.com/opendilab/awesome-RLVR"
+      ]
+    },
+    {
+      "name": "arXiv 技术报告 + 开源金融 benchmark（参照 Finance Agent Benchmark、LiveTradeBench）",
+      "category": "曝光与发布平台",
+      "region": "全球（线上）",
+      "offer": "用 arXiv 论文加开源数据和代码的形式发布 benchmark，是在研究社区建立认知的主要方式。先例：Finance Agent Benchmark（arXiv 2508.00828，数据 CC BY 4.0、代码 MIT，公开验证集、模拟环境和评测脚本）；LiveTradeBench（arXiv 2511.03628，评测 LLM 的真实交易能力）。",
+      "eligibility": "全球；未见地区限制",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "写一篇介绍 Xitadel 公开子集的技术报告，开放验证集和评测脚本，保留私有测试集防止数据污染；论文发布当天同步发到 HF、Kaggle、X 和 Show HN。",
+      "fit": "高",
+      "fitWhy": "金融 agent benchmark 已有先例并受到关注；由量化背景团队写交易环境论文，可信度有优势；论文也更容易被实验室引用。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://arxiv.org/pdf/2508.00828",
+        "https://arxiv.org/pdf/2511.03628",
+        "https://www.alphaxiv.org/overview/2502.15840v1"
+      ]
+    },
+    {
+      "name": "被前沿模型发布引用的第三方 benchmark（Andon Labs Vending-Bench 路径）",
+      "category": "客户与销售渠道",
+      "region": "全球",
+      "offer": "Andon Labs 的 Vending-Bench 让模型模拟经营一年自动售货机生意，以最终账户余额计分。它成了前沿模型发布中反复引用的 benchmark：Anthropic 报告 Claude Opus 4.5 比前代提升 29%；Vending-Bench 2 到 2026 年中仍是常用的对比排行榜。Andon Labs 随后推出了产品 Pion。",
+      "eligibility": "没有申请流程，靠 benchmark 质量和传播",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "做一个长周期、尚未饱和、以美元盈亏计分的交易或月结 benchmark，在 X 上发布，并主动给实验室评测团队提供跑分（对接实验室的具体渠道未确认）。",
+      "fit": "高",
+      "fitWhy": "交易环境天然有 P&L 指标，和 Vending-Bench“赚了多少钱”的叙事非常像；被模型发布或模型卡引用，是对实验室客户最有力的销售背书。",
+      "effort": "高",
+      "community": "Andon Labs 在 X 上发布 Vending-Bench 时，只用了“让模型经营一个模拟售货机生意”这一句直白的话。https://x.com/andonlabs/status/1894441185567281414",
+      "sources": [
+        "https://rits.shanghai.nyu.edu/ai/vending-bench-2-ai-models-put-to-the-test-running-a-business-for-a-year/",
+        "https://intuitionlabs.ai/articles/andon-labs-project-vend-ai",
+        "https://x.com/andonlabs/status/1894441185567281414",
+        "https://andonlabs.com/"
+      ]
+    },
+    {
+      "name": "cline-bench（Cline 社区共建 benchmark）",
+      "category": "曝光与发布平台",
+      "region": "全球（开源）",
+      "offer": "Cline 宣布与社区共建开源的 cline-bench：把开源仓库里真实的困难任务转成容器化 RL 环境（带真实仓库快照）。",
+      "eligibility": "社区贡献；具体参与方式未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "关注 Cline 的 X 和 GitHub，了解贡献流程（未确认），提交高难度真实任务。",
+      "fit": "中",
+      "fitWhy": "贡献能展示 SimReal 在代码环境上的能力，并和 coding agent 公司建立联系；“和用户共建 benchmark”这个模式也可以照搬到金融方向。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://x.com/cline/status/1991612268220752130"
+      ]
+    },
+    {
+      "name": "RLEval workshop（RL 环境用于评测 AI agent）",
+      "category": "社区与活动",
+      "region": "未确认（所属会议未确认）",
+      "offer": "主题为“RLEval: Methods and Reinforcement Learning Environments for Evaluating AI Agents”的学术研讨会，直接对口 RL 环境评测。",
+      "eligibility": "未确认",
+      "timing": "未确认（截稿日期和会议时间未确认）",
+      "status": "未确认",
+      "howToApply": "访问 rl-eval.github.io 查看征稿要求和日期。",
+      "fit": "中",
+      "fitWhy": "主题完全对口，可以投 Xitadel 的 workshop 论文，接触做环境研究的学者和实验室研究员；但时间未知。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://rl-eval.github.io/"
+      ]
+    },
+    {
+      "name": "TechCrunch 等科技媒体的 RL 环境报道",
+      "category": "曝光与发布平台",
+      "region": "全球（美国媒体为主）",
+      "offer": "TechCrunch 在 2025-09-21 发表专题《Silicon Valley bets big on 'environments' to train AI agents》，说明主流科技媒体在跟踪 RL 环境赛道。",
+      "eligibility": "没有门槛",
+      "timing": "滚动",
+      "status": "滚动申请",
+      "howToApply": "在宣布种子轮或发布 benchmark 时，向写过 RL 环境报道的记者 pitch（具体联系人未确认），附上独家数据或客户故事。",
+      "fit": "中",
+      "fitWhy": "媒体报道能放大募资声势，也会让实验室采购把你列进候选供应商；最好和融资公告绑在一起发。",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+      ]
+    },
+    {
+      "name": "Anthropic / OpenAI 嵌入式第三方评估者计划（2026-09）",
+      "category": "客户与销售渠道",
+      "region": "美国为主（未确认）",
+      "offer": "Anthropic 提议在前沿实验室内部长期嵌入第三方安全评估者，并选定 Accenture 为首个嵌入式评估者；Anthropic 与 Accenture 同意 5 年内至少投入 $10 亿建设这方面的能力。OpenAI 也表示计划让第三方团体在训练、评估和部署阶段审查模型。",
+      "eligibility": "面向 METR、Accenture 这类评估机构；初创公司直接参与的渠道未确认",
+      "timing": "2026 年 9 月宣布，细节仍在推进",
+      "status": "未确认",
+      "howToApply": "未确认；可以尝试以环境和评测数据供应商的身份接触 Accenture 等嵌入式评估团队。",
+      "fit": "低",
+      "fitWhy": "方向偏安全评估，和金融 RL 环境不直接对口；但如果评估者需要领域任务环境（比如测试金融 agent 的越权行为），可能出现分包机会。",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+        "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+        "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "一个环境同时发到 Prime Intellect Hub、OpenEnv 和 Harbor registry",
+      "detail": "Prime Intellect Hub 的贡献者里已有 Arcee AI、HUD、Groq 等公司；OpenEnv 是 Meta/HF 的标准；Harbor 把外部 benchmark 包成 adapter 后，就能使用 Terminal-Bench 的日志、并行和分发能力。公开版 Xitadel 打包一次、三处发布，可以覆盖三个生态的研究者。",
+      "source": "https://www.primeintellect.ai/blog/environments ; https://www.tbench.ai/news/registry-and-adapters ; https://quesma.com/blog/compilebench-in-harbor/"
+    },
+    {
+      "tactic": "趁前沿模型发布当天开源，并挂钩实验室报告的 benchmark",
+      "detail": "CAMEL-AI 的 Guohao Li 在 GPT-5.3-Codex 和 Opus 4.6 发布当天，发帖宣布开源约 1,000 个终端 RL 训练环境，并指出 Terminal-Bench 2.0 是两家发布中唯一共同报告的 benchmark，借这波热度获得关注。SimReal 可以在主要模型发布日公布这些模型在金融环境上的成绩。",
+      "source": "https://x.com/guohao_li/status/2019527791876653353"
+    },
+    {
+      "tactic": "用美元盈亏当指标，做长周期、不饱和的 benchmark，争取被模型发布引用",
+      "detail": "Vending-Bench 用一年模拟经营后的最终账户余额计分，叙事直白，Anthropic 在 Claude Opus 4.5 发布时引用了它（提升 29%），而且最好的模型仍远不如人类经营者。交易环境的 P&L 指标可以照搬这种“模型能赚多少钱”的叙事。",
+      "source": "https://rits.shanghai.nyu.edu/ai/vending-bench-2-ai-models-put-to-the-test-running-a-business-for-a-year/"
+    },
+    {
+      "tactic": "把“领域专家比 ML 技巧更重要”作为对外核心叙事",
+      "detail": "Epoch AI 访谈了 18 位业内人士，一位 RL 环境创始人说做任务时“领域知识和专家级 prompt 比 ML 技能更重要”；文章还指出企业工作流（电子表格、填报表）是增长领域。SimReal 的量化联创加 7,000+ 专家，可以直接对上这个判断，月结环境就是典型的企业工作流。",
+      "source": "https://epoch.ai/gradient-updates/state-of-rl-envs"
+    },
+    {
+      "tactic": "r/MachineLearning 严格按 [P] 模板发帖",
+      "detail": "标题加 [P]，正文依次写：做了什么、方法、结果（benchmark）、代码、论文。不符合格式的帖子常被版主删除或重新打标签。内容应以技术结果为主，不要写成产品广告。",
+      "source": "https://www.reddit-radar-marketing.com/guides/r/machinelearning"
+    },
+    {
+      "tactic": "r/LocalLLaMA 遵守 1/10 自我推广准则并披露身份",
+      "detail": "厂商帖只有在不过量、并且披露关联时才被允许。建议以开源模型在金融任务上的评测结果为主体，写明自己是作者或所在公司，少发推广帖。",
+      "source": "https://www.launchwake.com/channels/r-localllama"
+    },
+    {
+      "tactic": "在 HF benchmark 数据集里加 eval.yaml，让分数自动出现在模型卡上",
+      "detail": "Hugging Face Community Evals 用 eval.yaml（Inspect AI 格式）定义评测；模型仓库在 .eval_results/ 目录里存分数后，会自动显示在模型卡上并回链到 benchmark。这样别人每跑一次你的 benchmark，你就多一次曝光。",
+      "source": "https://huggingface.co/blog/community-evals"
+    },
+    {
+      "tactic": "用 Kaggle Community Benchmarks 的免费模型配额，零成本出前沿模型排行榜",
+      "detail": "Kaggle 在配额内免费提供 Google、Anthropic、DeepSeek 等前沿模型的调用，可以把金融任务定义成 Tasks 和 Benchmark，直接生成公开排行榜，再拿去 X、Reddit、HN 传播。",
+      "source": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-community-benchmarks/"
+    },
+    {
+      "tactic": "Show HN 标题用“<Name>-Bench + 首个 + 真实世界”的结构",
+      "detail": "CVE-Bench 的标题是“the first LLM benchmark using real-world web vulnerabilities”；Cua-Bench、Sales Agent Benchmark、Factorio Learning Environment 也都是开源 benchmark/环境形式的 Show HN。可以写成：Show HN: Xitadel-Bench, the first ... using real trading/month-end-close tasks。",
+      "source": "https://news.ycombinator.com/item?id=43540413"
+    },
+    {
+      "tactic": "在 X 上写长文 Article 做科普，建立领域权威",
+      "detail": "RL 环境圈有多篇 X 长文传播，例如《How to Build an RL Environment》《RL Coding Environments 101: Why Harbor Exists》《Why RL environments work now (and could not in 2016)》。SimReal 可以写《How to build a verifier for financial tasks》之类的教程型长文。",
+      "source": "https://x.com/akshay_pachaar/article/2074200571834515574 ; https://x.com/adithya_s_k/article/2054961319179420035 ; https://x.com/i/article/2096969377002213866"
+    },
+    {
+      "tactic": "和用户共建 benchmark，把真实任务转成容器化环境",
+      "detail": "Cline 公开宣布和社区共建 cline-bench，把真实开源仓库里的困难任务转成带仓库快照的容器化 RL 环境。SimReal 可以邀请 7,000+ 专家贡献真实金融任务，做成“社区共建的金融 benchmark”，同时用于招募和曝光。",
+      "source": "https://x.com/cline/status/1991612268220752130"
+    },
+    {
+      "tactic": "主动进入行业地图，抢占“金融 RL 环境”的定位",
+      "detail": "Troveo 的 2026 行业地图把公司分为人类数据公司、环境原生创业公司和开放生态三类；Halluminate 在 2026 年把定位收窄到“金融服务 RL 环境”。SimReal 应主动联系 Troveo、Synaptic、rl-list 等地图作者，争取以“环境原生 + 金融”身份收录，避免金融标签被竞争对手独占。",
+      "source": "https://www.troveo.ai/resources/rl-environment-companies"
+    },
+    {
+      "tactic": "用 Harbor 时仔细检查 adapter 默认参数",
+      "detail": "有 GitHub issue 记录：Harbor 的 Terminal-Bench adapter 因为默认 max_tool_calls_per_turn=10 中断了编码循环，得分为 0，还用字符串判断误判了结果。发布 adapter 或排行榜前要用真实 agent 端到端验证，否则公开的分数会损害可信度。",
+      "source": "https://github.com/MervinPraison/PraisonAI/issues/3932"
+    },
+    {
+      "tactic": "赶在 10/11 前投 AI Engineer Code Summit，滚动审核越早越好",
+      "detail": "AI Engineer Code Summit 2026 的征稿最终截止是 2026-10-11 23:59 PT，滚动审核，面向构建、部署、评测 AI coding 系统的实践者。可以投“为 coding agent 设计 verifier 和 RL 环境”的实战题目，借此进入 Latent Space 生态。",
+      "source": "https://sessionize.com/aiecode26/"
+    }
+  ]
+}

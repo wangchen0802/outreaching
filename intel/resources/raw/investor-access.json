@@ -1,0 +1,518 @@
+{
+  "items": [
+    {
+      "name": "Cambridge Angels",
+      "category": "投资人渠道",
+      "region": "英国（剑桥）",
+      "offer": "由已退出（exited）的创业者组成的天使网络，成员上限 60 人；典型投资额 £150k–£1.5M；不向创始人收取 pitch 费或成功费；每年约 1000 个项目经 deal 团队筛选后，邀请合适的公司 pitch",
+      "eligibility": "偏好科学/工程类公司（另有医疗相关方向）；是否要求剑桥关联未确认；英国实体更方便走 SEIS/EIS（适用性未确认）",
+      "timing": "滚动申请，无固定截止日期",
+      "status": "滚动申请",
+      "howToApply": "在 https://cambridgeangels.com/application-to-cambridge-angels 提交申请，或发邮件到 info@cambridgeangels.net（来源说）；初筛通过后会受邀向成员 pitch",
+      "fit": "高",
+      "fitWhy": "联合创始人有剑桥背景，工程/量化型 deep-tech 公司符合其偏好；适合拿下 $20M 种子轮里的英国天使份额，也可作为背书",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.ellty.com/investors/cambridge-angel-investors",
+        "https://www.cambridgenetwork.co.uk/directories/companies/141",
+        "https://en.wikipedia.org/wiki/David_Cleevely"
+      ]
+    },
+    {
+      "name": "Cambridge Capital Group (CCG)",
+      "category": "投资人渠道",
+      "region": "英国（剑桥）",
+      "offer": "剑桥私人天使 syndicate，成员包括个人投资人、family office 和 VC，已在剑桥科技圈投资 25 年；最常投 £150K–£2M，方向含 deep tech、生命科学、企业软件",
+      "eligibility": "面向剑桥科技生态的公司（是否必须在剑桥本地或为剑桥校友未确认）；英国实体更合适",
+      "timing": "滚动接收，无固定截止日期",
+      "status": "滚动申请",
+      "howToApply": "通过 https://www.cambridgecapitalgroup.co.uk/contact-ccg/ 联系（来源说）",
+      "fit": "中",
+      "fitWhy": "单笔金额相对 $20M 种子轮偏小，但能补上英国天使份额，并带来剑桥圈 VC/family office 的介绍",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.cambridgecapitalgroup.co.uk/",
+        "https://www.ellty.com/investors/cambridge-angel-investors"
+      ]
+    },
+    {
+      "name": "CAMentrepreneurs / LSE Generate x: Founder/Investor Speed-Networking (London)",
+      "category": "社区与活动",
+      "region": "英国（伦敦）",
+      "offer": "剑桥校友创业网络 CAMentrepreneurs 与 LSE Generate 联合办的创始人-投资人速配活动，剑桥和 LSE 两边网络的投资人到场听 pitch；LSE GenDen 也办同类速配",
+      "eligibility": "剑桥/LSE 校友或相关创始人（具体条件未确认）",
+      "timing": "下一场日期未确认，需关注剑桥校友活动页",
+      "status": "未确认",
+      "howToApply": "通过 alumni.cam.ac.uk / philanthropy.cam.ac.uk 的活动页报名（具体流程未确认）",
+      "fit": "高",
+      "fitWhy": "联合创始人同时有剑桥和 LSE 背景，两个校友网络都能用上；适合在伦敦集中见到首批天使和 VC",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.alumni.cam.ac.uk/events/london-camentrepreneurslse-generate-x-founderinvestor-speed-networking",
+        "https://www.philanthropy.cam.ac.uk/events/london-camentrepreneurslse-generate-x-founderinvestor-speed-networking",
+        "https://shapingtheworld.lse.ac.uk/latest-news/helping-students-and-alumni-launch-their-entrepreneurial-journeys"
+      ]
+    },
+    {
+      "name": "LSE Generate Fellowship Programme",
+      "category": "加速器与孵化器",
+      "region": "全球（线上；面向 LSE 学生/校友）",
+      "offer": "2026 年起取代线下 GAP 加速器，每年 48 家企业，全年运行、全球可参与；提供导师、教练和 Entrepreneurs in Residence 支持，可参加面对 Dragons 和现场观众的 pitch 比赛并争取现金奖；LSE 生态称有 27 家独角兽、25,000 名创始人，每年合计融资约 $5bn",
+      "eligibility": "LSE 学生/校友创办的企业（细则未确认）",
+      "timing": "2026 年启动，全年运行；申请窗口未确认",
+      "status": "未确认",
+      "howToApply": "通过 LSE Generate 官网申请（具体入口未确认）",
+      "fit": "中",
+      "fitWhy": "LSE 校友可以低成本进入 LSE 的投资人/校友网络和 pitch 场合；不过团队已有客户，加速器课程的边际价值有限",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.lse.ac.uk/news/lse-generate-launches-fellowship-programme-to-support-global-founders",
+        "https://www.lse.ac.uk/events/open/lse-alumni",
+        "https://shapingtheworld.lse.ac.uk/latest-news/helping-students-and-alumni-launch-their-entrepreneurial-journeys"
+      ]
+    },
+    {
+      "name": "Duke Angel Network (Duke Capital Partners)",
+      "category": "投资人渠道",
+      "region": "美国",
+      "offer": "Duke 校友及关联人组成的投资网络；每年看约 1000 个项目，深度尽调约 200 个，推进 12–24 个；累计投资超过 $105M，覆盖 60+ 家早期公司",
+      "eligibility": "须有创始人、高管、董事或主要投资人是 Duke 在校生/校友/员工/家长；正在募集 ≥$500k 的种子或 A 轮股权，或在已有机构领投下做后期 syndication；公司须位于美国（英国/中国实体不符合）",
+      "timing": "滚动申请",
+      "status": "滚动申请",
+      "howToApply": "通过 ProSeeder 提交 deal review 申请，入口见 https://dukeangelnetwork.duke.edu/for-entrepreneurs/",
+      "fit": "高",
+      "fitWhy": "有 Duke 背景的联合创始人；$20M 种子轮远超 $500k 门槛；如采用 Delaware/美国实体即可满足「位于美国」的要求",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://dukeangelnetwork.duke.edu/for-entrepreneurs/",
+        "https://startupintros.com/orgs/duke-angel-network",
+        "https://supportedly.com/programs/duke-angel-network/"
+      ]
+    },
+    {
+      "name": "Superscout 大学 scout hubs（LSE / Duke）",
+      "category": "投资人渠道",
+      "region": "全球（按大学划分）",
+      "offer": "按大学组织的 startup scout 社区（来源页分别是「成为 LSE startup scout」和 Duke Entrepreneurship hub），帮投资方发掘校友项目；具体权益未确认",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "访问 https://superscout.co/hub/lse 和 https://superscout.co/hub/duke，联系对应 hub 的 scout（流程未确认）",
+      "fit": "低",
+      "fitWhy": "可以作为接触校友系 scout 的补充入口，但项目细节都没有确认",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://superscout.co/hub/lse",
+        "https://superscout.co/hub/duke"
+      ]
+    },
+    {
+      "name": "Zero Shot（OpenAI 校友 VC 基金）",
+      "category": "投资人渠道",
+      "region": "美国（未确认）",
+      "offer": "前 OpenAI 员工发起的 VC 基金，首期目标 $100M，已经开始出票；属于 Anthropic、Google DeepMind、Meta AI 等实验室老兵创办的运营者基金浪潮",
+      "eligibility": "未确认",
+      "timing": "已开始投资（来源说）；无公开申请截止日期",
+      "status": "未确认",
+      "howToApply": "未找到公开申请入口（未确认）；通过 OpenAI 校友圈或其已投公司做 warm intro",
+      "fit": "高",
+      "fitWhy": "前 OpenAI 成员最懂 post-training 数据和 RL 环境的价值，既能投资，也能把 SimReal 引荐给实验室买家",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.techbuzz.ai/articles/openai-alumni-launch-100m-vc-fund-already-writing-checks"
+      ]
+    },
+    {
+      "name": "前沿实验室校友 operator angels（DeepMind / Anthropic 校友）",
+      "category": "投资人渠道",
+      "region": "英国（伦敦 DeepMind）/ 美国",
+      "offer": "据报道，至少 15 名 Google DeepMind 员工和校友在讨论资助下一代 AI 初创；Anthropic、DeepMind、Meta AI 校友也在设立运营者基金；实验室校友圈被视为最有效的融资路径之一",
+      "eligibility": "未确认（多为人脉驱动，无公开申请）",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "先通过研究社区建立联系（发布开源 RL 环境/基准、参加 NeurIPS 等），再请对方或其已投创始人引荐；具体基金名称未确认",
+      "fit": "高",
+      "fitWhy": "DeepMind 在伦敦，英国团队可以就近接触；这些人既能当天使，也可能是 RL 环境的客户或顾问",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.remio.ai/post/google-deepmind-exodus-turns-an-ai-talent-drain-into-a-vc-race",
+        "https://www.av.vc/blog/from-ipo-to-stealth-investing-in-ais-next-great-family-trees",
+        "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-dario-amodei-alumni-mentee-network-2026-08-11"
+      ]
+    },
+    {
+      "name": "OpenNetwork（硅谷「Facebook House」）",
+      "category": "社区与活动",
+      "region": "美国（硅谷）",
+      "offer": "2023 年成立的非营利组织（名字取自 OpenAI），服务硅谷 AI 社区，覆盖华人研究员、创业者和投资人；办 AI 主题讲座，为创始人提供免费住宿，并为投资人、创业者和研究员互相引荐",
+      "eligibility": "未确认（主要面向硅谷 AI 圈，含华人社区）",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未确认；可通过 Rest of World 报道中提到的华人 AI 圈人物找到入口",
+      "fit": "高",
+      "fitWhy": "华人创始人加 AI 数据业务，正好能同时接触硅谷华人研究员（潜在买家）和投资人",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+      ]
+    },
+    {
+      "name": "盛大（Shanda）Christine Qing 组织的 AI 研究员聚会",
+      "category": "社区与活动",
+      "region": "美国（硅谷）",
+      "offer": "盛大（Shanda）投资人 Christine Qing 定期组织头部 AI 公司研究员的聚会",
+      "eligibility": "未确认（多为邀请制）",
+      "timing": "定期举办，具体日期未确认",
+      "status": "未确认",
+      "howToApply": "未确认；通过硅谷华人 AI 圈 warm intro 争取邀请",
+      "fit": "中",
+      "fitWhy": "能同时接触投资方（盛大）和实验室研究员（RL 环境的潜在需求方），但需要邀请",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+      ]
+    },
+    {
+      "name": "PreAngel（硅谷华人科技网络）",
+      "category": "投资人渠道",
+      "region": "美国（硅谷）/ 中国",
+      "offer": "以硅谷华人科技网络的形式连接创业者和投资人",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未确认",
+      "fit": "中",
+      "fitWhy": "华人创始人跨中美做融资时，可以作为接触中美双边天使的补充渠道",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+      ]
+    },
+    {
+      "name": "Lanchi Ventures 蓝驰创投（香港）",
+      "category": "投资人渠道",
+      "region": "中国 / 香港",
+      "offer": "2024 年 7 月扩展到香港，连接全球市场和华人 AI 创业者",
+      "eligibility": "华人 AI 创业者（具体条件未确认）",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未确认；建议通过已投创始人 warm intro",
+      "fit": "中",
+      "fitWhy": "如果走中国/香港实体或美元人民币双币路径，可作为专注华人 AI 方向的机构投资人；美国/英国实体下相关性较低",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lanchi_Ventures",
+        "https://fortune.com/2026/07/09/ai-founders-leaving-asia-for-us-silicon-valley/"
+      ]
+    },
+    {
+      "name": "Slush 2026 (Helsinki)",
+      "category": "社区与活动",
+      "region": "欧洲（芬兰赫尔辛基）",
+      "offer": "13,000+ 创始人、VC 和高管参加；可以在到场前通过 curated matchmaking 预约与 VC、CVC 和合作伙伴的 1:1 会议；11 月 17 日 Day 0 含 Investor Day；另有 Slush 100 pitch 比赛",
+      "eligibility": "创业公司参会（票价和资格未确认）",
+      "timing": "2026-11-17 Day 0；2026-11-18–19 正会；Startup Booth / Startup Stage 申请已于 8 月 31 日截止",
+      "status": "未确认",
+      "howToApply": "在 https://slush.org/ 获取创始人票并用 matchmaking 提前约见（详见 https://slush.org/faq）；展位和舞台申请已截止",
+      "fit": "中",
+      "fitWhy": "欧洲 VC 最密集的场合之一，适合英国团队集中见欧美 VC；但 AI 实验室买家较少",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://slush.org/",
+        "https://slush.org/faq",
+        "https://founderpath.com/events/saas/slush/2026-helsinki",
+        "https://slush.org/audience/startups/startups"
+      ]
+    },
+    {
+      "name": "Web Summit 2026 — ALPHA startup programme (Lisbon)",
+      "category": "社区与活动",
+      "region": "欧洲（葡萄牙里斯本）",
+      "offer": "ALPHA 面向 pre-seed/seed 初创，入选可获 3 张 Web Summit 门票、Investor-to-Startup 会议，并可申请 PITCH 比赛、创业 masterclass、Mentor Hours 等",
+      "eligibility": "pre-seed / seed 阶段初创（费用未确认）",
+      "timing": "大会 2026-11-09–12；来源说尽快申请",
+      "status": "开放中",
+      "howToApply": "在 https://websummit.com/startups/ 申请 ALPHA",
+      "fit": "中",
+      "fitWhy": "一次能批量见很多投资人；但受众偏泛科技，与 RL/后训练买家匹配度一般",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://websummit.com/startups/",
+        "https://support.websummit.com/hc/en-us/articles/34078954021149-Our-startup-programme",
+        "https://www.wokeey.com/events/web-summit-guide/"
+      ]
+    },
+    {
+      "name": "Air Street Capital — London.AI meetups & RAAIS",
+      "category": "社区与活动",
+      "region": "英国（伦敦）；全年在欧洲和北美办活动",
+      "offer": "Air Street 只投 AI-first 公司；Nathan Benaich 组织 London.AI meetup（在 Luma 发布）和 Research and Applied AI Summit (RAAIS)；2025-12-02 的 London AI meetup 有 State of AI Report 解读和 networking；第十届 RAAIS 于 2026-06-12 在伦敦举行",
+      "eligibility": "公开报名活动（名额限制未确认）",
+      "timing": "RAAIS 2026 已于 6 月 12 日举行（已截止）；London.AI 下一场日期未确认",
+      "status": "未确认",
+      "howToApply": "关注 https://luma.com/londonai 报名，在活动中直接接触 Air Street 团队和参会研究员",
+      "fit": "高",
+      "fitWhy": "Air Street 是欧洲最贴近「AI 基础设施/数据」方向的专业 AI VC；meetup 同时有研究员（买家）和投资人",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://luma.com/londonai",
+        "https://press.airstreet.com/p/2025-review",
+        "https://www.airstreet.com/ai-venture-capital"
+      ]
+    },
+    {
+      "name": "Conviction (Sarah Guo)",
+      "category": "投资人渠道",
+      "region": "美国",
+      "offer": "Sarah Guo 创立的 AI 专注基金，主打 Software 3.0；投资种子到 A 轮，典型支票 $1M–$10M（Conviction Embed 已在已知清单中）",
+      "eligibility": "AI-native 公司（具体条件未确认）",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "通过已投创始人 warm intro；Conviction Embed 见已知清单；未找到公开 office hours 入口",
+      "fit": "高",
+      "fitWhy": "专注 AI 基础设施和应用，熟悉后训练数据赛道，可以作为种子轮领投或跟投候选",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.vcsheet.com/fund/conviction",
+        "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/"
+      ]
+    },
+    {
+      "name": "General Catalyst（2026 应用 AI 新基金）",
+      "category": "投资人渠道",
+      "region": "美国 / 全球",
+      "offer": "从种子投到成长期，2026 年新设专门投应用 AI 的基金；AI 方向典型支票 $15M–$75M，侧重医疗、金融科技和企业级",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未找到公开 office hours（未确认），建议 warm intro",
+      "fit": "中",
+      "fitWhy": "支票区间和 $20M 种子轮吻合，且关注金融科技；但更偏应用层，不是数据基础设施",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+        "https://visible.vc/blog/best-tech-vc-firms/"
+      ]
+    },
+    {
+      "name": "Lightspeed Venture Partners (AI)",
+      "category": "投资人渠道",
+      "region": "美国 / 全球",
+      "offer": "已投 165 家 AI-native 公司、投入超过 $5.5B，多为种子到 B 轮",
+      "eligibility": "未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "未找到公开 office hours（未确认），建议 warm intro",
+      "fit": "中",
+      "fitWhy": "AI 投资密度高，能做大额种子轮；需要找到负责 AI 基础设施/数据的合伙人",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+        "https://www.affinity.co/blog/top-venture-capital-firms-investing-in-ai"
+      ]
+    },
+    {
+      "name": "VC scouts（头部 VC 的早期 sourcing 人员）",
+      "category": "投资人渠道",
+      "region": "全球",
+      "offer": "scouts 负责 VC 的早期 pipeline 和 deal sourcing，常被创始人忽略；咖啡、活动或 coworking 里的随意聊天，往往能打开正式 intro 打不开的门",
+      "eligibility": "无正式门槛",
+      "timing": "随时",
+      "status": "滚动申请",
+      "howToApply": "在 X/LinkedIn 识别头部 AI VC 的 scouts（常是研究员或创业者），在线下活动中接触后请他们内推",
+      "fit": "中",
+      "fitWhy": "SimReal 的创始人背景（顶级量化机构）容易让 scout 记住并内推；成本低",
+      "effort": "中",
+      "community": "HN 上有人认为 investor scouts 常被忽视，却是早期 pipeline 的实际建设者，非正式接触往往比正式 intro 更有效（https://news.ycombinator.com/item?id=45538546）",
+      "sources": [
+        "https://news.ycombinator.com/item?id=45538546"
+      ]
+    },
+    {
+      "name": "Signal by NFX",
+      "category": "投资人渠道",
+      "region": "全球",
+      "offer": "免费的投资人发现平台，按赛道、阶段、地域整理投资人档案；连接 Gmail 后能显示 warm intro 路径；没有付费层",
+      "eligibility": "所有创始人",
+      "timing": "随时可用",
+      "status": "开放中",
+      "howToApply": "在 https://signal.nfx.com/ 注册",
+      "fit": "中",
+      "fitWhy": "可以用来梳理四位联合创始人（Jane Street、Citadel 等背景）现有人脉到目标 AI 投资人的 intro 路径",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://signal.nfx.com/",
+        "https://www.metal.so/guides/metal-vs-signal-by-nfx-the-best-way-to-find-investors-in-2026/"
+      ]
+    },
+    {
+      "name": "OpenVC",
+      "category": "投资人渠道",
+      "region": "全球（含中国投资人列表）",
+      "offer": "免费的社区投资人库，有 10,000+ 认证档案；可以把 deck 直接提交到投资人收件箱，另有 400+ 精选清单，可按行业、阶段、地域筛选",
+      "eligibility": "所有创始人",
+      "timing": "随时可用",
+      "status": "开放中",
+      "howToApply": "在 openvc.app 注册后按 AI / 种子阶段筛选，直接提交 deck",
+      "fit": "中",
+      "fitWhy": "适合补充长尾 AI 种子基金名单，尤其是公开写明直接接收 deck 的基金",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://valueaddvc.com/blog/the-best-free-vc-databases-in-2026-crunchbase-alternatives-that-dont-cost-30k",
+        "https://www.roundfunded.com/en/blogs/how-to-find-investors-best-tools-2026",
+        "https://www.openvc.app/country/China"
+      ]
+    },
+    {
+      "name": "vcsheet / Waveup Hub",
+      "category": "投资人渠道",
+      "region": "全球",
+      "offer": "免费的投资人清单和基金档案（如 vcsheet 上的 Conviction 档案）；常被推荐和 OpenVC、Signal 一起作为 pre-seed/seed 的起点",
+      "eligibility": "所有创始人",
+      "timing": "随时可用",
+      "status": "开放中",
+      "howToApply": "访问 vcsheet.com 和 waveup.com 查阅",
+      "fit": "低",
+      "fitWhy": "用来整理目标投资人清单；本身不带来 intro",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://waveup.com/blog/best-investor-databases/",
+        "https://www.vcsheet.com/fund/conviction"
+      ]
+    },
+    {
+      "name": "AngelList",
+      "category": "投资人渠道",
+      "region": "全球（主要美国）",
+      "offer": "连接创业公司与天使投资人并管理股权融资的平台；AI 主题 syndicate / rolling fund 的具体名单未确认",
+      "eligibility": "未确认",
+      "timing": "随时可用",
+      "status": "开放中",
+      "howToApply": "在 AngelList 创建公司档案，寻找 AI 主题的 syndicate lead（具体名单未确认）",
+      "fit": "低",
+      "fitWhy": "可以用来管理天使份额或寻找 syndicate，但主动获客效果未确认",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.papermark.com/blog/best-startup-fundraising-tools",
+        "https://www.gritt.io/blog/where-to-find-angel-investors"
+      ]
+    },
+    {
+      "name": "AI Grant (Nat Friedman & Daniel Gross)",
+      "category": "加速器与孵化器",
+      "region": "美国（须为 Delaware 公司）",
+      "offer": "Batch 4：每家 $250k uncapped SAFE，外加 $350k Microsoft Azure 额度和 $250k 合作方额度（PostHog、Replicate、Anthropic、Modal、OpenAI 等），总价值约 $850k",
+      "eligibility": "须注册为 Delaware 公司；面向种子阶段 AI 初创",
+      "timing": "已截止；Batch 4 已关闭，项目按批次循环，下一批时间未确认",
+      "status": "已截止",
+      "howToApply": "关注 AI Grant 官网或社媒，等待下一批开放",
+      "fit": "中",
+      "fitWhy": "uncapped SAFE 对 $20M 种子轮几乎不定价，信号强；但下一批时间未确认，且需要美国实体",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://grantedai.com/grants/ai-grant-accelerator-seed-stage-ai-startups-batch-4-aigrant-d5e6f7a8",
+        "https://www.microsoft.com/en-us/startups/blog/microsoft-for-startups-supporting-second-cohort-of-ai-grant-to-propel-ai-first-startups/"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "让该投资人已投的创始人来介绍",
+      "detail": "最好的介绍人是投资人已经投过的创始人；同时给对方 2–3 句可直接转发的 blurb（做什么、解决什么问题、为什么重要），降低介绍人的成本",
+      "source": "https://seedlegals.com/resources/how-to-find-investors-and-the-art-of-the-warm-introduction/"
+    },
+    {
+      "tactic": "弱 warm intro 也比冷邮件强，尽早梳理关系图谱",
+      "detail": "投资人反复说，哪怕只是一句「你应该见见这个创始人」，也胜过大多数冷邮件；创始人花太多时间优化 outbound，却没有提前梳理关系、排好 intro",
+      "source": "https://x.com/jayyeh/status/2055832496324112460"
+    },
+    {
+      "tactic": "冷邮件要精准，不要群发",
+      "detail": "Pre-seed VC Martin Tobias 认为「多发冷邮件」对 90% 的 pre-seed 创始人是坏建议：精准投递的回复率约 5–15%，阶段或赛道不对的群发基本无效",
+      "source": "https://x.com/MartinGTobias/status/2075309148867350640"
+    },
+    {
+      "tactic": "没有人脉时，大量定向冷邮件也能撑起整轮",
+      "detail": "Ivan Burazin 说他们没有人脉、没有 YC、也没有名人引荐，约 400 封冷邮件撑起了整个 pre-seed 轮；可以作为 warm intro 的补充，而不是二选一",
+      "source": "https://x.com/ivanburazin/status/2040202687497609295"
+    },
+    {
+      "tactic": "用联合创始人多年积累的信誉换 warm intro",
+      "detail": "有团队靠联合创始人 4–5 年在创业公司积累的信誉和长期帮助他人，拿到 100+ 个 warm intro；SimReal 四位创始人的 Jane Street、Citadel、D. E. Shaw 等老同事网络就是这种资产，应逐一列出并请求介绍",
+      "source": "https://x.com/andrew__rea/status/1790400236168401198"
+    },
+    {
+      "tactic": "只在有共同信任的第三方时找 intro，否则直接冷邮件",
+      "detail": "有一个你和投资人都熟悉、信任的第三方（最好是其被投创始人、领域专家或现有天使）时才走 intro，否则直接冷邮件，不要硬凑弱关系",
+      "source": "https://x.com/michuk/article/2057763085440401437"
+    },
+    {
+      "tactic": "通过 VC scouts 进入早期管线",
+      "detail": "HN 创始人建议多接触 investor scouts：他们负责早期 pipeline 和 deal sourcing，在咖啡、活动、coworking 里的随意聊天往往能打开正式 intro 打不开的门",
+      "source": "https://news.ycombinator.com/item?id=45538546"
+    },
+    {
+      "tactic": "先有 traction，intro 自然会来",
+      "detail": "HN 上的共识是：一旦有了真实需求的证据，intro、投资人回复和合作都会自然流动；SimReal 已向 Surge AI 和 AfterQuery 供货，应把它放在 blurb 第一句",
+      "source": "https://news.ycombinator.com/item?id=45538546"
+    },
+    {
+      "tactic": "二三度人脉比想象中大，靠长期给予换取帮助",
+      "detail": "HN 建议：加入有名的 accelerator 或本地 meetup 扩展人脉；你的二度、三度人脉比想象中大；但如果多年没给身边人提供价值，求 intro 会很难，找 warm intro 本身也在检验创始人的 resourcefulness",
+      "source": "https://news.ycombinator.com/item?id=22284025"
+    },
+    {
+      "tactic": "线下活动见面，制造跟进理由",
+      "detail": "创造 warm intro 的最好办法之一是在创业活动上当面见投资人，哪怕只聊几句也有理由事后跟进；适用于 London.AI、Slush、Web Summit 等场合",
+      "source": "https://seedlegals.com/resources/how-to-find-investors-and-the-art-of-the-warm-introduction/"
+    },
+    {
+      "tactic": "Slush 提前用 matchmaking 约好 1:1",
+      "detail": "Slush 允许创始人在到场前通过 curated matchmaking 预约与 VC、CVC 和合作伙伴的 1:1 会议，应提前一到两周锁定目标投资人",
+      "source": "https://founderpath.com/events/saas/slush/2026-helsinki"
+    },
+    {
+      "tactic": "用 Signal by NFX 找 intro 路径",
+      "detail": "Signal 连接 Gmail 后会显示到目标投资人的 warm intro 路径；四位创始人分别导入邮箱，就能拼出覆盖面更大的关系网",
+      "source": "https://www.metal.so/guides/metal-vs-signal-by-nfx-the-best-way-to-find-investors-in-2026/"
+    },
+    {
+      "tactic": "别花数周打磨 deck，先去谈",
+      "detail": "pre-seed 阶段不要花几周把 deck 做到完美，直接和投资人聊，从反复出现的问题里迭代叙事；融资本身就在提供信息",
+      "source": "https://x.com/sridharfyi/status/2103689727757226100"
+    },
+    {
+      "tactic": "AI 初创优先找 accelerator 和 AI 专业种子基金",
+      "detail": "对 AI 初创来说，accelerator 和 AI 专业种子基金通常是优先级最高的第一步（Air Street、Conviction 这类 AI-only 基金更懂 RL 环境和数据业务）",
+      "source": "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/"
+    },
+    {
+      "tactic": "对 warm intro 文化保持清醒",
+      "detail": "Indie Hackers 上有创始人直言 warm intro 是「创业投资最大的骗局」，并在做替代方案；说明没有人脉的团队也有路可走，应同时铺开冷邮件、活动和数据库渠道",
+      "source": "https://www.indiehackers.com/post/warm-intros-are-the-biggest-scam-in-startup-investing-im-building-the-replacement-1a2b21bfb9"
+    }
+  ]
+}

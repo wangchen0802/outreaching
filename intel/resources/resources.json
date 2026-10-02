@@ -1,0 +1,4396 @@
+{
+ "items": [
+  {
+   "name": "PearX W27 (Pear VC)",
+   "category": "加速器与孵化器",
+   "region": "美国（湾区）；是否限制公司注册地未确认",
+   "offer": "12 周 pre-seed 小班加速器；投资额 $250K–$2M（来源为 Andrew Yeung 在 X 上的汇总，2024 年说法，本次未复核）",
+   "eligibility": "pre-seed 阶段公司；地区与实体要求未确认",
+   "timing": "W27 早申截止 8/16（已过）；常规截止 2026-10-04 23:59 PST（距今仅 2 天）；迟交申请接受至 2026-10-08 23:59 PST",
+   "status": "开放中",
+   "howToApply": "在 Pear VC 官网 PearX 申请页在线提交（pear.vc/pearx-application/）",
+   "fit": "高",
+   "fitWhy": "Pear 投 B2B/AI 公司（如 Listen Labs、Valar Labs），小班制、偏 pre-seed，适合刚起步但已有 Surge AI、AfterQuery 付费客户的 SimReal；截止极近，需立刻提交",
+   "effort": "中",
+   "community": "Pear VC 在 X 上称 S26 早申截止时已收到「数千份」申请，竞争激烈（https://x.com/pearvc/status/2030002543460253752）",
+   "sources": [
+    "https://www.startupgrantsindia.com/pearx-pear-vc-accelerator",
+    "https://sabapplier.com/fundingAlerts/pearx-w27",
+    "https://pear.vc/pearx-application/",
+    "https://pear.vc/pearx-s26-applications/",
+    "https://x.com/pearvc/status/2030002543460253752",
+    "https://x.com/andruyeung/status/1815485342486769741"
+   ],
+   "verdict": "更正",
+   "verifyNote": "常规截止 10-04 23:59 PST 核实无误；补充早申截止 8/16 和迟交截止 10-08 23:59 PST，删去无关的 S26 日期；投资额区间仍为 2024 年第三方说法，未复核"
+  },
+  {
+   "name": "Y Combinator W27",
+   "category": "加速器与孵化器",
+   "region": "美国旧金山（线下批次）；全球团队可申请，公司结构要求本次来源未确认",
+   "offer": "标准投资最高约 $500K（来源标示 Up to ₹4.15Cr）；3 个月线下批次、YC 校友网络与 Demo Day",
+   "eligibility": "全球早期团队，无融资阶段门槛；注册地/实体要求未确认",
+   "timing": "W27 截止 2026-11-02 8pm PT；按时申请者 12-11 前收到结果；批次 2027 年 1–3 月在旧金山；截止后仍可申请但回复时间不保证",
+   "status": "开放中",
+   "howToApply": "在 ycombinator.com/apply 在线提交申请",
+   "fit": "高",
+   "fitWhy": "技术型量化创始团队 + 已有付费客户（Surge AI、AfterQuery），AI 基础设施/后训练数据赛道契合；YC 背书能直接放大 $20M 种子轮的投资人渠道",
+   "effort": "中",
+   "community": "HN 上多位创始人分享被拒多次后再申请才入营（有人申请 6–8 次），YC 拒信本身承认分数线附近的团队常被误杀，建议带着新进展再申（https://news.ycombinator.com/item?id=16867609）",
+   "sources": [
+    "https://www.ycroaster.com/tools/yc-application-deadline",
+    "https://ycombinator.com/apply",
+    "https://www.startupgrantsindia.com/y-combinator-winter-2027",
+    "https://www.roundfunded.com/en/blogs/yc-batches-2026-dates-acceptance-rate",
+    "https://news.ycombinator.com/item?id=16867609",
+    "https://news.ycombinator.com/item?id=21280202"
+   ],
+   "verdict": "确认",
+   "verifyNote": "截止 11-02 8pm PT、12-11 前出结果、2027 年 1–3 月旧金山批次、截止后仍可申请，均与多个来源一致"
+  },
+  {
+   "name": "a16z speedrun SR008",
+   "category": "加速器与孵化器",
+   "region": "美国旧金山（需线下参加）；a16z 称可协助国际创始人办理搬迁与签证",
+   "offer": "最高 $1M，无费用：前置 SAFE 投 $500K 换 10%，另在 18 个月内的下一轮（定价轮或 SAFE）再投 $500K；12 周项目，含导师指导与大量 AI 工具/算力额度",
+   "eligibility": "早期创业公司；需在旧金山线下参加；其他资格限制本次来源未列出（未确认）",
+   "timing": "SR008 于 2027 年 1 月下旬至 4 月在旧金山进行；优先申请窗口 2026-10-12 至 2026-11-01（审阅最快）；全年都接受申请",
+   "status": "滚动申请",
+   "howToApply": "在 speedrun.a16z.com/apply 提交含五个问题的简短文本表单，至少两位合伙人人工审阅",
+   "fit": "高",
+   "fitWhy": "a16z 进入股东名单可显著提高约见其他合伙人的效率，直接服务 $20M 种子轮；AI 额度可用于搭建和运行 RL 环境",
+   "effort": "中",
+   "community": "一位 speedrun 创始人在 Substack 写道「绝对值得」：a16z 上 cap table 后约见合伙人容易得多、额度帮助快速原型；但最新一期 19,000+ 申请录取率不到 0.4%（https://jonpan.substack.com/p/a16z-speedrun）",
+   "sources": [
+    "https://speedrun.a16z.com/apply",
+    "https://hub.causo.ai/guides/how-to-apply-to-a16z-speedrun-2026",
+    "https://www.ventera-partners.com/accelerators/a16z-speedrun/",
+    "https://www.techcrunch.com/2026/02/15/how-to-get-into-a16zs-super-competitive-speedrun-startup-accelerator-program/",
+    "https://jonpan.substack.com/p/a16z-speedrun",
+    "https://fortune.com/2025/04/02/why-a16zs-speedrun-accelerator-is-playing-a-new-game"
+   ],
+   "verdict": "更正",
+   "verifyNote": "优先窗口 10-12 至 11-01 核实无误；补充条款（$500K 换 10% + 18 个月内跟投 $500K，10% 稀释需与种子轮估值对照）、批次时间 2027 年 1 月下旬至 4 月和申请入口；全年可申请，状态由「即将开放」改为「滚动申请」"
+  },
+  {
+   "name": "HF0 Residency",
+   "category": "加速器与孵化器",
+   "region": "美国旧金山（住宿制，需驻留）；全球可否申请未确认",
+   "offer": "最高 $1M uncapped SAFE 换 5%（第三方来源说法；HF0 官网于 2025 年底撤下投资数额，需直接向 HF0 核实）；12 周住宿制，含食宿，每期约 10 支团队",
+   "eligibility": "技术型 AI 创始人，偏好连续创业者或高度技术背景；无公开资格清单",
+   "timing": "2026-09-13 开营的一期已在进行（Demo Day 12-04）；下一期 2027-01-04 开营，其 Demo Day 日期来源说法不一（未确认）；滚动申请",
+   "status": "滚动申请",
+   "howToApply": "hf0.com/apply 先填写简短联系表单，无公开评选标准",
+   "fit": "高",
+   "fitWhy": "四位量化背景技术创始人 + RL 环境属硬核 AI 基础设施，符合 HF0 偏好；但 5% 条款需与 $20M 种子轮估值目标对照核实",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://startupintros.com/resources/hf0-residency-fall-2026",
+    "https://hub.causo.ai/guides/how-to-apply-to-hf0-residency-2026",
+    "https://raisefunding.io/accelerators/hf0-residency",
+    "https://xraise.ai/blog/how-to-get-accepted-to-the-hf0-residency-accelerator/",
+    "https://www.hf0.com/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "开营日 9-13 与 1-04 核实；明确 9-13 期已开营，下一期为 2027-01-04；原记录「Demo Day 6-23」未获印证，改为未确认；补充 HF0 官网已撤下投资数额，$1M/5% 仅为第三方说法"
+  },
+  {
+   "name": "Neo Residency",
+   "category": "加速器与孵化器",
+   "region": "美国旧金山（3 个月）+ 俄勒冈 2 周 bootcamp；来源称仅限北美团队",
+   "offer": "$750K uncapped SAFE，外加在后续轮次参与投资、持股最高到 5% 的权利；每期最多 20 支团队；3 个月旧金山办公空间、1:1 导师与长期社区；$350K+ Microsoft/OpenAI 额度与 GPU 资源（本次未复核）",
+   "eligibility": "早期技术创业团队；来源称 Residency 与 Neo Scholars 两条线均仅限北美（North America only）；2026 年 2 月起 Neo Residency 取代原 Neo Accelerator",
+   "timing": "三个月一期；当前申请时间未确认",
+   "status": "未确认",
+   "howToApply": "通过 neo.com 官网申请（入口本次未核实）",
+   "fit": "中",
+   "fitWhy": "低稀释 uncapped SAFE 与 $20M 种子轮兼容，GPU 与 OpenAI/Microsoft 额度可直接用于跑环境与验证器；但项目仅限北美，需美国实体或团队在北美才可能符合",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://x.com/neo/status/2024641641655779782",
+    "https://hub.causo.ai/guides/how-to-apply-to-neo-accelerator-2026",
+    "https://www.insightswire.com/news/18359/neo-residency-750k-low-dilution-accelerator",
+    "https://www.sky9capital.com/blog/ai-pre-seed-programs-verified-facts/",
+    "https://raisefunding.io/accelerators/neo",
+    "https://www.techbuzz.ai/articles/neo-disrupts-accelerators-with-750k-uncapped-safe-terms",
+    "https://neo.com/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "原「股权 0.75%–5%」不准确：条款为 $750K uncapped SAFE 加持股最高 5% 的跟投权；补充仅限北美的限制和俄勒冈 bootcamp，适配度下调为中；额度和申请时间未复核"
+  },
+  {
+   "name": "AI Grant",
+   "category": "加速器与孵化器",
+   "region": "美国旧金山；地区限制未确认",
+   "offer": "$250K uncapped SAFE + $350K Microsoft Azure 额度 + 约 $250K 合作方额度（PostHog、Replicate、Anthropic、Modal、OpenAI 等），总价值约 $850K",
+   "eligibility": "pre-seed/seed 阶段 AI 公司；不看学历，单人创始可申，已融资公司也可申请",
+   "timing": "来源列有 Batch 4 (2026)，信息核实于 2026-09-01；当前是否开放未确认",
+   "status": "未确认",
+   "howToApply": "通过 AI Grant 官网申请（当前入口与开放状态未确认）",
+   "fit": "中",
+   "fitWhy": "额度包对算力需求很友好；但 AI Grant 偏好用 AI 模型做出好产品，更重产品体验而非研究，数据/环境供应商需包装成产品",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://grantedai.com/grants/ai-grant-accelerator-seed-stage-ai-startups-batch-4-aigrant-d5e6f7a8",
+    "https://www.startersss.com/accelerators/ai-grant",
+    "https://www.sparkxyz.io/applications/1043",
+    "https://www.microsoft.com/en-us/startups/blog/microsoft-for-startups-supporting-second-cohort-of-ai-grant-to-propel-ai-first-startups/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Techstars Spring 2027（含 Techstars London）",
+   "category": "加速器与孵化器",
+   "region": "全球多城市，含英国伦敦（Techstars London）",
+   "offer": "$220K 投资：$200K uncapped MFN SAFE + $20K Post-Money 可转换股权协议（Convertible Equity Agreement）；3 个月项目，导师与 11,000+ 创始人/投资人网络",
+   "eligibility": "早期科技创业公司，至少两位联合创始人，有验证过的市场需求或初始用户；参加 London 项目需能在伦敦线下参与；各城市项目方向不同（部分为 AI Health 等垂直项目）",
+   "timing": "申请 2026-08-24 至 2026-11-18；项目 2027-03-08 开始，Demo Day 2027-06-03",
+   "status": "开放中",
+   "howToApply": "在 techstars.com 选择具体城市项目（如 London）在线申请",
+   "fit": "中",
+   "fitWhy": "若用英国实体可申 Techstars London；属通用型加速器，对 AI 实验室客户的直接帮助可能有限",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://innovation-village.com/techstars-opens-spring-2027-applications-with-220k/",
+    "https://technext24.com/news/techstars-spring-2027-accelerator-applications/",
+    "https://www.thestartupopportunity.com/opportunities/techstars-london-accelerator",
+    "https://x.com/Techstars/status/2091963877219008847",
+    "https://www.techstars.com/accelerators/london"
+   ],
+   "verdict": "确认",
+   "verifyNote": "截止 11-18、3-08 开始、6-03 Demo Day、$220K 均核实；补充投资结构（$200K MFN SAFE + $20K 可转换股权协议）和至少两位联创等资格"
+  },
+  {
+   "name": "Sequoia Arc",
+   "category": "加速器与孵化器",
+   "region": "仅限总部在美洲或欧洲的公司（中国总部不符合）",
+   "offer": "$500K–$1M（条款按公司定制）；7 周 Company Building Immersion，含 Sequoia 合伙人、客户对接与投资人网络",
+   "eligibility": "pre-seed 或 seed 阶段创始人；公司总部须位于美洲或欧洲",
+   "timing": "已截止；Fall 2026 截止为 2026-08-17；每年两次公开申请，下一期时间未确认",
+   "status": "已截止",
+   "howToApply": "sequoiacap.com/arc 公开申请；另有被 Sequoia 主动发掘（sourced）的推荐路径",
+   "fit": "高",
+   "fitWhy": "Sequoia 品牌和客户对接直接服务 $20M 种子轮与 AI 公司客户拓展；需先确定英国或美国实体",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://startupintros.com/resources/sequoia-arc-fall-2026",
+    "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026",
+    "https://sequoiacap.com/arc"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Greylock Edge",
+   "category": "加速器与孵化器",
+   "region": "美国（湾区）；地区限制未确认",
+   "offer": "3 个月 build 项目，含 $500K+ 云额度；投资条款未确认",
+   "eligibility": "pre-idea 到 seed 阶段创始人",
+   "timing": "滚动申请",
+   "status": "滚动申请",
+   "howToApply": "通过 Greylock 官网 Edge 页面申请（入口本次未核实）",
+   "fit": "中",
+   "fitWhy": "高额云额度可覆盖环境与评测算力；Greylock 品牌有助种子轮",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://substack.com/home/post/p-156057020",
+    "https://mikareyes.com/ai/6-underrated-ai-startup-founder-programs-aug-2026"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Berkeley SkyDeck Batch 24",
+   "category": "加速器与孵化器",
+   "region": "美国伯克利；海外团队资格未确认",
+   "offer": "6 个月加速器；Berkeley SkyDeck Fund 向每家入选公司投资 $200K（第三方来源称换 7.5% 股权，常以 SAFE 形式）；约 $750K 等值资源；每期约 20–25 家；Demo Day 有 600+ 投资人",
+   "eligibility": "未确认",
+   "timing": "Batch 23 申请 2026-07-20 至 08-21 已截止；Batch 24 申请于 2027 年 1 月开放（官网说，本次未复核）",
+   "status": "即将开放",
+   "howToApply": "skydeck.berkeley.edu/apply 在线申请",
+   "fit": "中",
+   "fitWhy": "大学系加速器，资源面广；对 AI 数据公司的专门支持未确认",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://skydeck.berkeley.edu/apply/",
+    "https://hub.causo.ai/deadlines",
+    "https://skydeck.berkeley.edu/newsletter-september-2-2026/",
+    "https://begin.berkeley.edu/resources/berkeley-skydeck-fund-ii/",
+    "https://xraise.ai/blog/how-to-get-accepted-to-berkeley-skydeck-accelerator/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充投资条款：SkyDeck Fund 每家投 $200K（第三方称换 7.5%），6 个月项目；Batch 24 的开放时间未能再次核实"
+  },
+  {
+   "name": "Alchemist Accelerator",
+   "category": "加速器与孵化器",
+   "region": "美国（湾区）；地区限制未确认",
+   "offer": "面向企业销售型公司的加速器（投资条款本次来源未确认）",
+   "eligibility": "向企业收费的 AI-SaaS 与 deeptech 公司",
+   "timing": "滚动申请，各期截止日期列于官网首页",
+   "status": "滚动申请",
+   "howToApply": "alchemistaccelerator.com 随时提交申请",
+   "fit": "中",
+   "fitWhy": "企业销售导向，契合向 AI 实验室、模型公司和金融机构销售数据与环境的模式",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.alchemistaccelerator.com/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Founders at the University of Cambridge — START Accelerator",
+   "category": "加速器与孵化器",
+   "region": "英国剑桥（2026 期学员赴美获海外曝光与投资机会）",
+   "offer": "剑桥大学官方 pre-seed/seed 加速器（START 3.0 侧重 AI 与 DeepTech），提供资金与全球专家社区，2026 期赴美交流；具体投资额未确认",
+   "eligibility": "至少一位创始人与剑桥大学有关联：在校生、博后、教职或毕业 5 年内校友",
+   "timing": "START 3.0 申请截止 2025-12-12（C2D3 页面说法，与原记录 12-17 不一致，以官网为准），2026 年 1–2 月面试，2 月中下旬出结果；2026 期正在进行；下一轮时间未公布（若沿用节奏约 2026 年 11–12 月）",
+   "status": "未确认",
+   "howToApply": "通过 founders.cam.ac.uk 申请",
+   "fit": "高",
+   "fitWhy": "剑桥背景联创若在毕业 5 年内即可申请；2026 期带队赴美，可同时接触英美投资人",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://founders.cam.ac.uk/start-3/",
+    "https://www.c2d3.cam.ac.uk/opportunities/founders-university-cambridge-start-30",
+    "https://www.enterprise.cam.ac.uk/news/founders-at-the-university-of-cambridge-2026-cohort-heading-to-the-us-for-overseas-exposure-and-investment-opportunities/",
+    "https://www.enterprise.cam.ac.uk/venture-building-investment/founders-at-the-university-of-cambridge/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "上一轮截止日来源不一：C2D3 页面写 2025-12-12，原记录写 12-17，已注明以官网为准；下一轮仍未公布；资格（毕业 5 年内校友等）核实无误"
+  },
+  {
+   "name": "Accelerate Cambridge (Cambridge Judge Business School)",
+   "category": "加速器与孵化器",
+   "region": "英国剑桥",
+   "offer": "Judge 商学院加速器项目（资金条款本次来源未确认）",
+   "eligibility": "团队至少 2 人，至少一位创始人有剑桥关联（在校生、校友、教职员工或剑桥镇居民），团队成员学期内需在剑桥",
+   "timing": "Autumn 2026 期 2026-09-24 至 12-03，申请截止 2026-05-29，已截止；下一期未确认",
+   "status": "已截止",
+   "howToApply": "上传 60 秒 pitch 视频到 YouTube/Vimeo，把链接发到 accelerate@jbs.cam.ac.uk",
+   "fit": "中",
+   "fitWhy": "创始人剑桥背景符合关联要求，申请成本低；但要求团队学期内驻剑桥",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.jbs.cam.ac.uk/entrepreneurship/programmes/accelerate-cambridge/programmes/apply/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "King's Entrepreneurship Lab (E-Lab) / SPARK 2.0",
+   "category": "加速器与孵化器",
+   "region": "英国剑桥",
+   "offer": "一年期创业项目（含 Residential Week）；SPARK 2.0 暑期项目",
+   "eligibility": "剑桥在读本科生或研究生",
+   "timing": "2026 期 Residential Week 为 9-27 至 10-02，已开始；SPARK 2.0 于 2026 年 2 月开放申请，项目 8-23 至 9-25；下一期未确认",
+   "status": "已截止",
+   "howToApply": "kingselab.org",
+   "fit": "低",
+   "fitWhy": "只收在读学生；除非有联创仍在剑桥读书，否则不适用",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.kingselab.org/",
+    "https://www.kingselab.org/spark",
+    "https://www.kings.cam.ac.uk/news/kings-e-lab-welcomes-its-2025-2026-cohort-residential-students"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Duke I&E（Melissa & Doug Entrepreneurs / Duke Entrepreneurial Leaders Network）",
+   "category": "加速器与孵化器",
+   "region": "美国（Duke University）",
+   "offer": "Melissa & Doug Entrepreneurs：一年期、非学分项目，含资金、导师、高管辅导与游学；128 名学员累计融资超 $150M、12 次退出。Duke ELN 2026 新一期具体内容未确认",
+   "eligibility": "Melissa & Doug 只收正在建公司的 Duke 在读学生（2025-26 期 12 人）；ELN 资格未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "entrepreneurship.duke.edu",
+   "fit": "低",
+   "fitWhy": "Melissa & Doug 面向在读学生；Duke 校友更适合通过 Duke I&E 网络拿校友投资人与导师资源",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.undergradvc.com/programs/duke-melissa-doug-entrepreneurs",
+    "https://entrepreneurship.duke.edu/melissa-doug-alumni-stories/",
+    "https://entrepreneurship.duke.edu/story/duke-eln-announces-new-cohort-2026/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Seedcamp",
+   "category": "加速器与孵化器",
+   "region": "英国伦敦/欧洲",
+   "offer": "欧洲头部 pre-seed 基金兼加速器；投资额未确认",
+   "eligibility": "pre-seed 阶段公司（具体地区要求未确认）",
+   "timing": "随时可申请，无固定截止",
+   "status": "滚动申请",
+   "howToApply": "通过 Seedcamp 官网直接申请",
+   "fit": "中",
+   "fitWhy": "若用英国实体，Seedcamp 投过 Synthesia、UiPath 等，是欧洲 AI pre-seed 的强背书",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.foundra.ai/accelerators/seedcamp",
+    "https://incubatorlist.com/seedcamp"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Liftoff Founders Week 2026",
+   "category": "Fellowship 与早期项目",
+   "region": "英国伦敦（资助差旅）",
+   "offer": "5 天 Founders Week（2026-11-09 至 11-13，伦敦 LISA；由 Pivotal、LISA、UK AI Forum 主办，Coefficient Giving 支持）：报销往返伦敦差旅和酒店 + £1,000 津贴；优秀团队可获 LISA 最多 4 周撰写完整提案的支持；之后可申请 Coefficient Giving「Project Tailwind」的 AI 安全项目 pre-seed 资助 $200K–$2M（不保证获得）",
+   "eligibility": "想启动 AI 安全项目的创始人（做过或运营过项目）、AI 安全研究负责人或运营人才",
+   "timing": "申请截止 2026-10-12；活动 2026-11-09 至 11-13",
+   "status": "开放中",
+   "howToApply": "在 joinliftoff.ai 申请（opportunitydesk 页面也有链接）",
+   "fit": "中",
+   "fitWhy": "SimReal 的评测、验证器与 rubric 能力可以包装成 AI 安全/可扩展监督方向；截止很近",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.joinliftoff.ai/",
+    "https://opportunitydesk.org/2026/10/01/liftoff-founders-week-2026/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "截止 10-12 和 £1,000 津贴核实无误；补充活动日期 11-09 至 11-13、主办方；$200K–$2M 是 Coefficient Giving Project Tailwind 的 AI 安全资助，需另行申请，不由本活动直接发放"
+  },
+  {
+   "name": "Entrepreneur First (London)",
+   "category": "加速器与孵化器",
+   "region": "英国伦敦（FORM 12 周）→ 美国旧金山（LAUNCH 12 周）",
+   "offer": "每家最高 $250K：$125K 换 8%（post-money SAFE）+ $125K uncapped MFN SAFE；签约即获 £6,000 Talent Investment",
+   "eligibility": "尚未组队的个人创始人（组队前计划）",
+   "timing": "London Fall 2026 最终截止 2026-08-04，已截止；下一期未确认",
+   "status": "已截止",
+   "howToApply": "joinef.com 申请",
+   "fit": "低",
+   "fitWhy": "EF 主打帮个人找联创，SimReal 已有四位联创且在筹 $20M 种子，8% 稀释不划算",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://hub.causo.ai/guides/how-to-apply-to-entrepreneur-first-2026",
+    "https://www.joinef.com/faqs/london/",
+    "https://incubatorlist.com/entrepreneur-first-london-ai-find"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Antler Residency (London)",
+   "category": "加速器与孵化器",
+   "region": "英国伦敦（另有全球多地）",
+   "offer": "2023 伦敦期：£4,000 生活津贴 + 10 周核心项目；过投委会后 £120K 换 10%",
+   "eligibility": "全职投入的个人或早期团队；2023 伦敦期约 1,500 人申请录 69 人（<5%）",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "Antler 官网按城市申请（入口本次未核实）",
+   "fit": "低",
+   "fitWhy": "主打找联创；10% 稀释与前 6 个月融资排他都和 $20M 种子轮计划冲突",
+   "effort": "高",
+   "community": "Hackernoon 上一位 Antler UK 学员称没找到联创、也没拿到 $150K，但项目推动他开始做产品；Reddit 参与者认为最大价值是在高压下测试联创匹配度（https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience）",
+   "sources": [
+    "https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience",
+    "https://lynxcollective.substack.com/p/antlers-residency-program-a-unique"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Pioneer",
+   "category": "加速器与孵化器",
+   "region": "远程（全球）",
+   "offer": "原为 $20K 换 1% 的远程加速器",
+   "eligibility": "不适用",
+   "timing": "已不再接受申请",
+   "status": "已截止",
+   "howToApply": "不适用",
+   "fit": "低",
+   "fitWhy": "项目已停止，列出只为避免浪费时间",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://cleverhack.com/2026-ai-startup-founder-resources"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "上海市“模塑申城”工程 语料券（2026）",
+   "category": "客户与销售渠道",
+   "region": "中国大陆（上海）",
+   "offer": "市级发放1亿元语料券：对购买非关联方语料用于大模型、垂类应用、智能体研发和应用的主体，按核定合同额最高30%、最高500万元给予采购补贴。补贴发给买方，SimReal 作为语料/数据供应方，可以对上海客户说“采购我们的数据可申请政府补贴约30%”。",
+   "eligibility": "申报方（买方）须为上海注册主体，且与卖方无关联关系；卖方是否必须是境内主体、语料是否需登记或合规评估：未确认。",
+   "timing": "2026年计划分4批受理：第一批 2026-05-08 10:00 至 05-27 16:00（已截止）；后续批次在每季度首月受理，第四季度批次预计在2026年10月（具体起止日期未确认）。",
+   "status": "即将开放",
+   "howToApply": "由买方按上海市经信委“模塑申城”补贴申报通知线上申报；SimReal 需准备合同、发票、语料说明等材料，配合客户申报。",
+   "fit": "高",
+   "fitWhy": "这项政策直接压低国内模型公司和AI应用公司采购 SimReal 数据的成本，能当作销售话术；前提是要有能在境内签约、开票的主体。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html",
+    "https://sheitc.sh.gov.cn/cmsres/0e/0e38c292e2bb457fa0d2206925e63b0c/efa09c11f8385922bea2bc3b2bc7f8e6.pdf",
+    "https://www.shanghai.gov.cn/zjfcsj/20251024/28bb5b0d563b468b95cc0defa2a6bc60.html",
+    "https://www.sh-hitech.com/kjcx/22434.html"
+   ],
+   "verdict": "确认",
+   "verifyNote": "经信委通知（沪经信智〔2026〕248号）确认全年4批、首批 5-08 至 5-27、之后每季度首月受理；10月批次具体起止日期仍未确认；30%/500万元上限本次未单独复核"
+  },
+  {
+   "name": "上海市“模塑申城”工程 算力券 / 模型券（Token券）（2026）",
+   "category": "算力与云额度",
+   "region": "中国大陆（上海）",
+   "offer": "算力券补贴租用非关联方智能算力做大模型、智能体研发；模型券（Token券）补贴调用非关联方云上的第三方大模型API，或私有化部署第三方大模型。本次检索没有查到两种券的补贴比例和上限（未确认）。",
+   "eligibility": "上海注册主体；算力供需双方无关联关系；可自行申报，也可经算力服务商通过“市智能算力资源统筹调度服务平台”申报。",
+   "timing": "与语料券同一通知：2026年分4批，第一批 05-08 至 05-27（已截止），之后每季度首月受理，10月批次具体日期未确认。",
+   "status": "即将开放",
+   "howToApply": "按上海市经信委通知申报，或由算力服务商经统筹调度平台代为申报。",
+   "fit": "中",
+   "fitWhy": "RL 环境 rollout、验证器和 baseline 评测都要消耗算力和 Token，模型券对调用第三方 LLM 做 judge 或轨迹生成尤其有用；需要上海主体。",
+   "effort": "中",
+   "community": "钛媒体文章指出，很多 AI 企业主要成本在 Token 而不是算力，拿到的算力券未必用得上；补贴绑定的本地平台对 PyTorch、vLLM 适配差，迁移成本可能抵消补贴（https://www.tmtpost.com/8043721.html）。",
+   "sources": [
+    "https://www.sh-hitech.com/kjcx/22434.html",
+    "https://sheitc.sh.gov.cn/cyfz/20260507/cd1dcb1e5cb4449cbc36c69befafcc0a.html",
+    "https://juejin.cn/post/7617853057604042815",
+    "https://www.tmtpost.com/8043721.html"
+   ],
+   "verdict": "确认",
+   "verifyNote": "经信委通知确认算力券、模型券（Token券）的支持范围和全年4批、每季度首月受理的节奏；补贴比例和上限仍未确认"
+  },
+  {
+   "name": "张江AI创新小镇 “算力券”“模型券”“语料券” + 人才驿站",
+   "category": "加速器与孵化器",
+   "region": "中国大陆（上海浦东张江）",
+   "offer": "对新入驻张江AI创新小镇的企业，发放最高100%支持的100万元算力券、100万元模型券、100万元语料券，单个企业最多享受1年。人才驿站提供免费共享工位半年、免费注册公司，搬进独立办公室后租金最低1元/平方米/天。",
+   "eligibility": "新入驻张江AI创新小镇的企业（需上海浦东注册或落地）；具体条件见浦东新区申报指南。",
+   "timing": "按季度受理：2026年第1季度批次于4月1日启动，第2季度受理通知已发布；第3、4季度批次时间未确认。",
+   "status": "滚动申请",
+   "howToApply": "先联系张江AI创新小镇或人才驿站办理入驻和注册，再按季度申报通知提交材料。",
+   "fit": "高",
+   "fitWhy": "如果在上海设主体，这是对几周大团队最友好的组合：入驻即可申请，补贴比例最高100%；小镇里的模型公司也能用语料券采购 SimReal 数据。",
+   "effort": "中",
+   "community": "知乎文章《AI 创业者，涌向张江 AI 创新小镇》称，2026年上半年小镇新增200多家AI企业，人才驿站免费工位半年、注册不花钱、房租最低1元/平方米/天（https://zhuanlan.zhihu.com/p/2061166314123802067）。",
+   "sources": [
+    "https://www.pudong.gov.cn/023004003/20250930/815126/673e24d74b884b79a4799abed33ddd2e.pdf",
+    "https://www.sh-hitech.com/kjcx/22064.html",
+    "https://www.sh-hitech.com/kjcx/23489.html",
+    "https://zhuanlan.zhihu.com/p/2061166314123802067"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索次数已用完，本条未复核"
+  },
+  {
+   "name": "深圳市人工智能语料券专项资金（2026年度）",
+   "category": "客户与销售渠道",
+   "region": "中国大陆（深圳）",
+   "offer": "企业通过数据交易所购买非关联方语料用于AI研发应用，按不超过采购总费用30%给予资助，最高200万元；企业通过深圳市政府数据开放平台开放符合要求的语料数据，最高奖励100万元。",
+   "eligibility": "申报企业须在深圳实际经营，语料数据合规；采购必须经数据交易所，所以 SimReal 要先在数据交易所挂牌，深圳客户才能用券采购（是否只限深圳数据交易所未确认）。",
+   "timing": "2026年度申报时间为 2026-09-01 09:00 至 2026-11-10 18:00。",
+   "status": "开放中",
+   "howToApply": "买方通过广东政务服务网、“i深圳”APP 或深圳市政务服务中心线下窗口申报。",
+   "fit": "高",
+   "fitWhy": "直接降低深圳AI公司采购 SimReal 数据的成本，申报窗口正开着，可以立刻拿去跟深圳潜在客户谈；“开放语料奖励”可能也适用于在深圳设立的主体。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html",
+    "https://www.21jingji.com/article/20260901/herald/12b2c0dd18bfd0cef16be722582361ca.html",
+    "https://www.sznews.com/news/content/2026-06/15/content_32089671.htm",
+    "https://m.21jingji.com/article/20260615/herald/a8157f765e8bf22dd5659b6a2e4ec33f.html",
+    "https://www.sz.gov.cn/zfgb/2025/gb1377/content/post_12270291.html"
+   ],
+   "verdict": "确认",
+   "verifyNote": "申报时间 9-01 09:00 至 11-10 18:00、采购资助 30%/最高200万元、开放奖励最高100万元、申报渠道均核实"
+  },
+  {
+   "name": "深圳市“训力券”（2026）",
+   "category": "算力与云额度",
+   "region": "中国大陆（深圳）",
+   "offer": "每个需求方每年累计最高1000万元。需求方每年租用非关联方智能算力做大模型训练、推理的费用达到50万元（含）以上的，单次可抵扣不超过服务合同金额的50%。",
+   "eligibility": "深圳的算力需求方企业；年算力租用额50万元以上；供需双方无关联。",
+   "timing": "来源称2026年申请已于2026年5月启动；截止日期未确认。",
+   "status": "未确认",
+   "howToApply": "按深圳市训力券申报通知申报（具体渠道未确认）。",
+   "fit": "低",
+   "fitWhy": "门槛是一年50万元的算力支出，对现阶段偏高；以后如果在深圳做大规模 RL rollout 可以再看。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://finance.sina.com.cn/roll/2026-05-09/doc-inhxhkfi1539326.shtml",
+    "https://news.qq.com/rain/a/20250403A01KK300",
+    "https://m.bjnews.com.cn/detail/1740984269129492.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "北京市算力券补贴（高精尖产业发展资金，2026年第一批）",
+   "category": "算力与云额度",
+   "region": "中国大陆（北京）",
+   "offer": "AI开源创新项目：按算力合同额不超过50%补贴，最高100万元；新备案登记模型的企业：不超过10%，最高30万元；入围工信部“揭榜挂帅”的企业：不超过20%，最高500万元；AI领域新型研发机构：不超过50%，最高3000万元。",
+   "eligibility": "在京注册的新型研发机构，或有独立法人资格的信息软件业、制造业、科技服务业企业；所租智能算力须来自非关联方。",
+   "timing": "2026年第一批截止于 2026-04-15，已截止；下一批时间未确认。",
+   "status": "已截止",
+   "howToApply": "按北京市经信局、财政局发布的高精尖资金实施指南申报。",
+   "fit": "中",
+   "fitWhy": "“AI开源创新项目”这一条可以对接开源 RL 环境或 benchmark（比如开源 Xitadel 的子集），但需要北京主体，并等下一批。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.ncsti.gov.cn/kjdt/tzgg/202602/t20260224_238787.html",
+    "https://www.keceyun.com/policy/newsdetail/521314.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "北京数据交易激励（北京城市副中心数据券 / 数据要素市场示范奖励）",
+   "category": "非稀释资助",
+   "region": "中国大陆（北京）",
+   "offer": "北京城市副中心支持数据产品开发和应用，按企业年度交易额的10%发放数据券补贴，单个主体每年最高100万元。2023年北京数据要素市场示范奖励对企业首笔交易按首年数据交易额的4%奖励，同一企业每年最高200万元；2026年是否延续未确认。",
+   "eligibility": "在京注册企业（示范奖励）；城市副中心数据券的落地要求未确认。",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未确认（可向北京国际大数据交易所、北京市经信局咨询）。",
+   "fit": "中",
+   "fitWhy": "如果数据产品经北京数交所成交，可以按交易额拿返还，相当于给国内销售加一层补贴；需要北京主体。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://m.sohu.com/a/1048004443_121218495?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "https://www.beijing.gov.cn/zhengce/zhengcefagui/202311/W020231121638895790093.doc"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "深圳数据交易所 数商入驻 / 语料产品挂牌",
+   "category": "客户与销售渠道",
+   "region": "中国大陆（深圳）",
+   "offer": "深数所在全国首推数商风险评级，并提供商机精准匹配、品牌宣传等服务。深圳语料券要求通过数据交易所采购，挂牌后深圳买家可以用券（最高30%、200万元）买 SimReal 的数据。",
+   "eligibility": "境内主体申请数商资格（细则未确认）。",
+   "timing": "挂牌为常态业务；具体流程和时间未确认。",
+   "status": "未确认",
+   "howToApply": "联系深圳数据交易所申请数商入驻并挂牌语料产品（流程未确认）。",
+   "fit": "中",
+   "fitWhy": "这是让深圳语料券真正帮到 SimReal 的前提条件；还能借交易所的商机匹配找到国内买家。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.deo.org.cn/article/sjjy_jydt/detail413.html",
+    "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "2026年“数据要素×”大赛（北京分赛暨北京数智创新大赛 / 广东分赛）",
+   "category": "比赛与奖金",
+   "region": "中国大陆（北京、广东等分赛区）",
+   "offer": "北京分赛的数据赛奖励最高200万元（以奖杯、证书等形式发放），另提供房租减免、算力补贴，并推动参赛企业的优质项目和数据产品在北京国际大数据交易所上架。广东分赛2026年7月启幕，可叠加深圳政策。",
+   "eligibility": "分赛一般要求在当地注册或落地（未确认）。",
+   "timing": "2026年各分赛已启动；报名截止未确认（可能已过）。",
+   "status": "未确认",
+   "howToApply": "通过各分赛官网报名（北京：dexc.data.beijing.gov.cn）。",
+   "fit": "中",
+   "fitWhy": "金融数据和训练数据题目与 SimReal 业务契合；奖金、挂牌通道和政府、交易所的曝光能一次拿到。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://dexc.data.beijing.gov.cn/xwzx/ssdt/03329d63105048dd8491d0c31ba0159c.html",
+    "https://m.mp.oeeee.com/a/BAAFRD0000202607091623671.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "工信部《人工智能中小企业创业支持计划（2026—2028年）》",
+   "category": "政府与政策",
+   "region": "中国大陆（全国）",
+   "offer": "用3年时间，在行业应用、数据服务、智能算力等重点领域培育一批AI创业企业，新培育科技型和创新型中小企业1万家以上、专精特新“小巨人”突破2000家；依托中国算力平台的中小企业专区提供低成本普惠算力。",
+   "eligibility": "中国大陆中小企业；具体申报条件要看后续配套细则（未确认）。",
+   "timing": "2026-09-04 印发；落地细则和地方配套未确认。",
+   "status": "未确认",
+   "howToApply": "关注中国中小企业服务网的算力资源对接专区、中国算力平台中小企业专区，以及各地工信部门的配套通知。",
+   "fit": "中",
+   "fitWhy": "“数据服务”被列为重点领域，和 SimReal 的定位一致；后续各地配套（算力、券、认定）值得跟踪。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.cpi.ac.cn/zx/xyzl/202609/t20260904_430845.html",
+    "https://news.qq.com/rain/a/20260904A09X7M00",
+    "https://news.qq.com/rain/a/20260904A09X7U00"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "国家数据局 数据标注产业政策与数据标注基地",
+   "category": "政府与政策",
+   "region": "中国大陆（成都、沈阳、合肥、长沙、海口、保定、大同等基地城市）",
+   "offer": "四部门2025年发布《关于促进数据标注产业高质量发展的实施意见》，目标到2027年产业年均复合增长率超过20%，培育一批科技型数据标注企业，建设特色数据标注基地。2024年公布首批7个基地城市。基地城市对入驻企业的具体补贴未确认。",
+   "eligibility": "中国大陆主体，通常要在基地城市落地；具体条件看各地细则（未确认）。",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "关注国家数据局“数据标注”专题和各基地城市数据局的招商、补贴通知。",
+   "fit": "中",
+   "fitWhy": "SimReal 做的是高端专家数据和 RL 环境，政策方向一致；但基地多面向劳动密集型标注，专家型数据能否享受，要看当地细则。",
+   "effort": "中",
+   "community": "知乎专栏《新规密集落地！2026数据标注行业迎来三大红利期》认为2026年是数据标注政策的落地年（https://zhuanlan.zhihu.com/p/2032145000717398267）。",
+   "sources": [
+    "https://www.nda.gov.cn/sjj/zhuanti/sjbz/list/index_pc_1.html",
+    "https://www.cls.cn/detail/1636216",
+    "https://finance.sina.com.cn/stock/relnews/cn/2025-01-14/doc-ineewsqh2230987.shtml",
+    "https://zhuanlan.zhihu.com/p/2032145000717398267"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "各地高质量数据集 / 语料库建设补贴（2026“补贴赛”）",
+   "category": "非稀释资助",
+   "region": "中国大陆（多地，如南京玄武区等）",
+   "offer": "2026年多地竞相推出高质量数据集建设补贴：对建设、开放高质量数据集或语料库的企事业单位，按数据价值、规模、质量和应用效果评审认定后，最高给予200万元资金支持；上海对纳入国家数据基础设施先行先试试点名单的牵头单位奖励50万元。各项分别对应哪个地区、具体条件：未确认。",
+   "eligibility": "需在对应地区注册；评审标准未确认。",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "查阅各地数据局或区政府数据产业支持政策（如玄武区《关于促进数据产业发展的支持政策》）。",
+   "fit": "中",
+   "fitWhy": "金融 RL 环境和专家数据集可以包装成“高质量行业数据集”申报，属于非稀释资金。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://m.sohu.com/a/1048004443_121218495?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+    "https://www.xwzf.gov.cn/xwqrmzf/202504/t20250411_5126193.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "奇绩创坛 MiraclePlus 2026秋季创业营",
+   "category": "加速器与孵化器",
+   "region": "中国大陆（创业营在北京线下进行）；是否要求中国主体未确认",
+   "offer": "每家投资 30 万美元（或等值人民币）换 7% 股份，不收取费用；三个月创业营与路演日；2026年春季路演日有56个项目。",
+   "eligibility": "面向早期创业团队；申请人须持有团队至少 5% 股权才被视为创始人；主体和地区要求未确认。",
+   "timing": "2026秋季创业营于 2026 年 9–12 月在北京进行，常规申请已截止；申请入口全年开放，现在提交能否进入本期未确认，大概率进入下一期。",
+   "status": "滚动申请",
+   "howToApply": "在 apply.miracleplus.com 注册并提交申请。",
+   "fit": "高",
+   "fitWhy": "国内最接近 YC 的早期平台，AI 项目占比高，可以接触国内大模型公司和投资人；late application 现在就能交。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.miracleplus.com/cn/apply/",
+    "https://apply.miracleplus.com/users/sign_up",
+    "https://zhuanlan.zhihu.com/p/2047380758130582982",
+    "https://www.miracleplus.com/apply/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充投资条款（30 万美元换 7%，不收费）及创始人须持股 5% 的要求；秋季营已于 9 月在北京开营，现在申请大概率进入下一期"
+  },
+  {
+   "name": "奇绩算力（MiraclePlus Compute）",
+   "category": "算力与云额度",
+   "region": "全球（不限地区；算力位于北京海淀，海外团队可远程使用）",
+   "offer": "免费高性能算力，单个项目最高约 100 万元人民币等值算力；附带奇绩生态资源（合伙人/校友 Office Hours、技术培训等）；没有 KPI 和回报要求，大约每1到2个月交一次简单的进度汇报。",
+   "eligibility": "高校和科研机构、企业与初创公司、开源项目团队、独立研究者均可申请（来源未提要求是奇绩被投企业）。",
+   "timing": "常年开放、滚动录取（来源为 2025 年介绍；2026 年仍有介绍文章，现在是否仍开放以官方为准）",
+   "status": "滚动申请",
+   "howToApply": "通过奇绩官方渠道填写申请表（项目摘要、技术需求、团队信息）；具体入口未确认。",
+   "fit": "高",
+   "fitWhy": "免费、义务轻的算力，适合跑 RL 环境 baseline、验证器测试和评测。",
+   "effort": "低",
+   "community": "知乎文章称奇绩算力“没有任何KPI指标和回报要求”，只要求每1到2个月汇报一次进度（https://zhuanlan.zhihu.com/p/19868651261）。",
+   "sources": [
+    "https://zhuanlan.zhihu.com/p/19868651261",
+    "https://zhuanlan.zhihu.com/p/2054934396155836389",
+    "https://startup.aliyun.com/info/1091836.html",
+    "https://zhuanlan.zhihu.com/p/1954275873399211745"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充：全球可申、海外可远程，单项目最高约 100 万元等值算力，企业与初创均可申请，常年滚动录取；地区、时间和状态由未确认改为已知"
+  },
+  {
+   "name": "Cyberport Incubation Programme (CIP) 数码港培育计划",
+   "category": "加速器与孵化器",
+   "region": "中国香港",
+   "offer": "最高 HK$500,000 资助，外加 HK$200,000 场地租金补贴，孵化期24个月，提供技术和商业支持。",
+   "eligibility": "香港主体的科技初创（细则未确认）。",
+   "timing": "全年接受申请，分批截止：2026年10月期截止于2026-08-03（已截止）；2027年2月期截止于 2026-12-01。",
+   "status": "开放中",
+   "howToApply": "通过数码港 Cyberport Entrepreneurship Management System 在线提交 CIP 申请。",
+   "fit": "中",
+   "fitWhy": "如果设香港主体，这是一笔非稀释资金，还能叠加人工智能资助计划（AISS）的超算补贴；数码港偏金融科技和AI，与金融 RL 环境契合。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.cyberport.hk/en/entrepreneurship/cyberport_incubation_programme/",
+    "https://www.smelink.gov.hk/en/web/sme-portal/w/cyberport-incubation-programme.html",
+    "https://www.fundfluent.io/funding-programs/hk-cyberport-incubation-programme-cip"
+   ],
+   "verdict": "确认",
+   "verifyNote": "HK$500,000 资助、HK$200,000 租金补贴、24 个月、全年申请、2026 年 10 月期截止 8-03 均核实；2027 年 2 月期截止 12-01 本次未单独核实"
+  },
+  {
+   "name": "HKSTP Incubation Programme（香港科技园培育计划）+ Ideation Programme",
+   "category": "加速器与孵化器",
+   "region": "中国香港",
+   "offer": "三年期孵化，目前为合资格公司提供最高 HK$1.29M 的技术和业务发展资助；另有 Ideation Programme 种子资助（金额未确认）。",
+   "eligibility": "香港主体的科技初创（细则未确认）。",
+   "timing": "随时可以申请，没有固定截止日期。",
+   "status": "滚动申请",
+   "howToApply": "通过 HKSTP 官网提交申请。",
+   "fit": "中",
+   "fitWhy": "非稀释资金额度比数码港更高；需要设香港主体，并在港有实际运营。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.fundfluent.io/funding-programs/hkstp-incubation-programme",
+    "https://fundsforcompanies.fundsforngos.org/training-and-mentorship/hkstps-incubation-programme-to-help-technology-startups-in-hong-kong/",
+    "https://www.hkstp.org/en/programmes/ideation"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "AWS & HKSTP Co-incubation Program: The AI Cohort",
+   "category": "加速器与孵化器",
+   "region": "中国香港",
+   "offer": "AWS 与香港科技园联合的 AI 方向孵化 cohort（具体资源和额度未确认）。",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "通过 AWS 项目页面报名（以页面为准）。",
+   "fit": "中",
+   "fitWhy": "可同时接触 AWS 资源和香港科技园生态；细节需要到官方页面核实。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://pages.awscloud.com/aiml-coincubation-startups-aws-hkstp.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "香港人工智能资助计划 AISS（数码港人工智能超算中心）",
+   "category": "算力与云额度",
+   "region": "中国香港",
+   "offer": "总额 HK$30亿、为期三年，资助合资格用户使用数码港人工智能超算中心的算力，最高为服务定价的七成；至今已批出30多个项目，共资助约17亿元；2026年施政报告宣布再注资10亿元。",
+   "eligibility": "五类机构：本地院校、研发机构、政府部门、AI初创企业和重点企业，需要香港主体；初创获批的门槛未确认。",
+   "timing": "计划自2024年起接受申请（三年期）；2026年9月宣布追加注资；截止日期未确认。",
+   "status": "滚动申请",
+   "howToApply": "通过数码港或中小企连线（SME Link）上的 AISS 页面申请。",
+   "fit": "中",
+   "fitWhy": "七成算力补贴对 RL rollout 和训练验证器很有价值；但已获批项目多为院校和大机构，初创的获批概率未确认。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.smelink.gov.hk/zh/web/sme-portal/w/artificial-intelligence-subsidy-scheme.html",
+    "https://www.news.gov.hk/chi/2026/09/20260924/20260924_183701_404.html",
+    "https://www.singtao.ca/7636783/2026-09-24/news-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%B3%87%E5%8A%A9%E8%A8%88%E5%8A%83%E5%B7%B2%E6%89%B9%E9%80%BE30%E9%A0%85%E7%9B%AE+%E5%85%B1%E8%B3%87%E5%8A%A917%E5%84%84%E5%85%83+%E6%95%B8%E7%A2%BC%E6%B8%AF%E8%B6%85%E7%AE%97%E4%B8%AD%E5%BF%83%E5%8A%A0%E5%BF%ABAI%E6%87%89%E7%94%A8/",
+    "https://fundpilot.hk/blog/aiss-complete-guide-2026"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "上海市白玉兰人才计划浦江项目（2026年度）+ 留学人员来沪创业支持",
+   "category": "非稀释资助",
+   "region": "中国大陆（上海）",
+   "offer": "B类（企业创新创业类，在本市企业做科技创新研究，或创办科技型留学人员企业）资助30万元/人；D类（特殊急需类）资助30万元/人或50万元/团队；执行期 2026-12-01 至 2028-11-30。上海另有《关于进一步支持留学人员来沪创业的实施办法》（2020—2026）。",
+   "eligibility": "海外留学人员在沪工作或创业；四位创始人都有海外学历（剑桥、LSE、杜克），可能符合，但国籍和回国时间等细则未确认；需要上海主体。",
+   "timing": "2026年度申请指南于2026年7月发布；申报截止日期未确认（可能已截止，需要核实）。",
+   "status": "未确认",
+   "howToApply": "通过“上海国际人才网”网上申报。",
+   "fit": "中",
+   "fitWhy": "每人30万元的非稀释人才资助，四位创始人可以分别申请；但需要先在上海落地主体。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://stcsm.sh.gov.cn/zwgk/kyjhxm/xmsb/20260704/d150177f83ef4fc7bd6d6276905939d3.html",
+    "https://www.sh-italent.com/Article/202607/202607010008.shtml",
+    "https://www.sh-hitech.com/ryrd/9610.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "火山引擎「AI领航者计划」",
+   "category": "创业福利",
+   "region": "中国大陆",
+   "offer": "面向创新型AI创业团队，依托火山引擎的AI云原生能力和字节跳动业务生态，提供技术支持、商业化场景对接和社区共建（具体资源额度未确认）。",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "按火山引擎发布的计划页面报名（入口未确认）。",
+   "fit": "中",
+   "fitWhy": "可以借这个计划接触字节和火山生态；字节本身也可能是 RL 数据和环境的大买家，“商业化场景对接”有潜在客户价值。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://zhuanlan.zhihu.com/p/1950942337028030823"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "国内大模型 API 免费额度（腾讯混元 / 百度千帆 / 火山方舟 / 阿里百炼）",
+   "category": "创业福利",
+   "region": "中国大陆",
+   "offer": "腾讯云：通用资源包100万 Tokens（有效期1年）加100万 Embedding Tokens；微信AI小程序成长计划提供免费云开发资源和1亿 Token 混元额度。百度智能云：每个模型100万 Tokens、有效期3个月。火山方舟：新用户每个模型50万 Tokens，激活协作奖励计划后每天200万 Tokens 免费额度。",
+   "eligibility": "完成实名认证（通常需要中国大陆身份或主体）。",
+   "timing": "2026年汇总文章称注册即发放（以各平台官方为准）。",
+   "status": "开放中",
+   "howToApply": "在各云平台注册并完成实名认证后领取。",
+   "fit": "低",
+   "fitWhy": "额度不大，但可以拿中文模型做轨迹生成、LLM judge 或 baseline 对比，几乎零成本。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://cloud.tencent.com/developer/article/2626756",
+    "https://cloud.tencent.com/developer/article/2613128",
+    "https://zhuanlan.zhihu.com/p/2011764188717016119"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索次数已用完，本条未复核"
+  },
+  {
+   "name": "2026全球人工智能创新创业大赛（中国人工智能学会 CAAI）",
+   "category": "比赛与奖金",
+   "region": "全球报名（中国大陆主办）",
+   "offer": "晋级决赛的项目进入启迪·∞计划、启迪之星壹计划的投资绿色通道，优先获得启迪创投投资机会，并对接国内500强产业加速营。",
+   "eligibility": "全球开放报名；是否需要中国主体未确认。",
+   "timing": "2026年7月开放全球报名；截止日期未确认。",
+   "status": "未确认",
+   "howToApply": "通过中国人工智能学会大赛官网 gaiiec.caai.cn 报名。",
+   "fit": "中",
+   "fitWhy": "全球可报名，能接触国内投资机构和产业资源；奖金金额未确认。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.caai.cn/site/content/8473.html",
+    "https://gaiiec.caai.cn/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "2026新一代人工智能（深圳）创业创新大赛",
+   "category": "比赛与奖金",
+   "region": "中国大陆（深圳），海内外均可报名",
+   "offer": "面向海内外AI创业者的创业大赛（奖金和资源未确认）。",
+   "eligibility": "拥有核心技术或创新商业模式的初创企业、创客团队，海内外均可报名。",
+   "timing": "2026年6月启动；截止日期未确认。",
+   "status": "未确认",
+   "howToApply": "扫描官方宣传中的二维码报名，或通过大赛专题页报名。",
+   "fit": "中",
+   "fitWhy": "允许海外团队参赛，可以借此对接深圳的资源和政策（语料券、训力券）。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.qbitai.com/2026/06/432581.html",
+    "https://finance.sina.com.cn/jjxw/2026-06-09/doc-iniauqux5159864.shtml",
+    "https://tech.163.com/special/2026aiec_mobile/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "2026中国“人工智能+”创新创业挑战赛（中国人工智能学会）",
+   "category": "比赛与奖金",
+   "region": "中国大陆，面向全球AI创客",
+   "offer": "千万级资金，加上订单、场景和算力资源（具体分配未确认）。",
+   "eligibility": "全球AI创客（细则未确认）。",
+   "timing": "2026年4月启动；截止日期未确认。",
+   "status": "未确认",
+   "howToApply": "通过中国人工智能学会官网的公告报名。",
+   "fit": "中",
+   "fitWhy": "“订单+场景”对找国内客户有帮助；需要核实今年赛程是否还能报名。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.caai.cn/site/content/7744.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "2026数字中国创新大赛·人工智能赛道",
+   "category": "比赛与奖金",
+   "region": "中国大陆",
+   "offer": "数字中国建设峰会官方赛事的AI赛道（奖金未确认）。",
+   "eligibility": "未确认",
+   "timing": "报名和作品提交在2月27日至3月31日，4月初初审、4月11–12日复赛、4月下旬决赛；已截止，下一届时间未确认。",
+   "status": "已截止",
+   "howToApply": "关注数字中国建设峰会官网的下一届通知。",
+   "fit": "低",
+   "fitWhy": "本届已结束，作为2027年的备选。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.szzg.gov.cn/2025/xwzx/fhzx/202603/t20260306_5292292.htm",
+    "https://www.szzg.gov.cn/2025/xwzx/fhzx/202603/t20260317_5296624.htm"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "NeurIPS 2026 (Sydney main hub)",
+   "category": "社区与活动",
+   "region": "全球（澳大利亚悉尼主会场，另有亚特兰大、巴黎卫星会场）；不限公司注册地",
+   "offer": "NeurIPS 2026 分三城举办：悉尼为主会场（12/6–12/12），亚特兰大（12/8–12/13）和巴黎（12/9–12/13）为卫星会场；共接收 102 个 workshop（悉尼 48、巴黎 28、亚特兰大 26），巴黎有 Reinforcement Learning for Experimental Sciences workshop；workshop 日期为悉尼 12/11–12/12、巴黎与亚特兰大 12/12–12/13",
+   "eligibility": "注册购票即可参会；票价、Expo/赞助展位费用未确认",
+   "timing": "悉尼 2026-12-06 至 12-12：12/6 Expo Talks，12/7 tutorials，12/8-12/10 主会，12/11-12/12 workshops；注册截止日未确认",
+   "status": "未确认",
+   "howToApply": "在 neurips.cc 注册；用 aiworkshoptracker 等列表筛出 RL / evals 相关 workshop，会前联系组织者和讲者约见面",
+   "fit": "高",
+   "fitWhy": "RL 环境、verifier、评测数据的核心买家（实验室后训练团队）和 RL 研究社区都在这里，workshop 和 side events 是建立研究圈曝光的最佳场合",
+   "effort": "中",
+   "community": "TeamBlind 上有人认为 NeurIPS 有 Google Brain 等大厂人员到场，适合 networking，但对非研究岗机会的价值看法不一（https://www.teamblind.com/post/neurips-expo-kkumvm4w）",
+   "sources": [
+    "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/",
+    "https://aiweekly.co/alerts/neurips-2026-splits-across-sydney-atlanta-and-paris-in-december",
+    "https://aiweekly.co/alerts/neurips-2026-accepts-102-workshops-across-three-host-cities",
+    "https://neurips.cc/Conferences/2026",
+    "https://www.beri.net/events/neurips-2026",
+    "https://aiworkshoptracker.com/conference/neurips/2026/",
+    "https://www.teamblind.com/post/neurips-expo-kkumvm4w",
+    "https://www.vdura.com/ai-infrastructure-events-calendar/neurips-2026-paris/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "悉尼日程核实无误；原 offer 只写了巴黎卫星会场，容易误读，已改为三城结构，并补充亚特兰大 12/8–12/13、巴黎 12/9–12/13 与各城 workshop 数量"
+  },
+  {
+   "name": "NVIDIA Launching Legends social at NeurIPS",
+   "category": "投资人渠道",
+   "region": "随 NeurIPS 会场（2026 届举办城市未确认）",
+   "offer": "NVIDIA 在 NeurIPS 期间举办的封闭式社交活动，连接风险投资人、NVIDIA 合作伙伴和行业导师；免费参加；之后有 pitch workshops",
+   "eligibility": "未确认（页面称 exclusive，可能需报名或受邀；是否要求 NVIDIA Inception 会员未确认）",
+   "timing": "2026 届是否举办、日期未确认",
+   "status": "未确认",
+   "howToApply": "关注 nvevents.nvidia.com 该页面；如已加入 NVIDIA Inception，向对接人询问 NeurIPS 2026 名额",
+   "fit": "高",
+   "fitWhy": "零成本见到关注 AI 基础设施的 VC，正好配合 2000 万美元种子轮；与 NeurIPS 行程叠加",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://nvevents.nvidia.com/launchinglegendsatneurips"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索次数已用完，本条未复核"
+  },
+  {
+   "name": "ICLR 2027",
+   "category": "社区与活动",
+   "region": "美国旧金山（Moscone Center）",
+   "offer": "顶级深度学习会议；主会 4/26-4/28，workshops 4/29-4/30；在旧金山举办，湾区实验室研究员和投资人密集",
+   "eligibility": "注册购票参会；主会论文投稿已截止",
+   "timing": "2027-04-26 至 04-30；主会论文截止 2026-09-25 AoE（已过）；workshop 论文与注册开放时间未确认",
+   "status": "未确认",
+   "howToApply": "关注 iclr.cc 注册开放；workshop 投稿通常晚于主会（具体日期未确认），可投 RL / 评测相关 workshop 论文以获得曝光",
+   "fit": "高",
+   "fitWhy": "在旧金山举办，可一趟同时见实验室买家（后训练团队）和湾区 VC，并在会期周办 side event",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://researchtheta.com/conferences/iclr-2027/",
+    "https://www.beri.net/events/iclr-2027",
+    "https://mldeadlines.com/conference/iclr-2027/",
+    "https://iclr.cc/Conferences/2027"
+   ],
+   "verdict": "确认",
+   "verifyNote": "2027-04-26 至 04-30 在旧金山 Moscone Center、主会 4/26–4/28、workshop 4/29–4/30、论文截止 9-25 AoE 均核实"
+  },
+  {
+   "name": "AGI House SF (hackathons & residency)",
+   "category": "社区与活动",
+   "region": "美国旧金山湾区（线下）；不限公司注册地",
+   "offer": "面向研究者和创始人的 residency + hackathon house；2026 年起与 OpenAI 合办 autoresearch、自我改进 agent 框架、harness 优化等主题 hackathon，频率最高每周 5 场；也与 Nebius 等合办（如 Self Improving AI Agents Emergency Hackathon）",
+   "eligibility": "活动通过 Luma 报名，是否审核未确认；需人在湾区",
+   "timing": "滚动举办，具体场次见 Luma / X",
+   "status": "滚动申请",
+   "howToApply": "关注 agihouse.ai、X @agihouse_org 和 Luma 活动页报名；可联系主办方，以赞助方身份提供金融 RL 环境或数据作为赛题",
+   "fit": "高",
+   "fitWhy": "self-improving agents、autoresearch 等主题正需要 RL 环境和 verifier；能与 OpenAI 等实验室的人面对面，也是展示 Xitadel 的好场合",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://agihouse.ai/",
+    "https://x.com/agihouse_org?lang=en",
+    "https://www.hackathonradar.com/database/hackathon/self-improving-ai-sia-agents-emergency-hackathon-by-agi-hous-2026",
+    "https://luma.com/genaihackathon"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索次数已用完，本条未复核"
+  },
+  {
+   "name": "Cerebral Valley events & hackathons",
+   "category": "社区与活动",
+   "region": "全球（以旧金山为主，也有巴黎、班加罗尔等）",
+   "offer": "全球 AI 社区活动、hackathon、meetup、峰会日历，并为前沿实验室办活动；2026 年场次包括 Google DeepMind 班加罗尔 hackathon（7/11）、RAISE Summit Hackathon（巴黎 7/4）、AI Engineer World's Fair Hackathon（6/27，$35K+ 现金与合作方额度）",
+   "eligibility": "按活动报名，多数需申请",
+   "timing": "持续滚动；上述 2026 年中场次已结束",
+   "status": "滚动申请",
+   "howToApply": "在 cerebralvalley.ai/events 订阅并报名；可联系其讨论赞助或赛道合作",
+   "fit": "高",
+   "fitWhy": "它是 OpenEnv 这类 RL 环境 hackathon 的主办方之一，是接触实验室开发者关系团队和 RL 开发者社区的高效入口",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://cerebralvalley.ai/events?trk=public_post_comment-text",
+    "https://cerebralvalley.ai/showcase",
+    "https://cerebralvalley.ai/e/aiewf-hackathon-2026",
+    "https://cerebralvalley.ai/e/raise-summit-hackathon",
+    "https://cerebralvalley.ai/events/~/e/google-deepmind-bangalore-hackathon?modalCloseUrl=%2Fevents"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索次数已用完，本条未复核"
+  },
+  {
+   "name": "OpenEnv Hackathon SF (PyTorch x Cerebral Valley x Shack15)",
+   "category": "比赛与奖金",
+   "region": "美国旧金山",
+   "offer": "参赛者构建 RL 环境并对 base model 做后训练以提升基准表现；5 个主题（RL 与 agentic orchestration）；现金奖池 $100K+",
+   "eligibility": "报名参赛，具体条件未确认",
+   "timing": "2026-03-07 至 03-08 已举办；下一届未确认",
+   "status": "已截止",
+   "howToApply": "关注 pytorch.org 活动页和 cerebralvalley.ai；下一届可争取赛题/环境提供方或评委角色，或按 OpenEnv 规范开源一个精简版金融环境",
+   "fit": "高",
+   "fitWhy": "与 SimReal 的产品（RL 环境 + 后训练）完全重合，是展示金融环境、结识 Meta/PyTorch 团队和 RL 开发者的理想场景",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://cerebralvalley.ai/e/openenv-hackathon-sf",
+    "https://pytorch.org/event/openenv-hackathon-sf/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Cerebral Valley AI Summit (Newcomer)",
+   "category": "投资人渠道",
+   "region": "美国旧金山 / 英国伦敦",
+   "offer": "记者 Eric Newcomer 主办的邀请制峰会，面向获风投支持的创始人、顶级投资人和 AI 领袖",
+   "eligibility": "邀请制；面向 venture-backed 创始人（SimReal 尚无外部融资，可能需投资人引荐）",
+   "timing": "伦敦场 2026-06-24 已举办；下一届旧金山场日期未确认",
+   "status": "未确认",
+   "howToApply": "通过现有投资人或 Newcomer 圈子争取邀请；关注主办方公告",
+   "fit": "中",
+   "fitWhy": "投资人密度极高，但邀请制且偏向已融资公司；种子轮有领投后价值更大",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://eventbrowse.com/event/cerebral-valley-ai-summit/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "TechCrunch Disrupt 2026",
+   "category": "社区与活动",
+   "region": "美国旧金山（Moscone West）",
+   "offer": "10,000+ 参会者；CrunchMatch 在现场私人会面区安排创始人与投资人会面，并按资料推荐匹配；会期周可自办 side event",
+   "eligibility": "购票参会；票价未确认",
+   "timing": "2026-10-13 至 10-15",
+   "status": "未确认",
+   "howToApply": "在 techcrunch.com/events/techcrunch-disrupt 购票并开通 CrunchMatch 预约投资人；也可申请在会期周办 side event",
+   "fit": "中",
+   "fitWhy": "投资人密度高，适合种子轮预热；但受众偏泛科技，RL / 后训练买家较少，且距今只有约 11 天",
+   "effort": "中",
+   "community": "Launchhawk（Substack）评论称，运作得好的一周 TechCrunch 活动可抵三个月冷邮件，前提是带着目标名单和计划到场（https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston）",
+   "sources": [
+    "https://techcrunch.com/events/techcrunch-disrupt/",
+    "https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston",
+    "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "TechCrunch Startup Battlefield 200",
+   "category": "比赛与奖金",
+   "region": "全球（2026 届覆盖各行业和地区）",
+   "offer": "入选的 200 家早期公司在 Disrupt 现场展示，面向 10,000+ 观众、顶级 VC 和全球媒体",
+   "eligibility": "早期创业公司；具体条件未确认",
+   "timing": "已截止；2026 届申请 5/27 截止并延至 6/8，8 月底通知；2027 届日期未确认",
+   "status": "已截止",
+   "howToApply": "参考 techcrunch.com/startup-battlefield/about 和 TC 发布的“我们在找什么”文章，2027 年春季提前准备",
+   "fit": "中",
+   "fitWhy": "媒体曝光和投资人背书强，但对 B2B 数据/RL 基础设施的买家价值有限",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://techcrunch.com/startup-battlefield/about/",
+    "https://techcrunch.com/2026/05/28/how-to-apply-to-startup-battlefield-2026-what-you-need-ahead-of-the-june-8-deadline/",
+    "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
+    "https://techcrunch.com/2026/05/26/what-were-looking-for-in-startup-battlefield-2026-and-how-to-apply-in-time-for-the-may-27-deadline/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Slush 2026 (incl. Slush 100)",
+   "category": "社区与活动",
+   "region": "欧洲（芬兰赫尔辛基）",
+   "offer": "欧洲旗舰创业大会，20,000+ 参与者；11/17 为 Day 0（创始人与投资人日，含专属峰会）；Slush 100 创业比赛冠军通常获得 VC 联合体的股权投资",
+   "eligibility": "购票；第三方指南称创业者票 €395 起、投资人票 €1,195 起；Slush 100 2026 届申请条件与截止未确认",
+   "timing": "2026-11-18 至 11-19（11/17 Day 0）",
+   "status": "未确认",
+   "howToApply": "在 Slush 官网购买 startup pass，会前预约投资人会面（具体机制未确认）",
+   "fit": "中",
+   "fitWhy": "欧洲 VC 最集中的场合之一，适合以英国主体融资时接触欧洲投资人；AI 实验室买家较少",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.47hz.com/blog/slush-2026-founders-guide",
+    "https://www.therecursive.com/slush-2026/",
+    "https://voyeglobal.com/slush-helsinki-event-guide/",
+    "https://conferenceinc.net/post/slush/",
+    "https://slush.org/",
+    "https://slush.org/faq",
+    "https://founderpath.com/events/saas/slush/2026-helsinki",
+    "https://slush.org/audience/startups/startups",
+    "https://slush.org/audience/startups/slush100",
+    "https://www.growthmentor.com/blog/startup-pitch-competitions"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Hong Kong FinTech Week x StartmeupHK 2026",
+   "category": "社区与活动",
+   "region": "中国香港（及大湾区）",
+   "offer": "45,000+ 参与者、120+ 经济体、1,000+ 讲者、800+ 赞助商/展商/初创、30+ 代表团；11/2-11/3 在 HKCEC 办主会，其后一周在香港和大湾区多处办社区活动；AIMA（另类投资管理协会）也列出此活动",
+   "eligibility": "注册购票；票价未确认；StartmeupHK 初创展示条件未确认",
+   "timing": "2026-11-02 至 11-06",
+   "status": "开放中",
+   "howToApply": "在 fintechweek.hk/tickets 注册；会前从 side events 日程中筛出银行、券商、对冲基金相关活动",
+   "fit": "高",
+   "fitWhy": "金融优先、团队华人，可同时接触亚洲银行、券商、对冲基金（金融 RL 环境的潜在客户和专家来源）以及香港/中资投资人",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://dealroom.co/events/hong-kong-fintech-week-2026/",
+    "https://www.investhk.gov.hk/en/events/hong-kong-fintech-week-x-startmeuphk-2026/",
+    "https://www.aima.org/event/hong-kong-fintech-week-x-startmeuphk-2026.html",
+    "https://www.fintechweek.hk/tickets"
+   ],
+   "verdict": "确认",
+   "verifyNote": "2026-11-02 至 11-06、HKCEC 主会 11/2–11/3、45,000+ 参与者等规模数字均核实；票价未复核"
+  },
+  {
+   "name": "Money20/20 USA 2026",
+   "category": "客户与销售渠道",
+   "region": "美国拉斯维加斯（The Venetian Expo）",
+   "offer": "全球最大的金融科技与支付大会，约 11,000+ 银行、金融科技、支付公司高管（部分来源称 13,000+）；Startup Hub 2026 年扩容，由 Silicon Valley Bank 支持，提供投资人接触、企业买家会面、媒体曝光",
+   "eligibility": "Startup Hub 要求 2023-10-01 之后注册成立；通行证约 $3,599 起，临近会期升至 $4,199（Startup 票价未确认）",
+   "timing": "2026-10-18 至 10-21；无固定报名截止，价格分档上涨，现场也可买",
+   "status": "开放中",
+   "howToApply": "在 money2020.com/get-your-pass 购票，选择 Startup Hub 类别",
+   "fit": "中",
+   "fitWhy": "金融机构买家多，与月结、财务 agent 场景相关；但主题偏支付，对 AI 实验室买家触达弱，费用较高",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.money2020.com/get-your-pass",
+    "https://us.money2020.com/",
+    "https://www.nasdaq.com/press-release/money20-20-usa-unveils-expanded-startup-hub-fintechs-rising-stars-2026-08-19",
+    "https://internaware.org/business/money2020-usa-2026-deadlines/",
+    "https://internaware.org/business/best-startup-opportunities-money2020-usa-2026/",
+    "https://sphinxhq.com/blog-posts/money2020-usa-2026-guide"
+   ],
+   "verdict": "更正",
+   "verifyNote": "日期 10-18 至 10-21、The Venetian、Startup Hub 要求 2023-10-01 后成立均核实；参会人数改为 11,000+（13,000+ 为其他来源说法）；票价未复核"
+  },
+  {
+   "name": "SuperAI Singapore 2027 + NEXT Hackathon",
+   "category": "社区与活动",
+   "region": "亚洲（新加坡 Marina Bay Sands）",
+   "offer": "亚洲最大的 AI 大会之一（2026 届 10,000 人售罄）；NEXT Hackathon 200 名开发者竞逐 US$200,000+ 奖金；全年有 Road to SuperAI 系列前置活动",
+   "eligibility": "购票参会；hackathon 报名条件未确认",
+   "timing": "2027-09-08 至 09-09（NEXT Hackathon 9/7-9/9）；会期超出 6 个月窗口，报名开放时间未确认",
+   "status": "未确认",
+   "howToApply": "关注 superai.com 和 Road to SuperAI 活动页",
+   "fit": "中",
+   "fitWhy": "覆盖亚洲投资人和企业买家，与华人团队的中国/亚洲网络互补；对 RL 研究社区的触达较弱",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://checkout.superai.com/events/singapore-2027",
+    "https://www.superai.com/next-hackathon",
+    "https://www.superai.com/road-to-superai",
+    "https://aijourn.com/superai-singapore-2026-sells-out-asias-largest-ai-event-brings-together-10000-global-innovators/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "SuperAI Genesis AI Startup Competition",
+   "category": "比赛与奖金",
+   "region": "全球（决赛在新加坡）",
+   "offer": "US$2.3M 奖励资本；50 家初创展示，10 家决赛现场向投资人评委路演",
+   "eligibility": "未确认",
+   "timing": "决赛随 SuperAI 2027（2027-09-08 至 09-09）；申请窗口未确认",
+   "status": "未确认",
+   "howToApply": "关注 superai.com/genesis-startup-competition",
+   "fit": "中",
+   "fitWhy": "奖金规模大、对注册地要求未见限制，但决赛时间晚于种子轮节奏",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.superai.com/genesis-startup-competition"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Prime Intellect RL Residency",
+   "category": "Fellowship 与早期项目",
+   "region": "全球（是否远程未确认）",
+   "offer": "提供算力、津贴和内部研究团队支持，用于构建新的环境和评测；每期 14-16 人",
+   "eligibility": "研究者和工程师（研究生、全职或兼职均有）；上一期 500+ 人申请",
+   "timing": "下一期未确认",
+   "status": "未确认",
+   "howToApply": "关注 Prime Intellect 的 X 和博客上的招募公告",
+   "fit": "中",
+   "fitWhy": "可由一位联合创始人以个人身份申请，获得算力和 RL 研究圈人脉；但录取率低（500+ 人选十几人），且可能与公司全职创业冲突",
+   "effort": "中",
+   "community": "Prime Intellect 在 X 上称社区已向 Environments Hub 交付 100+ 环境，并招募 residency 成员，提供算力、津贴和研究支持（https://x.com/PrimeIntellect/status/1963038995363082719）",
+   "sources": [
+    "https://x.com/PrimeIntellect/status/1963038995363082719",
+    "https://github.com/PrimeIntellect-ai/residency-environments",
+    "https://www.primeintellect.ai/blog/scaling-environments-program",
+    "https://sequoiacap.com/podcast/building-the-github-for-rl-environments-prime-intellects-will-brown-johannes-hagemann"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "r/LocalLLaMA",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "被认为是最大的本地/开源模型自托管社区，适合发布开源模型在金融环境上的评测结果。",
+   "eligibility": "遵守“限制自我推广”规则（1/10 准则），并且必须披露关联关系",
+   "timing": "随时",
+   "status": "滚动申请",
+   "howToApply": "以“开源模型（Qwen、DeepSeek、Llama 等）在真实金融任务上的表现”为内容主体，明确说明自己是作者或所在公司，不要频繁发推广帖。",
+   "fit": "中",
+   "fitWhy": "开源模型训练者和微调者聚集在这里，能触达用 RL 微调开源模型的 AI 应用公司；中国背景的开源模型话题在这里关注度高。",
+   "effort": "低",
+   "community": "LaunchWake 的总结是：厂商帖只有在不过量、并且公开披露关联时才被允许。https://www.launchwake.com/channels/r-localllama",
+   "sources": [
+    "https://www.launchwake.com/channels/r-localllama",
+    "https://intoru.ai/subreddits/localllama",
+    "https://agyn.io/blog/top-open-weight-llms-2026",
+    "https://gummysearch.com/r/LocalLLaMA/",
+    "https://www.huggingface.co/datasets/pszemraj/LocalLLaMA-posts/viewer/default/train?p=2"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Crossmint AI Agent Conference Calendar 2026 & 2027",
+   "category": "社区与活动",
+   "region": "全球（线上资源）",
+   "offer": "汇总 2026-2027 年 AI agent 相关会议的日历，可用于补全本清单并安排出行",
+   "eligibility": "无",
+   "timing": "持续更新（更新频率未确认）",
+   "status": "开放中",
+   "howToApply": "直接查看 crossmint.com 页面",
+   "fit": "中",
+   "fitWhy": "低成本找到更多 2027 上半年的 agent / AI 工程会议，补充 AI-app 买家渠道",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.crossmint.com/learn/ai-agent-conference-calendar"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额用尽，未复核；内容保持原样。"
+  },
+  {
+   "name": "Google for Startups Cloud Program (Start / Scale / AI tier)",
+   "category": "算力与云额度",
+   "region": "全球（UK、US 主体可申请；中国大陆主体能否使用 GCP 额度未确认）",
+   "offer": "Scale 档最高 $200,000 Google Cloud 额度；AI-first 公司的 Scale AI 档最高 $350,000（第三方指南称按两年分段：第 1 年 100% 覆盖至 $250,000，第 2 年按 20% 覆盖再给至多 $100,000；含 Firebase）。第三方指南称 AI 档另含 $12,000 Enhanced Support 额度，并可访问 Gemini 与 Claude 等前沿模型。Start 档面向尚未融资的公司，第三方指南称额度为 $2,000（官方金额未确认）。另有 Startup Perks 合作伙伴市场。",
+   "eligibility": "Scale/AI 档要求有 pre-seed 至 Series A 的机构融资（SAFE 算，天使投资、赠款和众筹不算）；AI 档要求 AI-first，即 AI 是产品的基础架构，不能只是附加功能，第三方指南称还要求成立不超过 5 年；Start 档据第三方指南面向成立 24 个月以内、无需投资人背书的公司；公司网站域名必须与邮箱域名、计费账户域名一致。",
+   "timing": "滚动申请，无截止日；额度 2 年有效。",
+   "status": "滚动申请",
+   "howToApply": "在 cloud.google.com/startup 在线申请。现阶段没有机构融资，先拿 Start 档；签下第一份机构 SAFE 或进入加速器后再申请升级到 Scale AI 档。",
+   "fit": "高",
+   "fitWhy": "跑 RL 环境、verifier 和生成 agent 轨迹需要大量算力，也要大量调用 Gemini/Claude；$350K 是目前单笔最大的非稀释云额度。但 SimReal 目前没有机构融资，要等种子轮首笔 SAFE 落地后才能拿 AI 档。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://cloud.google.com/startup/faq",
+    "https://cloud.google.com/startup/ai",
+    "https://cloud.google.com/startup/perks",
+    "https://dev.to/googleai/the-2026-ultimate-guide-to-google-for-startups-funding-accelerators-and-350k-in-credits-10ha",
+    "https://guptadeepak.com/startup-offers/programs/google-for-startups-cloud",
+    "https://perkstack.co/blog/google-for-startups-guide",
+    "https://cloudkompas.com/blog/google-cloud-for-startups-2026-credits-guide",
+    "https://klymentiev.com/blog/google-for-startups"
+   ],
+   "verdict": "更正",
+   "verifyNote": "$350K AI 档与 2 年有效期多源一致；补充：Start 档第三方称 $2,000、面向成立 24 个月内的公司；AI 档按两年分段发放（第 1 年至 $250K，第 2 年 20% 覆盖至 $100K），并要求成立不超过 5 年（均为第三方说法）。"
+  },
+  {
+   "name": "AWS Activate (Founders / Portfolio)",
+   "category": "算力与云额度",
+   "region": "全球（Portfolio 档需关联 AWS Activate Provider）",
+   "offer": "Founders 档 $1,000；Portfolio 档最高 $100,000，需要 Activate Provider（VC、加速器、孵化器）提供的 Org ID。额度可用于 Amazon Bedrock 上的第三方基础模型，包括 Anthropic、Meta、Cohere。第三方来源称 YC 的 AI 公司最高可获 $500,000，可用于 Bedrock、SageMaker 和 EC2 GPU；另有第三方称 2026 年有面向大模型训练的最高 $300,000 档（未确认）。",
+   "eligibility": "pre-Series B；有公司网站；成立不超过 10 年；AWS 账户为付费层。Portfolio 档还需关联合格的 VC、加速器或孵化器。",
+   "timing": "滚动申请。第三方 2026 指南称 Portfolio 额度 2 年有效；HN 讨论称 AWS 额度通常 1 年过期，或分两笔 $50k 在 2 年内发放。",
+   "status": "滚动申请",
+   "howToApply": "在 aws.amazon.com/activate 申请。现在先申请 Founders 档；种子轮谈判时向领投方、加速器或 NVIDIA Inception 索取 Activate Provider Org ID，升级到 Portfolio 档。",
+   "fit": "高",
+   "fitWhy": "额度可以通过 Bedrock 调用 Claude 等模型，用来批量生成 agent 轨迹和跑 eval，相当于把云额度换成模型额度。现阶段只能拿 $1K Founders 档，要靠投资人或加速器才能拿到 $100K。",
+   "effort": "低",
+   "community": "HN 上有创始人发帖称手上 $200k 云额度即将过期、不知如何处理；评论指出 AWS 额度通常 1 年过期或分两笔发放，且额度在提供方资产负债表上是负债，所以必然设期限；另一帖提到 Activate 成员可享专属折扣。https://news.ycombinator.com/item?id=21832427",
+   "sources": [
+    "https://klymentiev.com/blog/aws-activate-credits",
+    "https://grantedai.com/grants/aws-activate-cloud-credits-program-ai-startups-aws-d2e3f4a5",
+    "https://pacewisdom.com/blog/eligibility-criteria-for-startups-in-aws-activate",
+    "https://creditforstartups.com/companies/aws",
+    "https://news.ycombinator.com/item?id=21832427",
+    "https://news.ycombinator.com/item?id=37750262",
+    "https://cloudkompas.com/blog/aws-activate-complete-guide-2026"
+   ],
+   "verdict": "更正",
+   "verifyNote": "Founders $1K、Portfolio 最高 $100K 多源一致；补充第三方 2026 指南称 Portfolio 额度 2 年有效；$300K AI 档仍只见第三方说法，维持未确认。"
+  },
+  {
+   "name": "AWS Generative AI Accelerator",
+   "category": "加速器与孵化器",
+   "region": "全球",
+   "offer": "最高 $1,000,000 AWS 促销额度，8 周导师辅导，免费参加 AWS re:Invent；不占股，不收费。形式为混合制：西雅图线下启动，6 周线上，最后在拉斯维加斯 re:Invent 收官。",
+   "eligibility": "做生成式或 agentic AI 的早期创业公司；每期选约 40 家 late-seed 至 Series A 的公司。",
+   "timing": "2026 期申请窗口为 6/10–7/10，已截止。2025、2026 两期都在年中开放；2027 期的具体时间未确认。",
+   "status": "已截止",
+   "howToApply": "在 aws.amazon.com/startups/programs/generative-ai 关注 2027 期开放。",
+   "fit": "中",
+   "fitWhy": "额度极大，且在 re:Invent 收官，能接触 AWS 生态里的 AI 公司（潜在买家）。但该项目偏 late-seed 以上，SimReal 完成 $20M 种子轮后申请 2027 期更有竞争力。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://aws.amazon.com/startups/programs/generative-ai",
+    "https://grantedai.com/grants/aws-generative-ai-accelerator-ai-startups-aws-e7f8a9b0",
+    "https://startupintros.com/resources/aws-generative-ai-accelerator-2026",
+    "https://aws.amazon.com/aws-startups/learn/aws-announces-21-startups-selected-for-the-aws-generative-ai-accelerator/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Microsoft for Startups Founders Hub",
+   "category": "算力与云额度",
+   "region": "全球",
+   "offer": "所有合格初创可即时获得 $5,000 Azure 额度。通过 Microsoft for Startups Investor Network 推荐码，或凭经验证的 Azure 实际使用逐步升级，最高可到 $150,000。平台内还有合作伙伴权益，例如 W&B 额度。",
+   "eligibility": "起步档不需要 VC，第三方指南称也不需要注册证书。超过 $5K 的档位需要关联 Investor Network（推荐码），或有经验证的使用增长；闲置的额度不会帮助升级。",
+   "timing": "滚动申请。",
+   "status": "滚动申请",
+   "howToApply": "在 Microsoft for Startups 官网注册 Founders Hub 拿 $5K。种子轮投资方如在 Investor Network 内，向其索取推荐码以拿到更高档。",
+   "fit": "中",
+   "fitWhy": "门槛最低、可以马上拿到；Azure 额度可用于 OpenAI 类模型工作负载和企业演示。但 $5K 之后的升级要靠投资人推荐码或真实用量。",
+   "effort": "低",
+   "community": "HN 上有帖子直接以“Azure startup credits are a bait and switch?”为题，质疑 Azure 创业额度的规则。https://news.ycombinator.com/item?id=35529128",
+   "sources": [
+    "https://learn.microsoft.com/en-us/answers/questions/5894112/request-guidance-for-joining-microsoft-for-startup",
+    "https://learn.microsoft.com/en-us/answers/questions/5888354/inquiry-about-progression-to-higher-azure-credit-t",
+    "https://guptadeepak.com/startup-offers/guides/microsoft-for-startups",
+    "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution",
+    "https://news.ycombinator.com/item?id=35529128"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "NVIDIA Inception",
+   "category": "算力与云额度",
+   "region": "全球",
+   "offer": "免费、不占股。包含 NVIDIA DLI 自学课程额度、NVIDIA 软硬件优惠价、合作伙伴云额度（例如 Nebius AI Lift 最高 $150,000，第三方称还可走 AWS Activate 通道），以及接触全球投资人生态的机会。第三方指南称合格会员可通过 Inception 门户申请最高 $100,000 的 DGX Cloud 额度（未确认）。",
+   "eligibility": "任何融资阶段的 AI 创业公司；无申请费、会员费，不要求股权。",
+   "timing": "滚动申请。",
+   "status": "滚动申请",
+   "howToApply": "在 nvidia.com/startups 提交申请（需公司网站、产品描述）。通过后在 Inception 门户里领取各合作伙伴的权益。",
+   "fit": "高",
+   "fitWhy": "门槛低，加入后可以解锁 Nebius AI Lift 等合作伙伴 GPU 额度，还能获得投资人曝光。第三方建议把它排在 Founders Hub 之后、Google/AWS 之前申请。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.nvidia.com/en-gb/startups",
+    "https://www.nvidia.com/en-eu/startups/faq",
+    "https://www.thundercompute.com/blog/nvidia-inception-program-guide",
+    "https://klymentiev.com/blog/nvidia-inception-program",
+    "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution",
+    "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/"
+   ],
+   "verdict": "确认",
+   "verifyNote": "2026 年第三方指南仍称 Inception 免费、不占股，是 Nebius AI Lift 与 AWS Activate 合作通道的前提；DGX Cloud $100K 未单独核实，维持未确认。"
+  },
+  {
+   "name": "Nebius AI Lift / Nebius for Startups",
+   "category": "算力与云额度",
+   "region": "全球（地区限制未确认）",
+   "offer": "AI Lift：合格的 NVIDIA Inception 会员最高可获 $150,000 Nebius 云额度。Startup program：最高 $150,000 云额度、$10,000 推理额度，并优先获得最新 NVIDIA GPU；来源中“前三个月内加入”条款的具体含义未确认。",
+   "eligibility": "AI Lift 需为合格的 NVIDIA Inception 会员；其他资质条件未确认。",
+   "timing": "滚动申请（未发现截止日）。",
+   "status": "滚动申请",
+   "howToApply": "先加入 NVIDIA Inception，再通过 nebius.com/startup-program 申请。",
+   "fit": "高",
+   "fitWhy": "SimReal 需要用开源模型做 SFT/RL 来证明自家数据和环境的效果（给买家看 uplift），GPU 云额度可以直接用在这上面；而且不要求 VC 背景，只要求 Inception 会员资格。",
+   "effort": "低",
+   "community": "Nebius 官方 X 账号称 AI Lift 面向 Inception 会员（Inception 当时超 22,000 家成员），提供最高 $150,000 额度。https://x.com/nebiusai/status/1909998003856802187",
+   "sources": [
+    "https://nebius.com/startup-program",
+    "https://x.com/nebiusai/status/1909998003856802187",
+    "https://www.geekwire.com/sponsor-post/supercharging-ai-startups-nebius-accelerates-ai-native-innovation-with-nvidia/",
+    "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/"
+   ],
+   "verdict": "确认",
+   "verifyNote": "2026 年第三方指南仍列出 AI Lift：Inception 会员最高 $150K 云额度加 $10K 推理额度，并优先使用 Blackwell，与记录一致。"
+  },
+  {
+   "name": "Nebius Research Credits Program",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "研究人员可免费使用 Nebius GPU 云、AI 模型和 Tavily agentic 搜索引擎，并获得专家支持；额度金额未确认。",
+   "eligibility": "面向研究人员，具体条件未确认。",
+   "timing": "未确认。",
+   "status": "未确认",
+   "howToApply": "在 nebius.com/nebius-research-credits-program 申请。",
+   "fit": "中",
+   "fitWhy": "如果把金融 RL 环境或 benchmark（例如开源一个 Xitadel 子集）包装成研究项目，可以拿额度，同时在研究社区获得曝光；但项目面向研究人员，不是商业项目。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://nebius.com/nebius-research-credits-program"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Lambda Research Grant",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "最高 $5,000 Lambda Cloud 额度，加上 Lambda 首席科学官 Chuan Li 的指导。",
+   "eligibility": "面向学术界 AI/ML 研究者，不面向创业公司寻求的通用算力。",
+   "timing": "未确认（Lambda 曾在 NeurIPS 期间宣传该项目）。",
+   "status": "未确认",
+   "howToApply": "通过 Lambda 官网的 Research Grant 页面申请。",
+   "fit": "低",
+   "fitWhy": "只有在创始人仍有学术身份（Cambridge/LSE/Duke），并以研究项目名义申请时才适用；金额小。",
+   "effort": "中",
+   "community": "Lambda 官方 X 账号称该项目面向 AI/ML 研究者（无论是否参加 NeurIPS），提供最高 $5,000 额度和导师指导。https://x.com/LambdaAPI/status/1866246663553323483",
+   "sources": [
+    "https://x.com/LambdaAPI/status/1866246663553323483",
+    "https://www.hpcwire.com/off-the-wire/lambda-launches-grant-for-ai-researchers-expands-research-program/",
+    "https://sourcey.com/c/lambda/offers/research-grant-cloud-credits"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "CoreWeave Startup Accelerator / CoreWeave Ventures",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "Accelerator：提供 CoreWeave Cloud 额度和额外的算力折扣，金额不公开，按阶段、工作负载和用量承诺逐家谈判。CoreWeave 还成立了风投部门，同时提供资金和算力额度（The Information 报道，细节未确认）。",
+   "eligibility": "未公开，按个案谈判。",
+   "timing": "第三方称滚动申请、无截止日。",
+   "status": "滚动申请",
+   "howToApply": "通过 CoreWeave 官网联系销售或加速器团队；风投部门的接触方式未确认。",
+   "fit": "中",
+   "fitWhy": "大规模 GPU 资源适合以后做 RL 训练和环境验证；风投部门既投钱又给算力，可以作为种子轮的战略投资人选项。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.coreweave.com/blog/coreweave-launches-startup-accelerator-program-democratizing-access-to-gpu-compute-in-the-cloud",
+    "https://grantedai.com/grants/coreweave-startup-accelerator-program-for-ai-and-gpu-compute-access-coreweave-41b17a82",
+    "https://www.theinformation.com/briefings/coreweave-starts-venture-arm-offering-funding-computing-credits"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Modal for Startups",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "官方称提供“数千美元”的免费 GPU 额度，具体金额和有效期未公布；第三方称最高 $50,000。一次性发放。",
+   "eligibility": "必须是 Modal 新客户；并且从 Modal 的 VC 合作网络融资，或从任意基金融资超过 $1M。",
+   "timing": "滚动申请。",
+   "status": "滚动申请",
+   "howToApply": "在 modal.com/startups 申请。SimReal 目前不符合条件，种子轮交割（超过 $1M）后立即申请。",
+   "fit": "中",
+   "fitWhy": "Serverless 的 GPU/CPU 适合弹性运行代码和数学类 RL 环境、verifier 和批量评测；但要先完成融资。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://modal.com/startups",
+    "https://www.getaiperks.com/en/ai/free-modal-credits"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Together AI Startup Accelerator",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "最高 $50K（来源说法为 credits/funding，用于模型开销；具体形式以官网为准）。Together 已取消免费层，最低预充值 $5。",
+   "eligibility": "有融资门槛（具体金额未确认）。",
+   "timing": "未确认。",
+   "status": "未确认",
+   "howToApply": "在 together.ai/startup-accelerator 申请。",
+   "fit": "中",
+   "fitWhy": "可以用来在开源模型上做微调和推理，验证 SFT/偏好数据的效果；但有融资门槛。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+    "https://www.thundercompute.com/blog/free-cloud-gpu-credits"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Fireworks AI Startup Program",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "推理和微调额度，金额未确认。",
+   "eligibility": "需已融资 $500K 以上，bootstrapped 或 pre-seed 公司无法申请。",
+   "timing": "未确认。",
+   "status": "未确认",
+   "howToApply": "在 fireworks.ai/startups 申请（种子轮交割后）。",
+   "fit": "中",
+   "fitWhy": "适合低成本跑开源模型的推理和 RFT 实验；但种子轮完成前不符合条件。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+    "https://fin.ai/learn/ai-credits-for-startups"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Baseten Startup Program",
+   "category": "算力与云额度",
+   "region": "全球（未确认）",
+   "offer": "最高 $25,000，用于专用推理或训练；另有最高 $2,500 Model APIs 额度。",
+   "eligibility": "AI-first 公司；Seed 至 Series A；成立不到 5 年。",
+   "timing": "未确认。",
+   "status": "未确认",
+   "howToApply": "在 baseten.co/startup-program 申请。",
+   "fit": "中",
+   "fitWhy": "训练和推理额度可以用来做数据效果验证；要求 Seed 阶段，种子轮后申请更稳妥。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.spheron.network/blog/free-gpu-cloud-credits-2026/",
+    "https://www.thundercompute.com/blog/free-cloud-gpu-credits"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Anthropic Startup Program (Claude for Startups)",
+   "category": "算力与云额度",
+   "region": "全球（需已注册公司）",
+   "offer": "免费 Claude API 额度：直接申请 $5,000（Standard 档）；凭 VC/加速器合作伙伴推荐码 $25,000（Partner 档）；最高 $100,000（Premium 档，第三方称需顶级合作 VC 提名）。另有优先速率限制和创始人活动。额度有效期 12 个月。",
+   "eligibility": "公司须已注册成立（未注册的项目不发额度）；成立不超过 4 年；从未领过 Anthropic 创业额度。2026 年第三方指南称还需有机构投资人的股权融资，与“不强制要求 VC”的说法冲突，官方要求未确认；合作 VC/加速器背书可以拿更高档。",
+   "timing": "滚动申请；每份额度有效期 12 个月。",
+   "status": "滚动申请",
+   "howToApply": "在 claude.com/programs/startups 申请，在申请中写明合作 VC 或加速器关系。也可以请种子轮投资方确认是否在 Anthropic 合作伙伴名单内，并索取推荐码。",
+   "fit": "高",
+   "fitWhy": "生成高质量 agent 轨迹、rubric 打分和 eval 都要大量调用前沿模型；创始人活动也有机会接触 Anthropic 团队，而 Anthropic 本身是数据买方。若确需机构股权融资，要等种子轮首笔资金到位后再申请。",
+   "effort": "低",
+   "community": "HN 有帖子提醒：Anthropic 连付费购买的额度也会在一年后过期，不要一次预充太多。https://news.ycombinator.com/item?id=44793446",
+   "sources": [
+    "https://securityboulevard.com/2026/08/anthropic-claude-for-startups-the-complete-guide-to-credits-tiers-and-eligibility-2026/",
+    "https://guptadeepak.com/startup-offers/programs/anthropic-startup-program",
+    "https://creditforstartups.com/resources/anthropic-claude-startup-credits",
+    "https://news.ycombinator.com/item?id=44793446"
+   ],
+   "verdict": "更正",
+   "verifyNote": "金额和 12 个月有效期一致；更正：$100K 档据称需顶级合作 VC 提名，而不是 Anthropic 酌情发放；2026 指南称需机构股权融资，与原记录“不强制 VC”冲突，标为未确认；申请入口为 claude.com/programs/startups。"
+  },
+  {
+   "name": "OpenAI for Startups (partner VC credits)",
+   "category": "算力与云额度",
+   "region": "全球（需由合作 VC 推荐）",
+   "offer": "免费 API 额度（金额未确认），更高速率限制，以及与 OpenAI solutions engineer 交流的时间。",
+   "eligibility": "只对 OpenAI 合作网络内 VC 投资的公司开放；没有直接申请通道，bootstrapped 或天使轮公司拿不到，必须有合作 VC 的推荐码。",
+   "timing": "滚动（通过 VC 推荐）。",
+   "status": "滚动申请",
+   "howToApply": "种子轮谈判时询问各家 VC 是否在 OpenAI 合作网络内、能否提供推荐码。在此之前可以通过 Ramp 的 perk 拿到 $2,500 OpenAI 额度。",
+   "fit": "中",
+   "fitWhy": "做数据生成和跨模型 eval 需要 OpenAI 模型；和 OpenAI 工程师交流也可能变成客户线索。但现在拿不到。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://ideople.com/perks/openai-startup-credits",
+    "https://guptadeepak.com/startup-offers/programs/mercury-raise"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Mistral AI for Startups (Mistralship)",
+   "category": "算力与云额度",
+   "region": "未确认（偏欧洲）",
+   "offer": "最高 €30,000 额度，外加 cohort 支持。",
+   "eligibility": "pre-seed 至 Series A，不需要 VC 推荐。",
+   "timing": "第三方称截至 2026 年 8 月申请页面返回 404，目前没有公开的申请通道。",
+   "status": "未确认",
+   "howToApply": "关注 Mistral 官网是否重新开放；目前不建议投入时间。",
+   "fit": "低",
+   "fitWhy": "金额不错，但项目现状不明，而且 Mistral 不是 SimReal 的核心工具链。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://guptadeepak.com/startup-offers/programs/mistral-startups",
+    "https://aicredits.dev/submissions/163-mistral-ai-startup-program-mistralship-up-to-30k-credits",
+    "https://www.aicredits.co/en/blogs/mistral-startup-program"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Weights & Biases for Startups",
+   "category": "创业福利",
+   "region": "全球",
+   "offer": "最高 $3,000 W&B 额度。",
+   "eligibility": "bootstrapped、pre-seed 或 seed 公司，需 VC 或加速器推荐。没有独立申请入口，要先加入 Microsoft Founders Hub 或 Google Cloud Startup Perks，再从其市场中兑换。",
+   "timing": "滚动。",
+   "status": "滚动申请",
+   "howToApply": "加入 Founders Hub 或 Google for Startups Cloud 后，在 perks 市场兑换。",
+   "fit": "中",
+   "fitWhy": "用于追踪 RL/SFT 实验，向客户展示数据带来的效果提升；金额小，但几乎不花力气。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://guptadeepak.com/startup-offers/programs/wandb-startups"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Hugging Face / Cohere startup programs（已停止）",
+   "category": "算力与云额度",
+   "region": "全球",
+   "offer": "Hugging Face 目前没有创业项目，只有免费版 $0.10/月、PRO $2/月的推理额度。Cohere 的创业项目页面已跳转到首页，原本提供的是折扣而非额度，看起来已撤回。",
+   "eligibility": "不适用。",
+   "timing": "已停止（截至 2026 年第三方核查）。",
+   "status": "已截止",
+   "howToApply": "不必申请；Hugging Face 更适合作为发布开源环境或数据集的曝光渠道。",
+   "fit": "低",
+   "fitWhy": "列出来是为了避免浪费时间。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://guptadeepak.com/startup-offers/programs/huggingface-startups",
+    "https://fin.ai/learn/ai-credits-for-startups"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Oracle for Startups",
+   "category": "算力与云额度",
+   "region": "全球",
+   "offer": "$500 免费 OCI 额度，加上所有 Oracle Cloud Infrastructure 服务持续 70% 折扣。",
+   "eligibility": "未确认。",
+   "timing": "滚动（未确认）。",
+   "status": "未确认",
+   "howToApply": "通过 Oracle for Startups 官网申请。",
+   "fit": "低",
+   "fitWhy": "额度很小；持续 70% 折扣对长期 GPU 开销可能有用，可作为备选。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://betterstack.com/community/comparisons/best-startup-cloud-credit-programs/",
+    "https://klymentiev.com/blog/free-cloud-credits-developers"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Cloudflare for Startups",
+   "category": "创业福利",
+   "region": "全球",
+   "offer": "分档额度：bootstrapped $5,000，早期 $25,000，seed 融资 $100,000，高成长 $250,000；用于边缘计算、serverless 和安全服务；不占股。",
+   "eligibility": "排除代理机构、咨询公司、博客、MSP 和经销商；各档的具体认定标准未确认。",
+   "timing": "滚动。",
+   "status": "滚动申请",
+   "howToApply": "在 Cloudflare for Startups 页面申请；种子轮后可争取 $100K 档。",
+   "fit": "低",
+   "fitWhy": "可以用于专家标注平台的前端、存储和分发，但核心 GPU 需求覆盖不到。",
+   "effort": "低",
+   "community": "HN 有一篇“Cloudflare's Expanded Startup Program”讨论帖，评论内容未能抓取。https://news.ycombinator.com/item?id=43688980",
+   "sources": [
+    "https://creditforstartups.com/companies/cloudflare",
+    "https://betterstack.com/community/comparisons/cloudflare-vs-vercel-startups/",
+    "https://news.ycombinator.com/item?id=43688980"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Vercel for Startups / Vercel AI Accelerator",
+   "category": "创业福利",
+   "region": "全球（未确认）",
+   "offer": "Vercel for Startups 最高 $30,000 额度。AI Accelerator 每期 40 个团队，总额度超过 $8M，优胜者 $100K 以上。",
+   "eligibility": "做 Web 或 AI 应用的团队；AI Accelerator 竞争激烈，具体条件未确认。",
+   "timing": "AI Accelerator 下一期时间未确认。",
+   "status": "未确认",
+   "howToApply": "在 vercel.com 的 startups 页面申请。",
+   "fit": "低",
+   "fitWhy": "只覆盖 Web 前端（如专家平台、官网）；AI Accelerator 偏应用层，和 SimReal 的数据业务匹配度一般。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://betterstack.com/community/comparisons/cloudflare-vs-vercel-startups/",
+    "https://betterstack.com/community/comparisons/best-startup-cloud-credit-programs/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Stripe Atlas (incorporation + perks)",
+   "category": "创业福利",
+   "region": "美国（Delaware 主体）；非美国创始人能否使用未在来源中确认",
+   "offer": "注册费 $500（之后每年续费 $100）；最高 $2,500 Stripe 额度，外加价值 $50,000 以上的合作伙伴 perks，其中包括 $5,000 AWS Activate 额度（仅限新用户）和 Replit 额度。",
+   "eligibility": "通过 Atlas 注册公司（面向 bootstrapped、pre-seed、seed 阶段）。",
+   "timing": "随时。",
+   "status": "滚动申请",
+   "howToApply": "在 stripe.com/atlas 注册。如果选 Delaware 主体，先通过 Atlas 领 $5K AWS 额度，再去单独申请 Activate Founders 档，以免“仅限新用户”的条件被占用。",
+   "fit": "中",
+   "fitWhy": "如果确定用 Delaware 主体向美国 VC 融 $20M 种子轮，Atlas 能一步完成注册并拿到 AWS 额度；主体地点还没确定，所以列为中。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://guptadeepak.com/startup-offers/programs/stripe-atlas",
+    "https://guptadeepak.com/startup-offers/guides/stripe-atlas",
+    "https://support.stripe.com/questions/stripe-atlas-perks-partners",
+    "https://sparklaun.ch/compare/stripe-atlas"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Mercury Perks (Startup Essentials bundle) / Mercury Raise",
+   "category": "创业福利",
+   "region": "美国注册实体（需开 Mercury 账户）",
+   "offer": "Perks 市场合作伙伴额度合计超过 $200,000，包括最高 $5,000 AWS 额度、$5,000 Azure 额度、Google Cloud 相关优惠（来源称 $200,000 off）、QuickBooks 30% 折扣、Segment 免费层，以及 GitHub、Superhuman、1Password 折扣。另有 Mercury Raise。",
+   "eligibility": "需开设 Mercury 企业银行账户（美国公司）。",
+   "timing": "随时。",
+   "status": "滚动申请",
+   "howToApply": "开设 Mercury 账户后，在 mercury.com/perks 领取 Startup Essentials bundle。",
+   "fit": "中",
+   "fitWhy": "如果选美国主体，开户后就能叠加 AWS 和 Azure 额度；Mercury Raise 可能带来投资人接触。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://mercury.com/perks/bundles/startup-launch",
+    "https://guptadeepak.com/startup-offers/programs/mercury-raise",
+    "https://creditforstartups.com/companies/mercury"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Ramp / Brex startup perks",
+   "category": "创业福利",
+   "region": "美国注册实体",
+   "offer": "Ramp：合作伙伴 perks 价值超过 $350K，含 $2,500 OpenAI 额度。Brex：创业福利价值最高约 $175K（明细未确认）。",
+   "eligibility": "需开通 Ramp 或 Brex 企业卡（美国公司）。",
+   "timing": "随时。",
+   "status": "滚动申请",
+   "howToApply": "开通企业卡后在其 perks 页面领取。",
+   "fit": "中",
+   "fitWhy": "Ramp 的 $2,500 OpenAI 额度是 SimReal 现阶段（没有合作 VC 推荐码时）拿 OpenAI 额度的少数途径之一。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://guptadeepak.com/startup-offers/programs/mercury-raise",
+    "https://www.vcboom.com/perks/mercury"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "UK AI Research Resource (AIRR) – Isambard-AI & Dawn Rapid Access route",
+   "category": "算力与云额度",
+   "region": "英国（仅限 UK 注册的微型、小型和中型企业）",
+   "offer": "每份申请 20,000 GPU 小时，在 Isambard-AI（Bristol）或 Dawn（Cambridge）两台国家 AI 超算中选一台使用，免费；不提供现金资助；须在获批后 3 个月内用完。另有 Gateway（概念测试）和 Innovator（更大项目）两条通道。",
+   "eligibility": "UK 注册的微型、小型或中型企业，须有 Companies House 注册号；用于早期 AI 产品研发（可行性研究、工业研究、实验开发）。",
+   "timing": "UKRI 常设 Rapid Access 通道，每周评审，目标两周内出结果。",
+   "status": "滚动申请",
+   "howToApply": "在 UKRI 的“Isambard-AI and Dawn AIRR supercomputers: Rapid Access route”页面申请。",
+   "fit": "高",
+   "fitWhy": "如果设立 UK 主体，这是免费的大量 GPU 小时，可以在开源模型上验证金融 RL 环境和 SFT 数据的效果；同时也和英国政府的 AI 生态建立了关系。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.ukri.org/opportunity/isambard-ai-and-dawn-airr-supercomputers-rapid-access-route/",
+    "https://www.ukri.org/opportunity/isambard-ai-and-dawn-airr-supercomputers-innovator-route/",
+    "https://www.digit.fyi/uk-opens-up-national-ai-research-resource-to-startups/",
+    "https://www.hpcwire.com/off-the-wire/brics-brings-isambard-ai-compute-to-uk-ai-startups-through-sovereign-program/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "UKRI 页面确认：20,000 GPU 小时只能用在 Dawn 或 Isambard-AI 其中一台，不提供现金；3 个月期限从获批时算；需 Companies House 注册号；每周评审、目标两周内出结果。状态改为滚动申请。"
+  },
+  {
+   "name": "UK Sovereign AI Unit (£500m) – compute offer",
+   "category": "政府与政策",
+   "region": "英国（英国 AI 创业公司）",
+   "offer": "£5 亿政府背景的 Sovereign AI 单元，像 VC 一样直接股权投资英国 AI 创业公司。获投公司可通过 AIRR 获得最高 100 万 GPU 小时（首批 7 家中 6 家获得；第三方称附带优先购买权 ROFR），另有投资以外的支持（Offer Beyond Investment）：快速签证配额、监管协助、数据访问和早期政府采购机会。",
+   "eligibility": "英国 AI 创业公司，领域须对公众或国家安全有关键意义；具体标准未确认。",
+   "timing": "已投出首批 7 家；申请批次与截止日未确认。",
+   "status": "未确认",
+   "howToApply": "通过 sovereignai.gov.uk 了解并联系。",
+   "fit": "高",
+   "fitWhy": "如果主体设在英国，100 万 GPU 小时的量级远超任何商业额度；金融 AI 和评测基础设施可以往“国家能力”方向叙事。但它本质是股权投资方，拿算力通常意味着要接受其投资。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.sovereignai.gov.uk/offer-beyond-investment",
+    "https://www.bristol.ac.uk/research/centres/bristol-supercomputing/articles/2026/isambard-ai-supercomputer-powers-500m-uk-sovereign-ai-fund.html",
+    "https://startups.co.uk/news/sovereign-ai-funding/",
+    "https://fundmomentum.vc/blog/uk-sovereign-ai-fund-500m-balderton-james-wise-callosum-2026"
+   ],
+   "verdict": "更正",
+   "verifyNote": "100 万 GPU 小时属实；补充：这是直接股权投资的基金，算力随投资提供（第三方称附 ROFR）；另含签证、监管、数据与政府采购支持；首批共投 7 家。"
+  },
+  {
+   "name": "阿里云初创企业扶持 / 算力补贴 / OPC 创新助力计划",
+   "category": "算力与云额度",
+   "region": "中国（阿里云中国站，需企业实名认证；非中国大陆主体能否申请未确认）",
+   "offer": "注册 10 年以内的企业可限时申领最高 100 万元上云抵扣金（领取后 30 天内有效）；初创企业上云抵扣金 3,500 元至 10 万元；首次迁入阿里云的企业可分享总额 5 亿元的算力补贴；千问焕新计划免费送 7,000 万 Tokens；OPC 创新助力计划提供 1,000 元至 100 万元 Token 补贴。",
+   "eligibility": "完成企业实名认证；注册 10 年以内；部分补贴仅限首次上云或首次迁入阿里云的企业新客。",
+   "timing": "限时活动，滚动更新；具体截止日未确认。",
+   "status": "开放中",
+   "howToApply": "在 startup.aliyun.com 或阿里云开发者社区的活动页，用企业实名账号申领。",
+   "fit": "中",
+   "fitWhy": "如果有中国主体，可以低成本跑千问等开源模型的推理和训练，也能接触中国大模型厂商（潜在买家）；但抵扣金有效期短，需要先规划好用途再领。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://developer.aliyun.com/article/1724597",
+    "https://developer.aliyun.com/article/1748434",
+    "https://developer.aliyun.com/article/1716115",
+    "https://startup.aliyun.com/info/1085837.html",
+    "https://developer.aliyun.com/article/1707140",
+    "https://zhuanlan.zhihu.com/p/2048107363417208304",
+    "https://www.kufanyun.com/ask/583785.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额用尽，未复核；限时活动金额与有效期变化快，使用前需到阿里云活动页确认。"
+  },
+  {
+   "name": "Innovate UK — Frontier AI: SME Champions, Phase 1",
+   "category": "非稀释资助",
+   "region": "英国（仅限英国注册 SME）",
+   "offer": "该竞赛总池最高 £3,100,000，用于前沿 AI/ML 技术的可行性研究（feasibility study），要求有清晰、可防御的扩张路径；单项目金额上限未确认",
+   "eligibility": "英国注册的中小企业（SME）；若 SimReal 以英国实体运营即符合主体要求；美国/中国实体不符合。官方定义的 Frontier AI 要求在基准上达到 state of the art 或提供全新能力，且进步须来自模型/系统架构、训练方法、核心学习算法或核心控制算法的创新",
+   "timing": "2026-10-01 开放，2026-11-11 11:00 截止",
+   "status": "开放中",
+   "howToApply": "通过 Innovate UK Innovation Funding Service 提交申请（竞赛编号 2584）：https://apply-for-innovation-funding.service.gov.uk/competition/2584/overview/4c7afb5d-4572-4ef2-9507-73ef2dec8ec8",
+   "fit": "高",
+   "fitWhy": "直接面向前沿 AI 的英国 SME，可将 RL 环境/verifier/金融评测（Xitadel、月结环境）包装为前沿模型后训练（训练方法）创新的可行性研究；注意官方要求进步来自训练方法或算法创新，纯数据业务需要改写叙事；距截止约 6 周",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://apply-for-innovation-funding.service.gov.uk/competition/2584/overview/4c7afb5d-4572-4ef2-9507-73ef2dec8ec8",
+    "https://iuk-business-connect.org.uk/opportunities/frontier-ai-sme-champions-phase-1/",
+    "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+    "https://grantedai.com/grants/innovate-uk-grant-funding-opportunities-live-feed-innovate-uk-a4124a90"
+   ],
+   "verdict": "更正",
+   "verifyNote": "官方竞赛页显示截止日是 2026-11-11 11:00，不是 12-02；资金池是 £3.1M，不是 £3M；补充官方对 Frontier AI 的定义和竞赛直链。"
+  },
+  {
+   "name": "Innovate UK — Efficient, Structured and Controllable AI Systems",
+   "category": "非稀释资助",
+   "region": "英国（仅限英国注册 SME）",
+   "offer": "竞赛总池最高 £1,660,000，用于对'高效、结构化、可控学习系统'的新型可复用组件做原型 AI 系统实验验证；单项目金额未确认",
+   "eligibility": "英国注册 SME",
+   "timing": "2026-10-12 开放，2026-11-18 截止",
+   "status": "即将开放",
+   "howToApply": "Innovate UK Innovation Funding Service 竞赛列表中提交：https://apply-for-innovation-funding.service.gov.uk/competition/search",
+   "fit": "中",
+   "fitWhy": "verifier/奖励模型/可控性评测可视为'可控学习系统的可复用组件'，但题目偏模型系统本身而非数据，需要较强的技术叙事改写",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://apply-for-innovation-funding.service.gov.uk/competition/2582/overview/9fdb47a5-011c-4c47-ac5e-c426e295fe89",
+    "https://apply-for-innovation-funding.service.gov.uk/competition/search",
+    "https://grantedai.com/grants/innovate-uk-grant-funding-opportunities-live-feed-innovate-uk-a4124a90"
+   ],
+   "verdict": "确认",
+   "verifyNote": "官方竞赛页（编号 2582）确认：£1.66M，2026-10-12 开放，2026-11-18 11:00 截止，属工业研究；主题含资源自适应学习、干预检验与反事实预测、图原生学习拓扑等。"
+  },
+  {
+   "name": "Innovate UK Growth Catalyst（Smart Grants 替代路径）",
+   "category": "非稀释资助",
+   "region": "英国",
+   "offer": "整合型支持：资助金 + 配套私人投资 + 企业辅导，面向高潜力初创公司扩张；金额未确认。Smart Grants 自 2025 年 1 月起暂停",
+   "eligibility": "英国企业；具体门槛未确认",
+   "timing": "未确认（需在 Innovate UK 竞赛列表中关注各期开放）",
+   "status": "未确认",
+   "howToApply": "关注 https://apply-for-innovation-funding.service.gov.uk/competition/search 中的 Growth Catalyst 各期竞赛",
+   "fit": "中",
+   "fitWhy": "Smart Grants 已暂停，Growth Catalyst 是 Innovate UK 当前对初创公司的主要通用资金通道，且与私募投资挂钩，适合正在募资的公司",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://casrai.org/guides/innovate-uk-smart-grants",
+    "https://apply-for-innovation-funding.service.gov.uk/competition/search"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Laude Institute Slingshots",
+   "category": "非稀释资助",
+   "region": "全球（已公布批次以美国和加拿大机构为主：Stanford、Berkeley、MIT、CMU、UIUC、Michigan 等）；公司是否可申请未确认",
+   "offer": "快速、低门槛的资助和实操支持，按项目定制，可包括资金、算力、工程资源、产品指导和导师，入选后立即投放；具体金额未确认。聚焦能落地的 AI 研究：首批含 Terminal-Bench、ARC-AGI，第二批含 FormulaCode、BizBench（白领 AI agent 基准），第三批覆盖本地推理、架构创新、持续学习、agentic 系统与生物科学",
+   "eligibility": "面向把新研究转化为创业公司或开源基础设施的计算机科学家，要求产出可落地的研究成果（'Research that ships'）；营利公司能否作为主申请方未确认，已公布批次均来自高校/研究机构，建议与高校实验室联合",
+   "timing": "全年滚动接收，每几个月公布一批；第二批于 2026-02-26 公布；第三批于 2026-06-25 公布（13 个项目，来自美国和加拿大 12 家机构）",
+   "status": "滚动申请",
+   "howToApply": "在 https://www.laude.org/slingshots/apply 注册登录后提交申请",
+   "fit": "高",
+   "fitWhy": "Slingshots 是目前最对口 RL 环境/agent 基准的资助：BizBench 这类白领 agent 基准与 SimReal 的金融/月结环境几乎同类；入选还能在 RL/eval 研究圈获得高曝光",
+   "effort": "中",
+   "community": "Laude 官方 X 发布 Slingshots // TWO 时称'Research that ships. 14 projects, six institutions'——入选者全部来自高校，说明公司团队最好挂靠学术合作者（https://x.com/LaudeInstitute/status/2027101196348207176）",
+   "sources": [
+    "https://www.laude.org/updates/slingshots-two",
+    "https://www.laude.org/updates/slingshots-three",
+    "https://www.laude.org/slingshots/apply",
+    "https://techcrunch.com/2025/11/06/laude-institute-announces-first-batch-of-slingshots-ai-grants/",
+    "https://x.com/LaudeInstitute/status/2027101196348207176"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充第三批：2026-06-25 公布，13 个项目，来自美国和加拿大 12 家机构；申请入口改为 laude.org/slingshots/apply；支持形式包括资金、算力、工程资源、产品指导和导师，面向“把研究变成创业公司或开源基础设施”的研究者。"
+  },
+  {
+   "name": "Frontier Model Forum — AI Safety Fund (AISF)",
+   "category": "非稀释资助",
+   "region": "全球（具体资格未确认）",
+   "offer": "1,000 万美元以上的联合资助基金（Anthropic、Google、Microsoft、OpenAI 等前沿实验室出资）；2025-12 公布 11 个新受资方共获超 500 万美元，RFP 方向包括 AI Agent Evaluation、网络安全、生物安全、合成内容",
+   "eligibility": "未确认（过往受资方含研究机构与组织；营利公司资格未确认）",
+   "timing": "下一轮 RFP 时间未确认；FMF 自 2025-06 起直接管理该基金",
+   "status": "未确认",
+   "howToApply": "关注 Frontier Model Forum 官网更新与 RFP 发布：https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+   "fit": "中",
+   "fitWhy": "上一轮明确有 'AI Agent Evaluation' 方向，受资项目含网络安全运营评测、ICS benchmarking、agent 评测，与 SimReal 的 agent 轨迹/环境能力匹配；出资方即 SimReal 的潜在客户（前沿实验室）",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.frontiermodelforum.org/updates/announcement-of-new-ai-safety-fund-grantees/",
+    "https://grantedai.com/grants/frontier-model-forum-ai-safety-fund-frontier-model-forum-782a468a"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Coefficient Giving（原 Open Philanthropy）— AI Governance and Policy 通用 RFP / Technical AI Safety RFP",
+   "category": "非稀释资助",
+   "region": "全球",
+   "offer": "资助减轻先进 AI 灾难性风险的项目；金额未确认（按项目）",
+   "eligibility": "来源称任何人都可申请，包括学术界、非营利、产业界与个人",
+   "timing": "AI Governance and Policy RFP 滚动接收；Technical AI Safety RFP 当前状态未确认",
+   "status": "滚动申请",
+   "howToApply": "在 coefficientgiving.org 对应 RFP 页面提交 EOI；已关闭的评测类 RFP 官方建议转投 AI Governance and Policy 通用 RFP",
+   "fit": "中",
+   "fitWhy": "SimReal 的高难度金融/agent 基准若能论证与灾难性风险（如自主 agent 能力评估）相关，可走这条线；纯商业数据业务不符合",
+   "effort": "中",
+   "community": "EA Forum 上 Open Phil 发布的评测 RFP 讨论帖说明其更看重 GCR 相关的高难度基准、评测科学与第三方访问基础设施（https://forum.effectivealtruism.org/posts/bpBANcQwSmfQL3yPg/improving-capability-evaluations-for-ai-governance-open）",
+   "sources": [
+    "https://grantedai.com/grants/ai-governance-and-policy-rfp-open-philanthropy-now-coefficient-giving-2a0c0719",
+    "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/",
+    "https://coefficientgiving.org/tais-rfp-research-areas/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Coefficient Giving — Improving Capability Evaluations RFP / Benchmarking LLM Agents on Consequential Real-World Tasks RFP",
+   "category": "非稀释资助",
+   "region": "全球",
+   "offer": "资助三类工作：构建 GCR 相关基准、推进评测科学、改善第三方模型访问基础设施；以及在真实高后果任务上做 LLM agent 基准；金额未确认",
+   "eligibility": "任何人（含产业界）",
+   "timing": "Improving Capability Evaluations 于 2025-04-14 停止接收；LLM Agent Benchmarks RFP 已关闭；官方建议转投更新的评测 RFP / 通用 RFP",
+   "status": "已截止",
+   "howToApply": "不再接收；符合条件的提案可转投 AI Governance and Policy 通用 RFP",
+   "fit": "中",
+   "fitWhy": "主题与 SimReal 高度重合（agent 在真实后果性任务上的基准），虽已关闭，但说明该资助方持续资助此类工作，可作为通用 RFP 的叙事模板",
+   "effort": "中",
+   "community": "EA Forum 原帖：EOI 滚动审核，目标两周内回复（https://forum.effectivealtruism.org/posts/bpBANcQwSmfQL3yPg/improving-capability-evaluations-for-ai-governance-open）",
+   "sources": [
+    "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-improving-capability-evaluations/",
+    "https://coefficientgiving.org/funds/navigating-transformative-ai/rfp-llm-benchmarks/",
+    "https://www.openphilanthropy.org/request-for-proposals-improving-capability-evaluations/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Coefficient Giving — AI for Forecasting and Sound Reasoning RFP",
+   "category": "非稀释资助",
+   "region": "全球",
+   "offer": "资助用 AI 改善预测与稳健推理的项目；金额未确认",
+   "eligibility": "任何人（含产业界）",
+   "timing": "已于 2026-02-07 停止接收；下一期未确认",
+   "status": "已截止",
+   "howToApply": "关注 coefficientgiving.org Forecasting 基金页面是否重开",
+   "fit": "中",
+   "fitWhy": "SimReal 有 forecasting 方向数据/环境，若重开属直接对口",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://coefficientgiving.org/funds/forecasting/request-for-proposals-ai-for-forecasting-and-sound-reasoning/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "UK AISI Challenge Fund",
+   "category": "非稀释资助",
+   "region": "英国主导（国际申请资格未确认）",
+   "offer": "总池 £5,000,000，每项目 £50,000–£200,000，快速响应型 AI 安全/安保研究资助",
+   "eligibility": "未确认（需核实是否接受营利公司及非英国实体）",
+   "timing": "截止 2026-04-01；下一期未确认（来源称 AISI 预计 2026 年还会有其他学术资助计划）",
+   "status": "已截止",
+   "howToApply": "关注 https://aisi.gov.uk/grants",
+   "fit": "中",
+   "fitWhy": "金额适中、周期快，AI 安全评测/verifier 类项目对口；但当前窗口已关",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://aisecurityandsafety.org/en/grants/uk-aisi-challenge-fund/",
+    "https://aisi.gov.uk/grants",
+    "https://grantedai.com/grants/uk-aisi-challenge-fund-ai-safety-security-research-aisi-c5d6e7f8"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "UK AISI — The Alignment Project",
+   "category": "非稀释资助",
+   "region": "国际（由英国 AISI 牵头）",
+   "offer": "总池 £27,000,000，每项目最高 £1,000,000，资助防止先进 AI 出现危险行为的对齐研究",
+   "eligibility": "未确认（营利公司资格需核实）",
+   "timing": "此前关闭，来源称预计 2026 夏季重开；截至 2026-10-02 是否已重开未确认。另有来源称同形式项目 2026 年内不太可能再开（所指项目未确认）",
+   "status": "未确认",
+   "howToApply": "关注 https://alignmentproject.aisi.gov.uk/",
+   "fit": "中",
+   "fitWhy": "对齐研究需要 RL 环境、奖励/verifier 与偏好数据，SimReal 可作为数据/环境方与学术 PI 联合申请",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://aisecurityandsafety.org/en/grants/uk-aisi-alignment-project/",
+    "https://alignmentproject.aisi.gov.uk/",
+    "https://grantedai.com/grants/alignment-project-international-fund-ai-alignment-research-uk-ai-security-institute-aisi-2026"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "ARIA Safeguarded AI — Cybersecurity（Blue Teams 滚动征集）",
+   "category": "非稀释资助",
+   "region": "英国（项目 >50% 成本与人员时间需在英国）",
+   "offer": "£20M 征集，计划资助 3–6 个 blue team，每队约 £2.5M–£3.5M，用于构建关键安全属性有机器验证证明、并由中央红队渗透测试的可证明安全的软件组件；按 8 周冲刺周期推进",
+   "eligibility": "初创公司、SME、大公司、高校、非营利均可；多数工作须在英国进行",
+   "timing": "首个截止 2026-07-01 已过；此后 Track 1 Blue Teams 滚动申请至 2026 年底；下一个提案截止 2026-10-31 14:00 GMT（原记录中“11 月审核、11-30 通知”与“项目 2027-11 底前完成、周期 10–15 个月”未复核）",
+   "status": "开放中",
+   "howToApply": "ARIA 资助页面提交提案：https://aria.org.uk/funding-opportunities",
+   "fit": "低",
+   "fitWhy": "金额大且对初创开放，但主题是 AI 驱动形式化方法做可证明安全软件，与 SimReal 的 verifier 能力有交集但偏离金融数据主业，需组建专门团队",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://aria.org.uk/media/ififbryj/safeguarded-ai-cybersecurity-solicitation_accessible.pdf",
+    "https://iuk-business-connect.org.uk/opportunities/aria-safeguarded-ai-cybersecurity-rolling-call/",
+    "https://granttree.co.uk/blog/grant-funding/safeguarded-ai-cybersecurity-grants-of-up-to-3-5-million-for-uk-teams-building-provably-secure-software/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "10-31 14:00 GMT 截止与 £2.5–3.5M/队属实；更正：滚动申请期是到 2026 年底，不是“2027 年初”；补充首个截止 7-01 已过、计划资助 3–6 队、按 8 周冲刺推进。"
+  },
+  {
+   "name": "Foresight Institute — AI for Science & Safety Nodes RFP 2026",
+   "category": "非稀释资助",
+   "region": "全球（节点位于 San Francisco 与 Berlin）",
+   "offer": "典型每项目 $30,000–$100,000，合适项目可更高；另提供算力、SF/Berlin 节点办公空间与社区；项目须开源。本轮 RFP 分三个方向：I. 本地算力（Local Compute），II. 协调与问责，III. AI-first 科学（生物、神经、纳米）",
+   "eligibility": "全球个人、团队、非营利或营利组织均可申请；愿意在节点线下参与者强烈优先；开源项目，需在 1–3 年内有降低先进 AI 风险的潜力",
+   "timing": "2026-10-31 23:59 PDT 截止；截止后约 3 个月出结果",
+   "status": "开放中",
+   "howToApply": "在 Foresight Institute 官网 RFP 页面提交：https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+   "fit": "中",
+   "fitWhy": "可把一个金融/agent 安全评测环境或 verifier 开源作为项目，同时获得算力与 SF 节点曝光；金额小但门槛低、截止近",
+   "effort": "中",
+   "community": "Foresight 官方 X 曾在上一轮截止前两周提醒申请，说明每轮都有固定截止节奏（https://x.com/foresightinst/status/1901649906210648209）",
+   "sources": [
+    "https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+    "https://www.globalsouthopportunities.com/2026/09/15/fore/",
+    "https://grantedai.com/grants/foresight-institute-ai-for-science-and-safety-nodes-grants-compute-hub-access-foresight-2026",
+    "https://opportunitydesk.org/2025/12/16/foresight-institute-ai-for-safety-science-nodes-2026/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "10-31 截止与 $30K–$100K 属实；更正资格：营利组织明确可以申请（原写未确认），线下参与者优先；补充三个方向和官网申请页。"
+  },
+  {
+   "name": "EIC Accelerator 2026",
+   "category": "非稀释资助",
+   "region": "欧盟成员国及 Horizon Europe 关联国；英国实体只能申请 grant-only（不能获得 EIC Fund 股权部分）；美国/中国实体不符合",
+   "offer": "最高 €2,500,000 一次性资助（最高覆盖 70% 成本），另可通过 EIC Fund 获股权投资（来源给出的上限从 €10M 到 €15M 不等，具体区间未确认；英国实体不适用）",
+   "eligibility": "单一初创/SME，需 TRL 6–8、有可运行原型与商业化计划；英国实体只能走 grant-only",
+   "timing": "2026 年全文截止日：1/7、3/4、5/6、7/8、9/2、11/4（均为布鲁塞尔时间 17:00）；短申请持续开放，每月第一个周二批处理；短申请流程约 2–4 周",
+   "status": "开放中",
+   "howToApply": "先提交短申请（约 12 页摘要 + 10 页 pitch deck + 3 分钟视频），通过后再提交约 20 页全文：https://www.euacc.ai/programmes/eic-accelerator",
+   "fit": "中",
+   "fitWhy": "金额大且非稀释，但要求 EU/关联国实体和 TRL 6–8；英国实体可申请 grant-only；SimReal 刚起步，赶 11/4 很紧，现实目标是 2027 年的截止日",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.euacc.ai/programmes/eic-accelerator",
+    "https://getgrant.ua/en/grants-and-funding/eic-accelerator-2026/",
+    "https://www.onesynergy.eu/2026/06/29/eic-accelerator-2026-july-cutoff/",
+    "https://www.seglerconsulting.com/ufaqs/can-uk-companies-apply-for-eic-accelerator-funding-6208",
+    "https://www.abgi-uk.com/news-resources/eic-accelerator-grant-funding-2026/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "2026 截止日属实；补充英国资格：英国实体可申请，但只能拿 grant-only，拿不到 EIC Fund 股权；股权上限各来源不一致，改为未确认。"
+  },
+  {
+   "name": "NSF SBIR/STTR（NSF 26-510，含 AI/ML 主题）",
+   "category": "非稀释资助",
+   "region": "美国（美国小企业；外国关联申请人需额外安全审查）",
+   "offer": "本轮共 2.5 亿美元，覆盖 Phase I、Phase II、Fast-Track、补充资助，新增最高 3,000 万美元的 Strategic Breakthrough 档（面向 Phase II 毕业者），另有 4,000 万美元科学仪器试点；第三方称 Phase I 单项最高 $305,000",
+   "eligibility": "美国小企业；重新授权法案新增对外国关联申请人的安全审查——华人创始团队、中国关联需特别评估；所有权要求以官方 solicitation 为准",
+   "timing": "SBIR 于 2026-04-13 重新授权至 2031-09-30；Project Pitch 于 2026-06-02 重开（须先过 Pitch，邀请通常需 4–6 周）；首个全文截止 2026-07-27（已过）；第二个窗口 2026-11-04，第三个 2027-03-04；此后每年 11 月第一个周三、3 月第一个周四",
+   "status": "开放中",
+   "howToApply": "先提交 Project Pitch，获邀后再提交全文；现在提交 Pitch 赶 11-04 较紧，现实目标是 2027-03-04；参考 https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026",
+   "fit": "低",
+   "fitWhy": "非稀释且 AI/ML 是支持领域，但需美国实体，且外国关联审查对中国背景团队风险较高",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026",
+    "https://grantedai.com/blog/nsf-sbir-sttr-250-million-relaunch-project-pitch-july-27-deadline-deep-tech-startups-strategy-2026",
+    "https://sbirgrantwriters.com/sbir-blog-sbir-sttr-landscape-2026",
+    "https://fundunlocked.com/learn/nsf-sbir-deadlines-2026/",
+    "https://fundinglandscape.com/answers/sbir-sttr-reauthorization-2026"
+   ],
+   "verdict": "更正",
+   "verifyNote": "重新授权日期和 7-27 首个截止属实；补充后续截止日 2026-11-04 和 2027-03-04（原写未确认），Phase I 最高 $305K（第三方），以及 Pitch 到获邀需 4–6 周。"
+  },
+  {
+   "name": "Schmidt Sciences — Science of Trustworthy AI RFP 2026",
+   "category": "非稀释资助",
+   "region": "全球（仅高校、研究机构、非营利）",
+   "offer": "$1M 至 $5M 以上；Tier 1 最高 $1M；明确偏好产出可部署的工具、基准与框架",
+   "eligibility": "高校、研究机构、非营利组织（营利公司不能作为主申请方）",
+   "timing": "2026-05-17 截止；下一期未确认",
+   "status": "已截止",
+   "howToApply": "下一期可通过学术合作方（如剑桥/LSE 实验室）作为主申请方，SimReal 作为数据/环境合作方",
+   "fit": "低",
+   "fitWhy": "主题（可部署基准）对口，但公司不能直接申请且本期已关",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://grantedai.com/news/schmidt-sciences-trustworthy-ai-grants-5-million-2026",
+    "https://grantedai.com/grants/schmidt-sciences-trustworthy-ai-rfp-2026-safety-governance-research-schmidt-a1b2c3d4"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Scaling AI Safety for a Multi-Agent World（Schmidt Sciences + Google DeepMind + ARIA + Cooperative AI Foundation + Google.org）",
+   "category": "非稀释资助",
+   "region": "全球（资格细节未确认）",
+   "offer": "按档位最高 $300,000 或最高 $1,000,000，研究多主体 AI agent 生态的监督与控制",
+   "eligibility": "未确认",
+   "timing": "2026-08-08 截止；下一期未确认",
+   "status": "已截止",
+   "howToApply": "Schmidt Sciences 申请门户：https://schmidtsciences.smapply.io/prog/scaling_ai_safety_for_a_multi_agent_world/",
+   "fit": "低",
+   "fitWhy": "多 agent 交易环境（如 Xitadel）本身就是多主体系统，主题有交集，但已截止",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://schmidtsciences.smapply.io/prog/scaling_ai_safety_for_a_multi_agent_world/",
+    "https://www.albany.edu/ocfr/news/2026-schmidt-sciences-and-others-scaling-ai-safety-multi-agent-world"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Survival and Flourishing Fund（SFF）— Speculation Grants / S-Process",
+   "category": "非稀释资助",
+   "region": "全球（营利公司资格未确认）",
+   "offer": "2026 各轮合计约 2,000 万–4,000 万美元；历史单笔约 $25,000–$2,000,000；Speculation Grants 为滚动小额快速资助",
+   "eligibility": "未确认（营利公司是否可获资助需查 SFF FAQ）",
+   "timing": "2026 主轮已于 2026-04-22 截止，各主题轮于 6–7 月截止，2026 秋季陆续公布；来源列出 2026-12-31 截止（应为滚动 Speculation Grants）",
+   "status": "滚动申请",
+   "howToApply": "https://survivalandflourishing.fund/2026/application",
+   "fit": "低",
+   "fitWhy": "主要资助 AI 存在性风险相关组织，商业数据公司匹配度低；仅当做开源安全评测时可考虑",
+   "effort": "中",
+   "community": "LessWrong 上发布了 SFF-2026 申请公告，申请者主要来自 AI 安全研究社区（https://www.lesswrong.com/posts/LHrFPojhy9kKvuaiL/sff-2026-s-process-grant-round-application-announcement）",
+   "sources": [
+    "https://survivalandflourishing.fund/2026/application",
+    "https://survivalandflourishing.fund/faq",
+    "https://grantedai.com/grants/survival-flourishing-fund-2026-s-process-ai-safety-existential-risk-long-term-future-sff-b8c9d0e1"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Manifund（AI 安全 regranting 平台）",
+   "category": "非稀释资助",
+   "region": "全球",
+   "offer": "个人 regranter 拥有资金池，资助在平台公开列出的项目；金额未确认",
+   "eligibility": "在平台公开发布项目即可；资格细节未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 Manifund 公开发布项目页面，争取 regranter 关注（入口见 https://aisafety.com/funding）",
+   "fit": "低",
+   "fitWhy": "适合小额开源评测项目，同时能在 AI 安全圈获得公开曝光；对核心业务资金帮助有限",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://aisafety.com/funding"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Emergent Ventures（Mercatus Center / Tyler Cowen）",
+   "category": "Fellowship 与早期项目",
+   "region": "全球",
+   "offer": "面向'moonshot'想法的 fellowship 与资助；金额未确认（Fast Grants 时期为 $10K–$500K，仅限 COVID 项目）",
+   "eligibility": "个人或项目，不限国籍；具体限制未确认",
+   "timing": "常年接受申请（据公开描述）；具体截止未确认",
+   "status": "滚动申请",
+   "howToApply": "通过 Mercatus Center Emergent Ventures 官网提交简短申请",
+   "fit": "中",
+   "fitWhy": "流程简单、决策快、无地域限制，且有 Tyler Cowen 网络背书；金额可能不大",
+   "effort": "低",
+   "community": "Substack 文章称其申请流程刻意保持简单、决策迅速（https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing）",
+   "sources": [
+    "https://techcrunch.com/?p=1711894",
+    "https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Thiel Fellowship",
+   "category": "Fellowship 与早期项目",
+   "region": "全球",
+   "offer": "两年共 $200,000（部分来源称 $250,000）+ 指导与人脉；2026 年选 12 人",
+   "eligibility": "22 岁及以下、无大学学位者",
+   "timing": "全年接受申请，年度评选",
+   "status": "滚动申请",
+   "howToApply": "Thiel Fellowship 官网在线申请",
+   "fit": "低",
+   "fitWhy": "创始人均有 Cambridge/LSE/Duke 学位与多年对冲基金经验，基本不符合年龄与学历要求；仅当有符合条件的年轻团队成员时考虑",
+   "effort": "中",
+   "community": "HN 上一位 Figma 联合创始人称 fellowship '绝对值得'，不强迫做媒体、可全程隐身；也有人指出很多 fellow 最后回去上学或进大厂（https://news.ycombinator.com/item?id=11447331）",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://www.capitaly.vc/blog/thiel-fellowship-application-guide-2026",
+    "https://news.ycombinator.com/item?id=11447331"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Anthropic Fellows Program",
+   "category": "Fellowship 与早期项目",
+   "region": "美国/英国/加拿大（按薪资币种推断；以官方为准）",
+   "offer": "4 个月，每周津贴 $3,850 / £2,310 / C$4,300 + 福利；算力资金约 $15k/月；Anthropic 研究员直接指导",
+   "eligibility": "个人研究者/工程师，不要求既有经验；面向个人而非公司",
+   "timing": "2026 年 5 月与 7 月两期已开始；下一期未确认",
+   "status": "未确认",
+   "howToApply": "Anthropic 官网 Fellows 页面申请",
+   "fit": "低",
+   "fitWhy": "面向个人，全职创业者难以参加；但可借此与 Anthropic 安全团队建立关系（Anthropic 是潜在客户）",
+   "effort": "中",
+   "community": "X 上汇总帖整理了 2026 年 Anthropic 面向研究者的全部机会，可作为追踪入口（https://x.com/iHarnoorSingh/article/2086191148327178430）",
+   "sources": [
+    "https://x.com/AnthropicAI/status/1999233249579794618",
+    "https://opportunitydesk.org/2026/04/15/anthropic-fellows-program-2026/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "OpenAI Safety Fellowship",
+   "category": "Fellowship 与早期项目",
+   "region": "未确认",
+   "offer": "带薪 fellowship，资助外部研究者做安全与对齐研究；金额未确认",
+   "eligibility": "外部个人研究者",
+   "timing": "项目期 2026-09-14 至 2027-02-05；申请已于 5/3 截止；下一期未确认",
+   "status": "已截止",
+   "howToApply": "关注 https://openai.com/index/introducing-openai-safety-fellowship/",
+   "fit": "低",
+   "fitWhy": "面向个人研究者且已截止；主要价值是与 OpenAI 安全团队建立联系",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://openai.com/index/introducing-openai-safety-fellowship/",
+    "https://www.helpnetsecurity.com/2026/04/07/openai-safety-fellowship-applications/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Startup World Cup",
+   "category": "比赛与奖金",
+   "region": "全球（各地区预选）",
+   "offer": "冠军获 $1,000,000 投资（含股权，非无股权奖金）",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未确认（参见来源清单）",
+   "fit": "低",
+   "fitWhy": "奖金为股权投资而非资助；地区预选赛可作为见投资人的场合",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.growthmentor.com/blog/startup-pitch-competitions"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "AISafety.com Funding 目录 + AI Safety Funding Newsletter",
+   "category": "非稀释资助",
+   "region": "全球",
+   "offer": "汇总 AI 安全/评测相关的资助方、RFP 与截止日，定期更新（Substack 已出 2026 年第 19 期）",
+   "eligibility": "公开资源，无门槛",
+   "timing": "持续更新",
+   "status": "滚动申请",
+   "howToApply": "订阅 https://aisafetyfunding.substack.com 并定期查看 https://aisafety.com/funding",
+   "fit": "中",
+   "fitWhy": "评测/基准类 RFP（Coefficient、AISI、FMF、Schmidt、Foresight）开关频繁，这个目录是低成本追踪新窗口的方式",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://aisafety.com/funding",
+    "https://aisafetyfunding.substack.com/p/ai-safety-funding-issue-19-2026"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Cambridge Angels",
+   "category": "投资人渠道",
+   "region": "英国（剑桥）",
+   "offer": "由已退出（exited）的创业者组成的天使网络，成员上限 60 人；典型投资额 £150k–£1.5M；不向创始人收取 pitch 费或成功费；每年约 1000 个项目经 deal 团队筛选后，邀请合适的公司 pitch",
+   "eligibility": "偏好科学/工程类公司（另有医疗相关方向）；是否要求剑桥关联未确认；英国实体更方便走 SEIS/EIS（适用性未确认）",
+   "timing": "滚动申请，无固定截止日期",
+   "status": "滚动申请",
+   "howToApply": "在 https://cambridgeangels.com/application-to-cambridge-angels 提交申请，或发邮件到 info@cambridgeangels.net（来源说）；初筛通过后会受邀向成员 pitch",
+   "fit": "高",
+   "fitWhy": "联合创始人有剑桥背景，工程/量化型 deep-tech 公司符合其偏好；适合拿下 $20M 种子轮里的英国天使份额，也可作为背书",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.ellty.com/investors/cambridge-angel-investors",
+    "https://www.cambridgenetwork.co.uk/directories/companies/141",
+    "https://en.wikipedia.org/wiki/David_Cleevely",
+    "https://startupintros.com/orgs/cambridge-angels"
+   ],
+   "verdict": "确认",
+   "verifyNote": "多源一致：每笔 £150K–£1.5M，不收 pitch 费，成员为已退出创业者（上限 60 人，另有来源称 70–80 人），先筛选再邀请 pitch；第三方称成员个人通常出资 £25K–£100K。"
+  },
+  {
+   "name": "Cambridge Capital Group (CCG)",
+   "category": "投资人渠道",
+   "region": "英国（剑桥）",
+   "offer": "剑桥私人天使 syndicate，成员包括个人投资人、family office 和 VC，已在剑桥科技圈投资 25 年；最常投 £150K–£2M，方向含 deep tech、生命科学、企业软件",
+   "eligibility": "面向剑桥科技生态的公司（是否必须在剑桥本地或为剑桥校友未确认）；英国实体更合适",
+   "timing": "滚动接收，无固定截止日期",
+   "status": "滚动申请",
+   "howToApply": "通过 https://www.cambridgecapitalgroup.co.uk/contact-ccg/ 联系（来源说）",
+   "fit": "中",
+   "fitWhy": "单笔金额相对 $20M 种子轮偏小，但能补上英国天使份额，并带来剑桥圈 VC/family office 的介绍",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.cambridgecapitalgroup.co.uk/",
+    "https://www.ellty.com/investors/cambridge-angel-investors"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "CAMentrepreneurs / LSE Generate x: Founder/Investor Speed-Networking (London)",
+   "category": "社区与活动",
+   "region": "英国（伦敦）",
+   "offer": "剑桥校友创业网络 CAMentrepreneurs 与 LSE Generate 联合办的创始人-投资人速配活动，剑桥和 LSE 两边网络的投资人到场听 pitch；LSE GenDen 也办同类速配",
+   "eligibility": "剑桥/LSE 校友或相关创始人（具体条件未确认）",
+   "timing": "下一场日期未确认，需关注剑桥校友活动页",
+   "status": "未确认",
+   "howToApply": "通过 alumni.cam.ac.uk / philanthropy.cam.ac.uk 的活动页报名（具体流程未确认）",
+   "fit": "高",
+   "fitWhy": "联合创始人同时有剑桥和 LSE 背景，两个校友网络都能用上；适合在伦敦集中见到首批天使和 VC",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.alumni.cam.ac.uk/events/london-camentrepreneurslse-generate-x-founderinvestor-speed-networking",
+    "https://www.philanthropy.cam.ac.uk/events/london-camentrepreneurslse-generate-x-founderinvestor-speed-networking",
+    "https://shapingtheworld.lse.ac.uk/latest-news/helping-students-and-alumni-launch-their-entrepreneurial-journeys"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额用尽，未复核；下一场日期本就未确认。"
+  },
+  {
+   "name": "LSE Generate Fellowship Programme",
+   "category": "加速器与孵化器",
+   "region": "全球（线上；面向 LSE 学生/校友）",
+   "offer": "2026 年起取代线下 GAP 加速器，每年 48 家企业，全年运行、全球可参与；提供导师、教练和 Entrepreneurs in Residence 支持，可参加面对 Dragons 和现场观众的 pitch 比赛并争取现金奖；LSE 生态称有 27 家独角兽、25,000 名创始人，每年合计融资约 $5bn",
+   "eligibility": "LSE 学生/校友创办的企业（细则未确认）",
+   "timing": "2026 年启动，全年运行；申请窗口未确认",
+   "status": "未确认",
+   "howToApply": "通过 LSE Generate 官网申请（具体入口未确认）",
+   "fit": "中",
+   "fitWhy": "LSE 校友可以低成本进入 LSE 的投资人/校友网络和 pitch 场合；不过团队已有客户，加速器课程的边际价值有限",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.lse.ac.uk/news/lse-generate-launches-fellowship-programme-to-support-global-founders",
+    "https://www.lse.ac.uk/events/open/lse-alumni",
+    "https://shapingtheworld.lse.ac.uk/latest-news/helping-students-and-alumni-launch-their-entrepreneurial-journeys",
+    "https://info.lse.ac.uk/staff/divisions/research-and-innovation/generate",
+    "https://info.lse.ac.uk/staff/divisions/research-and-innovation/generate/Generate-Accelerator-Programme"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Duke Angel Network (Duke Capital Partners)",
+   "category": "投资人渠道",
+   "region": "美国（北卡罗来纳州 Durham；对公司所在地的要求未确认）",
+   "offer": "Duke 校友及关联人组成的投资网络；每年看约 1000 个项目，深度尽调约 200 个，推进 12–24 个；累计投资超过 $105M，覆盖 60+ 家早期公司",
+   "eligibility": "须有创始人、高管、董事或主要投资人是 Duke 现/前学生、员工或家长；正在募集 ≥$500k 的种子或 A 轮股权，或在已有/新的机构领投下做后期 syndication；是否要求公司位于美国未确认（有第三方来源称不论公司所在地）",
+   "timing": "滚动申请",
+   "status": "滚动申请",
+   "howToApply": "通过 ProSeeder 提交 deal review 申请，入口见 https://dukeangelnetwork.duke.edu/for-entrepreneurs/",
+   "fit": "高",
+   "fitWhy": "有 Duke 背景的联合创始人；$20M 种子轮远超 $500k 门槛；地域要求未确认，如有要求，采用 Delaware/美国实体即可满足",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://dukeangelnetwork.duke.edu/for-entrepreneurs/",
+    "https://startupintros.com/orgs/duke-angel-network",
+    "https://supportedly.com/programs/duke-angel-network/",
+    "https://dukecapitalpartners.duke.edu/faqs/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "Duke 关联要求、$500k 门槛和 1000/200/12–24 漏斗属实；“公司须位于美国”与第三方“不论所在地”的说法冲突，改为未确认。"
+  },
+  {
+   "name": "Superscout 大学 scout hubs（LSE / Duke）",
+   "category": "投资人渠道",
+   "region": "全球（按大学划分）",
+   "offer": "按大学组织的 startup scout 社区（来源页分别是「成为 LSE startup scout」和 Duke Entrepreneurship hub），帮投资方发掘校友项目；具体权益未确认",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "访问 https://superscout.co/hub/lse 和 https://superscout.co/hub/duke，联系对应 hub 的 scout（流程未确认）",
+   "fit": "低",
+   "fitWhy": "可以作为接触校友系 scout 的补充入口，但项目细节都没有确认",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://superscout.co/hub/lse",
+    "https://superscout.co/hub/duke"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Zero Shot（OpenAI 校友 VC 基金）",
+   "category": "投资人渠道",
+   "region": "美国（San Francisco）",
+   "offer": "前 OpenAI 员工发起的 VC 基金，五位合伙人为 Evan Morikawa、Andrew Mayne、Shawn Jain、Kelly Kovacs、Brett Rounsaville；目标 $100M，已首关 $20M 并开始出票（已投 Worktrace AI、Foundry Robotics 等）；投资 AI-native 创始人，方向含机器人、能源、自动化、基础设施、安全、可观测性；属于 Anthropic、Google DeepMind、Meta AI 等实验室老兵创办的运营者基金浪潮",
+   "eligibility": "未确认",
+   "timing": "已开始投资；无公开申请截止日期",
+   "status": "未确认",
+   "howToApply": "官网 zeroshotfund.com（未发现公开申请表，未确认）；通过 OpenAI 校友圈或其已投公司做 warm intro",
+   "fit": "高",
+   "fitWhy": "前 OpenAI 成员最懂 post-training 数据和 RL 环境的价值，既能投资，也能把 SimReal 引荐给实验室买家；其公开方向含“基础设施”，但未明确提到训练数据",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.techbuzz.ai/articles/openai-alumni-launch-100m-vc-fund-already-writing-checks",
+    "https://zeroshotfund.com/",
+    "https://cryptorank.io/news/feed/1fa87-openai-alumni-zero-shot-fund",
+    "https://aitoolly.com/ai-news/article/2026-04-07-former-openai-team-launches-zero-shot-venture-capital-fund-with-100-million-target"
+   ],
+   "verdict": "更正",
+   "verifyNote": "基金存在且在投资；补充：总部在旧金山，已首关 $20M（目标 $100M），五位合伙人姓名、投资方向和官网 zeroshotfund.com。"
+  },
+  {
+   "name": "前沿实验室校友 operator angels（DeepMind / Anthropic 校友）",
+   "category": "投资人渠道",
+   "region": "英国（伦敦 DeepMind）/ 美国",
+   "offer": "据报道，至少 15 名 Google DeepMind 员工和校友在讨论资助下一代 AI 初创；Anthropic、DeepMind、Meta AI 校友也在设立运营者基金；实验室校友圈被视为最有效的融资路径之一",
+   "eligibility": "未确认（多为人脉驱动，无公开申请）",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "先通过研究社区建立联系（发布开源 RL 环境/基准、参加 NeurIPS 等），再请对方或其已投创始人引荐；具体基金名称未确认",
+   "fit": "高",
+   "fitWhy": "DeepMind 在伦敦，英国团队可以就近接触；这些人既能当天使，也可能是 RL 环境的客户或顾问",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.remio.ai/post/google-deepmind-exodus-turns-an-ai-talent-drain-into-a-vc-race",
+    "https://www.av.vc/blog/from-ipo-to-stealth-investing-in-ais-next-great-family-trees",
+    "https://www.startuphub.ai/ai-news/ai-figures/2026/figure-dario-amodei-alumni-mentee-network-2026-08-11"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额用尽，未复核；这是泛化的人脉渠道，不是具体项目。"
+  },
+  {
+   "name": "OpenNetwork（硅谷「Facebook House」）",
+   "category": "社区与活动",
+   "region": "美国（硅谷）",
+   "offer": "2023 年成立的非营利组织（名字取自 OpenAI），服务硅谷 AI 社区，覆盖华人研究员、创业者和投资人；办 AI 主题讲座，为创始人提供免费住宿，并为投资人、创业者和研究员互相引荐",
+   "eligibility": "未确认（主要面向硅谷 AI 圈，含华人社区）",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未确认；可通过 Rest of World 报道中提到的华人 AI 圈人物找到入口",
+   "fit": "高",
+   "fitWhy": "华人创始人加 AI 数据业务，正好能同时接触硅谷华人研究员（潜在买家）和投资人",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额用尽，未复核；只有一个来源，是否仍在运营未确认。"
+  },
+  {
+   "name": "盛大（Shanda）Christine Qing 组织的 AI 研究员聚会",
+   "category": "社区与活动",
+   "region": "美国（硅谷）",
+   "offer": "盛大（Shanda）投资人 Christine Qing 定期组织头部 AI 公司研究员的聚会",
+   "eligibility": "未确认（多为邀请制）",
+   "timing": "定期举办，具体日期未确认",
+   "status": "未确认",
+   "howToApply": "未确认；通过硅谷华人 AI 圈 warm intro 争取邀请",
+   "fit": "中",
+   "fitWhy": "能同时接触投资方（盛大）和实验室研究员（RL 环境的潜在需求方），但需要邀请",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "PreAngel（硅谷华人科技网络）",
+   "category": "投资人渠道",
+   "region": "美国（硅谷）/ 中国",
+   "offer": "以硅谷华人科技网络的形式连接创业者和投资人",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未确认",
+   "fit": "中",
+   "fitWhy": "华人创始人跨中美做融资时，可以作为接触中美双边天使的补充渠道",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Lanchi Ventures 蓝驰创投（香港）",
+   "category": "投资人渠道",
+   "region": "中国 / 香港",
+   "offer": "2024 年 7 月扩展到香港，连接全球市场和华人 AI 创业者",
+   "eligibility": "华人 AI 创业者（具体条件未确认）",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未确认；建议通过已投创始人 warm intro",
+   "fit": "中",
+   "fitWhy": "如果走中国/香港实体或美元人民币双币路径，可作为专注华人 AI 方向的机构投资人；美国/英国实体下相关性较低",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lanchi_Ventures",
+    "https://fortune.com/2026/07/09/ai-founders-leaving-asia-for-us-silicon-valley/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Web Summit 2026 — ALPHA startup programme (Lisbon)",
+   "category": "社区与活动",
+   "region": "欧洲（葡萄牙里斯本）",
+   "offer": "ALPHA 面向早期（pre-Series A）初创，入选可获 3 张 Web Summit 门票、展位、Investor-to-Startup 会议，并可申请 PITCH 比赛、创业 masterclass、Mentor Hours 等",
+   "eligibility": "早期（pre-Series A）初创；ALPHA 套餐需付费，来源称价格只是常规门票的一小部分（具体金额未确认）",
+   "timing": "大会 2026-11-09–12，地点 MEO Arena 与 FIL；来源说尽快申请",
+   "status": "开放中",
+   "howToApply": "在 https://websummit.com/startups/ 申请 ALPHA",
+   "fit": "中",
+   "fitWhy": "一次能批量见很多投资人；但受众偏泛科技，与 RL/后训练买家匹配度一般",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://websummit.com/startups/",
+    "https://support.websummit.com/hc/en-us/articles/34078954021149-Our-startup-programme",
+    "https://www.wokeey.com/events/web-summit-guide/",
+    "https://websummit.com/",
+    "https://mutekigroup.com/events/web-summit-2026/",
+    "https://monet.money/resources/events/web-summit-2026"
+   ],
+   "verdict": "更正",
+   "verifyNote": "大会日期 11-09–12 属实；补充 ALPHA 面向 pre-Series A，含展位，需付费（价格只是常规门票的一小部分，具体金额未确认）。"
+  },
+  {
+   "name": "Air Street Capital — London.AI meetups & RAAIS",
+   "category": "社区与活动",
+   "region": "英国（伦敦）；全年在欧洲和北美办活动",
+   "offer": "Air Street 只投 AI-first 公司；Nathan Benaich 组织 London.AI meetup（在 Luma 发布）和 Research and Applied AI Summit (RAAIS)；2025-12-02 的 London AI meetup 有 State of AI Report 解读和 networking；第十届 RAAIS 于 2026-06-12 在伦敦举行",
+   "eligibility": "公开报名活动（名额限制未确认）",
+   "timing": "RAAIS 2026 已于 6 月 12 日举行（已截止）；London.AI 下一场日期未确认",
+   "status": "未确认",
+   "howToApply": "关注 https://luma.com/londonai 报名，在活动中直接接触 Air Street 团队和参会研究员",
+   "fit": "高",
+   "fitWhy": "Air Street 是欧洲最贴近「AI 基础设施/数据」方向的专业 AI VC；meetup 同时有研究员（买家）和投资人",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://luma.com/londonai",
+    "https://press.airstreet.com/p/2025-review",
+    "https://www.airstreet.com/ai-venture-capital",
+    "https://luma.com/airstreet"
+   ],
+   "verdict": "确认",
+   "verifyNote": "Luma 上最近一场 London.AI 是 2025-12-02（已满额），没找到 2026 年下一场伦敦活动的日期，与原记录一致；Air Street 2026 年还在 SF、NYC、Paris、Munich、Zurich 办 meetup，总日历见 luma.com/airstreet。"
+  },
+  {
+   "name": "Conviction (Sarah Guo)",
+   "category": "投资人渠道",
+   "region": "美国",
+   "offer": "Sarah Guo 创立的 AI 专注基金，主打 Software 3.0；Fund II 于 2025 年 1 月以 $230M 募集完成。投资种子到 A 轮（A 轮为上限）：种子支票约 $1M–$5M，A 轮跟投约 $5M–$25M（第三方汇总数据）。Conviction Embed 已在已知清单中",
+   "eligibility": "AI-native 公司（具体条件未确认）",
+   "timing": "无固定截止；第三方数据称截至 2026 年 9 月本年已投约 30 笔，仍在活跃投资",
+   "status": "滚动申请",
+   "howToApply": "通过已投创始人 warm intro；Conviction Embed 见已知清单；未找到公开 office hours 入口",
+   "fit": "高",
+   "fitWhy": "专注 AI 基础设施和应用，熟悉后训练数据赛道，可以作为种子轮领投或跟投候选",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.vcsheet.com/fund/conviction",
+    "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+    "https://www.sky9capital.com/blog/blog-conviction-similar-pre-seed-ai-investors-2026/",
+    "https://f4.fund/firms/conviction",
+    "https://qubit.capital/blog/top-investors-backing-ai-startups",
+    "https://tracxn.com/d/venture-capital/conviction/__Yj63_1Y5YODkJut20TruT239_nKxIIxTo5gMLVuL3HE"
+   ],
+   "verdict": "更正",
+   "verifyNote": "支票区间由 $1M–$10M 更正为种子 $1M–$5M、A 轮跟投 $5M–$25M（第三方汇总）；补充 Fund II $230M 及 2026 年仍活跃；状态改为滚动。按种子支票规模，在 $20M 种子轮里更可能是参投，难以全额领投。"
+  },
+  {
+   "name": "General Catalyst（2026 应用 AI 新基金）",
+   "category": "投资人渠道",
+   "region": "美国 / 全球",
+   "offer": "从种子投到成长期，2026 年新设专门投应用 AI 的基金；AI 方向典型支票 $15M–$75M，侧重医疗、金融科技和企业级",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未找到公开 office hours（未确认），建议 warm intro",
+   "fit": "中",
+   "fitWhy": "支票区间和 $20M 种子轮吻合，且关注金融科技；但更偏应用层，不是数据基础设施",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+    "https://visible.vc/blog/best-tech-vc-firms/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Lightspeed Venture Partners (AI)",
+   "category": "投资人渠道",
+   "region": "美国 / 全球",
+   "offer": "已投 165 家 AI-native 公司、投入超过 $5.5B，多为种子到 B 轮",
+   "eligibility": "未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "未找到公开 office hours（未确认），建议 warm intro",
+   "fit": "中",
+   "fitWhy": "AI 投资密度高，能做大额种子轮；需要找到负责 AI 基础设施/数据的合伙人",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+    "https://www.affinity.co/blog/top-venture-capital-firms-investing-in-ai"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "VC scouts（头部 VC 的早期 sourcing 人员）",
+   "category": "投资人渠道",
+   "region": "全球",
+   "offer": "scouts 负责 VC 的早期 pipeline 和 deal sourcing，常被创始人忽略；咖啡、活动或 coworking 里的随意聊天，往往能打开正式 intro 打不开的门",
+   "eligibility": "无正式门槛",
+   "timing": "随时",
+   "status": "滚动申请",
+   "howToApply": "在 X/LinkedIn 识别头部 AI VC 的 scouts（常是研究员或创业者），在线下活动中接触后请他们内推",
+   "fit": "中",
+   "fitWhy": "SimReal 的创始人背景（顶级量化机构）容易让 scout 记住并内推；成本低",
+   "effort": "中",
+   "community": "HN 上有人认为 investor scouts 常被忽视，却是早期 pipeline 的实际建设者，非正式接触往往比正式 intro 更有效（https://news.ycombinator.com/item?id=45538546）",
+   "sources": [
+    "https://news.ycombinator.com/item?id=45538546"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Signal by NFX",
+   "category": "投资人渠道",
+   "region": "全球",
+   "offer": "免费的投资人发现平台，按赛道、阶段、地域整理投资人档案；连接 Gmail 后能显示 warm intro 路径；没有付费层",
+   "eligibility": "所有创始人",
+   "timing": "随时可用",
+   "status": "开放中",
+   "howToApply": "在 https://signal.nfx.com/ 注册",
+   "fit": "中",
+   "fitWhy": "可以用来梳理四位联合创始人（Jane Street、Citadel 等背景）现有人脉到目标 AI 投资人的 intro 路径",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://signal.nfx.com/",
+    "https://www.metal.so/guides/metal-vs-signal-by-nfx-the-best-way-to-find-investors-in-2026/",
+    "https://signal.nfx.com/faq"
+   ],
+   "verdict": "确认",
+   "verifyNote": "官方 FAQ 与第三方均称 Signal 永久免费、无付费层，按阶段/赛道/地域整理投资人并显示 Gmail warm intro 路径。注意：fitWhy 里的创始人 Jane Street/Citadel 背景不在已知背景信息中（已知仅为剑桥、LSE、杜克的量化背景），未确认。"
+  },
+  {
+   "name": "OpenVC",
+   "category": "投资人渠道",
+   "region": "全球（含中国投资人列表）",
+   "offer": "免费的投资人库与融资管理平台；官网称有 20,000+ 认证投资人（含 VC、天使、家办、加速器），另有按行业、阶段、地域筛选的投资人清单；可以把 deck 直接提交给投资人，并查看谁打开、停留多久；不收佣金、不占股",
+   "eligibility": "所有创始人",
+   "timing": "随时可用",
+   "status": "开放中",
+   "howToApply": "在 openvc.app 注册后按 AI / 种子阶段筛选，直接提交 deck",
+   "fit": "中",
+   "fitWhy": "适合补充长尾 AI 种子基金名单，尤其是公开写明直接接收 deck 的基金",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://valueaddvc.com/blog/the-best-free-vc-databases-in-2026-crunchbase-alternatives-that-dont-cost-30k",
+    "https://www.roundfunded.com/en/blogs/how-to-find-investors-best-tools-2026",
+    "https://www.openvc.app/country/China",
+    "https://www.openvc.app/",
+    "https://www.openvc.app/investor-lists/seed-investors"
+   ],
+   "verdict": "更正",
+   "verifyNote": "投资人数量由 10,000+ 更正为官网所称 20,000+ 认证投资人；补充 deck 打开分析、无佣金无股权。400+ 精选清单的数字未复核。"
+  },
+  {
+   "name": "vcsheet / Waveup Hub",
+   "category": "投资人渠道",
+   "region": "全球",
+   "offer": "免费的投资人清单和基金档案（如 vcsheet 上的 Conviction 档案）；常被推荐和 OpenVC、Signal 一起作为 pre-seed/seed 的起点",
+   "eligibility": "所有创始人",
+   "timing": "随时可用",
+   "status": "开放中",
+   "howToApply": "访问 vcsheet.com 和 waveup.com 查阅",
+   "fit": "低",
+   "fitWhy": "用来整理目标投资人清单；本身不带来 intro",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://waveup.com/blog/best-investor-databases/",
+    "https://www.vcsheet.com/fund/conviction"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额优先用于更易出错的记录，未专门复核；vcsheet.com 的投资人档案页在其他搜索结果中可见，Waveup 未查。"
+  },
+  {
+   "name": "AngelList",
+   "category": "投资人渠道",
+   "region": "全球（主要美国）",
+   "offer": "连接创业公司与天使投资人并管理股权融资的平台；AI 主题 syndicate / rolling fund 的具体名单未确认",
+   "eligibility": "未确认",
+   "timing": "随时可用",
+   "status": "开放中",
+   "howToApply": "在 AngelList 创建公司档案，寻找 AI 主题的 syndicate lead（具体名单未确认）",
+   "fit": "低",
+   "fitWhy": "可以用来管理天使份额或寻找 syndicate，但主动获客效果未确认",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.papermark.com/blog/best-startup-fundraising-tools",
+    "https://www.gritt.io/blog/where-to-find-angel-investors"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额已用完，未复核。"
+  },
+  {
+   "name": "前沿实验室直销 RL 环境 / 专家数据（Anthropic、OpenAI、Meta、Amazon AGI、xAI）",
+   "category": "客户与销售渠道",
+   "region": "全球（买家主要在美国）",
+   "offer": "直接向前沿实验室出售 RL 环境、任务与验证器。行业访谈显示合同规模常为每季度六到七位数美元；单个任务约 $200–$2,000（复杂 SWE 任务偶见 $20k）；网站复刻类 UI gym 约 $20k/个；Slack 级复杂产品复刻约 $300k；独家交付价格约为非独家的 4–5 倍。2025 年 9 月有报道称 Anthropic 高层讨论未来一年在 RL 环境上投入超过 10 亿美元。",
+   "eligibility": "无公开门槛，靠 BD 与交付质量；买家通常要求保密与数据安全流程（具体要求未确认）。实体所在地：英国/美国实体均可洽谈；中国实体向美国前沿实验室供货是否受合规限制未确认。",
+   "timing": "滚动；无固定截止日期",
+   "status": "滚动申请",
+   "howToApply": "直接联系各实验室的 post-training / RL / 数据采购负责人；以金融环境（Xitadel、月结环境）的 demo + 样例任务 + 验证器指标开场，准备独家与非独家两档报价。",
+   "fit": "高",
+   "fitWhy": "SimReal 的核心产品（金融 RL 环境、验证器、专家数据）正是这些实验室在买的东西；创始团队的顶级量化背景是金融领域的稀缺可信度。",
+   "effort": "高",
+   "community": "HN 上讨论的 Ben Anderson 博文《Don't Build an RL Environment Startup》提醒：买家高度集中在少数几家前沿实验室（Anthropic 可能是最大单一买家），收入集中风险高。https://news.ycombinator.com/item?id=45167107",
+   "sources": [
+    "https://epoch.ai/gradient-updates/state-of-rl-envs",
+    "https://benanderson.work/blog/dont-build-rl-env-startup/",
+    "https://news.ycombinator.com/item?id=45167107",
+    "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+   ],
+   "verdict": "确认",
+   "verifyNote": "TechCrunch 引用 The Information，证实 2025 年 9 月 Anthropic 高层讨论未来一年在 RL 环境上投入超 10 亿美元。任务、UI gym、复刻产品等单价来自 Epoch 访谈，本次未逐项复核。"
+  },
+  {
+   "name": "OpenAI Data Partnerships",
+   "category": "客户与销售渠道",
+   "region": "全球",
+   "offer": "OpenAI 官方数据合作项目（2023 年 11 月发布），两条轨道：开源档案（共建公开数据集）与私有数据集（数据用于 OpenAI 自有基础模型和定制模型训练，合作方保留隐私与访问控制）。偏好大规模、非公开可得、能体现人类意图的数据（如长文写作、对话），任意模态与语言。已知早期合作方包括冰岛政府与 Free Law Project。",
+   "eligibility": "面向机构；未见地区限制说明（未确认）。",
+   "timing": "2023 年发布；当前是否仍在接收新合作方未确认",
+   "status": "未确认",
+   "howToApply": "通过 OpenAI 官网 Data Partnerships 页面或数据合作团队联系；当前申请入口未确认。",
+   "fit": "中",
+   "fitWhy": "该项目更偏大规模\"人类社会\"语料，而非 RL 环境；但可作为进入 OpenAI 数据团队的官方门路，再引向金融专家数据与环境采购。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://siliconangle.com/2023/11/09/openai-launches-partner-initiative-focused-creating-ai-training-datasets/",
+    "https://www.maginative.com/article/openai-announces-data-partnerships-to-diversify-ai-training-sets/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Neolabs 与 neo-cloud 提供商（作为买家与战略方）",
+   "category": "客户与销售渠道",
+   "region": "全球（主要在美国）",
+   "offer": "除前沿实验室外，neolabs（新兴模型实验室）与 neo-cloud 算力提供商也在采购/整合 RL 环境；X 上有观点指出 RL 环境公司已开始被收购，理想收购方包括数据标注公司、neo-cloud、前沿实验室与 neolabs。Prime Intellect 等面向更小开发者的平台也在扩张环境供给。",
+   "eligibility": "无公开门槛（未确认）",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "从 Epoch/Chris Barber 访谈中提到的 neolab 名单、Pavlov's List 与 rl-list 的生态里找出 neolab 与 neo-cloud，直接联系其 post-training 负责人；具体名单需自行整理。",
+   "fit": "高",
+   "fitWhy": "neolabs 比前沿实验室更缺内部环境团队，采购门槛可能更低，适合拿第一批非 Surge/AfterQuery 的直接客户并分散买家集中风险。",
+   "effort": "中",
+   "community": "Guohao Li 在 X 上说 RL 环境公司已在被收购，理想买家包括数据标注公司、neo-cloud、前沿实验室和 neolabs。https://x.com/guohao_li/status/2075267106900197556",
+   "sources": [
+    "https://x.com/guohao_li/status/2075267106900197556",
+    "https://epoch.ai/gradient-updates/state-of-rl-envs",
+    "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额已用完，未复核。"
+  },
+  {
+   "name": "Surge AI（扩大现有分包合作）",
+   "category": "客户与销售渠道",
+   "region": "全球（美国公司）",
+   "offer": "Surge 是最大的人类数据供应商之一（Scale、Surge、Mercor、Handshake 合计被称占约 $8.5B 行业收入的 75% 以上，出自 X 上的市场地图，未独立核实）。2024 年收入约 $1.2B；SemiAnalysis 将其列为 $1B+ ARR 的在位者之一，维基百科称其 2026 年中年化收入约 $3B、估值约 $25B，且未拿过 VC 融资；业务包括 RLHF 与 RL 环境。SimReal 已在供货，可扩大为金融环境/验证器的专项分包。",
+   "eligibility": "已有合作关系；无公开供应商申请通道（未确认）",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "通过现有对接人争取更多项目与长期框架合同；用已交付的质量指标争取金融领域的独家或优先供应商地位。",
+   "fit": "高",
+   "fitWhy": "已是客户，扩单成本最低；Surge 需要能快速交付高难度金融环境和验证器的专业团队，正好对应 SimReal 的长处。",
+   "effort": "低",
+   "community": "Deedy Das 在 X 上的 2026 年 7 月市场地图称 >50 家公司向大实验室卖数据和 RL 环境，>75% 收入集中在 Scale、Surge、Mercor、Handshake。https://x.com/deedydas/status/2076124392711696455",
+   "sources": [
+    "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science",
+    "https://x.com/deedydas/status/2076124392711696455",
+    "https://blog.pebblous.ai/blog/ai-data-supply-oligopoly/en/",
+    "https://en.wikipedia.org/wiki/Surge_AI"
+   ],
+   "verdict": "更正",
+   "verifyNote": "收入口径由“约 $1B ARR”更新为：2024 年约 $1.2B，2026 年中年化约 $3B、估值约 $25B（维基百科摘要，未见一手来源）；SemiAnalysis 的表述是 $1B+ ARR。"
+  },
+  {
+   "name": "AfterQuery（扩大现有合作）",
+   "category": "客户与销售渠道",
+   "region": "美国",
+   "offer": "AfterQuery（YC W25，旧金山）为前沿实验室提供专家数据与 RL 环境，金融是重点领域之一，被 Chris Barber 的 Pavlov's List 列为 Code & Finance 方向。2026 年 4 月完成 $30M A 轮（投后估值 $300M，Altos Ventures 领投）；2026 年 9 月有报道称其估值达 $3.2B、ARR 超 $100M（未见一手来源）。SimReal 已在供货，可扩大为金融环境的长期供应方。",
+   "eligibility": "已有合作关系",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "通过现有对接人推进更大的金融环境/专家数据订单；注意其同时是同领域竞争者，需在合同中明确 IP 与独家条款。",
+   "fit": "高",
+   "fitWhy": "同为金融方向，需求高度对口；但对方资金和收入规模远大于 SimReal，是直接竞争者，适合作为现金流来源而非唯一渠道。",
+   "effort": "低",
+   "community": "Chris Barber 在 X 上起草的 Pavlov's List 第一条即为 AfterQuery（Code & Finance）。https://x.com/chrisbarber/status/2010844746231804258",
+   "sources": [
+    "https://x.com/chrisbarber/status/2010844746231804258",
+    "https://siliconangle.com/2026/04/10/ai-training-data-startup-afterquery-nabs-30m-investment/",
+    "https://www.builtinsf.com/articles/afterquery-raises-30m-series-a-20260413",
+    "https://aimagazine.com/news/afterquery-what-is-an-applied-research-lab",
+    "https://pomegra.io/startups/afterquery-s-3-2b-valuation-makes-yc-history-2026-09-03"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充 AfterQuery 2026 年 4 月 $30M A 轮（投后 $300M）和 9 月估值 $3.2B、ARR 超 $100M 的报道；它是资金充足的直接竞争者，fitWhy 相应调整。"
+  },
+  {
+   "name": "Mercor / Handshake AI（专家网络型数据供应商分包）",
+   "category": "客户与销售渠道",
+   "region": "美国",
+   "offer": "Mercor 与 Handshake 均属四大数据供应商，原本做人才匹配/专家招募，现也出售 RL 环境；它们是连接实验室与领域专家的中间商，可能需要金融专项环境/验证器的外包伙伴。",
+   "eligibility": "无公开供应商申请通道（未确认）",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "以 Surge/AfterQuery 的交付案例为背书，直接联系其金融领域项目负责人或交付团队，提出按项目分包环境与验证器。",
+   "fit": "中",
+   "fitWhy": "它们自有大量专家，但 RL 环境与验证器工程能力仍在建设中；SimReal 可补上金融环境工程这一块。同时也是竞争对手，需谨慎保护专家库。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science",
+    "https://www.troveo.ai/resources/mercor-alternatives",
+    "https://blog.pebblous.ai/blog/ai-data-supply-oligopoly/en/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Scale AI / Turing（分包）",
+   "category": "客户与销售渠道",
+   "region": "美国",
+   "offer": "SemiAnalysis 指出 Surge、Mercor、Scale、Turing 都在建设环境与验证器能力；Scale 2024 年收入超 $1.4B，但现在大部分已被 Meta 吸收。",
+   "eligibility": "无公开供应商申请通道（未确认）",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "联系其 RL 环境/金融领域项目负责人，提出按项目分包；Scale 目前与 Meta 绑定较深，优先级可放在 Turing 之后。",
+   "fit": "中",
+   "fitWhy": "两家都在补环境能力，有外包需求的可能，但都没有公开的供应商入口；需要靠关系与交付案例打开。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science",
+    "https://www.troveo.ai/resources/rl-environment-companies"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "HUD (hud.ai) 环境发布平台",
+   "category": "曝光与发布平台",
+   "region": "全球",
+   "offer": "构建和发布 RL 环境与评测的平台（YC W25，2026 年 6 月宣布 $16M A 轮）；HUD 自称模型公司已在用其平台做 agent 评测和 RL 训练（曾支撑 Autonomy-10 评测 OpenAI Operator），发布在 HUD 上实验室无需定制集成即可运行你的环境。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 hud.ai 上构建/发布环境；也可联系 HUD 探讨金融环境的合作分发。",
+   "fit": "中",
+   "fitWhy": "可作为面向实验室的分发渠道；但\"排名第一\"出自 HUD 自家文章，且 HUD 也做计算机使用类环境，部分业务与 SimReal 有重叠。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.hud.ai/resources/best-platforms-publishing-rl-environments-model-labs",
+    "https://www.hud.ai/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "rl-list.com（RL 环境供应商目录）",
+   "category": "曝光与发布平台",
+   "region": "全球",
+   "offer": "RL 环境供应商 2026 目录与排名，含按领域（如编码）的子榜单与供应商档案页。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "联系站点维护者提交 SimReal 供应商档案（具体提交方式未确认），突出金融领域。",
+   "fit": "高",
+   "fitWhy": "买家调研供应商时会查这类目录；目前金融方向的供应商较少，容易被看到。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.rl-list.com/",
+    "https://www.rl-list.com/rl-environments-for-coding"
+   ],
+   "verdict": "确认",
+   "verifyNote": "站点存在，称收录 38 家 RL 环境供应商，可按融资、团队、客户、SOC 2、领域比较，定位为采购初筛清单；提交方式仍未确认。"
+  },
+  {
+   "name": "Pavlov's List（Chris Barber 的 RL 环境与数据创业公司清单）",
+   "category": "曝光与发布平台",
+   "region": "全球",
+   "offer": "Chris Barber 维护的 RL 环境与数据创业公司清单，按领域标注（如 AfterQuery：Code & Finance）。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 X 上联系 @chrisbarber 或通过 pavlovslist.com 提交，注明\"Finance\"领域与团队背景。",
+   "fit": "高",
+   "fitWhy": "实验室研究员与投资人都会看这份清单；Chris Barber 也参与了 Epoch 的 RL 环境行业访谈。",
+   "effort": "低",
+   "community": "Chris Barber 在 X 上发布清单初稿并按领域标注各公司。https://x.com/chrisbarber/status/2010844746231804258",
+   "sources": [
+    "https://pavlovslist.com/",
+    "https://x.com/chrisbarber/status/2010844746231804258"
+   ],
+   "verdict": "确认",
+   "verifyNote": "pavlovslist.com 存在（RL envs and data startups）；搜索摘要称 Chris Barber 还分享各公司的 data menu，并为找数据供应商的实验室研究员牵线。站点上的提交入口未确认。"
+  },
+  {
+   "name": "Deedy Das《Every single startup selling AI Training Data》市场地图",
+   "category": "曝光与发布平台",
+   "region": "全球",
+   "offer": "2026 年 7 月版市场地图收录 50+ 家向大实验室卖数据和 RL 环境的公司（行业合计约 $8.5B 收入、约 $100B 估值）。",
+   "eligibility": "未确认",
+   "timing": "下一版发布时间未确认",
+   "status": "未确认",
+   "howToApply": "在 X 上联系作者，提供一句话定位（金融 RL 环境 + 验证器）和 logo，争取进入下一版。",
+   "fit": "中",
+   "fitWhy": "传播量大，投资人和实验室都会看；一次性低成本曝光，对融资叙事有帮助。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://x.com/deedydas/status/2076124392711696455"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "AWS Data Exchange",
+   "category": "客户与销售渠道",
+   "region": "全球（AWS 客户）",
+   "offer": "商业数据市场，收录 3,500+ 第三方数据集（含金融），数据直接交付到买家的 AWS 环境中（含 S3 访问点），被列为企业买家获取授权训练数据的渠道之一。",
+   "eligibility": "成为提供方的资质与地区要求未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 AWS Data Exchange 注册为数据提供方并上架数据产品（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "适合标准化的金融评测集/SFT 数据包，对企业 AI 团队做长尾销售；RL 环境这类定制交付不适合在市场上卖。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.cloudzero.com/blog/aws-data-exchange/",
+    "https://www.titannet.io/learn/resources/where-to-get-training-data-for-ai-top-dataset-marketplaces-video-dataset-providers"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Snowflake Marketplace",
+   "category": "客户与销售渠道",
+   "region": "全球（Snowflake 客户）",
+   "offer": "提供方可发布并变现数据集、Native Apps 与 AI 产品，支持固定费用或按用量计价及免费试用；约 1,700+ 数据集、360+ 提供方；新增 agentic 产品和来自新闻、研究、市场数据提供方的 AI-ready 数据。",
+   "eligibility": "提供方资质与地区要求未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "注册为 Snowflake Marketplace 提供方并发布 listing（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "金融机构大量使用 Snowflake，可用来向银行和基金的企业 AI 团队上架金融评测/基准数据；但对实验室级 RL 环境销售帮助有限。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.flexera.com/blog/finops/snowflake-marketplace/",
+    "https://www.snowflake.com/en/news/press-releases/snowflake-marketplace-adds-agentic-products-and-ai-ready-data-from-leading-news-research-and-market-data-providers/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Databricks Marketplace",
+   "category": "客户与销售渠道",
+   "region": "全球（Databricks 客户）",
+   "offer": "跨云开放数据市场，提供方可交换数据、notebooks、应用和 AI 模型；已有提供方出售 ML/AI 训练数据，包括 LLM 微调数据集。",
+   "eligibility": "提供方资质与地区要求未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 marketplace.databricks.com 申请成为提供方（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "适合把金融 SFT/偏好数据做成标准化数据包，触达做微调的企业团队；不适合定制 RL 环境。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://marketplace.databricks.com/providers",
+    "https://www.databricks.com/glossary/data-marketplace"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Datarade",
+   "category": "客户与销售渠道",
+   "region": "全球",
+   "offer": "聚合大量独立提供方数据产品（含 AI 训练数据集）的元数据市场，常被买家用作调研起点。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 Datarade 注册为提供方并创建数据产品档案（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "主要是被动获客的曝光位，成本低，但买家多为通用数据采购，不是 post-training 团队。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.troveo.ai/resources/ai-training-data-marketplace"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Human Native（已被 Cloudflare 收购）",
+   "category": "客户与销售渠道",
+   "region": "英国起家，全球",
+   "offer": "英国 AI 数据授权市场（2024 年成立，LocalGlobe、Mercuri 投资），帮助版权方准备、定价并授权内容用于 AI 训练；2026 年 1 月被 Cloudflare 收购，目标是让 AI 开发者更容易发现和获取授权数据集。",
+   "eligibility": "主要面向内容/版权持有方；具体要求未确认",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "通过 Cloudflare/Human Native 渠道联系，询问专家数据或金融数据集的上架可能性。",
+   "fit": "低",
+   "fitWhy": "重点是出版/媒体内容授权，与 RL 环境不太对口；但对英国团队来说是了解授权定价与条款的参照。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.cnbc.com/2026/01/15/cloudflare-ai-human-native-acquisition.html",
+    "https://blog.cloudflare.com/human-native-joins-cloudflare/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Protege",
+   "category": "客户与销售渠道",
+   "region": "美国（纽约）",
+   "offer": "双边数据平台：一边是私有数据持有方，一边是需要真实世界数据的 AI 实验室和企业；负责授权、整理成 AI-ready 数据集，并处理去标识化、溯源、权利与合规。主要品类为临床记录、医学影像、视频、音频、动作捕捉。",
+   "eligibility": "面向私有数据持有方；具体要求未确认",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "通过 Protege 官网以数据提供方身份联系（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "品类偏医疗和多模态，与金融 RL 环境不对口；仅在 SimReal 产出可授权的金融专家数据集时值得一试。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://yespress.io/protege",
+    "https://www.troveo.ai/resources/ai-training-data-marketplace"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Defined.ai Marketplace",
+   "category": "客户与销售渠道",
+   "region": "全球",
+   "offer": "AI 训练数据目录型市场，最适合语音 AI 与对话模型团队。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "通过 Defined.ai 以数据提供方身份联系（具体流程未确认）。",
+   "fit": "低",
+   "fitWhy": "以语音/对话数据为主，与金融推理及 RL 环境的重叠很小。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.troveo.ai/resources/ai-training-data-marketplace",
+    "https://forage.ai/blog/ai-training-data-providers/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "上海数据交易所（语料专区 / 全球数商招募计划）",
+   "category": "客户与销售渠道",
+   "region": "中国（另有面向境外数商的招募计划）",
+   "offer": "国家级数据交易所；2023 年 7 月上线语料专区，已有 60+ 语料数据产品、超 10TB，覆盖金融等行业；已加入中国大模型语料数据联盟；2024 年 7 月与欧洲金融数据交易平台 Neudata 启动\"全球数商招募计划\"；与 20+ 家金融机构合作开展数据资产贷款。",
+   "eligibility": "需注册为数商并挂牌数据产品；中国实体最便利，境外数商可走全球数商招募计划（具体条件未确认）",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在上海数据交易所数据交易服务平台注册数商并申请挂牌（https://dtxp.chinadep.com/home/index），或通过全球数商招募计划对接。",
+   "fit": "中",
+   "fitWhy": "若设立中国实体，可借此向国内大模型厂商销售中文金融语料、评测与偏好数据，挂牌的数据产品也能作为数据资产用于融资。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "http://www.jjckb.cn/2024-07/11/c_1310781398.htm",
+    "https://www.chinadep.com/bulletin/news/CTC_20230915141724640633",
+    "https://www.shanghai.gov.cn/nw4411/20240629/79f8476390ff458c9cd1be6d52258eb9.html",
+    "https://dtxp.chinadep.com/home/index",
+    "https://gzw.fujian.gov.cn/zwgk/gzdt/gzjg/cqgl/202409/t20240913_6518028.htm",
+    "https://www.secrss.com/articles/64238"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Neudata（欧洲金融数据交易平台）",
+   "category": "客户与销售渠道",
+   "region": "欧洲/英国",
+   "offer": "欧洲金融数据交易平台，2024 年与上海数据交易所联合启动全球数商招募计划；具体服务与费用未确认。",
+   "eligibility": "未确认",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "联系 Neudata 以数据供应商身份入驻（流程未确认）。",
+   "fit": "低",
+   "fitWhy": "可触达买方机构（基金/资管），适合 SimReal 未来把金融评测/基准数据卖给机构的 AI 团队；与实验室客户关系不大。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "http://www.jjckb.cn/2024-07/11/c_1310781398.htm"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "国内大模型厂商与训练数据服务商（阿里 Qwen 等；数据堂、甲骨易分包）",
+   "category": "客户与销售渠道",
+   "region": "中国",
+   "offer": "国内模型厂商在 Agent 与编程能力上快速迭代（如 2026 年 4 月的 Qwen3.6-Plus），需要找专业数据服务商做采集、标注、治理与评测；金融、医疗、法律等垂直领域需要有学历背景的专家参与审核。数据堂、甲骨易等国内数据服务商可作为分包或渠道伙伴。",
+   "eligibility": "中国实体最便利；具体供应商准入流程未确认",
+   "timing": "滚动",
+   "status": "未确认",
+   "howToApply": "通过创始人在中国的关系网络直接对接模型厂商的后训练/数据团队，或先作为金融专家数据分包方切入数据堂、甲骨易等服务商。",
+   "fit": "中",
+   "fitWhy": "创始团队是华人，在中国有资源；金融专家数据是国内服务商的短板。注意同时服务中美实验室可能带来的合规和客户信任问题（未确认）。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.lfdjt.com/info_23_20424.html",
+    "https://www.eet-china.com/mp/a504177.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Prime Intellect Environments Hub（发布公开版环境）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上），未见实体所在地限制",
+   "offer": "开放的 RL 环境与评测社区平台；赏金计划分两档：Open Access 任务约 $100–500，Application-Only（更难、常由第三方赞助）任务约 $1,000–5,000+；官方承诺数十万美元资助；第三方可赞助医疗、材料、法律、金融等领域的赏金。已通过赏金和 RL residency 众包 400+ 环境，residency 申请者超过 500 人。",
+   "eligibility": "任何个人或公司都可以按 Hub 的环境格式打包并发布；未见地区限制说明。",
+   "timing": "滚动，随时发布",
+   "status": "滚动申请",
+   "howToApply": "在 primeintellect.ai 注册，把 Xitadel 或月结（month-end close）环境的一个公开精简子集（附 verifier 和 baseline 分数）上传到 Environments Hub；完整版和专家数据留作付费产品。",
+   "fit": "高",
+   "fitWhy": "这里是 RL 研究者和 neolab 找环境的主要地方。发一个金融环境的公开版，是向研究社区展示 verifier 质量成本最低的办法，也能和 HUD、Arcee 等名字出现在同一平台上。",
+   "effort": "中",
+   "community": "Prime Intellect 在 X 上称社区两个月内众包了 400+ 前沿环境（这是官方说法，没找到独立创始人对它的评价）；Sequoia 播客把它称为“RL 环境的 GitHub”。https://x.com/PrimeIntellect/status/1963038995363082719 X 上 Prime Intellect 成员 Alex 发文称，赏金计划持续对全球开放，按评测结果付 $1,000-5,000+（https://x.com/afurgs/status/1997292157212983300） X 用户 Alex 称该赏金计划持续开放、全球可申请、按评测结果付酬 $1,000–5,000+。https://x.com/afurgs/status/1997292157212983300",
+   "sources": [
+    "https://www.primeintellect.ai/blog/environments",
+    "https://www.primeintellect.ai/",
+    "https://www.hud.ai/resources/best-platforms-publishing-rl-environments-model-labs",
+    "https://sequoiacap.com/podcast/building-the-github-for-rl-environments-prime-intellects-will-brown-johannes-hagemann",
+    "https://the-decoder.com/prime-intellect-launches-an-open-platform-for-reinforcement-learning-environments/",
+    "https://www.primeintellect.ai/blog/scaling-environments-program",
+    "https://x.com/afurgs/status/1997292157212983300"
+   ],
+   "verdict": "确认",
+   "verifyNote": "赏金 $1,000–5,000+、全球可申请、分 Open Access 与 Application-Only 两类、承诺数十万美元、400+ 环境、500+ residency 申请者都有来源；Open Access 档 $100–500 未单独核实。最新公开的“持续开放”说法来自 2025 年 12 月，2026-10 时是否仍在发赏金未确认。"
+  },
+  {
+   "name": "Terminal-Bench / Harbor（任务贡献与 Registry 适配器）",
+   "category": "曝光与发布平台",
+   "region": "全球（开源，GitHub）",
+   "offer": "Laude Institute 与 Stanford 主导的开源 agent benchmark（论文发表于 ICLR 2026）。Terminal-Bench 2.0 的 89 个任务是从 93 位贡献者提交的 229 个任务中精选出来的；现已发布 Terminal-Bench 2.1，修复了 89 个任务中的 28 个（外部依赖变化、资源预算过紧、说明与测试不符），使用独立仓库 harbor-framework/terminal-bench-2-1，Snorkel 与 Artificial Analysis 已有 2.1 排行榜。Harbor 框架可以把外部 benchmark 以 adapter 形式注册进 registry，获得日志、并行、主流 agent 集成、CLI 分发和云端托管。另有 terminal-bench-science 子项目。",
+   "eligibility": "全球开源贡献，无地区限制",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在 GitHub harbor-framework/terminal-bench 按 CONTRIBUTING.md 提交 PR，例如金融数据处理、对账类终端任务（2.0/2.1 任务集已定稿，新任务会进入哪个版本未确认）；或者把自家 benchmark 写成 Harbor adapter 注册进 registry（可参考 Quesma 把 CompileBench 迁移到 Harbor 的博文）。",
+   "fit": "高",
+   "fitWhy": "前沿实验室发布模型时会报告 Terminal-Bench 2.0/2.1 分数，进入贡献者名单或 registry 能直接被实验室评测团队看到。也能和已知的 Laude Institute Slingshots 申请互相加分。",
+   "effort": "中",
+   "community": "CAMEL-AI 的 Guohao Li 在 X 上称 Terminal-Bench 2.0 是“最重要的 benchmark 之一”，也是 GPT-5.3-Codex 和 Opus 4.6 发布时唯一共同报告的 benchmark（https://x.com/guohao_li/status/2019527791876653353）；GitHub 上有 issue 提醒 Harbor adapter 的默认参数（max_tool_calls_per_turn=10）可能让得分变成 0，需要仔细配置。",
+   "sources": [
+    "https://www.tbench.ai/news/registry-and-adapters",
+    "https://github.com/harbor-framework/terminal-bench",
+    "https://github.com/harbor-framework/terminal-bench-science/tree/main/tasks",
+    "https://snorkel.ai/blog/terminal-bench-2-0-raising-the-bar-for-ai-agent-evaluation/",
+    "https://quesma.com/blog/compilebench-in-harbor/",
+    "https://huggingface.co/datasets/harborframework/terminal-bench-2.0",
+    "https://x.com/guohao_li/status/2019527791876653353",
+    "https://github.com/MervinPraison/PraisonAI/issues/3932",
+    "https://www.tbench.ai/news/terminal-bench-2-1",
+    "https://github.com/harbor-framework/terminal-bench-2-1",
+    "https://snorkel.ai/leaderboard/terminal-bench-2-1/",
+    "https://proceedings.iclr.cc/paper_files/paper/2026/file/444a3737adaee10d86ad2ef5f74468e6-Paper-Conference.pdf"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充：Terminal-Bench 2.1 已发布（修复 28 个任务），排行榜已有 2.1 版；2.0 的 89 个任务出自 229 个社区提交。2.0/2.1 已定稿，新提交任务会进入哪个版本未确认。"
+  },
+  {
+   "name": "OpenEnv（Meta PyTorch × Hugging Face 环境标准与 Hub）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上，Hugging Face）",
+   "offer": "2025 年 10 月由 Meta PyTorch 团队和 Hugging Face 发布的 RL 环境标准接口，附带社区 Hub。按 OpenEnv 格式打包的环境可以在 Hugging Face 上发布和复用。",
+   "eligibility": "全球开放，无地区限制",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "按 OpenEnv 规范打包公开版金融环境，发布到 Hugging Face（openenv 组织的 README 在 huggingface.co/spaces/openenv）；同一个环境可以同时发到 Prime Intellect Hub。",
+   "fit": "高",
+   "fitWhy": "这是和 Prime Intellect Hub 并行的第二个环境标准，背后是 Meta 和 HF。一次打包、多平台发布，可以同时覆盖两个生态的研究者。",
+   "effort": "中",
+   "community": "Huzzle Labs 在 X 上宣布在 OpenEnv 开源了两个环境（Phantom Grid 和 Spreadsheet），把它当作对外展示能力的窗口。https://x.com/huzzle_labs",
+   "sources": [
+    "https://x.com/i/article/2096969377002213866",
+    "https://x.com/SergioPaniego/status/2096969377002213866",
+    "https://x.com/huzzle_labs",
+    "https://huggingface.co/spaces/openenv/README/blob/main/README.md",
+    "https://huggingface.co/blog/openenv",
+    "https://www.infoq.com/news/2025/11/hugging-face-openenv/",
+    "https://github.com/aaif/project-proposals/issues/50"
+   ],
+   "verdict": "确认",
+   "verifyNote": "确认 2025-10-23 在 PyTorch 大会由 Meta PyTorch 与 Hugging Face 发布，环境以容器打包发布到 HF Hub。AAIF 项目提案称 HF OpenEnv Hub 已有 4,200+ 个环境，生态比原记录描述的更大。"
+  },
+  {
+   "name": "Meta PyTorch OpenEnv AI Hackathon（印度）",
+   "category": "比赛与奖金",
+   "region": "印度（线上初赛 + 班加罗尔线下决赛）",
+   "offer": "$30,000 奖金池，Meta 和 Hugging Face AI 团队的直接面试机会，Meta 官方证书。",
+   "eligibility": "1–3 人团队，不要求 RL 经验；面向印度开发者（更细的地区限制未确认）。",
+   "timing": "2026-03-14 至 2026-04-26（线上第一轮 3/25–4/8，班加罗尔决赛 4/25–26）",
+   "status": "已截止",
+   "howToApply": "已截止；下一期或全球版时间未确认，可以关注 PyTorch 和 Hugging Face 的 X 账号。",
+   "fit": "低",
+   "fitWhy": "面向个人开发者，偏招聘性质。对 SimReal 的价值主要是一个信号：Meta/HF 在投入环境生态，以后可能有面向公司的环境挑战。",
+   "effort": "中",
+   "community": "AVB 在 X 上称“Meta、Hugging Face 和 PyTorch 这三巨头在办 RL 黑客松”。https://x.com/neural_avb/status/2036484526399160615",
+   "sources": [
+    "https://pytorch.org/event/openenv-ai-hackathon/",
+    "https://x.com/PyTorch/status/2036276566372598162",
+    "https://x.com/neural_avb/status/2036484526399160615",
+    "https://kalinga.ai/openenv-ai-hackathon-india-2026/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Hugging Face Community Evals（托管 benchmark 与排行榜）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "Hub 上的 benchmark 数据集可以托管自己的排行榜，并自动从模型仓库收集评测结果。结果会显示在模型卡上，并回链到 benchmark 数据集。评测规范写在 eval.yaml 里（基于 Inspect AI 格式）。目前已有 MMLU-Pro、GPQA、HLE，以及 SWE-bench、AIME 2026 等实时排行榜。",
+   "eligibility": "全球；任何 Hub 用户都能发布数据集。进入官方 benchmark 列表的流程未确认。",
+   "timing": "2026 年 2 月上线（据 InfoQ 报道），滚动",
+   "status": "滚动申请",
+   "howToApply": "把公开版金融 benchmark 作为 HF dataset 发布并附上 eval.yaml；再联系 HF 团队申请收录进官方 benchmark 列表（具体流程未确认）。",
+   "fit": "高",
+   "fitWhy": "这样开源模型团队可以直接在模型卡里报告 SimReal 金融 benchmark 的分数，曝光是长期的；带 official 标签的 benchmark 可信度更高。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://huggingface.co/blog/community-evals",
+    "https://www.infoq.com/news/2026/02/hugging-face-evals/",
+    "https://github.com/huggingface/community-evals",
+    "https://huggingface.co/blog/eee-community-evals",
+    "https://huggingface.co/datasets?benchmark=benchmark%3Aofficial",
+    "https://huggingface.co/docs/leaderboards/index"
+   ],
+   "verdict": "确认",
+   "verifyNote": "2026 年 2 月上线、数据集加 eval.yaml 即注册为 benchmark、格式基于 Inspect AI、首批含 MMLU-Pro/GPQA/HLE、分数带作者/社区/验证徽章，均已确认。SWE-bench、AIME 2026 排行榜和官方收录流程未复核。"
+  },
+  {
+   "name": "Kaggle Community Benchmarks",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "在 Kaggle 上定义评测任务（Tasks），组合成 Benchmark 并生成公开排行榜。在配额内可以免费调用 Google、Anthropic、DeepSeek 等实验室的前沿模型。社区已创建 10,000+ 个评测任务，也支持本地构建 benchmark。",
+   "eligibility": "全球 Kaggle 用户",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "用 Xitadel 或月结任务的公开子集在 Kaggle Benchmarks 上建一个 Benchmark，发布前沿模型排行榜，再到 X、Reddit、HN 推广。",
+   "fit": "高",
+   "fitWhy": "免费的模型调用配额意味着零推理成本，就能拿到前沿模型在金融任务上的横向对比；有 Google/Kaggle 背书的排行榜也更容易被媒体和实验室引用。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-community-benchmarks/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-kaggle--benchmarks-locally/",
+    "https://www.startuphub.ai/ai-news/ai-research/2026/kaggle-community-benchmarks-decentralize-ai-evaluation/",
+    "https://www.kaggle.com/blog/introducing-the-benchmarks-resource-grant-program"
+   ],
+   "verdict": "确认",
+   "verifyNote": "Tasks 组合成 Benchmark 生成排行榜、配额内免费调用 Google/Anthropic/DeepSeek 模型、SDK 支持代码执行/工具调用/多轮，均已确认；10,000+ 任务数未复核。另见 Kaggle 的 Benchmarks Resource Grant Program，可一并了解（条件未复核）。"
+  },
+  {
+   "name": "Kaggle Game Arena（Google DeepMind × Kaggle）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "用游戏评测模型的平台，已有国际象棋、狼人杀和扑克（考察社交博弈和风险计算），并直播锦标赛。",
+   "eligibility": "是否接受外部团队提交新游戏或新环境未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "没有公开渠道（未确认）。可以尝试通过 Kaggle 或 Google DeepMind 的联系人，提议一个多智能体交易或做市对抗竞技场。",
+   "fit": "中",
+   "fitWhy": "扑克已经说明风险决策类游戏会被接受。量化团队设计的多智能体交易对抗环境和平台定位吻合，合作成功的话曝光极高，但成功率未知。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+    "https://dev.to/googleai/advancing-ai-benchmarking-with-game-arena-3nda",
+    "https://blog.google/innovation-and-ai/products/kaggle-game-arena/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Show HN（Hacker News）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "Hacker News 的 Show HN 栏目。开源 benchmark 和环境类发布在这里很常见，例如 Cua-Bench、Factorio Learning Environment、CVE-Bench、Sales Agent Benchmark，以及一门构建 LLM RL 环境的实操课程。",
+   "eligibility": "全球；需要一个能直接试用的开源项目或产品",
+   "timing": "随时",
+   "status": "滚动申请",
+   "howToApply": "发布开源的公开版环境或 benchmark，附可复现的排行榜。标题可以用“Show HN: <Name>-Bench, the first ... using real-world ...”这样的结构；创始人在评论区亲自回答技术问题。",
+   "fit": "高",
+   "fitWhy": "HN 读者里有大量实验室工程师和投资人。上面这些例子说明，开源 benchmark/环境是 Show HN 上常见且合规的发布形式，不会被当成广告。",
+   "effort": "中",
+   "community": "CVE-Bench 在 HN 的标题是“首个使用真实 Web 漏洞的 LLM benchmark”，Factorio Learning Environment 则靠有趣的环境吸引注意；“首个 + 真实世界 + 开源”的标题结构反复出现。https://news.ycombinator.com/item?id=43540413",
+   "sources": [
+    "https://news.ycombinator.com/item?id=46768906",
+    "https://news.ycombinator.com/item?id=43331582",
+    "https://news.ycombinator.com/item?id=43540413",
+    "https://news.ycombinator.com/item?id=46946742",
+    "https://news.ycombinator.com/item?id=47730587",
+    "https://news.ycombinator.com/item?id=44796161",
+    "https://news.ycombinator.com/item?id=47152571",
+    "https://news.ycombinator.com/item?id=44318333",
+    "https://news.ycombinator.com/item?id=43440893"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额已用完，未复核（所引各 HN 帖子未逐一核对）。"
+  },
+  {
+   "name": "r/MachineLearning（[P] 项目帖）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "主流 ML 研究社区，项目和演示类帖子需要加 [P] 标签。适合发布 benchmark 结果和论文。",
+   "eligibility": "全球；需遵守版规和标签要求",
+   "timing": "随时",
+   "status": "滚动申请",
+   "howToApply": "标题用 [P] 开头，正文按这个结构写：做了什么、用什么方法、结果（benchmark 数据）、代码链接、论文链接（如有）。",
+   "fit": "中",
+   "fitWhy": "研究者聚集的地方，适合发 Xitadel 公开版的技术结果（比如各模型的 P&L 和 reward hacking 案例），不适合发产品广告。",
+   "effort": "低",
+   "community": "营销指南称，不符合格式的帖子常被版主删除或重新打标签。https://www.reddit-radar-marketing.com/guides/r/machinelearning",
+   "sources": [
+    "https://www.reddit-radar-marketing.com/guides/r/machinelearning",
+    "https://thehiveindex.com/communities/r-machine-learning/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Epoch AI Gradient Updates / Chris Barber（RL 环境访谈）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "Epoch AI 与 Chris Barber 在 2026-01-12 发表《An FAQ on Reinforcement Learning Environments》，访谈了 18 位来自 RL 环境创业公司、neolab 和前沿实验室的人，是这个赛道的行业认知类内容。",
+   "eligibility": "没有公开申请，需要主动联系",
+   "timing": "未确认（没有固定征集）",
+   "status": "未确认",
+   "howToApply": "在 X 上联系 @chrisbarber 和 @EpochAIResearch，提供金融 RL 环境的一手洞见或数据（如 reward hacking 案例、专家标注成本），争取后续访谈或数据合作。",
+   "fit": "高",
+   "fitWhy": "文章指出企业工作流（操作电子表格、填报表）是增长领域，还引用一位创始人的话：做任务时领域知识比 ML 技巧更重要。这和 SimReal“量化专家 + 月结环境”的定位高度一致。",
+   "effort": "低",
+   "community": "Epoch AI 在 X 上称前沿实验室在 RL 环境上大举投入，但大部分发生在幕后。https://x.com/EpochAIResearch/status/2010814868832887163 Epoch AI 在 X 上称前沿实验室在 RL 环境上投入巨大，但大部分发生在幕后。https://x.com/EpochAIResearch/status/2010814868832887163",
+   "sources": [
+    "https://epoch.ai/gradient-updates/state-of-rl-envs",
+    "https://epochai.substack.com/p/an-faq-on-reinforcement-learning",
+    "https://x.com/EpochAIResearch/status/2010814868832887163",
+    "https://x.com/chrisbarber"
+   ],
+   "verdict": "确认",
+   "verifyNote": "确认 2026-01-12 发表，作者为客座作者 Chris Barber 与 Epoch 的 JS Denain，访谈 18 人；企业工作流（Salesforce、填报表、电子表格）是增长领域、reward hacking 是首要难题，均与原文一致。"
+  },
+  {
+   "name": "SemiAnalysis（RL Envs / RL as a Service 报道）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "SemiAnalysis 把 RL 环境、RL for Science、Data Foundries、RL as a Service 列为重点报道主题；Dylan Patel 在 X 上称 RL 环境和 RL for Science 是“大事”。",
+   "eligibility": "没有公开申请",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "通过 X 联系或通过其研究团队提供数据和访谈素材，例如 RL 环境定价、实验室采购模式（具体渠道未确认）。",
+   "fit": "中",
+   "fitWhy": "读者是投资人和实验室高管，被引用对募 $20M 种子轮有帮助；但需要拿出独家数据才有机会。",
+   "effort": "中",
+   "community": "Dylan Patel（@dylan522p）在 X 上称“RL Envs and RL for Science is huge deal”。https://x.com/dylan522p/status/2008613577759105335",
+   "sources": [
+    "https://x.com/dylan522p/status/2008613577759105335"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Latent Space 播客 / AINews 与 Interconnects（Nathan Lambert）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "Latent Space（swyx、Alessio）多次深入讨论 RLVR 和 RLHF，嘉宾包括 AI2/Interconnects 的 Nathan Lambert；Latent Space 的 AINews 也发布 AI Engineer 大会的征稿信息。",
+   "eligibility": "嘉宾邀请制，没有公开申请",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "先通过 AI Engineer 大会演讲建立联系（AINews 发布过该大会的征稿）；同时把金融 RLVR 实验结果（如 verifier 设计、reward hacking 案例）发给 Nathan Lambert 或 swyx。",
+   "fit": "中",
+   "fitWhy": "这些是 RL 研究者和 AI 工程师最常听的播客和通讯，适合以“金融任务 RLVR 的一手经验”为切入点。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://www.latent.space/p/the-rlvr-revolution-with-nathan-lambert",
+    "https://www.latent.space/p/rlhf-201",
+    "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "AI Engineer Code Summit 2026（演讲征集）",
+   "category": "社区与活动",
+   "region": "美国旧金山（线下）；全球可投稿",
+   "offer": "申请制的 coding agent 构建者大会，2026-11-10 至 11-12 在旧金山举行。演讲征集面向在生产中构建、部署、评测、运营 AI coding 系统的实践者。",
+   "eligibility": "全球可投稿；国际申请者的早审截止日（2026-09-15）已过",
+   "timing": "最终截止 2026-10-11 23:59 PT，滚动审核；大会 2026-11-10 至 11-12",
+   "status": "开放中",
+   "howToApply": "在 Sessionize（sessionize.com/aiecode26）提交演讲，题目方向如“为 coding agent 构建可验证 RL 环境与 verifier 的经验”；滚动审核，越早提交越好。",
+   "fit": "中",
+   "fitWhy": "听众是 coding agent 公司和 AI 工程师，正是代码类 RL 环境和评测的潜在买家；演讲也能带来 Latent Space 生态的曝光。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://ai.engineer/code/2026",
+    "https://sessionize.com/aiecode26/"
+   ],
+   "verdict": "确认",
+   "verifyNote": "官网与 Sessionize 确认：2026-11-10 至 12 在旧金山举办，最终截止 2026-10-11 23:59 PT，2026-09-15 为第一波早审（建议国际申请者参加），滚动审核。距截止约 9 天。"
+  },
+  {
+   "name": "AI Engineer World's Fair 2027",
+   "category": "社区与活动",
+   "region": "美国旧金山 Moscone West（线下）",
+   "offer": "规模最大的技术型 AI 大会之一：29 个 track、300 位讲者、100 家展商、6,000+ AI 工程师、创始人和 AI 负责人；同期 Cerebral Valley hackathon（2026 主题 recursive self-improvement，奖金 $35K+）",
+   "eligibility": "未确认",
+   "timing": "官方称议程、讲者和票务“即将公布”；2027 届征稿开放时间未确认",
+   "status": "未确认",
+   "howToApply": "关注 ai.engineer 和 @aiDotEngineer，征稿一开就投 Vertical AI/金融或 evals 方向的演讲。",
+   "fit": "中",
+   "fitWhy": "这是 AI 工程师规模最大的年度聚会，适合在种子轮之后集中见客户和投资人。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://ai.engineer/worldsfair/2027",
+    "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
+    "https://www.ai.engineer/worldsfair",
+    "https://dev.to/hanzla/inside-ai-engineer-worlds-fair-2026-what-6000-engineers-showed-up-to-build-fgm",
+    "https://cerebralvalley.ai/e/aiewf-hackathon-2026"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "RL 环境行业地图与目录（Troveo、Synaptic、Sapphire、Zylos、rl-list）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "多份 2026 年 RL 环境公司地图和目录：Troveo《RL Environment Companies in 2026: The Landscape》把公司分成三类（加了环境业务的人类数据公司、环境原生创业公司、开放生态）；Synaptic Tip-Offs 有 RL 环境创业公司和创始人列表；Sapphire Ventures 发过 RL 环境文章；Zylos 的研究估计 2026 年中市场年收入约 $1B（未复核）；rl-list.com 收录 38 家供应商并有档案页（如 Halluminate）。",
+   "eligibility": "没有门槛，需要主动联系作者",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "给各家作者发邮件或在 X 私信，附一页公司介绍（金融优先、Xitadel、已服务 Surge AI 和 AfterQuery、7,000+ 专家）申请收录；在 rl-list 申请建立供应商档案。",
+   "fit": "高",
+   "fitWhy": "投资人和实验室采购都用这些地图做尽调。Halluminate 的 YC 页面称金融服务是其首个重点领域（同时在扩展相邻领域），约 2026-10-01 有报道称其完成 $30M A 轮（Oak HC/FT 领投）专做金融训练环境；AfterQuery 也以金融为重点。SimReal 如果不在地图上，“金融 RL 环境”的标签会被资金更充足的对手占去。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://www.troveo.ai/resources/rl-environment-companies",
+    "https://synaptic.com/resources/tip-offs/rl-evironments-startups-and-founders",
+    "https://sapphireventures.com/blog/reinforcement-learning-environments-ai-agents/",
+    "https://zylos.ai/research/2026-07-15-rl-environments-as-a-service-agentic-training-infrastructure/",
+    "https://www.rl-list.com/",
+    "https://www.rl-list.com/vendors/halluminate",
+    "https://www.ycombinator.com/companies/halluminate",
+    "https://www.techtimes.com/articles/328407/20261001/finance-ai-tops-out-51-due-diligence-startup-raises-30m-fix-it.htm",
+    "https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/"
+   ],
+   "verdict": "更正",
+   "verifyNote": "Halluminate 并非“收窄”为金融：YC 页称金融服务是首个重点、正扩展相邻领域；新补充其约 2026-10-01 获 $30M A 轮（Oak HC/FT 领投）做金融训练环境，竞争更紧迫。rl-list 与 Sapphire 文章已确认存在，Troveo、Synaptic、Zylos 及 $1B 市场估计未复核。"
+  },
+  {
+   "name": "GitHub awesome 列表（awesome-evals、awesome-RLVR）",
+   "category": "曝光与发布平台",
+   "region": "全球（GitHub）",
+   "offer": "BenchFlow 维护的 awesome-evals（agent 构建与评测资源精选）和 OpenDILab 维护的 awesome-RLVR（可验证奖励 RL 资源精选，持续更新）。被收录后能长期带来研究者流量。",
+   "eligibility": "开源项目或论文",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "开源环境或论文发布后，向这两个仓库提交 PR 申请收录。",
+   "fit": "中",
+   "fitWhy": "几乎零成本，可以把 SimReal 的公开环境和论文长期挂在研究者常看的列表里。",
+   "effort": "低",
+   "community": "",
+   "sources": [
+    "https://github.com/benchflow-ai/awesome-evals",
+    "https://github.com/opendilab/awesome-RLVR"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "arXiv 技术报告 + 开源金融 benchmark（参照 Finance Agent Benchmark、LiveTradeBench）",
+   "category": "曝光与发布平台",
+   "region": "全球（线上）",
+   "offer": "用 arXiv 论文加开源数据和代码的形式发布 benchmark，是在研究社区建立认知的主要方式。先例：Finance Agent Benchmark（arXiv 2508.00828，数据 CC BY 4.0、代码 MIT，公开验证集、模拟环境和评测脚本）；LiveTradeBench（arXiv 2511.03628，评测 LLM 的真实交易能力）。",
+   "eligibility": "全球；未见地区限制",
+   "timing": "随时",
+   "status": "滚动申请",
+   "howToApply": "写一篇介绍 Xitadel 公开子集的技术报告，开放验证集和评测脚本，保留私有测试集防止数据污染；论文发布当天同步发到 HF、Kaggle、X 和 Show HN。",
+   "fit": "高",
+   "fitWhy": "金融 agent benchmark 已有先例并受到关注；由量化背景团队写交易环境论文，可信度有优势；论文也更容易被实验室引用。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://arxiv.org/pdf/2508.00828",
+    "https://arxiv.org/pdf/2511.03628",
+    "https://www.alphaxiv.org/overview/2502.15840v1"
+   ],
+   "verdict": "未复核",
+   "verifyNote": "搜索配额已用完，未复核（arXiv 编号与许可证未核对）。"
+  },
+  {
+   "name": "被前沿模型发布引用的第三方 benchmark（Andon Labs Vending-Bench 路径）",
+   "category": "客户与销售渠道",
+   "region": "全球",
+   "offer": "Andon Labs 的 Vending-Bench 让模型模拟经营一年自动售货机生意，以最终账户余额计分，已成为前沿模型对比中反复引用的 benchmark。Claude Opus 4.5 在 Vending-Bench 2 上得 $4,967.06、当时排名第二，之后在 Vending-Bench Arena 一轮中获胜；2026 年 Andon Labs 仍在发布新模型测评（如《Opus 5 on Vending-Bench》）。“Anthropic 报告 Opus 4.5 比前代提升 29%”的说法本次未找到来源，未确认。Andon Labs 随后推出产品 Pion，2026 年 4 月起让 agent 经营旧金山一家零售店和斯德哥尔摩一家咖啡馆。",
+   "eligibility": "没有申请流程，靠 benchmark 质量和传播",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "做一个长周期、尚未饱和、以美元盈亏计分的交易或月结 benchmark，在 X 上发布，并主动给实验室评测团队提供跑分（对接实验室的具体渠道未确认）。",
+   "fit": "高",
+   "fitWhy": "交易环境天然有 P&L 指标，和 Vending-Bench“赚了多少钱”的叙事非常像；被模型发布或模型卡引用，是对实验室客户最有力的销售背书。",
+   "effort": "高",
+   "community": "Andon Labs 在 X 上发布 Vending-Bench 时，只用了“让模型经营一个模拟售货机生意”这一句直白的话。https://x.com/andonlabs/status/1894441185567281414",
+   "sources": [
+    "https://rits.shanghai.nyu.edu/ai/vending-bench-2-ai-models-put-to-the-test-running-a-business-for-a-year/",
+    "https://intuitionlabs.ai/articles/andon-labs-project-vend-ai",
+    "https://x.com/andonlabs/status/1894441185567281414",
+    "https://andonlabs.com/",
+    "https://x.com/andonlabs/status/1996268508926386422",
+    "https://andonlabs.com/blog/opus-5-vending-bench",
+    "https://andonlabs.com/blog/why-we-built-pion"
+   ],
+   "verdict": "更正",
+   "verifyNote": "补充 Opus 4.5 在 Vending-Bench 2 的实际得分（$4,967.06，排名第二）、2026 年 Opus 5 测评和 Pion 的细节；“29% 提升”找不到来源，已标为未确认。"
+  },
+  {
+   "name": "cline-bench（Cline 社区共建 benchmark）",
+   "category": "曝光与发布平台",
+   "region": "全球（开源）",
+   "offer": "Cline 宣布与社区共建开源的 cline-bench：把开源仓库里真实的困难任务转成容器化 RL 环境（带真实仓库快照）。",
+   "eligibility": "社区贡献；具体参与方式未确认",
+   "timing": "未确认",
+   "status": "未确认",
+   "howToApply": "关注 Cline 的 X 和 GitHub，了解贡献流程（未确认），提交高难度真实任务。",
+   "fit": "中",
+   "fitWhy": "贡献能展示 SimReal 在代码环境上的能力，并和 coding agent 公司建立联系；“和用户共建 benchmark”这个模式也可以照搬到金融方向。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://x.com/cline/status/1991612268220752130"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "RLEval workshop（RL 环境用于评测 AI agent）",
+   "category": "社区与活动",
+   "region": "未确认（所属会议未确认）",
+   "offer": "主题为“RLEval: Methods and Reinforcement Learning Environments for Evaluating AI Agents”的学术研讨会，直接对口 RL 环境评测。",
+   "eligibility": "未确认",
+   "timing": "未确认（截稿日期和会议时间未确认）",
+   "status": "未确认",
+   "howToApply": "访问 rl-eval.github.io 查看征稿要求和日期。",
+   "fit": "中",
+   "fitWhy": "主题完全对口，可以投 Xitadel 的 workshop 论文，接触做环境研究的学者和实验室研究员；但时间未知。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://rl-eval.github.io/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "TechCrunch 等科技媒体的 RL 环境报道",
+   "category": "曝光与发布平台",
+   "region": "全球（美国媒体为主）",
+   "offer": "TechCrunch 在 2025-09-21 发表专题《Silicon Valley bets big on 'environments' to train AI agents》，说明主流科技媒体在跟踪 RL 环境赛道。",
+   "eligibility": "没有门槛",
+   "timing": "滚动",
+   "status": "滚动申请",
+   "howToApply": "在宣布种子轮或发布 benchmark 时，向写过 RL 环境报道的记者 pitch（具体联系人未确认），附上独家数据或客户故事。",
+   "fit": "中",
+   "fitWhy": "媒体报道能放大募资声势，也会让实验室采购把你列进候选供应商；最好和融资公告绑在一起发。",
+   "effort": "中",
+   "community": "",
+   "sources": [
+    "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  },
+  {
+   "name": "Anthropic / OpenAI 嵌入式第三方评估者计划（2026-09）",
+   "category": "客户与销售渠道",
+   "region": "美国为主（未确认）",
+   "offer": "Anthropic 提议在前沿实验室内部长期嵌入第三方安全评估者，并选定 Accenture 为首个嵌入式评估者；Anthropic 与 Accenture 同意 5 年内至少投入 $10 亿建设这方面的能力。OpenAI 也表示计划让第三方团体在训练、评估和部署阶段审查模型。",
+   "eligibility": "面向 METR、Accenture 这类评估机构；初创公司直接参与的渠道未确认",
+   "timing": "2026 年 9 月宣布，细节仍在推进",
+   "status": "未确认",
+   "howToApply": "未确认；可以尝试以环境和评测数据供应商的身份接触 Accenture 等嵌入式评估团队。",
+   "fit": "低",
+   "fitWhy": "方向偏安全评估，和金融 RL 环境不直接对口；但如果评估者需要领域任务环境（比如测试金融 agent 的越权行为），可能出现分包机会。",
+   "effort": "高",
+   "community": "",
+   "sources": [
+    "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+    "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+    "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html"
+   ],
+   "verdict": "未复核",
+   "verifyNote": ""
+  }
+ ],
+ "tactics": [
+  {
+   "tactic": "本周先交 PearX W27",
+   "detail": "PearX W27 常规截止 2026-10-04 23:59 PST，是目前最近的顶级 pre-seed 加速器截止；Pear 称 S26 早申阶段就收到数千份申请，越早提交越早排进审核",
+   "source": "https://sabapplier.com/fundingAlerts/pearx-w27",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "YC 务必在 11-02 前按时提交",
+   "detail": "W27 按时申请者 12-11 前出结果；晚交仍会被看，但 YC 不保证回复时间，会打乱与种子轮的节奏",
+   "source": "https://www.ycroaster.com/tools/yc-application-deadline",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "把被拒当常态，带着新进展再申",
+   "detail": "YC 拒信本身写明分数线附近的团队常被误杀；HN 上有人申请 6–8 次后才拿到面试或入营。每次再申都要展示新的营收/客户（如新增实验室客户、Xitadel 使用量）",
+   "source": "https://news.ycombinator.com/item?id=1863374",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "先写 YC 申请，再复用到其它项目",
+   "detail": "HN 创始人认为 YC 申请会逼你回答平时回避的难题；写好后可直接改写用于 PearX、speedrun、Neo、HF0 等申请",
+   "source": "https://news.ycombinator.com/item?id=21280202",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "Sequoia Arc 走推荐路径，并先定实体",
+   "detail": "Arc 有公开申请和被 Sequoia 主动发掘（sourced）两条路，找 Sequoia 投资组合创始人引荐更有效；Arc 只收美洲或欧洲总部，中国实体不符合，需先定英国或美国（Delaware）实体",
+   "source": "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "筹大额种子时优先选低稀释项目",
+   "detail": "Neo 创始人 Partovi 明说不该让创始人起步就交出 7% 甚至 10%；Neo 用 $750K uncapped SAFE，股权 0.75%–5% 视创始人情况可谈。对正在筹 $20M 种子的团队，uncapped 项目比 EF（8%）、Antler（10%）这类固定比例项目更兼容",
+   "source": "https://raisefunding.io/accelerators/neo",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "注意融资排他条款",
+   "detail": "Antler 要求前 6 个月融资排他并全职投入；签任何加速器前都要确认是否限制同期融资，以免影响 $20M 种子轮",
+   "source": "https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "看重 speedrun 的品牌杠杆",
+   "detail": "speedrun 创始人反馈 a16z 进入股东名单后约见其他合伙人容易得多，适合需要快速拉投资人会面的团队；录取率不到 0.4%，SR008 优先窗口内尽早提交",
+   "source": "https://jonpan.substack.com/p/a16z-speedrun",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "用来源化的截止日日历追踪滚动项目",
+   "detail": "hub.causo.ai 维护带来源的 2026–2027 加速器截止日历（含 SkyDeck、Techstars 等）；Landed 的 GitHub 列表汇总 AI fellowship、residency 和加速器，可定期对照",
+   "source": "https://hub.causo.ai/deadlines",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "剑桥校友路径：先确认谁符合 5 年内校友条件",
+   "detail": "Founders at the University of Cambridge 收毕业 5 年内的校友；上一轮 11 月底到 12 月中旬开放申请，提前准备材料。Accelerate Cambridge 只需 60 秒 pitch 视频，申请成本很低",
+   "source": "https://founders.cam.ac.uk/start-3/",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "中国线：奇绩全年开放，早交早反馈",
+   "detail": "奇绩常规截止后仍接受延期申请，全年开放；若决定设中国实体，可尽早提交以排进下一期",
+   "source": "https://www.miracleplus.com/cn/apply/",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "按地区筛掉不合格项目",
+   "detail": "部分项目有硬性地区限制：Accel Atoms AI 只收印度或印度裔创始人，Sequoia Arc 只收美洲或欧洲总部，申请前先核对资格",
+   "source": "https://www.startupgrantsindia.com/accel-atoms-ai-cohort-2026-pre-seed-scaling-program-312",
+   "category": "accelerators"
+  },
+  {
+   "tactic": "把“语料券”变成销售杠杆",
+   "detail": "上海市级语料券对购买非关联方语料给予合同额最高30%、最高500万元的补贴；深圳语料券对通过数据交易所购买的语料给予最高30%、最高200万元的资助（2026年申报到11月10日18:00截止）。补贴发给买方，所以给国内模型公司报价时可以直接写“可申请政府补贴约30%”，并帮客户准备合同、发票和语料说明材料。",
+   "source": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12837632.html",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "先在数据交易所挂牌，深圳客户才能用券",
+   "detail": "深圳语料券明确要求“通过数据交易所购买”，SimReal 的数据产品必须先在交易所挂牌，深圳买家才能报销；挂牌也是参加“数据要素×”大赛、拿北京首交易奖励的前提。",
+   "source": "https://www.sznews.com/news/content/2026-06/15/content_32089671.htm",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "申请算力券前先确认缺的是算力还是 Token",
+   "detail": "钛媒体指出，很多 AI 企业真正的成本是 Token，拿到的算力券却用不上；部分算力券要求上年度营收不低于500万元或团队不少于20人，10人以下团队往往没有申报资格；补贴还绑定本地算力平台，对 PyTorch、vLLM 适配差，迁移成本可能抵消补贴。所以要先看清门槛，再选模型券（Token 券）还是算力券。",
+   "source": "https://www.tmtpost.com/8043721.html",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "算力券合规条件的自查清单",
+   "detail": "常见硬性条件包括：近3年没有失信记录；没有重复申领其他市级算力补贴；算力供需双方没有关联关系。租算力和签合同时就要留好证据，避免选和自己有关联的供应商。",
+   "source": "https://zhuanlan.zhihu.com/p/25260527246",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "张江“先入驻驿站，再申三券”",
+   "detail": "张江AI创新小镇的人才驿站提供免费共享工位半年、免费注册公司；三券（算力、模型、语料各100万元，最高100%支持）面向新入驻企业，按季度受理。最省钱的顺序是先进驿站完成注册，再赶下一个季度批次。",
+   "source": "https://zhuanlan.zhihu.com/p/2061166314123802067",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "奇绩创坛：常规截止后照样投 late application",
+   "detail": "奇绩官网说明，2026秋季常规截止后仍接受申请，入口全年开放，越早提交越早得到反馈。现在可以直接提交，不必等下一期。",
+   "source": "https://www.miracleplus.com/cn/apply/",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "用奇绩算力补齐免费 GPU",
+   "detail": "奇绩算力面向科研和早期项目免费，没有 KPI 和回报要求，只需每1到2个月汇报一次进度，适合跑 RL 环境 baseline 和验证器测试，义务比政府券轻得多。",
+   "source": "https://zhuanlan.zhihu.com/p/19868651261",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "香港组合拳：CIP 加 AISS",
+   "detail": "如果设香港主体：数码港 CIP 的2027年2月期在2026年12月1日截止（最高 HK$500K 资助加 HK$200K 租金补贴）；人工智能资助计划（AISS）对数码港超算中心算力最高补贴七成，AI 初创也在五类合资格机构之列。两者可以叠加，进驻数码港后再申 AISS。在 Reddit 上没有搜到创始人对 HKSTP 或数码港的讨论，建议直接问本地已入驻的团队。",
+   "source": "https://www.smelink.gov.hk/zh/web/sme-portal/w/artificial-intelligence-subsidy-scheme.html",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "用“数据要素×”大赛换取交易所上架和曝光",
+   "detail": "北京分赛除了最高200万元奖励，还会推动参赛企业的数据产品在北京国际大数据交易所上架，并提供房租减免和算力补贴。等于一次参赛同时拿到挂牌、曝光和政府关系。",
+   "source": "https://dexc.data.beijing.gov.cn/xwzx/ssdt/03329d63105048dd8491d0c31ba0159c.html",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "四位创始人分别申请浦江人才 B 类",
+   "detail": "浦江项目 B 类（创办科技型留学人员企业）每人资助30万元，通过“上海国际人才网”网上申报，执行期2026年12月至2028年11月。海外学历背景的创始人可以各自申请，属于非稀释资金；需要先在上海设主体，并核实今年的截止时间和国籍要求。",
+   "source": "https://www.sh-italent.com/Article/202607/202607010008.shtml",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "用开源 RL 环境对接北京“AI开源创新项目”算力券",
+   "detail": "北京算力券对AI开源创新项目按算力合同额50%补贴，最高100万元，比新备案模型那一档（10%、最高30万元）优厚得多。如果开源一部分金融 RL 环境或 benchmark，可以在下一批申报时走这一档（2026年第一批已于4月15日截止）。",
+   "source": "https://www.ncsti.gov.cn/kjdt/tzgg/202602/t20260224_238787.html",
+   "category": "china-programs"
+  },
+  {
+   "tactic": "TechCrunch 活动周：带着目标名单和日程去",
+   "detail": "评论者认为，运作得好的一周 TechCrunch 活动可抵三个月冷邮件，前提是带着投资人短名单和计划到场；用 CrunchMatch 提前预约现场私人会面，并让系统按资料推荐匹配",
+   "source": "https://launchhawk.substack.com/p/techcrunch-is-turning-their-boston",
+   "category": "community-events"
+  },
+  {
+   "tactic": "在大会周自办 side event",
+   "detail": "TechCrunch 公开邀请第三方在其活动周办 side event。SimReal 可在 Disrupt（10/13-15）或 ICLR 2027（旧金山）期间办“金融 RL 环境/后训练数据”小型晚宴或 happy hour，定向邀请实验室后训练研究员和 AI infra VC",
+   "source": "https://techcrunch.com/2026/03/04/host-a-side-event-during-techcrunch-founder-summit-week-in-boston",
+   "category": "community-events"
+  },
+  {
+   "tactic": "Startup Battlefield 要按往年节奏提前准备",
+   "detail": "2026 届在 5/27 截止并延至 6/8，8 月底通知；TechCrunch 会发布“我们在找什么”的说明。2027 届宜在春季开放前就备好 demo 视频和 traction（7,000+ 专家、已供货 Surge AI / AfterQuery）",
+   "source": "https://techcrunch.com/2026/05/26/what-were-looking-for-in-startup-battlefield-2026-and-how-to-apply-in-time-for-the-may-27-deadline/",
+   "category": "community-events"
+  },
+  {
+   "tactic": "用 Verifiers 库构建环境，接入 Environments Hub",
+   "detail": "Show HN 上的 RL 环境实战课程用开源 Verifiers 库构建单轮、多轮和工具调用环境。把 SimReal 的公开样品环境做成兼容格式，可以直接发到 Prime Intellect Environments Hub，并申请赏金",
+   "source": "https://news.ycombinator.com/item?id=47730587",
+   "category": "community-events"
+  },
+  {
+   "tactic": "Prime Intellect 的 Application-Only 赏金是客户线索",
+   "detail": "Application-Only 档任务更难，常由第三方赞助，按评测结果付 $1,000-5,000+。完成后不仅有署名曝光，还能接触到愿意为特定环境付费的赞助方",
+   "source": "https://www.primeintellect.ai/blog/scaling-environments-program",
+   "category": "community-events"
+  },
+  {
+   "tactic": "以开源 benchmark 的形式上 Show HN",
+   "detail": "CivBench、CVE-Bench、Open Operator Evals 等都以“benchmark + 排行榜”的形式发布在 Show HN。SimReal 可公开一个 Xitadel 精简版或 month-end-close 评测集，并附上前沿模型得分，既有话题性又不泄露核心数据",
+   "source": "https://news.ycombinator.com/item?id=47152571",
+   "category": "community-events"
+  },
+  {
+   "tactic": "NeurIPS 期间参加 NVIDIA 的免费 VC 社交活动",
+   "detail": "NVIDIA 在 NeurIPS 办封闭式社交活动，连接 VC、NVIDIA 合作伙伴和导师，免费参加，之后有 pitch workshops；建议同时加入 NVIDIA Inception 以便获得邀请",
+   "source": "https://nvevents.nvidia.com/launchinglegendsatneurips",
+   "category": "community-events"
+  },
+  {
+   "tactic": "NeurIPS 2026 三城分兵",
+   "detail": "主会场在悉尼（12/6-12），巴黎和亚特兰大卫星会场在 12/9-13，巴黎有 28 个 workshop。英国成员去巴黎、美国成员去亚特兰大，省掉去悉尼的差旅；workshop 日是研究员最集中、最好约人的时段",
+   "source": "https://aiweekly.co/alerts/neurips-2026-accepts-102-workshops-across-three-host-cities",
+   "category": "community-events"
+  },
+  {
+   "tactic": "用 workshop 追踪器提前锁定 RL / evals 讲者",
+   "detail": "用 NeurIPS 2026 workshop 列表筛出 RL、评测、agent 相关 workshop，会前给组织者和受邀讲者发邮件约 15 分钟咖啡，比现场随机社交高效",
+   "source": "https://aiworkshoptracker.com/conference/neurips/2026/",
+   "category": "community-events"
+  },
+  {
+   "tactic": "Web Summit 走 ALPHA 而不是买普通票",
+   "detail": "ALPHA 面向 pre-Series A 初创，以远低于常规票的价格提供展位、结构化投资人匹配、导师时段和媒体曝光",
+   "source": "https://mutekigroup.com/events/web-summit-2026/",
+   "category": "community-events"
+  },
+  {
+   "tactic": "Money20/20 选 Startup Hub 并尽早买票",
+   "detail": "Startup Hub 只要求 2023-10-01 之后注册成立；票价分档上涨（约 $3,599 到 $4,199），越早越便宜，现场也能买",
+   "source": "https://internaware.org/business/money2020-usa-2026-deadlines/",
+   "category": "community-events"
+  },
+  {
+   "tactic": "HK FinTech Week 主攻城中 side events",
+   "detail": "主会只有 11/2-11/3 两天，其余时间在香港和大湾区有一整周社区与 networking 活动；可以重点找银行、券商、对冲基金相关场次约潜在买家和中资投资人",
+   "source": "https://www.investhk.gov.hk/en/events/hong-kong-fintech-week-x-startmeuphk-2026/",
+   "category": "community-events"
+  },
+  {
+   "tactic": "给 AGI House / OpenEnv 类 hackathon 提供赛题",
+   "detail": "AGI House 与 OpenAI 合办 autoresearch、self-improving agents、harness 优化等 hackathon，最高每周 5 场；OpenEnv hackathon 要求参赛者构建 RL 环境并后训练模型，奖池 $100K+。以赞助方身份提供金融环境作为赛题，能让上百名 RL 开发者实际用上 SimReal 的环境",
+   "source": "https://cerebralvalley.ai/e/openenv-hackathon-sf",
+   "category": "community-events"
+  },
+  {
+   "tactic": "对 Prime Intellect RL Residency 的竞争有预期",
+   "detail": "上一期有 500+ 人申请，每期只收 14-16 人；申请时应附上已发布在 Environments Hub 的环境作为作品集",
+   "source": "https://www.primeintellect.ai/blog/scaling-environments-program",
+   "category": "community-events"
+  },
+  {
+   "tactic": "按门槛从低到高的顺序申请",
+   "detail": "第三方指南建议没有 VC 的创始人先申请 Microsoft Founders Hub（不需要 VC 或注册证书），再加入 NVIDIA Inception（解锁合作生态和 AWS 通道），然后申请 Google Cloud，最后随着融资进展申请 AWS Activate 高档。熟练的创始人会同时申请多家，按用途分工：AWS 跑后端，Azure 跑 OpenAI 类工作负载，GCP 跑数据管线。",
+   "source": "https://www.gmicloud.ai/en/blog/gpu-credit-programs-for-ai-startups-from-prototype-to-production-without-dilution",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "用 AWS 额度经 Bedrock 调用 Claude",
+   "detail": "2026 年起 AWS Activate 额度可用于 Bedrock 上的第三方模型（Anthropic、Meta、Cohere）。生成 agent 轨迹和做 rubric 打分时，可以先用 AWS 额度支付 Claude 调用，Anthropic 自己的额度留着备用。",
+   "source": "https://grantedai.com/grants/aws-activate-cloud-credits-program-ai-startups-aws-d2e3f4a5",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "额度会过期，按消耗计划分批领取",
+   "detail": "HN 讨论指出 AWS 额度通常 1 年过期，或分两笔 $50k 在 2 年内发放；额度在提供方账上是负债，所以必然有期限。不要在没有工作负载时一次性领取大额额度。",
+   "source": "https://news.ycombinator.com/item?id=21832427",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "Anthropic 连付费额度也会过期",
+   "detail": "HN 有帖子提醒 Anthropic 付费购买的额度一年后过期；创业额度本身也是 12 个月有效。按月度用量小额预充，不要一次大额预付。",
+   "source": "https://news.ycombinator.com/item?id=44793446",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "Google 申请要用公司域名，并写清楚 AI-first",
+   "detail": "Google 官方 FAQ 要求公司网站域名与申请邮箱域名、计费账户域名一致，用 Gmail 申请会被拒。AI 档要求 AI 是产品的基础架构而不是附加功能，申请书里要说明 RL 环境、verifier 和数据生成管线本身就是 AI 产品。",
+   "source": "https://cloud.google.com/startup/faq",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "签下第一份机构 SAFE 后立即升级 Google Scale/AI 档",
+   "detail": "Scale 档认机构投资人的 SAFE，不认天使、赠款或众筹。种子轮第一张机构 SAFE 签完就重新申请，最高 $350K；不必等整轮交割。",
+   "source": "https://guptadeepak.com/startup-offers/programs/google-for-startups-cloud",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "Azure 额度要实际用起来才能升级",
+   "detail": "Microsoft 明确表示闲置额度不会帮助升级；从 $5K 升到 $150K 要靠经验证的 Azure 实际使用，或 Investor Network 的推荐码。拿到 $5K 后应尽快在 Azure 上跑真实工作负载。",
+   "source": "https://learn.microsoft.com/en-us/answers/questions/5888354/inquiry-about-progression-to-higher-azure-credit-t",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "把 VC 推荐码列为种子轮比较投资人的一项增值",
+   "detail": "OpenAI 只通过合作 VC 的推荐码发放额度，没有直接申请通道；Anthropic 的合作伙伴档 $25K 也需要 VC 或加速器的推荐码；AWS Portfolio 档需要 Activate Provider 的 Org ID；W&B 也要合作伙伴推荐。种子轮谈判时，逐一问各家 VC 是否在这些合作伙伴名单内。",
+   "source": "https://ideople.com/perks/openai-startup-credits",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "先加入 NVIDIA Inception，再申请 Nebius $150K",
+   "detail": "Nebius AI Lift 只对合格的 Inception 会员开放，最高 $150K GPU 额度，而 Inception 免费、不要求融资。这是目前不需要 VC 背景也能拿到大额 GPU 额度的少数路径之一。",
+   "source": "https://x.com/nebiusai/status/1909998003856802187",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "银行和企业卡 perks 有“仅限新用户”陷阱，先领大额的",
+   "detail": "Stripe Atlas 的 $5K AWS Activate 额度仅限 AWS 新用户。如果先自行申请了 $1K Founders 档，可能就失去资格。选美国主体时，先通过 Atlas、Mercury（$5K AWS、$5K Azure）、Ramp（$2.5K OpenAI）领取，再单独申请。",
+   "source": "https://guptadeepak.com/startup-offers/programs/stripe-atlas",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "种子轮交割后立即申请有融资门槛的 GPU 平台",
+   "detail": "Modal 要求从任意基金融资超过 $1M 或来自其 VC 网络；Fireworks 要求融资 $500K 以上；Baseten 要求 Seed 至 Series A。种子轮交割当周就可以批量申请，现在申请会被拒。",
+   "source": "https://modal.com/startups",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "不要在已停止的项目上浪费时间",
+   "detail": "Hugging Face 已没有创业项目；Cohere 创业页面跳转到首页；Mistralship 申请页截至 2026 年 8 月返回 404；Lambda Research Grant 只面向学术研究者。",
+   "source": "https://guptadeepak.com/startup-offers/programs/huggingface-startups",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "UK AIRR 的 GPU 小时要在 3 个月内用完，先准备好实验计划",
+   "detail": "Rapid Access 每个项目给 20,000 GPU 小时，必须在项目开始后 3 个月内用完。申请前就准备好可以直接运行的实验，例如在开源模型上用 Xitadel 环境做 RL，对比有无 SimReal 数据的效果，以免额度作废。",
+   "source": "https://www.ukri.org/opportunity/isambard-ai-and-dawn-airr-supercomputers-rapid-access-route/",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "警惕额度带来的锁定效应",
+   "detail": "HN 上有创始人认为创业额度是“bait and switch”：先让你绑定平台，额度用完后再付现金。基础设施应保持可迁移（容器化、多云），按各家额度轮换使用。",
+   "source": "https://news.ycombinator.com/item?id=35529128",
+   "category": "compute-perks"
+  },
+  {
+   "tactic": "资助方大多只收学术/非营利主申请方时，挂靠高校 PI",
+   "detail": "Schmidt Sciences Trustworthy AI 只收高校、研究机构和非营利；Laude Slingshots 第二批 14 个项目全部来自 6 所高校。建议找剑桥/LSE/Duke 的实验室作为主申请方，SimReal 以环境/verifier/专家数据合作方身份进入，同时把基准开源，拿到研究圈曝光",
+   "source": "https://www.laude.org/updates/slingshots-two",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Schmidt 等资助方偏好'可部署的基准与工具'，而不是纯理论",
+   "detail": "Schmidt Sciences 2026 RFP 明确要求产出从业者可直接使用的工具、基准和框架。提案里要突出可复现的环境、开源 verifier 和使用者（实验室/评测方），不要只写研究问题",
+   "source": "https://grantedai.com/news/schmidt-sciences-trustworthy-ai-grants-5-million-2026",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Coefficient Giving 专项 RFP 关闭后转投通用 RFP",
+   "detail": "评测类 RFP 关闭后官方建议转投 AI Governance and Policy 通用 RFP；EOI 滚动审核，目标两周内回复。先写一页 EOI，把金融 agent 基准与灾难性风险/自主能力评估挂钩",
+   "source": "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-improving-capability-evaluations/",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "NSF SBIR：先提交 Project Pitch，不要用 AI 代写",
+   "detail": "Project Pitch 自 2026-06-02 重开，是全文申请的前置步骤；NSF 坚持人工评审，并警告 AI 生成内容有明显风险；新法要求对外国关联申请人做安全审查，中国背景团队应先评估再投入",
+   "source": "https://grantedai.com/blog/nsf-sbir-restart-project-pitch-ai-deep-tech-2026",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "EIC Accelerator 倒排时间：短申请先行",
+   "detail": "短申请约 12 页摘要 + 10 页 deck + 3 分钟视频，2–4 周，通过率约 70%；全文需 6–12 周准备，进入面试比例约 22–36%。赶 11/4 截止已很紧，建议以 2027 年首批截止日为目标，现在就提交短申请",
+   "source": "https://www.euacc.ai/programmes/eic-accelerator",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Innovate UK：Smart Grants 已停，盯主题竞赛",
+   "detail": "Smart Grants 自 2025-01 暂停，资金转向 Growth Catalyst 和主题竞赛。若用英国实体，本季最对口的是 Frontier AI: SME Champions（12/2 截止）和 Efficient, Structured and Controllable AI Systems（11/18 截止）",
+   "source": "https://casrai.org/guides/innovate-uk-smart-grants",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "ARIA：注意 >50% 英国成本/人员规则与每月审核节奏",
+   "detail": "ARIA 要求项目过半成本和人员时间在英国；Safeguarded AI Cybersecurity 当期 10/31 截止，之后约每月审核一次直到 2027 年初，可以不赶首批",
+   "source": "https://iuk-business-connect.org.uk/opportunities/aria-safeguarded-ai-cybersecurity-rolling-call/",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Foresight Nodes：开源产出是硬要求，回款慢",
+   "detail": "须产出开源成果，截止后约 3 个月才有结果；适合把一个非核心的金融 agent 安全评测开源出来申请，不要拿核心商业数据集",
+   "source": "https://www.globalsouthopportunities.com/2026/09/15/fore/",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Thiel Fellowship：不会被强迫做宣传",
+   "detail": "HN 上 Figma 联合创始人称 fellowship 期间公司可以全程隐身、不强迫做媒体；但门槛是 22 岁及以下、无学位",
+   "source": "https://news.ycombinator.com/item?id=11447331",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "Emergent Ventures：申请写短，突出一个大胆想法",
+   "detail": "申请流程刻意保持简单、决策快；一句话讲清 moonshot（例如'让 AI 学会真实交易台/财务月结'），不要写成长篇商业计划",
+   "source": "https://1goodthing.substack.com/p/emergent-ventures-is-a-good-thing",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "用 UK 路演活动清单安排融资期间的曝光",
+   "detail": "Fundraising101 汇总了 100+ 个 2026/2027 年面向英国创始人的路演与比赛，可从中挑与 AI/fintech 相关、有投资人评委的场次，与 $20M 种子轮节奏配合",
+   "source": "https://fundraising101.academy/resources/75-pitch-events-competitions-for-uk-founders-2026-2027/",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "订阅 AI 安全资助通讯追踪评测类 RFP",
+   "detail": "评测/基准类 RFP 开关很快（例如 Coefficient 预测 RFP 2026-02-07 关闭、AISI Challenge Fund 2026-04-01 截止），订阅 AI Safety Funding newsletter 并定期查看 aisafety.com/funding，可赶上下一轮窗口",
+   "source": "https://aisafetyfunding.substack.com/p/ai-safety-funding-issue-19-2026",
+   "category": "fellowships-grants"
+  },
+  {
+   "tactic": "让该投资人已投的创始人来介绍",
+   "detail": "最好的介绍人是投资人已经投过的创始人；同时给对方 2–3 句可直接转发的 blurb（做什么、解决什么问题、为什么重要），降低介绍人的成本",
+   "source": "https://seedlegals.com/resources/how-to-find-investors-and-the-art-of-the-warm-introduction/",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "弱 warm intro 也比冷邮件强，尽早梳理关系图谱",
+   "detail": "投资人反复说，哪怕只是一句「你应该见见这个创始人」，也胜过大多数冷邮件；创始人花太多时间优化 outbound，却没有提前梳理关系、排好 intro",
+   "source": "https://x.com/jayyeh/status/2055832496324112460",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "冷邮件要精准，不要群发",
+   "detail": "Pre-seed VC Martin Tobias 认为「多发冷邮件」对 90% 的 pre-seed 创始人是坏建议：精准投递的回复率约 5–15%，阶段或赛道不对的群发基本无效",
+   "source": "https://x.com/MartinGTobias/status/2075309148867350640",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "没有人脉时，大量定向冷邮件也能撑起整轮",
+   "detail": "Ivan Burazin 说他们没有人脉、没有 YC、也没有名人引荐，约 400 封冷邮件撑起了整个 pre-seed 轮；可以作为 warm intro 的补充，而不是二选一",
+   "source": "https://x.com/ivanburazin/status/2040202687497609295",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "用联合创始人多年积累的信誉换 warm intro",
+   "detail": "有团队靠联合创始人 4–5 年在创业公司积累的信誉和长期帮助他人，拿到 100+ 个 warm intro；SimReal 四位创始人的 Jane Street、Citadel、D. E. Shaw 等老同事网络就是这种资产，应逐一列出并请求介绍",
+   "source": "https://x.com/andrew__rea/status/1790400236168401198",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "只在有共同信任的第三方时找 intro，否则直接冷邮件",
+   "detail": "有一个你和投资人都熟悉、信任的第三方（最好是其被投创始人、领域专家或现有天使）时才走 intro，否则直接冷邮件，不要硬凑弱关系",
+   "source": "https://x.com/michuk/article/2057763085440401437",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "通过 VC scouts 进入早期管线",
+   "detail": "HN 创始人建议多接触 investor scouts：他们负责早期 pipeline 和 deal sourcing，在咖啡、活动、coworking 里的随意聊天往往能打开正式 intro 打不开的门",
+   "source": "https://news.ycombinator.com/item?id=45538546",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "先有 traction，intro 自然会来",
+   "detail": "HN 上的共识是：一旦有了真实需求的证据，intro、投资人回复和合作都会自然流动；SimReal 已向 Surge AI 和 AfterQuery 供货，应把它放在 blurb 第一句",
+   "source": "https://news.ycombinator.com/item?id=45538546",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "二三度人脉比想象中大，靠长期给予换取帮助",
+   "detail": "HN 建议：加入有名的 accelerator 或本地 meetup 扩展人脉；你的二度、三度人脉比想象中大；但如果多年没给身边人提供价值，求 intro 会很难，找 warm intro 本身也在检验创始人的 resourcefulness",
+   "source": "https://news.ycombinator.com/item?id=22284025",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "线下活动见面，制造跟进理由",
+   "detail": "创造 warm intro 的最好办法之一是在创业活动上当面见投资人，哪怕只聊几句也有理由事后跟进；适用于 London.AI、Slush、Web Summit 等场合",
+   "source": "https://seedlegals.com/resources/how-to-find-investors-and-the-art-of-the-warm-introduction/",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "Slush 提前用 matchmaking 约好 1:1",
+   "detail": "Slush 允许创始人在到场前通过 curated matchmaking 预约与 VC、CVC 和合作伙伴的 1:1 会议，应提前一到两周锁定目标投资人",
+   "source": "https://founderpath.com/events/saas/slush/2026-helsinki",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "用 Signal by NFX 找 intro 路径",
+   "detail": "Signal 连接 Gmail 后会显示到目标投资人的 warm intro 路径；四位创始人分别导入邮箱，就能拼出覆盖面更大的关系网",
+   "source": "https://www.metal.so/guides/metal-vs-signal-by-nfx-the-best-way-to-find-investors-in-2026/",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "别花数周打磨 deck，先去谈",
+   "detail": "pre-seed 阶段不要花几周把 deck 做到完美，直接和投资人聊，从反复出现的问题里迭代叙事；融资本身就在提供信息",
+   "source": "https://x.com/sridharfyi/status/2103689727757226100",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "AI 初创优先找 accelerator 和 AI 专业种子基金",
+   "detail": "对 AI 初创来说，accelerator 和 AI 专业种子基金通常是优先级最高的第一步（Air Street、Conviction 这类 AI-only 基金更懂 RL 环境和数据业务）",
+   "source": "https://www.sky9capital.com/blog/blog-ai-focused-investors-vc-firms-2026/",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "对 warm intro 文化保持清醒",
+   "detail": "Indie Hackers 上有创始人直言 warm intro 是「创业投资最大的骗局」，并在做替代方案；说明没有人脉的团队也有路可走，应同时铺开冷邮件、活动和数据库渠道",
+   "source": "https://www.indiehackers.com/post/warm-intros-are-the-biggest-scam-in-startup-investing-im-building-the-replacement-1a2b21bfb9",
+   "category": "investor-access"
+  },
+  {
+   "tactic": "用 Epoch 的价格锚点报价，并分独家/非独家两档",
+   "detail": "Epoch 访谈 18 位业内人士后给出：单个任务 $200–$2,000，网站复刻 UI gym 约 $20k，Slack 级复杂环境约 $300k，合同常为每季度六到七位数美元；独家价格约为非独家的 4–5 倍。首单可按非独家报价，压低门槛，同时保留把金融环境转卖给多家实验室的权利。",
+   "source": "https://epoch.ai/gradient-updates/state-of-rl-envs",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "警惕买家集中，同时布局 neolabs 和大供应商分包",
+   "detail": "Ben Anderson 的《Don't Build an RL Environment Startup》（HN 热帖）指出买家只有少数前沿实验室，Anthropic 可能是最大单一买家。早期在直销实验室之外，同时经营 Surge/AfterQuery 分包和 neolab 客户，避免单一客户占收入大头；融资时也要能回答\"实验室自建后你怎么办\"。",
+   "source": "https://news.ycombinator.com/item?id=45167107",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "把一个非核心金融环境开源到 Prime Intellect Hub 或 HUD，换取被动获客",
+   "detail": "HUD 称发布到其平台的环境可被实验室直接运行，无需定制集成或外联；Prime Intellect 的 Hub 已众包 400+ 环境，并欢迎第三方赞助金融等领域的赏金。发布一个展示性环境（不含核心 IP），既能在 RL 社区露面，也能作为销售时的公开 demo。",
+   "source": "https://www.primeintellect.ai/blog/scaling-environments-program",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "准备 1–5% 的代表性样本作为敲门砖",
+   "detail": "数据授权指南建议准备占全量 1–5% 的代表性样本，展示最高质量的标注、最干净的记录和最深的领域覆盖，但不泄露核心价值。对 SimReal 来说，可以是 Xitadel 的若干任务 + 验证器 + 专家标注 rubric 的小样本包。",
+   "source": "https://beyondelevation.com/insights/how-to-license-data-to-ai-companies",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "通过合作页面、NeurIPS/ICML 和直接外联找到实验室数据采购负责人",
+   "detail": "基础模型公司（OpenAI、Anthropic、Google DeepMind、Meta、Mistral）有专门的数据合作团队，可通过官方合作页面、NeurIPS/ICML 等会议，以及直接联系数据采购负责人触达。NeurIPS 2026 期间可预约实验室 post-training 团队面谈。",
+   "source": "https://beyondelevation.com/insights/how-to-license-data-to-ai-companies",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "定位为\"金融专项环境/验证器供应商\"，切入转型中的大供应商",
+   "detail": "SemiAnalysis 指出 Surge、Mercor、Scale、Turing 都在补环境与验证器能力，原本做人类标注的 Mercor、Surge、Handshake、Turing 现在也卖 RL 环境。对它们而言，SimReal 可以是现成的金融环境工程外包，与其专家网络形成互补，而不是正面竞争。",
+   "source": "https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "主动进入行业清单和市场地图",
+   "detail": "Pavlov's List（Chris Barber）、rl-list.com 与 Deedy Das 的市场地图是买家和投资人了解 RL 环境供应商的主要入口。主动发 DM，用一句话定位（\"金融 RL 环境 + 验证器，顶级量化团队\"）争取被收录，金融方向的竞争者少，容易被注意到。",
+   "source": "https://x.com/chrisbarber/status/2010844746231804258",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "把大供应商当作潜在战略方/收购方经营",
+   "detail": "X 上有观点认为 RL 环境公司已开始被收购，理想买家包括数据标注公司、neo-cloud、前沿实验室和 neolabs。与 Surge、AfterQuery 等客户保持高质量交付和高层关系，既能扩单，也是未来战略投资或并购的伏笔。",
+   "source": "https://x.com/guohao_li/status/2075267106900197556",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "中国实体可把数据产品挂牌上海数据交易所，兼做融资资产",
+   "detail": "上海数据交易所的语料专区已有 60+ 语料产品、覆盖金融；交易所与 20+ 家金融机构合作开展数据资产贷款。若设立中国实体，挂牌金融语料/评测产品既能触达国内模型厂商，也能形成可融资的数据资产。",
+   "source": "https://www.shanghai.gov.cn/nw4411/20240629/79f8476390ff458c9cd1be6d52258eb9.html",
+   "category": "sales-channels"
+  },
+  {
+   "tactic": "一个环境同时发到 Prime Intellect Hub、OpenEnv 和 Harbor registry",
+   "detail": "Prime Intellect Hub 的贡献者里已有 Arcee AI、HUD、Groq 等公司；OpenEnv 是 Meta/HF 的标准；Harbor 把外部 benchmark 包成 adapter 后，就能使用 Terminal-Bench 的日志、并行和分发能力。公开版 Xitadel 打包一次、三处发布，可以覆盖三个生态的研究者。",
+   "source": "https://www.primeintellect.ai/blog/environments ; https://www.tbench.ai/news/registry-and-adapters ; https://quesma.com/blog/compilebench-in-harbor/",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "趁前沿模型发布当天开源，并挂钩实验室报告的 benchmark",
+   "detail": "CAMEL-AI 的 Guohao Li 在 GPT-5.3-Codex 和 Opus 4.6 发布当天，发帖宣布开源约 1,000 个终端 RL 训练环境，并指出 Terminal-Bench 2.0 是两家发布中唯一共同报告的 benchmark，借这波热度获得关注。SimReal 可以在主要模型发布日公布这些模型在金融环境上的成绩。",
+   "source": "https://x.com/guohao_li/status/2019527791876653353",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "用美元盈亏当指标，做长周期、不饱和的 benchmark，争取被模型发布引用",
+   "detail": "Vending-Bench 用一年模拟经营后的最终账户余额计分，叙事直白，Anthropic 在 Claude Opus 4.5 发布时引用了它（提升 29%），而且最好的模型仍远不如人类经营者。交易环境的 P&L 指标可以照搬这种“模型能赚多少钱”的叙事。",
+   "source": "https://rits.shanghai.nyu.edu/ai/vending-bench-2-ai-models-put-to-the-test-running-a-business-for-a-year/",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "把“领域专家比 ML 技巧更重要”作为对外核心叙事",
+   "detail": "Epoch AI 访谈了 18 位业内人士，一位 RL 环境创始人说做任务时“领域知识和专家级 prompt 比 ML 技能更重要”；文章还指出企业工作流（电子表格、填报表）是增长领域。SimReal 的量化联创加 7,000+ 专家，可以直接对上这个判断，月结环境就是典型的企业工作流。",
+   "source": "https://epoch.ai/gradient-updates/state-of-rl-envs",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "r/MachineLearning 严格按 [P] 模板发帖",
+   "detail": "标题加 [P]，正文依次写：做了什么、方法、结果（benchmark）、代码、论文。不符合格式的帖子常被版主删除或重新打标签。内容应以技术结果为主，不要写成产品广告。",
+   "source": "https://www.reddit-radar-marketing.com/guides/r/machinelearning",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "r/LocalLLaMA 遵守 1/10 自我推广准则并披露身份",
+   "detail": "厂商帖只有在不过量、并且披露关联时才被允许。建议以开源模型在金融任务上的评测结果为主体，写明自己是作者或所在公司，少发推广帖。",
+   "source": "https://www.launchwake.com/channels/r-localllama",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "在 HF benchmark 数据集里加 eval.yaml，让分数自动出现在模型卡上",
+   "detail": "Hugging Face Community Evals 用 eval.yaml（Inspect AI 格式）定义评测；模型仓库在 .eval_results/ 目录里存分数后，会自动显示在模型卡上并回链到 benchmark。这样别人每跑一次你的 benchmark，你就多一次曝光。",
+   "source": "https://huggingface.co/blog/community-evals",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "用 Kaggle Community Benchmarks 的免费模型配额，零成本出前沿模型排行榜",
+   "detail": "Kaggle 在配额内免费提供 Google、Anthropic、DeepSeek 等前沿模型的调用，可以把金融任务定义成 Tasks 和 Benchmark，直接生成公开排行榜，再拿去 X、Reddit、HN 传播。",
+   "source": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-community-benchmarks/",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "Show HN 标题用“<Name>-Bench + 首个 + 真实世界”的结构",
+   "detail": "CVE-Bench 的标题是“the first LLM benchmark using real-world web vulnerabilities”；Cua-Bench、Sales Agent Benchmark、Factorio Learning Environment 也都是开源 benchmark/环境形式的 Show HN。可以写成：Show HN: Xitadel-Bench, the first ... using real trading/month-end-close tasks。",
+   "source": "https://news.ycombinator.com/item?id=43540413",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "在 X 上写长文 Article 做科普，建立领域权威",
+   "detail": "RL 环境圈有多篇 X 长文传播，例如《How to Build an RL Environment》《RL Coding Environments 101: Why Harbor Exists》《Why RL environments work now (and could not in 2016)》。SimReal 可以写《How to build a verifier for financial tasks》之类的教程型长文。",
+   "source": "https://x.com/akshay_pachaar/article/2074200571834515574 ; https://x.com/adithya_s_k/article/2054961319179420035 ; https://x.com/i/article/2096969377002213866",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "和用户共建 benchmark，把真实任务转成容器化环境",
+   "detail": "Cline 公开宣布和社区共建 cline-bench，把真实开源仓库里的困难任务转成带仓库快照的容器化 RL 环境。SimReal 可以邀请 7,000+ 专家贡献真实金融任务，做成“社区共建的金融 benchmark”，同时用于招募和曝光。",
+   "source": "https://x.com/cline/status/1991612268220752130",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "主动进入行业地图，抢占“金融 RL 环境”的定位",
+   "detail": "Troveo 的 2026 行业地图把公司分为人类数据公司、环境原生创业公司和开放生态三类；Halluminate 在 2026 年把定位收窄到“金融服务 RL 环境”。SimReal 应主动联系 Troveo、Synaptic、rl-list 等地图作者，争取以“环境原生 + 金融”身份收录，避免金融标签被竞争对手独占。",
+   "source": "https://www.troveo.ai/resources/rl-environment-companies",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "用 Harbor 时仔细检查 adapter 默认参数",
+   "detail": "有 GitHub issue 记录：Harbor 的 Terminal-Bench adapter 因为默认 max_tool_calls_per_turn=10 中断了编码循环，得分为 0，还用字符串判断误判了结果。发布 adapter 或排行榜前要用真实 agent 端到端验证，否则公开的分数会损害可信度。",
+   "source": "https://github.com/MervinPraison/PraisonAI/issues/3932",
+   "category": "visibility-launch"
+  },
+  {
+   "tactic": "赶在 10/11 前投 AI Engineer Code Summit，滚动审核越早越好",
+   "detail": "AI Engineer Code Summit 2026 的征稿最终截止是 2026-10-11 23:59 PT，滚动审核，面向构建、部署、评测 AI coding 系统的实践者。可以投“为 coding agent 设计 verifier 和 RL 环境”的实战题目，借此进入 Latent Space 生态。",
+   "source": "https://sessionize.com/aiecode26/",
+   "category": "visibility-launch"
+  }
+ ]
+}

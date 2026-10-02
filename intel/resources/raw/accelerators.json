@@ -1,0 +1,477 @@
+{
+  "items": [
+    {
+      "name": "PearX W27 (Pear VC)",
+      "category": "加速器与孵化器",
+      "region": "美国（湾区）；是否限制公司注册地未确认",
+      "offer": "12 周 pre-seed 小班加速器；投资额 $250K–$2M（来源为 Andrew Yeung 在 X 上的汇总）",
+      "eligibility": "pre-seed 阶段公司；地区与实体要求未确认",
+      "timing": "W27 常规截止 2026-10-04 23:59 PST（距今仅 2 天）；S26 曾分早申（2/22）与常规（4/12）两轮",
+      "status": "开放中",
+      "howToApply": "在 Pear VC 官网 PearX 页面在线提交申请（pear.vc）",
+      "fit": "高",
+      "fitWhy": "Pear 投 B2B/AI 公司（如 Listen Labs、Valar Labs），小班制、偏 pre-seed，适合刚起步但已有 Surge AI、AfterQuery 付费客户的 SimReal；截止极近，需立刻提交",
+      "effort": "中",
+      "community": "Pear VC 在 X 上称 S26 早申截止时已收到「数千份」申请，竞争激烈（https://x.com/pearvc/status/2030002543460253752）",
+      "sources": [
+        "https://www.startupgrantsindia.com/pearx-pear-vc-accelerator",
+        "https://sabapplier.com/fundingAlerts/pearx-w27",
+        "https://pear.vc/pearx-s26-applications/",
+        "https://x.com/pearvc/status/2030002543460253752",
+        "https://x.com/andruyeung/status/1815485342486769741"
+      ]
+    },
+    {
+      "name": "Y Combinator W27",
+      "category": "加速器与孵化器",
+      "region": "美国旧金山（线下批次）；全球团队可申请，公司结构要求本次来源未确认",
+      "offer": "标准投资最高约 $500K（来源标示 Up to ₹4.15Cr）；3 个月线下批次、YC 校友网络与 Demo Day",
+      "eligibility": "全球早期团队，无融资阶段门槛；注册地/实体要求未确认",
+      "timing": "W27 截止 2026-11-02 8pm PT；按时申请者 12-11 前收到结果；批次 2027 年 1–3 月在旧金山；截止后仍可申请但回复时间不保证",
+      "status": "开放中",
+      "howToApply": "在 ycombinator.com/apply 在线提交申请",
+      "fit": "高",
+      "fitWhy": "技术型量化创始团队 + 已有付费客户（Surge AI、AfterQuery），AI 基础设施/后训练数据赛道契合；YC 背书能直接放大 $20M 种子轮的投资人渠道",
+      "effort": "中",
+      "community": "HN 上多位创始人分享被拒多次后再申请才入营（有人申请 6–8 次），YC 拒信本身承认分数线附近的团队常被误杀，建议带着新进展再申（https://news.ycombinator.com/item?id=16867609）",
+      "sources": [
+        "https://www.ycroaster.com/tools/yc-application-deadline",
+        "https://ycombinator.com/apply",
+        "https://www.startupgrantsindia.com/y-combinator-winter-2027",
+        "https://news.ycombinator.com/item?id=16867609",
+        "https://news.ycombinator.com/item?id=21280202"
+      ]
+    },
+    {
+      "name": "a16z speedrun SR008",
+      "category": "加速器与孵化器",
+      "region": "美国（旧金山）；地区/实体限制未确认",
+      "offer": "最高 $1M 投资，无费用；12 周全职项目，含导师指导与大量 AI 工具/算力额度",
+      "eligibility": "早期创业公司；具体资格限制本次来源未列出（未确认）",
+      "timing": "SR008 优先申请窗口 2026-10-12 至 2026-11-01（已知信息，本次搜索未再核实）",
+      "status": "即将开放",
+      "howToApply": "通过 a16z speedrun 官网申请（入口本次未核实）",
+      "fit": "高",
+      "fitWhy": "a16z 进入股东名单可显著提高约见其他合伙人的效率，直接服务 $20M 种子轮；AI 额度可用于搭建和运行 RL 环境",
+      "effort": "中",
+      "community": "一位 speedrun 创始人在 Substack 写道「绝对值得」：a16z 上 cap table 后约见合伙人容易得多、额度帮助快速原型；但最新一期 19,000+ 申请录取率不到 0.4%（https://jonpan.substack.com/p/a16z-speedrun）",
+      "sources": [
+        "https://www.techcrunch.com/2026/02/15/how-to-get-into-a16zs-super-competitive-speedrun-startup-accelerator-program/",
+        "https://jonpan.substack.com/p/a16z-speedrun",
+        "https://fortune.com/2025/04/02/why-a16zs-speedrun-accelerator-is-playing-a-new-game"
+      ]
+    },
+    {
+      "name": "HF0 Residency",
+      "category": "加速器与孵化器",
+      "region": "美国旧金山（住宿制，需驻留）；全球可否申请未确认",
+      "offer": "$1M、5% 股权（来源称通过 uncapped SAFE）；12 周住宿制，每期约 10 支团队",
+      "eligibility": "技术型 AI 创始人，偏好连续创业者或高度技术背景；无公开资格清单",
+      "timing": "2026 年两期：9-13 开营（Demo Day 12-04）与 1-04 开营（Demo Day 6-23，来源说法）；滚动申请",
+      "status": "滚动申请",
+      "howToApply": "hf0.com/apply 先填写简短联系表单，无公开评选标准",
+      "fit": "高",
+      "fitWhy": "四位量化背景技术创始人 + RL 环境属硬核 AI 基础设施，符合 HF0 偏好；但 5% 条款需与 $20M 种子轮估值目标对照核实",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://startupintros.com/resources/hf0-residency-fall-2026",
+        "https://hub.causo.ai/guides/how-to-apply-to-hf0-residency-2026",
+        "https://www.hf0.com/"
+      ]
+    },
+    {
+      "name": "Neo Residency",
+      "category": "加速器与孵化器",
+      "region": "美国旧金山；地区限制未确认",
+      "offer": "$750K uncapped SAFE，股权 0.75%–5% 视创始人情况与谈判；每期 12–20 家；$350K+ Microsoft/OpenAI 额度、GPU 资源与长期社区",
+      "eligibility": "早期技术创始人；2026 年 2 月起 Neo Residency 取代原加速器与 Semester in SF",
+      "timing": "三个月一期；当前申请时间未确认",
+      "status": "未确认",
+      "howToApply": "通过 neo.com 官网申请（入口本次未核实）",
+      "fit": "高",
+      "fitWhy": "低稀释 uncapped SAFE 与 $20M 种子轮兼容；GPU 与 OpenAI/Microsoft 额度可直接用于跑环境与验证器",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.sky9capital.com/blog/ai-pre-seed-programs-verified-facts/",
+        "https://raisefunding.io/accelerators/neo",
+        "https://www.techbuzz.ai/articles/neo-disrupts-accelerators-with-750k-uncapped-safe-terms",
+        "https://neo.com/"
+      ]
+    },
+    {
+      "name": "AI Grant",
+      "category": "加速器与孵化器",
+      "region": "美国旧金山；地区限制未确认",
+      "offer": "$250K uncapped SAFE + $350K Microsoft Azure 额度 + 约 $250K 合作方额度（PostHog、Replicate、Anthropic、Modal、OpenAI 等），总价值约 $850K",
+      "eligibility": "pre-seed/seed 阶段 AI 公司；不看学历，单人创始可申，已融资公司也可申请",
+      "timing": "来源列有 Batch 4 (2026)，信息核实于 2026-09-01；当前是否开放未确认",
+      "status": "未确认",
+      "howToApply": "通过 AI Grant 官网申请（当前入口与开放状态未确认）",
+      "fit": "中",
+      "fitWhy": "额度包对算力需求很友好；但 AI Grant 偏好用 AI 模型做出好产品，更重产品体验而非研究，数据/环境供应商需包装成产品",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://grantedai.com/grants/ai-grant-accelerator-seed-stage-ai-startups-batch-4-aigrant-d5e6f7a8",
+        "https://www.startersss.com/accelerators/ai-grant",
+        "https://www.sparkxyz.io/applications/1043"
+      ]
+    },
+    {
+      "name": "Techstars Spring 2027（含 Techstars London）",
+      "category": "加速器与孵化器",
+      "region": "全球多城市，含英国伦敦（Techstars London）",
+      "offer": "$220K 投资 + 导师与投资人网络；3 个月项目（股权比例本次来源未确认）",
+      "eligibility": "早期创业公司；各城市项目方向不同（部分为 AI Health 等垂直项目）",
+      "timing": "申请 2026-08-24 至 2026-11-18；项目 2027-03-08 开始，Demo Day 2027-06-03",
+      "status": "开放中",
+      "howToApply": "在 techstars.com 选择具体城市项目（如 London）在线申请",
+      "fit": "中",
+      "fitWhy": "若用英国实体可申 Techstars London；属通用型加速器，对 AI 实验室客户的直接帮助可能有限",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://innovation-village.com/techstars-opens-spring-2027-applications-with-220k/",
+        "https://technext24.com/news/techstars-spring-2027-accelerator-applications/",
+        "https://www.thestartupopportunity.com/opportunities/techstars-london-accelerator"
+      ]
+    },
+    {
+      "name": "Sequoia Arc",
+      "category": "加速器与孵化器",
+      "region": "仅限总部在美洲或欧洲的公司（中国总部不符合）",
+      "offer": "$500K–$1M（条款按公司定制）；7 周 Company Building Immersion，含 Sequoia 合伙人、客户对接与投资人网络",
+      "eligibility": "pre-seed 或 seed 阶段创始人；公司总部须位于美洲或欧洲",
+      "timing": "已截止；Fall 2026 截止为 2026-08-17；每年两次公开申请，下一期时间未确认",
+      "status": "已截止",
+      "howToApply": "sequoiacap.com/arc 公开申请；另有被 Sequoia 主动发掘（sourced）的推荐路径",
+      "fit": "高",
+      "fitWhy": "Sequoia 品牌和客户对接直接服务 $20M 种子轮与 AI 公司客户拓展；需先确定英国或美国实体",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://startupintros.com/resources/sequoia-arc-fall-2026",
+        "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026",
+        "https://sequoiacap.com/arc"
+      ]
+    },
+    {
+      "name": "Greylock Edge",
+      "category": "加速器与孵化器",
+      "region": "美国（湾区）；地区限制未确认",
+      "offer": "3 个月 build 项目，含 $500K+ 云额度；投资条款未确认",
+      "eligibility": "pre-idea 到 seed 阶段创始人",
+      "timing": "滚动申请",
+      "status": "滚动申请",
+      "howToApply": "通过 Greylock 官网 Edge 页面申请（入口本次未核实）",
+      "fit": "中",
+      "fitWhy": "高额云额度可覆盖环境与评测算力；Greylock 品牌有助种子轮",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://substack.com/home/post/p-156057020",
+        "https://mikareyes.com/ai/6-underrated-ai-startup-founder-programs-aug-2026"
+      ]
+    },
+    {
+      "name": "Berkeley SkyDeck Batch 24",
+      "category": "加速器与孵化器",
+      "region": "美国伯克利；海外团队资格未确认",
+      "offer": "加速器项目（本次来源未给出投资额，未确认）",
+      "eligibility": "未确认",
+      "timing": "Batch 23 申请 2026-07-20 至 08-21 已截止；Batch 24 申请于 2027 年 1 月开放（官网说）",
+      "status": "即将开放",
+      "howToApply": "skydeck.berkeley.edu/apply 在线申请",
+      "fit": "中",
+      "fitWhy": "大学系加速器，资源面广；对 AI 数据公司的专门支持未确认",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://skydeck.berkeley.edu/apply/",
+        "https://hub.causo.ai/deadlines",
+        "https://skydeck.berkeley.edu/newsletter-september-2-2026/"
+      ]
+    },
+    {
+      "name": "Alchemist Accelerator",
+      "category": "加速器与孵化器",
+      "region": "美国（湾区）；地区限制未确认",
+      "offer": "面向企业销售型公司的加速器（投资条款本次来源未确认）",
+      "eligibility": "向企业收费的 AI-SaaS 与 deeptech 公司",
+      "timing": "滚动申请，各期截止日期列于官网首页",
+      "status": "滚动申请",
+      "howToApply": "alchemistaccelerator.com 随时提交申请",
+      "fit": "中",
+      "fitWhy": "企业销售导向，契合向 AI 实验室、模型公司和金融机构销售数据与环境的模式",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.alchemistaccelerator.com/"
+      ]
+    },
+    {
+      "name": "Founders at the University of Cambridge — START Accelerator",
+      "category": "加速器与孵化器",
+      "region": "英国剑桥（2026 期学员赴美获海外曝光与投资机会）",
+      "offer": "剑桥大学官方加速器，含赴美交流与投资机会；具体投资额未确认",
+      "eligibility": "至少一位创始人与剑桥大学有关联：在校生、博后、教职或毕业 5 年内校友",
+      "timing": "上一轮 2025-11-25 至 12-17 申请，2026 年 1–2 月面试，2 月中下旬出结果；下一轮时间未确认（若沿用节奏约 2026 年 11 月）",
+      "status": "未确认",
+      "howToApply": "通过 founders.cam.ac.uk 申请",
+      "fit": "高",
+      "fitWhy": "剑桥背景联创若在毕业 5 年内即可申请；2026 期带队赴美，可同时接触英美投资人",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://founders.cam.ac.uk/start-3/",
+        "https://www.enterprise.cam.ac.uk/news/founders-at-the-university-of-cambridge-2026-cohort-heading-to-the-us-for-overseas-exposure-and-investment-opportunities/",
+        "https://www.enterprise.cam.ac.uk/venture-building-investment/founders-at-the-university-of-cambridge/"
+      ]
+    },
+    {
+      "name": "Accelerate Cambridge (Cambridge Judge Business School)",
+      "category": "加速器与孵化器",
+      "region": "英国剑桥",
+      "offer": "Judge 商学院加速器项目（资金条款本次来源未确认）",
+      "eligibility": "团队至少 2 人，至少一位创始人有剑桥关联（在校生、校友、教职员工或剑桥镇居民），团队成员学期内需在剑桥",
+      "timing": "Autumn 2026 期 2026-09-24 至 12-03，申请截止 2026-05-29，已截止；下一期未确认",
+      "status": "已截止",
+      "howToApply": "上传 60 秒 pitch 视频到 YouTube/Vimeo，把链接发到 accelerate@jbs.cam.ac.uk",
+      "fit": "中",
+      "fitWhy": "创始人剑桥背景符合关联要求，申请成本低；但要求团队学期内驻剑桥",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.jbs.cam.ac.uk/entrepreneurship/programmes/accelerate-cambridge/programmes/apply/"
+      ]
+    },
+    {
+      "name": "King's Entrepreneurship Lab (E-Lab) / SPARK 2.0",
+      "category": "加速器与孵化器",
+      "region": "英国剑桥",
+      "offer": "一年期创业项目（含 Residential Week）；SPARK 2.0 暑期项目",
+      "eligibility": "剑桥在读本科生或研究生",
+      "timing": "2026 期 Residential Week 为 9-27 至 10-02，已开始；SPARK 2.0 于 2026 年 2 月开放申请，项目 8-23 至 9-25；下一期未确认",
+      "status": "已截止",
+      "howToApply": "kingselab.org",
+      "fit": "低",
+      "fitWhy": "只收在读学生；除非有联创仍在剑桥读书，否则不适用",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.kingselab.org/",
+        "https://www.kingselab.org/spark",
+        "https://www.kings.cam.ac.uk/news/kings-e-lab-welcomes-its-2025-2026-cohort-residential-students"
+      ]
+    },
+    {
+      "name": "LSE Generate（任务中所称 LSE Generator）",
+      "category": "加速器与孵化器",
+      "region": "英国伦敦，支持全球各地的 LSE 学生与校友",
+      "offer": "孵化与加速支持、资助计划和全球网络；LSE Startup Competition；原零股权加速器 GAP（2020–2025）已于 2025 年结束",
+      "eligibility": "LSE 学生与校友，任何阶段、任何行业",
+      "timing": "2026 年 3 月的 Startup Competition 面向已上线业务，1 月开放申请；下一届时间未确认",
+      "status": "未确认",
+      "howToApply": "info.lse.ac.uk/staff/divisions/research-and-innovation/generate",
+      "fit": "中",
+      "fitWhy": "LSE 校友联创可零股权获取资源；FT 2026 评 LSE 为英国最佳大学创业中心",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://info.lse.ac.uk/staff/divisions/research-and-innovation/generate",
+        "https://info.lse.ac.uk/staff/divisions/research-and-innovation/generate/Generate-Accelerator-Programme",
+        "https://shapingtheworld.lse.ac.uk/latest-news/helping-students-and-alumni-launch-their-entrepreneurial-journeys"
+      ]
+    },
+    {
+      "name": "Duke I&E（Melissa & Doug Entrepreneurs / Duke Entrepreneurial Leaders Network）",
+      "category": "加速器与孵化器",
+      "region": "美国（Duke University）",
+      "offer": "Melissa & Doug Entrepreneurs：一年期、非学分项目，含资金、导师、高管辅导与游学；128 名学员累计融资超 $150M、12 次退出。Duke ELN 2026 新一期具体内容未确认",
+      "eligibility": "Melissa & Doug 只收正在建公司的 Duke 在读学生（2025-26 期 12 人）；ELN 资格未确认",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "entrepreneurship.duke.edu",
+      "fit": "低",
+      "fitWhy": "Melissa & Doug 面向在读学生；Duke 校友更适合通过 Duke I&E 网络拿校友投资人与导师资源",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.undergradvc.com/programs/duke-melissa-doug-entrepreneurs",
+        "https://entrepreneurship.duke.edu/melissa-doug-alumni-stories/",
+        "https://entrepreneurship.duke.edu/story/duke-eln-announces-new-cohort-2026/"
+      ]
+    },
+    {
+      "name": "MiraclePlus 奇绩创坛",
+      "category": "加速器与孵化器",
+      "region": "中国（北京创业营）；是否要求中国实体未确认",
+      "offer": "三个月创业营（北京）+ 投资与辅导；投资金额未确认",
+      "eligibility": "未确认",
+      "timing": "2026 秋季常规申请已截止但仍接受延期申请；全年开放申请，早交早反馈；秋季营 2026 年 9–12 月",
+      "status": "滚动申请",
+      "howToApply": "apply.miracleplus.com 在线申请",
+      "fit": "中",
+      "fitWhy": "创始人是中国人，若设中国实体可借此对接中国大模型公司客户和中国投资人",
+      "effort": "中",
+      "community": "",
+      "sources": [
+        "https://www.miracleplus.com/cn/apply/",
+        "https://www.miracleplus.com/apply/"
+      ]
+    },
+    {
+      "name": "Seedcamp",
+      "category": "加速器与孵化器",
+      "region": "英国伦敦/欧洲",
+      "offer": "欧洲头部 pre-seed 基金兼加速器；投资额未确认",
+      "eligibility": "pre-seed 阶段公司（具体地区要求未确认）",
+      "timing": "随时可申请，无固定截止",
+      "status": "滚动申请",
+      "howToApply": "通过 Seedcamp 官网直接申请",
+      "fit": "中",
+      "fitWhy": "若用英国实体，Seedcamp 投过 Synthesia、UiPath 等，是欧洲 AI pre-seed 的强背书",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://www.foundra.ai/accelerators/seedcamp",
+        "https://incubatorlist.com/seedcamp"
+      ]
+    },
+    {
+      "name": "Liftoff Founders Week 2026",
+      "category": "Fellowship 与早期项目",
+      "region": "英国伦敦（资助差旅）",
+      "offer": "资助赴伦敦 + £1,000 津贴；面向启动 AI 安全项目的创始人，后续 pre-seed 资助 $200K–$2M",
+      "eligibility": "想开展 AI 安全项目的创始人",
+      "timing": "截止 2026-10-12",
+      "status": "开放中",
+      "howToApply": "按 opportunitydesk 页面所列链接申请",
+      "fit": "中",
+      "fitWhy": "SimReal 的评测、验证器与 rubric 能力可以包装成 AI 安全/可扩展监督方向；截止很近",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://opportunitydesk.org/2026/10/01/liftoff-founders-week-2026/"
+      ]
+    },
+    {
+      "name": "Entrepreneur First (London)",
+      "category": "加速器与孵化器",
+      "region": "英国伦敦（FORM 12 周）→ 美国旧金山（LAUNCH 12 周）",
+      "offer": "每家最高 $250K：$125K 换 8%（post-money SAFE）+ $125K uncapped MFN SAFE；签约即获 £6,000 Talent Investment",
+      "eligibility": "尚未组队的个人创始人（组队前计划）",
+      "timing": "London Fall 2026 最终截止 2026-08-04，已截止；下一期未确认",
+      "status": "已截止",
+      "howToApply": "joinef.com 申请",
+      "fit": "低",
+      "fitWhy": "EF 主打帮个人找联创，SimReal 已有四位联创且在筹 $20M 种子，8% 稀释不划算",
+      "effort": "高",
+      "community": "",
+      "sources": [
+        "https://hub.causo.ai/guides/how-to-apply-to-entrepreneur-first-2026",
+        "https://www.joinef.com/faqs/london/",
+        "https://incubatorlist.com/entrepreneur-first-london-ai-find"
+      ]
+    },
+    {
+      "name": "Antler Residency (London)",
+      "category": "加速器与孵化器",
+      "region": "英国伦敦（另有全球多地）",
+      "offer": "2023 伦敦期：£4,000 生活津贴 + 10 周核心项目；过投委会后 £120K 换 10%",
+      "eligibility": "全职投入的个人或早期团队；2023 伦敦期约 1,500 人申请录 69 人（<5%）",
+      "timing": "未确认",
+      "status": "未确认",
+      "howToApply": "Antler 官网按城市申请（入口本次未核实）",
+      "fit": "低",
+      "fitWhy": "主打找联创；10% 稀释与前 6 个月融资排他都和 $20M 种子轮计划冲突",
+      "effort": "高",
+      "community": "Hackernoon 上一位 Antler UK 学员称没找到联创、也没拿到 $150K，但项目推动他开始做产品；Reddit 参与者认为最大价值是在高压下测试联创匹配度（https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience）",
+      "sources": [
+        "https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience",
+        "https://lynxcollective.substack.com/p/antlers-residency-program-a-unique"
+      ]
+    },
+    {
+      "name": "Pioneer",
+      "category": "加速器与孵化器",
+      "region": "远程（全球）",
+      "offer": "原为 $20K 换 1% 的远程加速器",
+      "eligibility": "不适用",
+      "timing": "已不再接受申请",
+      "status": "已截止",
+      "howToApply": "不适用",
+      "fit": "低",
+      "fitWhy": "项目已停止，列出只为避免浪费时间",
+      "effort": "低",
+      "community": "",
+      "sources": [
+        "https://cleverhack.com/2026-ai-startup-founder-resources"
+      ]
+    }
+  ],
+  "tactics": [
+    {
+      "tactic": "本周先交 PearX W27",
+      "detail": "PearX W27 常规截止 2026-10-04 23:59 PST，是目前最近的顶级 pre-seed 加速器截止；Pear 称 S26 早申阶段就收到数千份申请，越早提交越早排进审核",
+      "source": "https://sabapplier.com/fundingAlerts/pearx-w27"
+    },
+    {
+      "tactic": "YC 务必在 11-02 前按时提交",
+      "detail": "W27 按时申请者 12-11 前出结果；晚交仍会被看，但 YC 不保证回复时间，会打乱与种子轮的节奏",
+      "source": "https://www.ycroaster.com/tools/yc-application-deadline"
+    },
+    {
+      "tactic": "把被拒当常态，带着新进展再申",
+      "detail": "YC 拒信本身写明分数线附近的团队常被误杀；HN 上有人申请 6–8 次后才拿到面试或入营。每次再申都要展示新的营收/客户（如新增实验室客户、Xitadel 使用量）",
+      "source": "https://news.ycombinator.com/item?id=1863374"
+    },
+    {
+      "tactic": "先写 YC 申请，再复用到其它项目",
+      "detail": "HN 创始人认为 YC 申请会逼你回答平时回避的难题；写好后可直接改写用于 PearX、speedrun、Neo、HF0 等申请",
+      "source": "https://news.ycombinator.com/item?id=21280202"
+    },
+    {
+      "tactic": "Sequoia Arc 走推荐路径，并先定实体",
+      "detail": "Arc 有公开申请和被 Sequoia 主动发掘（sourced）两条路，找 Sequoia 投资组合创始人引荐更有效；Arc 只收美洲或欧洲总部，中国实体不符合，需先定英国或美国（Delaware）实体",
+      "source": "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026"
+    },
+    {
+      "tactic": "筹大额种子时优先选低稀释项目",
+      "detail": "Neo 创始人 Partovi 明说不该让创始人起步就交出 7% 甚至 10%；Neo 用 $750K uncapped SAFE，股权 0.75%–5% 视创始人情况可谈。对正在筹 $20M 种子的团队，uncapped 项目比 EF（8%）、Antler（10%）这类固定比例项目更兼容",
+      "source": "https://raisefunding.io/accelerators/neo"
+    },
+    {
+      "tactic": "注意融资排他条款",
+      "detail": "Antler 要求前 6 个月融资排他并全职投入；签任何加速器前都要确认是否限制同期融资，以免影响 $20M 种子轮",
+      "source": "https://hackernoon.com/how-i-didnt-raise-$150k-in-antler-uk-and-whether-you-should-try-my-experience"
+    },
+    {
+      "tactic": "看重 speedrun 的品牌杠杆",
+      "detail": "speedrun 创始人反馈 a16z 进入股东名单后约见其他合伙人容易得多，适合需要快速拉投资人会面的团队；录取率不到 0.4%，SR008 优先窗口内尽早提交",
+      "source": "https://jonpan.substack.com/p/a16z-speedrun"
+    },
+    {
+      "tactic": "用来源化的截止日日历追踪滚动项目",
+      "detail": "hub.causo.ai 维护带来源的 2026–2027 加速器截止日历（含 SkyDeck、Techstars 等）；Landed 的 GitHub 列表汇总 AI fellowship、residency 和加速器，可定期对照",
+      "source": "https://hub.causo.ai/deadlines"
+    },
+    {
+      "tactic": "剑桥校友路径：先确认谁符合 5 年内校友条件",
+      "detail": "Founders at the University of Cambridge 收毕业 5 年内的校友；上一轮 11 月底到 12 月中旬开放申请，提前准备材料。Accelerate Cambridge 只需 60 秒 pitch 视频，申请成本很低",
+      "source": "https://founders.cam.ac.uk/start-3/"
+    },
+    {
+      "tactic": "中国线：奇绩全年开放，早交早反馈",
+      "detail": "奇绩常规截止后仍接受延期申请，全年开放；若决定设中国实体，可尽早提交以排进下一期",
+      "source": "https://www.miracleplus.com/cn/apply/"
+    },
+    {
+      "tactic": "按地区筛掉不合格项目",
+      "detail": "部分项目有硬性地区限制：Accel Atoms AI 只收印度或印度裔创始人，Sequoia Arc 只收美洲或欧洲总部，申请前先核对资格",
+      "source": "https://www.startupgrantsindia.com/accel-atoms-ai-cohort-2026-pre-seed-scaling-program-312"
+    }
+  ]
+}
