@@ -73,3 +73,50 @@ Happy to share samples or run a small demo. Open to a 20-minute call about your 
 [Your name] | SimReal | business@simreal.co
 
 发往官方通用邮箱时，第一句加"您好，麻烦转交[负责人]，或负责商务合作的同事。"（英文：Hi team, could you forward this to [Name], or whoever handles partnerships?）
+
+## 投资人通用短消息（Luke Sophinos 五要素，2026-10）
+
+五段：针对对方的一句话 → 团队 → 一句话讲公司 → 进展（附可查链接）→ 请求。第一句每次换成针对对方的内容（TA 最近投的公司、文章或观点）。
+
+**英文邮件版**
+
+Subject: Ex-Jane Street quants: the first RSI loop for trading, shipped in two weeks
+
+Hi [Name],
+
+[One line about them: a deal they led, a post or a talk.]
+
+I'm [Your name], co-founder of SimReal. We're four quants from Jane Street, Citadel, Millennium and Optiver (Cambridge, LSE, Duke).
+
+SimReal builds RL environments and verifiers where AI models do real work, get scored on real outcomes, and improve themselves.
+
+Two weeks after founding we had shipped seven products, including Xitadel, the world's first RSI (recursive self-improvement) loop for trading: Qwen3.8-27B traded 12% better on unseen market data after training in it, reproduced across independent runs. We already supply Surge AI and AfterQuery. It's all public: simreal.co and github.com/Simreal-AI.
+
+We're raising a $20M seed. Open to 20 minutes next week? Deck: [Deck link]
+
+[Your name]
+Co-founder, SimReal | business@simreal.co
+
+**英文私信版（LinkedIn / X）**
+
+Hi [Name], [one line about them]. I'm [Your name], co-founder of SimReal: four ex-Jane Street, Citadel, Millennium and Optiver quants. Two weeks after founding we shipped Xitadel, the world's first RSI loop for trading: Qwen3.8-27B traded 12% better on unseen markets after training in it. All public at simreal.co and github.com/Simreal-AI. Raising a $20M seed; open to a quick call?
+
+**中文版（邮件 / 微信）**
+
+[称呼]您好，
+
+[一句针对对方的话：TA 最近投的公司、文章或观点]
+
+我是 SimReal 联合创始人[姓名]。我们四位创始人都是量化出身，来自 Jane Street、Citadel、Millennium、Optiver，毕业于剑桥、LSE、杜克。
+
+SimReal 为 AI 搭建真实工作的训练环境和验证器：模型做真实的事，按真实结果打分，并用结果自我进化。
+
+公司成立两周就交付了 7 款产品，其中 Xitadel 是全球首个交易 RSI（自我进化）环境：Qwen3.8-27B 在里面训练后，在从未见过的真实行情上交易表现提升 12%，多次独立运行均复现。我们已在为 Surge AI、AfterQuery 供给。一切公开可查：simreal.co、github.com/Simreal-AI。
+
+正在进行 2,000 万美元种子轮，方便约 20 分钟聊聊吗？BP：[BP 链接]
+
+[姓名]｜SimReal 联合创始人｜business@simreal.co
+
+**微信超短版**
+
+[称呼]您好，我是 SimReal 联合创始人[姓名]。我们四人来自 Jane Street、Citadel、Millennium、Optiver，成立两周交付 7 款产品，其中 Xitadel 是全球首个交易 RSI 环境：开源模型训练后在没见过的真实行情上交易表现提升 12%。已为 Surge AI、AfterQuery 供给，正在融 2,000 万美元种子轮。可查：simreal.co、github.com/Simreal-AI。方便聊 20 分钟吗？
