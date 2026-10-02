@@ -74,30 +74,29 @@ Happy to share samples or run a small demo. Open to a 20-minute call about your 
 
 发往官方通用邮箱时，第一句加"您好，麻烦转交[负责人]，或负责商务合作的同事。"（英文：Hi team, could you forward this to [Name], or whoever handles partnerships?）
 
-## 投资人通用短消息（按 BP v39 和 Luke Sophinos 五要素，2026-10）
+## 投资人通用短消息（第一版风格，2026-10）
 
-顺序：针对对方的一句话 → 大故事（两句）→ 团队（每人一句）→ 进展（附可查链接）→ 请求。第一句每次换成针对对方的内容（TA 最近投的公司、文章或观点）。事实全部来自 BP v39（2026 年 10 月）。
+顺序：针对对方的一句话 → 公司 title → 产品有多强 → 一句话讲在做什么、解决什么 → 学校和年龄 → 可查链接 → 请求。第一句每次换成针对对方的内容。
 
 **英文邮件版**
 
-Subject: Where AI learns real work: +12% on unseen markets, built in 14 days
+Subject: SimReal: the world's first RSI loop for trading, built in two weeks by 21-year-old quants
 
-备选主题：
-- Building the real world for self-improving AI (+12% on unseen markets)
-- Three 21-year-old quants, 14 days, +12% on unseen markets
+备选主题：SimReal: the first self-improving AI for trading, shipped in two weeks
 
 Hi [Name],
 
 [One line about them: a deal they led, a post or a talk.]
 
-Whoever owns the best training world for an industry will own that industry's best AI. SimReal rebuilds real work from real data so models can act, get scored by real outcomes and improve themselves, starting with trading, where frontier models trading real money still made a profit in only 6 of 32 rounds.
+SimReal: the world's first recursive self-improvement (RSI) loop for trading.
 
-We're three 21-year-old maths undergrads at Cambridge, LSE and Duke who turned down return offers from top quant firms:
-- Charles (CEO): first employee at United Stables at 20, helping take its U stablecoin from 0 to $1.4B in a year and onto Binance in a month; LSE Maths, USAMO qualifier.
-- Henry (CTO): Cambridge Maths, First Class; ML research with Prof. Po-Ling Loh; quant at Jane Street, Citadel and Optiver; designed our five benchmarks.
-- Amaris (COO): Duke Maths & Stats; data scientist at Millennium Hong Kong, the first new-grad hire in its alt-data team's history.
+Two weeks after founding we had shipped seven products, including Xitadel: Qwen3.8-27B trained in it traded 12% better on unseen market data, reproduced across independent runs, and on its public benchmark the best frontier model scores 77 against a human 80.
 
-In 14 days, with no outside funding, we shipped seven products and three live worlds: trading, AI research and event prediction. Qwen3.8-27B trained in our trading world, Xitadel, traded up to 12% better on unseen trading days, reproduced independently; on Xitadel's public benchmark the best frontier model scores 77 against a human 80. Five public repos with 512 GitHub stars, and two frontier labs in talks. Check it: github.com/Simreal-AI and simreal.co.
+We build the real-world environments where AI learns to do real work and improves itself, because today's models can reason but still fail once real outcomes are on the line.
+
+We're three 21-year-old quants, maths undergrads at Cambridge, LSE and Duke with stints at Jane Street, Citadel, Optiver and Millennium; our CEO was the first employee at a $1.5B startup at 20.
+
+We already supply Surge AI and AfterQuery. It's all public: simreal.co and github.com/Simreal-AI (five repos, 512 stars).
 
 We're raising RMB 40M (about US$5.6M). Open to 20 minutes next week? Deck: [Deck link]
 
@@ -106,24 +105,25 @@ Co-founder, SimReal | business@simreal.co
 
 **英文私信版（LinkedIn / X）**
 
-Hi [Name], [one line about them]. Whoever owns the best training world for an industry will own its best AI; SimReal builds those worlds from real data, starting with trading. We're three 21-year-old quants, maths undergrads at Cambridge, LSE and Duke with stints at Jane Street, Citadel, Optiver and Millennium; our CEO was the first employee of a stablecoin that grew from 0 to $1.4B in a year. In 14 days we shipped seven products; a model trained in our trading world did up to 12% better on unseen trading days. Public at github.com/Simreal-AI. Raising RMB 40M; open to a quick call?
+Hi [Name], [one line about them]. SimReal is the world's first RSI loop for trading: two weeks after founding, a model trained in our environment Xitadel traded 12% better on unseen markets. We build real-world environments where AI learns real work and improves itself. We're three 21-year-old quants, maths undergrads at Cambridge, LSE and Duke (Jane Street, Citadel, Optiver, Millennium); our CEO was the first employee at a $1.5B startup at 20. Public at github.com/Simreal-AI. Raising RMB 40M; open to a quick call?
 
 **中文版（邮件 / 微信）**
 
-主题：让 AI 在真实世界里自我进化｜14 天上线，未见行情交易表现 +12%
+主题：衍真 SimReal｜全球首个交易 RSI，21 岁量化团队两周交付
 
 [称呼]您好，
 
 [一句针对对方的话：TA 最近投的公司、文章或观点]
 
-谁拥有一个行业最好的训练世界，谁就拥有这个行业最好的 AI。衍真（SimReal）用真实数据重建真实世界，让模型在里面做事、按真实结果结算、自我进化；我们从交易出发：前沿模型用真钱交易，32 轮只有 6 轮赚钱。
+衍真（SimReal）：全球首个交易 RSI（自我进化）环境。
 
-我们三位创始人都是 05 后，剑桥、LSE、杜克数学本科在读，都放弃了顶级量化机构的转正 offer：
-- Charles（CEO）：20 岁成为 United Stables 首位员工，帮助 U 稳定币一年内从 0 做到 14 亿美元、一个月上线 Binance；LSE 数学，USAMO 入围。
-- Henry（CTO）：剑桥数学一等荣誉；师从 Po-Ling Loh 教授做机器学习研究；Jane Street、Citadel、Optiver 量化经历；设计了我们的五个基准。
-- Amaris（COO）：杜克数学与统计；Millennium 香港数据科学家，另类数据团队史上首位应届招聘。
+公司成立两周就交付了 7 款产品，其中 Xitadel：Qwen3.8-27B 在里面训练后，在从未见过的真实行情上交易表现提升 12%，多次独立复现；在它的公开榜上，最强的前沿模型 77 分，人类 80 分。
 
-成立 14 天、零外部融资，上线 7 款产品和交易、AI 研究、事件预测 3 个世界。Qwen3.8-27B 在交易世界 Xitadel 训练后，在未见过的交易日上交易表现最高提升 12%，多次独立复现；Xitadel 公开榜上最强的前沿模型得 77 分，人类 80 分。5 个公开仓库共 512 星，2 家前沿实验室在谈。可查：github.com/Simreal-AI、simreal.com.cn。
+我们搭建真实世界的训练环境，让 AI 学会做真实的工作并自我进化：今天的模型会推理，但一碰到真实结果就失手。
+
+我们是三位 21 岁的量化人，剑桥、LSE、杜克数学本科在读，有 Jane Street、Citadel、Optiver、Millennium 经历；CEO 20 岁就是一家 15 亿美元创业公司的首位员工。
+
+我们已在为 Surge AI、AfterQuery 供给。一切公开可查：simreal.com.cn、github.com/Simreal-AI（5 个仓库，512 星）。
 
 本轮融资人民币 4,000 万元，方便约 20 分钟聊聊吗？BP：[BP 链接]
 
@@ -131,4 +131,4 @@ Hi [Name], [one line about them]. Whoever owns the best training world for an in
 
 **微信超短版**
 
-[称呼]您好，我是衍真（SimReal）联合创始人[姓名]。谁拥有一个行业最好的训练世界，谁就拥有这个行业最好的 AI：我们用真实数据重建真实世界，让 AI 在里面自我进化，从交易出发。三位创始人都是 05 后，剑桥、LSE、杜克数学本科，来自 Jane Street、Citadel、Optiver、Millennium，CEO 20 岁是一家稳定币公司的首位员工（一年从 0 做到 14 亿美元）。成立 14 天上线 7 款产品，模型在我们的交易世界训练后，在未见过的交易日上表现最高提升 12%。可查：github.com/Simreal-AI。本轮融资 4,000 万元人民币，方便聊 20 分钟吗？
+[称呼]您好，我是衍真（SimReal）联合创始人[姓名]。我们做的是全球首个交易 RSI（自我进化）环境：成立两周交付 7 款产品，模型在我们的交易环境 Xitadel 训练后，在没见过的真实行情上交易表现提升 12%。我们搭建真实世界的训练环境，让 AI 学会做真实工作并自我进化。三位创始人都是 21 岁量化人，剑桥、LSE、杜克数学本科，CEO 20 岁是一家 15 亿美元创业公司的首位员工。已为 Surge AI、AfterQuery 供给，可查：github.com/Simreal-AI。本轮融资 4,000 万元人民币，方便聊 20 分钟吗？
