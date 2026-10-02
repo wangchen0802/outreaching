@@ -44,7 +44,8 @@ def style():
     src = (ROOT / "collateral" / "src" / "customer-playbook.html").read_text(encoding="utf-8")
     css = src.split("<style>", 1)[1].split("</style>", 1)[0]
     return css + """
-  .tpl { border: 0.6pt solid var(--rule); background: var(--paper); margin: 2mm 0 4mm; break-inside: avoid; }
+  .tpl { border: 0.6pt solid var(--rule); background: var(--paper); margin: 2mm 0 4mm; }
+  .tpl .row { break-inside: avoid; }
   .tpl .row { display: grid; grid-template-columns: 30mm 1fr; border-top: 0.6pt solid var(--rule); }
   .tpl .row:first-child { border-top: 0; }
   .tpl .k { padding: 2.4mm 3mm; font: 500 8pt/1.45 var(--sans); color: var(--accent); border-right: 0.6pt solid var(--rule); }
@@ -174,7 +175,7 @@ def main():
         h.append(f"<p>我们反查了 {len(cap['companies'])} 家同类公司（专家数据、RL 环境、评测、后训练平台，以及国内的数据公司），"
                  f"从公开融资公告里找到 {cap['rounds']} 轮融资、{len(cap['investors'])} 家此前不在名单里的投资人。下表是投过同类公司最多的投资人。</p>")
         h.append('<table class="res"><thead><tr><th>投资人</th><th>投过的同类公司</th><th style="width:22mm">领投次数</th><th style="width:30mm">出现过的轮次</th></tr></thead><tbody>')
-        for inv in cap["top"]:
+        for inv in cap["top"][:13]:
             h.append(f'<tr><td>{e(inv["name"])}</td><td>{e("、".join(inv["companies"]))}</td><td>{inv["leads"]}</td><td>{e("、".join(inv["stages"]))}</td></tr>')
         h.append("</tbody></table>")
         h.append(f'<p class="fine">完整名单在 collateral/SimReal-投资人总表.xlsx。没找到融资信息的公司：{e("、".join(cap["notFound"]) or "无")}。</p>')

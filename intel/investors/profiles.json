@@ -1,0 +1,1821 @@
+[
+ {
+  "name": "8VC",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期均投，A 轮为主",
+  "check": "约 50 万–5000 万美元区间（聚合站数据）；种子首投具体额未确认",
+  "lead": "常领投 A 轮；种子轮领投比例未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.everythingstartups.com/article/8vc-closes-1-5b-fund-7-largest-fund-to-date",
+   "https://superscout.co/investor/8vc",
+   "https://www.vcsheet.com/fund/8vc"
+  ],
+  "note": "Fund VI 9.98 亿美元（2025 年 3 月关账），Fund 7 15 亿美元为史上最大；已投 Bespoke Labs、Vals AI。"
+ },
+ {
+  "name": "Abstract Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到 A 轮，种子为主",
+  "check": "种子约 25–200 万美元，甜蜜点约 50 万美元（聚合站数据）",
+  "lead": "近年多领投（Fund III 约 80–90% 为领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://colossus.com/article/ramtin-naimi-man-hot-hand/",
+   "https://vcbeast.com/vc-firms/abstract-ventures",
+   "https://www.vcsheet.com/fund/abstract-ventures"
+  ],
+  "note": "2025 年募 5 亿美元，管理规模约 18 亿美元，属全球最大种子基金之一；已投 Deeptune（RL 环境，直接可比/潜在竞品）。"
+ },
+ {
+  "name": "Acrew Capital",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到 B 轮",
+  "check": "早期约 25 万美元起；A 轮首投约 400–700 万美元（聚合站数据）",
+  "lead": "A 轮常领投（聚合站数据）；种子轮未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://pitchbook.com/profiles/fund/23990-50F",
+   "https://www.vcsheet.com/fund/acrew-capital",
+   "https://f4.fund/firms/acrew-capital"
+  ],
+  "note": "Fund III（2024 年份）截至 2025-09 承诺额约 7000 万美元，规模较小；已投 Invisible Technologies（专家数据/训练数据，潜在竞品）。"
+ },
+ {
+  "name": "Air Street Capital",
+  "kind": "VC",
+  "region": "海外（英国，伦敦）",
+  "stage": "早期为主（种子到 A 轮），少量成长期",
+  "check": "50 万–1500 万美元，少数成长期可达 2500 万美元",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://press.airstreet.com/p/fund-iii",
+   "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+   "https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/"
+  ],
+  "note": "Fund III 2.32 亿美元（2026 年 3 月），欧洲最大 Solo GP 基金；只投 AI-first 公司，覆盖欧洲和北美。"
+ },
+ {
+  "name": "Andreessen Horowitz (a16z)",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期全阶段",
+  "check": "未确认",
+  "lead": "常领投种子/A 轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.crunchbase.com/venture/a16z-15b-new-funds-american-dynamism-ben-horowitz/",
+   "https://www.cxodigitalpulse.com/a16z-bets-big-on-ai-infrastructure-with-1-7b-allocation-from-new-fund/"
+  ],
+  "note": "2026 年 1 月募超 150 亿美元，其中 AI 基础设施基金 17 亿美元；已投 Vals AI、AfterQuery、Deeptune、LMArena 等多家直接竞品，需注意利益冲突。"
+ },
+ {
+  "name": "Bessemer Venture Partners",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期，A 轮为主",
+  "check": "未确认",
+  "lead": "常领投 A 轮；种子轮未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.bvp.com/"
+  ],
+  "note": "本轮未检索到最新基金规模和首投额；已投 Trajectory。"
+ },
+ {
+  "name": "Chemistry",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子和 A 轮",
+  "check": "未确认",
+  "lead": "定位为领投种子/A 轮（高集中度投资）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://pitchbook.com/news/articles/chemistry-vc-early-stage-software-launch",
+   "https://x.com/Mark_Goldberg_/status/1849122337255285076"
+  ],
+  "note": "首期基金 3.5 亿美元（2024 年 10 月），合伙人来自 Index、a16z、Bessemer；已投 Datacurve（编码专家数据，潜在竞品）和 Proximal。"
+ },
+ {
+  "name": "Conviction",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到 A 轮为主，AI 原生公司",
+  "check": "种子约 100–500 万美元；整体 100 万–2500 万美元（聚合站数据）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://theaiinsider.tech/2025/02/03/ai-investment-firm-conviction-partners-expands-with-new-general-partner-and-230m-fund/",
+   "https://qubit.capital/blog/top-investors-backing-ai-startups",
+   "https://www.forbes.com/sites/alexkonrad/2025/01/31/inside-venture-capital-great-reshuffling/"
+  ],
+  "note": "Fund II 2.3 亿美元（2025 年），新增 GP Mike Vernal；只投 AI；已投 Trajectory、Intelligence / Design Arena。"
+ },
+ {
+  "name": "Decibel",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到种子+，种子为主",
+  "check": "约 10 万–1000 万美元区间（聚合站数据）；种子具体额未确认",
+  "lead": "常领投种子（自称技术创始人的“第一张支票”）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/fund/decibel-partners",
+   "https://superscout.co/investor/decibel-partners",
+   "https://f4.fund/firms/decibel-partners"
+  ],
+  "note": "最新基金约 2.825 亿美元（2024 年 3 月）；偏开发者/安全/基础设施；已投 Veris AI。"
+ },
+ {
+  "name": "Elad Gil",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期均投，近年大额以 A 轮后/成长期为主",
+  "check": "约 25 万–5000 万美元（聚合站数据）",
+  "lead": "可领投（如 Infisical A 轮、Abridge D 轮）；种子轮多为跟投，比例未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.theinformation.com/articles/elad-gil-doubles-fund-target-nearly-3-billion",
+   "https://pitchbook.com/news/articles/exclusive-prominent-solo-vc-elad-gil-raises-1b-for-3rd-fund",
+   "https://f4.fund/firms/elad-gil",
+   "https://fortune.com/2025/06/06/infisical-raises-16-million-series-a-led-by-elad-gil-to-safeguard-secrets/"
+  ],
+  "note": "Solo GP，2025 年新基金目标上调至约 30 亿美元，前一期约 11 亿美元；已投 Applied Compute。"
+ },
+ {
+  "name": "Exceptional Capital",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到种子",
+  "check": "pre-seed 10–50 万美元；种子 25–150 万美元，甜蜜点 30–80 万美元（聚合站数据）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.forbes.com/sites/rebeccaszkutak/2022/02/15/solo-black-gp-marell-evans-launches-exceptional-capital-to-focus-on-b2b-software/",
+   "https://superscout.co/investor/exceptional-capital",
+   "https://www.vcsheet.com/who/marell-evans"
+  ],
+  "note": "Solo GP 小基金（约 5000 万美元，聚合站数据），偏 B2B 企业软件/安全；支票较小，适合作为本轮跟投方；已投 HUD。"
+ },
+ {
+  "name": "General Catalyst",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期全阶段，设有专门美国种子平台",
+  "check": "种子约 200–1000 万美元（聚合站数据）",
+  "lead": "常领投种子/A 轮（如领投 Numos 425 万美元种子轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://x.com/yuris/status/1911815110412353667",
+   "https://x.com/yuris/status/1942612234909409349",
+   "https://finance.yahoo.com/sectors/technology/articles/numos-raises-seed-general-catalyst-120000931.html",
+   "https://www.vcsheet.com/fund/general-catalyst"
+  ],
+  "note": "Yuri Sagalov 2025 年加入并主管美国种子；已投 Mercor（专家数据，直接竞品）、Proximal、Good Start Labs、Arga Labs，需注意利益冲突。"
+ },
+ {
+  "name": "HRT Ventures",
+  "kind": "战略投资",
+  "region": "海外（美国）",
+  "stage": "未确认（官网称做成长期公司的战略投资，实际也投早期加密项目）",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.hudsonrivertrading.com/ventures/",
+   "https://tracxn.com/d/venture-capital/hudson-river-ventures/__CGIIxLkCednhPdMwy9cO2GG4UQebhbJ-yE0vpTLLUig"
+  ],
+  "note": "Hudson River Trading（量化交易公司）的战略投资部门，聚焦金融与科技交叉；量化背景契合，可兼作潜在客户；已投 Vals AI、Eridu。"
+ },
+ {
+  "name": "IDG资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "早期到成长期全阶段（天使/A 轮到 Pre-IPO）",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.idgcapital.com/"
+  ],
+  "note": "人民币与美元双币基金；本轮未检索到早期首投额；已投 GIM。"
+ },
+ {
+  "name": "Index Ventures",
+  "kind": "VC",
+  "region": "海外（美国/英国）",
+  "stage": "种子到 IPO 全阶段，种子和 A 轮为起点",
+  "check": "未确认",
+  "lead": "常领投种子/A 轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20240709136755/en/Index-Ventures-Announces-$2.3bn-in-New-Funds-at-a-Historical-Inflection-Point-for-Startups",
+   "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/"
+  ],
+  "note": "2024 年有 3 亿美元 Origin 种子基金；2026 年 7 月新募约 20 亿美元（种子/风险/成长三支）；已投 Matrices、Intelligence / Design Arena、Adaptive ML。"
+ },
+ {
+  "name": "Jane Street",
+  "kind": "战略投资",
+  "region": "海外（美国，纽约）",
+  "stage": "未确认（公开案例为 Numerata 种子轮）",
+  "check": "未确认",
+  "lead": "领投过 Numerata 种子轮（并成为其旗舰客户）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20251128623459/en",
+   "https://www.fow.com/insights/jane-street-leads-seed-investment-in-ai-firm"
+  ],
+  "note": "非常规 VC，投资与客户关系绑定（Numerata 案例中 CoreWeave Ventures 跟投）；适合以“客户+战略投资”方式接触。"
+ },
+ {
+  "name": "Kleiner Perkins",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子和 A 轮为主（另有成长基金）",
+  "check": "未确认",
+  "lead": "常领投种子/A 轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://valueaddvc.com/blog/kleiner-perkins-raises-35-billion-across-two-new-ai-funds",
+   "https://pitchbook.com/news/articles/kleiner-perkins-2-billion-vc-opportunity-fund"
+  ],
+  "note": "KP22 早期基金 10 亿美元（2026 年 3 月），投种子和 A 轮；已投 Handshake AI（专家数据，潜在竞品）、Applied Compute、LMArena。"
+ },
+ {
+  "name": "Laude Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子为主",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.forbes.com/sites/alexkonrad/2024/12/10/laude-ventures-databricks-perplexity-new-fund/",
+   "https://x.com/alexrkonrad/status/1866511877481680905"
+  ],
+  "note": "1.5 亿美元种子基金（2024 年 12 月），偏研究驱动的技术型初创；创始人 Andy Konwinski（Databricks、Perplexity 联合创始人）；已投 LMArena。"
+ },
+ {
+  "name": "Lightspeed",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期全阶段；AI 数据/基础设施方向种子、A 轮很活跃",
+  "check": "未确认；参考：2026 年 5 月领投 Origin Lab 种子轮，整轮 800 万美元",
+  "lead": "常领投种子轮（如 Origin Lab 种子轮，由 Faraz Fatemi 领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260513129175/en/Origin-Lab-Raises-$8M-Seed-Led-by-Lightspeed-to-Build-the-Platform-Turning-Video-Game-Worlds-Into-Training-Data-for-AI",
+   "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/"
+  ],
+  "note": "已投 Handshake AI、Snorkel AI、Patronus AI 等数据/评测公司，Handshake AI 属专家数据直接竞品，需注意竞品顾虑"
+ },
+ {
+  "name": "Menlo Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "Inception（pre-seed/种子）到成长期；2026 年 6 月新募 30 亿美元：Menlo XVII 投种子到 A 轮，Inflection IV 投 B 轮及以后",
+  "check": "Inception/种子约 50–200 万美元（第三方数据库口径，非官方）；也做大额种子（领投 Inception Labs 5000 万美元种子）；Anthology Fund 起步约 10 万美元",
+  "lead": "种子/A 轮可领投（如 Inception Labs 种子轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://cryptorank.io/news/feed/a9201-menlo-ventures-raise-ai-startup-funding-across-stages-anthropic",
+   "https://valueaddvc.com/blog/menlo-ventures-2026-3b-fund-14b-anthropic-stake-and-recent-ai-deals",
+   "https://investormatch.pro/vcs/menlo-ventures"
+  ],
+  "note": "Anthropic 重要股东，与 Anthropic 合设 1 亿美元 Anthology Fund；已投 Fleet、Prime Intellect"
+ },
+ {
+  "name": "Monolith 砺思资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "种子到成长期，近年聚焦人工智能",
+  "check": "种子到 A 轮单笔 200–2000 万美元（公开披露口径）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://36kr.com/p/2122510971209859",
+   "https://news.pedaily.cn/202302/507901.shtml",
+   "https://zhuanlan.zhihu.com/p/1987509701424980501"
+  ],
+  "note": "首支美元 VC 基金首关约 3 亿美元，2023 年总管理规模近 8 亿美元；已投 GIM"
+ },
+ {
+  "name": "Wing VC",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子与 A 轮为主，聚焦企业级/AI 基础设施",
+  "check": "种子约 100–300 万美元、A 轮约 300–800 万美元（第三方口径，非官方）；但领投的 Bespoke Labs A 轮整轮达 3180 万美元",
+  "lead": "常领投 A 轮（如 Bespoke Labs A 轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.wing.vc/content/investing-in-bespoke-ai",
+   "https://www.thesaasnews.com/news/bespoke-labs-raises-40m-series-a/",
+   "https://www.vcsheet.com/fund/wing-vc"
+  ],
+  "note": "已领投 Bespoke Labs（RL 环境与验证，直接竞品）A 轮；已投 Gray Swan AI"
+ },
+ {
+  "name": "九坤创投",
+  "kind": "其他",
+  "region": "国内（北京）",
+  "stage": "A 轮及以前（天使为主），方向为 AI、机器人、硬件、航天",
+  "check": "未确认",
+  "lead": "未确认（已知案例多为参投，如原力灵机 2 亿元天使轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://finance.sina.com.cn/roll/2025-04-01/doc-inerqrua6743009.shtml",
+   "https://finance.sina.com.cn/stock/stockzmt/2025-02-28/doc-inemxzxx7593978.shtml",
+   "https://www.bianews.com/news/details?id=208958"
+  ],
+  "note": "九坤投资创始人王琛、姚齐聪设立的创投平台（北京坤倪），约一年投近 10 个项目；量化背景与金融方向高度契合"
+ },
+ {
+  "name": "五源资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "早期为主（种子/天使/A 轮），后续多轮超配",
+  "check": "未确认；参考：领投矩阵起源千万美元级天使轮",
+  "lead": "常领投早期轮次（如矩阵起源天使轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://startup.aliyun.com/info/1018515.html",
+   "https://www.cls.cn/detail/725445",
+   "https://baike.baidu.com/item/%E4%BA%94%E6%BA%90%E8%B5%84%E6%9C%AC/56220881"
+  ],
+  "note": "原晨兴资本，曾募资超 130 亿元；策略为“早期精选、多轮超配”；已投 GIM"
+ },
+ {
+  "name": "启明创投",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "早期到成长期（A、B 轮为主，也投天使）",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.qimingvc.com/"
+  ],
+  "note": "本次未专门检索（额度有限），阶段为公开常识口径，需核实"
+ },
+ {
+  "name": "峰瑞资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "早期为主（天使到 A 轮）",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.freesvc.com/"
+  ],
+  "note": "本次检索未找到单笔金额；已投整数智能（数据标注，同类公司）"
+ },
+ {
+  "name": "真格基金",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "天使/种子为主，后续轮次跟进",
+  "check": "未确认；历史案例天使/种子出资从数十万到约 1500 万人民币不等",
+  "lead": "天使轮常领投或独投（公开案例口径，未见官方表述）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://zhenfund.com/",
+   "https://m.pedaily.cn/vc/vc/126684.html",
+   "https://zh.wikipedia.org/zh-hans/%E7%9C%9F%E6%A0%BC%E5%9F%BA%E9%87%91"
+  ],
+  "note": "天使轮即投心识宇宙 Mindverse（RL 做 Agent 后训练）"
+ },
+ {
+  "name": "红杉中国",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "种子到成长期全阶段，2018 年设立种子基金",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://36kr.com/p/2122510971209859",
+   "https://www.hongshan.com/"
+  ],
+  "note": "已投觅蜂科技、TalentsAI、UniPat、语用科技、Mindverse 等同类公司，可能有竞品顾虑；牵头 xbench 评测"
+ },
+ {
+  "name": "线性资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "未确认（公开常识为技术驱动的早期投资）",
+  "check": "未确认",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.linear.vc/"
+  ],
+  "note": "本次检索未返回线性资本的阶段/金额信息；已投心识宇宙 Mindverse"
+ },
+ {
+  "name": "锦秋基金",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "早期兼顾成长期，首次投资多在 Pre-A 到 B 轮",
+  "check": "未确认（已投近 3 亿美元、70 余个项目，平均约 400 万美元/项目，为推算值）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.qq.com/rain/a/20251103A01BJN00",
+   "https://www.163.com/dy/article/KGJ3IG450556EQGX.html",
+   "https://www.tmtpost.com/7748126.html"
+  ],
+  "note": "美元基金，创始合伙人杨洁原为字节跳动财务投资负责人；AI 项目数量在中国美元基金中居前；已投智能知识"
+ },
+ {
+  "name": "Balaji Srinivasan",
+  "kind": "天使",
+  "region": "海外（未确认具体地区）",
+  "stage": "种子/早期为主（个人天使）",
+  "check": "未确认（数据库所列 100 万–1.2 亿美元实为整轮金额，不能代表个人支票）",
+  "lead": "多为跟投（个人天使，未确认）",
+  "contact": "Balaji Srinivasan（本人，前 a16z 普通合伙人、前 Coinbase CTO）",
+  "contactSource": "https://en.wikipedia.org/wiki/Balaji_Srinivasan",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Balaji_Srinivasan",
+   "https://www.vcbacked.co/directory/investors/balaji-srinivasan",
+   "https://www.rl-list.com/vendors/datacurve"
+  ],
+  "note": "已投 Datacurve（编码数据/RL 环境，直接竞品）、Prime Intellect 种子轮；数据库把整轮金额记成个人出资，勿引用"
+ },
+ {
+  "name": "Benchmark",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "早期为主（A 轮为核心），也领投大额种子",
+  "check": "未确认；参考：2025 年 6 月领投 Applied Compute 种子轮，整轮 2000 万美元（估值 1 亿美元）",
+  "lead": "常领投并进董事会（如 Applied Compute 种子轮）",
+  "contact": "Chetan Puttagunta（General Partner，基础设施/AI 方向）；备选 Everett Randle（General Partner，2025 年 10 月加入，AI 方向）",
+  "contactSource": "https://signal.nfx.com/investors/chetan-puttagunta",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://signalhub.substack.com/p/sequoia-and-benchmark-made-80m-bet",
+   "https://www.upstartsmedia.com/p/ex-openai-applied-compute-raises-20m",
+   "https://x.com/victoralazarte/status/1948490280191005077",
+   "https://www.forbes.com/sites/iainmartin/2026/05/26/former-benchmark-investors-lazarte-and-fredrickson-aim-big-with-800-million-ai-fund/",
+   "https://f4.fund/firms/benchmark"
+  ],
+  "note": "原联系人 Victor Lazarte 已于 2025 年 7 月离开 Benchmark，与 Fredrickson 另组约 8 亿美元 AI 基金，可另行接触；检索到的现任合伙人为 Peter Fenton、Eric Vishria、Everett Randle、Chetan Puttagunta，不含 Bill Gurley；已投 Mercor（专家数据，直接竞品）"
+ },
+ {
+  "name": "鼎晖百孚",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "未确认；聚焦硬科技（半导体、高端装备、商业航天等），数据服务案例为博登智能 A+/A++ 轮",
+  "check": "未确认",
+  "lead": "未确认（博登智能 A+/A++ 轮为多家联合投资）",
+  "contact": "应伟（管理合伙人，2012 年创建百孚）",
+  "contactSource": "https://app.dahecube.com/nweb/news/20240222/191350n079cd597b0a.htm",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.chinaventure.com.cn/news/113-20260601-391660.html",
+   "https://caifuhao.eastmoney.com/news/20260422193442114479160",
+   "https://app.dahecube.com/nweb/news/20240222/191350n079cd597b0a.htm",
+   "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015128.html"
+  ],
+  "note": "鼎晖投资旗下，管理规模超 700 亿元；未找到负责博登智能的具体合伙人；投资枢途科技一事未在检索中核实"
+ },
+ {
+  "name": "776",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到 A 轮早期",
+  "check": "约 75–400 万美元（第三方口径，非官方）",
+  "lead": "未确认；Deeptune A 轮为跟投（a16z 领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/who/alexis-ohanian",
+   "https://fonzi.ai/partner-news/deeptune-series-a",
+   "https://techcrunch.com/?p=2265240"
+  ],
+  "note": "曾募 5 亿美元基金；2026 年 2 月参投 Deeptune 4300 万美元 A 轮"
+ },
+ {
+  "name": "A*",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子为主",
+  "check": "10 万到约 1000 万美元，最常见约 300 万美元；Fund III 平均单笔 300–500 万美元",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
+   "https://thenextweb.com/news/a-star-capital-450-million-fund-hartz"
+  ],
+  "note": "2026 年 5 月 Fund III 关账 4.5 亿美元，计划至少投 30 家；投资 Design Arena 一事未在检索中核实"
+ },
+ {
+  "name": "Altos Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "早期到成长期，案例为 A 轮领投",
+  "check": "未确认；参考：领投 AfterQuery A 轮，整轮 3000 万美元（投后 3 亿美元）",
+  "lead": "可领投 A 轮（如 AfterQuery）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation",
+   "https://techfundingnews.com/afterquery-30m-series-a-expert-data/",
+   "https://sacra.com/c/afterquery/"
+  ],
+  "note": "已领投 AfterQuery（专家数据，直接竞品）；AfterQuery 于 2026 年 9 月完成 B 轮，估值 32 亿美元"
+ },
+ {
+  "name": "BoxGroup",
+  "kind": "VC",
+  "region": "海外（美国，纽约）",
+  "stage": "pre-seed 到种子为主，偶尔跟进熟悉公司的 A 轮",
+  "check": "约 25–200 万美元；常见 50–100 万美元（pre-seed 25–75 万，种子 50–100 万）",
+  "lead": "多为跟投（以共同投资为主，较少领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://techcrunch.com/2023/12/14/boxgroup-425m-early-stage-startups-venture-capital/",
+   "https://superscout.co/investor/boxgroup",
+   "https://www.vcsheet.com/fund/boxgroup",
+   "https://elev-x.com/news-insights/article-boxgroup-review/"
+  ],
+  "note": "2023 年 12 月募集两支基金共 4.25 亿美元；已投 Arga Labs。支票偏小，适合作为 2000 万美元种子轮的跟投方，而非领投方"
+ },
+ {
+  "name": "BV百度风投",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "种子到 B 轮，种子/初创期为主（2016–2020 年约 81% 的投资笔数）",
+  "check": "第三方口径偏好单笔 100 万–5000 万人民币（自有表述未确认）",
+  "lead": "领投与跟投均有；如生数科技天使轮为跟投（蚂蚁领投），总体倾向未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcnews.com/202004027412.html",
+   "https://pitchhub.36kr.com/organization/1680992559399687",
+   "https://www.21jingji.com/article/20230704/herald/192ffbb41cd43fe79d4ad997a2963a1d.html"
+  ],
+  "note": "百度发起的独立 VC（有 CVC 属性），管理约 7 亿美元三支美元/人民币基金，北京和旧金山两地运营；已投简智机器人、觅蜂科技（数据采集相关）"
+ },
+ {
+  "name": "Deviation Capital（原 Two Sigma Ventures）",
+  "kind": "VC",
+  "region": "海外（美国，纽约）",
+  "stage": "种子到 A 轮",
+  "check": "未确认（新基金 Deviation V 目标规模 3 亿美元）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.citybiz.co/article/841330/deviation-capital-launches-with-2-billion-aum-after-spinout-from-two-sigma-ventures/",
+   "https://fundmomentum.vc/blog/deviation-capital-two-sigma-ventures-spinout-2b-aum-2026",
+   "https://x.com/csbeirne/article/2051288937713303636",
+   "https://deviation.com/"
+  ],
+  "note": "2026 年 5 月从 Two Sigma 分拆独立，AUM 约 20 亿美元，存量组合 79 家（Etched、Kalshi 等）；主题为投资技术型创始人创办的 data/compute-native 公司，与我们高度契合"
+ },
+ {
+  "name": "DRW Venture Capital",
+  "kind": "战略投资",
+  "region": "海外（美国，芝加哥）",
+  "stage": "不限阶段，主投种子和 A 轮",
+  "check": "首笔约 100 万–500 万美元以上（第三方数据库口径）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://tracxn.com/d/venture-capital/drw-venture-capital/__KTUfAcUBDI3QAnnMJ3khIYpH-SWxauGaUk1mtSsEKUk",
+   "https://privateequitylist.com/investors/drw-venture-capital",
+   "https://startupintros.com/orgs/drw-venture-capital"
+  ],
+  "note": "交易公司 DRW 的风投部门，使用自有资金（无外部 LP），聚焦金融科技和企业科技；量化/交易背景与我们的金融方向有协同"
+ },
+ {
+  "name": "Dwarkesh Patel",
+  "kind": "天使",
+  "region": "海外（美国）",
+  "stage": "未确认（参与过 Mechanize 早期融资）",
+  "check": "未确认",
+  "lead": "未确认（个人天使通常不领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [],
+  "note": "本轮未单独检索；Mechanize（RL 环境，直接相关）投资关系沿用审批页已有资料。与 Dylan Patel 在旧金山共用办公室（见 substratemag 报道）"
+ },
+ {
+  "name": "Dylan Patel（SemiAnalysis）",
+  "kind": "天使",
+  "region": "海外（美国，旧金山）",
+  "stage": "早期（个人天使组合约 3 家，含 Positron、Prime Intellect）",
+  "check": "未确认",
+  "lead": "未确认（个人天使通常不领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://tracxn.com/d/people/dylan-patel/__lZWjwqDoUxOHF3XlpZSR4kHGmsExGYBJJpoJt9q7Mng",
+   "https://f4.fund/firms/semianalysis-capital",
+   "https://substratemag.com/dylanpatel/"
+  ],
+  "note": "搜索摘要称其已募 SemiAnalysis Capital Fund I（5 亿美元早期基金），未在一手来源核实；若属实，可从个人天使升级为机构投资方"
+ },
+ {
+  "name": "Eniac Ventures",
+  "kind": "VC",
+  "region": "海外（美国，纽约）",
+  "stage": "pre-seed 到种子，种子为主（不投 A 轮以后）",
+  "check": "首笔约 35 万–300 万美元，平均 125–150 万美元（官网）；Eniac V 口径为 50–500 万美元，平均 150–200 万美元",
+  "lead": "常领投或联合领投种子轮（每位 GP 每年领投 2–3 家）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.eniac.vc/tools/seed-fund-portfolio-construction-for-dummies",
+   "https://www.eniac.vc/writings/announcing-eniac-v",
+   "https://www.vcsheet.com/fund/eniac-ventures"
+  ],
+  "note": "已投 Origin Lab；单笔规模偏小，2000 万美元种子轮可能需要与其他机构联合领投"
+ },
+ {
+  "name": "Episode 1 Ventures",
+  "kind": "VC",
+  "region": "海外（英国，伦敦）",
+  "stage": "种子为主",
+  "check": "未确认（领投的 Poindexter Labs 种子轮总额 200 万英镑；Tracxn 统计其种子轮平均轮次规模约 285 万美元）",
+  "lead": "可领投种子轮（如领投 Poindexter Labs）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://techfundingnews.com/poindexter-labs-seed-episode-1/",
+   "https://tech.eu/2026/06/02/poindexter-labs-raises-ps2m-to-improve-training-data-for-advanced-ai/",
+   "https://tracxn.com/d/venture-capital/episode-1-ventures/__NWzDImK1HgNevSucJAXRT3o6mIUVtBKmZGwkoeiIiVU"
+  ],
+  "note": "2026 年 6 月领投 Poindexter Labs（前沿 AI 专家数据，近似竞品）；以英国公司为主，单笔偏小，更适合作跟投方"
+ },
+ {
+  "name": "FPV Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到 A 轮为主，也做后续轮次",
+  "check": "约 10 万–500 万美元；种子/A 轮估计 25 万–200 万美元以上（第三方口径）",
+  "lead": "领投与跟投均有（如 2025 年 11 月领投 Aily Labs 8000 万美元 B 轮）；种子/A 轮倾向未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/fund/fpv-ventures",
+   "https://signal.nfx.com/investors/wesley-chan",
+   "https://f4.fund/firms/fpv-ventures"
+  ],
+  "note": "一期约 4.57 亿美元，二期 5.25 亿美元，AUM 约 10 亿美元；已投 Origin Lab"
+ },
+ {
+  "name": "Fusion Fund",
+  "kind": "VC",
+  "region": "海外（美国，帕洛阿尔托）",
+  "stage": "pre-seed 到 A 轮",
+  "check": "约 50–500 万美元",
+  "lead": "常领投种子轮（如 2026 年 1 月领投 AgileRL 750 万美元种子轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/fund/fusion-fund",
+   "https://signal.nfx.com/investors/lu-zhang",
+   "https://f4.fund/firms/fusion-fund",
+   "https://tracxn.com/d/venture-capital/fusion-fund/__p8CYMRglcviMRH_01UAy3UNmohii-QPsRj26mUZZ-IM"
+  ],
+  "note": "2025 年 3 月四期基金募得 1.9 亿美元，AUM 约 5 亿美元；聚焦有技术或数据优势的企业 AI、医疗、工业科技；已投 AgileRL（RL 工具，相邻赛道）"
+ },
+ {
+  "name": "Gokul Rajaram",
+  "kind": "天使",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到 B 轮",
+  "check": "个人支票约 2.5–100 万美元（第三方口径，未经本人确认）",
+  "lead": "多为跟投",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.startuphub.ai/investors/gokul-rajaram/",
+   "https://www.patronus.ai/blog/announcing-our-17-million-series-a",
+   "https://www.finsmes.com/2026/06/patronus-ai-raises-50m-in-series-b-funding.html",
+   "https://www.crunchbase.com/person/gokul-rajaram/person_overview_investor/timeline"
+  ],
+  "note": "投了 Patronus AI 的种子轮、A 轮和 B 轮（AI 评测，相邻赛道）；Crunchbase 显示其为 Marathon Management Partners 创始合伙人"
+ },
+ {
+  "name": "Gradient Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到 A 轮，种子为主",
+  "check": "种子约 100–500 万美元，pre-seed 75–250 万美元（第三方口径）",
+  "lead": "常领投或联合领投种子轮（如领投 Mage 630 万美元种子轮）；A 轮较少领投",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.bloomberg.com/news/videos/2026-03-18/gradient-raises-220-million-to-back-seed-stage-ai-video",
+   "https://www.startuphub.ai/ai-news/funding-round/2026/gradient-raises-220m-for-fifth-seed-fund",
+   "https://f4.fund/firms/gradient-ventures",
+   "https://www.prnewswire.com/news-releases/mage-reveals-6-3-million-seed-led-by-gradient-ventures-googles-ai-fund-to-become-the-stripe-for-ai-301403044.html"
+  ],
+  "note": "Google 旗下 AI 基金，资金来自 Alphabet 资产负债表（有 CVC 属性）；2026 年 3 月募得 2.2 亿美元第五期种子基金；已投 Arga Labs"
+ },
+ {
+  "name": "Homebrew",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 和种子为主（约 90%），也跟进 A 轮及以后",
+  "check": "平均约 100 万美元，范围约 20 万–200 万美元（Hunter Walk 访谈）",
+  "lead": "可领投种子轮，也常作为参与方",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.hustlefund.vc/post/how-hunter-walk-thinks-about-investments-and-what-early-stage-investors-can-learn",
+   "https://www.vcsheet.com/fund/homebrew",
+   "https://hunterwalk.com/2025/12/08/does-valuation-or-ownership-matter-more-to-a-seed-vc-yes/"
+  ],
+  "note": "据审批页资料投了 Datacurve A 轮（前沿编码数据，近似竞品），本轮未核实；单笔偏小，适合跟投"
+ },
+ {
+  "name": "Ivan Burazin（Daytona CEO）",
+  "kind": "天使",
+  "region": "海外（美国/克罗地亚）",
+  "stage": "未确认",
+  "check": "未确认",
+  "lead": "未确认（个人天使通常不领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [],
+  "note": "受检索次数限制本轮未检索；HUD 投资关系沿用审批页资料。Daytona 做 AI agent 沙箱基础设施，与 RL 环境有产品协同"
+ },
+ {
+  "name": "Jump Capital",
+  "kind": "VC",
+  "region": "海外（美国，芝加哥）",
+  "stage": "pre-seed 到 A 轮，A 轮为主",
+  "check": "约 100–1500 万美元；A 轮 300–1500 万美元",
+  "lead": "A 轮常领投；种子轮倾向未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.theinformation.com/newsletters/dealmaker/jump-capital-raises-350-million-fund-ai-investments",
+   "https://fundmomentum.vc/blog/jump-capital-350m-fund-8-ai-infrastructure-cybersecurity-2026",
+   "https://www.venturecapitaljournal.com/jump-capital-aims-to-speed-ai-adoption/",
+   "https://f4.fund/firms/jump-capital"
+  ],
+  "note": "2026 年 7 月 29 日关闭 3.5 亿美元的第八期基金，投向 AI 应用、企业基础设施和安全；与 Jump Trading 有关联，量化背景契合"
+ },
+ {
+  "name": "Kindred Ventures",
+  "kind": "VC",
+  "region": "海外（美国，旧金山）",
+  "stage": "pre-seed 和种子为主",
+  "check": "约 10–300 万美元，平均 25–200 万美元",
+  "lead": "常作为首个机构投资方或领投方（第三方口径）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/fund/kindred-ventures",
+   "https://signal.nfx.com/investors/kanyi-maqubela",
+   "https://f4.fund/firms/kindred-ventures",
+   "https://techcrunch.com/2019/11/18/kindred-ventures/"
+  ],
+  "note": "AUM 约 6 亿美元，每期基金约 25 家公司（集中持股）；Kanyi Maqubela 关注前沿科技、金融科技等；已投 Scorecard（本轮未核实）"
+ },
+ {
+  "name": "KIP中国",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "种子到成熟期均投",
+  "check": "未确认（历史单笔从数十万到亿元级人民币不等）",
+  "lead": "未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://zdb.pedaily.cn/company/show8485/",
+   "https://www.itjuzi.com/investfirm/1476",
+   "https://startup.aliyun.com/info/1012676.html",
+   "https://startup.aliyun.com/info/1048093.html"
+  ],
+  "note": "韩国投资控股（KIP，1986 年成立）全资子公司在华平台，2011 年起在华运营；在华募集 5 支基金，其中一支美元基金预计 1.5 亿美元；近年偏医疗健康（与元生创投共建中韩医疗美元基金），与 AI 数据方向的匹配度一般"
+ },
+ {
+  "name": "Lux Capital",
+  "kind": "VC",
+  "region": "海外（美国，纽约）",
+  "stage": "不限阶段，种子到成长期",
+  "check": "早期（pre-seed/种子）约 10 万–1000 万美元；Grace Isford 投资区间约 50 万–5000 万美元（第三方口径）",
+  "lead": "常领投或联合领投（Grace Isford 近期领投或联合领投多笔 AI 基础设施种子轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/who/grace-isford",
+   "https://www.vcsheet.com/fund/lux-capital",
+   "https://www.eaglerockcfo.com/blog/venture-capital-firms/lux-capital-review",
+   "https://en.wikipedia.org/wiki/Lux_Capital"
+  ],
+  "note": "AUM 约 70 亿美元的深科技基金，有能力领投 2000 万美元的种子轮；Grace Isford 专注数据、开发者工具和 AI 基础设施；已投 Applied Compute（本轮未核实具体轮次）"
+ },
+ {
+  "name": "Madrona",
+  "kind": "VC",
+  "region": "海外（美国，西雅图）",
+  "stage": "pre-seed 到 B 轮，种子和 A 轮为主",
+  "check": "第三方数据库：首张支票约 100–1000 万美元，种子轮常领投 300–600 万美元",
+  "lead": "常领投种子轮和 A 轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.ellty.com/blog/seattle-seed-investors",
+   "https://suprdeck.com/investors/madrona-venture-group",
+   "https://www.vcsheet.com/fund/madrona-venture-group"
+  ],
+  "note": "支票数据来自第三方数据库（非官方）；重点投太平洋西北地区，但也投全美 AI 基础设施；已投 Gray Swan AI（AI 安全/红队）"
+ },
+ {
+  "name": "Mayfield",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "从成立初期（inception）到种子、A 轮；AI Start 基金专做 AI 种子",
+  "check": "AI Start 种子基金（2023 年 2.5 亿美元）典型支票 100–400 万美元",
+  "lead": "多为领投/联合领投（Mayfield 惯例；AI Start 领投比例未确认）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.businesswire.com/news/home/20230720038405/en/Mayfield-Announces-$250-Million-AI-Start-Seed-Fund-and-Adds-New-Partner",
+   "https://pulse2.com/mayfield-250-million-ai-start-seed-fund-launches/"
+  ],
+  "note": "AI Start 号称快速决策流程；已投 Bespoke Labs（后训练数据/合成数据）"
+ },
+ {
+  "name": "Pear VC",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到 A 轮，pre-seed 和种子为主",
+  "check": "pre-seed 约 25–200 万美元；种子约 100–600 万美元（第三方汇总）",
+  "lead": "常领投/联合领投 pre-seed 与种子轮（PearX 项目领投 pre-seed）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://pear.vc/pearx/",
+   "https://superscout.co/investor/pear-vc",
+   "https://finta.ai/blog/venture-capital-funds-lead-seed-rounds"
+  ],
+  "note": "每年约 20 家深度合作，可跟投至约 1000 万美元；已投 Vals AI（LLM 评测，相邻赛道）；2000 万美元种子对其单笔偏大，更适合作为联合领投之一"
+ },
+ {
+  "name": "Point72 Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到 pre-IPO，种子和 A 轮为主",
+  "check": "第三方数据库：种子约 25–200 万美元，A 轮约 200–1500 万美元",
+  "lead": "领投与跟投均有（比例未确认）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://superscout.co/investor/point72-ventures",
+   "https://www.vcsheet.com/fund/point72-ventures",
+   "https://tracxn.com/d/venture-capital/point72-ventures/__MeXNcRCD965mcyQa12nyreKNxgj48A9T0tk8WW59XqY"
+  ],
+  "note": "Steve Cohen 旗下对冲基金 Point72 的风投部门，重点 AI、金融科技、国防；金融场景强相关，可能兼具潜在客户/数据合作价值；支票数据非官方"
+ },
+ {
+  "name": "Redpoint",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期；早期基金专注种子和 A 轮",
+  "check": "第三方数据库：种子约 50–200 万美元、A 轮约 200–800 万美元（实际 A 轮常更大）；第十期早期基金 6.5 亿美元（2025 年 5 月）",
+  "lead": "A 轮常领投；种子领投与跟投均有（与 Sequoia 联合领投 Irregular）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Redpoint_Ventures",
+   "https://vcbeast.com/vc-firms/redpoint-ventures",
+   "https://superscout.co/investor/redpoint"
+  ],
+  "note": "另有 7.4 亿美元成长基金（2024），AUM 约 45 亿美元；已投 Irregular（前沿 AI 安全评测）"
+ },
+ {
+  "name": "Scribble Ventures",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 与种子为主",
+  "check": "首张支票约 75–150 万美元（早期基金为 25–50 万美元）",
+  "lead": "多为联合投资/跟投，刻意与其他机构共同投；偶尔领投（如 Proximal）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.vcsheet.com/fund/scribble-ventures",
+   "https://www.privatemarketsinsights.com/post/rigid-ownership-targets-break-the-network-that-makes-seed-investing-work-scribble-s-weil-argues",
+   "https://www.axios.com/2022/10/12/scribbles-ventures-raises-84-million-second-fund"
+  ],
+  "note": "创始人 Elizabeth Weil（前 a16z、Twitter）；首期 4200 万美元（2021）、二期两只基金共 8400 万美元（2022）；已领投 Proximal（长时程编程 RL 环境，直接相邻竞品）"
+ },
+ {
+  "name": "Sequoia Capital",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 到成长期全阶段；Arc 项目做 pre-seed/种子",
+  "check": "Arc 首张支票约 50–100 万美元；常规种子/A 轮支票未确认（2025 年新募 2 亿美元种子基金 + 7.5 亿美元 A 轮基金）",
+  "lead": "常领投种子和 A 轮（如领投 Irregular）；Arc 本身不领投后续种子轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://techcrunch.com/2025/10/27/sequoia-unveils-950m-in-new-early-stage-funds-as-it-strives-to-be-only-as-good-as-our-next-investment/",
+   "https://www.vcsheet.com/fund/sequoia-arc",
+   "https://elev-x.com/news-insights/article-sequoia-arc-review/"
+  ],
+  "note": "已投多家直接/相邻竞品：Fleet、Applied Compute、Vals AI、AfterQuery、Trajectory、Irregular，存在利益冲突风险"
+ },
+ {
+  "name": "Spiros Xanthos（Resolve AI CEO）",
+  "kind": "天使",
+  "region": "海外（美国）",
+  "stage": "天使/种子",
+  "check": "未确认",
+  "lead": "多为跟投（个人天使）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [],
+  "note": "本轮未检索；Resolve AI 创始人兼 CEO，个人天使投资 Bespoke Labs；支票金额无公开数据"
+ },
+ {
+  "name": "Standard Capital",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "只做 A 轮（post-PMF 公司）",
+  "check": "单笔约 500–1000 万美元，固定约 10% 稀释，不要董事会席位；Fund I 4.25 亿美元",
+  "lead": "领投 A 轮",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://x.com/daltonc/status/1966553679047389450",
+   "https://www.mofo.com/resources/news/251013-mofo-advises-standard-capital",
+   "https://www.businesswire.com/news/home/20260403198306/en/Insight-Health-Raises-$11M-Series-A-Led-by-Standard-Capital-to-Fix-Healthcares-Administrative-Crisis"
+  ],
+  "note": "前 YC 合伙人 Paul Buchheit、Dalton Caldwell 与 Bryan Berg 创立；按申请周期集中决策（约 2 周完成）；只投已有 PMF 的公司，SimReal 2000 万美元种子需有收入/客户证明才匹配；已投 HUD"
+ },
+ {
+  "name": "SV Angel",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子为主",
+  "check": "种子基金通常约 20 万美元",
+  "lead": "不领投，通常为轮次中的较小跟投支票",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://svangel.com/faq",
+   "https://techcrunch.com/?p=1293598"
+  ],
+  "note": "已投 Fleet、Proximal、Origin Lab、Judgment Labs、Arga Labs 等多家相邻/竞品公司；适合作为补位跟投"
+ },
+ {
+  "name": "The Raine Group",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期（通过 Raine Ventures）",
+  "check": "第三方数据库：早期支票约 100–1500 万美元",
+  "lead": "多为跟投（如参投 Altos 领投的 AfterQuery A 轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://f4.fund/firms/the-raine-group",
+   "https://www.finsmes.com/2026/04/afterquery-raises-30m-in-series-a-funding.html",
+   "https://www.crunchbase.com/organization/raine-ventures"
+  ],
+  "note": "Raine 本身为商人银行，风投由 Raine Ventures 执行；已投 AfterQuery（专家数据/RL 环境，直接竞品，A 轮 3000 万美元、估值 3 亿美元）；支票数据非官方"
+ },
+ {
+  "name": "Tower Research Ventures",
+  "kind": "战略投资",
+  "region": "海外（美国，纽约）",
+  "stage": "孵化、pre-seed 和种子",
+  "check": "约 25–300 万美元",
+  "lead": "未确认（以孵化/种子为主，领投比例未知）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://tower-research.com/ventures/",
+   "https://f4.fund/firms/tower-research-ventures"
+  ],
+  "note": "高频交易公司 Tower Research Capital 的风投部门，聚焦金融科技、企业软件、开发者工具/基础设施；与金融场景高度契合，也可能成为数据/专家合作方"
+ },
+ {
+  "name": "Valkyrie",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "pre-seed 与种子",
+  "check": "约 25 万美元起（Fund I 4500 万美元，两年内投约 80 家）",
+  "lead": "推断多为跟投（基金规模小、投资数量多，未确认）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.forbes.com/sites/phoebeliu/2025/12/04/this-sv-angel-is-going-solo-with-a-45-million-venture-fund/",
+   "https://www.everythingstartups.com/vc-funds/valkyrie"
+  ],
+  "note": "Beth Turner 为 Solo GP（前 SV Angel 管理合伙人）；已投 Intelligence / Design Arena（模型评测）"
+ },
+ {
+  "name": "Yash Patil（Applied Compute CEO）",
+  "kind": "天使",
+  "region": "海外（美国）",
+  "stage": "天使/种子",
+  "check": "未确认",
+  "lead": "多为跟投（个人天使）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [],
+  "note": "本轮未检索；Applied Compute 联合创始人兼 CEO，个人天使投资 Deeptune；Applied Compute 本身做企业 RL 后训练，属相邻赛道，注意信息敏感"
+ },
+ {
+  "name": "今日资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "传统以成长期为主，近期也参与天使轮（如 TalentsAI）",
+  "check": "未确认",
+  "lead": "未确认（TalentsAI 天使轮为参投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://vc.pedaily.cn/company/891792.html",
+   "https://pitchhub.36kr.com/organization/1678201578353673"
+  ],
+  "note": "已参投 TalentsAI（中文 AI 专家数据平台，近似竞品；2025 年 12 月天使轮，红杉中国、BAI 资本同投）"
+ },
+ {
+  "name": "创新工场",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "种子、天使、A 轮为主，B 轮选择性跟投",
+  "check": "未确认（领投硅基流动 5000 万元人民币天使轮，为整轮金额）",
+  "lead": "常领投天使/早期轮（如领投硅基流动天使轮，A 轮老股东超额跟投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.iheima.com/article-368629.html",
+   "https://www.sohu.com/a/808278944_121203063",
+   "https://hub.baai.ac.cn/view/46364"
+  ],
+  "note": "李开复创办，聚焦 AI 与硬科技、企业服务；已投硅基流动（AI 推理基础设施）"
+ },
+ {
+  "name": "华映资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "以 A、B 轮为主，向早期和中后期延伸",
+  "check": "未确认（领投星尘数据 5000 万元人民币 A 轮，为整轮金额）",
+  "lead": "A、B 轮常领投",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.chinaventure.com.cn/news/108-20230104-373008.html",
+   "https://zhuanlan.zhihu.com/p/671634789"
+  ],
+  "note": "已领投星尘数据（AI 数据标注/数据闭环，相邻竞品）"
+ },
+ {
+  "name": "君联资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "初创期、成长期、扩张期均投（早期及成长期人民币基金）",
+  "check": "未确认（单笔金额未公开）",
+  "lead": "领投与联合领投常见（与启明创投联合领投智谱 1 亿元 B 轮，并持续加注）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://finance.sina.com.cn/tech/roll/2024-11-15/doc-incwcqvk6347668.shtml",
+   "https://m.cyzone.cn/capital/1166539.html",
+   "https://m.chinaventure.com.cn/news/114-20260108-389677.html"
+  ],
+  "note": "管理规模约 350 亿元；智谱最大机构投资人；以人民币基金为主，美元结构公司需确认可投性"
+ },
+ {
+  "name": "国方创新",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "未确认；已知参与光轮智能 10 亿元 A++/A+++ 轮（偏中后期），种子/天使投资记录未查到",
+  "check": "未确认",
+  "lead": "在光轮智能该轮为参投的财务投资机构之一；领投习惯未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://finance.sina.com.cn/wm/2026-03-11/doc-inhqqyvt5601365.shtml",
+   "https://news.qq.com/rain/a/20260311A04R2X00"
+  ],
+  "note": "光轮智能为合成/具身数据公司（数据赛道相近）；本次检索未见其种子轮出手记录，种子阶段匹配度存疑；输入资料称亦投觅蜂科技，未核实"
+ },
+ {
+  "name": "天际资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "未确认；已知联合领投恺望数据逾亿元战略轮（2026 年 8 月，公司已过 Pre-A）",
+  "check": "未确认（恺望数据该轮总额逾亿元人民币，由三家联合领投）",
+  "lead": "可联合领投（恺望数据战略轮与亦庄产业基金、华方资本联合领投）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.pedaily.cn/202608/567244.shtml",
+   "https://finance.sina.com.cn/tech/shenji/2026-08-05/doc-inimfmyt4760866.shtml"
+  ],
+  "note": "恺望数据做数据采集/标注/数据交易（自动驾驶、世界模型、具身智能），与 SimReal 专家数据业务相邻但方向不同（物理 AI 而非金融）"
+ },
+ {
+  "name": "明势资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "天使到 A 轮早期为主（2026 年仍活跃于 AI 天使轮）",
+  "check": "未确认",
+  "lead": "常领投或与红杉中国种子基金等联合投资天使轮（如 2026 年 ACONTEXT 天使轮、Catnip）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://zhuanlan.zhihu.com/p/2026349636932125118",
+   "https://zhuanlan.zhihu.com/p/2056400093079769928"
+  ],
+  "note": "MiniMax 早期投资方；近期持续出手 AI 模型/Agent 天使轮，种子阶段匹配度高"
+ },
+ {
+  "name": "经纬创投",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "天使到成长期，早期（Pre-A/A 轮）为主",
+  "check": "未确认（光轮智能 Pre-A 轮总额数千万人民币，由经纬领投）",
+  "lead": "常领投早期轮，并在后续轮超额跟投（光轮智能 Pre-A 领投、Pre-A+ 超额跟投，为最大机构股东）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://36kr.com/p/3014453094966792",
+   "https://m.trjcn.com/news/detail_50586.html",
+   "https://news.qq.com/rain/a/20241101A03R4F00"
+  ],
+  "note": "已重仓合成数据公司光轮智能（现为具身数据独角兽），对 AI 数据赛道有认知"
+ },
+ {
+  "name": "耀途资本",
+  "kind": "VC",
+  "region": "国内（上海）",
+  "stage": "早期为主（已知投资智能知识天使轮）",
+  "check": "未确认",
+  "lead": "智能知识天使轮与锦秋基金联合投资；领投/跟投习惯未确认",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://zhuanlan.zhihu.com/p/2044128857192714401",
+   "https://m.aitntnews.com/newDetail.html?newId=25800"
+  ],
+  "note": "已投「智能知识」（大模型前沿数据生产 + 专家招募平台一面千识，覆盖 Coding、Agentic Tool Use 等数据），与 SimReal 专家数据业务高度相近，可能视为竞品或冲突"
+ },
+ {
+  "name": "蓝驰创投",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "天使到 A 轮早期为主（2026 年 4 月新募 39 亿元人民币，为当年最大早期募资）",
+  "check": "未确认",
+  "lead": "未确认（2026 年一季度至少 7 起融资，多为早期；是否以领投为主本次未逐笔核实）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.pedaily.cn/202604/562672.shtml",
+   "https://m.thepaper.cn/newsDetail_forward_32915170"
+  ],
+  "note": "在模型层、AI Agent、具身智能均有独角兽；新基金规模大、早期出手活跃"
+ },
+ {
+  "name": "赛富",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "早期到成长期；已知领投 GIM 天使+轮",
+  "check": "未确认（GIM 天使轮与天使+轮合计过亿元人民币）",
+  "lead": "可领投天使轮（领投 GIM 天使+轮）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.pedaily.cn/202606/564923.shtml",
+   "https://www.caijian.info/?p=43147",
+   "https://www.prnasia.com/story/539030-1.shtml"
+  ],
+  "note": "GIM（Grace Investment Machine）为金融垂域 AI/资管推理基础设施公司，团队来自对冲/量化基金与 DeepMind 等，与 SimReal 金融方向接近，需确认是否构成竞争；也说明赛富对金融 AI 有明确兴趣"
+ },
+ {
+  "name": "金沙江创投",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "早期为主（天使到 A/B 轮），并在后续轮次追加（如世航智能 A 轮老股东追投）",
+  "check": "未确认",
+  "lead": "未确认（广为报道以早期领投见长，本次未逐笔核实）",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.163.com/dy/article/L7UN228905119FMA.html",
+   "https://zhuanlan.zhihu.com/p/2056400093079769928"
+  ],
+  "note": "已投 Refly.AI（AI Agent 工作流）；本次检索未拿到其单笔金额与领投比例"
+ },
+ {
+  "name": "顺为资本",
+  "kind": "VC",
+  "region": "国内（北京）",
+  "stage": "天使到成长期，近年 AI/机器人方向天使+ 到 A/B 轮均有出手",
+  "check": "未确认",
+  "lead": "可联合领投（2026 年 6 月与锦秋基金联合领投聚能天擎数亿元天使+轮）；其余多为参投",
+  "contact": "",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://shunwei.com/news/2751",
+   "https://zhuanlan.zhihu.com/p/2056400093079769928"
+  ],
+  "note": "2026 年一季度投千寻智能、章鱼动力、法奥机器人等，近期偏具身智能/机器人；金融 AI 数据方向匹配度未知"
+ },
+ {
+  "name": "A91 Partners",
+  "kind": "VC",
+  "region": "海外（印度，孟买）",
+  "stage": "成长期为主（A 轮后段及以后），不以种子为主",
+  "check": "未确认（领投 Deccan AI 2,500 万美元 A 轮，该轮另有 SIG、Prosus 参与）",
+  "lead": "常领投（成长期）；种子轮基本不参与",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.jsalaw.com/deals-matter/jsa-advises-a91-partners-on-investment-in-deccan-ai/",
+   "https://ascendants.in/funding-feed/deccan-ai-raises-25m-series-a/",
+   "https://www.thesaasnews.com/news/deccan-ai-secures-25m-in-series-a"
+  ],
+  "note": "印度成长期基金，聚焦消费、科技、金融服务、医疗的印度中型公司；Deccan AI（后训练数据与评测）为直接竞品，且据报道是 A91 首笔 AI 投资；种子轮匹配度低"
+ },
+ {
+  "name": "Amjad Masad (CEO, Replit)",
+  "kind": "天使",
+  "region": "海外（美国）",
+  "stage": "种子/早期（个人天使，约 62 笔投资，偏应用 AI、开发者工具）",
+  "check": "未确认（个人天使支票，金额未公开）",
+  "lead": "多为跟投（如 Patronus AI 种子轮由 Lightspeed 领投，其为参投天使）",
+  "contact": "Amjad Masad 本人（Replit 创始人兼 CEO）",
+  "contactSource": "https://signal.nfx.com/investors/amjad-masad",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://signal.nfx.com/investors/amjad-masad",
+   "https://www.thesaasnews.com/news/patronus-ai-raises-3-million-in-seed-round",
+   "https://www.hillclimb.com/"
+  ],
+  "note": "已投 Hillclimb（规模化 RL 环境/人类研究数据，赛道相近）与 Patronus AI（LLM 评测）；适合作为种子轮天使跟投"
+ },
+ {
+  "name": "B Capital",
+  "kind": "VC",
+  "region": "海外（美国，全球多地设点）",
+  "stage": "早期到成长期（2022 年设 2.5 亿美元早期基金 Ascent Fund）；GIM 为 A 轮出手",
+  "check": "未确认",
+  "lead": "可联合领投 A 轮（与金涌投资联合领投 GIM A 轮）；种子阶段领投习惯未确认",
+  "contact": "Howard Morgan（Chair 兼 General Partner；文艺复兴科技联合创始人、First Round Capital 联合创始人）",
+  "contactSource": "https://www.prnasia.com/story/539030-1.shtml",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.prnasia.com/story/539030-1.shtml",
+   "https://www.163.com/dy/article/L0TVO80O05562SCF.html",
+   "https://milkeninstitute.org/events/global-conference-2022/speakers/howard-morgan",
+   "https://en.wikipedia.org/wiki/B_Capital"
+  ],
+  "note": "已投金融垂域 AI 公司 GIM（A 轮联合领投），可能有竞品顾虑；Howard Morgan 量化背景与四位量化创始人高度契合"
+ },
+ {
+  "name": "CoinFund",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子为主（加密/去中心化 AI 方向）；其他阶段未确认",
+  "check": "未确认（与 Distributed Global 联合领投 Prime Intellect 550 万美元种子轮）",
+  "lead": "可联合领投种子轮（Prime Intellect）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect",
+   "https://www.finsmes.com/2024/04/prime-intellect-secures-5-5m-in-seed-funding.html"
+  ],
+  "note": "加密/Web3 基金，投的是去中心化 AI 算力与训练；SimReal 非加密项目，匹配度可能偏低"
+ },
+ {
+  "name": "Counterview Capital",
+  "kind": "VC",
+  "region": "海外（美国，纽约）",
+  "stage": "pre-seed 到种子",
+  "check": "未确认（AgileRL pre-seed 总额 150 万英镑，与 Octopus Ventures 联合领投）",
+  "lead": "可联合领投 pre-seed，并在种子轮跟投（AgileRL）",
+  "contact": "Evan Burnstein（Partner，专注数据、AI 与基础设施的 pre-seed/种子投资，任 AgileRL 董事）",
+  "contactSource": "https://www.vcsheet.com/who/evan-burnstein",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.thebaehq.com/news/agilerl-secures-ps1-5m-pre-seed-funding-to-revolutionise-reinforcement-learning",
+   "https://nordic9.com/news/agilerl-raised-a-total-seed-funding-of-75-million-with-fusion-fund-flying-fish-octopus-ventures-entrepreneur-first-and-counterview-capital/",
+   "https://www.vcsheet.com/who/evan-burnstein"
+  ],
+  "note": "已投 RL 训练框架公司 AgileRL（英国），可跨境投资；基金规模较小，适合 2,000 万美元种子轮中的跟投份额"
+ },
+ {
+  "name": "Distributed Global",
+  "kind": "VC",
+  "region": "海外（未确认）",
+  "stage": "种子（已知）；其他阶段未确认",
+  "check": "未确认（与 CoinFund 联合领投 Prime Intellect 550 万美元种子轮）",
+  "lead": "可联合领投种子轮（Prime Intellect）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect",
+   "https://x.com/BSCNews/status/1782816555186688053"
+  ],
+  "note": "加密/去中心化 AI 方向基金，资料很少；匹配度可能偏低"
+ },
+ {
+  "name": "Foundation Capital",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到 A 轮为主，主打首轮机构支票",
+  "check": "约 25 万–1,500 万美元，平均 100–1,000 万美元（第三方目录数据）；领投 Turing 1,400 万美元种子轮",
+  "lead": "常领投种子轮（Turing 种子轮由 Ashu Garg 领投）",
+  "contact": "Ashu Garg（General Partner，专投深度技术 AI 创始人的首轮支票，Turing 董事）",
+  "contactSource": "https://www.turing.com/blog/turing-announces-14-million-seed-round-led-by-foundation-capital",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.turing.com/blog/turing-announces-14-million-seed-round-led-by-foundation-capital",
+   "https://www.vcsheet.com/fund/foundation-capital",
+   "https://fundraisingfox.com/investors/foundation-capital",
+   "https://www.vcsheet.com/who/ashu-garg"
+  ],
+  "note": "已投 Turing（AI 后训练数据/RL 环境直接竞品，Ashu Garg 任董事），可能存在利益冲突；支票金额来自第三方目录，未经基金官方确认"
+ },
+ {
+  "name": "Founders Fund",
+  "kind": "VC",
+  "region": "海外（美国）",
+  "stage": "种子到成长期全阶段",
+  "check": "未确认（领投 Prime Intellect 1,500 万美元种子延期轮）",
+  "lead": "常领投（领投 Prime Intellect 2025 年 2 月轮次）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.panewslab.com/en/articles/o1ef74z0",
+   "https://sacra.com/c/prime-intellect/",
+   "https://x.com/Crypto_Dep/status/1896525298297881020"
+  ],
+  "note": "Prime Intellect（去中心化训练 + RL 环境中心）由其领投，相近赛道；负责该笔投资的合伙人未在公开报道中找到"
+ },
+ {
+  "name": "Inovia Capital",
+  "kind": "VC",
+  "region": "海外（加拿大）",
+  "stage": "种子起投（与 General Catalyst 联合领投 Good Start Labs 种子轮）；后期阶段未在本次检索中核实",
+  "check": "未确认（Good Start Labs 种子轮总额 360 万美元）",
+  "lead": "可联合领投种子轮（Good Start Labs，2025 年 10 月）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.inovia.vc/active-companies/good-start-labs/",
+   "https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games",
+   "https://x.com/alxai_/status/1978491513953722472"
+  ],
+  "note": "Good Start Labs 用游戏构建 RL 环境/数据卖给前沿实验室，与 SimReal 同属 RL 环境赛道（场景不同）"
+ },
+ {
+  "name": "Notable Capital",
+  "kind": "VC",
+  "region": "海外（美国，硅谷/旧金山/纽约）",
+  "stage": "种子到 A 轮为主，也做 B 轮及成长期",
+  "check": "种子起步约 50 万美元；A/B 轮甜区约 1500–2000 万美元（第三方汇总，未经基金官方确认）",
+  "lead": "常领投 A 轮（领投 Patronus AI 1700 万美元 A 轮，Glenn Solomon 入董事会）；种子轮是否常领投未确认",
+  "contact": "Glenn Solomon（Managing Partner，主导 Patronus AI A 轮并入董事会）",
+  "contactSource": "https://www.patronus.ai/blog/announcing-our-17-million-series-a",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.patronus.ai/blog/announcing-our-17-million-series-a",
+   "https://www.streetinsider.com/PRNewswire/Patronus+AI+Raises+%2417+million+To+Detect+LLM+Mistakes+at+Scale/23262682.html",
+   "https://investormatch.pro/vcs/notable-capital-formerly-ggv-capital-us",
+   "https://superscout.co/investor/ggv-capital-u-s"
+  ],
+  "note": "前身 GGV Capital U.S.，2024 年 3 月更名，AUM 约 42 亿美元，只投中国以外；已投 AI 评测公司 Patronus AI（相邻赛道，非直接竞品）；Glenn Solomon 另投过 HashiCorp、Vercel、Monte Carlo 等基础设施公司"
+ },
+ {
+  "name": "Oak HC/FT",
+  "kind": "VC",
+  "region": "海外（美国，康涅狄格州格林威治）",
+  "stage": "种子到成长期，专注金融科技和医疗；金融科技方向以 A 轮及之后为主",
+  "check": "第三方汇总为 100 万–1 亿美元；领投 Halluminate 3000 万美元 A 轮；据报道 2026 年 3 月 Fund VI 募资近 20 亿美元",
+  "lead": "常领投 A 轮及之后（领投 Halluminate A 轮）；种子轮领投频率未确认",
+  "contact": "Matt Streisfeld（General Partner，金融科技方向，主导 Halluminate A 轮）",
+  "contactSource": "https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/",
+   "https://www.halluminate.ai/blog/series-a",
+   "https://signal.nfx.com/investors/matt-streisfeld",
+   "https://f4.fund/firms/oak-hc-ft",
+   "https://goldi.ai/intelligence/vc/oak-hc-ft"
+  ],
+  "note": "已投直接竞品 Halluminate（金融服务 RL 环境，2026-10-01 宣布 3000 万美元 A 轮，客户含四家美国头部 AI 实验室），可能存在利益冲突；不过这说明其认可金融 RL 环境赛道。Fund VI 规模来自搜索摘要，未在官方页面核实"
+ },
+ {
+  "name": "Octopus Ventures",
+  "kind": "VC",
+  "region": "海外（英国，伦敦）",
+  "stage": "pre-seed 到 A 轮切入，后续跟到 B 轮及以后",
+  "check": "pre-seed 约 10–75 万英镑（标准约 10 万英镑）；种子/A 轮约 100 万英镑起；第三方称平均单笔约 450 万英镑",
+  "lead": "pre-seed 阶段可领投（深科技 pre-seed 基金定位为领投方）；在 AgileRL 中为跟投（种子轮由 Fusion Fund 领投）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://tracxn.com/d/companies/agilerl/__wjrLdgbMZnqqNO9RlXeOq-s-rnzwhAutxhw1bewLWw4/funding-and-investors",
+   "https://aijourn.com/agilerl-raises-7-5m-to-take-reinforcement-learning-out-of-the-research-lab-and-into-the-enterprise/",
+   "https://octopusventures.com/about/faq/",
+   "https://superscout.co/investor/octopus-ventures",
+   "https://www.uktech.news/deep-tech/octopus-investments-deep-tech-fund-20230627"
+  ],
+  "note": "主投英国/欧洲公司；2023 年参与 AgileRL 150 万英镑 pre-seed（RLOps 平台，相邻赛道，非直接竞品）。美国或中国团队的 2000 万美元种子轮可能不符合其地域偏好"
+ },
+ {
+  "name": "Orange Collective",
+  "kind": "VC",
+  "region": "海外（美国，旧金山）",
+  "stage": "YC 批次期 pre-seed/种子，后续轮次会跟投（如 Halluminate A 轮）",
+  "check": "未确认（基金约 4000 万美元，自 2023 年冬季批次起已投 116 家 YC 公司；自称少投多下注）",
+  "lead": "多为跟投",
+  "contact": "Dave Yen / Jason Freedman（联合创始人）",
+  "contactSource": "https://www.linkedin.com/posts/davecyen_introducing-orange-collective-a-yc-alumni-activity-7085354094499954688-P_eO",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://yespress.io/orange-collective",
+   "https://teten.com/the-ai-native-platform-behind-orange-collective-investing-in-y-combinator-companies/",
+   "https://www.vcuncovered.com/p/jason-freedman-orange-collective",
+   "https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/"
+  ],
+  "note": "只投 YC 公司，SimReal 若非 YC 校友公司基本不在其投资范围；已投直接竞品 Halluminate（种子和 A 轮）以及 Cua"
+ },
+ {
+  "name": "亚盛投资",
+  "kind": "VC",
+  "region": "国内（城市未确认）",
+  "stage": "未确认（领投过恺望数据 Pre-A 轮）",
+  "check": "未确认（恺望数据 Pre-A 轮总额为数千万元人民币，亚盛领投）",
+  "lead": "领投过恺望数据 Pre-A 轮；是否常领投未确认",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.pedaily.cn/202309/521415.shtml",
+   "https://startup.aliyun.com/info/1062313.html"
+  ],
+  "note": "恺望数据做自动驾驶 AI 数据标注产线，Pre-A 轮在 2023 年 9 月，交易较早；机构本身公开信息极少，机构类型也未确认"
+ },
+ {
+  "name": "兼固资本",
+  "kind": "VC",
+  "region": "国内（城市未确认）",
+  "stage": "天使轮（与东方富海联合领投枢途科技天使轮）；整体偏好未确认",
+  "check": "未确认（枢途科技天使轮总额为数千万元人民币）",
+  "lead": "联合领投过枢途科技天使轮；是否常领投未确认",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://zhuanlan.zhihu.com/p/1961146352781235773",
+   "https://news.pedaily.cn/202609/569233.shtml"
+  ],
+  "note": "枢途科技是具身智能数据基础设施公司，把真实岗位的人类行为转成机器人训练数据；与 SimReal 同属 AI 训练数据，但场景是具身智能而非金融"
+ },
+ {
+  "name": "天使湾",
+  "kind": "天使",
+  "region": "国内（杭州）",
+  "stage": "天使/种子为主",
+  "check": "未确认（星尘数据天使轮总额为数百万元人民币，天使湾领投）",
+  "lead": "常领投天使轮（领投星尘数据天使轮，英诺天使等跟投）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.pencilnews.cn/p/15840.html",
+   "https://36kr.com/p/1722022100993"
+  ],
+  "note": "星尘数据为数据标注平台，创始人章磊有华尔街量化和风控背景，投资时间较早（约 2017 年）；单笔支票通常为数百万元人民币，远小于 2000 万美元的种子轮，只能作为小额跟投；杭州所在地属公开常识，本次检索未核实"
+ },
+ {
+  "name": "腾讯",
+  "kind": "战略投资",
+  "region": "国内（深圳）",
+  "stage": "全阶段战略投资，AI 方向多为中后期大额轮次",
+  "check": "未确认（参与 UniPat 3 亿美元融资，估值 25 亿美元，腾讯份额未披露）",
+  "lead": "多为跟投（UniPat 轮由阿里领投，腾讯参与）",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.qq.com/rain/a/20260910A0AI5600",
+   "https://www.ithome.com/1/000/856.htm"
+  ],
+  "note": "已投 UniPat（AI 训练与评测数据/环境公司，与 SimReal 直接相邻，可视为竞品）；语用科技的交易细节本次未检索"
+ },
+ {
+  "name": "速腾聚创",
+  "kind": "战略投资",
+  "region": "国内（深圳）",
+  "stage": "早期产业投资（领投简智机器人种子+轮）",
+  "check": "未确认",
+  "lead": "领投过简智机器人种子+轮（百度风投跟投）；是否常领投未确认",
+  "contact": "邱纯潮（CEO，曾公开评价对简智的投资）",
+  "contactSource": "https://www.tmtpost.com/7813011.html",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.tmtpost.com/7813011.html",
+   "https://www.163.com/dy/article/KUB1IHNI05118HJE.html",
+   "https://news.pedaily.cn/202512/558794.shtml"
+  ],
+  "note": "激光雷达/机器人上市公司（产业资本），投资聚焦具身智能和机器人数据，与金融 RL 环境关联弱；简智机器人是具身数据与评测基础设施公司"
+ },
+ {
+  "name": "金涌投资（弘毅投资旗下）",
+  "kind": "战略投资",
+  "region": "中国香港（港股上市平台）",
+  "stage": "A 轮（联合领投 GIM A 轮）；整体偏好未确认",
+  "check": "GIM A 轮投资 650 万美元（单一案例）",
+  "lead": "联合领投 GIM A 轮（与 B Capital 一起）并进入董事会",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://finance.sina.com.cn/wm/2026-06-26/doc-inietsps5210126.shtml",
+   "https://www.honycapital.com/news/detail.aspx?nodeid=9&page=ContentPage&contentid=1706",
+   "https://www.prnasia.com/story/539030-1.shtml"
+  ],
+  "note": "正从多元资管转型为 AI 驱动的资管技术提供商，与 GIM 做 Agentic AI 金融投资战略合作；对金融 AI 有战略需求，与 SimReal 的金融场景相关度高；GIM 是 AI 资管公司，不是竞品；香港所在地本次检索未核实"
+ },
+ {
+  "name": "银杏谷资本",
+  "kind": "VC",
+  "region": "国内（杭州）",
+  "stage": "未确认（领投过心识宇宙天使+轮）",
+  "check": "未确认（心识宇宙天使和天使+两轮合计近亿元人民币）",
+  "lead": "领投过心识宇宙天使+轮；是否常领投未确认",
+  "contact": "陈向明（创始人，公开评价过心识宇宙投资）",
+  "contactSource": "https://www.sohu.com/a/604277719_118792",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://www.sohu.com/a/604277719_118792",
+   "https://news.pedaily.cn/202211/503489.shtml"
+  ],
+  "note": "心识宇宙做 AI 角色/智能体平台（MindOS），2022 年投资，与 RL 数据业务相关度一般；杭州所在地属公开常识，本次检索未核实"
+ },
+ {
+  "name": "阿里巴巴",
+  "kind": "战略投资",
+  "region": "国内（杭州）",
+  "stage": "战略/成长期大额轮次为主",
+  "check": "未确认（领投 UniPat 3 亿美元轮，估值 25 亿美元，阿里出资份额未披露）",
+  "lead": "领投 UniPat 轮",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.qq.com/rain/a/20260910A075JF00",
+   "https://www.ithome.com/1/000/856.htm",
+   "https://www.sohu.com/a/1076464346_123009723"
+  ],
+  "note": "已领投 UniPat（AI 训练与评测数据/环境，创始人为前通义实验室成员，做后训练、数据合成和 RL），与 SimReal 直接相邻；倾向投资与通义模型有协同的公司"
+ },
+ {
+  "name": "鲲鹏基金",
+  "kind": "其他",
+  "region": "国内（城市未确认）",
+  "stage": "Pre-A（联合领投枢途科技 Pre-A 轮）；整体偏好未确认",
+  "check": "未确认（枢途科技 Pre-A 轮总额近亿元人民币，与鼎晖百孚联合领投）",
+  "lead": "联合领投过枢途科技 Pre-A 轮；是否常领投未确认",
+  "contact": "未找到",
+  "contactSource": "",
+  "email": "未找到",
+  "emailSource": "",
+  "sources": [
+   "https://news.pedaily.cn/202609/569233.shtml",
+   "https://www.jiemian.com/article/15110526.html"
+  ],
+  "note": "报道称其为大数据方向的国家级基金（政府背景），可能偏好人民币、境内主体项目；枢途科技为具身智能数据基础设施公司"
+ }
+]
