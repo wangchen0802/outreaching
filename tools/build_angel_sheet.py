@@ -1,4 +1,4 @@
-"""Build collateral/SimReal-天使投资人名单.xlsx (+ .csv of the main sheet) from intel/investors/angels.json,
+"""Build collateral/SimReal-天使与硅谷VC名单.xlsx (+ SimReal-天使投资人名单.csv of the angel sheet) from intel/investors/angels.json,
 plus the Silicon Valley VC sheet (intel/investors/sv-vcs.json) and the Cambridge / LSE / Duke alumni
 investor sheet (intel/investors/alumni.json) when those files exist.
 
@@ -35,7 +35,7 @@ SRC = ROOT / "intel" / "investors" / "angels.json"
 SV = ROOT / "intel" / "investors" / "sv-vcs.json"
 ALUMNI = ROOT / "intel" / "investors" / "alumni.json"
 MASTER = ROOT / "collateral" / "SimReal-非大陆投资人总表.csv"
-OUT = ROOT / "collateral" / "SimReal-天使投资人名单.xlsx"
+OUT = ROOT / "collateral" / "SimReal-天使与硅谷VC名单.xlsx"
 OUT_CSV = ROOT / "collateral" / "SimReal-天使投资人名单.csv"
 TIER_RANK = {"A": 0, "B": 1, "C": 2}
 CONF = {"high": "高", "medium": "中", "low": "低"}
@@ -77,16 +77,31 @@ def squash(name):
     return re.sub(r"[^a-z0-9]+", "", name)
 
 
+def sourced(item):
+    """True when at least one source is a URL, not just the researcher's own knowledge."""
+    return any(str(s).startswith("http") for s in item.get("sources") or [])
+
+
+def unchecked(value):
+    """Mark a contact detail that has no source link, so it is never mistaken for a checked one."""
+    v = (value or "").strip()
+    if not v or v.startswith("未找到") or v.startswith("未核实"):
+        return v or "未找到"
+    return "未核实（据已知）：" + v
+
+
 def sv_row(i, f, known):
+    contact = (lambda v: v or "未找到") if sourced(f) else unchecked
     return [i, f.get("fit", ""), f["name"], f["city"], f["type"], f["stage"], f.get("checkSize") or "未找到", f["aiDeals"],
-            f.get("partner") or "未找到", f.get("partnerX") or "未找到", f.get("website") or "", f.get("pitchChannel") or "未找到",
+            contact(f.get("partner")), contact(f.get("partnerX")), f.get("website") or "", contact(f.get("pitchChannel")),
             f["whyFit"], "是" if squash(f["name"]) in known else "", CONF.get(f.get("confidence"), ""), f.get("verifyNote", ""),
             "\n".join((f.get("sources") or [])[:5])]
 
 
 def al_row(i, p):
+    contact = (lambda v: v or "未找到") if sourced(p) else unchecked
     return [i, p["school"], p.get("fit", ""), p["name"], p["schoolDetail"], p["role"], p["base"], p["investing"],
-            p["aiRelevance"], p.get("x") or "未找到", p.get("site") or "", p.get("email") or "未找到", p.get("warmPath") or "未找到",
+            p["aiRelevance"], contact(p.get("x")), p.get("site") or "", contact(p.get("email")), p.get("warmPath") or "未找到",
             p["opener"], CONF.get(p.get("confidence"), ""), p.get("verifyNote", ""), "\n".join((p.get("sources") or [])[:5])]
 
 
@@ -156,8 +171,12 @@ def main():
         "硅谷 VC：按首字母逐一列出总部或主要投资团队在旧金山湾区（旧金山、帕洛阿尔托、门洛帕克、山景城等）且 2024–2026 年仍在投的机构，"
         "包括种子基金、个人基金、大公司投资部门和投钱的加速器。匹配度：A = 投种子 / 天使轮且投过 AI 基础设施、数据或 agent；B = 早期并投 AI；C = 其他。"
         "'已在总表'表示这家也在《非大陆投资人总表》或审批页里。合伙人和投递渠道只列官方公开的。",
-        "校友：每位都有来源同时证明他读过剑桥、LSE 或 Duke，并且在做投资；校友天使组织也列在里面。开场句可以提共同的学校。",
-        "大致 / 把握中的条目：部分信息来自调研员已有的知识，没有逐条找到原文，发之前点开官网确认一次。",
+        f"校友：每位都由第二个调研员复核过学校和投资两项（{sum(1 for p in al_kept if sourced(p))} 位有来源链接）；"
+        "'把握'为低的，学校或投资只有部分来源，发之前再确认。校友天使组织（Cambridge Angels、Duke Capital Partners、LSE Generate 等）也列在里面。"
+        "开场句可以提共同的学校。",
+        f"硅谷 VC 的核实程度：{sum(1 for f in sv_kept if sourced(f))} 家有来源链接；其余 {sum(1 for f in sv_kept if not sourced(f))} 家是调研员按已有知识列的"
+        "（这一轮搜索额度用完了），来源列写'据已知，未搜索核实'，合伙人、X 和投递渠道都标了'未核实（据已知）'。发之前点开官网确认一次；"
+        "需要的话，我可以在搜索额度恢复后先把 A 档逐家核实。",
         "导入 Google 表格：drive.google.com → 新建 → 文件上传 → 右键 → 打开方式 → Google 表格。",
     ]
     for line in notes:
