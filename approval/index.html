@@ -93,6 +93,16 @@
   .auto-line.warn { color: var(--warn); background: var(--warn-tint); }
   .auto-line .label { color: inherit; }
   .auto-line .sub { color: var(--muted); font-size: 12.5px; }
+  .review-note .btn { margin-left: 6px; }
+  /* Link mode: 全部交给发信助手 as one link per batch */
+  .auto-links { display: grid; gap: 10px; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; }
+  .auto-links[hidden] { display: none; }
+  .auto-links-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .auto-links-note { margin: 0; font-size: 13px; color: var(--muted); }
+  .auto-links-list { display: grid; gap: 8px; justify-items: start; min-width: 0; }
+  .auto-links-row { display: flex; gap: 4px 10px; flex-wrap: wrap; align-items: center; max-width: 100%; min-width: 0; }
+  .auto-links-row .btn { max-width: 100%; box-sizing: border-box; text-align: left; overflow-wrap: anywhere; }
+  .auto-links-row .sub { font-size: 12.5px; color: var(--ok); }
   .toast { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); width: max-content; max-width: min(560px, calc(100vw - 32px)); box-sizing: border-box; background: var(--ink); color: var(--paper); border-radius: 8px; padding: 10px 14px; font-size: 13.5px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18); z-index: 10; cursor: default; }
 
   /* Tabs */
@@ -266,6 +276,8 @@
         <button class="btn btn-primary" id="s-save" type="button">保存</button>
         <button class="btn" id="s-ping" type="button">测试连接</button>
         <button class="btn" id="s-test" type="button">试发一封给自己</button>
+        <a class="btn" id="s-ping-link" data-link="ping" target="_blank" rel="noopener" hidden>测试连接 ↗</a>
+        <a class="btn" id="s-test-link" data-link="test" target="_blank" rel="noopener" hidden>试发一封给自己 ↗</a>
         <a class="btn" id="s-dash" target="_blank" rel="noopener" hidden>打开发信助手</a>
         <button class="btn btn-text" id="s-off" type="button">断开</button>
       </div>
@@ -296,6 +308,7 @@
         <button class="btn" id="export-btn" type="button" hidden>导出待发送 CSV</button>
       </div>
     </div>
+    <section class="auto-links" id="auto-links" aria-label="分批交给发信助手" hidden></section>
     <main id="list"><p class="empty">正在载入草稿…</p></main>
   </div>
 </div>
@@ -323,10 +336,12 @@
     tab: "partner", status: "pending", region: "all",
     open: {}, returning: {}, returnText: {},
     canEdit: true, db: null, downloads: null, cards: {},
-    // Auto-send: connection from localStorage, how it is reached (fetch | form | blocked) and how
-    // the last call went (ok | auth | down | form | blocked), per-card notes and busy flags, last sync.
+    // Auto-send: connection from localStorage, how it is reached (fetch | link) and how the last
+    // call went (ok | auth | setup | down | link), per-card notes and busy flags, last sync.
+    // Link mode: handovers whose db write failed (linkFail) and the 全部交给发信助手 panel (linkBatch).
     sender: null, senderTransport: "fetch", senderHealth: null, senderFrom: "", settingsLoaded: false,
     autoNote: {}, autoBusy: {}, confirmStop: {}, autoAllBusy: false, autoSummary: null,
+    linkFail: {}, linkBatch: null,
     syncing: false, syncedAt: 0, firstSync: false
   };
 
@@ -454,15 +469,20 @@
     return { log: s.log, outcome: s.outcome, next: next, total: total, first: first, due: due };
   }
   // send.auto is written once the sender has the card. While it is queued or active the sender
-  // owns every remaining step; "submitted" (a form tab the page cannot read back) may own them.
-  // Either way the page offers no manual send for those steps.
+  // owns every remaining step; "handed" (a link opened in a new tab, which the page cannot read
+  // back) may own them. Either way the page offers no manual send for those steps.
   function autoOf(doc) {
     var a = doc.send && doc.send.auto;
     return a && typeof a === "object" ? a : null;
   }
+  // "submitted" is what the old form handover wrote; it reads the same as a link handover.
+  function handedOf(doc) {
+    var a = autoOf(doc);
+    return !!a && (a.status === "handed" || a.status === "submitted");
+  }
   function autoLive(doc) {
     var a = autoOf(doc);
-    return !!a && (a.status === "queued" || a.status === "active" || a.status === "submitted");
+    return !!a && (a.status === "queued" || a.status === "active" || handedOf(doc));
   }
   // A card the sender is done with goes back to manual only once a status read after the page's
   // last stop has filled in send.log, so a step the sender already sent is never offered again.
@@ -477,7 +497,7 @@
     var q = seqInfo(doc), a = autoOf(doc);
     // Revised after approval and nothing sent yet: review it again. A queued handover keeps the
     // approved version until then.
-    if (staleApproval(doc) && !q.log.length && (!a || a.status === "queued" || a.status === "submitted")) return "pending";
+    if (staleApproval(doc) && !q.log.length && (!a || a.status === "queued" || handedOf(doc))) return "pending";
     if (q.outcome === "meeting") return "meeting";
     if (q.outcome === "replied" || (a && a.status === "replied")) return "replied";
     if (a && a.status === "bounced") return "bounced";
@@ -623,7 +643,13 @@
     }
     hint.textContent = text;
     hint.hidden = !show || !text;
+    // Link mode: the links 全部交给发信助手 made, until closed or the tab changes.
+    var panel = document.getElementById("auto-links"), b = state.linkBatch;
+    var html = show && linkMode() && b && b.tab === state.tab ? linkBatchHTML(b) : "";
+    if (html !== panelHTML) { panel.innerHTML = html; panelHTML = html; }
+    panel.hidden = !html;
   }
+  var panelHTML = "";
 
   function seqHTML(doc) {
     var q = seqInfo(doc), fus = doc.followups || [];
@@ -633,7 +659,7 @@
       var cls = "", val;
       var logged = q.log[i];
       if (logged) { cls = "done"; val = "已发 · " + fmtDay(new Date(logged.at).getTime()); }
-      else if (q.first == null) { val = i === 0 ? (live ? (a.status === "submitted" ? "已提交，待确认" : "排队中（自动）") : "待发送") : "第 1 封后第 " + fus[i - 1].day + " 天"; }
+      else if (q.first == null) { val = i === 0 ? (live ? (handedOf(doc) ? "已交给发信助手" : "排队中（自动）") : "待发送") : "第 1 封后第 " + fus[i - 1].day + " 天"; }
       else {
         var dueAt = q.first + fus[i - 1].day * DAY;
         if (q.outcome) val = "不再发送";
@@ -652,7 +678,7 @@
     var total = a.total || q.total, step = Math.max(Number(a.step) || 0, q.log.length);
     var text, cls = "";
     if (a.status === "queued") text = "排队中（预计按分组顺序在工作时间发出）";
-    else if (a.status === "submitted") text = "已在新标签页提交，这里读不到结果。那个标签页写着「已加入发送队列」就是交上了；没交上就点「没交上，改回手动」";
+    else if (handedOf(doc)) text = a.cancelRequested ? STOP_ASKED : HANDED;
     else if (a.status === "active") {
       var last = q.log[q.log.length - 1], next = a.nextAt ? new Date(a.nextAt).getTime() : q.due;
       if (step <= 1) text = "已发首封" + (q.first != null ? " " + fmtMDHM(q.first) : "");
@@ -666,34 +692,38 @@
     else if (a.status === "error") { text = "发送失败：" + (a.error || "原因见发信助手"); cls = " warn"; }
     else if (a.status === "missing") { text = "发信助手里没有这一封（没交上，或表格里删了这一行），不会自动发"; cls = " warn"; }
     else text = "已交给发信助手";
-    if (a.cancelRequested && autoLive(doc)) text += "；已在新标签页提交停止，请在发信助手页面确认停了";
+    if (a.cancelRequested && autoLive(doc) && !handedOf(doc)) text += "；" + STOP_ASKED;
     var sub = "";
     if (autoLive(doc) && !state.sender) sub = "这台浏览器没连接发信助手，要停止请先在上方连接";
-    else if (autoLive(doc) && state.senderTransport === "blocked") sub = "这个页面连不上发信助手；要停，在发信助手表格里把这一行的状态改成 cancelled";
-    else if (state.sender && state.senderTransport === "form") sub = "状态以发信助手页面为准";
+    else if (handedOf(doc) && !a.cancelRequested && state.canEdit) sub = "新标签页里写着「跳过」就是没交上，可以点「没交上，改回手动」";
     else if (a.status === "cancelled" && !autoSettled(doc)) sub = "还没读到停下前发了几封，读到后才能改为手动发送";
     else if (a.syncedAt) sub = "同步于 " + fmtMDHM(new Date(a.syncedAt).getTime());
     return '<div class="auto-line' + cls + '"><span class="label">自动发送</span><span>' + esc(text) + "</span>" + (sub ? '<span class="sub">' + esc(sub) + "</span>" : "") + "</div>";
   }
 
-  function cardHTML(doc) {
+  // lk is the card's enqueue link in link mode (linkFor), or null.
+  function cardHTML(doc, lk) {
     var st = stageOf(doc), s = STAGE[st], slug = doc.slug || doc.id;
     var q = seqInfo(doc);
     var rev = doc.revision || 1;
     var review = doc.review || {};
     var allText = fullText(doc, 0) + "\n" + (doc.followups || []).map(function (f) { return f.text; }).join("\n") + (doc.wechat ? "\n" + finalize(doc.wechat, "zh", doc) : "");
     var miss = missingIn(finalize(allText, doc.lang, doc));
-    var a = autoOf(doc), live = autoLive(doc), conn = senderOn(), busy = !!state.autoBusy[slug];
+    var a = autoOf(doc), live = autoLive(doc), conn = senderOn(), link = linkMode(), busy = !!state.autoBusy[slug];
     var stale = staleApproval(doc), cleared = reviewOf(doc) === "approved" && st !== "pending";
     // The sender holds other text than the card shows (settings or the draft changed after the
-    // handover). While nothing has gone out, the queued copy can be replaced, over fetch only: a
-    // form tab could not say whether the replacement arrived.
-    var drift = live && !stale && !!a.sig && state.settingsLoaded && a.sig !== sigOf(msgOf(doc));
+    // handover). While nothing has gone out the queued copy can be replaced: over fetch by
+    // 更新排队内容, over links by handing the card over again.
+    var drift = driftOf(doc);
     var canUpdate = drift && !q.log.length && a.status === "queued" && state.senderTransport === "fetch";
-    var why = conn && (st === "tosend" || canUpdate) ? refusalOf(doc) : [];
+    var canRehand = rehandable(doc, st);
+    // A card whose own link would be longer than LINK_MAX cannot be handed over by link.
+    var tooLong = !!lk && !!lk.tooLong;
+    var why = conn && (st === "tosend" || canUpdate || canRehand) ? refusalOf(doc) : [];
+    if (tooLong && st !== "pending") why = why.concat([LINK_TOO_LONG]);
     var label = s.label;
     if (live && st === "waiting") label = "自动跟进";
-    else if (st === "autoqueued" && a.status === "submitted") label = "已提交，待确认";
+    else if (st === "autoqueued" && handedOf(doc)) label = "已交给发信助手";
     else if (st === "autoerror" && a.status === "missing") label = "发信助手里没有";
     var h = "";
     h += '<div class="card-head"><div class="who"><h2>' + esc(doc.company) + "</h2>";
@@ -738,7 +768,7 @@
     }
     if (cleared) {
       h += seqHTML(doc);
-      if (why.length) h += '<div class="review-note warn">' + (canUpdate ? "还不能更新排队内容：" : "还不能交给发信助手：") + esc(why.join("；")) + "</div>";
+      if (why.length) h += '<div class="review-note warn">' + (canUpdate ? "还不能更新排队内容：" : canRehand ? "还不能重新交给发信助手：" : "还不能交给发信助手：") + esc(why.join("；")) + "</div>";
       else if (miss.length) h += '<div class="missing">发之前还要补：<b>' + esc(miss.join("、")) + "</b>（在上方发件设置里填）</div>";
     } else if (miss.length && st === "pending") {
       h += '<div class="missing">批准后发送前要填：<b>' + esc(miss.join("、")) + "</b>（上方发件设置，填一次即可）</div>";
@@ -746,31 +776,53 @@
     if (conn && st === "pending") {
       // Placeholders are covered by the line above; say what else will keep it from going out.
       var hold = refusalOf(approvedNow(doc)).filter(function (r) { return r.indexOf("还要补") !== 0; });
+      if (tooLong) hold.push(LINK_TOO_LONG);
       if (hold.length) h += '<div class="missing">批准后不会自动发：<b>' + esc(hold.join("；")) + "</b></div>";
     }
     if (a) h += autoLineHTML(doc);
     if (drift) {
       h += '<div class="review-note warn">卡片上的邮件和交给发信助手的不一样了（之后改过发件设置或草稿）' +
-        (canUpdate ? "。点「更新排队内容」换成现在这版，不点就按交出去时的发。" : "，发信助手按交出去时的内容发。") + "</div>";
+        (canUpdate ? "。点「更新排队内容」换成现在这版，不点就按交出去时的发。"
+          : canRehand ? "。点「重新交给发信助手 ↗」换成现在这版（还没发出的才换得了），不点就按交出去时的发。"
+          : "，发信助手按交出去时的内容发。") + "</div>";
     }
     var note = state.autoNote[slug];
     if (note && note.rev === rev) h += '<div class="review-note ' + note.kind + '">' + esc(note.text) + "</div>";
+    var fail = state.linkFail[slug];
+    if (fail && fail.rev === rev) {
+      h += '<div class="review-note warn">已在新标签页交给发信助手，但' + (fail.approving ? "批准" : "卡片上的记录") +
+        '没保存上。<button class="btn copy" type="button" data-act="linkretry">重试保存</button></div>';
+    }
 
     h += '<div class="actions">';
     if (state.canEdit) {
       if (st === "pending") {
-        h += '<button class="btn btn-primary" data-act="approve"' + (busy ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : conn ? "批准并自动发送" : "批准") + "</button>";
+        // Link mode: approving is the click on the handover link. A refused card keeps 批准.
+        if (lk && !tooLong) h += linkHTML(lk, "approve", "批准并交给发信助手 ↗", " btn-primary");
+        else h += '<button class="btn btn-primary" data-act="approve"' + (busy ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : conn && !link ? "批准并自动发送" : "批准") + "</button>";
         // Returning a card the sender still holds would not stop it; stop first.
         if (!live) h += '<button class="btn" data-act="return">退回修改</button>';
+        else if (link && !a.cancelRequested) h += cancelLinkHTML(slug);
       } else if (st === "changes") {
         h += '<button class="btn" data-act="reopen">撤回退回</button>';
-      } else if (live) {
+      } else if (live && st !== "replied" && st !== "meeting") {
         // The sender owns the remaining steps: no compose, copy-to-send or mark-sent here.
         if (canUpdate && conn) h += '<button class="btn btn-primary" data-act="autosend"' + (busy || why.length ? " disabled" : "") + ">" + (busy ? "正在更新…" : "更新排队内容") + "</button>";
+        if (link) {
+          h += '<a class="btn" href="' + esc(senderDash()) + '" target="_blank" rel="noopener">打开发信助手 ↗</a>';
+          if (!a.cancelRequested) h += cancelLinkHTML(slug);
+          if (canRehand && lk && !tooLong) h += linkHTML(lk, "rehand", "重新交给发信助手 ↗", " btn-primary");
+        }
         if (q.log.length) h += '<a class="btn" href="' + esc(gmailThread(doc)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 找原邮件</a>';
-        if (a.status === "submitted") h += '<button class="btn btn-text" data-act="resume">没交上，改回手动</button>';
+        if (handedOf(doc)) {
+          // The page cannot read a link handover back: the outcome buttons stay, and a handover
+          // the tab reported as 跳过 can go back to manual.
+          h += '<button class="btn" data-act="replied">对方已回复</button><button class="btn" data-act="meeting">已约见</button>';
+          if (!a.cancelRequested) h += '<button class="btn btn-text" data-act="resume">没交上，改回手动</button>';
+        }
       } else if (st === "tosend") {
-        if (conn) h += '<button class="btn btn-primary" data-act="autosend"' + (busy || why.length ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : "交给发信助手") + "</button>";
+        if (conn && lk && !tooLong) h += linkHTML(lk, "hand", "交给发信助手 ↗", " btn-primary");
+        else if (conn) h += '<button class="btn btn-primary" data-act="autosend"' + (busy || why.length || link ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : "交给发信助手") + "</button>";
         h += '<a class="btn' + (conn ? "" : " btn-primary") + '" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开第 1 封</a>';
         h += '<button class="btn" data-act="sent">标记已发送</button>';
         h += '<button class="btn btn-text" data-act="reopen">撤销批准</button>';
@@ -784,6 +836,8 @@
       } else {
         if (st === "replied") h += '<button class="btn" data-act="meeting">已约见</button>';
         if (!a) h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : st === "meeting" ? "撤销「已约见」" : "恢复跟进") + "</button>";
+        // A link handover marked by hand: the undo clears only the mark.
+        else if (handedOf(doc) && (st === "replied" || st === "meeting")) h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : "撤销「已约见」") + "</button>";
         // A finished auto row can be taken back by hand once its send.log is the sender's own
         // record (the resume drops send.auto).
         else if (autoSettled(doc)) {
@@ -791,7 +845,7 @@
           else if (["cancelled", "error", "missing"].indexOf(a.status) !== -1) h += '<button class="btn btn-text" data-act="resume">改为手动发送</button>';
         }
       }
-      if (live && conn) {
+      if (live && conn && !link && st !== "replied" && st !== "meeting") {
         var sure = !!state.confirmStop[slug];
         h += '<button class="btn' + (sure ? " btn-warn" : "") + '" data-act="autostop"' + (busy ? " disabled" : "") + ">" + (busy ? "正在停止…" : sure ? "确定停止？再点一次" : "停止自动发送") + "</button>";
       }
@@ -855,9 +909,10 @@
       var slug = doc.slug || doc.id;
       seen[slug] = true;
       var entry = state.cards[slug];
-      var st = stageOf(doc);
+      var st = stageOf(doc), lk = linkFor(doc, st);
       var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug], st,
-        !!state.sender, state.senderTransport, state.autoNote[slug] || null, !!state.autoBusy[slug], !!state.confirmStop[slug]]);
+        senderDash(), state.senderTransport, state.autoNote[slug] || null, !!state.autoBusy[slug], !!state.confirmStop[slug],
+        lk, state.linkFail[slug] || null]);
       if (!entry) {
         var el = document.createElement("article");
         el.className = "card";
@@ -865,7 +920,7 @@
         entry = state.cards[slug] = { el: el, sig: "" };
       }
       if (entry.sig !== sig) {
-        entry.el.innerHTML = cardHTML(doc);
+        entry.el.innerHTML = cardHTML(doc, lk);
         entry.sig = sig;
       }
       entry.el.hidden = !visible(doc);
@@ -957,11 +1012,13 @@
   var SENDER_KEY = "simreal.sender";
   var SENDER_BATCH = 50;
   var SENDER_SYNC_MS = 3 * 60 * 1000;
-  var SENDER_WRITES = { enqueue: 1, cancel: 1, pause: 1, resume: 1, test: 1 };
-  var NO_READ = "此浏览器里审批页无法直接读取发信助手状态，请点「打开发信助手」查看。";
   var NO_LINK = "连不上发信助手：检查地址以 /exec 结尾、部署时「谁有权访问」选了「任何人」、网络正常；也可以点「打开发信助手」核对。";
-  var BLOCKED = "这个页面所在的环境不让它连发信助手（浏览器安全策略拦下了），这里只能手动发：用卡片上的「在 Gmail 打开」，或导出 CSV。";
-  var FORM_CHECK = "这里读不到结果，请在那个标签页确认写着「已加入发送队列」。";
+  // Link mode (the page may not fetch the sender): every action is a link opened in a new tab.
+  var LINK_MAX = 6000;
+  var LINK_STATUS = "这个页面不能直接读取发信助手；点「测试连接」会在新标签页显示结果。";
+  var LINK_TOO_LONG = "邮件太长，链接放不下，请用 Gmail 手动发";
+  var HANDED = "已交给发信助手 · 发送和跟进状态在发信助手页面看";
+  var STOP_ASKED = "已在新标签页提交停止，请在那一页确认";
   var ADDR_RE = /^[^\s@,;<>]+@[^\s@,;<>]+\.[^\s@,;<>]{2,}$/;
   var BRACKET_RE = /\[[^\[\]\n]{0,80}\]/;
   // 地区 -> IANA zone for the send window. The first place named wins ("以色列/美国" is Israel);
@@ -1060,10 +1117,13 @@
       return true;
     } catch (e) { return false; }
   }
-  function senderDash() {
+  // A sender GET url: the deployment url, the action, the token, then params already encoded
+  // ("&slug=…"). The token only ever lives in these urls, in memory and in link hrefs.
+  function senderUrl(action, params) {
     var c = state.sender;
-    return c ? c.url + (c.url.indexOf("?") === -1 ? "?" : "&") + "action=dashboard&token=" + encodeURIComponent(c.token) : "";
+    return c ? c.url + (c.url.indexOf("?") === -1 ? "?" : "&") + "action=" + action + "&token=" + encodeURIComponent(c.token) + (params || "") : "";
   }
+  function senderDash() { return senderUrl("dashboard"); }
   function senderErrText(r) {
     var known = {
       unauthorized: "口令不对。重新粘贴口令后点「保存」。",
@@ -1071,7 +1131,7 @@
       busy: "发信助手正忙，过一分钟再试。",
       not_connected: "还没连接发信助手。",
       unreachable: NO_LINK,
-      blocked: BLOCKED
+      link: LINK_STATUS
     };
     if (r && known[r.error]) return known[r.error];
     return (r && r.message) || "发信助手出错了（" + (r && r.error || "未知") + "）。";
@@ -1089,9 +1149,9 @@
     return r || "发信助手没有返回这一封的结果";
   }
 
-  // claude.ai may forbid this page both fetch (connect-src) and form posts (form-action) to other
-  // sites. A blocked fetch throws the same TypeError as a network error and a blocked form fails
-  // silently, so the securitypolicyviolation event is the only way to tell.
+  // claude.ai may forbid this page fetch (connect-src) and form posts (form-action) to other sites.
+  // A blocked fetch throws the same TypeError as a network error, so the securitypolicyviolation
+  // event is the only way to tell. Links the user clicks still open, so that is link mode.
   var cspSeen = {}, cspWaiters = [];
   function senderOrigin() {
     try { return state.sender ? new URL(state.sender.url).origin : ""; } catch (e) { return ""; }
@@ -1116,68 +1176,218 @@
       cspWaiters.push(waiter);
     });
   }
-  function senderOn() { return !!state.sender && state.senderTransport !== "blocked"; }
+  function senderOn() { return !!state.sender; }
+  function linkMode() { return !!state.sender && state.senderTransport === "link"; }
   function setHealth(h) {
     if (state.senderHealth === h) return;
     state.senderHealth = h;
     renderSenderBox();
   }
 
-  // POST {token, action, ...data}. fetch first (text/plain, so no CORS preflight). Only a CSP
-  // block of fetch switches writes to a hidden form in a new tab, whose result is unreadable; any
-  // other fetch failure (offline, access not 任何人, a /dev url) is reported and retried next time.
+  // POST {token, action, ...data} with fetch (text/plain, so no CORS preflight). Only a CSP block
+  // of that fetch switches the page to links, which the user clicks and whose result shows in the
+  // new tab; any other failure (offline, access not 任何人, a /dev url) is reported and retried
+  // next time, with no change of mode.
   async function senderCall(action, data) {
     var c = state.sender;
     if (!c) return { ok: false, error: "not_connected" };
-    if (state.senderTransport === "blocked") return { ok: false, error: "blocked", message: BLOCKED };
+    if (state.senderTransport === "link") return { ok: false, error: "link", message: LINK_STATUS };
     var payload = JSON.stringify(Object.assign({ token: c.token, action: action }, data || {}));
-    if (state.senderTransport === "fetch") {
-      var res = null;
-      try {
-        res = await fetch(c.url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload, redirect: "follow" });
-      } catch (e) {
-        if (!(await cspBlocked("connect-src", 400))) {
-          setHealth("down");
-          return { ok: false, error: "unreachable", message: NO_LINK };
-        }
-        state.senderTransport = "form";
-        setHealth("form");
-        render();
-      }
-      if (res) {
-        var out = null;
-        try { out = await res.json(); } catch (e) {}
-        if (out && typeof out === "object") {
-          if (out.ok) setHealth("ok");
-          else if (out.error === "unauthorized") setHealth("auth");
-          else if (out.error === "not_set_up") setHealth("setup");
-          return out;
-        }
+    var res = null;
+    try {
+      res = await fetch(c.url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload, redirect: "follow" });
+    } catch (e) {
+      if (!(await cspBlocked("connect-src", 400))) {
         setHealth("down");
-        return { ok: false, error: "bad_response", message: "发信助手返回的不是数据（HTTP " + res.status + "）。检查部署时「谁有权访问」选了「任何人」，地址以 /exec 结尾。" };
+        return { ok: false, error: "unreachable", message: NO_LINK };
       }
+      if (state.sender === c) useLinks();
+      return { ok: false, error: "link", message: LINK_STATUS };
     }
-    if (!SENDER_WRITES[action]) return { ok: false, error: "no_read", message: NO_READ };
-    postForm(c.url, payload);
-    if (await cspBlocked("form-action", 1000)) {
-      state.senderTransport = "blocked";
-      setHealth("blocked");
-      senderSay(BLOCKED, "warn");
-      render();
-      return { ok: false, error: "blocked", message: BLOCKED };
+    var out = null;
+    try { out = await res.json(); } catch (e) {}
+    if (out && typeof out === "object") {
+      if (out.ok) setHealth("ok");
+      else if (out.error === "unauthorized") setHealth("auth");
+      else if (out.error === "not_set_up") setHealth("setup");
+      return out;
     }
-    return { ok: true, viaForm: true };
+    setHealth("down");
+    return { ok: false, error: "bad_response", message: "发信助手返回的不是数据（HTTP " + res.status + "）。检查部署时「谁有权访问」选了「任何人」，地址以 /exec 结尾。" };
   }
-  function postForm(url, payload) {
-    var f = document.createElement("form");
-    f.method = "post"; f.action = url; f.target = "_blank"; f.acceptCharset = "UTF-8"; f.hidden = true;
-    f.setAttribute("rel", "noopener");
-    var input = document.createElement("input");
-    input.type = "hidden"; input.name = "payload"; input.value = payload;
-    f.appendChild(input);
-    document.body.appendChild(f);
-    f.submit();
-    f.remove();
+  function useLinks() {
+    if (state.senderTransport === "link") return;
+    state.senderTransport = "link";
+    state.senderHealth = "link";
+    senderSay(LINK_STATUS);
+    renderSenderBox();
+    render();
+  }
+
+  // Link payloads: the UTF-8 JSON {"messages": [Msg…]}, gzip-compressed with CompressionStream and
+  // base64url-encoded with "=" padding (z), or uncompressed (j) where CompressionStream is missing.
+  // Resolves the query tail ("&z=…"), or false when it could not be built.
+  function b64url(bytes) {
+    var s = "";
+    for (var i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(s).replace(/\+/g, "-").replace(/\//g, "_");
+  }
+  async function packMessages(msgs) {
+    var bytes = new TextEncoder().encode(JSON.stringify({ messages: msgs }));
+    if (typeof CompressionStream === "function") {
+      try {
+        var gz = new Response(new Blob([bytes]).stream().pipeThrough(new CompressionStream("gzip")));
+        return "&z=" + encodeURIComponent(b64url(new Uint8Array(await gz.arrayBuffer())));
+      } catch (e) {}
+    }
+    return "&j=" + encodeURIComponent(b64url(bytes));
+  }
+  // Built links, cached by the Msgs' signatures. The JSON is kept too, so a signature collision
+  // can never put another card's text behind a link.
+  var linkCache = Object.create(null), linkCount = 0;
+  function linkEntry(msgs) {
+    var key = msgs.map(function (m) { return sigOf(m); }).join("."), json = JSON.stringify(msgs);
+    if (linkCount > 4000) { linkCache = Object.create(null); linkCount = 0; }
+    var slot = linkCache[key] || (linkCache[key] = []);
+    var entry = slot.filter(function (x) { return x.json === json; })[0];
+    if (!entry) {
+      entry = { json: json, tail: null };
+      entry.promise = packMessages(msgs).catch(function () { return false; }).then(function (t) { entry.tail = t; return t; });
+      slot.push(entry);
+      linkCount++;
+    }
+    return entry;
+  }
+  var renderQueued = false;
+  function scheduleRender() {
+    if (renderQueued) return;
+    renderQueued = true;
+    setTimeout(function () { renderQueued = false; render(); }, 0);
+  }
+
+  // The enqueue link a card offers in link mode: null when it offers none (not link mode, or the
+  // card is refused); {wait} while it is being built; {tooLong} when it would be longer than
+  // LINK_MAX; else {href, sig}. Pending cards get 批准并交给发信助手, tosend cards 交给发信助手,
+  // and a handed card whose text drifted 重新交给发信助手.
+  function linkFor(doc, st) {
+    if (!linkMode() || !state.canEdit) return null;
+    if (st !== "pending" && st !== "tosend" && !rehandable(doc, st)) return null;
+    if (!state.settingsLoaded) return { wait: true };
+    if (refusalOf(st === "pending" ? approvedNow(doc) : doc).length) return null;
+    var msg = msgOf(doc), entry = linkEntry([msg]);
+    if (entry.tail == null) { entry.promise.then(scheduleRender); return { wait: true }; }
+    if (entry.tail === false) return { failed: true };
+    var href = senderUrl("enqueue", entry.tail);
+    return href.length > LINK_MAX ? { tooLong: true } : { href: href, sig: sigOf(msg), rev: msg.revision };
+  }
+  function driftOf(doc) {
+    var a = autoOf(doc);
+    return autoLive(doc) && !staleApproval(doc) && !!a.sig && state.settingsLoaded && a.sig !== sigOf(msgOf(doc));
+  }
+  // A card the sender holds, nothing sent yet as far as the page knows, whose text drifted.
+  function rehandable(doc, st) {
+    var a = autoOf(doc);
+    return linkMode() && st === "autoqueued" && !!a && !a.cancelRequested && driftOf(doc);
+  }
+  // The link once it is built; until then a disabled 准备中… button.
+  function linkHTML(lk, kind, label, cls) {
+    if (lk.href) {
+      return '<a class="btn' + cls + '" data-link="' + kind + '" data-sig="' + esc(lk.sig) + '" data-rev="' + esc(lk.rev) + '" href="' + esc(lk.href) +
+        '" target="_blank" rel="noopener">' + esc(label) + "</a>";
+    }
+    return '<button class="btn' + cls + '" type="button" disabled>' + (lk.failed ? "链接没生成，刷新页面再试" : "准备中…") + "</button>";
+  }
+  function cancelLinkHTML(slug) {
+    return '<a class="btn" data-link="cancel" href="' + esc(senderUrl("cancel", "&slug=" + encodeURIComponent(slug))) + '" target="_blank" rel="noopener">停止自动发送 ↗</a>';
+  }
+
+  // A click on a sender link. The browser opens the tab (no preventDefault); this only records
+  // what was handed over or asked for, once the click is done.
+  function onLink(el) {
+    var kind = el.dataset.link, at = new Date().toISOString(), card = el.closest(".card");
+    var doc = card ? docBySlug(card.dataset.slug) : null, b = state.linkBatch;
+    var chunk = kind === "chunk" && b && b.chunks ? b.chunks[Number(el.dataset.chunk)] : null;
+    var sig = el.dataset.sig, rev = Number(el.dataset.rev) || 1;
+    setTimeout(function () {
+      if (kind === "test") senderSay("已在新标签页试发，结果在那个标签页里；再去收件箱看看。");
+      else if (chunk) handChunk(b, chunk, at);
+      else if (doc && kind === "cancel") writeDoc(slugOf(doc), { send: { auto: { cancelRequested: at } } });
+      else if (doc && (kind === "approve" || kind === "hand" || kind === "rehand")) markHanded(doc, kind === "approve", sig, rev, at, false);
+    }, 0);
+  }
+  // send.auto = {status: "handed", via: "link", at, sig, revision}, in one write with the approval
+  // when the click approved the card. A failed write leaves a note and a retry on the card.
+  async function markHanded(doc, approving, sig, rev, at, quiet) {
+    var slug = slugOf(doc), name = doc.company || slug, old = autoOf(doc);
+    var auto = { status: "handed", via: "link", at: at, sig: sig, revision: rev };
+    // Replace what an earlier handover, sync or stop request left rather than merge into it.
+    if (old) Object.keys(old).forEach(function (k) { if (!(k in auto)) auto[k] = null; });
+    var patch = { send: { auto: auto } };
+    if (approving) patch.review = approvedNow(doc, at).review;
+    delete state.linkFail[slug];
+    if (await writeDoc(slug, patch)) {
+      if (!quiet) toast((approving ? "已批准「" + name + "」，" : "「" + name + "」") + "已在新标签页交给发信助手，结果看那个标签页。");
+      return;
+    }
+    state.linkFail[slug] = { patch: patch, approving: approving, rev: doc.revision || 1 };
+    render();
+  }
+  async function retryHanded(slug) {
+    var f = state.linkFail[slug];
+    if (!f || !(await writeDoc(slug, f.patch))) return;
+    delete state.linkFail[slug];
+    render();
+    toast(f.approving ? "批准已保存。" : "已记下交给发信助手。");
+  }
+
+  // 全部交给发信助手 in link mode: the eligible cards of the tab as links of at most LINK_MAX
+  // characters and SENDER_BATCH cards each, in send order. A card whose own link does not fit is
+  // left out and named.
+  async function buildLinkBatch() {
+    var list = tabDocs().filter(function (d) { return stageOf(d) === "tosend" && !refusalOf(d).length; })
+      .sort(function (a, b) { return (a.order || 9999) - (b.order || 9999); });
+    var batch = state.linkBatch = { tab: state.tab, chunks: null, tooLong: [], opened: {} };
+    renderFilters();
+    var room = LINK_MAX - senderUrl("enqueue").length, chunks = [], cur = [], tail = "";
+    for (var i = 0; i < list.length; i++) {
+      var it = { slug: slugOf(list[i]), name: list[i].company || slugOf(list[i]), msg: msgOf(list[i]) };
+      var alone = await linkEntry([it.msg]).promise;
+      if (alone === false || alone.length > room) { batch.tooLong.push(it.name); continue; }
+      var joined = cur.length && cur.length < SENDER_BATCH ? await linkEntry(cur.map(function (x) { return x.msg; }).concat([it.msg])).promise : false;
+      if (joined !== false && joined.length <= room) { cur.push(it); tail = joined; continue; }
+      if (cur.length) chunks.push({ items: cur, tail: tail });
+      cur = [it];
+      tail = alone;
+    }
+    if (cur.length) chunks.push({ items: cur, tail: tail });
+    if (state.linkBatch !== batch) return;
+    batch.chunks = chunks;
+    renderFilters();
+  }
+  function linkBatchHTML(b) {
+    var h = '<div class="auto-links-head"><span class="label">分批交给发信助手</span><button class="btn btn-text" type="button" id="auto-links-close">收起</button></div>';
+    if (!b.chunks) return h + '<div class="auto-links-list"><button class="btn" type="button" disabled>准备中…</button></div>';
+    var n = b.chunks.reduce(function (s, c) { return s + c.items.length; }, 0);
+    h += '<p class="auto-links-note">' + (b.chunks.length ? n + " 封分成 " + b.chunks.length + " 批，每批点一次，结果在打开的标签页里。" : "没有能放进链接的邮件。") +
+      (b.tooLong.length ? esc(b.tooLong.length + " 封" + LINK_TOO_LONG + "：" + b.tooLong.join("、") + "。") : "") + "</p>";
+    h += '<div class="auto-links-list">' + b.chunks.map(function (c, k) {
+      var names = c.items.map(function (it) { return it.name; });
+      var label = "第 " + (k + 1) + " 批：" + names.slice(0, 3).join("、") + (names.length > 3 ? "…" : "") + "（" + names.length + " 封） ↗";
+      return '<div class="auto-links-row"><a class="btn' + (b.opened[k] ? "" : " btn-primary") + '" data-link="chunk" data-chunk="' + k + '" href="' +
+        esc(senderUrl("enqueue", c.tail)) + '" target="_blank" rel="noopener">' + esc(label) + "</a>" + (b.opened[k] ? '<span class="sub">已打开</span>' : "") + "</div>";
+    }).join("") + "</div>";
+    return h;
+  }
+  function handChunk(b, c, at) {
+    var k = b.chunks.indexOf(c);
+    if (k === -1) return;
+    b.opened[k] = true;
+    renderFilters();
+    toast("第 " + (k + 1) + " 批（" + c.items.length + " 封）已在新标签页交给发信助手，结果看那个标签页。");
+    c.items.forEach(function (it) {
+      var doc = docBySlug(it.slug);
+      if (doc) markHanded(doc, false, sigOf(it.msg), it.msg.revision, at, true);
+    });
   }
 
   var toastTimer = null;
@@ -1208,16 +1418,11 @@
     for (var i = 0; i < ready.length; i += SENDER_BATCH) {
       var part = ready.slice(i, i + SENDER_BATCH), msgs = part.map(msgOf);
       var res = await senderCall("enqueue", { messages: msgs });
-      if (res.viaForm || !res.ok) {
-        // A form tab cannot report back: mark the cards submitted, not queued, which keeps a way
-        // back to manual sending (a card the sender already confirmed keeps its state), and stop
-        // after one tab.
+      if (!res.ok) {
+        // Nothing was handed over. "link": this page turned out to need links; the cards now
+        // show them.
         for (var j = 0; j < part.length; j++) {
-          var held = autoOf(part[j]), confirmed = held && (held.status === "queued" || held.status === "active");
-          if (res.viaForm && !confirmed) {
-            await writeDoc(msgs[j].slug, { send: { auto: { status: "submitted", queuedAt: now, revision: msgs[j].revision, sig: sigOf(msgs[j]), via: senderTag() } } });
-          }
-          out.items.push({ doc: part[j], kind: res.viaForm ? "form" : "error", text: res.viaForm ? "" : senderErrText(res) });
+          out.items.push({ doc: part[j], kind: res.error === "link" ? "link" : "error", text: senderErrText(res) });
         }
         out.left = ready.length - i - part.length;
         break;
@@ -1265,7 +1470,7 @@
     var it = (await enqueueDocs([doc])).items[0];
     if (!it) return;
     if (it.kind === "queued" || it.kind === "updated") toast(lead + (it.kind === "updated" ? "排队中的内容已更新。" : "已交给发信助手，会在工作时间按分组顺序发出。"));
-    else if (it.kind === "form") toast(lead + "已在新标签页提交给发信助手。" + FORM_CHECK);
+    else if (it.kind === "link") toast(lead + "但这个页面只能用链接交给发信助手：请点卡片上的「交给发信助手 ↗」。");
     else if (it.kind === "refused") toast(lead + "但没交给发信助手：" + it.text + "。" + (approving ? "补好后在「今天要发」里点「交给发信助手」。" : ""));
     else if (it.kind === "error") toast(lead + "但没交上：" + it.text);
     else toast(lead + "但发信助手没收：" + it.text + "。");
@@ -1273,6 +1478,7 @@
 
   async function handOverAll() {
     if (!senderOn() || state.autoAllBusy) return;
+    if (linkMode()) { buildLinkBatch(); return; }
     var tab = state.tab;
     var list = tabDocs().filter(function (d) { return stageOf(d) === "tosend" && !refusalOf(d).length; })
       .sort(function (a, b) { return (a.order || 9999) - (b.order || 9999); });
@@ -1286,8 +1492,8 @@
       if (it.kind === "rejected" || it.kind === "error") reasons[it.text] = (reasons[it.text] || 0) + 1;
     });
     var text;
-    if (n.form) {
-      text = "已在新标签页提交给发信助手 " + n.form + " 封。" + FORM_CHECK + (out.left ? "还剩 " + out.left + " 封，再点一次按钮交下一批。" : "");
+    if (n.link) {
+      text = "这个页面只能用链接交给发信助手，请再点一次「全部交给发信助手」。";
     } else {
       var parts = [];
       if (n.queued || n.updated) parts.push("已交给发信助手 " + ((n.queued || 0) + (n.updated || 0)) + " 封");
@@ -1300,8 +1506,8 @@
     render();
   }
 
-  // 停止自动发送: two clicks, then cancel. Only a cancel the sender confirmed changes the card; a
-  // form tab cannot say whether it stopped, so then the card only records that a stop was asked for.
+  // 停止自动发送 over fetch: two clicks, then cancel. Only a cancel the sender confirmed changes the
+  // card. (In link mode the button is the cancel link, which records only that a stop was asked for.)
   async function stopAuto(doc) {
     var slug = slugOf(doc), name = doc.company || slug;
     if (!state.confirmStop[slug]) {
@@ -1315,10 +1521,7 @@
     state.autoBusy[slug] = true;
     render();
     var now = new Date().toISOString(), r = await senderCall("cancel", { slug: slug });
-    if (r.viaForm) {
-      await writeDoc(slug, { send: { auto: { cancelRequested: now } } });
-      toast("已在新标签页提交停止「" + name + "」。这里读不到结果，请在那个标签页或「打开发信助手」里确认已停止。");
-    } else if (r.ok && r.status === "cancelled") {
+    if (r.ok && r.status === "cancelled") {
       // Read back what went out before the stop, so 改为手动发送 never offers a step already sent.
       // Without that read the card waits for the next sync before it can go back to manual.
       var s = await senderCall("status", { slugs: [slug] });
@@ -1407,6 +1610,12 @@
       state.syncing = false;
     }
   }
+  // On load: a ping tells how this page reaches the sender (fetch, or links when the page's CSP
+  // blocks the fetch), then the first status sync, which only fetch can do.
+  async function firstContact() {
+    if (state.sender) await pingSender("");
+    syncStatus();
+  }
   setInterval(function () { if (document.visibilityState === "visible") syncStatus(); }, SENDER_SYNC_MS);
   document.addEventListener("visibilitychange", function () {
     if (document.visibilityState === "visible" && Date.now() - state.syncedAt > SENDER_SYNC_MS) syncStatus();
@@ -1415,8 +1624,11 @@
   document.addEventListener("click", function (ev) {
     var tab = ev.target.closest(".tab");
     if (tab) { showTab(tab.dataset.tab); return; }
+    var link = ev.target.closest("a[data-link]");
+    if (link) { onLink(link); return; }
     if (ev.target.closest("#export-btn")) { exportCsv(); return; }
     if (ev.target.closest("#auto-all-btn")) { handOverAll(); return; }
+    if (ev.target.closest("#auto-links-close")) { state.linkBatch = null; renderFilters(); return; }
     var chip = ev.target.closest(".chip");
     if (chip) {
       if (chip.dataset.status) state.status = chip.dataset.status;
@@ -1447,7 +1659,8 @@
     if (act === "approve") {
       if (state.autoBusy[slug]) return;
       var asApproved = approvedNow(doc, now);
-      if (!senderOn()) { writeDoc(slug, { review: asApproved.review }); return; }
+      // Link mode hands over only by its link; this is the plain 批准 of a refused card.
+      if (!senderOn() || linkMode()) { writeDoc(slug, { review: asApproved.review }); return; }
       // The sender gets the card only once the approval is saved.
       state.autoBusy[slug] = true;
       render();
@@ -1458,8 +1671,9 @@
       });
       return;
     }
-    if (act === "autosend") { autoOne(doc, false); return; }
+    if (act === "autosend") { if (!linkMode()) autoOne(doc, false); return; }
     if (act === "autostop") { stopAuto(doc); return; }
+    if (act === "linkretry") { retryHanded(slug); return; }
     if (act === "return") { state.returning[slug] = true; render(); var ta = card.querySelector("textarea"); if (ta) ta.focus(); return; }
     if (act === "cancel-return") { state.returning[slug] = false; render(); return; }
     if (act === "reopen") { writeDoc(slug, { review: { status: "pending", comment: "", at: now, forRevision: rev } }); return; }
@@ -1469,12 +1683,19 @@
     if (act === "stop") { writeDoc(slug, { send: { log: q.log, outcome: "stopped", outcomeAt: now } }); return; }
     if (act === "resume") {
       // An auto row goes back to manual only once the sender is done with it and send.log is its
-      // record, or when a form handover never arrived (没交上，改回手动).
+      // record, or when a link handover never arrived (没交上，改回手动). On a link handover marked
+      // 已回复 or 已约见 by hand, the undo clears only the mark.
       var held = autoOf(doc);
-      if (held && held.status !== "submitted" && !autoSettled(doc)) return;
+      if (held && handedOf(doc) && q.outcome) { writeDoc(slug, { send: { outcome: null } }); return; }
+      if (held && !handedOf(doc) && !autoSettled(doc)) return;
       writeDoc(slug, { send: held ? { log: q.log, outcome: null, auto: null } : { log: q.log, outcome: null } });
       return;
     }
+  });
+  // A middle click opens a link in a new tab without a click event.
+  document.addEventListener("auxclick", function (ev) {
+    var link = ev.button === 1 && ev.target.closest("a[data-link]");
+    if (link) onLink(link);
   });
 
   document.addEventListener("input", function (ev) {
@@ -1556,29 +1777,38 @@
   // The pill says how the last call went, not only that an address is saved.
   var PILL = {
     ok: ["已连接", "st-approved"], auth: ["口令不对", "st-changes"], setup: ["还没装好", "st-changes"], down: ["连不上", "st-changes"],
-    form: ["已连接（读不到状态）", "st-sending"], blocked: ["这里连不上", "st-changes"]
+    link: ["链接方式", "st-sending"]
   };
   function renderSenderBox() {
-    var c = state.sender, off = !c || !state.canEdit;
+    var c = state.sender, off = !c || !state.canEdit, link = linkMode();
     var pill = document.getElementById("s-conn"), p = !c ? ["未连接", "st-pending"] : PILL[state.senderHealth] || ["已保存", "st-pending"];
     pill.textContent = p[0];
     pill.className = "conn status " + p[1];
     ["s-ping", "s-test", "s-off"].forEach(function (id) { document.getElementById(id).disabled = off; });
     document.getElementById("s-save").disabled = !state.canEdit;
+    // Link mode: 测试连接 and 试发 are links that show their result in a new tab.
+    document.getElementById("s-ping").hidden = link;
+    document.getElementById("s-test").hidden = link;
+    [["s-ping-link", "ping"], ["s-test-link", "test"]].forEach(function (x) {
+      var a = document.getElementById(x[0]);
+      a.hidden = !link || off;
+      if (link && !off) a.href = senderUrl(x[1]); else a.removeAttribute("href");
+    });
     var dash = document.getElementById("s-dash");
     dash.hidden = !c;
+    dash.textContent = link ? "打开发信助手 ↗" : "打开发信助手";
     if (c) dash.href = senderDash(); else dash.removeAttribute("href");
-    if (!c) document.getElementById("s-sync").textContent = "";
+    if (!c || link) document.getElementById("s-sync").textContent = "";
   }
   async function pingSender(extra) {
-    senderSay("正在连接…");
+    if (!linkMode()) senderSay("正在连接…");
     var r = await senderCall("ping", {});
     if (r.ok) {
       var n = r.counts || {};
       state.senderFrom = r.from || "";
       senderSay("已连接 " + (r.from || "发信助手") + " · 今天已发 " + (r.sentToday || 0) + "/" + (r.dailyCap || "?") + " · 排队 " + (n.queued || 0) + " 封 · " + (r.paused ? "已暂停" : "运行中") + (extra || ""), "ok");
     } else {
-      senderSay(senderErrText(r) + (extra || ""), r.error === "no_read" ? "" : "warn");
+      senderSay(senderErrText(r) + (extra || ""), r.error === "link" ? "" : "warn");
     }
     render();
   }
@@ -1590,6 +1820,7 @@
     state.sender = { url: url, token: token };
     state.senderTransport = "fetch";
     state.senderHealth = null;
+    state.linkBatch = null;
     cspSeen = {};
     var kept = storeSender(state.sender);
     renderSenderBox();
@@ -1603,15 +1834,15 @@
     btn.disabled = true;
     senderSay("正在试发…");
     var r = await senderCall("test", {});
-    if (r.viaForm) senderSay("已在新标签页提交试发，结果显示在那个标签页里，再去收件箱看看。");
-    else if (r.ok) senderSay("已发出一封测试邮件到 " + (state.senderFrom || "发件邮箱") + "，去收件箱看看。", "ok");
-    else senderSay(senderErrText(r), "warn");
+    if (r.ok) senderSay("已发出一封测试邮件到 " + (state.senderFrom || "发件邮箱") + "，去收件箱看看。", "ok");
+    else senderSay(senderErrText(r), r.error === "link" ? "" : "warn");
     renderSenderBox();
   }
   function dropSender() {
     state.sender = null;
     state.senderTransport = "fetch";
     state.senderHealth = null;
+    state.linkBatch = null;
     cspSeen = {};
     storeSender(null);
     document.getElementById("s-url").value = "";
@@ -1631,6 +1862,7 @@
 
   function showTab(tab) {
     if (!TRACKS[tab]) return;
+    if (tab !== state.tab) state.linkBatch = null;
     state.tab = tab;
     Object.keys(TRACKS).forEach(function (t) {
       document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === tab);
@@ -1658,8 +1890,8 @@
     db.collection("prospects").onSnapshot(function (snap) {
       state.docs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
       render();
-      // First sender sync once the list is server-definitive (a cached first page may be partial).
-      if (!state.firstSync && !(snap.metadata && snap.metadata.fromCache)) { state.firstSync = true; setTimeout(syncStatus, 0); }
+      // First sender contact once the list is server-definitive (a cached first page may be partial).
+      if (!state.firstSync && !(snap.metadata && snap.metadata.fromCache)) { state.firstSync = true; setTimeout(firstContact, 0); }
     }, function (e) {
       showNotice("草稿列表断开了（" + (e && e.code || "错误") + "）。刷新页面重新连接。");
     });

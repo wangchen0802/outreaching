@@ -6,6 +6,7 @@
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
+const zlib = require("zlib");
 const assert = require("assert");
 const { makeFakes, parseRaw, decodeWords, headerOf } = require("./fakes");
 
@@ -84,8 +85,35 @@ function makeEnv(opts = {}) {
   env.get = (params) => {
     const parameters = {};
     Object.keys(params).forEach((k) => { parameters[k] = [params[k]]; });
-    return context.doGet({ parameter: params, parameters, queryString: new URLSearchParams(params).toString(), contextPath: "", contentLength: -1 });
+    const out = context.doGet({ parameter: params, parameters, queryString: new URLSearchParams(params).toString(), contextPath: "", contentLength: -1 });
+    lockFree();
+    return out;
   };
+  // Opens a URL the way Apps Script hands it to doGet: e.parameter holds the first value of each
+  // parameter, percent-decoded ("+" reads as a space).
+  env.open = (url) => {
+    const u = new URL(url);
+    assert.strictEqual(u.origin + u.pathname, s.serviceUrl, "a sender link goes to the deployment URL");
+    const parameter = {};
+    const parameters = {};
+    u.searchParams.forEach((v, k) => {
+      if (!(k in parameter)) parameter[k] = v;
+      (parameters[k] = parameters[k] || []).push(v);
+    });
+    const out = context.doGet({ parameter, parameters, queryString: u.search.slice(1), contextPath: "", contentLength: -1 });
+    lockFree();
+    return out;
+  };
+  env.page = (url) => {
+    const out = env.open(url);
+    assert.strictEqual(typeof out.getTitle, "function", "a sender link answers with an HtmlService page");
+    assert.strictEqual(out.getTitle(), "SimReal 发信助手");
+    return out.getContent();
+  };
+  // A sender link the way the approval page builds it: every value percent-encoded, so "=" travels as %3D.
+  env.link = (action, params = {}) => s.serviceUrl + "?" + Object.entries(Object.assign({ action, token: env.token() }, params))
+    .map(([k, v]) => k + "=" + encodeURIComponent(v)).join("&");
+  env.dashboardHref = () => s.serviceUrl + "?action=dashboard&amp;token=" + env.token();
   env.tick = () => {
     const before = s.mail.sent.length;
     context.tick();
@@ -156,6 +184,37 @@ function at(base, plusMs) {
 function crlf(s) {
   return s.replace(/\r\n|\r|\n/g, "\r\n");
 }
+
+// base64url of some bytes; `pad: false` drops the "=" padding.
+function b64url(buf, pad = true) {
+  const s = buf.toString("base64").replace(/\+/g, "-").replace(/\//g, "_");
+  return pad ? s : s.replace(/=+$/, "");
+}
+
+// The two ways a link carries cards: `z` = gzip(UTF-8 JSON), `j` = the JSON as it is.
+function zOf(messages) {
+  return b64url(zlib.gzipSync(Buffer.from(JSON.stringify({ messages }), "utf8")));
+}
+function jOf(messages) {
+  return b64url(Buffer.from(JSON.stringify({ messages }), "utf8"));
+}
+
+// The text of each table row on a page, entities decoded.
+function cells(html) {
+  const rows = [];
+  html.replace(/<tr>(.*?)<\/tr>/g, (m, inner) => {
+    const tds = [];
+    inner.replace(/<td[^>]*>(.*?)<\/td>/g, (m2, c) => { tds.push(unhtml(c)); });
+    if (tds.length) rows.push(tds);
+  });
+  return rows;
+}
+
+function unhtml(s) {
+  return s.replace(/<[^>]*>/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, "&");
+}
+
+const RULES = "会在对方当地工作日 8–18 点按分组顺序发出，每封间隔至少 4 分钟；对方回复后自动停止跟进。";
 
 function results(r) {
   assert.strictEqual(r.ok, true, JSON.stringify(r));
@@ -1207,6 +1266,315 @@ test("a delay notice is not a bounce", () => {
   env.tick();
   assert.strictEqual(env.row("a")["状态"], "bounced");
   assert.deepStrictEqual(env.table("屏蔽").map((x) => x["邮箱"]), ["a@a-co.com"]);
+});
+
+// ---- Link transport (SPEC "Link transport (claude.ai)") ----
+
+test("fakes: base64DecodeWebSafe, newBlob, ungzip and getDataAsString work like Apps Script", () => {
+  const env = makeEnv({ setup: false });
+  const U = env.context.Utilities;
+  const text = "张总 ✓ [x]"; // 14 UTF-8 bytes: one "=" of padding
+  const padded = b64url(Buffer.from(text, "utf8"));
+  assert.ok(padded.endsWith("=") && !padded.endsWith("=="));
+  const bytes = U.base64DecodeWebSafe(padded);
+  assert.ok(Array.isArray(bytes), "Byte[] is a plain array");
+  assert.ok(bytes.every((b) => Number.isInteger(b) && b >= -128 && b <= 127) && bytes.some((b) => b < 0), "bytes are signed");
+  assert.strictEqual(U.newBlob(bytes).getDataAsString("UTF-8"), text);
+  assert.strictEqual(U.newBlob(bytes).getDataAsString(), text, "UTF-8 when no charset is given");
+  assert.strictEqual(U.newBlob([-1, 104, 105]).getDataAsString("UTF-8"), "�hi", "a malformed byte reads as U+FFFD");
+  assert.deepStrictEqual(U.newBlob(bytes).getBytes(), bytes);
+  // The strict reading of the decoder: padding required, URL-safe alphabet only.
+  assert.throws(() => U.base64DecodeWebSafe(padded.slice(0, -1)), /Could not decode string/);
+  assert.throws(() => U.base64DecodeWebSafe("ab+/"), /Could not decode string/);
+  assert.throws(() => U.base64DecodeWebSafe("ab=c"), /Could not decode string/);
+  assert.deepStrictEqual(U.base64DecodeWebSafe("-_8="), [-5, -1]);
+
+  const gz = U.base64DecodeWebSafe(b64url(zlib.gzipSync(Buffer.from(text, "utf8"))));
+  const out = U.ungzip(U.newBlob(gz, "application/x-gzip"));
+  assert.strictEqual(typeof out.getBytes, "function", "ungzip returns a Blob");
+  assert.strictEqual(out.getDataAsString("UTF-8"), text);
+  assert.throws(() => U.ungzip(U.newBlob(bytes, "application/x-gzip")), /decompress/, "not gzip");
+  assert.throws(() => U.ungzip(U.newBlob(gz.slice(0, -6), "application/x-gzip")), /decompress/, "cut short");
+  assert.throws(() => U.ungzip(U.newBlob(gz)), /application\/x-gzip/, "a blob not typed as gzip");
+  assert.throws(() => U.ungzip(gz), /Blob/);
+});
+
+test("enqueue link: z (gzip) and j (plain), padding encoded, bare or stripped", () => {
+  const env = makeEnv();
+  // A card whose encoding ends in `want` "=" characters: letters that do not repeat change its length.
+  function card(kind, want, slug) {
+    let seed = 7;
+    let noise = "";
+    for (let i = 0; i < 100; i++) {
+      seed = (seed * 1103515245 + 12345) % 2147483648;
+      noise += String.fromCharCode(97 + (seed >> 16) % 26);
+      const list = [msg(slug, { company: "深度求索 " + slug, contact: "张三", body: "张总您好：\n\n" + noise + "\n\nCharles" })];
+      const value = (kind === "z" ? zOf : jOf)(list);
+      if (value.length - value.replace(/=+$/, "").length === want) return { list, value };
+    }
+    throw new Error("no card with " + want + " padding characters");
+  }
+  const forms = {
+    encoded: (v) => encodeURIComponent(v), // what the page sends: "=" as %3D
+    bare: (v) => v, // "=" left as it is in the query
+    stripped: (v) => v.replace(/=+$/, "") // the padding lost on the way
+  };
+  const slugs = [];
+  for (const kind of ["z", "j"]) {
+    for (const want of [0, 1, 2]) {
+      for (const form of Object.keys(forms)) {
+        const slug = kind + want + form;
+        const { list, value } = card(kind, want, slug);
+        const url = env.serviceUrl + "?action=enqueue&token=" + env.token() + "&" + kind + "=" + forms[form](value);
+        const html = env.page(url);
+        assert.match(html, /<p>已加入发送队列 1 封。<\/p>/, slug);
+        assert.deepStrictEqual(cells(html), [["深度求索 " + slug, "张三", "已加入发送队列"]], slug);
+        assert.ok(html.includes(RULES), slug);
+        assert.ok(html.includes('<a href="' + env.dashboardHref() + '" target="_top">打开发信助手</a>'), slug);
+        assert.strictEqual(env.content(slug).body, list[0].body, slug + ": the text arrives exactly");
+        slugs.push(slug);
+      }
+    }
+  }
+  assert.deepStrictEqual(env.rows().map((r) => r.slug), slugs);
+  assert.ok(env.rows().every((r) => r["状态"] === "queued" && r["联系人"] === "张三"));
+  // The same cards over POST give the same results: the link runs the same enqueue.
+  assert.deepStrictEqual(results(env.enqueue([card("z", 1, "z1encoded").list[0]])), ["updated"]);
+});
+
+test("enqueue link: what does not decode shows an error page and changes nothing", () => {
+  const env = makeEnv();
+  const good = zOf([msg("a")]);
+  const bare = good.replace(/=+$/, "");
+  const bad = {
+    "not base64": { z: "not base64!" },
+    "standard alphabet": { z: good.replace(/[A-Za-z]/, "+").replace(/[A-Za-z]/, "/") },
+    "cut short": { z: good.slice(0, Math.floor(good.length / 2)) },
+    "a length no base64 has": { z: bare + "A".repeat((5 - bare.length % 4) % 4) }, // 4k + 1 characters
+    "plain JSON sent as z": { z: jOf([msg("a")]) },
+    "gzip sent as j": { j: good },
+    "not JSON": { j: b64url(Buffer.from("{messages: [nope]}")) },
+    "a JSON array": { j: b64url(Buffer.from(JSON.stringify([msg("a")]))) },
+    "JSON null": { j: b64url(Buffer.from("null")) },
+    "empty z": { z: "" },
+    "neither z nor j": {}
+  };
+  for (const name of Object.keys(bad)) {
+    const html = env.page(env.link("enqueue", bad[name]));
+    assert.match(html, /<p>没有完成：链接里的邮件内容读不出来，可能链接不完整。请回到审批页重新点一次链接。<\/p>/, name);
+    assert.ok(html.includes(env.dashboardHref()), name);
+    assert.doesNotMatch(html, /<table/, name);
+  }
+  // It decodes, but the enqueue checks refuse it, as over POST.
+  assert.match(env.page(env.link("enqueue", { j: b64url(Buffer.from('{"messages":"a"}')) })), /没有完成：messages 必须是数组。/);
+  assert.match(env.page(env.link("enqueue", { z: zOf(Array.from({ length: 61 }, (_, i) => msg("m" + i))) })), /没有完成：一次最多交 60 封，这次有 61 封。/);
+  assert.match(env.page(env.link("enqueue", { z: zOf([msg("")]) })), /没有完成：每封邮件都要有 slug。/);
+  assert.deepStrictEqual([env.rows().length, env.logs().length, env.mail.sent.length], [0, 0, 0]);
+  assert.strictEqual(env.page(env.link("enqueue", { z: good, j: "broken" })).includes("已加入发送队列 1 封"), true, "z is read first");
+});
+
+test("links with a wrong or missing token answer with a page and change nothing", () => {
+  const env = makeEnv();
+  env.enqueue([msg("a")]);
+  const z = zOf([msg("b")]);
+  for (const token of [undefined, "", "wrong", env.token() + "x", env.token().slice(1)]) {
+    for (const [action, params] of [["enqueue", { z }], ["enqueue", { j: "%%%" }], ["cancel", { slug: "a" }], ["ping", {}], ["test", {}]]) {
+      const q = Object.assign({ action }, params);
+      if (token !== undefined) q.token = token;
+      const out = env.get(q);
+      assert.strictEqual(typeof out.getTitle, "function", action + " answers with a page");
+      const html = out.getContent();
+      assert.match(html, /<p>没有完成：口令不对或缺失。请在审批页「发件设置 → 自动发送」里重新粘贴口令。<\/p>/, action);
+      assert.doesNotMatch(html, /action=dashboard|打开发信助手/, action + ": no link with a token");
+    }
+  }
+  assert.deepStrictEqual(env.rows().map((r) => [r.slug, r["状态"]]), [["a", "queued"]]);
+  assert.deepStrictEqual(env.logs().map((e) => e["事件"]), ["queued"]);
+  assert.strictEqual(env.mail.sendAttempts.length, 0);
+  assert.strictEqual(JSON.parse(env.get({ action: "status", token: "wrong" }).getContent()).error, "unauthorized", "status stays JSON");
+  assert.strictEqual(JSON.parse(env.get({ action: "pause", token: env.token() }).getContent()).error, "bad_request", "pause is not a link");
+
+  const fresh = makeEnv({ setup: false });
+  assert.match(fresh.page(fresh.serviceUrl + "?action=ping&token=x"), /没有完成：发信助手还没有初始化。/);
+});
+
+test("enqueue link opened again: updated while queued, duplicate once sent", () => {
+  const env = makeEnv();
+  const cards = [msg("a", { company: "Conviction", contact: "Sarah Guo" }), msg("b", { company: "Beta", contact: "Bo", order: 2 })];
+  const url = env.link("enqueue", { z: zOf(cards) });
+  let html = env.page(url);
+  assert.match(html, /<p>已加入发送队列 2 封。<\/p>/);
+  assert.deepStrictEqual(cells(html), [["Conviction", "Sarah Guo", "已加入发送队列"], ["Beta", "Bo", "已加入发送队列"]]);
+  html = env.page(url);
+  assert.match(html, /<p>已加入发送队列 2 封。<\/p>/);
+  assert.deepStrictEqual(cells(html), [["Conviction", "Sarah Guo", "已更新（还没发出，内容换成了这一版）"], ["Beta", "Bo", "已更新（还没发出，内容换成了这一版）"]]);
+  assert.deepStrictEqual(env.logs().map((e) => e["事件"]), ["queued", "queued", "updated", "updated"]);
+  assert.strictEqual(env.rows().length, 2);
+
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["a@a-co.com"]);
+  html = env.page(url);
+  assert.match(html, /<p>已加入发送队列 1 封，跳过 1 封。<\/p>/);
+  assert.deepStrictEqual(cells(html), [["Conviction", "Sarah Guo", "跳过：已发出 1/3 封（发送中），不会重复发"], ["Beta", "Bo", "已更新（还没发出，内容换成了这一版）"]]);
+  assert.deepStrictEqual([env.row("a")["已发封数"], env.row("a")["修订"]], [1, 1]);
+  env.advance(5);
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["b@b-co.com"]);
+  html = env.page(url);
+  assert.match(html, /<p>已加入发送队列 0 封，跳过 2 封。<\/p>/);
+  assert.deepStrictEqual(cells(html).map((c) => c[2]), ["跳过：已发出 1/3 封（发送中），不会重复发", "跳过：已发出 1/3 封（发送中），不会重复发"]);
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 0, "nothing goes out twice");
+  assert.strictEqual(env.mail.sent.length, 2);
+
+  // Stopped before it was sent: the link does not bring it back.
+  const c = msg("c", { company: "Gamma" });
+  env.page(env.link("enqueue", { z: zOf([c]) }));
+  env.page(env.link("cancel", { slug: "c" }));
+  assert.deepStrictEqual(cells(env.page(env.link("enqueue", { z: zOf([c]) }))), [["Gamma", "Sam Lee", "跳过：这一封已是「已取消」，没有改动"]]);
+  assert.strictEqual(env.row("c")["状态"], "cancelled");
+});
+
+test("enqueue link: rejected cards, a paused sender, and a busy lock", () => {
+  const env = makeEnv();
+  env.prop("WINDOW_START", 9);
+  env.prop("MIN_GAP_MINUTES", 6);
+  let html = env.page(env.link("enqueue", {
+    z: zOf([msg("ok"), msg("ph", { company: "Delta", contact: "", body: "Deck: [Deck link]" }), msg("hold", { company: "", wave: 9 })])
+  }));
+  assert.match(html, /<p>已加入发送队列 1 封，跳过 2 封。<\/p>/);
+  assert.deepStrictEqual(cells(html), [["Co ok", "Sam Lee", "已加入发送队列"], ["Delta", "", "跳过：还有占位符 [Deck link]"], ["hold", "Sam Lee", "跳过：暂缓组，不发送"]]);
+  assert.ok(html.includes("会在对方当地工作日 9–18 点按分组顺序发出，每封间隔至少 6 分钟；对方回复后自动停止跟进。"), "the rules as set in Script Properties");
+  assert.doesNotMatch(html, /暂停/);
+
+  env.call("pause");
+  html = env.page(env.link("enqueue", { z: zOf([msg("p")]) }));
+  assert.match(html, /发信助手现在是暂停状态，在发信助手页面点「继续发送」后才会发出。/);
+
+  env.lock.holder = env.lock.other;
+  html = env.page(env.link("enqueue", { z: zOf([msg("busy")]) }));
+  assert.match(html, /<p>没有完成：发信助手正在处理另一个任务，请过一会儿再试。<\/p>/);
+  assert.ok(html.includes(env.dashboardHref()));
+  assert.match(env.page(env.link("cancel", { slug: "ok" })), /没有完成：发信助手正在处理另一个任务/);
+  env.lock.holder = null;
+  assert.strictEqual(env.row("busy"), undefined);
+  assert.strictEqual(env.row("ok")["状态"], "queued");
+});
+
+test("cancel, ping and test links", () => {
+  const env = makeEnv();
+  env.enqueue([msg("a", { company: "Conviction", contact: "Sarah Guo" }), msg("b", { order: 2, followups: [] })]);
+  let html = env.page(env.link("cancel", { slug: "a" }));
+  assert.match(html, /<p>已停止 Conviction（Sarah Guo）的自动发送。可以关掉这个标签页。<\/p>/);
+  assert.ok(html.includes('<a href="' + env.dashboardHref() + '" target="_top">打开发信助手</a>'));
+  assert.deepStrictEqual([env.row("a")["状态"], env.logs("cancelled").length], ["cancelled", 1]);
+  assert.match(env.page(env.link("cancel", { slug: "a" })), /已停止 Conviction（Sarah Guo）的自动发送。/, "opening it again is harmless");
+  assert.strictEqual(env.logs("cancelled").length, 1);
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["b@b-co.com"]);
+  assert.match(env.page(env.link("cancel", { slug: "b" })), /<p>Co b（Sam Lee）现在是「序列结束」，没有改动。可以关掉这个标签页。<\/p>/);
+  assert.match(env.page(env.link("cancel", { slug: "zzz" })), /<p>没有完成：队列里没有 zzz。<\/p>/);
+  assert.match(env.page(env.link("cancel", { slug: "<i>&" })), /<p>没有完成：队列里没有 &lt;i&gt;&amp;。<\/p>/);
+  assert.match(env.page(env.link("cancel")), /<p>没有完成：缺少 slug。<\/p>/);
+
+  const logs = env.logs().length;
+  html = env.page(env.link("ping"));
+  assert.match(html, /<p>已连接 business@simreal\.co · 今天已发 1\/30 · 排队 0 封 · 运行中<\/p>/);
+  assert.ok(html.includes("<p>排队中 0 · 发送中 0 · 序列结束 1 · 已回复 0 · 退信 0 · 已取消 1 · 发送失败 0</p>"));
+  assert.ok(html.includes('<p class="muted">版本 ' + env.context.VERSION + "</p>"));
+  assert.ok(html.includes(env.dashboardHref()));
+  assert.strictEqual(env.logs().length, logs, "ping changes nothing");
+  env.call("pause");
+  assert.match(env.page(env.link("ping")), /今天已发 1\/30 · 排队 0 封 · 已暂停/);
+
+  html = env.page(env.link("test"));
+  assert.match(html, /<p>测试邮件已发出，请到收件箱查看。可以关掉这个标签页。<\/p>/);
+  assert.ok(html.includes(env.dashboardHref()));
+  const m = env.mail.sent[env.mail.sent.length - 1];
+  assert.strictEqual(headerOf(m.parsed.headers, "To"), ME);
+  assert.strictEqual(decodeWords(headerOf(m.parsed.headers, "Subject")), "SimReal 发信助手测试");
+  assert.strictEqual(env.logs("test").length, 1);
+  assert.strictEqual(env.call("ping").sentToday, 1, "the test email does not count");
+  env.mail.failNext.push("Backend Error");
+  assert.match(env.page(env.link("test")), /<p>没有完成：测试邮件没有发出：.*Backend Error<\/p>/);
+});
+
+test("link pages escape everything", () => {
+  const env = makeEnv();
+  const evil = msg("x1", { company: "<img src=x onerror=alert(1)>", contact: "\"Sam\" & <b>Lee</b>'" });
+  const html = env.page(env.link("enqueue", {
+    z: zOf([evil, msg("<s>&", { company: "", contact: "", to: "s@s-co.com", body: "Hi [<script>alert(1)</script>]" })])
+  }));
+  assert.ok(!/<(img|script|b|s)[ >]/.test(html), "no markup from the cards");
+  assert.ok(html.includes("&lt;img src=x onerror=alert(1)&gt;"));
+  assert.ok(html.includes("&quot;Sam&quot; &amp; &lt;b&gt;Lee&lt;/b&gt;&#39;"));
+  assert.deepStrictEqual(cells(html), [
+    ["<img src=x onerror=alert(1)>", "\"Sam\" & <b>Lee</b>'", "已加入发送队列"],
+    ["<s>&", "", "跳过：还有占位符 [<script>alert(1)</script>]"]
+  ]);
+  const cancel = env.page(env.link("cancel", { slug: "x1" }));
+  assert.ok(cancel.includes("已停止 &lt;img src=x onerror=alert(1)&gt;（&quot;Sam&quot; &amp; &lt;b&gt;Lee&lt;/b&gt;&#39;）的自动发送。"));
+  assert.ok(!/<img/.test(cancel));
+});
+
+// ---- Weekday ----
+
+test("weekday from the local date at midnight in several time zones, agreeing with SimpleDateFormat u", () => {
+  const env = makeEnv({ setup: false });
+  const U = env.context.Utilities;
+  const cases = [
+    ["2026-10-09T23:59:59Z", "UTC", 5], ["2026-10-10T00:00:00Z", "UTC", 6],
+    ["2026-10-10T06:59:59Z", "America/Los_Angeles", 5], ["2026-10-10T07:00:00Z", "America/Los_Angeles", 6],
+    ["2026-10-11T14:59:59Z", "Asia/Tokyo", 7], ["2026-10-11T15:00:00Z", "Asia/Tokyo", 1],
+    ["2026-10-11T15:59:59Z", "Asia/Shanghai", 7], ["2026-10-11T16:00:00Z", "Asia/Shanghai", 1],
+    ["2026-10-11T18:29:59Z", "Asia/Kolkata", 7], ["2026-10-11T18:30:00Z", "Asia/Kolkata", 1],
+    // Already Saturday at UTC+14 while it is Friday in UTC; still Sunday at UTC-11 while Monday in Shanghai.
+    ["2026-10-09T09:59:59Z", "Pacific/Kiritimati", 5], ["2026-10-09T10:00:00Z", "Pacific/Kiritimati", 6],
+    ["2026-10-12T10:59:59Z", "Pacific/Pago_Pago", 7], ["2026-10-12T11:00:00Z", "Pacific/Pago_Pago", 1],
+    // The weekends summer time ends: midnight moves by an hour in UTC.
+    ["2026-11-01T03:59:59Z", "America/New_York", 6], ["2026-11-01T04:00:00Z", "America/New_York", 7],
+    ["2026-11-02T04:59:59Z", "America/New_York", 7], ["2026-11-02T05:00:00Z", "America/New_York", 1],
+    ["2026-10-24T22:59:59Z", "Europe/London", 6], ["2026-10-24T23:00:00Z", "Europe/London", 7],
+    ["2026-10-25T23:59:59Z", "Europe/London", 7], ["2026-10-26T00:00:00Z", "Europe/London", 1],
+    // New year (a week-year pattern would say 2027 for the Sunday before), and a leap day.
+    ["2026-12-27T02:00:00Z", "Asia/Shanghai", 7], ["2026-12-31T15:59:59Z", "Asia/Shanghai", 4],
+    ["2026-12-31T16:00:00Z", "Asia/Shanghai", 5], ["2028-02-29T02:00:00Z", "Asia/Shanghai", 2]
+  ];
+  for (const [iso, tz, want] of cases) {
+    const d = new Date(iso);
+    assert.strictEqual(env.context.weekday_(d, tz), want, iso + " " + tz);
+    assert.strictEqual(Number(U.formatDate(d, tz, "u")), want, iso + " " + tz + ": u means the ISO weekday here");
+  }
+  // Every half hour over two weeks with both summer-time changes, in zones with odd offsets.
+  const zones = ["Asia/Shanghai", "America/Los_Angeles", "America/New_York", "America/St_Johns", "Europe/London", "Asia/Kathmandu",
+    "Australia/Lord_Howe", "Pacific/Chatham", "Pacific/Kiritimati", "Pacific/Pago_Pago"];
+  for (let t = Date.parse("2026-10-22T00:00:00Z"); t < Date.parse("2026-11-05T00:00:00Z"); t += 30 * MIN) {
+    const d = new Date(t);
+    for (const tz of zones) assert.strictEqual(env.context.weekday_(d, tz), Number(U.formatDate(d, tz, "u")), d.toISOString() + " " + tz);
+  }
+});
+
+test("the send window opens and closes at local midnight, whatever the letter u means", () => {
+  const cases = [
+    ["2026-10-09T09:59:00Z", "Pacific/Kiritimati", 1], ["2026-10-09T10:00:00Z", "Pacific/Kiritimati", 0],
+    ["2026-10-11T18:29:00Z", "Asia/Kolkata", 0], ["2026-10-11T18:30:00Z", "Asia/Kolkata", 1],
+    ["2026-10-12T10:59:00Z", "Pacific/Pago_Pago", 0], ["2026-10-12T11:00:00Z", "Pacific/Pago_Pago", 1],
+    ["2026-10-31T03:59:00Z", "America/New_York", 1], ["2026-10-31T04:00:00Z", "America/New_York", 0],
+    ["2026-11-02T04:59:00Z", "America/New_York", 0], ["2026-11-02T05:00:00Z", "America/New_York", 1],
+    ["2026-10-25T23:59:00Z", "Europe/London", 0], ["2026-10-26T00:00:00Z", "Europe/London", 1]
+  ];
+  for (const icu of [false, true]) {
+    for (const [now, tz, sends] of cases) {
+      const env = makeEnv({ at: now });
+      if (icu) {
+        // In ICU's SimpleDateFormat "u" is the extended year: a window built on it would never open.
+        const real = env.context.Utilities.formatDate;
+        env.context.Utilities.formatDate = (date, zone, format) => real(date, zone, format.replace(/u+/g, "yyyy"));
+        assert.strictEqual(env.context.Utilities.formatDate(new Date(now), tz, "u").length, 4);
+      }
+      env.prop("WINDOW_START", 0);
+      env.prop("WINDOW_END", 24);
+      env.enqueue([msg("a", { tz })]);
+      assert.strictEqual(env.tick().length, sends, now + " " + tz + (icu ? " (ICU u)" : ""));
+    }
+  }
 });
 
 // ---------------------------------------------------------------------------------------------------

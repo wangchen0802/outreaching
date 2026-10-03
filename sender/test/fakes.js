@@ -7,6 +7,7 @@
 
 const crypto = require("crypto");
 const util = require("util");
+const zlib = require("zlib");
 
 const DAY = 86400000;
 
@@ -356,17 +357,66 @@ function makeFakes(opts) {
     return out;
   }
 
+  // Apps Script hands bytes to the script as Byte[]: signed, -128..127.
+  function signed(buf) {
+    return Array.from(buf, (b) => (b > 127 ? b - 256 : b));
+  }
+
+  // java.lang.String(bytes, charset): a malformed sequence becomes U+FFFD, it does not throw.
+  function decodeText(bytes, charset) {
+    const name = charset === undefined ? "UTF-8" : charset;
+    if (typeof name !== "string") throw new Error("fake Utilities: getDataAsString(charset) needs a charset name");
+    const key = name.toUpperCase().replace(/[-_]/g, "");
+    if (key === "UTF8") return bytes.toString("utf8");
+    if (key === "ISO88591") return bytes.toString("latin1");
+    if (key === "USASCII") return Array.from(bytes, (b) => (b > 127 ? "�" : String.fromCharCode(b))).join("");
+    throw new Error("Unsupported charset: " + name);
+  }
+
+  class Blob {
+    constructor(bytes, contentType, name) {
+      this.bytes = bytes;
+      this.contentType = contentType == null ? null : String(contentType);
+      this.name = name == null ? null : String(name);
+    }
+    getBytes() { return signed(this.bytes); }
+    // Without a charset the real Blob reads UTF-8.
+    getDataAsString(charset) { return decodeText(this.bytes, charset); }
+    getContentType() { return this.contentType; }
+    setContentType(contentType) { this.contentType = contentType == null ? null : String(contentType); return this; }
+    getName() { return this.name; }
+    setName(name) { this.name = name == null ? null : String(name); return this; }
+  }
+
   const Utilities = {
     Charset,
     getUuid: () => crypto.randomUUID(),
     base64Encode: (data, charset) => bytesOf(data, charset).toString("base64"),
     base64EncodeWebSafe: (data, charset) => bytesOf(data, charset).toString("base64").replace(/\+/g, "-").replace(/\//g, "_"),
-    newBlob(data) {
-      const bytes = bytesOf(data, typeof data === "string" ? Charset.UTF_8 : undefined);
-      return {
-        getBytes: () => Array.from(bytes, (b) => (b > 127 ? b - 256 : b)),
-        getDataAsString: () => bytes.toString("utf8")
-      };
+    // Returns Byte[]. Strict reading: the URL-safe alphabet only ("+" and "/" are the other alphabet), "="
+    // only as trailing padding, whole 4-character groups. Whether the real decoder accepts a missing "="
+    // is not documented, so here it does not, and Code.gs must restore the padding itself.
+    base64DecodeWebSafe(encoded, charset) {
+      if (typeof encoded !== "string") throw new Error("fake Utilities: base64DecodeWebSafe(encoded) needs a string");
+      if (charset !== undefined && !Object.values(Charset).includes(charset)) throw new Error("fake Utilities: unknown charset " + charset);
+      if (encoded.length % 4 !== 0 || !/^[A-Za-z0-9_-]*={0,2}$/.test(encoded)) throw new Error("Could not decode string.");
+      return signed(Buffer.from(encoded.replace(/-/g, "+").replace(/_/g, "/"), "base64"));
+    },
+    newBlob(data, contentType, name) {
+      return new Blob(bytesOf(data, typeof data === "string" ? Charset.UTF_8 : undefined), contentType, name);
+    },
+    // Takes a Blob of gzip data and returns a Blob of what it holds. The real ungzip has been reported to
+    // refuse a blob that is not typed as gzip, so the fake requires application/x-gzip, the type Code.gs sets.
+    ungzip(blob) {
+      if (!(blob instanceof Blob)) throw new Error("fake Utilities: ungzip(blob) needs a Blob");
+      if (blob.contentType !== "application/x-gzip") throw new Error("fake Utilities: ungzip needs a blob typed application/x-gzip, got " + blob.contentType);
+      let out;
+      try {
+        out = zlib.gunzipSync(blob.bytes);
+      } catch (err) {
+        throw new Error("Could not decompress gzip data: " + err.message);
+      }
+      return new Blob(out, null, blob.name ? blob.name.replace(/\.gz$/i, "") : null);
     },
     formatDate
   };

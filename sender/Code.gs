@@ -1,8 +1,9 @@
 /**
  * SimReal 发信助手 — the Apps Script backend. The contract is sender/SPEC.md.
  *
- * The approval page hands approved cards to this web app (doPost: enqueue, cancel, pause, status ...).
- * A time-driven tick() sends them from the account that deployed it (business@simreal.co) inside each
+ * The approval page hands approved cards to this web app (doPost: enqueue, cancel, pause, status ...), or,
+ * where it can neither fetch nor post (claude.ai), as links the user clicks (doGet: enqueue, cancel, ping,
+ * test), each answered with a page in a new tab. A time-driven tick() sends them from the account that deployed it (business@simreal.co) inside each
  * recipient's working hours, threads the follow-ups, and stops a sequence on a reply, a bounce or a cancel.
  * Queue, log and suppression list live in the Google Sheet "SimReal 发信助手".
  *
@@ -12,7 +13,7 @@
  * approval page. Tests: node sender/test/run.js
  */
 
-var VERSION = "1.0.0";
+var VERSION = "1.1.0";
 var BOOK_NAME = "SimReal 发信助手";
 var TAB_QUEUE = "队列";
 var TAB_LOG = "记录";
@@ -101,7 +102,8 @@ function doPost(e) {
   return form ? resultPage_(req && req.action, res) : json_(res);
 }
 
-function post_(req) {
+// `view(ctx, req, res)`, when given, reshapes the result inside the same run (sender links, linkView_).
+function post_(req, view) {
   var denied = authorize_(req.token);
   if (denied) return denied;
   var lock = LockService.getScriptLock();
@@ -111,7 +113,7 @@ function post_(req) {
     return fail_("busy", MSG.busy);
   }
   try {
-    return run_(req);
+    return run_(req, view);
   } catch (err) {
     return failFrom_(err);
   } finally {
@@ -121,12 +123,13 @@ function post_(req) {
 
 var ACTIONS = { ping: ping_, enqueue: enqueue_, cancel: cancel_, pause: pause_, resume: resume_, status: status_, test: test_ };
 
-function run_(req) {
+function run_(req, view) {
   var action = text_(req.action);
   if (!Object.prototype.hasOwnProperty.call(ACTIONS, action)) throw problem_("bad_request", "不认识的操作：" + action);
   var ctx = open_();
   try {
-    return ACTIONS[action](ctx, req);
+    var res = ACTIONS[action](ctx, req);
+    return view ? view(ctx, req, res) : res;
   } finally {
     save_(ctx);
   }
@@ -144,6 +147,7 @@ function doGet(e) {
       return json_(failFrom_(err));
     }
   }
+  if (LINK_ACTIONS.indexOf(action) !== -1) return link_(action, p, denied);
   if (action !== "dashboard") return json_(fail_("bad_request", "不认识的操作：" + action));
   if (denied) return page_("<h1>" + esc_(BOOK_NAME) + "</h1><p>" + esc_(denied.message) + "</p>");
   try {
@@ -186,6 +190,73 @@ function failFrom_(err) {
 
 function json_(obj) {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
+}
+
+// ---- Sender links: GET enqueue, cancel, ping, test ----
+// In claude.ai the approval page can neither fetch nor post to this web app, so there each action is a
+// link the user clicks. It runs exactly as the POST does (same token check, lock, validation and results)
+// and answers with a page in the new tab. Opening a link again is safe: enqueue gives `updated` while the
+// row is still queued and `duplicate` once it has been sent.
+
+var LINK_ACTIONS = ["enqueue", "cancel", "ping", "test"];
+var LINK_UNREADABLE = "链接里的邮件内容读不出来，可能链接不完整。请回到审批页重新点一次链接。";
+
+function link_(action, p, denied) {
+  if (denied) return resultPage_(action, denied);
+  var req = { token: p.token, action: action };
+  if (action === "cancel") req.slug = p.slug;
+  if (action === "enqueue") {
+    var data = linkData_(p);
+    if (!data) return resultPage_(action, fail_("bad_request", LINK_UNREADABLE), dashboardLink_(p.token));
+    req.messages = data.messages;
+  }
+  var res = post_(req, linkView_);
+  return resultPage_(action, res, linkDetails_(action, res) + dashboardLink_(p.token));
+}
+
+// The {messages} a link carries: `z` is base64url of gzip(UTF-8 JSON), `j` base64url of the JSON itself.
+// Null when it does not decode; nothing has changed then.
+function linkData_(p) {
+  try {
+    var json;
+    if (p.z) json = Utilities.ungzip(Utilities.newBlob(base64Url_(p.z), "application/x-gzip")).getDataAsString("UTF-8");
+    else if (p.j) json = Utilities.newBlob(base64Url_(p.j)).getDataAsString("UTF-8");
+    else return null;
+    var data = JSON.parse(json);
+    return data && typeof data === "object" && !Array.isArray(data) ? data : null;
+  } catch (err) {
+    console.warn("发信链接里的内容解不开：" + errText_(err));
+    return null;
+  }
+}
+
+// Bytes of a base64url value with or without its "=" padding: the page sends it, but a link can lose it
+// on the way, and the decoder is not documented to do without it.
+function base64Url_(s) {
+  var t = text_(s).trim().replace(/=+$/, "");
+  while (t.length % 4) t += "=";
+  return Utilities.base64DecodeWebSafe(t);
+}
+
+// What a link's page shows besides the result, read in the same run: the sending rules, each card's
+// company and contact, and where a card that was not taken stands now.
+function linkView_(ctx, req, res) {
+  var out = Object.assign({ conf: ctx.conf }, res);
+  if (req.action === "enqueue") {
+    out.cards = res.results.map(function (r, i) {
+      var m = normalize_(req.messages[i]), row = find_(ctx, r.slug);
+      return {
+        slug: r.slug, company: m.company, contact: m.contact, result: r.result, reason: r.reason,
+        status: row ? row.status : "", sent: row ? row.sent : 0, total: row ? row.total : 0
+      };
+    });
+  }
+  if (req.action === "cancel") {
+    var target = find_(ctx, res.slug);
+    out.company = target.company;
+    out.contact = target.contact;
+  }
+  return out;
 }
 
 // ---- Actions ----
@@ -736,10 +807,18 @@ function inWindow_(ctx, tz) {
   var zone = tz || Session.getScriptTimeZone();
   if (!Object.prototype.hasOwnProperty.call(ctx.windows, zone)) {
     var at = new Date(ctx.now);
-    var day = Number(Utilities.formatDate(at, zone, "u")), hour = Number(Utilities.formatDate(at, zone, "H"));
+    var day = weekday_(at, zone), hour = Number(Utilities.formatDate(at, zone, "H"));
     ctx.windows[zone] = day >= 1 && day <= 5 && hour >= ctx.conf.windowStart && hour < ctx.conf.windowEnd;
   }
   return ctx.windows[zone];
+}
+
+// The weekday in that zone, 1 = Monday … 7 = Sunday, worked out from the local calendar date. The
+// pattern letter "u" is not relied on: date formatters disagree on it (in ICU it is the year).
+function weekday_(date, tz) {
+  var ymd = Utilities.formatDate(date, tz, "yyyy-MM-dd").split("-");
+  var day = new Date(Date.UTC(Number(ymd[0]), Number(ymd[1]) - 1, Number(ymd[2]))).getUTCDay();
+  return day === 0 ? 7 : day;
 }
 
 function domainClear_(ctx, row) {
@@ -1353,7 +1432,7 @@ var PAGE_CSS = [
   "button{font:inherit;padding:6px 14px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--accent);cursor:pointer}",
   ".scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}",
   "th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top;white-space:nowrap}",
-  "td.wrap{white-space:normal;min-width:160px}th{color:var(--muted);font-weight:500}"
+  "td.wrap{white-space:normal;min-width:160px}th{color:var(--muted);font-weight:500}a{color:var(--accent)}"
 ].join("\n");
 
 function page_(body) {
@@ -1424,9 +1503,9 @@ function formButton_(url, token, action, label) {
     "<button type=\"submit\">" + esc_(label) + "</button></form>";
 }
 
-// The small page the form fallback answers with.
-function resultPage_(action, res) {
-  return page_("<h1>" + esc_(BOOK_NAME) + "</h1><p>" + esc_(resultText_(action, res)) + "</p>");
+// The small page a form post or a sender link answers with. `more` is HTML that follows the result.
+function resultPage_(action, res, more) {
+  return page_("<h1>" + esc_(BOOK_NAME) + "</h1><p>" + esc_(resultText_(action, res)) + "</p>" + (more || ""));
 }
 
 function resultText_(action, res) {
@@ -1438,12 +1517,15 @@ function resultText_(action, res) {
       if (r.result === "queued" || r.result === "updated") joined++;
       else skipped.push(r.slug + "：" + reasonText_(r.result === "duplicate" ? "duplicate" : r.reason));
     });
-    return "已加入发送队列 " + joined + " 封" + (skipped.length ? "，跳过 " + skipped.length + " 封（" + skipped.join("；") + "）" : "") +
-      "。" + close;
+    var head = "已加入发送队列 " + joined + " 封" + (skipped.length ? "，跳过 " + skipped.length + " 封" : "");
+    if (res.cards) return head + "。"; // a link's page lists every card below
+    return head + (skipped.length ? "（" + skipped.join("；") + "）" : "") + "。" + close;
   }
   if (action === "cancel") {
-    return (res.status === "cancelled" ? "已停止 " + res.slug + " 的自动发送。" :
-      res.slug + " 现在是「" + (STATUS_LABEL[res.status] || res.status) + "」，没有改动。") + close;
+    var who = res.company ? res.company + (res.contact ? "（" + res.contact + "）" : "") : res.slug;
+    var gap = /）$/.test(who) ? "" : " ";
+    return (res.status === "cancelled" ? "已停止 " + who + gap + "的自动发送。" :
+      who + gap + "现在是「" + (STATUS_LABEL[res.status] || res.status) + "」，没有改动。") + close;
   }
   if (action === "pause") return "已暂停全部自动发送，回复检查照常进行。" + close;
   if (action === "resume") return "已继续自动发送。" + close;
@@ -1453,6 +1535,46 @@ function resultText_(action, res) {
       (res.paused ? "已暂停" : "运行中");
   }
   return "共 " + res.items.length + " 行。";
+}
+
+// Below a sender link's result: for enqueue one line per card and the sending rules, for ping the counts
+// and the version.
+function linkDetails_(action, res) {
+  if (!res.ok) return "";
+  if (action === "enqueue") {
+    var h = [table_(["公司", "联系人", "结果"], res.cards.map(function (c) {
+      return [esc_(c.company || c.slug), esc_(c.contact), { wrap: esc_(cardText_(c)) }];
+    }))];
+    h.push("<p>" + esc_(rulesText_(res.conf)) + "</p>");
+    if (res.conf.paused) h.push("<p><b>" + esc_("发信助手现在是暂停状态，在发信助手页面点「继续发送」后才会发出。") + "</b></p>");
+    return h.join("");
+  }
+  if (action === "ping") {
+    return "<p>" + esc_(STATUSES.map(function (s) { return STATUS_LABEL[s] + " " + res.counts[s]; }).join(" · ")) +
+      '</p><p class="muted">版本 ' + esc_(res.version) + "</p>";
+  }
+  return "";
+}
+
+function cardText_(c) {
+  if (c.result === "queued") return "已加入发送队列";
+  if (c.result === "updated") return "已更新（还没发出，内容换成了这一版）";
+  if (c.result === "rejected") return "跳过：" + reasonText_(c.reason);
+  var label = STATUS_LABEL[c.status] || c.status;
+  return "跳过：" + (c.sent > 0 ? "已发出 " + c.sent + "/" + c.total + " 封（" + label + "），不会重复发" :
+    "这一封已是「" + label + "」，没有改动");
+}
+
+function rulesText_(conf) {
+  return "会在对方当地工作日 " + conf.windowStart + "–" + conf.windowEnd + " 点按分组顺序发出，每封间隔至少 " + conf.minGap +
+    " 分钟；对方回复后自动停止跟进。";
+}
+
+// HtmlService shows a page inside a frame, so the link opens the dashboard in the whole tab.
+function dashboardLink_(token) {
+  var url = serviceUrl_();
+  if (!url) return "";
+  return '<p><a href="' + esc_(url + "?action=dashboard&token=" + encodeURIComponent(text_(token))) + '" target="_top">打开发信助手</a></p>';
 }
 
 function reasonText_(reason) {

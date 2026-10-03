@@ -2,6 +2,8 @@
 
 Serves approval/index.html locally, gives it a fake claude.ai runtime (page_fake_claude.js) and a
 mock sender (page_mock_sender.py), and drives it in headless Chromium. Nothing is sent anywhere.
+Fetch mode talks to the mock directly; link mode ("Link transport (claude.ai)") runs the page under
+a CSP like claude.ai's and follows its links into new tabs.
 
     python sender/test/page_test.py              # needs the playwright package
     PAGE_TEST_SHOTS=/some/dir python sender/test/page_test.py   # also writes screenshots
@@ -9,17 +11,22 @@ mock sender (page_mock_sender.py), and drives it in headless Chromium. Nothing i
 PAGE_TEST_CHROMIUM points at a Chromium binary; without it Playwright's own is used.
 """
 
+import base64
+import gzip
 import json
 import os
+import random
 import re
 import secrets
+import string
 import sys
 import threading
 import time
 import unittest
+from html import escape
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, quote, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlparse
 
 from playwright.sync_api import expect, sync_playwright
 
@@ -32,12 +39,21 @@ PAGE = ROOT / "approval" / "index.html"
 FAKE_JS = HERE / "page_fake_claude.js"
 CHROME = os.environ.get("PAGE_TEST_CHROMIUM", "/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
 SHOTS = os.environ.get("PAGE_TEST_SHOTS")
-NO_READ = "此浏览器里审批页无法直接读取发信助手状态，请点「打开发信助手」查看。"
 NO_LINK = "连不上发信助手：检查地址以 /exec 结尾、部署时「谁有权访问」选了「任何人」、网络正常；也可以点「打开发信助手」核对。"
-FORM_CHECK = "这里读不到结果，请在那个标签页确认写着「已加入发送队列」。"
-# What claude.ai is expected to send (research Q9): no fetch to other sites, and maybe no form posts either.
-CSP_NO_FETCH = "connect-src 'self'"
-CSP_NO_FETCH_NO_FORM = "connect-src 'self'; form-action 'self'"
+# Link mode.
+LINK_MAX = 6000
+LINK_STATUS = "这个页面不能直接读取发信助手；点「测试连接」会在新标签页显示结果。"
+HANDED = "已交给发信助手 · 发送和跟进状态在发信助手页面看"
+STOP_ASKED = "已在新标签页提交停止，请在那一页确认"
+TOO_LONG = "邮件太长，链接放不下，请用 Gmail 手动发"
+# Counts form submissions of any kind, so a test can show the page never posts one.
+NO_FORMS = """(function () {
+  window.__formSubmits = 0;
+  var submit = HTMLFormElement.prototype.submit, request = HTMLFormElement.prototype.requestSubmit;
+  HTMLFormElement.prototype.submit = function () { window.__formSubmits++; return submit.apply(this, arguments); };
+  if (request) HTMLFormElement.prototype.requestSubmit = function () { window.__formSubmits++; return request.apply(this, arguments); };
+  document.addEventListener("submit", function () { window.__formSubmits++; }, true);
+})();"""
 # After letting window.__passFetch fetches to the sender through, makes the next window.__failFetch
 # reject like a network error (no CSP involved).
 FLAKY_FETCH = """(function () {
@@ -166,6 +182,31 @@ def finalize(text, lang, s):
     return t
 
 
+def expected_msg(doc, s, region, tz):
+    """The Msg the page must hand over for doc under settings s (SPEC "Building a Msg from a card")."""
+    lang = "en" if doc["lang"] == "en" else "zh"
+    return {
+        "slug": doc["slug"], "track": doc["track"], "company": doc["company"], "contact": doc["contact"],
+        "to": (doc.get("to") or doc.get("toManual") or doc.get("toGeneric") or "").strip(),
+        "subject": doc["subject"], "body": finalize(doc["body"], lang, s),
+        "followups": [{"day": f["day"], "text": finalize(f["text"], lang, s)} for f in doc["followups"]],
+        "lang": lang, "region": region, "tz": tz,
+        "wave": (doc.get("wave") or 2) if doc["track"] == "investor" else 2,
+        "order": doc.get("order") or 9999, "revision": doc.get("revision") or 1,
+        "fromName": (s.get("nameEn") if lang == "en" else s.get("nameZh")) or "",
+    }
+
+
+def split_link(href):
+    """(base url, decoded query, raw query) of a sender link."""
+    u = urlparse(href)
+    raw = {}
+    for part in u.query.split("&"):
+        k, _, v = part.partition("=")
+        raw[k] = v
+    return "%s://%s%s" % (u.scheme, u.netloc, u.path), {k: unquote(v) for k, v in raw.items()}, raw
+
+
 # 地区 -> zone the page must pick (SPEC list, plus the European/Indian/Australian additions).
 TZ_CASES = [
     ("海外（美国）", "America/Los_Angeles"), ("海外（美国，纽约）", "America/New_York"),
@@ -184,7 +225,8 @@ TZ_CASES = [
 
 class PageServer:
     """Serves approval/index.html at / inside the skeleton the Artifact tool publishes it in.
-    /?csp=<policy> also sends that Content-Security-Policy header."""
+    /?csp=<policy> also sends that Content-Security-Policy header; /?meta=<policy> puts the policy
+    in a <meta http-equiv> tag in the head instead."""
 
     def __init__(self):
         class Handler(BaseHTTPRequestHandler):
@@ -192,13 +234,16 @@ class PageServer:
                 pass
 
             def do_GET(self):
-                if urlparse(self.path).path != "/":
+                url = urlparse(self.path)
+                if url.path != "/":
                     self.send_response(404)
                     self.end_headers()
                     return
+                q = parse_qs(url.query)
+                meta = '<meta http-equiv="Content-Security-Policy" content="%s">' % escape(q["meta"][0]) if q.get("meta") else ""
                 html = ('<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">'
-                        "</head><body>" + PAGE.read_text(encoding="utf-8") + "</body></html>").encode("utf-8")
-                csp = parse_qs(urlparse(self.path).query).get("csp")
+                        + meta + "</head><body>" + PAGE.read_text(encoding="utf-8") + "</body></html>").encode("utf-8")
+                csp = q.get("csp")
                 self.send_response(200)
                 self.send_header("Content-Type", "text/html; charset=utf-8")
                 if csp:
@@ -250,7 +295,7 @@ class PageTest(unittest.TestCase):
     # --- helpers ---------------------------------------------------------------------------
 
     def open(self, docs, settings=SETTINGS, connected=True, color_scheme="light", width=1200, height=900,
-             init=None, clock=False, extra_docs=None, csp=None):
+             init=None, clock=False, extra_docs=None, csp=None, csp_meta=None):
         self.ctx = self.browser.new_context(viewport={"width": width, "height": height}, color_scheme=color_scheme,
                                             timezone_id="Asia/Shanghai", locale="zh-CN")
         self.ctx.route(re.compile(r"^https://fonts\.(googleapis|gstatic)\.com/"), lambda route: route.abort())
@@ -270,10 +315,66 @@ class PageTest(unittest.TestCase):
         self.page = self.ctx.new_page()
         if clock:
             self.page.clock.install()
-        self.page.goto(self.site.origin + "/" + ("?csp=" + quote(csp) if csp else ""))
+        query = (["csp=" + quote(csp)] if csp else []) + (["meta=" + quote(csp_meta)] if csp_meta else [])
+        self.page.goto(self.site.origin + "/" + ("?" + "&".join(query) if query else ""))
         # The default filter may show none of them.
         self.page.wait_for_selector("article.card", state="attached")
         return self.page
+
+    def link_csp(self):
+        # What claude.ai is expected to set (research Q9): fetch only to itself and its static
+        # server, forms only to itself. The mock sender is another origin, so its fetch is blocked.
+        return "connect-src 'self' %s; form-action 'self'" % self.site.origin
+
+    def open_links(self, docs, init="", **kw):
+        """Opens the page under link_csp() and waits until it has switched to links."""
+        page = self.open(docs, csp_meta=self.link_csp(), init=NO_FORMS + init, **kw)
+        expect(page.locator("#s-conn")).to_have_text("链接方式")
+        return page
+
+    def click_tab(self, link):
+        """Clicks a link and returns the new tab it opened, loaded."""
+        with self.ctx.expect_page() as info:
+            link.click()
+        tab = info.value
+        tab.wait_for_load_state()
+        return tab
+
+    def enqueue_link(self, href, key="z"):
+        """The Msgs an enqueue link carries, after checking its shape. key is z (gzip) or j (plain)."""
+        self.assertLessEqual(len(href), LINK_MAX)
+        base, q, raw = split_link(href)
+        self.assertEqual(base, self.mock.url)
+        self.assertEqual(set(q), {"action", "token", key})
+        self.assertEqual(q["action"], "enqueue")
+        self.assertEqual(q["token"], self.token)
+        # base64url with its "=" padding, then encodeURIComponent: the padding arrives as %3D.
+        self.assertRegex(raw[key], r"^[A-Za-z0-9_-]+(%3D){0,2}$")
+        self.assertEqual(len(q[key]) % 4, 0)
+        data = base64.urlsafe_b64decode(q[key])
+        body = json.loads((gzip.decompress(data) if key == "z" else data).decode("utf-8"))
+        self.assertEqual(list(body), ["messages"])
+        return body["messages"]
+
+    def assert_new_tab(self, link):
+        self.assertEqual(link.get_attribute("target"), "_blank")
+        self.assertIn("noopener", link.get_attribute("rel"))
+
+    def assert_no_post(self):
+        self.assertEqual([r for r in self.mock.requests if r["method"] != "GET"], [])
+        self.assertEqual(self.page.evaluate("window.__formSubmits"), 0)
+
+    def assert_fits(self, width, where):
+        page = self.page
+        overflow = page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
+        self.assertLessEqual(overflow, 0, "horizontal scroll: " + where)
+        boxes = page.evaluate("""() => Array.from(document.querySelectorAll('a[data-link], #s-dash, .auto-line, .auto-links'))
+          .filter(e => e.offsetParent !== null)
+          .map(e => { const r = e.getBoundingClientRect(); return [e.textContent.trim().slice(0, 40), r.left, r.right]; })""")
+        self.assertTrue(boxes, where)
+        for text, left, right in boxes:
+            self.assertGreaterEqual(left, 0, "%s sticks out on the left: %s" % (text, where))
+            self.assertLessEqual(right, width + 0.5, "%s sticks out on the right: %s" % (text, where))
 
     def card(self, slug):
         return self.page.locator('article.card[data-slug="%s"]' % slug)
@@ -705,81 +806,300 @@ class PageTest(unittest.TestCase):
         self.wait_until(lambda: self.doc("deepseek")["send"].get("log"), "log read back")
         expect(card.locator('[data-act="resume"]')).to_have_text("改为手动发送")
 
-    def test_form_fallback_when_csp_blocks_fetch(self):
-        page = self.open(seed_docs(), settings=SETTINGS_DECK, csp=CSP_NO_FETCH)
-        expect(page.locator("#s-conn")).to_have_text("已连接（读不到状态）")
-        page.click("#s-ping")
-        expect(page.locator("#s-state")).to_have_text(NO_READ)
+    # --- link mode (SPEC "Link transport (claude.ai)") ------------------------------------
 
-        self.show("investor", "pending")
-        with page.expect_popup() as pop:
-            self.card("v-homebrew").locator('[data-act="approve"]').click()
-        popup = pop.value
-        popup.wait_for_load_state()
-        forms = self.wait_until(lambda: self.mock.calls(via="form"), "form post")
-        self.assertEqual(len(forms), 1)
-        self.assertTrue(forms[0]["content_type"].startswith("application/x-www-form-urlencoded"))
-        self.assertEqual(list(parse_qs(forms[0]["raw"])), ["payload"])
-        payload = json.loads(parse_qs(forms[0]["raw"])["payload"][0])
-        self.assertEqual(payload["token"], self.token)
-        self.assertEqual(payload["action"], "enqueue")
-        self.assertEqual([m["slug"] for m in payload["messages"]], ["v-homebrew"])
-        self.assertEqual(payload["messages"][0]["tz"], "America/Los_Angeles")
-        self.assertIn(DECK, payload["messages"][0]["body"])
-        self.assertEqual(self.mock.calls(via="fetch"), [])
-        self.assertIn("已加入发送队列 1 封", popup.content())
-
-        # Unconfirmed: submitted, not queued, with a way back to manual.
-        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "send.auto")
-        doc = self.doc("v-homebrew")
-        self.assertEqual(doc["review"]["status"], "approved")
-        self.assertEqual(doc["send"]["auto"]["status"], "submitted")
-        self.assertTrue(doc["send"]["auto"]["sig"])
-        expect(page.locator("#toast")).to_contain_text(FORM_CHECK)
-        self.show("investor", "waiting")
-        card = self.card("v-homebrew")
-        expect(card.locator(".status")).to_have_text("已提交，待确认")
-        expect(card.locator(".auto-line")).to_contain_text("状态以发信助手页面为准")
-        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
-
-        # A stop through a form tab is only a request: the card is not marked stopped.
-        stop = card.locator('[data-act="autostop"]')
-        stop.click()
-        with page.expect_popup():
-            stop.click()
-        self.wait_until(lambda: self.mock.calls("cancel", via="form"), "cancel form")
-        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"].get("cancelRequested"), "stop requested")
-        send = self.doc("v-homebrew")["send"]
-        self.assertEqual(send["auto"]["status"], "submitted")
-        self.assertIsNone(send.get("outcome"))
-        expect(card.locator(".auto-line")).to_contain_text("请在发信助手页面确认停了")
-
-        card.locator('[data-act="resume"]', has_text="没交上，改回手动").click()
-        self.wait_until(lambda: self.doc("v-homebrew")["send"].get("auto", 1) is None, "auto dropped")
-        self.show("investor", "todo")
-        expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
-
-    def test_csp_blocking_fetch_and_forms_falls_back_to_manual(self):
-        page = self.open(seed_docs(), settings=SETTINGS_DECK, csp=CSP_NO_FETCH_NO_FORM)
-        expect(page.locator("#s-conn")).to_have_text("已连接（读不到状态）")
-        self.show("investor", "pending")
-        self.card("v-homebrew").locator('[data-act="approve"]').click()
-        expect(page.locator("#toast")).to_contain_text("但没交上：这个页面所在的环境不让它连发信助手")
-        self.wait_until(lambda: (self.doc("v-homebrew").get("review") or {}).get("status") == "approved", "approval")
+    def test_link_mode_when_csp_blocks_fetch(self):
+        page = self.open_links(seed_docs(), settings=SETTINGS_DECK)
+        expect(page.locator("#s-state")).to_have_text(LINK_STATUS)
+        # The blocked ping never left the page, and nothing is handed over or written on load.
         self.settle()
         self.assertEqual(self.mock.requests, [])
-        self.assertEqual(len(self.ctx.pages), 1)
-        self.assertNotIn("send", self.doc("v-homebrew"))
-        expect(page.locator("#s-conn")).to_have_text("这里连不上")
-        expect(page.locator("#s-state")).to_contain_text("这里只能手动发")
-        # The page works as if no sender were connected.
-        expect(self.card("v-01-advisors").locator('[data-act="approve"]')).to_have_text("批准")
-        self.show("investor", "todo")
-        card = self.card("v-homebrew")
+        self.assertEqual(self.writes(), [])
+        expect(page.locator("#s-ping")).to_be_hidden()
+        expect(page.locator("#s-test")).to_be_hidden()
+        ping, test, dash = page.locator("#s-ping-link"), page.locator("#s-test-link"), page.locator("#s-dash")
+        expect(ping).to_have_text("测试连接 ↗")
+        expect(test).to_have_text("试发一封给自己 ↗")
+        expect(dash).to_have_text("打开发信助手 ↗")
+        for a, action in ((ping, "ping"), (test, "test"), (dash, "dashboard")):
+            self.assertEqual(a.get_attribute("href"), self.mock.url + "?action=" + action + "&token=" + self.token)
+            self.assert_new_tab(a)
+
+        tab = self.click_tab(ping)
+        self.assertIn("已连接 business@simreal.co · 今天已发 3/30 · 排队 5 封 · 运行中", tab.content())
+        tab = self.click_tab(test)
+        self.assertIn("测试邮件已发出", tab.content())
+        expect(page.locator("#s-state")).to_contain_text("已在新标签页试发")
+        self.assertEqual([(r["via"], r["data"]["action"], r["data"]["token"]) for r in self.mock.requests],
+                         [("get", "ping", self.token), ("get", "test", self.token)])
+        self.assert_no_post()
+        self.assertEqual(page.evaluate("document.querySelectorAll('form').length"), 0)
+
+    def test_link_mode_links_carry_the_finalized_msg(self):
+        docs = seed_docs()
+        docs["deepseek"] = approved(docs["deepseek"])
+        self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("investor", "pending")
+        link = self.card("v-homebrew").locator('a[data-link="approve"]')
+        expect(link).to_have_text("批准并交给发信助手 ↗")
+        self.assert_new_tab(link)
+        self.assertIn("btn-primary", link.get_attribute("class"))
+        self.assertEqual(self.enqueue_link(link.get_attribute("href")),
+                         [expected_msg(docs["v-homebrew"], SETTINGS_DECK, "海外（美国）", "America/Los_Angeles")])
+        # A refused card keeps the plain 批准 and says why.
+        hold = self.card("v-01-advisors")
+        expect(hold.locator('[data-act="approve"]')).to_have_text("批准")
+        self.assertEqual(hold.locator("a[data-link]").count(), 0)
+        expect(hold.locator(".missing", has_text="批准后不会自动发")).to_have_text("批准后不会自动发：暂缓组不自动发送")
+
+        self.show("customer", "todo")
+        card = self.card("deepseek")
+        link = card.locator('a[data-link="hand"]')
+        expect(link).to_have_text("交给发信助手 ↗")
+        self.assert_new_tab(link)
+        self.assertEqual(self.enqueue_link(link.get_attribute("href")),
+                         [expected_msg(docs["deepseek"], SETTINGS_DECK, "国内（杭州）", "Asia/Shanghai")])
+        # Until it is handed over, the manual path stays.
         expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
         expect(card.locator('[data-act="sent"]')).to_have_text("标记已发送")
-        self.assertEqual(card.locator('[data-act="autosend"]').count(), 0)
-        self.assertTrue(page.locator("#auto-all-btn").is_hidden())
+        # Building links hands nothing over and writes nothing.
+        self.settle()
+        self.assertEqual(self.mock.requests, [])
+        self.assertEqual(self.writes(), [])
+
+    def test_link_without_compression_stream_falls_back_to_j(self):
+        docs = seed_docs()
+        docs["deepseek"] = approved(docs["deepseek"])
+        self.open_links(docs, settings=SETTINGS_DECK, init="window.CompressionStream = undefined;")
+        self.show("customer", "todo")
+        link = self.card("deepseek").locator('a[data-link="hand"]')
+        expect(link).to_have_text("交给发信助手 ↗")
+        want = expected_msg(docs["deepseek"], SETTINGS_DECK, "国内（杭州）", "Asia/Shanghai")
+        self.assertEqual(self.enqueue_link(link.get_attribute("href"), key="j"), [want])
+        self.assertIn("DeepSeek 深度求索（邵智宏（Zhihong Shao））：已加入发送队列", self.click_tab(link).content())
+        gets = self.mock.calls("enqueue", via="get")
+        self.assertEqual([(g["data"]["encoding"], g["data"]["messages"]) for g in gets], [("j", [want])])
+        self.wait_until(lambda: ((self.doc("deepseek").get("send") or {}).get("auto") or {}).get("status") == "handed", "handed")
+        self.assertNotIn("review", self.writes()[-1]["data"], "an approved card is only handed over, not approved again")
+        self.assert_no_post()
+
+    def test_link_handover_drift_and_stop(self):
+        docs = seed_docs()
+        page = self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("investor", "pending")
+        card = self.card("v-homebrew")
+        link = card.locator('a[data-link="approve"]')
+        sig = link.get_attribute("data-sig")
+        want = expected_msg(docs["v-homebrew"], SETTINGS_DECK, "海外（美国）", "America/Los_Angeles")
+        text = self.click_tab(link).content()
+        self.assertIn("Homebrew（Hunter Walk）：已加入发送队列", text)
+        self.assertIn("会在对方当地工作日 8–18 点按分组顺序发出", text)
+        gets = self.mock.calls("enqueue")
+        self.assertEqual(len(gets), 1)
+        self.assertEqual(gets[0]["via"], "get")
+        self.assertEqual(gets[0]["data"]["encoding"], "z")
+        self.assertEqual(gets[0]["data"]["token"], self.token)
+        self.assertEqual(gets[0]["data"]["messages"], [want])
+        self.assertEqual(self.mock.rows["v-homebrew"]["status"], "queued")
+
+        # One write: the approval and the handover together.
+        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "send.auto")
+        writes = [w for w in self.writes() if w["path"] == "prospects/v-homebrew"]
+        self.assertEqual(len(writes), 1)
+        data = writes[0]["data"]
+        at = data["review"]["at"]
+        self.assertRegex(at, r"^\d{4}-\d\d-\d\dT")
+        self.assertEqual(data, {"review": {"status": "approved", "comment": "", "at": at, "forRevision": 1},
+                                "send": {"auto": {"status": "handed", "via": "link", "at": at, "sig": sig, "revision": 1}}})
+        expect(page.locator("#toast")).to_contain_text("已在新标签页交给发信助手")
+
+        # Handed: no manual first send, the sender's links, the outcome buttons.
+        self.show("investor", "waiting")
+        expect(card.locator(".status")).to_have_text("已交给发信助手")
+        expect(card.locator(".auto-line")).to_contain_text(HANDED)
+        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
+        self.assertEqual(card.locator('[data-act="sent"]').count(), 0)
+        self.assertEqual(card.locator('[data-act="autostop"]').count(), 0)
+        self.assertEqual(card.locator('[data-link="rehand"]').count(), 0)
+        expect(card.locator('[data-act="replied"]')).to_have_text("对方已回复")
+        expect(card.locator('[data-act="meeting"]')).to_have_text("已约见")
+        dash = card.locator("a.btn", has_text="打开发信助手 ↗")
+        self.assertEqual(dash.get_attribute("href"), self.mock.url + "?action=dashboard&token=" + self.token)
+        self.assert_new_tab(dash)
+        stop = card.locator('a[data-link="cancel"]')
+        expect(stop).to_have_text("停止自动发送 ↗")
+        self.assertEqual(stop.get_attribute("href"), self.mock.url + "?action=cancel&token=" + self.token + "&slug=v-homebrew")
+        self.assert_new_tab(stop)
+
+        # A settings change after the handover: the card offers to hand the new text over again.
+        page.fill("#f-name-en", "Charlie")
+        self.wait_until(lambda: self.store()["settings/sender"].get("nameEn") == "Charlie", "settings saved")
+        expect(card.locator(".review-note.warn", has_text="不一样了")).to_contain_text("重新交给发信助手")
+        again = card.locator('a[data-link="rehand"]')
+        expect(again).to_have_text("重新交给发信助手 ↗")
+        charlie = dict(SETTINGS_DECK, nameEn="Charlie")
+        self.assertEqual(self.enqueue_link(again.get_attribute("href")),
+                         [expected_msg(docs["v-homebrew"], charlie, "海外（美国）", "America/Los_Angeles")])
+        sig2 = again.get_attribute("data-sig")
+        self.assertNotEqual(sig2, sig)
+        # Opening it again is safe: the queued row is updated.
+        self.assertIn("Homebrew（Hunter Walk）：已更新", self.click_tab(again).content())
+        self.assertEqual(self.mock.rows["v-homebrew"]["msg"]["fromName"], "Charlie")
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"]["sig"] == sig2, "new signature")
+        at2 = self.doc("v-homebrew")["send"]["auto"]["at"]
+        self.assertEqual(self.writes()[-1], {"op": "update", "path": "prospects/v-homebrew",
+                                             "data": {"send": {"auto": {"status": "handed", "via": "link", "at": at2, "sig": sig2, "revision": 1}}}})
+        expect(card.locator(".review-note.warn", has_text="不一样了")).to_have_count(0)
+        self.assertEqual(card.locator('[data-link="rehand"]').count(), 0)
+
+        # 停止自动发送 ↗ opens the cancel link; the card only records that a stop was asked for.
+        self.assertIn("已停止 v-homebrew 的自动发送", self.click_tab(stop).content())
+        self.assertEqual([(c["via"], c["data"]["slug"]) for c in self.mock.calls("cancel")], [("get", "v-homebrew")])
+        self.assertEqual(self.mock.rows["v-homebrew"]["status"], "cancelled")
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"].get("cancelRequested"), "stop recorded")
+        auto = self.doc("v-homebrew")["send"]["auto"]
+        self.assertEqual(auto["status"], "handed")
+        self.assertRegex(auto["cancelRequested"], r"^\d{4}-\d\d-\d\dT")
+        self.assertEqual(self.writes()[-1]["data"], {"send": {"auto": {"cancelRequested": auto["cancelRequested"]}}})
+        self.assertNotIn("outcome", self.doc("v-homebrew")["send"])
+        expect(card.locator(".auto-line")).to_contain_text(STOP_ASKED)
+        self.assertEqual(card.locator('a[data-link="cancel"]').count(), 0)
+        self.assertEqual(card.locator('[data-act="resume"]').count(), 0)
+        self.assert_no_post()
+
+    def test_link_handover_keeps_a_retry_when_the_approval_write_fails(self):
+        page = self.open_links(seed_docs(), settings=SETTINGS_DECK, init=FAILING_REVIEW_WRITES)
+        page.evaluate("window.__rejectReview = true")
+        self.show("investor", "pending")
+        card = self.card("v-homebrew")
+        self.click_tab(card.locator('a[data-link="approve"]'))
+        self.assertEqual(len(self.mock.calls("enqueue", via="get")), 1)
+        note = card.locator(".review-note.warn", has_text="没保存上")
+        expect(note).to_contain_text("已在新标签页交给发信助手，但批准没保存上")
+        self.assertNotIn("review", self.doc("v-homebrew"))
+        self.assertNotIn("send", self.doc("v-homebrew"))
+        page.evaluate("window.__rejectReview = false")
+        note.locator('[data-act="linkretry"]').click()
+        self.wait_until(lambda: (self.doc("v-homebrew").get("review") or {}).get("status") == "approved", "approval saved")
+        self.assertEqual(self.doc("v-homebrew")["send"]["auto"]["status"], "handed")
+        expect(note).to_have_count(0)
+        # The retry only saves; nothing is handed over a second time.
+        self.assertEqual(len(self.mock.calls("enqueue")), 1)
+        self.assert_no_post()
+
+    def test_link_batch_chunks_cover_exactly_the_eligible_cards(self):
+        rnd = random.Random(20261003)
+
+        def noise(n):  # incompressible, so the cards need several links
+            return "".join(rnd.choice(string.ascii_letters + string.digits) for _ in range(n))
+
+        def gen(slug, company, order, body, to=None, **kw):
+            return approved(base_doc(
+                slug=slug, track="customer", company=company, category="测试", region="国内", contact="某人",
+                to=("%s@example.com" % slug) if to is None else to, order=order, lang="zh", subject="主题 " + company,
+                body="您好，\n\n" + body + "\n\n[姓名]", followups=[{"day": 4, "text": "跟进。[姓名]"}],
+                meta_md="- 类别：测试｜地区：国内（北京）"), **kw)
+
+        docs, want = {}, {}
+        for i in range(40):
+            d = gen("c-gen-%02d" % i, "Gen %02d" % i, 5000 + i, noise(400))
+            docs[d["slug"]], want[d["slug"]] = d, expected_msg(d, SETTINGS_DECK, "国内（北京）", "Asia/Shanghai")
+        # Its own link cannot fit; no address; already handed over.
+        docs["c-long"] = gen("c-long", "Long Co", 4000, noise(7000))
+        docs["c-noaddr"] = gen("c-noaddr", "No Addr", 4001, "正文。", to="")
+        docs["c-handed"] = gen("c-handed", "Handed Co", 4002, "正文。",
+                               auto={"status": "handed", "via": "link", "at": "2026-10-01T08:00:00Z", "sig": "x", "revision": 1})
+        page = self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("customer", "todo")
+        btn = page.locator("#auto-all-btn")
+        expect(btn).to_have_text("全部交给发信助手（41 封）")
+        expect(page.locator("#auto-hint")).to_contain_text("没有邮箱 1 封")
+        long_card = self.card("c-long")
+        expect(long_card.locator(".review-note.warn")).to_contain_text("还不能交给发信助手：" + TOO_LONG)
+        self.assertEqual(long_card.locator("a[data-link]").count(), 0)
+        expect(long_card.locator('[data-act="autosend"]')).to_be_disabled()
+
+        btn.click()
+        panel = page.locator("#auto-links")
+        expect(panel.locator(".auto-links-note")).to_contain_text("40 封分成")
+        expect(panel.locator(".auto-links-note")).to_contain_text("1 封" + TOO_LONG + "：Long Co")
+        links = panel.locator('a[data-link="chunk"]')
+        n = links.count()
+        self.assertGreaterEqual(n, 3)
+        chunks = []
+        for k in range(n):
+            a = links.nth(k)
+            self.assert_new_tab(a)
+            msgs = self.enqueue_link(a.get_attribute("href"))
+            self.assertLessEqual(len(msgs), 50)
+            for m in msgs:
+                self.assertEqual(m, want[m["slug"]])
+            names = [m["company"] for m in msgs]
+            expect(a).to_have_text("第 %d 批：%s%s（%d 封） ↗" % (k + 1, "、".join(names[:3]), "…" if len(names) > 3 else "", len(names)))
+            chunks.append([m["slug"] for m in msgs])
+        seen = [s for c in chunks for s in c]
+        self.assertEqual(sorted(seen), sorted(want), "every eligible card exactly once, nothing else")
+        self.assertEqual(seen, sorted(seen), "in send order")
+        self.settle()
+        self.assertEqual(self.mock.requests, [])
+        self.assertEqual(self.writes(), [])
+
+        # Opening batch 1 hands over exactly its cards and marks exactly those handed.
+        tab = self.click_tab(links.nth(0))
+        self.assertEqual(tab.content().count("已加入发送队列"), len(chunks[0]))
+        self.assertEqual([[m["slug"] for m in g["data"]["messages"]] for g in self.mock.calls("enqueue", via="get")], [chunks[0]])
+        self.wait_until(lambda: len(self.writes()) == len(chunks[0]), "batch marked handed")
+        self.assertEqual(sorted(w["path"] for w in self.writes()), sorted("prospects/" + s for s in chunks[0]))
+        at = self.writes()[0]["data"]["send"]["auto"]["at"]
+        for w in self.writes():
+            auto = w["data"]["send"]["auto"]
+            self.assertEqual(list(w["data"]), ["send"])
+            self.assertEqual(dict(auto, sig=None), {"status": "handed", "via": "link", "at": at, "sig": None, "revision": 1})
+            self.assertTrue(auto["sig"])
+        expect(panel.locator(".auto-links-row").nth(0)).to_contain_text("已打开")
+        expect(links.nth(0)).not_to_have_class(re.compile(r"btn-primary"))
+        expect(btn).to_have_text("全部交给发信助手（%d 封）" % (41 - len(chunks[0])))
+        # The signature written is the one of the text in the link: the card does not read as drifted.
+        self.show("customer", "waiting")
+        card = self.card(chunks[0][0])
+        expect(card.locator(".auto-line")).to_contain_text(HANDED)
+        self.assertEqual(card.locator(".review-note.warn", has_text="不一样了").count(), 0)
+        # Opening the same batch again is safe: the sender only updates what is still queued.
+        self.show("customer", "todo")
+        self.assertEqual(self.click_tab(links.nth(0)).content().count("已更新"), len(chunks[0]))
+        self.assert_no_post()
+
+    def test_link_mode_on_a_phone(self):
+        shots = Path(SHOTS) if SHOTS else None
+        if shots:
+            shots.mkdir(parents=True, exist_ok=True)
+        for scheme in ("light", "dark"):
+            docs = seed_docs()
+            # Handed over before a settings change: all three links show.
+            docs["v-homebrew"] = approved(docs["v-homebrew"], auto={"status": "handed", "via": "link", "at": "2026-10-01T08:00:00Z", "sig": "old", "revision": 1})
+            docs["v-01-advisors"] = approved(docs["v-01-advisors"])
+            docs["deepseek"] = approved(docs["deepseek"])
+            page = self.open_links(docs, settings=SETTINGS_DECK, color_scheme=scheme, width=390, height=844)
+            self.show("investor", "all")
+            card = self.card("v-homebrew")
+            expect(card.locator('a[data-link="rehand"]')).to_be_visible()
+            expect(card.locator('a[data-link="cancel"]')).to_be_visible()
+            expect(card.locator(".auto-line")).to_contain_text(HANDED)
+            expect(self.card("v-01-advisors").locator('[data-act="autosend"]')).to_be_disabled()
+            self.assert_fits(390, "cards, " + scheme)
+            if shots:
+                page.locator(".sender").screenshot(path=str(shots / ("link-settings-%s-phone.png" % scheme)))
+                page.locator("#panel").screenshot(path=str(shots / ("link-cards-%s-phone.png" % scheme)))
+            self.show("customer", "todo")
+            page.click("#auto-all-btn")
+            expect(page.locator('#auto-links a[data-link="chunk"]')).to_have_count(1)
+            self.assert_fits(390, "batch, " + scheme)
+            if shots:
+                page.locator("#panel").screenshot(path=str(shots / ("link-batch-%s-phone.png" % scheme)))
+            self.assert_db_has_no_secret()
+            self.ctx.close()
+            self.ctx = None
+            self.page = None
 
     def test_transient_fetch_failure_is_reported_and_retried(self):
         docs = seed_docs()
