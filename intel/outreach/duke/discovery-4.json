@@ -1,0 +1,100 @@
+[
+ {
+  "angle": "named-fintech-crypto-partners",
+  "candidates": [],
+  "checked_not_duke": [
+   "Brian Merritt (Better Tomorrow Ventures Partner; no Duke link in results; https://www.getprog.ai/profile/398006 (search snippet))",
+   "Nihar Bobba (BTV Partner; Northwestern Economics undergrad, left Wharton MBA; https://www.btv.vc/team-members/nihar-bobba (search snippet))",
+   "Ben Savage (Clocktower Partner; Yale BA Philosophy, Stanford GSB MBA; https://labusinessjournal.com/advertorials/40-their-40s-ben-savage/ (search snippet))",
+   "Steve Drobny, Ned Daoro, Adriana Saman (Clocktower; firm-level search turned up no Duke link; not checked one by one)",
+   "Victoria Zuo (QED Partner, promoted Sept 2025; Stanford BA/MS; https://www.businesswire.com/news/home/20250915995931/en/QED-Investors-Promotes-Victoria-Zuo-to-Partner (search snippet))",
+   "Amias Gerety (QED Partner; Harvard BA Social Studies. One search summary said he holds a Duke Law JD, citing a Georgetown 2017 Fintech Week program PDF (https://www.law.georgetown.edu/iiel/wp-content/uploads/sites/8/2018/01/FINAL-Fintech-Week-Program-November-2017-1-Accessible.pdf), but that PDF is blocked to fetch. Three follow-up searches, including '\"Amias Gerety\" Duke', found no Duke link and showed only the Harvard degree, so the earlier claim was probably taken from another speaker's bio. Treat as not Duke unless a primary source says otherwise.)",
+   "Ren Riley, Christian Ostberg (Fin Capital GPs; no Duke link in results. Logan Allin is the Duke alum there and is already on the found list)",
+   "Rob Hadick (Dragonfly GP; Washington University in St. Louis BA, Columbia MBA; https://www.salt.org/speakers/rob-hadick (search snippet))",
+   "Tom Schmidt (Dragonfly GP; Stanford CS; https://yespress.io/tom-schmidt (search snippet))",
+   "Haseeb Qureshi (Dragonfly Managing Partner; firm-level search turned up no Duke link)",
+   "Spencer Noon (Variant co-founder/GP; Amherst BA American Studies; https://www.linkedin.com/in/spencernoon/ (search snippet))",
+   "Jesse Walden, Li Jin (Variant; firm-level search turned up no Duke link)",
+   "Tushar Jain (Multicoin co-founder/MP; NYU Stern; https://www.crunchbase.com/person/tushar-jain (search snippet))",
+   "Mike Dudas (6th Man Ventures founder/GP; Stanford BA, Kellogg MBA; https://www.crunchbase.com/person/mike-dudas (search snippet))",
+   "Jill Gunter (Espresso Systems; Harvard undergrad, Oxford MSc; https://theorg.com/org/espresso-systems/org-chart/jill-gunter (search snippet))"
+  ],
+  "coverage_notes": "I used all 22 searches and found no new Duke-alumni decision makers at the fintech and crypto funds I was given. Every named partner I checked shows non-Duke schools, or no Duke link at all. The two generic searches ('Duke' alum + crypto GP; Duke + fintech managing partner pre-seed) turned up only Fred Ehrsam and Logan Allin, who are both already on the found list. Amias Gerety (QED) is the only open question. One search summary credited him with a Duke Law JD, but the source PDF can't be fetched and three follow-up searches showed only his Harvard BA, so I've listed him as not Duke with that caveat. Searches by firm with several names joined by OR seldom turned up schools; searching one person at a time worked much better. These pages could hold new names, but they need a fetch or a site-restricted search: the Duke FinTech MEng advisory board (https://masters.pratt.duke.edu/fintech/advisory-board/, which includes fintech VCs), the Duke I&E 'Network in the News' page (https://entrepreneurship.duke.edu/news-events/duke-ie-network-news/), and Darryl Landis of Mustard Seed Venture Partners, who appeared in a Duke/Fuqua fintech search with no Duke degree shown.",
+  "leads_not_checked": [
+   "Ozge Oz (Better Tomorrow Ventures): not searched, budget",
+   "Leslie Sodaro (Better Tomorrow Ventures): not searched, budget",
+   "Kyle Samani (Multicoin co-founder/MP): not searched one by one",
+   "Steve Drobny, Ned Daoro, Adriana Saman (Clocktower): only covered by the firm-level search",
+   "Other current QED partners besides Zuo and Gerety (e.g. Frank Rotman, Bill Cilluffo, Matt Burton, Lauren Mitchell, Sandeep Patil, Caio Ramalho): not checked",
+   "Duke FinTech MEng advisory board members who are VC partners (https://masters.pratt.duke.edu/fintech/advisory-board/), e.g. Vas Kodali: check whether any hold Duke degrees",
+   "Darryl Landis (Mustard Seed Venture Partners): appeared in a Duke/Fuqua fintech search with no Duke degree shown",
+   "Amias Gerety (QED): Duke Law claim unresolved; check against a primary bio such as Treasury, QED or Oliver Wyman"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 22
+ },
+ {
+  "angle": "duke-features-asia",
+  "candidates": [
+   {
+    "name": "Justin Klein",
+    "firm": "Vensana Capital",
+    "title": "Co-Founder & Managing Partner",
+    "location": "McLean, Virginia (per Crunchbase snippet)",
+    "duke_degree": "Duke undergrad '99 and Duke MD '04 (also JD from Harvard Law)",
+    "grad_year": 1999,
+    "grad_year_basis": "stated: \"Justin Klein '99, MD '04 is Managing Partner at Vensana Capital\" (entrepreneurship.duke.edu snippet)",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/2023-pevc-conference/ (search snippet; returned by a site:entrepreneurship.duke.edu search, but the snippet did not say which of these two pages holds the line)",
+     "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet; same caveat)",
+     "https://www.crunchbase.com/person/justin-klein (search snippet: studied at Duke University and Duke University School of Medicine; Board of Visitors, Duke School of Medicine)"
+    ],
+    "role_evidence_urls": [
+     "https://www.crunchbase.com/person/justin-klein (search snippet)",
+     "https://rosenmaninstitute.org/people/justin-klein-md-jd-co-founder-and-managing-partner-vensana-capital/ (search snippet)",
+     "https://signal.nfx.com/investors/justin-klein (search snippet)"
+    ],
+    "stage": "Venture and growth equity, medtech only (described as a 'venture capital and growth equity firm dedicated to medtech innovation'); formerly a Partner at NEA",
+    "decision_maker": "yes",
+    "notes": "Clear decision maker, but medtech only and leans growth stage. Little AI/RL/fintech fit, so low priority for SimReal."
+   },
+   {
+    "name": "Tim Schulte",
+    "firm": "Council Capital (Nashville)",
+    "title": "Partner (value creation / portfolio operations; promoted to Partner Nov 2023; Crunchbase still lists 'Vice President, Value Creation')",
+    "location": "Nashville, TN",
+    "duke_degree": "BA, History and Economics, Duke University; also co-chaired Duke University's Development Council",
+    "grad_year": null,
+    "grad_year_basis": "inferred: worked at Accenture (healthcare strategy), then as an early team member at AVIA, then on Vista Equity Partners' value-creation team, before joining Council Capital around 2019-2020. That history points to graduating well before 2018, but no year was stated.",
+    "duke_evidence_urls": [
+     "https://www.linkedin.com/in/timothyrobertschulte/ (search snippet)",
+     "https://councilcapital.com/council-capital-team/ (search snippet)",
+     "https://councilcapital.com/team/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://councilcapital.com/news-and-resource/council-capital-elevates-three-key-leaders-to-partner-level/ (search snippet)",
+     "https://www.bluwave.net/podcasts/tim-schulte-council-capital/ (search snippet)",
+     "https://www.crunchbase.com/person/timothy-schulte (search snippet)"
+    ],
+    "stage": "Healthcare services/HCIT private equity and growth (Wikipedia's Bottorff page calls Council Capital a 'private equity and venture capital firm'); not a seed investor",
+    "decision_maker": "unclear",
+    "notes": "Healthcare tech, PE-style firm; his role is operations, not deal-leading. Weak fit for an RL/AI-data seed round. Included because the task asked us to identify 'Tim'."
+   }
+  ],
+  "checked_not_duke": [
+   "Allen Ng (Everest Ventures Group): CUHK and USC per search snippets, no Duke link",
+   "Jonathan Wu (Wings Capital Ventures, HK fintech/AI seed-Series A): Michigan Ross per snippet, no Duke link",
+   "Adrian Li (AC Ventures founder/MP): Cambridge BA/MA, Stanford GSB MBA, no Duke link",
+   "Donald Wihardja (Convergence Ventures co-founder, now CEO of MDI Ventures): UC Berkeley EECS and Cornell MS CS, no Duke link"
+  ],
+  "coverage_notes": "All 22 WebSearch calls were used. All 13 assigned angle queries were run, plus 9 follow-ups. WebFetch to entrepreneurship.duke.edu is blocked by egress, so the full 2024 International Women's Day page could not be read. Its snippets surfaced only names already on the exclusion list (Cassie Young, Lori Cashman, Kerry Rupp, Lindy Morris Fishburne, Katelyn Donnelly, Sydney Thomas, Mark Peter Davis).\n\nDuke alumni found but out of scope (not seed/Series A VC):\n- Ken Manning BSE'85/MBA'90: Managing Partner at Hughes & Company, a lower-middle-market healthcare software PE/growth-equity and buyout firm.\n- Linh Tran BS'99/MBA'06: co-founder and Managing Partner at Apex Fund Group, a search-fund/ETA minority equity and private debt investor.\n- Kerstin Dittmar '06: L2 Point Management, late-stage structured equity.\n- Alex Kovacevic MBA'18: Blue Tye, a PE consulting and operations practice.\n- Johannes Zwick MBA'13: Broadtree Partners, Charlotte PE.\n\nOther results:\n- The Duke Chronicle 2025-2026 search found no stories about alumni launching funds.\n- The Duke Magazine search turned up only people already found (Carmichael Roberts, Ted Wang, David Beisel).\n- The Fuqua search turned up only Gregg Bordes, Doug Brown, Gonzalo Costa and Yi Shi (all excluded) and Larry Gladstone (see leads).\n- The Chinese-language search and the Singapore/Hong Kong 'founding partner' search found no new Duke-verified early-stage investors.\n- The Convergence/AC Ventures founders checked so far are not Duke alumni.",
+  "leads_not_checked": [
+   "Larry Gladstone (Fuqua MBA '94): a Fuqua snippet says he 'was' a General Partner at Kitty Hawk Capital (Charlotte VC) and led healthcare M&A at Marks Baughan. His current investing role was not verified.",
+   "Neil Shen (HongShan/Sequoia China): a Sohu article calls him Duke MBA '92, which is likely wrong (commonly reported as Yale SOM). Not verified, and a multi-stage mega-fund is a poor fit anyway.",
+   "Michael Soerijadji and Pandu Sjahrir (AC Ventures co-founders via Agaeti): no Duke check was run.",
+   "Blair Duncan (Convergence Ventures co-founder): no Duke check was run."
+  ],
+  "budget_exhausted": true,
+  "searches_used": 22
+ }
+]
