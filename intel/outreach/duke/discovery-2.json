@@ -1,0 +1,615 @@
+[
+ {
+  "angle": "angels-solo-gps",
+  "candidates": [
+   {
+    "name": "Jake Flomenberg",
+    "firm": "Wing Venture Capital",
+    "title": "Partner",
+    "location": "Not confirmed (Wing has Bay Area and New York offices)",
+    "duke_degree": "BSE, Duke University (Electrical & Computer Engineering, Computer Science, Economics)",
+    "grad_year": null,
+    "grad_year_basis": "inferred: joined Accel as Principal around 2012 after product roles at Splunk/Cloudera, a Penn master's in systems engineering and an HBS MBA, so the Duke BSE is well before 2018",
+    "duke_evidence_urls": [
+     "https://www.wing.vc/people/jake-flomenberg (search snippet)",
+     "https://www.vcsheet.com/who/jake-flomenberg (search snippet)",
+     "https://signal.nfx.com/investors/jake-flomenberg (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.wing.vc/people/jake-flomenberg (search snippet)",
+     "https://signal.nfx.com/investors/jake-flomenberg (search snippet)",
+     "https://www.prnewswire.com/news-releases/jake-flomenberg-and-nick-mehta-join-accel-partners-as-principal-and-eir-164745306.html (search snippet)"
+    ],
+    "stage": "Early stage (seed / Series A), enterprise and AI",
+    "decision_maker": "yes",
+    "notes": "Very strong fit: invests in AI infrastructure, foundation models, physical AI, data platforms and security. He was a Partner at Accel until 2018 (Demisto, Sumo Logic)."
+   },
+   {
+    "name": "Rob Go",
+    "firm": "NextView Ventures",
+    "title": "Co-founder & Partner",
+    "location": "Boston, MA",
+    "duke_degree": "BS Economics, Duke University (magna cum laude); MBA from Harvard Business School",
+    "grad_year": null,
+    "grad_year_basis": "inferred: co-founded NextView in 2010 after Spark Capital and an HBS MBA, so the Duke BS is well before 2018",
+    "duke_evidence_urls": [
+     "https://nextview.vc/team/rob-go/ (search snippet)",
+     "https://robgo.org/about-me/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://nextview.vc/team/rob-go/ (search snippet)",
+     "https://www.bostonglobe.com/tech-power-players/year/2023/person/rob-go-nextview-ventures/ (search snippet)",
+     "https://signal.nfx.com/investors/rob-go (search snippet)"
+    ],
+    "stage": "Seed",
+    "decision_maker": "yes",
+    "notes": "Seed investor in software that changes the end-user experience (consumer, vertical SaaS, marketplaces, digital health). Only a moderate fit for AI-infrastructure or RL work."
+   },
+   {
+    "name": "David Cummings",
+    "firm": "Atlanta Ventures (also Atlanta Tech Village)",
+    "title": "Founder and CEO, Atlanta Ventures",
+    "location": "Atlanta, GA",
+    "duke_degree": "BS Economics, Duke University",
+    "grad_year": null,
+    "grad_year_basis": "inferred: founded Pardot (sold to ExactTarget for $95M) and other companies long before 2018",
+    "duke_evidence_urls": [
+     "https://davidcummings.org/about/ (search snippet)",
+     "https://www.crunchbase.com/person/david-cummings (search snippet)",
+     "https://superscout.co/hub/duke (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.crunchbase.com/person/david-cummings (search snippet)",
+     "https://www.atltechhub.com/people-profiles/david-cummings (search snippet)",
+     "https://www.dogwood.vc/team/david-cummings (search snippet)"
+    ],
+    "stage": "Pre-seed / seed (Atlanta Ventures); prolific operator-angel",
+    "decision_maker": "yes",
+    "notes": "B2B SaaS operator-angel (Pardot, SalesLoft founder; lead investor in Calendly; 25+ startups). He funds Duke undergrad entrepreneur grants. He also appears on dogwood.vc's team page; downstream should check that role. Moderate fit for AI/data."
+   },
+   {
+    "name": "Ashley Flucas",
+    "firm": "Flucas Ventures (AngelList syndicate); Venture Partner, Gaingels Syndicate",
+    "title": "Founder & General Partner, Flucas Ventures",
+    "location": "West Palm Beach, FL",
+    "duke_degree": "Graduate of Duke University (degree not stated in snippet); JD from Harvard Law School",
+    "grad_year": null,
+    "grad_year_basis": "unknown; likely before 2018 because she finished Harvard Law after Duke, is a partner at a $3B real-estate finance fund (Jupiter) and has been angel investing since 2018, but no year is stated",
+    "duke_evidence_urls": [
+     "https://upside.fm/flucas-ventures/ (search snippet)",
+     "https://www.rho.co/blog/angel-investors-for-ai (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://signal.nfx.com/investors/ashley-flucas (search snippet)",
+     "https://upside.fm/flucas-ventures/ (search snippet)",
+     "https://wellfound.com/p/flucas-post-harvard-edu (search snippet)"
+    ],
+    "stage": "Pre-seed to Series A (syndicate of about 2,000 LPs; 200+ startups)",
+    "decision_maker": "yes",
+    "notes": "Good fintech/data fit: 250+ deals including Databricks, Brex, Mercury, AngelList and Qonto, and rho.co lists her as an AI angel. Her syndicate is a quick route to many LPs."
+   },
+   {
+    "name": "Kathryn Minshew",
+    "firm": "The Muse (CEO); XFactor Ventures; personal angel investing",
+    "title": "Angel investor; Operating Partner, XFactor Ventures (CEO & co-founder, The Muse)",
+    "location": "New York, NY",
+    "duke_degree": "BA Political Science & French, Duke University",
+    "grad_year": null,
+    "grad_year_basis": "inferred: worked at the Clinton Health Access Initiative and McKinsey before co-founding The Muse in about 2011, so before 2018",
+    "duke_evidence_urls": [
+     "https://en.wikipedia.org/wiki/Kathryn_Minshew (search snippet)",
+     "https://www.linkedin.com/in/kathryn-minshew/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://kathryn-minshew-website.squarespace.com/investments (search snippet)",
+     "https://pitchbook.com/profiles/investor/226069-48 (search snippet)"
+    ],
+    "stage": "Angel / pre-seed (XFactor positions itself as the 'first check' for female-founded startups)",
+    "decision_maker": "yes",
+    "notes": "Operator-angel with about 88% of checks in female-founded companies, mostly in HR/future-of-work. Weak fit for AI/quant unless SimReal has a female founder."
+   },
+   {
+    "name": "Lisa Burton O'Toole",
+    "firm": "HearstLab",
+    "title": "Vice President (per podcast/vcsheet; current title unverified)",
+    "location": "Not confirmed (HearstLab is New York-based)",
+    "duke_degree": "BSE Mechanical Engineering, Duke Pratt (E'07); later MS/PhD at MIT",
+    "grad_year": 2007,
+    "grad_year_basis": "stated: \"Lisa Burton O'Toole (E'07) studied mechanical engineering as an undergraduate at Duke\"",
+    "duke_evidence_urls": [
+     "https://pratt.duke.edu/news/dukengineer-2022-lisa-burton-otoole/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.vcsheet.com/who/lisa-burton-o-toole (search snippet)",
+     "https://globalventuring.com/corporate/awards/emerging-leaders-2024-lisa-burton-otoole-hearstlab/ (search snippet)",
+     "https://podcasts.apple.com/us/podcast/ep-6-lisa-burton-otoole-vp-hearstlab/id1582662468?i=1000536699863 (search snippet)"
+    ],
+    "stage": "Pre-seed / seed, women-led startups only (corporate VC)",
+    "decision_maker": "unclear",
+    "notes": "MIT PhD in data-driven modeling and machine learning, so strong on the technical side. HearstLab only backs women-led B2B startups in media, data, health and tech."
+   },
+   {
+    "name": "Steve Pagliuca",
+    "firm": "Personal investment (backer of Liquid AI); main career at Bain Capital, title not verified in this pass",
+    "title": "Investor / backer of Liquid AI (per snippet); current firm title not verified",
+    "location": "Not confirmed (likely Boston)",
+    "duke_degree": "Duke alum (degree not stated in snippet)",
+    "grad_year": null,
+    "grad_year_basis": "unknown",
+    "duke_evidence_urls": [
+     "https://superscout.co/hub/duke (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://superscout.co/hub/duke (search snippet)"
+    ],
+    "stage": "Personal angel/seed participation (Liquid AI); his main firm is PE/buyout",
+    "decision_maker": "unclear",
+    "notes": "Liquid AI builds foundation models, which fits SimReal well. But his main role is PE/buyout, so verify that he makes personal early-stage AI investments before including him."
+   },
+   {
+    "name": "Melinda French Gates",
+    "firm": "Pivotal Ventures",
+    "title": "Founder",
+    "location": "Seattle / Kirkland, WA",
+    "duke_degree": "BS Computer Science, Duke University; MBA, Duke Fuqua School of Business",
+    "grad_year": null,
+    "grad_year_basis": "inferred: served as a Duke trustee from 1996 to 2004, so she graduated well before 2018",
+    "duke_evidence_urls": [
+     "https://100.duke.edu/story/melinda-french-gates/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.vcsheet.com/fund/pivotal-ventures (search snippet)",
+     "https://fortune.com/2023/11/14/melinda-french-gates-pivotal-ventures-strategy-investments-portfolio (search snippet)"
+    ],
+    "stage": "Invests in women-led VC funds and early-stage women-founded companies (social-progress mandate)",
+    "decision_maker": "unclear",
+    "notes": "Weak fit: Pivotal invests for social impact and mostly through funds, and she is very hard to reach by cold email. Include only if SimReal has a female founder."
+   }
+  ],
+  "checked_not_duke": [
+   "Hayley Barna (First Round Capital): Harvard BA economics and HBS MBA, no Duke link",
+   "Semil Shah (Haystack): University of Michigan BA and Harvard master's, no Duke link",
+   "Rex Salisbury (Cambrian Ventures): Davidson College BA, no Duke link found",
+   "Phin Barnes (TheGP): Haverford and Wharton, no Duke link",
+   "Andy Weissman (USV): Wesleyan BA and Georgetown JD, no Duke link",
+   "Sheel Mohnot and Jake Gibson (Better Tomorrow Ventures): a targeted search found no Duke link (not confirmed either way)",
+   "Seth Levine (Foundry Group): a targeted search found no Duke link",
+   "Suzanne Ashman (ex-LocalGlobe/Latitude, managing partner of the UK Sovereign AI Fund): appeared in a 'graduated from Duke' search, but a follow-up search showed no Duke link",
+   "Blake Goodner (Trinity '96): Duke alum but a hedge fund manager (public markets), excluded",
+   "Juan Pablo Cappello (Duke AB 1989): described as a venture-capital lawyer who co-founded Private Advising Group; no current investing decision role found (old Duke article)"
+  ],
+  "coverage_notes": "I ran all the angle queries and gave each memory lead one search. Memory leads confirmed as Duke and kept: Rob Go, Jake Flomenberg, Kathryn Minshew and Melinda French Gates. Dropped as not Duke or no Duke link found: Barna, Semil Shah, Salisbury, Phin Barnes, Weissman, Mohnot/Gibson. The generic queries ('solo GP Duke', 'pre-seed fund' / 'debut fund' launches, AngelList syndicate, Duke Magazine/Chronicle) mostly returned Duke Capital Partners pages and the already-known Kevin King / 53 Stations. They did surface David Cummings, Ashley Flucas, Lisa Burton O'Toole and Steve Pagliuca. The Duke I&E Network news page (entrepreneurship.duke.edu) probably lists alumni fund launches, but WebFetch to it is blocked by the egress proxy. All evidence comes from search snippets; nothing was read in full. Best fits for SimReal: Flomenberg (AI infra / foundation models), Flucas (fintech/data syndicate), Cummings (operator-angel), Rob Go (seed).",
+  "leads_not_checked": [
+   "Kate Sampson (Anthemis, managing director & partner; on the Duke FinTech advisory board): Duke alumna status not verified",
+   "Evan Schnidman (fintech/data/AI investor; Prattle founder; surfaced in Duke FinTech advisory-board results): Duke link not verified",
+   "Charlie O'Donnell (Brooklyn Bridge Ventures, solo GP): memory-only lead, not searched",
+   "Member investors named in the Duke Capital Partners article '10 Years, 60 Startups, $105 Million' (today.duke.edu/2025/03/...): not mined",
+   "Duke I&E Network in the News page (entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/): fetch blocked; may list alumni GPs and fund launches",
+   "Suzanne Ashman: Duke link unconfirmed, but she is relevant to UK-founded SimReal as managing partner of the UK Sovereign AI Fund; worth one more verification search on her education"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 27
+ },
+ {
+  "angle": "fuqua-law-grad",
+  "candidates": [
+   {
+    "name": "Salman Azhar",
+    "firm": "Duke Angel Network (Duke Innovation & Entrepreneurship)",
+    "title": "Managing Director",
+    "location": "Durham, NC",
+    "duke_degree": "PhD in Computer Science, Duke University (also MS in Computer Science, Duke); James B. Duke Fellow",
+    "grad_year": 1994,
+    "grad_year_basis": "stated: snippet says 'PhD in Computer Science from Duke University (1990-1994), as well as an MS in Computer Science from Duke University (1987-1990)'",
+    "duke_evidence_urls": [
+     "https://scholars.duke.edu/person/azhar (search snippet)",
+     "https://www.crunchbase.com/person/salman-azhar (search snippet)",
+     "https://archive.entrepreneurship.duke.edu/news-item/salman-alzar-to-become-managing-director-of-duke-angel-network/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://archive.entrepreneurship.duke.edu/news-item/salman-alzar-to-become-managing-director-of-duke-angel-network/ (search snippet)",
+     "https://www.crunchbase.com/person/salman-azhar (search snippet)",
+     "https://www.thehowslife.com/e/salman-azhar-duke-professor-involved-in-120-startups/ (search snippet)",
+     "https://www.fuqua.duke.edu/faculty/salman-azhar (search snippet)"
+    ],
+    "stage": "angel / pre-seed / seed (Duke-affiliated startups)",
+    "decision_maker": "yes",
+    "notes": "Duke CS PhD and Fuqua adjunct who has built software systems; advisor, co-founder or investor in 120+ startups, so a good fit for an AI/RL-infra pitch. He was named MD of Duke Angel Network in May 2018; confirm he still holds the role in 2026."
+   },
+   {
+    "name": "Yi Shi",
+    "firm": "Lilly Asia Ventures (LAV)",
+    "title": "Managing Partner",
+    "location": "Asia (China); exact city not confirmed",
+    "duke_degree": "Fuqua MBA (Class of 1999 per Fuqua alumni ambassador page)",
+    "grad_year": 1999,
+    "grad_year_basis": "stated: Fuqua alumni ambassador page lists 'Class of 1999'",
+    "duke_evidence_urls": [
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/yi-shi (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/yi-shi (search snippet)"
+    ],
+    "stage": "healthcare / life-sciences venture, multi-stage including early-stage",
+    "decision_maker": "yes",
+    "notes": "Healthcare/biotech VC in Asia affiliated with Eli Lilly. Little AI, quant or fintech relevance, so a low-priority fit for SimReal unless he invests in AI-for-bio data."
+   },
+   {
+    "name": "Cari Coats",
+    "firm": "venVelo and FireSpring Fund (board director); Accendo Leadership Advisory Group (co-founder & managing partner)",
+    "title": "Director on the boards of venVelo and FireSpring Fund (early-stage venture funds)",
+    "location": "Orlando / Central Florida",
+    "duke_degree": "Duke Global Executive MBA (Fuqua)",
+    "grad_year": 2003,
+    "grad_year_basis": "stated: snippet says she was a graduate of the Duke Global Executive MBA program, class of 2003",
+    "duke_evidence_urls": [
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/cari-coats (search snippet)",
+     "https://www.accendoleader.com/wp-content/uploads/2017/02/Cari-Coats-bio.pdf (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/cari-coats (search snippet)",
+     "https://www.accendoleader.com/about-new/ (search snippet)",
+     "https://foundersuite.com/firms/firespring-fund (search snippet)"
+    ],
+    "stage": "early-stage (Florida / Southeast funds)",
+    "decision_maker": "unclear",
+    "notes": "A fund board seat may or may not mean an investment-committee vote, so her decision power needs checking. She is a generalist, not an AI or quant specialist. Also executive-in-residence for entrepreneurship at Rollins Crummer."
+   }
+  ],
+  "checked_not_duke": [
+   "Dan Rosen (Commerce Ventures, fintech GP): BS Penn/Wharton and MBA Harvard, no Duke degree found",
+   "Zachary Bogue (DCVC co-founder): Harvard BA and Georgetown JD, no Duke degree",
+   "Grant Newlin (Newlin.vc founder): Fuqua MBA, but he blogged as a current student in 2021, which points to graduating around 2022 and fails the 2018-or-earlier rule",
+   "Todd Creech (HealthQuest Capital partner, Fuqua alumni ambassador): firm describes itself as a 'venture growth' fund, likely growth-stage and out of scope (not confirmed)"
+  ],
+  "coverage_notes": "I ran all 27 allowed searches and found 3 new candidates: Salman Azhar, Yi Shi and Cari Coats. Broad queries (Fuqua/Duke Law/Pratt MEM/PhD plus GP, managing partner or founding partner) mostly returned Duke-owned pages (Fuqua blogs, EVCC, Duke Capital Partners, Towerview) or people already found. Those already-found people were Crowder, Mancini, Bordes, Shah, Costa, Fernandez, Felser, Kraynak, Kevin King, Ali Byrd, Greg Baker, Kurt Schmidt and Dave Neal. Blocking duke.edu did not help much. The most useful source was the Fuqua 'alumni ambassadors' pages (fuqua.duke.edu/student-network/alumni-ambassadors/<name>), which give class year and current role. Several ambassador profiles came up whose roles I did not see, so they are worth a sweep downstream. Name searches based on memory leads (Dan Rosen, Zachary Bogue) found no Duke degree. I found nothing usable for Duke Law JD general partners, Pratt MEM alumni, or Weekend/Global Executive MBA angels beyond Cari Coats. Searching law.duke.edu 'Class Notes' and 'People on the Move' pages one at a time looks like a better way to find Duke Law alumni in VC.",
+  "leads_not_checked": [
+   "Squire J. Servance (Duke Law JD '08): law.duke.edu says founder and managing partner of Syridex Bio; need to check whether Syridex is an investing / venture-creation firm (law.duke.edu people-on-the-move / class-notes pages)",
+   "Nikhil Mittal (BlueRidge Ventures, AI-native pre-seed fund sourcing from Duke alumni and the Research Triangle): Duke degree and year unknown (govclab.com 2026 emerging funds list)",
+   "Fuqua alumni ambassadors whose roles I did not see: Pallavi Kathuria, Laurie Gomer, Cary Nordan, John Healey (fuqua.duke.edu/student-network/alumni-ambassadors/...)",
+   "Fuqua Alumni Council full member list (fuqua.duke.edu/alumni/volunteer/alumni-board/alumni-council-members/all): may include VC partners",
+   "Duke Capital Partners team page (dukecapitalpartners.duke.edu/team/): venture partners other than Kurt Schmidt and Dave Neal not reviewed",
+   "Fuqua Sustainable Impact Student Investment Fund advisors (case.fuqua.duke.edu/fuqua-impact-fund/): Fuqua MBA classes 1986-2019, some may be early-stage impact VCs",
+   "Duke Alumni in Impact Investing page (case.fuqua.duke.edu/duke-alumni-in-impact-investing/)",
+   "Fuqua Private Capital Club alumni panel / PEVC conference speakers (dukefuquaprivatecapital.com, fuquapevc.com)",
+   "FinTech Collective team (fintech.io/ourteam): came up for a Duke/Fuqua fintech query; no Duke link confirmed",
+   "Melinda French Gates (Fuqua MBA '87, Pivotal Ventures): memory-only lead, never searched; Pivotal is an investment and incubation company, probably out of scope"
+  ],
+  "budget_exhausted": false,
+  "searches_used": 27
+ },
+ {
+  "angle": "diverse-investors",
+  "candidates": [
+   {
+    "name": "Kerry Rupp",
+    "firm": "True Wealth Ventures",
+    "title": "General Partner",
+    "location": "Austin, TX (True Wealth Ventures HQ; not separately verified)",
+    "duke_degree": "BS Biology, Duke University (undergrad)",
+    "grad_year": null,
+    "grad_year_basis": "inferred: Harvard Business School MBA 1999 per Wikipedia snippet, so Duke undergrad was well before 2018 (exact year not stated)",
+    "duke_evidence_urls": [
+     "https://en.wikipedia.org/wiki/Kerry_Rupp_(businesswoman) (search snippet)",
+     "https://archive.entrepreneurship.duke.edu/associate/kerry-rupp/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://truewealthvc.com/about-us/ (search snippet)",
+     "https://www.crunchbase.com/person/kerry-rupp (search snippet)",
+     "https://www.wbl.org/february-member-spotlight-featuring-true-wealth-ventures-kerry-rupp/ (search snippet)"
+    ],
+    "stage": "Early-stage (seed / Series A) fund for women-led companies",
+    "decision_maker": "yes",
+    "notes": "Women-led environmental and human-health deals, so little AI/quant overlap. Former CEO of the DreamIt accelerator (2010-2015). Joined True Wealth in 2016."
+   },
+   {
+    "name": "Sydney Thomas",
+    "firm": "Symphonic Capital",
+    "title": "Founder and General Partner",
+    "location": "San Diego, CA (covered by San Diego Business Journal; check whether this is her base)",
+    "duke_degree": "BA Public Policy, Duke University (Trinity); MBA from UC Berkeley Haas",
+    "grad_year": 2010,
+    "grad_year_basis": "stated: Duke I&E lists her as \"Sydney Thomas '10 is the founder and general partner of Symphonic Capital\"",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+     "https://yespress.io/sydney-thomas (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://sdbj.com/finance/venture-capital/symphonic-launches-13-5m-inaugural-fund/ (search snippet)",
+     "https://www.symphoniccapital.com/about (search snippet)",
+     "https://www.thehouse.fund/team/sydney-thomas (search snippet)"
+    ],
+    "stage": "Pre-seed / seed. $13.5M debut fund closed in 2025",
+    "decision_maker": "yes",
+    "notes": "Thesis is companies 'making life better for the 99%', which includes fintech and financial health (she was formerly at the Financial Health Network). Previously at Precursor Ventures, The House Fund and NextGen Venture Partners. Bank of America is an LP."
+   },
+   {
+    "name": "Lindy Morris Fishburne",
+    "firm": "Breakout Ventures",
+    "title": "Founding Managing Partner",
+    "location": "not verified (likely SF Bay Area)",
+    "duke_degree": "Duke undergrad (class year '92 per Duke I&E)",
+    "grad_year": 1992,
+    "grad_year_basis": "stated: Duke I&E lists \"Lindy Morris Fishburne '92 is founding managing partner of Breakout Ventures\"",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "stage": "Early-stage science / deep tech (seed to Series A; verify)",
+    "decision_maker": "yes",
+    "notes": "Has invested over $200M in founder-led companies commercializing scientific breakthroughs in human health and sustainability. Deep-tech fit, but no direct AI or quant focus found. Role evidence so far comes only from the Duke page."
+   },
+   {
+    "name": "Lisa Blau",
+    "firm": "_able Partners (stylized \"__able Partners\")",
+    "title": "Founding Partner",
+    "location": "not verified",
+    "duke_degree": "Duke undergrad (class year '97 per Duke I&E)",
+    "grad_year": 1997,
+    "grad_year_basis": "stated: Duke I&E lists \"Lisa Blau '97 is a founding partner of __able Partners\"",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "stage": "Early-stage health and wellness VC (70+ portfolio companies)",
+    "decision_maker": "yes",
+    "notes": "Consumer health and wellness focus with over 60% female founders, so little AI/quant overlap. The firm name's exact spelling needs checking."
+   },
+   {
+    "name": "Camille Samuels",
+    "firm": "Venrock",
+    "title": "Partner",
+    "location": "not verified",
+    "duke_degree": "Duke undergrad (class year '93 per Duke I&E)",
+    "grad_year": 1993,
+    "grad_year_basis": "stated: Duke I&E lists \"Camille Samuels '93 is a partner at Venrock\"",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "stage": "Early-stage biotech / healthcare",
+    "decision_maker": "yes",
+    "notes": "Biotech investor (Kythera, RegenXBio, Corvidia, Cavalry), so a weak fit for an AI/RL pitch. Check whether she is still active at Venrock in 2026."
+   },
+   {
+    "name": "Adelina Dasso",
+    "firm": "Accion Impact Management",
+    "title": "Partner for Latin America",
+    "location": "not verified (Latin America focus)",
+    "duke_degree": "MBA, Duke Fuqua",
+    "grad_year": 2016,
+    "grad_year_basis": "stated: Duke I&E lists \"Adelina Dasso MBA '16, Partner for Latin America at Accion Impact Management\"",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)"
+    ],
+    "stage": "Inclusive-fintech impact investing (stage of her fund vs. Accion Venture Lab seed fund not verified)",
+    "decision_maker": "unclear",
+    "notes": "Strong fintech relevance (Accion invests in inclusive fintech). Still need to confirm her current role and the stage of the vehicle she invests from."
+   },
+   {
+    "name": "Uriridiakoghene \"Ulili\" Onovakpuri",
+    "firm": "Motley Fool Ventures (current, title unconfirmed); formerly Kapor Capital",
+    "title": "Former Managing Partner, Kapor Capital (left May 2025); now investing with Motley Fool Ventures",
+    "location": "not verified (Kapor is Oakland, CA)",
+    "duke_degree": "MBA, Duke Fuqua (Health Sector Management concentration)",
+    "grad_year": null,
+    "grad_year_basis": "inferred: she joined Kapor Capital as principal 'more than a decade ago' (TechCrunch, May 2025), so the Fuqua MBA is before about 2015",
+    "duke_evidence_urls": [
+     "https://www.kpihp.org/bio/uriridiakoghene-ulili-onovakpuri-mba/ (search snippet)",
+     "https://pitchbook.com/news/articles/28-black-founders-and-investors-making-an-impact-in-tech (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://techcrunch.com/2025/05/07/kapor-capitals-managing-partner-ulili-onovakpuri-is-leaving-the-firm/ (search snippet)",
+     "https://signal.nfx.com/investors/ulili-onovakpuri (search snippet)",
+     "https://fresco.vc/bio/ulili-onovakpuri/ (search snippet)"
+    ],
+    "stage": "Formerly seed/Series A at Kapor (co-raised the $126M Fund III); Motley Fool Ventures backs scaling startups with $1M+ ARR",
+    "decision_maker": "unclear",
+    "notes": "Black woman investor, formerly a seed decision maker. Her current title and check stage at Motley Fool Ventures need confirming. Health and equity tech background, so limited AI/quant overlap."
+   },
+   {
+    "name": "Padowithz \"Pad\" Alce",
+    "firm": "Duke Capital Partners (formerly Duke Angel Network) angel investor; Founding Partner, AI Patent Law",
+    "title": "Angel Investor (Duke Angel Network / Duke Capital Partners); Founding Partner, AI Patent Law (law firm)",
+    "location": "Charlotte, NC",
+    "duke_degree": "LLM in Law & Entrepreneurship, Duke Law",
+    "grad_year": null,
+    "grad_year_basis": "unknown: the Duke I&E profile title says 'LLM '01', but his Campbell Law JD is from 2010, so the Duke LLM year is unclear (probably 2011 or later; not confirmed to be 2018 or earlier)",
+    "duke_evidence_urls": [
+     "https://entrepreneurship.duke.edu/profile/padowithz-pad-alce-llm-01/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.forgeup.vc/founders/4/ (search snippet)",
+     "https://www.aipatentlaw.com/meet-our-people/ (search snippet)",
+     "https://blogs.campbell.edu/campbell-law-45th-anniversary-alumni-spotlight-pad-alce-10/ (search snippet)"
+    ],
+    "stage": "Angel (Duke Angel Network / Duke Capital Partners syndicate)",
+    "decision_maker": "unclear",
+    "notes": "High AI relevance: he has secured patents for 100+ ML/AI inventions and lectures on AI entrepreneurship. His angel activity seems modest, and his firm is a law firm, not a fund."
+   }
+  ],
+  "checked_not_duke": [
+   "Frederik Groce (BLCK VC co-founder, ex-Storm Ventures, now Wellington): Stanford, no Duke tie found",
+   "Lan Xuezhao (Basis Set Ventures): University of Michigan MA/PhD, no Duke tie",
+   "Dayna Grayson (Construct Capital): UVA BS and HBS MBA; one aggregator mentions Fuqua, probably exec-ed or spurious and not supported",
+   "Kesha Cash (Impact America Fund): UC Berkeley and Columbia MBA, no Duke tie",
+   "Kobie Fuller (Upfront Ventures): Harvard AB, no Duke tie",
+   "Allison Baum Gates (SemperVirens): Harvard BA, no Duke tie",
+   "Jennifer Neundorfer (January Ventures): Harvard BA and Stanford MBA, no Duke tie",
+   "Anu Duggal (Female Founders Fund): Vassar and LBS, no Duke tie",
+   "Susannah Duke (Pelion, Kauffman Fellow): BYU; 'Duke' is only her surname",
+   "Michelle Egger MBA '20 (Xfactor Ventures investment partner): Duke grad year after 2018",
+   "Kerstin Dittmar '06 (L2 Point Management): Duke alumna, but the firm does late-stage structured equity (growth), so excluded",
+   "Meranee Phing Naaman '98 (The Riverside Company): Duke alumna, but private-equity/buyout, so excluded",
+   "Sima Sistani T'01: Duke alumna and operator (Houseparty, WeightWatchers); no fund or active angel role found",
+   "Lori Cashman: Duke PPS '94 (Victress Capital / Visible Ventures) surfaced again but is already found"
+  ],
+  "coverage_notes": "I used all 27 searches. The best source was the Duke I&E '#InternationalWomensDay 2024' spotlight of 34 Duke women who direct capital (entrepreneurship.duke.edu). That domain is blocked for direct fetch, so I could only pull names from snippets with targeted queries. Many of its 34 names are still unextracted and are the best next lead. Several candidates (Fishburne, Blau, Samuels, Dasso) rest only on that Duke page for role evidence and need a separate check of current role, stage and location. Searching firm team pages for Duke (Female Founders Fund, MaC Venture Capital) and the BLCK VC and Kauffman Fellow queries turned up no Duke alumni. Most memory leads for URM and women GPs (Groce, Cash, Fuller, Grayson, Baum Gates, Neundorfer, Xuezhao) turned out not to be Duke. Cassie Young '05 and Katelyn Donnelly '08 also appear on the Duke page but were already found.",
+  "leads_not_checked": [
+   "Rest of the 34 women in the Duke I&E IWD 2024 spotlight (https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/); fetch is blocked, so only part was extracted",
+   "Duke I&E 'Spotlighting Innovative Duke Scholars for #InternationalWomensDay 2022' page",
+   "BlueRidge Ventures: listed by VC Lab as backing AI-native US founders at pre-seed, sourced from Duke alumni. GP names unknown; strong AI fit (https://govclab.com/2026/07/23/emerging-venture-capital-funds-to-invest-in/)",
+   "Chief in Tech Capital (women-led, AI-native founders): Duke tie of GPs unknown",
+   "June Almenoff MD PhD: Duke Capital Partners 'Investor Spotlight'; biopharma angel; Duke degree type and stage unverified",
+   "Courtney Ellenbogen B.S.'13: has a Duke I&E profile; investing role unknown",
+   "Duke Magazine story 'Investing in Relationships' (https://dukemag.duke.edu/stories/investing-relationships): subject unknown",
+   "Team pages + Duke not searched: Cleo Capital (Sarah Kunst), Precursor Ventures, Plexo Capital, Base10, Harlem Capital, Backstage Capital",
+   "Kelli N. Jones (Sixty8 Capital), Erica Duignan Minnihan (Reign Ventures), Gayle Jennings O'Byrne (Maya Ventures): surfaced in a Duke-phrased query, but no Duke tie shown",
+   "Memory-only leads, not searched: Nicole Stata (Boston Seed Capital), Jenny Abramson (Rethink Impact), Lauren Kolodny (Acrew Capital, fintech), Eva Ho (Fika), Nisha Dua (BBG Ventures), Shruti Gandhi (Array Ventures)"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 27
+ },
+ {
+  "angle": "asia-china",
+  "candidates": [
+   {
+    "name": "Yi Shi",
+    "firm": "Lilly Asia Ventures (LAV)",
+    "title": "Managing Partner (has led the fund since it was founded in 2008, per a Fuqua snippet)",
+    "location": "China / Asia. The snippet says LAV invests in Asian healthcare, mainly China. City not confirmed (LAV is believed to have offices in Shanghai and Hong Kong; needs checking)",
+    "duke_degree": "Duke Fuqua Daytime MBA",
+    "grad_year": 1999,
+    "grad_year_basis": "stated: Fuqua alumni-ambassador page and Fuqua 'Asia / China' story say he graduated from the Daytime MBA program in the class of 1999",
+    "duke_evidence_urls": [
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/yi-shi (search snippet)",
+     "https://www.fuqua.duke.edu/alumnus-finds-how-preparation-can-unlock-success (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.fuqua.duke.edu/alumnus-finds-how-preparation-can-unlock-success (search snippet)",
+     "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/yi-shi (search snippet)"
+    ],
+    "stage": "Healthcare and biotech VC, early stage through growth. Originally backed by Eli Lilly, now independent",
+    "decision_maker": "yes",
+    "notes": "Founding managing partner of a large China biotech VC firm. The focus is healthcare, so AI/quant fit is low unless the pitch is AI-for-biotech. Strong Duke tie (Fuqua alumni ambassador)."
+   },
+   {
+    "name": "Joe Wu",
+    "firm": "MFund LP (Crunchbase lists him as Founding Partner at Magic Capital, possibly the same or a successor vehicle)",
+    "title": "Founding Partner",
+    "location": "China (city not confirmed)",
+    "duke_degree": "Master's from Duke University, 2004. A Fuqua snippet calls him an 'MBA '04 graduate who founded MFund'",
+    "grad_year": 2004,
+    "grad_year_basis": "stated: 'earned his Master's degree from Duke University in 2004' (DKU alumni-story / Aspen Institute snippet). Fuqua snippet: 'Joe Wu, an MBA '04 graduate'",
+    "duke_evidence_urls": [
+     "https://alumni.dukekunshan.edu.cn/alumni-story/joe-wu-seek-what-matters-most-and-luck-will-find-you/ (search snippet)",
+     "https://www.aspeninstitute.org/people/joe-wu/ (search snippet)",
+     "https://www.fuqua.duke.edu/alumnus-finds-how-preparation-can-unlock-success (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.aspeninstitute.org/people/joe-wu/ (search snippet)",
+     "https://www.crunchbase.com/person/joe-wu-aca4 (search snippet)"
+    ],
+    "stage": "Early stage: new internet business models, technologies and internet applications",
+    "decision_maker": "yes",
+    "notes": "Former CEO of 91 Wireless (sold to Baidu for $1.9B in 2013) and former CFO of NetDragon (Hong Kong IPO 2007). Tech/internet early-stage investor with RMB-ecosystem ties, so moderate fit for AI infrastructure. Verify the MFund vs Magic Capital naming and whether he is still active. His Duke degree is from 2004, years before DKU opened in 2014, so the DKU exclusion should not apply; the DKU page is an alumni story."
+   }
+  ],
+  "checked_not_duke": [
+   "Duane Kuang (Qiming): degrees are Berkeley MBA, Stanford MS CS and Cal State SF BS. Not Duke; Duke appears only as a Qiming LP",
+   "Zhang Ying / David Zhang (Matrix Partners China): Northwestern MS and Cal State SF BS. Not Duke",
+   "Zhang Zhen (Gaorong Capital): Tsinghua bachelor's and master's. Not Duke",
+   "Anna Fang (ZhenFund): Columbia BA 2004 and Stanford MBA 2010. Not Duke",
+   "Chulmin Lee (VIG Partners, Korea): is Duke (Fuqua Daytime MBA 2001, president of the Fuqua Korean Alumni Association), but VIG is a mid-market PE buyout firm, so excluded as not early-stage",
+   "Henry Yin (Loeb & Loeb): Duke Law alumnus, but a corporate lawyer, not an investor"
+  ],
+  "coverage_notes": "The web search budget ran out after 15 searches; the 16th was refused because the session-wide cap of 200 had been reached. Chinese-language queries (\u675c\u514b\u5927\u5b66 / \u5bcc\u5361\u5546\u5b66\u9662 + \u5408\u4f19\u4eba / \u521b\u6295) returned only generic university or Chinese government pages, because the US-only search index does not cover Chinese bios well. Broad English queries on Fuqua/Singapore/Shanghai also returned only generic Fuqua pages. The productive approach was to restrict the domains to fuqua.duke.edu / dukemagazine / law.duke.edu. That found the Fuqua 'Asia / China' alumni story (Yi Shi, Joe Wu) and the Fuqua alumni Q&A series (Chulmin Lee). WebFetch to fuqua.duke.edu is blocked. All three named memory leads (Kuang, Zhang Ying, Zhang Zhen) are not Duke. No searches were run yet for Korea/Seoul, Japan/Tokyo or Singapore people; those regions are uncovered. Downstream agents should mine the Fuqua alumni Q&A index (https://www.fuqua.duke.edu/alumni/connect/alumni-q-a) and the regional Fuqua 'Asia / ...' story pages for more Asia investors.",
+  "leads_not_checked": [
+   "Allen Ng, Founder/CEO of Everest Ventures Group (Hong Kong): came up in a LinkedIn-restricted search for 'Founding Partner Ventures Duke University Hong Kong', but the snippet shows no Duke link. Not verified",
+   "Nicholas Hung, Crusade Partners (Hong Kong?): same LinkedIn-restricted search, no Duke evidence in the snippet",
+   "Jonathan Wu, Founding Partner of Wings Capital Ventures (Hong Kong/SEA fintech VC): showed up in the same search, but no Duke evidence in the snippet",
+   "Convergence Ventures / AC Ventures (Indonesia) founders (Adrian Li, Donald Wihardja): the summary of a Fuqua alumni Q&A search mentioned someone launching Convergence Ventures at the end of 2014, possibly a Fuqua Q&A subject. No name or Duke link confirmed",
+   "Fuqua alumni Q&A index https://www.fuqua.duke.edu/alumni/connect/alumni-q-a and the Fuqua 'Asia / South Korea' page https://www.fuqua.duke.edu/evolution-private-equity-korea may list more Asia investors",
+   "Fuqua 'Asia / China' story https://www.fuqua.duke.edu/alumnus-finds-how-preparation-can-unlock-success may name more China VC alumni beyond Yi Shi and Joe Wu",
+   "Memory-only leads with no search run (Duke connection unknown, so each needs one search before it can be used): Jay Eum (TransLink Capital), Bernard Moon / Jimmy Kim (SparkLabs Korea), Shane Chesson (Openspace Ventures, Singapore), Tuck Lye Koh (Shunwei Capital), Richard Lim (GSR Ventures), Ruby Lu (Atypical Ventures)"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 15
+ },
+ {
+  "angle": "firm-gaps",
+  "candidates": [],
+  "checked_not_duke": [],
+  "coverage_notes": "No searches ran. The first three WebSearch calls (Greycroft, Bain Capital Ventures and First Round Capital, each with \"Duke University\") were all refused because the session-wide web search budget was already spent (200 of 200 calls used). None of these calls returned a result, so I have no candidates. The rules forbid adding names from memory, so the candidate list is empty. To get results, the cap CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION must be raised, then this angle should be rerun as one query per firm. Searching individual names may help for a few memory leads. A downstream agent should verify these, and none are confirmed Duke alumni: Greycroft's leadership (to find the Duke alum theorg mentions), First Round's partners, and Bain Capital Ventures' fintech partners.",
+  "leads_not_checked": [
+   "Greycroft (theorg says a Duke alum is on its leadership team; person not identified)",
+   "Bain Capital Ventures",
+   "First Round Capital",
+   "Floodgate",
+   "Foundation Capital",
+   "Mayfield",
+   "Madrona",
+   "Unusual Ventures",
+   "Pear VC",
+   "Initialized Capital",
+   "Craft Ventures",
+   "Ribbit Capital",
+   "True Ventures",
+   "Baseline Ventures",
+   "SV Angel",
+   "South Park Commons",
+   "Obvious Ventures",
+   "Spark Capital",
+   "GV",
+   "M12",
+   "BoxGroup",
+   "Lerer Hippeau",
+   "RRE Ventures",
+   "Boldstart Ventures",
+   "Work-Bench",
+   "Flybridge",
+   "Inspired Capital",
+   "Tribeca Venture Partners",
+   "Tusk Venture Partners"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 0
+ },
+ {
+  "angle": "fintech-ai-quant-and-leads",
+  "candidates": [],
+  "checked_not_duke": [],
+  "coverage_notes": "I found no candidates. The session's WebSearch budget (200 of 200 calls across the session) was already used up before this angle began. My first three queries all came back with the budget-exhausted notice and no results: Commerce Ventures + Duke, Kate Sampson Anthemis Duke, and BlueRidge Ventures GPs. The task says to stop when this happens, so I did not run any more searches or try WebFetch. Nothing on this angle has been checked. No candidates were added from memory, as the rules require. To continue, the session's search limit (CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION) has to be raised, or this angle has to be run in a fresh session.",
+  "leads_not_checked": [
+   "Commerce Ventures: partners with Duke degrees (search attempted, budget exhausted)",
+   "Clocktower Technology Ventures: Duke alumni partners",
+   "Better Tomorrow Ventures: Duke alumni partners",
+   "Flourish Ventures: Duke alumni partners",
+   "Portage: Duke alumni partners",
+   "Citi Ventures: Duke alumni partners/MDs",
+   "Haun Ventures: Duke alumni partners",
+   "Electric Capital: Duke alumni partners",
+   "Variant: Duke alumni partners",
+   "Dragonfly: Duke alumni partners",
+   "Theory Ventures: Duke alumni partners",
+   "Radical Ventures: Duke alumni partners",
+   "Zetta Venture Partners: Duke alumni partners",
+   "Basis Set Ventures: Duke alumni partners",
+   "Jump Capital: Duke alumni partners",
+   "DRW Venture Capital: Duke alumni partners",
+   "Tower Research Ventures: Duke alumni partners",
+   "Susquehanna (SIG) venture arm: Duke alumni partners",
+   "Query: \"Duke\" \"quant\" \"angel investor\"",
+   "Query: \"Duke\" \"AI infrastructure\" seed investor partner",
+   "Kate Sampson (Anthemis): confirm whether she is a Duke alum (on Duke FinTech MEng advisory board); search attempted, budget exhausted",
+   "Salman Azhar: confirm Duke Angel Network managing director role and Duke degree",
+   "BlueRidge Ventures (pre-seed AI fund drawing on Duke alumni): identify GPs; search attempted, budget exhausted",
+   "Council Capital (Nashville): team member 'Tim' with a Duke BA, needs surname and title",
+   "Duke Venture Community (NYC): organisers who are VCs",
+   "Steve Pagliuca T'77: any early-stage investing vehicle",
+   "Edward Gilhuly T'82: any early-stage investing vehicle",
+   "Point72 Ventures: Duke degrees for Shiv Gidumal, Dennis Xu, Karam Bambawale"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 0
+ }
+]
