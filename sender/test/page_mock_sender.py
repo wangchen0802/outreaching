@@ -177,7 +177,7 @@ class MockSender:
             item = self.status_items.get(slug)
             status = row["status"] if row else item["status"] if item else None
             if status is None:
-                return {"ok": False, "error": "bad_request", "message": "没有这一封。"}
+                return {"ok": False, "error": "bad_request", "message": "队列里没有 %s。" % slug}
             if status in ("queued", "active"):
                 status = "cancelled"
                 if row:
@@ -209,7 +209,7 @@ class MockSender:
         if to in self.suppressed:
             return {"slug": slug, "result": "rejected", "reason": "suppressed"}
         row = self.rows.get(slug)
-        if row and row["status"] != "queued":
+        if row and (row["status"] != "queued" or row.get("sent")):
             return {"slug": slug, "result": "duplicate", "reason": ""}
         result = "updated" if row else "queued"
         self.rows[slug] = {"status": "queued", "msg": m}
@@ -219,7 +219,7 @@ class MockSender:
         if slug in self.status_items:
             return self.status_items[slug]
         row = self.rows[slug]
-        return {"slug": slug, "to": row["msg"].get("to"), "status": row["status"], "step": 0,
+        return {"slug": slug, "to": row["msg"].get("to"), "status": row["status"], "step": row.get("sent") or 0,
                 "total": 1 + len(row["msg"].get("followups") or []), "log": [], "nextAt": None,
                 "outcome": None, "outcomeAt": None, "error": None, "revision": row["msg"].get("revision")}
 
@@ -230,6 +230,22 @@ class MockSender:
             n = sum(1 for r in out["results"] if r["result"] in ("queued", "updated"))
             return "已加入发送队列 %d 封，跳过 %d 封。可以关掉这个标签页。" % (n, len(out["results"]) - n)
         return "完成。可以关掉这个标签页。"
+
+    def card_text(self, r):
+        """One card's line on the enqueue result page, worded as Code.gs cardText_ words it. A row may
+        carry "sent" and "total" (emails the sender has sent from it)."""
+        if r["result"] == "queued":
+            return "已加入发送队列"
+        if r["result"] == "updated":
+            return "已更新（还没发出，内容换成了这一版）"
+        if r["result"] == "rejected":
+            return "跳过：" + (r.get("reason") or "")
+        row = self.rows.get(r["slug"]) or {}
+        label = STATUS_LABEL.get(row.get("status"), row.get("status"))
+        if row.get("sent"):
+            total = row.get("total") or 1 + len(row["msg"].get("followups") or [])
+            return "跳过：已发出 %d/%d 封（%s），不会重复发" % (row["sent"], total, label)
+        return "跳过：这一封已是「%s」，没有改动" % label
 
     def result_html(self, data, out):
         """The Chinese result page a GET action answers with (SPEC "Backend: GET actions")."""
@@ -243,9 +259,7 @@ class MockSender:
             for r in out["results"]:
                 m = by.get(r["slug"]) or {}
                 who = (m.get("company") or r["slug"] or "") + ("（%s）" % m["contact"] if m.get("contact") else "")
-                what = {"queued": "已加入发送队列", "updated": "已更新"}.get(r["result"]) or \
-                    "跳过：" + ("已经发出过，没有改动" if r["result"] == "duplicate" else r.get("reason") or r["result"])
-                lines.append("<li>%s：%s</li>" % (escape(who), escape(what)))
+                lines.append("<li>%s：%s</li>" % (escape(who), escape(self.card_text(r))))
             return "<ul>%s</ul><p>%s</p>%s" % ("".join(lines), WINDOW_NOTE, dash)
         if action == "cancel":
             if out["status"] == "cancelled":

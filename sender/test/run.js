@@ -264,7 +264,7 @@ test("ping", () => {
   assert.strictEqual(r.ok, true);
   assert.strictEqual(r.from, ME);
   assert.strictEqual(r.paused, false);
-  assert.strictEqual(r.dailyCap, 30);
+  assert.strictEqual(r.dailyCap, 10);
   assert.strictEqual(r.sentToday, 0);
   assert.strictEqual(typeof r.version, "string");
   assert.deepStrictEqual(r.counts, { queued: 0, active: 0, finished: 0, replied: 0, bounced: 0, cancelled: 0, error: 0 });
@@ -397,7 +397,7 @@ test("status shape", () => {
   env.tick();
   const r = env.call("status");
   assert.deepStrictEqual(Object.keys(r).sort(), ["dailyCap", "items", "now", "ok", "paused", "sentToday"]);
-  assert.deepStrictEqual([r.ok, r.paused, r.sentToday, r.dailyCap, r.now], [true, false, 1, 30, MON10.replace("Z", ".000Z")]);
+  assert.deepStrictEqual([r.ok, r.paused, r.sentToday, r.dailyCap, r.now], [true, false, 1, 10, MON10.replace("Z", ".000Z")]);
   const a = r.items.find((x) => x.slug === "a");
   const b = r.items.find((x) => x.slug === "b");
   assert.deepStrictEqual(Object.keys(a).sort(), ["error", "log", "nextAt", "outcome", "outcomeAt", "revision", "slug", "status", "step", "to", "total"]);
@@ -867,7 +867,7 @@ test("setup() is idempotent: one trigger, same TOKEN and sheet", () => {
   assert.match(token, /^[0-9a-f]{64}$/);
   assert.deepStrictEqual(env.triggers.map((t) => [t.getHandlerFunction(), t.spec.everyMinutes]), [["tick", 5]]);
   assert.deepStrictEqual(env.props.getProperties(), {
-    SHEET_ID: sheetId, TOKEN: token, PAUSED: "false", DAILY_CAP: "30", PER_TICK: "1", MIN_GAP_MINUTES: "4", WINDOW_START: "8",
+    SHEET_ID: sheetId, TOKEN: token, PAUSED: "false", DAILY_CAP: "10", PER_TICK: "1", MIN_GAP_MINUTES: "4", WINDOW_START: "8",
     WINDOW_END: "18", DOMAIN_GAP_HOURS: "24", FROM_NAME: "", MAX_ATTEMPTS: "3", CHECKS_PER_TICK: "40"
   });
   const book = env.book();
@@ -948,7 +948,7 @@ test("dashboard: read-only, escaped, with pause and resume forms", () => {
   assert.ok(html.includes("&lt;img src=x onerror=alert(1)&gt;"));
   assert.ok(!html.includes("<img") && !html.includes("<script>"));
   assert.match(html, /运行中/);
-  assert.match(html, /今天已发 1\/30/);
+  assert.match(html, /今天已发 1\/10/);
   assert.match(html, /发送中 1 · 序列结束 0/);
   ["公司", "收件人", "状态", "最近发送", "下次发送", "结果", "错误", "暂停全部", "继续发送", "最近 50 条记录"].forEach((t) => assert.ok(html.includes(t), t));
   const forms = html.match(/<form method="post" action="([^"]*)" target="_blank"><input type="hidden" name="payload" value="([^"]*)">/g);
@@ -1433,6 +1433,33 @@ test("enqueue link opened again: updated while queued, duplicate once sent", () 
   assert.strictEqual(env.row("c")["状态"], "cancelled");
 });
 
+test("an old enqueue tab reloaded after a newer handover changes nothing", () => {
+  const env = makeEnv();
+  const old = msg("a", { company: "Conviction", contact: "Sarah Guo", body: "Hi Sam,\n\nOLD TEXT with a typo.\n\nCharles", revision: 1 });
+  const fixed = Object.assign({}, old, { body: "Hi Sam,\n\nNEW fixed text.\n\nCharles", revision: 2 });
+  const link1 = env.link("enqueue", { z: zOf([old]) });
+  const link2 = env.link("enqueue", { z: zOf([fixed]) });
+  assert.deepStrictEqual(cells(env.page(link1)), [["Conviction", "Sarah Guo", "已加入发送队列"]]);
+  assert.deepStrictEqual(cells(env.page(link2)), [["Conviction", "Sarah Guo", "已更新（还没发出，内容换成了这一版）"]]);
+  // The browser reloads the first tab (a restored session, a phone reloading a discarded tab).
+  let html = env.page(link1);
+  assert.match(html, /<p>已加入发送队列 0 封，跳过 1 封。<\/p>/);
+  assert.deepStrictEqual(cells(html), [["Conviction", "Sarah Guo", "跳过：发信助手里已是第 2 版，这个链接是旧的第 1 版，没有改动"]]);
+  assert.deepStrictEqual([env.row("a")["修订"], env.content("a").body], [2, fixed.body]);
+  assert.deepStrictEqual(results(env.enqueue([old])), ["duplicate"], "the same over POST");
+  assert.deepStrictEqual(results(env.enqueue([Object.assign({}, old, { revision: 0 })])), ["duplicate"], "no revision is not newer");
+  // A batch link from before the revision: the newer card stays, the others are taken as usual.
+  const batch = env.link("enqueue", { z: zOf([old, msg("b", { company: "Beta", contact: "Bo", order: 2 })]) });
+  assert.deepStrictEqual(cells(env.page(batch)).map((c) => c[2]), ["跳过：发信助手里已是第 2 版，这个链接是旧的第 1 版，没有改动", "已加入发送队列"]);
+  assert.deepStrictEqual(env.logs().map((e) => e["事件"] + " " + e["slug"] + " " + e["说明"]), ["queued a 修订 1", "updated a 修订 2", "queued b 修订 1"]);
+  // The newest link opened again is still an update, and what goes out is the newest text.
+  assert.deepStrictEqual(cells(env.page(link2)).map((c) => c[2]), ["已更新（还没发出，内容换成了这一版）"]);
+  const sent = env.tick();
+  assert.deepStrictEqual(env.sentTo(sent), ["a@a-co.com"]);
+  assert.strictEqual(sent[0].parsed.body, crlf(fixed.body));
+  assert.strictEqual(env.row("a")["修订"], 2);
+});
+
 test("enqueue link: rejected cards, a paused sender, and a busy lock", () => {
   const env = makeEnv();
   env.prop("WINDOW_START", 9);
@@ -1476,13 +1503,13 @@ test("cancel, ping and test links", () => {
 
   const logs = env.logs().length;
   html = env.page(env.link("ping"));
-  assert.match(html, /<p>已连接 business@simreal\.co · 今天已发 1\/30 · 排队 0 封 · 运行中<\/p>/);
+  assert.match(html, /<p>已连接 business@simreal\.co · 今天已发 1\/10 · 排队 0 封 · 运行中<\/p>/);
   assert.ok(html.includes("<p>排队中 0 · 发送中 0 · 序列结束 1 · 已回复 0 · 退信 0 · 已取消 1 · 发送失败 0</p>"));
   assert.ok(html.includes('<p class="muted">版本 ' + env.context.VERSION + "</p>"));
   assert.ok(html.includes(env.dashboardHref()));
   assert.strictEqual(env.logs().length, logs, "ping changes nothing");
   env.call("pause");
-  assert.match(env.page(env.link("ping")), /今天已发 1\/30 · 排队 0 封 · 已暂停/);
+  assert.match(env.page(env.link("ping")), /今天已发 1\/10 · 排队 0 封 · 已暂停/);
 
   html = env.page(env.link("test"));
   assert.match(html, /<p>测试邮件已发出，请到收件箱查看。可以关掉这个标签页。<\/p>/);

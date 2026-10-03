@@ -169,6 +169,21 @@ def approved(doc, **send):
     return doc
 
 
+def customer_doc(slug, company, order, send=None, **kw):
+    """An approved customer card that can be handed over once 发件设置 has the 中文署名."""
+    doc = approved(base_doc(
+        slug=slug, track="customer", company=company, category="测试", region="国内", contact="某人",
+        to="%s@example.com" % slug, order=order, lang="zh", subject="主题 " + company,
+        body="您好，\n\n正文。\n\n[姓名]", followups=[{"day": 4, "text": "跟进。[姓名]"}],
+        meta_md="- 类别：测试｜地区：国内（北京）", **kw))
+    if send:
+        doc["send"] = send
+    return doc
+
+
+HANDED_AUTO = {"status": "handed", "via": "link", "at": "2026-10-01T08:00:00Z", "sig": None, "revision": 1}
+
+
 def finalize(text, lang, s):
     t = text
     if lang == "en" and s.get("nameEn"):
@@ -964,7 +979,10 @@ class PageTest(unittest.TestCase):
         self.assertNotIn("outcome", self.doc("v-homebrew")["send"])
         expect(card.locator(".auto-line")).to_contain_text(STOP_ASKED)
         self.assertEqual(card.locator('a[data-link="cancel"]').count(), 0)
-        self.assertEqual(card.locator('[data-act="resume"]').count(), 0)
+        # The page cannot tell whether anything went out before the stop: it says what to check,
+        # and the card can still go back to manual.
+        expect(card.locator(".auto-line .sub")).to_contain_text("停止页写着「队列里没有」，或者发信助手页面上这一封「已发」是 0，才点「改回手动」")
+        expect(card.locator('[data-act="resume"]')).to_have_text("改回手动")
         self.assert_no_post()
 
     def test_link_handover_keeps_a_retry_when_the_approval_write_fails(self):
@@ -1068,6 +1086,187 @@ class PageTest(unittest.TestCase):
         self.show("customer", "todo")
         self.assertEqual(self.click_tab(links.nth(0)).content().count("已更新"), len(chunks[0]))
         self.assert_no_post()
+
+    def test_link_batch_is_made_again_when_its_cards_change(self):
+        docs = {d["slug"]: d for d in (customer_doc("c-a", "A Co", 5001), customer_doc("c-b", "B Co", 5002),
+                                       customer_doc("c-c", "C Co", 5003))}
+        page = self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("customer", "todo")
+        page.click("#auto-all-btn")
+        panel = page.locator("#auto-links")
+        links = panel.locator('a[data-link="chunk"]')
+        expect(links).to_have_count(1)
+        expect(links.nth(0)).to_have_text("第 1 批：A Co、B Co、C Co（3 封） ↗")
+        # Approval undone on one card, another sent by hand: neither may go out with the batch.
+        self.card("c-a").locator('[data-act="reopen"]').click()
+        self.wait_until(lambda: self.doc("c-a")["review"]["status"] == "pending", "approval undone")
+        self.card("c-b").locator('[data-act="sent"]').click()
+        self.wait_until(lambda: (self.doc("c-b").get("send") or {}).get("log"), "sent by hand")
+        expect(links.nth(0)).to_have_text("第 1 批：C Co（1 封） ↗")
+        expect(panel.locator(".auto-links-note")).to_contain_text("卡片有变动，已按现在的卡片重新分批")
+        self.assertEqual([m["slug"] for m in self.enqueue_link(links.nth(0).get_attribute("href"))], ["c-c"])
+        # A settings change after the batch was made: its links carry the new text.
+        page.fill("#f-name-zh", "小查")
+        self.wait_until(lambda: self.store()["settings/sender"].get("nameZh") == "小查", "settings saved")
+        want = expected_msg(docs["c-c"], dict(SETTINGS_DECK, nameZh="小查"), "国内（北京）", "Asia/Shanghai")
+        self.wait_until(lambda: links.count() == 1 and self.enqueue_link(links.nth(0).get_attribute("href")) == [want], "new text")
+        n = len(self.writes())
+        self.click_tab(links.nth(0))
+        self.assertEqual([g["data"]["messages"] for g in self.mock.calls("enqueue")], [[want]])
+        self.wait_until(lambda: ((self.doc("c-c").get("send") or {}).get("auto") or {}).get("status") == "handed", "c-c handed")
+        self.settle()
+        self.assertEqual([w["path"] for w in self.writes()[n:]], ["prospects/c-c"])
+        self.assertNotIn("send", self.doc("c-a"))
+        self.assertNotIn("auto", self.doc("c-b")["send"])
+        # Handed over with the text in its link, the opened batch stays as it is.
+        expect(panel.locator(".auto-links-row").nth(0)).to_contain_text("已打开")
+        self.assert_no_post()
+
+    def test_link_handed_card_says_when_it_may_go_back_to_manual(self):
+        docs = seed_docs()
+        # Handed over; the sender has sent the first email since, which the page cannot see. Its
+        # signature is from other settings, so it can be handed over again.
+        docs["v-homebrew"] = approved(docs["v-homebrew"], auto=dict(HANDED_AUTO, sig="old"))
+        self.mock.rows["v-homebrew"] = {"status": "active", "sent": 1, "msg": {"followups": [{}, {}], "revision": 1}}
+        # Handed over, but the sender never got it.
+        docs["deepseek"] = approved(docs["deepseek"], auto=dict(HANDED_AUTO))
+        # Handed over, then revised: back for review.
+        docs["c-rev"] = customer_doc("c-rev", "Rev Co", 3300, send={"auto": dict(HANDED_AUTO)}, revision=2)
+        page = self.open_links(docs, settings=SETTINGS_DECK)
+
+        self.show("investor", "waiting")
+        card = self.card("v-homebrew")
+        sub = card.locator(".auto-line .sub")
+        expect(sub).to_contain_text("新标签页写着「没有完成」，或「跳过」的原因是地址、占位符、暂缓、屏蔽这类，才是没交上")
+        expect(sub).to_contain_text("写着「已发出」或「已是…」的，发信助手已经有这一封，改回手动会重复发")
+        expect(card.locator('[data-act="resume"]')).to_have_text("没交上，改回手动")
+        # Handing it over again gets 跳过 for a card the sender has: the page says what that means.
+        text = self.click_tab(card.locator('a[data-link="rehand"]')).content()
+        self.assertIn("Homebrew（Hunter Walk）：跳过：已发出 1/3 封（发送中），不会重复发", text)
+        expect(page.locator("#toast")).to_contain_text("已在新标签页重新交给发信助手：那一页写着「已更新」才换成了这一版，写着「已发出」的照之前交出去的发")
+        self.assertEqual(self.mock.rows["v-homebrew"]["status"], "active")
+
+        # Revised after the handover: the note does not promise the new version replaces the old one,
+        # and the card names no button it does not have.
+        self.show("customer", "pending")
+        card = self.card("c-rev")
+        note = card.locator(".review-note.warn", has_text="批准的是")
+        expect(note).to_contain_text("发信助手可能已经按批准过的那一版发出：重新批准后，新标签页写着「已更新」才换成了这一版")
+        expect(note).not_to_contain_text("重新批准会换成这一版")
+        expect(card.locator(".auto-line")).to_contain_text(HANDED)
+        self.assertEqual(card.locator(".auto-line .sub").count(), 0)
+        self.assertEqual(card.locator('[data-act="resume"]').count(), 0)
+        expect(card.locator('a[data-link="approve"]')).to_have_text("批准并交给发信助手 ↗")
+        # Stop first, then it can be returned to Claude.
+        self.assertEqual(card.locator('[data-act="return"]').count(), 0)
+        self.assertIn("没有完成：队列里没有 c-rev。", self.click_tab(card.locator('a[data-link="cancel"]')).content())
+        self.wait_until(lambda: self.doc("c-rev")["send"]["auto"].get("cancelRequested"), "stop recorded")
+        expect(card.locator('[data-act="return"]')).to_have_text("退回修改")
+        self.assertEqual(card.locator('a[data-link="cancel"]').count(), 0)
+        expect(note).not_to_contain_text("不想发就点")
+        card.locator('[data-act="return"]').click()
+        card.locator(".return-form textarea").fill("换一个联系人")
+        card.locator('.return-form button[type="submit"]').click()
+        self.wait_until(lambda: self.doc("c-rev")["review"]["status"] == "changes", "returned")
+
+        # A stop the sender answered with 队列里没有: the card can go back to manual.
+        self.show("customer", "waiting")
+        card = self.card("deepseek")
+        self.assertIn("没有完成：队列里没有 deepseek。", self.click_tab(card.locator('a[data-link="cancel"]')).content())
+        self.wait_until(lambda: self.doc("deepseek")["send"]["auto"].get("cancelRequested"), "stop recorded")
+        expect(card.locator(".auto-line")).to_contain_text(STOP_ASKED)
+        expect(card.locator(".auto-line .sub")).to_contain_text("停止页写着「队列里没有」")
+        card.locator('[data-act="resume"]', has_text="改回手动").click()
+        self.wait_until(lambda: self.doc("deepseek")["send"].get("auto", 1) is None, "back to manual")
+        self.show("customer", "todo")
+        expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
+        expect(card.locator('a[data-link="hand"]')).to_have_text("交给发信助手 ↗")
+        # (The 退回 form above is the page's own and never leaves it.)
+        self.assertEqual([r for r in self.mock.requests if r["method"] != "GET"], [])
+
+    def test_link_reply_marked_by_hand_keeps_the_stop_link(self):
+        docs = seed_docs()
+        docs["v-homebrew"] = approved(docs["v-homebrew"], auto=dict(HANDED_AUTO))
+        self.mock.rows["v-homebrew"] = {"status": "queued", "msg": {"followups": [{}, {}], "revision": 1}}
+        self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("investor", "waiting")
+        card = self.card("v-homebrew")
+        card.locator('[data-act="replied"]').click()
+        self.wait_until(lambda: self.doc("v-homebrew")["send"].get("outcome") == "replied", "reply marked")
+        self.show("investor", "closed")
+        expect(card.locator(".status")).to_have_text("已回复")
+        # The sender keeps sending follow-ups until it is stopped.
+        stop = card.locator('a[data-link="cancel"]')
+        expect(stop).to_have_text("停止自动发送 ↗")
+        self.assertEqual(card.locator(".auto-line .sub").count(), 0)
+        self.assertIn("已停止 v-homebrew 的自动发送", self.click_tab(stop).content())
+        self.assertEqual(self.mock.rows["v-homebrew"]["status"], "cancelled")
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"].get("cancelRequested"), "stop recorded")
+        expect(stop).to_have_count(0)
+        expect(card.locator(".status")).to_have_text("已回复")
+        expect(card.locator('[data-act="resume"]')).to_have_text("撤销「已回复」")
+        self.assert_no_post()
+
+    def test_reply_marked_by_hand_keeps_the_stop_button(self):
+        docs = seed_docs()
+        # Handed over by link and marked 已回复 by hand; this browser can read the sender, still sending.
+        docs["v-homebrew"] = approved(docs["v-homebrew"], outcome="replied", outcomeAt="2026-10-02T03:00:00Z", auto=dict(HANDED_AUTO))
+        self.mock.status_items["v-homebrew"] = {
+            "slug": "v-homebrew", "to": "hunter@homebrew.example", "status": "active", "step": 1, "total": 3,
+            "log": [{"step": 0, "at": "2026-10-01T09:12:00Z"}], "nextAt": "2026-10-06T02:00:00Z", "outcome": None,
+            "outcomeAt": None, "error": None, "revision": 1}
+        self.open(docs, settings=SETTINGS_DECK)
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"]["status"] == "active", "synced")
+        self.show("investor", "closed")
+        card = self.card("v-homebrew")
+        expect(card.locator(".status")).to_have_text("已回复")
+        stop = card.locator('[data-act="autostop"]')
+        expect(stop).to_have_text("停止自动发送")
+        stop.click()
+        stop.click()
+        self.wait_until(lambda: self.mock.calls("cancel"), "cancel")
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"]["status"] == "cancelled", "cancelled")
+        # The reply marked by hand stays.
+        self.assertEqual(self.doc("v-homebrew")["send"]["outcome"], "replied")
+        expect(card.locator(".status")).to_have_text("已回复")
+        expect(card.locator('[data-act="resume"]')).to_have_text("撤销「已回复」")
+
+    def test_sender_links_open_only_by_a_click(self):
+        menu = "window.addEventListener('contextmenu', function (e) { window.__menu = e.defaultPrevented; });"
+        page = self.open_links(seed_docs(), settings=SETTINGS_DECK, init=menu)
+        self.show("investor", "pending")
+        link = self.card("v-homebrew").locator('a[data-link="approve"]')
+        expect(link).to_have_text("批准并交给发信助手 ↗")
+        # The context menu (open in new tab, copy link) would hand it over with nothing recorded.
+        link.click(button="right")
+        self.wait_until(lambda: page.evaluate("window.__menu === true"), "context menu blocked")
+        self.assertFalse(link.evaluate("a => a.dispatchEvent(new DragEvent('dragstart', {bubbles: true, cancelable: true}))"),
+                         "dragging the link to the tab bar is blocked")
+        self.assertEqual(link.evaluate("a => getComputedStyle(a).userSelect"), "none")
+        self.assertRegex(PAGE.read_text(encoding="utf-8"), r"a\[data-link\] \{[^}]*-webkit-touch-callout: none")
+        self.settle()
+        self.assertEqual(len(self.ctx.pages), 1)
+        self.assertEqual(self.mock.requests, [])
+        self.assertEqual(self.writes(), [])
+        # Other links keep their menu.
+        page.evaluate("window.__menu = null")
+        page.locator("#s-dash").click(button="right")
+        self.wait_until(lambda: page.evaluate("window.__menu === false"), "dashboard link menu")
+
+    def test_follow_up_without_text_or_day_is_not_handed_over(self):
+        docs = seed_docs()
+        docs["deepseek"] = approved(dict(docs["deepseek"], followups=[{"day": 4, "text": "  "}, docs["deepseek"]["followups"][1]]))
+        docs["v-homebrew"] = dict(docs["v-homebrew"], followups=[INVESTOR_FUS[0], dict(INVESTOR_FUS[1], day=0)])
+        self.open_links(docs, settings=SETTINGS_DECK)
+        self.show("customer", "todo")
+        card = self.card("deepseek")
+        expect(card.locator(".review-note.warn")).to_contain_text("还不能交给发信助手：跟进 1 是空的或天数不对")
+        self.assertEqual(card.locator("a[data-link]").count(), 0)
+        self.show("investor", "pending")
+        card = self.card("v-homebrew")
+        expect(card.locator(".missing", has_text="批准后不会自动发")).to_have_text("批准后不会自动发：跟进 2 是空的或天数不对")
+        expect(card.locator('[data-act="approve"]')).to_have_text("批准")
+        self.assertEqual(card.locator("a[data-link]").count(), 0)
 
     def test_link_mode_on_a_phone(self):
         shots = Path(SHOTS) if SHOTS else None

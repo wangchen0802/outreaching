@@ -94,6 +94,8 @@
   .auto-line .label { color: inherit; }
   .auto-line .sub { color: var(--muted); font-size: 12.5px; }
   .review-note .btn { margin-left: 6px; }
+  /* Sender links open only by a click, which records what they hand over: no long-press menu or drag. */
+  a[data-link] { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; -webkit-user-drag: none; }
   /* Link mode: 全部交给发信助手 as one link per batch */
   .auto-links { display: grid; gap: 10px; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 16px; }
   .auto-links[hidden] { display: none; }
@@ -484,6 +486,11 @@
     var a = autoOf(doc);
     return !!a && (a.status === "queued" || a.status === "active" || handedOf(doc));
   }
+  // A link handover the page cannot read back can go back to manual wherever the card shows the
+  // sender's buttons: not while it waits for review, nor once it carries a reply marked by hand.
+  function handedBack(doc, st) {
+    return handedOf(doc) && ["pending", "changes", "replied", "meeting"].indexOf(st) === -1;
+  }
   // A card the sender is done with goes back to manual only once a status read after the page's
   // last stop has filled in send.log, so a step the sender already sent is never offered again.
   function autoSettled(doc) {
@@ -643,8 +650,10 @@
     }
     hint.textContent = text;
     hint.hidden = !show || !text;
-    // Link mode: the links 全部交给发信助手 made, until closed or the tab changes.
+    // Link mode: the links 全部交给发信助手 made, until closed or the tab changes. They carry the
+    // cards as they were then, so once one of those cards changes they are made again.
     var panel = document.getElementById("auto-links"), b = state.linkBatch;
+    if (show && linkMode() && b && b.chunks && b.tab === state.tab && batchStale(b)) { buildLinkBatch(true); return; }
     var html = show && linkMode() && b && b.tab === state.tab ? linkBatchHTML(b) : "";
     if (html !== panelHTML) { panel.innerHTML = html; panelHTML = html; }
     panel.hidden = !html;
@@ -695,7 +704,7 @@
     if (a.cancelRequested && autoLive(doc) && !handedOf(doc)) text += "；" + STOP_ASKED;
     var sub = "";
     if (autoLive(doc) && !state.sender) sub = "这台浏览器没连接发信助手，要停止请先在上方连接";
-    else if (handedOf(doc) && !a.cancelRequested && state.canEdit) sub = "新标签页里写着「跳过」就是没交上，可以点「没交上，改回手动」";
+    else if (state.canEdit && handedBack(doc, stageOf(doc))) sub = a.cancelRequested ? STOP_BACK : HANDED_BACK;
     else if (a.status === "cancelled" && !autoSettled(doc)) sub = "还没读到停下前发了几封，读到后才能改为手动发送";
     else if (a.syncedAt) sub = "同步于 " + fmtMDHM(new Date(a.syncedAt).getTime());
     return '<div class="auto-line' + cls + '"><span class="label">自动发送</span><span>' + esc(text) + "</span>" + (sub ? '<span class="sub">' + esc(sub) + "</span>" : "") + "</div>";
@@ -764,7 +773,11 @@
     if (stale) {
       h += '<div class="review-note warn">批准的是第 ' + esc(review.forRevision) + " 版，现在是第 " + rev + " 版" +
         (st !== "pending" ? (live ? "。发信助手按交出去的那一版发剩下的跟进。" : "。发跟进前先看一下全文。")
-          : live ? "，请重新审。发信助手里排队的是批准过的那一版：重新批准会换成这一版，不想发就点「停止自动发送」。" : "，请重新审。") + "</div>";
+          : !live ? "，请重新审。"
+          // A link handover cannot be read back: the first email may be out, and then nothing is replaced.
+          : handedOf(doc) ? "，请重新审。发信助手可能已经按批准过的那一版发出：重新批准后，新标签页写着「已更新」才换成了这一版，写着「已发出」的照旧发" +
+            (a.cancelRequested ? "。" : "；不想发就点「停止自动发送」。")
+          : "，请重新审。发信助手里排队的是批准过的那一版：重新批准会换成这一版，不想发就点「停止自动发送」。") + "</div>";
     }
     if (cleared) {
       h += seqHTML(doc);
@@ -800,9 +813,10 @@
         // Link mode: approving is the click on the handover link. A refused card keeps 批准.
         if (lk && !tooLong) h += linkHTML(lk, "approve", "批准并交给发信助手 ↗", " btn-primary");
         else h += '<button class="btn btn-primary" data-act="approve"' + (busy ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : conn && !link ? "批准并自动发送" : "批准") + "</button>";
-        // Returning a card the sender still holds would not stop it; stop first.
-        if (!live) h += '<button class="btn" data-act="return">退回修改</button>';
-        else if (link && !a.cancelRequested) h += cancelLinkHTML(slug);
+        // Returning a card the sender still holds would not stop it; stop first. Over links the page
+        // never learns the stop went through, so asking for it is enough.
+        if (!live || (link && a.cancelRequested)) h += '<button class="btn" data-act="return">退回修改</button>';
+        else if (link) h += cancelLinkHTML(slug);
       } else if (st === "changes") {
         h += '<button class="btn" data-act="reopen">撤回退回</button>';
       } else if (live && st !== "replied" && st !== "meeting") {
@@ -815,10 +829,11 @@
         }
         if (q.log.length) h += '<a class="btn" href="' + esc(gmailThread(doc)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 找原邮件</a>';
         if (handedOf(doc)) {
-          // The page cannot read a link handover back: the outcome buttons stay, and a handover
-          // the tab reported as 跳过 can go back to manual.
+          // The page cannot read a link handover back: the outcome buttons stay, and a handover the
+          // tab reported as not taken, or stopped before anything went out, can go back to manual
+          // (autoLineHTML says when).
           h += '<button class="btn" data-act="replied">对方已回复</button><button class="btn" data-act="meeting">已约见</button>';
-          if (!a.cancelRequested) h += '<button class="btn btn-text" data-act="resume">没交上，改回手动</button>';
+          h += '<button class="btn btn-text" data-act="resume">' + (a.cancelRequested ? "改回手动" : "没交上，改回手动") + "</button>";
         }
       } else if (st === "tosend") {
         if (conn && lk && !tooLong) h += linkHTML(lk, "hand", "交给发信助手 ↗", " btn-primary");
@@ -835,6 +850,8 @@
         h += '<button class="btn btn-text" data-act="stop">不再跟进</button>';
       } else {
         if (st === "replied") h += '<button class="btn" data-act="meeting">已约见</button>';
+        // Marked by hand while the sender still holds it: it keeps sending until stopped.
+        if (link && live && !a.cancelRequested) h += cancelLinkHTML(slug);
         if (!a) h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : st === "meeting" ? "撤销「已约见」" : "恢复跟进") + "</button>";
         // A link handover marked by hand: the undo clears only the mark.
         else if (handedOf(doc) && (st === "replied" || st === "meeting")) h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : "撤销「已约见」") + "</button>";
@@ -845,7 +862,7 @@
           else if (["cancelled", "error", "missing"].indexOf(a.status) !== -1) h += '<button class="btn btn-text" data-act="resume">改为手动发送</button>';
         }
       }
-      if (live && conn && !link && st !== "replied" && st !== "meeting") {
+      if (live && conn && !link) {
         var sure = !!state.confirmStop[slug];
         h += '<button class="btn' + (sure ? " btn-warn" : "") + '" data-act="autostop"' + (busy ? " disabled" : "") + ">" + (busy ? "正在停止…" : sure ? "确定停止？再点一次" : "停止自动发送") + "</button>";
       }
@@ -1019,6 +1036,11 @@
   var LINK_TOO_LONG = "邮件太长，链接放不下，请用 Gmail 手动发";
   var HANDED = "已交给发信助手 · 发送和跟进状态在发信助手页面看";
   var STOP_ASKED = "已在新标签页提交停止，请在那一页确认";
+  // When a link handover may go back to manual. The sender also answers 跳过 when it already has the
+  // card (已发出…, 已是…): going back to manual then sends it twice.
+  var HANDED_BACK = "新标签页写着「没有完成」，或「跳过」的原因是地址、占位符、暂缓、屏蔽这类，才是没交上，可以点「没交上，改回手动」；" +
+    "写着「已发出」或「已是…」的，发信助手已经有这一封，改回手动会重复发";
+  var STOP_BACK = "停止页写着「队列里没有」，或者发信助手页面上这一封「已发」是 0，才点「改回手动」；已经发出的撤不回，改回手动会重复发";
   var ADDR_RE = /^[^\s@,;<>]+@[^\s@,;<>]+\.[^\s@,;<>]{2,}$/;
   var BRACKET_RE = /\[[^\[\]\n]{0,80}\]/;
   // 地区 -> IANA zone for the send window. The first place named wins ("以色列/美国" is Israel);
@@ -1072,6 +1094,9 @@
     else if (ph) why.push("还有没填的方括号 " + ph[0]);
     if (!texts[0].trim() || !texts[1].trim()) why.push("主题或正文是空的");
     else if (texts.join("").length > 40000) why.push("邮件太长");
+    (doc.followups || []).forEach(function (f, i) {
+      if (!texts[i + 2].trim() || !(Number(f && f.day) > 0)) why.push("跟进 " + (i + 1) + " 是空的或天数不对");
+    });
     return why;
   }
   // The Msg is the same finalized text as the Gmail compose link.
@@ -1318,7 +1343,7 @@
   // send.auto = {status: "handed", via: "link", at, sig, revision}, in one write with the approval
   // when the click approved the card. A failed write leaves a note and a retry on the card.
   async function markHanded(doc, approving, sig, rev, at, quiet) {
-    var slug = slugOf(doc), name = doc.company || slug, old = autoOf(doc);
+    var slug = slugOf(doc), name = doc.company || slug, old = autoOf(doc), again = handedOf(doc);
     var auto = { status: "handed", via: "link", at: at, sig: sig, revision: rev };
     // Replace what an earlier handover, sync or stop request left rather than merge into it.
     if (old) Object.keys(old).forEach(function (k) { if (!(k in auto)) auto[k] = null; });
@@ -1326,7 +1351,10 @@
     if (approving) patch.review = approvedNow(doc, at).review;
     delete state.linkFail[slug];
     if (await writeDoc(slug, patch)) {
-      if (!quiet) toast((approving ? "已批准「" + name + "」，" : "「" + name + "」") + "已在新标签页交给发信助手，结果看那个标签页。");
+      // Handed over again: the sender keeps what it already sent from, which the page cannot see.
+      if (!quiet) toast((approving ? "已批准「" + name + "」，" : "「" + name + "」") + (again
+        ? "已在新标签页重新交给发信助手：那一页写着「已更新」才换成了这一版，写着「已发出」的照之前交出去的发。"
+        : "已在新标签页交给发信助手，结果看那个标签页。"));
       return;
     }
     state.linkFail[slug] = { patch: patch, approving: approving, rev: doc.revision || 1 };
@@ -1343,10 +1371,11 @@
   // 全部交给发信助手 in link mode: the eligible cards of the tab as links of at most LINK_MAX
   // characters and SENDER_BATCH cards each, in send order. A card whose own link does not fit is
   // left out and named.
-  async function buildLinkBatch() {
+  // rebuilt: the earlier links went stale (batchStale), which the panel says.
+  async function buildLinkBatch(rebuilt) {
     var list = tabDocs().filter(function (d) { return stageOf(d) === "tosend" && !refusalOf(d).length; })
       .sort(function (a, b) { return (a.order || 9999) - (b.order || 9999); });
-    var batch = state.linkBatch = { tab: state.tab, chunks: null, tooLong: [], opened: {} };
+    var batch = state.linkBatch = { tab: state.tab, chunks: null, tooLong: [], opened: {}, rebuilt: !!rebuilt };
     renderFilters();
     var room = LINK_MAX - senderUrl("enqueue").length, chunks = [], cur = [], tail = "";
     for (var i = 0; i < list.length; i++) {
@@ -1368,7 +1397,7 @@
     var h = '<div class="auto-links-head"><span class="label">分批交给发信助手</span><button class="btn btn-text" type="button" id="auto-links-close">收起</button></div>';
     if (!b.chunks) return h + '<div class="auto-links-list"><button class="btn" type="button" disabled>准备中…</button></div>';
     var n = b.chunks.reduce(function (s, c) { return s + c.items.length; }, 0);
-    h += '<p class="auto-links-note">' + (b.chunks.length ? n + " 封分成 " + b.chunks.length + " 批，每批点一次，结果在打开的标签页里。" : "没有能放进链接的邮件。") +
+    h += '<p class="auto-links-note">' + (b.rebuilt ? "卡片有变动，已按现在的卡片重新分批，交过的不在里面。" : "") + (b.chunks.length ? n + " 封分成 " + b.chunks.length + " 批，每批点一次，结果在打开的标签页里。" : "没有能放进链接的邮件。") +
       (b.tooLong.length ? esc(b.tooLong.length + " 封" + LINK_TOO_LONG + "：" + b.tooLong.join("、") + "。") : "") + "</p>";
     h += '<div class="auto-links-list">' + b.chunks.map(function (c, k) {
       var names = c.items.map(function (it) { return it.name; });
@@ -1377,6 +1406,20 @@
         esc(senderUrl("enqueue", c.tail)) + '" target="_blank" rel="noopener">' + esc(label) + "</a>" + (b.opened[k] ? '<span class="sub">已打开</span>' : "") + "</div>";
     }).join("") + "</div>";
     return h;
+  }
+  // A batch link hands over its cards as they were when it was made. It is stale once one of them
+  // is no longer ready to go (approval undone, sent or returned by hand, revised, settings changed)
+  // and was not handed over with exactly that text since (by this batch, or its own card link).
+  function batchStale(b) {
+    return b.chunks.some(function (c) {
+      return c.items.some(function (it) {
+        var d = docBySlug(it.slug);
+        if (!d || JSON.stringify(msgOf(d)) !== JSON.stringify(it.msg)) return true;
+        var st = stageOf(d), a = autoOf(d);
+        if (st === "tosend") return refusalOf(d).length > 0;
+        return !(st === "autoqueued" && handedOf(d) && !a.cancelRequested && a.sig === sigOf(it.msg));
+      });
+    });
   }
   function handChunk(b, c, at) {
     var k = b.chunks.indexOf(c);
@@ -1547,7 +1590,8 @@
       .slice().sort(function (x, y) { return new Date(x.at) - new Date(y.at); })
       .map(function (e, i) { return { step: i, at: e.at }; });
     var outcome = cur.outcome || null;
-    if (outcome !== "meeting") {
+    // A reply or meeting marked by hand stays, also once the sender is stopped.
+    if (outcome !== "meeting" && outcome !== "replied") {
       if (item.status === "replied" || item.outcome === "replied") outcome = "replied";
       else if (["cancelled", "bounced", "error"].indexOf(item.status) !== -1) outcome = "stopped";
       // Still sending (a stop that never reached it, say): the card must not read 序列结束.
@@ -1696,6 +1740,14 @@
   document.addEventListener("auxclick", function (ev) {
     var link = ev.button === 1 && ev.target.closest("a[data-link]");
     if (link) onLink(link);
+  });
+  // The context menu (在新标签页中打开, 复制链接地址), a long press on a phone and dragging the link to
+  // the tab bar would open a sender link with nothing recorded on the card; a click is the only way.
+  ["contextmenu", "dragstart"].forEach(function (type) {
+    document.addEventListener(type, function (ev) {
+      var t = ev.target, el = t && t.nodeType === 1 ? t : t && t.parentElement;
+      if (el && el.closest("a[data-link]")) ev.preventDefault();
+    });
   });
 
   document.addEventListener("input", function (ev) {

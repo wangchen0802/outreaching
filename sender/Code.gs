@@ -39,7 +39,7 @@ var TIME_FORMAT = "yyyy-mm-dd hh:mm";
 
 // Script Properties that setup() creates when missing. TOKEN and SHEET_ID are handled separately.
 var DEFAULTS = {
-  PAUSED: "false", DAILY_CAP: "30", PER_TICK: "1", MIN_GAP_MINUTES: "4", WINDOW_START: "8", WINDOW_END: "18",
+  PAUSED: "false", DAILY_CAP: "10", PER_TICK: "1", MIN_GAP_MINUTES: "4", WINDOW_START: "8", WINDOW_END: "18",
   DOMAIN_GAP_HOURS: "24", FROM_NAME: "", MAX_ATTEMPTS: "3", CHECKS_PER_TICK: "40"
 };
 
@@ -196,7 +196,7 @@ function json_(obj) {
 // In claude.ai the approval page can neither fetch nor post to this web app, so there each action is a
 // link the user clicks. It runs exactly as the POST does (same token check, lock, validation and results)
 // and answers with a page in the new tab. Opening a link again is safe: enqueue gives `updated` while the
-// row is still queued and `duplicate` once it has been sent.
+// row is still queued, and `duplicate` once it has been sent or a newer revision has replaced it.
 
 var LINK_ACTIONS = ["enqueue", "cancel", "ping", "test"];
 var LINK_UNREADABLE = "链接里的邮件内容读不出来，可能链接不完整。请回到审批页重新点一次链接。";
@@ -247,7 +247,8 @@ function linkView_(ctx, req, res) {
       var m = normalize_(req.messages[i]), row = find_(ctx, r.slug);
       return {
         slug: r.slug, company: m.company, contact: m.contact, result: r.result, reason: r.reason,
-        status: row ? row.status : "", sent: row ? row.sent : 0, total: row ? row.total : 0
+        status: row ? row.status : "", sent: row ? row.sent : 0, total: row ? row.total : 0,
+        revision: m.revision, held: row ? row.revision : 0
       };
     });
   }
@@ -281,9 +282,13 @@ function enqueue_(ctx, req) {
   return { ok: true, results: msgs.map(function (m) { return enqueueOne_(ctx, m); }) };
 }
 
+// A row that holds a newer revision is never replaced by an older one: a link is a GET, and the browser
+// reloads an old tab by itself (a restored session, a phone reloading a discarded tab).
 function enqueueOne_(ctx, m) {
   var row = find_(ctx, m.slug);
-  if (row && (row.status !== "queued" || row.sent > 0)) return { slug: m.slug, result: "duplicate", reason: null };
+  if (row && (row.status !== "queued" || row.sent > 0 || m.revision < row.revision)) {
+    return { slug: m.slug, result: "duplicate", reason: null };
+  }
   var reason = problemOf_(m) || addressProblem_(ctx, m.slug, m.to, ["queued", "active", "finished", "replied"]);
   if (reason) return { slug: m.slug, result: "rejected", reason: reason };
   var result = row ? "updated" : "queued";
@@ -1561,8 +1566,11 @@ function cardText_(c) {
   if (c.result === "updated") return "已更新（还没发出，内容换成了这一版）";
   if (c.result === "rejected") return "跳过：" + reasonText_(c.reason);
   var label = STATUS_LABEL[c.status] || c.status;
-  return "跳过：" + (c.sent > 0 ? "已发出 " + c.sent + "/" + c.total + " 封（" + label + "），不会重复发" :
-    "这一封已是「" + label + "」，没有改动");
+  if (c.sent > 0) return "跳过：已发出 " + c.sent + "/" + c.total + " 封（" + label + "），不会重复发";
+  if (c.status === "queued" && c.revision < c.held) {
+    return "跳过：发信助手里已是第 " + c.held + " 版，这个链接是旧的第 " + c.revision + " 版，没有改动";
+  }
+  return "跳过：这一封已是「" + label + "」，没有改动";
 }
 
 function rulesText_(conf) {

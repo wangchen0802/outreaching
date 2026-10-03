@@ -45,7 +45,7 @@ The base URL is the deployment URL (`https://script.google.com/macros/s/<id>/exe
 - `enqueue` takes `{messages: [Msg]}` with at most 60 messages per call. It returns `{ok, results: [{slug, result, reason}]}`. `result` is one of:
   - `queued`: a new row;
   - `updated`: the row was still `queued`, never sent, and its content was replaced;
-  - `duplicate`: the slug already exists past `queued`; nothing changes;
+  - `duplicate`: the slug already exists past `queued`, or its row holds a newer `revision` than this Msg; nothing changes;
   - `rejected`: `reason` is one of `invalid_to`, `placeholder:<the token>`, `empty`, `wave_hold`, `suppressed`, `address_in_use:<other slug>`, `too_long`.
 - `cancel` takes `{slug}` and returns `{ok, slug, status}`.
   - A row in `queued` or `active` becomes `cancelled`; no further email goes out.
@@ -119,7 +119,7 @@ Read the whole `队列` range once per run and write back only the changed rows.
 - `TOKEN`: 32+ random characters from `Utilities.getUuid()` twice, without dashes.
 - `SHEET_ID`
 - `PAUSED`: `false`
-- `DAILY_CAP`: 30. This counts first emails and follow-ups, per day in the script timezone.
+- `DAILY_CAP`: 10 (raise it week by week, see ops/sender-setup.md). This counts first emails and follow-ups, per day in the script timezone.
 - `PER_TICK`: 1. The maximum number of emails one tick sends.
 - `MIN_GAP_MINUTES`: 4. The minimum gap between any two sends.
 - `WINDOW_START`: 8. `WINDOW_END`: 18. Local hours in the recipient's tz, Monday–Friday only.
@@ -292,6 +292,9 @@ A `z` or `j` that does not decode gives an HTML error page.
 - A link to the dashboard.
 
 **Repeat clicks are safe.** Opening the same link again gives `updated` while the row is still queued, and `duplicate` once it has been sent.
+A browser also reopens a link by itself: a restored session, or a phone reloading a tab it had discarded.
+So a link whose Msg has a lower `revision` than the row's 修订 is `duplicate` and changes nothing; its line reads 跳过：发信助手里已是第 N 版，这个链接是旧的第 M 版，没有改动.
+This orders revisions only: a change that keeps the revision, such as a new name, contact or deck link in 发件设置, is still replaced by whichever of its links was opened last.
 
 **Weekday.** Do not rely on SimpleDateFormat `u` alone. Derive the weekday from `formatDate(now, tz, "yyyy-MM-dd")` with `Date.UTC(y, m - 1, d)` and `getUTCDay()`; days 1–5 are weekdays.
 
