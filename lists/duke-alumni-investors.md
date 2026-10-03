@@ -14,6 +14,7 @@ These are Duke alumni (any Duke degree finished in 2018 or earlier) who make inv
 
 Cassie Young is a General Partner at Primary Venture Partners in New York. She specializes in enterprise AI and leads the firm's operating team. Before investing she spent about 15 years in go-to-market roles, most recently as Chief Customer Officer of CM Group. She is a Duke '05 graduate with a Tuck MBA and sits on Duke's Innovation & Entrepreneurship board.
 
+- **Stage:** Seed and pre-seed; Primary's $625M Fund V (final close Feb 2026) is all seed, with $5-10M average checks across 40-50 companies
 - **Relevant deals:** Lyric (Primary led the seed, Jan 2025, and joined the Series B, Aug 2025); 1mind AI Superhumans (Series A, 2024); Lantern (customer-data/AI signals, Series A, 2022); Alium (AI buyer insights, Seed, 2020)
 - **Why them:** She leads seed rounds at a seed-only fund with fresh capital, and her page says she is looking for founders in fintech and enterprise AI. Her deals so far are mostly app-layer enterprise AI and GTM tools rather than model-training infrastructure.
 - **Hook:** Cassie's Primary page says she is looking for founders building in fintech and enterprise AI, and SimReal's Xitadel trading environment is at that intersection, used to post-train models for AI labs.
@@ -26,6 +27,7 @@ Cassie Young is a General Partner at Primary Venture Partners in New York. She s
 
 David Beisel co-founded seed firm NextView Ventures and remains a partner there. He was still publishing NextView investment posts in 2026, including Tero (January) and Walden Robotics (July). He holds a Duke BA in Economics (1998) and a Stanford MBA.
 
+- **Stage:** Seed; NextView leads about 10-12 seed investments a year
 - **Relevant deals:** Skyfall AI: NextView seed investment (Seed VC-II round, July 20, 2026, alongside Fidelity, Garage Capital, Inovia, M13 and Touring Capital). Skyfall's first product, Morpheus, is a continual reinforcement learning platform for AI researchers that lets agents learn inside persistent, non-stationary environments. This is a firm-level deal; that Beisel personally led it is not verified. Tero (Jan 2026) and Walden Robotics (Jul 2026) appear on his NextView author page; their sectors were not verified.
 - **Why them:** He is an active seed lead. In 2026 NextView backed Skyfall AI, a continual-RL environment platform for AI researchers that sits next to SimReal's RL environments and verifiers. The firm's main thesis is generalist 'Everyday Economy', not AI infra.
 - **Hook:** NextView's 2026 seed investment in Skyfall AI, whose Morpheus platform trains agents with continual RL in persistent environments, sits right next to SimReal's RL environments and verifiers for LLM post-training.
@@ -39,6 +41,7 @@ David Beisel co-founded seed firm NextView Ventures and remains a partner there.
 
 Jake Flomenberg is a Partner at Wing Venture Capital. He invests from seed to Series B in AI infrastructure, foundation models, AI applications and security. Before Wing he was at Accel and held product and engineering roles at Splunk and Cloudera. He holds a Duke BSE with a triple major in ECE, CS and Economics.
 
+- **Stage:** Seed to Series B: AI/ML, AI infrastructure and foundation models, next-generation infrastructure, SaaS, security
 - **Relevant deals:** Gray Swan AI (AI security), $40M Series A, 2026, co-led by Wing (Jake) and Madrona; SiMa.ai (edge ML), board member, Series B ($37M, 2022); aggregator-reported and not independently verified: Moonshine AI seed (2025), Pixee seed ($15M, 2025). Earlier at Accel: Demisto, Sumo Logic.
 - **Why them:** An active seed/Series A lead in AI infrastructure and AI security. In 2026 he co-led Gray Swan AI's Series A, a company that evaluates and red-teams model behavior, which is close to SimReal's work on RL environments and verifiers.
 - **Hook:** In 2026 you co-led Gray Swan AI's $40M Series A for Wing, backing AI security evaluation. SimReal builds RL environments and verifiers that measurably improve model behavior, starting with trading.
@@ -52,6 +55,7 @@ Jake Flomenberg is a Partner at Wing Venture Capital. He invests from seed to Se
 
 Logan Allin founded Fin Capital in 2018 and is its Managing Partner. The firm is a B2B fintech specialist that grew past $1B in AUM in about three years. He was previously a VP at SoFi Ventures. He graduated from Duke in 2003 and sits on the Duke FinTech MEng advisory board.
 
+- **Stage:** Pre-seed to pre-IPO B2B fintech. Personal investing profile lists pre-seed, seed and Series A. Focus areas include Enterprise AI, BankTech, B2B Payments, CFO Tech Stack, Wealth/Capital Markets and RiskTech/Cyber.
 - **Relevant deals:** Primitive, an AI agent operating system for financial services, backed by Fin Capital and Pelion (round and year not stated). WitnessAI, an AI security company that raised $58M in Jan 2026, was featured at Fin Capital's demo day on scaling AI (Fin Capital's role in that round not confirmed). Strategic partnership with Blend360 on AI-powered enterprise innovation. Fin Capital also made a new investment on 14 Jan 2026.
 - **Why them:** Founder and Managing Partner of a B2B fintech fund that invests from pre-seed. Fin Capital names Enterprise AI and Wealth/Capital Markets as core sub-sectors and backs AI-for-finance companies like Primitive. He has active Duke ties through the FinTech advisory board.
 - **Hook:** Fin Capital names Enterprise AI and Wealth/Capital Markets among its core B2B fintech sub-sectors and backs Primitive's AI agent OS for finance; Xitadel trains and verifies LLMs on real trading tasks.
@@ -65,6 +69,7 @@ Logan Allin founded Fin Capital in 2018 and is its Managing Partner. The firm is
 
 Marc Andrusko joined Oak HC/FT as a Partner in March 2026 and focuses on early and growth stage fintech. At Andreessen Horowitz from 2021 he led B2B AI and fintech investments, with thesis areas including capital markets. Before that he led the personal financial management vertical at Plaid. Earlier he was a Goldman Sachs VP, with roles that included interest rate products sales and trading.
 
+- **Stage:** Early and growth stage fintech at Oak HC/FT. At a16z he invested in B2B AI applications and fintech.
 - **Relevant deals:** At a16z: Rillet (AI-native ERP for finance teams) and Sphere (AI-native international tax compliance). Rounds and years were not verified in this batch. His thesis areas included capital markets and AI in accounting. No Oak HC/FT deals verified yet.
 - **Why them:** He is an investing Partner focused on fintech and B2B AI, with a stated capital-markets thesis and a background in Goldman rates sales and trading, which suits the Xitadel trading environment. One caveat: Oak HC/FT invests at early and growth stages, so a seed check may be less typical than Series A.
 - **Hook:** Marc's thesis areas include capital markets and AI in professional services, and he held interest rate products sales & trading roles at Goldman Sachs; Xitadel is an RL environment that improved an open model's trading on unseen market data.
@@ -79,6 +84,7 @@ Marc Andrusko joined Oak HC/FT as a Partner in March 2026 and focuses on early a
 
 Founding Partner at Acrew Capital, which he co-founded in 2019, investing in cybersecurity, data, enterprise tech and fintech from seed onward. He spent nearly 13 years at Imperva, most recently as SVP and GM of its enterprise business, then joined Aspect Ventures. In March 2026 Acrew led Reclaim Security's $20M Series A, and he commented on the deal for the firm. He writes a Forbes column on cybersecurity, including an April 2026 piece. Duke BSE in electrical engineering and English, summa cum laude.
 
+- **Stage:** Seed, Series A and Series B. His checks run $1M-$7M (sweet spot about $4M); Acrew's fund is $250M
 - **Relevant deals:** Reclaim Security (Acrew led its $20M Series A in March 2026, $26M raised in total; Kraynak quoted as Founding Partner). Acrew also backed Nextdata (seed) and Nokod Security (seed, 2023); his personal role in those two is unverified.
 - **Why them:** Founding Partner who leads seed and Series A rounds in data, security, enterprise infrastructure and fintech. He led a Series A in 2026
 - **Hook:** Acrew led Reclaim Security's $20M Series A in March 2026, with Kraynak speaking for the firm on the deal, and he invests across cybersecurity, data and enterprise tech. SimReal's verifiers and expert data are infrastructure for making AI agents reliable.
@@ -94,6 +100,7 @@ Founding Partner at Acrew Capital, which he co-founded in 2019, investing in cyb
 
 Fred Ehrsam co-founded Coinbase and, in 2018, co-founded Paradigm with Matt Huang. In October 2023 he moved from Managing Partner to General Partner, saying he would keep working with the investing and research teams. He co-founded and runs Nudge, a non-invasive brain-interface startup that raised a $100M Series A in July 2025.
 
+- **Stage:** Paradigm invests from seed to growth. Its $1.2B Fund III, closed in July 2026, widened the mandate from crypto to AI and robotics under a 'technical frontier' banner.
 - **Relevant deals:** Firm-level: Paradigm's $1.2B Fund III (July 2026) expanded into AI and robotics, with early non-crypto deals in Zipline and True Anomaly. No AI, data or trading deals personally led by Ehrsam in 2025-2026 were verified.
 - **Why them:** Paradigm invests from seed, has deep trading and market-structure DNA, and as of July 2026 explicitly backs AI. A big caveat on bandwidth: since 2023-24 Ehrsam's main focus is running Nudge, so warm routing to Paradigm's AI investors may work better than a cold note to him.
 - **Hook:** Paradigm's July 2026 $1.2B Fund III widened its mandate beyond crypto into AI under a 'technical frontier' banner; Xitadel is AI training infrastructure built on trading markets.
@@ -107,6 +114,7 @@ Fred Ehrsam co-founded Coinbase and, in 2018, co-founded Paradigm with Matt Huan
 
 Partner at Bessemer Venture Partners in New York, where he has worked since 2001, focused on software and internet companies. Before that he was a McKinsey consultant. Early-stage companies he backed include LinkedIn, MindBody, Pinterest, Shopify and Yelp, which all became public companies. Holds a Duke BS in computer science and economics.
 
+- **Stage:** Seed through growth at firm level. On 23 Sept 2026 BVP announced a $5.75B close: $1.75B for seed and early stage, $4B for growth. Levine's own stage mix in 2026 is unverified, and one third-party article calls him one of the firm's most visible growth-stage voices.
 - **Relevant deals:** Bessemer led or co-led Series A rounds in Unframe (enterprise AI, $30M) and Sett (agentic AI for gaming); only a third-party aggregator credits Levine personally. Wonderful is a Bessemer AI deal with no confirmed Levine role. His historical early bets are LinkedIn, Pinterest, Shopify, Yelp and MindBody.
 - **Why them:** Partner at a multi-stage firm that just closed a $1.75B seed and early-stage fund (Sept 2026). Signal lists AI and fintech among his focus areas. His personal seed and Series A activity in 2026 is unverified, and one third-party source frames him as growth-oriented.
 - **Hook:** When Bessemer announced its September 2026 close, which included $1.75B for seed and early-stage companies, Levine said the firm aims to back founders 'before the market fully recognizes the opportunity.' SimReal builds the RL environments, verifiers and expert data used for LLM post-training.
@@ -121,6 +129,7 @@ Partner at Bessemer Venture Partners in New York, where he has worked since 2001
 
 Founder and General Partner of S28 Capital, a San Francisco venture fund founded in 2015 that focuses on enterprise SaaS and enterprise infrastructure. Duke BA in Economics, Stanford MBA, formerly in Goldman Sachs Private Wealth Management. Co-founded Harbor Pacific Capital in 2009 and invested early in Palantir, Coupang, JD.com, Evernote and Zoom.
 
+- **Stage:** Seed and Series A. One profile counts 17 seed deals (average round about $3.9M) and 13 Series A deals; $170M under management. S28 calls itself a multistage tech fund.
 - **Relevant deals:** Late-2025 co-investments (Sep-Nov 2025) in Relixir, Cactus, Andel, Arcjet, Keycard, Flai and Shuttle. The search snippet named S28 as co-investor but gave no round details, and the snippet did not describe what these companies do. Historical: Palantir, Zoom, Coupang, JD.com (via Harbor Pacific).
 - **Why them:** A seed and Series A GP whose fund focuses on enterprise SaaS and enterprise infrastructure, which matches SimReal's B2B AI-training infrastructure. His Goldman background suits a quant founding team. One caveat: an aggregator snippet showed no S28 deals yet in 2026; the latest deals seen are from Sep-Nov 2025.
 - **Hook:** S28 Capital invests at seed and Series A in enterprise SaaS and enterprise infrastructure. SimReal sells RL environments, verifiers and expert data to AI labs and data vendors such as Surge AI.
@@ -133,6 +142,7 @@ Founder and General Partner of S28 Capital, a San Francisco venture fund founded
 
 Kevin King co-founded 53 Stations, The Pritzker Organization-backed $190M early-stage venture fund, in 2022 with Jason Pritzker and Kelly Goldstein and is its general partner. He was previously a Partner at General Catalyst, and earlier worked at Goldman Sachs, Windhorse Capital Management and Year Up. He holds a BS in Economics and Mathematics from Duke and an MBA from MIT Sloan.
 
+- **Stage:** Seed to Series B; 53 Stations leads and co-invests from a $190M Fund I backed by The Pritzker Organization. It led Kaya's $5.3M seed (Jan 2025, with RXR). Its 2026 deals seen are Series B (Wealth.com, Flex).
 - **Relevant deals:** Range (AI-powered wealth management; joined the $60M Series C, Dec 2025); Wealth.com (Series B, Apr 2026); Flex (Series B-II, Jul 2026); Kaya (led $5.3M seed, Jan 2025). No verified seed AI-infra deals.
 - **Why them:** 53 Stations writes seed-to-Series B checks (it led Kaya's seed in Jan 2025) and lists fintech and AI among its focus areas. King's Duke math/econ degree and his Goldman Sachs and Windhorse Capital background suit a quant-built trading RL environment. The firm's 2026 deals seen so far are Series B fintech/wealth-tech, and no seed AI-infra deal is verified.
 - **Hook:** Kevin's path runs from Goldman Sachs to General Catalyst, and at 53 Stations he backs fintech and AI; Xitadel, SimReal's trading RL environment, sits where those two meet.
@@ -145,6 +155,7 @@ Kevin King co-founded 53 Stations, The Pritzker Organization-backed $190M early-
 
 Mark Peter Davis is Managing Partner of Interplay, the New York venture firm founded in 2012 that runs a seed and Series A fund, an accelerator and a startup studio. He holds a Duke BA in Economics and History and founded the Duke Venture Community for Duke students, alumni and staff in startups. He also hosts the podcast 'Innovation with Mark Peter Davis'.
 
+- **Stage:** Pre-seed, seed and Series A. The venture fund usually enters at seed or Series A. There is also an accelerator and a startup studio.
 - **Relevant deals:** Knot (fintech infrastructure, Series A, Aug 2023, $10M); Provi (Series A, Apr 2020, $20M). The discovery record also says he was an early investor in Coinbase, which I did not verify.
 - **Why them:** Seed and Series A fund with a stated focus on SaaS, fintech and AI, including a fintech-infrastructure Series A (Knot). He founded the Duke Venture Community, which gives a strong Duke-alumni angle.
 - **Hook:** Interplay's fund comes in at seed or Series A with a fintech and AI focus (for example Knot's 2023 Series A), the same ground as SimReal's Xitadel trading environment for LLM post-training.
@@ -161,6 +172,7 @@ Mark Peter Davis is Managing Partner of Interplay, the New York venture firm fou
 
 Greg Baker has been a partner at Alumni Ventures since 2017 and has helped lead 100+ investments. He founded Bascom Ventures (AV's Wisconsin fund) and runs Towerview Ventures, AV's fund for companies with a Duke connection. He holds a BSME from Wisconsin ('86) and a Duke Fuqua MBA ('91). He calls himself a generalist whose passion is infrastructure, especially energy.
 
+- **Stage:** Invests from seed to growth. Towerview runs deal-by-deal syndicates and diversified funds that co-invest in Duke-connected companies alongside lead VCs, so it is a co-investor, not a lead.
 - **Relevant deals:** none found (no specific AI, data or fintech deals surfaced; 100+ investments across sectors)
 - **Why them:** Generalist early-stage co-investor whose Duke-connection mandate matches SimReal through its Duke COO. He states an interest in infrastructure, but it leans toward energy. AV joins rounds led by other VCs, so SimReal would need a lead investor first.
 - **Hook:** Baker manages Towerview Ventures, Alumni Ventures' fund for companies with a Duke connection, and calls infrastructure his passion; SimReal builds RL training infrastructure and has a Duke COO.
@@ -175,6 +187,7 @@ Greg Baker has been a partner at Alumni Ventures since 2017 and has helped lead 
 
 Greggory (Gregg) Bordes co-founded Front Porch Venture Partners in 2020 with Joe Mancini and Nikin Shah. It is a North Carolina Triangle firm that invests in Southeast VC funds and directly in startups, and its Fund II closed at $20M in 2024. He has 20+ years in venture, private equity and public-market investing. He holds a Duke Fuqua MBA and an NYU Stern finance/economics degree.
 
+- **Stage:** Hybrid fund: about 60% into Southeast VC funds and about 40% direct into startups. Direct checks at seed and early stage with follow-on capacity, e.g. co-investments in a Dec 2024 seed round and a Nov 2025 Series A. Southeast focus (DC to Miami).
 - **Relevant deals:** Fintech and enterprise software are stated focus areas. No specific AI-infra, data or quant deal found. Has co-invested in Acre Homes (seed, Dec 2024) and Poppy Flowers (Series A, Nov 2025) per aggregator snippets. Fund II closed at $20M in April 2024.
 - **Why them:** Generalist early-stage Southeast fund whose stated sectors include fintech and enterprise software. Direct seed/Series A checks are small and limited to the Southeast. SimReal's Duke-based COO may give it a Triangle tie, but no AI-infra deals were found.
 - **Hook:** Front Porch released its first Southeast Startup Founder Pulse Survey in September 2026; SimReal is a seed-stage AI trading-environment company whose COO is based at Duke.
@@ -188,6 +201,7 @@ Greggory (Gregg) Bordes co-founded Front Porch Venture Partners in 2020 with Joe
 
 Co-founder and General Partner of Front Porch Venture Partners, a Durham/Research Triangle hybrid fund that backs Southeast venture funds and invests directly in early-stage startups. Fund 3 opened in January 2026, and in September 2026 the firm launched a Southeast Startup Founder Pulse Survey. He previously worked at PRTM (now PwC), on Google's Access and Energy team, and at Digital Turbine (one snippet lists him as SVP Global Operations there). He holds a BA from UVA and an MBA from Duke Fuqua.
 
+- **Stage:** Hybrid fund. About 60% goes into Southeast venture funds and about 40% directly into early-stage Southeast startups. Fund II closed at $20M (2024) and Fund 3 opened in January 2026.
 - **Relevant deals:** none found (no specific AI, data or fintech direct deals surfaced; the firm has backed 30+ funds and 40 companies in the region since 2020)
 - **Why them:** Generalist early-stage tech investor with a strong Duke/Fuqua tie and a Google/software background, but the fund is Southeast-focused, about 60% fund-of-funds, and has no verified AI-infra or fintech direct deals. Contact him rather than Shah, since he is the tech-side partner.
 - **Hook:** Front Porch's new Southeast Startup Founder Pulse Survey (Sept 2026) asked founders about AI and the capital environment. SimReal, whose COO Amaris is at Duke, builds RL training environments for LLMs and is raising a seed round. Its Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.
@@ -200,6 +214,7 @@ Co-founder and General Partner of Front Porch Venture Partners, a Durham/Researc
 
 Katelyn Donnelly (Duke BA Economics and Political Science, Trinity '08) founded Avalanche VC and is its managing partner, running it as a solo GP. The early-stage fund invests in how people learn, earn and own. She previously founded and led Pearson's $65M Affordable Learning Fund, an impact edtech fund backing low-cost private schools in emerging markets, and she began her career at McKinsey. She is a Kauffman Fellow.
 
+- **Stage:** Pre-seed and seed. Third-party profiles report check sizes of $25K-$1M. She runs Avalanche as a solo GP.
 - **Relevant deals:** No specific deals are verified. Tracxn (search snippet) reports 46 portfolio companies and 1 new investment in the 12 months to March 2026. The names from the discovery stage (Banza, Franzy, Akave, Humanly, Cybernut) are still unconfirmed and should not be cited.
 - **Why them:** She is a solo-GP pre-seed and seed investor. Her fund lists AI, future of work and enterprise among its sectors, and its 'earn and own' thesis touches fintech. She has strong Duke ties (Trinity '08). Caveats: her recent pace is slow (Tracxn shows 1 new investment in the 12 months to March 2026), and she is a generalist rather than an AI-infrastructure or quant specialist.
 - **Hook:** Avalanche's thesis targets how people learn, earn and own, and SimReal's expert-data work turns quant expertise into LLM training signal that lifted an open model's trading performance 12%.
@@ -214,6 +229,7 @@ Katelyn Donnelly (Duke BA Economics and Political Science, Trinity '08) founded 
 
 Rob Go co-founded NextView Ventures, a seed-stage fund in Boston and New York that backs founders redesigning the 'Everyday Economy.' He invests in marketplaces, vertical SaaS, fintech, AI and digital health. Before NextView he was at Spark Capital, where he helped run Start@Spark. He holds a Duke B.S. ('01) and a Harvard MBA.
 
+- **Stage:** Seed (NextView is a seed-stage fund in Boston and NYC)
 - **Relevant deals:** Firm-level: NextView invested in Fuse Finance (fintech) in a Series A-II on March 16, 2026, according to a CB Insights snippet. No personal AI-infrastructure, data or quant deal was verified.
 - **Why them:** A generalist seed investor whose focus list includes fintech and AI. His thesis centers on end-user and vertical software rather than AI infrastructure or RL tooling, so SimReal's B2B lab-supplier model is only a partial match.
 - **Hook:** NextView backs seed-stage software across fintech and AI and invested in Fuse Finance in March 2026. SimReal's Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.
@@ -229,6 +245,7 @@ Rob Go co-founded NextView Ventures, a seed-stage fund in Boston and New York th
 
 Thomas D. Lehrman is co-founder and Managing Partner of Teamworthy Ventures, a venture firm with offices in Nashville and Greenwich, CT, that invests from pre-seed (through its Founder Fellowship) to Series A. He co-founded and was Co-CEO of Gerson Lehrman Group (GLG), and earlier was an analyst at Tiger Management. He also directed the State Department's Office of WMD Terrorism. He sits on the boards of Ibotta and GLG and holds a BA from Duke, a JD from Yale Law School and the CFA charter.
 
+- **Stage:** Pre-seed and seed (via the Teamworthy Founder Fellowship), seed and Series A
 - **Relevant deals:** Drug Hunter (drug-discovery knowledge platform): Teamworthy led the seed in Sept 2025. Catena Clearing: Teamworthy joined the $5M seed in Sept 2025.
 - **Why them:** He is a founding/seed-stage Managing Partner, so the stage fits. He co-founded GLG, an expert network, which is close to SimReal's expert-data business. No AI or fintech deals were verified.
 - **Hook:** You co-founded GLG, the expert network, and Teamworthy led Drug Hunter's seed in September 2025 to expand its drug-discovery knowledge platform; SimReal turns domain experts' knowledge into verifiers and expert data for LLM post-training, already supplying Surge AI and AfterQuery.
@@ -241,6 +258,7 @@ Thomas D. Lehrman is co-founder and Managing Partner of Teamworthy Ventures, a v
 
 Will Bumpus is a Partner at Westbound Equity Partners, the Los Angeles and Menlo Park early-stage fund formerly called Concrete Rose. He was previously Chief of Staff at Headspace, ran business operations at Activision in China and started as an M&A and restructuring analyst at Perella Weinberg. He holds a Duke B.A. (2009) and a Stanford MBA.
 
+- **Stage:** Early stage (pre-seed and seed). Westbound closed a $100M Fund II in March 2024.
 - **Relevant deals:** Firm level (Tracxn): 2025 seed investments in Manas AI and Laborup. A Ooln pre-seed in 2025 is linked to Bumpus personally, but only one indirect snippet supports it. No trading or quant deals found.
 - **Why them:** Early-stage generalist fund with a diversity thesis. It has backed AI companies, but no AI infrastructure or trading deals were found. His Perella Weinberg finance background gives a small link to Xitadel.
 - **Hook:** Will began his career as an M&A and restructuring analyst at Perella Weinberg; SimReal's Xitadel environment trains LLMs on the kind of financial-market reasoning that work demands.
@@ -253,6 +271,7 @@ Will Bumpus is a Partner at Westbound Equity Partners, the Los Angeles and Menlo
 
 David Cummings founded and leads Atlanta Ventures, a venture studio and early-stage fund that backs Atlanta and Southeast founders from idea to Series A. He co-founded Pardot (sold to ExactTarget for $95.5M in 2012), founded Atlanta Tech Village and invested early in SalesLoft and Calendly. He holds a Duke BS in Economics.
 
+- **Stage:** Idea / pre-seed to Series A (Atlanta Ventures is a venture studio and early-stage fund). He is also a prolific personal angel.
 - **Relevant deals:** Personal: lead investor in Calendly and investor in SalesLoft (B2B SaaS). Dogwood Ventures, where he is a founding investor, co-led a $5M seed round in BoodleBox (AI collaboration for higher education) in December 2025, but his decision role at Dogwood is not verified. No AI-infrastructure, data or quant deal was found.
 - **Why them:** A hands-on B2B SaaS operator-angel and early-stage fund that lists AI as a focus. However, Atlanta Ventures concentrates on Atlanta/Southeast founders, which weakens the fund route for SimReal. A personal angel check is the more realistic ask.
 - **Hook:** Atlanta Ventures lists AI among its early-stage focus areas, and you were lead investor in Calendly. SimReal sells RL environments and expert data to AI labs, including Surge AI and AfterQuery.
@@ -267,6 +286,7 @@ David Cummings founded and leads Atlanta Ventures, a venture studio and early-st
 
 Deb Liu (Duke BSE Civil Engineering 1998; Stanford MBA) held product roles at eBay and PayPal, created Facebook Marketplace and was CEO of Ancestry from 2021 to January 2025. She has served on Intuit's board, founded Women in Product, and now co-founds Ember AI, an enterprise back-office AI startup. She is also a Duke Capital Partners Investor Member.
 
+- **Stage:** Angel checks at seed and Series A: Keebler Health seed (Feb 2025), Sweatpals seed (Oct 2025), Sundial Series A (Jul 2025) and District seed (May 2026, per Tracxn). She is also a Duke Capital Partners Investor Member.
 - **Relevant deals:** Keebler Health (AI risk adjustment for value-based care), $6M seed, Feb 2025. Sweatpals (fitness social), $12M seed, Oct 2025, led by Patron, a16z speedrun and HartBeat Ventures. Only aggregator data supports two more: a Sundial $23M Series A (Jul 2025) and a District $15M seed (May 2026). None are AI-infrastructure or trading deals.
 - **Why them:** She is a Duke engineer (BSE '98) and a payments/marketplace operator who now co-founds an AI startup, Ember AI. She still writes personal angel checks at seed and Series A, including Keebler Health (an AI health startup, seed, Feb 2025), Sweatpals (seed, Oct 2025) and, per Tracxn, District (seed, May 2026). She also has a Duke Capital Partners tie. Caveats: she has no AI-infrastructure or trading deals, and she is a full-time founder.
 - **Hook:** Liu has said not doing AI is like refusing to use Excel and now co-founds Ember AI for back-office automation; SimReal builds RL environments and verifiers that post-train models for expert work.
@@ -281,6 +301,7 @@ Deb Liu (Duke BSE Civil Engineering 1998; Stanford MBA) held product roles at eB
 
 Jason Fernandez has been Managing Partner and COO of Quake Capital Partners since 2019, running its Austin accelerator office and investor/advisor network. Since 2022 he has also been General Partner of Creci Ventures, an Austin seed-to-Series A fund focused on proptech and marketplaces. He previously spent 20 years in financial services, including at BASE Equity Partners. He is a Fuqua Alumni Council member.
 
+- **Stage:** Quake Capital is a pre-seed/seed accelerator fund (Austin, LA, NYC). Creci Ventures writes seed to Series A checks of $250K-$2M, typically once a company shows about $10K+ MRR.
 - **Relevant deals:** Creci portfolio includes Nada, LeaseUp and Plotr (proptech / financial software / B2B). No AI-infra, data or quant deal found.
 - **Why them:** Active pre-seed/seed and Series A check writer at two vehicles with a Fuqua alumni-volunteer tie. Creci's proptech focus and Quake's accelerator format are a partial mismatch for an AI/RL data company. No 2026-dated source confirms his current roles.
 - **Hook:** Creci Ventures writes $250K-$2M seed-to-Series A checks once startups show roughly $10K MRR; SimReal already sells RL environments and data to Surge AI and AfterQuery.
@@ -294,6 +315,7 @@ Jason Fernandez has been Managing Partner and COO of Quake Capital Partners sinc
 
 Lawson DeVries is Managing General Partner of Grotech Ventures, an early-stage firm founded in 1984 that backs seed and Series A technology companies outside Silicon Valley. He joined Grotech in 2005 after equity research at Deutsche Bank and institutional equity sales at Buckingham Research, and was promoted to Managing GP in 2020. He holds a Harvard BA and a Duke Fuqua MBA.
 
+- **Stage:** Seed and Series A; initial checks of $500K-$5M
 - **Relevant deals:** Sturdy.ai (AI customer-intelligence platform built on unstructured customer data): Grotech joined its $6M seed in April 2025, which Voyager Capital led. CrowdStreet (online real-estate investment platform): Grotech joined a $43M financing (year not stated). Yardstik: 2026 investment (round not stated).
 - **Why them:** Senior decision maker at a seed/Series A B2B software fund that lists AI and fintech as focus areas and joined an AI-data seed round in 2025. The fund is a generalist rather than AI-infrastructure specialist and has an outside-Silicon-Valley mandate. His Duke graduation year is not stated.
 - **Hook:** Grotech joined Sturdy.ai's $6M seed in April 2025, backing AI built on unstructured customer data. SimReal supplies the expert data and verifiers that post-train such models.
@@ -306,6 +328,7 @@ Lawson DeVries is Managing General Partner of Grotech Ventures, an early-stage f
 
 Managing Director at Redpoint Ventures, which he joined in 2000. He invests in enterprise software, both infrastructure and applications, with a focus on cloud infrastructure, open source and SaaS, from seed through growth. He is one of Redpoint's leads on its 2026 Series A investment in Mind Robotics. Duke Pratt electrical engineering graduate (E'91), named a Duke trustee in July 2026.
 
+- **Stage:** Redpoint bio: seed, early and growth stages, focused on cloud infrastructure, open source and SaaS. A third-party search summary gives his title as 'Managing Director, growth'. He is listed as one of Redpoint's leads on Mind Robotics' 2026 Series A. Seed appetite is plausible but unproven.
 - **Relevant deals:** Mind Robotics (physical AI, 2026 Series A; Raney is listed as one of Redpoint's leads). Older names (Stripe, HashiCorp, Heroku, LaunchDarkly) appear only in a me.sh aggregator snippet and are unverified.
 - **Why them:** Long-time investor in infrastructure, open-source and developer software who is still leading AI-related deals in 2026, and a Duke trustee since July 2026. He may now sit on Redpoint's growth side, so his appetite for a seed-stage check is uncertain.
 - **Hook:** Raney is one of Redpoint's leads on its 2026 Series A investment in physical-AI company Mind Robotics and has long backed cloud infrastructure, open-source and developer-facing software. SimReal supplies the RL environments and verifiers that labs use for LLM post-training.
@@ -320,6 +343,7 @@ Managing Director at Redpoint Ventures, which he joined in 2000. He invests in e
 
 William Crowder co-founded and is Managing Partner of Aperture Venture Capital, a seed fund founded in 2021 that invests in fintech and enterprise software and prioritizes Black, Latin and female founders. He launched Comcast Ventures' $20M Catalyst Fund in 2012 and was a founding partner of 42 Venture Partners. He holds a 1999 Fuqua MBA and has taught venture capital at Fuqua since 2024.
 
+- **Stage:** Seed is the core stage. Third-party profiles (Signal NFX, vcbeast) list pre-seed, seed, Series A and later.
 - **Relevant deals:** No AI or data deals found at Aperture. Earlier, the Comcast Ventures Catalyst Fund he launched in 2012 backed fintechs Flutterwave and Paystack (Paystack was acquired by Stripe); round stages not stated.
 - **Why them:** Seed-stage decision maker whose thesis is capital-markets and financial infrastructure, which matches the Xitadel trading angle. But SimReal is AI training infrastructure rather than a fintech product, and the fund prioritizes Black, Latin and female founders. He teaches at Fuqua, a direct Duke tie for Amaris.
 - **Hook:** Aperture invests at seed in technology that increases the movement and security of capital. SimReal's Xitadel environment raised an open model's trading performance 12% on unseen market data.
@@ -332,6 +356,7 @@ William Crowder co-founded and is Managing Partner of Aperture Venture Capital, 
 
 Amit Mehra is a Partner (listed as General Partner) at Borderless Capital, which he joined in 2020. He manages investments in Web3 and decentralized-infrastructure startups. He was previously Founding Principal at Unicorn India Ventures and an advisor to Woodstock Fund, and earlier worked at Deloitte and as a Barclays Capital summer associate. He is a CFA charterholder with a Duke Fuqua MBA. One snippet gave a conflicting history (joined 2024 from DCG); it was not verified.
 
+- **Stage:** Seed through Series B per Signal. Borderless invests early-stage in Web3, decentralized infrastructure/DePIN, climate tech and AI.
 - **Relevant deals:** Borderless Capital, at firm level, invested in NeuraMint, a Web3-native AI-agent and tokenization platform ($5M seed, Jan 2026). Aggregators count about 6 AI and 9 DePIN deals. He is also a personal angel in Web3 startups and an LP in Shima Capital, Blockchain Founders Fund and Woodstock. No deal attributed to him personally was verified.
 - **Why them:** An investing partner at a seed-to-Series B fund with fintech and AI-crypto deals, and a former FX/finance background suits a trading environment. The fund's core is Web3/DePIN/climate, not AI post-training. The Duke MBA year is inferred, not stated, and there is no 2026-dated confirmation of his role.
 - **Hook:** Borderless Capital joined NeuraMint's $5M seed for Web3-native AI agents in January 2026; SimReal's Xitadel environment trains LLM agents to trade and improved an open model 12% out of sample.
@@ -346,6 +371,7 @@ Amit Mehra is a Partner (listed as General Partner) at Borderless Capital, which
 
 Ashley Flucas founded Flucas Ventures, an AngelList syndicate she runs as solo GP, and has invested in 250+ startups since 2018, including Databricks, Brex, Mercury and Qonto. She was previously a capital-markets attorney at Davis Polk in London. She holds a Duke B.A. in Political Science ('08) and a Harvard J.D.
 
+- **Stage:** Pre-seed to Series A via an AngelList syndicate of roughly 2,000-3,500 LPs. She has made 250-275+ investments, and the syndicate has deployed $75M-$100M+ since 2020.
 - **Relevant deals:** Personal or syndicated: Databricks (data/AI infrastructure), Brex, Mercury, Qonto, Pipe, Bolt (fintech), AngelList, Turing. A 2025 investment in Limitless (acquired by Meta, Dec 2025) is aggregator-reported. Rounds and years for the core deals were not verified.
 - **Why them:** A syndicate lead with a strong fintech and data-infrastructure portfolio (Databricks, Brex, Mercury) and AI listed as a focus. Her syndicate is generalist, and no specific 2026 seed deal in AI infrastructure or quant was verified. She is still worth a try because the syndicate reaches thousands of LPs.
 - **Hook:** Your Flucas Ventures syndicate backed data and fintech infrastructure such as Databricks, Brex and Mercury. SimReal builds RL environments and expert data for LLM post-training, starting with Xitadel, its trading environment.
@@ -359,6 +385,7 @@ Ashley Flucas founded Flucas Ventures, an AngelList syndicate she runs as solo G
 
 Jason Freedman is a General Partner at Peak State Ventures, where profile snippets say he has been a partner since 2018. The firm invests from seed to Series B in future of work, proptech, fintech and related areas. He has run four startups with three exits: FlightCaster, a machine-learning company from an early Y Combinator batch that exited in 2009; RedisToGo, sold in 2012; and 42Floors, a commercial real estate search engine sold to Knotel in 2018. Profile snippets list a Duke undergraduate degree (2002) and a Tuck MBA.
 
+- **Stage:** Seed, Series A and Series B; typical checks $100K-$5M. Recent deals include a pre-seed (Buildroid, Nov 2025) and seeds (Swell, Feb 2025; Hamming AI, Dec 2024)
 - **Relevant deals:** Hamming AI (AI voice-agent testing platform), $3.8M seed in Dec 2024; Peak State is on the investor list and Mischief led the round. A profile snippet also lists Ironclad, Snapdocs, Doppler and Fieldwire among companies he has backed (stage and year not stated). Buildroid $2M pre-seed, Nov 2025 (sector not verified).
 - **Why them:** Writes seed checks and backed Hamming AI's seed round. Hamming tests and evaluates AI agents, the same layer as SimReal's verifiers and RL environments, and the fund lists FinTech among its focus areas. Caveats: the firm's core thesis is future of work and proptech, and no 2026-dated activity was found.
 - **Hook:** Peak State Ventures backed Hamming AI's $3.8M seed for testing AI voice agents. SimReal works in the same AI evaluation layer, building verifiers and RL environments for LLM post-training.
@@ -371,6 +398,7 @@ Jason Freedman is a General Partner at Peak State Ventures, where profile snippe
 
 Pamir Gelenbe is Founder and Managing Partner of Libertus Capital, a London-based firm he founded in 2017. It invests in decentralised systems, enterprise blockchain and digital assets. He was previously a Partner at Hummingbird Ventures and earlier worked at Morgan Stanley and D.E. Shaw. He is an investor in Kraken, Ledger, Crypto Facilities and ShapeShift. He holds a BSc in Electrical Engineering from Duke and an MSc in Operations Research from Columbia.
 
+- **Stage:** Early stage, seed to Series B per an aggregator snippet; also token sales. Focus is crypto/Web3 protocols and companies.
 - **Relevant deals:** Personal or fund investor in Kraken, Ledger, Crypto Facilities and ShapeShift. The Libertus portfolio includes TON (private token sale, March 2025), Mintbase, Oasis, GitPOAP, Revv and Bonfire.
 - **Why them:** He has a quant-trading background (D.E. Shaw, Morgan Stanley) and backed trading venues (Kraken, Crypto Facilities), which suits the Xitadel pitch. However, Libertus is a crypto/Web3 fund, and no investment after March 2025 was found, so its appetite for an AI-data seed deal in 2026 is uncertain.
 - **Hook:** You worked at Morgan Stanley and D.E. Shaw before backing Kraken and Crypto Facilities; Xitadel is SimReal's trading RL environment that lifted an open model's trading performance 12% on unseen market data.
@@ -386,6 +414,7 @@ Pamir Gelenbe is Founder and Managing Partner of Libertus Capital, a London-base
 
 Dan Levitan co-founded the consumer-focused venture firm Maveron with Howard Schultz and is still its General Partner. In early 2026 Maveron was hiring a Chief of Staff to report to him, and the firm made several consumer investments in 2026. He earned a BA from Duke in 1979.
 
+- **Stage:** Early-stage (seed / Series A) consumer companies
 - **Relevant deals:** none found (2026 Maveron deals are consumer, e.g. Wonderdog and Kin Health)
 - **Why them:** Maveron invests only in consumer businesses, so B2B AI/RL infrastructure falls outside its thesis. He is at most a senior Duke-network connector, not a likely seed lead for SimReal.
 - Email: not published
@@ -400,6 +429,7 @@ Dan Levitan co-founded the consumer-focused venture firm Maveron with Howard Sch
 
 Gonzalo Costa co-founded NXTP, a Latin American early-stage B2B fund started in 2011, and is a General Partner based in Buenos Aires. He previously worked in private investments and M&A at Santander Investment and GE Capital, and was a Managing Director at Endeavor Argentina. He earned a Duke Fuqua MBA in 2001.
 
+- **Stage:** Pre-seed to Series A. Checks of $0.5M-$5M from a $98M B2B fund (cloud, fintech, B2B).
 - **Relevant deals:** Led AI startup Luzid's $2.8M pre-seed with Oceans Ventures and Quiet Capital (year not confirmed). Early investor in Auth0 (developer identity infrastructure), Nuvemshop, Mural, Frete.com and Betterfly. Fintech holdings include Barte.
 - **Why them:** Stage and sector fit well (B2B, AI, fintech, pre-seed to A), but NXTP invests only in Latin American startups and SimReal is not one. He is useful mainly as a Duke/Fuqua contact or for co-investor intros.
 - **Hook:** NXTP led AI startup Luzid's $2.8M pre-seed and was an early Auth0 backer; SimReal is likewise B2B AI infrastructure, selling RL environments and verifiers to AI data providers.
@@ -412,6 +442,7 @@ Gonzalo Costa co-founded NXTP, a Latin American early-stage B2B fund started in 
 
 Founding Managing Partner of Maven Ventures, a Silicon Valley seed fund whose $60M Fund IV (2024) focuses on consumer software with a heavy emphasis on consumer AI. Duke T'88 and UC Davis JD. Early investor in Zoom and Cruise, with six unicorn exits.
 
+- **Stage:** Seed. Fund IV is a $60M seed fund (2024), bringing AUM to $200M. Maven's latest deal seen is Ease Health's Series A on March 2, 2026.
 - **Relevant deals:** No AI-infrastructure, data, fintech or quant deals found. Known for Zoom (early investor) and Cruise. Recent deals are consumer and health AI, e.g. Ease Health Series A (Mar 2026).
 - **Why them:** He is an active seed GP and an AI enthusiast, but Maven invests only in consumer software (consumer AI, health, families, climate). SimReal is B2B AI-training infrastructure, so the sector does not match. Mainly useful as a Duke connector.
 - **Hook:** Maven's $60M Fund IV is a seed fund with a heavy emphasis on consumer AI. SimReal's RL environments and verifiers improve the models that such consumer AI products are built on.
@@ -427,6 +458,7 @@ Founding Managing Partner of Maven Ventures, a Silicon Valley seed fund whose $6
 
 Kathryn Minshew (Duke BA 2008, Political Science and French, magna cum laude) co-founded The Muse in 2011 and was its CEO from 2011 to 2023. Under her the company grew to more than 70 million annual users, and in 2022 it acquired Fairygodboss. She is now an active advisor and angel investor, mostly in female-founded companies. She is an Operating Partner at XFactor Ventures, which aims to be the 'first check' in female-founded companies, and an advisor on Trilantic North America's Founders Council. She also advises a Fortune 100 company on change management in the age of AI.
 
+- **Stage:** Angel / first check (XFactor Ventures calls itself the 'first check' in female-founded companies)
 - **Relevant deals:** Intello (business/productivity software, angel; PitchBook). No AI, data, fintech or quant deals found
 - **Why them:** An operator-angel focused on the future of work and HR, with about 88% of checks in female-founded companies. No AI infrastructure, data, fintech or quant investments found. Her stage (first check) matches, but her sector does not. The fit improves only if SimReal has a female co-founder, which was not verified.
 - **Hook:** You now advise a Fortune 100 company on change management in the age of AI; SimReal builds the RL environments, verifiers and expert data that teach LLMs skilled professional work like trading.
@@ -441,6 +473,7 @@ Kathryn Minshew (Duke BA 2008, Political Science and French, magna cum laude) co
 
 Lisa Blau co-founded Able Partners in 2016 with Amanda Eilian. It is a New York early-stage consumer fund focused on health and wellness, started with the partners' own capital. She has been an active angel investor in consumer health and wellness, especially women-led companies. She earlier co-founded the newsletter Vital Juice (acquired by Tasting Table) and holds a Duke B.A. and a Harvard MBA.
 
+- **Stage:** Early stage (mainly seed), with follow-ons in later rounds. The fund was started in 2016 with the founders' own capital.
 - **Relevant deals:** none found in AI infrastructure, data, fintech or quant. Closest is DUOS, an AI benefits platform for seniors ($130M Series B, Oct 2025, portfolio round). 2025-2026 activity: Bevimi (seed, Nov 2025) and KilgourMD (2026).
 - **Why them:** The fund is focused on consumer health and wellness brands, a clear sector mismatch with B2B AI training infrastructure. The Duke tie is the only real angle.
 - **Hook:** Able Partners' portfolio includes DUOS, an AI benefits platform for seniors; SimReal builds the RL environments and verifiers used to train the models behind AI products like it.
@@ -453,6 +486,7 @@ Lisa Blau co-founded Able Partners in 2016 with Amanda Eilian. It is a New York 
 
 Sydney Thomas launched Symphonic Capital in 2023 and is its Founder and General Partner. The fund invests at pre-seed in companies that 'make life better for the 99%', focused on health, wealth and climate resilience, and closed a $13.5M Fund I. She previously helped scale one of Silicon Valley's first pre-seed funds (Precursor Ventures) from a solo operating GP with 10 investments to a 3-person team with 400+ investments and $200M+ AUM. She is a Kauffman Fellow, holds a Duke B.A. in Public Policy ('10) and a UC Berkeley Haas MBA, and is based in San Diego.
 
+- **Stage:** Pre-seed and seed, typical checks $100K-$250K. $13.5M debut fund closed in 2025.
 - **Relevant deals:** No AI infrastructure, data or quant deals found. A $6.0M seed in Flourish Care (March 2026) shows she is still investing. Her thesis covers fintech and financial health.
 - **Why them:** Right stage (pre-seed) and fintech is in scope, but the thesis is consumer access and equity in health and wealth for underserved households. SimReal sells B2B AI training infrastructure, which is off-thesis.
 - **Hook:** Symphonic invests at pre-seed in companies improving health, wealth and climate resilience for the 99%; SimReal's Xitadel improves open models' financial reasoning, a building block for AI wealth tools.
@@ -466,6 +500,7 @@ Sydney Thomas launched Symphonic Capital in 2023 and is its Founder and General 
 
 Todd Pietri is Co-founder and Co-Managing Partner of Activate Venture Partners, an early-stage firm in New York and Bethlehem, PA, that invests at seed and Series A in digital health and applied technology. He co-founded predecessor Milestone Venture Partners in 1999, has taken part in 50+ equity financings and has sat on or observed 30+ boards. He holds a cum laude BA in English from Duke and an MBA from Georgia State's Robinson School of Business.
 
+- **Stage:** Seed and Series A; checks of $100K-$5.0M (sweet spot $1.5M)
 - **Relevant deals:** Activate seed deals: ChorusRx (Feb 2026), Triplemoon ($3.5M seed for tech-enabled pediatric mental-health care, Oct 2025), Ride Health (Dec 2025). No AI-infrastructure or fintech deals found.
 - **Why them:** He is a decision maker at an active seed and Series A fund (deals in Oct 2025, Dec 2025 and Feb 2026). However, Activate's recent deals are all digital health, so an RL-environment and expert-data company is outside its core thesis.
 - **Hook:** Your Activate bio notes you've guided more than a dozen portfolio companies to exits, including numerous software and data businesses; SimReal builds RL environments, verifiers and expert data for LLM post-training.
@@ -478,6 +513,7 @@ Todd Pietri is Co-founder and Co-Managing Partner of Activate Venture Partners, 
 
 Brad Stephens (Duke BA 1998, Economics) co-founded Blockchain Capital in 2013 with his brother Bart. It was one of the first venture firms focused only on blockchain and has backed Coinbase, Circle and Tether. He previously worked at Fidelity Ventures and as a research analyst at Credit Suisse First Boston. In April 2026 the firm was raising $700M for new early-stage and growth funds.
 
+- **Stage:** Seed through growth. In April 2026 the firm was raising $700M across its seventh early-stage fund and its second growth fund.
 - **Relevant deals:** Coinbase, Circle and Tether (crypto trading and payments infrastructure; rounds and years not verified). No AI or RL-environment investment found.
 - **Why them:** Duke credentials and seniority are strong and the early-stage fund is active. However, the mandate is crypto-only and no AI or RL investments were found. The only overlap is trading and capital-markets infrastructure, unless SimReal pitches a crypto-trading environment.
 - **Hook:** Coinbase backer Blockchain Capital, whose portfolio also includes Circle and Tether, was raising its seventh early-stage fund in April 2026, and SimReal's Xitadel environment trains models to trade on unseen market data.
@@ -490,6 +526,7 @@ Brad Stephens (Duke BA 1998, Economics) co-founded Blockchain Capital in 2013 wi
 
 Josh Felser (Duke BA Political Science '86, Fuqua MBA '90) is a serial entrepreneur and early-stage investor. He co-founded Freestyle Capital and, with ex-Lyft executive Raj Kapoor, co-founded Climactic, a seed climate-tech fund that raised $65M for its first fund. Climactic backs software-first companies in energy, AI, automation and robotics.
 
+- **Stage:** Seed and early stage. Climactic raised a $65M first fund and writes checks of about $1.5-3M into software-first climate companies in energy, AI, automation and robotics.
 - **Relevant deals:** Freestyle Capital (which he co-founded in 2008; early-stage, $385M AUM, 130+ tech companies) backed Airtable, Intercom, Patreon and BetterUp. No AI-infrastructure, data, trading or fintech deals at Climactic were verified.
 - **Why them:** He is a senior Duke alum (BA and Fuqua MBA) and a seed-stage fund founder, but Climactic's mandate is climate. SimReal's trading RL environments and expert data fall outside it. The pitch works only as a Duke-network or personal-angel note.
 - **Hook:** Felser co-founded Climactic with Raj Kapoor to back seed-stage, software-first companies in energy, AI, automation and robotics. SimReal builds RL environments, verifiers and expert data for LLM post-training.
@@ -504,6 +541,7 @@ Josh Felser (Duke BA Political Science '86, Fuqua MBA '90) is a serial entrepren
 
 Partner at UpWest in Tel Aviv. She joined in 2017 as the fund's first permanent team member in Israel and became its third partner, leading the Israel investment team and its investments. She writes pre-seed and seed checks for Israeli founders. She was previously at CreditSights (TMT research) and FiscalNote, made Forbes 30 Under 30, and holds a 2015 Duke BA.
 
+- **Stage:** Pre-seed and seed checks, only for Israeli founders, with companies in Israel and the US
 - **Relevant deals:** CyCognito (cybersecurity), Balance (fintech/B2B payments) and Canopy, plus stealth companies (rounds and years not stated). UpWest led pre-seed and seed rounds in AI and fintech.
 - **Why them:** Her stage and sectors fit (pre-seed and seed, AI, fintech), but UpWest backs only Israeli founders. SimReal's founders (Cambridge, LSE, Duke) are not known to be Israeli, so this is a mandate mismatch unless a founder qualifies.
 - **Hook:** In CTech's VC Survey 2026 you pointed to the latent potential of Vertical AI. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.
@@ -518,6 +556,7 @@ Partner at UpWest in Tel Aviv. She joined in 2017 as the fund's first permanent 
 
 Lori Cashman (Duke '94) founded Visible Ventures, an early-stage firm started in 2016 as Victress Capital to back gender-diverse teams and renamed in 2023. It invests at seed and Series A across health, wealth and opportunity. In September 2026 Visible acquired dcdx, a Gen Z research and strategy firm. She formerly chaired the Duke Public Policy (Sanford) Board of Visitors.
 
+- **Stage:** Seed and Series A, early stage
 - **Relevant deals:** none found. No specific AI, data or fintech deal was verified. Tracxn snippet: 34 portfolio companies, 3 new investments in the 12 months to Sept 2025, none so far in 2026.
 - **Why them:** The thesis is generational and consumer-leaning (health, wealth, mobility) with a diverse-founder mandate. Fintech and AI are listed only as secondary sectors, and new investing looks slow (no 2026 deals logged). Fit improves if SimReal has a female co-founder. Duke ties are very strong.
 - **Hook:** Visible Ventures acquired Gen Z research firm dcdx in September 2026 'to build a new kind of human intelligence company', a bet on human insight that parallels SimReal's expert-data business for AI training.
@@ -532,6 +571,7 @@ Lori Cashman (Duke '94) founded Visible Ventures, an early-stage firm started in
 
 Co-founder and General Partner of Front Porch Venture Partners, a North Carolina hybrid fund-of-funds and direct early-stage investor focused on the Southeast. He leads the firm's healthcare-focused investments and brings experience in growth strategy and commercialization. He earned a Duke Fuqua MBA in Health Sector Management alongside co-founders Gregg Bordes and Joe Mancini.
 
+- **Stage:** Hybrid fund. About 60% goes into Southeast venture funds and about 40% directly into early-stage Southeast startups. Fund 3 opened in January 2026.
 - **Why them:** Healthcare-focused partner at a Southeast fund-of-funds and direct investor, so his sectors do not match AI training data or trading tech. Same firm as Mancini, so contact Mancini instead.
 - Email: not published
 - Fund route: Official pitch/contact form at https://www.frontporchvp.com/contact/ (fields include company name, founder, email, website, stage and pitch deck). Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)
@@ -542,6 +582,7 @@ Co-founder and General Partner of Front Porch Venture Partners, a North Carolina
 
 Investment Partner at Maven Ventures, a seed-stage consumer-tech firm with about $200M AUM across five funds, including a $60M Fund IV. He is Maven's 'boomerang VC': he joined in 2015 as its first Associate, moved to finance and operations at a portfolio company, then returned as Investment Partner. He focuses on AI, fintech and longevity, and invested in Validity, a startup founded by Duke Master of Engineering in FinTech students. He holds a BS in Economics from Duke (2015).
 
+- **Stage:** Seed. Maven is a seed-stage firm with about $200M AUM across five funds, including a $60M Fund IV.
 - **Relevant deals:** He works closely with Daybreak Health, Trainwell, Validity, House Numbers and Ottopia (rounds and years not stated). No AI-infra or trading deals verified.
 - **Why them:** His Duke ties are strong (Duke Econ '15, investor in the Duke FinTech M.Eng startup Validity, and he reportedly lectures in the Duke FinTech master's), and his AI/fintech focus is relevant. However, Maven's published mandate is consumer software at seed, and his AI/fintech interest is framed as emerging consumer trends. SimReal's B2B RL-environment and data business is a mandate mismatch, so pitch him for a personal or Duke-network intro rather than as a Maven lead.
 - **Hook:** You backed Validity, founded by students from Duke's Master of Engineering in FinTech program, and you focus on AI and fintech at Maven. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.
@@ -555,6 +596,7 @@ Investment Partner at Maven Ventures, a seed-stage consumer-tech firm with about
 
 Salman Azhar holds Duke MS and PhD degrees in computer science (James B. Duke Fellow) and a BS from Wake Forest. He co-founded more than 30 startups in predictive computing, business intelligence and data analytics. In May 2018 he became Managing Director of the Duke Angel Network (later Duke Capital Partners). Today he is a General Partner of Azimuth Opportunity Fund, which buys pre-IPO shares of unicorns from early investors, and Executive in Residence at Fuqua. He has invested in more than 200 startups over 25 years.
 
+- **Stage:** The fund buys pre-IPO unicorn shares from early investors, usually at a 40-50% discount (late stage). Investor-profile snippets also describe him as an angel who focuses on seed rounds and has invested in 200+ startups over 25 years, but no dated 2025-2026 seed deals were found
 - **Relevant deals:** No specific AI or data seed deals verified. An SPV named Azimuth Opportunity Kueski, LLC filed a Form D in 2025 (secondary vehicle). As an operator he co-founded DecisionStreet, Swans International, SoftWeb and 30+ predictive-computing and analytics startups
 - **Why them:** His AI, NLP and financial-systems background fits SimReal's product very well, and he is a long-time angel in the Duke ecosystem. His fund, however, does late-stage pre-IPO secondaries, so a seed pitch has to target his personal angel checks, and no dated 2025-2026 seed deals were found.
 - **Hook:** You co-founded more than 30 predictive-computing and data-analytics startups and teach AI at Fuqua; SimReal builds RL environments and verifiers that measurably improved an open LLM's trading performance.
@@ -569,6 +611,7 @@ Salman Azhar holds Duke MS and PhD degrees in computer science (James B. Duke Fe
 
 Duke public policy graduate (2002) who spent seven years in the George W. Bush White House, finishing as the President's personal aide. He then did a Stanford MBA and consulted for early Palantir. As a founding partner of Thrive Capital (GP 2011-2022) he helped build it into a firm with over $50B under management. Since 2022 he has run Overton in Birmingham, investing in local founders and seeding emerging managers.
 
+- **Stage:** Through Overton he invests in local Birmingham founders, makes 'concentrated bets in high conviction entrepreneurs' and seeds emerging investment managers (as an LP). Round stage is not stated, but it looks like angel or early-stage.
 - **Relevant deals:** None found since leaving Thrive; Overton's deals are not public. At Thrive he was a founding partner while the firm backed 39 unicorns. Current director at Justworks and LeafLink.
 - **Why them:** He decides alone, with Thrive and early-Palantir pedigree. But since 2022 his investing has been described as Birmingham founders and LP commitments to emerging managers, with no AI or fintech deals and no clear seed check pattern seen. Stage and sector fit are weak.
 - **Hook:** Since leaving Thrive in 2022 he has run Overton, making concentrated bets on high-conviction entrepreneurs. SimReal's quant founders build the RL environments that lifted an open model's trading performance 12%.

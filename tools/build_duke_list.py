@@ -244,6 +244,7 @@ def write_md(rows, excluded):
             out.append("")
             out.append(r["bio"])
             out.append("")
+            out.append(f"- **Stage:** {r['stage_focus']}")
             if not blank(r["relevant_investments"]) and r["relevant_investments"].lower() != "none found":
                 out.append(f"- **Relevant deals:** {r['relevant_investments']}")
             out.append(f"- **Why them:** {r['fit_reason']}")
