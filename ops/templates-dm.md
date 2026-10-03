@@ -149,3 +149,31 @@ Hi [Name], [one line about them]. SimReal is the world's first RSI loop for trad
 4. [SimReal-BP-Public.pdf] Here's our deck. We've also had a Managing Partner at Y Combinator reach out with interest in investing.
 
 5. On the quant side, we're partnering with IMC: using their licensed data, we built Xitadel, the first trading RSI product. It significantly improves models' market-making and trading performance.
+
+## 英文冷邮件版（按 Charles 的消息改写，Sophinos 五要素 + 便于扫读，2026-10）
+
+扫读设计：主题行放公司名、年龄、收入；开场后第一句再说一遍公司和收入（收件箱预览能看到）；要点行首用短标签（Founders, all 21 / Revenue & delivery / Product / Momentum），数字一律用阿拉伯数字；全文约 130 词，一屏读完。
+
+Subject: SimReal | 21-year-old founders, $7M ARR in 3 weeks
+
+备选主题：21-year-old quants hit $7M ARR in 3 weeks (SimReal, RL envs + RSI)
+
+Hi [Name],
+
+[One short line about them: a deal they led, a post or a talk.]
+
+I'm Charles, CEO of SimReal, a neolab building RL environments and recursive self-improvement (RSI) for AI. Three weeks after founding, we're at $7M ARR.
+
+- Founders, all 21:
+  Charles, CEO | LSE Maths | Citadel, Fixed Income Trading Intern (London)
+  Henry, CTO | Cambridge Maths (St John's) | ex-Jane Street
+  Amaris, COO | Duke | Millennium Data Scientist (summer intern + full-time offer)
+- Revenue & delivery: $7M ARR from agent data and expert data orders we're already delivering
+- Product: Xitadel, the first trading RSI product, built with IMC's licensed data; it significantly improves models' market-making and trading
+- Momentum: a Managing Partner at Y Combinator reached out with interest in investing
+
+Deck: [Deck link]. Worth 20 minutes next week?
+
+Best,
+Charles
+CEO, SimReal | simreal.co | business@simreal.co
