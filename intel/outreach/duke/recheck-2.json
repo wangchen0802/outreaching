@@ -1,0 +1,109 @@
+[
+ {
+  "batch": [
+   "Joe Mancini",
+   "Nikin Shah",
+   "Lia Cromwell",
+   "Robert Ravanshenas"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Joe Mancini",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: Duke/Fuqua coverage of Front Porch's Fund II names him 'Joe Mancini MBA '12' and says he met co-founders Nikin Shah and Gregg Bordes in his Daytime MBA class at Fuqua.",
+       "evidence": "Search snippet for '\"Joe Mancini\" \"Front Porch\" Fuqua MBA': 'Joe Mancini MBA '12 is one of the founders of Front Porch Venture Partners, which successfully closed its $20 million Fund II. Mancini met his co-founders, Nikin Shah and Gregg Bordes, in his class at Fuqua'. https://www.fuqua.duke.edu/entrepreneurship-at-fuqua and https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)"
+      },
+      {
+       "field": "other_contact",
+       "value": "Official pitch/contact form at https://www.frontporchvp.com/contact/ (fields include company name, founder, email, website, location, stage and pitch deck). Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)",
+       "evidence": "Search snippet for the Front Porch contact query: Front Porch has a form on its website for company name, founder, email, website, location, stage, pitch deck and questions, at https://www.frontporchvp.com/contact/ (search snippet)"
+      },
+      {
+       "field": "hook",
+       "value": "Front Porch's new Southeast Startup Founder Pulse Survey (Sept 2026) asked founders about AI and the capital environment. SimReal, whose COO Amaris is at Duke, builds RL training environments for LLMs and is raising a seed round. Its Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "Hook text unchanged, but its survey fact rests on https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet, also returned in this pass). hook_sources should list GrepBeat, not only buildinse/ventureatlanta."
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "The Duke Fuqua MBA '12 is now stated in Duke's own coverage rather than inferred. He is active as Co-Founder & GP in Sept 2026 (GrepBeat survey), and the firm invests directly in early-stage startups."
+      }
+     ],
+     "notes": "Duke degree and year are confirmed (MBA '12, Daytime MBA, Spaulding Award). Prior roles at PRTM, Google's Access and Energy team and Digital Turbine are confirmed by the same snippet. It frames Digital Turbine as prior to Front Porch, which weakens the aggregator's 'current SVP' claim. I found no departure. The firm is hybrid (fund-of-funds plus direct early-stage), so seed fits. Fit stays Medium because the firm focuses on the Southeast. The RocketReach result was ignored."
+    },
+    {
+     "name": "Nikin Shah",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "grad_year_basis",
+       "value": "An earlier snippet states his Fuqua MBA (Health Sector Management) ran 2010-2012. Duke coverage names Joe Mancini 'MBA '12' and says Mancini met Shah and Bordes 'in his class at Fuqua' (Daytime MBA group project), which supports 2012.",
+       "evidence": "https://www.fuqua.duke.edu/entrepreneurship-at-fuqua and https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet): 'Joe Mancini MBA '12 ... met his co-founders, Nikin Shah and Gregg Bordes, in his class at Fuqua'"
+      },
+      {
+       "field": "other_contact",
+       "value": "Official pitch/contact form at https://www.frontporchvp.com/contact/ (fields include company name, founder, email, website, stage and pitch deck). Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)",
+       "evidence": "Search snippet: Front Porch's website has a form for company name, founder, email, website, location, stage and pitch deck at https://www.frontporchvp.com/contact/ (search snippet)"
+      }
+     ],
+     "notes": "Still active in 2026. The search summary for '\"Nikin Shah\" \"Front Porch\" 2026' says Front Porch released its Southeast Startup Founder Pulse Survey on 22 Sep 2026 with Shah alongside Mancini and Bordes: https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet). That attribution to Shah comes from the search summary and was not seen verbatim, so confidence stays Medium. A theorg.com snippet confirms Co-Founder/GP, firm founded in January 2020, and that he leads all healthcare investments. Low fit and the empty hook are correct, so contact Mancini instead. ZoomInfo, Apollo, ContactOut and SignalHire results were ignored. A 'Family Enterprise Center' podcast with a Nikin Shah is likely a namesake and was not used."
+    },
+    {
+     "name": "Lia Cromwell",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "hook",
+       "value": "In CTech's VC Survey 2026 you pointed to the latent potential of Vertical AI. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "https://www.calcalistech.com/tags/UpWest (search snippet): 'UpWest Partner Lia Cromwell joined CTech as part of the VC Survey 2026 to offer her predictions for the investment landscape, from the anticipated thaw of the IPO window for Israeli startups to the latent potential of Vertical AI.' This restores the survey name and year that the previous pass dropped."
+      }
+     ],
+     "notes": "Partner at UpWest is confirmed for 2026 by the CTech VC Survey 2026 snippet. Promotion to Partner: https://www.calcalistech.com/ctechnews/article/b1hkru33r (search snippet). The search summary also says she is launching an UpWest Founders Residency for earliest-stage startups (Nov 2026 to Feb 2027) and was raised in New York in an Israeli-American family, making Aliyah in 2017 when she joined UpWest. That residency item has no clear source, so it was kept out of the hook. The Duke BA (May 2015) was not re-searched in this pass and was not refuted. UpWest's mandate is pre-seed/seed for Israeli entrepreneurs only, so Low fit stays. The ZoomInfo result showing a masked @upwest.vc email was ignored (data broker), and the email stays 'not found'."
+    },
+    {
+     "name": "Robert Ravanshenas",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "decision_maker",
+       "value": "yes",
+       "evidence": "Signal NFX lists him as 'Maven Ventures Partner' (https://signal.nfx.com/investors/robert-ravanshenas, search snippet). MarketScreener shows him as Partner since 2022 (https://www.marketscreener.com/insider/ROBERT-RAVANSHENAS-A37QCV/, search snippet). In April 2026 'Maven and Robert announced their investment in Michael York and his new company, Casa' (search snippet, results https://www.linkedin.com/in/robrav/ and https://www.mavenventures.com/perspectives). A profile snippet (startupintros.com) says he holds decision-making authority alongside Managing Partner Jim Scheinman and Partner Sara Deshpande. He is an investing Partner who sources and announces his own deals."
+      },
+      {
+       "field": "still_active_2026",
+       "value": "yes",
+       "evidence": "April 2026 announcement of Maven's and Ravanshenas's investment in Casa (Michael York, getcasa.com): search snippet for '\"Robert Ravanshenas\" Maven Ventures 2026', results https://www.linkedin.com/in/robrav/ and https://www.mavenventures.com/perspectives (search snippet)"
+      },
+      {
+       "field": "other_contact",
+       "value": "Maven's official pitch inbox is hello@mavenventures.com (send a brief description of the business, vision, team and traction), per https://blog.mavenventures.com/getintouch/ (search snippet). Maven prefers a mutual introduction.",
+       "evidence": "Search snippet for '\"hello@mavenventures.com\"': 'Startups can send an email to hello@mavenventures.com including a brief description of the business, vision, team, and any traction to date' from https://blog.mavenventures.com/getintouch/ (official Maven blog)"
+      },
+      {
+       "field": "fit",
+       "value": "Low",
+       "evidence": "Maven's own get-in-touch page says it 'invests in consumer software companies raising capital at the Seed-stage' with $750K-$1M checks (https://blog.mavenventures.com/getintouch/, search snippet). A Duke/Crunchbase-type snippet says he 'primarily focuses his current investments on emerging consumer trends across artificial intelligence, financial technology, property technology, and digital health' (search snippet). SimReal is B2B AI-training infrastructure, not consumer software."
+      },
+      {
+       "field": "fit_reason",
+       "value": "His Duke ties are strong (Duke Econ '15, investor in the Duke FinTech M.Eng startup Validity, and he reportedly lectures in the Duke FinTech master's), and his AI/fintech focus is relevant. However, Maven's published mandate is consumer software at seed, and his AI/fintech interest is framed as emerging consumer trends. SimReal's B2B RL-environment and data business is a mandate mismatch, so pitch him for a personal or Duke-network intro rather than as a Maven lead.",
+       "evidence": "https://blog.mavenventures.com/getintouch/ (search snippet); https://fintech.meng.duke.edu/news/duke-master-engineering-fintech-students-receive-venture-capital-investment (search snippet); the lecturer claim appears in startupintros.com / LinkedIn search snippets only (self-reported) and not on https://fintech.meng.duke.edu/faculty"
+      },
+      {
+       "field": "hook",
+       "value": "You backed Validity, founded by students from Duke's Master of Engineering in FinTech program, and you focus on AI and fintech at Maven. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "Hook text unchanged. Validity: https://fintech.meng.duke.edu/news/duke-master-engineering-fintech-students-receive-venture-capital-investment (search snippet, returned again in this pass). AI/fintech focus: https://signal.nfx.com/investors/robert-ravanshenas (search snippet). Replace https://fintech.meng.duke.edu/faculty in hook_sources with the news URL, because the faculty page does not show him."
+      }
+     ],
+     "notes": "The Duke BS Economics (2015) was not re-searched in this pass, but snippets repeat 'BS in Economics from Duke' and nothing refuted it. Two search summaries (startupintros.com and LinkedIn) say he 'recently returned to his alma mater as a Lecturer in the Masters of Fintech program'. This is self-reported or aggregator-sourced and he is not on the Duke faculty page, so it stays out of the hook. Titles vary across sources: 'Investment Partner' (Crunchbase), 'Partner' (Signal, MarketScreener) and 'Partner and Head of Finance' (startupintros). The Casa deal (consumer home membership) is not a relevant hook for SimReal. ZoomInfo results were ignored."
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ }
+]

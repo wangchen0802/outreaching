@@ -3,6 +3,8 @@
 Input:  intel/outreach/duke/verify-*.json  (each a list of {batch, enriched, review})
         intel/outreach/duke/recheck-*.json  (each a list of {batch, review}: a later, search-backed
                                              fact-check applied on top of the first one)
+        intel/outreach/duke/edit-*.json  (each a list of per-person display fields from the no-search
+                                          edit pass: firm, title, duke, bio, hook, fund_route, linkedin, x)
         intel/outreach/duke/excluded-early.json  (names dropped before verification, with reasons)
 Output: lists/duke-alumni-investors.csv
         lists/duke-alumni-investors.md
@@ -23,7 +25,7 @@ SRC = ROOT / "intel" / "outreach" / "duke"
 OUT_CSV = ROOT / "lists" / "duke-alumni-investors.csv"
 OUT_MD = ROOT / "lists" / "duke-alumni-investors.md"
 
-COLS = ["rank", "name", "firm", "title", "location", "duke_degree", "duke_grad_year", "grad_year_basis",
+COLS = ["rank", "name", "firm", "title", "location", "duke", "duke_degree", "duke_grad_year", "grad_year_basis",
         "decision_maker", "stage_focus", "sectors", "fit", "fit_reason", "bio", "relevant_investments",
         "hook", "email", "email_source", "other_contact", "linkedin", "x", "personal_site",
         "already_in_simreal_pipeline", "confidence", "check_verdict", "check_notes", "sources"]
@@ -134,6 +136,14 @@ def load():
     return list(people.values()), uniq
 
 
+def load_edits():
+    edits = {}
+    for path in sorted(SRC.glob("edit-*.json")):
+        for e in json.load(open(path, encoding="utf-8")):
+            edits[key(e["name"])] = e
+    return edits
+
+
 def joined(*lists):
     out = []
     for lst in lists:
@@ -146,13 +156,25 @@ def joined(*lists):
 def main():
     people, excluded = load()
     firms = pipeline_firms()
+    edits = load_edits()
+    for p in people:
+        e = edits.get(key(p["name"]))
+        if not e:
+            continue
+        p["firm_display"] = e.get("firm") or p.get("firm", "")
+        p["duke"] = e.get("duke", "")
+        for src, dst in (("title", "title_2026"), ("bio", "bio"), ("hook", "hook"), ("fund_route", "other_contact"),
+                         ("linkedin", "linkedin_url"), ("x", "x_url")):
+            if src in e:
+                p[dst] = e[src]
     people.sort(key=lambda p: (FIT_ORDER.get(p.get("fit"), 3), DM_ORDER.get(p.get("decision_maker"), 3),
                                CONF_ORDER.get(p.get("confidence"), 3), p["name"]))
     rows = []
     for i, p in enumerate(people, 1):
         rows.append({
-            "rank": i, "name": p["name"], "firm": p.get("firm", ""), "title": p.get("title_2026", ""),
-            "location": p.get("location", ""), "duke_degree": p.get("duke_degree", ""),
+            "rank": i, "name": p["name"], "firm": p.get("firm_display") or p.get("firm", ""),
+            "title": p.get("title_2026", ""), "location": p.get("location", ""), "duke": p.get("duke", ""),
+            "duke_degree": p.get("duke_degree", ""),
             "duke_grad_year": p.get("duke_grad_year") or "", "grad_year_basis": p.get("grad_year_basis", ""),
             "decision_maker": p.get("decision_maker", ""), "stage_focus": p.get("stage_focus", ""),
             "sectors": p.get("sectors", ""), "fit": p.get("fit", ""), "fit_reason": p.get("fit_reason", ""),
@@ -162,7 +184,7 @@ def main():
             "email_source": "" if blank(p.get("email")) else p.get("email_source", ""),
             "other_contact": p.get("other_contact", ""), "linkedin": p.get("linkedin_url", ""),
             "x": p.get("x_url", ""), "personal_site": p.get("personal_site", ""),
-            "already_in_simreal_pipeline": in_pipeline(p.get("firm", ""), firms),
+            "already_in_simreal_pipeline": in_pipeline(p.get("firm_display") or p.get("firm", ""), firms),
             "confidence": p.get("confidence", ""), "check_verdict": p.get("check_verdict", ""),
             "check_notes": p.get("check_notes", ""),
             "sources": joined(p.get("duke_sources"), p.get("role_sources"), p.get("investment_sources"),
@@ -215,11 +237,10 @@ def write_md(rows, excluded):
             continue
         out += [f"## {tier} fit ({len(tier_rows)})", ""]
         for r in tier_rows:
-            year = r["duke_grad_year"] or "not published"
+            duke = r["duke"] or f"{r['duke_degree']} ({r['duke_grad_year'] or 'year not published'})"
             out.append(f"### {r['rank']}. {r['name']}, {r['title']}, {r['firm']}")
             out.append("")
-            out.append(f"*Duke: {r['duke_degree']} · Graduated: {year} · Stage: {r['stage_focus']}"
-                       f" · Confidence: {r['confidence']}*")
+            out.append(f"*Duke {duke} · Confidence: {r['confidence']}*")
             out.append("")
             out.append(r["bio"])
             out.append("")
