@@ -79,6 +79,22 @@
   }
   .save-state { font: 400 12px var(--mono); color: var(--muted); min-height: 1em; }
 
+  /* Auto-send connection (发信助手) */
+  .auto { display: grid; gap: 10px; border-top: 1px dashed var(--rule-strong); padding-top: 14px; }
+  .auto h3 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .auto .conn { font: 500 11.5px/1 var(--sans); letter-spacing: 0; text-transform: none; padding: 4px 8px; }
+  .auto-fields { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+  .auto-status { display: flex; gap: 2px 14px; flex-wrap: wrap; font-size: 13px; color: var(--muted); min-height: 1.6em; }
+  .auto-status .ok { color: var(--ok); }
+  .auto-status .warn { color: var(--warn); }
+  .auto-help { margin: 0; font-size: 12.5px; color: var(--muted); }
+  .auto-line { display: flex; gap: 2px 10px; flex-wrap: wrap; align-items: baseline; font-size: 13px; color: var(--info); background: var(--info-tint); border-radius: 6px; padding: 8px 12px; }
+  .auto-line.ok { color: var(--ok); background: var(--ok-tint); }
+  .auto-line.warn { color: var(--warn); background: var(--warn-tint); }
+  .auto-line .label { color: inherit; }
+  .auto-line .sub { color: var(--muted); font-size: 12.5px; }
+  .toast { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); width: max-content; max-width: min(560px, calc(100vw - 32px)); box-sizing: border-box; background: var(--ink); color: var(--paper); border-radius: 8px; padding: 10px 14px; font-size: 13.5px; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18); z-index: 10; cursor: default; }
+
   /* Tabs */
   .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); overflow-x: auto; }
   .tab { background: transparent; border: 0; border-bottom: 2px solid transparent; padding: 8px 14px 10px; cursor: pointer; font: 500 15px/1.2 var(--sans); color: var(--muted); margin-bottom: -1px; white-space: nowrap; }
@@ -151,6 +167,8 @@
   .btn-text { border-color: transparent; color: var(--muted); padding-inline: 8px; }
   .btn-text:hover { color: var(--ink); border-color: transparent; }
   .btn[disabled] { opacity: 0.45; cursor: not-allowed; }
+  .btn[hidden] { display: none; }
+  .btn-warn { color: var(--warn); border-color: currentColor; }
   .spacer { flex: 1; }
 
   .return-form { display: grid; gap: 8px; }
@@ -192,8 +210,11 @@
   .empty { color: var(--muted); padding: 24px 0; margin: 0; }
   .toolbar { display: flex; gap: 8px 12px; flex-wrap: wrap; align-items: center; justify-content: space-between; }
   .toolbar .hint { font-size: 12.5px; color: var(--muted); }
+  .toolbar .hints { display: grid; gap: 2px; flex: 1 1 260px; min-width: 0; }
+  .toolbar .btns { display: flex; gap: 8px; flex-wrap: wrap; }
   @media (max-width: 520px) {
     .wrap { padding: 24px 16px 48px; }
+    .auto-fields { grid-template-columns: minmax(0, 1fr); }
     .card { padding: 16px; }
     .brand h1 { font-size: 28px; }
     .opening { font-size: 17px; }
@@ -219,7 +240,7 @@
 
   <section class="sender" aria-labelledby="sender-title">
     <div class="sender-head">
-      <h3 id="sender-title" class="label">发件信息</h3>
+      <h3 id="sender-title" class="label">发件设置</h3>
       <p>填一次，复制和打开 Gmail 时自动替换署名和联系方式。没填的保留方括号。</p>
     </div>
     <div class="fields">
@@ -230,6 +251,26 @@
       <label class="field"><span class="label">BP 链接</span><input id="f-deck" placeholder="替换 [Deck link] / [BP 链接]" autocomplete="off"></label>
     </div>
     <div class="save-state" id="save-state" aria-live="polite"></div>
+
+    <div class="auto" id="auto-box">
+      <div class="sender-head">
+        <h3 class="label">自动发送（发信助手）<span class="conn status st-pending" id="s-conn">未连接</span></h3>
+        <p>连上后，批准即从发件邮箱自动发出，跟进到期自动发，对方回复就停。地址和口令只存在这台浏览器里。</p>
+      </div>
+      <div class="fields auto-fields">
+        <label class="field"><span class="label">地址</span><input id="s-url" type="url" inputmode="url" placeholder="https://script.google.com/macros/s/…/exec" autocomplete="off" spellcheck="false"></label>
+        <label class="field"><span class="label">口令</span><input id="s-token" type="password" placeholder="setup() 日志里的口令" autocomplete="off" spellcheck="false"></label>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" id="s-save" type="button">保存</button>
+        <button class="btn" id="s-ping" type="button">测试连接</button>
+        <button class="btn" id="s-test" type="button">试发一封给自己</button>
+        <a class="btn" id="s-dash" target="_blank" rel="noopener" hidden>打开发信助手</a>
+        <button class="btn btn-text" id="s-off" type="button">断开</button>
+      </div>
+      <div class="auto-status"><span id="s-state" aria-live="polite"></span><span id="s-sync"></span></div>
+      <p class="auto-help">第一次用：按仓库里的 ops/sender-setup.md 在 business@simreal.co 下装好发信助手（约 10 分钟），再把 Web 应用网址和口令贴到这里。</p>
+    </div>
   </section>
 
   <nav class="tabs" role="tablist" aria-label="外联对象">
@@ -245,8 +286,14 @@
       <div class="seg" id="f-region"></div>
     </nav>
     <div class="toolbar">
-      <span class="hint" id="export-hint">批量发送时，可以把这一栏「待发送」的邮件导出成 CSV，用 Gmail 的邮件合并工具发。</span>
-      <button class="btn" id="export-btn" type="button" hidden>导出待发送 CSV</button>
+      <div class="hints">
+        <span class="hint" id="export-hint">批量发送时，可以把这一栏「待发送」的邮件导出成 CSV，用 Gmail 的邮件合并工具发。</span>
+        <span class="hint" id="auto-hint" aria-live="polite" hidden></span>
+      </div>
+      <div class="btns">
+        <button class="btn btn-primary" id="auto-all-btn" type="button" hidden>全部交给发信助手</button>
+        <button class="btn" id="export-btn" type="button" hidden>导出待发送 CSV</button>
+      </div>
     </div>
     <main id="list"><p class="empty">正在载入草稿…</p></main>
   </div>
@@ -274,7 +321,11 @@
     docs: [], settings: {}, pipeline: null,
     tab: "partner", status: "pending", region: "all",
     open: {}, returning: {}, returnText: {},
-    canEdit: true, db: null, downloads: null, cards: {}
+    canEdit: true, db: null, downloads: null, cards: {},
+    // Auto-send: connection from localStorage, per-card notes and busy flags, last sync.
+    sender: null, senderTransport: "fetch", senderFrom: "", settingsLoaded: false,
+    autoNote: {}, autoBusy: {}, confirmStop: {}, autoAllBusy: false, autoSummary: null,
+    syncing: false, syncedAt: 0, firstSync: false
   };
 
   function esc(s) {
@@ -395,32 +446,47 @@
     if (first != null && next < total) due = first + (fus[next - 1] ? fus[next - 1].day : 0) * DAY;
     return { log: s.log, outcome: s.outcome, next: next, total: total, first: first, due: due };
   }
+  // send.auto is written once the sender has the card; while it is queued or active the
+  // sender owns every remaining step and the page offers no manual send for them.
+  function autoOf(doc) {
+    var a = doc.send && doc.send.auto;
+    return a && typeof a === "object" ? a : null;
+  }
+  function autoLive(doc) {
+    var a = autoOf(doc);
+    return !!a && (a.status === "queued" || a.status === "active");
+  }
   function stageOf(doc) {
     var r = reviewOf(doc);
     if (r !== "approved") return r;
-    var q = seqInfo(doc);
-    if (q.outcome === "replied") return "replied";
+    var q = seqInfo(doc), a = autoOf(doc);
     if (q.outcome === "meeting") return "meeting";
+    if (q.outcome === "replied" || (a && a.status === "replied")) return "replied";
+    if (a && a.status === "bounced") return "bounced";
     if (q.outcome === "stopped" || (q.log.length && q.next >= q.total)) return "finished";
-    if (!q.log.length) return "tosend";
+    if (a && !autoLive(doc)) return "finished";
+    if (!q.log.length) return a ? "autoqueued" : "tosend";
+    if (a) return "waiting";
     return q.due != null && q.due <= Date.now() ? "due" : "waiting";
   }
   var STAGE = {
     pending: { label: "待审", cls: "st-pending" },
     changes: { label: "已退回，等 Claude 修改", cls: "st-changes" },
     tosend: { label: "待发送", cls: "st-approved" },
+    autoqueued: { label: "排队中（自动）", cls: "st-sending" },
     due: { label: "跟进到期", cls: "st-due" },
     waiting: { label: "跟进中", cls: "st-sending" },
     replied: { label: "已回复", cls: "st-approved" },
     meeting: { label: "已约见", cls: "st-approved" },
+    bounced: { label: "退信", cls: "st-changes" },
     finished: { label: "序列结束", cls: "st-done" }
   };
   var FILTERS = [
     ["pending", "待审", ["pending"]],
     ["changes", "已退回", ["changes"]],
     ["todo", "今天要发", ["tosend", "due"]],
-    ["waiting", "跟进中", ["waiting"]],
-    ["closed", "已回复或结束", ["replied", "meeting", "finished"]],
+    ["waiting", "跟进中", ["waiting", "autoqueued"]],
+    ["closed", "已回复或结束", ["replied", "meeting", "finished", "bounced"]],
     ["all", "全部", null]
   ];
 
@@ -434,6 +500,15 @@
     if (isNaN(d)) return "";
     return fmtDay(d.getTime()) + " " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
   }
+  function pad2(n) { return String(n).padStart(2, "0"); }
+  function fmtMD(ms) {
+    var d = new Date(ms);
+    return pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+  }
+  function fmtMDHM(ms) {
+    var d = new Date(ms);
+    return fmtMD(ms) + " " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+  }
   function sameDay(a, b) {
     var x = new Date(a), y = new Date(b);
     return x.getFullYear() === y.getFullYear() && x.getMonth() === y.getMonth() && x.getDate() === y.getDate();
@@ -441,12 +516,13 @@
   function stepName(i) { return i === 0 ? "第 1 封" : "跟进 " + i; }
 
   function renderToday() {
-    var pending = 0, todo = 0, tosend = 0, due = 0, sentToday = 0, replied = 0, sent = 0, now = Date.now();
+    var pending = 0, todo = 0, tosend = 0, due = 0, sentToday = 0, replied = 0, sent = 0, queued = 0, now = Date.now();
     state.docs.forEach(function (d) {
       var st = stageOf(d);
       if (st === "pending") pending++;
       if (st === "tosend") { todo++; tosend++; }
       if (st === "due") { todo++; due++; }
+      if (st === "autoqueued") queued++;
       if (st === "replied" || st === "meeting") replied++;
       var q = seqInfo(d);
       if (q.log.length) sent++;
@@ -454,7 +530,7 @@
     });
     document.getElementById("t-pending").textContent = pending;
     document.getElementById("t-todo").textContent = todo;
-    document.getElementById("t-todo-sub").textContent = "首封 " + tosend + " · 跟进 " + due;
+    document.getElementById("t-todo-sub").textContent = "首封 " + tosend + " · 跟进 " + due + (queued ? " · 自动排队 " + queued : "");
     document.getElementById("t-sent").textContent = sentToday;
     document.getElementById("t-replied").textContent = replied;
     document.getElementById("t-replied-sub").textContent = sent ? "已发出 " + sent + " 家" : "还没有发出";
@@ -502,25 +578,76 @@
     btn.hidden = !state.downloads || !exportable;
     btn.textContent = "导出待发送 CSV（" + exportable + " 封）";
     document.getElementById("export-hint").hidden = !state.downloads || !exportable;
+    renderAutoAll(docs);
+  }
+
+  // 全部交给发信助手: in the 今天要发 / 全部 filters, for the approved cards nobody has sent yet.
+  function renderAutoAll(docs) {
+    var btn = document.getElementById("auto-all-btn"), hint = document.getElementById("auto-hint");
+    var show = !!state.sender && state.canEdit && (state.status === "todo" || state.status === "all");
+    var waiting = docs.filter(function (d) { return stageOf(d) === "tosend"; });
+    var ready = 0, blocked = {}, nBlocked = 0;
+    waiting.forEach(function (d) {
+      var why = refusalOf(d);
+      if (!why.length) { ready++; return; }
+      nBlocked++;
+      blocked[why[0]] = (blocked[why[0]] || 0) + 1;
+    });
+    btn.hidden = !show || !waiting.length;
+    btn.disabled = !ready || state.autoAllBusy;
+    btn.textContent = state.autoAllBusy ? "正在交给发信助手…" : "全部交给发信助手（" + ready + " 封）";
+    var text = state.autoSummary && state.autoSummary.tab === state.tab ? state.autoSummary.text : "";
+    if (!text && nBlocked) {
+      text = nBlocked + " 封还不能自动发：" + Object.keys(blocked).map(function (k) { return k + " " + blocked[k] + " 封"; }).join("、") + "。";
+    }
+    hint.textContent = text;
+    hint.hidden = !show || !text;
   }
 
   function seqHTML(doc) {
     var q = seqInfo(doc), fus = doc.followups || [];
+    var live = autoLive(doc), a = autoOf(doc), nextAt = a && a.nextAt ? new Date(a.nextAt).getTime() : null;
     var h = '<div class="seq">';
     for (var i = 0; i < q.total; i++) {
       var cls = "", val;
       var logged = q.log[i];
       if (logged) { cls = "done"; val = "已发 · " + fmtDay(new Date(logged.at).getTime()); }
-      else if (q.first == null) { val = i === 0 ? "待发送" : "第 1 封后第 " + fus[i - 1].day + " 天"; }
+      else if (q.first == null) { val = i === 0 ? (live ? "排队中（自动）" : "待发送") : "第 1 封后第 " + fus[i - 1].day + " 天"; }
       else {
         var dueAt = q.first + fus[i - 1].day * DAY;
         if (q.outcome) val = "不再发送";
+        else if (live) val = "约 " + fmtDay(i === q.next && nextAt ? nextAt : dueAt) + " 自动发";
         else if (i === q.next && dueAt <= Date.now()) { cls = "due"; val = "今天该发（" + fmtDay(dueAt) + " 到期）"; }
         else val = fmtDay(dueAt) + " 到期";
       }
       h += '<div class="' + cls + '"><span class="s-h">' + stepName(i) + '</span><span class="s-v">' + esc(val) + "</span></div>";
     }
     return h + "</div>";
+  }
+
+  // One line of sender status on a card that has send.auto.
+  function autoLineHTML(doc) {
+    var a = autoOf(doc), q = seqInfo(doc);
+    var total = a.total || q.total, step = Math.max(Number(a.step) || 0, q.log.length);
+    var text, cls = "";
+    if (a.status === "queued") text = "排队中（预计按分组顺序在工作时间发出）";
+    else if (a.status === "active") {
+      var last = q.log[q.log.length - 1], next = a.nextAt ? new Date(a.nextAt).getTime() : q.due;
+      if (step <= 1) text = "已发首封" + (q.first != null ? " " + fmtMDHM(q.first) : "");
+      else text = "已发 " + step + "/" + total + " 封" + (last ? "，最近 " + fmtMDHM(new Date(last.at).getTime()) : "");
+      if (step < total && next) text += "，第 " + (step + 1) + " 封约 " + fmtMD(next);
+    }
+    else if (a.status === "finished") text = total + " 封都已发出，没有收到回复";
+    else if (a.status === "replied") { text = "已回复"; cls = " ok"; }
+    else if (a.status === "bounced") { text = "退信"; cls = " warn"; }
+    else if (a.status === "cancelled") text = "已取消";
+    else if (a.status === "error") { text = "发送失败：" + (a.error || "原因见发信助手"); cls = " warn"; }
+    else text = "已交给发信助手";
+    var sub = "";
+    if (autoLive(doc) && !state.sender) sub = "这台浏览器没连接发信助手，要停止请先在上方连接";
+    else if (state.sender && state.senderTransport === "form") sub = "状态以发信助手页面为准";
+    else if (a.syncedAt) sub = "同步于 " + fmtMDHM(new Date(a.syncedAt).getTime());
+    return '<div class="auto-line' + cls + '"><span class="label">自动发送</span><span>' + esc(text) + "</span>" + (sub ? '<span class="sub">' + esc(sub) + "</span>" : "") + "</div>";
   }
 
   function cardHTML(doc) {
@@ -530,13 +657,15 @@
     var review = doc.review || {};
     var allText = fullText(doc, 0) + "\n" + (doc.followups || []).map(function (f) { return f.text; }).join("\n") + (doc.wechat ? "\n" + finalize(doc.wechat, "zh", doc) : "");
     var miss = missingIn(finalize(allText, doc.lang, doc));
+    var a = autoOf(doc), live = autoLive(doc), conn = !!state.sender, busy = !!state.autoBusy[slug];
+    var why = conn && st === "tosend" ? refusalOf(doc) : [];
     var h = "";
     h += '<div class="card-head"><div class="who"><h2>' + esc(doc.company) + "</h2>";
     h += '<div class="tags"><span class="tag">' + esc(doc.category) + '</span><span class="tag">' + esc(doc.region) + " · " + (doc.lang === "en" ? "英文" : "中文") + "</span>";
     if (rev > 1) h += '<span class="tag">第 ' + rev + " 版</span>";
     if (WAVES[doc.wave]) h += '<span class="tag' + (doc.wave === 9 ? " tag-hold" : "") + '">' + WAVES[doc.wave] + "</span>";
     h += "</div></div>";
-    h += '<span class="status ' + s.cls + '">' + s.label + "</span></div>";
+    h += '<span class="status ' + s.cls + '">' + (live && st === "waiting" ? "自动跟进" : s.label) + "</span></div>";
 
     h += '<div class="contact"><span class="label">收件人</span><span class="name">' + esc(doc.contact || "未找到") + "</span>";
     if (doc.role) h += "<span>" + esc(doc.role) + "</span>";
@@ -566,20 +695,33 @@
     if (st === "changes") h += '<div class="review-note warn">你的意见：' + esc(review.comment || "（未写原因）") + (review.at ? " · " + fmtTime(review.at) : "") + "</div>";
     if (reviewOf(doc) === "approved") {
       h += seqHTML(doc);
-      if (miss.length) h += '<div class="missing">发之前还要补：<b>' + esc(miss.join("、")) + "</b>（在上方发件信息里填）</div>";
+      if (why.length) h += '<div class="review-note warn">还不能交给发信助手：' + esc(why.join("；")) + "</div>";
+      else if (miss.length) h += '<div class="missing">发之前还要补：<b>' + esc(miss.join("、")) + "</b>（在上方发件设置里填）</div>";
     } else if (miss.length && st === "pending") {
-      h += '<div class="missing">批准后发送前要填：<b>' + esc(miss.join("、")) + "</b>（上方发件信息，填一次即可）</div>";
+      h += '<div class="missing">批准后发送前要填：<b>' + esc(miss.join("、")) + "</b>（上方发件设置，填一次即可）</div>";
     }
+    if (conn && st === "pending") {
+      // Placeholders are covered by the line above; say what else will keep it from going out.
+      var hold = refusalOf(doc).filter(function (r) { return r.indexOf("还要补") !== 0; });
+      if (hold.length) h += '<div class="missing">批准后不会自动发：<b>' + esc(hold.join("；")) + "</b></div>";
+    }
+    if (a) h += autoLineHTML(doc);
+    var note = state.autoNote[slug];
+    if (note && note.rev === rev) h += '<div class="review-note ' + note.kind + '">' + esc(note.text) + "</div>";
 
     h += '<div class="actions">';
     if (state.canEdit) {
       if (st === "pending") {
-        h += '<button class="btn btn-primary" data-act="approve">批准</button>';
+        h += '<button class="btn btn-primary" data-act="approve"' + (busy ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : conn ? "批准并自动发送" : "批准") + "</button>";
         h += '<button class="btn" data-act="return">退回修改</button>';
       } else if (st === "changes") {
         h += '<button class="btn" data-act="reopen">撤回退回</button>';
+      } else if (live) {
+        // The sender owns the remaining steps: no compose, copy-to-send or mark-sent here.
+        if (q.log.length) h += '<a class="btn" href="' + esc(gmailThread(doc)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 找原邮件</a>';
       } else if (st === "tosend") {
-        h += '<a class="btn btn-primary" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开第 1 封</a>';
+        if (conn) h += '<button class="btn btn-primary" data-act="autosend"' + (busy || why.length ? " disabled" : "") + ">" + (busy ? "正在交给发信助手…" : "交给发信助手") + "</button>";
+        h += '<a class="btn' + (conn ? "" : " btn-primary") + '" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开第 1 封</a>';
         h += '<button class="btn" data-act="sent">标记已发送</button>';
         h += '<button class="btn btn-text" data-act="reopen">撤销批准</button>';
       } else if (st === "due" || st === "waiting") {
@@ -591,11 +733,18 @@
         h += '<button class="btn btn-text" data-act="stop">不再跟进</button>';
       } else {
         if (st === "replied") h += '<button class="btn" data-act="meeting">已约见</button>';
-        h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : st === "meeting" ? "撤销「已约见」" : "恢复跟进") + "</button>";
+        if (!a) h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : st === "meeting" ? "撤销「已约见」" : "恢复跟进") + "</button>";
+        // A finished auto row can be taken back by hand (the resume drops send.auto).
+        else if (st === "replied" || st === "meeting") h += '<button class="btn btn-text" data-act="resume">' + (st === "replied" ? "撤销「已回复」" : "撤销「已约见」") + "</button>";
+        else if (a.status === "cancelled" || a.status === "error") h += '<button class="btn btn-text" data-act="resume">改为手动发送</button>';
+      }
+      if (live && conn) {
+        var sure = !!state.confirmStop[slug];
+        h += '<button class="btn' + (sure ? " btn-warn" : "") + '" data-act="autostop"' + (busy ? " disabled" : "") + ">" + (busy ? "正在停止…" : sure ? "确定停止？再点一次" : "停止自动发送") + "</button>";
       }
     }
     h += '<span class="spacer"></span><button class="btn btn-text" data-act="toggle" aria-expanded="' + !!state.open[slug] + '">' + (state.open[slug] ? "收起全文" : "全文与调研") + "</button></div>";
-    if (st === "due" || st === "waiting") h += '<div class="missing">跟进最好在原邮件里点「回复」再粘贴，这样对方看到的是同一个对话。找不到原邮件时，用「全文与调研」里的「在 Gmail 打开」另起一封（主题带 Re:）。</div>';
+    if ((st === "due" || st === "waiting") && !live) h += '<div class="missing">跟进最好在原邮件里点「回复」再粘贴，这样对方看到的是同一个对话。找不到原邮件时，用「全文与调研」里的「在 Gmail 打开」另起一封（主题带 Re:）。</div>';
 
     if (state.returning[slug]) {
       h += '<form class="return-form" data-form="return"><label class="label" for="rt-' + esc(slug) + '">退回原因（会给 Claude 看）</label>';
@@ -607,13 +756,13 @@
       h += '<div class="detail"><div>';
       h += '<div class="blk"><div class="blk-h"><span class="label">第 1 封</span><div class="copyrow">';
       h += '<button class="btn copy" data-copy="subject">复制主题</button><button class="btn copy" data-copy="body">复制正文</button>';
-      if (reviewOf(doc) === "approved") h += '<a class="btn copy" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
+      if (reviewOf(doc) === "approved" && !live) h += '<a class="btn copy" href="' + esc(gmailCompose(doc, 0)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
       h += "</div></div>";
       h += '<div class="letter"><div class="subj">' + esc(doc.subject) + "</div><pre>" + highlight(finalize(doc.body, doc.lang, doc), doc) + "</pre></div>";
       h += '<div class="legend"><span><span class="sw sw-fill"></span>针对这家写的</span><span><span class="sw sw-ph"></span>还没填的方括号</span></div></div>';
       (doc.followups || []).forEach(function (f, i) {
         h += '<div class="blk"><div class="blk-h"><span class="label">跟进 ' + (i + 1) + "（第 " + f.day + ' 天）</span><div class="copyrow"><button class="btn copy" data-copy="fu' + (i + 1) + '">复制正文</button>';
-        if (reviewOf(doc) === "approved") h += '<a class="btn copy" href="' + esc(gmailCompose(doc, i + 1)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
+        if (reviewOf(doc) === "approved" && !live) h += '<a class="btn copy" href="' + esc(gmailCompose(doc, i + 1)) + '" target="_blank" rel="noopener noreferrer">在 Gmail 打开</a>';
         h += '</div></div><div class="letter"><pre>' + highlight(finalize(f.text, doc.lang, doc), doc) + "</pre></div></div>";
       });
       if (doc.wechat) {
@@ -654,7 +803,8 @@
       seen[slug] = true;
       var entry = state.cards[slug];
       var st = stageOf(doc);
-      var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug], st]);
+      var sig = JSON.stringify([doc, state.settings, state.canEdit, !!state.open[slug], !!state.returning[slug], st,
+        !!state.sender, state.senderTransport, state.autoNote[slug] || null, !!state.autoBusy[slug], !!state.confirmStop[slug]]);
       if (!entry) {
         var el = document.createElement("article");
         el.className = "card";
@@ -745,10 +895,340 @@
     }
   }
 
+  // Auto-send through the sender (发信助手), an Apps Script web app under business@simreal.co.
+  // It only ever gets the finalized text of approved cards. Its url and token stay in this
+  // browser's localStorage; the shared db only learns settings/sender.autoSend.
+  var SENDER_KEY = "simreal.sender";
+  var SENDER_BATCH = 50;
+  var SENDER_SYNC_MS = 3 * 60 * 1000;
+  var SENDER_WRITES = { enqueue: 1, cancel: 1, pause: 1, resume: 1, test: 1 };
+  var NO_READ = "此浏览器里审批页无法直接读取发信助手状态，请点「打开发信助手」查看。";
+  var ADDR_RE = /^[^\s@,;<>]+@[^\s@,;<>]+\.[^\s@,;<>]{2,}$/;
+  var BRACKET_RE = /\[[^\[\]\n]{0,80}\]/;
+  // 地区 -> IANA zone for the send window. The first place named wins ("以色列/美国" is Israel);
+  // "US" is refined by city below.
+  var TZ_PLACES = [
+    ["香港", "Asia/Hong_Kong"], ["新加坡", "Asia/Singapore"], ["英国", "Europe/London"],
+    ["荷兰", "Europe/Amsterdam"], ["欧洲", "Europe/Amsterdam"], ["法国", "Europe/Amsterdam"], ["德国", "Europe/Amsterdam"],
+    ["瑞士", "Europe/Amsterdam"], ["瑞典", "Europe/Amsterdam"], ["意大利", "Europe/Amsterdam"],
+    ["以色列", "Asia/Jerusalem"], ["韩国", "Asia/Seoul"], ["日本", "Asia/Tokyo"], ["加拿大", "America/Toronto"],
+    ["印度", "Asia/Kolkata"], ["澳大利亚", "Australia/Sydney"],
+    ["美国", "US"], ["纽约", "US"], ["康涅狄格", "US"], ["费城", "US"], ["芝加哥", "US"]
+  ];
+
+  function slugOf(doc) { return doc.slug || doc.id; }
+  function regionOf(doc) {
+    var m = String(doc.meta_md || "").match(/地区[：:]\s*([^｜|\n]+)/);
+    return (m ? m[1] : doc.region || "").trim();
+  }
+  function tzOf(doc) {
+    var r = regionOf(doc), best = null, at = Infinity;
+    TZ_PLACES.forEach(function (p) {
+      var i = r.indexOf(p[0]);
+      if (i !== -1 && i < at) { at = i; best = p[1]; }
+    });
+    if (best === "US") {
+      if (/纽约|康涅狄格|费城/.test(r)) return "America/New_York";
+      if (/芝加哥/.test(r)) return "America/Chicago";
+      return "America/Los_Angeles";
+    }
+    if (best) return best;
+    if (r.indexOf("国内") !== -1) return "Asia/Shanghai";
+    if (r.indexOf("海外") !== -1) return "America/Los_Angeles";
+    return doc.lang === "en" ? "America/Los_Angeles" : "Asia/Shanghai";
+  }
+  function letterTexts(doc) {
+    return [String(doc.subject || ""), bodyOf(doc, 0)].concat((doc.followups || []).map(function (f, i) { return bodyOf(doc, i + 1); }));
+  }
+  // Why the page will not hand this card over; empty when it can go. Mirrors the sender's checks.
+  function refusalOf(doc) {
+    var why = [], to = toOf(doc).trim(), texts = letterTexts(doc), miss = [], ph = null;
+    if (sendOf(doc).log.length) why.push("已经手动发过，不再自动发");
+    if (!to) why.push("没有邮箱");
+    else if (!ADDR_RE.test(to)) why.push("邮箱格式不对（" + to + "）");
+    if (doc.wave === 9) why.push("暂缓组不自动发送");
+    texts.forEach(function (t) {
+      missingIn(t).forEach(function (m) { if (miss.indexOf(m) === -1) miss.push(m); });
+      if (!ph) ph = t.match(BRACKET_RE);
+    });
+    if (miss.length) why.push("还要补 " + miss.join("、"));
+    else if (ph) why.push("还有没填的方括号 " + ph[0]);
+    if (!texts[0].trim() || !texts[1].trim()) why.push("主题或正文是空的");
+    else if (texts.join("").length > 40000) why.push("邮件太长");
+    return why;
+  }
+  // The Msg is the same finalized text as the Gmail compose link.
+  function msgOf(doc) {
+    var s = state.settings || {}, lang = doc.lang === "en" ? "en" : "zh";
+    return {
+      slug: slugOf(doc), track: trackOf(doc), company: doc.company || "", contact: doc.contact || "",
+      to: toOf(doc).trim(), subject: doc.subject, body: bodyOf(doc, 0),
+      followups: (doc.followups || []).map(function (f, i) { return { day: f.day, text: bodyOf(doc, i + 1) }; }),
+      lang: lang, region: regionOf(doc), tz: tzOf(doc),
+      wave: trackOf(doc) === "investor" ? doc.wave || 2 : 2,
+      order: doc.order || 9999, revision: doc.revision || 1,
+      fromName: (lang === "en" ? s.nameEn : s.nameZh) || ""
+    };
+  }
+
+  function loadSender() {
+    try {
+      var v = JSON.parse(localStorage.getItem(SENDER_KEY) || "null");
+      return v && typeof v.url === "string" && typeof v.token === "string" && v.url && v.token ? { url: v.url, token: v.token } : null;
+    } catch (e) { return null; }
+  }
+  function storeSender(v) {
+    try {
+      if (v) localStorage.setItem(SENDER_KEY, JSON.stringify(v));
+      else localStorage.removeItem(SENDER_KEY);
+      return true;
+    } catch (e) { return false; }
+  }
+  function senderDash() {
+    var c = state.sender;
+    return c ? c.url + (c.url.indexOf("?") === -1 ? "?" : "&") + "action=dashboard&token=" + encodeURIComponent(c.token) : "";
+  }
+  function senderErrText(r) {
+    var known = {
+      unauthorized: "口令不对。重新粘贴口令后点「保存」。",
+      not_set_up: "发信助手还没运行 setup()，见 ops/sender-setup.md。",
+      busy: "发信助手正忙，过一分钟再试。",
+      not_connected: "还没连接发信助手。"
+    };
+    if (r && known[r.error]) return known[r.error];
+    return (r && r.message) || "发信助手出错了（" + (r && r.error || "未知") + "）。";
+  }
+  function reasonText(reason) {
+    var r = String(reason || ""), i = r.indexOf(":"), code = i === -1 ? r : r.slice(0, i), arg = i === -1 ? "" : r.slice(i + 1);
+    if (code === "invalid_to") return "邮箱格式不对";
+    if (code === "placeholder") return "还有没填的方括号 " + arg;
+    if (code === "empty") return "主题或正文是空的";
+    if (code === "wave_hold") return "暂缓组不自动发送";
+    if (code === "suppressed") return "这个邮箱在屏蔽名单里（退过信或你加的）";
+    if (code === "address_in_use") { var o = docBySlug(arg); return "这个邮箱已经在「" + (o ? o.company : arg) + "」的发送序列里"; }
+    if (code === "too_long") return "邮件太长";
+    if (code === "duplicate") return "发信助手里已经有这一封（可能已发出或已取消），不会重复发；要再发请手动发";
+    return r || "发信助手没有返回这一封的结果";
+  }
+
+  // POST {token, action, ...data}. fetch first (text/plain, so no CORS preflight); when fetch
+  // itself throws, writes go through a hidden form in a new tab and their result is unreadable.
+  async function senderCall(action, data) {
+    var c = state.sender;
+    if (!c) return { ok: false, error: "not_connected" };
+    var payload = JSON.stringify(Object.assign({ token: c.token, action: action }, data || {}));
+    var res;
+    try {
+      res = await fetch(c.url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload, redirect: "follow" });
+    } catch (e) {
+      state.senderTransport = "form";
+      if (!SENDER_WRITES[action]) return { ok: false, error: "no_read", message: NO_READ };
+      postForm(c.url, payload);
+      return { ok: true, viaForm: true };
+    }
+    state.senderTransport = "fetch";
+    try {
+      var out = await res.json();
+      if (out && typeof out === "object") return out;
+    } catch (e) {}
+    return { ok: false, error: "bad_response", message: "发信助手返回的不是数据（HTTP " + res.status + "）。检查部署时「谁有权访问」选了「任何人」，地址以 /exec 结尾。" };
+  }
+  function postForm(url, payload) {
+    var f = document.createElement("form");
+    f.method = "post"; f.action = url; f.target = "_blank"; f.acceptCharset = "UTF-8"; f.hidden = true;
+    f.setAttribute("rel", "noopener");
+    var input = document.createElement("input");
+    input.type = "hidden"; input.name = "payload"; input.value = payload;
+    f.appendChild(input);
+    document.body.appendChild(f);
+    f.submit();
+    f.remove();
+  }
+
+  var toastTimer = null;
+  function toast(text) {
+    var t = document.getElementById("toast");
+    if (!t) {
+      t = document.createElement("div");
+      t.id = "toast"; t.className = "toast"; t.setAttribute("role", "status");
+      t.addEventListener("click", function () { t.hidden = true; });
+      document.body.appendChild(t);
+    }
+    t.textContent = text;
+    t.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.hidden = true; }, 9000);
+  }
+
+  // Hand cards to the sender, 50 per request. `before` is a pending db write to the same docs
+  // (the approval) that must land before send.auto is written. Returns one entry per card.
+  async function enqueueDocs(docs, before) {
+    var out = { items: [], left: 0 }, ready = [], now = new Date().toISOString();
+    docs.forEach(function (d) {
+      var why = refusalOf(d);
+      if (why.length) out.items.push({ doc: d, kind: "refused", text: why.join("；") });
+      else ready.push(d);
+    });
+    ready.forEach(function (d) { state.autoBusy[slugOf(d)] = true; delete state.autoNote[slugOf(d)]; });
+    if (ready.length) render();
+    for (var i = 0; i < ready.length; i += SENDER_BATCH) {
+      var part = ready.slice(i, i + SENDER_BATCH), msgs = part.map(msgOf);
+      var res = await senderCall("enqueue", { messages: msgs });
+      if (before) { await before; before = null; }
+      if (res.viaForm || !res.ok) {
+        // A form tab cannot report back: record the optimistic state and stop after one tab.
+        for (var j = 0; j < part.length; j++) {
+          if (res.viaForm) await writeDoc(msgs[j].slug, { send: { auto: { status: "queued", queuedAt: now, revision: msgs[j].revision } } });
+          out.items.push({ doc: part[j], kind: res.viaForm ? "form" : "error", text: res.viaForm ? "" : senderErrText(res) });
+        }
+        out.left = ready.length - i - part.length;
+        break;
+      }
+      var by = {};
+      (res.results || []).forEach(function (r) { if (r && r.slug) by[r.slug] = r; });
+      for (var k = 0; k < part.length; k++) {
+        var r = by[msgs[k].slug] || {}, prev = autoOf(part[k]);
+        if (r.result === "queued" || r.result === "updated") {
+          var queuedAt = r.result === "updated" && prev && prev.queuedAt || now;
+          await writeDoc(msgs[k].slug, { send: { auto: { status: "queued", queuedAt: queuedAt, revision: msgs[k].revision } } });
+          out.items.push({ doc: part[k], kind: r.result, text: "" });
+        } else {
+          out.items.push({ doc: part[k], kind: r.result === "duplicate" ? "duplicate" : "rejected", text: reasonText(r.result === "duplicate" ? "duplicate" : r.reason) });
+        }
+      }
+    }
+    ready.forEach(function (d) { delete state.autoBusy[slugOf(d)]; });
+    out.items.forEach(function (it) {
+      if (it.kind === "rejected" || it.kind === "duplicate" || it.kind === "error") {
+        state.autoNote[slugOf(it.doc)] = { kind: "warn", rev: it.doc.revision || 1, text: "发信助手没收：" + it.text + (/[。！？]$/.test(it.text) ? "" : "。") };
+      }
+    });
+    render();
+    return out;
+  }
+
+  // 批准并自动发送 (approving) or 交给发信助手 on one card.
+  async function autoOne(doc, before, approving) {
+    var name = doc.company || slugOf(doc), lead = approving ? "已批准「" + name + "」，" : "「" + name + "」";
+    var it = (await enqueueDocs([doc], before)).items[0];
+    if (!it) return;
+    if (it.kind === "queued" || it.kind === "updated") toast(lead + (it.kind === "updated" ? "排队中的内容已更新。" : "已交给发信助手，会在工作时间按分组顺序发出。"));
+    else if (it.kind === "form") toast(lead + "已在新标签页交给发信助手。" + NO_READ);
+    else if (it.kind === "refused") toast(lead + "但没交给发信助手：" + it.text + "。" + (approving ? "补好后在「今天要发」里点「交给发信助手」。" : ""));
+    else if (it.kind === "error") toast(lead + "但没交上：" + it.text);
+    else toast(lead + "但发信助手没收：" + it.text + "。");
+  }
+
+  async function handOverAll() {
+    if (!state.sender || state.autoAllBusy) return;
+    var tab = state.tab;
+    var list = tabDocs().filter(function (d) { return stageOf(d) === "tosend" && !refusalOf(d).length; })
+      .sort(function (a, b) { return (a.order || 9999) - (b.order || 9999); });
+    if (!list.length) return;
+    state.autoAllBusy = true;
+    state.autoSummary = null;
+    renderFilters();
+    var out = await enqueueDocs(list), n = {}, reasons = {};
+    out.items.forEach(function (it) {
+      n[it.kind] = (n[it.kind] || 0) + 1;
+      if (it.kind === "rejected" || it.kind === "error") reasons[it.text] = (reasons[it.text] || 0) + 1;
+    });
+    var text;
+    if (n.form) {
+      text = "已在新标签页交给发信助手 " + n.form + " 封。" + NO_READ + (out.left ? "还剩 " + out.left + " 封，再点一次按钮交下一批。" : "");
+    } else {
+      var parts = [];
+      if (n.queued || n.updated) parts.push("已交给发信助手 " + ((n.queued || 0) + (n.updated || 0)) + " 封");
+      if (n.duplicate) parts.push(n.duplicate + " 封之前已交过");
+      var bad = Object.keys(reasons).map(function (k) { return reasons[k] + " 封没收（" + k.replace(/。$/, "") + "）"; });
+      text = parts.concat(bad).join("，") + "。";
+    }
+    state.autoAllBusy = false;
+    state.autoSummary = { tab: tab, text: text };
+    render();
+  }
+
+  // 停止自动发送: two clicks, then cancel. Optimistic when only the form transport works.
+  async function stopAuto(doc) {
+    var slug = slugOf(doc), name = doc.company || slug;
+    if (!state.confirmStop[slug]) {
+      state.confirmStop[slug] = true;
+      render();
+      setTimeout(function () { if (state.confirmStop[slug]) { delete state.confirmStop[slug]; render(); } }, 6000);
+      return;
+    }
+    delete state.confirmStop[slug];
+    delete state.autoNote[slug];
+    state.autoBusy[slug] = true;
+    render();
+    var r = await senderCall("cancel", { slug: slug }), now = new Date().toISOString();
+    if (r.viaForm || (r.ok && r.status === "cancelled")) {
+      await writeDoc(slug, { send: { outcome: "stopped", outcomeAt: now, auto: { status: "cancelled" } } });
+      toast("已停止「" + name + "」的自动发送" + (r.viaForm ? "（在新标签页提交）" : "") + "。已经发出的邮件撤不回。");
+    } else if (r.ok) {
+      toast("「" + name + "」在发信助手里已经不是排队或发送中的状态，没有可停的。");
+      syncStatus();
+    } else {
+      state.autoNote[slug] = { kind: "warn", rev: doc.revision || 1, text: "没停下来：" + senderErrText(r) };
+    }
+    delete state.autoBusy[slug];
+    render();
+  }
+
+  // Status sync: sender items -> send.log / send.outcome / send.auto, written only on change.
+  function syncPatch(doc, item, at) {
+    var cur = doc.send || {}, a = autoOf(doc) || {};
+    var log = (Array.isArray(item.log) ? item.log : []).filter(function (e) { return e && e.at; })
+      .slice().sort(function (x, y) { return new Date(x.at) - new Date(y.at); })
+      .map(function (e, i) { return { step: i, at: e.at }; });
+    var outcome = cur.outcome || null;
+    if (outcome !== "meeting") {
+      if (item.status === "replied" || item.outcome === "replied") outcome = "replied";
+      else if (["cancelled", "bounced", "error"].indexOf(item.status) !== -1) outcome = "stopped";
+    }
+    var auto = {
+      status: item.status || a.status || null, step: Number(item.step) || 0, total: Number(item.total) || null,
+      nextAt: item.nextAt || null, error: item.error || null, outcome: item.outcome || null
+    };
+    var same = JSON.stringify(log) === JSON.stringify(Array.isArray(cur.log) ? cur.log : []) && outcome === (cur.outcome || null) &&
+      Object.keys(auto).every(function (k) { return auto[k] === (a[k] == null ? null : a[k]); });
+    if (same) return null;
+    var patch = { log: log, outcome: outcome, auto: Object.assign(auto, { syncedAt: at, queuedAt: a.queuedAt || null, revision: a.revision || null }) };
+    if (outcome !== (cur.outcome || null)) patch.outcomeAt = item.outcomeAt || at;
+    return patch;
+  }
+  async function syncStatus() {
+    if (!state.sender || !state.db || state.senderTransport === "form" || state.syncing) return;
+    var slugs = state.docs.filter(autoOf).map(slugOf);
+    if (!slugs.length) return;
+    state.syncing = true;
+    try {
+      var r = await senderCall("status", { slugs: slugs });
+      var line = document.getElementById("s-sync");
+      if (!r.ok) { line.textContent = senderErrText(r); return; }
+      var at = new Date().toISOString();
+      for (var i = 0; i < (r.items || []).length; i++) {
+        var item = r.items[i], doc = item && docBySlug(item.slug);
+        if (!doc || !autoOf(doc)) continue;
+        var patch = syncPatch(doc, item, at);
+        if (patch) await writeDoc(slugOf(doc), { send: patch });
+      }
+      state.syncedAt = Date.now();
+      line.textContent = "同步于 " + fmtMDHM(state.syncedAt) + " · 今天已发 " + (r.sentToday || 0) + "/" + (r.dailyCap || "?") + " · " + (r.paused ? "已暂停" : "运行中");
+    } finally {
+      state.syncing = false;
+    }
+  }
+  setInterval(function () { if (document.visibilityState === "visible") syncStatus(); }, SENDER_SYNC_MS);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible" && Date.now() - state.syncedAt > SENDER_SYNC_MS) syncStatus();
+  });
+
   document.addEventListener("click", function (ev) {
     var tab = ev.target.closest(".tab");
     if (tab) { showTab(tab.dataset.tab); return; }
     if (ev.target.closest("#export-btn")) { exportCsv(); return; }
+    if (ev.target.closest("#auto-all-btn")) { handOverAll(); return; }
     var chip = ev.target.closest(".chip");
     if (chip) {
       if (chip.dataset.status) state.status = chip.dataset.status;
@@ -776,7 +1256,13 @@
     }
     var q = seqInfo(doc);
     if (act === "toggle") { state.open[slug] = !state.open[slug]; render(); return; }
-    if (act === "approve") { writeDoc(slug, { review: { status: "approved", comment: "", at: now, forRevision: rev } }); return; }
+    if (act === "approve") {
+      var approved = writeDoc(slug, { review: { status: "approved", comment: "", at: now, forRevision: rev } });
+      if (state.sender) autoOne(doc, approved, true);
+      return;
+    }
+    if (act === "autosend") { autoOne(doc, null, false); return; }
+    if (act === "autostop") { stopAuto(doc); return; }
     if (act === "return") { state.returning[slug] = true; render(); var ta = card.querySelector("textarea"); if (ta) ta.focus(); return; }
     if (act === "cancel-return") { state.returning[slug] = false; render(); return; }
     if (act === "reopen") { writeDoc(slug, { review: { status: "pending", comment: "", at: now, forRevision: rev } }); return; }
@@ -784,7 +1270,11 @@
     if (act === "replied") { writeDoc(slug, { send: { log: q.log, outcome: "replied", outcomeAt: now } }); return; }
     if (act === "meeting") { writeDoc(slug, { send: { log: q.log, outcome: "meeting", outcomeAt: now } }); return; }
     if (act === "stop") { writeDoc(slug, { send: { log: q.log, outcome: "stopped", outcomeAt: now } }); return; }
-    if (act === "resume") { writeDoc(slug, { send: { log: q.log, outcome: null } }); return; }
+    if (act === "resume") {
+      // On an auto row this is only offered once the sender is done with it; it goes back to manual.
+      writeDoc(slug, { send: autoOf(doc) ? { log: q.log, outcome: null, auto: null } : { log: q.log, outcome: null } });
+      return;
+    }
   });
 
   document.addEventListener("input", function (ev) {
@@ -826,8 +1316,8 @@
     clearTimeout(saveTimer);
     saveTimer = setTimeout(async function () {
       if (!state.db) { st.textContent = "数据未连接，没有保存。"; return; }
-      var s = {};
-      Object.keys(FIELDS).forEach(function (id) { s[FIELDS[id]] = document.getElementById(id).value.trim(); });
+      var s = settingsFromForm();
+      if (typeof state.settings.autoSend === "boolean") s.autoSend = state.settings.autoSend;
       try {
         await state.db.doc("settings/sender").set(s);
         st.textContent = "已保存";
@@ -837,12 +1327,95 @@
     }, 600);
   }
   Object.keys(FIELDS).forEach(function (id) { document.getElementById(id).addEventListener("input", scheduleSave); });
+  function settingsFromForm() {
+    var s = {};
+    Object.keys(FIELDS).forEach(function (id) { s[FIELDS[id]] = document.getElementById(id).value.trim(); });
+    return s;
+  }
   function fillSettingsForm(s) {
     Object.keys(FIELDS).forEach(function (id) {
       var el = document.getElementById(id);
       if (document.activeElement !== el) el.value = s[FIELDS[id]] || "";
     });
   }
+
+  // 自动发送（发信助手）block. Only the boolean autoSend ever reaches the shared settings doc.
+  async function setAutoFlag(on) {
+    if (!state.db || !state.settingsLoaded || !state.canEdit || state.settings.autoSend === on) return;
+    try {
+      await state.db.doc("settings/sender").set(Object.assign({}, state.settings, settingsFromForm(), { autoSend: on }));
+    } catch (e) {}
+  }
+  function senderSay(text, kind) {
+    var el = document.getElementById("s-state");
+    el.textContent = text;
+    el.className = kind || "";
+  }
+  function renderSenderBox() {
+    var c = state.sender, off = !c || !state.canEdit;
+    var pill = document.getElementById("s-conn");
+    pill.textContent = c ? "已连接" : "未连接";
+    pill.className = "conn status " + (c ? "st-approved" : "st-pending");
+    ["s-ping", "s-test", "s-off"].forEach(function (id) { document.getElementById(id).disabled = off; });
+    document.getElementById("s-save").disabled = !state.canEdit;
+    var dash = document.getElementById("s-dash");
+    dash.hidden = !c;
+    if (c) dash.href = senderDash(); else dash.removeAttribute("href");
+    if (!c) document.getElementById("s-sync").textContent = "";
+  }
+  async function pingSender(extra) {
+    senderSay("正在连接…");
+    var r = await senderCall("ping", {});
+    if (r.ok) {
+      var n = r.counts || {};
+      state.senderFrom = r.from || "";
+      senderSay("已连接 " + (r.from || "发信助手") + " · 今天已发 " + (r.sentToday || 0) + "/" + (r.dailyCap || "?") + " · 排队 " + (n.queued || 0) + " 封 · " + (r.paused ? "已暂停" : "运行中") + (extra || ""), "ok");
+    } else {
+      senderSay(senderErrText(r) + (extra || ""), r.error === "no_read" ? "" : "warn");
+    }
+    render();
+  }
+  async function saveSender() {
+    var url = document.getElementById("s-url").value.trim(), token = document.getElementById("s-token").value.trim();
+    if (!/^https?:\/\/\S+$/.test(url)) { senderSay("地址是部署后得到的 Web 应用网址，以 https:// 开头、/exec 结尾。", "warn"); return; }
+    if (!token) { senderSay("口令不能空，在 setup() 的执行日志里。", "warn"); return; }
+    state.sender = { url: url, token: token };
+    state.senderTransport = "fetch";
+    var kept = storeSender(state.sender);
+    renderSenderBox();
+    render();
+    setAutoFlag(true);
+    await pingSender(kept ? "" : "（这个浏览器不让保存，关掉页面后要重填）");
+    syncStatus();
+  }
+  async function testSender() {
+    var btn = document.getElementById("s-test");
+    btn.disabled = true;
+    senderSay("正在试发…");
+    var r = await senderCall("test", {});
+    if (r.viaForm) senderSay("已在新标签页提交试发，结果显示在那个标签页里，再去收件箱看看。");
+    else if (r.ok) senderSay("已发出一封测试邮件到 " + (state.senderFrom || "发件邮箱") + "，去收件箱看看。", "ok");
+    else senderSay(senderErrText(r), "warn");
+    renderSenderBox();
+  }
+  function dropSender() {
+    state.sender = null;
+    state.senderTransport = "fetch";
+    storeSender(null);
+    document.getElementById("s-url").value = "";
+    document.getElementById("s-token").value = "";
+    setAutoFlag(false);
+    senderSay("已断开，这台浏览器回到手动发送。已经交给发信助手的邮件照常发；要停，重新连接后点卡片上的「停止自动发送」。");
+    renderSenderBox();
+    render();
+  }
+  document.getElementById("s-save").addEventListener("click", saveSender);
+  document.getElementById("s-ping").addEventListener("click", function () { pingSender(""); });
+  document.getElementById("s-test").addEventListener("click", testSender);
+  document.getElementById("s-off").addEventListener("click", dropSender);
+  ["s-url", "s-token"].forEach(function (id) {
+    document.getElementById(id).addEventListener("keydown", function (ev) { if (ev.key === "Enter") saveSender(); });
+  });
 
   function showTab(tab) {
     if (!TRACKS[tab]) return;
@@ -869,14 +1442,18 @@
       state.canEdit = user ? await user.canEdit() : true;
     } catch (e) { state.canEdit = true; }
     if (!state.canEdit) document.querySelectorAll(".sender input").forEach(function (el) { el.disabled = true; });
+    renderSenderBox();
     db.collection("prospects").onSnapshot(function (snap) {
       state.docs = snap.docs.map(function (d) { var x = Object.assign({}, d.data()); x.id = d.id; return x; });
       render();
+      // First sender sync once the list is server-definitive (a cached first page may be partial).
+      if (!state.firstSync && !(snap.metadata && snap.metadata.fromCache)) { state.firstSync = true; setTimeout(syncStatus, 0); }
     }, function (e) {
       showNotice("草稿列表断开了（" + (e && e.code || "错误") + "）。刷新页面重新连接。");
     });
     db.doc("settings/sender").onSnapshot(function (snap) {
       state.settings = snap.exists ? snap.data() : {};
+      state.settingsLoaded = true;
       fillSettingsForm(state.settings);
       render();
     }, function () {});
@@ -886,6 +1463,12 @@
     }, function () {});
   }
   try { var saved = localStorage.getItem("simreal-track"); if (TRACKS[saved]) state.tab = saved; } catch (e) {}
+  state.sender = loadSender();
+  if (state.sender) {
+    document.getElementById("s-url").value = state.sender.url;
+    document.getElementById("s-token").value = state.sender.token;
+  }
+  renderSenderBox();
   Object.keys(TRACKS).forEach(function (t) {
     document.getElementById("tabbtn-" + t).setAttribute("aria-selected", t === state.tab);
   });
