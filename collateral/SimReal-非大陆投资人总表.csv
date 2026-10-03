@@ -1,0 +1,763 @@
+﻿序号,机构 / 投资人,类型,地区,地区已核实,分组,阶段,单笔金额,是否领投,投过的同类公司,联系人,职位,公开邮箱,邮箱类型,邮箱来源,备用渠道（表单 / 基金邮箱）,开场钩子 / 匹配理由,备注,审批页卡片,出处,来源链接
+1,Air Street Capital,VC,海外（英国，伦敦）,是,A 组,早期为主（种子到 A 轮），少量成长期,50 万–1500 万美元，少数成长期可达 2500 万美元,,"Your State of AI Report tracks the shift to RL post-training, and Air Street bac",Nathan Benaich,创始人、Solo GP；State of AI Report 作者,nathan@airstreet.com,个人公开,https://www.airstreet.com/ai-venture-capital (搜索摘要，官网原文：The best way to reach Air Street Capital is to email Nathan Benaich directly at nathan@airstreet.com),https://x.com/nathanbenaich,"Your State of AI Report tracks the shift to RL post-training, and Air Street backs AI-first companies from seed; we're building for that shift, starting with finance.","Fund III 2.32 亿美元（2026 年 3 月），欧洲最大 Solo GP 基金；只投 AI-first 公司，覆盖欧洲和北美。；风险：单笔偏小，2,000 万美元种子轮里更可能是参投；官网要求邮件写清公司简介、核心 AI 能力和阶段，本人提过 AI 生成的 pitch 邮件太多，邮件要短而具体",v-air-street-capital,审批页、投资人档案,"https://www.airstreet.com/team
+https://www.airstreet.com/ai-venture-capital
+https://nathanbenaich.substack.com/p/the-state-of-ai-report-2025
+https://www.airstreet.com/ai-venture-capital
+https://www.airstreet.com/ai-venture-capital
+https://press.airstreet.com/p/fund-iii"
+2,Conviction,VC,海外（美国）,是,A 组,种子到 A 轮为主，AI 原生公司,种子约 100–500 万美元；整体 100 万–2500 万美元（聚合站数据）,,Trajectory、Intelligence / Design Arena,Sarah Guo,创始人,sarah@conviction.com,个人公开,https://x.com/saranormous ; https://www.linkedin.com/posts/sarahxguo_conviction-activity-6972973704561520640-BmeQ (搜索摘要：精确搜索该地址，结果指向本人 X 和本人 LinkedIn 帖子),embed@conviction.com（Embed 种子项目收件箱，见 https://www.conviction.com/embed）,Conviction led Trajectory's seed for continual learning in May; we build the finance environments where that kind of learning gets scored against real outcomes.,Fund II 2.3 亿美元（2025 年），新增 GP Mike Vernal；只投 AI；已投 Trajectory、Intelligence / Design Arena。；风险：Conviction 主张机会在模型层之上，偏应用；RL 环境直接案例少。,v-conviction,审批页、投资人档案、海外种子名单、资源清单,"https://www.forbes.com/sites/rashishrivastava/2026/05/27/sarah-guo-bet-everything-on-ai-pre-chatgpt-now-shes-one-of-the-worlds-top-investors/
+https://en.wikipedia.org/wiki/Sarah_Guo
+https://www.finsmes.com/2026/05/trajectory-raises-15m-in-seed-funding.html
+https://www.thesaasnews.com/news/trajectory-raises-15m-seed/
+https://x.com/saranormous
+https://www.linkedin.com/posts/sarahxguo_conviction-activity-6972973704561520640-BmeQ"
+3,Decibel,VC,海外（美国）,是,A 组,pre-seed 到种子+，种子为主,约 10 万–1000 万美元区间（聚合站数据）；种子具体额未确认,常领投种子（自称技术创始人的“第一张支票”）,Veris AI,Alessio Fanelli,Partner & CTO,未找到,,,官网 Connect 页 https://www.decibel.vc/connect,"You co-led Veris AI's seed as the environment layer enterprise AI was missing; we build that layer for finance, where agent outcomes settle against real markets.",最新基金约 2.825 亿美元（2024 年 3 月）；偏开发者/安全/基础设施；已投 Veris AI。；风险：已投 Veris AI（企业 RL 环境，相邻竞品）。,v-decibel,审批页、投资人档案、海外种子名单,"https://www.decibel.vc/team/alessio-fanelli
+https://www.decibel.vc/articles/welcoming-alessio-fanelli-as-decibels-newest-partner
+https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+https://finance.yahoo.com/news/veris-ai-emerges-stealth-8-120000178.html
+https://www.vcsheet.com/fund/decibel-partners
+https://superscout.co/investor/decibel-partners"
+4,Exceptional Capital,VC,海外（美国）,是,A 组,pre-seed 到种子,pre-seed 10–50 万美元；种子 25–150 万美元，甜蜜点 30–80 万美元（聚合站数据）,,HUD,Marell Evans,创始人、General Partner,未找到,,,https://www.exceptionalcap.com（官网投递）,"Exceptional backed HUD at seed, where domain experts build RL environments for labs; we're building those environments for finance with our own expert network.",Solo GP 小基金（约 5000 万美元，聚合站数据），偏 B2B 企业软件/安全；支票较小，适合作为本轮跟投方；已投 HUD。；风险：基金偏 B2B SaaS，单笔较小。,v-exceptional-capital,审批页、投资人档案,"https://www.exceptionalcap.com/team/marell-evans
+https://en.wikipedia.org/wiki/Marell_Evans
+https://www.exceptionalcap.com/portfolio/hud
+https://tracxn.com/d/companies/hud/__T5l-9FL9cNdQpzhB3Q4lLWP1a6vsmlQpWQbNAlbYyBo/funding-and-investors
+https://www.forbes.com/sites/rebeccaszkutak/2022/02/15/solo-black-gp-marell-evans-launches-exceptional-capital-to-focus-on-b2b-software/
+https://superscout.co/investor/exceptional-capital"
+5,General Catalyst,VC,海外（美国）,是,A 组,种子到成长期全阶段，设有专门美国种子平台,种子约 200–1000 万美元（聚合站数据）,常领投种子/A 轮（如领投 Numos 425 万美元种子轮）,Mercor、Proximal、Good Start Labs、Arga Labs,Yuri Sagalov,Managing Director（负责 GC 美国种子投资）,seed@generalcatalyst.com,机构投递,seed@generalcatalyst.com（官方投递，GC 种子项目；精确搜索该地址，首条结果是官网 https://www.generalcatalyst.com/stories/seed-at-general-catalyst ，搜索摘要） ；https://www.generalcatalyst.com/stories/seed-at-general-catalyst（种子项目页）,seed@generalcatalyst.com（官方投递，GC 种子项目；精确搜索该地址，首条结果是官网 https://www.generalcatalyst.com/stories/seed-at-general-catalyst ，搜索摘要） ；https://www.generalcatalyst.com/stories/seed-at-general-catalyst（种子项目页）,"You led Arga's seed and argued that repeatable sandboxes matter even more for agents; we've built that for finance, where outcomes settle in real markets.",Yuri Sagalov 2025 年加入并主管美国种子；已投 Mercor（专家数据，直接竞品）、Proximal、Good Start Labs、Arga Labs，需注意利益冲突。；风险：GC 深度绑定 Mercor，且已投 Arga（企业软件沙箱），需讲清金融垂直差异。,v-general-catalyst,审批页、投资人档案、海外种子名单、资源清单,"https://www.generalcatalyst.com/team/yuri-sagalov
+https://x.com/yuris/status/1911815110412353667
+https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
+https://www.finsmes.com/2026/08/arga-labs-raises-10m-in-seed-funding.html
+https://x.com/yuris/status/1942612234909409349
+https://finance.yahoo.com/sectors/technology/articles/numos-raises-seed-general-catalyst-120000931.html"
+6,HRT Ventures,战略投资,海外（美国）,是,A 组,未确认（官网称做成长期公司的战略投资，实际也投早期加密项目）,,同类公司中领投 0 次,Vals AI,未找到（HRT 合伙人为 Jason Carroll、Oaz Nir、Prashant Lal，未见证据表明谁负责 ventures）,,strategicvc@hudson-trading.com,机构投递,"strategicvc@hudson-trading.com（官方投递，HRT Ventures；搜索摘要显示官网 Ventures 页写有""contact HRT Ventures at strategicvc@hudson-trading.com""） ；https://www.hudsonrivertrading.com/contact/（官网联系页）","strategicvc@hudson-trading.com（官方投递，HRT Ventures；搜索摘要显示官网 Ventures 页写有""contact HRT Ventures at strategicvc@hudson-trading.com""） ；https://www.hudsonrivertrading.com/contact/（官网联系页）","HRT Ventures joined Vals AI's Series A in August; we build trading RL environments, and our founders come from the same quant world.",Hudson River Trading（量化交易公司）的战略投资部门，聚焦金融与科技交叉；量化背景契合，可兼作潜在客户；已投 Vals AI、Eridu。；风险：量化同业，需处理竞业和信息隔离问题；投资负责人不明。,v-hrt-ventures,审批页、投资人档案、同类公司反查、海外种子名单,"https://www.hudsonrivertrading.com/ventures/
+https://sacra.com/c/vals-ai/
+https://www.hudsonrivertrading.com/ventures/
+https://tracxn.com/d/venture-capital/hudson-river-ventures/__CGIIxLkCednhPdMwy9cO2GG4UQebhbJ-yE0vpTLLUig
+https://www.finsmes.com/2026/08/vals-ai-raises-40m-in-series-a-funding-at-400m-valuation.html
+https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html"
+7,Laude Ventures,VC,海外（美国）,是,A 组,种子为主,,,LMArena,Andy Konwinski,联合创始人（Laude Ventures / Laude Institute，Databricks、Perplexity 联合创始人）,hello@laude.vc,机构投递,hello@laude.vc（官方通用；精确搜索该地址，结果指向 laude.vc 官网页面，搜索摘要） ；https://laude.vc（官网联系表单）,hello@laude.vc（官方通用；精确搜索该地址，结果指向 laude.vc 官网页面，搜索摘要） ；https://laude.vc（官网联系表单）,"Laude described backing Arena as turning research-driven evaluation into AI infrastructure; we're doing that for finance, where models are scored by real market outcomes.",1.5 亿美元种子基金（2024 年 12 月），偏研究驱动的技术型初创；创始人 Andy Konwinski（Databricks、Perplexity 联合创始人）；已投 LMArena。；风险：偏好研究出身的技术团队。,v-laude-ventures,审批页、投资人档案,"https://laude.vc/team/andy-konwinski
+https://laude.vc/team
+https://laude.vc/news/lmarena-turning-research-driven-evaluation-into-ai-infrastructure
+https://www.prnewswire.com/news-releases/lmarena-raises-150-million-to-build-the-worlds-most-trusted-ai-evaluation-platform-302653012.html
+https://www.forbes.com/sites/alexkonrad/2024/12/10/laude-ventures-databricks-perplexity-new-fund/
+https://x.com/alexrkonrad/status/1866511877481680905"
+8,Menlo Ventures,VC,海外（美国）,是,A 组,Inception（pre-seed/种子）到成长期；2026 年 6 月新募 30 亿美元：Menlo XVII 投种子到 A 轮，Inflection IV 投 B 轮及以后,Inception/种子约 50–200 万美元（第三方数据库口径，非官方）；也做大额种子（领投 Inception Labs 5000 万美元种子）；Anthology Fund 起步约 10 万美元,种子/A 轮可领投（如 Inception Labs 种子轮）,Fleet、Prime Intellect,Deedy Das,Partner（种子到 B 轮 AI/基础设施）,deedy@menlovc.com,个人公开,https://debarghyadas.com/ (搜索摘要：精确搜索该地址，首条结果是本人主页),,"Your July map counted 50+ companies selling data and RL environments to labs, with most revenue in four players; we're a finance-specialist entrant with quant founders and our own experts.",Anthropic 重要股东，与 Anthropic 合设 1 亿美元 Anthology Fund；已投 Fleet、Prime Intellect；风险：已投 Fleet、Mercor 两家直接竞品。,v-menlo-ventures,审批页、投资人档案、海外种子名单,"https://menlovc.com/team/deedy-das/
+https://slush.org/2026-speakers/deedy-das
+https://x.com/deedydas/status/2076124392711696455
+https://blog.pebblous.ai/blog/ai-data-supply-oligopoly/en/
+https://debarghyadas.com/
+https://cryptorank.io/news/feed/a9201-menlo-ventures-raise-ai-startup-funding-across-stages-anthropic"
+9,Wing VC,VC,海外（美国）,是,A 组,种子与 A 轮为主，聚焦企业级/AI 基础设施,种子约 100–300 万美元、A 轮约 300–800 万美元（第三方口径，非官方）；但领投的 Bespoke Labs A 轮整轮达 3180 万美元,常领投 A 轮（如 Bespoke Labs A 轮）,Bespoke Labs、Gray Swan AI,Chris Zeoli,Partner（数据基础设施/AI 基础设施）,chris@wing.vc,个人公开,"https://x.com/chriszeoli ; https://www.wing.vc/team (搜索摘要：本人公开写法为 ""Chris [at] wing.vc""，精确搜索结果指向本人 X 和 Wing 团队页)",,"Your RL environments piece argued verification, not model capability, is what makes automation durable; verifiers are the core of what we build for finance.",已领投 Bespoke Labs（RL 环境与验证，直接竞品）A 轮；已投 Gray Swan AI；风险：已投 Bespoke Labs（RL 环境），偏 A 轮。,v-wing-vc,审批页、投资人档案、海外种子名单,"https://www.wing.vc/people/chris-zeoli
+https://www.wing.vc/content/rl-environments-for-agentic-ai-who-will-win-the-training-verification-layer-by-2030
+https://www.linkedin.com/posts/chriszeoli_who-will-win-the-rl-environment-marketand-activity-7422318226312966144-pTIy
+https://x.com/chriszeoli
+https://www.wing.vc/team
+https://www.wing.vc/content/investing-in-bespoke-ai"
+10,8VC,VC,海外（美国）,是,A 组,种子到成长期均投，A 轮为主,约 50 万–5000 万美元区间（聚合站数据）；种子首投具体额未确认,常领投 A 轮；种子轮领投比例未确认,Bespoke Labs、Vals AI,未找到,,未找到,,,,8VC led Bespoke Labs' seed before its $40M raise for agent training environments; we build those environments for finance.,Fund VI 9.98 亿美元（2025 年 3 月关账），Fund 7 15 亿美元为史上最大；已投 Bespoke Labs、Vals AI。；风险：已投 Bespoke Labs（RL 环境）构成冲突；负责合伙人不明。,v-8vc,审批页、投资人档案、海外种子名单,"https://8vc.com/team
+https://finance.yahoo.com/technology/ai/articles/bespoke-labs-announces-40m-build-130100239.html
+https://traded.co/vc/deal/bespoke-labs-raises-40-million-in-seed-and-series-a-funding-led-by-wing-vc-and-8vc/
+https://www.everythingstartups.com/article/8vc-closes-1-5b-fund-7-largest-fund-to-date
+https://superscout.co/investor/8vc
+https://www.vcsheet.com/fund/8vc"
+11,Abstract Ventures,VC,海外（美国）,是,A 组,pre-seed 到 A 轮，种子为主,种子约 25–200 万美元，甜蜜点约 50 万美元（聚合站数据）,近年多领投（Fund III 约 80–90% 为领投）,Deeptune,Ramtin Naimi,创始人、General Partner,未找到,,,,"Abstract joined Deeptune's Series A for agent training gyms, accountant workflows included, before Mercor bought it; we build finance and month-end close environments in that category.",2025 年募 5 亿美元，管理规模约 18 亿美元，属全球最大种子基金之一；已投 Deeptune（RL 环境，直接可比/潜在竞品）。；风险：无直接冲突。,v-abstract-ventures,审批页、投资人档案、海外种子名单,"https://www.crunchbase.com/person/ramtin-naimi
+https://signal.nfx.com/investors/ramtin-naimi
+https://siliconangle.com/2026/03/19/deeptune-raises-43m-accelerate-ai-learning-virtual-training-gyms/
+https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html
+https://colossus.com/article/ramtin-naimi-man-hot-hand/
+https://vcbeast.com/vc-firms/abstract-ventures"
+12,Acrew Capital,VC,海外（美国）,是,A 组,种子到 B 轮,早期约 25 万美元起；A 轮首投约 400–700 万美元（聚合站数据）,A 轮常领投（聚合站数据）；种子轮未确认,Invisible Technologies、Veris AI,Asad Khaliq,Founding Partner,未找到,,,,"You co-led Veris AI's seed, backing agent training through experience rather than evaluation; we build that experience for finance agents, with verifiers checked against real market data.",Fund III（2024 年份）截至 2025-09 承诺额约 7000 万美元，规模较小；已投 Invisible Technologies（专家数据/训练数据，潜在竞品）。；风险：已投 Veris AI（相邻竞品）与 Invisible Technologies（专家数据竞品）。,v-acrew-capital,审批页、投资人档案、海外种子名单,"https://www.acrewcapital.com/team-members/asad-khaliq
+https://www.crunchbase.com/person/asad-khaliq
+https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+https://www.citybiz.co/article/701762/decibel-ventures-and-acrew-capital-led-8-5m-seed-round-for-veris-ai/
+https://pitchbook.com/profiles/fund/23990-50F
+https://www.vcsheet.com/fund/acrew-capital"
+13,Andreessen Horowitz (a16z),VC,海外（美国）,是,A 组,种子到成长期全阶段,,常领投种子/A 轮,Vals AI、AfterQuery、Deeptune、LMArena,Martin Casado,General Partner（Infrastructure）,未找到,,,,"Your Deeptune post argued the next decade of AI progress comes from better environments, not just better datasets; we build those environments for finance, scored by real markets.",2026 年 1 月募超 150 亿美元，其中 AI 基础设施基金 17 亿美元；已投 Vals AI、AfterQuery、Deeptune、LMArena 等多家直接竞品，需注意利益冲突。；风险：阶段偏 A 轮；已投 Vals、LMArena 等评测公司。,v-a16z,审批页、投资人档案、海外种子名单,"https://a16z.com/author/martin-casado/
+https://a16z.com/podcast/jack-altman-martin-casado-on-the-future-of-vc/
+https://a16z.com/announcement/investing-in-deeptune/
+https://www.a16z.news/p/investing-in-deeptune
+https://news.crunchbase.com/venture/a16z-15b-new-funds-american-dynamism-ben-horowitz/
+https://www.cxodigitalpulse.com/a16z-bets-big-on-ai-infrastructure-with-1-7b-allocation-from-new-fund/"
+14,Bessemer Venture Partners,VC,海外（美国）,是,A 组,种子到成长期，A 轮为主,,常领投 A 轮；种子轮未确认,Trajectory,Janelle Teng Wade,Partner（负责 AI/ML、数据基础设施早期投资路线图）,未找到,,,,Your 2026 AI infrastructure roadmap flags RL-as-a-service as a frontier; we build the finance environments and verifiers those platforms need to train on.,本轮未检索到最新基金规模和首投额；已投 Trajectory。；风险：多阶段大基金，种子决策可能较慢。,v-bessemer,审批页、投资人档案,"https://www.bvp.com/news/bessemer-venture-partners-promotes-janelle-teng-to-partner
+https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026
+https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026
+https://nextbigteng.substack.com/p/ai-infrastructure-roadmap-five-frontiers-for-2026
+https://www.bvp.com/
+https://www.finsmes.com/2026/05/trajectory-raises-15m-in-seed-funding.html"
+15,Chemistry,VC,海外（美国）,是,A 组,种子和 A 轮,,定位为领投种子/A 轮（高集中度投资）,Datacurve、Proximal,Mark Goldberg,Managing Partner、联合创始人,未找到,,,,"You led Datacurve's Series A to take on Scale in coding data; we're building the finance equivalent, with quant experts and verifiable trading environments.",首期基金 3.5 亿美元（2024 年 10 月），合伙人来自 Index、a16z、Bessemer；已投 Datacurve（编码专家数据，潜在竞品）和 Proximal。；风险：Datacurve 若拓展金融数据则有重叠；Chemistry 正募 5 亿美元二期基金，窗口好。,v-chemistry,审批页、投资人档案、海外种子名单,"https://www.chemistry.vc/team/mark-goldberg
+https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund/
+https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/
+https://techfundingnews.com/datacurve-raises-15m-series-a-chemistry-high-quality-ai-coding-datasets/
+https://pitchbook.com/news/articles/chemistry-vc-early-stage-software-launch
+https://x.com/Mark_Goldberg_/status/1849122337255285076"
+16,Elad Gil,天使,海外（美国）,是,A 组,种子到成长期均投，近年大额以 A 轮后/成长期为主,约 25 万–5000 万美元（聚合站数据）,可领投（如 Infisical A 轮、Abridge D 轮）；种子轮多为跟投，比例未确认,Applied Compute,Elad Gil,个人投资人（2025 年起管理机构化基金）,未找到,,,,"You're reported to be in talks to lead Applied Compute's new round; as more companies train their own models with RL, they need domain environments, and we build them for finance.",Solo GP，2025 年新基金目标上调至约 30 亿美元，前一期约 11 亿美元；已投 Applied Compute。；风险：Applied Compute 轮次尚未确定；种子单笔可能较小，可及性低。,v-elad-gil,审批页、投资人档案、海外种子名单,"https://aiweekly.co/alerts/applied-compute-in-talks-for-3b-round-led-by-elad-gil
+https://www.thevccorner.com/p/elad-gil-solo-super-angel-solo-gp
+https://aiweekly.co/alerts/applied-compute-in-talks-for-3b-round-led-by-elad-gil
+https://x.com/steph_palazzolo/status/2086916085916324085
+https://www.theinformation.com/articles/elad-gil-doubles-fund-target-nearly-3-billion
+https://pitchbook.com/news/articles/exclusive-prominent-solo-vc-elad-gil-raises-1b-for-3rd-fund"
+17,Index Ventures,VC,海外（美国/英国）,是,A 组,种子到 IPO 全阶段，种子和 A 轮为起点,,常领投种子/A 轮,Matrices、Intelligence / Design Arena、Adaptive ML,未找到（Adaptive ML、Moment 负责合伙人均未查到）,,未找到,,,,"Index led the Design Arena team's $7.9M seed in August; we're building the finance counterpart, where expert judgment and real market outcomes score the model.",2024 年有 3 亿美元 Origin 种子基金；2026 年 7 月新募约 20 亿美元（种子/风险/成长三支）；已投 Matrices、Intelligence / Design Arena、Adaptive ML。；风险：负责 Intelligence 投资的合伙人未查到，需要引荐或官网渠道。,v-index-ventures,审批页、投资人档案、海外种子名单,"https://signal.nfx.com/investors/bryan-offutt
+https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/
+https://www.finsmes.com/2026/08/intelligence-raises-7-9m-in-seed-funding.html
+https://www.businesswire.com/news/home/20240709136755/en/Index-Ventures-Announces-$2.3bn-in-New-Funds-at-a-Historical-Inflection-Point-for-Startups
+https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/
+https://www.vcbacked.co/company/matrices"
+18,Jane Street,战略投资,海外（美国，纽约）,是,A 组,未确认（公开案例为 Numerata 种子轮）,,领投过 Numerata 种子轮（并成为其旗舰客户）,Jane Street led Numerata's seed alongside CoreWeave; we're building trading RL e,未找到,,未找到,,,,Jane Street led Numerata's seed alongside CoreWeave; we're building trading RL environments and would value the view of a firm where part of our team trained.,非常规 VC，投资与客户关系绑定（Numerata 案例中 CoreWeave Ventures 跟投）；适合以“客户+战略投资”方式接触。；风险：前雇主关系，需注意竞业与保密；投资负责人不明。,v-jane-street,审批页、投资人档案、海外种子名单,"https://www.coreweave.com/news/jane-street-and-coreweave-announce-seed-investment-in-numerata-developer-of-ai-powered-software-development-tools
+https://www.coreweave.com/news/jane-street-and-coreweave-announce-seed-investment-in-numerata-developer-of-ai-powered-software-development-tools
+https://www.businesswire.com/news/home/20251128623459/en
+https://www.fow.com/insights/jane-street-leads-seed-investment-in-ai-firm"
+19,Kleiner Perkins,VC,海外（美国）,是,A 组,种子和 A 轮为主（另有成长基金）,,常领投种子/A 轮,Handshake AI、Applied Compute、LMArena,Leigh Marie Braswell,Partner（主导 Applied Compute 投资）,未找到,,,,You backed Applied Compute on the view that enterprises lack the infrastructure to specialize models; we build the finance environments and verifiers those training runs need.,KP22 早期基金 10 亿美元（2026 年 3 月），投种子和 A 轮；已投 Handshake AI（专家数据，潜在竞品）、Applied Compute、LMArena。；风险：Braswell 曾在 Scale AI 工作，可能以 Scale 标准审视数据质量。,v-kleiner-perkins,审批页、投资人档案、海外种子名单,"https://www.kleinerperkins.com/people/leigh-marie-braswell/
+https://www.kleinerperkins.com/perspectives/applied-compute-closing-the-gap-between-frontier-ai-and-real-world-impact/
+https://www.kleinerperkins.com/perspectives/applied-compute-closing-the-gap-between-frontier-ai-and-real-world-impact/
+https://phemex.com/news/article/applied-compute-secures-80-million-in-funding-led-by-kleiner-perkins-71931
+https://valueaddvc.com/blog/kleiner-perkins-raises-35-billion-across-two-new-ai-funds
+https://pitchbook.com/news/articles/kleiner-perkins-2-billion-vc-opportunity-fund"
+20,Lightspeed,VC,海外（美国）,是,A 组,种子到成长期全阶段；AI 数据/基础设施方向种子、A 轮很活跃,未确认；参考：2026 年 5 月领投 Origin Lab 种子轮，整轮 800 万美元,常领投种子轮（如 Origin Lab 种子轮，由 Faraz Fatemi 领投）,Handshake AI、Snorkel AI、Patronus AI、Origin Lab、Judgment Labs、LMArena,Faraz Fatemi,Partner（领投 Origin Lab 种子轮）,未找到,,,未找到公开 office hours（未确认），建议 warm intro,You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.,已投 Handshake AI、Snorkel AI、Patronus AI 等数据/评测公司，Handshake AI 属专家数据直接竞品，需注意竞品顾虑；风险：Fatemi 官网归类为 Consumer 合伙人，可能转给基础设施团队。,v-lightspeed,审批页、投资人档案、海外种子名单、资源清单,"https://lsvp.com/team-member/faraz-fatemi/
+https://www.businesswire.com/news/home/20260513129175/en/Origin-Lab-Raises-$8M-Seed-Led-by-Lightspeed-to-Build-the-Platform-Turning-Video-Game-Worlds-Into-Training-Data-for-AI
+https://www.businesswire.com/news/home/20260513129175/en/Origin-Lab-Raises-$8M-Seed-Led-by-Lightspeed-to-Build-the-Platform-Turning-Video-Game-Worlds-Into-Training-Data-for-AI
+https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
+https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+https://www.cbinsights.com/research/snorkel-ai-series-c-funding/"
+21,A*,VC,海外（美国）,是,B 组,种子为主,10 万到约 1000 万美元，最常见约 300 万美元；Fund III 平均单笔 300–500 万美元,,Intelligence / Design Arena,Kevin Hartz,联合创始人、General Partner,未找到,,,https://www.a-star.co（官网）,A* joined Index in Intelligence's $7.9M seed for AI evaluation; we build expert-scored environments for finance and are raising our seed now.,2026 年 5 月 Fund III 关账 4.5 亿美元，计划至少投 30 家；投资 Design Arena 一事未在检索中核实；风险：负责 Intelligence 的合伙人未查到。,v-a-star,审批页、投资人档案,"https://www.a-star.co/team
+https://www.bloomberg.com/news/articles/2026-05-12/vc-firm-takes-less-is-more-approach-with-new-450-million-fund
+https://www.finsmes.com/2026/08/intelligence-raises-7-9m-in-seed-funding.html
+https://theaiinsider.tech/2026/08/13/ai-design-evaluation-startup-intelligence-raises-7-9m-seed-round-for-design-arena-platform/
+https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/
+https://thenextweb.com/news/a-star-capital-450-million-fund-hartz"
+22,DRW Venture Capital,VC,海外（美国，芝加哥）,是,B 组,不限阶段，主投种子和 A 轮,首笔约 100 万–500 万美元以上（第三方数据库口径）,,DRW VC backs fintech and enterprise tech where DRW's trading expertise adds valu,Kimberly Trautmann,Partner & Head of DRW Venture Capital,未找到,,,官网联系页 https://www.drw.com/contact-us,DRW VC backs fintech and enterprise tech where DRW's trading expertise adds value; we're ex-quants whose trading environment improved a 27B model's trading on unseen market data.,交易公司 DRW 的风投部门，使用自有资金（无外部 LP），聚焦金融科技和企业科技；量化/交易背景与我们的金融方向有协同；风险：投资组合偏金融科技，AI 训练数据经验少。,v-drw-venture-capital,审批页、投资人档案,"https://www.drw.com/vc
+https://www.rblt.com/fintech-summit-biography/kimberly-trautmann
+https://www.drw.com/vc
+https://privateequitylist.com/investors/drw-venture-capital
+https://tracxn.com/d/venture-capital/drw-venture-capital/__KTUfAcUBDI3QAnnMJ3khIYpH-SWxauGaUk1mtSsEKUk
+https://startupintros.com/orgs/drw-venture-capital"
+23,Eniac Ventures,VC,海外（美国）,是,B 组,pre-seed 到种子，种子为主（不投 A 轮以后）,首笔约 35 万–300 万美元，平均 125–150 万美元（官网）；Eniac V 口径为 50–500 万美元，平均 150–200 万美元,常领投或联合领投种子轮（每位 GP 每年领投 2–3 家）,Origin Lab,Hadley Harris,联合创始人、General Partner（AI 原生、数据基础设施方向）,pitch@eniac.vc,机构投递,pitch@eniac.vc（Eniac 官方 Medium 投递说明 https://eniacvc.medium.com/eniac-ventures-is-ready-for-your-pitches-again-27fa23f5e5d8）,pitch@eniac.vc（Eniac 官方 Medium 投递说明 https://eniacvc.medium.com/eniac-ventures-is-ready-for-your-pitches-again-27fa23f5e5d8）,Eniac joined Origin Lab's seed to turn game worlds into AI training data; we turn financial markets into RL environments for the same labs.,已投 Origin Lab；单笔规模偏小，2000 万美元种子轮可能需要与其他机构联合领投；风险：负责 Origin Lab 的合伙人未确认。,v-eniac-ventures,审批页、投资人档案,"https://www.eniac.vc/team
+https://signal.nfx.com/investors/hadley-harris
+https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
+https://pulse2.com/origin-lab-8-million-seed-raised-to-turn-video-game-worlds-into-ai-training-data/
+https://www.eniac.vc/tools/seed-fund-portfolio-construction-for-dummies
+https://www.eniac.vc/writings/announcing-eniac-v"
+24,Episode 1 Ventures,VC,海外（英国，伦敦）,是,B 组,种子为主,未确认（领投的 Poindexter Labs 种子轮总额 200 万英镑；Tracxn 统计其种子轮平均轮次规模约 285 万美元）,可领投种子轮（如领投 Poindexter Labs）,You led Poindexter Labs' seed as it signed a frontier lab directly; we sell the,Simon Murdoch,Managing Partner,未找到,,,官网 submit your deck 入口 https://www.episode1.com/,"You led Poindexter Labs' seed as it signed a frontier lab directly; we sell the same labs expert data and RL environments, built by Cambridge and LSE quants.",2026 年 6 月领投 Poindexter Labs（前沿 AI 专家数据，近似竞品）；以英国公司为主，单笔偏小，更适合作跟投方；风险：已投 Poindexter（专家数据竞品）；Poindexter 由哪位合伙人负责未知。,v-episode-1,审批页、投资人档案、海外种子名单,"https://www.episode1.com/team
+https://www.crunchbase.com/person/simon-murdoch
+https://tech.eu/2026/06/02/poindexter-labs-raises-ps2m-to-improve-training-data-for-advanced-ai/
+https://itbrief.co.uk/story/poindexter-labs-raises-gbp-2-million-seed-funding
+https://techfundingnews.com/poindexter-labs-seed-episode-1/
+https://tracxn.com/d/venture-capital/episode-1-ventures/__NWzDImK1HgNevSucJAXRT3o6mIUVtBKmZGwkoeiIiVU"
+25,FPV Ventures,VC,海外（美国）,是,B 组,种子到 A 轮为主，也做后续轮次,约 10 万–500 万美元；种子/A 轮估计 25 万–200 万美元以上（第三方口径）,领投与跟投均有（如 2025 年 11 月领投 Aily Labs 8000 万美元 B 轮）；种子/A 轮倾向未确认,Origin Lab,Wesley Chan,联合创始人、Managing Partner,未找到,,,https://fpvventures.com/（官网）,FPV joined Origin Lab's seed for licensed AI training data; we build finance training data and RL environments with quant founders and our own experts.,一期约 4.57 亿美元，二期 5.25 亿美元，AUM 约 10 亿美元；已投 Origin Lab；风险：负责 Origin Lab 的合伙人未确认。,v-fpv-ventures,审批页、投资人档案,"https://fpvventures.com/team/
+https://en.wikipedia.org/wiki/Wesley_Chan
+https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
+https://theaiinsider.tech/2026/05/15/origin-lab-announces-8m-to-turn-video-game-assets-into-ai-world-model-training-data/
+https://www.vcsheet.com/fund/fpv-ventures
+https://signal.nfx.com/investors/wesley-chan"
+26,Fusion Fund,VC,海外（美国）,是,B 组,pre-seed 到 A 轮,约 50–500 万美元,常领投种子轮（如 2026 年 1 月领投 AgileRL 750 万美元种子轮）,AgileRL,Lu Zhang,创始人、Managing Partner,info@fusionfund.com,机构投递,info@fusionfund.com（官网联系页 https://www.fusionfund.com/contactus）,info@fusionfund.com（官网联系页 https://www.fusionfund.com/contactus）,You led AgileRL's seed calling reinforcement learning the gold standard of AI training; we build the finance environments and verifiers that make RL work outside the lab.,2025 年 3 月四期基金募得 1.9 亿美元，AUM 约 5 亿美元；聚焦有技术或数据优势的企业 AI、医疗、工业科技；已投 AgileRL（RL 工具，相邻赛道）；风险：AgileRL 为 RL 训练平台，属互补而非竞品。,v-fusion-fund,审批页、投资人档案,"https://en.wikipedia.org/wiki/Lu_Zhang_(venture_capitalist
+https://aijourn.com/agilerl-raises-7-5m-to-take-reinforcement-learning-out-of-the-research-lab-and-into-the-enterprise/
+https://x.com/join_ef/status/2008928173950439872
+https://aijourn.com/agilerl-raises-7-5m-to-take-reinforcement-learning-out-of-the-research-lab-and-into-the-enterprise/
+https://www.vcsheet.com/fund/fusion-fund
+https://signal.nfx.com/investors/lu-zhang"
+27,Jump Capital,VC,海外（美国，芝加哥）,是,B 组,pre-seed 到 A 轮，A 轮为主,约 100–1500 万美元；A 轮 300–1500 万美元,A 轮常领投；种子轮倾向未确认,Jump Capital just closed a $350M fund for AI infrastructure; we're ex-Jane Stree,Saaya Nath Pal,Partner,未找到,,,官网联系表单（含 Funding 选项）https://jumpcap.com/contact/,"Jump Capital just closed a $350M fund for AI infrastructure; we're ex-Jane Street and Citadel quants building RL environments for trading and finance, the picks and shovels of training.",2026 年 7 月 29 日关闭 3.5 亿美元的第八期基金，投向 AI 应用、企业基础设施和安全；与 Jump Trading 有关联，量化背景契合；风险：主投 A 轮前后企业软件；哪位合伙人负责 AI 基础设施未明确。,v-jump-capital,审批页、投资人档案,"https://jumpcap.com/insights/congratulations-to-our-new-partners-saaya-nath-and-tarun-gupta/
+https://www.youtube.com/shorts/gggGy9Oq84c
+https://www.theinformation.com/newsletters/dealmaker/jump-capital-raises-350-million-fund-ai-investments
+https://crypto.news/jump-capital-bets-on-enterprise-ai-with-new-350m-fund-viii/
+https://fundmomentum.vc/blog/jump-capital-350m-fund-8-ai-infrastructure-cybersecurity-2026
+https://www.venturecapitaljournal.com/jump-capital-aims-to-speed-ai-adoption/"
+28,Kindred Ventures,VC,海外（美国）,是,B 组,pre-seed 和种子为主,约 10–300 万美元，平均 25–200 万美元,常作为首个机构投资方或领投方（第三方口径）,Scorecard,Kanyi Maqubela,Managing Partner,hello@kindredventures.com,机构投递,hello@kindredventures.com（官网，搜索摘要 https://kindredventures.com/）,hello@kindredventures.com（官网，搜索摘要 https://kindredventures.com/）,"Kindred led Scorecard's seed to test AI agents across thousands of simulated scenarios; we build the environments and verifiers that train those agents, starting with finance.",AUM 约 6 亿美元，每期基金约 25 家公司（集中持股）；Kanyi Maqubela 关注前沿科技、金融科技等；已投 Scorecard（本轮未核实）；风险：Scorecard 由哪位合伙人负责未知；无竞品冲突。,v-kindred-ventures,审批页、投资人档案、海外种子名单,"https://kindredventures.com/about/kanyi-maqubela/
+https://techcrunch.com/2019/11/18/kindred-ventures/
+https://kindredventures.com/announcement/scorecard-solving-ai-agent-evaluation-at-scale/
+https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster
+https://www.vcsheet.com/fund/kindred-ventures
+https://signal.nfx.com/investors/kanyi-maqubela"
+29,Lux Capital,VC,海外（美国）,是,B 组,不限阶段，种子到成长期,早期（pre-seed/种子）约 10 万–1000 万美元；Grace Isford 投资区间约 50 万–5000 万美元（第三方口径）,常领投或联合领投（Grace Isford 近期领投或联合领投多笔 AI 基础设施种子轮）,Applied Compute,Grace Isford,Partner,info@luxcapital.com,机构投递,info@luxcapital.com（官网联系页 https://www.luxcapital.com/contact）,info@luxcapital.com（官网联系页 https://www.luxcapital.com/contact）,"Lux backed Applied Compute twice as enterprises start training their own models; we supply the RL environments and expert data those runs need, starting with finance and accounting.",AUM 约 70 亿美元的深科技基金，有能力领投 2000 万美元的种子轮；Grace Isford 专注数据、开发者工具和 AI 基础设施；已投 Applied Compute（本轮未核实具体轮次）；风险：Applied Compute 可能自建环境；Grace 与 Applied Compute 的关系仅见 Lux 公司页列名。,v-lux-capital,审批页、投资人档案、海外种子名单,"https://www.luxcapital.com/people/grace-isford
+https://www.luxcapital.com/companies/applied-compute
+https://www.luxcapital.com/companies/applied-compute
+https://www.lw.com/en/news/2026/04/latham-represents-applied-compute-in-fundraise
+https://www.vcsheet.com/who/grace-isford
+https://www.vcsheet.com/fund/lux-capital"
+30,Madrona,VC,海外（美国，西雅图）,是,B 组,pre-seed 到 B 轮，种子和 A 轮为主,第三方数据库：首张支票约 100–1000 万美元，种子轮常领投 300–600 万美元,常领投种子轮和 A 轮,Gray Swan AI,Vivek Ramaswami,Partner,vivek@madrona.com,个人公开,https://substack.com/@aspiringforintelligence (搜索摘要：精确搜索该地址，首条结果是本人 Substack),官网联系页 https://www.madrona.com/contact/,"You co-led Gray Swan's Series A after hearing a chorus of praise from frontier labs; we sell those same labs RL environments and verifiers, starting with finance.",支票数据来自第三方数据库（非官方）；重点投太平洋西北地区，但也投全美 AI 基础设施；已投 Gray Swan AI（AI 安全/红队）；风险：阶段偏 A 轮；无 RL 环境直接竞品冲突。,v-madrona,审批页、投资人档案、海外种子名单,"https://www.madrona.com/team-profiles/vivek-ramaswami/
+https://www.madrona.com/gray-swan-series-a/
+https://www.madrona.com/gray-swan-series-a/
+https://www.grayswan.ai/news/gray-swan-announces-series-a
+https://substack.com/@aspiringforintelligence
+https://www.ellty.com/blog/seattle-seed-investors"
+31,Mayfield,VC,海外（美国）,是,B 组,从成立初期（inception）到种子、A 轮；AI Start 基金专做 AI 种子,AI Start 种子基金（2023 年 2.5 亿美元）典型支票 100–400 万美元,多为领投/联合领投（Mayfield 惯例；AI Start 领投比例未确认）,Bespoke Labs,Vijay Reddy,Partner（AI Start 种子基金）,aistart@mayfield.com,机构投递,aistart@mayfield.com（Mayfield 官网 AI Start 页，搜索摘要 https://www.mayfield.com/ai-start-pathfinders/）,aistart@mayfield.com（Mayfield 官网 AI Start 页，搜索摘要 https://www.mayfield.com/ai-start-pathfinders/）,"Mayfield backed Bespoke Labs on the view that agents depend on data, environments and evaluation; we build all three for finance, from trading to month-end close.",AI Start 号称快速决策流程；已投 Bespoke Labs（后训练数据/合成数据）；风险：已投 Bespoke Labs（RL 环境竞品）；Vijay 是否负责 Bespoke 未证实。,v-mayfield,审批页、投资人档案、海外种子名单,"https://www.mayfield.com/team/vijay-reddy/
+https://www.linkedin.com/in/vijayreddy/
+https://www.mayfield.com/backing-bespoke-labs-building-the-infrastructure-for-ai-agents/
+https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://www.businesswire.com/news/home/20230720038405/en/Mayfield-Announces-$250-Million-AI-Start-Seed-Fund-and-Adds-New-Partner
+https://pulse2.com/mayfield-250-million-ai-start-seed-fund-launches/"
+32,Pear VC,VC,海外（美国）,是,B 组,pre-seed 到 A 轮，pre-seed 和种子为主,pre-seed 约 25–200 万美元；种子约 100–600 万美元（第三方汇总）,常领投/联合领投 pre-seed 与种子轮（PearX 项目领投 pre-seed）,Vals AI,未找到,,未找到,,,PearX 申请 https://pear.vc/pearx-application/ ；Pitch 页 https://www.pear.vc/pitch,"Pear backed Vals AI from seed through its a16z-led Series A as professional-task evals took off; we build RL environments and verifiers for finance tasks, one step past evaluation.",每年约 20 家深度合作，可跟投至约 1000 万美元；已投 Vals AI（LLM 评测，相邻赛道）；2000 万美元种子对其单笔偏大，更适合作为联合领投之一；风险：负责 Vals 的合伙人未找到；Vals 在金融评测上与我们有重叠。,v-pear-vc,审批页、投资人档案、海外种子名单,"https://www.citybiz.co/article/890247/vals-ai-raises-40m-to-expand-independent-ai-benchmarking/
+https://techfundingnews.com/a16z-leads-40m-vals-ai-round-at-400m-valuation-to-test-ai-on-real-world-tasks/
+https://pear.vc/pearx/
+https://superscout.co/investor/pear-vc
+https://finta.ai/blog/venture-capital-funds-lead-seed-rounds
+https://sacra.com/c/vals-ai/"
+33,Point72 Ventures,VC,海外（美国）,是,B 组,pre-seed 到 pre-IPO，种子和 A 轮为主,第三方数据库：种子约 25–200 万美元，A 轮约 200–1500 万美元,领投与跟投均有（比例未确认）,You co-lead Point72 Ventures' AI investing and technical diligence; we're ex-Cit,Sri Chandrasekar,Managing Partner,未找到,,,官网联系页 https://p72.vc/contact/,You co-lead Point72 Ventures' AI investing and technical diligence; we're ex-Citadel and Millennium quants building RL environments that train AI agents on real market data.,Steve Cohen 旗下对冲基金 Point72 的风投部门，重点 AI、金融科技、国防；金融场景强相关，可能兼具潜在客户/数据合作价值；支票数据非官方；风险：单笔 $5M–50M，偏大；钩子较泛（未找到其本赛道投资）。,v-point72-ventures,审批页、投资人档案,"https://theorg.com/org/point72-ventures/org-chart/sri-chandrasekar
+https://signal.nfx.com/investors/sri-chandrasekar
+https://theorg.com/org/point72-ventures/org-chart/sri-chandrasekar
+https://fundbuildscale.beehiiv.com/p/point72-ventures-sri-chandrasekar
+https://superscout.co/investor/point72-ventures
+https://www.vcsheet.com/fund/point72-ventures"
+34,Scribble Ventures,VC,海外（美国）,是,B 组,pre-seed 与种子为主,首张支票约 75–150 万美元（早期基金为 25–50 万美元）,多为联合投资/跟投，刻意与其他机构共同投；偶尔领投（如 Proximal）,Scribble led Proximal's round for long-horizon coding RL environments with fuzzy,Stu Smith,Partner（发布 Proximal 领投帖）,未找到,,,https://www.scribble.vc（官网 Contact 入口）,Scribble led Proximal's round for long-horizon coding RL environments with fuzzy verifiers; we build the same kind of verified environments for trading and accounting.,创始人 Elizabeth Weil（前 a16z、Twitter）；首期 4200 万美元（2021）、二期两只基金共 8400 万美元（2022）；已领投 Proximal（长时程编程 RL 环境，直接相邻竞品）；风险：已投 Proximal（代码 RL 环境），方向不同但同赛道。,v-scribble-ventures,审批页、投资人档案、海外种子名单,"https://www.scribble.vc/stu
+https://www.linkedin.com/posts/imstusmith_excited-to-finally-share-that-scribble-ventures-activity-7430007099004432384-cqbR
+https://www.linkedin.com/posts/imstusmith_excited-to-finally-share-that-scribble-ventures-activity-7430007099004432384-cqbR
+https://www.rl-list.com/
+https://www.vcsheet.com/fund/scribble-ventures
+https://www.privatemarketsinsights.com/post/rigid-ownership-targets-break-the-network-that-makes-seed-investing-work-scribble-s-weil-argues"
+35,Standard Capital,VC,海外（美国）,是,B 组,只做 A 轮（post-PMF 公司）,单笔约 500–1000 万美元，固定约 10% 稀释，不要董事会席位；Fund I 4.25 亿美元,领投 A 轮,HUD,Dalton Caldwell,联合创始人、General Partner,未找到,,,https://www.standardcap.com/apply（A 轮申请页）,"You led HUD's Series A, where domain experts build RL environments and sell them to labs; we're building that for finance with our own expert network.",前 YC 合伙人 Paul Buchheit、Dalton Caldwell 与 Bryan Berg 创立；按申请周期集中决策（约 2 周完成）；只投已有 PMF 的公司，SimReal 2000 万美元种子需有收入/客户证明才匹配；已投 HUD；风险：只做 A 轮，种子不对口。,v-standard-capital,审批页、投资人档案、海外种子名单,"https://www.standardcap.com/partners/dalton
+https://www.hud.ai/blog/announcing-16m-series-a
+https://www.hud.ai/blog/announcing-16m-series-a
+https://www.linkedin.com/posts/daltoncaldwell_hud-standard-capital-series-a-activity-7473502415812448256-wRab
+https://x.com/daltonc/status/1966553679047389450
+https://www.mofo.com/resources/news/251013-mofo-advises-standard-capital"
+36,Tower Research Ventures,VC,海外（美国，纽约）,是,B 组,孵化、pre-seed 和种子,约 25–300 万美元,未确认（以孵化/种子为主，领投比例未知）,TRV has been hosting AI x Wall Street and AI-agent events for the trading world;,Jared Young,Director of Venture Capital,ventures@tower-research.com,机构投递,ventures@tower-research.com（官网 Ventures 页，搜索摘要 https://tower-research.com/ventures/）,ventures@tower-research.com（官网 Ventures 页，搜索摘要 https://tower-research.com/ventures/）,TRV has been hosting AI x Wall Street and AI-agent events for the trading world; we're ex-quants building RL environments that train agents on real market data.,高频交易公司 Tower Research Capital 的风投部门，聚焦金融科技、企业软件、开发者工具/基础设施；与金融场景高度契合，也可能成为数据/专家合作方；风险：规模小；投资组合偏应用 AI 与加密。,v-tower-research-ventures,审批页、投资人档案,"https://tower-research.com/ventures/
+https://tower-research.com/trv-ai-x-wall-street-event/
+https://tower-research.com/trv-ai-agent-event/
+https://f4.fund/firms/tower-research-ventures"
+37,Valkyrie,VC,海外（美国）,是,B 组,pre-seed 与种子,约 25 万美元起（Fund I 4500 万美元，两年内投约 80 家）,推断多为跟投（基金规模小、投资数量多，未确认）,Intelligence / Design Arena,Beth Turner,创始人、Solo GP（前 SV Angel 管理合伙人）,未找到,,,https://www.valkyrie.vc/（官网）,"Valkyrie joined Intelligence's seed in August for human-preference evals; we build expert-scored finance environments, the next piece of that category.",Beth Turner 为 Solo GP（前 SV Angel 管理合伙人）；已投 Intelligence / Design Arena（模型评测）；风险：单笔小；个人此前投过 Snorkel AI。,v-valkyrie,审批页、投资人档案,"https://www.forbes.com/sites/phoebeliu/2025/12/04/this-sv-angel-is-going-solo-with-a-45-million-venture-fund/
+https://www.valkyrie.vc/
+https://www.finsmes.com/2026/08/intelligence-raises-7-9m-in-seed-funding.html
+https://xenospectrum.com/en/intelligence-design-arena-seed/
+https://www.everythingstartups.com/vc-funds/valkyrie
+https://finance.yahoo.com/technology/ai/articles/designarena-creators-raise-7-9-192857317.html"
+38,776,VC,海外（美国）,是,B 组,种子到 A 轮早期,约 75–400 万美元（第三方口径，非官方）,未确认；Deeptune A 轮为跟投（a16z 领投）,Deeptune,Alexis Ohanian,Founder,未找到,,,,"You led Deeptune's seed and then watched Mercor buy it for its RL environments; we're building that category for finance, with verifiers checked against real market data.",曾募 5 亿美元基金；2026 年 2 月参投 Deeptune 4300 万美元 A 轮；风险：联系方式仅见第三方数据库，未写入。,v-seven-seven-six,审批页、投资人档案、海外种子名单,"https://x.com/alexisohanian/status/2034760840562581881
+https://en.wikipedia.org/wiki/Alexis_Ohanian
+https://deeptune.com/blog/series-a/
+https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/
+https://www.vcsheet.com/who/alexis-ohanian
+https://fonzi.ai/partner-news/deeptune-series-a"
+39,Altos Ventures,VC,海外（美国）,是,B 组,早期到成长期，案例为 A 轮领投,未确认；参考：领投 AfterQuery A 轮，整轮 3000 万美元（投后 3 亿美元）,可领投 A 轮（如 AfterQuery）,AfterQuery,Zac Mohring,Principal（2026 年加入 AfterQuery 董事会）,未找到,,,,When Altos led AfterQuery's Series A you called human data an enormous market and a critical bottleneck; we work with AfterQuery and build the trading environments alongside that data.,已领投 AfterQuery（专家数据，直接竞品）；AfterQuery 于 2026 年 9 月完成 B 轮，估值 32 亿美元；风险：Mohring 为 AfterQuery 董事，冲突最大，需先与 AfterQuery 沟通。,v-altos-ventures,审批页、投资人档案、海外种子名单,"https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation
+https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation
+https://lasvegassun.com/news/2026/apr/09/afterquery-raises-30-million-series-a-round-at-300/
+https://techfundingnews.com/afterquery-30m-series-a-expert-data/
+https://sacra.com/c/afterquery/"
+40,BoxGroup,VC,海外（美国）,是,B 组,pre-seed 到种子为主，偶尔跟进熟悉公司的 A 轮,约 25–200 万美元；常见 50–100 万美元（pre-seed 25–75 万，种子 50–100 万）,多为跟投（以共同投资为主，较少领投）,Arga Labs,David Tisch,Managing Partner,未找到,,,,"BoxGroup joined Arga's seed for enterprise agent sandboxes in August; we build the finance counterpart, with trading and month-end close environments.",2023 年 12 月募集两支基金共 4.25 亿美元；已投 Arga Labs。支票偏小，适合作为 2000 万美元种子轮的跟投方，而非领投方；风险：同时是 AfterQuery 早期股东；负责 Arga 的合伙人不明。,v-boxgroup,审批页、投资人档案、海外种子名单,"https://en.wikipedia.org/wiki/BoxGroup
+https://theorg.com/org/boxgroup
+https://www.finsmes.com/2026/08/arga-labs-raises-10m-in-seed-funding.html
+https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
+https://techcrunch.com/2023/12/14/boxgroup-425m-early-stage-startups-venture-capital/
+https://superscout.co/investor/boxgroup"
+41,Deviation Capital（原 Two Sigma Ventures）,VC,海外（美国，纽约）,是,B 组,种子到 A 轮,未确认（新基金 Deviation V 目标规模 3 亿美元）,,You spun Deviation out of Two Sigma on a thesis of data science and computing up,Colin Beirne,Partner（Two Sigma Ventures 创始人）,未找到,,,,"You spun Deviation out of Two Sigma on a thesis of data science and computing upending industries; we're quants applying that to AI training, starting with finance RL environments.",2026 年 5 月从 Two Sigma 分拆独立，AUM 约 20 亿美元，存量组合 79 家（Etched、Kalshi 等）；主题为投资技术型创始人创办的 data/compute-native 公司，与我们高度契合；风险：2026-05 刚独立，投资节奏可能调整。,v-deviation-capital,审批页、投资人档案,"https://www.morningstar.com/news/business-wire/20260504832753/deviation-capital-launches-with-2b-aum-following-spinout-from-two-sigma
+https://pulse2.com/deviation-capital-launches-with-2-billion-in-aum-following-spinout-from-two-sigma/
+https://deviation.com/updates/introducing-deviation
+https://www.citybiz.co/article/841330/deviation-capital-launches-with-2-billion-aum-after-spinout-from-two-sigma-ventures/
+https://fundmomentum.vc/blog/deviation-capital-two-sigma-ventures-spinout-2b-aum-2026
+https://x.com/csbeirne/article/2051288937713303636"
+42,Dwarkesh Patel,天使,海外（美国）,是,B 组,未确认（参与过 Mechanize 早期融资）,,未确认（个人天使通常不领投）,Mechanize,Dwarkesh Patel,"Host, Dwarkesh Podcast",未找到,,,,"You backed Mechanize and pressed Dario on why labs are building RL environments; we build them for finance, where rewards come from real market outcomes.",本轮未单独检索；Mechanize（RL 环境，直接相关）投资关系沿用审批页已有资料。与 Dylan Patel 在旧金山共用办公室（见 substratemag 报道）；风险：无公开联系渠道。,v-dwarkesh-patel,审批页、投资人档案,"https://en.wikipedia.org/wiki/Dwarkesh_Patel
+https://app.dealroom.co/companies/mechanize
+https://www.mechanize.work/announcing-mechanize-inc/
+https://thezvi.substack.com/p/on-dwarkesh-patels-2026-podcast-with
+https://www.lesswrong.com/posts/jWCy6owAmqLv5BB8q/on-dwarkesh-patel-s-2026-podcast-with-dario-amodei
+https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"
+43,Dylan Patel（SemiAnalysis）,天使,海外（美国）,是,B 组,早期（个人天使组合约 3 家，含 Positron、Prime Intellect）,,未确认（个人天使通常不领投）,HUD、Prime Intellect,Dylan Patel,"Founder, CEO & Chief Analyst, SemiAnalysis",未找到,,,,"You angel-invested in HUD and co-wrote SemiAnalysis's piece on RL environments and data foundries; we're one of those foundries, focused on finance environments and verifiers.",搜索摘要称其已募 SemiAnalysis Capital Fund I（5 亿美元早期基金），未在一手来源核实；若属实，可从个人天使升级为机构投资方；风险：无直接冲突；已投 HUD、Prime Intellect。,v-dylan-patel,审批页、投资人档案、海外种子名单,"https://semianalysis.com/dylan-patel/
+https://www.hud.ai/blog/announcing-16m-series-a
+https://www.hud.ai/blog/announcing-16m-series-a
+https://newsletter.semianalysis.com/p/rl-environments-and-rl-for-science
+https://tracxn.com/d/people/dylan-patel/__lZWjwqDoUxOHF3XlpZSR4kHGmsExGYBJJpoJt9q7Mng
+https://f4.fund/firms/semianalysis-capital"
+44,Gokul Rajaram,天使,海外（美国）,是,B 组,pre-seed 到 B 轮,个人支票约 2.5–100 万美元（第三方口径，未经本人确认）,多为跟投,Patronus AI,Gokul Rajaram,天使投资人,未找到,,,,"You've backed Patronus from seed through its Series B as AI evaluation became infrastructure; we build the RL environments and verifiers on the training side, starting with finance.",投了 Patronus AI 的种子轮、A 轮和 B 轮（AI 评测，相邻赛道）；Crunchbase 显示其为 Marathon Management Partners 创始合伙人；风险：当前全职职位未核实；Patronus 为相邻公司。,v-gokul-rajaram,审批页、投资人档案,"https://www.patronus.ai/blog/patronus-launch
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+https://www.patronus.ai/blog/patronus-launch
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+https://www.startuphub.ai/investors/gokul-rajaram/
+https://www.patronus.ai/blog/announcing-our-17-million-series-a"
+45,Gradient Ventures,VC,海外（美国）,是,B 组,pre-seed 到 A 轮，种子为主,种子约 100–500 万美元，pre-seed 75–250 万美元（第三方口径）,常领投或联合领投种子轮（如领投 Mage 630 万美元种子轮）；A 轮较少领投,Arga Labs,Darian Shirazi,General Partner,未找到,,,,Gradient joined Arga's seed for enterprise agent sandboxes and just closed a $220M seed fund; we're raising our seed to build RL environments for finance.,Google 旗下 AI 基金，资金来自 Alphabet 资产负债表（有 CVC 属性）；2026 年 3 月募得 2.2 亿美元第五期种子基金；已投 Arga Labs；风险：Gradient 已从 Google 独立（Google 仍为 LP）；Arga 由哪位合伙人负责未知。,v-gradient-ventures,审批页、投资人档案、海外种子名单,"https://www.businesswire.com/news/home/20260317890946/en/Gradient-Raises-$220M-Fifth-Fund-To-Seed-Next-Generation-of-AI-Founders
+https://dealroom.co/news/147108-arga-raises-10m-seed-to-let-ai-agents-crash-in-a-sandbox-not-production/
+https://www.gradient.com/blog/posts/fund-5/
+https://www.bloomberg.com/news/videos/2026-03-18/gradient-raises-220-million-to-back-seed-stage-ai-video
+https://www.startuphub.ai/ai-news/funding-round/2026/gradient-raises-220m-for-fifth-seed-fund
+https://f4.fund/firms/gradient-ventures"
+46,Homebrew,VC,海外（美国）,是,B 组,pre-seed 和种子为主（约 90%），也跟进 A 轮及以后,平均约 100 万美元，范围约 20 万–200 万美元（Hunter Walk 访谈）,可领投种子轮，也常作为参与方,Homebrew backed Datacurve's Series A for frontier coding data; we're doing the s,Hunter Walk,联合创始人、Partner,未找到,,,,"Homebrew backed Datacurve's Series A for frontier coding data; we're doing the same for finance, with quant founders and our own expert network.",据审批页资料投了 Datacurve A 轮（前沿编码数据，近似竞品），本轮未核实；单笔偏小，适合跟投；风险：Homebrew 已不募外部资金，只用两位合伙人自有资金，单笔小。,v-homebrew,审批页、投资人档案,"https://hunterwalk.com/about/
+https://www.hustlefund.vc/post/how-hunter-walk-thinks-about-investments-and-what-early-stage-investors-can-learn
+https://homebrew.co/blog/2025/10/10/datacurve-raises-usd15-million-to-deliver-frontier-coding-data-to-help-ai-model-companies-solve-complex-problems
+https://techcrunch.com/2025/10/09/datacurve-raises-15-million-to-take-on-scaleai/
+https://www.vcsheet.com/fund/homebrew
+https://hunterwalk.com/2025/12/08/does-valuation-or-ownership-matter-more-to-a-seed-vc-yes/"
+47,Ivan Burazin（Daytona CEO）,天使,海外（美国/克罗地亚）,是,B 组,,,未确认（个人天使通常不领投）,HUD,Ivan Burazin,"Co-founder & CEO, Daytona",未找到,,,,You angel-invested in HUD while RL and eval workloads grew to about half of Daytona's usage; we build the finance environments that would run in those sandboxes.,受检索次数限制本轮未检索；HUD 投资关系沿用审批页资料。Daytona 做 AI agent 沙箱基础设施，与 RL 环境有产品协同；风险：无冲突。,v-ivan-burazin,审批页、投资人档案,"https://www.daytona.io/dotfiles/author/ivan-burazin
+https://alleywatch.com/2026/02/daytona-ai-agent-infrastructure-sandbox-computing-developer-tools-ivan-burazin/
+https://www.hud.ai/blog/announcing-16m-series-a
+https://www.latent.space/p/daytona"
+48,Redpoint,VC,海外（美国）,是,B 组,种子到成长期；早期基金专注种子和 A 轮,第三方数据库：种子约 50–200 万美元、A 轮约 200–800 万美元（实际 A 轮常更大）；第十期早期基金 6.5 亿美元（2025 年 5 月）,A 轮常领投；种子领投与跟投均有（与 Sequoia 联合领投 Irregular）,Irregular,Jordan Segall,Partner,未找到,,,,"You partnered with Irregular on its $80M round as frontier-lab evaluations became a real business; we sell frontier labs RL environments and verifiers, starting with finance.",另有 7.4 亿美元成长基金（2024），AUM 约 45 亿美元；已投 Irregular（前沿 AI 安全评测）；风险：Irregular 对接人身份主要来自 LinkedIn 摘要；无直接竞品冲突。,v-redpoint,审批页、投资人档案、海外种子名单,"https://www.redpoint.com/companies/irregular/
+https://www.linkedin.com/posts/jordan-segall-7b938632_we-at-redpoint-are-so-proud-to-be-partnering-activity-7374144585985486848-XDPW
+https://signal.nfx.com/investors/jordan-segall
+https://regtechanalyst.com/sequoia-and-redpoint-back-irregulars-80m-raise/
+https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/
+https://en.wikipedia.org/wiki/Redpoint_Ventures"
+49,Sequoia Capital,VC,海外（美国）,是,B 组,pre-seed 到成长期全阶段；Arc 项目做 pre-seed/种子,Arc 首张支票约 50–100 万美元；常规种子/A 轮支票未确认（2025 年新募 2 亿美元种子基金 + 7.5 亿美元 A 轮基金）,常领投种子和 A 轮（如领投 Irregular）；Arc 本身不领投后续种子轮,Fleet、Applied Compute、Vals AI、AfterQuery、Trajectory、Irregular,Shaun Maguire、Dean Meyer（Irregular 投资文作者）；Fleet 负责合伙人未找到,,未找到,,,,"Sequoia has backed Fleet's enterprise RL environments since the seed; we go deeper on finance, with quant founders, expert data and trading environments scored by real markets.",已投多家直接/相邻竞品：Fleet、Applied Compute、Vals AI、AfterQuery、Trajectory、Irregular，存在利益冲突风险；风险：已投 Fleet（早期营收来自金融和保险客户的定制环境），直接竞争；负责合伙人不明。,v-sequoia,审批页、投资人档案、海外种子名单,"https://sacra.com/c/fleet/
+https://sacra.com/c/fleet/
+https://www.kucoin.com/news/flash/ai-training-firm-fleet-eyes-750m-valuation-amid-60x-revenue-surge
+https://techcrunch.com/2025/10/27/sequoia-unveils-950m-in-new-early-stage-funds-as-it-strives-to-be-only-as-good-as-our-next-investment/
+https://www.vcsheet.com/fund/sequoia-arc
+https://elev-x.com/news-insights/article-sequoia-arc-review/"
+50,Spiros Xanthos（Resolve AI CEO）,天使,海外（美国）,是,B 组,天使/种子,,多为跟投（个人天使）,Bespoke Labs,Spiros Xanthos,"Founder & CEO, Resolve AI",未找到,,,,"You angel-invested in Bespoke Labs' seed and launched Resolve AI Labs for complex production environments; we build RL environments and verifiers, starting with finance and accounting.",本轮未检索；Resolve AI 创始人兼 CEO，个人天使投资 Bespoke Labs；支票金额无公开数据；风险：无冲突。,v-spiros-xanthos,审批页、投资人档案,"https://resolve.ai/about-us
+https://www.crunchbase.com/person/spiros-xanthos-23ac
+https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://resolve.ai/news/Series-A-extension-and-Resolve-AI-Labs"
+51,SV Angel,VC,海外（美国）,是,B 组,种子为主,种子基金通常约 20 万美元,不领投，通常为轮次中的较小跟投支票,Fleet、Proximal、Origin Lab、Judgment Labs、Arga Labs,Topher Conway,Managing Partner,未找到,,,,SV Angel is in the seed rounds of Arga and Origin Lab this year; we'd like to add a finance-focused RL environment company to that set.,已投 Fleet、Proximal、Origin Lab、Judgment Labs、Arga Labs 等多家相邻/竞品公司；适合作为补位跟投；风险：已投 Fleet；原种子基金负责人 Beth Turner 已离开创立 Valkyrie。,v-sv-angel,审批页、投资人档案、海外种子名单,"https://svangel.com/about/team
+https://www.crunchbase.com/person/topher-conway
+https://www.finsmes.com/2026/08/arga-labs-raises-10m-in-seed-funding.html
+https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/
+https://svangel.com/faq
+https://techcrunch.com/?p=1293598"
+52,The Raine Group,VC,海外（美国）,是,B 组,种子到成长期（通过 Raine Ventures）,第三方数据库：早期支票约 100–1500 万美元,多为跟投（如参投 Altos 领投的 AfterQuery A 轮）,AfterQuery,Landon Baker,"Principal, Raine Ventures",未找到,,,,You backed AfterQuery's Series A as expert data became critical to AI labs; we already work with AfterQuery and build the finance RL environments and verifiers alongside that data.,Raine 本身为商人银行，风投由 Raine Ventures 执行；已投 AfterQuery（专家数据/RL 环境，直接竞品，A 轮 3000 万美元、估值 3 亿美元）；支票数据非官方；风险：投资 AfterQuery 的机构，提及合作前需创始人确认口径。,v-raine-group,审批页、投资人档案、海外种子名单,"https://raine.com/team/landon-baker/
+https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation
+https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation
+https://pulse2.com/afterquery-30-million-at-300-million-valuation-raised-for-ai-data-solutions-platform/
+https://f4.fund/firms/the-raine-group
+https://www.finsmes.com/2026/04/afterquery-raises-30m-in-series-a-funding.html"
+53,Yash Patil（Applied Compute CEO）,天使,海外（美国）,是,B 组,天使/种子,,多为跟投（个人天使）,Deeptune,Yash Patil,"Co-founder & CEO, Applied Compute",未找到,,,,You angel-invested in Deeptune while Applied Compute trains custom models for enterprises; we build finance and accounting RL environments that could feed those runs.,本轮未检索；Applied Compute 联合创始人兼 CEO，个人天使投资 Deeptune；Applied Compute 本身做企业 RL 后训练，属相邻赛道，注意信息敏感；风险：Applied Compute 可能自建环境。,v-yash-patil,审批页、投资人档案、海外种子名单,"https://www.crunchbase.com/person/yash-patil-f81e
+https://www.forbes.com/sites/richardnieva/2026/09/01/applied-compute-openai-the-ex-openai-guys-building-cheaper-open-source-alternative/
+https://finance.yahoo.com/sectors/technology/articles/exclusive-andreessen-horowitz-backs-deeptune-120000793.html
+https://deeptune.com/blog/series-a/
+https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html"
+54,Alex Atallah（OpenRouter CEO）,天使,海外（美国）,是,C 组,,,,You backed Mechanize when RL environments were still a niche bet; we're building,Alex Atallah,"Co-founder & CEO, OpenRouter",未找到,,,个人主页 https://alexatallah.com/（无公开邮箱）,"You backed Mechanize when RL environments were still a niche bet; we're building them for finance, with verifiers checked against real market data.",风险：据报道 Stripe 2026-08 同意收购 OpenRouter，交割期精力有限。,v-alex-atallah,审批页,"https://ai.engineer/speakers/alex-atallah
+https://www.crunchbase.com/person/alex-atallah-912d
+https://app.dealroom.co/companies/mechanize
+https://www.mechanize.work/announcing-mechanize-inc/"
+55,Antler Singapore,加速器,海外（新加坡）,是,C 组,,,,You've said you'd rather back founders with deep domain expertise than new AI co,Jussi Salovaara,"Co-founder, Antler; Managing Partner, Asia (Singapore-based)",未找到,,,Antler Singapore 官网申请 https://www.antler.co/location/singapore (搜索摘要；下一期驻留 2026-10-05 开始),You've said you'd rather back founders with deep domain expertise than new AI coding startups; we're four quants turning trading and accounting expertise into RL environments and verifiers for LLMs.,风险：Antler 以 day-zero 驻留模式为主，已成型团队可能只适合其后续轮；新加坡团队层面对接人未找到。,v-antler-singapore,审批页,"https://www.crunchbase.com/person/jussi-salovaara
+https://technode.global/2026/06/22/antler-showcases-28-startups-across-asia-building-autonomous-ai-systems-beyond-copilots/
+https://sg.linkedin.com/in/jsalovaara
+https://letsdatascience.com/news/antler-asia-avoids-new-ai-coding-startups-backs-domain-exper-b4f5cea0
+https://www.aol.com/news/early-stage-vc-shares-why-040102536.html"
+56,Gobi Partners GBA (Alibaba Entrepreneurs Fund GP),VC,海外（香港）,是,C 组,,,,"You launched the Gobi–HKU Fund I in March to back AI spin-offs; we're Cambridge,",Chibo Tang,"Managing Partner, Gobi Partners (Gobi GBA; GP of Alibaba Hong Kong Entrepreneurs Fund)",未找到,,,阿里巴巴香港创业者基金投资页 https://www.ent-fund.org/en/investment/hk (搜索摘要) ; https://www.gobi.vc/ (搜索摘要),"You launched the Gobi–HKU Fund I in March to back AI spin-offs; we're Cambridge, LSE and Duke quants building finance RL environments and verifiers for LLM post-training, raising our seed.",风险：AEF 要求香港创始人或在港运营；Gobi–HKU 基金只投港大衍生项目；HKIC 为该基金出资方（HKIC 已在 V2 种子名单）。,v-gobi-partners-gba,审批页,"https://www.hku.hk/press/press-releases/detail/29006.html
+https://technode.global/2026/03/26/university-of-hong-kong-asia-focused-gobi-partners-launch-joint-fund-to-support-startups-innovations/
+https://www.hku.hk/press/press-releases/detail/29006.html
+https://technode.global/2026/03/26/university-of-hong-kong-asia-focused-gobi-partners-launch-joint-fund-to-support-startups-innovations/
+https://www.hkic.org.hk/latest-updates/gobi_hku_fundi_pr"
+57,Golden Gate Ventures,VC,海外（新加坡）,是,C 组,,,,You led The Librarian's seed and called it one of the few AI launches that chang,Vinnie Lauria,Founding Partner,未找到,,,官网 https://www.goldengate.vc/ (搜索摘要；投递入口未在摘要中看到),You led The Librarian's seed and called it one of the few AI launches that changes how people work; we build the finance RL environments and verifiers that make assistants reliable for professionals.,风险：偏东南亚/中东应用层，AI 训练数据基础设施非其主赛道。,v-golden-gate-ventures,审批页,"https://www.goldengate.vc/team/vinnie-lauria
+https://technode.global/2025/11/14/the-librarian-raises-2m-in-seed-round-led-by-golden-gate-ventures/
+https://technode.global/2025/11/14/the-librarian-raises-2m-in-seed-round-led-by-golden-gate-ventures/
+https://www.asiabusinessoutlook.com/news/golden-gate-ventures-leads-2m-round-in-the-librarian-nwid-10504.html
+https://thelibrarian.io/press_releases/the-librarian-raises-a-usdollar2m-seed-round"
+58,Granite Asia,VC,海外（新加坡）,是,C 组,,,,You lead Granite Asia's seed-to-Series A investing across AI and fintech; we sit,Jenny Lee,"Senior Managing Partner (Singapore; seed–Series A in AI, fintech, enterprise)",未找到,,,官网 https://www.graniteasia.com/ (搜索摘要；投递入口未在摘要中看到),"You lead Granite Asia's seed-to-Series A investing across AI and fintech; we sit at that intersection, building finance RL environments, verifiers and expert data for LLM post-training.",风险：Jenny Lee 为明星合伙人、冷邮件回复率低；2026 年重心含 AI IPO 基金与成长期；钩子较弱（岗位事实而非具体交易）。,v-granite-asia,审批页,"https://www.graniteasia.com/who-we-are?p=jenny-lee
+https://signal.nfx.com/investors/jenny-lee
+https://technode.global/2026/02/23/dbs-and-granite-asia-partner-to-launch-110m-ai-ipo-fund-for-asias-next-generation-companies/
+https://signal.nfx.com/investors/jenny-lee
+https://www.graniteasia.com/who-we-are?p=jenny-lee"
+59,HKIC,VC,海外（香港）,是,C 组,,,,HKIC has made AI a core theme of its HK$62 billion mandate; we build finance RL,未找到,,未找到,,,https://www.hkic.org.hk/contact-us（搜索摘要） ; 政府电话簿 https://tel.directory.gov.hk/HKIC_ENG.html（搜索摘要）,HKIC has made AI a core theme of its HK$62 billion mandate; we build finance RL environments and expert data and could anchor that work in Hong Kong.,风险：政府引导型基金，要求香港落地；投资团队对接人未找到；称呼缺失，模板需用通用称呼。,v-hkic,审批页、国内种子名单（境外部分）,"https://www.hkic.org.hk/（搜索摘要
+https://m.thepaper.cn/newsDetail_forward_30885830（搜索摘要"
+60,IMC Strategic Investments,战略投资,海外（荷兰/美国）,是,C 组,,,,IMC Strategic Investments backs trading infrastructure like Paradigm and McKay B,未找到,,未找到,,,官网 Strategic Investments 页 https://www.imc.com/us/strategic-investments,"IMC Strategic Investments backs trading infrastructure like Paradigm and McKay Brothers; we build AI training environments on market data, a new layer of that stack.",风险：主投交易/市场基础设施，AI 训练数据契合度弱；负责人未找到。,v-imc-strategic-investments,审批页,"https://www.imc.com/us/strategic-investments
+https://www.cbinsights.com/investor/imc-ventures"
+61,Iterative,加速器,海外（新加坡）,是,C 组,,,,Iterative co-led i10X's pre-seed in January 2026; we're quant founders building,Hsu Ken Ooi,Co-Founder & Managing Partner,未找到,,,官网申请 https://www.iterative.vc/ (搜索摘要)；Office Hours 页 https://www.iterative.vc/post/office-hours-with-iterative-partners (搜索摘要),"Iterative co-led i10X's pre-seed in January 2026; we're quant founders building executable finance RL environments and verifiers for LLM post-training, and we're raising our seed.",风险：Iterative 只投东南亚相关公司，SimReal 需有新加坡实体或东南亚关联；票面较小。,v-iterative,审批页,"https://www.iterative.vc/team
+https://hsukenooi.com/
+https://www.crunchbase.com/person/hsu-ken-ooi
+https://technode.global/2026/01/07/singapores-i10x-raises-1m-pre-seed-funding-to-build-the-discovery-and-distribution-layer-for-ai/
+https://www.globenewswire.com/news-release/2026/01/06/3214078/0/en/i10X-Announces-1-Million-Pre-Seed-Round-to-Build-the-Discovery-Distribution-Layer-for-AI.html"
+62,Openspace Ventures,VC,海外（新加坡）,是,C 组,,,,Openspace joined Eunice's $8M round this March for AI due diligence on alternati,Hian Goh,Founding Partner,未找到,,,官网 https://www.openspacecapital.com/ (搜索摘要；投递入口未在摘要中看到),Openspace joined Eunice's $8M round this March for AI due diligence on alternative assets; we build the finance environments and verifiers used to train and test models for that kind of work.,风险：Eunice 由 Moonfire/Speedinvest 领投，Openspace 仅跟投；负责该交易的合伙人未找到；机构似已更名 Openspace Capital（多策略），早期仓位待确认。,v-openspace-ventures,审批页,"https://www.crunchbase.com/person/hian-goh/
+https://www.kauffmanfellows.org/fellows/hian-goh
+https://www.openspacecapital.com/team
+https://fintech.global/2026/03/25/eunice-raises-8m-to-transform-alternative-asset-due-diligence/
+https://www.finsmes.com/2026/03/eunice-raises-8m-in-pre-seed-and-seed-funding.html
+https://startupintros.com/orgs/openspace-ventures"
+63,Peak XV Partners (Surge),加速器,海外（新加坡）,是,C 组,,,,Surge 11 backed finance-AI teams like OnFinance and Finster; we build what sits,Rajan Anandan,"Managing Director, Peak XV Partners; leads Surge (seed program)",未找到,,,Surge 滚动申请页 https://surge.peakxv.com/ (搜索摘要；2026-09 新一期开营，官网 FAQ 称申请滚动开放 https://surge.peakxv.com/faqs),"Surge 11 backed finance-AI teams like OnFinance and Finster; we build what sits upstream of such products: executable finance RL environments, verifiers and expert data, from a quant founding team.",风险：Rajan 常驻德里、主看印度；Surge 以印度/东南亚为主，SimReal 若非新加坡/印度实体需说明区域相关性；2026-02 有合伙人离职。,v-peak-xv-surge,审批页,"https://www.peakxv.com/team/rajan-anandan
+https://www.forbesindia.com/audio/forbes-india-tech-conver-sations/peak-xvs-shailendra-singh-rajan-anandan-open-up-on-their-dreams-for-surge/94447
+https://entrackr.com/snippets/peak-xvs-surge-11-features-23-startups-across-ai-fintech-and-consumer-tech-10500950
+https://india.entrepreneur.com/news-and-trends/peak-xvs-surge-11-features-23-startups-across-ai-fintech/497590
+https://inc42.com/buzz/meet-the-startups-from-peak-xvs-surge-11/"
+64,Sky9 Capital,VC,海外（美国）,是,C 组,,,,You led ProducerAI's seed in 2023 before Google acquired it; we're quant founder,Ron Cao,Founding Partner,未找到,,,https://www.sky9capital.com/contact/（搜索摘要）,"You led ProducerAI's seed in 2023 before Google acquired it; we're quant founders building executable finance RL environments, verifiers and expert data, and we're raising our seed.",风险：对 RL 环境/数据赛道的认知未经证实；invest@sky9capital.com 据第三方说明只用于 LP 询问，未采用。,v-sky9-capital,审批页,"https://www.sky9capital.com/news/sky9-capital-portfolio-company-producerai-acquired-by-google/（搜索摘要
+https://www.bloomberg.com/profile/person/16685992（搜索摘要
+https://www.linkedin.com/in/sky9roncao/（搜索摘要
+https://www.sky9capital.com/news/sky9-capital-portfolio-company-producerai-acquired-by-google/（搜索摘要
+https://superscout.co/investor/sky9-capital（搜索摘要"
+65,The House Fund,VC,海外（美国）,是,C 组,种子、A 轮,,同类公司中领投 0 次,Veris AI、Bespoke Labs、LMArena,Jeremy Fiance,创始人、Managing Partner,build@thehouse.fund,机构投递,build@thehouse.fund（官网联系页 https://thehouse.fund/contact）,build@thehouse.fund（官网联系页 https://thehouse.fund/contact）,The House Fund backed Veris AI's seed for simulated environments that train enterprise agents; we build those environments for finance.,风险：只投至少一位创始人与 UC Berkeley 相关的团队，SimReal 团队如无伯克利关联则不符合。,v-the-house-fund,审批页,"https://thehouse.fund/team
+https://pitchbook.com/news/articles/house-fund-raises-12m-fund-berkeley-ai-research
+https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+https://www.finsmes.com/2025/06/veris-ai-raises-8-5m-in-seed-funding.html
+https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://pulse2.com/lmarena-100-million-seed-funding-raised-for-ai-focused-open-community-platform/"
+66,Vertex Ventures Southeast Asia & India,VC,海外（新加坡）,是,C 组,,,,"You led FORMAS.AI's pre-seed, noting AI is moving to integrated platforms with f",Jessica Koh,"Senior Executive Director, Investment",未找到,,,https://www.vertexventures.sg/apply/（搜索摘要）,"You led FORMAS.AI's pre-seed, noting AI is moving to integrated platforms with fine-tuning; we build finance RL environments and verifiers that feed that post-training loop.",风险：聚焦东南亚和印度，需要新加坡主体；淡马锡本身以后期为主，未找到早期对接人（本行以 Vertex SEA&I 代替）。,v-vertex-ventures-sea,审批页、国内种子名单（境外部分）,"https://www.vertexventures.sg/news/formas-ai-raises-us-3-98-million-in-oversubscribed-pre-seed-round-to-build-the-ai-native-design-workspace-for-architecture/（搜索摘要
+https://technode.global/2026/04/29/singapores-formas-ai-raises-3-98m-in-pre-seed-round-led-by-vertex-ventures-southeast-asia-india/（搜索摘要
+https://www.vertexventures.sg/news/formas-ai-raises-us-3-98-million-in-oversubscribed-pre-seed-round-to-build-the-ai-native-design-workspace-for-architecture/（搜索摘要
+https://technode.global/2026/04/29/singapores-formas-ai-raises-3-98m-in-pre-seed-round-led-by-vertex-ventures-southeast-asia-india/（搜索摘要"
+67,Wavemaker Partners,VC,海外（新加坡）,是,C 组,,,,Wavemaker led ChemT's seed in June to bring AI to biomanufacturing; we apply the,Paul Santos,Co-founder & Managing Partner,未找到,,,官网 https://wavemaker.vc/ (搜索摘要；投递入口未在摘要中看到),"Wavemaker led ChemT's seed in June to bring AI to biomanufacturing; we apply the same thesis to finance, building RL environments and verifiers that make models useful to domain experts.",风险：适配度偏弱：近期 AI 交易为生物制造，非 AI 数据/评测；东南亚区域限制。,v-wavemaker-partners,审批页,"https://wavemaker.vc/chemt-biotechnology-raises-us5-million-bring-ai-to-biomanufacturing/
+https://technode.global/2026/06/23/singapores-chemt-biotechnology-raises-4m-seed-round-to-build-ai-intelligence-layer-for-biomanufacturing/
+https://technode.global/2026/06/23/singapores-chemt-biotechnology-raises-4m-seed-round-to-build-ai-intelligence-layer-for-biomanufacturing/
+https://www.prnewswire.com/news-releases/chemt-biotechnology-raises-us5-million-in-18-months-to-bring-ai-to-biomanufacturing-302806228.html"
+68,WorldQuant Ventures,VC,海外（美国，康涅狄格）,是,C 组,,,,WorldQuant Ventures backs early-stage companies with a focus on data and finance,Steven Lau,Managing Partner,未找到,,,官网 https://www.worldquantventures.com/（第三方页面列出的通用邮箱未在官网核实，未采用）,WorldQuant Ventures backs early-stage companies with a focus on data and finance; we're quants building RL environments and verifiers that train AI on financial tasks.,风险：联系人仅见第三方页面；近期投资偏航天/生物。,v-worldquant-ventures,审批页,"https://superscout.co/investor/worldquant-ventures
+https://www.worldquantventures.com/
+https://www.crunchbase.com/organization/worldquant-ventures"
+69,Y Combinator,加速器,海外（美国）,是,C 组,pre-seed/天使、种子、A 轮,,同类公司中领投 3 次,Datacurve、Halluminate、HUD、AfterQuery、Andon Labs、Hillclimb、Sepal AI、Cua,投 RL 环境/数据方向的具体合伙人未找到；Gustaf Alströmer 公开评论 AfterQuery,,未找到,,,https://www.ycombinator.com/rfs（RFS 页面，申请走 YC 官网）,"YC's Requests for Startups ask for RL environments that train frontier models; we've built them for finance and already work with AfterQuery, a YC company.",风险：批次内竞品多（HUD、Halluminate 做金融服务 RL 环境等）；对已有团队价值主要在网络。,v-y-combinator,审批页、海外种子名单,"https://www.ycombinator.com/rfs
+https://www.ycombinator.com/rfs
+https://foundedceo.substack.com/p/y-combinator-just-revealed-13-startup
+https://profiles.crustdata.com/company/datacurve-yc-w24
+https://www.caplight.com/company/halluminate
+https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/"
+70,Adam D'Angelo（Quora CEO）,天使,海外（美国）,是,C 组,A 轮,,同类公司中领投 0 次,Mercor,Adam D'Angelo,"Founder & CEO, Quora",未找到,,,,"You backed Mechanize's seed, and Google has since brought its RL environment team into DeepMind; we're building that category for finance and accounting.",风险：可及性低；兼任 OpenAI 董事会成员（未在本轮单独核实）。,v-adam-dangelo,审批页,"https://en.wikipedia.org/wiki/Adam_D%27Angelo
+https://www.crunchbase.com/person/adam-dangelo
+https://app.dealroom.co/companies/mechanize
+https://startupfortune.com/google-quietly-closes-15-billion-dollar-talent-deal-with-ai-coding-startup-mechanize/
+https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html"
+71,Datadog,战略投资,海外（美国）,是,C 组,A 轮、B 轮及以后,,同类公司中领投 0 次,Patronus AI,未找到,,未找到,,,,Datadog acquired Adaptive ML to bring RL post-training in-house for observability agents; we build RL environments and verifiers and could supply domain environments to that team.,风险：作为投资人契合度弱；已投 Patronus。,v-datadog,审批页、海外种子名单,"https://www.datadoghq.com/about/latest-news/press-releases/datadog-acquires-adaptive-ml-to-accelerate-its-investment-in-ai-research-and-development/
+https://www.globenewswire.com/news-release/2026/06/30/3320108/0/en/datadog-acquires-adaptive-ml-to-accelerate-its-investment-in-ai-research-and-development.html
+https://www.prnewswire.com/news-releases/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale-302152825.html
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html"
+72,Dheeraj Pandey（DevRev CEO）,天使,海外（美国）,是,C 组,种子,,同类公司中领投 0 次,Bespoke Labs,Dheeraj Pandey,"Co-founder, CEO & Chairman, DevRev",未找到,,,,"You angel-invested in Bespoke Labs' seed as RL environments for long-horizon agents took off; we build those environments for finance, from month-end close to trading.",风险：无冲突。,v-dheeraj-pandey,审批页,"https://devrev.ai/authors/dheeraj
+https://en.wikipedia.org/wiki/Dheeraj_Pandey
+https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://lasvegassun.com/news/2026/jul/06/bespoke-labs-announces-40m-to-build-the-environmen/"
+73,Emergence Capital,VC,海外（美国）,是,C 组,种子,,同类公司中领投 0 次,Arga Labs,未找到,,未找到,,,,"Emergence joined Arga's seed to give enterprise agents resettable practice environments; we build the same kind of environments for finance, from month-end close to trading.",风险：Arga 负责人未公开；每位合伙人每年只投一家，门槛高。,v-emergence-capital,审批页、海外种子名单,"https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/
+https://dealroom.co/news/147108-arga-raises-10m-seed-to-let-ai-agents-crash-in-a-sandbox-not-production/
+https://www.thesaasnews.com/news/arga-labs-raises-10m-seed/"
+74,Greenfield Partners,VC,海外（以色列/美国）,是,C 组,B 轮及以后,,同类公司中领投 1 次,Patronus AI,Itay Inbar,Partner,未找到,,,,"You led Patronus's Series B arguing simulations are becoming essential for AI to learn; we build simulation environments where outcomes settle in real markets, starting with trading.",风险：B 轮阶段；Patronus 为评测/仿真邻近公司；有媒体（The Dissent）质疑该轮缺少 SEC 备案。,v-greenfield-partners,审批页、海外种子名单,"https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+https://www.linkedin.com/in/itay-inbar-gp/
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+https://siliconangle.com/2026/06/25/patronus-ai-grabs-50m-funding-stress-test-ai-agents-simulated-environments/"
+75,Ian Livingstone（Keycard CEO）,天使,海外（美国）,是,C 组,种子,,同类公司中领投 0 次,Veris AI,Ian Livingstone,"Co-founder & CEO, Keycard",未找到,,,,"You angel-invested in Veris AI's seed to train agents through simulated experience; we build that experience for finance agents, with verifiers checked against real market data.",风险：同名人物较多（另有游戏业 Ian Livingstone），发信前确认。,v-ian-livingstone,审批页,"https://www.crunchbase.com/person/ian-livingstone-95d7
+https://fintech.global/2025/10/23/keycard-secures-38m-to-advance-ai-agent-security/
+https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+https://www.citybiz.co/article/701762/decibel-ventures-and-acrew-capital-led-8-5m-seed-round-for-veris-ai/"
+76,Nat Friedman & Daniel Gross（NFDG / AI Grant）,天使,海外（美国）,是,C 组,种子,,同类公司中领投 0 次,"You backed Mechanize early, and Google has since brought its team into DeepMind;",Nat Friedman ; Daniel Gross,Meta Superintelligence Labs,未找到,,,,"You backed Mechanize early, and Google has since brought its team into DeepMind; we're building RL environments for finance, the domain our founders traded in.",风险：二人在 Meta，NFDG 被 Meta 部分收购，个人投资可及性低；AI Grant 2026 批次未确认。,v-nfdg,审批页、同类公司反查、海外种子名单,"https://en.wikipedia.org/wiki/Nat_Friedman
+https://siliconangle.com/2025/07/03/safe-superintelligence-ceo-daniel-gross-joins-metas-new-ai-lab/
+https://www.mechanize.work/announcing-mechanize-inc/
+https://startupfortune.com/google-quietly-closes-15-billion-dollar-talent-deal-with-ai-coding-startup-mechanize/
+https://www.vcbacked.co/company/matrices
+https://www.datacenterdynamics.com/en/news/meta-in-talks-to-partially-acquire-vc-fund-nfdg-hire-nat-friedman-and-daniel-gross-for-ai-shakeup/"
+77,Samsung Next,战略投资,海外（韩国/美国）,是,C 组,A 轮,,同类公司中领投 0 次,Gray Swan AI,未找到,,未找到,,,,"Samsung Next backed both Gray Swan and Patronus, two companies testing frontier models; we build the RL environments and verifiers used to train them, starting with finance.",风险：负责人未找到；Patronus 该轮有 SEC 备案质疑。,v-samsung-next,审批页、海外种子名单,"https://www.grayswan.ai/news/gray-swan-announces-series-a
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html"
+78,Susquehanna International Group (SIG),战略投资,海外（美国，费城）,是,C 组,A 轮,,同类公司中领投 0 次,Deccan AI,未找到,,未找到,,,,Susquehanna backed Deccan AI's Series A in March for post-training data; we pair expert data with trading environments built by former quants.,风险：量化同业；投资负责人不明，Susquehanna Growth Equity 为成长期。,v-sig,审批页、海外种子名单,"https://en.wikipedia.org/wiki/Susquehanna_International_Group
+https://inc42.com/buzz/deccan-ai-raises-25-mn-to-supply-training-data-for-enterprise-ai-models/
+https://finance.yahoo.com/sectors/technology/articles/deccan-ai-raises-25-million-163000044.html
+https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce"
+79,Thrive Capital,VC,海外（美国）,是,C 组,,,,Thrive is reported to be leading Irregular's new round for testing frontier mode,未找到,,未找到,,,,Thrive is reported to be leading Irregular's new round for testing frontier models in controlled environments; we build controlled environments for finance.,风险：阶段偏后，种子不对口；负责人不明。,v-thrive-capital,审批页、海外种子名单,"https://www.calcalistech.com/ctechnews/article/13p5khsib
+https://www.calcalistech.com/ctechnews/article/13p5khsib
+https://finance.yahoo.com/news/irregular-raises-80-million-set-121500443.html"
+80,Vanara Capital,VC,海外（美国）,是,C 组,B 轮及以后,,同类公司中领投 1 次,Invisible Technologies,Hayden Lekacz,联合创始人（Invisible 董事）,未找到,,,,"Vanara led Invisible's $100M round as a foundational layer of AI infrastructure; we're building that layer for finance, with quant founders and expert data.",风险：成长期基金，2026 年未见新动作；Invisible 为专家数据竞品。,v-vanara-capital,审批页、海外种子名单,"https://www.businesswire.com/news/home/20250916425748/en/Invisible-Technologies-Raises-$100-Million-to-Power-the-Next-Generation-of-AI-Infrastructure-for-the-Enterprise
+https://www.eenewseurope.com/en/invisible-technologies-secures-100m-in-growth-funding-led-by-tpg-spinoff/
+https://www.businesswire.com/news/home/20250916425748/en/Invisible-Technologies-Raises-$100-Million-to-Power-the-Next-Generation-of-AI-Infrastructure-for-the-Enterprise
+https://eprnews.com/invisible-technologies-raises-100-million-687326/
+https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform"
+81,字节跳动投资部,战略投资,海外（香港）,是,C 组,,,,看到您刚加入字节负责香港财务投资、系统布局 AI 初创；我们做金融方向的 RL 环境、验证器和专家数据，正在融种子轮。,蒋恺,香港财务投资团队负责人（前 Coatue 合伙人，2026-09 加入，向 CFO 高准汇报）,未找到,,,,看到您刚加入字节负责香港财务投资、系统布局 AI 初创；我们做金融方向的 RL 环境、验证器和专家数据，正在融种子轮。,风险：字节自建专家平台；财务投资团队刚组建，种子轮是否在范围内未知。,v-bytedance-investment,审批页,"https://news.pedaily.cn/202609/569061.shtml（搜索摘要
+https://news.qq.com/rain/a/20260911A0DZPW00（搜索摘要
+https://www.sohu.com/a/1077273487_120088771（搜索摘要
+https://news.pedaily.cn/202609/569061.shtml（搜索摘要
+https://news.qq.com/rain/a/20260915A07PUR00（搜索摘要"
+82,Dell Technologies Capital,战略投资,海外（美国）,是,暂缓,,,,"DTC backed Prime Intellect on the belief that intelligence should be owned, not",Daniel Docter,Managing Director,delltechcapital@dell.com,个人公开,delltechcapital@dell.com（见官网 https://www.delltechnologiescapital.com/resources/strategies-communications 搜索摘要）,delltechcapital@dell.com（见官网 https://www.delltechnologiescapital.com/resources/strategies-communications 搜索摘要）,"DTC backed Prime Intellect on the belief that intelligence should be owned, not rented; we build the RL environments companies need to train their own models, starting with finance.",风险：Daniel Docter 覆盖数据/AI，但未证实负责 Prime Intellect。,v-dell-technologies-capital,审批页、海外种子名单,"https://www.delltechnologiescapital.com/team/daniel-docter
+https://www.crunchbase.com/person/daniel-docter
+https://www.delltechnologiescapital.com/resources/prime-intellect-building-the-open-super-intelligence-stack
+https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/"
+83,Noam Brown（OpenAI）,天使,海外（美国）,是,暂缓,A 轮,,同类公司中领投 0 次,Deeptune,Noam Brown,"Research Scientist, OpenAI",未找到,,,个人主页 https://noambrown.com/（无公开邮箱）,"You angel-invested in Deeptune's Series A as RL environments became a lab bottleneck; we build them for finance, where rewards settle cleanly against real markets.",风险：可及性低；前沿实验室员工投资可能受限。,v-noam-brown,审批页、海外种子名单,"https://www.linkedin.com/in/noam-brown-8b785b62/
+https://www.dwarkesh.com/p/noam-brown
+https://finance.yahoo.com/sectors/technology/articles/exclusive-andreessen-horowitz-backs-deeptune-120000793.html
+https://deeptune.com/blog/series-a/
+https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html"
+84,01 Advisors,VC,海外（美国）,是,暂缓,A 轮,,同类公司中领投 1 次,micro1,Adam Bain,Co-Founder & Managing Partner,未找到,,,,"You led micro1's Series A and joined its board; we're building the finance-heavy side of that market, RL environments and verifiers from ex-Jane Street and Citadel quants.",风险：已投 micro1（专家数据直接竞品）；01A 主投 B 轮、单笔约 $15M，阶段不匹配。,v-01-advisors,审批页、海外种子名单,"https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/
+https://www.crunchbase.com/person/adam-bain
+https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/
+https://finance.yahoo.com/news/scale-ai-rival-micro1-hits-134611177.html
+https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/"
+85,Accel,VC,海外（美国）,是,暂缓,,,,"You led RadixArk's seed arguing companies will train and manage models, not just",Ivan Zhou,Partner,未找到,,,,"You led RadixArk's seed arguing companies will train and manage models, not just consume them; we build the RL environments and verifiers that training needs, starting with finance.",风险：已投 Scale AI；Ivan Zhou 侧重 AI 基础设施，与数据/环境方向相邻但非直接对口。,v-accel,审批页、海外种子名单,"https://www.accel.com/team/ivan-zhou
+https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure
+https://www.businesswire.com/news/home/20260505077157/en/RadixArk-Launches-with-$100-Million-in-Seed-Funding-Led-by-Accel-to-Grow-SGLang-and-Democratize-Frontier-AI-Infrastructure
+https://www.accel.com/noteworthies/investing-in-radixark-building-an-open-universal-inference-engine"
+86,Addition,VC,海外（美国）,是,暂缓,B 轮及以后,,同类公司中领投 2 次,Snorkel AI,Lee Fixel,创始人（唯一决策人）,未找到,,,,"Addition backed Snorkel AI's $100M Series D; we're building the finance-specialist layer of AI training data, starting at seed.",风险：阶段偏后，可及性低。,v-addition,审批页、海外种子名单,"https://en.wikipedia.org/wiki/Lee_Fixel
+https://superscout.co/investor/addition
+https://www.crunchbase.com/funding_round/snorkel-ai-series-d--30c71765
+https://superscout.co/investor/addition
+https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html"
+87,Bain Capital Ventures,VC,海外（美国）,是,暂缓,A 轮,,同类公司中领投 1 次,Fleet,未找到,,未找到,,,,BCV was reported in April to be in talks to lead Fleet's round for enterprise RL environments; we build the finance-specific version of that category.,风险：若已投 Fleet 则直接冲突；负责人不明，交易未确认完成。,v-bain-capital-ventures,审批页、海外种子名单,"https://www.rl-list.com/vendors/fleet-ai
+https://www.rl-list.com/vendors/fleet-ai
+https://www.kucoin.com/news/flash/ai-training-firm-fleet-eyes-750m-valuation-amid-60x-revenue-surge
+https://runtimewire.com/article/fleet-raises-45m-series-a-725m
+https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund/"
+88,Bezos Expeditions,VC,海外（美国）,是,暂缓,,,,Bezos Expeditions led Toloka's $72M round to scale human-in-the-loop AI data; we,未找到（Mikhail Parakhin 随之任 Toloka 执行董事长）,,未找到,,,,"Bezos Expeditions led Toloka's $72M round to scale human-in-the-loop AI data; we're building the expert-verified RL environment side of that market, starting with finance.",风险：已投 Toloka（数据竞品）；阶段偏后；无公开对接人与联系渠道。,v-bezos-expeditions,审批页、海外种子名单,"https://toloka.ai/blog/toloka-strategic-investment-led-by-bezos-expeditions/
+https://siliconangle.com/2025/05/07/ai-data-provider-toloka-raises-72m-funding/"
+89,Brendan Foody（Mercor CEO）,天使,海外（美国）,是,暂缓,A 轮,,同类公司中领投 0 次,Deeptune,Brendan Foody,"Co-founder & CEO, Mercor",未找到,,,,"You angel-invested in Deeptune, then bought it to bring RL environments into Mercor; we build finance environments and verifiers that could plug into that same pipeline.",风险：直接竞品创始人，接触前需评估信息披露。,v-brendan-foody,审批页、海外种子名单,"https://www.mercor.com/blog/mercor-to-acquire-deeptune/
+https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/
+https://fortune.com/2026/07/09/ai-unicorn-mercor-acquires-deeptune-brendan-foody-investor-a16z-openai-anthropic/
+https://siliconangle.com/2026/07/09/mercor-buys-deeptune-build-training-environments-ai-agents/
+https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html
+https://finance.biggo.com/podcast/4135dc09c35e841c"
+90,Felicis,VC,海外（美国）,是,暂缓,B 轮及以后、种子、A 轮,,同类公司中领投 3 次,Mercor、LMArena,Peter Deng,General Partner,未找到,,,,You led Arena's Series A saying AI progress can't be measured by lab benchmarks alone; our environments score models on real market outcomes.,风险：深度绑定 Mercor；阶段偏 A 轮以后。,v-felicis,审批页、海外种子名单,"https://www.felicis.com/team/peter-deng
+https://x.com/pxd/status/2008573160220745912
+https://www.prnewswire.com/news-releases/lmarena-raises-150-million-to-build-the-worlds-most-trusted-ai-evaluation-platform-302653012.html
+https://www.felicis.com/blog/lmarena-announcement
+https://sacra.com/c/mercor/
+https://www.mercor.com/blog/series-c/"
+91,GV（Google Ventures）,战略投资,海外（美国）,是,暂缓,A 轮、B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,GV came back into Snorkel's $350M Series E as demand for expert AI training data grows; we're building expert-verified RL environments for finance at the seed stage.,风险：本赛道只见 Snorkel 后期跟投；负责人未找到。,v-gv,审批页、海外种子名单,"https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/
+https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html
+https://www.cbinsights.com/research/snorkel-ai-series-c-funding/
+https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/"
+92,Insight Partners,VC,海外（美国）,是,暂缓,,,,"You said Snorkel's research-grade approach to data, environments and measurement",Lonne Jaffe,Managing Director,未找到,,,,"You said Snorkel's research-grade approach to data, environments and measurement is increasingly important; we bring that rigor to finance, where rewards settle in real markets.",风险：成长期基金，种子阶段不对口。,v-insight-partners,审批页、海外种子名单,"https://www.insightpartners.com/ideas/behind-the-investment-snorkel-ai/
+https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html
+https://www.prnewswire.com/news-releases/snorkel-ai-raises-350m-to-scale-the-data-factory-for-frontier-ai-302886796.html
+https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+93,Intel Capital,战略投资,海外（美国/以色列）,是,暂缓,,,,Your Prime Intellect note framed RL as a new way to generate data for specific t,Assaf Araki,Investment Director,未找到,,,,"Your Prime Intellect note framed RL as a new way to generate data for specific tasks; that's what we build, verified finance and accounting environments for post-training.",风险：战略方偏后期；Intel Capital 同时投过 Scale AI。,v-intel-capital,审批页、海外种子名单,"https://www.intelcapital.com/team/assaf-araki/
+https://www.intelcapital.com/prime-intellect-the-full-stack-for-training-and-deploying-self-improving-agents/
+https://www.intelcapital.com/prime-intellect-the-full-stack-for-training-and-deploying-self-improving-agents/
+https://www.publicnow.com/view/B8F822289137796D852E2DD4C0E3DAB476227876"
+94,Jeff Dean（Google）,天使,海外（美国）,是,暂缓,种子、未标明,,同类公司中领投 0 次,Mechanize、Bespoke Labs、Hillclimb、Trajectory,Jeff Dean,未核实（Bespoke Labs 公告仅列名）,未找到,,,,"You invested in Bespoke Labs' seed, now building RL environments for long-horizon agents; we're building the finance counterpart, with verifiers checked against real market data.",风险：可及性极低；2026 年职位未单独核实。,v-jeff-dean,审批页、海外种子名单,"https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+https://lasvegassun.com/news/2026/jul/06/bespoke-labs-announces-40m-to-build-the-environmen/
+https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round
+https://www.ycombinator.com/companies/hillclimb"
+95,NVIDIA（NVentures）,战略投资,海外（美国）,是,暂缓,A 轮,,同类公司中领投 0 次,Trajectory,Mohamed (Sid) Siddeek,Corporate VP & Head of NVentures,未找到,,,,NVentures joined Prime Intellect's $130M Series A as RL post-training spreads beyond frontier labs; we build the finance environments and verifiers those training stacks need.,风险：NVentures 团队仅两人、偏后期；覆盖多家竞品；可及性低。,v-nventures,审批页、海外种子名单,"https://globalventuring.com/people/powerlist-2026-mohamed-siddeek-nventures/
+https://pitchbook.com/news/articles/interview-nvidia-nventures-sid-siddeek-ai
+https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/
+https://www.primeintellect.ai/blog/series-a
+https://www.finsmes.com/2026/08/trajectory-raises-40m-in-series-a-funding-at-300m-post-money-valuation.html"
+96,Patrick Collison,天使,海外（美国）,是,暂缓,种子,,同类公司中领投 0 次,Mechanize,Patrick Collison,Stripe 联合创始人（2026 年职位未单独核实）,未找到,,,,"You backed Mechanize's seed, and Google has since brought its team into DeepMind; we build RL environments for finance and accounting, close to Stripe's own domain.",风险：可及性低。,v-patrick-collison,审批页、海外种子名单,"https://app.dealroom.co/companies/mechanize
+https://techfundingnews.com/google-mechanize-1-5b-ai-deal/
+https://app.dealroom.co/companies/mechanize
+https://startupfortune.com/google-quietly-closes-15-billion-dollar-talent-deal-with-ai-coding-startup-mechanize/
+https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"
+97,Radical Ventures,VC,海外（加拿大/美国）,是,暂缓,种子,,同类公司中领投 0 次,Trajectory,David Katz,Partner（Prime Intellect A 轮公开评论）,未找到,,,,Radical led Prime Intellect's $130M Series A to give companies a frontier-lab training stack; we supply finance environments for that kind of stack to train on.,风险：偏大额 A 轮，种子匹配度低。,v-radical-ventures,审批页、海外种子名单,"https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/
+https://thelogic.co/briefing/radical-ventures-leads-us130m-financing-for-ai-model-maker-prime-intellect/
+https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/
+https://thelogic.co/briefing/radical-ventures-leads-us130m-financing-for-ai-model-maker-prime-intellect/
+https://www.finsmes.com/2026/05/trajectory-raises-15m-in-seed-funding.html
+https://radical.vc/prime-intellect-owning-the-learning-loop/"
+98,S32,VC,海外（美国）,是,暂缓,,,,"You co-led Snorkel's Series E saying frontier training now needs rarer, more spe",Andy Harrison,CEO、General Partner（联合领投 Snorkel E 轮）,未找到,,,,"You co-led Snorkel's Series E saying frontier training now needs rarer, more specialized data; finance expertise is the specialized data we produce.",风险：阶段偏后。,v-s32,审批页、海外种子名单,"https://www.unite.ai/snorkel-ai-raises-350m-series-e-at-3-5b-valuation-to-build-the-frontier-lab-for-ai-data/
+https://www.s32.com/team
+https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/
+https://www.unite.ai/snorkel-ai-raises-350m-series-e-at-3-5b-valuation-to-build-the-frontier-lab-for-ai-data/"
+99,Balaji Srinivasan,天使,海外（未确认具体地区）,是,A 组,种子/早期为主（个人天使）,未确认（数据库所列 100 万–1.2 亿美元实为整轮金额，不能代表个人支票）,多为跟投（个人天使，未确认）,Datacurve、Prime Intellect,Balaji Srinivasan（本人，前 a16z 普通合伙人、前 Coinbase CTO）,,未找到,,,,,已投 Datacurve（编码数据/RL 环境，直接竞品）、Prime Intellect 种子轮；数据库把整轮金额记成个人出资，勿引用,,投资人档案、同类公司反查,"https://en.wikipedia.org/wiki/Balaji_Srinivasan
+https://www.vcbacked.co/directory/investors/balaji-srinivasan
+https://www.rl-list.com/vendors/datacurve
+https://profiles.crustdata.com/company/datacurve-yc-w24
+https://www.chaincatcher.com/en/article/2170192"
+100,Benchmark,VC,海外（美国）,是,A 组,早期为主（A 轮为核心），也领投大额种子,未确认；参考：2025 年 6 月领投 Applied Compute 种子轮，整轮 2000 万美元（估值 1 亿美元）,常领投并进董事会（如 Applied Compute 种子轮）,Mercor、Applied Compute,Chetan Puttagunta（General Partner，基础设施/AI 方向）；备选 Everett Randle（General Partner，2025 年 10 月加入，AI 方向）,,未找到,,,,,原联系人 Victor Lazarte 已于 2025 年 7 月离开 Benchmark，与 Fredrickson 另组约 8 亿美元 AI 基金，可另行接触；检索到的现任合伙人为 Peter Fenton、Eric Vishria、Everett Randle、Chetan Puttagunta，不含 Bill Gurley；已投 Mercor（专家数据，直接竞品）,,投资人档案、同类公司反查,"https://signalhub.substack.com/p/sequoia-and-benchmark-made-80m-bet
+https://www.upstartsmedia.com/p/ex-openai-applied-compute-raises-20m
+https://x.com/victoralazarte/status/1948490280191005077
+https://www.forbes.com/sites/iainmartin/2026/05/26/former-benchmark-investors-lazarte-and-fredrickson-aim-big-with-800-million-ai-fund/
+https://f4.fund/firms/benchmark
+https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html"
+101,A91 Partners,VC,海外（印度，孟买）,是,B 组,成长期为主（A 轮后段及以后），不以种子为主,"未确认（领投 Deccan AI 2,500 万美元 A 轮，该轮另有 SIG、Prosus 参与）",常领投（成长期）；种子轮基本不参与,Deccan AI,未找到,,未找到,,,,,印度成长期基金，聚焦消费、科技、金融服务、医疗的印度中型公司；Deccan AI（后训练数据与评测）为直接竞品，且据报道是 A91 首笔 AI 投资；种子轮匹配度低,,投资人档案、同类公司反查,"https://www.jsalaw.com/deals-matter/jsa-advises-a91-partners-on-investment-in-deccan-ai/
+https://ascendants.in/funding-feed/deccan-ai-raises-25m-series-a/
+https://www.thesaasnews.com/news/deccan-ai-secures-25m-in-series-a
+https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce"
+102,"Amjad Masad (CEO, Replit)",天使,海外（美国）,是,B 组,种子/早期（个人天使，约 62 笔投资，偏应用 AI、开发者工具）,未确认（个人天使支票，金额未公开）,多为跟投（如 Patronus AI 种子轮由 Lightspeed 领投，其为参投天使）,Patronus AI、Hillclimb,Amjad Masad 本人（Replit 创始人兼 CEO）,,未找到,,,,,已投 Hillclimb（规模化 RL 环境/人类研究数据，赛道相近）与 Patronus AI（LLM 评测）；适合作为种子轮天使跟投,,投资人档案、同类公司反查,"https://signal.nfx.com/investors/amjad-masad
+https://www.thesaasnews.com/news/patronus-ai-raises-3-million-in-seed-round
+https://www.hillclimb.com/
+https://www.prnewswire.com/news-releases/patronus-ai-launches-out-of-stealth-to-help-enterprises-deploy-large-language-models-safely-301927641.html
+https://www.ycombinator.com/companies/hillclimb"
+103,B Capital,VC,海外（美国，全球多地设点）,是,B 组,早期到成长期（2022 年设 2.5 亿美元早期基金 Ascent Fund）；GIM 为 A 轮出手,,可联合领投 A 轮（与金涌投资联合领投 GIM A 轮）；种子阶段领投习惯未确认,GIM,Howard Morgan（Chair 兼 General Partner；文艺复兴科技联合创始人、First Round Capital 联合创始人）,,未找到,,,,,已投金融垂域 AI 公司 GIM（A 轮联合领投），可能有竞品顾虑；Howard Morgan 量化背景与四位量化创始人高度契合,,投资人档案、同类公司反查,"https://www.prnasia.com/story/539030-1.shtml
+https://www.163.com/dy/article/L0TVO80O05562SCF.html
+https://milkeninstitute.org/events/global-conference-2022/speakers/howard-morgan
+https://en.wikipedia.org/wiki/B_Capital"
+104,CoinFund,VC,海外（美国）,是,B 组,种子为主（加密/去中心化 AI 方向）；其他阶段未确认,未确认（与 Distributed Global 联合领投 Prime Intellect 550 万美元种子轮）,可联合领投种子轮（Prime Intellect）,Prime Intellect,未找到,,未找到,,,,,加密/Web3 基金，投的是去中心化 AI 算力与训练；SimReal 非加密项目，匹配度可能偏低,,投资人档案、同类公司反查,"https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+https://www.finsmes.com/2024/04/prime-intellect-secures-5-5m-in-seed-funding.html"
+105,Counterview Capital,VC,海外（美国，纽约）,是,B 组,pre-seed 到种子,未确认（AgileRL pre-seed 总额 150 万英镑，与 Octopus Ventures 联合领投）,可联合领投 pre-seed，并在种子轮跟投（AgileRL）,AgileRL,Evan Burnstein（Partner，专注数据、AI 与基础设施的 pre-seed/种子投资，任 AgileRL 董事）,,未找到,,,,,"已投 RL 训练框架公司 AgileRL（英国），可跨境投资；基金规模较小，适合 2,000 万美元种子轮中的跟投份额",,投资人档案、同类公司反查,"https://www.thebaehq.com/news/agilerl-secures-ps1-5m-pre-seed-funding-to-revolutionise-reinforcement-learning
+https://nordic9.com/news/agilerl-raised-a-total-seed-funding-of-75-million-with-fusion-fund-flying-fish-octopus-ventures-entrepreneur-first-and-counterview-capital/
+https://www.vcsheet.com/who/evan-burnstein
+https://x.com/join_ef/status/2008928173950439872
+https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html
+https://www.startupmag.co.uk/funding/agilerl-2026-growth-funding/"
+106,Distributed Global,VC,海外（未确认）,是,B 组,种子（已知）；其他阶段未确认,未确认（与 CoinFund 联合领投 Prime Intellect 550 万美元种子轮）,可联合领投种子轮（Prime Intellect）,Prime Intellect,未找到,,未找到,,,,,加密/去中心化 AI 方向基金，资料很少；匹配度可能偏低,,投资人档案、同类公司反查,"https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+https://x.com/BSCNews/status/1782816555186688053"
+107,Foundation Capital,VC,海外（美国）,是,B 组,种子到 A 轮为主，主打首轮机构支票,"约 25 万–1,500 万美元，平均 100–1,000 万美元（第三方目录数据）；领投 Turing 1,400 万美元种子轮",常领投种子轮（Turing 种子轮由 Ashu Garg 领投）,Turing,Ashu Garg（General Partner，专投深度技术 AI 创始人的首轮支票，Turing 董事）,,未找到,,,,,已投 Turing（AI 后训练数据/RL 环境直接竞品，Ashu Garg 任董事），可能存在利益冲突；支票金额来自第三方目录，未经基金官方确认,,投资人档案、同类公司反查,"https://www.turing.com/blog/turing-announces-14-million-seed-round-led-by-foundation-capital
+https://www.vcsheet.com/fund/foundation-capital
+https://fundraisingfox.com/investors/foundation-capital
+https://www.vcsheet.com/who/ashu-garg
+https://tracxn.com/d/companies/turing/__bsYFKMgtiGqFroe-LC60IsybQOYBXGHuW--LOtZ3q5Q/funding-and-investors
+https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html"
+108,Founders Fund,VC,海外（美国）,是,B 组,种子到成长期全阶段,"未确认（领投 Prime Intellect 1,500 万美元种子延期轮）",常领投（领投 Prime Intellect 2025 年 2 月轮次）,Prime Intellect,未找到,,未找到,,,,,Prime Intellect（去中心化训练 + RL 环境中心）由其领投，相近赛道；负责该笔投资的合伙人未在公开报道中找到,,投资人档案、同类公司反查,"https://www.panewslab.com/en/articles/o1ef74z0
+https://sacra.com/c/prime-intellect/
+https://x.com/Crypto_Dep/status/1896525298297881020
+https://www.chaincatcher.com/en/article/2170192"
+109,Inovia Capital,VC,海外（加拿大）,是,B 组,种子起投（与 General Catalyst 联合领投 Good Start Labs 种子轮）；后期阶段未在本次检索中核实,未确认（Good Start Labs 种子轮总额 360 万美元）,可联合领投种子轮（Good Start Labs，2025 年 10 月）,Good Start Labs,未找到,,未找到,,,,,Good Start Labs 用游戏构建 RL 环境/数据卖给前沿实验室，与 SimReal 同属 RL 环境赛道（场景不同）,,投资人档案、同类公司反查,"https://www.inovia.vc/active-companies/good-start-labs/
+https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games
+https://x.com/alxai_/status/1978491513953722472
+https://tracxn.com/d/companies/goodstartlabs/__nJ4evVrro2f8gwXOvfUnRpGfpHMUoajTP2yHl7_QVRo/funding-and-investors"
+110,Notable Capital,VC,海外（美国，硅谷/旧金山/纽约）,是,B 组,种子到 A 轮为主，也做 B 轮及成长期,种子起步约 50 万美元；A/B 轮甜区约 1500–2000 万美元（第三方汇总，未经基金官方确认）,常领投 A 轮（领投 Patronus AI 1700 万美元 A 轮，Glenn Solomon 入董事会）；种子轮是否常领投未确认,Patronus AI,Glenn Solomon（Managing Partner，主导 Patronus AI A 轮并入董事会）,,未找到,,,,,前身 GGV Capital U.S.，2024 年 3 月更名，AUM 约 42 亿美元，只投中国以外；已投 AI 评测公司 Patronus AI（相邻赛道，非直接竞品）；Glenn Solomon 另投过 HashiCorp、Vercel、Monte Carlo 等基础设施公司,,投资人档案、同类公司反查,"https://www.patronus.ai/blog/announcing-our-17-million-series-a
+https://www.streetinsider.com/PRNewswire/Patronus+AI+Raises+%2417+million+To+Detect+LLM+Mistakes+at+Scale/23262682.html
+https://investormatch.pro/vcs/notable-capital-formerly-ggv-capital-us
+https://superscout.co/investor/ggv-capital-u-s
+https://www.prnewswire.com/news-releases/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale-302152825.html
+https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html"
+111,Oak HC/FT,VC,海外（美国，康涅狄格州格林威治）,是,B 组,种子到成长期，专注金融科技和医疗；金融科技方向以 A 轮及之后为主,第三方汇总为 100 万–1 亿美元；领投 Halluminate 3000 万美元 A 轮；据报道 2026 年 3 月 Fund VI 募资近 20 亿美元,常领投 A 轮及之后（领投 Halluminate A 轮）；种子轮领投频率未确认,Halluminate,Matt Streisfeld（General Partner，金融科技方向，主导 Halluminate A 轮）,,未找到,,,,,已投直接竞品 Halluminate（金融服务 RL 环境，2026-10-01 宣布 3000 万美元 A 轮，客户含四家美国头部 AI 实验室），可能存在利益冲突；不过这说明其认可金融 RL 环境赛道。Fund VI 规模来自搜索摘要，未在官方页面核实,,投资人档案、同类公司反查,"https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/
+https://www.halluminate.ai/blog/series-a
+https://signal.nfx.com/investors/matt-streisfeld
+https://f4.fund/firms/oak-hc-ft
+https://goldi.ai/intelligence/vc/oak-hc-ft
+https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/"
+112,Octopus Ventures,VC,海外（英国，伦敦）,是,B 组,pre-seed 到 A 轮切入，后续跟到 B 轮及以后,pre-seed 约 10–75 万英镑（标准约 10 万英镑）；种子/A 轮约 100 万英镑起；第三方称平均单笔约 450 万英镑,pre-seed 阶段可领投（深科技 pre-seed 基金定位为领投方）；在 AgileRL 中为跟投（种子轮由 Fusion Fund 领投）,AgileRL,未找到,,未找到,,,,,主投英国/欧洲公司；2023 年参与 AgileRL 150 万英镑 pre-seed（RLOps 平台，相邻赛道，非直接竞品）。美国或中国团队的 2000 万美元种子轮可能不符合其地域偏好,,投资人档案、同类公司反查,"https://tracxn.com/d/companies/agilerl/__wjrLdgbMZnqqNO9RlXeOq-s-rnzwhAutxhw1bewLWw4/funding-and-investors
+https://aijourn.com/agilerl-raises-7-5m-to-take-reinforcement-learning-out-of-the-research-lab-and-into-the-enterprise/
+https://octopusventures.com/about/faq/
+https://superscout.co/investor/octopus-ventures
+https://www.uktech.news/deep-tech/octopus-investments-deep-tech-fund-20230627
+https://www.thebaehq.com/news/agilerl-secures-ps1-5m-pre-seed-funding-to-revolutionise-reinforcement-learning"
+113,Orange Collective,VC,海外（美国，旧金山）,是,B 组,YC 批次期 pre-seed/种子，后续轮次会跟投（如 Halluminate A 轮）,未确认（基金约 4000 万美元，自 2023 年冬季批次起已投 116 家 YC 公司；自称少投多下注）,多为跟投,Halluminate、Cua,Dave Yen / Jason Freedman（联合创始人）,,未找到,,,,,只投 YC 公司，SimReal 若非 YC 校友公司基本不在其投资范围；已投直接竞品 Halluminate（种子和 A 轮）以及 Cua,,投资人档案、同类公司反查,"https://yespress.io/orange-collective
+https://teten.com/the-ai-native-platform-behind-orange-collective-investing-in-y-combinator-companies/
+https://www.vcuncovered.com/p/jason-freedman-orange-collective
+https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/
+https://www.caplight.com/company/halluminate
+https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/"
+114,金涌投资（弘毅投资旗下）,战略投资,中国香港（港股上市平台）,是,B 组,A 轮（联合领投 GIM A 轮）；整体偏好未确认,GIM A 轮投资 650 万美元（单一案例）,联合领投 GIM A 轮（与 B Capital 一起）并进入董事会,GIM,未找到,,未找到,,,,,正从多元资管转型为 AI 驱动的资管技术提供商，与 GIM 做 Agentic AI 金融投资战略合作；对金融 AI 有战略需求，与 SimReal 的金融场景相关度高；GIM 是 AI 资管公司，不是竞品；香港所在地本次检索未核实,,投资人档案、同类公司反查,"https://finance.sina.com.cn/wm/2026-06-26/doc-inietsps5210126.shtml
+https://www.honycapital.com/news/detail.aspx?nodeid=9&page=ContentPage&contentid=1706
+https://www.prnasia.com/story/539030-1.shtml
+https://www.163.com/dy/article/L0TVO80O05562SCF.html"
+115,11.2 Capital,,未核实,否,,种子,,同类公司中领投 0 次,Collinear AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/organization/collinear-ai
+116,186 Ventures,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Sepal AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a
+117,468 Capital,,未核实,否,,种子,,同类公司中领投 0 次,Cua,未找到,,未找到,,,,,,,同类公司反查,"https://www.rl-list.com/vendors/cua
+https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY
+https://startupintros.com/orgs/cua"
+118,Afore Capital,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Datacurve,未找到,,未找到,,,,,,,同类公司反查,https://profiles.crustdata.com/company/datacurve-yc-w24
+119,AltaIR Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Turing,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html
+120,Amino Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Turing,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html
+121,Andrej Karpathy (angel),,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,"https://www.chaincatcher.com/en/article/2170192
+https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+https://www.finsmes.com/2026/05/trajectory-raises-15m-in-seed-funding.html
+https://www.rl-list.com/vendors/cua
+https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY
+https://startupintros.com/orgs/cua"
+122,Antigravity Capital,,未核实,否,,种子,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://www.caplight.com/company/halluminate
+123,"Assaf Rappaport (Wiz CEO, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Irregular,未找到,,未找到,,,,,,,同类公司反查,https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/
+124,Base10 Advancement Initiative,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+125,Batch Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://www.caplight.com/company/halluminate
+126,Bloomberg Beta,,未核实,否,,种子、A 轮,,同类公司中领投 0 次,Vals AI,未找到,,未找到,,,,,,,同类公司反查,"https://sacra.com/c/vals-ai/
+https://www.finsmes.com/2026/08/vals-ai-raises-40m-in-series-a-funding-at-400m-valuation.html"
+127,BNY,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html
+128,Breakpoint Capital,,未核实,否,,种子,,同类公司中领投 0 次,Andon Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.gritt.io/company/andonlabs/
+129,Browder Capital,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+130,Cambridge Angels,天使网络,英国（剑桥）,是,,,,,,未找到,,info@cambridgeangels.net,机构投递,在 https://cambridgeangels.com/application-to-cambridge-angels 提交申请，或发邮件到 info@cambridgeangels.net（来源说）；初筛通过后会受邀向成员 pitch,在 https://cambridgeangels.com/application-to-cambridge-angels 提交申请，或发邮件到 info@cambridgeangels.net（来源说）；初筛通过后会受邀向成员 pitch,联合创始人有剑桥背景，工程/量化型 deep-tech 公司符合其偏好；适合拿下 $20M 种子轮里的英国天使份额，也可作为背书,,,资源清单,"https://www.ellty.com/investors/cambridge-angel-investors
+https://www.cambridgenetwork.co.uk/directories/companies/141
+https://en.wikipedia.org/wiki/David_Cleevely
+https://startupintros.com/orgs/cambridge-angels"
+131,Cambridge Capital Group (CCG),VC,英国（剑桥）,是,,,,,,未找到,,未找到,,,通过 https://www.cambridgecapitalgroup.co.uk/contact-ccg/ 联系（来源说）,单笔金额相对 $20M 种子轮偏小，但能补上英国天使份额，并带来剑桥圈 VC/family office 的介绍,,,资源清单,"https://www.cambridgecapitalgroup.co.uk/
+https://www.ellty.com/investors/cambridge-angel-investors"
+132,Chan Zuckerberg Initiative,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+133,Chris Re,,未核实,否,,A 轮,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+134,"Clem Delangue (Hugging Face, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,"https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+https://www.chaincatcher.com/en/article/2170192"
+135,Collab+Currency,,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+136,Compound,,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+137,Cooley,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+138,Cory Levy,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+139,Daniel Gross,,未核实,否,,种子,,同类公司中领投 0 次,Mechanize,未找到,,未找到,,,,,,,同类公司反查,https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round
+140,Databricks Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Adaptive ML,未找到,,未找到,,,,,,,同类公司反查,"https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed
+https://en.wikipedia.org/wiki/Adaptive_ML"
+141,"DCBuilder (Worldcoin, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+142,Deepwater Asset Management,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Invisible Technologies,未找到,,未找到,,,,,,,同类公司反查,https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform
+143,Dream Ventures VC,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+144,Duke Angel Network (Duke Capital Partners),天使网络,美国（北卡罗来纳州 Durham；对公司所在地的要求未确认）,是,,,,,,未找到,,未找到,,,通过 ProSeeder 提交 deal review 申请，入口见 https://dukeangelnetwork.duke.edu/for-entrepreneurs/,有 Duke 背景的联合创始人；$20M 种子轮远超 $500k 门槛；地域要求未确认，如有要求，采用 Delaware/美国实体即可满足,,,资源清单,"https://dukeangelnetwork.duke.edu/for-entrepreneurs/
+https://startupintros.com/orgs/duke-angel-network
+https://supportedly.com/programs/duke-angel-network/
+https://dukecapitalpartners.duke.edu/faqs/"
+145,Dynamic,,未核实,否,,种子,,同类公司中领投 0 次,Judgment Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents
+146,Eight Capital Management,,未核实,否,,种子,,同类公司中领投 0 次,Cua,未找到,,未找到,,,,,,,同类公司反查,"https://www.rl-list.com/vendors/cua
+https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY
+https://startupintros.com/orgs/cua"
+147,Emerson Collective,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+148,Engineering Capital,,未核实,否,,种子,,同类公司中领投 0 次,Collinear AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/organization/collinear-ai
+149,Entrepreneur First,,未核实,否,,种子,,同类公司中领投 0 次,AgileRL,未找到,,未找到,,,,,,,同类公司反查,"https://x.com/join_ef/status/2008928173950439872
+https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html
+https://www.startupmag.co.uk/funding/agilerl-2026-growth-funding/"
+150,EQT Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+151,Erik Bernhardsson,,未核实,否,,种子,,同类公司中领投 0 次,Proximal,未找到,,未找到,,,,,,,同类公司反查,https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest
+152,"Erik Voorhees (ShapeShift, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+153,Every,,未核实,否,,种子,,同类公司中领投 0 次,Good Start Labs,未找到,,未找到,,,,,,,同类公司反查,"https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games
+https://tracxn.com/d/companies/goodstartlabs/__nJ4evVrro2f8gwXOvfUnRpGfpHMUoajTP2yHl7_QVRo/funding-and-investors"
+154,Factorial Capital,,未核实,否,,种子、A 轮,,同类公司中领投 0 次,Patronus AI,未找到,,未找到,,,,,,,同类公司反查,"https://www.prnewswire.com/news-releases/patronus-ai-launches-out-of-stealth-to-help-enterprises-deploy-large-language-models-safely-301927641.html
+https://www.prnewswire.com/news-releases/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale-302152825.html"
+155,Factory,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+156,Firestreak Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Collinear AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/organization/collinear-ai
+157,Flying Fish,,未核实,否,,种子,,同类公司中领投 0 次,AgileRL,未找到,,未找到,,,,,,,同类公司反查,"https://x.com/join_ef/status/2008928173950439872
+https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html
+https://www.startupmag.co.uk/funding/agilerl-2026-growth-funding/"
+158,FT Partners,,未核实,否,,A 轮,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/
+159,GGV Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+160,Global Founders Capital,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Sepal AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a
+161,Greenoaks Capital,,未核实,否,,A 轮,,同类公司中领投 0 次,Applied Compute,未找到,,未找到,,,,,,,同类公司反查,https://phemex.com/news/article/applied-compute-secures-80-million-in-funding-led-by-kleiner-perkins-71931
+162,Greycroft,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Invisible Technologies,未找到,,未找到,,,,,,,同类公司反查,https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform
+163,Greylock,,未核实,否,,A 轮、B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,"https://www.cbinsights.com/research/snorkel-ai-series-c-funding/
+https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html"
+164,Heavybit,,未核实,否,,A 轮,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/
+165,HOF Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Invisible Technologies,未找到,,未找到,,,,,,,同类公司反查,https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform
+166,HuggingFund by Factorial,,未核实,否,,种子,,同类公司中领投 0 次,Adaptive ML,未找到,,未找到,,,,,,,同类公司反查,"https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed
+https://en.wikipedia.org/wiki/Adaptive_ML"
+167,HV Fund,,未核实,否,,种子,,同类公司中领投 0 次,Collinear AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/organization/collinear-ai
+168,ICONIQ,,未核实,否,,种子,,同类公司中领投 0 次,Adaptive ML,未找到,,未找到,,,,,,,同类公司反查,"https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed
+https://en.wikipedia.org/wiki/Adaptive_ML"
+169,"Idris Mokhtarzada (Rocket Money, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Veris AI,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption
+170,Inception Studio,,未核实,否,,种子,,同类公司中领投 0 次,Scorecard,未找到,,未找到,,,,,,,同类公司反查,https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster
+171,Inspired Capital,,未核实,否,,A 轮,,同类公司中领投 0 次,Deeptune,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html
+172,IRIS,,未核实,否,,种子,,同类公司中领投 0 次,Adaptive ML,未找到,,未找到,,,,,,,同类公司反查,"https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed
+https://en.wikipedia.org/wiki/Adaptive_ML"
+173,Jack Dorsey,,未核实,否,,A 轮,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+174,"Joe Lallouz (Coinbase, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+175,Juniper Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Andon Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.gritt.io/company/andonlabs/
+176,"Kevin Lin (Twitch co-founder, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Origin Lab,未找到,,未找到,,,,,,,同类公司反查,"https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html
+https://finance.yahoo.com/sectors/technology/articles/origin-lab-raises-8m-seed-233100359.html"
+177,Kevin Weil,,未核实,否,,种子,,同类公司中领投 0 次,Proximal,未找到,,未找到,,,,,,,同类公司反查,https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest
+178,"Kyle Vogt (Cruise founder, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Origin Lab,未找到,,未找到,,,,,,,同类公司反查,"https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html
+https://finance.yahoo.com/sectors/technology/articles/origin-lab-raises-8m-seed-233100359.html"
+179,Larry Summers,,未核实,否,,A 轮,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+180,Latitude Capital,,未核实,否,,A 轮,,同类公司中领投 0 次,AfterQuery,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation
+181,LAUNCH,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+182,LDVP,,未核实,否,,A 轮,,同类公司中领投 0 次,LMArena,未找到,,未找到,,,,,,,同类公司反查,https://siliconangle.com/2026/01/06/ai-evaluation-startup-lmarena-raises-150m-1-7b-valuation/
+183,Liam Fedus,,未核实,否,,种子,,同类公司中领投 0 次,Proximal,未找到,,未找到,,,,,,,同类公司反查,https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest
+184,Liquid 2 Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,HUD,未找到,,未找到,,,,,,,同类公司反查,https://www.hud.ai/blog/announcing-16m-series-a
+185,Magarac Venture Partners (existing investor),,未核实,否,,A 轮,,同类公司中领投 0 次,Gray Swan AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html
+186,Marcus Abramovitch,,未核实,否,,种子,,同类公司中领投 0 次,Mechanize,未找到,,未找到,,,,,,,同类公司反查,https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round
+187,Motier Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Adaptive ML,未找到,,未找到,,,,,,,同类公司反查,"https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed
+https://en.wikipedia.org/wiki/Adaptive_ML"
+188,Nat Friedman,,未核实,否,,种子,,同类公司中领投 0 次,Mechanize,未找到,,未找到,,,,,,,同类公司反查,https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round
+189,Naval Ravikant,,未核实,否,,种子,,同类公司中领投 0 次,Matrices,未找到,,未找到,,,,,,,同类公司反查,https://www.vcbacked.co/company/matrices
+190,NEA,,未核实,否,,种子,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+191,Neo Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Scorecard,未找到,,未找到,,,,,,,同类公司反查,https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster
+192,Nepenthe Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+193,Next Ladder Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,Vals AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2026/08/vals-ai-raises-40m-in-series-a-funding-at-400m-valuation.html
+194,Northside Ventures,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Datacurve,未找到,,未找到,,,,,,,同类公司反查,https://profiles.crustdata.com/company/datacurve-yc-w24
+195,Nova Global,,未核实,否,,种子,,同类公司中领投 0 次,Judgment Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents
+196,Obvious Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,Gray Swan AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html
+197,"Ofir Ehrlich (Eon CEO, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Irregular,未找到,,未找到,,,,,,,同类公司反查,https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/
+198,One Way Ventures,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Sepal AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a
+199,Pareto Holdings,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+200,Paul Graham,,未核实,否,,未标明,,同类公司中领投 0 次,Hillclimb,未找到,,未找到,,,,,,,同类公司反查,https://www.ycombinator.com/companies/hillclimb
+201,Peter Thiel,,未核实,否,,A 轮,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+202,Phosphor Capital,,未核实,否,,种子,,同类公司中领投 0 次,Andon Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.gritt.io/company/andonlabs/
+203,Pioneer Fund,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Datacurve,未找到,,未找到,,,,,,,同类公司反查,https://profiles.crustdata.com/company/datacurve-yc-w24
+204,Plug and Play,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Turing,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html
+205,PreAngel（硅谷华人科技网络）,天使网络,美国（硅谷）/ 中国,是,,,,,,未找到,,未找到,,,,华人创始人跨中美做融资时，可以作为接触中美双边天使的补充渠道,,,资源清单,https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/
+206,Princeville Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Invisible Technologies,未找到,,未找到,,,,,,,同类公司反查,https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform
+207,Prosperity 7 Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html
+208,Prosus Ventures,,未核实,否,,种子、A 轮,,同类公司中领投 0 次,Deccan AI,未找到,,未找到,,,,,,,同类公司反查,"https://www.finsmes.com/2025/05/deccan-ai-raises-funding-from-prosus-ventures.html
+https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce"
+209,Protocol Labs,,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+210,QBE Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html
+211,Reach Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+212,Robinhood Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.mercor.com/blog/series-c/
+213,"Roon (OpenAI, angel)",,未核实,否,,A 轮,,同类公司中领投 0 次,HUD,未找到,,未找到,,,,,,,同类公司反查,https://www.hud.ai/blog/announcing-16m-series-a
+214,Ryan Merket,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Datacurve,未找到,,未找到,,,,,,,同类公司反查,https://profiles.crustdata.com/company/datacurve-yc-w24
+215,Samsung,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Patronus AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html
+216,Sandberg Bernthal Venture Partners,,未核实,否,,种子,,同类公司中领投 0 次,Scorecard,未找到,,未找到,,,,,,,同类公司反查,https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster
+217,Scale Angels Fund,,未核实,否,,种子,,同类公司中领投 0 次,Preference Model,未找到,,未找到,,,,,,,同类公司反查,https://pitchbook.com/profiles/company/1324992-25
+218,Script Capital,,未核实,否,,种子,,同类公司中领投 0 次,Cua,未找到,,未找到,,,,,,,同类公司反查,"https://www.rl-list.com/vendors/cua
+https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY
+https://startupintros.com/orgs/cua"
+219,Seaplane Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,micro1,未找到,,未找到,,,,,,,同类公司反查,https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/
+220,SEE Fund,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,光轮智能,未找到,,未找到,,,,,,,同类公司反查,https://36kr.com/p/2360485049124737
+221,Seldon Lab,,未核实,否,,种子,,同类公司中领投 0 次,Andon Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.gritt.io/company/andonlabs/
+222,Seven Stars,,未核实,否,,种子,,同类公司中领投 0 次,Origin Lab,未找到,,未找到,,,,,,,同类公司反查,"https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html
+https://finance.yahoo.com/sectors/technology/articles/origin-lab-raises-8m-seed-233100359.html"
+223,"Shivani Mitra (Nous Research, angel)",,未核实,否,,种子,,同类公司中领投 0 次,Prime Intellect,未找到,,未找到,,,,,,,同类公司反查,https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect
+224,Sholto Douglas,,未核实,否,,种子,,同类公司中领投 0 次,Mechanize,未找到,,未找到,,,,,,,同类公司反查,https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round
+225,SID Venture Partners,,未核实,否,,种子,,同类公司中领投 0 次,Sepal AI,未找到,,未找到,,,,,,,同类公司反查,https://tracxn.com/d/companies/sepal-ai/__FS5Kt1wvJBc0c-Er0ClPRtWQ3E4L3vuadJ-02OWv7z8/funding-and-investors
+226,Snowflake Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,Gray Swan AI,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html
+227,Soma Capital,,未核实,否,,种子,,同类公司中领投 0 次,Mercor,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html
+228,South Park Commons,,未核实,否,,种子,,同类公司中领投 0 次,Preference Model,未找到,,未找到,,,,,,,同类公司反查,https://pitchbook.com/profiles/company/1324992-25
+229,Sozo Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Turing,未找到,,未找到,,,,,,,同类公司反查,https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html
+230,Spark Capital,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+231,StepStone Group,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Turing,未找到,,未找到,,,,,,,同类公司反查,"https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html
+https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html"
+232,Stone Bridge Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+233,Superangel,,未核实,否,,种子,,同类公司中领投 0 次,Andon Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.gritt.io/company/andonlabs/
+234,Swish Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Irregular,未找到,,未找到,,,,,,,同类公司反查,https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/
+235,Team Ignite Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://www.caplight.com/company/halluminate
+236,Tekton Ventures,,未核实,否,,种子,,同类公司中领投 0 次,Scorecard,未找到,,未找到,,,,,,,同类公司反查,https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster
+237,Transpose Platform Management,,未核实,否,,种子,,同类公司中领投 0 次,Halluminate,未找到,,未找到,,,,,,,同类公司反查,https://www.caplight.com/company/halluminate
+238,"Tristan Handy (dbt Labs, angel)",,未核实,否,,A 轮,,同类公司中领投 0 次,Bespoke Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents
+239,True Ventures,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Handshake AI,未找到,,未找到,,,,,,,同类公司反查,https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html
+240,Twenty Two Ventures,,未核实,否,,A 轮,,同类公司中领投 0 次,HUD,未找到,,未找到,,,,,,,同类公司反查,https://www.hud.ai/blog/announcing-16m-series-a
+241,Valor Equity Partners,,未核实,否,,种子,,同类公司中领投 0 次,Judgment Labs,未找到,,未找到,,,,,,,同类公司反查,https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents
+242,Village Global,,未核实,否,,pre-seed/天使,,同类公司中领投 0 次,Sepal AI,未找到,,未找到,,,,,,,同类公司反查,https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a
+243,Walden International,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,Snorkel AI,未找到,,未找到,,,,,,,同类公司反查,https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/
+244,WestBridge Capital,,未核实,否,,B 轮及以后,,同类公司中领投 2 次,Turing,未找到,,未找到,,,,,,,同类公司反查,"https://tracxn.com/d/companies/turing/__bsYFKMgtiGqFroe-LC60IsybQOYBXGHuW--LOtZ3q5Q/funding-and-investors
+https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html
+https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html"
+245,Y Combinator Continuity,,未核实,否,,B 轮及以后,,同类公司中领投 0 次,AfterQuery,未找到,,未找到,,,,,,,同类公司反查,https://phemex.com/news/article/ycbacked-afterquery-raises-new-funding-at-32-billion-valuation-95269
+246,Zero Shot（OpenAI 校友 VC 基金）,VC,美国（San Francisco）,是,,,,,,未找到,,未找到,,,官网 zeroshotfund.com（未发现公开申请表，未确认）；通过 OpenAI 校友圈或其已投公司做 warm intro,前 OpenAI 成员最懂 post-training 数据和 RL 环境的价值，既能投资，也能把 SimReal 引荐给实验室买家；其公开方向含“基础设施”，但未明确提到训练数据,,,资源清单,"https://www.techbuzz.ai/articles/openai-alumni-launch-100m-vc-fund-already-writing-checks
+https://zeroshotfund.com/
+https://cryptorank.io/news/feed/1fa87-openai-alumni-zero-shot-fund
+https://aitoolly.com/ai-news/article/2026-04-07-former-openai-team-launches-zero-shot-venture-capital-fund-with-100-million-target"
+247,大湾区共同家园基金,,中国香港,是,,B 轮及以后,,同类公司中领投 0 次,光轮智能,未找到,,未找到,,,,,,,同类公司反查,https://news.pedaily.cn/202605/564400.shtml
