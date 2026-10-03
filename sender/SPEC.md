@@ -253,3 +253,73 @@ Because `send.log` is kept in sync, the existing stage machine keeps working. Tw
 Add both to STAGE and to the filters where sensible. An auto row in the waiting state shows "自动跟进" wording, not "跟进到期". The page must not offer manual-send buttons for steps the sender owns.
 
 Everything else on the page works exactly as before when no sender is connected.
+
+## Link transport (claude.ai) — added after the platform check
+
+In claude.ai the published page can very likely neither `fetch` other origins (CSP connect-src) nor post forms to them (form-action 'self').
+- A blocked fetch throws a TypeError.
+- A blocked form fails silently.
+
+What does work is a link the user clicks: `<a href target="_blank" rel="noopener">`. The Gmail compose links already rely on it.
+
+So the page has two transports:
+- `fetch`: used when a fetch to the sender succeeds. Everything above applies, including status sync.
+- `link`: used when a fetch is blocked by CSP. Every sender action becomes a real link, built **before** the click, that opens the web app in a new tab. That tab shows the Chinese result page.
+
+The hidden-form transport is removed. It fails silently under claude.ai's CSP, which is worse than not offering it.
+
+### Backend: GET actions
+
+All GET actions require `token`. With a missing or wrong token they show the Chinese HTML error page; `status` answers with JSON.
+
+| action | params | effect | answer |
+|---|---|---|---|
+| `enqueue` | `z` = base64url (with `=` padding) of gzip(UTF-8 JSON `{"messages":[Msg]}`), or `j` = base64url of the uncompressed UTF-8 JSON | same as POST `enqueue` (same validation, results and limits) | HTML result page |
+| `cancel` | `slug` | same as POST `cancel` | HTML result page |
+| `ping` | — | same as POST `ping` | HTML page: 已连接 <from>, today's sends against the cap, counts, running or paused, version |
+| `test` | — | same as POST `test` | HTML result page |
+| `status` | `slugs` (optional, comma-separated) | unchanged | JSON |
+| `dashboard`, or no action | — | unchanged | HTML |
+
+**Decoding `z`.**
+```
+Utilities.ungzip(Utilities.newBlob(Utilities.base64DecodeWebSafe(z), "application/x-gzip")).getDataAsString("UTF-8")
+```
+A `z` or `j` that does not decode gives an HTML error page.
+
+**The enqueue result page** lists one line per card: company and contact, then 已加入发送队列, 已更新, or 跳过 plus the reason in Chinese. It ends with two things:
+- "会在对方当地工作日 8–18 点按分组顺序发出，每封间隔至少 4 分钟；对方回复后自动停止跟进。"
+- A link to the dashboard.
+
+**Repeat clicks are safe.** Opening the same link again gives `updated` while the row is still queued, and `duplicate` once it has been sent.
+
+**Weekday.** Do not rely on SimpleDateFormat `u` alone. Derive the weekday from `formatDate(now, tz, "yyyy-MM-dd")` with `Date.UTC(y, m - 1, d)` and `getUTCDay()`; days 1–5 are weekdays.
+
+### Page: link mode
+
+**Detecting the mode.** When a sender is saved, the page tries a fetch `ping` on load. If that fetch is blocked by CSP (`securitypolicyviolation` with directive connect-src for the sender's origin), the page switches to `link`. Any other failure is reported as now and retried, with no mode change.
+
+**Building the links.** Each link is computed asynchronously ahead of time:
+- It is gzip-compressed with `CompressionStream("gzip")`. Without CompressionStream it falls back to `j`.
+- It is cached by the Msg's signature.
+- It is rendered as an `<a target="_blank" rel="noopener">` only once ready. Until then a disabled 准备中… button is shown.
+- No link may be longer than 6,000 characters. A single card that does not fit is refused with "邮件太长，链接放不下，请用 Gmail 手动发".
+
+**Links per card.** Clicking a link never calls preventDefault: the browser opens the tab, and the click handler records state in the db.
+- **Pending card, sender saved, nothing refused:** the primary action is the link "批准并交给发信助手 ↗".
+  - The click writes the review as approved, as today, plus `send.auto = {status: "handed", via: "link", at, sig, revision}`.
+  - If the approval write fails, the card says that the email was handed over but the approval was not saved, and shows a retry.
+  - A card that is refused keeps the plain 批准 button and shows the reason.
+- **Approved card in tosend:** the link is "交给发信助手 ↗".
+- **Handed card (`send.auto.status` is `handed`):** the card shows "已交给发信助手 · 发送和跟进状态在发信助手页面看", plus three links:
+  - 打开发信助手 ↗;
+  - 停止自动发送 ↗, which goes to the cancel link and writes `send.auto.cancelRequested = at`. The card then says "已在新标签页提交停止，请在那一页确认";
+  - when the signature drifted, 重新交给发信助手 ↗.
+
+  Manual first-send buttons stay hidden for handed cards, so the same email is not sent twice. The 对方已回复 and 已约见 buttons stay.
+- **Batch:** the button 全部交给发信助手（N 封） renders a panel of links, one per chunk of at most 6,000 characters. Each is labelled "第 k 批：公司A、公司B… ↗", and clicking one marks its cards handed.
+- **Settings in link mode:** 测试连接 ↗ (`?action=ping`), 试发一封给自己 ↗ (`?action=test`) and 打开发信助手 ↗. The status line reads "这个页面不能直接读取发信助手；点「测试连接」会在新标签页显示结果。"
+
+**Fetch mode.** Everything in the earlier sections stays as it is, including status sync.
+
+**Token handling.** The token appears only in sender URLs, which are built in memory and in the `href` of links. It is never stored in the db.
