@@ -1,0 +1,1259 @@
+[
+ {
+  "batch": [
+   "Jake Flomenberg",
+   "Rob Go",
+   "David Cummings",
+   "Ashley Flucas"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Jake Flomenberg",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Wing Venture Capital",
+     "title_2026": "Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "BSE, Duke University (triple major: Electrical & Computer Engineering, Computer Science, Economics)",
+     "duke_grad_year": null,
+     "grad_year_basis": "Inferred with certainty: after Duke he held product/engineering roles at Splunk and Cloudera, earned a Penn master's and an HBS MBA, and joined Accel as Principal in about 2012 (prnewswire), so the Duke BSE was finished well before 2018. No class year is stated.",
+     "duke_sources": [
+      "https://www.wing.vc/people/jake-flomenberg (search snippet)",
+      "https://signal.nfx.com/investors/jake-flomenberg (search snippet)",
+      "https://www.vcsheet.com/who/jake-flomenberg (search snippet)",
+      "https://www.prnewswire.com/news-releases/jake-flomenberg-and-nick-mehta-join-accel-partners-as-principal-and-eir-164745306.html (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.vcsheet.com/who/jake-flomenberg (search snippet)",
+      "https://signal.nfx.com/investors/jake-flomenberg (search snippet)",
+      "https://x.com/tbuzzdaily/status/2061416410383806782 (search snippet)"
+     ],
+     "stage_focus": "Seed to Series B: AI/ML, AI infrastructure and foundation models, next-generation infrastructure, SaaS, security",
+     "sectors": "AI infrastructure, foundation models, AI-powered apps, developer/technologist tools, data platforms, security",
+     "relevant_investments": "Gray Swan AI (AI security), $40M Series A, 2026, co-led by Wing (Jake) and Madrona; SiMa.ai (edge ML), board member, Series B ($37M, 2022); aggregator-reported and not independently verified: Moonshine AI seed (2025), Pixee seed ($15M, 2025). Earlier at Accel: Demisto, Sumo Logic.",
+     "investment_sources": [
+      "https://x.com/tbuzzdaily/status/2061416410383806782 (search snippet)",
+      "https://www.wing.vc/content/building-and-performing-at-the-embedded-edge-with-sima-ai (search snippet)",
+      "https://www.vcsheet.com/who/jake-flomenberg (search snippet)"
+     ],
+     "bio": "Jake Flomenberg is a Partner at Wing Venture Capital. He invests from seed to Series B in AI infrastructure, foundation models, AI applications and security. Before Wing he was at Accel and held product and engineering roles at Splunk and Cloudera. He holds a Duke BSE with a triple major in ECE, CS and Economics.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Wing's official contact form, https://www.wing.vc/contact-us. This URL was cited in a superscout.co search snippet (https://superscout.co/investor/wing-venture-capital) and not checked on wing.vc itself. A generic inbox, info@wing.vc, appeared only in that aggregator's summary and not on the official site, so it is not used.",
+     "linkedin_url": "https://www.linkedin.com/in/jacobflomenberg (search snippet)",
+     "x_url": "",
+     "personal_site": "",
+     "location": "not verified (Wing has offices in Palo Alto and New York)",
+     "fit": "High",
+     "fit_reason": "An active seed/Series A lead in AI infrastructure and AI security. In 2026 he co-led Gray Swan AI's Series A, a company that evaluates and red-teams model behavior, which is close to SimReal's work on RL environments and verifiers.",
+     "hook": "In 2026 you co-led Gray Swan AI's $40M Series A for Wing, backing AI security evaluation. SimReal builds RL environments and verifiers that measurably improve model behavior, starting with trading.",
+     "hook_sources": [
+      "https://x.com/tbuzzdaily/status/2061416410383806782 (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "Rob Go",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "NextView Ventures",
+     "title_2026": "Co-Founder & Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "B.S. (Economics), Duke University, magna cum laude; MBA, Harvard Business School",
+     "duke_grad_year": 2001,
+     "grad_year_basis": "Stated: 'Duke University (B.S. '01)' appears in search snippets. It also fits his career: Spark Capital, then an HBS MBA, then co-founding NextView in 2010.",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/news-events/duke-ie-network-news/ (search snippet)",
+      "https://www.praxis.co/people/rob-go (search snippet)",
+      "https://nextview.vc/team/rob-go/ (search snippet)",
+      "https://robgo.org/about-me/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://nextview.vc/blog/author/robgo/ (search snippet; NextView blog posts by him dated Jan 27, 2026 and Mar 18, 2026)",
+      "https://signal.nfx.com/investors/rob-go (search snippet)",
+      "https://nextview.vc/team/rob-go/ (search snippet)"
+     ],
+     "stage_focus": "Seed (NextView is a seed-stage fund in Boston and NYC)",
+     "sectors": "Software that changes end-user experiences ('Everyday Economy'): marketplaces, vertical SaaS, fintech, AI, digital health",
+     "relevant_investments": "Firm-level: NextView invested in Fuse Finance (fintech) in a Series A-II on March 16, 2026, according to a CB Insights snippet. No personal AI-infrastructure, data or quant deal was verified.",
+     "investment_sources": [
+      "https://www.cbinsights.com/investor/nextview-ventures (search snippet)",
+      "https://www.praxis.co/people/rob-go (search snippet)"
+     ],
+     "bio": "Rob Go co-founded NextView Ventures, a seed-stage fund in Boston and New York that backs founders redesigning the 'Everyday Economy.' He invests in marketplaces, vertical SaaS, fintech, AI and digital health. Before NextView he was at Spark Capital, where he helped run Start@Spark. He holds a Duke B.S. ('01) and a Harvard MBA.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official NextView team page https://nextview.vc/team/rob-go/ (search snippet). He also blogs at https://nextview.vc/blog/author/robgo/. No official pitch inbox was seen.",
+     "linkedin_url": "https://www.linkedin.com/in/robgo/ (search snippet)",
+     "x_url": "https://x.com/robgo (search snippet)",
+     "personal_site": "https://robgo.org/ (search snippet); https://robgo.medium.com/ (search snippet)",
+     "location": "Boston, MA (NextView is based in Boston/NYC per search snippet)",
+     "fit": "Medium",
+     "fit_reason": "A generalist seed investor whose focus list includes fintech and AI. His thesis centers on end-user and vertical software rather than AI infrastructure or RL tooling, so SimReal's B2B lab-supplier model is only a partial match.",
+     "hook": "NextView backs seed-stage software across fintech and AI and invested in Fuse Finance in March 2026. SimReal's Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://www.praxis.co/people/rob-go (search snippet)",
+      "https://www.cbinsights.com/investor/nextview-ventures (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "David Cummings",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Atlanta Ventures (also founding investor in Dogwood Ventures; founder of Atlanta Tech Village)",
+     "title_2026": "Founder & CEO, Atlanta Ventures",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "B.S. Economics, Duke University (also studied at the London School of Economics)",
+     "duke_grad_year": null,
+     "grad_year_basis": "Inferred: sources say he earned a Duke BS in Economics. He took a leave during his junior year (around 2001) to start a company, then bootstrapped Pardot with his Duke classmate Adam Blitzer in 2007 and sold it in 2012, so the degree was finished long before 2018. No class year is stated.",
+     "duke_sources": [
+      "https://davidcummings.org/about/ (search snippet)",
+      "https://www.tagonline.org/tagwire/technology-entrepreneur-david-cummings-to-be-inducted-into-technology-hall-of-fame-of-georgia/ (search snippet)",
+      "https://www.dogwood.vc/team/david-cummings (search snippet)",
+      "https://grepbeat.com/2020/10/27/pete-meets-david-cummings-founder-ceo-of-pardot/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.atlantaventures.com/about/ (search snippet)",
+      "https://www.atlantaventures.com/ (search snippet)",
+      "https://www.dogwood.vc/team/david-cummings (search snippet)"
+     ],
+     "stage_focus": "Idea / pre-seed to Series A (Atlanta Ventures is a venture studio and early-stage fund). He is also a prolific personal angel.",
+     "sectors": "B2B SaaS, healthcare, AI; geographic focus on Atlanta and the Southeast",
+     "relevant_investments": "Personal: lead investor in Calendly and investor in SalesLoft (B2B SaaS). Dogwood Ventures, where he is a founding investor, co-led a $5M seed round in BoodleBox (AI collaboration for higher education) in December 2025, but his decision role at Dogwood is not verified. No AI-infrastructure, data or quant deal was found.",
+     "investment_sources": [
+      "https://www.dogwood.vc/team/david-cummings (search snippet)",
+      "https://superscout.co/investor/dogwood-ventures (search snippet)",
+      "https://www.atlantaventures.com/ (search snippet)"
+     ],
+     "bio": "David Cummings founded and leads Atlanta Ventures, a venture studio and early-stage fund that backs Atlanta and Southeast founders from idea to Series A. He co-founded Pardot (sold to ExactTarget for $95.5M in 2012), founded Atlanta Tech Village and invested early in SalesLoft and Calendly. He holds a Duke BS in Economics.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official Atlanta Ventures site https://www.atlantaventures.com/ (search snippet), which offers office hours and programs for founders. A marketing@atlantaventures.com address appeared in a search summary without an official source, so it is not used. Personal blog: https://davidcummings.org/ (search snippet).",
+     "linkedin_url": "https://www.linkedin.com/in/davidcummings/ (search snippet)",
+     "x_url": "",
+     "personal_site": "https://davidcummings.org/ (search snippet)",
+     "location": "Atlanta, GA",
+     "fit": "Medium",
+     "fit_reason": "A hands-on B2B SaaS operator-angel and early-stage fund that lists AI as a focus. However, Atlanta Ventures concentrates on Atlanta/Southeast founders, which weakens the fund route for SimReal. A personal angel check is the more realistic ask.",
+     "hook": "Atlanta Ventures lists AI among its early-stage focus areas, and you were lead investor in Calendly. SimReal sells RL environments and expert data to AI labs, including Surge AI and AfterQuery.",
+     "hook_sources": [
+      "https://www.atlantaventures.com/ (search snippet)",
+      "https://www.dogwood.vc/team/david-cummings (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Ashley Flucas",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Flucas Ventures (AngelList syndicate); also COO, Summit Ventures",
+     "title_2026": "Founder & General Partner (solo GP), Flucas Ventures. A LinkedIn search snippet shows her current headline as COO, Summit Ventures.",
+     "decision_maker": "yes",
+     "still_active_2026": "unclear",
+     "duke_degree": "B.A. Political Science, Duke University; J.D., Harvard Law School",
+     "duke_grad_year": 2008,
+     "grad_year_basis": "Stated: 'Ashley Flucas '08' appears in the Duke Innovation & Entrepreneurship 2024 ELN cohort BioBook (official Duke document), seen as a search snippet. It also fits her career: Harvard JD, then Davis Polk, then angel investing from 2018.",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/sites/default/files/2024%20ELN%20BioBook%20web.pdf (search snippet)",
+      "https://www.nasdaq.com/articles/ashley-flucas:-driving-diversity-in-the-venture-capital-investment-space (search snippet)",
+      "https://www.linkedin.com/in/asflucas/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://venture.angellist.com/ashley-flucas/syndicate (search snippet)",
+      "https://www.linkedin.com/in/asflucas/ (search snippet)",
+      "https://signal.nfx.com/investors/ashley-flucas (search snippet)",
+      "https://f4.fund/firms/flucas-ventures (search snippet)",
+      "https://summit.ventures/who-we-are/ (search snippet)"
+     ],
+     "stage_focus": "Pre-seed to Series A via an AngelList syndicate of roughly 2,000-3,500 LPs. She has made 250-275+ investments, and the syndicate has deployed $75M-$100M+ since 2020.",
+     "sectors": "Fintech, enterprise, AI, deep tech, biotech, health, future of work",
+     "relevant_investments": "Personal or syndicated: Databricks (data/AI infrastructure), Brex, Mercury, Qonto, Pipe, Bolt (fintech), AngelList, Turing. A 2025 investment in Limitless (acquired by Meta, Dec 2025) is aggregator-reported. Rounds and years for the core deals were not verified.",
+     "investment_sources": [
+      "https://www.nasdaq.com/articles/ashley-flucas:-driving-diversity-in-the-venture-capital-investment-space (search snippet)",
+      "https://upside.fm/flucas-ventures/ (search snippet)",
+      "https://f4.fund/firms/flucas-ventures (search snippet)",
+      "https://www.rho.co/blog/angel-investors-for-ai (search snippet)"
+     ],
+     "bio": "Ashley Flucas founded Flucas Ventures, an AngelList syndicate she runs as solo GP, and has invested in 250+ startups since 2018, including Databricks, Brex, Mercury and Qonto. She was previously a capital-markets attorney at Davis Polk in London. She holds a Duke B.A. in Political Science ('08) and a Harvard J.D.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official Flucas Ventures AngelList syndicate page https://venture.angellist.com/ashley-flucas/syndicate (search snippet). Company LinkedIn: https://www.linkedin.com/company/flucas-ventures (search snippet).",
+     "linkedin_url": "https://www.linkedin.com/in/asflucas/ (search snippet)",
+     "x_url": "",
+     "personal_site": "",
+     "location": "West Palm Beach, FL (per search snippet)",
+     "fit": "Medium",
+     "fit_reason": "A syndicate lead with a strong fintech and data-infrastructure portfolio (Databricks, Brex, Mercury) and AI listed as a focus. Her syndicate is generalist, and no specific 2026 seed deal in AI infrastructure or quant was verified. She is still worth a try because the syndicate reaches thousands of LPs.",
+     "hook": "Your Flucas Ventures syndicate backed data and fintech infrastructure such as Databricks, Brex and Mercury. SimReal builds RL environments and expert data for LLM post-training, starting with Xitadel, its trading environment.",
+     "hook_sources": [
+      "https://www.nasdaq.com/articles/ashley-flucas:-driving-diversity-in-the-venture-capital-investment-space (search snippet)",
+      "https://upside.fm/flucas-ventures/ (search snippet)"
+     ],
+     "confidence": "Medium"
+    }
+   ],
+   "budget_exhausted": false,
+   "searches_used": 13
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Jake Flomenberg",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Duke degree confirmed. Speaker bios say he 'graduated from Duke University with a triple major in Electrical Computer Engineering, Computer Science, and Economics', then took a Penn MEng and an HBS MBA (https://www.infosys.com/confluence/2017/jake-flomenberg.html and https://dataedge.ischool.berkeley.edu/2014/speakers/jake-flomenberg.html, search snippets). Because he went on to Lockheed Martin's ELDP, then Cloudera and Splunk, then Accel (Partner until 2018), the degree was clearly finished long before 2018. Role and the 2026 hook are confirmed independently. Gray Swan closed a $40M Series A co-led by Wing and Madrona, and 'Wing's Jake Flomenberg and Madrona's Vivek Ramaswami led the deal' (https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html, https://www.madrona.com/gray-swan-series-a/, https://x.com/tbuzzdaily/status/2061416410383806782, all search snippets). That makes him active at Wing as a lead investor as of June 2026. Caution for the senders: rl-list.com lists Gray Swan AI as an 'RL environment vendor' (https://www.rl-list.com/vendors/gray-swan-ai, search snippet), and Gray Swan's customers include Anthropic, OpenAI and Meta. Wing may therefore see SimReal as adjacent to, or competing with, a portfolio company. Frame the hook as complementary (trading domain, expert data) rather than as the same category. No published email was seen.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Rob Go",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Duke B.S. '01 confirmed: 'Rob Go, a Duke University graduate (B.S. '01)' appears in the Duke I&E Network in the News page (https://entrepreneurship.duke.edu/news-events/duke-ie-network-news/, search snippet). Active in 2026: the same search shows NextView closed $80M toward a $135M seed fund in 2026, and the NextView blog author page and team page are live (https://nextview.vc/blog/author/robgo/, https://nextview.vc/team/rob-go/, search snippets). As co-founder of a seed fund he is a decision maker, and the seed stage fits. The Fuse Finance hook rests only on the CB Insights snippet and I did not verify it independently. A safer alternative hook is NextView's 2026 raise toward a $135M seed fund (Duke I&E snippet above), though the search summary attributed that fact without naming the exact page. Fit stays Medium.",
+     "reject_reason": ""
+    },
+    {
+     "name": "David Cummings",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "grad_year_basis",
+       "value": "Inferred with certainty: he earned a Duke B.S. in Economics and founded Hannon Hill while a Duke student. He then co-founded Pardot in 2007 with fellow Duke alum Adam Blitzer, and the company sold to ExactTarget in 2012, so the degree was finished well before 2018. No class year is stated. The earlier claim of a 'leave during junior year (around 2001)' was not verified and has been dropped.",
+       "evidence": "'David Cummings earned a bachelor of science degree in economics from Duke University. While in college at Duke University, Cummings founded Hannon Hill' and 'In 2007, he and Adam Blitzer co-founded Pardot' (https://davidcummings.org/about/, https://grepbeat.com/2020/10/27/pete-meets-david-cummings-founder-ceo-of-pardot/, https://hypepotamus.com/featured-events/david-cummings-keynote/, search snippets)"
+      }
+     ],
+     "notes": "Role in 2026: the official site describes Atlanta Ventures as 'a venture studio and early-stage fund built by founders, for founders' with 50+ portfolio companies, and he is listed as Founder & CEO (https://www.atlantaventures.com/about/, search snippet). No departure was found. Decision authority (founder/CEO of the fund, plus personal angel) and early stage (idea to Series A) both hold. Fit is Medium at best because of the Atlanta/Southeast focus. A personal angel check is the realistic route. No published email was seen.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Ashley Flucas",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "title_2026",
+       "value": "Founder & General Partner (solo GP), Flucas Ventures (AngelList syndicate). Her current primary role is Chief Operating Officer & General Counsel, Summit Ventures, a multi-industry company (15 industries, 8 countries). Summit Ventures was not verified as a venture fund, and she has no verified investment role there.",
+       "evidence": "'Ashley Flucas serves as Chief Operating Officer & General Counsel at Summit Ventures. Summit Ventures is a global company that spans 15 industries, 8 countries, and 30 U.S. states' (https://summit.ventures/who-we-are/ and https://www.linkedin.com/in/asflucas/, search snippets)"
+      },
+      {
+       "field": "firm",
+       "value": "Flucas Ventures (AngelList syndicate, solo GP); also COO & General Counsel, Summit Ventures",
+       "evidence": "https://summit.ventures/who-we-are/ (search snippet); https://venture.angellist.com/ashley-flucas/syndicate (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Low",
+       "evidence": "No specific 2025-2026 syndicate deal was found. The only 2026 activity signal is the aggregator Dealroom saying the firm 'is active in 2026' and ranks #363 in its 2026 Power Law ranking (https://dealroom.co/investors/flucas-ventures/, search snippet). Her full-time operating role as COO/GC of Summit Ventures makes current syndicate deal flow uncertain."
+      }
+     ],
+     "notes": "The Duke degree stands: the Summit Ventures/LinkedIn snippet says 'Bachelor of Arts from Duke University and a Doctor of Law (J.D.) from Harvard Law School', and the '08 class year comes from the Duke I&E 2024 ELN BioBook as cited. still_active_2026 stays 'unclear'. As syndicate lead she controls which deals are offered, so decision_maker 'yes' is reasonable while the syndicate is live. Aggregators say the syndicate invests 'across all stages', so pre-seed to Series A is plausible. A ZoomInfo result surfaced a masked summit.ventures address. Per the rules it was NOT used, and email stays 'not found'. A theorg.com snippet also calls her 'Venture Partner at Gaingels', which is unverified and not used.",
+     "reject_reason": ""
+    }
+   ],
+   "searches_used": 7,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Adelina Dasso",
+   "Amit Mehra",
+   "Jason Fernandez",
+   "Gregg Bordes"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Gregg Bordes",
+     "include": true,
+     "firm": "Front Porch Venture Partners (Raleigh/Cary, NC)",
+     "title_2026": "Co-Founder & Managing Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "MBA (with honors), Duke Fuqua School of Business",
+     "duke_grad_year": 2012,
+     "grad_year_basis": "stated: Duke Fuqua page lists 'Gregg Bordes, MBA '12' (discovery snippet). Search snippet also confirms the Fuqua MBA with honors plus a BS from NYU Stern.",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/entrepreneurship-at-fuqua (search snippet)",
+      "https://grepbeat.com/2022/02/08/the-download-greggory-bordes-front-porch-venture-partners/ (search snippet)",
+      "https://dukemag.duke.edu/stories/investing-relationships (search snippet)"
+     ],
+     "role_sources": [
+      "https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet)",
+      "https://www.axios.com/local/raleigh/2024/05/01/triangle-vc-firm-front-porch-venture-raises-20-million (search snippet)",
+      "https://www.frontporchvp.com/ (search snippet)"
+     ],
+     "stage_focus": "Hybrid fund: about 60% into Southeast VC funds and about 40% direct into startups. Direct checks at seed and early stage with follow-on capacity, e.g. co-investments in a Dec 2024 seed round and a Nov 2025 Series A. Southeast focus (DC to Miami).",
+     "sectors": "Enterprise software, fintech, healthcare services; Southeast US",
+     "relevant_investments": "Fintech and enterprise software are stated focus areas. No specific AI-infra, data or quant deal found. Has co-invested in Acre Homes (seed, Dec 2024) and Poppy Flowers (Series A, Nov 2025) per aggregator snippets. Fund II closed at $20M in April 2024.",
+     "investment_sources": [
+      "https://www.frontporchvp.com/strategy/ (search snippet)",
+      "https://www.axios.com/local/raleigh/2024/05/01/triangle-vc-firm-front-porch-venture-raises-20-million (search snippet)",
+      "https://www.gritt.io/company/front-porch-venture-partners/ (search snippet; co-investment list came from aggregated results, exact source page not confirmed)"
+     ],
+     "bio": "Greggory (Gregg) Bordes co-founded Front Porch Venture Partners in 2020 with Joe Mancini and Nikin Shah. It is a North Carolina Triangle firm that invests in Southeast VC funds and directly in startups, and its Fund II closed at $20M in 2024. He has 20+ years in venture, private equity and public-market investing. He holds a Duke Fuqua MBA and an NYU Stern finance/economics degree.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official contact page https://www.frontporchvp.com/contact/ (search snippet). No published pitch inbox found.",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "Research Triangle (Cary/Raleigh), North Carolina",
+     "fit": "Medium",
+     "fit_reason": "Generalist early-stage Southeast fund whose stated sectors include fintech and enterprise software. Direct seed/Series A checks are small and limited to the Southeast. SimReal's Duke-based COO may give it a Triangle tie, but no AI-infra deals were found.",
+     "hook": "Front Porch released its first Southeast Startup Founder Pulse Survey in September 2026; SimReal is a seed-stage AI trading-environment company whose COO is based at Duke.",
+     "hook_sources": [
+      "https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "High"
+    },
+    {
+     "name": "Jason Fernandez",
+     "include": true,
+     "firm": "Quake Capital Partners; Creci Ventures (Austin, TX)",
+     "title_2026": "Managing Partner & COO, Quake Capital Partners (since Feb 2019); General Partner, Creci Ventures (since Aug 2022)",
+     "decision_maker": "yes",
+     "still_active_2026": "unclear",
+     "duke_degree": "Daytime MBA (Finance, Strategy, Health Sector Management), Duke Fuqua School of Business",
+     "duke_grad_year": 2008,
+     "grad_year_basis": "stated: Fuqua Alumni Council listing 'Daytime MBA, Class of 2008'. A profile snippet gives MBA dates 2006-2008.",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/alumni/volunteer/alumni-board/alumni-council-members/F (search snippet)",
+      "https://www.linkedin.com/in/jason-r-fernandez/ (search snippet; education dates shown in search summary)"
+     ],
+     "role_sources": [
+      "https://www.finsmes.com/2019/03/james-r-fernandez-joins-quake-capital-as-managing-partner-of-quake-atx.html (search snippet)",
+      "https://www.bgmediagp.com/bgpodcast/episode129 (search snippet)",
+      "https://www.creciventures.com/team/ (search snippet)",
+      "https://familyofficeinsights.com/pir-qa/jason-fernandez-of-creci-ventures/ (search snippet)"
+     ],
+     "stage_focus": "Quake Capital is a pre-seed/seed accelerator fund (Austin, LA, NYC). Creci Ventures writes seed to Series A checks of $250K-$2M, typically once a company shows about $10K+ MRR.",
+     "sectors": "Quake: generalist tech. Creci: proptech and marketplaces, with some financial and B2B software.",
+     "relevant_investments": "Creci portfolio includes Nada, LeaseUp and Plotr (proptech / financial software / B2B). No AI-infra, data or quant deal found.",
+     "investment_sources": [
+      "https://investormatch.pro/vcs/creci-ventures (search snippet)",
+      "https://www.creciventures.com/team/ (search snippet)"
+     ],
+     "bio": "Jason Fernandez has been Managing Partner and COO of Quake Capital Partners since 2019, running its Austin accelerator office and investor/advisor network. Since 2022 he has also been General Partner of Creci Ventures, an Austin seed-to-Series A fund focused on proptech and marketplaces. He previously spent 20 years in financial services, including at BASE Equity Partners. He is a Fuqua Alumni Council member.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Creci Ventures website https://www.creciventures.com/ (team page seen in search snippet). Quake Capital site www.quakecapital.com (search snippet). No official pitch inbox or form URL seen.",
+     "linkedin_url": "https://www.linkedin.com/in/jason-r-fernandez/",
+     "x_url": "",
+     "personal_site": "",
+     "location": "Austin, TX",
+     "fit": "Medium",
+     "fit_reason": "Active pre-seed/seed and Series A check writer at two vehicles with a Fuqua alumni-volunteer tie. Creci's proptech focus and Quake's accelerator format are a partial mismatch for an AI/RL data company. No 2026-dated source confirms his current roles.",
+     "hook": "Creci Ventures writes $250K-$2M seed-to-Series A checks once startups show roughly $10K MRR; SimReal already sells RL environments and data to Surge AI and AfterQuery.",
+     "hook_sources": [
+      "https://investormatch.pro/vcs/creci-ventures (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "Medium"
+    },
+    {
+     "name": "Amit Mehra",
+     "include": true,
+     "firm": "Borderless Capital",
+     "title_2026": "General Partner (listed as Partner/General Partner)",
+     "decision_maker": "yes",
+     "still_active_2026": "unclear",
+     "duke_degree": "MBA (Finance and Strategy), Duke Fuqua School of Business",
+     "duke_grad_year": null,
+     "grad_year_basis": "Not stated. Career timeline suggests a full-time MBA finished around 2011 and certainly before his 2017 Founding Principal role: Barclays Capital Summer Associate in 2010 (a typical MBA internship), then Deloitte Senior Consultant 2011-2015. So the year is inferred to be 2018 or earlier but not confirmed.",
+     "duke_sources": [
+      "https://signal.nfx.com/investors/amit-mehra (search snippet)",
+      "https://www.linkedin.com/in/aamehra/ (search snippet)",
+      "https://www.speakin.co/profile/amit-mehra.html (search snippet)"
+     ],
+     "role_sources": [
+      "https://signal.nfx.com/investors/amit-mehra (search snippet)",
+      "https://www.w3summit.io/amit.php (search snippet)",
+      "https://www.borderlesscapital.io/team (search snippet)",
+      "https://mobile.x.com/aspirew0rld/status/1817494660207485414 (search snippet)"
+     ],
+     "stage_focus": "Seed through Series B per Signal. Borderless invests early-stage in Web3, decentralized infrastructure/DePIN, climate tech and AI.",
+     "sectors": "Web3/crypto infrastructure, DePIN, fintech, climate tech, AI-crypto",
+     "relevant_investments": "Borderless Capital, at firm level, invested in NeuraMint, a Web3-native AI-agent and tokenization platform ($5M seed, Jan 2026). Aggregators count about 6 AI and 9 DePIN deals. He is also a personal angel in Web3 startups and an LP in Shima Capital, Blockchain Founders Fund and Woodstock. No deal attributed to him personally was verified.",
+     "investment_sources": [
+      "https://defillama.com/raises/borderless-capital (search snippet)",
+      "https://tracxn.com/d/venture-capital/borderless-capital/__p-ymhZpXnzD0mDQ9mb_bFET1K0P8gb8eXFQMc28cJzw (search snippet)",
+      "https://www.speakin.co/profile/amit-mehra.html (search snippet)"
+     ],
+     "bio": "Amit Mehra is a Partner (listed as General Partner) at Borderless Capital, which he joined in 2020. He manages investments in Web3 and decentralized-infrastructure startups. He was previously Founding Principal at Unicorn India Ventures and an advisor to Woodstock Fund, and earlier worked at Deloitte and as a Barclays Capital summer associate. He is a CFA charterholder with a Duke Fuqua MBA. One snippet gave a conflicting history (joined 2024 from DCG); it was not verified.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Borderless Capital team page https://www.borderlesscapital.io/team (search snippet). No official pitch inbox seen.",
+     "linkedin_url": "https://www.linkedin.com/in/aamehra/",
+     "x_url": "https://x.com/amitm_eth",
+     "personal_site": "",
+     "location": "Miami, FL (single search snippet, unverified)",
+     "fit": "Medium",
+     "fit_reason": "An investing partner at a seed-to-Series B fund with fintech and AI-crypto deals, and a former FX/finance background suits a trading environment. The fund's core is Web3/DePIN/climate, not AI post-training. The Duke MBA year is inferred, not stated, and there is no 2026-dated confirmation of his role.",
+     "hook": "Borderless Capital joined NeuraMint's $5M seed for Web3-native AI agents in January 2026; SimReal's Xitadel environment trains LLM agents to trade and improved an open model 12% out of sample.",
+     "hook_sources": [
+      "https://defillama.com/raises/borderless-capital (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "Medium"
+    },
+    {
+     "name": "Adelina Dasso",
+     "include": false,
+     "firm": "Accion Impact Management (Accion Digital Transformation Fund)",
+     "title_2026": "Partner, Latin America",
+     "decision_maker": "yes",
+     "still_active_2026": "unclear",
+     "duke_degree": "MBA, Duke Fuqua School of Business",
+     "duke_grad_year": 2016,
+     "grad_year_basis": "stated: Duke I&E lists 'Adelina Dasso MBA '16'. She joined Accion in 2016.",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+      "https://www.lavca.org/people/adelina-dasso/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.lavca.org/people/adelina-dasso/ (search snippet)",
+      "https://www.linkedin.com/in/adelina-dasso-arana-cfa-32319024/ (search snippet)"
+     ],
+     "stage_focus": "Growth equity: minority stakes in established lenders and financial institutions serving underbanked customers and MSMEs (Accion Digital Transformation Fund, $152.5M).",
+     "sectors": "Inclusive financial services / microfinance digital transformation, Latin America and India",
+     "relevant_investments": "Los Andes, Peruvian rural microfinance ($10M commitment). Banco Contactar, Colombia ($15M). Both are growth-stage financial institutions, not seed fintech startups.",
+     "investment_sources": [
+      "https://www.accion.org/news/accion-digital-transformation-fund-commits-to-invest-peruvian-rural-microfinance-company-los-andes/ (search snippet)",
+      "https://contxto.com/en/venture-capital-es/banco-contactar-receives-15-million-investment-to-strengthen-rural-microfinance-in-colombia/ (search snippet)",
+      "https://www.venturecapitaljournal.com/accion-unveils-152-5m-digital-transformation-fund/ (search snippet)"
+     ],
+     "bio": "Adelina Dasso is Partner for Latin America at Accion Impact Management, where she leads Latin American investments for the Accion Digital Transformation Fund. She joined Accion in 2016. Earlier she was an equity portfolio manager at the Peruvian pension fund Prima AFP. She is a CFA charterholder with a Duke MBA.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "https://www.linkedin.com/in/adelina-dasso-arana-cfa-32319024/",
+     "x_url": "",
+     "personal_site": "",
+     "location": "Latin America (Peru-linked; exact city not verified)",
+     "fit": "Low",
+     "fit_reason": "Her vehicle makes growth-equity minority investments in banks and microfinance lenders in emerging markets. That fits neither the stage nor the sector of a seed AI/RL-environment company.",
+     "hook": "",
+     "hook_sources": [],
+     "exclude_reason": "Fails criterion 3: she invests growth equity in established financial institutions through the Accion Digital Transformation Fund, not at angel, pre-seed, seed or Series A. No evidence she invests through Accion Venture Lab or as an angel.",
+     "confidence": "High"
+    }
+   ],
+   "searches_used": 13,
+   "budget_exhausted": false
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Gregg Bordes",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "linkedin_url",
+       "value": "https://www.linkedin.com/in/greggbordes/",
+       "evidence": "The profile URL 'Gregg Bordes - Front Porch Venture Partners' at https://www.linkedin.com/in/greggbordes/ appeared in the results for a search on Bordes and Front Porch Venture Partners (search snippet)."
+      }
+     ],
+     "notes": "Duke degree confirmed. Fuqua pages say 'Gregg Bordes MBA '12' and that the three co-founders met in Fuqua's Daytime MBA program. Fuqua also reports the $20M Fund II close (https://www.fuqua.duke.edu/entrepreneurship-at-fuqua and https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/, search snippets). Hook confirmed: Front Porch released its first Southeast Startup Founder Pulse Survey (72 founders, nine states) on September 22, 2026 (https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/, search snippet). That shows the firm is active in 2026. No departure by Bordes was found. However, I did not see the 2026 article name him personally. The 2026 snippet calls the firm 'Durham-based', while the record says Raleigh/Cary. The location may need updating to Durham/Triangle. All other claims stand.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Jason Fernandez",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Duke degree: the Fuqua Alumni Council page (https://www.fuqua.duke.edu/alumni/volunteer/alumni-board/alumni-council-members/F) appeared again in my search results, which is consistent with Daytime MBA 2008. Bio facts confirmed: the official PRWeb release says Quake named him Managing Partner of Quake ATX in March 2019, and that he joined from BASE Equity Partners, where he was an operations and finance partner, after 20 years in financial services (https://www.prweb.com/releases/quake-capital-names-james-r-fernandez-managing-partner-of-quake-atx-848308684.html, search snippet). The URL slug says 'James R. Fernandez', but the snippet text names Jason Fernandez. The finsmes role source has the same slug. Creci team page and aggregator snippets list him as General Partner of Creci Ventures (since 2022) and Managing Partner & COO of Quake Capital Partners (https://www.creciventures.com/team/, search snippet). Only an aggregator page titled '(2026)' (investormatch.pro) suggests he is still active in 2026, so still_active_2026='unclear' and confidence Medium remain appropriate.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Amit Mehra",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "confidence",
+       "value": "Low",
+       "evidence": "The Duke Fuqua MBA (Finance and Strategy) is confirmed by search snippets (https://www.linkedin.com/in/aamehra/, https://signal.nfx.com/investors/amit-mehra). A targeted search found no stated class year; the only timeline evidence is a 2010 Barclays Capital Summer Associate role followed by Deloitte from 2011 to 2015 (search snippet). A search on Borderless Capital, Amit Mehra and 2026 returned no 2026-dated source for his role. It did return an unverified, conflicting history ('joined early 2024 from DCG, Morgan Stanley, Goldman', 'led $100M climate fund March 2025') that contradicts the LinkedIn timeline (Unicorn India 2017, Borderless 2020). Tracxn shows only that the firm itself was active as of Sep 2026."
+      }
+     ],
+     "notes": "Inclusion stands but rests on inference. Grad year: a 2010 MBA summer internship followed by full-time Deloitte work from 2011 implies a full-time Fuqua MBA finished around 2011, well before 2018. This is not stated, so grad_year_basis should stay 'inferred'. The 2026 role is unconfirmed (still_active_2026='unclear'). The conflicting DCG/2024 history should stay out of the email. Its source looks unreliable, but it may also mean the person's bio is being mixed up with someone else's. The X profile https://x.com/amitm_eth was seen in search results. I did not re-check the NeuraMint hook (firm-level, from a defillama snippet).",
+     "reject_reason": ""
+    },
+    {
+     "name": "Adelina Dasso",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "I did not spend searches on this record because it is already excluded. The exclusion rests on criterion 3: the Accion Digital Transformation Fund makes growth-equity minority investments in established financial institutions (Los Andes, Banco Contactar), and the record has no evidence of seed or angel investing. That is consistent with the cited sources. The record stays excluded.",
+     "reject_reason": ""
+    }
+   ],
+   "searches_used": 7,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Joe Mancini",
+   "Nikin Shah",
+   "Lia Cromwell",
+   "Robert Ravanshenas"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Joe Mancini",
+     "include": true,
+     "firm": "Front Porch Venture Partners",
+     "title_2026": "Co-Founder & General Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "MBA, Duke Fuqua School of Business (Daytime MBA); Spaulding Award for Leadership",
+     "duke_grad_year": 2012,
+     "grad_year_basis": "Inferred. Fuqua says Gregg Bordes (MBA '12) met co-founders Joe Mancini and Nikin Shah 'in his class at Fuqua', and the firm name came from a Daytime MBA group project. A bio snippet states Mancini's Fuqua MBA but gives no year.",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/entrepreneurship-at-fuqua (search snippet)",
+      "https://www.hypepotamus.com/front-porch-venture-partners/ (search snippet)",
+      "https://www.ventureatlanta.org/startup-showcase-live/ (search snippet)",
+      "https://buildinse.substack.com/p/builders-blueprint-joe-mancini (search snippet)"
+     ],
+     "role_sources": [
+      "https://hypepotamus.com/investor-spotlights/front-porch-venture-partners-fund-ii/ (search snippet)",
+      "https://www.axios.com/local/raleigh/2024/05/01/triangle-vc-firm-front-porch-venture-raises-20-million (search snippet)",
+      "https://www.ventureatlanta.org/startup-showcase-live/ (search snippet)",
+      "https://buildinse.substack.com/p/builders-blueprint-joe-mancini (search snippet)",
+      "https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet)"
+     ],
+     "stage_focus": "Hybrid fund. About 60% goes into Southeast venture funds and about 40% directly into early-stage Southeast startups. Fund II closed at $20M (2024) and Fund 3 opened in January 2026.",
+     "sectors": "Technology and healthcare in the Southeast US",
+     "relevant_investments": "none found (no specific AI, data or fintech direct deals surfaced; the firm has backed 30+ funds and 40 companies in the region since 2020)",
+     "investment_sources": [
+      "https://buildinse.substack.com/p/builders-blueprint-joe-mancini (search snippet)",
+      "https://hypepotamus.com/investor-spotlights/front-porch-venture-partners-fund-ii/ (search snippet)"
+     ],
+     "bio": "Co-founder and General Partner of Front Porch Venture Partners, a North Carolina hybrid fund that backs Southeast venture funds and invests directly in early-stage startups. He previously worked at PRTM (now PwC), on Google's Access and Energy team, and at Digital Turbine, where he helped scale revenue from $70M to $700M. He holds a BA from UVA and an MBA from Duke Fuqua.",
+     "location": "Research Triangle, North Carolina (firm base; personal location not separately verified)",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "No official pitch inbox or contact form verified. Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "Generalist early-stage tech investor with a strong Duke/Fuqua tie and a Google/software background, but the fund is Southeast-focused, about 60% fund-of-funds, and has no verified AI-infra or fintech direct deals. Contact him rather than Shah, since he is the tech-side partner.",
+     "hook": "Front Porch has backed 30+ funds and 40 Southeast companies since 2020, and SimReal, whose COO Amaris is at Duke, is raising a seed round for its LLM training environments.",
+     "hook_sources": [
+      "https://buildinse.substack.com/p/builders-blueprint-joe-mancini (search snippet)",
+      "https://www.ventureatlanta.org/startup-showcase-live/ (search snippet)"
+     ],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    },
+    {
+     "name": "Nikin Shah",
+     "include": true,
+     "firm": "Front Porch Venture Partners",
+     "title_2026": "Co-Founder & General Partner (Founding and General Partner)",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "MBA, Duke Fuqua School of Business (Health Sector Management)",
+     "duke_grad_year": 2012,
+     "grad_year_basis": "A search snippet states his Fuqua MBA in Health Sector Management ran 2010-2012. Fuqua says Bordes (MBA '12) met Shah 'in his class at Fuqua'.",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/entrepreneurship-at-fuqua (search snippet)",
+      "https://www.hypepotamus.com/front-porch-venture-partners/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://hypepotamus.com/investor-spotlights/front-porch-venture-partners-fund-ii/ (search snippet)",
+      "https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet)",
+      "https://hypepotamus.com/feature/front-porch-venture-partners/ (search snippet)"
+     ],
+     "stage_focus": "Hybrid fund. About 60% goes into Southeast venture funds and about 40% directly into early-stage Southeast startups. Fund 3 opened in January 2026.",
+     "sectors": "Healthcare. He leads all of Front Porch's healthcare-focused investments.",
+     "relevant_investments": "none found",
+     "investment_sources": [
+      "https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet)"
+     ],
+     "bio": "Co-founder and General Partner of Front Porch Venture Partners, a North Carolina hybrid fund-of-funds and direct early-stage investor focused on the Southeast. He leads the firm's healthcare-focused investments and brings experience in growth strategy and commercialization. He earned a Duke Fuqua MBA in Health Sector Management alongside co-founders Gregg Bordes and Joe Mancini.",
+     "location": "Research Triangle, North Carolina (firm base; personal location not separately verified)",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "No official pitch inbox verified. Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "Healthcare-focused partner at a Southeast fund-of-funds and direct investor, so his sectors do not match AI training data or trading tech. Same firm as Mancini, so contact Mancini instead.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    },
+    {
+     "name": "Lia Cromwell",
+     "include": true,
+     "firm": "UpWest",
+     "title_2026": "Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "BA, Duke University (Public Policy Studies, Economics and Spanish)",
+     "duke_grad_year": 2015,
+     "grad_year_basis": "Stated: 'B.A. in May 2015' in the profile snippet",
+     "duke_sources": [
+      "https://kando.tech/person/lia-cromwell (search snippet)",
+      "https://signal.nfx.com/investors/lia-cromwell (search snippet)",
+      "https://today.duke.edu/forbeslist (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1hkru33r (search snippet)",
+      "https://medium.com/upwest-labs/congratulations-lia-welcoming-our-new-partner-at-upwest-11bf3c62555b (search snippet)",
+      "https://upwest.vc/team/ (search snippet)",
+      "https://www.calcalistech.com/tags/UpWest (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed checks, only for Israeli founders, with companies in Israel and the US",
+     "sectors": "Cybersecurity, AI, fintech, digital health, biotech and govtech",
+     "relevant_investments": "CyCognito (cybersecurity), Balance (fintech/B2B payments) and Canopy, plus stealth companies (rounds and years not stated). UpWest led pre-seed and seed rounds in AI and fintech.",
+     "investment_sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1hkru33r (search snippet)"
+     ],
+     "bio": "Partner at UpWest in Tel Aviv. She joined in 2017 as the fund's first permanent team member in Israel and became its third partner, leading the Israel investment team and its investments. She writes pre-seed and seed checks for Israeli founders. She was previously at CreditSights (TMT research) and FiscalNote, made Forbes 30 Under 30, and holds a 2015 Duke BA.",
+     "location": "Tel Aviv, Israel",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official site team page: https://upwest.vc/team/ (search snippet). No pitch inbox verified.",
+     "linkedin_url": "https://www.linkedin.com/in/liacromwell/",
+     "x_url": "",
+     "personal_site": "https://medium.com/@lmcromwell",
+     "fit": "Low",
+     "fit_reason": "Her stage and sectors fit (pre-seed and seed, AI, fintech), but UpWest backs only Israeli founders. SimReal's founders (Cambridge, LSE, Duke) are not known to be Israeli, so this is a mandate mismatch unless a founder qualifies.",
+     "hook": "In CTech's 2026 VC Survey you pointed to the latent potential of vertical AI. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://www.calcalistech.com/tags/UpWest (search snippet)"
+     ],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    },
+    {
+     "name": "Robert Ravanshenas",
+     "include": true,
+     "firm": "Maven Ventures",
+     "title_2026": "Investment Partner",
+     "decision_maker": "unclear",
+     "still_active_2026": "yes",
+     "duke_degree": "BS Economics, Duke University",
+     "duke_grad_year": 2015,
+     "grad_year_basis": "A snippet states he received his Duke undergraduate economics degree in 2015. This matches him joining Maven as its first Associate in 2015.",
+     "duke_sources": [
+      "https://events.youngstartup.com/Speaker/robert-ravanshenas-2/ (search snippet)",
+      "https://signal.nfx.com/investors/robert-ravanshenas (search snippet)",
+      "https://fintech.meng.duke.edu/faculty (search snippet)"
+     ],
+     "role_sources": [
+      "https://signal.nfx.com/investors/robert-ravanshenas (search snippet)",
+      "https://www.linkedin.com/in/robrav/ (search snippet)",
+      "https://events.youngstartup.com/Speaker/robert-ravanshenas-2/ (search snippet)"
+     ],
+     "stage_focus": "Seed. Maven is a seed-stage firm with about $200M AUM across five funds, including a $60M Fund IV.",
+     "sectors": "His own focus is AI, fintech and longevity. The firm thesis is emerging consumer behavior.",
+     "relevant_investments": "He works closely with Daybreak Health, Trainwell, Validity, House Numbers and Ottopia (rounds and years not stated). No AI-infra or trading deals verified.",
+     "investment_sources": [
+      "https://signal.nfx.com/investors/robert-ravanshenas (search snippet)"
+     ],
+     "bio": "Investment Partner at Maven Ventures, a seed-stage firm behind Zoom and Cruise. He joined in 2015 as Maven's first Associate, then ran business operations at portfolio company Skip (2018-2020), and returned in 2022. He focuses on AI, fintech and longevity, and lectures in Duke's Master of Engineering in FinTech program.",
+     "location": "Los Angeles, California",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Maven's official inbox is hello@mavenventures.com (send a business description, team, traction and deck), per https://blog.mavenventures.com/getintouch/ (search snippet). There is also a pitch page at mavenventures.com.",
+     "linkedin_url": "https://www.linkedin.com/in/robrav/",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "His stated focus on AI and fintech and his Duke FinTech lecturing match SimReal's trading environment well. However, Maven's thesis is consumer, he has no verified AI-infra or trading deals, and 'Investment Partner' may not carry final investment authority.",
+     "hook": "You lecture in Duke's FinTech master's program and focus on AI and fintech at Maven. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://signal.nfx.com/investors/robert-ravanshenas (search snippet)",
+      "https://fintech.meng.duke.edu/faculty (search snippet)"
+     ],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    }
+   ],
+   "searches_used": 13,
+   "budget_exhausted": false
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Joe Mancini",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "still_active_2026",
+       "value": "yes",
+       "evidence": "GrepBeat, 22 Sep 2026: Front Porch released its Southeast Startup Founder Pulse Survey, quoting 'Joe Mancini, Co-Founder and General Partner at Front Porch'. https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet). Fund 3 opened January 2026 and is in market: https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet)"
+      },
+      {
+       "field": "hook",
+       "value": "Front Porch's new Southeast Startup Founder Pulse Survey (Sept 2026) asked founders about AI and the capital environment. SimReal, whose COO Amaris is at Duke, builds RL training environments for LLMs and is raising a seed round. Its Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "GrepBeat 2026-09-22 says the founder survey covers macro outlook, AI, talent and the capital environment, and quotes Mancini: https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet). This is a more timely and specific hook than the generic portfolio-count line."
+      },
+      {
+       "field": "bio",
+       "value": "Co-founder and General Partner of Front Porch Venture Partners, a Durham/Research Triangle hybrid fund that backs Southeast venture funds and invests directly in early-stage startups. Fund 3 opened in January 2026, and in September 2026 the firm launched a Southeast Startup Founder Pulse Survey. He previously worked at PRTM (now PwC), on Google's Access and Energy team, and at Digital Turbine (one snippet lists him as SVP Global Operations there). He holds a BA from UVA and an MBA from Duke Fuqua.",
+       "evidence": "Co-founder/GP and Fuqua MBA shared with Bordes and Shah: https://hypepotamus.com/feature/front-porch-venture-partners/ (search snippet). Fund 3: https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet). Survey: https://grepbeat.com/2026/09/22/front-porch-venture-partners-releases-first-ever-southeast-startup-founder-pulse-survey/ (search snippet). The PRTM, Google and UVA details rest on the original buildinse.substack.com snippet and were not re-verified. I dropped the '$70M to $700M' revenue figure as unverified in this pass."
+      }
+     ],
+     "notes": "The Duke Fuqua MBA is confirmed by several snippets showing all three co-founders as Fuqua classmates (Hypepotamus, PEI). 2012 is still inferred from Bordes being MBA '12 and their shared class; it is well within the 2018 cutoff in any case. He was active as Co-Founder and GP in Sept 2026. The fund is hybrid, so roughly 40% goes direct to early-stage startups and seed fits. One aggregator snippet lists him as currently 'SVP Global Operations at Digital Turbine', so he may be a part-time GP, but that does not disqualify him. Fit stays Medium: the fund is Southeast-focused and mostly fund-of-funds. SimReal is not shown to be Southeast-based beyond the COO's Duke tie, so mention any NC/Durham presence in the email."
+    },
+    {
+     "name": "Nikin Shah",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "The Duke Fuqua MBA is confirmed. Hypepotamus and PEI snippets name him as a Fuqua graduate who co-founded Front Porch with Bordes and Mancini, and one snippet adds a BS from UNC Chapel Hill and a MedTech/medical-device background. 2010-2012 is consistent with being Bordes's MBA '12 classmate. The firm is active in 2026 (Fund 3 opened January 2026; Founder Pulse Survey in September 2026). I found no departure, but no 2026 item named Shah specifically. His healthcare/MedTech focus correctly gives Low fit. Contact Mancini instead. Sources: https://hypepotamus.com/feature/front-porch-venture-partners/ (search snippet), https://www.privateequityinternational.com/institution-profiles/front-porch-venture-partners.html (search snippet)."
+    },
+    {
+     "name": "Lia Cromwell",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "hook",
+       "value": "In CTech's VC coverage you pointed to the latent potential of vertical AI. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "The CTech UpWest tag page says Cromwell discussed the potential of Vertical AI and the IPO window for Israeli startups: https://www.calcalistech.com/tags/UpWest (search snippet). The snippet did not confirm that this was the '2026 VC Survey', so I removed the year and the survey name."
+      }
+     ],
+     "notes": "Duke BA (Public Policy Studies, Economics, Spanish), May 2015, confirmed: https://kando.tech/person/lia-cromwell and https://signal.nfx.com/investors/lia-cromwell (search snippets). She was promoted to UpWest's third Partner in September 2024 and is shown as Partner in 2026: https://www.calcalistech.com/ctechnews/article/b1hkru33r (search snippet). She joined UpWest in 2017. UpWest invests at pre-seed and seed only in Israeli entrepreneurs, so Low fit (mandate mismatch) is right unless a SimReal founder is Israeli. The email stays 'not found': a ZoomInfo result appeared and was ignored as a data broker."
+    },
+    {
+     "name": "Robert Ravanshenas",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "bio",
+       "value": "Investment Partner at Maven Ventures, a seed-stage consumer-tech firm with about $200M AUM across five funds, including a $60M Fund IV. He is Maven's 'boomerang VC': he joined in 2015 as its first Associate, moved to finance and operations at a portfolio company, then returned as Investment Partner. He focuses on AI, fintech and longevity, and invested in Validity, a startup founded by Duke Master of Engineering in FinTech students. He holds a BS in Economics from Duke (2015).",
+       "evidence": "BS Econ Duke 2015 and boomerang career: https://signal.nfx.com/investors/robert-ravanshenas and https://events.youngstartup.com/Speaker/robert-ravanshenas-2/ (search snippets). Validity: https://fintech.meng.duke.edu/news/duke-master-engineering-fintech-students-receive-venture-capital-investment (search snippet). The claim that he 'lectures in Duke's Master of Engineering in FinTech program' is unsupported: a search of the program's faculty page (https://fintech.meng.duke.edu/faculty) did not list him. His tie is as an investor in a Duke FinTech student startup."
+      },
+      {
+       "field": "hook",
+       "value": "You backed Validity, founded by students from Duke's Master of Engineering in FinTech program, and you focus on AI and fintech at Maven. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "A Duke FinTech news snippet says Ravanshenas, Investment Partner at Maven Ventures, was a Validity investor and spoke about backing a team of Duke FinTech founders: https://fintech.meng.duke.edu/news/duke-master-engineering-fintech-students-receive-venture-capital-investment (search snippet). This replaces the unsupported 'you lecture in Duke's FinTech master's program' hook."
+      },
+      {
+       "field": "fit",
+       "value": "Medium",
+       "evidence": "His stated personal focus on AI and fintech and his Validity investment (fintech, Duke FinTech founders) support Medium. Maven's thesis is consumer, though, and his title 'Investment Partner' leaves final decision authority unclear. https://signal.nfx.com/investors/robert-ravanshenas (search snippet); https://techcrunch.com/2024/04/16/consumer-tech-investing-maven-ventures-60m-fund-iv (search snippet)"
+      }
+     ],
+     "notes": "The Duke degree is confirmed (BS Economics, 2015, by snippet). His title is Investment Partner at Maven (Crunchbase/Signal/TechCrunch Fund IV coverage). I found no departure, but no dated 2026 item confirming him either. Keep decision_maker 'unclear'. Remove fintech.meng.duke.edu/faculty from duke_sources, since it does not show him. The email stays 'not found' (RocketReach and ContactOut results ignored). hello@mavenventures.com was not re-verified in this pass."
+    }
+   ],
+   "searches_used": 7,
+   "budget_exhausted": true
+  }
+ },
+ {
+  "batch": [
+   "Will Bumpus",
+   "Gonzalo Costa",
+   "Sydney Thomas",
+   "Lisa Blau"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Will Bumpus",
+     "include": true,
+     "firm": "Westbound Equity Partners (formerly Concrete Rose Capital)",
+     "title_2026": "Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "B.A. Psychology and Asian & Middle Eastern Studies, Duke University (Trinity); MBA Stanford GSB",
+     "duke_grad_year": 2009,
+     "grad_year_basis": "stated: Duke AMES alumni page titled 'Will Bumpus, B.A. 2009'; Westbound team page confirms Duke graduate",
+     "duke_sources": [
+      "https://asianmideast.duke.edu/alumni/will-bumpus-ba-2009 (search snippet)",
+      "https://westboundequity.com/team/will-bumpus/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://westboundequity.com/team/will-bumpus/ (search snippet)",
+      "https://www.bloomberg.com/profile/person/21854654 (search snippet)",
+      "https://www.forbes.com/sites/alexkonrad/2024/03/14/westbound-raises-100-million-for-underrepresented-founders/ (search snippet)",
+      "https://signal.nfx.com/investors/will-bumpus (search snippet)"
+     ],
+     "stage_focus": "Early stage (pre-seed and seed). Westbound closed a $100M Fund II in March 2024.",
+     "bio": "Will Bumpus is a Partner at Westbound Equity Partners, the Los Angeles and Menlo Park early-stage fund formerly called Concrete Rose. He was previously Chief of Staff at Headspace, ran business operations at Activision in China and started as an M&A and restructuring analyst at Perella Weinberg. He holds a Duke B.A. (2009) and a Stanford MBA.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "No official Westbound pitch inbox or form was found in search snippets. The official team page is https://westboundequity.com/team/will-bumpus/ (search snippet).",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "Los Angeles, CA",
+     "sectors": "Early-stage tech backing underrepresented founders and companies that serve underrepresented consumers. One profile says he focuses on finance and sustainability.",
+     "relevant_investments": "Firm level (Tracxn): 2025 seed investments in Manas AI and Laborup. A Ooln pre-seed in 2025 is linked to Bumpus personally, but only one indirect snippet supports it. No trading or quant deals found.",
+     "investment_sources": [
+      "https://tracxn.com/d/venture-capital/westbound-equity/__9tXCa9dj6sauC_mO41EbK6sOWuks8zn2k59XUzeiAKY (search snippet)",
+      "https://vcwire.tech/blog/2024/03/15/westbound-equity-partners-closes-second-fund-at-100m/ (search snippet)"
+     ],
+     "fit": "Medium",
+     "fit_reason": "Early-stage generalist fund with a diversity thesis. It has backed AI companies, but no AI infrastructure or trading deals were found. His Perella Weinberg finance background gives a small link to Xitadel.",
+     "hook": "Will began his career as an M&A and restructuring analyst at Perella Weinberg; SimReal's Xitadel environment trains LLMs on the kind of financial-market reasoning that work demands.",
+     "hook_sources": [
+      "https://westboundequity.com/team/will-bumpus/ (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "High"
+    },
+    {
+     "name": "Gonzalo Costa",
+     "include": true,
+     "firm": "NXTP Ventures (NXTP Labs)",
+     "title_2026": "Co-founder and General Partner (Founding Partner)",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "MBA, Duke Fuqua School of Business; Industrial Engineering degree from Universidad Catolica Argentina",
+     "duke_grad_year": 2001,
+     "grad_year_basis": "stated: Fuqua article says he 'graduated from Fuqua's MBA program in 2001, founded NXTP Labs'",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/nxtp-labs-cofounder-discusses-entrepreneurship-latin-america (search snippet)",
+      "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/gonzalo-costa (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.nxtp.vc/team (search snippet)",
+      "https://theorg.com/org/nxtp-ventures/org-chart/gonzalo-costa (search snippet)",
+      "https://www.as-coa.org/speakers/gonzalo-costa (search snippet)"
+     ],
+     "stage_focus": "Pre-seed to Series A. Checks of $0.5M-$5M from a $98M B2B fund (cloud, fintech, B2B).",
+     "bio": "Gonzalo Costa co-founded NXTP, a Latin American early-stage B2B fund started in 2011, and is a General Partner based in Buenos Aires. He previously worked in private investments and M&A at Santander Investment and GE Capital, and was a Managing Director at Endeavor Argentina. He earned a Duke Fuqua MBA in 2001.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "info@nxtp.vc, the general inbox listed on the official NXTP contact page https://www.nxtp.vc/contact (search snippet). NXTP has offices in Buenos Aires, Sao Paulo and Mexico City.",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "Buenos Aires, Argentina",
+     "sectors": "Latin American B2B tech: cloud/SaaS, fintech, AI-driven businesses",
+     "relevant_investments": "Led AI startup Luzid's $2.8M pre-seed with Oceans Ventures and Quiet Capital (year not confirmed). Early investor in Auth0 (developer identity infrastructure), Nuvemshop, Mural, Frete.com and Betterfly. Fintech holdings include Barte.",
+     "investment_sources": [
+      "https://nxtp.vc/portfolio-company/luzid (search snippet)",
+      "https://www.nxtp.vc/portfolio-company/barte (search snippet)",
+      "https://www.vcsheet.com/fund/nxtp-ventures (search snippet)",
+      "https://f4.fund/firms/nxtp-ventures (search snippet)"
+     ],
+     "fit": "Low",
+     "fit_reason": "Stage and sector fit well (B2B, AI, fintech, pre-seed to A), but NXTP invests only in Latin American startups and SimReal is not one. He is useful mainly as a Duke/Fuqua contact or for co-investor intros.",
+     "hook": "NXTP led AI startup Luzid's $2.8M pre-seed and was an early Auth0 backer; SimReal is likewise B2B AI infrastructure, selling RL environments and verifiers to AI data providers.",
+     "hook_sources": [
+      "https://nxtp.vc/portfolio-company/luzid (search snippet)",
+      "https://www.vcsheet.com/fund/nxtp-ventures (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "High"
+    },
+    {
+     "name": "Sydney Thomas",
+     "include": true,
+     "firm": "Symphonic Capital",
+     "title_2026": "Founder and General Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "B.A. Public Policy, Duke University (Trinity); MBA UC Berkeley Haas",
+     "duke_grad_year": 2010,
+     "grad_year_basis": "stated: Duke I&E says 'Sydney Thomas '10 is the founder and general partner of Symphonic Capital'",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+      "https://www.kauffmanfellows.org/fellows/sydney-thomas (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.symphoniccapital.com/about (search snippet)",
+      "https://www.symphoniccapital.com/team/sydney-thomas (search snippet)",
+      "https://urbangeekz.com/2025/04/sydney-thomas-symphonic-capital-13-5-million/ (search snippet)",
+      "https://businessofsandiego.substack.com/p/exclusive-sydney-thomas-san-diego (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed, typical checks $100K-$250K. $13.5M debut fund closed in 2025.",
+     "bio": "Sydney Thomas founded Symphonic Capital in 2022 and is its General Partner. The fund invests at pre-seed in companies that 'improve life for the 99%', focused on health, wealth and climate resilience. She previously led investments at Precursor Ventures and worked at The House Fund and the Financial Health Network. She is a Kauffman Fellow and a Duke '10 graduate.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "hi@symphonic.vc for pitches and inquiries, plus a diligence form that replaces the first screening call. Both are listed on the official site https://www.symphoniccapital.com/how-we-work and https://www.symphoniccapital.com/ (search snippet).",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "https://www.symphoniccapital.com/newsletter (fund newsletter)",
+     "location": "San Diego, CA (Business of San Diego); some profiles list Oakland, CA",
+     "sectors": "Healthcare access, fintech/financial health (wealth), climate resilience; AI-enabled companies for underserved communities",
+     "relevant_investments": "No AI infrastructure, data or quant deals found. A $6.0M seed in Flourish Care (March 2026) shows she is still investing. Her thesis covers fintech and financial health.",
+     "investment_sources": [
+      "https://tracxn.com/d/venture-capital/symphonic-capital/__dfxmmsEjzyuzpCxhi9k-mBdnK3jLZ0m68DlST1QejpY (search snippet)",
+      "https://superscout.co/investor/symphonic-capital (search snippet)",
+      "https://www.vconvc.com/posts/sydney-thomas-founding-partner-symphonic-capital-and-shruti-shah-partner-symphonic-capital-pre-seed-capital-and-ai/ (search snippet)"
+     ],
+     "fit": "Low",
+     "fit_reason": "Right stage (pre-seed) and fintech is in scope, but the thesis is consumer access and equity in health and wealth for underserved households. SimReal sells B2B AI training infrastructure, which is off-thesis.",
+     "hook": "Symphonic invests at pre-seed in companies improving health, wealth and climate resilience for the 99%; SimReal's Xitadel improves open models' financial reasoning, a building block for AI wealth tools.",
+     "hook_sources": [
+      "https://www.symphoniccapital.com/about (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "High"
+    },
+    {
+     "name": "Lisa Blau",
+     "include": true,
+     "firm": "Able Partners (stylized __able Partners; Able Partners NYC, LLC)",
+     "title_2026": "Founding Partner",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "B.A., Duke University; MBA Harvard Business School",
+     "duke_grad_year": 1997,
+     "grad_year_basis": "stated: Duke I&E says 'Lisa Blau '97 is a founding partner of __able Partners'",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+      "https://www.vcsheet.com/who/lisa-blau (search snippet)"
+     ],
+     "role_sources": [
+      "https://ablepartners.nyc/ (search snippet)",
+      "https://signal.nfx.com/investors/lisa-blau (search snippet)",
+      "https://www.bloomberg.com/profile/person/19265638 (search snippet)"
+     ],
+     "stage_focus": "Early stage (mainly seed), with follow-ons in later rounds. The fund was started in 2016 with the founders' own capital.",
+     "bio": "Lisa Blau co-founded Able Partners in 2016 with Amanda Eilian. It is a New York early-stage consumer fund focused on health and wellness, started with the partners' own capital. She has been an active angel investor in consumer health and wellness, especially women-led companies. She earlier co-founded the newsletter Vital Juice (acquired by Tasting Table) and holds a Duke B.A. and a Harvard MBA.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "info@ablepartners.nyc, the general inbox listed on the official site https://ablepartners.nyc/ (search snippet).",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "New York, NY",
+     "sectors": "Consumer health and wellness, women's health, sexual health, cannabis, positive-living brands",
+     "relevant_investments": "none found in AI infrastructure, data, fintech or quant. Closest is DUOS, an AI benefits platform for seniors ($130M Series B, Oct 2025, portfolio round). 2025-2026 activity: Bevimi (seed, Nov 2025) and KilgourMD (2026).",
+     "investment_sources": [
+      "https://tracxn.com/d/venture-capital/able-partners/__aGd6r7n1BNVKz2o4pZMMnG_Sls1HRDBFykNKjkla1HI (search snippet)",
+      "https://careers.ablepartners.nyc/companies/duos (search snippet)"
+     ],
+     "fit": "Low",
+     "fit_reason": "The fund is focused on consumer health and wellness brands, a clear sector mismatch with B2B AI training infrastructure. The Duke tie is the only real angle.",
+     "hook": "Able Partners' portfolio includes DUOS, an AI benefits platform for seniors; SimReal builds the RL environments and verifiers used to train the models behind AI products like it.",
+     "hook_sources": [
+      "https://careers.ablepartners.nyc/companies/duos (search snippet)",
+      "https://tracxn.com/d/venture-capital/able-partners/__aGd6r7n1BNVKz2o4pZMMnG_Sls1HRDBFykNKjkla1HI (search snippet)"
+     ],
+     "exclude_reason": "",
+     "confidence": "High"
+    }
+   ],
+   "searches_used": 13,
+   "budget_exhausted": false
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Will Bumpus",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "grad_year_basis",
+       "value": "stated: Duke AMES alumni page titled 'Will Bumpus, B.A. 2009'; investor profiles say he has a Duke undergraduate degree (2009) and a Stanford GSB MBA (2017); the Westbound team page says he is a Duke and Stanford GSB graduate",
+       "evidence": "'holding an undergraduate degree from Duke University in 2009 and an MBA from Stanford Graduate School of Business in 2017' https://signal.nfx.com/investors/will-bumpus (search snippet); https://westboundequity.com/team/will-bumpus/ (search snippet)"
+      }
+     ],
+     "notes": "These checks passed: Duke B.A. 2009, Partner at Westbound (team page, Bloomberg profile 21854654), early-stage fund, and the Perella Weinberg M&A/restructuring analyst start that the hook uses (team-page snippet). Tracxn shows Westbound still investing in January 2026: 6 new investments in the previous 12 months. Discrepancies: (1) the Signal NFX page title reads 'Sherpa Capital, LLC Managing Partner'. Another snippet says he only joined Sherpa as a summer associate in 2016 and joined Westbound in 2020, so the Signal headline looks like stale or misparsed data. I found no evidence he left Westbound. Do not use Signal as a role source. (2) Sectors: the team-page and Signal snippet says 'he targets sectors like sustainability, food tech, and education', not finance. The 'sectors' field should read: Early-stage tech backing underrepresented founders and companies serving underrepresented consumers; his personal sector interests are sustainability, food tech and education. This could not go in as a correction because the schema has no sectors field. (3) The bio's 'Los Angeles and Menlo Park' detail and the $100M Fund II in March 2024 were not re-checked by me, and I found nothing contradicting them. He also started reWerk, a nonprofit on the digital divide, and sits on the Digital NEST board (digitalnest.org snippet). Both are possible softer personalization angles. Fit stays Medium."
+    },
+    {
+     "name": "Gonzalo Costa",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "These checks passed: Duke Fuqua MBA (2001), where he co-founded the Latin American Student Association (https://www.fuqua.duke.edu/student-network/alumni-ambassadors/gonzalo-costa, search snippet). Co-founder and General Partner of NXTP since 2011 (theorg and nxtp.vc/team snippets); Crunchbase lists him as 'Co-founder & Managing Partner'. NXTP invests $0.5M-$5M at pre-seed, seed and Series A (vcsheet snippet), and a search summary mentions recent investments in early 2026. I found no sign he has left. The prior work at Santander Investment and GE Capital and the Endeavor Argentina MD role are confirmed. The Luzid pre-seed hook was not re-checked. Fit Low is reasonable because NXTP invests only in Latin America. RocketReach appeared in results and was ignored, as the rules require."
+    },
+    {
+     "name": "Sydney Thomas",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "bio",
+       "value": "Sydney Thomas launched Symphonic Capital in 2023 and is its Founder and General Partner. The fund invests at pre-seed in companies that 'make life better for the 99%', focused on health, wealth and climate resilience, and closed a $13.5M Fund I. She previously helped scale one of Silicon Valley's first pre-seed funds (Precursor Ventures) from a solo operating GP with 10 investments to a 3-person team with 400+ investments and $200M+ AUM. She is a Kauffman Fellow, holds a Duke B.A. in Public Policy ('10) and a UC Berkeley Haas MBA, and is based in San Diego.",
+       "evidence": "'In 2023, she launched Symphonic Capital and raised $13.5M for Fund I' and 'graduating from Duke University with a major in Public Policy and UC Berkeley Haas with her MBA' https://www.kauffmanfellows.org/fellows/sydney-thomas and https://www.symphoniccapital.com/team/sydney-thomas (search snippet); 'Sydney Thomas '10 is founder and general partner of Symphonic Capital' https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet); 'Sydney Thomas, San Diego VC' https://businessofsandiego.substack.com/p/exclusive-sydney-thomas-san-diego (search snippet)"
+      }
+     ],
+     "notes": "These checks passed: Duke '10 (Duke I&E 2024 spotlight), B.A. Public Policy, Founder/GP of a pre-seed fund, and a San Diego base. The bio's founding year of 2022 conflicts with the profile snippet that says she launched in 2023, so the bio is corrected. The House Fund and Financial Health Network roles were dropped from the bio because I could not re-check them; restore them if a source is found. The Flourish Care seed in March 2026 (2026 activity) was not re-checked by me. Fit Low is reasonable."
+    },
+    {
+     "name": "Lisa Blau",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "These checks passed: 'Lisa Blau '97 ... founding partner of __able Partners, a venture capital firm focused on early-stage companies in the health and wellness space', with a Duke BA and an HBS MBA (https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/, search snippet). Able was founded in 2016 with Amanda Eilian. Per the Duke I&E snippet its portfolio has 70+ companies, including Bumble, Daily Harvest, Spring Health, Oura, Maven, Alma and Compass Pathways, all consumer or health and none relevant to SimReal. Two Duke ties could give a warmer hook than DUOS: a search summary says she sits on Duke's Innovation and Entrepreneurship Taskforce, and the Duke Capital Partners (Duke Angel Network) site has a page for her at https://dukeangelnetwork.duke.edu/staff-member/lisa-blau/ (URL seen in search results; her role there was not visible in the snippet). The DUOS Series B, KilgourMD 2026 and Vital Juice details were not re-checked, and I found nothing contradicting them. Fit Low stands."
+    }
+   ],
+   "searches_used": 7,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Kathryn Minshew",
+   "Salman Azhar",
+   "Bill Quintenz",
+   "Joe Wu"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Kathryn Minshew",
+     "include": true,
+     "firm": "Personal angel investing; XFactor Ventures (Operating Partner); Advisor, Trilantic North America Founders Council. Former co-founder and CEO of The Muse",
+     "title_2026": "Angel investor and Operating Partner, XFactor Ventures (former CEO of The Muse, 2011-2023)",
+     "decision_maker": "yes",
+     "still_active_2026": "yes",
+     "duke_degree": "BA, Duke University (Political Science and French per discovery record; Duke attendance confirmed in Wikipedia/LinkedIn results)",
+     "duke_grad_year": null,
+     "grad_year_basis": "Inferred, exact year not verified: she co-founded The Muse in 2011 after working at the Clinton Health Access Initiative and McKinsey, so the Duke undergraduate degree was finished before 2011, well before the 2018 cutoff",
+     "duke_sources": [
+      "https://en.wikipedia.org/wiki/Kathryn_Minshew (search snippet)",
+      "https://www.linkedin.com/in/kathryn-minshew/ (search snippet)",
+      "https://www.trilanticnorthamerica.com/team/kathryn-minshew (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.xfactor.ventures/kathryn-minshew (search snippet)",
+      "https://www.trilanticnorthamerica.com/team/kathryn-minshew (search snippet)",
+      "https://www.trilanticnorthamerica.com/team/founders-council (search snippet)",
+      "https://pitchbook.com/profiles/investor/226069-48 (search snippet)"
+     ],
+     "investment_sources": [
+      "https://pitchbook.com/profiles/investor/226069-48 (search snippet)",
+      "https://www.xfactor.ventures/kathryn-minshew (search snippet)"
+     ],
+     "stage_focus": "Angel / first check (XFactor Ventures calls itself the 'first check' in female-founded companies)",
+     "sectors": "Future of work, HR and careers. About 88% of her checks go to female-founded companies",
+     "relevant_investments": "Intello (business/productivity software, angel; PitchBook). No AI, data, fintech or quant deals found",
+     "bio": "Kathryn Minshew co-founded The Muse in 2011 and was its CEO until 2023. Under her the company grew to more than 70 million annual users, and in 2022 it acquired Fairygodboss. She is now an active advisor and angel investor, with about 88% of her checks in female-founded companies. She is also an Operating Partner at XFactor Ventures and an advisor on Trilantic North America's Founders Council.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Official website https://www.kminshew.com/ (search snippet); XFactor Ventures profile https://www.xfactor.ventures/kathryn-minshew (search snippet); paid intro booking https://intro.co/KathrynMinshew (search snippet)",
+     "linkedin_url": "https://www.linkedin.com/in/kathryn-minshew/",
+     "x_url": "",
+     "personal_site": "https://www.kminshew.com/",
+     "location": "not verified",
+     "fit": "Low",
+     "fit_reason": "An operator-angel focused on the future of work and HR, with about 88% of checks in female-founded companies. No AI infrastructure, data, fintech or quant investments found. Her stage (first check) matches, but her sector does not. The fit improves only if SimReal has a female co-founder, which was not verified.",
+     "hook": "You have spent more than a decade building the future of work at The Muse; SimReal builds RL environments and expert data that train LLMs to do skilled professional work like trading.",
+     "hook_sources": [
+      "https://www.trilanticnorthamerica.com/team/kathryn-minshew (search snippet)"
+     ],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    },
+    {
+     "name": "Salman Azhar",
+     "include": true,
+     "firm": "Azimuth Opportunity Fund (General Partner); personal angel investing; Duke Fuqua (Executive in Residence)",
+     "title_2026": "General Partner, Azimuth Opportunity Fund; Executive in Residence, Duke Fuqua; angel investor (former Managing Director of Duke Angel Network / Duke Capital Partners)",
+     "decision_maker": "yes",
+     "still_active_2026": "unclear",
+     "duke_degree": "PhD in Computer Science (1990-1994) and MS in Computer Science (1987-1990), Duke University; James B. Duke Fellow",
+     "duke_grad_year": 1994,
+     "grad_year_basis": "Stated: the Duke Scholars snippet (discovery record) gives PhD CS 1990-1994 and MS CS 1987-1990. A 2026 snippet repeats the Duke MS and PhD in CS as a James B. Duke Fellow",
+     "duke_sources": [
+      "https://scholars.duke.edu/person/azhar (search snippet)",
+      "https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet)",
+      "https://www.fuqua.duke.edu/faculty/salman-azhar (search snippet)",
+      "https://wellfound.com/p/sazhar (search snippet)",
+      "https://archive.entrepreneurship.duke.edu/news-item/salman-alzar-to-become-managing-director-of-duke-angel-network/ (search snippet)",
+      "https://www.linkedin.com/pulse/duke-angel-network-now-capital-partners-dukecapitalpartners (search snippet)"
+     ],
+     "investment_sources": [
+      "https://wellfound.com/p/sazhar (search snippet)",
+      "https://capedge.com/filing/2061885/0002061885-25-000001/D (search snippet)"
+     ],
+     "stage_focus": "The fund buys pre-IPO secondary shares (late stage). He also angel invests personally: his Wellfound profile says he has backed 250+ startups, but no dated 2025-2026 seed deals were found",
+     "sectors": "Generalist tech. His own background is in predictive computing, NLP, data analytics, financial systems and AI, which he also teaches at Fuqua",
+     "relevant_investments": "No specific AI or data seed deals verified. An SPV named Azimuth Opportunity Kueski, LLC filed a Form D in 2025 (secondary vehicle). As an operator he co-founded DecisionStreet, Swans International, SoftWeb and 30+ predictive-computing and analytics startups",
+     "bio": "Salman Azhar holds Duke MS and PhD degrees in computer science. He co-founded more than 30 startups in predictive computing, business intelligence and data analytics. He was Managing Director of the Duke Angel Network (now Duke Capital Partners) from 2018. Today he is a General Partner of Azimuth Opportunity Fund, which buys pre-IPO shares, and Executive in Residence at Fuqua, and he says he has invested in 250+ startups.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "Wellfound profile https://wellfound.com/p/sazhar (search snippet); Fuqua faculty page https://www.fuqua.duke.edu/faculty/salman-azhar (search snippet). No official Azimuth pitch inbox seen",
+     "linkedin_url": "https://www.linkedin.com/in/salmanazhar",
+     "x_url": "https://x.com/sazhar",
+     "personal_site": "",
+     "location": "Durham, NC (Wellfound snippet)",
+     "fit": "Medium",
+     "fit_reason": "His AI, NLP and financial-systems background fits SimReal's product very well, and he is a long-time angel in the Duke ecosystem. His fund, however, does late-stage pre-IPO secondaries, so a seed pitch has to target his personal angel checks, and no dated 2025-2026 seed deals were found.",
+     "hook": "You co-founded more than 30 predictive-computing and data-analytics startups and teach AI at Fuqua; SimReal builds RL environments and verifiers that measurably improved an open LLM's trading performance.",
+     "hook_sources": [
+      "https://archive.entrepreneurship.duke.edu/news-item/salman-alzar-to-become-managing-director-of-duke-angel-network/ (search snippet)",
+      "https://wellfound.com/p/sazhar (search snippet)"
+     ],
+     "confidence": "Medium",
+     "exclude_reason": ""
+    },
+    {
+     "name": "Joe Wu",
+     "include": false,
+     "firm": "MFund (Crunchbase lists it as closed) / Magic Capital (co-founded with Colin Huang and Hongyu Zhang)",
+     "title_2026": "Founding Partner, Magic Capital (2026 status unverified)",
+     "decision_maker": "unclear",
+     "still_active_2026": "unclear",
+     "duke_degree": "MBA, Duke Fuqua",
+     "duke_grad_year": 2004,
+     "grad_year_basis": "Stated: Fuqua alumni-ambassador page and Fuqua article ('MBA '04'); the Aspen Institute and DKU alumni-story snippets say 'Master's degree from Duke University in 2004'",
+     "duke_sources": [
+      "https://www.fuqua.duke.edu/student-network/alumni-ambassadors/joe-wu (search snippet)",
+      "https://www.aspeninstitute.org/people/joe-wu/ (search snippet)",
+      "https://alumni.dukekunshan.edu.cn/alumni-story/joe-wu-seek-what-matters-most-and-luck-will-find-you/ (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.crunchbase.com/person/joe-wu-aca4 (search snippet)",
+      "https://www.crunchbase.com/organization/m-fund (search snippet)",
+      "https://www.crunchbase.com/organization/magic-capital (search snippet)"
+     ],
+     "investment_sources": [
+      "https://www.crunchbase.com/organization/magic-capital (search snippet)"
+     ],
+     "stage_focus": "Early stage: new internet business models and applications (MFund, founded 2015)",
+     "sectors": "Chinese internet companies across education, media, healthcare, SaaS, AI, e-commerce, games and social",
+     "relevant_investments": "none found (Magic Capital lists 44 investments in total, with no specific AI or data deals verified)",
+     "bio": "Joe Wu earned his MBA at Duke Fuqua in 2004. He was CFO of NetDragon, which he took public in Hong Kong in 2007, and from 2010 CEO of 91 Wireless, which Baidu bought for $1.9B. He founded MFund in 2015 and is listed as a founding partner of Magic Capital, which backs Chinese internet companies.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "none found",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "not verified (fund focused on China)",
+     "fit": "Low",
+     "fit_reason": "His fund backs Chinese internet companies, which is a geographic and ecosystem mismatch for a US/UK RL-infrastructure seed round. No verified AI-infrastructure deals and no 2025-2026 activity.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Low",
+     "exclude_reason": "Criterion 2 cannot be supported: Crunchbase lists MFund as closed, and no 2025-2026 investments, fund news or current role were found for Magic Capital. His focus is also Chinese internet companies. His Duke degree (Fuqua MBA '04) does qualify."
+    },
+    {
+     "name": "Bill Quintenz",
+     "include": false,
+     "firm": "No QED Investors affiliation found. The Duke bio matches Brian Quintenz (former CFTC Commissioner; ex-a16z crypto Global Head of Policy)",
+     "title_2026": "Not verified. Brian Quintenz has been an independent director of SUI Group since January 2026 and sits on Kalshi's board",
+     "decision_maker": "no",
+     "still_active_2026": "unclear",
+     "duke_degree": "BA Public Policy Studies, magna cum laude, Duke University (this bio belongs to Brian Quintenz); MBA, Georgetown McDonough",
+     "duke_grad_year": null,
+     "grad_year_basis": "Not stated. No source gives a year",
+     "duke_sources": [
+      "https://www.law.georgetown.edu/iiel/wp-content/uploads/sites/8/2018/01/FINAL-Fintech-Week-Program-November-2017-1-Accessible.pdf (search snippet)",
+      "https://www.marketswiki.com/wiki/Brian_Quintenz (search snippet)"
+     ],
+     "role_sources": [
+      "https://www.businesswire.com/news/home/20260106529089/en/SUI-Group-Appoints-Former-CFTC-Commissioner-and-a16z-crypto-Global-Head-of-Policy-Brian-Quintenz-to-Board-of-Directors (search snippet)",
+      "https://www.coindesk.com/policy/2021/09/09/former-crypto-friendly-regulator-quintenz-joins-vc-firm-a16z (search snippet)"
+     ],
+     "investment_sources": [],
+     "stage_focus": "none verified",
+     "sectors": "Crypto and derivatives policy (Brian Quintenz)",
+     "relevant_investments": "none found",
+     "bio": "No investor named Bill Quintenz could be found. The Duke public policy (magna cum laude) and Georgetown MBA bio from the 2017 Georgetown Fintech Week program matches Brian Quintenz. He was a CFTC Commissioner from 2017 to 2021 and then a16z crypto's Global Head of Policy, and he joined SUI Group's board in January 2026.",
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "none found",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "location": "not verified",
+     "fit": "Low",
+     "fit_reason": "No early-stage investing role verified. Brian Quintenz works in policy and as a board director, not as an investing partner.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Low",
+     "exclude_reason": "Identity and role not supported: nothing links a 'Bill Quintenz' to QED Investors, and QED's 2026 partner list does not include him. The matching Duke credentials belong to Brian Quintenz, a former regulator and policy executive who now serves on boards (SUI Group, Kalshi). He is not a key decision maker at a seed or Series A fund."
+    }
+   ],
+   "searches_used": 13,
+   "budget_exhausted": false
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Kathryn Minshew",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "duke_grad_year",
+       "value": "2008",
+       "evidence": "LinkedIn snippet: 'BA in Political Science and French from Duke University, 2004-2008, graduated magna cum laude in 2008'. https://www.linkedin.com/in/kathryn-minshew/ (search snippet)"
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: her LinkedIn education entry gives Duke BA 2004-2008, magna cum laude, 2008. This is well before the 2018 cutoff.",
+       "evidence": "https://www.linkedin.com/in/kathryn-minshew/ (search snippet), returned for the query '\"Kathryn Minshew\" Duke 2007'"
+      },
+      {
+       "field": "duke_degree",
+       "value": "BA, Political Science and French, magna cum laude, Duke University (2008)",
+       "evidence": "https://www.linkedin.com/in/kathryn-minshew/ (search snippet); https://en.wikipedia.org/wiki/Kathryn_Minshew (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Kathryn Minshew (Duke BA 2008, Political Science and French, magna cum laude) co-founded The Muse in 2011 and was its CEO from 2011 to 2023. Under her the company grew to more than 70 million annual users, and in 2022 it acquired Fairygodboss. She is now an active advisor and angel investor, mostly in female-founded companies. She is an Operating Partner at XFactor Ventures, which aims to be the 'first check' in female-founded companies, and an advisor on Trilantic North America's Founders Council. She also advises a Fortune 100 company on change management in the age of AI.",
+       "evidence": "Her 2026 bio says she is an 'active advisor, angel investor (majority in female founded companies), and an Operating Partner with XFactor Ventures... now a consultant to a Fortune 100 company on change management in the time of Artificial Intelligence'. https://www.linkedin.com/in/kathryn-minshew/ and https://www.trilanticnorthamerica.com/team/kathryn-minshew (search snippets)"
+      },
+      {
+       "field": "hook",
+       "value": "You now advise a Fortune 100 company on change management in the age of AI; SimReal builds the RL environments, verifiers and expert data that teach LLMs skilled professional work like trading.",
+       "evidence": "Snippet for '\"Kathryn Minshew\" 2026': 'she is now a consultant to a Fortune 100 company on change management in the time of Artificial Intelligence'. https://www.linkedin.com/in/kathryn-minshew/ / https://www.trilanticnorthamerica.com/team/kathryn-minshew (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "The Duke degree and year are now stated (2008), and her own 2026 bio confirms the angel and XFactor Operating Partner roles. The fit stays Low on sector."
+      }
+     ],
+     "notes": "Weakest claim checked: the missing grad year. LinkedIn gives Duke 2004-2008, so she meets the 2018 cutoff. Her 2026 bio confirms she is active as an angel and an XFactor Operating Partner. decision_maker 'yes' rests on her personal angel checks. Her sector (future of work, female-founded companies) remains a mismatch, so fit stays Low. I added the AI change-management consulting fact as a better hook. One ZoomInfo/data-broker style result appeared in another query and was ignored."
+    },
+    {
+     "name": "Salman Azhar",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "still_active_2026",
+       "value": "yes",
+       "evidence": "A podcast episode published 2026-01-22 describes him as General Partner of Azimuth Opportunity Fund and Executive in Residence at Fuqua. https://podcasts.apple.com/us/podcast/focusing-on-pre-exit-secondary-markets-with-salman/id1808064463?i=1000746194616 (search snippet); https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet). His LinkedIn headline reads 'VC on a mission to make pre-IPOs ...' https://www.linkedin.com/in/salmanazhar (search snippet)"
+      },
+      {
+       "field": "stage_focus",
+       "value": "The fund buys pre-IPO unicorn shares from early investors, usually at a 40-50% discount (late stage). Investor-profile snippets also describe him as an angel who focuses on seed rounds and has invested in 200+ startups over 25 years, but no dated 2025-2026 seed deals were found",
+       "evidence": "Snippet: 'serial entrepreneur and angel investor who focuses on seed rounds. He specializes in buying shares of pre-IPO unicorns from early investors'. https://wellfound.com/p/sazhar, https://pitchbook.com/profiles/investor/114328-36 (search snippets). On the late-stage strategy: https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Salman Azhar holds Duke MS and PhD degrees in computer science (James B. Duke Fellow) and a BS from Wake Forest. He co-founded more than 30 startups in predictive computing, business intelligence and data analytics. In May 2018 he became Managing Director of the Duke Angel Network (later Duke Capital Partners). Today he is a General Partner of Azimuth Opportunity Fund, which buys pre-IPO shares of unicorns from early investors, and Executive in Residence at Fuqua. He has invested in more than 200 startups over 25 years.",
+       "evidence": "200+ startups over 25 years: https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet). Wellfound's figure of 250+ conflicts with this, so the lower sourced figure is used. May 2018 Duke Angel Network appointment, effective May 15: https://archive.entrepreneurship.duke.edu/news-item/salman-alzar-to-become-managing-director-of-duke-angel-network/ (search snippet) and the Duke I&E tweet https://twitter.com/EshipAtDuke/status/994962903336996864 (search snippet; the status ID dates to May 2018). Wake Forest BS: https://www.fuqua.duke.edu/faculty/salman-azhar (search snippet)"
+      },
+      {
+       "field": "fit",
+       "value": "Low",
+       "evidence": "Under the rubric, a weak stage fit counts as Low. His current vehicle (Azimuth) does late-stage pre-IPO secondaries ('specializes in buying shares of pre-IPO unicorns from early investors'), and his seed angel activity is only claimed in aggregate on investor-profile pages, with no dated 2025-2026 seed checks. His AI/NLP and financial-systems background and Duke ties are real positives for a personal angel ask. https://emergingmanagerspodcast.com/focusing-on-pre-exit-secondary-markets-with-salman-azhar-of-azimuth-opportunity-fund/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "The Duke PhD (1994) and his 2026 GP role are confirmed. Criterion 3 (early stage) rests only on profile-level 'angel, focuses on seed rounds' claims and not on recent deals."
+      }
+     ],
+     "notes": "The Duke MS/PhD in CS (PhD 1994) is solid, and the 2026 role is confirmed by a January 2026 podcast. The weak point is criterion 3: his fund is pre-IPO secondaries, and his seed angel activity is evidenced only by aggregate profile claims (Wellfound/PitchBook). I kept him included, but the pitch must target his personal angel check, and fit was lowered to Low on stage. Search results also showed RocketReach, ContactOut and whitebridge contact pages; per the rules these were ignored and not cited. A Duke CS course document (courses.cs.duke.edu/.../azhar.pdf) describing Azimuth also appeared but was not used. Email remains not found."
+    },
+    {
+     "name": "Joe Wu",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "The exclusion stands. A search for 2025-2026 activity returned only Crunchbase (Founding Partner, Magic Capital/MFund, a fund for Chinese internet companies) and an undated Tracxn MFund profile. There was no dated 2025-2026 deal, fund or role news, so criterion 2 stays unsupported and the China focus makes the fit Low. The Duke degree (Fuqua MBA '04) qualifies; the DKU alumni-story URL is only a source repeating the Fuqua degree and does not mean the degree was DKU-only. https://www.crunchbase.com/person/joe-wu-aca4 (search snippet); https://tracxn.com/d/venture-capital/mfund/__v5XqLietdPVGN_Kt7G8cRBKF5HdXmtHcUT6TkdVt3kA (search snippet)"
+    },
+    {
+     "name": "Bill Quintenz",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "The exclusion stands. A search for 'Quintenz QED Investors Duke' found no Bill Quintenz linked to QED. The Duke Public Policy (magna cum laude) bio belongs to Brian Quintenz, a former CFTC Commissioner, per https://www.law.georgetown.edu/iiel/wp-content/uploads/sites/8/2018/01/FINAL-Fintech-Week-Program-November-2017-1-Accessible.pdf (search snippet). He is not a seed or Series A decision maker. One data-broker result for an unrelated Connor Quintenz appeared and was ignored."
+    }
+   ],
+   "budget_exhausted": false,
+   "searches_used": 6
+  }
+ }
+]
