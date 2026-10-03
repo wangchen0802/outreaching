@@ -67,8 +67,13 @@ var TO_RE = /^[^\s@,;<>]+@[^\s@,;<>]+\.[^\s@,;<>]{2,}$/;
 var PLACEHOLDER_RE = /\[[^\[\]\r\n]{0,80}\]/;
 var AUTO_SUBJECT_RE = /out of office|automatic reply|auto(matic)?[- ]?reply|autoreply|自动回复|休假|不在办公室/i;
 var BOUNCE_FROM_RE = /^(mailer-daemon|postmaster)@/i;
+// A delivery notice about a delay (Gmail keeps trying) is not a bounce; one that reports a failure is.
+var DELAY_RE = /\(delay\)|delayed|delivery incomplete|not delivered yet|will retry|will keep trying|temporary problem|延迟|暂未送达|尚未送达|暂时/i;
+var FAILURE_RE = /fail|undeliverable|returned|无法送达|退信/i;
 var HARD_FAIL_RE = /Invalid To header|Invalid recipient|invalid address/i;
-var CHECK_HEADERS = ["From", "Subject", "Auto-Submitted", "X-Autoreply", "X-Autorespond", "Precedence"];
+// Send errors that blame the account, not the row (a permission left unticked, a quota, a rate limit).
+var ACCOUNT_FAIL_RE = /insufficient|permission|not sufficient|authori[sz]|rate ?limit|quota|exceeded|too many|denied|disabled|not enabled|not configured|has not been used/i;
+var CHECK_HEADERS = ["From", "Subject", "Auto-Submitted", "X-Autoreply", "X-Autorespond", "Precedence", "X-Failed-Recipients"];
 var BOUNCE_QUERY = "from:(mailer-daemon OR postmaster) newer_than:3d";
 
 var MSG = {
@@ -340,12 +345,13 @@ function problemOf_(m) {
   return "";
 }
 
-// Suppression list, then: the same person never gets two sequences.
+// Suppression list, then: the same person never gets two sequences. A row that already sent an email
+// counts whatever its status (a cancelled or failed sequence still reached them).
 function addressProblem_(ctx, slug, to, statuses) {
   if (Object.prototype.hasOwnProperty.call(ctx.suppressed, to)) return "suppressed";
   for (var i = 0; i < ctx.rows.length; i++) {
     var r = ctx.rows[i];
-    if (r.slug !== slug && r.to === to && statuses.indexOf(r.status) !== -1) return "address_in_use:" + r.slug;
+    if (r.slug !== slug && r.to === to && (statuses.indexOf(r.status) !== -1 || r.sent > 0)) return "address_in_use:" + r.slug;
   }
   return "";
 }
@@ -435,19 +441,23 @@ function checkReplies_(ctx) {
   });
 }
 
-// Reads one row's thread and applies what it finds. Returns false when the thread could not be read.
+// Reads one row's threads and applies what it finds, then looks for mail from the recipient that Gmail
+// filed elsewhere. Returns false when Gmail could not be read.
 function checkRow_(ctx, row) {
-  var previous = row.checkedAt, thread;
+  var previous = row.checkedAt, msgs = [];
   row.checkedAt = ctx.now;
   row._dirty = true;
   try {
-    thread = Gmail.Users.Threads.get("me", row.threadId, { format: "metadata", metadataHeaders: CHECK_HEADERS });
+    threadIds_(row).forEach(function (id) {
+      var thread = Gmail.Users.Threads.get("me", id, { format: "metadata", metadataHeaders: CHECK_HEADERS });
+      msgs = msgs.concat(thread.messages || []);
+    });
   } catch (err) {
     console.warn("读不到 " + row.slug + " 的邮件线程：" + errText_(err));
     return false;
   }
   ctx.stats.checked++;
-  var msgs = (thread.messages || []).slice().sort(function (a, b) {
+  msgs.sort(function (a, b) {
     return Number(a.internalDate) - Number(b.internalDate);
   });
   for (var i = 0; i < msgs.length; i++) {
@@ -457,6 +467,7 @@ function checkRow_(ctx, row) {
     if (!from || isOwn_(ctx, from)) continue;
     var subject = header_(msg, "Subject");
     if (BOUNCE_FROM_RE.test(from)) {
+      if (isDelayNotice_(msg)) continue; // Gmail is still trying to deliver it
       bounce_(ctx, row, at, subject);
       return true;
     }
@@ -472,7 +483,43 @@ function checkRow_(ctx, row) {
     log_(ctx, "replied", row, { subject: subject, messageId: msg.id, note: "来自 " + from });
     return true;
   }
+  return replyElsewhere_(ctx, row);
+}
+
+// Mail from the recipient outside our threads also stops the sequence: Gmail splits off a reply whose
+// subject starts "AW:" or "SV:", and people write fresh emails. An auto-reply there does not count.
+function replyElsewhere_(ctx, row) {
+  if (isOwn_(ctx, row.to)) return true;
+  try {
+    var hits = Gmail.Users.Messages.list("me", {
+      q: "from:" + row.to + " after:" + Math.floor((row.firstAt || 0) / 1000), maxResults: 5
+    }).messages || [];
+    for (var i = 0; i < hits.length; i++) {
+      var msg = Gmail.Users.Messages.get("me", hits[i].id, { format: "metadata", metadataHeaders: CHECK_HEADERS });
+      var at = Number(msg.internalDate);
+      if (!(at > (row.firstAt || 0)) || isAutoReply_(msg)) continue;
+      stop_(row, "replied", at);
+      ctx.stats.replied++;
+      log_(ctx, "replied", row, { subject: header_(msg, "Subject"), messageId: msg.id, note: "来自 " + row.to + "（另一个会话）" });
+      return true;
+    }
+  } catch (err) {
+    console.warn("搜索 " + row.to + " 的来信失败：" + errText_(err));
+    return false;
+  }
   return true;
+}
+
+// A row's threads: the first email's, then any a follow-up landed in instead (space-separated).
+function threadIds_(row) {
+  return text_(row.threadId).split(/\s+/).filter(Boolean);
+}
+
+// No X-Failed-Recipients, no failure in the subject, and it speaks of a delay or a retry.
+function isDelayNotice_(msg) {
+  var subject = header_(msg, "Subject");
+  if (header_(msg, "X-Failed-Recipients") || FAILURE_RE.test(subject)) return false;
+  return DELAY_RE.test(subject) || DELAY_RE.test(text_(msg.snippet));
 }
 
 function isAutoReply_(msg) {
@@ -511,6 +558,7 @@ function checkBounceMail_(ctx) {
       console.warn("读不到退信 " + hit.id + "：" + errText_(err));
       return;
     }
+    if (isDelayNotice_(msg)) return;
     var at = Number(msg.internalDate), snippet = text_(msg.snippet).toLowerCase();
     var failed = header_(msg, "X-Failed-Recipients").toLowerCase().split(/[\s,;]+/);
     live.forEach(function (row) {
@@ -549,6 +597,7 @@ function sendDue_(ctx) {
     } else if (!checkRow_(ctx, row) || row.status !== "active") {
       continue; // 4b: a reply that came in since the last round-robin check stops the follow-up
     }
+    if (liveStatus_(ctx, row) !== row.status) continue; // cancelled or deleted by hand during this run
     var bad = revalidate_(ctx, row);
     if (bad) {
       stop_(row, "error", ctx.now);
@@ -556,10 +605,84 @@ function sendDue_(ctx) {
       log_(ctx, "error", row, { step: row.sent, note: row.error });
       continue;
     }
+    if (sentAlready_(ctx, row)) {
+      held = held_(ctx);
+      continue;
+    }
+    if (row.sent > 0 && !previousMessageId_(ctx, row)) {
+      // Without In-Reply-To Gmail opens a new thread, where a reply would go unseen.
+      row.error = "读不到上一封的 Message-ID，这封跟进下一轮再发";
+      row._dirty = true;
+      console.warn(row.slug + "：" + row.error);
+      continue;
+    }
     sendStep_(ctx, row);
     done++;
-    held = held_(ctx);
+    held = ctx.stats.held || held_(ctx);
   }
+}
+
+// 状态 as the sheet has it now ("" when the row is gone): Charles may have cancelled or deleted the row
+// by hand while this run was reading Gmail.
+function liveStatus_(ctx, row) {
+  var last = ctx.queue.getLastRow();
+  var cells = last < 2 ? [] : ctx.queue.getRange(2, 1, last - 1, 2).getValues();
+  for (var i = 0; i < cells.length; i++) {
+    if (text_(cells[i][0]).trim() === row.slug) return text_(cells[i][1]).trim().toLowerCase();
+  }
+  return "";
+}
+
+// Whether this step already went out, recording it if so: 记录 has it (a run that stopped before it
+// wrote the row), or, after a failed attempt, Sent has it (Gmail took it although the call threw).
+// Also true when Sent cannot be searched: the row waits a tick rather than risk a second copy.
+function sentAlready_(ctx, row) {
+  var logged = (sentLogs_(ctx)[row.slug] || []).filter(function (e) {
+    return e.step !== "" && Number(e.step) === row.sent;
+  })[0];
+  if (logged) {
+    markSent_(ctx, row, { id: logged.messageId, threadId: logged.threadId, at: logged.at });
+    return true;
+  }
+  if (!(row.attempts > 0)) return false;
+  var subject = subjectOf_(msgOf_(row), row.sent), found;
+  try {
+    found = findSent_(ctx, row, subject);
+  } catch (err) {
+    console.warn("查不到 " + row.slug + " 上次报错的那封是否已发出，这一轮先不发：" + errText_(err));
+    return true;
+  }
+  if (found) recordSent_(ctx, row, found, subject, "上次发送报错，但这封已在「已发送」里");
+  return !!found;
+}
+
+// A message in Sent to this recipient with this step's subject that 记录 does not know yet. Throws
+// when Gmail cannot be searched.
+function findSent_(ctx, row, subject) {
+  var since = row.sent ? row.lastAt : row.queuedAt, known = {};
+  (sentLogs_(ctx)[row.slug] || []).forEach(function (e) { known[e.messageId] = true; });
+  var q = "in:sent to:" + row.to + (since ? " after:" + Math.floor(since / 1000) : "");
+  var hits = Gmail.Users.Messages.list("me", { q: q, maxResults: 10 }).messages || [];
+  for (var i = 0; i < hits.length; i++) {
+    if (known[hits[i].id]) continue;
+    var msg = Gmail.Users.Messages.get("me", hits[i].id, { format: "metadata", metadataHeaders: ["To", "Subject"] });
+    if (mentions_(header_(msg, "To").toLowerCase(), row.to) && sameSubject_(header_(msg, "Subject"), subject)) {
+      return { id: msg.id, threadId: msg.threadId, at: Number(msg.internalDate) };
+    }
+  }
+  return null;
+}
+
+// Gmail may hand a header back decoded or still RFC 2047-encoded.
+function sameSubject_(got, want) {
+  function norm(s) {
+    return text_(s).replace(/\s+/g, " ").trim();
+  }
+  return norm(got) === norm(want) || norm(got) === norm(headerText_(want));
+}
+
+function subjectOf_(m, step) {
+  return step ? "Re: " + m.subject : m.subject;
 }
 
 function held_(ctx) {
@@ -638,44 +761,95 @@ function lastSend_(ctx) {
 
 // Step 5: one email of one sequence. Returns true when Gmail accepted it.
 function sendStep_(ctx, row) {
-  var m = msgOf_(row), step = row.sent, first = step === 0;
-  var subject = first ? m.subject : "Re: " + m.subject;
+  var m = msgOf_(row), step = row.sent, first = step === 0, threads = threadIds_(row);
+  var subject = subjectOf_(m, step);
   var resource = {
     raw: raw_({
       fromName: m.fromName || ctx.conf.fromName, from: me_(), to: m.to, subject: subject,
       body: first ? m.body : m.followups[step - 1].text, inReplyTo: first ? "" : previousMessageId_(ctx, row)
     })
   };
-  if (!first && row.threadId) resource.threadId = row.threadId;
+  if (!first && threads.length) resource.threadId = threads[threads.length - 1];
   var res;
   try {
     res = Gmail.Users.Messages.send(resource, "me");
   } catch (err) {
-    sendFailed_(ctx, row, step, err);
-    return false;
+    return sendFailed_(ctx, row, step, subject, err);
   }
-  // From here on the email is out: nothing below may make the row send it again.
-  var messageId = messageIdOf_(res.id);
-  row.sent = step + 1;
-  row.total = 1 + m.followups.length;
-  row.lastAt = ctx.now;
+  recordSent_(ctx, row, { id: res.id, threadId: res.threadId, at: ctx.now }, subject, first ? "第 1 封" : "跟进 " + step);
+  ctx.stats.sent++;
+  return true;
+}
+
+// The email is out: Script Properties hold it before anything else can fail (see remember_), then the
+// row and 记录 take it.
+function recordSent_(ctx, row, sent, subject, note) {
+  var step = row.sent;
+  remember_(ctx, { slug: row.slug, step: step, id: sent.id, threadId: sent.threadId, at: sent.at, subject: subject });
+  sent.messageId = messageIdOf_(sent.id);
+  markSent_(ctx, row, sent);
+  log_(ctx, "sent", row, { at: sent.at, step: step, subject: subject, messageId: sent.id, threadId: sent.threadId, note: note });
+}
+
+// Moves the row past the step that went out as Gmail message `sent` ({id, threadId, at, messageId}).
+// An empty messageId is looked up again before the next follow-up (previousMessageId_).
+function markSent_(ctx, row, sent) {
+  var m = msgOf_(row), first = row.sent === 0, threads = threadIds_(row);
+  row.sent++;
+  if (m) row.total = 1 + m.followups.length;
+  row.lastAt = sent.at;
   if (first) {
-    row.firstAt = ctx.now;
-    row.threadId = res.threadId;
-  } else if (res.threadId !== row.threadId) {
-    console.warn(row.slug + " 的跟进没有进同一线程：" + res.threadId);
+    row.firstAt = sent.at;
+    row.threadId = text_(sent.threadId);
+  } else if (sent.threadId && threads.indexOf(sent.threadId) === -1) {
+    row.threadId = threads.concat(sent.threadId).join(" ");
+    console.warn(row.slug + " 的跟进进了新的会话 " + sent.threadId + "，以后两个会话都检查回复。");
   }
-  if (messageId) row.messageId = messageId;
-  row.status = row.sent >= row.total ? "finished" : "active";
+  row.messageId = text_(sent.messageId);
+  if (row.status === "queued" || row.status === "active") row.status = row.sent >= row.total ? "finished" : "active";
   row.error = "";
   row.attempts = 0;
-  row.nextAt = nextAt_(row, m);
+  row.nextAt = m ? nextAt_(row, m) : null;
   row._dirty = true;
-  ctx.stats.sent++;
-  log_(ctx, "sent", row, {
-    step: step, subject: subject, messageId: res.id, threadId: res.threadId, note: first ? "第 1 封" : "跟进 " + step
+}
+
+// Sends the sheet does not show yet live in Script Properties, which do not depend on the sheet, until
+// save_ has written them. A run that dies or cannot write the sheet is replayed by the next (replay_),
+// so the row never sends that email again.
+function remember_(ctx, entry) {
+  ctx.inflight.push(entry);
+  try {
+    ctx.props.setProperty("INFLIGHT", JSON.stringify(ctx.inflight));
+  } catch (err) {
+    console.warn("暂存刚发出的邮件失败，只能靠表格记下它：" + errText_(err));
+  }
+}
+
+// Replays the sends a failed run left in Script Properties: rows and 记录 catch up, nothing is sent.
+function replay_(ctx) {
+  var list;
+  try {
+    list = JSON.parse(ctx.props.getProperty("INFLIGHT") || "[]");
+  } catch (err) {
+    list = [];
+  }
+  if (!Array.isArray(list) || !list.length) return;
+  var logged = sentLogs_(ctx);
+  list.forEach(function (e) {
+    var row = find_(ctx, e.slug);
+    if (!row) {
+      console.warn("队列里找不到 " + e.slug + "，它已发出的第 " + (e.step + 1) + " 封没能补记。");
+      return;
+    }
+    if (row.sent === e.step) markSent_(ctx, row, e);
+    var known = (logged[e.slug] || []).some(function (x) { return x.messageId === e.id; });
+    if (!known) {
+      log_(ctx, "sent", row, {
+        at: e.at, step: e.step, subject: e.subject, messageId: e.id, threadId: e.threadId, note: "补记：发出后上一轮没能写进表格"
+      });
+    }
   });
-  return true;
+  ctx.inflight = list;
 }
 
 function nextAt_(row, m) {
@@ -684,17 +858,41 @@ function nextAt_(row, m) {
   return f ? Math.max(row.firstAt + f.day * DAY, row.lastAt + SEQUENCE_GAP) : null;
 }
 
-function sendFailed_(ctx, row, step, err) {
-  var text = errText_(err);
+function sendFailed_(ctx, row, step, subject, err) {
+  var text = errText_(err), hard = HARD_FAIL_RE.test(text);
+  if (!hard && ACCOUNT_FAIL_RE.test(text)) {
+    // Not this row's fault: count no attempt, send nothing more this tick, try again next tick.
+    if (row.error !== text) log_(ctx, "error", row, { step: step, note: "发信账号出错，暂停到下一轮：" + text });
+    row.error = text;
+    row._dirty = true;
+    ctx.stats.failed++;
+    ctx.stats.held = "发信账号出错：" + text;
+    return false;
+  }
+  if (!hard) {
+    // "Empty response" or a timeout can come after Gmail took the message.
+    var found = null;
+    try {
+      found = findSent_(ctx, row, subject);
+    } catch (e) {
+      console.warn("查不到 " + row.slug + " 这封是否已发出：" + errText_(e));
+    }
+    if (found) {
+      recordSent_(ctx, row, found, subject, "发送时报错（" + text + "），但这封已在「已发送」里");
+      ctx.stats.sent++;
+      return true;
+    }
+  }
   row.attempts = (row.attempts || 0) + 1;
   row.error = text;
-  var final = HARD_FAIL_RE.test(text) || row.attempts >= ctx.conf.maxAttempts;
+  var final = hard || row.attempts >= ctx.conf.maxAttempts;
   if (final) stop_(row, "error", ctx.now);
   row._dirty = true;
   ctx.stats.failed++;
   log_(ctx, "error", row, {
     step: step, note: "第 " + row.attempts + " 次发送失败：" + text + (final ? "（已停止）" : "（下一轮重试）")
   });
+  return false;
 }
 
 // The Message-ID of our previous email in this sequence. It is stored after each send; when that
@@ -869,11 +1067,12 @@ function open_() {
   var ctx = {
     props: props, conf: conf_(props), now: now_().getTime(), book: book,
     queue: tab_(book, TAB_QUEUE), logTab: tab_(book, TAB_LOG), blockTab: tab_(book, TAB_SUPPRESS),
-    rows: [], added: [], logs: null, newLogs: [], newBlocks: [], suppressed: {}, own: null, windows: {},
+    rows: [], added: [], logs: null, newLogs: [], newBlocks: [], suppressed: {}, own: null, windows: {}, inflight: [],
     stats: { checked: 0, sent: 0, replied: 0, bounced: 0, autoReplies: 0, failed: 0, held: "" }
   };
   ctx.rows = loadQueue_(ctx.queue);
   ctx.suppressed = loadSuppressed_(ctx.blockTab);
+  replay_(ctx);
   return ctx;
 }
 
@@ -903,9 +1102,22 @@ function loadQueue_(sheet) {
   if (last < 2) return [];
   var rows = [];
   sheet.getRange(2, 1, last - 1, QUEUE_COLS.length).getValues().forEach(function (v, i) {
-    if (text_(v[0]).trim()) rows.push(rowOf_(v, i + 2));
+    if (text_(v[0]).trim()) rows.push(settle_({}, v, i + 2));
   });
   return rows;
+}
+
+// Makes the row match these sheet values and remembers them, to tell this run's changes from edits
+// Charles makes in the sheet meanwhile (merge_).
+function settle_(row, values, r) {
+  Object.assign(row, rowOf_(values, r));
+  row._orig = valuesOf_(row).map(cellKey_);
+  return row;
+}
+
+// A cell value in comparable form: a date by its time.
+function cellKey_(v) {
+  return Object.prototype.toString.call(v) === "[object Date]" ? "@" + v.getTime() : String(v);
 }
 
 function rowOf_(values, r) {
@@ -945,9 +1157,7 @@ function fill_(row, m) {
   row.revision = m.revision;
   row.content = JSON.stringify(contentOf_(m));
   row.nextAt = null;
-  row.error = "";
-  row.attempts = 0;
-  row._dirty = true;
+  row._dirty = true; // 错误 and 尝试次数 stay: a failed attempt may still have gone out (sentAlready_)
 }
 
 function valuesOf_(row) {
@@ -991,7 +1201,8 @@ function suppress_(ctx, addr, reason) {
 function log_(ctx, event, row, more) {
   more = more || {};
   var e = {
-    at: ctx.now, slug: row ? row.slug : "", to: row ? row.to : text_(more.to), step: more.step == null ? "" : more.step,
+    at: more.at == null ? ctx.now : more.at, slug: row ? row.slug : "", to: row ? row.to : text_(more.to),
+    step: more.step == null ? "" : more.step,
     event: event, subject: text_(more.subject), messageId: text_(more.messageId),
     threadId: text_(more.threadId || (row && row.threadId)), note: text_(more.note)
   };
@@ -1040,51 +1251,66 @@ function logValues_(e) {
   return [new Date(e.at), e.slug, e.to, e.step, e.event, e.subject, e.messageId, e.threadId, e.note];
 }
 
-// Writes back only the changed rows, then appends new queue rows, log events and suppressed addresses.
+// Appends the new log events first (a `sent` event there is never sent again, see sentAlready_), then
+// writes back the changed rows and appends new queue rows and suppressed addresses. Once all of it is
+// in the sheet, the sends kept in Script Properties are no longer needed (remember_).
 function save_(ctx) {
+  if (ctx.newLogs.length) {
+    append_(ctx.logTab, TAB_LOG, ctx.newLogs.map(logValues_));
+    ctx.newLogs = [];
+  }
   var dirty = ctx.rows.filter(function (row) { return row._dirty && row._r; });
   if (dirty.length) writeRows_(ctx, dirty);
   if (ctx.added.length) {
     var start = append_(ctx.queue, TAB_QUEUE, ctx.added.map(valuesOf_));
     ctx.added.forEach(function (row, i) {
-      row._r = start + i;
-      row._dirty = false;
+      settle_(row, valuesOf_(row), start + i);
     });
     ctx.added = [];
-  }
-  if (ctx.newLogs.length) {
-    append_(ctx.logTab, TAB_LOG, ctx.newLogs.map(logValues_));
-    ctx.newLogs = [];
   }
   if (ctx.newBlocks.length) {
     append_(ctx.blockTab, TAB_SUPPRESS, ctx.newBlocks);
     ctx.newBlocks = [];
   }
+  if (ctx.inflight.length) {
+    ctx.props.deleteProperty("INFLIGHT");
+    ctx.inflight = [];
+  }
 }
 
-// Each changed row goes to wherever its slug is now (Charles may have sorted the tab meanwhile);
-// neighbouring rows go out in one call.
+// Each changed row goes to wherever its slug is now (Charles may have sorted the tab meanwhile), merged
+// with what the sheet holds now (merge_); neighbouring rows go out in one call.
 function writeRows_(ctx, rows) {
   var last = ctx.queue.getLastRow();
-  var slugs = last < 2 ? [] : ctx.queue.getRange(2, 1, last - 1, 1).getValues().map(function (v) { return text_(v[0]).trim(); });
+  var current = last < 2 ? [] : ctx.queue.getRange(2, 1, last - 1, QUEUE_COLS.length).getValues();
+  var slugs = current.map(function (v) { return text_(v[0]).trim(); });
   var placed = [];
   rows.forEach(function (row) {
     var i = slugs[row._r - 2] === row.slug ? row._r - 2 : slugs.indexOf(row.slug);
     if (i === -1) console.warn("队列里找不到 " + row.slug + "（可能被手动删除了），这一行的改动没有写回。");
-    else placed.push({ r: i + 2, row: row });
+    else placed.push({ r: i + 2, row: row, values: merge_(row, current[i]) });
   });
   placed.sort(function (a, b) { return a.r - b.r; });
   for (var i = 0; i < placed.length;) {
     var j = i;
     while (j + 1 < placed.length && placed[j + 1].r === placed[j].r + 1) j++;
     var run = placed.slice(i, j + 1);
-    ctx.queue.getRange(run[0].r, 1, run.length, QUEUE_COLS.length).setValues(run.map(function (p) { return valuesOf_(p.row); }));
+    ctx.queue.getRange(run[0].r, 1, run.length, QUEUE_COLS.length).setValues(run.map(function (p) { return p.values; }));
     run.forEach(function (p) {
-      p.row._r = p.r;
-      p.row._dirty = false;
+      settle_(p.row, p.values, p.r);
     });
     i = j + 1;
   }
+}
+
+// Only the cells this run changed are written; an edit Charles made in the sheet meanwhile stays. His
+// 状态 wins even over a change of ours, so a cancel typed while a tick runs holds.
+function merge_(row, current) {
+  var theirs = valuesOf_(rowOf_(current, 0)).map(cellKey_);
+  return valuesOf_(row).map(function (v, c) {
+    var ours = cellKey_(v) !== row._orig[c], hand = theirs[c] !== row._orig[c];
+    return ours && !(hand && QUEUE_COLS[c][0] === "status") ? v : current[c];
+  });
 }
 
 function append_(sheet, name, values) {
@@ -1246,6 +1472,8 @@ function time_(ms) {
 // ---- setup(): run once from the editor; safe to run again ----
 
 function setup() {
+  // The consent screen lets Charles untick single permissions; this asks again until all are granted.
+  ScriptApp.requireAllScopes(ScriptApp.AuthMode.FULL);
   var props = PropertiesService.getScriptProperties();
   var have = props.getProperties();
   var book = setupBook_(props, have.SHEET_ID);

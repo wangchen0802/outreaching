@@ -90,7 +90,7 @@ The base URL is the deployment URL (`https://script.google.com/macros/s/<id>/exe
 - Total size must stay at or under 40,000 characters.
 - `wave` 9 is rejected.
 - The address is lowercased. It must not be on the suppression list.
-- The address must not belong to another slug whose status is `queued`, `active`, `finished` or `replied`. The same person never gets two sequences.
+- The address must not belong to another slug whose status is `queued`, `active`, `finished` or `replied`, or that already sent an email whatever its status (a cancelled or failed sequence still reached them). The same person never gets two sequences.
 
 ## Storage: one Google Sheet
 
@@ -101,6 +101,8 @@ The base URL is the deployment URL (`https://script.google.com/macros/s/<id>/exe
   - threadId, 最近 Message-ID, 结果, 结果时间;
   - 错误, 尝试次数, 入队时间, 修订, 内容JSON, 上次检查.
   - `内容JSON` holds `{subject, body, followups, fromName, track, order, region}`.
+  - `threadId` is the first email's thread. If Gmail files a follow-up in a new thread, that thread's id is appended, space-separated, and every listed thread is checked for replies. The next follow-up goes to the last thread.
+  - An `updated` enqueue keeps 尝试次数 and 错误: a failed attempt may still have gone out (step 5).
   - The 状态 values are English codes: `queued`, `active`, `finished`, `replied`, `bounced`, `cancelled`, `error`. The dashboard and `status` use them.
   - Charles may set a row's 状态 to `cancelled` by hand. `tick` respects it.
 - `记录`: an append-only log with columns 时间, slug, 收件人, 步骤, 事件, 主题, messageId, threadId, 说明.
@@ -111,7 +113,7 @@ The base URL is the deployment URL (`https://script.google.com/macros/s/<id>/exe
 - `doPost` uses `waitLock(20000)` and returns `busy` on timeout.
 - `tick` uses `tryLock(1000)` and skips the run if the lock is held.
 
-Read the whole `队列` range once per run and write back only the changed rows.
+Read the whole `队列` range once per run and write back only the changed rows. Within those rows, write only the cells this run changed, merged onto the sheet as it is at write time. An edit Charles made while the run was busy stays, and his 状态 wins even over a change of ours. Append the new 记录 events before the rows are written.
 
 **Script Properties.** All of these are created by `setup()` with defaults, and all can be changed in the editor:
 - `TOKEN`: 32+ random characters from `Utilities.getUuid()` twice, without dashes.
@@ -125,6 +127,7 @@ Read the whole `队列` range once per run and write back only the changed rows.
 - `FROM_NAME`: empty.
 - `MAX_ATTEMPTS`: 3.
 - `CHECKS_PER_TICK`: 40.
+- `INFLIGHT` is internal and is not created by `setup()`. It holds the sends that Gmail took but the sheet does not show yet (step 5).
 
 ## tick(): runs every 5 minutes, installed by setup()
 
@@ -133,12 +136,14 @@ Read the whole `队列` range once per run and write back only the changed rows.
 1. Take the lock. Load the rows. Load `now` from `now_()`, a single function that tests can override.
 2. **Check replies and bounces.**
    - Scope: `active` rows, plus `finished` rows whose last send was within 14 days. Take up to `CHECKS_PER_TICK` of them, ordered by oldest 上次检查 first.
-   - Call `Gmail.Users.Threads.get('me', threadId, {format: 'metadata', metadataHeaders: ['From','Subject','Auto-Submitted','X-Autoreply','X-Autorespond','Precedence']})`.
+   - For each of the row's threads, call `Gmail.Users.Threads.get('me', threadId, {format: 'metadata', metadataHeaders: ['From','Subject','Auto-Submitted','X-Autoreply','X-Autorespond','Precedence','X-Failed-Recipients']})`.
    - Consider only messages with an `internalDate` after our first send. Ignore messages whose From address is ours: the effective user's email and its send-as aliases. Get the aliases from `Gmail.Users.Settings.SendAs.list('me')` and cache them per run. Do not use `GmailApp`: it pulls in the full `https://mail.google.com/` scope.
    - A From of mailer-daemon@ or postmaster@ means **bounced**: stop the row and add the address to `屏蔽`.
+     - Exception: a delay notice is ignored, because Gmail is still trying. A delay notice has no `X-Failed-Recipients` and no failure word in its subject (fail, undeliverable, returned, 无法送达, 退信). Its subject or snippet speaks of a delay or a retry: `(Delay)`, delayed, delivery incomplete, not delivered yet, will retry, temporary problem, 延迟, 暂未送达, 尚未送达 or 暂时.
    - An auto-reply means: `Auto-Submitted` present and not `no`; or `X-Autoreply` or `X-Autorespond` present; or `Precedence: auto_reply`; or a subject matching `/out of office|automatic reply|auto(matic)?[- ]?reply|autoreply|自动回复|休假|不在办公室/i`. Log `auto_reply` and keep the sequence.
    - Any other message means **replied**. Set 结果 = replied and 结果时间 = that message's time, and stop the sequence.
-   - Also run `Gmail.Users.Messages.list('me', {q: 'from:(mailer-daemon OR postmaster) newer_than:3d', maxResults: 20})`. For each hit, get the snippet with metadata. Mark as bounced any active or finished row whose address appears in the snippet or in a `X-Failed-Recipients` header.
+   - Then look for mail from the recipient outside those threads. Gmail splits off replies whose subject starts with "AW:" or "SV:", and people also write fresh emails. Call `Gmail.Users.Messages.list('me', {q: 'from:<to> after:<首封时间 in epoch seconds>', maxResults: 5})`, then get each hit as metadata. A hit that is not an auto-reply means **replied**.
+   - Also run `Gmail.Users.Messages.list('me', {q: 'from:(mailer-daemon OR postmaster) newer_than:3d', maxResults: 20})`. For each hit, get the snippet with metadata. Skip delay notices. Mark as bounced any active or finished row whose address appears in the snippet or in a `X-Failed-Recipients` header.
    - Update 上次检查 on every row this step checks.
 3. **If paused, stop here.**
 4. **Pick at most `PER_TICK` sends.**
@@ -147,7 +152,12 @@ Read the whole `队列` range once per run and write back only the changed rows.
    - The recipient must be inside the send window: the weekday from `Utilities.formatDate(now, tz, 'u')` must be 1–5, and the hour (`'H'`) must be ≥ `WINDOW_START` and < `WINDOW_END`.
    - Due follow-ups go first. For an `active` row, step k (1-based) is due when now ≥ 首封时间 + `followups[k-1].day` days. Do not send two emails of the same sequence within 20 hours of each other, even if several are overdue. That situation arises after a pause.
    - Then first emails from `queued` rows. Order: wave ascending (1, 2, 3), then order ascending, then 入队时间. Skip a row while its domain gap is not clear. Skip any row whose 状态 is no longer `queued`.
-4b. **Before a follow-up**, run the step-2 reply and bounce check on that row's thread in the same tick, whatever its 上次检查. Send only if the row is still `active` and has no reply. A reply that arrived since the last round-robin check must never get a follow-up.
+4b. **Before a follow-up**, run the step-2 reply and bounce check on that row in the same tick, whatever its 上次检查. This covers its threads and the search for mail from the recipient. Send only if the row is still `active` and has no reply. If any of these Gmail reads fails, the follow-up waits for a later tick. A reply that arrived since the last round-robin check must never get a follow-up.
+4c. **Right before any send:**
+   - Re-read the row's 状态 cell from the sheet. Skip the row if 状态 is no longer what this run loaded, or if the row is gone. Charles may have cancelled or deleted it while the tick was reading Gmail.
+   - If 记录 already has a `sent` event for this step, a previous run stopped before it wrote the row. Record that send on the row and do not send.
+   - If 尝试次数 > 0, an earlier attempt failed, but Gmail may have taken the message anyway. Search Sent with `in:sent to:<to> after:<入队时间, or 最近发送 for a follow-up>`. A hit is a message that 记录 does not know and whose To and Subject match this step. If there is a hit, record it as sent and do not send. If Sent cannot be searched, the row waits a tick.
+   - A follow-up needs the previous Message-ID; without In-Reply-To, Gmail would open a new thread where replies go unseen. If the lookup fails, set 错误, leave the row `active`, and try again next tick.
 5. **Send** with `Gmail.Users.Messages.send({raw, threadId?}, 'me')`. The raw message:
    - ASCII-only MIME with CRLF line endings. `From: <encoded fromName> <me>`.
    - `To`. `Subject` RFC 2047-encoded (`=?UTF-8?B?...?=`) when it is not pure ASCII.
@@ -156,8 +166,12 @@ Read the whole `队列` range once per run and write back only the changed rows.
    - `raw` is the web-safe base64 of those bytes.
    - A follow-up also sets `threadId`, `In-Reply-To` and `References`, both being the Message-ID of our previous message, and `Subject: Re: <first subject>`. Its body is the follow-up text.
    - After the send, call `Gmail.Users.Messages.get('me', id, {format: 'metadata', metadataHeaders: ['Message-ID']})`, matching the header name case-insensitively. Store the threadId and Message-ID.
+   - Right after Gmail accepts the message, before anything else, add `{slug, step, id, threadId, at, subject}` to the `INFLIGHT` Script Property. Script Properties do not depend on the sheet. `save_` removes the entry once the sheet holds the send. On the next run, `open_` replays any entries left over: the row and 记录 catch up and nothing is sent. If a run dies, or cannot write the sheet, the email is still never sent twice.
    - Update the row: 已发封数 + 1, 最近发送, 首封时间 on the first email, 状态 `active`, or `finished` after the last step. Then append a `sent` row to 记录.
-   - **On failure**, increment 尝试次数 and record 错误.
+   - **On failure**:
+     - An error that blames the account rather than the row (insufficient, permission, authorization, rate limit, quota, exceeded, too many, denied, disabled, not enabled) counts no attempt. Record 错误 on the row; it is logged only when it changes. Send nothing more this tick, and try again next tick.
+     - Any other error except an invalid address may come after Gmail took the message, for example "Empty response" or a timeout. Search Sent as in 4c. On a hit, record the send.
+     - Otherwise increment 尝试次数 and record 错误.
      - An error whose message mentions `Invalid To header`, `Invalid recipient` or `invalid address`, or reaching `MAX_ATTEMPTS`, sets 状态 `error`.
      - Otherwise the row stays and is retried on a later tick.
      - Never retry inside the same tick.
@@ -165,6 +179,7 @@ Read the whole `队列` range once per run and write back only the changed rows.
 7. Write back the changed rows, release the lock, and log a one-line summary with `console.log`.
 
 `setup()` does the following, and is safe to run again:
+- first calls `ScriptApp.requireAllScopes(ScriptApp.AuthMode.FULL)`. The consent screen lets Charles untick single permissions, and this call asks again until all of them are granted;
 - creates or reuses the sheet;
 - creates any missing properties (it never overwrites existing values except that a missing TOKEN is generated);
 - installs the trigger;

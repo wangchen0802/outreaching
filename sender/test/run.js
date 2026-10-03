@@ -899,6 +899,316 @@ test("dashboard: read-only, escaped, with pause and resume forms", () => {
   assert.strictEqual(env.get({ token: env.token() }).getContent().replace(/更新于 [^（]+/, ""), html.replace(/更新于 [^（]+/, ""));
 });
 
+// Calls before() the next time obj[name] runs, then lets the call through: something that happens
+// while a run is busy (Charles typing in the sheet).
+function once(obj, name, before) {
+  const real = obj[name];
+  obj[name] = function () {
+    obj[name] = real;
+    before();
+    return real.apply(this, arguments);
+  };
+}
+
+const AMBIGUOUS = "Empty response";
+
+test("hand edits made while a run is busy survive, and a hand cancel stops the send", () => {
+  const env = makeEnv();
+  env.enqueue([msg("a"), msg("b", { order: 2 })]);
+  env.tick();
+  env.advance(5);
+  env.tick();
+  // Round-robin check at day 1: Charles cancels a and fixes its company while the tick reads Gmail.
+  env.at(at(MON10, DAY));
+  once(env.context.Gmail.Users.Threads, "get", () => {
+    env.setCell("a", "状态", "cancelled");
+    env.setCell("a", "公司", "Hand Co");
+  });
+  env.tick();
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("a")["公司"], env.row("a")["已发封数"]], ["cancelled", "Hand Co", 1]);
+  assert.strictEqual(env.row("a")["上次检查"].getTime(), env.clock.ms, "our own change to the row is still written");
+  // 4b check when b's follow-up is due: Charles cancels b while the tick reads b's thread.
+  env.prop("CHECKS_PER_TICK", 0);
+  env.at(at(MON10, 2 * DAY + 5 * MIN));
+  once(env.context.Gmail.Users.Threads, "get", () => env.setCell("b", "状态", "cancelled"));
+  assert.strictEqual(env.tick().length, 0);
+  assert.strictEqual(env.row("b")["状态"], "cancelled");
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 0);
+  // A first email: cancelled after the tick loaded the queue, before it sends.
+  env.enqueue([msg("c")]);
+  once(env.context.Utilities, "formatDate", () => env.setCell("c", "状态", "cancelled"));
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 0);
+  assert.strictEqual(env.row("c")["状态"], "cancelled");
+  assert.strictEqual(env.mail.sent.length, 2);
+  // Cancelled while its first email goes out: his 状态 wins over ours, and the send is still recorded.
+  env.enqueue([msg("d")]);
+  env.mail.onSend = () => { env.mail.onSend = null; env.setCell("d", "状态", "cancelled"); };
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 1);
+  assert.deepStrictEqual([env.row("d")["状态"], env.row("d")["已发封数"], env.logs("sent").length], ["cancelled", 1, 3]);
+  env.at(at(MON10, 4 * DAY));
+  assert.strictEqual(env.tick().length, 0);
+});
+
+test("a send survives a failed sheet write: the next run records it and nothing goes out twice", () => {
+  // The queue write times out after Gmail took the email; Script Properties still hold it.
+  const env = makeEnv();
+  env.enqueue([msg("a")]);
+  env.mail.onSend = () => { env.mail.onSend = null; env.sheet("队列").failWrites = 1; };
+  assert.throws(() => env.context.tick(), /timed out/);
+  assert.strictEqual(env.lock.holder, null, "the lock is released");
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("a")["已发封数"]], ["queued", 0]);
+  assert.match(env.props.getProperty("INFLIGHT"), /"slug":"a"/);
+  const first = env.mail.sent[0];
+  const viaGet = JSON.parse(env.get({ action: "status", token: env.token() }).getContent()).items[0];
+  assert.deepStrictEqual([viaGet.status, viaGet.step], ["active", 1], "a read already shows the send");
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 0);
+  const row = env.row("a");
+  assert.deepStrictEqual([row["状态"], row["已发封数"], row.threadId, row["首封时间"].getTime()], ["active", 1, first.threadId, Date.parse(MON10)]);
+  assert.strictEqual(env.logs("sent").length, 1);
+  assert.strictEqual(env.props.getProperty("INFLIGHT"), null, "cleared once the sheet has it");
+  env.at(at(MON10, 2 * DAY));
+  const [fu] = env.tick();
+  assert.strictEqual(headerOf(fu.parsed.headers, "In-Reply-To"), headerOf(first.headers, "Message-Id"));
+
+  // Script Properties fail too: 记录 is written first, and a `sent` event there is never sent again.
+  const env2 = makeEnv();
+  env2.enqueue([msg("a")]);
+  const setProperty = env2.props.setProperty;
+  env2.props.setProperty = function (key) {
+    if (key === "INFLIGHT") throw new Error("Service unavailable: Properties");
+    return setProperty.apply(this, arguments);
+  };
+  env2.mail.onSend = () => { env2.mail.onSend = null; env2.sheet("队列").failWrites = 1; };
+  assert.throws(() => env2.context.tick(), /timed out/);
+  env2.advance(5);
+  assert.strictEqual(env2.tick().length, 0);
+  assert.deepStrictEqual([env2.row("a")["状态"], env2.row("a")["已发封数"]], ["active", 1]);
+  assert.strictEqual(env2.logs("sent").length, 1);
+
+  // 记录 fails instead: the replay writes the missing `sent` event, so the daily cap still counts it.
+  const env3 = makeEnv();
+  env3.enqueue([msg("a")]);
+  env3.mail.onSend = () => { env3.mail.onSend = null; env3.sheet("记录").failWrites = 1; };
+  assert.throws(() => env3.context.tick(), /timed out/);
+  assert.strictEqual(env3.logs("sent").length, 0);
+  env3.advance(5);
+  assert.strictEqual(env3.tick().length, 0);
+  assert.deepStrictEqual([env3.row("a")["状态"], env3.row("a")["已发封数"]], ["active", 1]);
+  assert.strictEqual(env3.logs("sent").length, 1);
+  assert.strictEqual(env3.logs("sent")[0]["时间"].getTime(), Date.parse(MON10), "logged at the real send time");
+  assert.strictEqual(env3.call("ping").sentToday, 1);
+});
+
+test("Gmail took the message although the call failed: found in Sent, never sent twice", () => {
+  // Found right away.
+  const env = makeEnv();
+  env.enqueue([msg("a", { subject: "关于 SimReal 的合作：专家数据与 RL 环境，想和您约 20 分钟聊聊" })]); // several encoded words
+  env.mail.failAfterSend.push(AMBIGUOUS);
+  assert.strictEqual(env.tick().length, 1);
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("a")["尝试次数"], env.row("a")["错误"]], ["active", 0, ""]);
+  assert.match(env.logs("sent")[0]["说明"], /Empty response.*已发送/);
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 0);
+  assert.strictEqual(env.attemptsTo("a@a-co.com"), 1);
+
+  // Sent shows it only a little later; an update in between keeps the evidence of the attempt.
+  const env2 = makeEnv();
+  env2.enqueue([msg("a")]);
+  env2.mail.indexLagMs = 2 * MIN;
+  env2.mail.failAfterSend.push(AMBIGUOUS);
+  assert.strictEqual(env2.tick().length, 1);
+  assert.deepStrictEqual([env2.row("a")["状态"], env2.row("a")["尝试次数"]], ["queued", 1]);
+  assert.deepStrictEqual(results(env2.enqueue([msg("a", { revision: 2 })])), ["updated"]);
+  assert.strictEqual(env2.row("a")["尝试次数"], 1);
+  env2.advance(5);
+  assert.strictEqual(env2.tick().length, 0);
+  assert.deepStrictEqual([env2.row("a")["状态"], env2.row("a")["已发封数"], env2.row("a")["尝试次数"]], ["active", 1, 0]);
+  assert.strictEqual(env2.logs("sent")[0]["时间"].getTime(), Date.parse(MON10));
+  // Follow-ups: the earlier "Re:" message of this sequence is known and never taken for the new one.
+  env2.at(at(MON10, 2 * DAY));
+  env2.mail.failAfterSend.push(AMBIGUOUS);
+  assert.strictEqual(env2.tick().length, 1);
+  env2.advance(5);
+  assert.strictEqual(env2.tick().length, 0);
+  assert.strictEqual(env2.row("a")["已发封数"], 2);
+  env2.at(at(MON10, 3 * DAY));
+  env2.mail.failAfterSend.push(AMBIGUOUS);
+  assert.strictEqual(env2.tick().length, 1);
+  assert.deepStrictEqual([env2.row("a")["已发封数"], env2.row("a")["尝试次数"]], [2, 1], "follow-up 1 is not mistaken for follow-up 2");
+  env2.advance(5);
+  assert.strictEqual(env2.tick().length, 0);
+  assert.deepStrictEqual([env2.row("a")["状态"], env2.row("a")["已发封数"]], ["finished", 3]);
+  assert.strictEqual(env2.attemptsTo("a@a-co.com"), 3);
+  assert.deepStrictEqual(env2.logs("sent").map((e) => e["步骤"]), [0, 1, 2]);
+
+  // When Sent cannot be searched before a retry, the row waits rather than risk a second copy.
+  const env3 = makeEnv();
+  env3.enqueue([msg("a")]);
+  env3.mail.failNext.push("Backend Error");
+  env3.tick();
+  env3.advance(5);
+  env3.mail.failListOnce = 1;
+  assert.strictEqual(env3.tick().length, 0);
+  assert.strictEqual(env3.attemptsTo("a@a-co.com"), 1);
+  env3.advance(5);
+  assert.strictEqual(env3.tick().length, 1);
+});
+
+test("a reply Gmail filed in another thread stops the follow-ups; an auto-reply there does not", () => {
+  const env = makeEnv();
+  env.prop("CHECKS_PER_TICK", 0); // only the check right before a follow-up can see it
+  env.prop("PER_TICK", 5);
+  env.prop("MIN_GAP_MINUTES", 0);
+  env.enqueue([msg("a"), msg("b", { order: 2 })]);
+  env.tick();
+  env.at(at(MON10, DAY));
+  const replyAt = env.clock.ms;
+  env.mail.deliver({ from: "Sam Lee <a@a-co.com>", subject: "AW: SimReal x a" }); // a new thread
+  env.mail.deliver({ from: "b@b-co.com", subject: "Automatic reply: SimReal x b", headers: { "Auto-Submitted": "auto-replied" } });
+  env.at(at(MON10, 2 * DAY));
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["b@b-co.com"]);
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("a")["结果时间"].getTime()], ["replied", replyAt]);
+  assert.match(env.logs("replied")[0]["说明"], /另一个会话/);
+
+  // When that search fails, the follow-up waits a tick.
+  const env3 = makeEnv();
+  env3.prop("CHECKS_PER_TICK", 0);
+  env3.enqueue([msg("c")]);
+  env3.tick();
+  env3.at(at(MON10, 2 * DAY));
+  env3.mail.failListOnce = 2; // the bounce search, then c's
+  assert.strictEqual(env3.tick().length, 0);
+  assert.strictEqual(env3.row("c")["已发封数"], 1);
+  env3.advance(5);
+  assert.deepStrictEqual(env3.sentTo(env3.tick()), ["c@c-co.com"]);
+
+  // The round-robin sees it too, so a finished sequence still ends up "replied".
+  const env2 = makeEnv();
+  env2.enqueue([msg("d", { followups: [] })]);
+  env2.tick();
+  env2.at(at(MON10, DAY));
+  env2.mail.deliver({ from: "d@d-co.com", subject: "SV: SimReal x d" });
+  env2.advance(5);
+  env2.tick();
+  assert.strictEqual(env2.row("d")["状态"], "replied");
+});
+
+test("a follow-up waits for the previous Message-ID; one that lands in a new thread is watched too", () => {
+  const env = makeEnv();
+  env.enqueue([msg("a")]);
+  env.mail.failGetOnce = 1;
+  env.tick();
+  env.at(at(MON10, 2 * DAY));
+  env.mail.failGetOnce = 1;
+  assert.strictEqual(env.tick().length, 0, "no follow-up without In-Reply-To");
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("a")["已发封数"]], ["active", 1]);
+  assert.match(env.row("a")["错误"], /Message-ID/);
+  env.advance(5);
+  const [fu] = env.tick();
+  assert.strictEqual(headerOf(fu.parsed.headers, "In-Reply-To"), headerOf(env.mail.sent[0].headers, "Message-Id"));
+  assert.strictEqual(fu.threadId, env.mail.sent[0].threadId);
+  assert.strictEqual(env.row("a")["错误"], "");
+
+  // A subject edited by hand after the first email: Gmail files follow-up 1 in a thread of its own,
+  // and a colleague's answer there still stops follow-up 2.
+  const env2 = makeEnv();
+  env2.enqueue([msg("a")]);
+  const [first] = env2.tick();
+  env2.editContent("a", (c) => { c.subject = "SimReal x a, edited"; });
+  env2.at(at(MON10, 2 * DAY));
+  const [fu1] = env2.tick();
+  assert.strictEqual(fu1.resource.threadId, first.threadId);
+  assert.notStrictEqual(fu1.threadId, first.threadId);
+  assert.strictEqual(env2.row("a").threadId, first.threadId + " " + fu1.threadId);
+  env2.at(at(MON10, 2 * DAY + HOUR));
+  env2.mail.deliver({ threadId: fu1.threadId, from: "Lee <lee@a-co.com>", subject: "Re: SimReal x a, edited" });
+  env2.at(at(MON10, 3 * DAY));
+  assert.strictEqual(env2.tick().length, 0);
+  assert.strictEqual(env2.row("a")["状态"], "replied");
+});
+
+test("a sequence that already sent blocks the address even after a cancel; one that never sent does not", () => {
+  const env = makeEnv();
+  env.enqueue([msg("a"), msg("b", { order: 2 })]);
+  env.tick();
+  env.call("cancel", { slug: "a" });
+  assert.deepStrictEqual(results(env.enqueue([msg("a2", { to: "a@a-co.com" })])), ["rejected:address_in_use:a"]);
+  env.mail.failNext.push("Invalid To header");
+  env.advance(5);
+  env.tick();
+  assert.deepStrictEqual([env.row("b")["状态"], env.row("b")["已发封数"]], ["error", 0]);
+  assert.deepStrictEqual(results(env.enqueue([msg("b2", { to: "b@b-co.com" })])), ["queued"]);
+  env.at(at(MON10, 2 * DAY));
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["b@b-co.com"]);
+});
+
+test("account-wide send errors hold the tick and use up no row; setup asks for every permission", () => {
+  const env = makeEnv();
+  assert.deepStrictEqual(env.consent.calls, ["FULL"]);
+  env.enqueue(["a", "b", "c", "d"].map((s, i) => msg(s, { order: i })));
+  for (let i = 0; i < 12; i++) {
+    env.mail.failNext.push("Request had insufficient authentication scopes.");
+    env.tick();
+    env.advance(5);
+  }
+  assert.deepStrictEqual(["a", "b", "c", "d"].map((s) => env.row(s)["状态"]), ["queued", "queued", "queued", "queued"]);
+  assert.deepStrictEqual(["a", "b", "c", "d"].map((s) => env.row(s)["尝试次数"]), [0, 0, 0, 0]);
+  assert.match(env.row("a")["错误"], /insufficient authentication scopes/);
+  assert.strictEqual(env.logs("error").length, 1, "logged once, not every tick");
+  assert.match(env.output.log.slice(-1)[0], /发信账号出错/);
+  assert.deepStrictEqual(env.sentTo(env.tick()), ["a@a-co.com"]);
+  assert.strictEqual(env.row("a")["错误"], "");
+  // Nothing more goes out in the tick that hit it.
+  env.prop("PER_TICK", 3);
+  env.prop("MIN_GAP_MINUTES", 0);
+  env.advance(5);
+  const before = env.mail.sendAttempts.length;
+  env.mail.failNext.push("User-rate limit exceeded. Retry after 2026-10-05T03:00:00.000Z");
+  assert.strictEqual(env.tick().length, 0);
+  assert.strictEqual(env.mail.sendAttempts.length, before + 1);
+  env.advance(5);
+  assert.strictEqual(env.tick().length, 3);
+
+  // A permission left unticked on the consent screen stops setup() before it creates anything.
+  const fresh = makeEnv({ setup: false });
+  fresh.consent.all = false;
+  assert.throws(() => fresh.setup(), /Authorization is required/);
+  assert.deepStrictEqual([fresh.books.size, fresh.triggers.length, fresh.props.getProperty("TOKEN")], [0, 0, null]);
+});
+
+test("a delay notice is not a bounce", () => {
+  const env = makeEnv();
+  env.prop("PER_TICK", 5);
+  env.prop("MIN_GAP_MINUTES", 0);
+  env.enqueue([msg("a"), msg("b", { order: 2 })]);
+  env.tick();
+  env.advance(240);
+  env.reply("a", {
+    from: "Mail Delivery Subsystem <mailer-daemon@googlemail.com>", subject: "Delivery Status Notification (Delay)",
+    snippet: "Message not delivered yet There was a temporary problem delivering your message to a@a-co.com. Gmail will retry for 44 more hours."
+  });
+  env.mail.deliver({
+    from: "Mail Delivery Subsystem <mailer-daemon@googlemail.com>", subject: "Delivery Status Notification (Delay)",
+    snippet: "Delivery incomplete There was a temporary problem delivering your message to b@b-co.com. Gmail will retry for 47 more hours."
+  });
+  env.tick();
+  assert.deepStrictEqual([env.row("a")["状态"], env.row("b")["状态"]], ["active", "active"]);
+  assert.deepStrictEqual([env.table("屏蔽").length, env.logs("bounced").length, env.logs("replied").length], [0, 0, 0]);
+  // The failure that follows is a bounce.
+  env.advance(60);
+  env.reply("a", {
+    from: "Mail Delivery Subsystem <mailer-daemon@googlemail.com>", subject: "Delivery Status Notification (Failure)",
+    snippet: "Message not delivered Your message couldn't be delivered to a@a-co.com.", headers: { "X-Failed-Recipients": "a@a-co.com" }
+  });
+  env.tick();
+  assert.strictEqual(env.row("a")["状态"], "bounced");
+  assert.deepStrictEqual(env.table("屏蔽").map((x) => x["邮箱"]), ["a@a-co.com"]);
+});
+
 // ---------------------------------------------------------------------------------------------------
 
 const filter = process.argv[2];

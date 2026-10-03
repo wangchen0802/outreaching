@@ -128,6 +128,10 @@ function makeFakes(opts) {
     }
     setValues(values) {
       if (!Array.isArray(values) || values.some((r) => !Array.isArray(r))) throw new Error("fake Sheets: setValues needs Object[][]");
+      if (this.sheet.failWrites > 0) {
+        this.sheet.failWrites--;
+        throw new Error("Service Spreadsheets timed out while accessing document with id " + this.sheet.book.id + ".");
+      }
       if (values.length !== this.numRows) {
         throw new Error(`The number of rows in the data does not match the number of rows in the range. The data has ${values.length} but the range has ${this.numRows}.`);
       }
@@ -161,7 +165,8 @@ function makeFakes(opts) {
 
   class Sheet {
     constructor(book, name) {
-      Object.assign(this, { book, name, cells: [], formats: [], maxRows: 1000, maxCols: 26, frozenRows: 0 });
+      // failWrites: the next n setValues calls throw, as Sheets does when it times out.
+      Object.assign(this, { book, name, cells: [], formats: [], maxRows: 1000, maxCols: 26, frozenRows: 0, failWrites: 0 });
     }
     getName() { return this.name; }
     setName(name) {
@@ -401,6 +406,7 @@ function makeFakes(opts) {
   // ---- ScriptApp ----
 
   const triggers = [];
+  const consent = { all: true, calls: [] }; // all: false = Charles unticked a permission on the consent screen
   let triggerSeq = 0;
   class Trigger {
     constructor(fn, spec) { this.fn = fn; this.spec = spec; this.id = "trigger_" + ++triggerSeq; }
@@ -410,6 +416,13 @@ function makeFakes(opts) {
   }
   const ScriptApp = {
     EventType: { CLOCK: "CLOCK" },
+    AuthMode: { NONE: "NONE", CUSTOM_FUNCTION: "CUSTOM_FUNCTION", LIMITED: "LIMITED", FULL: "FULL" },
+    // Ends the execution with a fresh consent prompt when a scope is missing.
+    requireAllScopes(authMode) {
+      if (!Object.values(ScriptApp.AuthMode).includes(authMode)) throw new Error("fake ScriptApp: requireAllScopes(authMode) needs a ScriptApp.AuthMode");
+      consent.calls.push(authMode);
+      if (!consent.all) throw new Error("Authorization is required to perform that action.");
+    },
     getProjectTriggers: () => triggers.slice(),
     deleteTrigger(trigger) {
       const i = triggers.indexOf(trigger);
@@ -445,7 +458,10 @@ function makeFakes(opts) {
   // ---- Gmail advanced service: one mailbox, ours ----
 
   const mail = {
-    messages: new Map(), threads: new Map(), sent: [], sendAttempts: [], failNext: [], failGetOnce: 0, nextIds: [],
+    // failNext: send throws before Gmail takes the message; failAfterSend: Gmail takes it, then the call
+    // throws anyway; indexLagMs: how long a message stays invisible to Messages.list.
+    messages: new Map(), threads: new Map(), sent: [], sendAttempts: [], failNext: [], failAfterSend: [], failGetOnce: 0,
+    failListOnce: 0, indexLagMs: 0, nextIds: [],
     problems: [], calls: { send: 0, get: 0, list: 0, threadsGet: 0, sendAsList: 0 },
     sendAs: [{ sendAsEmail: me, isPrimary: true, isDefault: true }, { sendAsEmail: "charles@simreal.co", isPrimary: false }]
   };
@@ -514,6 +530,7 @@ function makeFakes(opts) {
           mail.threads.get(threadId).push(id);
           mail.sent.push(m);
           if (mail.onSend) mail.onSend(m);
+          if (mail.failAfterSend.length) throw apiError("messages.send", mail.failAfterSend.shift());
           return { id, threadId, labelIds: ["SENT"] };
         },
         get(userId, id, optionalArgs) {
@@ -527,22 +544,30 @@ function makeFakes(opts) {
           if (!m) throw apiError("messages.get", "Requested entity was not found.");
           return view(m, optionalArgs);
         },
+        // Search terms Code.gs uses; any other term throws.
         list(userId, optionalArgs) {
           mail.calls.list++;
           needMe(userId, "Messages.list");
+          if (mail.failListOnce > 0) {
+            mail.failListOnce--;
+            throw apiError("messages.list", "Backend Error");
+          }
           const args = optionalArgs || {};
           let q = String(args.q || "");
-          let pool = Array.from(mail.messages.values());
+          let pool = Array.from(mail.messages.values()).filter((m) => m.internalDate <= clock.ms - mail.indexLagMs);
           if (/from:\(mailer-daemon OR postmaster\)/.test(q)) {
             pool = pool.filter((m) => /^(mailer-daemon|postmaster)@/.test(addressOf(headerOf(m.headers, "From"))));
             q = q.replace(/from:\(mailer-daemon OR postmaster\)/, "");
           }
-          const newer = /newer_than:(\d+)d/.exec(q);
-          if (newer) {
-            pool = pool.filter((m) => m.internalDate > clock.ms - Number(newer[1]) * DAY);
-            q = q.replace(newer[0], "");
-          }
-          if (q.trim()) throw new Error("fake Gmail: query not modelled: " + args.q);
+          q.split(/\s+/).filter(Boolean).forEach((term) => {
+            let t;
+            if (term === "in:sent") pool = pool.filter((m) => m.labelIds.includes("SENT"));
+            else if ((t = /^from:([^\s()]+@[^\s()]+)$/.exec(term))) pool = pool.filter((m) => addressOf(headerOf(m.headers, "From")) === t[1].toLowerCase());
+            else if ((t = /^to:([^\s()]+@[^\s()]+)$/.exec(term))) pool = pool.filter((m) => headerOf(m.headers, "To").toLowerCase().includes(t[1].toLowerCase()));
+            else if ((t = /^after:(\d+)$/.exec(term))) pool = pool.filter((m) => m.internalDate >= Number(t[1]) * 1000); // epoch seconds
+            else if ((t = /^newer_than:(\d+)d$/.exec(term))) pool = pool.filter((m) => m.internalDate > clock.ms - Number(t[1]) * DAY);
+            else throw new Error("fake Gmail: query not modelled: " + args.q);
+          });
           pool.sort((a, b) => b.internalDate - a.internalDate);
           pool = pool.slice(0, args.maxResults || 100);
           const out = { resultSizeEstimate: pool.length };
@@ -605,7 +630,7 @@ function makeFakes(opts) {
       SpreadsheetApp, PropertiesService, LockService, Utilities, Session, ContentService, HtmlService, ScriptApp, Gmail,
       console: fakeConsole
     },
-    state: { books, props: scriptProps, lock: lockState, triggers, mail, output, serviceUrl }
+    state: { books, props: scriptProps, lock: lockState, triggers, consent, mail, output, serviceUrl }
   };
 }
 

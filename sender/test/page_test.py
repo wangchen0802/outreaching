@@ -19,7 +19,7 @@ import time
 import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 
 from playwright.sync_api import expect, sync_playwright
 
@@ -33,6 +33,44 @@ FAKE_JS = HERE / "page_fake_claude.js"
 CHROME = os.environ.get("PAGE_TEST_CHROMIUM", "/opt/pw-browsers/chromium-1194/chrome-linux/chrome")
 SHOTS = os.environ.get("PAGE_TEST_SHOTS")
 NO_READ = "此浏览器里审批页无法直接读取发信助手状态，请点「打开发信助手」查看。"
+NO_LINK = "连不上发信助手：检查地址以 /exec 结尾、部署时「谁有权访问」选了「任何人」、网络正常；也可以点「打开发信助手」核对。"
+FORM_CHECK = "这里读不到结果，请在那个标签页确认写着「已加入发送队列」。"
+# What claude.ai is expected to send (research Q9): no fetch to other sites, and maybe no form posts either.
+CSP_NO_FETCH = "connect-src 'self'"
+CSP_NO_FETCH_NO_FORM = "connect-src 'self'; form-action 'self'"
+# After letting window.__passFetch fetches to the sender through, makes the next window.__failFetch
+# reject like a network error (no CSP involved).
+FLAKY_FETCH = """(function () {
+  var real = window.fetch;
+  window.__passFetch = 0;
+  window.__failFetch = 0;
+  window.fetch = function (u) {
+    if (/\\/exec$/.test(String(u))) {
+      if (window.__passFetch > 0) window.__passFetch--;
+      else if (window.__failFetch > 0) { window.__failFetch--; return Promise.reject(new TypeError("Failed to fetch")); }
+    }
+    return real.apply(this, arguments);
+  };
+})();"""
+# Wraps the fake db so window.__rejectReview makes every update that carries a review fail.
+FAILING_REVIEW_WRITES = """(function () {
+  var orig = window.claude;
+  if (!orig) return;
+  window.__rejectReview = false;
+  window.claude = { use: function (name) {
+    return orig.use(name).then(function (cap) {
+      if (name !== "db" || !cap) return cap;
+      return { collection: cap.collection, doc: function (path) {
+        var r = cap.doc(path);
+        return { id: r.id, path: r.path, get: r.get, set: r.set, delete: r.delete, onSnapshot: r.onSnapshot,
+          update: function (data) {
+            if (window.__rejectReview && data.review) { var e = new Error("offline"); e.code = "unavailable"; return Promise.reject(e); }
+            return r.update(data);
+          } };
+      } };
+    });
+  } };
+})();"""
 
 DECK = "https://simreal.co/deck"
 SETTINGS = {"from": "business@simreal.co", "nameEn": "Charles", "nameZh": "查尔斯", "contact": "simreal-charles", "deck": ""}
@@ -145,7 +183,8 @@ TZ_CASES = [
 # --- local page server ---------------------------------------------------------------------
 
 class PageServer:
-    """Serves approval/index.html at / inside the skeleton the Artifact tool publishes it in."""
+    """Serves approval/index.html at / inside the skeleton the Artifact tool publishes it in.
+    /?csp=<policy> also sends that Content-Security-Policy header."""
 
     def __init__(self):
         class Handler(BaseHTTPRequestHandler):
@@ -159,8 +198,11 @@ class PageServer:
                     return
                 html = ('<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">'
                         "</head><body>" + PAGE.read_text(encoding="utf-8") + "</body></html>").encode("utf-8")
+                csp = parse_qs(urlparse(self.path).query).get("csp")
                 self.send_response(200)
                 self.send_header("Content-Type", "text/html; charset=utf-8")
+                if csp:
+                    self.send_header("Content-Security-Policy", csp[0])
                 self.send_header("Content-Length", str(len(html)))
                 self.end_headers()
                 self.wfile.write(html)
@@ -208,7 +250,7 @@ class PageTest(unittest.TestCase):
     # --- helpers ---------------------------------------------------------------------------
 
     def open(self, docs, settings=SETTINGS, connected=True, color_scheme="light", width=1200, height=900,
-             init=None, clock=False, extra_docs=None):
+             init=None, clock=False, extra_docs=None, csp=None):
         self.ctx = self.browser.new_context(viewport={"width": width, "height": height}, color_scheme=color_scheme,
                                             timezone_id="Asia/Shanghai", locale="zh-CN")
         self.ctx.route(re.compile(r"^https://fonts\.(googleapis|gstatic)\.com/"), lambda route: route.abort())
@@ -228,8 +270,9 @@ class PageTest(unittest.TestCase):
         self.page = self.ctx.new_page()
         if clock:
             self.page.clock.install()
-        self.page.goto(self.site.origin + "/")
-        self.page.wait_for_selector("article.card")
+        self.page.goto(self.site.origin + "/" + ("?csp=" + quote(csp) if csp else ""))
+        # The default filter may show none of them.
+        self.page.wait_for_selector("article.card", state="attached")
         return self.page
 
     def card(self, slug):
@@ -285,10 +328,19 @@ class PageTest(unittest.TestCase):
         self.assertTrue(page.locator("#s-ping").is_disabled())
         self.assertTrue(page.locator("#s-dash").is_hidden())
 
+        # A /dev address only works for its owner while signed in: refused before anything is saved.
+        page.fill("#s-url", self.mock.url[:-len("exec")] + "dev")
+        page.fill("#s-token", self.token)
+        page.click("#s-save")
+        expect(page.locator("#s-state")).to_contain_text("以 /dev 结尾的测试地址")
+        expect(page.locator("#s-conn")).to_have_text("未连接")
+        self.assertEqual(self.mock.requests, [])
+
         page.fill("#s-url", self.mock.url)
         page.fill("#s-token", "wrong-token")
         page.click("#s-save")
         expect(page.locator("#s-state")).to_contain_text("口令不对")
+        expect(page.locator("#s-conn")).to_have_text("口令不对")
 
         page.fill("#s-token", self.token)
         page.click("#s-save")
@@ -516,7 +568,8 @@ class PageTest(unittest.TestCase):
         }
         page = self.open(docs, settings=SETTINGS_DECK, clock=True)
         self.wait_until(lambda: self.mock.calls("status"), "first sync")
-        self.assertEqual(sorted(self.mock.calls("status")[0]["data"]["slugs"]), sorted(docs))
+        # Every row is read, so a handover whose db write was lost still reaches its card.
+        self.assertNotIn("slugs", self.mock.calls("status")[0]["data"])
         self.wait_until(lambda: len(self.writes()) == 4, "four sync writes")
 
         home = self.doc("v-homebrew")["send"]
@@ -552,9 +605,12 @@ class PageTest(unittest.TestCase):
         self.assertEqual(card.locator('[data-copy^="fu"]').count(), 0)
         self.show("investor", "closed")
         expect(self.card("v-01-advisors").locator(".status")).to_have_text("退信")
-        self.show("partner", "closed")
+        # A failed send needs Charles: it is listed under 今天要发, not filed away as finished.
+        self.show("partner", "todo")
         card = self.card("p-abaka-ai")
+        expect(card.locator(".status")).to_have_text("发送失败")
         expect(card.locator(".auto-line")).to_contain_text("发送失败：Invalid To header")
+        expect(page.locator("#t-todo-sub")).to_contain_text("发送失败 1")
         expect(page.locator("#s-sync")).to_contain_text("今天已发 3/30 · 运行中")
 
         # Three minutes later the page syncs again; nothing changed, so nothing is written.
@@ -591,15 +647,67 @@ class PageTest(unittest.TestCase):
         expect(card.locator('[data-act="resume"]')).to_have_text("改为手动发送")
         self.assertEqual(self.mock.rows["v-homebrew"]["status"], "cancelled")
 
-    def test_form_fallback_when_fetch_throws(self):
-        page = self.open(seed_docs(), settings=SETTINGS_DECK)
-        page.evaluate("""url => {
-          const real = window.fetch;
-          window.fetch = function (u) {
-            if (String(u).indexOf(url) === 0) return Promise.reject(new TypeError("Failed to fetch"));
-            return real.apply(this, arguments);
-          };
-        }""", self.mock.url)
+    def test_stop_reads_back_what_the_sender_sent(self):
+        # The page last saw the row queued; the sender has since sent the first email.
+        docs = seed_docs()
+        docs["v-homebrew"] = approved(docs["v-homebrew"], auto={"status": "queued", "queuedAt": "2026-09-30T08:00:00Z", "revision": 1})
+        item = {"slug": "v-homebrew", "to": "hunter@homebrew.example", "status": "queued", "step": 0, "total": 3, "log": [],
+                "nextAt": None, "outcome": None, "outcomeAt": None, "error": None, "revision": 1}
+        self.mock.status_items = {"v-homebrew": dict(item)}
+        self.open(docs, settings=SETTINGS_DECK)
+        self.wait_until(lambda: self.mock.calls("status"), "first sync")
+        self.settle()
+        self.mock.status_items["v-homebrew"] = dict(item, status="active", step=1, nextAt="2026-10-06T02:00:00Z",
+                                                    log=[{"step": 0, "at": "2026-10-01T09:12:00Z", "messageId": "<a@x>", "threadId": "t1"}])
+        self.show("investor", "all")
+        card = self.card("v-homebrew")
+        stop = card.locator('[data-act="autostop"]')
+        stop.click()
+        stop.click()
+        self.wait_until(lambda: (self.doc("v-homebrew")["send"]["auto"] or {}).get("status") == "cancelled", "cancelled")
+        send = self.doc("v-homebrew")["send"]
+        self.assertEqual(send["log"], [{"step": 0, "at": "2026-10-01T09:12:00Z"}])
+        self.assertEqual(send["outcome"], "stopped")
+        self.assertGreaterEqual(send["auto"]["syncedAt"], send["auto"]["cancelledAt"])
+        # Back to manual, the card offers follow-up 1, never a second first email.
+        card.locator('[data-act="resume"]').click()
+        self.wait_until(lambda: self.doc("v-homebrew")["send"].get("auto", 1) is None, "auto dropped")
+        self.assertEqual(self.doc("v-homebrew")["send"]["log"], [{"step": 0, "at": "2026-10-01T09:12:00Z"}])
+        expect(card.locator('[data-copy="fu1"]')).to_have_text("复制跟进 1")
+        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
+
+    def test_stop_without_read_back_waits_for_the_next_sync(self):
+        docs = seed_docs()
+        docs["deepseek"] = approved(docs["deepseek"], auto={"status": "queued", "queuedAt": "2026-09-30T08:00:00Z", "revision": 1})
+        item = {"slug": "deepseek", "to": "shao@deepseek.example", "status": "queued", "step": 0, "total": 3, "log": [],
+                "nextAt": None, "outcome": None, "outcomeAt": None, "error": None, "revision": 1}
+        self.mock.status_items = {"deepseek": dict(item)}
+        page = self.open(docs, settings=SETTINGS_DECK, clock=True, init=FLAKY_FETCH)
+        self.wait_until(lambda: self.mock.calls("status"), "first sync")
+        self.settle()
+        self.mock.status_items["deepseek"] = dict(item, status="active", step=1,
+                                                  log=[{"step": 0, "at": "2026-10-01T02:00:00Z", "messageId": "<b@x>", "threadId": "t2"}])
+        self.show("customer", "all")
+        card = self.card("deepseek")
+        stop = card.locator('[data-act="autostop"]')
+        stop.click()
+        # The cancel lands but the read-back after it fails: no way back to manual yet.
+        page.evaluate("window.__passFetch = 1; window.__failFetch = 1")
+        stop.click()
+        self.wait_until(lambda: self.mock.calls("cancel"), "cancel")
+        self.wait_until(lambda: (self.doc("deepseek")["send"]["auto"] or {}).get("status") == "cancelled", "cancelled")
+        self.settle()
+        self.assertEqual(self.doc("deepseek")["send"].get("log"), [])
+        expect(card.locator(".auto-line")).to_contain_text("还没读到停下前发了几封")
+        self.assertEqual(card.locator('[data-act="resume"]').count(), 0)
+        # The next sync reads it back and only then offers 改为手动发送.
+        page.clock.fast_forward("03:05")
+        self.wait_until(lambda: self.doc("deepseek")["send"].get("log"), "log read back")
+        expect(card.locator('[data-act="resume"]')).to_have_text("改为手动发送")
+
+    def test_form_fallback_when_csp_blocks_fetch(self):
+        page = self.open(seed_docs(), settings=SETTINGS_DECK, csp=CSP_NO_FETCH)
+        expect(page.locator("#s-conn")).to_have_text("已连接（读不到状态）")
         page.click("#s-ping")
         expect(page.locator("#s-state")).to_have_text(NO_READ)
 
@@ -621,13 +729,232 @@ class PageTest(unittest.TestCase):
         self.assertEqual(self.mock.calls(via="fetch"), [])
         self.assertIn("已加入发送队列 1 封", popup.content())
 
-        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "optimistic send.auto")
+        # Unconfirmed: submitted, not queued, with a way back to manual.
+        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "send.auto")
         doc = self.doc("v-homebrew")
         self.assertEqual(doc["review"]["status"], "approved")
-        self.assertEqual(doc["send"]["auto"]["status"], "queued")
-        expect(page.locator("#toast")).to_contain_text(NO_READ)
+        self.assertEqual(doc["send"]["auto"]["status"], "submitted")
+        self.assertTrue(doc["send"]["auto"]["sig"])
+        expect(page.locator("#toast")).to_contain_text(FORM_CHECK)
         self.show("investor", "waiting")
-        expect(self.card("v-homebrew").locator(".auto-line")).to_contain_text("状态以发信助手页面为准")
+        card = self.card("v-homebrew")
+        expect(card.locator(".status")).to_have_text("已提交，待确认")
+        expect(card.locator(".auto-line")).to_contain_text("状态以发信助手页面为准")
+        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
+
+        # A stop through a form tab is only a request: the card is not marked stopped.
+        stop = card.locator('[data-act="autostop"]')
+        stop.click()
+        with page.expect_popup():
+            stop.click()
+        self.wait_until(lambda: self.mock.calls("cancel", via="form"), "cancel form")
+        self.wait_until(lambda: self.doc("v-homebrew")["send"]["auto"].get("cancelRequested"), "stop requested")
+        send = self.doc("v-homebrew")["send"]
+        self.assertEqual(send["auto"]["status"], "submitted")
+        self.assertIsNone(send.get("outcome"))
+        expect(card.locator(".auto-line")).to_contain_text("请在发信助手页面确认停了")
+
+        card.locator('[data-act="resume"]', has_text="没交上，改回手动").click()
+        self.wait_until(lambda: self.doc("v-homebrew")["send"].get("auto", 1) is None, "auto dropped")
+        self.show("investor", "todo")
+        expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
+
+    def test_csp_blocking_fetch_and_forms_falls_back_to_manual(self):
+        page = self.open(seed_docs(), settings=SETTINGS_DECK, csp=CSP_NO_FETCH_NO_FORM)
+        expect(page.locator("#s-conn")).to_have_text("已连接（读不到状态）")
+        self.show("investor", "pending")
+        self.card("v-homebrew").locator('[data-act="approve"]').click()
+        expect(page.locator("#toast")).to_contain_text("但没交上：这个页面所在的环境不让它连发信助手")
+        self.wait_until(lambda: (self.doc("v-homebrew").get("review") or {}).get("status") == "approved", "approval")
+        self.settle()
+        self.assertEqual(self.mock.requests, [])
+        self.assertEqual(len(self.ctx.pages), 1)
+        self.assertNotIn("send", self.doc("v-homebrew"))
+        expect(page.locator("#s-conn")).to_have_text("这里连不上")
+        expect(page.locator("#s-state")).to_contain_text("这里只能手动发")
+        # The page works as if no sender were connected.
+        expect(self.card("v-01-advisors").locator('[data-act="approve"]')).to_have_text("批准")
+        self.show("investor", "todo")
+        card = self.card("v-homebrew")
+        expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
+        expect(card.locator('[data-act="sent"]')).to_have_text("标记已发送")
+        self.assertEqual(card.locator('[data-act="autosend"]').count(), 0)
+        self.assertTrue(page.locator("#auto-all-btn").is_hidden())
+
+    def test_transient_fetch_failure_is_reported_and_retried(self):
+        docs = seed_docs()
+        docs["v-homebrew"] = approved(docs["v-homebrew"], auto={"status": "queued", "queuedAt": "2026-09-30T08:00:00Z", "revision": 1})
+        self.mock.rows["v-homebrew"] = {"status": "queued", "msg": {"to": "hunter@homebrew.example", "followups": [{}, {}], "revision": 1}}
+        page = self.open(docs, settings=SETTINGS_DECK, clock=True, init=FLAKY_FETCH)
+        self.wait_until(lambda: self.mock.calls("status"), "first sync")
+        page.evaluate("window.__failFetch = 1")
+        page.clock.fast_forward("03:05")
+        expect(page.locator("#s-sync")).to_have_text("这次同步没连上发信助手，稍后自动再试。")
+        self.assertEqual(len(self.mock.calls("status")), 1)
+        # The next interval reads again and picks up the reply.
+        self.mock.status_items["v-homebrew"] = {
+            "slug": "v-homebrew", "to": "hunter@homebrew.example", "status": "replied", "step": 1, "total": 3,
+            "log": [{"step": 0, "at": "2026-10-01T09:12:00Z"}], "nextAt": None, "outcome": "replied",
+            "outcomeAt": "2026-10-02T09:00:00Z", "error": None, "revision": 1}
+        page.clock.fast_forward("03:05")
+        self.wait_until(lambda: (self.doc("v-homebrew")["send"]).get("outcome") == "replied", "reply synced")
+        self.assertEqual(len(self.mock.calls("status")), 2)
+
+        # A failed ping says what to check, and a failed handover writes nothing and posts no form.
+        page.evaluate("window.__failFetch = 1")
+        page.click("#s-ping")
+        expect(page.locator("#s-state")).to_have_text(NO_LINK)
+        expect(page.locator("#s-conn")).to_have_text("连不上")
+        page.evaluate("window.__failFetch = 1")
+        self.show("customer", "pending")
+        self.card("deepseek").locator('[data-act="approve"]').click()
+        expect(page.locator("#toast")).to_contain_text("但没交上：连不上发信助手")
+        self.settle()
+        self.assertEqual(self.mock.calls(via="form"), [])
+        self.assertNotIn("send", self.doc("deepseek"))
+        self.show("customer", "todo")
+        expect(self.card("deepseek").locator('[data-act="autosend"]')).to_be_enabled()
+        page.click("#s-ping")
+        expect(page.locator("#s-conn")).to_have_text("已连接")
+
+    def test_sync_reconciles_rows_the_cards_do_not_know(self):
+        docs = seed_docs()
+        # Handed over, but the send.auto write never landed; the sender has sent the first email.
+        docs["v-homebrew"] = approved(docs["v-homebrew"])
+        self.mock.status_items["v-homebrew"] = {
+            "slug": "v-homebrew", "to": "hunter@homebrew.example", "status": "active", "step": 1, "total": 3,
+            "log": [{"step": 0, "at": "2026-10-01T09:12:00Z"}], "nextAt": "2026-10-06T02:00:00Z", "outcome": None,
+            "outcomeAt": None, "error": None, "revision": 1}
+        # Handed over below, then deleted from the sheet by hand.
+        docs["deepseek"] = approved(docs["deepseek"])
+        # Handed to another deployment, which may still send it: never marked missing from here.
+        docs["v-01-advisors"] = approved(docs["v-01-advisors"], auto={"status": "queued", "queuedAt": "2026-09-30T08:00:00Z", "revision": 1, "via": "elsewhere"})
+        # Cancelled at the sender before anything went out, and not on the card.
+        docs["c-dup"] = approved(base_doc(
+            slug="c-dup", track="customer", company="Dup Co", category="测试", region="国内", contact="某人", to="dup@example.com",
+            order=3300, lang="zh", subject="主题", body="您好，\n\n正文。\n\n[姓名]", followups=[{"day": 4, "text": "跟进。[姓名]"}],
+            meta_md="- 类别：测试｜地区：国内（北京）"))
+        self.mock.rows["c-dup"] = {"status": "cancelled", "msg": {"to": "dup@example.com", "followups": [{}], "revision": 1}}
+        page = self.open(docs, settings=SETTINGS_DECK, clock=True)
+        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "untracked row picked up")
+        home = self.doc("v-homebrew")["send"]
+        self.assertEqual(home["auto"]["status"], "active")
+        self.assertEqual(home["log"], [{"step": 0, "at": "2026-10-01T09:12:00Z"}])
+        self.assertNotIn("send", self.doc("c-dup"), "a cancelled row with nothing sent is not pushed onto a manual card")
+        self.show("investor", "waiting")
+        card = self.card("v-homebrew")
+        expect(card.locator(".status")).to_have_text("自动跟进")
+        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
+
+        self.show("customer", "todo")
+        card = self.card("deepseek")
+        card.locator('[data-act="autosend"]').click()
+        self.wait_until(lambda: (self.doc("deepseek").get("send") or {}).get("auto"), "deepseek queued")
+        del self.mock.rows["deepseek"]
+        page.clock.fast_forward("03:05")
+        self.wait_until(lambda: self.doc("deepseek")["send"]["auto"]["status"] == "missing", "missing row marked")
+        self.assertEqual(self.doc("v-01-advisors")["send"]["auto"]["status"], "queued")
+        expect(card.locator(".status")).to_have_text("发信助手里没有")
+        expect(card.locator(".auto-line")).to_contain_text("不会自动发")
+        card.locator('[data-act="resume"]').click()
+        expect(card.locator('a[href^="https://mail.google.com/mail/?"]')).to_have_text("在 Gmail 打开第 1 封")
+
+        # Handing over a card the sender already has adopts the sender's record.
+        dup = self.card("c-dup")
+        dup.locator('[data-act="autosend"]').click()
+        self.wait_until(lambda: (self.doc("c-dup").get("send") or {}).get("auto"), "duplicate adopted")
+        self.assertEqual(self.doc("c-dup")["send"]["auto"]["status"], "cancelled")
+        self.show("customer", "all")
+        note = dup.locator(".review-note.warn", has_text="发信助手没收")
+        expect(note).to_contain_text("卡片已按它的记录更新")
+        self.assertNotIn("手动发", note.inner_text())
+        # Taken back by hand, it stays manual through later syncs.
+        dup.locator('[data-act="resume"]').click()
+        self.wait_until(lambda: self.doc("c-dup")["send"].get("auto", 1) is None, "c-dup back to manual")
+        n = len(self.mock.calls("status"))
+        page.clock.fast_forward("03:05")
+        self.wait_until(lambda: len(self.mock.calls("status")) > n, "next sync")
+        self.settle()
+        self.assertIsNone(self.doc("c-dup")["send"]["auto"])
+        self.assertIsNone(self.doc("deepseek")["send"]["auto"])
+
+    def test_revised_after_approval_needs_review_again(self):
+        docs = seed_docs()
+        revised = dict(docs["v-homebrew"], revision=2, body=docs["v-homebrew"]["body"].replace("Worth 20 minutes", "REVISED. Worth 20 minutes"))
+        docs["v-homebrew"] = approved(revised)
+        # Already queued with the approved first version.
+        docs["deepseek"] = approved(dict(docs["deepseek"], revision=2), auto={"status": "queued", "queuedAt": "2026-09-30T08:00:00Z", "revision": 1})
+        self.mock.rows["deepseek"] = {"status": "queued", "msg": {"to": "shao@deepseek.example", "followups": [{}, {}], "revision": 1}}
+        page = self.open(docs, settings=SETTINGS_DECK)
+        self.show("investor", "todo")
+        expect(page.locator("#auto-all-btn")).to_be_hidden()
+        self.show("investor", "pending")
+        card = self.card("v-homebrew")
+        expect(card.locator(".status")).to_have_text("待审")
+        expect(card.locator(".review-note.warn", has_text="批准的是")).to_have_text("批准的是第 1 版，现在是第 2 版，请重新审。")
+        card.locator('[data-act="toggle"]').click()
+        self.assertEqual(card.locator('a[href^="https://mail.google.com/mail/?"]').count(), 0)
+        card.locator('[data-act="approve"]').click()
+        self.wait_until(lambda: self.enqueues(), "enqueue after re-approval")
+        m = self.enqueues()[0]["messages"][0]
+        self.assertEqual(m["revision"], 2)
+        self.assertIn("REVISED.", m["body"])
+        self.wait_until(lambda: (self.doc("v-homebrew").get("send") or {}).get("auto"), "send.auto")
+        self.assertEqual(self.doc("v-homebrew")["review"]["forRevision"], 2)
+
+        # The queued card is back for review; approving replaces the queued copy.
+        self.show("customer", "pending")
+        card = self.card("deepseek")
+        expect(card.locator(".review-note.warn", has_text="批准的是")).to_contain_text("重新批准会换成这一版")
+        self.assertEqual(card.locator('[data-act="return"]').count(), 0)
+        expect(card.locator('[data-act="autostop"]')).to_be_visible()
+        card.locator('[data-act="approve"]').click()
+        self.wait_until(lambda: len(self.enqueues()) == 2, "second enqueue")
+        expect(page.locator("#toast")).to_contain_text("排队中的内容已更新")
+        self.wait_until(lambda: self.doc("deepseek")["send"]["auto"]["revision"] == 2, "queued revision 2")
+
+    def test_handed_over_card_locks_address_and_flags_changed_text(self):
+        docs = seed_docs()
+        docs["p-abaka-ai"] = approved(dict(docs["p-abaka-ai"], toManual="team@abaka.example"))
+        page = self.open(docs, settings=SETTINGS_DECK)
+        self.show("partner", "todo")
+        card = self.card("p-abaka-ai")
+        card.locator('[data-act="autosend"]').click()
+        self.wait_until(lambda: (self.doc("p-abaka-ai").get("send") or {}).get("auto"), "send.auto")
+        self.show("partner", "waiting")
+        # The sender has the address now: no edit box, a pointer to stopping instead.
+        self.assertEqual(card.locator("input[data-tomanual]").count(), 0)
+        expect(card.locator(".addr-note", has_text="已交给发信助手")).to_contain_text("先点「停止自动发送」")
+        self.assertEqual(card.locator('[data-act="autosend"]').count(), 0)
+
+        # A settings change after the handover: the card says so and can replace the queued copy.
+        page.fill("#f-name-en", "Charlie")
+        self.wait_until(lambda: self.store()["settings/sender"].get("nameEn") == "Charlie", "settings saved")
+        expect(card.locator(".review-note.warn", has_text="不一样了")).to_contain_text("点「更新排队内容」")
+        card.locator('[data-act="autosend"]', has_text="更新排队内容").click()
+        self.wait_until(lambda: len(self.enqueues()) == 2, "re-enqueue")
+        m = self.enqueues()[1]["messages"][0]
+        self.assertTrue(m["body"].endswith("Charlie"))
+        self.assertTrue(all(f["text"].endswith("Charlie") for f in m["followups"]))
+        expect(page.locator("#toast")).to_contain_text("排队中的内容已更新")
+        expect(card.locator(".review-note.warn", has_text="不一样了")).to_have_count(0)
+        self.assertEqual(self.mock.rows["p-abaka-ai"]["msg"]["fromName"], "Charlie")
+
+    def test_handover_waits_for_the_approval_write(self):
+        page = self.open(seed_docs(), settings=SETTINGS_DECK, init=FAILING_REVIEW_WRITES)
+        page.evaluate("window.__rejectReview = true")
+        self.show("investor", "pending")
+        card = self.card("v-homebrew")
+        card.locator('[data-act="approve"]').click()
+        expect(page.locator("#notice")).to_contain_text("没保存上（unavailable）")
+        self.settle()
+        self.assertEqual(self.enqueues(), [])
+        self.assertNotIn("review", self.doc("v-homebrew"))
+        expect(card.locator('[data-act="approve"]')).to_have_text("批准并自动发送")
+        page.evaluate("window.__rejectReview = false")
+        card.locator('[data-act="approve"]').click()
+        self.wait_until(lambda: self.enqueues(), "enqueue once saved")
+        self.assertEqual(self.doc("v-homebrew")["review"]["status"], "approved")
 
     def test_not_connected_keeps_the_manual_page(self):
         docs = seed_docs()
@@ -636,6 +963,9 @@ class PageTest(unittest.TestCase):
         self.show("investor", "pending")
         btn = self.card("v-homebrew").locator('[data-act="approve"]')
         expect(btn).to_have_text("批准")
+        # Tabs and filters really hide the other cards.
+        expect(self.card("deepseek")).to_be_hidden()
+        expect(self.card("p-abaka-ai")).to_be_hidden()
         self.show("customer", "todo")
         card = self.card("deepseek")
         link = card.locator('a[href^="https://mail.google.com/mail/?"]')
