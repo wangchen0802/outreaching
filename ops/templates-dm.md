@@ -139,12 +139,12 @@ Hi [Name], [one line about them]. SimReal is the world's first RSI loop for trad
 
 1. Hi [Name], I'm Charles. Great to connect!
 
-2. We're a team of three 21-year-olds (all born in 2005) building a neolab focused on RL environments and RSI (recursive self-improvement). Three weeks after founding, we've already delivered several million RMB in agent data and expert data orders.
+2. We're a team of three 21-year-olds (all born in 2005) building a neolab focused on RL environments and RSI (recursive self-improvement). We hit $7M ARR in our first three weeks, from agent data and expert data orders.
 
-3. A bit about us:
-   - Me (CEO): interned on the fixed income trading desk at Citadel in London
-   - Henry (CTO): Maths at St John's College, Cambridge; ex-Jane Street
-   - Amaris (COO): Duke undergrad; full-time offer from Millennium Hong Kong
+3. The team:
+   - Charles, CEO | LSE Maths | Citadel, Fixed Income Trading Intern (London)
+   - Henry, CTO | Cambridge Maths (St John's) | ex-Jane Street
+   - Amaris, COO | Duke | Millennium Data Scientist (summer intern + full-time offer)
 
 4. [SimReal-BP-Public.pdf] Here's our deck. We've also had a Managing Partner at Y Combinator reach out with interest in investing.
 
