@@ -132,3 +132,20 @@ Hi [Name], [one line about them]. SimReal is the world's first RSI loop for trad
 **微信超短版**
 
 [称呼]您好，我是衍真（SimReal）联合创始人[姓名]。我们做的是全球首个交易 RSI（自我进化）环境：成立两周交付 7 款产品，模型在我们的交易环境 Xitadel 训练后，在没见过的真实行情上交易表现提升 12%。我们搭建真实世界的训练环境，让 AI 学会做真实工作并自我进化。三位创始人都是 21 岁量化人，剑桥、LSE、杜克数学本科，CEO 20 岁是一家 15 亿美元创业公司的首位员工。已为 Surge AI、AfterQuery 供给，可查：github.com/Simreal-AI。本轮融资 4,000 万元人民币，方便聊 20 分钟吗？
+
+## 英文私信版（按 Charles 的微信消息结构，2026-10）
+
+适合 LinkedIn / X / WhatsApp，分几条连续发。第 4 条附 BP（SimReal-BP-Public.pdf）。
+
+1. Hi [Name], I'm Charles. Great to connect!
+
+2. We're a team of three 21-year-olds (all born in 2005) building a neolab focused on RL environments and RSI (recursive self-improvement). Three weeks after founding, we've already delivered several million RMB in agent data and expert data orders.
+
+3. A bit about us:
+   - Me (CEO): interned on the fixed income trading desk at Citadel in London
+   - Henry (CTO): Maths at St John's College, Cambridge; ex-Jane Street
+   - Amaris (COO): Duke undergrad; full-time offer from Millennium Hong Kong
+
+4. [SimReal-BP-Public.pdf] Here's our deck. We've also had a Managing Partner at Y Combinator reach out with interest in investing.
+
+5. On the quant side, we're partnering with IMC: using their licensed data, we built Xitadel, the first trading RSI product. It significantly improves models' market-making and trading performance.
