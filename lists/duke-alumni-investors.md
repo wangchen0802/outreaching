@@ -635,6 +635,7 @@ Duke public policy graduate (2002) who spent seven years in the George W. Bush W
 | Henry Yin |  | Duke Law alumnus, corporate lawyer at Loeb & Loeb, not an investor |
 | Joe Wu | MFund (Crunchbase lists it as closed) / Magic Capital (co-founded with Colin Huang and Hongyu Zhang) | Criterion 2 cannot be supported: Crunchbase lists MFund as closed, and no 2025-2026 investments, fund news or current role were found for Magic Capital. His focus is also Chinese internet companies. His Duke degree (Fuqua MBA '04) does qualify. |
 | Juan Pablo Cappello |  | Duke AB 1989, venture lawyer (Private Advising Group), not an investor |
+| Justin Klein |  | Duke '99, MD '04, but Vensana Capital is medtech venture-growth equity (commercial stage), not angel/seed |
 | Kerstin Dittmar |  | Duke '06, but L2 Point Management does late-stage structured investments |
 | Kurt Schmidt | Duke Capital Partners (formerly Duke Angel Network); also Triangle Angel Partners and 7BC Venture Capital | Criterion 1 cannot be supported. The official bio confirms he attended Duke Law, but no source found gives the degree type or the year he completed it, so 'Duke degree completed 2018 or earlier' is unverified. Every other criterion holds and he is a strong institutional route: DCP's mandate fits SimReal through its Duke COO. Recommend a manual check of his Duke Law degree and year (e.g. his LinkedIn), then include as a priority contact if it is confirmed. |
 | Meranee Phing Naaman |  | Duke '98, but The Riverside Company is private equity / buyout |
@@ -644,6 +645,7 @@ Duke public policy graduate (2002) who spent seven years in the George W. Bush W
 | Shaurya Aggarwal | Lightspeed Venture Partners | Fails criterion 3: his role is in Lightspeed's Growth practice and no angel, seed or Series A activity was found. His Duke graduation year is also unconfirmed. Useful at most as a Duke warm route to Lightspeed's seed team. |
 | Sima Sistani |  | Duke T'01, operator (Houseparty, WeightWatchers); no fund or documented angel activity found |
 | Ted Wang | ICONIQ Growth (per snippets); formerly Cowboy Ventures | No evidence that he holds an early-stage decision-making role in 2026. Snippets say he left Cowboy Ventures and is now a Partner at ICONIQ Growth, which is growth-only. He also moved into executive coaching (Stoked Advisors, announced around 2022). His Duke class year is not stated |
+| Tim Schulte |  | Duke BA; Council Capital is healthcare PE/growth and his role is portfolio operations, not deal lead |
 | Todd Creech |  | Fuqua alumnus, but HealthQuest Capital is healthcare growth equity |
 | Zack Scott | Norwest Venture Partners | Criterion 2 is unverified: his 2026 status at Norwest was not confirmed (latest role evidence is the 2022 hiring release). He is also a healthcare-only GP, a clear sector mismatch with SimReal. His Duke credentials (BA 1995, Fuqua MBA 2005) do look valid. |
 | garheng kong |  | HealthQuest Capital is healthcare growth equity, not early stage |
