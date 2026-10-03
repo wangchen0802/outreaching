@@ -8,6 +8,7 @@ Input:  intel/outreach/duke/verify-*.json  (each a list of {batch, enriched, rev
         intel/outreach/duke/edit-*.json  (each a list of per-person display fields from the no-search
                                           edit pass: firm, title, duke, bio, hook, fund_route, linkedin, x)
         intel/outreach/duke/excluded-early.json  (names dropped before verification, with reasons)
+        intel/outreach/duke/manual-check.json  (strong leads that missed a criterion only for lack of a public fact)
 Output: lists/duke-alumni-investors.csv
         lists/duke-alumni-investors.md
 
@@ -287,6 +288,22 @@ def write_md(rows, excluded):
             if r["already_in_simreal_pipeline"]:
                 out.append(f"- **Already in pipeline:** {r['already_in_simreal_pipeline']}")
             out.append("")
+    manual = SRC / "manual-check.json"
+    if manual.exists():
+        out += ["## Worth a manual check", ""]
+        for m in json.load(open(manual, encoding="utf-8")):
+            out.append(f"- **{m['name']}** ({m['firm']}): {m['why']} {m['route']}")
+        out.append("")
+    out += ["## How this was built", "",
+            "- Discovery: three rounds of web search across about 20 angles (Duke networks and boards, rankings, "
+            "Bay Area / East Coast / Southeast firms, fintech, AI-infra and crypto funds, Fuqua and Duke Law "
+            "alumni, women-led and emerging funds, Asia). The last round found no new qualifying names.",
+            "- Verification: one agent per batch checked the Duke degree and year, the 2026 role, stage, deals and "
+            "contacts; a separate fact-checker then tried to refute each record with its own searches.",
+            "- Gaps: Duke I&E, Fuqua and most fund websites block direct access from this environment, so evidence "
+            "is mostly search-result snippets. A firm with no Duke hit is not proof that none of its partners went "
+            "to Duke. Class years are given only when a source states them.",
+            ""]
     if excluded:
         out += ["## Checked and left out", "", "| Name | Firm | Reason |", "|---|---|---|"]
         for e in sorted(excluded, key=lambda e: e["name"]):

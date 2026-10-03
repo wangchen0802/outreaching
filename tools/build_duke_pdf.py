@@ -9,6 +9,7 @@ import argparse
 import csv
 import datetime
 import html
+import json
 import pathlib
 import re
 import subprocess
@@ -99,6 +100,7 @@ def main():
     rows = list(csv.DictReader(open(SRC, encoding="utf-8-sig")))
     excl = excluded_rows()
     n = {f: sum(r["fit"] == f for r in rows) for f in ("High", "Medium", "Low")}
+    n_email = sum(r["email"] != "not found" for r in rows)
     today = datetime.date.today().isoformat()
 
     summary = ["<table class='sum'><tr><th>#</th><th>Name</th><th>Firm</th><th>Title</th><th>Duke</th><th>Fit</th></tr>"]
@@ -113,6 +115,14 @@ def main():
         tier = [r for r in rows if r["fit"] == f]
         if tier:
             sections.append(f"<h2>{f} fit · {len(tier)}</h2>" + "\n".join(card(r) for r in tier))
+
+    manual_html = ""
+    manual = ROOT / "intel" / "outreach" / "duke" / "manual-check.json"
+    if manual.exists():
+        items = json.load(open(manual, encoding="utf-8"))
+        manual_html = ("<h2>Worth a manual check · " + str(len(items)) + "</h2><table class='sum ex'><tr><th>Name</th><th>Firm</th><th>Why</th></tr>"
+                       + "".join(f"<tr><td><b>{e(m['name'])}</b></td><td>{e(m['firm'])}</td><td>{e(m['why'])} {link(m['route'])}</td></tr>" for m in items)
+                       + "</table>")
 
     ex_html = ""
     if excl:
@@ -163,16 +173,18 @@ a {{ color: var(--blue); text-decoration: none; }}
 <div class="facts"><div class="fact"><b>{len(rows)}</b>verified investors</div>
 <div class="fact"><b>{n['High']}</b>high fit (AI infra, data, dev tools, fintech, quant)</div>
 <div class="fact"><b>{n['Medium']} / {n['Low']}</b>medium / low fit</div>
+<div class="fact"><b>{n_email}</b>published personal emails</div>
 <div class="fact"><b>{len(excl)}</b>checked and left out</div></div>
 <ul class="notes">
 <li><b>Who qualifies:</b> a Duke degree (Trinity, Pratt, Fuqua, Law, Med or the Graduate School) finished in 2018 or earlier, plus a 2026 decision-making role (GP, managing or founding partner, MD, investing partner, solo GP, or active angel) at an investor that writes angel to Series A checks.</li>
 <li><b>How it was checked:</b> each person was found by a web sweep, verified against public sources by one agent, and then challenged by a separate fact-checker. Most evidence comes from search-result snippets, because fund websites block direct access from this environment.</li>
-<li><b>Contacts:</b> no personal email is published for anyone on this list. Emails were never guessed from a pattern or taken from data-broker sites. Use the fund's official route, LinkedIn, or a warm intro through Duke (Duke Capital Partners, Duke I&amp;E, DukeGEN).</li>
+<li><b>Contacts:</b> {n_email} people have a personal email that they or their fund published. Everyone else has the fund's official route (pitch inbox or form), LinkedIn or X. Emails were never guessed from a pattern or taken from data-broker sites. A warm intro through Duke (Duke Capital Partners, Duke I&amp;E, DukeGEN) beats a cold email.</li>
 <li><b>Hooks</b> are one-line openers built only from facts with a cited source. Check them before sending.</li>
 </ul>
 <h2>At a glance</h2>
 {''.join(summary)}
 {''.join(sections)}
+{manual_html}
 {ex_html}
 </body></html>"""
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
