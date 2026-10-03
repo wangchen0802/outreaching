@@ -6,7 +6,8 @@ Merges, one row per investor:
 - intel/investors/profiles.json: stage, check size and notes per investor;
 - intel/outreach/seeds.json: the V1 overseas seed list and the non-mainland part of V2;
 - intel/resources/resources.json: investor channels, accelerators and fellowships;
-- intel/investors/enrich.json: optional HQ / type checks for rows whose region was unconfirmed.
+- intel/investors/enrich.json: HQ / type / website / pitch-channel checks for rows whose region was unconfirmed;
+- intel/investors/expand.json: investors found in a later sweep of comparable rounds, each with a source.
 
 Mainland China investors are left out. Funds headquartered in mainland China with a Hong Kong or
 US-dollar arm go to a separate reference sheet.
@@ -39,11 +40,11 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "collateral" / "SimReal-非大陆投资人总表.xlsx"
 OUT_CSV = ROOT / "collateral" / "SimReal-非大陆投资人总表.csv"
 ENRICH = ROOT / "intel" / "investors" / "enrich.json"
+EXPAND = ROOT / "intel" / "investors" / "expand.json"
+CONFIDENCE = {"high": "已核实", "medium": "大致", "low": "存疑"}
 NONE = ("", "未找到", "无", "未确认", "未知", None)
 CJK = re.compile(r"[一-鿿]")
 EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
-OFFICIAL_INBOX = ("pitch@", "seed@", "deals@", "submit@", "apply@", "embed@", "aistart@", "ventures@", "build@",
-                  "strategicvc@", "info@", "hello@", "contact@", "team@", "invest@", "founders@")
 # English-named investors from cap tables that are headquartered in mainland China.
 MAINLAND_EN = {"baicapital", "classin"}
 # Chinese-named investors from cap tables that are not mainland.
@@ -160,7 +161,7 @@ def main():
             if e.get("mainland") is True:
                 ok = False
             elif e.get("region"):
-                ok, region, verified = True, e["region"], "已核实" if e.get("confidence") == "high" else "大致"
+                ok, region, verified = True, e["region"], CONFIDENCE.get(e.get("confidence"), "大致")
             elif name in NON_MAINLAND_CN:
                 ok, region = True, NON_MAINLAND_CN[name]
             elif CJK.search(name) or squash(name) in MAINLAND_EN:
@@ -174,8 +175,17 @@ def main():
         book.add(name, "同类公司反查" if t["status"].startswith("新增") else "审批页", kind=e.get("kind") or t["kind"],
                  region=region, verified=verified, stage=t["stage"], check=t["check"], lead=t["lead"],
                  similar=t["similar"], contact=t["contact"], email=t["email"], website=e.get("website"),
+                 channel=e.get("channel"),
                  note=e.get("note"), group=t["group"] if t["group"] != 1 or t["status"] == "已在审批页" else None,
                  sources=urls(t["sources"]) + (e.get("sources") or []))
+
+    for x in json.loads(EXPAND.read_text(encoding="utf-8")) if EXPAND.exists() else []:
+        if x.get("mainland"):
+            excluded += 1
+            continue
+        book.add(x["name"], "新补充（2026-10）", kind=x["kind"], region=x["region"],
+                 verified=CONFIDENCE.get(x.get("confidence"), "大致"), stage=x.get("stage"), similar=x.get("backed"),
+                 website=x.get("website"), channel=x.get("channel"), note=x.get("note"), sources=x.get("sources") or [])
 
     seeds = json.loads((ROOT / "intel" / "outreach" / "seeds.json").read_text(encoding="utf-8"))
     for s in seeds["V1"]:
@@ -225,7 +235,7 @@ def main():
         return (0 if r.get("card") else 1, GROUP_RANK.get(r.get("group"), 3), has_email, r["name"].lower())
 
     rows = sorted(book.rows, key=order)
-    cols = [("序号", 6), ("机构 / 投资人", 28), ("类型", 10), ("地区", 18), ("地区已核实", 9), ("分组", 8),
+    cols = [("序号", 6), ("机构 / 投资人", 28), ("类型", 10), ("地区", 18), ("地区已核实", 9), ("官网", 26), ("分组", 8),
             ("阶段", 22), ("单笔金额", 24), ("是否领投", 22), ("投过的同类公司", 34), ("联系人", 22), ("职位", 18),
             ("公开邮箱", 28), ("邮箱类型", 10), ("邮箱来源", 36), ("备用渠道（表单 / 基金邮箱）", 36), ("开场钩子 / 匹配理由", 60),
             ("备注", 40), ("审批页卡片", 18), ("出处", 20), ("来源链接", 60)]
@@ -235,7 +245,7 @@ def main():
         hook = r.get("hook") or r.get("angle") or ""
         note = "；".join(x for x in [r.get("note"), r.get("risk") and "风险：" + r["risk"]] if x)
         table.append([n, r["name"], r.get("kind") or "", r.get("region") or "", r.get("verified") or "",
-                      GROUP_LABEL.get(r.get("group"), ""), r.get("stage") or "", r.get("check") or "",
+                      r.get("website") or "", GROUP_LABEL.get(r.get("group"), ""), r.get("stage") or "", r.get("check") or "",
                       r.get("lead") or "", r.get("similar") or "", r.get("contact") or "未找到", r.get("title") or "",
                       email, ekind, esrc, r.get("channel") or "", hook, note, r.get("card") or "",
                       "、".join(r["srcs"]), "\n".join(r["sources"][:6])])
@@ -249,20 +259,24 @@ def main():
                                      ("匹配理由", 60), ("来源", 50)], reference)
     sheet(wb, "找更多投资人", [("名单 / 平台", 40), ("地区", 20), ("内容", 50), ("怎么用", 50), ("来源", 50)], platforms)
 
-    with_email = sum(1 for t in table if t[12] != "未找到")
-    personal = sum(1 for t in table if t[13] == "个人公开")
-    unverified = sum(1 for t in table if t[4] == "否")
+    added = sum(1 for r in rows if "新补充（2026-10）" in r["srcs"])
+    with_email = sum(1 for t in table if t[13] != "未找到")
+    personal = sum(1 for t in table if t[14] == "个人公开")
+    unverified = sum(1 for t in table if t[4] in ("否", "存疑"))
     ws = wb.create_sheet("说明")
     notes = [
-        f"共 {len(table)} 家非中国大陆投资人（VC、天使、战略投资、加速器），都是之前调研里查到过的；其中有公开邮箱 {with_email} 家，"
+        f"共 {len(table)} 家非中国大陆投资人（VC、天使、战略投资、加速器）：之前调研查到的 {len(table) - added} 家，加上 2026-10 补查的 {added} 家。"
+        f"其中有公开邮箱 {with_email} 家"
         f"（本人邮箱 {personal} 家，机构投递邮箱 {with_email - personal} 家），已在审批页、有写好邮件的 {sum(1 for t in table if t[19])} 家。另有加速器与早期项目 {len(programs)} 个，"
         f"大陆机构的境外/美元基金 {len(reference)} 家（参考），找更多投资人的名单和平台 {len(platforms)} 个。",
         f"已排除中国大陆机构 {excluded} 家。香港、新加坡、台湾和其他海外机构都算在内。",
-        "排序：审批页里已有邮件的排最前（A 组 → B 组 → C 组，有邮箱的在前），然后是从同类公司融资记录反查出来的。",
-        f"'地区已核实'为'否'的 {unverified} 家来自同类公司的融资新闻，名字是英文，但总部地区还没逐一核实。",
+        "排序：审批页里已有邮件的排最前（A 组 → B 组 → C 组，有邮箱的在前），其余按名称排；用'出处'列可以筛选来源。",
+        "'地区已核实'：是 = 之前调研时已核实；已核实 / 大致 / 存疑 = 2026-10 补查时的把握程度（大致 = 根据公开资料和常识判断，没有逐条找到官网原文）。"
+        f"还没把握的（否 / 存疑）{unverified} 家。",
         "邮箱只列本人或所在机构公开发布的地址，'邮箱来源'列写了出处；没有按格式猜，也没有用数据经纪网站。查不到写'未找到'。",
         "出处：审批页 = 已写好冷邮件的 148 家投资人卡片；同类公司反查 = 从 50 多家同类公司（RL 环境、评测、专家数据）的融资记录里找到的投资人；"
-        "海外种子名单 / 投资人档案 / 资源清单 = 之前几轮调研的结果。",
+        "海外种子名单 / 投资人档案 / 资源清单 = 之前几轮调研的结果；"
+        f"新补充（2026-10）= 这次按同类公司融资记录和 AI 早期基金补查到的 {added} 家，每家附来源，并由第二个调研员复核过。",
         "导入 Google 表格：打开 drive.google.com → 新建 → 文件上传，选这个 xlsx → 上传后右键 → 打开方式 → Google 表格。"
         "或者在 sheets.new 里 文件 → 导入 → 上传。",
     ]
@@ -289,7 +303,9 @@ def pick_email(r):
         found = EMAIL.findall(r.get(field) or "")
         if found:
             e = found[0]
-            kind = "机构投递" if field == "channel" or e.lower().startswith(OFFICIAL_INBOX) else "个人公开"
+            local = e.lower().split("@")[0]
+            person = (r.get("contact") or "").lower()
+            kind = "个人公开" if field == "email" and len(local) > 2 and local in person else "机构投递"
             src = r.get("emailSource") if field == "email" and not blank(r.get("emailSource")) else r.get(field)
             return e, kind, src or ""
     return "未找到", "", ""

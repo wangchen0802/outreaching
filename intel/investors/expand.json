@@ -1,0 +1,1393 @@
+[
+ {
+  "name": "DST Global",
+  "mainland": false,
+  "region": "海外（全球，多地办公）",
+  "kind": "VC",
+  "website": "https://dst-global.com",
+  "channel": "",
+  "note": "Yuri Milner 创立的全球成长期基金；参投 Mercor 1 亿美元 B 轮（2025-02，Felicis 领投）；本轮未检索，凭已知信息判断",
+  "confidence": "medium",
+  "sources": [
+   "https://sacra.com/c/mercor/",
+   "https://techcrunch.com/2025/02/20/mercor-an-ai-recruiting-startup-founded-by-21-year-olds-raises-100m-at-2b-valuation/"
+  ],
+  "backed": "Mercor B轮 $100M 跟投（2025-02）",
+  "stage": "Growth / 中后期",
+  "checked": true
+ },
+ {
+  "name": "Khazanah Nasional",
+  "mainland": false,
+  "region": "海外（马来西亚，吉隆坡）",
+  "kind": "其他",
+  "website": "https://www.khazanah.com.my",
+  "channel": "",
+  "note": "马来西亚主权财富基金；领投 Turing 1.11 亿美元 E 轮（2025-03）；本轮未检索，凭已知信息判断",
+  "confidence": "medium",
+  "sources": [
+   "https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi",
+   "https://sacra.com/c/turing/"
+  ],
+  "backed": "Turing E轮 $111M 领投（2025-03）",
+  "stage": "Growth",
+  "checked": true
+ },
+ {
+  "name": "Freestyle Capital (Freestyle VC)",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://freestyle.vc",
+  "channel": "",
+  "note": "种子期 VC；已核实以新投资人身份参投 Invisible Technologies 1 亿美元轮（2025-09，Vanara Capital 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://invisibletech.ai/fundraise",
+   "https://www.pymnts.com/news/artificial-intelligence/2025/invisible-technologies-raises-100-million-for-ai-software-platform/",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "backed": "Invisible Technologies $100M 轮（2025-09，Vanara 领投）",
+  "stage": "Seed（亦跟投后期）",
+  "checked": true
+ },
+ {
+  "name": "Backed VC",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://backed.vc",
+  "channel": "",
+  "note": "伦敦早期 VC；已核实为 Invisible Technologies 既有投资人并跟投 1 亿美元轮（2025-09）",
+  "confidence": "high",
+  "sources": [
+   "https://invisibletech.ai/fundraise",
+   "https://www.pymnts.com/news/artificial-intelligence/2025/invisible-technologies-raises-100-million-for-ai-software-platform/",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "backed": "Invisible Technologies 老股东，$100M 轮跟投（2025-09）",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Rocketeer Management",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "PitchBook/Crunchbase 记为旧金山的投资机构，目前已知仅 1 笔投资；已核实参投 Invisible Technologies 1 亿美元轮（2025-09）；团队与官网未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://invisibletech.ai/fundraise",
+   "https://www.pymnts.com/news/artificial-intelligence/2025/invisible-technologies-raises-100-million-for-ai-software-platform/",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://pitchbook.com/profiles/investor/992478-97",
+   "https://www.crunchbase.com/organization/rocketeer-management"
+  ],
+  "backed": "Invisible Technologies $100M 轮（2025-09）",
+  "stage": "未知",
+  "checked": true
+ },
+ {
+  "name": "Tallwoods Capital",
+  "mainland": false,
+  "region": "海外（美国，佛罗里达州迈阿密海滩）",
+  "kind": "其他",
+  "website": "",
+  "channel": "",
+  "note": "前 Melvin Capital 创始人 Gabe Plotkin 2022 年创立的单一家族办公室，主投公开股票并做少量私募投资，不接受外部资金；已核实参投 Invisible Technologies 1 亿美元轮（2025-09）",
+  "confidence": "high",
+  "sources": [
+   "https://invisibletech.ai/fundraise",
+   "https://www.pymnts.com/news/artificial-intelligence/2025/invisible-technologies-raises-100-million-for-ai-software-platform/",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://tallwoodscap.com/principal",
+   "https://altss.com/profile/tallwoods-capital"
+  ],
+  "backed": "Invisible Technologies $100M 轮（2025-09）",
+  "stage": "未知",
+  "checked": true
+ },
+ {
+  "name": "BY Ventures",
+  "mainland": false,
+  "region": "海外（待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "已核实为 Invisible Technologies 既有投资人并跟投 1 亿美元轮（2025-09）；机构总部与背景未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://invisibletech.ai/fundraise",
+   "https://www.pymnts.com/news/artificial-intelligence/2025/invisible-technologies-raises-100-million-for-ai-software-platform/",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "backed": "Invisible Technologies 老股东跟投（2025-09）",
+  "stage": "未知",
+  "checked": true
+ },
+ {
+  "name": "Coatue",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "资管/对冲",
+  "website": "https://www.coatue.com",
+  "channel": "",
+  "note": "Philippe Laffont 创立的科技对冲/成长基金；已核实联合领投 Handshake 2 亿美元 F 轮（2022）。Crunchbase 系数据另记 Adaptive ML「A 轮」（2024-03-01，含 Coatue、Anorak、Mayfield、Moonshots、Norrsken），但 Adaptive ML 官方只公布过 2000 万美元种子轮，该记录疑为同名公司数据错配",
+  "confidence": "medium",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f",
+   "https://startupintros.com/orgs/adaptive-ml"
+  ],
+  "backed": "Adaptive ML A轮 $20M（2024-03，Index 领投）",
+  "stage": "Seed–Growth",
+  "checked": true
+ },
+ {
+  "name": "Anorak Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Greg Castle 的种子基金，偏 AI/机器人/元宇宙；与 Adaptive ML 的关联仅见于 Crunchbase 系「A 轮」记录（Adaptive ML 官方只公布过种子轮），疑为数据错配，未核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://www.vcsheet.com/fund/anorak-ventures"
+  ],
+  "backed": "Adaptive ML A轮 $20M（2024-03）",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Moonshots Capital",
+  "mainland": false,
+  "region": "海外（美国，洛杉矶）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "由退伍军人创办、投领导力型创始人的早期基金；与 Adaptive ML 的关联仅见于 Crunchbase 系「A 轮」记录，疑为数据错配，未核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml"
+  ],
+  "backed": "Adaptive ML A轮 $20M（2024-03）",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Norrsken VC",
+  "mainland": false,
+  "region": "海外（瑞典，斯德哥尔摩）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Klarna 联合创始人 Niklas Adalberth 发起的影响力 VC；与 Adaptive ML 的关联仅见于 Crunchbase 系「A 轮」记录，疑为数据错配，未核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://www.vcsheet.com/fund/norrsken-vc"
+  ],
+  "backed": "Adaptive ML A轮 $20M（2024-03）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "UC Investments（加州大学投资办公室）",
+  "mainland": false,
+  "region": "海外（美国，加州奥克兰）",
+  "kind": "其他",
+  "website": "",
+  "channel": "",
+  "note": "加州大学捐赠/养老金投资办公室；与 a16z 联合领投 LMArena 1 亿美元种子轮（2025-05），并与 Felicis 联合领投 1.5 亿美元 A 轮（2026-01）；本轮未检索，凭已知信息与给定来源判断",
+  "confidence": "medium",
+  "sources": [
+   "https://news.lmarena.ai/series-a/",
+   "https://siliconangle.com/2026/01/06/ai-evaluation-startup-lmarena-raises-150m-1-7b-valuation/"
+  ],
+  "backed": "LMArena 种子 $100M（2025-05，与 a16z 联合领投）；A轮 $150M（2026-01，与 Felicis 联合领投）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Xavier Niel",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "法国电信 Iliad/Free 创始人，Kima Ventures 出资人；已核实列于 Adaptive ML 投资人名单——应为 2000 万美元种子轮（2024-03），不是 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/",
+   "https://www.businesswire.com/news/home/20240312461522/en/Adaptive-ML-Raises-$20M-to-Help-Companies-Build-Unique-GenAI-Experiences"
+  ],
+  "backed": "Adaptive ML A轮（2024-03）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Olivier Pomel",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Datadog 联合创始人兼 CEO；已核实列于 Adaptive ML 投资人名单（应为 2024-03 种子轮，不是 A 轮）；Adaptive ML 已于 2026 年 6 月被 Datadog 收购",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/",
+   "https://www.businesswire.com/news/home/20240312461522/en/Adaptive-ML-Raises-$20M-to-Help-Companies-Build-Unique-GenAI-Experiences"
+  ],
+  "backed": "Adaptive ML A轮（2024-03）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Tri Dao",
+  "mainland": false,
+  "region": "海外（美国，普林斯顿）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "FlashAttention 作者、普林斯顿助理教授、Together AI 首席科学家；已核实列于 Adaptive ML 投资人名单（应为 2024-03 种子轮，不是 A 轮）",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/adaptive-f6c0-series-a--29a8fe43",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/",
+   "https://www.businesswire.com/news/home/20240312461522/en/Adaptive-ML-Raises-$20M-to-Help-Companies-Build-Unique-GenAI-Experiences"
+  ],
+  "backed": "Adaptive ML A轮（2024-03）",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Chris Manning",
+  "mainland": false,
+  "region": "海外（美国，斯坦福）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "斯坦福 NLP 教授（Judgment Labs CEO Alex Shan 曾在其组内做研究）；已核实以天使身份参投 Judgment Labs 3200 万美元种子+A 轮（2026-05，Lightspeed 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://www.morningstar.com/news/business-wire/20260512621556/judgment-labs-closes-32m-in-seed-and-series-a-funding-to-build-the-continuous-improvement-layer-for-ai-agents",
+   "https://pulse2.com/judgment-labs-closes-32-million-in-seed-and-series-a-funding-to-build-improvement-layer-for-ai-agents/",
+   "https://x.com/tbuzzdaily/status/2056215038399042008",
+   "https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents"
+  ],
+  "backed": "Judgment Labs 种子+A轮 共 $32M（2026-05 公布，Lightspeed 领投）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "John Schulman",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "OpenAI 联合创始人，现任 Thinking Machines；已核实以天使身份参投 Prime Intellect 1.3 亿美元 A 轮（2026-07，Radical Ventures 领投，估值 10 亿美元）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html",
+   "https://en.wikipedia.org/wiki/Prime_Intellect",
+   "https://x.com/AndrewCurran_/status/2074900928814289176",
+   "https://www.intelcapital.com/prime-intellect-raises-130m-series-a-to-build-the-open-superintelligence-stack/"
+  ],
+  "backed": "Prime Intellect A轮 $130M（2026-07，Radical Ventures 领投）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Karim Atiyeh",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Ramp 联合创始人兼 CTO；已核实以天使身份参投 Prime Intellect A 轮（2026-07）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html",
+   "https://en.wikipedia.org/wiki/Prime_Intellect",
+   "https://x.com/AndrewCurran_/status/2074900928814289176",
+   "https://www.intelcapital.com/prime-intellect-raises-130m-series-a-to-build-the-open-superintelligence-stack/"
+  ],
+  "backed": "Prime Intellect A轮 $130M（2026-07）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Aaron Levie",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Box 联合创始人兼 CEO；已核实以天使身份参投 Prime Intellect A 轮（2026-07）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html",
+   "https://en.wikipedia.org/wiki/Prime_Intellect",
+   "https://x.com/AndrewCurran_/status/2074900928814289176",
+   "https://www.intelcapital.com/prime-intellect-raises-130m-series-a-to-build-the-open-superintelligence-stack/"
+  ],
+  "backed": "Prime Intellect A轮 $130M（2026-07）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Harrison Chase",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "LangChain 联合创始人兼 CEO；已核实以天使身份参投 Prime Intellect A 轮（2026-07）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html",
+   "https://en.wikipedia.org/wiki/Prime_Intellect",
+   "https://x.com/AndrewCurran_/status/2074900928814289176",
+   "https://www.intelcapital.com/prime-intellect-raises-130m-series-a-to-build-the-open-superintelligence-stack/"
+  ],
+  "backed": "Prime Intellect A轮 $130M（2026-07）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Matthew Prince",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Cloudflare 联合创始人兼 CEO；已核实以天使身份参投 Prime Intellect A 轮（2026-07）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/07/prime-intellect-raises-130m-in-series-a-funding.html",
+   "https://en.wikipedia.org/wiki/Prime_Intellect",
+   "https://x.com/AndrewCurran_/status/2074900928814289176",
+   "https://www.intelcapital.com/prime-intellect-raises-130m-series-a-to-build-the-open-superintelligence-stack/"
+  ],
+  "backed": "Prime Intellect A轮 $130M（2026-07）",
+  "stage": "Seed–A",
+  "checked": true
+ },
+ {
+  "name": "Premise VC",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "前 NEA 合伙人 Vanessa Larco 与前 Lightspeed 合伙人 Mercedes Bent 2026 年创立的新基金，单笔 50-300 万美元，投 pre-seed/种子期 AI 原生技术型创始人；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "high",
+  "sources": [
+   "https://www.sky9capital.com/blog/blog-pre-seed-investors-ai-startups-2026/",
+   "https://fundmomentum.vc/blog/category/fund-announcements",
+   "https://fundmomentum.vc/blog/premise-vc-larco-bent-pre-seed-seed-fund-launch-2026"
+  ],
+  "backed": "新基金；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "AI Seed",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://aiseedfund.com",
+  "channel": "",
+  "note": "伦敦专投 AI 的种子基金，已推出 Fund II；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://aiseedfund.com/news/ai-seed-launches-fund-ii/"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Cleo Ventures",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "巴黎 pre-seed/种子基金，2026 年 5 月推出 3000 万欧元 Fund II，专投欧洲 AI 原生公司，单笔 30-100 万欧元；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "high",
+  "sources": [
+   "https://www.vestbee.com/insights/articles/vc-funds-raised-in-q3-2026",
+   "https://fundmomentum.vc/blog/category/fund-announcements",
+   "https://www.vestbee.com/insights/articles/cleo-ventures-raises-30-m",
+   "https://fundmomentum.vc/blog/cleo-ventures-fund-ii-30m-paris-ai-pre-seed-trailblazers-club-2026"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Vanagon Ventures",
+  "mainland": false,
+  "region": "海外（德国，慕尼黑）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2023 年由 Sandro Stark、Susanne Fromm、Axel Roitzsch 创立的慕尼黑 pre-seed/种子基金，2026 年 1 月完成 2000 万欧元 Fund I 终关，投 AI 原生与深科技 B2B 创始人；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "high",
+  "sources": [
+   "https://www.vestbee.com/insights/articles/vc-funds-raised-in-q3-2026",
+   "https://fundmomentum.vc/blog/category/fund-announcements",
+   "https://www.eu-startups.com/2026/01/munichs-vanagon-ventures-secures-e20-million-to-target-europes-pre-seed-deeptech-and-ai-gap/",
+   "https://tech.eu/2026/01/19/vanagon-ventures-closes-eur20m-fund-i-to-back-deeptech-startups/"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "DFF Ventures",
+  "mainland": false,
+  "region": "海外（欧洲，荷兰，待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "欧洲 pre-seed 基金，2026 年推出 7000 万欧元 Fund III；荷兰总部未核实；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.eu-startups.com/2026/04/dff-ventures-e70-million-fund-iii-signals-strong-european-pre-seed-investment-trends-in-2026/"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Project Ventures",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "与帝国理工学院相关的 580 万欧元首期基金（2026-09），投深科技与 AI；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.eu-startups.com/2026/09/project-ventures-debuts-e5-8-million-fund-targeting-deeptech-and-ai-startups-linked-to-imperial-college-london"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "White Star Capital",
+  "mainland": false,
+  "region": "海外（加拿大/美国/英国/法国多地）",
+  "kind": "VC",
+  "website": "https://whitestarcapital.com",
+  "channel": "",
+  "note": "跨大西洋早期/成长期 VC（蒙特利尔、纽约、伦敦、巴黎等）；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.vestbee.com/insights/articles/vc-funds-raised-in-q3-2026",
+   "https://fundmomentum.vc/blog/category/fund-announcements"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Series A / B",
+  "checked": true
+ },
+ {
+  "name": "Elaia",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "VC",
+  "website": "https://www.elaia.com",
+  "channel": "",
+  "note": "巴黎深科技/数字科技早期 VC；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.vestbee.com/insights/articles/vc-funds-raised-in-q3-2026",
+   "https://fundmomentum.vc/blog/category/fund-announcements"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Concept Ventures",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://www.concept.vc",
+  "channel": "",
+  "note": "伦敦 pre-seed 基金，ElevenLabs 早期投资方；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://sifted.eu/articles/concept-ventures-raises-pre-seed-fund-88m",
+   "https://concept.vc/news/concept-raises-50m-fund"
+  ],
+  "backed": "ElevenLabs 早期（pre-seed）；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Seedcamp",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://seedcamp.com",
+  "channel": "",
+  "note": "欧洲老牌种子基金；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seedcamp",
+   "https://www.peony.ink/blog/pre-seed-seed-investors-uk"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Conception X",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "加速器",
+  "website": "https://www.conceptionx.org",
+  "channel": "官网项目申请：https://www.conceptionx.org/",
+  "note": "面向博士/研究者的深科技创业项目；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.conceptionx.org/",
+   "https://www.peony.ink/blog/pre-seed-seed-investors-uk"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed（项目制）",
+  "checked": true
+ },
+ {
+  "name": "SGInnovate",
+  "mainland": false,
+  "region": "海外（新加坡）",
+  "kind": "其他",
+  "website": "https://www.sginnovate.com",
+  "channel": "",
+  "note": "新加坡政府支持的深科技投资与创业平台；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.ellty.com/investors/singapore-ai-investors"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed–A",
+  "checked": true
+ },
+ {
+  "name": "Cosmos Ventures",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Brendan McCord 与 Matt Mandel 依托 Cosmos Institute 推出的 7760 万美元 Fund I（2026-09），投「哲学家-建造者」型 AI 创始人；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "high",
+  "sources": [
+   "https://miketorro.substack.com/p/33-new-early-stage-vc-funds-that",
+   "https://fundmomentum.vc/blog/category/fund-announcements",
+   "https://fundmomentum.vc/blog/cosmos-ventures-77-6m-fund-i-philosopher-builders-2026"
+  ],
+  "backed": "新基金；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "BAG Ventures",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2026-09 完成首期 Fund I，由 150 位运营者支持，投企业级 AI 创始人；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://globenewswire.com/news-release/2026/09/30/3372297/0/en/bag-ventures-closes-inaugural-fund-i-on-the-strength-of-150-operators-supporting-enterprise-ai-founders.html"
+  ],
+  "backed": "新基金；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Activate",
+  "mainland": false,
+  "region": "海外（印度，待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "名称有歧义：新早期基金榜单中的「Activate」应为 Aakrit Vaish 与前 Together Fund 合伙人 Pratyush Choudhury 设立的 1.05 亿美元 AI 基金（印度，从构想阶段投 AI 原生创始人），而非美国能源/工业成长基金 Activate Capital（Fund III 后 AUM 超 10 亿美元）；地区由美国改为印度，待核实；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "low",
+  "sources": [
+   "https://miketorro.substack.com/p/33-new-early-stage-vc-funds-that",
+   "https://fundmomentum.vc/blog/category/fund-announcements"
+  ],
+  "backed": "新基金；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed（idea 阶段）",
+  "checked": true
+ },
+ {
+  "name": "224 Ventures",
+  "mainland": false,
+  "region": "海外（待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "新基金，AUM 1 亿美元、244 位 AI 从业者 LP，由 Shaun Johnson 牵头，Yann LeCun、Oriol Vinyals 参与；总部未核实；尚未确认其在 SimReal 赛道的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://miketorro.substack.com/p/33-new-early-stage-vc-funds-that",
+   "https://fundmomentum.vc/blog/category/fund-announcements"
+  ],
+  "backed": "新基金；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Khosla Ventures",
+  "mainland": false,
+  "region": "海外（美国，Menlo Park）",
+  "kind": "VC",
+  "website": "https://www.khoslaventures.com",
+  "channel": "",
+  "note": "Vinod Khosla 创立的早中期 VC，2019 年投资 OpenAI；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.khoslaventures.com"
+  ],
+  "backed": "OpenAI（2019）；本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed–Growth",
+  "checked": true
+ },
+ {
+  "name": "Contrary",
+  "mainland": false,
+  "region": "海外（美国，旧金山/纽约）",
+  "kind": "VC",
+  "website": "https://contrary.com",
+  "channel": "",
+  "note": "依托大学生/年轻人才网络的早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://contrary.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Amplify Partners",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.amplifypartners.com",
+  "channel": "",
+  "note": "专注技术型创始人与开发者/数据基础设施的早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.amplifypartners.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Theory Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://theory.ventures",
+  "channel": "",
+  "note": "Tomasz Tunguz 创立的早期基金，偏 AI/数据；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://theory.ventures"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "First Round Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山/纽约）",
+  "kind": "VC",
+  "website": "https://firstround.com",
+  "channel": "",
+  "note": "老牌种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://firstround.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Initialized Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://initialized.com",
+  "channel": "",
+  "note": "Garry Tan 与 Alexis Ohanian 创立的种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://initialized.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Unusual Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.unusual.vc",
+  "channel": "",
+  "note": "种子/A 轮企业软件 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.unusual.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Hustle Fund",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.hustlefund.vc",
+  "channel": "",
+  "note": "pre-seed 基金，出手快、支票小；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.hustlefund.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Precursor Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://precursorvc.com",
+  "channel": "",
+  "note": "Charles Hudson 的 pre-seed 基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://precursorvc.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Floodgate",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.floodgate.com",
+  "channel": "",
+  "note": "老牌种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.floodgate.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Weekend Fund",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "https://weekend.fund",
+  "channel": "",
+  "note": "Ryan Hoover 的 pre-seed/种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://weekend.fund"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "CRV",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区/波士顿）",
+  "kind": "VC",
+  "website": "https://www.crv.com",
+  "channel": "",
+  "note": "老牌早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.crv.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Z Fellows",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "加速器",
+  "website": "https://www.zfellows.com",
+  "channel": "官网在线申请：https://www.zfellows.com",
+  "note": "为极早期技术创始人提供小额资金与网络的 fellowship；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.zfellows.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed（fellowship）",
+  "checked": true
+ },
+ {
+  "name": "Thiel Fellowship",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "其他",
+  "website": "https://thielfellowship.org",
+  "channel": "官网在线申请：https://thielfellowship.org",
+  "note": "Peter Thiel 设立的 10 万美元 fellowship（Mercor 三位创始人均为 Thiel Fellow）；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://thielfellowship.org"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed（fellowship）",
+  "checked": true
+ },
+ {
+  "name": "1517 Fund",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "https://www.1517fund.com",
+  "channel": "",
+  "note": "专投辍学/年轻创始人的 pre-seed 基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.1517fund.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Dorm Room Fund",
+  "mainland": false,
+  "region": "海外（美国，多所高校）",
+  "kind": "VC",
+  "website": "https://www.dormroomfund.com",
+  "channel": "",
+  "note": "学生运营的种子基金（First Round 支持）；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.dormroomfund.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "HF0",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "加速器",
+  "website": "https://www.hf0.com",
+  "channel": "",
+  "note": "旧金山驻留式 AI 加速器；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.hf0.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed（驻场）",
+  "checked": true
+ },
+ {
+  "name": "AIX Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.aixventures.com",
+  "channel": "",
+  "note": "由 AI 研究者/从业者任合伙人的 AI 早期基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.aixventures.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Kima Ventures",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "VC",
+  "website": "https://www.kima.vc",
+  "channel": "",
+  "note": "Xavier Niel 出资、出手极多的种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.kima.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "LocalGlobe",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://localglobe.vc",
+  "channel": "",
+  "note": "伦敦老牌种子基金（旗下有 Latitude 成长基金）；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://localglobe.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Balderton Capital",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://www.balderton.com",
+  "channel": "",
+  "note": "伦敦老牌 A 轮为主的 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.balderton.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Northzone",
+  "mainland": false,
+  "region": "海外（瑞典/英国）",
+  "kind": "VC",
+  "website": "https://northzone.com",
+  "channel": "",
+  "note": "北欧/伦敦老牌早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://northzone.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Creandum",
+  "mainland": false,
+  "region": "海外（瑞典，斯德哥尔摩）",
+  "kind": "VC",
+  "website": "https://www.creandum.com",
+  "channel": "",
+  "note": "北欧早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.creandum.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Cherry Ventures",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.cherry.vc",
+  "channel": "",
+  "note": "柏林种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.cherry.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Point Nine",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.pointnine.com",
+  "channel": "",
+  "note": "柏林 B2B SaaS/AI 种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.pointnine.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Kindred Capital",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://kindredcapital.vc",
+  "channel": "",
+  "note": "伦敦种子基金，创始人共享收益模式；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://kindredcapital.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Firstminute Capital",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://www.firstminute.capital",
+  "channel": "",
+  "note": "伦敦种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.firstminute.capital"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Fly Ventures",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.fly.vc",
+  "channel": "",
+  "note": "柏林技术型种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.fly.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Speedinvest",
+  "mainland": false,
+  "region": "海外（奥地利，维也纳）",
+  "kind": "VC",
+  "website": "https://www.speedinvest.com",
+  "channel": "",
+  "note": "维也纳泛欧早期基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.speedinvest.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Playfair Capital",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://playfair.vc",
+  "channel": "",
+  "note": "伦敦 pre-seed 基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://playfair.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed",
+  "checked": true
+ },
+ {
+  "name": "Moonfire Ventures",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "https://www.moonfire.com",
+  "channel": "",
+  "note": "伦敦数据驱动型种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.moonfire.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "La Famiglia",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.lafamiglia.vc",
+  "channel": "",
+  "note": "柏林早期基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.lafamiglia.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Visionaries Club",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.visionariesclub.com",
+  "channel": "",
+  "note": "柏林 B2B 早期基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.visionariesclub.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed–Growth",
+  "checked": true
+ },
+ {
+  "name": "Earlybird Venture Capital",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://earlybird.com",
+  "channel": "",
+  "note": "德国老牌早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://earlybird.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Plural",
+  "mainland": false,
+  "region": "海外（英国/爱沙尼亚）",
+  "kind": "VC",
+  "website": "https://www.plural.vc",
+  "channel": "",
+  "note": "由 Wise 联合创始人 Taavet Hinrikus 等创立的欧洲基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.plural.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "20VC",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Harry Stebbings 的基金（同名播客）；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.thetwentyminutevc.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Monk's Hill Ventures",
+  "mainland": false,
+  "region": "海外（新加坡）",
+  "kind": "VC",
+  "website": "https://www.monkshill.com",
+  "channel": "",
+  "note": "东南亚 A 轮为主的技术 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.monkshill.com"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Insignia Ventures Partners",
+  "mainland": false,
+  "region": "海外（新加坡）",
+  "kind": "VC",
+  "website": "https://www.insignia.vc",
+  "channel": "",
+  "note": "东南亚早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.insignia.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "East Ventures",
+  "mainland": false,
+  "region": "海外（新加坡/印尼）",
+  "kind": "VC",
+  "website": "https://east.vc",
+  "channel": "",
+  "note": "东南亚老牌早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://east.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Kakao Ventures",
+  "mainland": false,
+  "region": "海外（韩国，首尔）",
+  "kind": "VC",
+  "website": "https://www.kakao.vc",
+  "channel": "",
+  "note": "Kakao 旗下早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.kakao.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / Pre-A",
+  "checked": true
+ },
+ {
+  "name": "Coral Capital",
+  "mainland": false,
+  "region": "海外（日本，东京）",
+  "kind": "VC",
+  "website": "https://coralcap.co",
+  "channel": "",
+  "note": "东京种子基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://coralcap.co"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "TLV Partners",
+  "mainland": false,
+  "region": "海外（以色列，特拉维夫）",
+  "kind": "VC",
+  "website": "https://www.tlv.partners",
+  "channel": "",
+  "note": "以色列种子/早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.tlv.partners"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed",
+  "checked": true
+ },
+ {
+  "name": "Team8",
+  "mainland": false,
+  "region": "海外（以色列，特拉维夫）",
+  "kind": "VC",
+  "website": "https://team8.vc",
+  "channel": "",
+  "note": "以色列创投工作室+VC，偏网络安全/数据/AI；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://team8.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Pre-seed / Seed",
+  "checked": true
+ },
+ {
+  "name": "Aleph",
+  "mainland": false,
+  "region": "海外（以色列，特拉维夫）",
+  "kind": "VC",
+  "website": "https://aleph.vc",
+  "channel": "",
+  "note": "以色列早期 VC；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://aleph.vc"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ },
+ {
+  "name": "Together Fund",
+  "mainland": false,
+  "region": "海外（印度/美国）",
+  "kind": "VC",
+  "website": "https://www.together.fund",
+  "channel": "",
+  "note": "Freshworks 创始人 Girish Mathrubootham 等设立的 AI/SaaS 早期基金；尚未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "confidence": "medium",
+  "sources": [
+   "https://www.together.fund"
+  ],
+  "backed": "本次检索未确认其在 SimReal 赛道（RL 环境/评测/专家数据）的具体投资",
+  "stage": "Seed / A",
+  "checked": true
+ }
+]

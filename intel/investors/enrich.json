@@ -1,0 +1,1954 @@
+{
+ "11.2 Capital": {
+  "name": "11.2 Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.112capital.com",
+  "channel": "",
+  "note": "2014 年成立的旧金山早期 VC，创始合伙人 Shelley Zhuang；投 AI、网络安全、量子、机器人、数据驱动医疗等前沿技术，曾投 Cruise、Hinge Health；参与 Collinear AI 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/organization/collinear-ai",
+   "https://johngannonblog.com/venture-capital-jobs-in-san-francisco/vc-principal-11-2-capital-in-san-francisco-ca/",
+   "https://venturecapitalarchive.com/venture-funds/11-2-capital-112capital-com",
+   "https://www.linkedin.com/company/eleven-two-capital"
+  ]
+ },
+ "Amino Capital": {
+  "name": "Amino Capital",
+  "mainland": false,
+  "region": "海外（美国，帕洛阿尔托）",
+  "kind": "VC",
+  "website": "https://www.aminocapital.com",
+  "channel": "bp@aminocapital.com（BP 投递邮箱，见官网 https://www.aminocapital.com/contact ，据搜索摘要）",
+  "note": "2012 年成立的硅谷 VC（原名 ZPark Venture），管理规模超 10 亿美元，投 pre-seed 到 B 轮，偏数据/AI，曾投 Rippling、Webflow、Replit；参与 Turing E 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html",
+   "https://www.aminocapital.com/",
+   "https://www.aminocapital.com/contact",
+   "https://www.vcsheet.com/fund/amino-capital"
+  ]
+ },
+ "Batch Ventures": {
+  "name": "Batch Ventures",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "https://www.batch.ventures/",
+  "channel": "",
+  "note": "2024 年成立的社区型基金，运营 YC Fund（投 YC 前 10% 公司，单笔 10-30 万美元，48 小时决策）和 CTO Fund（约 60 位 CTO/VPE 出资）；已核实参与 Halluminate 种子轮（YC S25，同轮有 Antigravity Capital、Orange Collective、Transpose 等）；总部城市未核实",
+  "confidence": "high",
+  "sources": [
+   "https://www.caplight.com/company/halluminate",
+   "https://www.batch.ventures/",
+   "https://www.crunchbase.com/organization/batch-ventures"
+  ],
+  "checked": true
+ },
+ "Chan Zuckerberg Initiative": {
+  "name": "Chan Zuckerberg Initiative",
+  "mainland": false,
+  "region": "海外（美国，加州雷德伍德城）",
+  "kind": "其他",
+  "website": "https://chanzuckerberg.com",
+  "channel": "",
+  "note": "扎克伯格夫妇的慈善/影响力 LLC，侧重科学、教育，偶尔做股权投资；已核实参投 Handshake 2 亿美元 F 轮（2022，Coatue 与 Valiant Peregrine 领投）；非传统 VC，无公开投递渠道",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "Cooley": {
+  "name": "Cooley",
+  "mainland": false,
+  "region": "海外（美国，帕洛阿尔托）",
+  "kind": "其他",
+  "website": "https://www.cooley.com",
+  "channel": "",
+  "note": "美国大型律所（科技/VC 领域），偶尔以律所投资主体小额跟投客户融资；出现在 Snorkel AI C 轮投资方中（仅凭 Snorkel 官方博客，未另行核实）；非 VC，更适合作为法律顾问而非投资方",
+  "confidence": "medium",
+  "sources": [
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/"
+  ],
+  "checked": true
+ },
+ "Deepwater Asset Management": {
+  "name": "Deepwater Asset Management",
+  "mainland": false,
+  "region": "海外（美国，明尼阿波利斯）",
+  "kind": "VC",
+  "website": "https://deepwatermgmt.com",
+  "channel": "",
+  "note": "Gene Munster、Doug Clinton 等 2017 年创立（前身 Loup Ventures），横跨风投与二级市场的前沿科技投资平台，管理规模超 5 亿美元，风投投 Pre-Seed 到 A 轮；参与 Invisible Technologies 1 亿美元融资",
+  "confidence": "high",
+  "sources": [
+   "https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform",
+   "https://www.privateequityinternational.com/institution-profiles/deepwater-asset-management.html",
+   "https://www.startribune.com/deepwater-asset-management-minneapolis-gene-munster-now-hot-on-frontier-tech/600296232"
+  ]
+ },
+ "Engineering Capital": {
+  "name": "Engineering Capital",
+  "mainland": false,
+  "region": "海外（美国，硅谷）",
+  "kind": "VC",
+  "website": "https://www.engineeringcapital.com",
+  "channel": "",
+  "note": "Ashmeet Sidana 2015 年创立的技术型种子基金（AUM 约 1.5 亿美元），专投有深度技术壁垒的 B2B 基础设施：数据基础设施、系统软件、AI、企业安全，常领投种子轮；参与 Collinear AI 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/organization/collinear-ai",
+   "https://www.engineeringcapital.com/team",
+   "https://www.vcsheet.com/fund/engineering-capital",
+   "https://superscout.co/investor/engineering-capital"
+  ]
+ },
+ "Every": {
+  "name": "Every",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "其他",
+  "website": "https://every.to",
+  "channel": "",
+  "note": "Dan Shipper 创办的 AI 媒体/产品公司 Every，内部孵化 Good Start Labs（训练 AI 玩游戏，种子轮 360 万美元）；是孵化方而非 VC 基金",
+  "confidence": "medium",
+  "sources": [
+   "https://every.to/on-every/our-new-incubation-raised-3-6-million-to-teach-ais-to-play-games",
+   "https://tracxn.com/d/companies/goodstartlabs/__nJ4evVrro2f8gwXOvfUnRpGfpHMUoajTP2yHl7_QVRo/funding-and-investors"
+  ],
+  "checked": true
+ },
+ "FT Partners": {
+  "name": "FT Partners",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "其他",
+  "website": "https://www.ftpartners.com",
+  "channel": "",
+  "note": "Financial Technology Partners，旧金山金融科技投行/顾问，偶有跟投；2026 年 10 月参与 Halluminate 3000 万美元 A 轮（Oak HC/FT 领投，金融领域 RL 环境）",
+  "confidence": "high",
+  "sources": [
+   "https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/",
+   "https://www.thesaasnews.com/news/halluminate-raises-30m-series-a/",
+   "https://en.wikipedia.org/wiki/Financial_Technology_Partners"
+  ]
+ },
+ "Greylock": {
+  "name": "Greylock",
+  "mainland": false,
+  "region": "海外（美国，门洛帕克）",
+  "kind": "VC",
+  "website": "https://greylock.com",
+  "channel": "",
+  "note": "老牌硅谷 VC，种子到成长期，企业软件/AI 重仓；Snorkel AI A 轮领投方并持续跟投 C 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.cbinsights.com/research/snorkel-ai-series-c-funding/",
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/"
+  ],
+  "checked": true
+ },
+ "ICONIQ": {
+  "name": "ICONIQ",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.iconiqcapital.com",
+  "channel": "",
+  "note": "ICONIQ（家族财富管理 + ICONIQ Growth 成长基金），以成长期为主但也参与 AI 大额种子轮；已核实与 Index 共同投资巴黎 Adaptive ML 2000 万美元种子轮（2024-03；Adaptive ML 已于 2026 年 6 月被 Datadog 收购）",
+  "confidence": "high",
+  "sources": [
+   "https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/"
+  ],
+  "checked": true
+ },
+ "Jack Dorsey": {
+  "name": "Jack Dorsey",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Twitter、Block 联合创始人，个人天使；已核实参与 Mercor 3000 万美元 A 轮（2024-09，Benchmark 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Kyle Vogt (Cruise founder, angel)": {
+  "name": "Kyle Vogt (Cruise founder, angel)",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Cruise、Twitch 联合创始人，现创办机器人公司 The Bot Company；已核实以个人身份参与 Origin Lab 800 万美元种子轮（2026-05，Lightspeed 领投；Origin Lab 把授权游戏世界做成世界模型训练数据）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html",
+   "https://finance.yahoo.com/sectors/technology/articles/origin-lab-raises-8m-seed-233100359.html",
+   "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/"
+  ],
+  "checked": true
+ },
+ "Liam Fedus": {
+  "name": "Liam Fedus",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "前 OpenAI 后训练负责人，Periodic Labs 联合创始人兼 CEO；已核实以天使身份参与编码数据公司 Proximal 1500 万美元种子轮（2026-09，General Catalyst 领投，估值 3 亿美元）",
+  "confidence": "high",
+  "sources": [
+   "https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest",
+   "https://www.finsmes.com/2026/09/proximal-raises-usd15m-in-funding-at-usd300m-valuation.html",
+   "https://www.globalstartupsinsights.com/funding/new-york/proximal-emerges-from-stealth-with-15m-funding-at-300m-valuation/"
+  ],
+  "checked": true
+ },
+ "Nat Friedman": {
+  "name": "Nat Friedman",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "https://nat.org",
+  "channel": "",
+  "note": "前 GitHub CEO，与 Daniel Gross 合作 NFDG 基金，2025 年起加入 Meta 超级智能实验室；活跃 AI 天使，参与 Mechanize（RL 环境/工作自动化）种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"
+  ],
+  "checked": true
+ },
+ "Next Ladder Ventures": {
+  "name": "Next Ladder Ventures",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "其他",
+  "website": "https://www.nextladder.com/",
+  "channel": "",
+  "note": "NextLadder Ventures：Ballmer Group、盖茨基金会、Stand Together、Valhalla、John Overdeck 联合发起的 10 亿美元+ 慈善型风投，Anthropic 为首个 AI 合作方，投提升经济流动性的科技；出现在 Vals AI A 轮，实体对应未完全核实",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2026/08/vals-ai-raises-40m-in-series-a-funding-at-400m-valuation.html",
+   "https://www.gatesfoundation.org/ideas/media-center/press-releases/2025/07/nextladder-ventures-economic-mobility",
+   "https://www.prnewswire.com/news-releases/nextladder-ventures-announces-co-founder-leadership-team-investment-focus-areas-for-over-1-billion-initiative-empowering-americans-with-personalized-tech-enabled-support-tools-302764095.html"
+  ],
+  "checked": true
+ },
+ "One Way Ventures": {
+  "name": "One Way Ventures",
+  "mainland": false,
+  "region": "海外（美国，波士顿）",
+  "kind": "VC",
+  "website": "https://www.onewayvc.com",
+  "channel": "",
+  "note": "专投移民创始人的早期 VC（种子/A 轮）；参与 Sepal AI pre-seed（仅 Crunchbase 来源）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a"
+  ],
+  "checked": true
+ },
+ "Pioneer Fund": {
+  "name": "Pioneer Fund",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.pioneerfund.vc",
+  "channel": "",
+  "note": "由 540+ 位 YC 校友出资的基金（2017 年成立，800+ 笔投资），主投 YC 公司（批次前/中/后均可），也投非 YC 公司；参与 Datacurve pre-seed",
+  "confidence": "high",
+  "sources": [
+   "https://profiles.crustdata.com/company/datacurve-yc-w24",
+   "https://www.crunchbase.com/organization/pioneer-fund",
+   "https://www.pioneerfund.vc/careers"
+  ]
+ },
+ "Protocol Labs": {
+  "name": "Protocol Labs",
+  "mainland": false,
+  "region": "海外（美国，旧金山；远程团队）",
+  "kind": "战略投资",
+  "website": "https://protocol.ai",
+  "channel": "",
+  "note": "IPFS/Filecoin 背后的研发机构，做去中心化计算/AI 方向战略投资；参与 Prime Intellect 550 万美元种子轮（CoinFund、Distributed Global 领投）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "Ryan Merket": {
+  "name": "Ryan Merket",
+  "mainland": false,
+  "region": "海外（美国，可能在得州奥斯汀）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "早期 Facebook 员工、前 Reddit PM，自 2012 年起天使投资 100+ 家公司；Signal NFX 显示为 Comal Ventures 管理合伙人；参与 Datacurve pre-seed；所在城市未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://profiles.crustdata.com/company/datacurve-yc-w24",
+   "https://signal.nfx.com/investors/ryan-merket",
+   "https://www.okwu.edu/news/2023/02/ryan-merket-angel-investor-alumni/",
+   "https://www.crunchbase.com/funding_round/datacurve-476e-pre-seed--54a605c9"
+  ],
+  "checked": true
+ },
+ "Seaplane Ventures": {
+  "name": "Seaplane Ventures",
+  "mainland": false,
+  "region": "海外（美国，奥斯汀）",
+  "kind": "VC",
+  "website": "https://www.seaplaneventures.com/",
+  "channel": "",
+  "note": "Joe Magyer 2022 年创立的奥斯汀种子基金，集中持仓，偏网络效应+经常性收入模式的美国公司，不投硬件/生科；参与 micro1 3500 万美元 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/",
+   "https://www.seaplaneventures.com/",
+   "https://superscout.co/investor/seaplane-ventures"
+  ]
+ },
+ "Sholto Douglas": {
+  "name": "Sholto Douglas",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Anthropic 研究员（RL 扩展方向），前 Google DeepMind Gemini 团队；个人天使，参与 Mechanize 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"
+  ],
+  "checked": true
+ },
+ "Sozo Ventures": {
+  "name": "Sozo Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区 / 日本，东京）",
+  "kind": "VC",
+  "website": "https://www.sozoventures.com",
+  "channel": "",
+  "note": "Phil Wickham 与中村幸一郎 2012 年创立的美日跨境 VC（AUM 约 17 亿美元），以 B 轮后成长期为主，帮助公司进入日本市场；参与 Turing E 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html",
+   "https://www.sozoventures.com/about/",
+   "https://signal.nfx.com/firms/sozo-ventures"
+  ]
+ },
+ "Swish Ventures": {
+  "name": "Swish Ventures",
+  "mainland": false,
+  "region": "海外（以色列，特拉维夫）",
+  "kind": "VC",
+  "website": "https://www.swish.vc/",
+  "channel": "",
+  "note": "以色列首位 NBA 球员 Omri Casspi 创立的早期 VC（三期基金合计约 8 亿美元），投以色列/美国的网络安全、云基础设施和 AI；参与以色列前沿 AI 安全实验室 Irregular 8000 万美元融资",
+  "confidence": "high",
+  "sources": [
+   "https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/",
+   "https://www.citybiz.co/article/746110/irregular-raises-80-million/",
+   "https://finder.startupnationcentral.org/investor_page/swish-ventures",
+   "https://www.jpost.com/business-and-innovation/article-880041"
+  ]
+ },
+ "True Ventures": {
+  "name": "True Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山 / 帕洛阿尔托）",
+  "kind": "VC",
+  "website": "https://trueventures.com",
+  "channel": "",
+  "note": "以种子/早期为主的硅谷 VC，长期持有并跟投；Handshake 早期投资方，已核实参与其 2 亿美元 F 轮（2022）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "WestBridge Capital": {
+  "name": "WestBridge Capital",
+  "mainland": false,
+  "region": "海外（印度，班加罗尔 / 美国硅谷 / 毛里求斯）",
+  "kind": "VC",
+  "website": "https://westbridgecap.com/",
+  "channel": "",
+  "note": "2000 年成立、约 70 亿美元常青基金的印度向成长期投资机构，A 轮到 IPO；合伙人 Sumir Chadha 任 Turing 董事，WestBridge 参与 Turing D/E 轮",
+  "confidence": "high",
+  "sources": [
+   "https://tracxn.com/d/companies/turing/__bsYFKMgtiGqFroe-LC60IsybQOYBXGHuW--LOtZ3q5Q/funding-and-investors",
+   "https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html",
+   "https://westbridgecap.com/",
+   "https://westbridgeadvisors.com/sumir-chadha"
+  ]
+ },
+ "186 Ventures": {
+  "name": "186 Ventures",
+  "mainland": false,
+  "region": "海外（美国，波士顿）",
+  "kind": "VC",
+  "website": "https://186ventures.com",
+  "channel": "",
+  "note": "波士顿 pre-seed/种子基金，由 DraftKings 校友 Giuseppe Stuto、Julian Fialkow 于 2021 年创立，首期 3700 万美元；投企业软件/金融科技/未来工作，参投 Sepal AI pre-seed",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a",
+   "https://www.forbes.com/sites/rebeccaszkutak/2022/01/19/draftkings-alumni-launch-186-ventures-a-37-million-early-stage-fund/",
+   "https://www.finsmes.com/2022/01/186-ventures-closes-first-fund-at-37m.html",
+   "https://venturecapitalarchive.com/venture-funds/186-ventures-186ventures-com"
+  ]
+ },
+ "Andrej Karpathy (angel)": {
+  "name": "Andrej Karpathy (angel)",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "https://karpathy.ai",
+  "channel": "",
+  "note": "OpenAI 联合创始人、前 Tesla AI 总监、Eureka Labs 创始人；个人天使，参投 Prime Intellect（2025 年 1500 万美元轮）与 Veris AI（RL/智能体训练环境）；本轮未再次检索核实",
+  "confidence": "medium",
+  "sources": [
+   "https://www.chaincatcher.com/en/article/2170192",
+   "https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption"
+  ],
+  "checked": true
+ },
+ "Bloomberg Beta": {
+  "name": "Bloomberg Beta",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.bloombergbeta.com",
+  "channel": "无官方投递表单；其公开的 Operating Manual（https://github.com/Bloomberg-Beta/Manual）说明建议先找共同联系人引荐，冷邮件需先做足功课",
+  "note": "Bloomberg 出资的早期基金（种子为主），专注「未来的工作」与机器智能；投了 Vals AI 种子与 A 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://sacra.com/c/vals-ai/",
+   "https://www.finsmes.com/2026/08/vals-ai-raises-40m-in-series-a-funding-at-400m-valuation.html",
+   "https://github.com/Bloomberg-Beta/Manual/blob/main/1%20-%20Manual.md"
+  ],
+  "checked": true
+ },
+ "Chris Re": {
+  "name": "Chris Re",
+  "mainland": false,
+  "region": "海外（美国，斯坦福/帕洛阿尔托）",
+  "kind": "天使",
+  "website": "https://cs.stanford.edu/~chrismre/",
+  "channel": "",
+  "note": "斯坦福计算机系教授，Snorkel AI、SambaNova、Together AI 联合创始人；已核实个人参投 Mercor 3000 万美元 A 轮（2024-09）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Cory Levy": {
+  "name": "Cory Levy",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "https://www.zfellows.com",
+  "channel": "Z Fellows 项目在官网公开接受申请（https://www.zfellows.com）",
+  "note": "Z Fellows 联合创始人、活跃天使投资人，偏好极早期技术创始人；已核实列于 micro1 投资人名单（3500 万美元 A 轮，01 Advisors 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/",
+   "https://startupintros.com/orgs/micro1",
+   "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/"
+  ],
+  "checked": true
+ },
+ "Dream Ventures VC": {
+  "name": "Dream Ventures VC",
+  "mainland": false,
+  "region": "海外（美国，拉斯维加斯）",
+  "kind": "VC",
+  "website": "https://www.linkedin.com/company/dream-venturesvc",
+  "channel": "",
+  "note": "2016 年由 Annie Evans 创立的早期基金；2023 年由 Aryan Bhatnagar 领投 micro1 300 万美元 pre-seed，已核实列于 micro1 投资人名单；总部城市未再次核实",
+  "confidence": "high",
+  "sources": [
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/",
+   "https://signal.nfx.com/investors/aryan-b",
+   "https://startupintros.com/orgs/dream-ventures",
+   "https://multiples.vc/private-comps/micro1",
+   "https://startupintros.com/orgs/micro1",
+   "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/"
+  ],
+  "checked": true
+ },
+ "Entrepreneur First": {
+  "name": "Entrepreneur First",
+  "mainland": false,
+  "region": "海外（英国，伦敦）",
+  "kind": "加速器",
+  "website": "https://www.joinef.com",
+  "channel": "官网公开申请入口（https://www.joinef.com）",
+  "note": "伦敦起家的「人才投资」孵化器，在创始人组队前投资个人，覆盖伦敦/旧金山/班加罗尔等地；投了 AgileRL（RL 训练框架）种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://x.com/join_ef/status/2008928173950439872",
+   "https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html"
+  ],
+  "checked": true
+ },
+ "Factorial Capital": {
+  "name": "Factorial Capital",
+  "mainland": false,
+  "region": "海外（美国，纽约布鲁克林）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "前 Betaworks 管理合伙人 Matt Hartman 于 2022 年创立，专投技术型 AI/企业软件创始人，pre-seed/种子首投约 50 万美元，2024 年二期 2500 万美元；投了 Patronus AI 种子与 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/patronus-ai-launches-out-of-stealth-to-help-enterprises-deploy-large-language-models-safely-301927641.html",
+   "https://www.prnewswire.com/news-releases/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale-302152825.html",
+   "https://pulse2.com/patronus-ai-3-million-funding/",
+   "https://www.aicerts.ai/news/factorials-25m-startup-venture-fund-targets-ai-builders/",
+   "https://www.vcsheet.com/fund/factorial-capital"
+  ]
+ },
+ "GGV Capital": {
+  "name": "GGV Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "VC",
+  "website": "https://www.notablecap.com",
+  "channel": "",
+  "note": "2024 年拆分：美国团队更名为 Notable Capital（旧金山），亚洲团队为 Granite Asia（新加坡），两者均非大陆；Handshake F 轮（2022）投资方名单中现记为 Notable Capital（美国团队，Hans Tung）；Notable 亦投了 Patronus AI",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://www.prnewswire.com/news-releases/patronus-ai-raises-17-million-to-detect-llm-mistakes-at-scale-302152825.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/"
+  ],
+  "checked": true
+ },
+ "Heavybit": {
+  "name": "Heavybit",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.heavybit.com",
+  "channel": "",
+  "note": "专注开发者工具/基础设施的早期基金（种子到 A 轮）；已核实作为既有投资人参投 Halluminate 3000 万美元 A 轮（2026-10，Oak HC/FT 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://cryptobriefing.com/halluminate-raises-30m-ai-finance-training/",
+   "https://fortune.com/2026/10/01/halluminate-raises-30-million-series-a-oakhc-ft/",
+   "https://www.thesaasnews.com/news/halluminate-raises-30m-series-a/"
+  ],
+  "checked": true
+ },
+ "Idris Mokhtarzada (Rocket Money, angel)": {
+  "name": "Idris Mokhtarzada (Rocket Money, angel)",
+  "mainland": false,
+  "region": "海外（美国，华盛顿特区一带）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Rocket Money（原 Truebill）联合创始人兼 CEO；个人参投 Veris AI 种子轮；常驻城市未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://www.businesswire.com/news/home/20250603868539/en/Veris-AI-Emerges-from-Stealth-with-$8.5M-to-Train-AI-Agents-Using-Simulated-Experience-Removing-Roadblocks-to-Enterprise-Adoption"
+  ],
+  "checked": true
+ },
+ "Joe Lallouz (Coinbase, angel)": {
+  "name": "Joe Lallouz (Coinbase, angel)",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Bison Trails 创始人（2021 年被 Coinbase 收购）、前 Coinbase 高管；个人参投 Prime Intellect 种子轮；常驻城市未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "Larry Summers": {
+  "name": "Larry Summers",
+  "mainland": false,
+  "region": "海外（美国，马萨诸塞州剑桥）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "前美国财长、哈佛大学教授，前 OpenAI 董事（2025 年 11 月辞任）；已核实个人参投 Mercor A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Liquid 2 Ventures": {
+  "name": "Liquid 2 Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.liquid2.vc",
+  "channel": "",
+  "note": "Joe Montana 等创立的种子基金，大量投 YC 公司；已核实参投 HUD 1600 万美元 A 轮（Standard Capital 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://www.hud.ai/blog/announcing-16m-series-a"
+  ],
+  "checked": true
+ },
+ "Naval Ravikant": {
+  "name": "Naval Ravikant",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "https://nav.al",
+  "channel": "",
+  "note": "AngelList 联合创始人、知名天使投资人；参投 Matrices 种子轮（单一来源，未再次核实）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.vcbacked.co/company/matrices"
+  ],
+  "checked": true
+ },
+ "Northside Ventures": {
+  "name": "Northside Ventures",
+  "mainland": false,
+  "region": "海外（加拿大，多伦多）",
+  "kind": "VC",
+  "website": "https://northsideventures.medium.com",
+  "channel": "",
+  "note": "多伦多 pre-seed 基金（2023 年成立，首期 1500 万加元），在\"创立之初\"投资加拿大创始人，关注 AI 基础设施/前沿科技；投 Datacurve pre-seed 并跟投 1500 万美元 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://profiles.crustdata.com/company/datacurve-yc-w24",
+   "https://northsideventures.medium.com/northside-ventures-has-secured-final-close-for-fund-i-to-back-canadian-founders-at-inception-1d7fe335a07f",
+   "https://www.founderstoday.news/northside-ventures-closes-15m-fund/",
+   "https://superscout.co/investor/northside-ventures"
+  ]
+ },
+ "Pareto Holdings": {
+  "name": "Pareto Holdings",
+  "mainland": false,
+  "region": "海外（美国，迈阿密）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Edward Lando 与 Jon Oringer 创立的超级天使/自有资金投资平台，专做 pre-seed、出手极快；已核实列于 micro1 投资人名单",
+  "confidence": "high",
+  "sources": [
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/",
+   "https://hub.waveup.com/funds/pareto-holdings",
+   "https://www.vcsheet.com/who/edward-lando",
+   "https://startupintros.com/orgs/micro1",
+   "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/"
+  ],
+  "checked": true
+ },
+ "Plug and Play": {
+  "name": "Plug and Play",
+  "mainland": false,
+  "region": "海外（美国，加州桑尼维尔）",
+  "kind": "加速器",
+  "website": "https://www.plugandplaytechcenter.com",
+  "channel": "",
+  "note": "全球性创新平台/加速器，兼做早期投资，连接大企业客户；参投 Turing E 轮（2025-03，Khazanah 领投）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html"
+  ],
+  "checked": true
+ },
+ "QBE Ventures": {
+  "name": "QBE Ventures",
+  "mainland": false,
+  "region": "海外（澳大利亚，悉尼）",
+  "kind": "战略投资",
+  "website": "",
+  "channel": "",
+  "note": "澳大利亚保险集团 QBE 的企业风投（CVC），投保险/数据/AI 相关公司；参投 Snorkel AI D 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html",
+   "https://coverager.com/company/qbe-ventures/"
+  ],
+  "checked": true
+ },
+ "Samsung": {
+  "name": "Samsung",
+  "mainland": false,
+  "region": "海外（韩国，首尔）",
+  "kind": "战略投资",
+  "website": "",
+  "channel": "",
+  "note": "三星集团（Patronus 新闻未写明是 Samsung Next 还是 Samsung Ventures）；参投 Patronus AI 5000 万美元 B 轮（2026-06）；另已核实 Samsung Next 参投 Gray Swan 4000 万美元 A 轮（2026-06）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+   "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+   "https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html"
+  ],
+  "checked": true
+ },
+ "SEE Fund": {
+  "name": "SEE Fund",
+  "mainland": true,
+  "region": "中国大陆（北京/天津）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "无限基金 SEE Fund，2021 年由清华电子系与清华天津电子信息研究院推动设立，创始人姚颂（深鉴科技联合创始人），投硬科技早期；投了光轮智能天使轮——属大陆机构，应剔除",
+  "confidence": "high",
+  "sources": [
+   "https://36kr.com/p/2360485049124737",
+   "https://www.36kr.com/p/1118194727514113",
+   "https://www.ee.tsinghua.edu.cn/info/1375/3052.htm",
+   "https://baike.baidu.com/item/%E6%97%A0%E9%99%90%E5%9F%BA%E9%87%91SEE%20Fund/67356968"
+  ]
+ },
+ "SID Venture Partners": {
+  "name": "SID Venture Partners",
+  "mainland": false,
+  "region": "海外（乌克兰）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2021 年由乌克兰 IT 公司 Sigma Software、Ideasoft、Datrics 高管创立的早期基金，单笔 10-40 万美元，GP 含 NEAR 联合创始人 Illia Polosukhin；参投 Sepal AI 种子轮；注册地可能在美国，未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://tracxn.com/d/companies/sepal-ai/__FS5Kt1wvJBc0c-Er0ClPRtWQ3E4L3vuadJ-02OWv7z8/funding-and-investors",
+   "https://superscout.co/investor/sid-venture-partners",
+   "https://investormatch.pro/vcs/sid-venture-partners"
+  ],
+  "checked": true
+ },
+ "Spark Capital": {
+  "name": "Spark Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山/波士顿/纽约）",
+  "kind": "VC",
+  "website": "https://www.sparkcapital.com",
+  "channel": "",
+  "note": "老牌早期到成长期 VC，投过 Anthropic、Twitter 等；已核实参投（非领投）Handshake 2 亿美元 F 轮（2022，Coatue 与 Valiant Peregrine 领投）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "Team Ignite Ventures": {
+  "name": "Team Ignite Ventures",
+  "mainland": false,
+  "region": "海外（美国，北加州）",
+  "kind": "VC",
+  "website": "https://www.teamignite.vc",
+  "channel": "",
+  "note": "Brian Bell 领导的 pre-seed/种子基金，只投 YC 公司（每批前 10%），出手极活跃；参投 Halluminate 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.caplight.com/company/halluminate",
+   "https://www.teamignite.vc/",
+   "https://www.globenewswire.com/news-release/2025/04/22/3065691/0/en/Team-Ignite-Celebrates-30-Investments-and-Multiple-Series-A-Successes-with-Inaugural-YC-Focused-Fund.html",
+   "https://superscout.co/investor/team-ignite-ventures"
+  ]
+ },
+ "Twenty Two Ventures": {
+  "name": "Twenty Two Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2017 年成立的种子/早期基金，偏 SaaS、开发者工具、开源与金融科技；已核实参投 HUD A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.hud.ai/blog/announcing-16m-series-a",
+   "https://startupintros.com/orgs/twenty-two-ventures",
+   "https://tracxn.com/d/venture-capital/twentytwoventures/__GOzGWdADQXzdW3i5-ikxH7n5NGrWVETo8UdpOFHtp8M"
+  ],
+  "checked": true
+ },
+ "Y Combinator Continuity": {
+  "name": "Y Combinator Continuity",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.ycombinator.com/continuity",
+  "channel": "只投 YC 校友公司的后续轮；早期公司入口为 YC 官方申请 https://www.ycombinator.com/apply",
+  "note": "YC 的成长期基金，跟投 YC 校友公司后期轮；参投 AfterQuery（专家数据）新一轮（来源为加密新闻站，未核实；AfterQuery A 轮新闻稿仅写 Y Combinator）",
+  "confidence": "medium",
+  "sources": [
+   "https://phemex.com/news/article/ycbacked-afterquery-raises-new-funding-at-32-billion-valuation-95269",
+   "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation"
+  ],
+  "checked": true
+ },
+ "468 Capital": {
+  "name": "468 Capital",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.468cap.com",
+  "channel": "",
+  "note": "柏林早期基金（Florian Leibert 等创立），偏 AI/开发者基础设施，种子期投资 Cua",
+  "confidence": "medium",
+  "sources": [
+   "https://www.rl-list.com/vendors/cua",
+   "https://tracxn.com/d/companies/cua-ai/__o8YYWID0aTrulrJn7F3L4KMrye__2TwaEKHVrhpDFjY"
+  ],
+  "checked": true
+ },
+ "Antigravity Capital": {
+  "name": "Antigravity Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://antigravity.capital/",
+  "channel": "",
+  "note": "2022年成立的true-seed基金（GP Gadi Borovich、Daniel Ha），专投AI原生公司（AI基础设施、Agent），种子投资Halluminate",
+  "confidence": "high",
+  "sources": [
+   "https://antigravity.capital/",
+   "https://superscout.co/investor/antigravity-capital",
+   "https://www.caplight.com/company/halluminate"
+  ]
+ },
+ "BNY": {
+  "name": "BNY",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "战略投资",
+  "website": "https://www.bny.com",
+  "channel": "",
+  "note": "纽约梅隆银行（BNY），以战略投资者身份参投 Snorkel AI D 轮（1 亿美元）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html"
+  ],
+  "checked": true
+ },
+ "Clem Delangue (Hugging Face, angel)": {
+  "name": "Clem Delangue (Hugging Face, angel)",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "天使",
+  "website": "https://huggingface.co",
+  "channel": "",
+  "note": "Hugging Face 联合创始人兼 CEO，活跃 AI 天使，投过 Prime Intellect、Factory(factory.ai) 等；另通过 HuggingFund by Factorial 参与 Adaptive ML 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect",
+   "https://www.chaincatcher.com/en/article/2170192",
+   "https://factory.ai/news/announcing-our-5m-fundraise"
+  ],
+  "checked": true
+ },
+ "Daniel Gross": {
+  "name": "Daniel Gross",
+  "mainland": false,
+  "region": "海外（美国，湾区）",
+  "kind": "天使",
+  "website": "https://dcgross.com",
+  "channel": "",
+  "note": "前 YC 合伙人、Pioneer 创始人，与 Nat Friedman 共管 NFDG，联合创办 SSI 后于 2025 年加入 Meta；种子投资 Mechanize",
+  "confidence": "medium",
+  "sources": [
+   "https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round"
+  ],
+  "checked": true
+ },
+ "Dynamic": {
+  "name": "Dynamic",
+  "mainland": false,
+  "region": "海外（美国，未核实）",
+  "kind": "其他",
+  "website": "",
+  "channel": "",
+  "note": "已核实名列 Judgment Labs 3200 万美元种子+A 轮参投方（Lightspeed 领投，Nova Global、SV Angel、Valor 跟投），但机构身份、官网与总部均未能确认；需人工核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents",
+   "https://x.com/tbuzzdaily/status/2056215038399042008",
+   "https://pulse2.com/judgment-labs-closes-32-million-in-seed-and-series-a-funding-to-build-improvement-layer-for-ai-agents/"
+  ],
+  "checked": true
+ },
+ "EQT Ventures": {
+  "name": "EQT Ventures",
+  "mainland": false,
+  "region": "海外（瑞典，斯德哥尔摩）",
+  "kind": "VC",
+  "website": "https://eqtventures.com",
+  "channel": "",
+  "note": "EQT 集团旗下欧洲 VC，种子至成长期，覆盖欧美科技公司；已核实参投 Handshake 2 亿美元 F 轮（2022）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "Factory": {
+  "name": "Factory",
+  "mainland": false,
+  "region": "海外（美国，未核实具体城市）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "AI 方向风险基金（与编程 Agent 公司 factory.ai 无关）；已核实参投 Together AI 2000 万美元种子轮（Lux 领投）及其后续 1.06 亿美元轮，并作为既有投资人跟投 Snorkel AI；官网与总部未核实",
+  "confidence": "medium",
+  "sources": [
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/",
+   "https://www.together.ai/blog/seed-funding",
+   "https://startupintros.com/orgs/snorkel-ai"
+  ],
+  "checked": true
+ },
+ "Global Founders Capital": {
+  "name": "Global Founders Capital",
+  "mainland": false,
+  "region": "海外（德国，柏林）",
+  "kind": "VC",
+  "website": "https://www.globalfounders.vc",
+  "channel": "",
+  "note": "Samwer 兄弟（Rocket Internet）设立的全球早期基金，覆盖 pre-seed 至成长期；参投 Sepal AI pre-seed（仅 Crunchbase 来源）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a"
+  ],
+  "checked": true
+ },
+ "HOF Capital": {
+  "name": "HOF Capital",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "VC",
+  "website": "https://www.hofvc.com",
+  "channel": "",
+  "note": "纽约跨阶段 VC，投资 AI 与消费/企业科技；已核实参投 Invisible Technologies 1 亿美元轮（2025-09，Vanara Capital 领投，估值 20 亿美元）",
+  "confidence": "high",
+  "sources": [
+   "https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform",
+   "https://invisibletech.ai/fundraise",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "checked": true
+ },
+ "Inception Studio": {
+  "name": "Inception Studio",
+  "mainland": false,
+  "region": "海外（美国，湾区）",
+  "kind": "加速器",
+  "website": "https://www.inceptionstudio.org/",
+  "channel": "",
+  "note": "面向连续创业者的501(c)(3)非营利AI加速器（四天retreat、零股权，John Whaley创办），关联基金Inception Studio Capital投了Scorecard种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.inceptionstudio.org/en/about/",
+   "https://pitchbook.com/profiles/investor/597145-15",
+   "https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster"
+  ]
+ },
+ "Juniper Ventures": {
+  "name": "Juniper Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://juniperventures.xyz/",
+  "channel": "",
+  "note": "专注AI安全/AI assurance的早期VC（2024年首支基金，二期获DNV出资），投Goodfire、Gray Swan、Haize Labs，种子投资Andon Labs",
+  "confidence": "high",
+  "sources": [
+   "https://juniperventures.xyz/",
+   "https://juniper.xyz/",
+   "https://www.dnv.com/news/2026/juniper-fund2/",
+   "https://www.gritt.io/company/andonlabs/"
+  ]
+ },
+ "Latitude Capital": {
+  "name": "Latitude Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山，待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "已核实名列 AfterQuery 3000 万美元 A 轮（2026-04，Altos 领投）参投方；机构身份疑为 2024 年成立、投资美国软件/AI 的旧金山机构（Preqin），勿与 LocalGlobe 旗下伦敦 Latitude 混淆",
+  "confidence": "medium",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260409469482/en/AfterQuery-Raises-$30-Million-Series-A-Round-at-$300-Million-Valuation",
+   "https://www.preqin.com/data/profile/fund-manager/latitude-capital/619668",
+   "https://www.finsmes.com/2026/04/afterquery-raises-30m-in-series-a-funding.html"
+  ],
+  "checked": true
+ },
+ "Magarac Venture Partners (existing investor)": {
+  "name": "Magarac Venture Partners (existing investor)",
+  "mainland": false,
+  "region": "海外（美国，匹兹堡）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "匹兹堡早期 VC，与 CMU 生态联系紧密；已核实为 Gray Swan AI 既有投资人并跟投其 4000 万美元 A 轮（2026-06，Wing 与 Madrona 联合领投）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html",
+   "https://www.madrona.com/gray-swan-series-a/",
+   "https://x.com/tbuzzdaily/status/2061416410383806782"
+  ],
+  "checked": true
+ },
+ "NEA": {
+  "name": "NEA",
+  "mainland": false,
+  "region": "海外（美国，门洛帕克/马里兰州切维蔡斯）",
+  "kind": "VC",
+  "website": "https://www.nea.com",
+  "channel": "",
+  "note": "New Enterprise Associates，老牌全阶段 VC，大量 AI 投资；称参投 Mercor 早期轮次，但 Mercor A 轮公开名单（Benchmark 领投，General Catalyst、Thiel、Dorsey、D'Angelo、Summers、Chris Re 等）中未见 NEA，此关联未核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Nova Global": {
+  "name": "Nova Global",
+  "mainland": false,
+  "region": "海外（美国，旧金山，待核实）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "已核实名列 Judgment Labs 种子/A 轮参投方；具体实体未确认，候选为旧金山 NOVA Global Ventures（novagv.com，AI 种子期）或 Tracxn 所列同名机构",
+  "confidence": "low",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents",
+   "https://tracxn.com/d/venture-capital/nova-global/__yvleW-vH_OGdtFbcRz5cjAmAK14tz7ajttxOfSm52LQ",
+   "https://novagv.com/",
+   "https://x.com/tbuzzdaily/status/2056215038399042008",
+   "https://pulse2.com/judgment-labs-closes-32-million-in-seed-and-series-a-funding-to-build-improvement-layer-for-ai-agents/"
+  ],
+  "checked": true
+ },
+ "Paul Graham": {
+  "name": "Paul Graham",
+  "mainland": false,
+  "region": "海外（英国）",
+  "kind": "天使",
+  "website": "https://paulgraham.com",
+  "channel": "",
+  "note": "Y Combinator 联合创始人，个人天使投资人，常居英国；称与 YC 公司 Hillclimb 相关，但检索未找到其个人投资 Hillclimb 的证据（YC 公司页不能证明 PG 个人出资），关联待核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.ycombinator.com/companies/hillclimb",
+   "https://www.vcsheet.com/who/paul-graham"
+  ],
+  "checked": true
+ },
+ "Princeville Capital": {
+  "name": "Princeville Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "全球成长期科技投资机构；已核实参投 Invisible Technologies 1 亿美元轮（2025-09）",
+  "confidence": "high",
+  "sources": [
+   "https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform",
+   "https://invisibletech.ai/fundraise",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "checked": true
+ },
+ "Reach Capital": {
+  "name": "Reach Capital",
+  "mainland": false,
+  "region": "海外（美国，加州）",
+  "kind": "VC",
+  "website": "https://www.reachcapital.com",
+  "channel": "",
+  "note": "教育/职业与学习科技早期 VC，Handshake 早期投资人（F 轮检索摘要中未逐一列出，未再次核实）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html"
+  ],
+  "checked": true
+ },
+ "Sandberg Bernthal Venture Partners": {
+  "name": "Sandberg Bernthal Venture Partners",
+  "mainland": false,
+  "region": "海外（美国，加州）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Sheryl Sandberg 与 Tom Bernthal 创立的早期基金，参投 Scorecard 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster"
+  ],
+  "checked": true
+ },
+ "Seldon Lab": {
+  "name": "Seldon Lab",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "加速器",
+  "website": "",
+  "channel": "",
+  "note": "2025年成立的AI安全加速器（Finn Metz、Esben Kran），三个月驻场项目，每家最多投$500k；首批含Andon Labs",
+  "confidence": "high",
+  "sources": [
+   "https://www.longtermwiki.com/organizations/seldon-lab",
+   "https://www.crunchbase.com/organization/seldon-lab",
+   "https://www.gritt.io/company/andonlabs/"
+  ]
+ },
+ "Snowflake Ventures": {
+  "name": "Snowflake Ventures",
+  "mainland": false,
+  "region": "海外（美国，加州圣马特奥/蒙大拿州博兹曼）",
+  "kind": "战略投资",
+  "website": "https://www.snowflake.com",
+  "channel": "",
+  "note": "Snowflake 的企业风投部门；已核实参投 Gray Swan AI 4000 万美元 A 轮，并配套推出 Snowflake 原生部署的 Cygnal",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html",
+   "https://www.madrona.com/gray-swan-series-a/",
+   "https://x.com/tbuzzdaily/status/2061416410383806782"
+  ],
+  "checked": true
+ },
+ "StepStone Group": {
+  "name": "StepStone Group",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "资管/对冲",
+  "website": "https://www.stepstonegroup.com",
+  "channel": "",
+  "note": "纳斯达克上市私募市场资管机构，经风投/成长基金参投 Turing D 轮、E 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/turing-achieves-unicorn-status-following-series-d-bringing-total-raised-to-over-140-million-301448350.html",
+   "https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html"
+  ],
+  "checked": true
+ },
+ "Tekton Ventures": {
+  "name": "Tekton Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山；另有巴黎办公室）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2008年成立的国际化种子期VC，同时投公司和早期基金（160+家公司）；参投Scorecard种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://superscout.co/investor/tekton-ventures",
+   "https://dealroom.co/investors/tekton-ventures/",
+   "https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster"
+  ]
+ },
+ "Valor Equity Partners": {
+  "name": "Valor Equity Partners",
+  "mainland": false,
+  "region": "海外（美国，芝加哥）",
+  "kind": "VC",
+  "website": "https://www.valorep.com",
+  "channel": "",
+  "note": "Antonio Gracias创立的成长期投资机构（SpaceX、Tesla、xAI投资人），参投Judgment Labs种子/A轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260512621556/en/Judgment-Labs-Closes-$32M-in-Seed-and-Series-A-Funding-to-Build-the-Continuous-Improvement-Layer-for-AI-Agents"
+  ]
+ },
+ "Afore Capital": {
+  "name": "Afore Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.afore.vc",
+  "channel": "官网 Afore Alpha / Founder-in-Residence 项目页 https://www.afore.vc/afore-alpha（第三方资料称也接受冷邮件，但未找到官方公开邮箱）",
+  "note": "专注 pre-seed 的旧金山基金（AUM 约3亿美元，Anamitra Banerji 与 Gaurav Jain 创立），首轮机构支票50万-200万美元+，投资了 Datacurve",
+  "confidence": "high",
+  "sources": [
+   "https://profiles.crustdata.com/company/datacurve-yc-w24",
+   "https://www.afore.vc/afore-alpha",
+   "https://superscout.co/investor/afore-capital"
+  ]
+ },
+ "Assaf Rappaport (Wiz CEO, angel)": {
+  "name": "Assaf Rappaport (Wiz CEO, angel)",
+  "mainland": false,
+  "region": "海外（以色列，特拉维夫 / 美国，纽约）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "云安全公司 Wiz 联合创始人兼 CEO（Google 2025 年宣布以约 320 亿美元收购 Wiz），以天使身份投资前沿 AI 安全实验室 Irregular",
+  "confidence": "medium",
+  "sources": [
+   "https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/"
+  ],
+  "checked": true
+ },
+ "Breakpoint Capital": {
+  "name": "Breakpoint Capital",
+  "mainland": false,
+  "region": "海外（美国，达拉斯）",
+  "kind": "VC",
+  "website": "https://www.breakpointcap.com",
+  "channel": "",
+  "note": "达拉斯种子期VC，MoPub/MAX 创始人 Jim Payne 创立，从孵化到种子/A轮，单笔25万-200万美元，投资了 Andon Labs 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.gritt.io/company/andonlabs/",
+   "https://startupintros.com/orgs/breakpoint-capital",
+   "https://www.breakpointcap.com/post/introducing-breakpoint-capital-fund-i"
+  ]
+ },
+ "Collab+Currency": {
+  "name": "Collab+Currency",
+  "mainland": false,
+  "region": "海外（美国）",
+  "kind": "VC",
+  "website": "https://www.collabcurrency.com",
+  "channel": "",
+  "note": "加密原生早期 VC，关注去中心化网络与 crypto x AI，参投 Prime Intellect 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "Databricks Ventures": {
+  "name": "Databricks Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "战略投资",
+  "website": "https://www.databricks.com",
+  "channel": "",
+  "note": "Databricks 的企业风投部门；已核实参投 Adaptive ML 2000 万美元种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed",
+   "https://en.wikipedia.org/wiki/Adaptive_ML",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/",
+   "https://www.businesswire.com/news/home/20240312461522/en/Adaptive-ML-Raises-$20M-to-Help-Companies-Build-Unique-GenAI-Experiences"
+  ],
+  "checked": true
+ },
+ "Eight Capital Management": {
+  "name": "Eight Capital Management",
+  "mainland": false,
+  "region": "海外（美国，康涅狄格州诺沃克）",
+  "kind": "VC",
+  "website": "https://www.eightcapital.com",
+  "channel": "",
+  "note": "专投 YC 批次的种子基金，在 Demo Day 前投每批约前 10% 的公司；投资了 YC 公司 Cua；总部城市未再次核实",
+  "confidence": "medium",
+  "sources": [
+   "https://www.eightcapital.com/",
+   "https://tracxn.com/d/private-equity/eight-capital-management/__53Jazs-5323TBwWA5VkGEpiUP3PTuezEJsE12uxxuAU",
+   "https://www.rl-list.com/vendors/cua"
+  ],
+  "checked": true
+ },
+ "Erik Bernhardsson": {
+  "name": "Erik Bernhardsson",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "天使",
+  "website": "https://erikbern.com",
+  "channel": "",
+  "note": "Modal Labs 创始人兼 CEO（前 Spotify、Better.com CTO）；已核实以天使身份参投 Proximal 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest",
+   "https://www.finsmes.com/2026/09/proximal-raises-usd15m-in-funding-at-usd300m-valuation.html",
+   "https://www.globalstartupsinsights.com/funding/new-york/proximal-emerges-from-stealth-with-15m-funding-at-300m-valuation/"
+  ],
+  "checked": true
+ },
+ "Firestreak Ventures": {
+  "name": "Firestreak Ventures",
+  "mainland": false,
+  "region": "海外（美国，科罗拉多州阿斯彭）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "2022年由 Walter Kortschak 创立、家族办公室出资的 pre-seed/种子基金，单笔10万-100万美元，关注 AI/ML、开源、网络安全，投资了 Collinear AI",
+  "confidence": "high",
+  "sources": [
+   "https://www.crunchbase.com/organization/collinear-ai",
+   "https://superscout.co/investor/firestreak-ventures",
+   "https://tracxn.com/d/venture-capital/firestreak-ventures/__C5uO_XFFInTYU0dbppcgSoSMK433_nIriwjsXnrjt9I"
+  ]
+ },
+ "Greenoaks Capital": {
+  "name": "Greenoaks Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.greenoaks.com",
+  "channel": "",
+  "note": "Neil Mehta 创立的成长期投资机构，集中重仓，参投 Applied Compute 8000 万美元 A 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://phemex.com/news/article/applied-compute-secures-80-million-in-funding-led-by-kleiner-perkins-71931"
+  ],
+  "checked": true
+ },
+ "HuggingFund by Factorial": {
+  "name": "HuggingFund by Factorial",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "VC",
+  "website": "https://www.factorialcap.com/huggingfund",
+  "channel": "",
+  "note": "Clément Delangue 与 Factorial Capital（Matt Hartman）合作的开源 AI 基金，平均支票约 10 万美元；已核实 Factorial 参投 Adaptive ML 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.factorialcap.com/huggingfund",
+   "https://www.fastcompany.com/90881930/hugging-face-ceo-factorial",
+   "https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/"
+  ],
+  "checked": true
+ },
+ "Inspired Capital": {
+  "name": "Inspired Capital",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "VC",
+  "website": "https://www.inspiredcapital.com",
+  "channel": "",
+  "note": "Alexa von Tobel 与 Penny Pritzker 创立的纽约早期 VC，参投 Deeptune 4300 万美元 A 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2026/03/deeptune-raises-43m-in-series-a-funding.html"
+  ],
+  "checked": true
+ },
+ "Kevin Lin (Twitch co-founder, angel)": {
+  "name": "Kevin Lin (Twitch co-founder, angel)",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Twitch 联合创始人，游戏/消费科技天使，参投 Origin Lab 800万美元种子轮（游戏数据用于世界模型训练）",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html",
+   "https://x.com/GrishinRobotics/status/2054984520118435969"
+  ]
+ },
+ "LAUNCH": {
+  "name": "LAUNCH",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "加速器",
+  "website": "https://www.launch.co",
+  "channel": "LAUNCH Accelerator 申请（launch.co 官网；本次未核实具体申请链接）",
+  "note": "Jason Calacanis 的天使/加速器平台（LAUNCH Fund、LAUNCH Accelerator）；已核实列于 micro1 投资人名单（Calacanis 个人亦在列）",
+  "confidence": "high",
+  "sources": [
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/",
+   "https://startupintros.com/orgs/micro1",
+   "https://techcrunch.com/2025/09/12/micro1-a-competitor-to-scale-ai-raises-funds-at-500m-valuation/"
+  ],
+  "checked": true
+ },
+ "Marcus Abramovitch": {
+  "name": "Marcus Abramovitch",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区；现任职 Mechanize）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "加密对冲基金 AltX 管理合伙人，个人投资 Mechanize 种子轮并已加入该公司，同时主持 Manifund 的 Falcon Fund",
+  "confidence": "medium",
+  "sources": [
+   "https://www.trysignalbase.com/news/funding/mechanize-raises-9-1m-seed-round",
+   "https://forum.effectivealtruism.org/posts/LgJNfjDpPXQ7JK6KT/manifund-s-falcon-fund",
+   "https://www.mechanize.work/announcing-mechanize-inc/"
+  ],
+  "checked": true
+ },
+ "Neo Ventures": {
+  "name": "Neo Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://neo.com",
+  "channel": "Neo Accelerator / Neo Scholars 申请（neo.com 官网；本次未核实具体链接）",
+  "note": "应为 Ali Partovi 创立的 Neo（新闻稿写作「Neo」），早期 VC 兼加速器；参投 Scorecard 375 万美元种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.scorecard.io/blog/scorecard-raises-3-75m-to-test-and-deploy-ai-agents-100x-faster",
+   "https://www.finsmes.com/2025/09/scorecard-raises-3-75m-in-seed-funding.html"
+  ],
+  "checked": true
+ },
+ "Obvious Ventures": {
+  "name": "Obvious Ventures",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://obvious.com",
+  "channel": "",
+  "note": "Ev Williams 与 James Joaquin 创立的「world positive」早期 VC；已核实参投 Gray Swan 4000 万美元 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2026/06/gray-swan-raises-40m-in-series-a-funding.html",
+   "https://www.madrona.com/gray-swan-series-a/",
+   "https://x.com/tbuzzdaily/status/2061416410383806782"
+  ],
+  "checked": true
+ },
+ "Peter Thiel": {
+  "name": "Peter Thiel",
+  "mainland": false,
+  "region": "海外（美国，洛杉矶/迈阿密）",
+  "kind": "天使",
+  "website": "",
+  "channel": "Thiel Fellowship（面向22岁及以下创始人，thielfellowship.org；Mercor 创始人即为 Thiel Fellow）",
+  "note": "PayPal/Palantir 联合创始人、Founders Fund 创始人；已核实以个人身份参投 Mercor A 轮（Mercor 三位创始人均为 Thiel Fellow）",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Prosperity 7 Ventures": {
+  "name": "Prosperity 7 Ventures",
+  "mainland": false,
+  "region": "海外（沙特阿拉伯，达兰；在帕洛阿尔托、纽约、巴黎等设办公室）",
+  "kind": "战略投资",
+  "website": "https://prosperity7vc.com",
+  "channel": "",
+  "note": "沙特阿美旗下 Aramco Ventures 的30亿美元多元化基金，投早期至成长期 AI/深科技/企业软件，参投 Snorkel AI D轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2025/05/snorkel-ai-raises-100m-in-series-d-funding-at-a-1-3-billion-valuation.html",
+   "https://www.aramco.com/en/news-media/news/2022/aramco-announces-prosperity7-ventures",
+   "https://venturecapitalarchive.com/venture-funds/prosperity7-ventures-prosperity7vc-com"
+  ]
+ },
+ "Robinhood Ventures": {
+  "name": "Robinhood Ventures",
+  "mainland": false,
+  "region": "海外（美国，门洛帕克）",
+  "kind": "其他",
+  "website": "https://robinhood.com",
+  "channel": "",
+  "note": "Robinhood 旗下私募股权投资平台（含面向散户的 Robinhood Ventures Fund I），投后期明星私企，参投 Mercor C 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.mercor.com/blog/series-c/"
+  ],
+  "checked": true
+ },
+ "Scale Angels Fund": {
+  "name": "Scale Angels Fund",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "https://scaleangelsfund.com",
+  "channel": "",
+  "note": "Scale AI 员工及校友组成的微型基金（与 Scale AI 无官方关联），参投 Preference Model 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://pitchbook.com/profiles/company/1324992-25",
+   "https://www.crunchbase.com/organization/scale-angels-fund",
+   "https://scaleangelsfund.com/"
+  ],
+  "checked": true
+ },
+ "Seven Stars": {
+  "name": "Seven Stars",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.sevenstars.vc",
+  "channel": "",
+  "note": "前 SV Angel 合伙人 Steven Lee 2025年创立的 pre-seed/种子期AI应用基金（首期4000万美元），参投 Origin Lab 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.sevenstars.vc/",
+   "https://techfundingnews.com/steven-lee-seven-stars-ai-fund/",
+   "https://www.finsmes.com/2026/05/origin-lab-raises-8m-in-seed-funding.html"
+  ]
+ },
+ "Soma Capital": {
+  "name": "Soma Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://somacap.com",
+  "channel": "",
+  "note": "Aneel Ranadive 创立的种子期 VC，大量投资 YC 等早期公司；称参投 Mercor 早期轮次，但 Mercor A 轮公开名单中未见，关联未核实",
+  "confidence": "low",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
+   "https://pulse2.com/mercor-ai-based-hiring-platform-company-closes-30-million-series-a-at-250-million-valuation/",
+   "https://www.thesaasnews.com/news/mercor-raises-30-million-in-series-a"
+  ],
+  "checked": true
+ },
+ "Stone Bridge Ventures": {
+  "name": "Stone Bridge Ventures",
+  "mainland": false,
+  "region": "海外（韩国，首尔）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "韩国上市VC Stonebridge Ventures，参投 Snorkel AI 8500万美元C轮（2021），Snorkel 为其组合中的独角兽",
+  "confidence": "high",
+  "sources": [
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/",
+   "https://www.marketscreener.com/quote/stock/STONEBRIDGE-VENTURES-INC-133157235/news/Snorkel-AI-Inc-announced-that-it-expects-to-receive-84-999846-million-in-funding-37406255/",
+   "https://tracxn.com/d/venture-capital/stonebridge-ventures/__CIM0d6jRxDYBW1h4jOFtm8NXIT8A-Vl6aVgKh0gpWBQ"
+  ]
+ },
+ "Transpose Platform Management": {
+  "name": "Transpose Platform Management",
+  "mainland": false,
+  "region": "海外（美国，休斯顿；Crunchbase 记为旧金山）",
+  "kind": "其他",
+  "website": "",
+  "channel": "",
+  "note": "Alex Bangash 创立的注册投资顾问，母基金+直投混合模式；已核实参投 Halluminate 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.caplight.com/company/halluminate",
+   "https://www.crunchbase.com/organization/transpose-platform-management",
+   "https://fintrx.com/firms/firm/transpose-platform-management-llc-287674"
+  ],
+  "checked": true
+ },
+ "Village Global": {
+  "name": "Village Global",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.villageglobal.vc",
+  "channel": "",
+  "note": "由 Bezos、Gates、Zuckerberg 等出资的 pre-seed/种子网络型基金，参投 Sepal AI pre-seed 轮（仅 Crunchbase 来源）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.crunchbase.com/funding_round/sepal-ai-pre-seed--fda22c6a"
+  ],
+  "checked": true
+ },
+ "AltaIR Capital": {
+  "name": "AltaIR Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://altair.vc",
+  "channel": "",
+  "note": "Igor Ryabenkiy 2005 年创立的早期至成长期 VC，看 AI、生产力工具、金融科技、数字健康、未来工作；参投 Turing E 轮",
+  "confidence": "high",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AltaIR_Capital",
+   "https://www.cbinsights.com/investor/altairvc",
+   "https://www.finsmes.com/2025/03/turing-raises-111m-in-series-e-funding.html"
+  ]
+ },
+ "Base10 Advancement Initiative": {
+  "name": "Base10 Advancement Initiative",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://base10.vc",
+  "channel": "",
+  "note": "Base10 Partners 旗下 2.5 亿美元成长期基金，把一半 carry 捐给 HBCU；已核实参投 Handshake 2 亿美元 F 轮并设立 Handshake Scholarship",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "Browder Capital": {
+  "name": "Browder Capital",
+  "mainland": false,
+  "region": "海外（美国；Tracxn 记为夏洛特，创始人 Joshua Browder 常驻湾区）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "DoNotPay 创始人 Joshua Browder 的 3500 万美元 pre-seed 基金，主要投其人脉圈（Stanford、Thiel Fellowship）里的创始人；2022 年给 micro1 投了第一张支票（11 万美元）",
+  "confidence": "high",
+  "sources": [
+   "https://tracxn.com/d/venture-capital/browdercapital/__ZTxcCV1gC8wr2TWkmD9H0jyT8k-F2Wr66e_iuGcHT58",
+   "https://www.thetwentyminutevc.com/joshua-browder",
+   "https://theaiinsider.tech/2025/09/18/micro1-secures-35m-series-a-at-500m-valuation-to-scale-human-expertise-for-ai-training/"
+  ]
+ },
+ "Compound": {
+  "name": "Compound",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "VC",
+  "website": "https://compound.vc",
+  "channel": "",
+  "note": "纽约的主题驱动型早期 VC（加密、AI、机器人、生物等），参投 Prime Intellect 550 万美元种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "DCBuilder (Worldcoin, angel)": {
+  "name": "DCBuilder (Worldcoin, angel)",
+  "mainland": false,
+  "region": "海外（具体所在地未核实）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Worldcoin（Tools for Humanity）的匿名研究工程师兼加密/AI 天使，参投 Prime Intellect 种子轮；匿名身份，无法核实所在地",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "Emerson Collective": {
+  "name": "Emerson Collective",
+  "mainland": false,
+  "region": "海外（美国，帕洛阿尔托）",
+  "kind": "其他",
+  "website": "https://www.emersoncollective.com",
+  "channel": "",
+  "note": "Laurene Powell Jobs 创办的机构，同时做慈善、影响力投资和风险投资；已核实参投 Handshake 2 亿美元 F 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.prnewswire.com/news-releases/no-network-required-handshake-raises-200m-to-help-gen-z-launch-careers-301463445.html",
+   "https://pulse2.com/handshake-200-million-series-f-funding-and-3-5-billion-valuation/",
+   "https://pitchbook.com/newsletter/handshake-raises-200m-series-f"
+  ],
+  "checked": true
+ },
+ "Erik Voorhees (ShapeShift, angel)": {
+  "name": "Erik Voorhees (ShapeShift, angel)",
+  "mainland": false,
+  "region": "海外（美国，具体城市未核实）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "ShapeShift 创始人，也创办了隐私 AI 产品 Venice.ai；以天使身份参投 Prime Intellect 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "Flying Fish": {
+  "name": "Flying Fish",
+  "mainland": false,
+  "region": "海外（美国，西雅图）",
+  "kind": "VC",
+  "website": "https://flyingfish.vc",
+  "channel": "",
+  "note": "大概率是西雅图 AI 种子基金 Flying Fish Partners；参投 AgileRL（伦敦，RL 训练平台）750 万美元种子轮（Fusion Fund 领投）",
+  "confidence": "medium",
+  "sources": [
+   "https://nordic9.com/news/agilerl-raised-a-total-seed-funding-of-75-million-with-fusion-fund-flying-fish-octopus-ventures-entrepreneur-first-and-counterview-capital/",
+   "https://www.finsmes.com/2026/01/agilerl-raises-7-5m-in-funding.html",
+   "https://parsers.vc/fund/flyingfish.vc/"
+  ],
+  "checked": true
+ },
+ "Greycroft": {
+  "name": "Greycroft",
+  "mainland": false,
+  "region": "海外（美国，纽约）",
+  "kind": "VC",
+  "website": "https://www.greycroft.com",
+  "channel": "",
+  "note": "纽约老牌 VC，从种子投到成长期；已核实作为既有投资人参投 Invisible Technologies 1 亿美元轮（2025-09）",
+  "confidence": "high",
+  "sources": [
+   "https://aibusiness.com/data-management/invisible-technologies-secures-100m-ai-training-platform",
+   "https://invisibletech.ai/fundraise",
+   "https://www.finsmes.com/2025/09/invisible-technologies-raises-100m-in-funding.html",
+   "https://eprnews.com/invisible-technologies-raises-100-million-687326/"
+  ],
+  "checked": true
+ },
+ "HV Fund": {
+  "name": "HV Fund",
+  "mainland": false,
+  "region": "海外（德国，慕尼黑；日立 CVC，在美国设有团队）",
+  "kind": "战略投资",
+  "website": "https://www.hitachi-ventures.com",
+  "channel": "",
+  "note": "日立旗下 CVC Hitachi Ventures 的基金名（HV Fund I-IV，2025 年 HV Fund IV 规模 4 亿美元）；已核实名列 Collinear AI 种子轮（同轮 Engineering Capital、Firestreak、11.2 Capital），Collinear 亦在 Hitachi Ventures 组合中；与慕尼黑 HV Capital 不是同一家",
+  "confidence": "high",
+  "sources": [
+   "https://www.hitachi-ventures.com/portfolio-digital/",
+   "https://www.crunchbase.com/organization/collinear-ai",
+   "https://www.caplight.com/company/collinear-ai",
+   "https://thequantuminsider.com/2025/02/07/hitachi-launches-400-million-fund-targeting-quantum-ai-and-next-gen-technology/"
+  ],
+  "checked": true
+ },
+ "IRIS": {
+  "name": "IRIS",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "VC",
+  "website": "https://www.iris.vc",
+  "channel": "",
+  "note": "欧洲科技 VC（前身 Iris Capital，在巴黎、柏林等地设办公室）；从种子轮一路陪 Adaptive ML 到 2026 年被 Datadog 收购",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2024/03/adaptive-ml-raises-20m-in-seed-funding.html",
+   "https://www.pressearticel.com/iris-begleitet-adaptive-ml-vom-seed-investment-zum-exit-an-datadog/",
+   "https://en.wikipedia.org/wiki/Adaptive_ML"
+  ]
+ },
+ "Kevin Weil": {
+  "name": "Kevin Weil",
+  "mainland": false,
+  "region": "海外（美国，旧金山湾区）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "OpenAI 前 CPO（后负责 OpenAI for Science），曾任职 Instagram、Twitter、Planet；已核实以天使身份投 Proximal",
+  "confidence": "high",
+  "sources": [
+   "https://vff.ai/article/2026/09/29/general-catalyst-backs-coding-data-startup-proximal-as-it-reaches-revenue-milest",
+   "https://www.finsmes.com/2026/09/proximal-raises-usd15m-in-funding-at-usd300m-valuation.html",
+   "https://www.globalstartupsinsights.com/funding/new-york/proximal-emerges-from-stealth-with-15m-funding-at-300m-valuation/"
+  ],
+  "checked": true
+ },
+ "LDVP": {
+  "name": "LDVP",
+  "mainland": false,
+  "region": "海外（美国，帕洛阿尔托）",
+  "kind": "VC",
+  "website": "https://ldvp.com",
+  "channel": "",
+  "note": "LDV Partners，2015 年成立，投种子到 B 轮的深科技、AI、生物；团队有 Winston Fu、Qing Zhang 等；参投 LMArena 1.5 亿美元 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://siliconangle.com/2026/01/06/ai-evaluation-startup-lmarena-raises-150m-1-7b-valuation/",
+   "https://superscout.co/investor/ldv-partners",
+   "https://basepoint.vc/funds/ldvp"
+  ]
+ },
+ "Motier Ventures": {
+  "name": "Motier Ventures",
+  "mainland": false,
+  "region": "海外（法国，巴黎）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "法国 Mulliez 家族出资的 VC，投早期科技；已核实参投 Adaptive ML 2000 万美元种子轮，也投过 Mistral AI 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.finsmes.com/2024/03/adaptive-ml-raises-20m-in-seed-funding.html",
+   "https://sifted.eu/articles/gen-ai-startup-adaptive-20m-seed",
+   "https://startupintros.com/orgs/adaptive-ml",
+   "https://nordic9.com/news/adaptive-ml-raised-a-20m-seed-round-led-by-index-ventures-joined-by-iconiq-motier-ventures-iris-capital-and-factorial/"
+  ],
+  "checked": true
+ },
+ "Nepenthe Capital": {
+  "name": "Nepenthe Capital",
+  "mainland": false,
+  "region": "海外（美国，库比蒂诺）",
+  "kind": "VC",
+  "website": "",
+  "channel": "",
+  "note": "Amarjit Gill 2019 年联合创办，专注 AI、数据、ML 早期投资（甜蜜点约 150 万美元）；投过 Snorkel C 轮、Rivos、Aryn、Variational AI",
+  "confidence": "high",
+  "sources": [
+   "https://signal.nfx.com/firms/nepenthe-capital",
+   "https://tracxn.com/d/venture-capital/nepenthe-capital/__amzx3_rsaCbnnosdOQW1tPhhHdYC49INeQb6Ycji3pw",
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/"
+  ]
+ },
+ "Ofir Ehrlich (Eon CEO, angel)": {
+  "name": "Ofir Ehrlich (Eon CEO, angel)",
+  "mainland": false,
+  "region": "海外（美国/以色列，具体城市未核实）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Eon（云备份）联合创始人兼 CEO，此前联合创办 CloudEndure（被 AWS 收购）；以天使身份参投 Irregular",
+  "confidence": "medium",
+  "sources": [
+   "https://fintech.global/2025/09/18/frontier-ai-security-lab-irregular-raises-80m-funding/"
+  ],
+  "checked": true
+ },
+ "Phosphor Capital": {
+  "name": "Phosphor Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://phosphorcap.com",
+  "channel": "",
+  "note": "YC 校友 Kulveer Taggar 的单 GP 基金，3400 万美元，只投 YC 公司（Garry Tan 是 LP）；参投 Andon Labs 种子轮。非 YC 公司基本不适用",
+  "confidence": "high",
+  "sources": [
+   "https://phosphorcap.com/",
+   "https://techcrunch.com/2025/07/03/y-combinator-alum-launched-a-new-34m-fund-dedicated-to-yc-startups-backed-by-garry-tan/",
+   "https://pitchbook.com/profiles/company/541549-09"
+  ]
+ },
+ "Prosus Ventures": {
+  "name": "Prosus Ventures",
+  "mainland": false,
+  "region": "海外（荷兰，阿姆斯特丹；印度团队很活跃）",
+  "kind": "战略投资",
+  "website": "https://www.prosus.com",
+  "channel": "",
+  "note": "Prosus/Naspers 的风投部门，在印度投得很积极；投了 Deccan AI 种子轮和 A 轮（AI 训练数据）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.finsmes.com/2025/05/deccan-ai-raises-funding-from-prosus-ventures.html",
+   "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce"
+  ],
+  "checked": true
+ },
+ "Roon (OpenAI, angel)": {
+  "name": "Roon (OpenAI, angel)",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "OpenAI 的匿名研究员（X 账号 @tszzl）；已核实以天使身份参投 HUD 1600 万美元 A 轮",
+  "confidence": "high",
+  "sources": [
+   "https://www.hud.ai/blog/announcing-16m-series-a"
+  ],
+  "checked": true
+ },
+ "Script Capital": {
+  "name": "Script Capital",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://script.capital",
+  "channel": "",
+  "note": "旧金山 pre-seed 基金（前身 122 West），由 AJ Solimine、Evan Tana 管理，给做开发者工具和基础设施的技术型创始人开 25 万至 50 万美元支票；投了 Cua（computer-use agent 基础设施）",
+  "confidence": "high",
+  "sources": [
+   "https://script.capital/",
+   "https://www.vcsheet.com/fund/script-capital",
+   "https://www.prnewswire.com/news-releases/script-capital-announces-a-38m-pre-seed-fund-and-launches-open-data-platform-for-founders-301442837.html"
+  ]
+ },
+ "Shivani Mitra (Nous Research, angel)": {
+  "name": "Shivani Mitra (Nous Research, angel)",
+  "mainland": false,
+  "region": "海外（美国，具体城市未核实）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "Nous Research 成员，以天使身份参投 Prime Intellect 种子轮（单一来源，未再次核实）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.theblock.co/post/290476/coinfund-and-distributed-global-lead-5-5-million-seed-round-for-decentralized-ai-firm-prime-intellect"
+  ],
+  "checked": true
+ },
+ "South Park Commons": {
+  "name": "South Park Commons",
+  "mainland": false,
+  "region": "海外（美国，旧金山；另有纽约、班加罗尔）",
+  "kind": "加速器",
+  "website": "https://www.southparkcommons.com",
+  "channel": "官网公开申请 Founder Fellowship（southparkcommons.com），具体页面未核实",
+  "note": "技术创业者社区，通过 Founder Fellowship 在 pre-seed/种子阶段投资；投了 Preference Model 种子轮",
+  "confidence": "medium",
+  "sources": [
+   "https://pitchbook.com/profiles/company/1324992-25"
+  ],
+  "checked": true
+ },
+ "Superangel": {
+  "name": "Superangel",
+  "mainland": false,
+  "region": "海外（爱沙尼亚，塔林）",
+  "kind": "VC",
+  "website": "https://superangel.io",
+  "channel": "",
+  "note": "波罗的海地区最活跃的早期基金之一，由创业者创办，在北欧和波罗的海投 30 万至 100 万欧元；重点含 AI 与机器人，早期投过 Bolt、Pipedrive、Veriff；参投 Andon Labs 种子轮",
+  "confidence": "high",
+  "sources": [
+   "https://arcticstartup.com/superangel-announces-e50m-fund/",
+   "https://seedvclist.com/vcs/superangel-superangelio/",
+   "https://pitchbook.com/profiles/company/541549-09"
+  ]
+ },
+ "Tristan Handy (dbt Labs, angel)": {
+  "name": "Tristan Handy (dbt Labs, angel)",
+  "mainland": false,
+  "region": "海外（美国，费城）",
+  "kind": "天使",
+  "website": "",
+  "channel": "",
+  "note": "dbt Labs 创始人兼 CEO，以天使身份参投 Bespoke Labs 4000 万美元 A 轮（agent RL 环境）",
+  "confidence": "medium",
+  "sources": [
+   "https://www.businesswire.com/news/home/20260706827813/en/Bespoke-Labs-Announces-$40M-to-Build-the-Environments-That-Train-Reliable-Agents"
+  ],
+  "checked": true
+ },
+ "Walden International": {
+  "name": "Walden International",
+  "mainland": false,
+  "region": "海外（美国，旧金山）",
+  "kind": "VC",
+  "website": "https://www.waldenintl.com",
+  "channel": "",
+  "note": "陈立武（Lip-Bu Tan，2025 年起任 Intel CEO）1987 年创立，投半导体和 AI 基础设施，亚洲布局深（含中国办公室，但总部在美国）；参投 Snorkel AI C 轮",
+  "confidence": "medium",
+  "sources": [
+   "https://snorkel.ai/blog/85-million-series-c-accelerating-data-centric-ai-enterprise/"
+  ],
+  "checked": true
+ }
+}
