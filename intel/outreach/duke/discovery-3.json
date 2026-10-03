@@ -1,0 +1,158 @@
+[
+ {
+  "angle": "fintech-ai-quant",
+  "candidates": [
+   {
+    "name": "Ashwin Ramachandran",
+    "firm": "Dragonfly (Dragonfly Capital Partners)",
+    "title": "General Partner",
+    "location": "Not stated in snippets (Dragonfly has offices in New York and San Francisco; unverified)",
+    "duke_degree": "Duke University undergraduate, major in Computer Science, 'graduated with high-distinction' (stated in Dragonfly Research bio)",
+    "grad_year": null,
+    "grad_year_basis": "unknown. Inferred only: he was still at Duke when Campbell Harvey's Fuqua blockchain course ('Innovation and Cryptoventures', which began c. 2018) was running, then worked as an early engineer at ThunderCore (launched c. 2018) before joining Dragonfly Research c. 2019-20. That puts graduation around 2018-2019, so the 2018-or-earlier cutoff is NOT confirmed and needs checking.",
+    "duke_evidence_urls": [
+     "https://medium.com/dragonfly-research/dragonfly-research-is-growing-welcoming-tom-and-ashwin-eb01672c24c (search snippet)",
+     "https://www.crunchbase.com/person/ashwin-ramachandran-9cc8 (search snippet)",
+     "https://people.duke.edu/~charvey/Teaching/697_2019/Presentations/Ethereum.pdf (search snippet)",
+     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3711777 (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.crunchbase.com/person/ashwin-ramachandran-9cc8 (search snippet)",
+     "https://signal.nfx.com/investors/ashwin-ramachandran (search snippet)",
+     "https://www.vcsheet.com/who/ashwin-ramachandran (search snippet)"
+    ],
+    "stage": "Crypto venture fund that invests from seed to later stages, alongside a liquid-token strategy",
+    "decision_maker": "yes",
+    "notes": "Crypto/DeFi GP and co-author of 'DeFi and the Future of Finance' with Duke Fuqua's Campbell Harvey. Former ThunderCore consensus-protocol engineer. Strong fit for the Xitadel trading environment and market-simulation pitch, but his grad year must be verified against the 2018 cutoff."
+   }
+  ],
+  "checked_not_duke": [
+   "Kate Sampson (Anthemis MD/Partner): UMass Amherst graduate per Selective Insurance board bio; her Duke link is only a seat on the Duke Pratt FinTech advisory board, not a degree",
+   "Evan Schnidman: Harvard PhD; Duke link is only the Duke Pratt FinTech advisory board. He is also Head of Fidelity Labs (corporate incubator), not a VC decision maker",
+   "Chris Ahn (Haun Ventures Partner): Georgetown",
+   "Sam Rosenblum (Haun Ventures Partner): UCLA",
+   "Jared Young (Tower Research Ventures, Director of Venture Capital): Tufts"
+  ],
+  "coverage_notes": "I ran one query per firm or topic, in the priority order given. Most firm+'Duke University' queries were swamped by Duke Capital Partners and Duke Energy results and surfaced no Duke-alumni partners. That means no hit, not confirmed non-Duke. Firms with no hit: Commerce Ventures, Clocktower Technology Ventures, Better Tomorrow Ventures, Flourish Ventures, Portage Ventures, Citi Ventures, QED Investors, Nyca Partners, Theory Ventures, Zetta Venture Partners, Electric Capital, Variant, Galaxy (Digital) Ventures, Framework Ventures, Jump Capital, and the Citadel/Millennium-alumni-angel query. The generic AI-infra and fintech GP queries only returned already-found names (Lori Cashman, Logan Allin, Bill Quintenz). Only one new Duke-verified investor turned up: Ashwin Ramachandran (Dragonfly GP, Duke CS). His grad year is unconfirmed and may fall just after the 2018 cutoff. WebFetch to entrepreneurship.duke.edu is blocked by the egress proxy. Anthemis question answered: Kate Sampson is NOT a Duke alum (UMass Amherst). The Duke Pratt FinTech Master's advisory board (masters.pratt.duke.edu/fintech/advisory-board/) lists fintech investors, but board membership does not imply a Duke degree.",
+  "leads_not_checked": [
+   "Better Tomorrow Ventures partners: education not checked for Brian Merritt, Nihar Bobba, Ozge Oz, Leslie Sodaro",
+   "Clocktower Ventures partners: education not checked for Ben Savage, Steve Drobny, Ned Daoro, Adriana Saman",
+   "QED Investors: Victoria Zuo (promoted to Partner Sept 2025), education not checked",
+   "Fin Capital GPs Ren Riley and Christian Ostberg (Logan Allin's partners): Duke link not checked",
+   "Front Porch Venture Partners: founded 2019 by Duke Fuqua graduates, per a search snippet. Founders not identified; check names and whether MBA grad year is 2018 or earlier",
+   "Dragonfly: other GPs (Tom Schmidt, Rob Hadick, Haseeb Qureshi), education not checked",
+   "Variant: Spencer Noon (GP), education not checked",
+   "Susquehanna International Group: LinkedIn search snippets (Andy Wu, Kyle Campbell, Christopher Kan) appeared for an SIG + Duke query. Roles and Duke degrees not confirmed; possibly traders, not venture decision makers",
+   "SIG Asia / Susquehanna Asia Venture Capital partners: not checked individually",
+   "Duke I&E Network in the News page (entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/): likely lists more alumni GPs; blocked by proxy",
+   "Ashwin Ramachandran: grad year needs confirming (Duke class year) before outreach"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 27
+ },
+ {
+  "angle": "firm-gaps-and-leads",
+  "candidates": [
+   {
+    "name": "Matt McIlwain",
+    "firm": "Madrona Venture Group",
+    "title": "Managing Director",
+    "location": "Seattle, WA (Madrona HQ; not stated in snippet)",
+    "duke_degree": "Degree from Duke University (stated as 'degrees from Duke University and Harvard Business School'; Duke degree type not stated, presumably undergraduate)",
+    "grad_year": null,
+    "grad_year_basis": "inferred: venture capitalist since 2000 after a Harvard Business School MBA, so the Duke degree predates 2018 by a wide margin. Exact year not found.",
+    "duke_evidence_urls": [
+     "https://podcasts.apple.com/us/podcast/matt-mcilwain-managing-director-of-madrona-venture/id1576598423?i=1000536947283 (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://podcasts.apple.com/us/podcast/matt-mcilwain-managing-director-of-madrona-venture/id1576598423?i=1000536947283 (search snippet)",
+     "https://startupintros.com/orgs/madrona-venture-group (search snippet)"
+    ],
+    "stage": "Early stage (Madrona invests from seed / Day One through Series A and later)",
+    "decision_maker": "yes",
+    "notes": "Strong fit: invests in cloud, 'dataware' and 'intelligent applications' (AI-native software), and Madrona runs the Intelligent Applications (IA40) thesis."
+   },
+   {
+    "name": "Nikhil Mittal",
+    "firm": "BlueRidge Ventures",
+    "title": "Founder & Investment Lead (also described as GP/MD)",
+    "location": "US; the fund sources from Duke alumni and the Research Triangle (his personal location not confirmed)",
+    "duke_degree": "MBA, Duke University Fuqua School of Business",
+    "grad_year": null,
+    "grad_year_basis": "unknown: about 18-20 years of operating experience in regulated finance (Promontory, IBM, Infosys), but the year of his Fuqua MBA was not found. Check that it is 2018 or earlier before outreach.",
+    "duke_evidence_urls": [
+     "https://www.openvc.app/u/nikhilmittal (search snippet)",
+     "https://www.linkedin.com/in/nikhilmittal/ (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://fi.co/insight/34-emerging-venture-capital-funds-are-reshaping-where-lps-deploy-in-2026 (search snippet)",
+     "https://govclab.com/2026/07/23/emerging-venture-capital-funds-to-invest-in/ (search snippet)",
+     "https://decilepro.com/access/blueridgeventures (search snippet)"
+    ],
+    "stage": "Pre-seed ($3M fund, AI-native US founders, sector-agnostic)",
+    "decision_maker": "yes",
+    "notes": "Very relevant: pre-seed AI-native fund that states conviction in fintech infrastructure and compliance tech, run by a founder with about 20 years in regulated finance. Caveats: a small first fund, and his LinkedIn headline still shows EY."
+   },
+   {
+    "name": "Squire Servance",
+    "firm": "Syridex Bio",
+    "title": "Founder & Managing Partner",
+    "location": "Princeton, NJ",
+    "duke_degree": "J.D., Duke University School of Law; M.B.A., Duke Fuqua School of Business",
+    "grad_year": 2008,
+    "grad_year_basis": "stated: 'earned his J.D. from Duke University School of Law in 2008... M.B.A. from Duke University Fuqua School of Business, also from 2008' (search summary)",
+    "duke_evidence_urls": [
+     "https://www.wsgr.com/en/people/squire-servance.html (search snippet)",
+     "https://www.squireservance.com/about (search snippet)"
+    ],
+    "role_evidence_urls": [
+     "https://www.businesswire.com/news/home/20230523005307/en/Syridex-Bio-Selected-by-NJEDA-to-Invest-up-to-$5-Million-in-Early-Stage-New-Jersey-Life-Science-and-Healthcare-Companies (search snippet)",
+     "https://superscout.co/investor/syridex-bio (search snippet)",
+     "https://www.syridexbio.com/about-us/ (search snippet)"
+    ],
+    "stage": "Seed and Series A (life sciences / healthcare impact; received a $5M allocation from the NJEDA)",
+    "decision_maker": "yes",
+    "notes": "Low relevance: invests in biotech and health equity; the one AI holding is Qunova (AI population-health platform). He is also Senior Of Counsel at WSGR and was exploring a run for Congress in NJ-12, so his time for investing may be limited."
+   }
+  ],
+  "checked_not_duke": [
+   "Ian Sigalow (Greycroft): MIT BS, Columbia MBA. A different Ian M. Sigalow at Brooklyn Sports & Entertainment shows Duke Law.",
+   "Dylan Pearce (Greycroft): Wharton / USC",
+   "Meka Asonye (First Round): Princeton BA, HBS MBA",
+   "Annie Duke (First Round special partner): surname collision, not a Duke alum lead",
+   "Sarah Hinkfuss (Bain Capital Ventures): Harvard BA, Stanford MBA. She only spoke at Duke's 2023 PE/VC conference.",
+   "Arvind Gupta (Mayfield, now Novera): UCSB / SF State",
+   "Rajeev Batra (Mayfield): HBS, Cornell, U. Maryland",
+   "Patrick Salyer (Mayfield): Harvard BA",
+   "Rohit Sharma (True Ventures)",
+   "Puneet Agarwal (True Ventures): Stanford",
+   "Tony Conrad (True Ventures): Indiana University",
+   "Adam D'Augelli (True Ventures): University of Florida",
+   "Mo Koyfman (Shine Capital, ex-Spark GP): Penn/Wharton",
+   "Eliot Durbin (Boldstart): Georgetown",
+   "Ed Sim (Boldstart): Harvard",
+   "Ellen Chisa (Boldstart): Olin",
+   "Suzanne Ashman (UK Sovereign AI Fund): Oxford PPE, no Duke link found",
+   "Charlie O'Donnell (Brooklyn Bridge Ventures): Fordham BS Finance. The fund also made its last investment in 2023."
+  ],
+  "coverage_notes": "I used all 27 searches. One query each for Greycroft, First Round, Bain Capital Ventures, Floodgate, Foundation Capital, Mayfield, Madrona, Unusual, Craft, Ribbit, True, Spark, Lerer Hippeau, RRE and Boldstart, plus the open leads (BlueRidge, Suzanne Ashman, Squire Servance, Duke Capital Partners and Brooklyn Bridge). Some went to follow-up checks on individuals.\n\nNew Duke candidates: Matt McIlwain (Madrona), Nikhil Mittal (BlueRidge, Fuqua MBA, year unknown) and Squire Servance (Syridex Bio, Duke JD/MBA 2008).\n\nGreycroft is still unresolved. theorg.com is blocked by the proxy, and the greycroft.com search found no Duke mention. Ian Sigalow and Dylan Pearce are ruled out.\n\nResults by firm:\n- Ribbit: Duke's Employees' Retirement Plan is a limited partner only, not a person.\n- Duke Capital Partners: the search surfaced only Dave Neal as Venture Partner. No other venture partners were found.\n- Lerer Hippeau, Unusual, Craft, Foundation Capital, Floodgate and Spark: no Duke-linked partner surfaced. Generic '\"Duke University\"' queries mostly return Duke Capital Partners pages, so these firms are not conclusively cleared.",
+  "leads_not_checked": [
+   "Greycroft: theorg says a Duke alum is on the leadership team but I could not identify them. Remaining unverified names are Marcie Vu, Brian Bustamante-Nicholson, Kevin Gasque (COO, platform role) and other leadership listed on theorg.",
+   "Work-Bench: not searched (budget)",
+   "Flybridge: not searched (budget)",
+   "Inspired Capital: not searched (budget)",
+   "Tribeca Venture Partners: not searched (budget)",
+   "ReignRock Capital Partners (reignrock.com/team): the RRE query surfaced a Duke graduate on this team. Person and stage not identified.",
+   "Hardy McLain: his Wikipedia page surfaced in a Fuqua/Duke query. Duke degree and investing role not verified.",
+   "Floodgate partners Iris Choi, Arjun Chopra and Ryan Walsh: education not checked",
+   "Foundation Capital GPs Joanne Chen, Ashu Garg, Rodolfo Gonzalez, Steve Vassallo and Charles Moldow: education not checked individually",
+   "Craft Ventures GPs Bill Lee and Jeff Fluhr: education not checked",
+   "Spark Capital GPs Nabeel Hyatt, Kevin Thau, Fraser Kelton, Natalie Vais and Arpan Shah: education not checked individually",
+   "RRE GPs James Robinson, Stuart Ellman, Raju Rishi, Will Porteous and Vic Singh: education not checked",
+   "Nikhil Mittal: Fuqua MBA year needs verifying as 2018 or earlier",
+   "Matt McIlwain: Duke graduation year and degree type not found"
+  ],
+  "budget_exhausted": true,
+  "searches_used": 27
+ }
+]
