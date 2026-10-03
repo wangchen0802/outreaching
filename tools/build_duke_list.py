@@ -1,6 +1,8 @@
 """Build the Duke-alumni investor list from the verify workflow outputs.
 
 Input:  intel/outreach/duke/verify-*.json  (each a list of {batch, enriched, review})
+        intel/outreach/duke/recheck-*.json  (each a list of {batch, review}: a later, search-backed
+                                             fact-check applied on top of the first one)
         intel/outreach/duke/excluded-early.json  (names dropped before verification, with reasons)
 Output: lists/duke-alumni-investors.csv
         lists/duke-alumni-investors.md
@@ -57,6 +59,16 @@ def in_pipeline(firm, firms):
     return "; ".join(hits)
 
 
+def apply_corrections(rec, rv):
+    for c in rv.get("corrections") or []:
+        val = c["value"]
+        if c["field"] == "duke_grad_year":
+            m = re.search(r"\d{4}", val or "")
+            val = int(m.group()) if m else None
+        rec[c["field"]] = val
+        rec["check_notes"] = (rec.get("check_notes", "") + f" | {c['field']}: {c['evidence']}").strip(" |")
+
+
 def load():
     people, excluded = {}, []
     for path in sorted(SRC.glob("verify-*.json")):
@@ -68,13 +80,7 @@ def load():
                 rec["check_verdict"] = rv["verdict"] if rv else "not checked"
                 rec["check_notes"] = (rv.get("notes") or "") if rv else ""
                 if rv:
-                    for c in rv.get("corrections") or []:
-                        val = c["value"]
-                        if c["field"] == "duke_grad_year":
-                            m = re.search(r"\d{4}", val or "")
-                            val = int(m.group()) if m else None
-                        rec[c["field"]] = val
-                        rec["check_notes"] = (rec["check_notes"] + f" | {c['field']}: {c['evidence']}").strip(" |")
+                    apply_corrections(rec, rv)
                 reason = ""
                 if not p.get("include"):
                     reason = p.get("exclude_reason") or "failed a criterion"
@@ -90,6 +96,21 @@ def load():
                     people.pop(k, None)
                 else:
                     people[k] = rec
+    for path in sorted(SRC.glob("recheck-*.json")):
+        for item in json.load(open(path, encoding="utf-8")):
+            for rv in (item.get("review") or {}).get("reviews") or []:
+                k = key(rv["name"])
+                rec = people.get(k)
+                if not rec:
+                    continue
+                rec["check_verdict"] = rv["verdict"]
+                if rv.get("notes"):
+                    rec["check_notes"] = (rec.get("check_notes", "") + " | recheck: " + rv["notes"]).strip(" |")
+                apply_corrections(rec, rv)
+                if rv["verdict"] == "reject":
+                    excluded.append({"name": rec["name"], "firm": rec.get("firm", ""),
+                                     "reason": "fact-check: " + (rv.get("reject_reason") or rv.get("notes") or "rejected")})
+                    people.pop(k)
     early = SRC / "excluded-early.json"
     if early.exists():
         for name, reason in json.load(open(early, encoding="utf-8")).items():
