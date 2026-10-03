@@ -1,6 +1,6 @@
 # SimReal 外联
 
-三类外联：渠道伙伴（第一步）、投资人、客户。草稿由你批准后，从 business@simreal.co 自己发送；本仓库和 Claude 不发送任何消息。
+三类外联：渠道伙伴（第一步）、投资人、客户。草稿由你在审批页批准后，从 business@simreal.co 发出：可以自己发，也可以交给装在你自己 Google 账号里的发信助手自动发（`sender/`，安装见 `ops/sender-setup.md`）。发信助手只发你批准过的邮件；Claude 不发送任何消息。
 
 ## 审批页
 
