@@ -51,7 +51,8 @@ def pipeline_firms():
 
 
 def in_pipeline(firm, firms):
-    f = firm.lower()
+    # Only the current firm counts, not "(formerly X)" or "; also Y" notes.
+    f = re.split(r"[(;]", firm)[0].lower()
     hits = [f"{slug} (contact: {who})" for base, slug, who in firms if base in f]
     return "; ".join(hits)
 
