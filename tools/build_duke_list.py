@@ -3,6 +3,8 @@
 Input:  intel/outreach/duke/verify-*.json  (each a list of {batch, enriched, review})
         intel/outreach/duke/recheck-*.json  (each a list of {batch, review}: a later, search-backed
                                              fact-check applied on top of the first one)
+        intel/outreach/duke/email-*.json  (each a list of {batch, people}: published emails and official fund
+                                           routes from the email search; only person- or employer-published)
         intel/outreach/duke/edit-*.json  (each a list of per-person display fields from the no-search
                                           edit pass: firm, title, duke, bio, hook, fund_route, linkedin, x)
         intel/outreach/duke/excluded-early.json  (names dropped before verification, with reasons)
@@ -136,6 +138,15 @@ def load():
     return list(people.values()), uniq
 
 
+def load_emails():
+    found = {}
+    for path in sorted(SRC.glob("email-*.json")):
+        for item in json.load(open(path, encoding="utf-8")):
+            for p in item.get("people") or []:
+                found[key(p["name"])] = p
+    return found
+
+
 def load_edits():
     edits = {}
     for path in sorted(SRC.glob("edit-*.json")):
@@ -153,20 +164,41 @@ def joined(*lists):
     return " ; ".join(out)
 
 
-def main():
+def merged(apply_edits=True):
+    """Verified people with the email search and (optionally) the edit pass applied."""
     people, excluded = load()
-    firms = pipeline_firms()
-    edits = load_edits()
+    edits = load_edits() if apply_edits else {}
+    emails = load_emails()
+    for p in people:
+        m = emails.get(key(p["name"]))
+        if not m:
+            continue
+        if not blank(m.get("email")) and m.get("email_publisher") in ("person", "employer"):
+            p["email"], p["email_source"] = m["email"], m.get("email_source", "")
+        if not blank(m.get("fund_route")) and not m["fund_route"].lower().startswith("not found"):
+            p["other_contact"] = m["fund_route"]
+        if blank(p.get("personal_site")) and not blank(m.get("personal_site")):
+            p["personal_site"] = m["personal_site"]
     for p in people:
         e = edits.get(key(p["name"]))
         if not e:
             continue
         p["firm_display"] = e.get("firm") or p.get("firm", "")
         p["duke"] = e.get("duke", "")
+        if e.get("fit") in FIT_ORDER and e["fit"] != p.get("fit"):
+            p["check_notes"] = (p.get("check_notes", "") + f" | edit pass fit {p.get('fit')} -> {e['fit']}: "
+                                + (e.get("fit_note") or "")).strip(" |")
+            p["fit"] = e["fit"]
         for src, dst in (("title", "title_2026"), ("bio", "bio"), ("hook", "hook"), ("fund_route", "other_contact"),
                          ("linkedin", "linkedin_url"), ("x", "x_url")):
             if src in e:
                 p[dst] = e[src]
+    return people, excluded
+
+
+def main():
+    people, excluded = merged()
+    firms = pipeline_firms()
     people.sort(key=lambda p: (FIT_ORDER.get(p.get("fit"), 3), DM_ORDER.get(p.get("decision_maker"), 3),
                                CONF_ORDER.get(p.get("confidence"), 3), p["name"]))
     rows = []

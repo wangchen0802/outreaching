@@ -2,11 +2,11 @@
 
 These are Duke alumni (any Duke degree finished in 2018 or earlier) who make investment decisions at angel, pre-seed, seed or Series A investors, as of October 2026. Each person was found by a web sweep, checked against public sources, and then reviewed by a separate fact-checker. Full columns and sources are in `duke-alumni-investors.csv`.
 
-- **63 investors**: 14 high fit, 21 medium, 28 low (high = backs seed or Series A AI infrastructure, data, dev tools, fintech or quant).
-- **Personal email published**: 0. Everyone else is reached through the fund's official route, LinkedIn or a warm Duke intro. Emails were never guessed from a pattern or taken from data-broker sites.
+- **61 investors**: 13 high fit, 21 medium, 27 low (high = backs seed or Series A AI infrastructure, data, dev tools, fintech or quant).
+- **Personal email published**: 8. Everyone else is reached through the fund's official route, LinkedIn or a warm Duke intro. Emails were never guessed from a pattern or taken from data-broker sites.
 - **Already in the SimReal pipeline** means the fund is in `lists/investors.csv` with a different contact. Choose one person per fund.
 
-## High fit (14)
+## High fit (13)
 
 ### 1. Cassie Young, General Partner (Partner specializing in Enterprise AI; leads the operating/GTM team), Primary Venture Partners (Primary Ventures)
 
@@ -19,7 +19,7 @@ Cassie Young is a General Partner at Primary Venture Partners in New York. She s
 - **Why them:** She leads seed rounds at a seed-only fund with fresh capital, and her page says she is looking for founders in fintech and enterprise AI. Her deals so far are mostly app-layer enterprise AI and GTM tools rather than model-training infrastructure.
 - **Hook:** Cassie's Primary page says she is looking for founders building in fintech and enterprise AI, and SimReal's Xitadel trading environment is at that intersection, used to post-train models for AI labs.
 - Email: not published
-- Fund route: Firm site https://www.primary.vc (team page https://www.primary.vc/team/cassie-young, search snippet); firm X account https://x.com/PrimaryVC (search snippet); no published pitch inbox was seen
+- Fund route: founders@primary.vc, Primary's general founder inbox, per a search limited to primary.vc (search snippet; pages returned were https://www.primary.vc/ and https://www.primary.vc/approach). The same results list fintech@primary.vc for fintech and sam@ / hannah@primary.vc for healthcare.
 
 ### 2. David Beisel, Co-founder and Partner (General Partner per Signal/NFX), NextView Ventures
 
@@ -31,8 +31,8 @@ David Beisel co-founded seed firm NextView Ventures and remains a partner there.
 - **Relevant deals:** Skyfall AI: NextView seed investment (Seed VC-II round, July 20, 2026, alongside Fidelity, Garage Capital, Inovia, M13 and Touring Capital). Skyfall's first product, Morpheus, is a continual reinforcement learning platform for AI researchers that lets agents learn inside persistent, non-stationary environments. This is a firm-level deal; that Beisel personally led it is not verified. Tero (Jan 2026) and Walden Robotics (Jul 2026) appear on his NextView author page; their sectors were not verified.
 - **Why them:** He is an active seed lead. In 2026 NextView backed Skyfall AI, a continual-RL environment platform for AI researchers that sits next to SimReal's RL environments and verifiers. The firm's main thesis is generalist 'Everyday Economy', not AI infra.
 - **Hook:** NextView's 2026 seed investment in Skyfall AI, whose Morpheus platform trains agents with continual RL in persistent environments, sits right next to SimReal's RL environments and verifiers for LLM post-training.
-- Email: not published
-- Fund route: NextView says to reach it through a warm referral or the contact/pitch route on its Approach page, https://nextview.vc/approach/ (search snippet)
+- Email: david@nextviewventures.com (published at https://www.davidbeisel.com/ (search snippet, search limited to davidbeisel.com; also https://davidbeisel.com/#bio))
+- Fund route: NextView Approach page https://nextview.vc/approach/ (from record). NextView prefers a warm referral.
 - Site: https://davidbeisel.com (search snippet); blog https://genuinevc.com/about-me/ (search snippet)
 
 ### 3. Jake Flomenberg, Partner, Wing Venture Capital
@@ -46,8 +46,9 @@ Jake Flomenberg is a Partner at Wing Venture Capital. He invests from seed to Se
 - **Why them:** An active seed/Series A lead in AI infrastructure and AI security. In 2026 he co-led Gray Swan AI's Series A, a company that evaluates and red-teams model behavior, which is close to SimReal's work on RL environments and verifiers.
 - **Hook:** In 2026 you co-led Gray Swan AI's $40M Series A for Wing, backing AI security evaluation. SimReal builds RL environments and verifiers that measurably improve model behavior, starting with trading.
 - Email: not published
-- Fund route: Wing's official contact form, https://www.wing.vc/contact-us. This URL was cited in a superscout.co search snippet (https://superscout.co/investor/wing-venture-capital) and not checked on wing.vc itself. A generic inbox, info@wing.vc, appeared only in that aggregator's summary and not on the official site, so it is not used.
+- Fund route: Wing contact form https://www.wing.vc/contact-us. This comes from the existing record via a superscout.co snippet and has not been confirmed on wing.vc. No official generic inbox was seen.
 - LinkedIn: https://www.linkedin.com/in/jacobflomenberg (search snippet)
+- Site: https://medium.com/@JakeFlomenberg (search snippet)
 
 ### 4. Logan Allin, Founder & Managing Partner, Fin Capital
 
@@ -60,7 +61,7 @@ Logan Allin founded Fin Capital in 2018 and is its Managing Partner. The firm is
 - **Why them:** Founder and Managing Partner of a B2B fintech fund that invests from pre-seed. Fin Capital names Enterprise AI and Wealth/Capital Markets as core sub-sectors and backs AI-for-finance companies like Primitive. He has active Duke ties through the FinTech advisory board.
 - **Hook:** Fin Capital names Enterprise AI and Wealth/Capital Markets among its core B2B fintech sub-sectors and backs Primitive's AI agent OS for finance; Xitadel trains and verifies LLMs on real trading tasks.
 - Email: not published
-- Fund route: Fin Capital's official contact/pitch form is at https://fin.capital/contact (search snippet). LinkedIn: https://www.linkedin.com/in/loganallin/ (search snippet).
+- Fund route: Fin Capital's official contact and pitch form: https://fin.capital/contact (from record, search snippet)
 - LinkedIn: https://www.linkedin.com/in/loganallin/
 
 ### 5. Marc Andrusko, Partner, Oak HC/FT (joined March 2026 from Andreessen Horowitz)
@@ -74,7 +75,7 @@ Marc Andrusko joined Oak HC/FT as a Partner in March 2026 and focuses on early a
 - **Why them:** He is an investing Partner focused on fintech and B2B AI, with a stated capital-markets thesis and a background in Goldman rates sales and trading, which suits the Xitadel trading environment. One caveat: Oak HC/FT invests at early and growth stages, so a seed check may be less typical than Series A.
 - **Hook:** Marc's thesis areas include capital markets and AI in professional services, and he held interest rate products sales & trading roles at Goldman Sachs; Xitadel is an RL environment that improved an open model's trading on unseen market data.
 - Email: not published
-- Fund route: In a 2024 X post he published mandrusko@a16z.com (https://x.com/mandrusko1/status/1805275471107518496, search snippet). That address is likely inactive since he moved to Oak HC/FT in March 2026, so it is not recorded as his current email. No official Oak HC/FT pitch route was found. LinkedIn: https://www.linkedin.com/in/marc-andrusko-4680ab25/ (search snippet). X: https://x.com/mandrusko1 (search snippet).
+- Fund route: info@oakhcft.com is on Oak HC/FT's official contact page, https://www.oakhcft.com/contact (search snippet, limited to oakhcft.com): 'You can email info@oakhcft.com to learn more.' The same page lists investorrelations@ and media@, which are not for pitches.
 - LinkedIn: https://www.linkedin.com/in/marc-andrusko-4680ab25/
 - X: https://x.com/mandrusko1
 
@@ -105,23 +106,9 @@ Steve Pagliuca (Duke BA 1977) is founder and CEO of PagsGroup, his single-LP fam
 - **Why them:** Invests his own money and co-led the seed of an AI foundation-model company (Liquid AI) and a 2026 fintech Series A (Memcyco). In 2026 he publicly named AI a key long-term investment focus. One caveat: his checks are large and growth-leaning, so a small seed round may sit below his usual size.
 - **Hook:** PagsGroup co-led Liquid AI's roughly $37.5M seed for new foundation models, and in July 2026 Pagliuca named AI a key investment focus; SimReal builds RL environments and verifiers for post-training such models.
 - Email: not published
-- Fund route: not found: no official PagsGroup website, pitch inbox or contact form appeared in search results
+- Fund route: No published inbox seen. The official PagsGroup site https://www.pagsgroup.com/ has a 'Get in Touch' section (search snippet from a search limited to pagsgroup.com), but the snippet did not show its contact details and the site was not opened.
 
-### 8. Fred Ehrsam, Co-Founder & General Partner, Paradigm (moved from Managing Partner to General Partner in Oct 2023); Co-founder & CEO, Nudge, Paradigm (also co-founder & CEO of Nudge)
-
-*Duke BS, Computer Science (minor in Economics), Duke University (2010) · Confidence: Medium*
-
-Fred Ehrsam co-founded Coinbase and, in 2018, co-founded Paradigm with Matt Huang. In October 2023 he moved from Managing Partner to General Partner, saying he would keep working with the investing and research teams. He co-founded and runs Nudge, a non-invasive brain-interface startup that raised a $100M Series A in July 2025.
-
-- **Stage:** Paradigm invests from seed to growth. Its $1.2B Fund III, closed in July 2026, widened the mandate from crypto to AI and robotics under a 'technical frontier' banner.
-- **Relevant deals:** Firm-level: Paradigm's $1.2B Fund III (July 2026) expanded into AI and robotics, with early non-crypto deals in Zipline and True Anomaly. No AI, data or trading deals personally led by Ehrsam in 2025-2026 were verified.
-- **Why them:** Paradigm invests from seed, has deep trading and market-structure DNA, and as of July 2026 explicitly backs AI. A big caveat on bandwidth: since 2023-24 Ehrsam's main focus is running Nudge, so warm routing to Paradigm's AI investors may work better than a cold note to him.
-- **Hook:** Paradigm's July 2026 $1.2B Fund III widened its mandate beyond crypto into AI under a 'technical frontier' banner; Xitadel is AI training infrastructure built on trading markets.
-- Email: not published
-- Fund route: No official Paradigm pitch inbox or form was found in this batch. Official team page: https://www.paradigm.xyz/team/fred-ehrsam (search snippet). X: https://x.com/FEhrsam (search snippet).
-- X: https://x.com/FEhrsam
-
-### 9. Jeremy Levine, Partner (New York), Bessemer Venture Partners
+### 8. Jeremy Levine, Partner (New York), Bessemer Venture Partners
 
 *Duke BS Computer Science and Economics, Duke University (1995) · Confidence: Medium*
 
@@ -132,11 +119,11 @@ Partner at Bessemer Venture Partners in New York, where he has worked since 2001
 - **Why them:** Partner at a multi-stage firm that just closed a $1.75B seed and early-stage fund (Sept 2026). Signal lists AI and fintech among his focus areas. His personal seed and Series A activity in 2026 is unverified, and one third-party source frames him as growth-oriented.
 - **Hook:** When Bessemer announced its September 2026 close, which included $1.75B for seed and early-stage companies, Levine said the firm aims to back founders 'before the market fully recognizes the opportunity.' SimReal builds the RL environments, verifiers and expert data used for LLM post-training.
 - Email: not published
-- Fund route: Official BVP contact page: https://www.bvp.com/contact (search snippet). businessplans@bvp.com appeared only in a third-party summary and was not confirmed on bvp.com, so it is not recorded as official
+- Fund route: Official BVP contact page https://www.bvp.com/contact (from record). Also robotics@bvp.com, a team inbox on BVP's own site in 'Bessemer Predicts: Robotics and physical AI' https://www.bvp.com/atlas/bessemer-predicts-robotics-and-physical-ai (search snippet). This is a topic inbox, and the snippet did not confirm that Jeremy wrote the piece.
 - LinkedIn: https://www.linkedin.com/in/jeremyl/ (search snippet)
 - **Already in pipeline:** bessemer (contact: Janelle Teng Wade)
 
-### 10. Kent Ho, Founder & General Partner, S28 Capital
+### 9. Kent Ho, Founder & General Partner, S28 Capital
 
 *Duke BA Economics with a Certificate in the Markets and Management Program, Duke University (year not published) · Confidence: Medium*
 
@@ -147,9 +134,9 @@ Founder and General Partner of S28 Capital, a San Francisco venture fund founded
 - **Why them:** A seed and Series A GP whose fund focuses on enterprise SaaS and enterprise infrastructure, which matches SimReal's B2B AI-training infrastructure. His Goldman background suits a quant founding team. One caveat: an aggregator snippet showed no S28 deals yet in 2026; the latest deals seen are from Sep-Nov 2025.
 - **Hook:** S28 Capital invests at seed and Series A in enterprise SaaS and enterprise infrastructure. SimReal sells RL environments, verifiers and expert data to AI labs and data vendors such as Surge AI.
 - Email: not published
-- Fund route: No official pitch inbox or form found in search results. The official S28 team page is https://www.s28capital.com/team/kent-ho/ (search snippet).
+- Fund route: community@S28Capital.com, from a search limited to s28capital.com (search snippet; pages returned were https://www.s28capital.com/ and https://www.s28capital.com/about/). The summary called it the address 'for contacting them about pitches', but the page's exact wording was not seen, so it may be a general community inbox.
 
-### 11. Kevin King, Co-Founder & General Partner (also listed as Venture Partner, Outsiders Fund), 53 Stations (Pritzker Organization-backed venture fund)
+### 10. Kevin King, Co-Founder & General Partner (also listed as Venture Partner, Outsiders Fund), 53 Stations (Pritzker Organization-backed venture fund)
 
 *Duke BS Economics and Mathematics, Duke University (dual degree); later MBA, MIT (2006) · Confidence: Medium*
 
@@ -160,9 +147,9 @@ Kevin King co-founded 53 Stations, The Pritzker Organization-backed $190M early-
 - **Why them:** 53 Stations writes seed-to-Series B checks (it led Kaya's seed in Jan 2025) and lists fintech and AI among its focus areas. King's Duke math/econ degree and his Goldman Sachs and Windhorse Capital background suit a quant-built trading RL environment. The firm's 2026 deals seen so far are Series B fintech/wealth-tech, and no seed AI-infra deal is verified.
 - **Hook:** Kevin's path runs from Goldman Sachs to General Catalyst, and at 53 Stations he backs fintech and AI; Xitadel, SimReal's trading RL environment, sits where those two meet.
 - Email: not published
-- Fund route: Firm website 53stations.com (search snippet); no published pitch inbox or form was seen
+- Fund route: info@53stations.com (general inquiries) and the contact form https://www.53stations.com/contact, both from a search limited to 53stations.com (search snippet). 53 Stations' site also lists addresses for other team members, but none for Kevin.
 
-### 12. Mark Peter Davis, Managing Partner, Interplay (Interplay Ventures), New York
+### 11. Mark Peter Davis, Managing Partner, Interplay (Interplay Ventures), New York
 
 *Duke B.A. Economics and History, Duke University (year not published) · Confidence: Medium*
 
@@ -173,11 +160,11 @@ Mark Peter Davis is Managing Partner of Interplay, the New York venture firm fou
 - **Why them:** Seed and Series A fund with a stated focus on SaaS, fintech and AI, including a fintech-infrastructure Series A (Knot). He founded the Duke Venture Community, which gives a strong Duke-alumni angle.
 - **Hook:** Interplay's fund comes in at seed or Series A with a fintech and AI focus (for example Knot's 2023 Series A), the same ground as SimReal's Xitadel trading environment for LLM post-training.
 - Email: not published
-- Fund route: Official route: http://www.interplay.vc/engage (from the discovery record, not checked again). A generic inbox (concierge@interplay.vc) appeared only on aggregator directories and was not seen on interplay.vc, so it is left out.
+- Fund route: Official engage page http://www.interplay.vc/engage (from record). A search limited to interplay.vc also surfaced Mike@interplay.vc as a general Interplay contact (another team member's address) and ce@interplay.vc for AI voice-agent startups (from https://www.interplay.vc/blog/investing-in-ai-voice-agents). Interplay also runs virtual two-minute pitch sessions (https://www.interplay.vc/isthisathing) and an accelerator (https://www.interplay.vc/accelerator).
 - LinkedIn: https://www.linkedin.com/in/markpeterdavis/ (search snippet)
 - Site: https://mpd.medium.com (Medium blog, search snippet); podcast 'Innovation with Mark Peter Davis' (https://podcasts.apple.com/us/podcast/innovation-with-mark-peter-davis/id1548136934)
 
-### 13. Mengxi Lu, Angel investor (self-employed); Co-founder and CEO, Kanmon, Self-employed angel; Co-founder, Kanmon
+### 12. Mengxi Lu, Angel investor (self-employed); Co-founder and CEO, Kanmon, Self-employed angel; Co-founder, Kanmon
 
 *Duke Master of Engineering Management (MEM), Duke University (2012) · Confidence: Medium*
 
@@ -193,7 +180,7 @@ San Francisco software engineer and fintech founder. In 2021 he co-founded Kanmo
 - X: https://twitter.com/mengxi (search snippet: twitter.com/mengxi/status/1293718880339152896)
 - Site: https://mengxi.lu/
 
-### 14. Sergey Khusnetdinov, Founder and Managing Partner (also styled Managing Director), Ga^3in VC / Ga^3in Ventures, New York; Professor of Entrepreneurship, SKEMA Business School (NC campus, since Jan 2025); Co-President of DukeGEN, Ga^3in Ventures (Gain Ventures, gain.ventures)
+### 13. Sergey Khusnetdinov, Founder and Managing Partner (also styled Managing Director), Ga^3in VC / Ga^3in Ventures, New York; Professor of Entrepreneurship, SKEMA Business School (NC campus, since Jan 2025); Co-President of DukeGEN, Ga^3in Ventures (Gain Ventures, gain.ventures)
 
 *Duke MBA (Cross Continent MBA program), Duke Fuqua School of Business, 2013 (2013) · Confidence: Medium*
 
@@ -204,13 +191,13 @@ Fuqua Cross Continent MBA (2013) who spent fifteen years at SAP and Microsoft, t
 - **Why them:** The firm's stated thesis is pre-seed to early Series A AI and frontier tech, with Web3/crypto (capital-markets adjacent) roots. It is also built around a Duke-alumni investor network, which suits SimReal's Duke-linked founding team. Caveats: no specific AI-infra or trading deals were verified, and the vehicle looks small (accelerator/syndicate style).
 - **Hook:** Ga^3in's Ga^3in Early program makes selective pre-seed and seed investments in AI, robotics and frontier tech, and he is a Fuqua '13 alumnus who co-leads DukeGEN, which matters because SimReal's COO is at Duke.
 - Email: not published
-- Fund route: Official site https://gain.ventures/ (search snippet) lists the Ga^3in Early program as the founder route; no pitch inbox was seen. His author page on the firm site: https://gain.ventures/authors/754fc32d-772a-4f1d-b040-80a0a86d573d (search snippet). Firm X account: https://x.com/GainVentures (search snippet).
+- Fund route: The Ga^3in Early program on the official site https://gain.ventures/ (from the record). A pitch link, https://bit.ly/gainpitch, appeared in search summaries drawn from gain.ventures, his Telegram and Fuqua pages. Which page published it was not confirmed, and it is a shortened link, so it should be checked on gain.ventures before use.
 - LinkedIn: https://www.linkedin.com/today/author/husnetdinov
 - Site: Fuqua alumni Q&A: https://www.fuqua.duke.edu/alumni/connect/alumni-q-a/sergey-khusnetdinov (search snippet)
 
 ## Medium fit (21)
 
-### 15. Greg Baker, Executive Partner, Alumni Ventures. His LinkedIn headline and an April 2026 Foundation Fund event both use this title. He was Managing Partner of Towerview Ventures from 2017; his current Towerview-specific title was not re-checked for 2026., Alumni Ventures: runs Towerview Ventures (AV's Duke-focused fund); founder of Bascom Ventures; also manages AV's Foundation Fund and CIO Select Fund
+### 14. Greg Baker, Executive Partner, Alumni Ventures. His LinkedIn headline and an April 2026 Foundation Fund event both use this title. He was Managing Partner of Towerview Ventures from 2017; his current Towerview-specific title was not re-checked for 2026., Alumni Ventures: runs Towerview Ventures (AV's Duke-focused fund); founder of Bascom Ventures; also manages AV's Foundation Fund and CIO Select Fund
 
 *Duke MBA, Duke Fuqua School of Business (1991) · Confidence: High*
 
@@ -221,11 +208,11 @@ Greg Baker has been a partner at Alumni Ventures since 2017 and has helped lead 
 - **Why them:** Generalist early-stage co-investor whose Duke-connection mandate matches SimReal through its Duke COO. He states an interest in infrastructure, but it leans toward energy. AV joins rounds led by other VCs, so SimReal would need a lead investor first.
 - **Hook:** Baker manages Towerview Ventures, Alumni Ventures' fund for companies with a Duke connection, and calls infrastructure his passion; SimReal builds RL training infrastructure and has a Duke COO.
 - Email: not published
-- Fund route: Official Towerview fund page: https://www.av.vc/funds/towerview (search snippet). Towerview X account: https://x.com/towerviewvc (search snippet). No pitch inbox or founder form was seen in search results.
+- Fund route: Alumni Ventures founder page with submission form: https://www.av.vc/entrepreneurs (search snippet). The snippet hid the founder inbox as '[email protected]' and says founders can email it 'or submit the form'. AV commits only after a round has a lead VC. Towerview-specific page: https://www.av.vc/funds/towerview (its Calendly page https://www.av.vc/funds/towerview/tvv-calendly appears to be for LP investors).
 - LinkedIn: https://www.linkedin.com/in/gregebaker/ (search snippet)
 - Site: https://www.av.vc/people/greg-baker (official AV bio, search snippet); https://techoptimist.vc/people/greg-baker (AV podcast page, search snippet)
 
-### 16. Gregg Bordes, Co-Founder & Managing Partner, Front Porch Venture Partners (Raleigh/Cary, NC)
+### 15. Gregg Bordes, Co-Founder & Managing Partner, Front Porch Venture Partners (Raleigh/Cary, NC)
 
 *Duke MBA (with honors), Duke Fuqua School of Business (2012) · Confidence: High*
 
@@ -236,10 +223,10 @@ Greggory (Gregg) Bordes co-founded Front Porch Venture Partners in 2020 with Joe
 - **Why them:** Generalist early-stage Southeast fund whose stated sectors include fintech and enterprise software. Direct seed/Series A checks are small and limited to the Southeast. SimReal's Duke-based COO may give it a Triangle tie, but no AI-infra deals were found.
 - **Hook:** Front Porch released its first Southeast Startup Founder Pulse Survey in September 2026; SimReal is a seed-stage AI trading-environment company whose COO is based at Duke.
 - Email: not published
-- Fund route: Official contact page https://www.frontporchvp.com/contact/ (search snippet). No published pitch inbox found.
+- Fund route: Official Front Porch Venture Partners contact/pitch form https://www.frontporchvp.com/contact/ (search snippet; per the Joe Mancini/Nikin Shah records it asks for company name, founder, email, website, stage and pitch deck)
 - LinkedIn: https://www.linkedin.com/in/greggbordes/
 
-### 17. Joe Mancini, Co-Founder & General Partner, Front Porch Venture Partners
+### 16. Joe Mancini, Co-Founder & General Partner, Front Porch Venture Partners
 
 *Duke MBA, Duke Fuqua School of Business (Daytime MBA); Spaulding Award for Leadership (2012) · Confidence: High*
 
@@ -250,9 +237,9 @@ Co-founder and General Partner of Front Porch Venture Partners, a Durham/Researc
 - **Why them:** Generalist early-stage tech investor with a strong Duke/Fuqua tie and a Google/software background, but the fund is Southeast-focused, about 60% fund-of-funds, and has no verified AI-infra or fintech direct deals. Contact him rather than Shah, since he is the tech-side partner.
 - **Hook:** Front Porch's new Southeast Startup Founder Pulse Survey (Sept 2026) asked founders about AI and the capital environment. SimReal, whose COO Amaris is at Duke, builds RL training environments for LLMs and is raising a seed round. Its Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.
 - Email: not published
-- Fund route: Official pitch/contact form at https://www.frontporchvp.com/contact/ (fields include company name, founder, email, website, location, stage and pitch deck). Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)
+- Fund route: Official Front Porch pitch/contact form: https://www.frontporchvp.com/contact/ (from his record). A search limited to frontporchvp.com returned no page showing an individual address.
 
-### 18. Katelyn Donnelly, Founder and Managing Partner (solo GP), Avalanche VC
+### 17. Katelyn Donnelly, Founder and Managing Partner (solo GP), Avalanche VC
 
 *Duke BA Economics and Political Science (graduation with high distinction in economics), Duke University, Trinity College (2008) · Confidence: High*
 
@@ -263,11 +250,11 @@ Katelyn Donnelly (Duke BA Economics and Political Science, Trinity '08) founded 
 - **Why them:** She is a solo-GP pre-seed and seed investor. Her fund lists AI, future of work and enterprise among its sectors, and its 'earn and own' thesis touches fintech. She has strong Duke ties (Trinity '08). Caveats: her recent pace is slow (Tracxn shows 1 new investment in the 12 months to March 2026), and she is a generalist rather than an AI-infrastructure or quant specialist.
 - **Hook:** Avalanche's thesis targets how people learn, earn and own, and SimReal's expert-data work turns quant expertise into LLM training signal that lifted an open model's trading performance 12%.
 - Email: not published
-- Fund route: Official contact page: https://www.avalanche.vc/contact (seen in search results; the site is blocked and could not be opened to confirm a listed inbox). Writing: https://krdonnelly.medium.com/ and https://katelyndonnelly.com/ (search snippet).
+- Fund route: hello@avalanche.vc. Avalanche VC's official site https://www.avalanche.vc/ (search snippet; search limited to avalanche.vc): 'The contact email is hello@avalanche.vc', and the site also has an inquiry form. Contact page: https://www.avalanche.vc/contact. Her profile: https://www.avalanche.vc/people/katelyn.
 - LinkedIn: https://www.linkedin.com/in/katelyndonnelly/
 - Site: https://katelyndonnelly.com/
 
-### 19. Lindy Morris Fishburne, Founding Managing Partner, Breakout Ventures
+### 18. Lindy Morris Fishburne, Founding Managing Partner, Breakout Ventures
 
 *Duke B.A. in Cultural and Physical Anthropology, Duke University (class of '92) (1992) · Confidence: High*
 
@@ -278,9 +265,9 @@ Lindy Morris Fishburne (Duke '92, B.A. anthropology) is a founding managing part
 - **Why them:** A fresh 2026 AI-focused seed/Series A fund, but its thesis is scientist-founded biology and chemistry platforms rather than AI infrastructure, LLM training data or trading tech. It is a stretch fit unless SimReal pitches verifiers and environments for scientific reasoning.
 - **Hook:** Breakout's $114M Fund III, closed March 2026, backs seed startups 'unlocking the complexity of science with AI'; SimReal builds the RL environments and verifiers that teach models expert-domain reasoning.
 - Email: not published
-- Fund route: General inbox contact@breakout.vc, listed on the official contact page https://breakout.vc/contact (search snippet, search restricted to breakout.vc). The page also lists accounts@breakout.vc for account matters; that inbox is not for pitches.
+- Fund route: contact@breakout.vc, the general inbox on Breakout Ventures' official contact page https://breakout.vc/contact (search snippet from the existing record, search limited to breakout.vc). The page also lists accounts@breakout.vc, which is for account matters and not for pitches.
 
-### 20. Rob Go, Co-Founder & Partner, NextView Ventures
+### 19. Rob Go, Co-Founder & Partner, NextView Ventures
 
 *Duke B.S. (Economics), Duke University, magna cum laude; MBA, Harvard Business School (2001) · Confidence: High*
 
@@ -290,13 +277,13 @@ Rob Go co-founded NextView Ventures, a seed-stage fund in Boston and New York th
 - **Relevant deals:** Firm-level: NextView invested in Fuse Finance (fintech) in a Series A-II on March 16, 2026, according to a CB Insights snippet. No personal AI-infrastructure, data or quant deal was verified.
 - **Why them:** A generalist seed investor whose focus list includes fintech and AI. His thesis centers on end-user and vertical software rather than AI infrastructure or RL tooling, so SimReal's B2B lab-supplier model is only a partial match.
 - **Hook:** NextView backs seed-stage software across fintech and AI and invested in Fuse Finance in March 2026. SimReal's Xitadel trading environment lifted an open model's trading performance 12% on unseen market data.
-- Email: not published
-- Fund route: Official NextView team page https://nextview.vc/team/rob-go/ (search snippet). He also blogs at https://nextview.vc/blog/author/robgo/. No official pitch inbox was seen.
+- Email: rob@nextviewventures.com (published at https://nextview.vc/team/rob-go/ and https://nextview.vc/blog/our-thesis-on-work-equalizing-opportunity/ (search snippet; an exact-phrase search for 'rob at nextviewventures dot com' returned these NextView pages first, and a search limited to nextview.vc/robgo.org gave the same address))
+- Fund route: NextView Approach page https://nextview.vc/approach/ (from the David Beisel record; NextView prefers a warm referral or the contact/pitch route listed there)
 - LinkedIn: https://www.linkedin.com/in/robgo/ (search snippet)
 - X: https://x.com/robgo (search snippet)
 - Site: https://robgo.org/ (search snippet); https://robgo.medium.com/ (search snippet)
 
-### 21. Thomas D. Lehrman, Co-founder and Managing Partner, Teamworthy Ventures
+### 20. Thomas D. Lehrman, Co-founder and Managing Partner, Teamworthy Ventures
 
 *Duke BA, Duke University (also JD, Yale Law School; CFA charterholder) (year not published) · Confidence: High*
 
@@ -307,9 +294,9 @@ Thomas D. Lehrman is co-founder and Managing Partner of Teamworthy Ventures, a v
 - **Why them:** He is a founding/seed-stage Managing Partner, so the stage fits. He co-founded GLG, an expert network, which is close to SimReal's expert-data business. No AI or fintech deals were verified.
 - **Hook:** You co-founded GLG, the expert network, and Teamworthy led Drug Hunter's seed in September 2025 to expand its drug-discovery knowledge platform; SimReal turns domain experts' knowledge into verifiers and expert data for LLM post-training, already supplying Surge AI and AfterQuery.
 - Email: not published
-- Fund route: Official firm site: https://www.teamworthy.com/ (search snippet). No published pitch inbox verified.
+- Fund route: investors@teamworthy.com, the pitch and investor-relations inbox, seen in a search limited to teamworthy.com (search snippet; https://www.teamworthy.com/). ventureadvisor@teamworthy.com is for the Venture Advisor program only, not for pitches.
 
-### 22. Will Bumpus, Partner, Westbound Equity Partners (formerly Concrete Rose Capital)
+### 21. Will Bumpus, Partner, Westbound Equity Partners (formerly Concrete Rose Capital)
 
 *Duke B.A. Psychology and Asian & Middle Eastern Studies, Duke University (Trinity); MBA Stanford GSB (2009) · Confidence: High*
 
@@ -320,9 +307,9 @@ Will Bumpus is a Partner at Westbound Equity Partners, the Los Angeles and Menlo
 - **Why them:** Early-stage generalist fund with a diversity thesis. It has backed AI companies, but no AI infrastructure or trading deals were found. His Perella Weinberg finance background gives a small link to Xitadel.
 - **Hook:** Will began his career as an M&A and restructuring analyst at Perella Weinberg; SimReal's Xitadel environment trains LLMs on the kind of financial-market reasoning that work demands.
 - Email: not published
-- Fund route: No official Westbound pitch inbox or form was found in search snippets. The official team page is https://westboundequity.com/team/will-bumpus/ (search snippet).
+- Fund route: Westbound's official pitch form (founder name, contact email, pitch deck upload or link): https://westboundequity.com/contact-us/ (search snippet, search limited to westboundequity.com)
 
-### 23. Blake Byers, Founder, Byers Capital (San Francisco family office); co-founder and board member, NewLimit, Byers Capital (family office, founded 2021); co-founder of NewLimit
+### 22. Blake Byers, Founder, Byers Capital (San Francisco family office); co-founder and board member, NewLimit, Byers Capital (family office, founded 2021); co-founder of NewLimit
 
 *Duke BS Biomedical Engineering (Pratt) and Economics, Duke University; PhD Bioengineering, Stanford (year not published) · Confidence: Medium*
 
@@ -337,7 +324,7 @@ Holds a Duke BS in biomedical engineering and a BS in economics, plus a Stanford
 - X: https://x.com/byersblake
 - Site: https://www.byerscap.com/
 
-### 24. David Cummings, Founder & CEO, Atlanta Ventures, Atlanta Ventures (also founding investor in Dogwood Ventures; founder of Atlanta Tech Village)
+### 23. David Cummings, Founder & CEO, Atlanta Ventures, Atlanta Ventures (also founding investor in Dogwood Ventures; founder of Atlanta Tech Village)
 
 *Duke B.S. Economics, Duke University (also studied at the London School of Economics) (year not published) · Confidence: Medium*
 
@@ -352,7 +339,7 @@ David Cummings founded and leads Atlanta Ventures, a venture studio and early-st
 - LinkedIn: https://www.linkedin.com/in/davidcummings/ (search snippet)
 - Site: https://davidcummings.org/ (search snippet)
 
-### 25. Deb Liu, Co-founder of Ember AI and Investor Member of Duke Capital Partners. She was CEO of Ancestry from 2021 to January 2025., Ember AI (co-founder); Duke Capital Partners (Investor Member, angel)
+### 24. Deb Liu, Co-founder of Ember AI and Investor Member of Duke Capital Partners. She was CEO of Ancestry from 2021 to January 2025., Ember AI (co-founder); Duke Capital Partners (Investor Member, angel)
 
 *Duke BSE Civil Engineering, Duke Pratt School of Engineering (B.N. Duke Scholar); MBA, Stanford GSB (1998) · Confidence: Medium*
 
@@ -362,12 +349,12 @@ Deb Liu (Duke BSE Civil Engineering 1998; Stanford MBA) held product roles at eB
 - **Relevant deals:** Keebler Health (AI risk adjustment for value-based care), $6M seed, Feb 2025. Sweatpals (fitness social), $12M seed, Oct 2025, led by Patron, a16z speedrun and HartBeat Ventures. Only aggregator data supports two more: a Sundial $23M Series A (Jul 2025) and a District $15M seed (May 2026). None are AI-infrastructure or trading deals.
 - **Why them:** She is a Duke engineer (BSE '98) and a payments/marketplace operator who now co-founds an AI startup, Ember AI. She still writes personal angel checks at seed and Series A, including Keebler Health (an AI health startup, seed, Feb 2025), Sweatpals (seed, Oct 2025) and, per Tracxn, District (seed, May 2026). She also has a Duke Capital Partners tie. Caveats: she has no AI-infrastructure or trading deals, and she is a full-time founder.
 - **Hook:** Liu has said not doing AI is like refusing to use Excel and now co-founds Ember AI for back-office automation; SimReal builds RL environments and verifiers that post-train models for expert work.
-- Email: not published
+- Email: debliublog@gmail.com (published at https://debliu.com/contact/ and https://debliu.substack.com/about (search snippet; search limited to debliu.com and debliu.substack.com))
 - Fund route: Duke Capital Partners official site: https://dukecapitalpartners.duke.edu/ (search snippet). She is a DCP Investor Member, and SimReal qualifies for DCP through its Duke COO. Her personal site is https://debliu.com/ (search snippet).
 - LinkedIn: https://www.linkedin.com/in/deborahliu/
 - Site: https://debliu.com/
 
-### 26. Jason Fernandez, Managing Partner & COO, Quake Capital Partners (since Feb 2019); General Partner, Creci Ventures (since Aug 2022), Quake Capital Partners; Creci Ventures (Austin, TX)
+### 25. Jason Fernandez, Managing Partner & COO, Quake Capital Partners (since Feb 2019); General Partner, Creci Ventures (since Aug 2022), Quake Capital Partners; Creci Ventures (Austin, TX)
 
 *Duke Daytime MBA (Finance, Strategy, Health Sector Management), Duke Fuqua School of Business (2008) · Confidence: Medium*
 
@@ -381,7 +368,7 @@ Jason Fernandez has been Managing Partner and COO of Quake Capital Partners sinc
 - Fund route: Creci Ventures website https://www.creciventures.com/ (team page seen in search snippet). Quake Capital site www.quakecapital.com (search snippet). No official pitch inbox or form URL seen.
 - LinkedIn: https://www.linkedin.com/in/jason-r-fernandez/
 
-### 27. Lawson DeVries, Managing General Partner, Grotech Ventures
+### 26. Lawson DeVries, Managing General Partner, Grotech Ventures
 
 *Duke MBA, Duke University Fuqua School of Business (also BA English Literature, Harvard) (year not published) · Confidence: Medium*
 
@@ -391,10 +378,10 @@ Lawson DeVries is Managing General Partner of Grotech Ventures, an early-stage f
 - **Relevant deals:** Sturdy.ai (AI customer-intelligence platform built on unstructured customer data): Grotech joined its $6M seed in April 2025, which Voyager Capital led. CrowdStreet (online real-estate investment platform): Grotech joined a $43M financing (year not stated). Yardstik: 2026 investment (round not stated).
 - **Why them:** Senior decision maker at a seed/Series A B2B software fund that lists AI and fintech as focus areas and joined an AI-data seed round in 2025. The fund is a generalist rather than AI-infrastructure specialist and has an outside-Silicon-Valley mandate. His Duke graduation year is not stated.
 - **Hook:** Grotech joined Sturdy.ai's $6M seed in April 2025, backing AI built on unstructured customer data. SimReal supplies the expert data and verifiers that post-train such models.
-- Email: not published
-- Fund route: Official site grotech.com, with his team page at https://www.grotech.com/team/lawson-devries (search snippet). No official pitch inbox or form was seen.
+- Email: ldevries@grotech.com (published at https://www.grotech.com/team/lawson-devries and https://www.grotech.com/team (search snippet; two separate searches limited to grotech.com both returned this address))
+- Fund route: info@grotech.com, from the official grotech.com site (search snippet; search limited to grotech.com), together with phone (703) 637-9555
 
-### 28. Scott Raney, Managing Director / Partner, Redpoint Ventures
+### 27. Scott Raney, Managing Director / Partner, Redpoint Ventures
 
 *Duke BS Electrical Engineering, Duke Pratt School of Engineering (E'91) (1991) · Confidence: Medium*
 
@@ -407,9 +394,10 @@ Managing Director at Redpoint Ventures, which he joined in 2000. He invests in e
 - Email: not published
 - Fund route: Redpoint profile page https://www.redpoint.com/our-people/scott-raney/ (search snippet). No official pitch inbox was verified
 - X: https://x.com/sraney (search snippet; handle seen in a status URL)
+- Site: https://medium.com/@sraney (search snippet)
 - **Already in pipeline:** redpoint (contact: Jordan Segall)
 
-### 29. William Crowder, Co-Founder and Managing Partner, Aperture Venture Capital (no longer at 42 Venture Partners, where he was Managing Partner 2017-2019)
+### 28. William Crowder, Co-Founder and Managing Partner, Aperture Venture Capital (no longer at 42 Venture Partners, where he was Managing Partner 2017-2019)
 
 *Duke MBA (Daytime MBA program), Duke University Fuqua School of Business; also BS and MS in Computer Science from NC State (1999) · Confidence: Medium*
 
@@ -420,9 +408,9 @@ William Crowder co-founded and is Managing Partner of Aperture Venture Capital, 
 - **Why them:** Seed-stage decision maker whose thesis is capital-markets and financial infrastructure, which matches the Xitadel trading angle. But SimReal is AI training infrastructure rather than a fintech product, and the fund prioritizes Black, Latin and female founders. He teaches at Fuqua, a direct Duke tie for Amaris.
 - **Hook:** Aperture invests at seed in technology that increases the movement and security of capital. SimReal's Xitadel environment raised an open model's trading performance 12% on unseen market data.
 - Email: not published
-- Fund route: Official contact page https://aperturevc.com/contact/ (search snippet). A third-party guide (superscout.co, search snippet) says pitches go through aperturevc.com/pitch; not confirmed on the official site. press@aperturevc.com is for press inquiries only.
+- Fund route: Official contact page https://aperturevc.com/contact/ (search snippet; search limited to aperturevc.com). No pitch inbox was seen on aperturevc.com. press@aperturevc.com and jen@aperturevc.com are listed only for press and media inquiries and are not pitch routes. Team page: https://aperturevc.com/personnel/william-crowder/.
 
-### 30. Amit Mehra, General Partner (listed as Partner/General Partner), Borderless Capital
+### 29. Amit Mehra, General Partner (listed as Partner/General Partner), Borderless Capital
 
 *Duke MBA (Finance and Strategy), Duke Fuqua School of Business (year not published) · Confidence: Low*
 
@@ -433,11 +421,11 @@ Amit Mehra is a Partner (listed as General Partner) at Borderless Capital, which
 - **Why them:** An investing partner at a seed-to-Series B fund with fintech and AI-crypto deals, and a former FX/finance background suits a trading environment. The fund's core is Web3/DePIN/climate, not AI post-training. The Duke MBA year is inferred, not stated, and there is no 2026-dated confirmation of his role.
 - **Hook:** Borderless Capital joined NeuraMint's $5M seed for Web3-native AI agents in January 2026; SimReal's Xitadel environment trains LLM agents to trade and improved an open model 12% out of sample.
 - Email: not published
-- Fund route: Borderless Capital team page https://www.borderlesscapital.io/team (search snippet). No official pitch inbox seen.
+- Fund route: hello@borderlesscapital.io. A search limited to borderlesscapital.io returned it, apparently from the privacy policy on the firm's careers subdomain (https://careers.borderlesscapital.io/privacy-policy, search snippet: 'contact Borderless Management via email at hello@borderlesscapital.io'). This is a general or privacy inbox, not a stated pitch inbox. Team page: https://www.borderlesscapital.io/team
 - LinkedIn: https://www.linkedin.com/in/aamehra/
 - X: https://x.com/amitm_eth
 
-### 31. Ashley Flucas, Founder & General Partner (solo GP), Flucas Ventures (AngelList syndicate). Her current primary role is Chief Operating Officer & General Counsel, Summit Ventures, a multi-industry company (15 industries, 8 countries). Summit Ventures was not verified as a venture fund, and she has no verified investment role there., Flucas Ventures (AngelList syndicate, solo GP); also COO & General Counsel, Summit Ventures
+### 30. Ashley Flucas, Founder & General Partner (solo GP), Flucas Ventures (AngelList syndicate). Her current primary role is Chief Operating Officer & General Counsel, Summit Ventures, a multi-industry company (15 industries, 8 countries). Summit Ventures was not verified as a venture fund, and she has no verified investment role there., Flucas Ventures (AngelList syndicate, solo GP); also COO & General Counsel, Summit Ventures
 
 *Duke B.A. Political Science, Duke University; J.D., Harvard Law School (2008) · Confidence: Low*
 
@@ -447,11 +435,12 @@ Ashley Flucas founded Flucas Ventures, an AngelList syndicate she runs as solo G
 - **Relevant deals:** Personal or syndicated: Databricks (data/AI infrastructure), Brex, Mercury, Qonto, Pipe, Bolt (fintech), AngelList, Turing. A 2025 investment in Limitless (acquired by Meta, Dec 2025) is aggregator-reported. Rounds and years for the core deals were not verified.
 - **Why them:** A syndicate lead with a strong fintech and data-infrastructure portfolio (Databricks, Brex, Mercury) and AI listed as a focus. Her syndicate is generalist, and no specific 2026 seed deal in AI infrastructure or quant was verified. She is still worth a try because the syndicate reaches thousands of LPs.
 - **Hook:** Your Flucas Ventures syndicate backed data and fintech infrastructure such as Databricks, Brex and Mercury. SimReal builds RL environments and expert data for LLM post-training, starting with Xitadel, its trading environment.
-- Email: not published
-- Fund route: Official Flucas Ventures AngelList syndicate page https://venture.angellist.com/ashley-flucas/syndicate (search snippet). Company LinkedIn: https://www.linkedin.com/company/flucas-ventures (search snippet).
+- Email: ashley@flucasvc.com (published at Search snippet from a search limited to interview pages: probably https://alltheangels.substack.com/p/-angel-interview-10-ashley-flucas or https://medium.com/the-syndicate-investor/syndicate-lead-profile-1-ashley-flucas-61801cf30822 (the Q&A profiles where she gives her contact details). The exact page was not pinned down.)
+- Fund route: Flucas Ventures AngelList syndicate page https://venture.angellist.com/ashley-flucas/syndicate (no pitch inbox or form confirmed)
 - LinkedIn: https://www.linkedin.com/in/asflucas/ (search snippet)
+- Site: https://flucasvc.com (named in the same snippet)
 
-### 32. Jason Freedman, General Partner, Peak State Ventures
+### 31. Jason Freedman, General Partner, Peak State Ventures
 
 *Duke BA, Public Policy and Economics, Duke University (also MBA, Tuck School of Business at Dartmouth, 2008) (2002) · Confidence: Low*
 
@@ -462,9 +451,9 @@ Jason Freedman is a General Partner at Peak State Ventures, where profile snippe
 - **Why them:** Writes seed checks and backed Hamming AI's seed round. Hamming tests and evaluates AI agents, the same layer as SimReal's verifiers and RL environments, and the fund lists FinTech among its focus areas. Caveats: the firm's core thesis is future of work and proptech, and no 2026-dated activity was found.
 - **Hook:** Peak State Ventures backed Hamming AI's $3.8M seed for testing AI voice agents. SimReal works in the same AI evaluation layer, building verifiers and RL environments for LLM post-training.
 - Email: not published
-- Fund route: Official site peakstate.vc (search snippet). No official pitch inbox was confirmed. info@peakstate.vc appeared only in a third-party guide (superscout.co) and should not be used until it is seen on peakstate.vc.
+- Fund route: info@peakstate.vc, now confirmed by a search limited to peakstate.vc: https://peakstate.vc/ (search snippet), 'The general contact email for Peak State Ventures is info@peakstate.vc.' Team page: https://peakstate.vc/team/jason-freedman/.
 
-### 33. Pamir Gelenbe, Founder & Managing Partner, Libertus Capital (no 2025-2026 deal after March 2025 found), Libertus Capital
+### 32. Pamir Gelenbe, Founder & Managing Partner, Libertus Capital (no 2025-2026 deal after March 2025 found), Libertus Capital
 
 *Duke BSc Electrical Engineering, Duke University (MSc Operations Research, Columbia) (year not published) · Confidence: Low*
 
@@ -478,7 +467,7 @@ Pamir Gelenbe is Founder and Managing Partner of Libertus Capital, a London-base
 - Fund route: No official fund pitch inbox found. Personal profile: https://about.me/pamirgelenbe (search snippet, from discovery)
 - Site: https://about.me/pamirgelenbe (search snippet)
 
-### 34. Padowithz "Pad" Alce, Founding Partner, AI Patent Law; angel investor with Duke Capital Partners; IP and patent strategy lead at ForgeUp Ventures, AI Patent Law (Founding Partner); investor with Duke Capital Partners (formerly Duke Angel Network); team member at ForgeUp Ventures (AI/ML venture studio)
+### 33. Padowithz "Pad" Alce, Founding Partner, AI Patent Law; angel investor with Duke Capital Partners; IP and patent strategy lead at ForgeUp Ventures, AI Patent Law (Founding Partner); investor with Duke Capital Partners (formerly Duke Angel Network); team member at ForgeUp Ventures (AI/ML venture studio)
 
 *Duke LLM in Law & Entrepreneurship (LLMLE), Duke Law (2011) · Confidence: Medium*
 
@@ -489,11 +478,11 @@ Pad Alce founded AI Patent Law in February 2020. It is a boutique AI and machine
 - **Why them:** His work is entirely focused on AI startups, through patent strategy for about 60 AI-native companies and the ForgeUp AI/ML venture studio, and he invests at angel stage via Duke Capital Partners. However, I found no named angel deals in AI infrastructure, data or fintech, and his checks are likely small or syndicated.
 - **Hook:** You founded AI Patent Law, which serves about 60 AI-native startups, and invest through Duke Capital Partners; SimReal builds proprietary RL environments and verifiers, like Xitadel, for LLM post-training.
 - Email: not published
-- Fund route: Info@aiPatentLaw.com is the AI Patent Law general inbox. It is printed on the firm's letterhead (Ann Arbor, MI and Charlotte, NC) in a letter posted at https://info.ncdhhs.gov/dhsr/mfp/pets/2024/summer/L02n_AIPatentLaw.pdf (search snippet). A 2023 letter is also reported at https://info.ncdhhs.gov/DHSR/mfp/pets/2023/summer/L02o_Padowithz%20Alce_AI%20Patent%20Law_LOS.pdf (from discovery). Firm site: https://www.aipatentlaw.com/. Team page: https://www.aipatentlaw.com/meet-our-people/ (search snippet).
+- Fund route: Info@aiPatentLaw.com, the general inbox of his law firm (not a fund). It is printed on AI Patent Law letterhead: '(888) 777-1255 Ann Arbor, MI and Charlotte, NC Info@aiPatentLaw.com', in https://info.ncdhhs.gov/dhsr/mfp/pets/2024/summer/L02n_AIPatentLaw.pdf (search snippet). Firm site: https://www.aipatentlaw.com/. Team page: https://www.aipatentlaw.com/meet-our-people/.
 - LinkedIn: https://www.linkedin.com/in/padowithzalce/
 - Site: https://www.aipatentlaw.com/
 
-### 35. Lisa Burton O'Toole, Vice President / Executive Director, HearstLab (latest dated evidence is 2024; 2026 title not confirmed), HearstLab (Hearst's early-stage investment arm)
+### 34. Lisa Burton O'Toole, Vice President / Executive Director, HearstLab (latest dated evidence is 2024; 2026 title not confirmed), HearstLab (Hearst's early-stage investment arm)
 
 *Duke BSE Mechanical Engineering, Duke Pratt School of Engineering (E'07); later MS and PhD in mechanical engineering at MIT (2007) · Confidence: Low*
 
@@ -506,9 +495,9 @@ Lisa Burton O'Toole earned a Duke Pratt mechanical engineering degree (E'07), th
 - Email: not published
 - Fund route: not found: no official HearstLab pitch inbox or application URL appeared in search results
 
-## Low fit (28)
+## Low fit (27)
 
-### 36. Ali Behbahani, Partner, Co-Head of Healthcare (Signal lists him as General Partner), NEA (New Enterprise Associates)
+### 35. Ali Behbahani, Partner, Co-Head of Healthcare (Signal lists him as General Partner), NEA (New Enterprise Associates)
 
 *Duke Bachelor's degrees in biomedical engineering, electrical engineering and chemistry, Duke University (year not published) · Confidence: High*
 
@@ -519,9 +508,9 @@ Partner and co-head of NEA's healthcare team, which he joined in 2007, focused o
 - **Why them:** He is purely a healthcare and biotech investor with no AI, data or fintech deals. He is useful mainly as a Duke-alumni route to NEA's technology partners.
 - **Hook:** Ali co-heads NEA's healthcare practice (boards include CRISPR Therapeutics, Black Diamond Therapeutics); SimReal is outside his sector, so a Duke-alumni intro to NEA's technology partners is the realistic ask.
 - Email: not published
-- Fund route: Official NEA team page https://www.nea.com/team/ali-behbahani-md (search snippet). No published pitch inbox found.
+- Fund route: NEA's official contact page https://www.nea.com/contact lists bd@nea.com under 'Corporate Inquiries' and LPRelations@nea.com for investor relations (search snippet restricted to nea.com). bd@ is labeled corporate/business development, not a founder pitch inbox. The search engine's suggestion to send pitches there is its own inference.
 
-### 37. Dan Levitan, Co-Founder and General Partner, Maveron
+### 36. Dan Levitan, Co-Founder and General Partner, Maveron
 
 *Duke BA, Duke University (1979) · Confidence: High*
 
@@ -536,7 +525,7 @@ Dan Levitan co-founded the consumer-focused venture firm Maveron with Howard Sch
 - X: https://x.com/Levitan
 - Site: https://maveronvc.substack.com (Maveron's Substack, search snippet)
 
-### 38. Doug Brown, Co-Founder and Managing Partner, Dental Innovation Alliance, Dental Innovation Alliance (DIA)
+### 37. Doug Brown, Co-Founder and Managing Partner, Dental Innovation Alliance, Dental Innovation Alliance (DIA)
 
 *Duke BS, Duke University 1978; MBA, Duke Fuqua School of Business 1984 (1978) · Confidence: High*
 
@@ -547,10 +536,10 @@ Doug Brown is Co-Founder and Managing Partner of Dental Innovation Alliance, a d
 - **Why them:** Active early-stage Managing Partner, but DIA's mandate is dental-only, so SimReal's trading RL environment is outside its thesis. The only overlap is DIA's dental-AI deals; no personal angel investing found.
 - **Hook:** Dental Innovation Alliance, which he co-founded, invested in DentalBee, an AI-powered dental documentation startup. Domain-specific AI like that depends on the expert data and verifiers SimReal builds.
 - Email: not published
-- Fund route: Official DIA founder page: https://www.dialliance.com/innovators (search snippet). A third-party founder guide (superscout.co, search snippet) lists inquiries@dialliance.com as the pitch inbox, but I did not see it on the official site, so treat it as unverified.
+- Fund route: inquiries@dialliance.com, plus the inquiry form on DIA's official contact page https://www.dialliance.com/contact-us. Both were seen in a search restricted to dialliance.com (search snippet), which confirms the inbox the earlier record marked as unverified.
 - LinkedIn: https://www.linkedin.com/in/doug-brown-7b6b7a32/ (search snippet; profile title now reads 'Doug Brown - Dental Innovation Alliance (DIA)', confirming it is him)
 
-### 39. Gonzalo Costa, Co-founder and General Partner (Founding Partner), NXTP Ventures (NXTP Labs)
+### 38. Gonzalo Costa, Co-founder and General Partner (Founding Partner), NXTP Ventures (NXTP Labs)
 
 *Duke MBA, Duke Fuqua School of Business; Industrial Engineering degree from Universidad Catolica Argentina (2001) · Confidence: High*
 
@@ -561,9 +550,9 @@ Gonzalo Costa co-founded NXTP, a Latin American early-stage B2B fund started in 
 - **Why them:** Stage and sector fit well (B2B, AI, fintech, pre-seed to A), but NXTP invests only in Latin American startups and SimReal is not one. He is useful mainly as a Duke/Fuqua contact or for co-investor intros.
 - **Hook:** NXTP led AI startup Luzid's $2.8M pre-seed and was an early Auth0 backer; SimReal is likewise B2B AI infrastructure, selling RL environments and verifiers to AI data providers.
 - Email: not published
-- Fund route: info@nxtp.vc, the general inbox listed on the official NXTP contact page https://www.nxtp.vc/contact (search snippet). NXTP has offices in Buenos Aires, Sao Paulo and Mexico City.
+- Fund route: info@nxtp.vc, the general inbox on the official NXTP contact page https://www.nxtp.vc/contact (search snippet, from his record)
 
-### 40. Jeff Terrell, Managing Partner, Arboretum Ventures (Ann Arbor, MI)
+### 39. Jeff Terrell, Managing Partner, Arboretum Ventures (Ann Arbor, MI)
 
 *Duke MBA, Duke University Fuqua School of Business, focused on health care and finance (undergrad: Princeton) (2013) · Confidence: High*
 
@@ -573,10 +562,10 @@ Jeff Terrell joined Arboretum Ventures in March 2025 as Investment Partner and w
 - **Relevant deals:** none found (medtech portfolio: AtaCor Medical, Boomerang Medical, Pharaoh Neuroscience via Fund VI)
 - **Why them:** Pure healthcare and medtech early-stage fund, with no AI-infrastructure, data, fintech or trading investments found. The only link to SimReal is the Duke/Durham connection.
 - Email: not published
-- Fund route: Official site https://www.arboretumvc.com/ (search snippet), which has a Contact Us page (not read). No public pitch inbox found.
+- Fund route: Arboretum Ventures' official 'Investment Opportunity Form' at https://www.arboretumvc.com/contact/ (search snippet; result title on arboretumvc.com).
 - LinkedIn: https://www.linkedin.com/in/jeff-terrell-a515a24/
 
-### 41. Jim Scheinman, Founding Managing Partner, Maven Ventures
+### 40. Jim Scheinman, Founding Managing Partner, Maven Ventures
 
 *Duke BS Neuropsychology, Duke University (Trinity '88); JD, UC Davis School of Law. Discovery listed the major as Psychology. (1988) · Confidence: High*
 
@@ -587,12 +576,12 @@ Founding Managing Partner of Maven Ventures, a Silicon Valley seed fund whose $6
 - **Why them:** He is an active seed GP and an AI enthusiast, but Maven invests only in consumer software (consumer AI, health, families, climate). SimReal is B2B AI-training infrastructure, so the sector does not match. Mainly useful as a Duke connector.
 - **Hook:** Maven's $60M Fund IV is a seed fund with a heavy emphasis on consumer AI. SimReal's RL environments and verifiers improve the models that such consumer AI products are built on.
 - Email: not published
-- Fund route: Maven Ventures' official Get in Touch page: https://blog.mavenventures.com/getintouch/ (search snippet). A generic inbox (hello@mavenventures.com) also appeared in the discovery results. It was not confirmed on Maven's official page and may come only from the aggregator superscout.co, so it is left out until it is seen on the official site. Personal site: https://jimscheinman.com (search snippet).
+- Fund route: hello@mavenventures.com, confirmed in a search limited to mavenventures.com on the official Get in Touch page https://blog.mavenventures.com/getintouch/ (search snippet). It says to send a brief description of the business, vision, team and traction, with a deck. Maven prefers a mutual introduction. This settles the earlier doubt in the record: the inbox is on Maven's own site.
 - LinkedIn: https://www.linkedin.com/in/jscheinman/ (search snippet)
 - X: https://x.com/jimscheinman (search snippet)
 - Site: https://jimscheinman.com (search snippet)
 
-### 42. John Tough, Co-founder and Managing Partner, Energize Capital (formerly Energize Ventures), Chicago
+### 41. John Tough, Co-founder and Managing Partner, Energize Capital (formerly Energize Ventures), Chicago
 
 *Duke BS, Duke University (also MBA, University of Chicago Booth, Class of 2012) (year not published) · Confidence: High*
 
@@ -603,10 +592,10 @@ John Tough co-founded Energize Capital, a Chicago firm that invests in software 
 - **Why them:** The fund only invests in climate and energy-transition software, and its $10-20M checks are a poor match for a seed round. The partial upside: in 2026 it led a Series A in time-series foundation models (Nixtla), and energy trading overlaps with Xitadel's trading environment.
 - **Hook:** Energize led Nixtla's $16M Series A in February 2026 to build foundation models for time-series forecasting; SimReal's Xitadel trains models to act on unseen market time-series data.
 - Email: not published
-- Fund route: No public pitch inbox found. Official site is https://energizecap.com/ (search snippet), which lists an office at 1 South Wacker Drive, Suite 2350, Chicago, IL 60606 (search snippet).
+- Fund route: No Energize Capital pitch inbox was found. His own blog, johntough.com ('Tough CAPITAL'), has a contact form (fields: name, phone, email, message) and invites people to reach out about Energize opportunities. This comes from a search snippet restricted to johntough.com; the snippet did not give the form's exact URL. Team page: https://energizecap.com/team/john-tough.
 - Site: https://johntough.com/ ('Tough CAPITAL' blog with an Energize Capital page; search snippet)
 
-### 43. Kathryn Minshew, Angel investor and Operating Partner, XFactor Ventures (former CEO of The Muse, 2011-2023), Personal angel investing; XFactor Ventures (Operating Partner); Advisor, Trilantic North America Founders Council. Former co-founder and CEO of The Muse
+### 42. Kathryn Minshew, Angel investor and Operating Partner, XFactor Ventures (former CEO of The Muse, 2011-2023), Personal angel investing; XFactor Ventures (Operating Partner); Advisor, Trilantic North America Founders Council. Former co-founder and CEO of The Muse
 
 *Duke BA, Political Science and French, magna cum laude, Duke University (2008) (2008) · Confidence: High*
 
@@ -617,11 +606,11 @@ Kathryn Minshew (Duke BA 2008, Political Science and French, magna cum laude) co
 - **Why them:** An operator-angel focused on the future of work and HR, with about 88% of checks in female-founded companies. No AI infrastructure, data, fintech or quant investments found. Her stage (first check) matches, but her sector does not. The fit improves only if SimReal has a female co-founder, which was not verified.
 - **Hook:** You now advise a Fortune 100 company on change management in the age of AI; SimReal builds the RL environments, verifiers and expert data that teach LLMs skilled professional work like trading.
 - Email: not published
-- Fund route: Official website https://www.kminshew.com/ (search snippet); XFactor Ventures profile https://www.xfactor.ventures/kathryn-minshew (search snippet); paid intro booking https://intro.co/KathrynMinshew (search snippet)
+- Fund route: hello@xfactor.ventures, the XFactor Ventures inbox (she is an Operating Partner there), per https://www.xfactor.ventures/work-with-us-1 and https://www.xfactor.ventures/contact (search snippet, search restricted to xfactor.ventures): 'If you can't find an introduction to an XFactor partner, you can drop them a note at hello@xfactor.ventures'. Send the company name, founders, a short pitch and location, with the deck attached if you have one. Her paid intro booking is https://intro.co/KathrynMinshew (from the record).
 - LinkedIn: https://www.linkedin.com/in/kathryn-minshew/
 - Site: https://www.kminshew.com/
 
-### 44. Kerry Rupp, General Partner, True Wealth Ventures
+### 43. Kerry Rupp, General Partner, True Wealth Ventures
 
 *Duke Bachelor's degree in Biology, Duke University (undergrad; BA per Duke I&E / True Wealth profile) (1993) · Confidence: High*
 
@@ -631,10 +620,10 @@ Kerry Rupp (Duke '93, biology; HBS MBA 1999) has been general partner at Austin-
 - **Why them:** Seed stage fits, but the fund's thesis is women-led companies improving human or environmental health. SimReal's AI/RL trading-environment business sits outside that thesis, and whether SimReal is women-led was not verified.
 - **Hook:** Kerry teaches the NSF I-Corps program on commercializing university research; SimReal's founders turn quantitative research from Cambridge, LSE and Duke into RL training environments for LLMs.
 - Email: not published
-- Fund route: Pitch form https://truewealthvc.com/share-your-big-idea/ (URL given in a search summary of the vcsheet/vcboom results; official page not opened; reportedly reviews unsolicited submissions).
+- Fund route: Official pitch form 'Share Your Big Idea!' at https://truewealthvc.com/share-your-big-idea/ (seen in a search limited to truewealthvc.com; founders submit company information and the firm gets back to them). Official contact page: https://truewealthvc.com/contact-us/ (search snippet).
 - LinkedIn: https://www.linkedin.com/in/kerryrupp/
 
-### 45. Lisa Blau, Founding Partner, Able Partners (stylized __able Partners; Able Partners NYC, LLC)
+### 44. Lisa Blau, Founding Partner, Able Partners (stylized __able Partners; Able Partners NYC, LLC)
 
 *Duke B.A., Duke University; MBA Harvard Business School (1997) · Confidence: High*
 
@@ -645,9 +634,9 @@ Lisa Blau co-founded Able Partners in 2016 with Amanda Eilian. It is a New York 
 - **Why them:** The fund is focused on consumer health and wellness brands, a clear sector mismatch with B2B AI training infrastructure. The Duke tie is the only real angle.
 - **Hook:** Able Partners' portfolio includes DUOS, an AI benefits platform for seniors; SimReal builds the RL environments and verifiers used to train the models behind AI products like it.
 - Email: not published
-- Fund route: info@ablepartners.nyc, the general inbox listed on the official site https://ablepartners.nyc/ (search snippet).
+- Fund route: info@ablepartners.nyc, the general inbox on the official site https://ablepartners.nyc/ (from the verified record, search snippet)
 
-### 46. Paul Straub, Co-Founder and Managing Partner / Managing Director, Wireframe Ventures, Wireframe Ventures
+### 45. Paul Straub, Co-Founder and Managing Partner / Managing Director, Wireframe Ventures, Wireframe Ventures
 
 *Duke MBA, Duke Fuqua School of Business 2005 (2005) · Confidence: High*
 
@@ -658,11 +647,11 @@ Paul Straub co-founded Wireframe Ventures, a Mill Valley seed-stage fund backing
 - **Why them:** Active seed-stage Managing Partner with a confirmed Duke MBA, but Wireframe's thesis is climate, bio and health, so SimReal's trading RL environment is outside it. Leading the OpenInvest fintech deal is the only overlap.
 - **Hook:** He led Wireframe's investment in OpenInvest, an impact-investing fintech later acquired by JPMorgan. SimReal's Xitadel environment trains AI models on trading and market data.
 - Email: not published
-- Fund route: Official contact/apply form: https://www.wireframevc.com/general/contact-us (search snippet). Official site: https://www.wireframevc.com/ (search snippet). info@wireframevc.com appeared in a search summary, but its source page was not confirmed as the official site.
+- Fund route: The official founder form is at https://www.wireframevc.com/general/contact-us. Per the site, pre-seed and seed startups in climate, bio or health should fill out that form. info@wireframevc.com is for 'any other general inquiries'. Both were seen in a search restricted to wireframevc.com (search snippet), which confirms the inbox the earlier record could not source.
 - LinkedIn: https://www.linkedin.com/in/paulstraub/ (search snippet)
 - X: https://twitter.com/pstraub (search snippet; 'paul straub (@pstraub) on X' came up in a search for Paul Straub Wireframe Ventures; likely him, not independently confirmed)
 
-### 47. Sydney Thomas, Founder and General Partner, Symphonic Capital
+### 46. Sydney Thomas, Founder and General Partner, Symphonic Capital
 
 *Duke B.A. Public Policy, Duke University (Trinity); MBA UC Berkeley Haas (2010) · Confidence: High*
 
@@ -672,11 +661,11 @@ Sydney Thomas launched Symphonic Capital in 2023 and is its Founder and General 
 - **Relevant deals:** No AI infrastructure, data or quant deals found. A $6.0M seed in Flourish Care (March 2026) shows she is still investing. Her thesis covers fintech and financial health.
 - **Why them:** Right stage (pre-seed) and fintech is in scope, but the thesis is consumer access and equity in health and wealth for underserved households. SimReal sells B2B AI training infrastructure, which is off-thesis.
 - **Hook:** Symphonic invests at pre-seed in companies improving health, wealth and climate resilience for the 99%; SimReal's Xitadel improves open models' financial reasoning, a building block for AI wealth tools.
-- Email: not published
-- Fund route: hi@symphonic.vc for pitches and inquiries, plus a diligence form that replaces the first screening call. Both are listed on the official site https://www.symphoniccapital.com/how-we-work and https://www.symphoniccapital.com/ (search snippet).
+- Email: sydney@symphonic.vc (published at https://mercury.com/blog/fundraising-today-august-2023-sydney-thomas (search snippet; page not opened))
+- Fund route: hi@symphonic.vc for pitches and inquiries, plus a diligence form, on the official site https://www.symphoniccapital.com/how-we-work and https://www.symphoniccapital.com/ (search snippet; a search limited to symphoniccapital.com/symphonic.vc confirmed hi@symphonic.vc)
 - Site: https://www.symphoniccapital.com/newsletter (fund newsletter)
 
-### 48. Todd Pietri, Co-founder and Co-Managing Partner, Activate Venture Partners (formerly Milestone Venture Partners)
+### 47. Todd Pietri, Co-founder and Co-Managing Partner, Activate Venture Partners (formerly Milestone Venture Partners)
 
 *Duke BA English (cum laude), Duke University (year not published) · Confidence: High*
 
@@ -687,9 +676,9 @@ Todd Pietri is Co-founder and Co-Managing Partner of Activate Venture Partners, 
 - **Why them:** He is a decision maker at an active seed and Series A fund (deals in Oct 2025, Dec 2025 and Feb 2026). However, Activate's recent deals are all digital health, so an RL-environment and expert-data company is outside its core thesis.
 - **Hook:** Your Activate bio notes you've guided more than a dozen portfolio companies to exits, including numerous software and data businesses; SimReal builds RL environments, verifiers and expert data for LLM post-training.
 - Email: not published
-- Fund route: Official firm site: https://activatevp.com/ (team page https://activatevp.com/team/todd-pietri/, search snippet). No published pitch inbox verified.
+- Fund route: info@activatevp.com, the firm's general inbox, seen in a search limited to activatevp.com (search snippet): 'You can send a message to Activate Venture Partners at info@activatevp.com'. Official site: https://activatevp.com/
 
-### 49. W. Bradford (Brad) Stephens, Co-Founder & Managing Partner, Blockchain Capital
+### 48. W. Bradford (Brad) Stephens, Co-Founder & Managing Partner, Blockchain Capital
 
 *Duke B.A. Economics (major in Economics and Religion), Duke University (1998) · Confidence: High*
 
@@ -700,9 +689,9 @@ Brad Stephens (Duke BA 1998, Economics) co-founded Blockchain Capital in 2013 wi
 - **Why them:** Duke credentials and seniority are strong and the early-stage fund is active. However, the mandate is crypto-only and no AI or RL investments were found. The only overlap is trading and capital-markets infrastructure, unless SimReal pitches a crypto-trading environment.
 - **Hook:** Coinbase backer Blockchain Capital, whose portfolio also includes Circle and Tether, was raising its seventh early-stage fund in April 2026, and SimReal's Xitadel environment trains models to trade on unseen market data.
 - Email: not published
-- Fund route: No official pitch inbox or form was seen in search results. Look for the official contact route on https://www.blockchaincapital.com.
+- Fund route: contact@blockchaincapital.com. Blockchain Capital's official contact page https://www.blockchaincapital.com/contact-us (search snippet; search limited to blockchaincapital.com) says: 'To get in touch and share your pitch deck/materials, use contact@blockchaincapital.com.' Phone +1 (415) 677-5340; 440 Pacific Avenue, San Francisco, CA 94133.
 
-### 50. Carmichael Roberts, Co-Founder and Managing Partner, Material Impact; Chief Investment Officer and Investment Committee Co-Lead, Breakthrough Energy Ventures (per April 2026 article), Material Impact (co-founder and Managing Partner); Breakthrough Energy Ventures (Investment Committee co-lead / chief investment officer of Breakthrough Energy)
+### 49. Carmichael Roberts, Co-Founder and Managing Partner, Material Impact; Chief Investment Officer and Investment Committee Co-Lead, Breakthrough Energy Ventures (per April 2026 article), Material Impact (co-founder and Managing Partner); Breakthrough Energy Ventures (Investment Committee co-lead / chief investment officer of Breakthrough Energy)
 
 *Duke BS and PhD in organic chemistry, Duke University (Trinity / Graduate School); also MBA, MIT Sloan (1990) · Confidence: Medium*
 
@@ -713,9 +702,9 @@ Chemist turned entrepreneur with a BS (1990) and PhD (1995) in organic chemistry
 - **Why them:** An active early-stage decision maker, but his mandate is climate, materials and hard tech, a sector mismatch for SimReal's LLM post-training and trading environments. The only partial overlap is robotics at Material Impact.
 - **Hook:** He co-founded Material Impact, which backs materials, energy and robotics startups; SimReal builds RL environments and verifiers, the training infrastructure that AI and robotics models depend on.
 - Email: not published
-- Fund route: No official pitch inbox or contact form surfaced in searches for Material Impact or Breakthrough Energy Ventures. He has authored TechCrunch pieces: https://techcrunch.com/author/carmichael-roberts/ (search snippet).
+- Fund route: info@materialimpact.com, Material Impact's general inbox. It appeared in a search restricted to materialimpact.com (search snippet; results included https://www.materialimpact.com/ , /team/ and /about/), with the address 131 Dartmouth Street, 3rd Floor, Boston, MA 02116. It is a general inbox, not one labeled for pitches.
 
-### 51. David Lamond, Managing Partner, Lamond Ventures LLC (angel/family capital), Lamond Ventures LLC
+### 50. David Lamond, Managing Partner, Lamond Ventures LLC (angel/family capital), Lamond Ventures LLC
 
 *Duke BA History, Duke Trinity College (T'97); JD, Duke Law School (L'06) (1997) · Confidence: Medium*
 
@@ -729,7 +718,7 @@ David Lamond (Duke Trinity '97, BA History; Duke Law JD '06) is Managing Partner
 - Fund route: No fund website or official contact route found. LinkedIn profile seen in a search result (see linkedin_url).
 - LinkedIn: https://www.linkedin.com/in/david-lamond-b7338915b/
 
-### 52. John Glushik, Managing Director, HG Ventures, HG Ventures (corporate venture arm of The Heritage Group)
+### 51. John Glushik, Managing Director, HG Ventures, HG Ventures (corporate venture arm of The Heritage Group)
 
 *Duke BS Mechanical Engineering & Materials Science, Duke Pratt School of Engineering (E'90) (1990) · Confidence: Medium*
 
@@ -740,10 +729,10 @@ John Glushik (Duke Pratt E'90, BS mechanical engineering and materials science) 
 - **Why them:** His corporate VC mandate is industrial, materials and climate, so the AI/quant fit is weak. Duality Robotics (simulation environments for ML training) is the one adjacent deal. As founding MD of the Duke Angel Network he is a valuable connector to Duke angels.
 - **Hook:** HG Ventures backed Duality Robotics' $12M Series A in December 2021 for simulation environments that train ML models, a direct analogue to SimReal's RL environments for LLM post-training.
 - Email: not published
-- Fund route: Official site https://hgventures.com/ and Approach page https://hgventures.com/approach/ (search snippet). HG's official portfolio site is https://portcojobs.hgventures.com/companies (search snippet). No published pitch inbox was found on an HG-owned page.
+- Fund route: HG Ventures Approach page https://hgventures.com/approach/ (search snippet). It says to connect with the team on LinkedIn, that warm intros move fastest, and that cold outreach is evaluated when the sector fit is clear. A general Heritage Group inbox, info@thgrp.com, appeared in a search restricted to hgventures.com and theheritagegroup.com. It is a corporate general inbox, not a confirmed pitch inbox.
 - LinkedIn: https://www.linkedin.com/in/johnglushik/
 
-### 53. Josh Felser, Co-founder & Managing Partner, Climactic (also co-founder of Freestyle Capital), Climactic (co-founder); also co-founder of Freestyle Capital
+### 52. Josh Felser, Co-founder & Managing Partner, Climactic (also co-founder of Freestyle Capital), Climactic (co-founder); also co-founder of Freestyle Capital
 
 *Duke B.A. Political Science and Economics, Duke University (1986); M.B.A. (Marketing), Duke Fuqua School of Business (1990) (1986) · Confidence: Medium*
 
@@ -754,24 +743,11 @@ Josh Felser (Duke BA Political Science '86, Fuqua MBA '90) is a serial entrepren
 - **Why them:** He is a senior Duke alum (BA and Fuqua MBA) and a seed-stage fund founder, but Climactic's mandate is climate. SimReal's trading RL environments and expert data fall outside it. The pitch works only as a Duke-network or personal-angel note.
 - **Hook:** Felser co-founded Climactic with Raj Kapoor to back seed-stage, software-first companies in energy, AI, automation and robotics. SimReal builds RL environments, verifiers and expert data for LLM post-training.
 - Email: not published
-- Fund route: Pitch through the form on the official site https://www.climactic.vc/ (superscout.co founder guide, search snippet: 'the best way to get in touch is through a form on their website'). The site could not be opened to confirm a generic inbox.
+- Fund route: info@climactic.vc. Climactic's official site (https://www.climactic.vc/, search snippet; search limited to climactic.vc) gives info@climactic.vc as its contact, with phone (415) 295-2907 and mailing address 35 Miller Ave #413, Mill Valley, CA 94941. Team page: https://www.climactic.vc/team/josh-felser (search snippet).
 - LinkedIn: https://www.linkedin.com/in/joshfelser/
 - Site: Climactic Podcast: https://www.climactic.vc/podcasts/climactic-podcast (search snippet)
 
-### 54. Kip Frey, Managing Director, HG Ventures; Executive Vice President, New Ventures, The Heritage Group, HG Ventures (corporate venture arm of The Heritage Group)
-
-*Duke JD, Duke Law School (L'85) (1985) · Confidence: Medium*
-
-Kip Frey (Duke Law J.D. '85) is a Managing Director of HG Ventures, the Indianapolis-based corporate venture arm of The Heritage Group, and EVP, New Ventures at the parent company. He was Duke's Vice Provost for Innovation & Entrepreneurship and a professor of law and public policy until June 2018, when he left to join the newly formed HG Ventures. Earlier he was CEO of seven start-ups (including EvoApp) and a partner at Intersouth Partners.
-
-- **Stage:** Corporate VC that writes seed checks (e.g. Renewal Mill $2.5M seed, where Frey joined the board) and joins Series A rounds (Duality Robotics $12M Series A, Dec 2021). The stated thesis is advanced materials, sustainable tech, transportation, B2B, energy, infrastructure, climate, supply chain, manufacturing, food tech and specialty chemicals.
-- **Relevant deals:** Firm-level: Duality Robotics/Duality AI $12M Series A (Dec 2021), with Drive Capital, AngelPad and 99 Tartans as co-investors; Duality builds realistic Unreal-Engine simulation environments for training ML algorithms. R3 Robotics (AI-powered battery recycling, Feb 2026, round not stated). Renewal Mill $2.5M seed (Frey joined the board). HG says it has invested more than $178M across about 30 hardtech start-ups. No personal angel deals in AI or fintech were found.
-- **Why them:** HG Ventures is an industrial/materials/climate corporate VC, so the sector fit is weak. The exception is its Series A bet on Duality Robotics' ML-training simulation environments, which is close to SimReal's environment-building thesis. He is also a strong Duke I&E connector.
-- **Hook:** HG Ventures joined Duality Robotics' $12M Series A in December 2021, backing simulation environments built to train ML models, the same build-environments-to-train-AI thesis SimReal applies to LLM post-training.
-- Email: not published
-- Fund route: Official site https://hgventures.com/ and Approach page https://hgventures.com/approach/ (search snippet). HG's official portfolio site is https://portcojobs.hgventures.com/companies (search snippet). No published pitch inbox was found on an HG-owned page.
-
-### 55. Lia Cromwell, Partner, UpWest
+### 53. Lia Cromwell, Partner, UpWest
 
 *Duke BA, Duke University (Public Policy Studies, Economics and Spanish) (2015) · Confidence: Medium*
 
@@ -781,12 +757,12 @@ Partner at UpWest in Tel Aviv. She joined in 2017 as the fund's first permanent 
 - **Relevant deals:** CyCognito (cybersecurity), Balance (fintech/B2B payments) and Canopy, plus stealth companies (rounds and years not stated). UpWest led pre-seed and seed rounds in AI and fintech.
 - **Why them:** Her stage and sectors fit (pre-seed and seed, AI, fintech), but UpWest backs only Israeli founders. SimReal's founders (Cambridge, LSE, Duke) are not known to be Israeli, so this is a mandate mismatch unless a founder qualifies.
 - **Hook:** In CTech's VC Survey 2026 you pointed to the latent potential of Vertical AI. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.
-- Email: not published
-- Fund route: Official site team page: https://upwest.vc/team/ (search snippet). No pitch inbox verified.
+- Email: lia@upwest.vc (published at https://medium.com/upwest-labs/upwest-office-hours-your-us-go-to-market-cant-wait-for-a-vaccine-fd082a27b271 (search snippet; medium.com is blocked, so the page was not opened))
+- Fund route: UpWest Contact Us page: https://upwest.vc/connect/ (search snippet)
 - LinkedIn: https://www.linkedin.com/in/liacromwell/
 - Site: https://medium.com/@lmcromwell
 
-### 56. Lori Cashman, Founder & General Partner, Visible Ventures, Visible Ventures (formerly Victress Capital), Boston/NYC
+### 54. Lori Cashman, Founder & General Partner, Visible Ventures, Visible Ventures (formerly Victress Capital), Boston/NYC
 
 *Duke BA, Duke University (1994) · Confidence: Medium*
 
@@ -797,11 +773,11 @@ Lori Cashman (Duke '94) founded Visible Ventures, an early-stage firm started in
 - **Why them:** The thesis is generational and consumer-leaning (health, wealth, mobility) with a diverse-founder mandate. Fintech and AI are listed only as secondary sectors, and new investing looks slow (no 2026 deals logged). Fit improves if SimReal has a female co-founder. Duke ties are very strong.
 - **Hook:** Visible Ventures acquired Gen Z research firm dcdx in September 2026 'to build a new kind of human intelligence company', a bet on human insight that parallels SimReal's expert-data business for AI training.
 - Email: not published
-- Fund route: Use the contact route on https://visibleventures.com. A generic inbox appeared only on VC directories and was not confirmed as published by the firm, so it is left out.
+- Fund route: Official Pitch Us form: https://visibleventures.com/pitch/ (search snippet). A search limited to visibleventures.com also gave hello@visibleventures.com as the firm's general contact email (search summary, exact source page not shown; https://visibleventures.com/contact/ is referenced). Visible invests in early-stage US/Canada consumer businesses.
 - LinkedIn: https://www.linkedin.com/in/lori-cashman/ (search snippet, from discovery record)
 - X: https://x.com/visiblevc_ (search snippet: 'LoriCashmanVC (@visiblevc_) on X')
 
-### 57. Nikin Shah, Co-Founder & General Partner (Founding and General Partner), Front Porch Venture Partners
+### 55. Nikin Shah, Co-Founder & General Partner (Founding and General Partner), Front Porch Venture Partners
 
 *Duke MBA, Duke Fuqua School of Business (Health Sector Management) (2012) · Confidence: Medium*
 
@@ -810,9 +786,9 @@ Co-founder and General Partner of Front Porch Venture Partners, a North Carolina
 - **Stage:** Hybrid fund. About 60% goes into Southeast venture funds and about 40% directly into early-stage Southeast startups. Fund 3 opened in January 2026.
 - **Why them:** Healthcare-focused partner at a Southeast fund-of-funds and direct investor, so his sectors do not match AI training data or trading tech. Same firm as Mancini, so contact Mancini instead.
 - Email: not published
-- Fund route: Official pitch/contact form at https://www.frontporchvp.com/contact/ (fields include company name, founder, email, website, stage and pitch deck). Firm LinkedIn page: https://www.linkedin.com/company/front-porch-venture-partners (search snippet)
+- Fund route: Official Front Porch pitch/contact form: https://www.frontporchvp.com/contact/ (from his record).
 
-### 58. Robert Ravanshenas, Investment Partner, Maven Ventures
+### 56. Robert Ravanshenas, Investment Partner, Maven Ventures
 
 *Duke BS Economics, Duke University (2015) · Confidence: Medium*
 
@@ -823,10 +799,10 @@ Investment Partner at Maven Ventures, a seed-stage consumer-tech firm with about
 - **Why them:** His Duke ties are strong (Duke Econ '15, investor in the Duke FinTech M.Eng startup Validity, and he reportedly lectures in the Duke FinTech master's), and his AI/fintech focus is relevant. However, Maven's published mandate is consumer software at seed, and his AI/fintech interest is framed as emerging consumer trends. SimReal's B2B RL-environment and data business is a mandate mismatch, so pitch him for a personal or Duke-network intro rather than as a Maven lead.
 - **Hook:** You backed Validity, founded by students from Duke's Master of Engineering in FinTech program, and you focus on AI and fintech at Maven. SimReal's Xitadel trading RL environment lifted an open model's trading performance 12% on unseen market data.
 - Email: not published
-- Fund route: Maven's official pitch inbox is hello@mavenventures.com (send a brief description of the business, vision, team and traction), per https://blog.mavenventures.com/getintouch/ (search snippet). Maven prefers a mutual introduction.
+- Fund route: hello@mavenventures.com. Maven asks for a brief description of the business, vision, team and traction, and prefers a mutual intro. Source: https://blog.mavenventures.com/getintouch/ (search snippet, from his record). Note: a separate record (Jim Scheinman) flagged this inbox as not yet confirmed on the official page.
 - LinkedIn: https://www.linkedin.com/in/robrav/
 
-### 59. Salman Azhar, General Partner, Azimuth Opportunity Fund; Executive in Residence, Duke Fuqua; angel investor (former Managing Director of Duke Angel Network / Duke Capital Partners), Azimuth Opportunity Fund (General Partner); personal angel investing; Duke Fuqua (Executive in Residence)
+### 57. Salman Azhar, General Partner, Azimuth Opportunity Fund; Executive in Residence, Duke Fuqua; angel investor (former Managing Director of Duke Angel Network / Duke Capital Partners), Azimuth Opportunity Fund (General Partner); personal angel investing; Duke Fuqua (Executive in Residence)
 
 *Duke PhD in Computer Science (1990-1994) and MS in Computer Science (1987-1990), Duke University; James B. Duke Fellow (1994) · Confidence: Medium*
 
@@ -836,12 +812,12 @@ Salman Azhar holds Duke MS and PhD degrees in computer science (James B. Duke Fe
 - **Relevant deals:** No specific AI or data seed deals verified. An SPV named Azimuth Opportunity Kueski, LLC filed a Form D in 2025 (secondary vehicle). As an operator he co-founded DecisionStreet, Swans International, SoftWeb and 30+ predictive-computing and analytics startups
 - **Why them:** His AI, NLP and financial-systems background fits SimReal's product very well, and he is a long-time angel in the Duke ecosystem. His fund, however, does late-stage pre-IPO secondaries, so a seed pitch has to target his personal angel checks, and no dated 2025-2026 seed deals were found.
 - **Hook:** You co-founded more than 30 predictive-computing and data-analytics startups and teach AI at Fuqua; SimReal builds RL environments and verifiers that measurably improved an open LLM's trading performance.
-- Email: not published
+- Email: salman.azhar@duke.edu (published at https://www.fuqua.duke.edu/faculty/salman-azhar and https://scholars.duke.edu/person/azhar (search snippet, duke.edu-restricted search))
 - Fund route: Wellfound profile https://wellfound.com/p/sazhar (search snippet); Fuqua faculty page https://www.fuqua.duke.edu/faculty/salman-azhar (search snippet). No official Azimuth pitch inbox seen
 - LinkedIn: https://www.linkedin.com/in/salmanazhar
 - X: https://x.com/sazhar
 
-### 60. Squire Servance, Founder & Managing Partner, Syridex Bio (his Wilson Sonsini bio also lists him as Senior Of Counsel, patents and innovation practice, New York; date of that bio unknown), Syridex Bio
+### 58. Squire Servance, Founder & Managing Partner, Syridex Bio (his Wilson Sonsini bio also lists him as Senior Of Counsel, patents and innovation practice, New York; date of that bio unknown), Syridex Bio
 
 *Duke J.D., Duke University School of Law, and M.B.A., Duke Fuqua School of Business (2008) · Confidence: Medium*
 
@@ -855,7 +831,7 @@ Squire Servance is Founder & Managing Partner of Syridex Bio, a Princeton, NJ li
 - Fund route: Official firm site: https://www.syridexbio.com/about-us/ (search snippet). No pitch inbox was seen.
 - Site: https://www.squireservance.com (search snippet)
 
-### 61. Camille Samuels, Partner, Venrock
+### 59. Camille Samuels, Partner, Venrock
 
 *Duke Bachelor's degree in biology, Duke University (class of '93); MBA, Harvard Business School (1993) · Confidence: Low*
 
@@ -864,9 +840,9 @@ Camille Samuels (Duke '93) is a partner at Venrock, the venture firm that began 
 - **Stage:** Early-stage biotech, medical devices and consumer health. Her Signal profile says she prefers seed-stage companies and helping to create them, with a stated check range of $2M-$40M.
 - **Why them:** She is a healthcare and biotech investor with no AI-infrastructure, data or fintech deals found, so she is a sector mismatch for SimReal. Venrock's tech partners would fit better than she does.
 - Email: not published
-- Fund route: not found (Venrock official contact route not verified)
+- Fund route: Venrock's official contact page https://www.venrock.com/contact/ (search snippet, search limited to venrock.com) says that for business plan submissions entrepreneurs should 'email the appropriate investment team' (technology or healthcare). The team inbox address did not show in the snippet, and venrock.com is blocked by the proxy, so it could not be read. Offices: 3340 Hillview Ave, Palo Alto, 650.561.9580; 7 Bryant Park, 23rd Floor, NYC, 212.444.4100.
 
-### 62. Jared Weinstein, Founder, Overton (left Thrive Capital in 2022), Overton (his own investing and civic vehicle, Birmingham, AL). Formerly founding partner and GP at Thrive Capital, 2011-2022.
+### 60. Jared Weinstein, Founder, Overton (left Thrive Capital in 2022), Overton (his own investing and civic vehicle, Birmingham, AL). Formerly founding partner and GP at Thrive Capital, 2011-2022.
 
 *Duke BA Public Policy, Duke University; MBA, Stanford GSB (2002) · Confidence: Low*
 
@@ -880,7 +856,7 @@ Duke public policy graduate (2002) who spent seven years in the George W. Bush W
 - Fund route: No official Overton website or pitch route found. His X handle @JaredBWeinstein is mentioned in Jackson Dahl's post https://x.com/jacksondahl/status/2046300890093764851 (search snippet), but his own profile URL was not seen. Interview: https://jdahl.substack.com/p/jared-weinstein (Dialectic, 2026).
 - LinkedIn: https://www.linkedin.com/in/jared-weinstein-3b22b538/ (search snippet)
 
-### 63. Melinda French Gates, Founder, Pivotal Ventures, Pivotal Ventures
+### 61. Melinda French Gates, Founder, Pivotal Ventures, Pivotal Ventures
 
 *Duke BS Computer Science and Economics, Duke University (1986); MBA, Duke Fuqua School of Business (1987) (1986) · Confidence: Low*
 
@@ -893,6 +869,7 @@ Melinda French Gates holds a Duke BS in computer science and economics (1986) an
 - Email: not published
 - Fund route: not found: no official Pivotal Ventures pitch inbox or form appeared in search results
 - LinkedIn: https://www.linkedin.com/in/melindagates/
+- Site: https://www.pivotalventures.org/founder (official founder bio, search snippet)
 
 ## Checked and left out
 
@@ -911,6 +888,7 @@ Melinda French Gates holds a Duke BS in computer science and economics (1986) an
 | David Thacker | Google DeepMind (formerly Greylock) | Fails criterion 2. He left the Greylock GP role and is listed as VP Product at Google DeepMind (since 2024 per a search summary), with Greylock showing him only as a Venture Partner. There is no evidence he leads investments or angel invests in 2026. |
 | Elle Leemay Chen | Reciprocal Ventures | Two criteria cannot be supported: (1) the Duke graduation year is unknown, so a degree completed in 2018 or earlier is unconfirmed; (2) her title is Venture Partner with no evidence that she leads investments, and her 2026 status is unverified. The search budget ran out before these could be checked. |
 | Eric Savage | Unitus Capital (Bangalore investment bank) | Fails criteria 2 and 3: his role is investment banking and advisory at Unitus Capital, with no evidence that he personally makes seed or Series A equity investment decisions in 2026. India impact focus; sector mismatch. |
+| Fred Ehrsam | Paradigm (also co-founder & CEO of Nudge) | fact-check: No longer an active investing decision maker: Paradigm's team page lists him as 'Co-Founder & Senior Advisor' and he is Co-Founder & CEO of Nudge (neurotech). |
 | Grant Newlin |  | Fuqua MBA student in 2021, so graduated after 2018 |
 | Henry Yin |  | Duke Law alumnus, corporate lawyer at Loeb & Loeb, not an investor |
 | Joanna Rees | West Global (brand and strategy firm; formerly West venture studio) | Criteria 2 and 3 not supported: in 2026 she is Executive Chairman of a brand and strategy firm, with no evidence of an active early-stage fund or of personal seed or Series A investments in 2025-2026. Consumer focus is a sector mismatch. |
@@ -918,6 +896,7 @@ Melinda French Gates holds a Duke BS in computer science and economics (1986) an
 | Juan Pablo Cappello |  | Duke AB 1989, venture lawyer (Private Advising Group), not an investor |
 | Justin Klein |  | Duke '99, MD '04, but Vensana Capital is medtech venture-growth equity (commercial stage), not angel/seed |
 | Kerstin Dittmar |  | Duke '06, but L2 Point Management does late-stage structured investments |
+| Kip Frey | HG Ventures (corporate venture arm of The Heritage Group) | fact-check: No longer a decision maker: his LinkedIn title is now 'Senior Advisor, New Ventures, at The Heritage Group'; John Glushik took over as Managing Director of HG Ventures in 2023. |
 | Kurt Schmidt | Duke Capital Partners (formerly Duke Angel Network); also Triangle Angel Partners and 7BC Venture Capital | Criterion 1 cannot be supported. The official bio confirms he attended Duke Law, but no source found gives the degree type or the year he completed it, so 'Duke degree completed 2018 or earlier' is unverified. Every other criterion holds and he is a strong institutional route: DCP's mandate fits SimReal through its Duke COO. Recommend a manual check of his Duke Law degree and year (e.g. his LinkedIn), then include as a priority contact if it is confirmed. |
 | Matt McIlwain | Madrona Venture Group | No Duke degree. Madrona's official team profile lists his education as Dartmouth College (undergraduate), a Harvard Business School MBA and a master's in public policy from Harvard Kennedy School, with no Duke degree. The Duke claim in the discovery record came from a podcast-description snippet and looks wrong. |
 | Meranee Phing Naaman |  | Duke '98, but The Riverside Company is private equity / buyout |

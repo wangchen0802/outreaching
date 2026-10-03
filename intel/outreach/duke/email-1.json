@@ -1,0 +1,759 @@
+[
+ {
+  "batch": [
+   "Jeremy Levine",
+   "Scott Raney",
+   "Mark Kraynak",
+   "Logan Allin",
+   "Marc Andrusko",
+   "Fred Ehrsam",
+   "David Beisel",
+   "Kevin King"
+  ],
+  "people": [
+   {
+    "name": "Jeremy Levine",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official BVP contact page https://www.bvp.com/contact (from record). Also robotics@bvp.com, a team inbox on BVP's own site in 'Bessemer Predicts: Robotics and physical AI' https://www.bvp.com/atlas/bessemer-predicts-robotics-and-physical-ai (search snippet). This is a topic inbox, and the snippet did not confirm that Jeremy wrote the piece.",
+    "personal_site": "",
+    "notes": "The only individual address in the results came from data-broker sites (ContactOut, RocketReach), so it was ignored and not recorded. X: https://x.com/jeremyl (search snippet). Use robotics@bvp.com only if SimReal fits robotics or physical AI."
+   },
+   {
+    "name": "Scott Raney",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. A search limited to redpoint.com turned up no pitch inbox or contact form. Only his profile page https://www.redpoint.com/our-people/scott-raney/ was seen (from record).",
+    "personal_site": "https://medium.com/@sraney (search snippet)",
+    "notes": "The individual addresses in the results came from ZoomInfo, ContactOut and RocketReach, so they were ignored. A summary said his X bio includes '#letmeknowhowicanbehelpful'. That bio was not seen directly, and it is not an email. X: https://x.com/sraney."
+   },
+   {
+    "name": "Mark Kraynak",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. A search limited to acrewcapital.com showed only compliance@acrewcapital.com, which is for privacy and CCPA requests (https://www.acrewcapital.com/privacy-policy), and another partner's personal address. Neither is a pitch route for him.",
+    "personal_site": "https://mark-kraynak.medium.com/ (search snippet); Forbes contributor page https://www.forbes.com/sites/markkraynak/ (from record)",
+    "notes": "An individual address showed up in a search summary, but it seems to come from ContactOut or RocketReach, or from Acrew's 'email format' page. It was not seen on acrewcapital.com or on his own pages, so it was ignored. X: https://x.com/raknak. Acrew also runs a Substack, perspectives.acrewcapital.com."
+   },
+   {
+    "name": "Logan Allin",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Fin Capital's official contact and pitch form: https://fin.capital/contact (from record, search snippet)",
+    "personal_site": "",
+    "notes": "Not searched again this batch, to save budget, because the record already has an official pitch form. LinkedIn: https://www.linkedin.com/in/loganallin/."
+   },
+   {
+    "name": "Marc Andrusko",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@oakhcft.com is on Oak HC/FT's official contact page, https://www.oakhcft.com/contact (search snippet, limited to oakhcft.com): 'You can email info@oakhcft.com to learn more.' The same page lists investorrelations@ and media@, which are not for pitches.",
+    "personal_site": "",
+    "notes": "He joined Oak HC/FT as Partner in March 2026, focused on fintech (https://www.oakhcft.com/news/welcoming-marc-andrusko-to-oak-hc-ft; team page https://www.oakhcft.com/team-members/marc-andrusko). A masked address and an 'email format' guess came from RocketReach, so both were ignored. No address was built from a pattern. The mandrusko@a16z.com he posted himself in 2024 is probably inactive. X: https://x.com/mandrusko1."
+   },
+   {
+    "name": "Fred Ehrsam",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@paradigm.xyz, the general inquiries inbox on Paradigm's official contact page https://www.paradigm.xyz/contact (search snippet, limited to paradigm.xyz). The page also lists office inboxes (sf@, nyc@, dc@paradigm.xyz) and press@ and coworking@, which are not for pitches.",
+    "personal_site": "",
+    "notes": "Individual addresses in the results came from ZoomInfo, ContactOut and SignalHire, so they were ignored. The summary of the paradigm.xyz search lists him as 'Co-Founder & Senior Advisor' and Matt Huang as Co-Founder & Managing Partner. He may no longer be an active GP, so check https://www.paradigm.xyz/team/fred-ehrsam before pitching him. He is also co-founder and CEO of Nudge. X: https://x.com/FEhrsam."
+   },
+   {
+    "name": "David Beisel",
+    "email": "david@nextviewventures.com",
+    "email_context": "His own site says: \"Let's talk. The best way to reach me is a warm intro, but my inbox is always open.\" A search limited to davidbeisel.com showed david@nextviewventures.com as his contact email.",
+    "email_publisher": "person",
+    "email_source": "https://www.davidbeisel.com/ (search snippet, search limited to davidbeisel.com; also https://davidbeisel.com/#bio)",
+    "fund_route": "NextView Approach page https://nextview.vc/approach/ (from record). NextView prefers a warm referral.",
+    "personal_site": "https://davidbeisel.com; blog https://genuinevc.com/about-me/",
+    "notes": "The address appeared in search snippets of his own site, limited to davidbeisel.com. A direct page fetch was blocked. Other addresses in the results, such as gmail, genuinevc.com and nextview.vc variants, came from ContactOut, so they were ignored and not recorded. He says a warm intro is best."
+   },
+   {
+    "name": "Kevin King",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@53stations.com (general inquiries) and the contact form https://www.53stations.com/contact, both from a search limited to 53stations.com (search snippet). 53 Stations' site also lists addresses for other team members, but none for Kevin.",
+    "personal_site": "",
+    "notes": "A search of 53stations.com for '@53stations.com' plus 'Kevin' found no address for him. Results from RocketReach and SignalHire were ignored. The official launch post says 53 Stations is led by Jason Pritzker, Kevin King and Kelly Goldstein (https://www.53stations.com/blog/53-stations-launches-inaugural-190m-fund-to-cultivate-a-new-era-of-enduring-businesses)."
+   }
+  ],
+  "budget_exhausted": false,
+  "searches_used": 16
+ },
+ {
+  "batch": [
+   "Cassie Young",
+   "Dan Levitan",
+   "Kent Ho",
+   "Jim Scheinman",
+   "Jared Weinstein",
+   "Greg Baker",
+   "Mark Peter Davis",
+   "Lori Cashman"
+  ],
+  "people": [
+   {
+    "name": "Cassie Young",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "founders@primary.vc, Primary's general founder inbox, per a search limited to primary.vc (search snippet; pages returned were https://www.primary.vc/ and https://www.primary.vc/approach). The same results list fintech@primary.vc for fintech and sam@ / hannah@primary.vc for healthcare.",
+    "personal_site": "",
+    "notes": "A search for '@primary.vc' plus Cassie found only her team pages (https://www.primary.vc/team/cassie-young, https://www.primary.vc/cassie-young) and no address. Personal addresses in RocketReach/ContactOut results were ignored. founders@primary.vc fits her enterprise/GTM focus better than the sector inboxes."
+   },
+   {
+    "name": "Dan Levitan",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. A search limited to maveron.com found no pitch inbox or form. The only official route is the firm site, https://www.maveron.com/team/dan-levitan.",
+    "personal_site": "https://maveronvc.substack.com (Maveron's Substack, from record)",
+    "notes": "A search for '@maveron.com' plus his name found his team page, X (@Levitan), Wikipedia and Signal, but no published address. A warm intro, or reaching him through his X or LinkedIn, is the realistic route."
+   },
+   {
+    "name": "Kent Ho",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "community@S28Capital.com, from a search limited to s28capital.com (search snippet; pages returned were https://www.s28capital.com/ and https://www.s28capital.com/about/). The summary called it the address 'for contacting them about pitches', but the page's exact wording was not seen, so it may be a general community inbox.",
+    "personal_site": "",
+    "notes": "A search for '@s28capital.com' plus Kent returned only his team page https://www.s28capital.com/team/kent-ho/ and press profiles (WEF, Bloomberg, Tatler). No personal address was published."
+   },
+   {
+    "name": "Jim Scheinman",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "hello@mavenventures.com, confirmed in a search limited to mavenventures.com on the official Get in Touch page https://blog.mavenventures.com/getintouch/ (search snippet). It says to send a brief description of the business, vision, team and traction, with a deck. Maven prefers a mutual introduction. This settles the earlier doubt in the record: the inbox is on Maven's own site.",
+    "personal_site": "https://jimscheinman.com (contact page https://jimscheinman.com/contact/; the snippet points to social channels such as Twitter, AngelList, LinkedIn and Facebook rather than an email)",
+    "notes": "A personal address, jim@...mavenventures.com, appeared only in a search summary whose sources were data-broker sites (ContactOut, growjo, Crunchbase), so it was ignored under the rules. His own contact page did not show an email in the snippet."
+   },
+   {
+    "name": "Jared Weinstein",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. No Overton website or pitch route was seen. The search summary says his X profile links to overton.ventures, but that site was not seen directly.",
+    "personal_site": "",
+    "notes": "His X profile is now confirmed at https://x.com/JaredBWeinstein (search result). Other results: the Dialectic interview https://jdahl.substack.com/p/jared-weinstein and Talk Business & Politics April 2026 coverage of his Onward FX keynote. https://sites.google.com/view/jared-weinstein/home most likely belongs to a different Jared Weinstein, a BU mathematics professor, so do not use it. clay.earth was ignored. A warm intro through the Birmingham/Endeavor network, or X or LinkedIn, is the realistic route."
+   },
+   {
+    "name": "Greg Baker",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Alumni Ventures founder page with submission form: https://www.av.vc/entrepreneurs (search snippet). The snippet hid the founder inbox as '[email protected]' and says founders can email it 'or submit the form'. AV commits only after a round has a lead VC. Towerview-specific page: https://www.av.vc/funds/towerview (its Calendly page https://www.av.vc/funds/towerview/tvv-calendly appears to be for LP investors).",
+    "personal_site": "https://www.av.vc/people/greg-baker (official AV bio)",
+    "notes": "A search for '@av.vc' plus Greg Baker returned his bio and webinar/fund blog posts (Bascom Ventures, Foundation Fund, Sports Fund), but no personal address appeared in the snippets. The Towerview Calendly and webinars are aimed at investors, not founders."
+   },
+   {
+    "name": "Mark Peter Davis",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official engage page http://www.interplay.vc/engage (from record). A search limited to interplay.vc also surfaced Mike@interplay.vc as a general Interplay contact (another team member's address) and ce@interplay.vc for AI voice-agent startups (from https://www.interplay.vc/blog/investing-in-ai-voice-agents). Interplay also runs virtual two-minute pitch sessions (https://www.interplay.vc/isthisathing) and an accelerator (https://www.interplay.vc/accelerator).",
+    "personal_site": "https://mpd.medium.com; podcast 'Innovation with Mark Peter Davis' (https://www.interplay.vc/podcast)",
+    "notes": "A personal address appeared only in a search summary drawn from the vcsheet.com database listing (https://www.vcsheet.com/who/mark-peter-davis), which is third-party and was not seen on interplay.vc or in his own writing. It was excluded. ZoomInfo and RocketReach results were ignored."
+   },
+   {
+    "name": "Lori Cashman",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official Pitch Us form: https://visibleventures.com/pitch/ (search snippet). A search limited to visibleventures.com also gave hello@visibleventures.com as the firm's general contact email (search summary, exact source page not shown; https://visibleventures.com/contact/ is referenced). Visible invests in early-stage US/Canada consumer businesses.",
+    "personal_site": "",
+    "notes": "No personal address was published. The team page is https://visibleventures.com/team/. The search summary also said she co-founded 'Lineage Capital', which looks like a summarizer mix-up and should not be relied on. Note that visible.vc is a different company (investor-update software)."
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ },
+ {
+  "batch": [
+   "W. Bradford (Brad) Stephens",
+   "Josh Felser",
+   "Deb Liu",
+   "Katelyn Donnelly",
+   "Jason Freedman",
+   "William Crowder",
+   "Lawson DeVries",
+   "Pamir Gelenbe"
+  ],
+  "people": [
+   {
+    "name": "W. Bradford (Brad) Stephens",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "contact@blockchaincapital.com. Blockchain Capital's official contact page https://www.blockchaincapital.com/contact-us (search snippet; search limited to blockchaincapital.com) says: 'To get in touch and share your pitch deck/materials, use contact@blockchaincapital.com.' Phone +1 (415) 677-5340; 440 Pacific Avenue, San Francisco, CA 94133.",
+    "personal_site": "",
+    "notes": "I found no address published by Brad himself or listed for him by the firm. The 'email format' results from LeadIQ and RocketReach were ignored. The site's team pages are at https://www.blockchaincapital.com/team, and Bart and Brad Stephens are named as the founding managing partners."
+   },
+   {
+    "name": "Josh Felser",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@climactic.vc. Climactic's official site (https://www.climactic.vc/, search snippet; search limited to climactic.vc) gives info@climactic.vc as its contact, with phone (415) 295-2907 and mailing address 35 Miller Ave #413, Mill Valley, CA 94941. Team page: https://www.climactic.vc/team/josh-felser (search snippet).",
+    "personal_site": "Climactic Podcast https://www.climactic.vc/podcasts/climactic-podcast (from record)",
+    "notes": "Personal addresses for him appeared only on data-broker or aggregator pages (ContactOut, RocketReach, vcsheet). Under the rules they were ignored completely and not recorded. A search for 'email me' or 'reach me at' turned up no post where he gives an address himself."
+   },
+   {
+    "name": "Deb Liu",
+    "email": "debliublog@gmail.com",
+    "email_context": "Seen only in search summaries of her own site; the page is blocked, so the exact wording could not be read. Summary: 'Deb Liu can be reached at debliublog@gmail.com'. Her contact page is described as being 'for speaking, mentorship, board opportunities, and media inquiries.'",
+    "email_publisher": "person",
+    "email_source": "https://debliu.com/contact/ and https://debliu.substack.com/about (search snippet; search limited to debliu.com and debliu.substack.com)",
+    "fund_route": "not found (no pitch inbox checked; for reference, the Duke Capital Partners official site is https://dukecapitalpartners.duke.edu/, from the record)",
+    "personal_site": "https://debliu.com/ ; newsletter 'Perspectives' https://debliu.substack.com/",
+    "notes": "She publishes this address for her blog and newsletter. Her contact page frames it around speaking, mentorship, boards and media, not pitches, so the outreach should be short and respectful. The exact sentence around the address could not be quoted because WebFetch to debliu.com is blocked by the egress proxy."
+   },
+   {
+    "name": "Katelyn Donnelly",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "hello@avalanche.vc. Avalanche VC's official site https://www.avalanche.vc/ (search snippet; search limited to avalanche.vc): 'The contact email is hello@avalanche.vc', and the site also has an inquiry form. Contact page: https://www.avalanche.vc/contact. Her profile: https://www.avalanche.vc/people/katelyn.",
+    "personal_site": "https://katelyndonnelly.com/ ; https://krdonnelly.medium.com/",
+    "notes": "A search limited to katelyndonnelly.com and krdonnelly.medium.com showed no personal address on the indexed pages. Since she is a solo GP, the hello@ inbox probably reaches her."
+   },
+   {
+    "name": "Jason Freedman",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@peakstate.vc, now confirmed by a search limited to peakstate.vc: https://peakstate.vc/ (search snippet), 'The general contact email for Peak State Ventures is info@peakstate.vc.' Team page: https://peakstate.vc/team/jason-freedman/.",
+    "personal_site": "",
+    "notes": "His old blog domain humbledmba.com now belongs to someone else, so nothing there is his current contact. Personal addresses appeared only on ContactOut, RocketReach and Spokeo and were ignored. Background: founder of 42Floors; he leads investments at Peak State."
+   },
+   {
+    "name": "William Crowder",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official contact page https://aperturevc.com/contact/ (search snippet; search limited to aperturevc.com). No pitch inbox was seen on aperturevc.com. press@aperturevc.com and jen@aperturevc.com are listed only for press and media inquiries and are not pitch routes. Team page: https://aperturevc.com/personnel/william-crowder/.",
+    "personal_site": "",
+    "notes": "I found no individual address published by him or by Aperture. The aperturevc.com/pitch route mentioned by a third-party guide was not confirmed on the official site."
+   },
+   {
+    "name": "Lawson DeVries",
+    "email": "ldevries@grotech.com",
+    "email_context": "Grotech team page, as given in the search summary: 'Lawson DeVries ... Title: Managing General Partner, Email: ldevries@grotech.com'",
+    "email_publisher": "employer",
+    "email_source": "https://www.grotech.com/team/lawson-devries and https://www.grotech.com/team (search snippet; two separate searches limited to grotech.com both returned this address)",
+    "fund_route": "info@grotech.com, from the official grotech.com site (search snippet; search limited to grotech.com), together with phone (703) 637-9555",
+    "personal_site": "",
+    "notes": "The address is published by his employer on its official team page. The same grotech.com snippet gave the firm address as 9722 Groffs Mill Drive, Suite 856, Owings Mills, MD, which may be an old footer; the record puts HQ in Arlington, VA."
+   },
+   {
+    "name": "Pamir Gelenbe",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. A search limited to libertuscapital.com returned no indexed official pages and no pitch inbox.",
+    "personal_site": "https://about.me/pamirgelenbe (search snippet). The bio there describes him as a Partner at Hummingbird Ventures, which looks out of date.",
+    "notes": "Every address I saw (a Libertus address, a gmail address) came from aggregator or data-broker pages (ContactOut, Kando, Gaebler, EasyVC, Najafi), so all were ignored. London address on aggregators: 16 Berkeley Street, W1J 8DZ (not official, not used). I found no recent activity to confirm he is still actively investing."
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ },
+ {
+  "batch": [
+   "Todd Pietri",
+   "Thomas D. Lehrman",
+   "Jake Flomenberg",
+   "Rob Go",
+   "David Cummings",
+   "Ashley Flucas",
+   "Gregg Bordes",
+   "Jason Fernandez"
+  ],
+  "people": [
+   {
+    "name": "Todd Pietri",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@activatevp.com, the firm's general inbox, seen in a search limited to activatevp.com (search snippet): 'You can send a message to Activate Venture Partners at info@activatevp.com'. Official site: https://activatevp.com/",
+    "personal_site": "",
+    "notes": "Neither activatevp.com nor his team page (https://activatevp.com/team/todd-pietri/) showed a personal address. His individual email turned up only on data-broker sites, which were ignored. X: https://x.com/toddpietri (search snippet). The firm lists offices in Bethlehem, PA and New York, NY."
+   },
+   {
+    "name": "Thomas D. Lehrman",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "investors@teamworthy.com, the pitch and investor-relations inbox, seen in a search limited to teamworthy.com (search snippet; https://www.teamworthy.com/). ventureadvisor@teamworthy.com is for the Venture Advisor program only, not for pitches.",
+    "personal_site": "",
+    "notes": "A personal address appeared only on ZoomInfo, RocketReach and ContactOut, which were ignored. Teamworthy has offices in NYC and Nashville."
+   },
+   {
+    "name": "Jake Flomenberg",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Wing contact form https://www.wing.vc/contact-us. This comes from the existing record via a superscout.co snippet and has not been confirmed on wing.vc. No official generic inbox was seen.",
+    "personal_site": "https://medium.com/@JakeFlomenberg (search snippet)",
+    "notes": "An individual address showed up only in aggregator and data-broker summaries (mintround, success.ai, lead411, ContactOut, vcsheet), so it was ignored. A search limited to wing.vc and medium.com found no published address. Official profile: https://www.wing.vc/people/jake-flomenberg. X: https://x.com/jflomenb (search snippet)."
+   },
+   {
+    "name": "Rob Go",
+    "email": "rob@nextviewventures.com",
+    "email_context": "Published in this spelled-out form: 'rob at nextviewventures dot com'. It was found on NextView's own pages. The snippet did not show the full sentence around it.",
+    "email_publisher": "employer",
+    "email_source": "https://nextview.vc/team/rob-go/ and https://nextview.vc/blog/our-thesis-on-work-equalizing-opportunity/ (search snippet; an exact-phrase search for 'rob at nextviewventures dot com' returned these NextView pages first, and a search limited to nextview.vc/robgo.org gave the same address)",
+    "fund_route": "NextView Approach page https://nextview.vc/approach/ (from the David Beisel record; NextView prefers a warm referral or the contact/pitch route listed there)",
+    "personal_site": "https://robgo.org/ (search snippet); https://robgo.medium.com/",
+    "notes": "The address uses nextviewventures.com, not nextview.vc, because that is how NextView's own pages spell it out. I did not build it from a pattern. robgo.org is blocked by the proxy, so I could not open the page to quote the full sentence. Data-broker results (ContactOut, RocketReach, adapt.io) were ignored."
+   },
+   {
+    "name": "David Cummings",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. No official pitch inbox showed up in a search limited to atlantaventures.com and davidcummings.org. The existing record notes that https://www.atlantaventures.com/ offers founder office hours and programs.",
+    "personal_site": "https://davidcummings.org/ (About: https://davidcummings.org/about/, Now: https://davidcummings.org/now/)",
+    "notes": "A personal address appeared only on a celebrity-contact/data-broker type source (thehandbook.com, ContactOut), so it was ignored. His blog's About page showed no address in the snippet. X: https://x.com/davidcummings."
+   },
+   {
+    "name": "Ashley Flucas",
+    "email": "ashley@flucasvc.com",
+    "email_context": "'Her website is flucasvc.com and her email is ashley@flucasvc.com' (a search summary limited to interview, podcast and AngelList pages about her)",
+    "email_publisher": "person",
+    "email_source": "Search snippet from a search limited to interview pages: probably https://alltheangels.substack.com/p/-angel-interview-10-ashley-flucas or https://medium.com/the-syndicate-investor/syndicate-lead-profile-1-ashley-flucas-61801cf30822 (the Q&A profiles where she gives her contact details). The exact page was not pinned down.",
+    "fund_route": "Flucas Ventures AngelList syndicate page https://venture.angellist.com/ashley-flucas/syndicate (no pitch inbox or form confirmed)",
+    "personal_site": "https://flucasvc.com (named in the same snippet)",
+    "notes": "Caveats: these interviews date from about 2021 and her main role is now COO & General Counsel at Summit Ventures, so the address may be stale. Founders should open the interview page and confirm the address before use. A different spelling (ashley@flucas.vc) appeared only in an unrestricted search mixed with data-broker results (ZoomInfo etc.) and was ignored. A summit.ventures address appeared only on ZoomInfo and was ignored."
+   },
+   {
+    "name": "Gregg Bordes",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official Front Porch Venture Partners contact/pitch form https://www.frontporchvp.com/contact/ (search snippet; per the Joe Mancini/Nikin Shah records it asks for company name, founder, email, website, stage and pitch deck)",
+    "personal_site": "",
+    "notes": "Every address for him came from data-broker or people-search sites (success.ai, ContactOut, RocketReach, SignalHire, ussearch), all ignored. No firm-published or self-published address was seen."
+   },
+   {
+    "name": "Jason Fernandez",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. No pitch inbox or form was found on creciventures.com or quakecapital.com in a domain-limited search. Creci team page: https://www.creciventures.com/team/",
+    "personal_site": "",
+    "notes": "Addresses showed up only via ZoomInfo, ContactOut, RocketReach and clay.earth, all ignored. There is a Q&A interview at https://familyofficeinsights.com/pir-qa/jason-fernandez-of-creci-ventures/ that was not read and may include a contact line worth checking by hand. The Duke Fuqua Alumni Council page also lists him."
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ },
+ {
+  "batch": [
+   "Amit Mehra",
+   "Joe Mancini",
+   "Nikin Shah",
+   "Lia Cromwell",
+   "Robert Ravanshenas",
+   "Will Bumpus",
+   "Gonzalo Costa",
+   "Sydney Thomas"
+  ],
+  "people": [
+   {
+    "name": "Amit Mehra",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "hello@borderlesscapital.io. A search limited to borderlesscapital.io returned it, apparently from the privacy policy on the firm's careers subdomain (https://careers.borderlesscapital.io/privacy-policy, search snippet: 'contact Borderless Management via email at hello@borderlesscapital.io'). This is a general or privacy inbox, not a stated pitch inbox. Team page: https://www.borderlesscapital.io/team",
+    "notes": "No personal address published by him or by Borderless was found. RocketReach, theorg and similar broker results were ignored. X: https://x.com/amitm_eth (search snippet). Signal/NFX lists him as Partner and General Partner.",
+    "personal_site": ""
+   },
+   {
+    "name": "Joe Mancini",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official Front Porch pitch/contact form: https://www.frontporchvp.com/contact/ (from his record). A search limited to frontporchvp.com returned no page showing an individual address.",
+    "notes": "A '\"@frontporchvp.com\"' search turned up only ZoomInfo and RocketReach (masked j***@ addresses). These are data brokers and were ignored.",
+    "personal_site": ""
+   },
+   {
+    "name": "Nikin Shah",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official Front Porch pitch/contact form: https://www.frontporchvp.com/contact/ (from his record).",
+    "notes": "The only results with an address were RocketReach (data broker), which was ignored. A search limited to frontporchvp.com returned no individual address.",
+    "personal_site": ""
+   },
+   {
+    "name": "Lia Cromwell",
+    "email": "lia@upwest.vc",
+    "email_context": "UpWest's office-hours post invites founders to email her: 'For questions about the office hours, you can email Lia directly at lia@upwest.vc' (search-summary wording from results limited to medium.com/upwest.vc).",
+    "email_publisher": "employer",
+    "email_source": "https://medium.com/upwest-labs/upwest-office-hours-your-us-go-to-market-cant-wait-for-a-vaccine-fd082a27b271 (search snippet; medium.com is blocked, so the page was not opened)",
+    "fund_route": "UpWest Contact Us page: https://upwest.vc/connect/ (search snippet)",
+    "notes": "The address appears in UpWest's own Medium publication (upwest-labs), in a post from about 2020 when she was Principal. She is now Partner at UpWest, so the address is probably still active but was not re-confirmed for 2026. A ZoomInfo result (masked) was ignored.",
+    "personal_site": "https://medium.com/@lmcromwell"
+   },
+   {
+    "name": "Robert Ravanshenas",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "hello@mavenventures.com. Maven asks for a brief description of the business, vision, team and traction, and prefers a mutual intro. Source: https://blog.mavenventures.com/getintouch/ (search snippet, from his record). Note: a separate record (Jim Scheinman) flagged this inbox as not yet confirmed on the official page.",
+    "notes": "The only individual address surfaced came from AnymailFinder, ContactOut and RocketReach, which are data brokers. It was ignored and is not recorded. Possible X handle @rob_rav appeared only in a search summary and is unverified.",
+    "personal_site": ""
+   },
+   {
+    "name": "Will Bumpus",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Westbound's official pitch form (founder name, contact email, pitch deck upload or link): https://westboundequity.com/contact-us/ (search snippet, search limited to westboundequity.com)",
+    "notes": "No address published by him or by Westbound was found. Tracxn and Crunchbase contact data were ignored. Team page: https://westboundequity.com/team/will-bumpus/",
+    "personal_site": ""
+   },
+   {
+    "name": "Gonzalo Costa",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@nxtp.vc, the general inbox on the official NXTP contact page https://www.nxtp.vc/contact (search snippet, from his record)",
+    "notes": "A search summary gave an individual nxtp.vc address and an investorrelations@ inbox, but the only results that could have supplied them were vcsheet (aggregator) and RocketReach (data broker). No official NXTP page or post by him showed them, so they are not recorded. X: https://x.com/gonzalo_costa (search snippet).",
+    "personal_site": ""
+   },
+   {
+    "name": "Sydney Thomas",
+    "email": "sydney@symphonic.vc",
+    "email_context": "Mercury's 'Fundraising Today: August 2023 with Sydney Thomas' feature with her fundraising advice ends: 'You can reach out to Sydney directly at sydney@symphonic.vc' (search-summary wording, search limited to mercury.com).",
+    "email_publisher": "person",
+    "email_source": "https://mercury.com/blog/fundraising-today-august-2023-sydney-thomas (search snippet; page not opened)",
+    "fund_route": "hi@symphonic.vc for pitches and inquiries, plus a diligence form, on the official site https://www.symphoniccapital.com/how-we-work and https://www.symphoniccapital.com/ (search snippet; a search limited to symphoniccapital.com/symphonic.vc confirmed hi@symphonic.vc)",
+    "notes": "The individual address appears in an interview-style feature on Mercury's blog (2023), where she invites founders to contact her directly. Neither symphoniccapital.com nor the 2025 BusinessWire fund-launch release showed it in searches. Treat hi@symphonic.vc as the primary official route and sydney@ as a direct address she published in an interview. SignalHire and RocketReach results were ignored.",
+    "personal_site": "https://www.symphoniccapital.com/newsletter (fund newsletter)"
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ },
+ {
+  "batch": [
+   "Lisa Blau",
+   "Kathryn Minshew",
+   "Salman Azhar",
+   "Squire Servance",
+   "Kip Frey",
+   "John Glushik",
+   "David Lamond",
+   "Sergey Khusnetdinov"
+  ],
+  "people": [
+   {
+    "name": "Lisa Blau",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@ablepartners.nyc, the general inbox on the official site https://ablepartners.nyc/ (from the verified record, search snippet)",
+    "personal_site": "",
+    "notes": "A search summary offered a personal address at ablepartners.nyc, but the only sources behind it were vcsheet, contactout and rocketreach, which are aggregator and data-broker sites, so it was ignored. A search restricted to ablepartners.nyc returned only the homepage and showed no personal address."
+   },
+   {
+    "name": "Kathryn Minshew",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "hello@xfactor.ventures, the XFactor Ventures inbox (she is an Operating Partner there), per https://www.xfactor.ventures/work-with-us-1 and https://www.xfactor.ventures/contact (search snippet, search restricted to xfactor.ventures): 'If you can't find an introduction to an XFactor partner, you can drop them a note at hello@xfactor.ventures'. Send the company name, founders, a short pitch and location, with the deck attached if you have one. Her paid intro booking is https://intro.co/KathrynMinshew (from the record).",
+    "personal_site": "https://www.kminshew.com/ (search snippet; also https://www.kminshew.com/press-and-speaking)",
+    "notes": "A search restricted to kminshew.com and xfactor.ventures showed no personal address. A search for 'email me' or 'contact me' found nothing from her."
+   },
+   {
+    "name": "Salman Azhar",
+    "email": "salman.azhar@duke.edu",
+    "email_context": "From a search restricted to duke.edu. Its results were only Duke pages: the Fuqua faculty page https://www.fuqua.duke.edu/faculty/salman-azhar and Scholars@Duke https://scholars.duke.edu/person/azhar. The summary read: \"Salman Azhar's email is salman.azhar@duke.edu. He is an Executive in Residence and Faculty member at Duke's Fuqua School of Business.\" The pages could not be opened (proxy blocked scholars.duke.edu), so the exact wording on the page was not seen.",
+    "email_publisher": "employer",
+    "email_source": "https://www.fuqua.duke.edu/faculty/salman-azhar and https://scholars.duke.edu/person/azhar (search snippet, duke.edu-restricted search)",
+    "fund_route": "not found (no official pitch inbox or form seen for Azimuth Opportunity Fund)",
+    "personal_site": "",
+    "notes": "Duke publishes this address for his Fuqua Executive in Residence role. It was not published for Azimuth Opportunity Fund. An unrestricted search gave the same address but also listed contactout and rocketreach, so that search is not the source. Only the duke.edu-restricted result is relied on. The exact snippet wording is unconfirmed, so the founders may want to check the Fuqua page in a browser before sending."
+   },
+   {
+    "name": "Squire Servance",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. No Syridex Bio pitch inbox or form was seen; the official firm page is https://www.syridexbio.com/about-us/ (search snippet).",
+    "personal_site": "https://www.squireservance.com (this is now 'Squire Servance for Congress', his campaign site for NJ-12; it has a contact page at https://www.squireservance.com/contact, search snippet, which the proxy blocked and no address showed in the snippet)",
+    "notes": "The personal site in the record is a congressional campaign site, so any inbox there would be a campaign address and not suited to an investor pitch. ZoomInfo, RocketReach, SignalHire and Crunchbase results were ignored."
+   },
+   {
+    "name": "Kip Frey",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "HG Ventures Approach page https://hgventures.com/approach/ (search snippet, restricted to hgventures.com). It says to connect with the team on LinkedIn, that warm intros through portfolio leaders, co-investors or the Heritage Group network move fastest, and that cold outreach is evaluated when the sector fit is clear. A general Heritage Group inbox, info@thgrp.com, came up in the same restricted search, probably from a privacy or contact page. It is a corporate general inbox, not a confirmed pitch inbox.",
+    "personal_site": "",
+    "notes": "The record's title may be out of date. The Heritage Group's own article https://thgrp.com/introducing-john-glushik/ (search snippet) says that early in 2023 John Glushik took over from Kip Frey as EVP of New Ventures and Managing Director of HG Ventures. Kip Frey's current HG role should be checked before outreach. A search for the @hgventures.com domain found no published address for him."
+   },
+   {
+    "name": "John Glushik",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "HG Ventures Approach page https://hgventures.com/approach/ (search snippet). It says to connect with the team on LinkedIn, that warm intros move fastest, and that cold outreach is evaluated when the sector fit is clear. A general Heritage Group inbox, info@thgrp.com, appeared in a search restricted to hgventures.com and theheritagegroup.com. It is a corporate general inbox, not a confirmed pitch inbox.",
+    "personal_site": "",
+    "notes": "Per https://thgrp.com/introducing-john-glushik/ he took the helm of New Ventures and HG Ventures in early 2023. The only addresses seen were masked ones (j***@...) from RocketReach and ZoomInfo, which were ignored. No official HG or Heritage page published his address."
+   },
+   {
+    "name": "David Lamond",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found (no website or official contact route found for Lamond Ventures LLC or Lamond Capital Partners)",
+    "personal_site": "",
+    "notes": "Background: he founded Lamond Capital Partners (2011-2016, a 13F filer), holds a Duke BA and Duke JD, is the son of Pierre Lamond, and sits on the board at Quince (https://quincetx.com/team/david-lamond/, search snippet). Addresses came up only in a people-search/public-records aggregator (veripages) and in D&B results. They were ignored and are not reproduced here."
+   },
+   {
+    "name": "Sergey Khusnetdinov",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "The Ga^3in Early program on the official site https://gain.ventures/ (from the record). A pitch link, https://bit.ly/gainpitch, appeared in search summaries drawn from gain.ventures, his Telegram and Fuqua pages. Which page published it was not confirmed, and it is a shortened link, so it should be checked on gain.ventures before use.",
+    "personal_site": "https://t.me/husnetdinov (his own Telegram profile or channel, search snippet; do not use it to contact him unless the founders choose to); Fuqua alumni Q&A https://www.fuqua.duke.edu/alumni/connect/alumni-q-a/sergey-khusnetdinov",
+    "notes": "A search restricted to gain.ventures, fuqua.duke.edu and t.me showed no published email. ZoomInfo (masked address), Crunchbase, theorg and Tracxn results were ignored. A snippet also lists him on Fuqua's Russia/CIS Regional Advisory Board."
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ },
+ {
+  "batch": [
+   "Carmichael Roberts",
+   "Blake Byers",
+   "John Tough",
+   "Jeff Terrell",
+   "Mengxi Lu",
+   "Ali Behbahani",
+   "Doug Brown",
+   "Paul Straub"
+  ],
+  "people": [
+   {
+    "name": "Carmichael Roberts",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "info@materialimpact.com, Material Impact's general inbox. It appeared in a search restricted to materialimpact.com (search snippet; results included https://www.materialimpact.com/ , /team/ and /about/), with the address 131 Dartmouth Street, 3rd Floor, Boston, MA 02116. It is a general inbox, not one labeled for pitches.",
+    "personal_site": "",
+    "notes": "No personal address was published by him or by Material Impact or Breakthrough Energy Ventures in any result. I did not search for a Breakthrough Energy Ventures route, to save budget. A superscout.co guide also mentions info@materialimpact.com, but the inbox is recorded because it showed up in the search limited to materialimpact.com."
+   },
+   {
+    "name": "Blake Byers",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. A search restricted to byerscap.com returned only the homepage https://www.byerscap.com/ , with no contact inbox or form in the snippet.",
+    "personal_site": "https://www.byerscap.com/",
+    "notes": "His Google Scholar profile (https://scholar.google.com/citations?user=P8w6rnIAAAAJ) shows only 'Verified email at byerscap.com'. That is a domain, not a published address, so no address was recorded and none should be built from it. The other results were aggregators (CB Insights, waveup, startupintros) and were ignored. X: https://x.com/byersblake."
+   },
+   {
+    "name": "John Tough",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "No Energize Capital pitch inbox was found. His own blog, johntough.com ('Tough CAPITAL'), has a contact form (fields: name, phone, email, message) and invites people to reach out about Energize opportunities. This comes from a search snippet restricted to johntough.com; the snippet did not give the form's exact URL. Team page: https://energizecap.com/team/john-tough.",
+    "personal_site": "https://johntough.com/",
+    "notes": "Results from ZoomInfo, RocketReach, Wiza and me.sh came up and were ignored entirely. The contact form on his personal site is the best published route to him personally."
+   },
+   {
+    "name": "Jeff Terrell",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Arboretum Ventures' official 'Investment Opportunity Form' at https://www.arboretumvc.com/contact/ (search snippet; result title on arboretumvc.com).",
+    "personal_site": "",
+    "notes": "info@arboretumvc.com appeared only in a search summary built from data-broker results (ZoomInfo, LeadIQ, RocketReach, cience). It was not confirmed on arboretumvc.com, so it is not used. Individual-address and email-format hits from ZoomInfo, ContactOut and RocketReach were ignored. His official promotion press release: https://www.arboretumvc.com/arboretum-ventures-promotes-jeff-terrell-to-managing-partner/ ."
+   },
+   {
+    "name": "Mengxi Lu",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found (he invests as an angel and has no fund). His personal site https://mengxi.lu/ says 'Feel free to email me about what you have been working on' (search snippet restricted to mengxi.lu), but the snippet did not show the address.",
+    "personal_site": "https://mengxi.lu/",
+    "notes": "He invites email on his own site, but the address (probably a mailto link) was not visible in search results, and the proxy blocked mengxi.lu (EGRESS_BLOCKED), so I could not read it. A founder can open https://mengxi.lu/ in a normal browser to get the address he published. ZoomInfo, RocketReach and Wiza results came up and were ignored; most of them were also different people named Mengxi Lu."
+   },
+   {
+    "name": "Ali Behbahani",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "NEA's official contact page https://www.nea.com/contact lists bd@nea.com under 'Corporate Inquiries' and LPRelations@nea.com for investor relations (search snippet restricted to nea.com). bd@ is labeled corporate/business development, not a founder pitch inbox. The search engine's suggestion to send pitches there is its own inference.",
+    "personal_site": "",
+    "notes": "A masked ZoomInfo address came up and was ignored entirely. Official bio: https://www.nea.com/team/ali-behbahani-md . A warm introduction is likely the more effective route at NEA."
+   },
+   {
+    "name": "Doug Brown",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "inquiries@dialliance.com, plus the inquiry form on DIA's official contact page https://www.dialliance.com/contact-us. Both were seen in a search restricted to dialliance.com (search snippet), which confirms the inbox the earlier record marked as unverified.",
+    "personal_site": "",
+    "notes": "Official team page: https://www.dialliance.com/team-members/doug-brown . A staff address for another DIA employee appeared only in the superscout.co summary; it is not his and was not used. RocketReach, ContactOut and prospectoo results were ignored."
+   },
+   {
+    "name": "Paul Straub",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "The official founder form is at https://www.wireframevc.com/general/contact-us. Per the site, pre-seed and seed startups in climate, bio or health should fill out that form. info@wireframevc.com is for 'any other general inquiries'. Both were seen in a search restricted to wireframevc.com (search snippet), which confirms the inbox the earlier record could not source.",
+    "personal_site": "",
+    "notes": "A wireframevc.com address for him came up only from data brokers (Crunchbase contacts, RocketReach, ContactOut, muraena), and those results were ignored entirely. Use the form for a pitch. X: https://x.com/pstraub (likely him, not independently confirmed)."
+   }
+  ],
+  "budget_exhausted": false,
+  "searches_used": 16
+ },
+ {
+  "batch": [
+   "Steve Pagliuca",
+   "Lisa Burton O'Toole",
+   "Melinda French Gates",
+   "Lindy Morris Fishburne",
+   "Kerry Rupp",
+   "Camille Samuels",
+   "Padowithz \"Pad\" Alce"
+  ],
+  "people": [
+   {
+    "name": "Steve Pagliuca",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "No published inbox seen. The official PagsGroup site https://www.pagsgroup.com/ has a 'Get in Touch' section (search snippet from a search limited to pagsgroup.com), but the snippet did not show its contact details and the site was not opened.",
+    "personal_site": "",
+    "notes": "PagsGroup is his Boston-area single-family office. A search summary gave an email pattern for PagsGroup taken from aggregator and data-broker results (Crunchbase, RocketReach, selling.com). I ignored it and built no address from it. Neither he nor PagsGroup was seen publishing a personal address."
+   },
+   {
+    "name": "Lisa Burton O'Toole",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. hearstlab.com cannot be searched or opened (the search engine refuses the domain). Third-party sources (vcsheet.com and the einpresswire/Hypepotamus pitch-event articles) say HearstLab takes pitches from women-led startups all year through a contact form on its site. That form was not confirmed on an official HearstLab page.",
+    "personal_site": "",
+    "notes": "LinkedIn: https://www.linkedin.com/in/lisa-burton/ (search snippet; headline 'VP @ HearstLab • Strategic Investor'). A hearst.com address was hinted at only in data-broker results (RocketReach, muraena.ai) and was ignored."
+   },
+   {
+    "name": "Melinda French Gates",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "not found. Pivotal Ventures' official site has no pitch inbox or form in search results. Its media page, https://www.pivotalventures.org/media (search snippet), is for media inquiries only. The investments page is https://www.pivotalventures.org/approach/investments (search snippet).",
+    "personal_site": "https://www.pivotalventures.org/founder (official founder bio, search snippet)",
+    "notes": "A media@ address for Pivotal appeared in a search summary built mostly on ZoomInfo, LeadIQ and D&B results. It was not seen on pivotalventures.org itself, and it is a media inbox, not a pitch route, so it is not recorded. She has no published personal address."
+   },
+   {
+    "name": "Lindy Morris Fishburne",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "contact@breakout.vc, the general inbox on Breakout Ventures' official contact page https://breakout.vc/contact (search snippet from the existing record, search limited to breakout.vc). The page also lists accounts@breakout.vc, which is for account matters and not for pitches.",
+    "personal_site": "",
+    "notes": "X: https://x.com/lindyfishburne (search snippet). LinkedIn: https://www.linkedin.com/in/lindy-morris-fishburne-076157/ (search snippet). A search summary named an individual Breakout address, but its sources were aggregators (vcsheet, Crunchbase, Signal, seedtable, happenstance). It was not seen on breakout.vc or in her own posts, so it is not recorded."
+   },
+   {
+    "name": "Kerry Rupp",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Official pitch form 'Share Your Big Idea!' at https://truewealthvc.com/share-your-big-idea/ (seen in a search limited to truewealthvc.com; founders submit company information and the firm gets back to them). Official contact page: https://truewealthvc.com/contact-us/ (search snippet).",
+    "personal_site": "",
+    "notes": "Bio on the official site: https://truewealthvc.com/kerry-rupp-general-partner-2/ (search snippet). X: https://x.com/kerry_rupp (search snippet). A media@truewealthvc.com inbox came up in a summary of truewealthvc.com results. It is for media, not pitches. A search summary also gave an individual address, sourced to vcsheet.com (an aggregator). It was not seen on truewealthvc.com or in anything she published, so it is not recorded."
+   },
+   {
+    "name": "Camille Samuels",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Venrock's official contact page https://www.venrock.com/contact/ (search snippet, search limited to venrock.com) says that for business plan submissions entrepreneurs should 'email the appropriate investment team' (technology or healthcare). The team inbox address did not show in the snippet, and venrock.com is blocked by the proxy, so it could not be read. Offices: 3340 Hillview Ave, Palo Alto, 650.561.9580; 7 Bryant Park, 23rd Floor, NYC, 212.444.4100.",
+    "personal_site": "",
+    "notes": "X: https://x.com/CamiSamuelsVC (search snippet). The addresses in the search summary came from data-broker and aggregator sites (ContactOut, RocketReach, growjo, connectsafely) and were ignored completely."
+   },
+   {
+    "name": "Padowithz \"Pad\" Alce",
+    "email": "not found",
+    "email_context": "",
+    "email_publisher": "none",
+    "email_source": "",
+    "fund_route": "Info@aiPatentLaw.com, the general inbox of his law firm (not a fund). It is printed on AI Patent Law letterhead: '(888) 777-1255 Ann Arbor, MI and Charlotte, NC Info@aiPatentLaw.com', in https://info.ncdhhs.gov/dhsr/mfp/pets/2024/summer/L02n_AIPatentLaw.pdf (search snippet). Firm site: https://www.aipatentlaw.com/. Team page: https://www.aipatentlaw.com/meet-our-people/.",
+    "personal_site": "https://www.aipatentlaw.com/",
+    "notes": "A search summary gave a personal and a firm address for him, but the results behind it were ContactOut, SignalHire, ZoomInfo and RocketReach. Those were ignored, and neither address showed up on aipatentlaw.com or in the NC DHHS letter. He invests through Duke Capital Partners, so a DCP introduction is the investor route. The AI Patent Law inbox goes to his law practice."
+   }
+  ],
+  "searches_used": 16,
+  "budget_exhausted": false
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "batch": [
+   "Fred Ehrsam",
+   "Kip Frey"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Fred Ehrsam",
+     "verdict": "reject",
+     "reject_reason": "No longer an active investing decision maker: Paradigm's team page lists him as 'Co-Founder & Senior Advisor' and he is Co-Founder & CEO of Nudge (neurotech).",
+     "corrections": [],
+     "notes": "Manual check 2026-10-03: https://www.paradigm.xyz/team/fred-ehrsam (search snippet); https://en.wikipedia.org/wiki/Fred_Ehrsam (search snippet)"
+    },
+    {
+     "name": "Kip Frey",
+     "verdict": "reject",
+     "reject_reason": "No longer a decision maker: his LinkedIn title is now 'Senior Advisor, New Ventures, at The Heritage Group'; John Glushik took over as Managing Director of HG Ventures in 2023.",
+     "corrections": [],
+     "notes": "Manual check 2026-10-03: https://www.linkedin.com/in/kipfrey/ (search snippet); https://thgrp.com/introducing-john-glushik/ (search snippet)"
+    }
+   ]
+  }
+ }
+]
