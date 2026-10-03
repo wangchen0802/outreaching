@@ -69,6 +69,15 @@ def apply_corrections(rec, rv):
         rec["check_notes"] = (rec.get("check_notes", "") + f" | {c['field']}: {c['evidence']}").strip(" |")
 
 
+def criteria_reason(rec):
+    """Re-applied after every correction, so a fact-check that changes a field can drop someone."""
+    if rec.get("duke_grad_year") and int(rec["duke_grad_year"]) > 2018:
+        return f"Duke degree completed {rec['duke_grad_year']} (after 2018)"
+    if rec.get("decision_maker") == "no" or rec.get("still_active_2026") == "no":
+        return "not a current decision maker"
+    return ""
+
+
 def load():
     people, excluded = {}, []
     for path in sorted(SRC.glob("verify-*.json")):
@@ -86,10 +95,8 @@ def load():
                     reason = p.get("exclude_reason") or "failed a criterion"
                 elif rv and rv["verdict"] == "reject":
                     reason = "fact-check: " + (rv.get("reject_reason") or rv.get("notes") or "rejected")
-                elif rec.get("duke_grad_year") and int(rec["duke_grad_year"]) > 2018:
-                    reason = f"Duke degree completed {rec['duke_grad_year']} (after 2018)"
-                elif rec.get("decision_maker") == "no" or rec.get("still_active_2026") == "no":
-                    reason = "not a current decision maker"
+                else:
+                    reason = criteria_reason(rec)
                 k = key(p["name"])
                 if reason:
                     excluded.append({"name": p["name"], "firm": rec.get("firm", ""), "reason": reason})
@@ -107,9 +114,11 @@ def load():
                 if rv.get("notes"):
                     rec["check_notes"] = (rec.get("check_notes", "") + " | recheck: " + rv["notes"]).strip(" |")
                 apply_corrections(rec, rv)
+                reason = criteria_reason(rec)
                 if rv["verdict"] == "reject":
-                    excluded.append({"name": rec["name"], "firm": rec.get("firm", ""),
-                                     "reason": "fact-check: " + (rv.get("reject_reason") or rv.get("notes") or "rejected")})
+                    reason = "fact-check: " + (rv.get("reject_reason") or rv.get("notes") or "rejected")
+                if reason:
+                    excluded.append({"name": rec["name"], "firm": rec.get("firm", ""), "reason": reason})
                     people.pop(k)
     early = SRC / "excluded-early.json"
     if early.exists():

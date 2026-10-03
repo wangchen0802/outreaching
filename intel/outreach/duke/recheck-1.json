@@ -1,0 +1,733 @@
+[
+ {
+  "batch": [
+   "Jeremy Levine",
+   "Scott Raney",
+   "Mark Kraynak",
+   "Logan Allin"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Jeremy Levine",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "stage_focus",
+       "value": "Seed through growth at firm level. On 23 Sept 2026 BVP announced a $5.75B close: $1.75B for seed and early stage, $4B for growth. Levine's own stage mix in 2026 is unverified, and one third-party article calls him one of the firm's most visible growth-stage voices.",
+       "evidence": "https://www.financialcontent.com/article/bizwire-2026-9-23-bessemer-venture-partners-closes-575-billion-to-back-founders-from-seed-through-growth (search snippet, Business Wire release); https://finance.yahoo.com/technology/ai/articles/bessemer-venture-partners-closes-5-150000318.html (search snippet); https://technologies.org/bessemer-venture-partners-5-75-billion-fund/ (search snippet: 'one of the firm's most visible growth-stage voices')"
+      },
+      {
+       "field": "hook",
+       "value": "When Bessemer announced its September 2026 close, which included $1.75B for seed and early-stage companies, Levine said the firm aims to back founders 'before the market fully recognizes the opportunity.' SimReal builds the RL environments, verifiers and expert data used for LLM post-training.",
+       "evidence": "Levine is quoted in coverage of the BVP fund announcement: https://www.financialcontent.com/article/bizwire-2026-9-23-bessemer-venture-partners-closes-575-billion-to-back-founders-from-seed-through-growth (search snippet), https://technologies.org/bessemer-venture-partners-5-75-billion-fund/ (search snippet). The previous hook used Unframe and Sett, which are firm-level deals that only a third-party aggregator ties to Levine. The new hook rests on his own published words."
+      },
+      {
+       "field": "fit_reason",
+       "value": "Partner at a multi-stage firm that just closed a $1.75B seed and early-stage fund (Sept 2026). Signal lists AI and fintech among his focus areas. His personal seed and Series A activity in 2026 is unverified, and one third-party source frames him as growth-oriented.",
+       "evidence": "https://signal.nfx.com/investors/jeremy-levine (search snippet: invests in AI, Fintech, Healthcare); https://technologies.org/bessemer-venture-partners-5-75-billion-fund/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "Duke attendance and his 2026 role are confirmed: Crunchbase snippet 'attended Duke University'; quoted in the 23 Sept 2026 fund release. The criterion 3 stage fit is supported at firm level only. No 2025-26 seed or Series A deal is attributed to him personally on an official source; the Herdr seed (Sept 2026, BVP-led) is not attributed to him."
+      }
+     ],
+     "notes": "Searches: 'Jeremy Levine Bessemer Venture Partners 2026' and '\"Jeremy Levine\" Bessemer Duke led seed round 2026'. Still active: he is quoted in BVP's 23 Sept 2026 fund-close release (Business Wire via financialcontent.com and Yahoo Finance snippets), and Signal lists him as a New York-based Partner. Duke: Crunchbase snippet 'Jeremy Seth Levine ... attended Duke University'. He joined BVP in 2001, so the degree was certainly completed before 2018; 1995 is still LinkedIn-only. The fund close is now confirmed by the Business Wire release, not only fundmomentum.vc. Risk: one third-party article calls him a 'growth-stage voice', so he may skew to growth. Senders should pitch the seed/early fund, not claim he leads seed rounds. No published email found. A RocketReach result appeared and was ignored."
+    },
+    {
+     "name": "Scott Raney",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "stage_focus",
+       "value": "Redpoint bio: seed, early and growth stages, focused on cloud infrastructure, open source and SaaS. A third-party search summary gives his title as 'Managing Director, growth'. He is listed as one of Redpoint's leads on Mind Robotics' 2026 Series A. Seed appetite is plausible but unproven.",
+       "evidence": "https://www.redpoint.com/our-people/scott-raney/ (search snippet: 'invests in entrepreneurs at the seed, early and growth stages'); https://www.redpoint.com/companies/mind-robotics/ (search snippet); search summary citing https://tracxn.com/d/venture-capital/redpoint-ventures/__7UqwEZ8z6veY_I61fB7LAYPqR9I0kEbXFIreDnb30bg ('Managing Director, growth')"
+      },
+      {
+       "field": "hook",
+       "value": "Raney is one of Redpoint's leads on its 2026 Series A investment in physical-AI company Mind Robotics and has long backed cloud infrastructure, open-source and developer-facing software. SimReal supplies the RL environments and verifiers that labs use for LLM post-training.",
+       "evidence": "https://www.redpoint.com/companies/mind-robotics/ (search snippet: Scott Raney is 'one of the leads for Redpoint's investment'; Redpoint 'partnered for Mind Robotics' Series A in 2026'). This supports Raney leading Redpoint's side of the deal, not that he or Redpoint co-led the round. Focus: https://www.redpoint.com/our-people/scott-raney/ (search snippet)."
+      },
+      {
+       "field": "bio",
+       "value": "Managing Director at Redpoint Ventures, which he joined in 2000. He invests in enterprise software, both infrastructure and applications, with a focus on cloud infrastructure, open source and SaaS, from seed through growth. He is one of Redpoint's leads on its 2026 Series A investment in Mind Robotics. Duke Pratt electrical engineering graduate (E'91), named a Duke trustee in July 2026.",
+       "evidence": "https://www.redpoint.com/our-people/scott-raney/ (search snippet); https://www.redpoint.com/companies/mind-robotics/ (search snippet); https://trustees.duke.edu/scott-raney-e91/ (search snippet, record's source). This drops 'repeat Forbes Midas List member' and the Stripe/HashiCorp/LaunchDarkly names: no cited source supports the Midas claim, and the deals come only from a me.sh aggregator snippet."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Mind Robotics (physical AI, 2026 Series A; Raney is listed as one of Redpoint's leads). Older names (Stripe, HashiCorp, Heroku, LaunchDarkly) appear only in a me.sh aggregator snippet and are unverified.",
+       "evidence": "https://www.redpoint.com/companies/mind-robotics/ (search snippet); https://me.sh/profile/scott-raney (search snippet, third-party)"
+      },
+      {
+       "field": "fit_reason",
+       "value": "Long-time investor in infrastructure, open-source and developer software who is still leading AI-related deals in 2026, and a Duke trustee since July 2026. He may now sit on Redpoint's growth side, so his appetite for a seed-stage check is uncertain.",
+       "evidence": "https://www.redpoint.com/our-people/scott-raney/ (search snippet); Tracxn-derived search summary ('Managing Director, growth'); https://today.duke.edu/2026/07/duke-university-names-five-new-trustees (search snippet, record's source)"
+      },
+      {
+       "field": "fit",
+       "value": "Medium",
+       "evidence": "The possible growth-team title and the large-ticket Mind Robotics Series A lower the likelihood of a seed-stage fit."
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "Duke E'91 and his 2026 activity at Redpoint are solid. Whether he still invests at seed or Series A rests only on the generic Redpoint bio, against a third-party 'Managing Director, growth' title."
+      }
+     ],
+     "notes": "Searches: 'Scott Raney Redpoint 2026 seed Series A led' and '\"Scott Raney\" Redpoint growth \"Mind Robotics\" Series A'. Still at Redpoint in 2026: the Mind Robotics page names him a lead on the 2026 Series A. His Redpoint bio still says seed, early and growth, so I did not reject. However, one search summary (Tracxn-sourced) titles him 'Managing Director, growth', and the brief warns that one person moved to a growth fund. This may be him, so I lowered fit and confidence. The Duke degree is unchanged and well-sourced (trustee page 'Scott Raney E'91'). The X handle (sraney) is still unverified; medium.com/@sraney also appeared in results. No published email or pitch inbox found."
+    },
+    {
+     "name": "Mark Kraynak",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "hook",
+       "value": "Acrew led Reclaim Security's $20M Series A in March 2026, with Kraynak speaking for the firm on the deal, and he invests across cybersecurity, data and enterprise tech. SimReal's verifiers and expert data are infrastructure for making AI agents reliable.",
+       "evidence": "https://www.helpnetsecurity.com/2026/03/05/reclaim-security-26-million-funding/ (search snippet: $26M total including a $20M Series A led by Acrew Capital; Mark Kraynak, Founding Partner at Acrew Capital, commented). The source supports Acrew leading the round with Kraynak quoted, not explicitly that he personally led it. https://signal.nfx.com/investors/mark-kraynak (search snippet: cybersecurity, data, enterprise technology)."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Reclaim Security (Acrew led its $20M Series A in March 2026, $26M raised in total; Kraynak quoted as Founding Partner). Acrew also backed Nextdata (seed) and Nokod Security (seed, 2023); his personal role in those two is unverified.",
+       "evidence": "https://www.helpnetsecurity.com/2026/03/05/reclaim-security-26-million-funding/ (search snippet); record's other sources unchanged"
+      },
+      {
+       "field": "bio",
+       "value": "Founding Partner at Acrew Capital, which he co-founded in 2019, investing in cybersecurity, data, enterprise tech and fintech from seed onward. He spent nearly 13 years at Imperva, most recently as SVP and GM of its enterprise business, then joined Aspect Ventures. In March 2026 Acrew led Reclaim Security's $20M Series A, and he commented on the deal for the firm. He writes a Forbes column on cybersecurity, including an April 2026 piece. Duke BSE in electrical engineering and English, summa cum laude.",
+       "evidence": "https://en.wikipedia.org/wiki/Theresia_Gouw (search snippet: Acrew co-founded in 2019 with Mark Kraynak and others); https://aspectventures.com/profiles/mark-kraynak/ (search snippet: Duke BSE EE and English, summa cum laude; nearly 13 years at Imperva, SVP and GM Enterprise); https://www.helpnetsecurity.com/2026/03/05/reclaim-security-26-million-funding/ (search snippet); https://www.forbes.com/sites/markkraynak/ (search snippet: April 2026 article 'RAIgnarök: The End Of The Platformization Era In Cybersecurity?')"
+      }
+     ],
+     "notes": "Searches: 'Mark Kraynak Acrew Capital 2026' and '\"Mark Kraynak\" Duke electrical engineering English'. The Duke BSE (EE and English, summa cum laude) is confirmed again via the Aspect Ventures profile snippet, with attendance 1990-1995 and an American University MFA after it, so the degree was completed well before 2018. Active in 2026: quoted as Acrew Founding Partner on the March 2026 Reclaim $20M Series A and published a Forbes column in April 2026. Stage fits (fund $250M, $1M-$7M checks per Signal/VC Beast). The $26M vs $20M discrepancy is resolved: $26M is the total raised and $20M the Series A. The hook now credits Acrew with leading the round rather than Kraynak personally. The April 2026 Forbes column 'RAIgnarök' could be an alternative hook angle on AI in security. No published email; RocketReach results were ignored."
+    },
+    {
+     "name": "Logan Allin",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Searches: 'Logan Allin Fin Capital 2026' and '\"Logan Allin\" Duke 2003 public policy Fin Capital'. Duke BA in Public Policy and Political Science, 2003, confirmed again on the official Duke FinTech advisory-board page (fintech.meng.duke.edu snippet). The page also supports the bio's 'previously VP of SoFi Ventures' and adds that he was a Sloan Fellow at Stanford GSB. Role: Crunchbase, Signal and VC Beast snippets all list him as Founder and Managing Partner of Fin Capital, and nothing suggests a departure. The only 2026 activity found is an aggregator note of a Fin Capital investment on 14 Jan 2026, so 2026 status rests on profiles that are current but not dated. Stage: superscout (third party) says pre-seed to pre-IPO, and a search snippet says Fin Capital has early-stage funds (Regatta, Flagship) alongside growth (Horizons) and public (Constellation) funds, so criterion 3 holds. The '$0 to over $1B AUM in about three years' claim comes from superscout (third party). The hook's sub-sector claim also comes from superscout, and Primitive from primitive.com news, both as the record cites them; I could not check them further. No published personal email or official pitch inbox found. ContactOut appeared in results and was ignored."
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Marc Andrusko",
+   "Adam Carson",
+   "Fred Ehrsam",
+   "David Beisel"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Marc Andrusko",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "hook",
+       "value": "Marc's thesis areas include capital markets and AI in professional services, and he held interest rate products sales & trading roles at Goldman Sachs; Xitadel is an RL environment that improved an open model's trading on unseen market data.",
+       "evidence": "Oak HC/FT team page (https://www.oakhcft.com/team-members/marc-andrusko, search snippet) lists 'thesis areas spanning capital markets, AI in professional services, go-to-market tools, payments infrastructure and the CFO stack'. The Money2020 speaker bio (https://us.money2020.com/agenda/speakers/marc-andrusko-s103-102934, search snippet) says he was a Goldman Sachs VP 'with roles across corporate development, strategy, and interest rate products sales & trading'. The old wording 'AI-native workflows in capital markets' is a paraphrase that no source states, so the hook now uses the sourced wording."
+      }
+     ],
+     "notes": "Independent searches confirm the record. (1) Duke: graduated magna cum laude from Duke, studying Public Policy, Environmental Science, and Markets & Management. This appears in sources other than Oak (Money2020 speaker page and iq.wiki, search snippets). No class year was found. Pre-2018 is safe: he was a Goldman VP, then led a vertical at Plaid, then joined a16z in 2021. (2) Role: Axios Pro (2026-03-18) reports 'Marc Andrusko joins Oak HC/FT as partner from a16z', and the Oak team page and venture5.com agree. No later departure was found. (3) Stage: Oak's page says he 'focuses on early and growth stage opportunities in fintech'. That covers Series A, though seed is less typical. (4) Contacts: no email published by Oak was found. The a16z address he published on X in 2024 is correctly treated as stale. Do not use the ZoomInfo or RocketReach results that appeared in search. Confidence: High.",
+     "searches_used": 2
+    },
+    {
+     "name": "Adam Carson",
+     "verdict": "reject",
+     "corrections": [
+      {
+       "field": "still_active_2026",
+       "value": "no",
+       "evidence": "Search summary built from profile snippets (Wellfound/startupintros/thebigwhale results for \"Adam Carson\" Point72 Ventures): 'Partner at Point72 Ventures ... from April 2019 to January 2025, followed by an Advisor role there from January 2025 to February 2026. He then joined JPMorgan Chase in January 2026 in a corporate development role focused on digital assets and crypto strategy.'"
+      },
+      {
+       "field": "firm",
+       "value": "JPMorgan Chase (Chase Digital Assets); formerly Point72 Ventures",
+       "evidence": "LinkedIn search snippet title 'Adam K Carson - Chase Digital Assets' (https://www.linkedin.com/in/adamkcarson/, search snippet; the handle matches his X handle adamkcarson). Cryptobriefing (https://cryptobriefing.com/jpmorgan-hires-executive-director-digital-assets/, search snippet) says 'Adam Carson heads Chase Digital Assets' and describes JPMorgan's 2026 hiring push."
+      },
+      {
+       "field": "title_2026",
+       "value": "Head, Chase Digital Assets (JPMorgan Chase); no longer a Partner at Point72 Ventures (Partner Apr 2019-Jan 2025, Advisor Jan 2025-Feb 2026)",
+       "evidence": "Same sources: the LinkedIn snippet 'Chase Digital Assets', Cryptobriefing 'heads Chase Digital Assets', and the profile-snippet career timeline."
+      },
+      {
+       "field": "decision_maker",
+       "value": "no",
+       "evidence": "He now holds an operating or corporate role at JPMorgan Chase, not an investing partner role. The Point72 Ventures Partner title ended in January 2025."
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "Two independent search results agree that he moved to JPMorgan Chase Digital Assets. It also fits his earlier career, since he was previously Head of Digital/FinTech Strategy at JPMorgan Chase. The p72.vc team page still appears in search results, but it is stale."
+      }
+     ],
+     "reject_reason": "Fails criterion 2. He stepped down as Point72 Ventures Partner in January 2025, was an advisor until February 2026, and since January 2026 has headed Chase Digital Assets at JPMorgan Chase, which is an operating role. He is no longer a VC decision maker. This is the 'moved to an operating role' case.",
+     "notes": "The record's role_sources (p72.vc team page, Equilar, Bloomberg) are undated or stale. Do not email him as a Point72 Ventures Partner. If he is ever contacted, it should be as a JPMorgan digital-assets executive, not as an investor. That is outside this list's criteria. The Duke Pratt BSE was not re-checked because the record fails on role.",
+     "searches_used": 2
+    },
+    {
+     "name": "Fred Ehrsam",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Independent searches: (1) Role: the Wikipedia snippet (search) calls him 'co-founder and general partner of ... Paradigm, and the co-founder and CEO of Nudge'. The Paradigm team page (https://www.paradigm.xyz/team/fred-ehrsam) still appears in search. No 2026 departure was found. The October 2023 move from Managing Partner to GP is confirmed. (2) Hook is firm-level and now well supported by primary press. TechCrunch (2026-07-08, https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/) reports a $1.2B fund for 'technical frontier' startups. CoinDesk/Bloomberg (2026-07-08, https://www.coindesk.com/markets/2026/07/08/crypto-vc-paradigm-launches-usd1-2-billion-ai-fund-as-it-broadens-beyond-digital-assets-bbg) calls it 'its first vehicle to invest beyond crypto into AI and robotics'. Zipline and True Anomaly are confirmed as early Fund III deals. Better hook sources are TechCrunch and CoinDesk rather than fundmomentum.vc. (3) The Duke class of 2010 was not re-surfaced in my snippets. It rests on the record's Wikipedia citation and is consistent with him then working at Goldman before co-founding Coinbase in 2012. (4) Caveat stands: his main focus is CEO of Nudge, and Matt Huang announced Fund III. Personal bandwidth for a seed pitch is uncertain, so keep confidence Medium. Ignore the SignalHire and muraena results that appeared in search. No published email or pitch inbox was found.",
+     "searches_used": 2
+    },
+    {
+     "name": "David Beisel",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "relevant_investments",
+       "value": "Skyfall AI: NextView seed investment (Seed VC-II round, July 20, 2026, alongside Fidelity, Garage Capital, Inovia, M13 and Touring Capital). Skyfall's first product, Morpheus, is a continual reinforcement learning platform for AI researchers that lets agents learn inside persistent, non-stationary environments. This is a firm-level deal; that Beisel personally led it is not verified. Tero (Jan 2026) and Walden Robotics (Jul 2026) appear on his NextView author page; their sectors were not verified.",
+       "evidence": "NextView blog 'Beyond the Next Word: Our Investment in Skyfall AI' (https://nextview.vc/blog/beyond-the-next-word-our-investment-in-skyfall-ai/, search snippet) describes Morpheus as 'a continual reinforcement learning platform for AI researchers that lets agents learn inside persistent, non-stationary environments'. The same search's results (CB Insights NextView investor page, search snippet) give the seed round date of July 20, 2026 and the co-investors."
+      }
+     ],
+     "notes": "Independent search confirms the Skyfall AI investment and its continual-RL description, so the hook and High fit hold. It is a July 2026 seed deal, consistent with the hook's '2026 seed investment'. Role: the LinkedIn search snippet title 'David Beisel - Co-Founder & Partner at NextView Ventures' and the vcsheet profile still list him at NextView. No departure was found. Stage is seed. The Duke BA 1998 was not re-checked in this batch. The Wikipedia page surfaced in results but the snippet did not show education. It rests on the record's Wikipedia/davidbeisel.com citations, and with a Stanford MBA in 2004 it is certainly before 2018. No email published by him was found. The nextview.vc/approach route stays the recommended contact.",
+     "searches_used": 2
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Kevin King",
+   "Cassie Young",
+   "Dan Levitan",
+   "Kent Ho"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Kevin King",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "still_active_2026",
+       "value": "likely",
+       "evidence": "Search for '\"53 Stations\" seed round 2026' (result set cbinsights.com/investor/fifty-three-stations, pitchbook.com/profiles/investor/540911-71, tracxn 53-stations; exact page not confirmed) shows 53 Stations investing in 2026: Wealth.com Series B (Apr 16, 2026) and Flex Series B-II (Jul 14, 2026). Two searches still show King as Co-Founder & GP (signal.nfx.com/firms/53-stations, startupintros.com/people/kevin-king-1, businesswire 2023 launch release), and no 'leaves'/'new fund' result appeared. No 2026-dated item names him personally, so 'likely', not 'yes'."
+      },
+      {
+       "field": "bio",
+       "value": "Kevin King co-founded 53 Stations, The Pritzker Organization-backed $190M early-stage venture fund, in 2022 with Jason Pritzker and Kelly Goldstein and is its general partner. He was previously a Partner at General Catalyst, and earlier worked at Goldman Sachs, Windhorse Capital Management and Year Up. He holds a BS in Economics and Mathematics from Duke and an MBA from MIT Sloan.",
+       "evidence": "Search snippets (signal.nfx.com/firms/53-stations; businesswire.com 20231122201474 release; startupintros.com/people/kevin-king-1) say the firm was 'founded in 2022 by Kevin King (former Partner at General Catalyst), Jason Pritzker, and Kelly Goldstein', list prior roles 'General Catalyst, Year Up, Windhorse Capital Management and Goldman Sachs', and give 'MBA from MIT Sloan' and 'B.S. in Economics and Mathematics from Duke University'. No source supports the '2018-2022' General Catalyst dates, so I removed them."
+      },
+      {
+       "field": "stage_focus",
+       "value": "Seed to Series B; 53 Stations leads and co-invests from a $190M Fund I backed by The Pritzker Organization. It led Kaya's $5.3M seed (Jan 2025, with RXR). Its 2026 deals seen are Series B (Wealth.com, Flex).",
+       "evidence": "Snippet: 'invests early from seed to series B' (signal.nfx.com/firms/53-stations). 2026 search result set (cbinsights/pitchbook/tracxn) says 53 Stations 'led the $5.3M Seed round of Kaya along with RXR' in January 2025, plus the Series B deals in Apr and Jul 2026."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Range (AI-powered wealth management; joined the $60M Series C, Dec 2025); Wealth.com (Series B, Apr 2026); Flex (Series B-II, Jul 2026); Kaya (led $5.3M seed, Jan 2025). No verified seed AI-infra deals.",
+       "evidence": "Range per the record's fintechvclist.com snippet. Wealth.com, Flex and Kaya come from the '\"53 Stations\" seed round 2026' search (cbinsights.com/investor/fifty-three-stations, pitchbook.com/profiles/investor/540911-71, tracxn; exact page not confirmed)."
+      },
+      {
+       "field": "fit_reason",
+       "value": "53 Stations writes seed-to-Series B checks (it led Kaya's seed in Jan 2025) and lists fintech and AI among its focus areas. King's Duke math/econ degree and his Goldman Sachs and Windhorse Capital background suit a quant-built trading RL environment. The firm's 2026 deals seen so far are Series B fintech/wealth-tech, and no seed AI-infra deal is verified.",
+       "evidence": "startupintros.com/people/kevin-king-1 snippet: focus 'fintech, aerospace, health tech, and AI'. The NFX/businesswire snippets give the prior roles. The 2026 deal search shows Wealth.com and Flex Series B in 2026, which replaces the old 'no 2026-dated activity' claim."
+      },
+      {
+       "field": "hook",
+       "value": "Kevin's path runs from Goldman Sachs to General Catalyst, and at 53 Stations he backs fintech and AI; Xitadel, SimReal's trading RL environment, sits where those two meet.",
+       "evidence": "Snippets: prior roles at 'General Catalyst, Year Up, Windhorse Capital Management and Goldman Sachs' and 'former Partner at General Catalyst' (signal.nfx.com/firms/53-stations, businesswire 2023); focus 'fintech, aerospace, health tech, and AI' (startupintros.com/people/kevin-king-1). I dropped the 'began his career at Goldman' ordering because my searches did not confirm it. The 12% uplift figure is SimReal's own claim, so it can be re-added from SimReal's materials."
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "I independently confirmed the Duke BS (Econ & Math), the GP role, the General Catalyst partnership and that the firm was active in 2026. Still unverified: the '06 class year (discovery-only Duke I&E snippet) and a 2026 item naming King personally."
+      }
+     ],
+     "notes": "Searches used: 2 on him plus 1 on firm activity. Duke degree: 'B.S. in Economics and Mathematics from Duke University' appears in a search snippet, alongside an MIT Sloan MBA. A BS degree is not exec-ed or Kunshan, and an MIT MBA plus a GC partnership by 2022 makes a pre-2018 Duke degree near-certain even if '06 is unconfirmed. The earlier 'early days of quant hedge funds' tension may refer to Windhorse Capital Management, which is not Goldman, so the earlier hook removal was right. Stage criterion holds (led a seed in 2025). No email, pitch inbox or form appeared; email stays 'not found'. I ignored the RocketReach, Mesh and Clay results.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Cassie Young",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Search '\"Cassie Young\" Primary Venture Partners 2026' independently confirms her as General Partner at Primary (signal.nfx.com/investors/cassie-young, bloomberg.com/profile/person/21720077, startupintros) and finds her LinkedIn post announcing Primary's $625M in fresh capital (the Feb 2026 Fund V), so she was active in 2026 and had not left. The hook is supported: the snippet says she 'is looking for obsessive founders that are building in fintech and enterprise AI'. The bio line flagged earlier is now supported: a snippet states she 'serves on Duke University's Innovation & Entrepreneurship board'. On Duke timing, a podcast title (everand.com) gives her Tuck MBA as 'MBA '11 Dartmouth Tuck', consistent with a Duke '05 undergrad. Crunchbase uses the slug 'cassie-lancellotti-young', a maiden or married name variant, consistent with the record. The Duke '05 year itself rests on the record's entrepreneurship.duke.edu sources, which I did not re-search. Stage holds (Primary is seed-focused). No published email or pitch inbox was seen. I ignored the RocketReach and ContactOut results.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Dan Levitan",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "x_url",
+       "value": "https://x.com/Levitan",
+       "evidence": "(search snippet) Result titled 'Dan Levitan (@Levitan) on X', https://x.com/Levitan, returned for the query '\"Dan Levitan\" Maveron 2026' alongside his LinkedIn, Wikipedia and Maveron results."
+      }
+     ],
+     "notes": "Search '\"Dan Levitan\" Maveron 2026' confirms the Maveron Substack posting for a Chief of Staff 'to report to General Partner Dan Levitan, Maveron's Co-Founder and General Partner', with applications due Feb 6, 2026, so he was active in 2026. The Tracxn snippet says Maveron 'has made 4 investments in 2026 so far' and has done early-stage Israeli consumer deals, so the early-stage criterion holds. His LinkedIn headline reads 'Co-Founder & Partner @ Maveron LLC', consistent with the record. The Duke BA 1979 comes from Wikipedia (en.wikipedia.org/wiki/Dan_Levitan), which appeared again in results but whose year I did not see re-quoted. Fit=Low and the empty hook stay correct, because Maveron is consumer-only. The X handle is attributed from the search-result title only; it is very likely his but has not been checked against an official Maveron link.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Kent Ho",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "Searches '\"Kent Ho\" \"S28 Capital\" Duke', '\"Kent Ho\" Serakai' and the Duke/Goldman/Harbor Pacific query confirm the following. He has a BA in Economics from Duke ('Upon graduating from Duke, he worked at Goldman Sachs in San Francisco in the Private Wealth Management division'), then a Stanford MBA, then co-founded Harbor Pacific in 2009, and the WEF named him a Young Global Leader in 2018. The Duke degree therefore predates 2009, which is within the cutoff. No class year was found. Role: the serakai.group/team/kent-ho snippet calls him 'Founder and Managing Director of S28 Capital – an early stage technology builder and venture capital fund primarily focused on Enterprise Saas and Enterprise Infrastructure'. His Serakai seat (an Asian real-estate placemaking group) is an Independent Non-Executive Director role, not a job change. Crunchbase still lists him as 'Founder & General Partner @ S28 Capital'. Stage: a snippet says S28 'typically invests in the seed rounds with capital for substantial follow on' ($170M under management), and the hook's seed and enterprise SaaS/infrastructure claims are supported by that and the Serakai/S28 snippets. Remaining weakness: I found no 2026-dated S28 deal or other 2026 activity, so still_active_2026='yes' rests on current bios with no departure found. Keep confidence Medium. No email or pitch inbox was published.",
+     "reject_reason": ""
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Jim Scheinman",
+   "Jared Weinstein",
+   "Ravi Gupta",
+   "Greg Baker"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Jim Scheinman",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "x_url",
+       "value": "https://x.com/jimscheinman (search snippet)",
+       "evidence": "WebSearch 'Jim Scheinman Maven Ventures 2026' returned his own profile 'Jim Scheinman (@jimscheinman) / Posts / X' at https://x.com/jimscheinman (search snippet). The URL was cited only, not visited."
+      }
+     ],
+     "notes": "An independent search ('Jim Scheinman Maven Ventures 2026') confirms he is still Founder and Managing Partner of Maven Ventures (NFX Signal, Crunchbase and jimscheinman.com/about, all search snippets). It also confirms Maven is a seed-stage consumer-software VC with a heavy emphasis on consumer AI, that Fund IV closed at $60M in April 2024 (AUM $200M), and that its latest deal was Ease Health's Series A on Mar 2, 2026. He was active at Sundance 2026. The 'six unicorn exits' and early-Zoom-investor claims in the bio now appear in the same 2026 result set, so they are supported. I did not re-verify the Duke T'88 degree separately; it rests on his own site's ''88' interview title, which is strong. The hook's facts (a $60M seed Fund IV with an emphasis on consumer AI) are supported. The generic hello@ inbox is still not seen on an official Maven page, so it stays excluded. Fit stays Low because the sector is consumer-only."
+    },
+    {
+     "name": "Jared Weinstein",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: a search snippet says 'Jared Weinstein graduated from Duke University with a degree in public policy in 2002'. It came from a result set including https://www.bhamwiki.com/w/Jared_Weinstein and https://en.wikipedia.org/wiki/Jared_Weinstein; which of the two pages said it is not confirmed. It fits his White House service, which ended as Bush's personal aide (2006-2009).",
+       "evidence": "WebSearch '\"Jared Weinstein\" Duke 2002 public policy...' returned the snippet 'graduated from Duke University with a degree in public policy in 2002' (bhamwiki/Wikipedia result set). A separate search confirmed Duke public policy and a Stanford GSB MBA."
+      }
+     ],
+     "notes": "Criterion 1 is confirmed: a Duke public-policy degree in 2002. Criterion 2: the April 2026 Talk Business coverage and the 2026 Dialectic interview describe him as running Overton, which is his own vehicle, so he decides alone. Criterion 3 is only weakly supported. Dialectic says Overton is 'seeding emerging investment managers, making concentrated bets in high conviction entrepreneurs', and another snippet says he 'invests in local founders' in Birmingham. That is direct investing in founders with his own money, which is angel-like, but no round stages or specific deals were found, and the focus is Birmingham. Jackson Dahl's X post (search snippet) says 'Jared runs Overton and invests and advises', with the handle @JaredBWeinstein. His own profile URL was still not seen, so x_url stays empty. The hook's fact about him (Overton, concentrated bets on high-conviction entrepreneurs, left Thrive in 2022) is supported by Dialectic and Talk Business snippets. The 12% trading-performance claim is SimReal's own and was not checked here. Keep confidence Low and fit Low."
+    },
+    {
+     "name": "Ravi Gupta",
+     "verdict": "reject",
+     "corrections": [],
+     "reject_reason": "Criterion 3 fails: he does not invest at angel, pre-seed, seed or Series A. He joined Sequoia in January 2020 as a partner on the growth team (TechCrunch 2019-08-28 'Instacart CFO Ravi Gupta to exit for Sequoia Capital' and Instacart bio, search snippets). NFX Signal lists his check range as $10M-$200M with a $25M sweet spot, and his known deals (Faire, Remote, Meter, Ramp, Fireblocks, Sierra) are growth-stage (https://signal.nfx.com/investors/ravi-gupta, search snippet). Since December 2025 his main job has been Co-Founder and Co-CEO of Ithaca Holdco, a $1B+ vehicle to acquire and modernize an existing company, which is buyout-style rather than early-stage investing (Yahoo Finance and Bloomberg 2026-03-10, search snippets). No seed or Series A deal led by him was found.",
+     "notes": "Search snippets from March 2026 still call him a Sequoia partner ('Gupta remains a partner'). His Duke BS in Economics comes from the Instacart bio; the class year was never stated, only inferred (around 2003). Even if he is still a partner, the stage criterion fails on positive evidence, not just missing evidence."
+    },
+    {
+     "name": "Greg Baker",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "An independent search confirms the Fuqua MBA (Finance and General Management) in 1991: one snippet says 'earned his MBA ... from Fuqua School of Business at Duke University in 1991' (result set including the Crunchbase greg-baker-2, av.vc/people/greg-baker and investorconnect.org pages). Criterion 1 is met. The official AV bio snippet still describes him as a Managing Partner since 2017 who manages Towerview Ventures (AV's Duke-focused fund), the Foundation Fund and the CIO Select Fund, and as founder of Bascom Ventures. His LinkedIn headline (search snippet) reads 'Executive Partner @ Alumni Ventures'. Both are partner-level fund-manager titles, and no departure was found. The Towerview page says it does deal-by-deal syndications and co-invests alongside leading VC firms, consistent with the record's description of a co-investor rather than a lead. The hook is supported: the AV bio snippet says 'a generalist investor with a particular passion for infrastructure ... particularly in energy', and the Towerview Duke-connection mandate appears on av.vc/funds/towerview. No official pitch inbox or founder form was seen. A RocketReach result appeared and was ignored. High confidence is justified."
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Mark Peter Davis",
+   "Lori Cashman",
+   "W. Bradford (Brad) Stephens",
+   "Josh Felser"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Mark Peter Davis",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "other_contact",
+       "value": "Official route: http://www.interplay.vc/engage (from the discovery record, not checked again). A generic inbox (concierge@interplay.vc) appeared only on aggregator directories and was not seen on interplay.vc, so it is left out.",
+       "evidence": "The email rule allows only addresses published by the person or employer. My searches turned up no interplay.vc page showing the concierge address, so the aggregator-sourced address is removed from the contact field to prevent accidental use."
+      }
+     ],
+     "notes": "These searches were independent of the earlier check. Duke: a search for 'Mark Peter Davis Duke Venture Community' returned a summary saying he 'studied at Duke University where he earned a BA in Economics and History' and founded the Duke Venture Community in 2015. This came from snippets on linkedin.com/in/markpeterdavis (search snippet), crunchbase.com/person/mark-davis (search snippet) and alleywatch.com/2015/02 (search snippet). No class year was found. A completion date of 2018 or earlier is still certain from his career: he founded Interplay as Managing Partner in 2012, and AlleyWatch profiled him as a New York VC in Feb 2015. Role in 2026: Crunchbase and Signal NFX (search snippets) list him as Managing Partner of Interplay. A 2026 search summary says Interplay 'went from 3 new companies in Q4 2025 to targeting 10+ in 2026', and his podcast had recent episodes on fintech and AI (podcasts.apple.com/us/podcast/innovation-with-mark-peter-davis/id1548136934 and listennotes, search snippets). He is still active. Focus: vcbeast (search snippet) lists enterprise software, fintech, AI, consumer, digital health and SaaS, which is consistent with the hook. The Knot 2023 Series A in the hook rests on the record's vcbeast/vcsheet citation and was not checked again. Confidence stays Medium because no class year was found."
+    },
+    {
+     "name": "Lori Cashman",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "title_2026",
+       "value": "Founder & General Partner, Visible Ventures",
+       "evidence": "Search snippets from visibleventures.com/team/ and from a search on the dcdx acquisition, which surfaced the Sept 29 2026 financialcontent/PRLog release, say: 'Lori Cashman is the founder and General Partner of Visible Ventures, an early-stage venture capital firm investing in solutions that advance health, wealth, and opportunity.' Signal NFX (search snippet) lists 'Victress Capital, LLC Managing Partner'. Either title makes her a key decision maker."
+      },
+      {
+       "field": "other_contact",
+       "value": "Use the contact route on https://visibleventures.com. A generic inbox appeared only on VC directories and was not confirmed as published by the firm, so it is left out.",
+       "evidence": "The email rule allows only addresses published by the person or employer. None of my searches showed the directory-sourced hello@ address on visibleventures.com."
+      }
+     ],
+     "notes": "Duke confirmed independently. Snippets from visibleventures.com/team/ and f4.fund/firms/visible-ventures say 'Lori is a graduate of Duke University, Boston University's Questrom School of Management (Accelerated MBA, CPA), and Harvard Business School's Inaugural Women on Boards program' and 'former Chair of the Duke Public Policy Board of Visitors'. My searches did not show the class year '94. However, a degree completed in 2018 or earlier is certain: she founded Victress Capital in 2016, has 10+ years in VC, and a Fortune piece (Aug 2025, fortune.com, search snippet) describes her as mother to five Gen Z children. Role in 2026: a search snippet for the Sept 29 2026 release confirms Visible Ventures acquired dcdx, a Gen Z research and strategy firm, and the release title includes 'to build a new kind of human intelligence company'. That supports the hook. Risk flag: the acquisition, together with Tracxn showing no new investments in 2026, could mean Visible is moving toward an operating, research-company model. The firm boilerplate still calls it 'an early-stage venture capital firm', so this is not grounds to reject, and confidence stays Medium. Fit Low is appropriate."
+    },
+    {
+     "name": "W. Bradford (Brad) Stephens",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "hook",
+       "value": "Coinbase backer Blockchain Capital, whose portfolio also includes Circle and Tether, was raising its seventh early-stage fund in April 2026, and SimReal's Xitadel environment trains models to trade on unseen market data.",
+       "evidence": "CoinDesk, Apr 23 2026 (search snippet): headline 'Coinbase backer Blockchain Capital hunts $700 million for new funds'. It says the firm is raising a 'seventh early-stage fund and second growth fund' and has 'Coinbase, Circle and Tether in its portfolio'. No source said 'early backer' of Circle, so 'an early backer of Coinbase and Circle' was reworded to match the source."
+      }
+     ],
+     "notes": "Duke confirmed independently: econ.duke.edu/alumni/w-bradford-stephens-ba-1998 (search snippet), titled 'W Bradford Stephens, B.A. 1998', major in Economics and Religion. Role in 2026: CoinDesk Apr 23 2026 (search snippet) says he runs Blockchain Capital with his brother Bart as co-founder and managing partner, and that the firm is raising $700M for a seventh early-stage fund. Crunchbase (search snippet): 'Co-Founder & Managing Partner @ Blockchain Capital'. Stage: Signal NFX (search snippet) has him investing seed to Series B, which meets criterion 3. Background facts (Fidelity Ventures, CSFB, Stephens Investment Management from 2002) match the tradersunion snippet. Confidence High. Fit Low (crypto mandate) is appropriate."
+    },
+    {
+     "name": "Josh Felser",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "duke_degree",
+       "value": "B.A. Political Science and Economics, Duke University (1986); M.B.A. (Marketing), Duke Fuqua School of Business (1990)",
+       "evidence": "Search snippet (results include thekeyexecutives.com 'Top 100 Duke Alumni in Technology of 2021' and speakerpedia.com/speakers/josh-felser): 'Josh Felser obtained a B.A. in Political Science and Economics from Duke University in 1986 and an M.B.A. in Marketing from Duke's FUQUA School of Business in 1990.'"
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: 'B.A. in Political Science and Economics from Duke University in 1986 and an M.B.A. in Marketing from Duke's Fuqua School of Business in 1990' (Top 100 Duke Alumni in Technology 2021 / speakerpedia, search snippet). Consistent with LinkedIn education dates.",
+       "evidence": "Independent search 'Josh Felser Duke Fuqua MBA political science' (search snippet)."
+      },
+      {
+       "field": "title_2026",
+       "value": "Co-founder & Managing Partner, Climactic (also co-founder of Freestyle Capital)",
+       "evidence": "Search summary drawing on climactic.vc/team and linkedin.com/in/joshfelser (search snippets): 'Josh Felser is the Co-founder and Managing Partner of Climactic.' LinkedIn headline: 'Josh Felser - Climactic'."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Freestyle Capital (which he co-founded in 2008; early-stage, $385M AUM, 130+ tech companies) backed Airtable, Intercom, Patreon and BetterUp. No AI-infrastructure, data, trading or fintech deals at Climactic were verified.",
+       "evidence": "Search snippet (speakerpedia / startupfundraising.com results): 'Josh Felser is the Co-Founder of Freestyle Capital, which he first founded in 2008. Freestyle is an early-stage venture capital firm with $385M AUM and investments in 130 technology companies including Airtable, Intercom, Patreon, and BetterUp.'"
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "An independent search confirmed the Duke BA (1986) and Fuqua MBA (1990), and his current Climactic co-founder/Managing Partner role was confirmed by search snippets from climactic.vc and LinkedIn. Confidence is Medium rather than High because there is no dated 2026 deal or announcement."
+      }
+     ],
+     "notes": "Duke degrees and years confirmed independently. Role: the climactic.vc team page, the LinkedIn headline and the foundersnetwork AMA (search snippets) all place him at Climactic, a seed fund that raised a $65M first fund. No departure or new-fund news was found. Stage is seed, which meets criterion 3. The hook only restates the Climactic thesis, which is supported by climactic.vc and foundersnetwork snippets, plus SimReal's own description. Fit Low (climate mandate) is appropriate. Contact: a pitch form on climactic.vc according to a superscout snippet from discovery. No published email was found."
+    }
+   ],
+   "budget_exhausted": false,
+   "searches_used": 8
+  }
+ },
+ {
+  "batch": [
+   "Deb Liu",
+   "Katelyn Donnelly",
+   "Jason Freedman",
+   "William Crowder"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Deb Liu",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "decision_maker",
+       "value": "yes",
+       "evidence": "She is still an active angel investing her own money. Funding-news snippets list her in Keebler Health's $6M seed in Feb 2025 (https://www.finsmes.com/2025/02/keebler-health-raises-6m-in-seed-funding.html, search snippet) and Sweatpals' $12M seed in Oct 2025 (https://www.finsmes.com/2025/10/sweatpals-raises-12m-in-seed-funding.html and https://www.prnewswire.com/news-releases/sweatpals-secures-12m-in-seed-funding-from-patron-a16z-speedrun-and-hartbeat-ventures-to-redefine-connection-through-fitness-302596062.html, search snippets). The search summary is what tied her name to these deals. Tracxn (https://tracxn.com/d/people/deb-liu/__agHnhW7SD3Nt-Ws32SichwTLGaZZ2z81ZdIPFjpaVWw, search snippet) and Signal NFX (https://signal.nfx.com/investors/deborah-liu, search snippet) list her as an angel with a District seed deal in May 2026."
+      },
+      {
+       "field": "stage_focus",
+       "value": "Angel checks at seed and Series A: Keebler Health seed (Feb 2025), Sweatpals seed (Oct 2025), Sundial Series A (Jul 2025) and District seed (May 2026, per Tracxn). She is also a Duke Capital Partners Investor Member.",
+       "evidence": "finsmes.com Keebler Health and Sweatpals articles (search snippets); Tracxn people profile https://tracxn.com/d/people/deb-liu/__agHnhW7SD3Nt-Ws32SichwTLGaZZ2z81ZdIPFjpaVWw (search snippet)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Keebler Health (AI risk adjustment for value-based care), $6M seed, Feb 2025. Sweatpals (fitness social), $12M seed, Oct 2025, led by Patron, a16z speedrun and HartBeat Ventures. Only aggregator data supports two more: a Sundial $23M Series A (Jul 2025) and a District $15M seed (May 2026). None are AI-infrastructure or trading deals.",
+       "evidence": "https://www.finsmes.com/2025/02/keebler-health-raises-6m-in-seed-funding.html (search snippet); https://www.antler.co/press-releases/sweatpals-secures-12m-in-seed-funding-from-patron-a16z-speedrun-and-hartbeat-ventures-to-redefine-connection-through-fitness (search snippet); https://tracxn.com/d/people/deb-liu/__agHnhW7SD3Nt-Ws32SichwTLGaZZ2z81ZdIPFjpaVWw (search snippet)"
+      },
+      {
+       "field": "fit_reason",
+       "value": "She is a Duke engineer (BSE '98) and a payments/marketplace operator who now co-founds an AI startup, Ember AI. She still writes personal angel checks at seed and Series A, including Keebler Health (an AI health startup, seed, Feb 2025), Sweatpals (seed, Oct 2025) and, per Tracxn, District (seed, May 2026). She also has a Duke Capital Partners tie. Caveats: she has no AI-infrastructure or trading deals, and she is a full-time founder.",
+       "evidence": "Same funding snippets as above; Duke Capital Partners spotlight https://dukecapitalpartners.duke.edu/news/founder-investor-spotlight-deb-liu/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "Criterion 1 is solid: Duke Pratt BSE Class of 1998 (Pratt news and Wikipedia snippets). Criteria 2 and 3 now rest on named 2025 seed deals in funding-news snippets plus a May 2026 seed in Tracxn, not just on her DCP membership."
+      }
+     ],
+     "notes": "The Duke degree is confirmed (record sources). My searches found named angel deals that resolve the earlier 'unclear' decision maker status. Her participation in Keebler and Sweatpals comes from search summaries of the funding articles. Sundial and District are aggregator-only. Her Ember AI co-founder role in 2026 rests on the asamnews Feb 2026 snippet already in the record. The hook (podcast title quote plus Ember AI) matches its cited snippets, so it is kept. No email was published, and the DCP route plus debliu.com remain the contacts.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Katelyn Donnelly",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "duke_degree",
+       "value": "BA Economics and Political Science (graduation with high distinction in economics), Duke University, Trinity College",
+       "evidence": "Her Duke economics honors thesis, 'Time-Zone Arbitrage in Vanguard International Index Funds' (https://public.econ.duke.edu/Papers/PDF/Time_Zone_Arbitrage.pdf, search snippet), states she earned a BA in Economics and Political Science at Duke in May 2008, with high distinction in economics."
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: her Duke economics honors thesis (public.econ.duke.edu, search snippet) says she earned a BA in Economics and Political Science in May 2008 and joined McKinsey in fall 2008. Duke CTL (2017, search snippet) calls her 'Katelyn Donnelly (Trinity '08)'.",
+       "evidence": "https://public.econ.duke.edu/Papers/PDF/Time_Zone_Arbitrage.pdf (search snippet); https://ctl.duke.edu/blog/2017/02/duke-alumna-speak-low-cost-global-education-models/ (search snippet)"
+      },
+      {
+       "field": "stage_focus",
+       "value": "Pre-seed and seed. Third-party profiles report check sizes of $25K-$1M. She runs Avalanche as a solo GP.",
+       "evidence": "Search summary drawing on vcsheet.com/who/katelyn-donnelly and signal.nfx.com/investors/katelyn-donnelly (search snippets). The earlier figures ($529K average check, up to $10M maximum) had no source and conflict with these."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "No specific deals are verified. Tracxn (search snippet) reports 46 portfolio companies and 1 new investment in the 12 months to March 2026. The names from the discovery stage (Banza, Franzy, Akave, Humanly, Cybernut) are still unconfirmed and should not be cited.",
+       "evidence": "https://tracxn.com/d/venture-capital/avalanche-vc/__xjwLsF7XqCRQhWtGbknwxYr9Bqu7cI74xOOfi1XJ_wI (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Katelyn Donnelly (Duke BA Economics and Political Science, Trinity '08) founded Avalanche VC and is its managing partner, running it as a solo GP. The early-stage fund invests in how people learn, earn and own. She previously founded and led Pearson's $65M Affordable Learning Fund, an impact edtech fund backing low-cost private schools in emerging markets, and she began her career at McKinsey. She is a Kauffman Fellow.",
+       "evidence": "Duke econ thesis PDF and Duke CTL snippets (degree, McKinsey 2008, 'Managing Director of the Pearson Affordable Learning Fund'); avalanche.vc and Kauffman Fellows snippets. I dropped the Duke Learning Innovation Advisory Council seat, the Delivery Associates co-founding, the Kauffman 'Class 21' detail and the 'Pearson Ventures' name because no source was found for them."
+      },
+      {
+       "field": "fit_reason",
+       "value": "She is a solo-GP pre-seed and seed investor. Her fund lists AI, future of work and enterprise among its sectors, and its 'earn and own' thesis touches fintech. She has strong Duke ties (Trinity '08). Caveats: her recent pace is slow (Tracxn shows 1 new investment in the 12 months to March 2026), and she is a generalist rather than an AI-infrastructure or quant specialist.",
+       "evidence": "Tracxn and vcsheet/Signal NFX snippets above. The earlier claim that she is 'making AI pre-seed and seed deals' in 2026 rested on unverified deal names."
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "Criterion 1 is now confirmed by a Duke-hosted page (May 2008). Criterion 2 is supported by avalanche.vc plus the Crunchbase and Signal NFX GP titles, and Tracxn shows the fund active as of March 2026. Criterion 3 (pre-seed and seed) is supported by several profiles."
+      }
+     ],
+     "notes": "Duke class year confirmed: May 2008, Economics and Political Science. She is still at Avalanche VC per Crunchbase, Signal NFX and avalanche.vc snippets, and nothing suggests she has left. The hook's thesis line ('learn, earn and own') is supported; the SimReal 12% figure is SimReal's own claim. The official contact page avalanche.vc/contact was not opened. No published email was found.",
+     "reject_reason": ""
+    },
+    {
+     "name": "Jason Freedman",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "bio",
+       "value": "Jason Freedman is a General Partner at Peak State Ventures, where profile snippets say he has been a partner since 2018. The firm invests from seed to Series B in future of work, proptech, fintech and related areas. He has run four startups with three exits: FlightCaster, a machine-learning company from an early Y Combinator batch that exited in 2009; RedisToGo, sold in 2012; and 42Floors, a commercial real estate search engine sold to Knotel in 2018. Profile snippets list a Duke undergraduate degree (2002) and a Tuck MBA.",
+       "evidence": "https://signal.nfx.com/investors/jason-freedman, https://councils.forbes.com/profile/Jason-Freedman-Partner-Peak-State-Ventures/f19f0b04-3801-4ef6-b969-71eff477a770 and https://www.evalyze.ai/investors/jason-freedman (search snippets) support the startup history and the 42Floors sale to Knotel in 2018. I left out the earlier unsourced claim that he was CTO at Knotel."
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated only on investor-profile aggregators: Signal NFX and Crunchbase (record), plus MarketScreener and evalyze (search snippets), say he received his undergraduate degree from Duke in 2002 and holds a Tuck MBA. No Duke or Peak State page was found.",
+       "evidence": "https://www.marketscreener.com/insider/JASON-FREEDMAN-A0TNN9/ (search snippet); https://signal.nfx.com/investors/jason-freedman (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Low",
+       "evidence": "No 2026 activity was found. Seedtable/Tracxn snippets (https://seedtable.com/investors/peak-state-ventures, https://tracxn.com/d/venture-capital/peak-state-ventures/__nAWctkqssXe2hBLbeJgcr9eXMaav-pFpxnBeBZlxl9M) name Swell (seed, Feb 21, 2025) as the latest investment, and the record's latest is Buildroid (Nov 2025). His title is also inconsistent: Signal and Crunchbase say General Partner, but one snippet calls him a 'Venture Partner' and Forbes Councils says 'Partner'. The Duke degree rests only on aggregators."
+      }
+     ],
+     "notes": "Not rejected: the evidence is missing rather than contradictory. Duke 2002 appears consistently across several aggregators. No 'leaves' or new-fund news was found. still_active_2026 stays 'unclear'. Before outreach, check that his title is GP rather than Venture Partner (a decision-maker question) and that he made any 2026 deals. The Hamming AI hook stays as supported by the record's hamming.ai snippet. peakstate.vc is the official site, and no official pitch inbox or published email was seen.",
+     "reject_reason": ""
+    },
+    {
+     "name": "William Crowder",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "stage_focus",
+       "value": "Seed is the core stage. Third-party profiles (Signal NFX, vcbeast) list pre-seed, seed, Series A and later.",
+       "evidence": "https://signal.nfx.com/investors/william-crowder and https://vcbeast.com/investors/william-crowder (search snippets): 'primarily investing at the Pre-Seed, Seed, Series A, Series B+ stages'; sectors include Fintech, Enterprise, AI and SaaS"
+      },
+      {
+       "field": "confidence",
+       "value": "Medium",
+       "evidence": "Criteria 1-3 hold: the Fuqua Daytime MBA class of 1999 is in the record, and Tracxn (https://tracxn.com/d/venture-capital/aperture-venture-capital/__j7X_3o93hdpmbJwJuhCiWvE1pcJYRxqV_4rQKD00E-k, search snippet) confirms Aperture was founded in 2021. However, the same Tracxn snippet says 'Aperture Venture Capital has not made any investment in 2026 so far', so current deployment pace is uncertain."
+      }
+     ],
+     "notes": "The two bio details the first check flagged are now supported. 'Founded in 2021' is in the Tracxn and Crunchbase snippets. The 2024 Fuqua adjunct appointment teaching second-year MBAs venture capital comes from https://scholars.duke.edu/person/william.crowder (search snippet). Signal NFX, vcbeast and Crunchbase snippets still list him as Co-Founder and Managing Partner, and no 'leaves' or 'joins' news was found, so still_active_2026 stays 'yes'. An X profile, x.com/williamcrowder, appeared in results, but it was not added because the identity is unconfirmed. The hook is unchanged. No published email was found; aperturevc.com/contact remains the route.",
+     "reject_reason": ""
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ },
+ {
+  "batch": [
+   "Lawson DeVries",
+   "Pamir Gelenbe",
+   "Todd Pietri",
+   "Thomas D. Lehrman"
+  ],
+  "review": {
+   "reviews": [
+    {
+     "name": "Lawson DeVries",
+     "verdict": "confirm",
+     "corrections": [],
+     "notes": "I ran one new search: 'Lawson DeVries Grotech Ventures 2026'. Nothing contradicts the record. A Crunchbase search snippet says he attended 'Harvard University and Duke University - The Fuqua School of Business', and that he has been GP at Grotech since Oct 27, 2011, joined in 2005, and is its Managing Partner. The Tracxn 2026 profile snippet shows Grotech made one investment in 2026 (Yardstik), so the firm is active. I found no news of him leaving. A citybuzz.co snippet confirms the 2020 promotion to Managing General Partner. His Fuqua graduation year is still unstated. The inference that it was before 2018 is strong, since he has been GP since 2011 and Managing GP since 2020, but it cannot rule out a later executive MBA. I did not re-search the Sturdy.ai hook (citybiz.co), and nothing contradicted it. I saw a ZoomInfo email pattern and did not use it. No official pitch inbox was seen. Confidence stays Medium."
+    },
+    {
+     "name": "Pamir Gelenbe",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "firm",
+       "value": "Libertus Capital",
+       "evidence": "Crunchbase and CypherHunter search snippets for 'Pamir Gelenbe Libertus Capital' say he is Founder & Managing Partner at Libertus Capital, and that he 'Previously ... served as a Partner at Hummingbird Ventures'. No current Hummingbird Venture Partner role was found."
+      },
+      {
+       "field": "title_2026",
+       "value": "Founder & Managing Partner, Libertus Capital (no 2025-2026 deal after March 2025 found)",
+       "evidence": "Crunchbase and CypherHunter snippets give 'Founder & Managing Partner at Libertus Capital'. A Tracxn-type snippet ('Libertus Capital' search) says its last investment was the TON Foundation private token sale on March 20, 2025."
+      },
+      {
+       "field": "decision_maker",
+       "value": "yes",
+       "evidence": "He founded the firm and is its Managing Partner (Crunchbase and CypherHunter snippets). Libertus was founded in 2017 by Pamir Gelenbe (Tracxn and seedtable snippets)."
+      },
+      {
+       "field": "still_active_2026",
+       "value": "unclear",
+       "evidence": "I found no exit from investing. The most recent dated Libertus deal I found is the TON private token sale on 20 March 2025. A Tracxn snippet says the firm averages about 3 new investments a year, but no 2026 deal surfaced."
+      },
+      {
+       "field": "stage_focus",
+       "value": "Early stage, seed to Series B per an aggregator snippet; also token sales. Focus is crypto/Web3 protocols and companies.",
+       "evidence": "A Tracxn snippet says Libertus 'prefers to invest in seed to Series B rounds'. It invests in 'companies and protocols that enhance and protect freedom, privacy and trust' (CypherHunter snippet)."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Personal or fund investor in Kraken, Ledger, Crypto Facilities and ShapeShift. The Libertus portfolio includes TON (private token sale, March 2025), Mintbase, Oasis, GitPOAP, Revv and Bonfire.",
+       "evidence": "Crunchbase bio snippet: 'He is an investor in Kraken, Ledger, Crypto Facilities and Shapeshift'. CypherHunter Libertus Capital portfolio snippet. Tracxn snippet for TON, March 20, 2025."
+      },
+      {
+       "field": "bio",
+       "value": "Pamir Gelenbe is Founder and Managing Partner of Libertus Capital, a London-based firm he founded in 2017. It invests in decentralised systems, enterprise blockchain and digital assets. He was previously a Partner at Hummingbird Ventures and earlier worked at Morgan Stanley and D.E. Shaw. He is an investor in Kraken, Ledger, Crypto Facilities and ShapeShift. He holds a BSc in Electrical Engineering from Duke and an MSc in Operations Research from Columbia.",
+       "evidence": "Crunchbase and CypherHunter search snippets ('Pamir Gelenbe Libertus Capital'). Tracxn and seedtable snippets for the London base and 2017 founding."
+      },
+      {
+       "field": "hook",
+       "value": "You worked at Morgan Stanley and D.E. Shaw before backing Kraken and Crypto Facilities; Xitadel is SimReal's trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "Morgan Stanley, D.E. Shaw and the Kraken and Crypto Facilities investments are in the Crunchbase bio snippet. I removed the unverified 'joining Hummingbird in 2010' date. The 12% figure is SimReal's own claim."
+      },
+      {
+       "field": "fit_reason",
+       "value": "He has a quant-trading background (D.E. Shaw, Morgan Stanley) and backed trading venues (Kraken, Crypto Facilities), which suits the Xitadel pitch. However, Libertus is a crypto/Web3 fund, and no investment after March 2025 was found, so its appetite for an AI-data seed deal in 2026 is uncertain.",
+       "evidence": "Crunchbase and CypherHunter snippets on focus and portfolio. Tracxn snippet on the last investment."
+      },
+      {
+       "field": "fit",
+       "value": "Medium",
+       "evidence": "The fund's mandate is crypto/Web3 ('freedom, privacy and trust'), not AI infrastructure, and no 2026 deals were found."
+      }
+     ],
+     "notes": "The Duke BSc in Electrical Engineering is now independently supported by a Crunchbase/startupranking bio snippet ('graduated from Duke University and Columbia University with a BSc. in Electrical Engineering and MSc. in Operations Research'). The degree year is not stated, but his Morgan Stanley and D.E. Shaw career and his Hummingbird partnership make completion before 2018 certain. Hummingbird appears to be a former role, so I removed it. Criterion 2 rests on his founder/MP title, but no 2025-2026 deal after March 2025 was found, so confidence stays Low. The sectors are now crypto/Web3, blockchain and digital assets. I could not set that field through this schema, so it is noted here and in the bio. I ignored the contact-lookup results (ContactOut, FlashLabs) and did not use them. No published email or pitch inbox was seen."
+    },
+    {
+     "name": "Todd Pietri",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "title_2026",
+       "value": "Co-founder and Co-Managing Partner",
+       "evidence": "activatevp.com/team/todd-pietri/ (search snippet): 'Co-founder and Co-Managing Partner of Activate Venture Partners and its predecessor funds'. Activate was founded in 2017 by Glen Bressner and Todd Pietri (startupintros snippet)."
+      },
+      {
+       "field": "still_active_2026",
+       "value": "yes",
+       "evidence": "A Tracxn/startupintros snippet lists Activate seed investments in ChorusRx (Feb 18, 2026), Triplemoon (Oct 16, 2025) and Ride Health (Dec 17, 2025). His NFX Signal profile still lists him as Managing Partner."
+      },
+      {
+       "field": "stage_focus",
+       "value": "Seed and Series A; checks of $100K-$5.0M (sweet spot $1.5M)",
+       "evidence": "signal.nfx.com/investors/todd-pietri (search snippet): investment range $100K-$5.0M, sweet spot $1.5M, seed and Series A."
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Year not stated. His Duke BA was certainly before 1999, because he co-founded Milestone Venture Partners (Activate's predecessor) with Ed Goodman in 1999. He also has a Georgia State MBA, and his firm bio cites 20+ years as a VC.",
+       "evidence": "Search snippets: 'Todd Pietri co-founded Milestone Venture Partners with Ed Goodman in 1999' and activatevp.com team page ('venture capitalist for over 20 years')."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Activate seed deals: ChorusRx (Feb 2026), Triplemoon ($3.5M seed for tech-enabled pediatric mental-health care, Oct 2025), Ride Health (Dec 2025). No AI-infrastructure or fintech deals found.",
+       "evidence": "Tracxn/startupintros snippet for 'Activate Venture Partners seed 2025 OR 2026'. pulse2.com Triplemoon $3.5M seed article (search result)."
+      },
+      {
+       "field": "bio",
+       "value": "Todd Pietri is Co-founder and Co-Managing Partner of Activate Venture Partners, an early-stage firm in New York and Bethlehem, PA, that invests at seed and Series A in digital health and applied technology. He co-founded predecessor Milestone Venture Partners in 1999, has taken part in 50+ equity financings and has sat on or observed 30+ boards. He holds a cum laude BA in English from Duke and an MBA from Georgia State's Robinson School of Business.",
+       "evidence": "activatevp.com/team/todd-pietri/ (search snippet). startupintros and NFX Signal snippets."
+      },
+      {
+       "field": "hook",
+       "value": "Your Activate bio notes you've guided more than a dozen portfolio companies to exits, including numerous software and data businesses; SimReal builds RL environments, verifiers and expert data for LLM post-training.",
+       "evidence": "activatevp.com/team/todd-pietri/ (search snippet): 'guided over a dozen portfolio companies to successful exits, including numerous software and data businesses'."
+      },
+      {
+       "field": "fit",
+       "value": "Low",
+       "evidence": "The firm's mandate is mostly digital health. Its 2025-2026 seed deals (ChorusRx, Triplemoon, Ride Health) are all healthcare, with no AI-infrastructure or trading deals."
+      },
+      {
+       "field": "fit_reason",
+       "value": "He is a decision maker at an active seed and Series A fund (deals in Oct 2025, Dec 2025 and Feb 2026). However, Activate's recent deals are all digital health, so an RL-environment and expert-data company is outside its core thesis.",
+       "evidence": "Tracxn/startupintros and NFX Signal snippets."
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "Two independent searches show the Duke BA (cum laude, English) on the official activatevp.com page. The Co-MP role and 2026 seed activity are confirmed."
+      }
+     ],
+     "notes": "Criteria 1 to 3 hold. The degree is a Duke BA (English, cum laude) from before 1999. He is Co-MP, and the fund made a seed deal in Feb 2026. Stage is seed and Series A. The main weakness is thesis fit, since the fund is healthcare-heavy. The sectors should read digital health plus applied technology. I could not set that field through this schema. I ignored a ZoomInfo result showing a joinbonsai.co email and a RocketReach result, and did not use them. No published email or pitch inbox was seen."
+    },
+    {
+     "name": "Thomas D. Lehrman",
+     "verdict": "correct",
+     "corrections": [
+      {
+       "field": "duke_degree",
+       "value": "BA, Duke University (also JD, Yale Law School; CFA charterholder)",
+       "evidence": "Bios on stib.cto.mil (2026 bio PDF, 'Lehrman_STIB-Bio_2026_Approved.pdf') and tn.gov (Tennessee Public Charter School Commission) search snippets: 'graduated with a B.A. from Duke University and a J.D. from Yale Law School. He is also a Chartered Financial Analyst.'"
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Year not stated. Completion well before 2018 is certain: after his Duke BA he earned a Yale JD, worked as an analyst at Tiger Management, and co-founded Gerson Lehrman Group (founded 1998).",
+       "evidence": "STIB and tn.gov bio snippets (Duke BA, Yale JD, Tiger Management analyst, GLG co-founder and former Co-CEO)."
+      },
+      {
+       "field": "title_2026",
+       "value": "Co-founder and Managing Partner",
+       "evidence": "STIB 2026 bio and tn.gov snippets: 'co-founder and Managing Partner of Teamworthy Ventures, a venture investment firm with offices in Nashville and Greenwich, CT'. Crunchbase and theorg snippets also say Managing Partner."
+      },
+      {
+       "field": "still_active_2026",
+       "value": "yes",
+       "evidence": "The STIB board bio is dated 2026 (wp-content/uploads/2026/05) and lists him at Teamworthy. Teamworthy led Drug Hunter's seed in Sept 2025 (teamworthy.com news post and PRNewswire). Tracxn notes one investment in 2026 as of January. Its Founder Fellowship was taking applications for Spring 2026."
+      },
+      {
+       "field": "stage_focus",
+       "value": "Pre-seed and seed (via the Teamworthy Founder Fellowship), seed and Series A",
+       "evidence": "Search snippet ('Teamworthy Ventures seed round 2026'): the Founder Fellowship 'supports pre-seed and seed stage founders'. Teamworthy led the Drug Hunter seed (Sept 2025) and joined Catena Clearing's $5M seed (Sept 2025). Tracxn says it primarily invests at Series A."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Drug Hunter (drug-discovery knowledge platform): Teamworthy led the seed in Sept 2025. Catena Clearing: Teamworthy joined the $5M seed in Sept 2025.",
+       "evidence": "teamworthy.com/news-posts/drug-hunter-announcement2 and PRNewswire 'Drug Hunter Secures Seed Investment Led by Teamworthy Ventures' (search results). Search snippet for the Catena Clearing $5M seed (Sept 2025)."
+      },
+      {
+       "field": "bio",
+       "value": "Thomas D. Lehrman is co-founder and Managing Partner of Teamworthy Ventures, a venture firm with offices in Nashville and Greenwich, CT, that invests from pre-seed (through its Founder Fellowship) to Series A. He co-founded and was Co-CEO of Gerson Lehrman Group (GLG), and earlier was an analyst at Tiger Management. He also directed the State Department's Office of WMD Terrorism. He sits on the boards of Ibotta and GLG and holds a BA from Duke, a JD from Yale Law School and the CFA charter.",
+       "evidence": "STIB 2026 bio and tn.gov bio search snippets. Teamworthy seed-activity snippets."
+      },
+      {
+       "field": "hook",
+       "value": "You co-founded GLG, the expert network, and Teamworthy led Drug Hunter's seed in September 2025 to expand its drug-discovery knowledge platform; SimReal turns domain experts' knowledge into verifiers and expert data for LLM post-training, already supplying Surge AI and AfterQuery.",
+       "evidence": "The GLG co-founder fact is in the STIB 2026 and tn.gov bio snippets. The Drug Hunter seed lead is in the teamworthy.com news post and PRNewswire (search results). The Surge AI and AfterQuery claims are SimReal's own."
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "Two official bios (stib.cto.mil 2026 and tn.gov) confirm the Duke BA. The Teamworthy MP role and 2025-2026 seed activity are confirmed."
+      }
+     ],
+     "notes": "The weak point in the original record (Duke degree type) is resolved: he has a Duke BA, confirmed by the official STIB (DoD) 2026 bio and the Tennessee state commission bio. He is Managing Partner, and the firm made seed deals in Sept 2025 and one investment in Jan 2026. I ignored a ZoomInfo result exposing a teamworthy.com email pattern and did not use it. No published personal email or official pitch inbox was seen. The Teamworthy Founder Fellowship application (pre-seed and seed) is a possible official inbound route, but I could not see its URL, so I did not add it as a contact."
+    }
+   ],
+   "searches_used": 8,
+   "budget_exhausted": false
+  }
+ }
+]
