@@ -45,3 +45,12 @@ Duke 毕业满 8 年（2018 年及以前拿到 Duke 学位）、2026 年在天�
 - 每人有简介、Duke 学位和年份、阶段、相关投资、一句开场钩子、联系方式。个人邮箱只有 8 位是本人或机构公开发布的，其余给机构官方投递渠道（BP 邮箱或表单）、LinkedIn、X。仍然不猜邮箱格式、不用数据经纪网站。
 - 「Worth a manual check」里 3 位强匹配人选只差一个公开事实（如 Fuqua 毕业年份），可以让 Amaris 在 Duke 校友目录里查。
 - 调研原始结果在 `intel/outreach/duke/`（discovery、verify、recheck、email、edit 各轮），`tools/build_duke_list.py` 合并生成名单，`tools/build_duke_pdf.py` 生成 PDF。
+
+## Duke 学生可用的资金和创业支持
+
+Amaris 是 Duke 在读本科生，下面这些资源都是因为她能拿到的。共 121 项、47 位联系人，按四类整理：Duke 校内项目、Duke 校友网络和学生基金、Research Triangle / 北卡 / 联邦资助、面向学生创始人的全国项目和比赛。
+
+- `collateral/SimReal-Duke-funding-and-support.pdf`：开头是关键日期和「Start here」（高匹配、我们符合条件、开放或即将开放），后面每项写了能拿到什么、资格、时间、申请方式和联系人。
+- `lists/duke-funding-and-support.csv`（每项一行）、`lists/duke-contacts.csv`（联系人，邮箱只收官方公开的）。
+- 两条硬门槛：北卡的 NC IDEA 等要求公司总部在北卡；联邦 SBIR/STTR 要求美国公司且 50% 以上股份由美国公民或绿卡持有人持有。
+- 原始调研在 `intel/resources/duke/`，`tools/build_duke_support.py` 重建。

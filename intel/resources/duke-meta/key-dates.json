@@ -1,0 +1,12 @@
+[
+ {"date": "Oct 4, 2026", "program": "PearX W27", "note": "Regular deadline per a third-party listing (today). Teams relocate to the Bay Area.", "who": "SimReal"},
+ {"date": "Oct 8, 2026", "program": "America's Startup (America250)", "note": "Up to $50K non-dilutive. Entrants must be US legal residents and current US undergrads, so it rests on Amaris.", "who": "Amaris"},
+ {"date": "Oct 12 - Nov 1, 2026", "program": "a16z speedrun SR008", "note": "Reported priority window; rolling after. Cohort late Jan-Apr 2027 in SF.", "who": "SimReal"},
+ {"date": "Nov 2, 2026", "program": "Y Combinator W27", "note": "$500K. Early Decision lets a student founder finish the term first.", "who": "SimReal"},
+ {"date": "Nov 4, 2026", "program": "NSF SBIR Phase I", "note": "Up to $305K, but needs a US company more than 50% owned by US citizens or permanent residents.", "who": "SimReal (if eligible)"},
+ {"date": "Jan 2027", "program": "Duke Startup Showcase", "note": "Applications open in January; finals Apr 8, 2027. Over $110K in prizes in 2026; needs one current Duke student founder.", "who": "Amaris"},
+ {"date": "Jan 8, 2027", "program": "Microsoft Imagine Cup", "note": "All team members must be enrolled students.", "who": "Students only"},
+ {"date": "Jan 30, 2027", "program": "ACC InVenture Prize", "note": "$15K first prize. One team per ACC school; undergrads only; under $100K raised.", "who": "Amaris"},
+ {"date": "~Late Feb 2027", "program": "NC IDEA SEED", "note": "$50K grant; needs NC headquarters and founders living in NC.", "who": "SimReal (if NC-based)"},
+ {"date": "Mar 23-24, 2027", "program": "CED Venture Connect", "note": "Durham investor conference with a software pitch track; applications likely open late 2026 or January.", "who": "SimReal"}
+]

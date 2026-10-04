@@ -1,0 +1,938 @@
+[
+  {
+    "name": "Dorm Room Fund (student-run pre-seed fund)",
+    "org": "Dorm Room Fund",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: equity",
+    "what_you_get": "Pre-seed equity checks decided by student investment teams. Recent reporting says student teams write $40,000 checks; other third-party profiles cite larger ranges ($90K-$500K) after the new fund, which DRF's own site does not confirm. In late Sept 2026 DRF closed a new $50M fund (about 4x the prior fund) for student and alumni founders. Around 60 student investors a year across about 30 campuses, with professional oversight on terms and diligence.",
+    "eligibility": "At least one founder must be a current student or recent graduate (per University Business reporting).",
+    "simreal_qualifies": "yes",
+    "timing": "New $50M fund announced late Sept 2026. Founder application window not shown in snippets. 2026 student Investment Partner recruitment closed 9/17 (Philly & Southeast, NY & Midwest, Boston & Northeast) and 10/1 (SF & West Coast).",
+    "status": "unconfirmed",
+    "how_to_apply": "https://www.dormroomfund.com/ (founder pitch); https://join.dormroomfund.com/ (investment-partner recruiting)",
+    "fit": "High",
+    "fit_why": "SimReal clearly meets the student-founder test through Amaris (Duke), and a freshly raised $50M fund means capital is available now. Duke falls in DRF's Philly & Southeast region.",
+    "contacts": [
+      {
+        "name": "Christina Liang",
+        "role": "Student Investment Partner, Dorm Room Fund Philly & Southeast team; described as a Duke senior (Statistics and French). The interview is undated, so she may have graduated.",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://www.boringbusinessnerd.com/post/investing-at-dorm-room-fund-with-christina-liang"
+      },
+      {
+        "name": "Madison Jacox",
+        "role": "Named as part of DRF's professional oversight on terms and diligence (title not verified)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://universitybusiness.com/college-students-flex-their-power-in-ai-investment-frenzy/ (search snippet)",
+      "https://fundmomentum.vc/blog/dorm-room-fund-50m-student-led-ai-fund-2026 (search snippet)",
+      "https://www.universityherald.com/articles/80467/20260930/dorm-room-funds-new-50-million-fund-bets-big-college-entrepreneurs.htm (search snippet)",
+      "https://join.dormroomfund.com/ (search snippet)",
+      "https://superscout.co/program/dorm-room-fund-2 (search snippet)",
+      "https://www.eaglerockcfo.com/blog/venture-capital-firms/dorm-room-fund-review (search snippet)",
+      "https://www.boringbusinessnerd.com/post/investing-at-dorm-room-fund-with-christina-liang (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Rough Draft Ventures",
+    "org": "General Catalyst",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: equity",
+    "what_you_get": "Student-run pre-seed fund backed by General Catalyst. A third-party profile says student scouts write $25,000 checks. Portfolio companies also get coaching from General Catalyst partners and RDV alumni. The fund has backed more than 150 startups.",
+    "eligibility": "Student founders across North American universities (the network spans NA campuses). Whether Duke is a covered campus was not confirmed.",
+    "simreal_qualifies": "likely",
+    "timing": "Founder pitches are not tied to a published cycle. Student investor recruiting opens each March, with decisions in late April.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://roughdraft.vc (pitch through a campus student investor)",
+    "fit": "Medium",
+    "fit_why": "General Catalyst offers a student-founder on-ramp, but the checks are small and RDV historically centers on Boston and Northeast campuses.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/program/rough-draft-ventures (search snippet)",
+      "https://orbit.mit.edu/resources/rough-draft-ventures (search snippet)",
+      "https://o.parsers.vc/fund/roughdraft.vc/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Contrary (Venture Partner program / Contrary Capital)",
+    "org": "Contrary",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: equity",
+    "what_you_get": "Contrary recruits a selective class of student Venture Partners at US and Canadian universities each year to source and back founders. The firm itself invests seed to Series A; a third-party profile cites $100K-$2M checks with a $500K-$1M sweet spot.",
+    "eligibility": "No published student-only rule. Student founders are typically sourced through campus Venture Partners. Class of 2026 VPs were announced.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling investment. Venture Partner applications for 2026 were posted on Contrary's blog.",
+    "status": "rolling",
+    "how_to_apply": "https://contrary.com (reach the firm directly or through a Duke Venture Partner if one is listed in the Class of 2026 post)",
+    "fit": "Medium",
+    "fit_why": "Talent-driven seed firm that writes seed-sized checks and fits a technical AI team. Its student VP network is a warm route in.",
+    "contacts": [
+      {
+        "name": "Eric Tarczynski",
+        "role": "Founder, Contrary (founded 2016)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://contrary.com/blog/venture-partner-apps-2026 (search snippet)",
+      "https://contrary.com/blog/class-of-2025 (search snippet)",
+      "https://superscout.co/investor/contrary-capital (search snippet)",
+      "https://superscout.co/program/contrary-capital (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Z Fellows",
+    "org": "Z Fellows",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "A one-week program of 10 builders with mentors from top tech companies. Fellows can take an optional $10,000 investment at a $1B valuation cap that converts at the next priced round. Mostly virtual, with a last day in person in SF or NYC.",
+    "eligibility": "No age restriction. Apply solo or with co-founders. Aimed at technical builders.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling, with no deadline and multiple cohorts a year.",
+    "status": "rolling",
+    "how_to_apply": "https://www.zfellows.com/",
+    "fit": "Medium",
+    "fit_why": "Fast, cheap and nearly non-dilutive given the $1B cap, with strong SF network value. The money itself is small.",
+    "contacts": [],
+    "sources": [
+      "https://www.zfellows.com/ (search snippet)",
+      "https://x.com/zfellows/status/1948299822961734085 (search snippet)",
+      "https://hub.causo.ai/guides/how-to-apply-to-z-fellows-2026 (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Neo Scholars",
+    "org": "Neo",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "2026 terms: a $40,000 equity-free grant to college students, a 3-month SF summer residency, mentorship, recruiting fast-track, and meetups in NY, SF and Boston. Scholars who start a company get guaranteed admission to the Neo Residency.",
+    "eligibility": "Current college students who excel at computer science. North America only.",
+    "simreal_qualifies": "unclear",
+    "timing": "The 2026 cycle opened in May 2026 and closed June 14, 2026. The 2027 cycle is expected in spring 2027 but is not confirmed.",
+    "status": "closed",
+    "how_to_apply": "https://neo.com/apply",
+    "fit": "Medium",
+    "fit_why": "It's non-dilutive money for an individual student and a route into the Neo Residency. It only fits if Amaris has a strong CS profile.",
+    "contacts": [],
+    "sources": [
+      "https://hub.causo.ai/guides/how-to-apply-to-neo-accelerator-2026 (search snippet)",
+      "https://neo.com/apply (search snippet)",
+      "https://neo.substack.com/p/neo-scholar-applications-are-open-ca9 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Neo Residency (startup track)",
+    "org": "Neo",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A third-party guide reports a $750,000 uncapped SAFE plus participation rights up to 5% ownership.",
+    "eligibility": "Startup teams. North America only, per the same guide.",
+    "simreal_qualifies": "unclear",
+    "timing": "2026-27 cycle dates were not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://neo.com/apply",
+    "fit": "Medium",
+    "fit_why": "Large uncapped check from a selective, technical-founder network. It's unclear whether a US/UK team counts as 'North America'.",
+    "contacts": [],
+    "sources": [
+      "https://hub.causo.ai/guides/how-to-apply-to-neo-accelerator-2026 (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Pareto Fellowship / Pareto20",
+    "org": "Pareto Holdings",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "Pareto Holdings (Jon Oringer, Ed Lando) runs a fellowship offering funding, operational support and mentorship. Its inaugural cohort was a five-day virtual program for 17 young innovators. Pareto Holdings is an active seed investor (57-58 investments as of mid-2026).",
+    "eligibility": "Aimed at the next generation of young tech entrepreneurs. Current age and student criteria were not found. Pareto20 terms were not found.",
+    "simreal_qualifies": "unclear",
+    "timing": "No 2026-27 cycle found.",
+    "status": "unconfirmed",
+    "how_to_apply": "Pareto Holdings website (application URL not found)",
+    "fit": "Low",
+    "fit_why": "The young-founder focus fits, but there is no current cycle or published terms.",
+    "contacts": [],
+    "sources": [
+      "https://finance.yahoo.com/news/pareto-holdings-announces-fellowship-program-130000103.html (search snippet)",
+      "https://refreshmiami.com/news/paretos-recipe-for-launching-great-companies-from-miami-venture-building-investments-and-now-the-pareto-fellowship/ (search snippet)",
+      "https://tracxn.com/d/venture-capital/pareto/__5qxmDJWpfT5GNNWf20p0ZkmXJvU4EePBOl_xzC82Y8k (search snippet)",
+      "https://aivclist.com/vcs/pareto-20-pareto20com/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Soma Capital Fellowship",
+    "org": "Soma Capital",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "$100,000 on an uncapped SAFE, with access to up to $2M in follow-on funding, concierge support, office space and customer intros. Fully remote, with optional in-person events.",
+    "eligibility": "Originally for student founders and now open to anyone building an early-stage company; skews to founders in their early to mid 20s. Global, with no relocation.",
+    "simreal_qualifies": "yes",
+    "timing": "The 2026 application deadline was April 1, 2026. The next cycle date was not found.",
+    "status": "closed",
+    "how_to_apply": "https://superscout.co/program/soma-capital-fellowship (official Soma Capital fellowship page; URL not confirmed)",
+    "fit": "High",
+    "fit_why": "An uncapped $100K with no relocation suits a distributed US/UK team of ~21-year-olds. Watch for the 2027 window.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/program/soma-capital-fellowship (search snippet)",
+      "https://xraise.ai/blog/soma-capital-fellowship-for-startups-is-it-the-right-choice/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "a16z speedrun (SR008)",
+    "org": "Andreessen Horowitz",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "$500K for 10% on a SAFE upfront, plus $500K in the next round within 18 months (up to $1M), and $5M+ in partner credits.",
+    "eligibility": "Early-stage founders. Not student-specific. In person in SF for the cohort.",
+    "simreal_qualifies": "likely",
+    "timing": "SR007 ran July 27-Oct 11, 2026. SR008 runs late January-April 2027 in SF. Applications are rolling, reviewed in about 4-6 weeks. A third-party guide reports a priority window of Oct 12-Nov 1; the year is unconfirmed.",
+    "status": "rolling",
+    "how_to_apply": "https://speedrun.a16z.com/apply",
+    "fit": "Medium",
+    "fit_why": "AI-friendly and a16z-branded, which helps a seed raise. However, 10% for $500K is expensive and the cohort requires SF relocation.",
+    "contacts": [
+      {
+        "name": "Kenan Saleh",
+        "role": "Posted the a16z speedrun application announcement on X (title not verified)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://x.com/kenanhsaleh"
+      }
+    ],
+    "sources": [
+      "https://speedrun.a16z.com/the-deal (search snippet)",
+      "https://speedrun.a16z.com/faq (search snippet)",
+      "https://a16z.com/applications-for-a16z-speedrun-sr007-are-now-open/ (search snippet)",
+      "https://hub.causo.ai/guides/how-to-apply-to-a16z-speedrun-2026 (search snippet)",
+      "https://superscout.co/program/a16z-speedrun (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Afore Capital - Founders-in-Residence (incl. FIR University)",
+    "org": "Afore Capital",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: equity",
+    "what_you_get": "Afore runs an 8-week Founders-in-Residence program (cohorts of 5-8; e.g. $50K and a desk) and a university track, 'FIR University', reported to provide $20K-$100K. Fund IV ($185M, 'Pre-Seed 2.0') writes flexible $50K-$2M pre-seed checks.",
+    "eligibility": "The university track is for founders still in college. Pre-seed generally.",
+    "simreal_qualifies": "likely",
+    "timing": "2026-27 cohort dates were not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "Afore Capital website (FIR application URL not found)",
+    "fit": "Medium",
+    "fit_why": "A dedicated pre-seed firm with a college-founder track. It may suit SimReal's pre-seed/seed raise better than its residency.",
+    "contacts": [],
+    "sources": [
+      "https://finance.yahoo.com/news/pre-seed-firm-afore-capital-180000021.html (search snippet)",
+      "https://elev-x.com/news-insights/article-afore-capital-review/ (search snippet)",
+      "https://angelinvestorsnetwork.com/venture-capital/afore-capital-pre-seed-fund-profile (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "KP Fellows (2027)",
+    "org": "Kleiner Perkins",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "A paid summer fellowship working inside a Kleiner Perkins portfolio company in the Bay Area, with a founder speaker series and workshops. Alumni join a 1,000+ community and get continuing KP support for entrepreneurial work.",
+    "eligibility": "Individual students with CS, engineering, math, physics or related degrees (Engineering track). There is also a Design track. Must be in the SF Bay Area for the summer.",
+    "simreal_qualifies": "no",
+    "timing": "Applications are open until Jan 31, 2027 (11:59pm PST), reviewed on a rolling basis.",
+    "status": "open",
+    "how_to_apply": "https://jobs.ashbyhq.com/kleinerperkinsfellows/ae095fcc-c38e-4c41-814d-b562f05fa776",
+    "fit": "Low",
+    "fit_why": "It's an internship for an individual, not company funding, and would pull Amaris away from SimReal for the summer. The value is the KP network only.",
+    "contacts": [],
+    "sources": [
+      "https://jobs.ashbyhq.com/kleinerperkinsfellows/ae095fcc-c38e-4c41-814d-b562f05fa776 (search snippet)",
+      "https://www.globalsouthopportunities.com/2026/09/24/kleiner/ (search snippet)",
+      "https://fellows.kleinerperkins.com/about/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "PearX (W27)",
+    "org": "Pear VC",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A 12-week accelerator in SF with $250K-$2M investment (terms negotiated by stage). Includes mentorship, hiring support, customer intros and cloud credits. About 20 teams per cohort.",
+    "eligibility": "Pre-seed/seed founders. Teams must relocate to the SF Bay Area.",
+    "simreal_qualifies": "likely",
+    "timing": "W27 regular deadline: Oct 4 (11:59pm PST), i.e. today, per a third-party listing. S26 ran Feb 10-Apr 12, 2026.",
+    "status": "open",
+    "how_to_apply": "https://pear.vc/pearx-application/",
+    "fit": "Medium",
+    "fit_why": "Strong seed-stage partner with flexible check sizes. The deadline is today and the program needs SF relocation. The Pear Competition (below) is the student route.",
+    "contacts": [],
+    "sources": [
+      "https://sabapplier.com/fundingAlerts/pearx-w27 (search snippet)",
+      "https://pear.vc/pearx-application/ (search snippet)",
+      "https://hub.causo.ai/guides/how-to-apply-to-pearx-2026 (search snippet)",
+      "https://x.com/pearvc/status/2030002543460253752 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Pear Competition (Pear Dorm)",
+    "org": "Pear VC",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Winners get a $100K uncapped SAFE (no discount), up to $350K in cloud credits and tech benefits, and a fast-track PearX partner meeting. Runners-up may receive $25K or $50K investments. Pear Dorm programs (Competition, Garage) give student cohorts $10K-$100K each.",
+    "eligibility": "At least one team member must be a current student at a US or Canadian university. Incorporation not required.",
+    "simreal_qualifies": "yes",
+    "timing": "The 2026-27 competition schedule was not found. Teams can apply to the Competition and PearX at the same time.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://pear.vc/competition-application/",
+    "fit": "High",
+    "fit_why": "Amaris's Duke enrollment alone satisfies the rule. The prize is a meaningful uncapped check plus a fast path into PearX.",
+    "contacts": [],
+    "sources": [
+      "https://pear.vc/programs/dorm/competition/?lightbox=dataItem-k3xtvfif (search snippet)",
+      "https://pear.vc/competition-application/ (search snippet)",
+      "https://founderstoday.org/startup-accelerators-2026/pearx (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "1517 Fund (Medici Grants and student/dropout pre-seed)",
+    "org": "1517 Fund",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Medici Project grants give a minimum $1K stipend with zero equity, zero IP and no future claim. Separately, 1517 Fund (run by the people who ran the Thiel Fellowship) is reported to run a $175M fund for dropouts and students.",
+    "eligibility": "Medici: high school students, college students or dropouts working on passion projects not for school credit.",
+    "simreal_qualifies": "likely",
+    "timing": "Medici grants are rolling. No specific 2026-27 deadline found.",
+    "status": "rolling",
+    "how_to_apply": "https://1517fund.com/medici",
+    "fit": "Low",
+    "fit_why": "The grant is tiny. The 1517 fund itself is the more relevant contact for SimReal's raise.",
+    "contacts": [],
+    "sources": [
+      "https://1517fund.com/medici (search snippet)",
+      "https://grantedai.com/grants/1517-fund-medici-grant-1517-fund-4ae92610 (search snippet)",
+      "https://x.com/uselegion/status/2081743644793700595 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Thiel Fellowship",
+    "org": "Thiel Foundation",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "$250,000 over two years (doubled from $100K in 2024). 12 fellows selected in 2026.",
+    "eligibility": "Age 22 or younger, no university degree, and must drop out or stop out of school to accept.",
+    "simreal_qualifies": "no",
+    "timing": "A third-party listing shows a Dec 31, 2026 date (unconfirmed). Historically rolling.",
+    "status": "unconfirmed",
+    "how_to_apply": "Thiel Fellowship website (thielfellowship.org; URL from listings, not read)",
+    "fit": "Low",
+    "fit_why": "Amaris would have to leave Duke, and the Cambridge/LSE graduates already hold degrees, so the team as constituted does not qualify.",
+    "contacts": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thiel_Fellowship (search snippet)",
+      "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows (search snippet)",
+      "https://scholarshipbuddymassachusetts.com/scholarships/100890/thiel-fellowship (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Emergent Ventures (incl. EV AI)",
+    "org": "Mercatus Center, George Mason University",
+    "segment": "Student-founder programs and competitions",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Grants and fellowships led by Tyler Cowen, reported as typically $10K-$100K (most around $50K), plus travel and project grants. EV AI is a dedicated vertical for AI researchers and entrepreneurs.",
+    "eligibility": "Open worldwide, age 13+, with no institutional affiliation required. Covers entrepreneurs, researchers and students.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling. The application takes about 30 minutes and decisions can come within days.",
+    "status": "rolling",
+    "how_to_apply": "https://www.mercatus.org/announcements/mercatus-center-announces-launch-emergent-ventures-ai",
+    "fit": "Medium",
+    "fit_why": "Fast, non-dilutive and AI-focused. EV favors individuals with bold ideas, so pitch the founders, e.g. on open RL-environment research.",
+    "contacts": [
+      {
+        "name": "Tyler Cowen",
+        "role": "Leads Emergent Ventures (Mercatus Center)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://www.mercatus.org/announcements/mercatus-center-announces-launch-emergent-ventures-ai (search snippet)",
+      "https://grantedai.com/grants/emergent-ventures-mercatus-center-9180afe3 (search snippet)",
+      "https://perell.com/emergent-ventures/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "AI Grant",
+    "org": "AI Grant (Nat Friedman & Daniel Gross)",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "Last published terms: $250K uncapped SAFE, $350K in Azure credits and about $250K in partner credits (Anthropic, OpenAI, Modal and others), about $850K in total value.",
+    "eligibility": "Seed-stage AI startups. Not student-specific.",
+    "simreal_qualifies": "likely",
+    "timing": "Batch 4 is listed as closed. No 2026-27 batch found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://new.aigrant.org/",
+    "fit": "Medium",
+    "fit_why": "Ideal AI-native terms if a new batch opens. Its continuation is uncertain.",
+    "contacts": [],
+    "sources": [
+      "https://grantedai.com/grants/ai-grant-accelerator-seed-stage-ai-startups-batch-4-aigrant-d5e6f7a8 (search snippet)",
+      "https://new.aigrant.org/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "HF0 Residency",
+    "org": "HF0",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A 12-week in-person SF residency with housing and meals, and up to $1M on an uncapped SAFE for 5%. About 10 teams per cohort.",
+    "eligibility": "Aimed at repeat and high-performing technical founders. AI and deep tech focus. Requires full-time SF residency.",
+    "simreal_qualifies": "likely",
+    "timing": "Fall 2026 cohort. A third-party listing says rolling applications are accepted until late 2026.",
+    "status": "rolling",
+    "how_to_apply": "HF0 website (hf0.com; application URL not confirmed)",
+    "fit": "Medium",
+    "fit_why": "Large, founder-friendly terms for AI teams. Very selective, biased to repeat founders, and needs full SF relocation.",
+    "contacts": [],
+    "sources": [
+      "https://startupintros.com/resources/hf0-residency-fall-2026 (search snippet)",
+      "https://questd.ai/residencies/hf0-residency (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "SPC Founder Fellowship",
+    "org": "South Park Commons",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "$400K upfront for 7% on a standard SAFE, plus $600K guaranteed in the next external round ($1M total). Includes SPC membership, partner working sessions and $900K+ in credits (OpenAI, Anthropic, Azure, GCP, AWS and others).",
+    "eligibility": "Pre-idea to early founders. No traction required. Not student-specific.",
+    "simreal_qualifies": "likely",
+    "timing": "Fall 2026 applications closed Aug 2, 2026. The Spring 2027 cycle has not been announced in the results found.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.southparkcommons.com/news/f26-founder-fellowship/",
+    "fit": "Medium",
+    "fit_why": "Strong seed-equivalent terms and credits. Watch for the next cycle.",
+    "contacts": [],
+    "sources": [
+      "https://www.southparkcommons.com/news/f26-founder-fellowship/ (search snippet)",
+      "https://blog.southparkcommons.com/p/applications-open-spc-founder-fellowship (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Entrepreneur First",
+    "org": "Entrepreneur First",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A £6,000 talent investment on signing. The US pathway invests up to $250K ($125K post-money SAFE for 8% plus a $125K uncapped MFN SAFE) after forming a Delaware C-corp. London and Bangalore cohorts spend 12 weeks at home, then 12 weeks in SF.",
+    "eligibility": "Individuals before they have a co-founder or idea. The 2026 application is solo.",
+    "simreal_qualifies": "no",
+    "timing": "London Fall 2026 started in September 2026. SF runs continuously.",
+    "status": "rolling",
+    "how_to_apply": "https://www.joinef.com/",
+    "fit": "Low",
+    "fit_why": "EF builds teams from individuals, and SimReal already has a team and product.",
+    "contacts": [],
+    "sources": [
+      "https://hub.causo.ai/guides/how-to-apply-to-entrepreneur-first-2026 (search snippet)",
+      "https://www.joinef.com/faqs/london/ (search snippet)",
+      "https://sifted.eu/articles/entrepreneurs-first-us-shift (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Y Combinator (W27, incl. Early Decision for students)",
+    "org": "Y Combinator",
+    "segment": "Student-founder programs and competitions",
+    "category": "Accelerator / incubator",
+    "what_you_get": "$500K: $125K for 7% plus $375K on a SAFE. Includes a dedicated GP, the alumni network and $12M+ in partner credits. Early Decision lets students apply while in school, get accepted and funded, and defer the batch until after graduation.",
+    "eligibility": "Open to founders including students. In person in SF for the batch.",
+    "simreal_qualifies": "likely",
+    "timing": "W27 (Jan-Mar 2027, SF) on-time deadline is Nov 2, 2026 at 8pm PT, with decisions by Dec 11. Late applications are considered without a promised timeline.",
+    "status": "open",
+    "how_to_apply": "https://ycombinator.com/apply",
+    "fit": "High",
+    "fit_why": "The most valuable seed signal available. Early Decision means Amaris can stay at Duke and the team can still lock in YC.",
+    "contacts": [],
+    "sources": [
+      "https://x.com/kseniam0s/status/2104994319342207177 (search snippet)",
+      "https://www.ycroaster.com/tools/yc-application-deadline (search snippet)",
+      "https://techcrunch.com/2025/09/24/y-combinator-launches-early-decision-for-students-who-want-to-graduate-first-build-later (search snippet)",
+      "https://ycombinator.com/apply (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Interact Fellowship",
+    "org": "Interact (501(c)(3))",
+    "segment": "Student-founder programs and competitions",
+    "category": "Network / community",
+    "what_you_get": "A two-year fellowship with fully sponsored retreats twice a year in a global community of young technologists. 50 new fellows a year. No startup funding.",
+    "eligibility": "Individuals aged 18-23 with an interest in technology broadly understood.",
+    "simreal_qualifies": "likely",
+    "timing": "The 2026 class deadline was Feb 9, 2026. The 2027 cycle is expected in early 2027 but not confirmed.",
+    "status": "upcoming",
+    "how_to_apply": "https://joininteract.com/",
+    "fit": "Low",
+    "fit_why": "Founders are the right age, but it's network-only with a social-impact tilt and no capital.",
+    "contacts": [],
+    "sources": [
+      "https://x.com/humford/status/2018416529684283408 (search snippet)",
+      "https://interactfellowship.substack.com/p/announcing-interact-2026-admissions (search snippet)",
+      "https://joininteract.com/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Prelude / 'Leadership grants' (requested; not identified)",
+    "org": "not found",
+    "segment": "Student-founder programs and competitions",
+    "category": "Fellowship / program",
+    "what_you_get": "No program matching 'Prelude' or 'Leadership grants' for student founders was found in searches.",
+    "eligibility": "not found",
+    "simreal_qualifies": "unclear",
+    "timing": "not found",
+    "status": "unconfirmed",
+    "how_to_apply": "not found",
+    "fit": "Low",
+    "fit_why": "The founders should confirm which program was meant.",
+    "contacts": [],
+    "sources": [],
+    "confidence": "Low"
+  },
+  {
+    "name": "America's Startup national competition (America250)",
+    "org": "America250",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "A $1M total non-dilutive prize pool. 10 finalist teams get $25,000 each, and 3 overall winners get another $25,000 ($50K total). Includes national mentorship and a live pitch finale. The top 100 entries go to an Investors Council for optional equity investment, and entrants get an NVIDIA Inception invitation.",
+    "eligibility": "US legal residents 13+ who are current undergraduates at an accredited US university, college or trade school. Individuals or teams of up to 5.",
+    "simreal_qualifies": "unclear",
+    "timing": "Opened Aug 17, 2026. Closes Oct 8, 2026 at 7:59pm EDT (4 days away). Requires a written proposal and a short pitch video.",
+    "status": "open",
+    "how_to_apply": "https://america250.org/americas-startup/",
+    "fit": "High",
+    "fit_why": "Non-dilutive money that closes this week. It hinges on Amaris being a US legal resident and on whether non-student co-founders can be on the team; if not, Amaris could enter alone.",
+    "contacts": [],
+    "sources": [
+      "https://america250.org/americas-startup/ (search snippet)",
+      "https://www.prnewswire.com/news-releases/america250-backs-college-entrepreneurs-with-re-opening-of-americas-startup-national-competition-302852992.html (search snippet)",
+      "https://www.under30ceo.com/non-dilutive-funding-americas-startup-competition/ (search snippet)",
+      "https://www.unomaha.edu/news/2026/03/america-250-americas-startup.php (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Rice Business Plan Competition 2027",
+    "org": "Rice University (Rice Alliance)",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "More than $1M in investment and cash prizes expected for 2027. Every startup gets a minimum prize for its placement: no-equity cash, investor prizes, accelerator invitations and in-kind prizes.",
+    "eligibility": "Teams need at least two current students, at least one of them a graduate student. Startups must be student-driven, student-created or student-managed. Must be fundraising within 12 months. Digital enterprise is an eligible sector.",
+    "simreal_qualifies": "unclear",
+    "timing": "Competition Apr 8-10, 2027 in Houston. The 2027 application deadline was not found; the 2026 deadline was Jan 31, 2026.",
+    "status": "upcoming",
+    "how_to_apply": "https://rbpc.rice.edu/compete/faqs",
+    "fit": "Medium",
+    "fit_why": "The richest student competition, but SimReal needs a current graduate student on the team to qualify.",
+    "contacts": [],
+    "sources": [
+      "https://rbpc.rice.edu/prizes (search snippet)",
+      "https://rbpc.rice.edu/compete/faqs (search snippet)",
+      "https://news.rice.edu/news/2025/worlds-largest-richest-intercollegiate-student-startup-competition-opens-call-graduate (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "ACC InVenture Prize 2027",
+    "org": "Atlantic Coast Conference (ACC Academic Consortium)",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "$30,000 in cash: $15K for 1st, $10K for 2nd and $5K for People's Choice. Televised finals.",
+    "eligibility": "Teams of full-time, degree-seeking undergraduates or recent graduates within one year of their undergraduate degree, representing an ACC school (Duke qualifies). Revenue or capital raised must not exceed $100K. Each school nominates its team.",
+    "simreal_qualifies": "unclear",
+    "timing": "Faculty rep application due Jan 23, 2027; student team rep application due Jan 30, 2027; pitch video due Feb 17, 2027; finals Mar 16-17, 2027.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.accinventureprize.com/rules",
+    "fit": "Medium",
+    "fit_why": "Duke is an ACC school. SimReal fails the cap if it has raised over $100K, and team rules may exclude the non-Duke founders.",
+    "contacts": [],
+    "sources": [
+      "https://www.accinventureprize.com/rules (search snippet)",
+      "https://www.accinventureprize.com/prizes (search snippet)",
+      "https://www.theaccac.org/inventure-prize (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Hult Prize 2027",
+    "org": "Hult Prize Foundation",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "$1M seed funding to the winning team.",
+    "eligibility": "All 2-4 team members must be enrolled in a degree program and be 18+ by Feb 28, 2027. The for-profit venture must directly support at least one UN SDG.",
+    "simreal_qualifies": "no",
+    "timing": "The competition started Sept 1, 2026. Deadlines vary by route and phase.",
+    "status": "open",
+    "how_to_apply": "https://www.hultprize.org/apply-now",
+    "fit": "Low",
+    "fit_why": "The recent-graduate founders are not enrolled, and an RL-environments business is a weak fit for the SDG requirement.",
+    "contacts": [
+      {
+        "name": "Hult Prize (general inbox)",
+        "role": "General contact",
+        "email": "hello@hultprize.org",
+        "email_source": "https://www.hultprize.org/apply-now (search snippet)",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://www.hultprize.org/apply-now (search snippet)",
+      "https://www.hultprize.org/how-it-works (search snippet)",
+      "https://mindshipglobal.com/opportunities/ef-hult-prize-2027/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "New Venture Championship",
+    "org": "University of Oregon",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Discontinued: the University of Oregon replaced the NVC with the Oregon Innovation Challenge in 2023.",
+    "eligibility": "n/a",
+    "simreal_qualifies": "no",
+    "timing": "No 2026-27 edition.",
+    "status": "closed",
+    "how_to_apply": "n/a",
+    "fit": "Low",
+    "fit_why": "The competition no longer runs.",
+    "contacts": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/New_Venture_Championship (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Wake Forest Elevator Competition",
+    "org": "Wake Forest University School of Business",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Historically $10,000 cash for the first-place Traditional Business winner and $5,000 for the top Social Entrepreneurship team.",
+    "eligibility": "Historically teams of up to 4 with at least one currently enrolled degree-seeking student (graduate or undergraduate).",
+    "simreal_qualifies": "likely",
+    "timing": "No 2026-27 edition or deadline found. Latest news found covers editions from about a decade ago.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://business.wfu.edu/ (no current competition page found)",
+    "fit": "Low",
+    "fit_why": "Small prize, and it's unclear whether the competition still runs.",
+    "contacts": [],
+    "sources": [
+      "https://business.wfu.edu/newsroom/escalator-competition-winners-advance-to-11th-annual-wake-forest-elevator-competition/ (search snippet)",
+      "https://business.wfu.edu/newsroom/34-teams-to-compete-in-11th-annual-wake-forest-university-schools-of-business-elevator-competition/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Venture Capital Investment Competition (VCIC) - startup pitch slot",
+    "org": "UNC Kenan-Flagler Business School",
+    "segment": "Student-founder programs and competitions",
+    "category": "Network / community",
+    "what_you_get": "Real startups pitch to student 'VC firm' teams and VC judges, go through six due-diligence sessions and negotiate term sheets. More than 25% of participating startups later raise VC. No cash prize for startups was found.",
+    "eligibility": "Startups apply to be pitch companies (3 per regional). Students act as the VCs, so this is not a founder competition.",
+    "simreal_qualifies": "likely",
+    "timing": "External Regional on Feb 2, 2027 at Fordham Gabelli (NYC). Global Finals Apr 16-17, 2027 at UNC Kenan-Flagler (Chapel Hill, near Duke).",
+    "status": "upcoming",
+    "how_to_apply": "http://www.vcic.org/startups",
+    "fit": "Low",
+    "fit_why": "Gives VC-judge exposure and pitch practice near Duke, but no capital.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/program/vcic-venture-capital-investment-competition (search snippet)",
+      "https://innovate.unc.edu/vcic/ (search snippet)",
+      "https://www.prweb.com/releases/startups_can_apply_to_the_venture_capital_investment_competition_hosted_by_unc_kenan_flagler_business_school/prweb16701080.htm (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Collegiate Inventors Competition 2027",
+    "org": "National Inventors Hall of Fame",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Cash prizes up to $10,000, an all-expenses-paid finalist trip to Washington, D.C., and a patent acceleration certificate.",
+    "eligibility": "Full- or part-time students at US colleges, any nationality, undergraduate or graduate. Requires an original invention, an essay and a faculty or professional reference.",
+    "simreal_qualifies": "unclear",
+    "timing": "Expected to open April 2027. Deadline June 1, 2027.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.invent.org/collegiate-inventors",
+    "fit": "Low",
+    "fit_why": "Invention- and patent-oriented. An RL environment or verifier would be a stretch, though a novel verifier method could be entered.",
+    "contacts": [],
+    "sources": [
+      "https://scholarships360.org/scholarships/search/collegiate-inventors-competition/ (search snippet)",
+      "https://www.invent.org/sites/default/files/2025-01/2025-FAQ.pdf (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Big Ideas",
+    "org": "UC Berkeley (Big Ideas@Berkeley)",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Not verified: the search budget ran out before this was checked.",
+    "eligibility": "not verified",
+    "simreal_qualifies": "unclear",
+    "timing": "not verified",
+    "status": "unconfirmed",
+    "how_to_apply": "not found",
+    "fit": "Low",
+    "fit_why": "Not verified; may be restricted to UC students.",
+    "contacts": [],
+    "sources": [],
+    "confidence": "Low"
+  },
+  {
+    "name": "Microsoft Imagine Cup 2027",
+    "org": "Microsoft",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "Global student-startup competition on Microsoft cloud and AI. The 2026 winner received $150,000 and a mentorship session with Satya Nadella; 2027 prize amounts were not confirmed.",
+    "eligibility": "Teams of up to 4. All members must be enrolled students aged 18+. Launch track: no dilutive funding and at most $100K non-dilutive. Scale track: at most $5M combined funding. (Snippet eligibility dates referenced the 2025-26 cycle.)",
+    "simreal_qualifies": "unclear",
+    "timing": "Registration and submission deadline Jan 8, 2027. Regional semifinals in spring 2027 and the world championship in May 2027.",
+    "status": "open",
+    "how_to_apply": "https://imaginecup.microsoft.com/en-us/category/34",
+    "fit": "Medium",
+    "fit_why": "AI-focused and global. The rule that all members be students excludes graduated co-founders unless only current students enter.",
+    "contacts": [],
+    "sources": [
+      "https://news.microsoft.com/signal/articles/imagine-cup-2026-student-ai-competition/ (search snippet)",
+      "https://imaginecup.microsoft.com/en-us/support/faq (search snippet)",
+      "https://imaginecup.microsoft.com/en-us/category/34 (search snippet)",
+      "https://thita.ai/blog/interview/microsoft-imagine-cup-2027-preparation-guide (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Red Bull Basement",
+    "org": "Red Bull",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "2026: the World Final winner received $100,000, $25,000 in Microsoft Azure credits and mentorship from Red Bull Ventures. The top 65 US ideas submit videos, 15 finalists pitch at the US National Final, and 3 US teams go to the World Final in SF.",
+    "eligibility": "2026 US rules: legal US residents 18+, individually or in teams of up to 2. One-page AI-assisted business proposal.",
+    "simreal_qualifies": "unclear",
+    "timing": "The 2026 cycle closed Mar 29, 2026. A 2027 cycle was not found.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.redbull.com/us-en/events/red-bull-basement-usa-2026/",
+    "fit": "Low",
+    "fit_why": "Teams are capped at 2 and US residency is required. The 2027 cycle is unconfirmed.",
+    "contacts": [],
+    "sources": [
+      "https://www.redbull.com/us-en/red-bull-basement-guide-what-is-new-and-how-to-apply (search snippet)",
+      "https://www.redbull.com/us-en/events/red-bull-basement-usa-2026/ (search snippet)",
+      "https://www.prnewswire.com/news-releases/early-stage-founders-and-students-across-the-nation-to-compete-at-red-bull-basement-2026-302712944.html (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Columbia AI Startup Challenge",
+    "org": "Columbia Business School",
+    "segment": "Student-founder programs and competitions",
+    "category": "Competition / prize",
+    "what_you_get": "$40K+ in total prizes for AI-driven startup ideas.",
+    "eligibility": "Graduate students at Columbia, Cornell Tech, NYU or Yale only.",
+    "simreal_qualifies": "no",
+    "timing": "2026 edition held. No 2027 dates found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://business.columbia.edu/ai-startup-challenge",
+    "fit": "Low",
+    "fit_why": "SimReal has no eligible graduate student at these schools; listed only to show it was checked.",
+    "contacts": [],
+    "sources": [
+      "https://business.columbia.edu/ai-startup-challenge (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "GitHub Student Developer Pack",
+    "org": "GitHub",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "A bundle of free student offers. Examples: Azure $100/yr, MongoDB Atlas $50 plus certifications, Heroku $13/month for 24 months, DigitalOcean credit.",
+    "eligibility": "Verified students. Amaris qualifies individually.",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing.",
+    "status": "open",
+    "how_to_apply": "https://education.github.com/pack (URL not read)",
+    "fit": "Low",
+    "fit_why": "Easy to claim through Amaris, but the amounts are tiny next to startup programs.",
+    "contacts": [],
+    "sources": [
+      "https://creditforstartups.com/students/cloud-credits-for-students (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "AWS Activate",
+    "org": "Amazon Web Services",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Up to $200,000 in credits for eligible startups. The Founders package gives $1,000 to self-funded startups. No separate student or university path was confirmed in searches.",
+    "eligibility": "Startups. Higher tiers come via provider or accelerator referral.",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing.",
+    "status": "open",
+    "how_to_apply": "https://aws.amazon.com/activate/ (URL not read)",
+    "fit": "Medium",
+    "fit_why": "Useful compute for RL environments. The student angle is weak; the bigger tiers come through accelerator partners such as Pear, SPC and speedrun.",
+    "contacts": [],
+    "sources": [
+      "https://creditforstartups.com/companies/aws (search snippet)",
+      "https://hub.causo.ai/guides/startup-cloud-credits-compared-2026 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Google for Startups Cloud Program",
+    "org": "Google",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "$2,000 for pre-funded startups, up to $200,000 for seed to Series A, and up to $350,000 reported for AI-first startups.",
+    "eligibility": "Startups. No student-specific track was confirmed.",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing.",
+    "status": "open",
+    "how_to_apply": "Google for Startups Cloud Program site (URL not read)",
+    "fit": "Medium",
+    "fit_why": "Largest AI-first credit tier, useful for model and environment compute. Not student-specific.",
+    "contacts": [],
+    "sources": [
+      "https://www.pragma-code.de/en/blog-cloud-credits-startup-funding (search snippet)",
+      "https://hub.causo.ai/guides/startup-cloud-credits-compared-2026 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Microsoft for Startups (Founders Hub) / Azure for Students",
+    "org": "Microsoft",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Microsoft for Startups: $5,000 in Azure credits plus Microsoft 365 and GitHub access (third-party figure). Azure for Students: $100 credit for 12 months, renewable, for full-time students.",
+    "eligibility": "Startups. Azure for Students needs an enrolled student (Amaris).",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing.",
+    "status": "open",
+    "how_to_apply": "Microsoft for Startups site (URL not read)",
+    "fit": "Low",
+    "fit_why": "Modest credits. The Imagine Cup and AI Grant historically carry larger Azure grants.",
+    "contacts": [],
+    "sources": [
+      "https://www.pragma-code.de/en/blog-cloud-credits-startup-funding (search snippet)",
+      "https://creditforstartups.com/students/cloud-credits-for-students (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Anthropic - Claude for Startups / Claude Campus",
+    "org": "Anthropic",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Claude for Startups credit tiers: $5K by direct application, $25K with a VC or accelerator partner referral, and up to $100K for startups backed by top-tier VCs. Also priority rate limits. Student angle: Claude Campus ambassadors get a $3,600 cash stipend, and Builder Clubs share resources such as API credits.",
+    "eligibility": "Credits need institutional equity funding, a company under 4 years old, and no prior Anthropic credits. Any early-stage founder can apply to the broader program.",
+    "simreal_qualifies": "likely",
+    "timing": "Direct applications open since late May 2026.",
+    "status": "open",
+    "how_to_apply": "claude.com/programs/startups (URL not read)",
+    "fit": "Medium",
+    "fit_why": "Directly relevant to an LLM post-training company. Ask the lead seed investor for a partner referral code to reach the $25K-$100K tiers.",
+    "contacts": [],
+    "sources": [
+      "https://securityboulevard.com/2026/08/anthropic-claude-for-startups-the-complete-guide-to-credits-tiers-and-eligibility-2026/ (search snippet)",
+      "https://opportunitiesforyouth.org/2026/08/11/claude-for-startups/ (search snippet)",
+      "https://www.aicredits.co/en/blogs/anthropic-startup-program-2026 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "OpenAI startup credits",
+    "org": "OpenAI",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Not verified (search budget). OpenAI credits do appear as perks inside SPC Founder Fellowship and AI Grant packages.",
+    "eligibility": "not verified",
+    "simreal_qualifies": "unclear",
+    "timing": "not verified",
+    "status": "unconfirmed",
+    "how_to_apply": "not found",
+    "fit": "Low",
+    "fit_why": "Most accessible through accelerator packages rather than a student path.",
+    "contacts": [],
+    "sources": [
+      "https://www.southparkcommons.com/news/f26-founder-fellowship/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "NVIDIA Inception",
+    "org": "NVIDIA",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Free, with no equity or fees. Includes SDKs, Deep Learning Institute credits, hardware and software pricing, and investor and go-to-market support. Third-party sources report up to $100K in DGX Cloud credits at entry tier and 30% off DGX Cloud. Entrants to America's Startup get an Inception invitation.",
+    "eligibility": "AI startups globally. Not student-specific.",
+    "simreal_qualifies": "yes",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "NVIDIA Inception site (URL not read)",
+    "fit": "Medium",
+    "fit_why": "Free and relevant for GPU-heavy RL work. Join now.",
+    "contacts": [],
+    "sources": [
+      "https://klymentiev.com/blog/nvidia-inception-program (search snippet)",
+      "https://creditforstartups.com/companies/nvidia-inception (search snippet)",
+      "https://america250.org/americas-startup/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Modal / Lambda compute credits",
+    "org": "Modal Labs; Lambda",
+    "segment": "Student-founder programs and competitions",
+    "category": "Credits / perks",
+    "what_you_get": "Modal: startup program up to $50K in credits. The academics program (up to $25K) is for faculty, postdocs and PhD students, not undergraduates, and the $10K academic grant was reported paused. A third-party site cites $30/month free compute for students. Lambda: Research Grant up to $5K in GPU credits for researchers.",
+    "eligibility": "Modal startup program: startups. Modal academics and Lambda grants: researchers, so an undergraduate founder is unlikely to qualify.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://modal.com/academics ; https://lambda.ai/research",
+    "fit": "Low",
+    "fit_why": "Modal's startup tier is useful for running environments. The student and academic paths largely don't fit undergraduate founders.",
+    "contacts": [],
+    "sources": [
+      "https://grantedai.com/grants/modal-labs-startup-and-academics-programs-for-serverless-gpu-compute-cre-modal-labs-847dd6f7 (search snippet)",
+      "https://modal.com/academics (search snippet)",
+      "https://www.studentoffers.co/offer/modal (search snippet)",
+      "https://grantedai.com/grants/lambda-research-grant-program-cloud-gpu-credits-ai-ml-researchers-lambda-a7b8c9d0 (search snippet)"
+    ],
+    "confidence": "Medium"
+  }
+]

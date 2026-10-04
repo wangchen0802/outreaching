@@ -1,6 +1,7 @@
 """Build the Duke funding and startup-support guide from the research JSON files.
 
 Input:  intel/resources/duke/*.json   (each a JSON array of programs, one file per research segment)
+        intel/resources/duke-meta/key-dates.json  (hand-picked upcoming deadlines, from the research files)
 Output: lists/duke-funding-and-support.csv   (one row per program)
         lists/duke-contacts.csv              (one row per named contact or published inbox)
         collateral/src/duke-funding-and-support.html
@@ -18,6 +19,7 @@ import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "intel" / "resources" / "duke"
+KEY_DATES = ROOT / "intel" / "resources" / "duke-meta" / "key-dates.json"
 OUT_CSV = ROOT / "lists" / "duke-funding-and-support.csv"
 OUT_CONTACTS = ROOT / "lists" / "duke-contacts.csv"
 OUT_HTML = ROOT / "collateral" / "src" / "duke-funding-and-support.html"
@@ -30,7 +32,7 @@ FIT = {"High": 0, "Medium": 1, "Low": 2}
 STATUS = {"open": 0, "rolling": 1, "upcoming": 2, "unconfirmed": 3, "closed": 4}
 QUAL = {"yes": 0, "likely": 1, "unclear": 2, "no": 3}
 COLS = ["segment", "name", "org", "category", "what_you_get", "eligibility", "simreal_qualifies", "timing",
-        "status", "how_to_apply", "fit", "fit_why", "contacts", "confidence", "sources"]
+        "status", "how_to_apply", "fit", "fit_why", "duke_angle", "contacts", "confidence", "sources"]
 NOT_FOUND = {"", "not found", "none", "n/a", "unknown"}
 
 
@@ -46,15 +48,35 @@ def norm_status(s):
     return "unconfirmed"
 
 
+# The same program found by two research segments. The networks segment usually adds the Duke angle
+# (a campus partner, a regional team); the other record has the program terms.
+MERGE = {
+    "Duke Startup Showcase (Duke I&E pitch event; may overlap Duke I&E segment)":
+        "John Shen Duke Startup Showcase (successor to the Duke Startup Challenge)",
+    "Duke Capital Partners: alumni investor members and Duke Innovation Fund co-investment (brief; main program covered elsewhere)":
+        "Duke Capital Partners (formerly Duke Angel Network)",
+    "Dorm Room Fund (student-run pre-seed fund)": "Dorm Room Fund (Philly & Southeast team covers Duke)",
+    "a16z speedrun (accelerator) and speedrun Alpha Fellowship": "a16z speedrun (SR008)",
+    "Pear VC (Pear Fellows campus scouts / PearX accelerator)": "PearX (W27)",
+    "Contrary (Venture Partner program - Duke campus presence)": "Contrary (Venture Partner program / Contrary Capital)",
+    "Neo Scholars / Neo Residency": "Neo Scholars",
+    "Rough Draft Ventures / GC Venture Fellows (General Catalyst)": "Rough Draft Ventures",
+    "DukeGEN Startup Showcase (New York / San Francisco)": "DukeGEN (Duke Global Entrepreneurship Network)",
+}
+
+
 def key(name):
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
 def load():
-    items, seen = [], {}
+    items, seen, later = [], {}, []
     for path in sorted(SRC.glob("*.json")):
         for it in json.load(open(path, encoding="utf-8")):
             it["status_key"] = norm_status(it.get("status"))
+            if it["name"] in MERGE:
+                later.append(it)
+                continue
             k = key(it["name"])
             if k in seen:
                 # Same program found by two segments: keep the higher-confidence record, merge contacts.
@@ -64,6 +86,19 @@ def load():
                 continue
             seen[k] = it
             items.append(it)
+    for it in later:
+        main = seen.get(key(MERGE[it["name"]]))
+        if not main:
+            items.append(it)
+            continue
+        main["duke_angle"] = (it.get("fit_why") or "") + (" " + it["what_you_get"] if it.get("what_you_get") else "")
+        names = {key(c.get("name", "")) for c in main.get("contacts") or []}
+        main.setdefault("contacts", []).extend(c for c in it.get("contacts") or [] if key(c.get("name", "")) not in names)
+        main["sources"] = list(dict.fromkeys((main.get("sources") or []) + (it.get("sources") or [])))
+        if main["status_key"] == "unconfirmed" and it["status_key"] != "unconfirmed":
+            main["status"], main["status_key"], main["timing"] = it["status"], it["status_key"], it.get("timing", "")
+        if FIT.get(it.get("fit"), 3) < FIT.get(main.get("fit"), 3):
+            main["fit"] = it["fit"]
     items.sort(key=lambda i: (SEGMENTS.index(i["segment"]) if i.get("segment") in SEGMENTS else 9,
                               FIT.get(i.get("fit"), 3), QUAL.get(str(i.get("simreal_qualifies", "")).lower(), 4),
                               STATUS[i["status_key"]], i["name"]))
@@ -75,6 +110,14 @@ def contact_str(c):
     if not blank(c.get("email")):
         parts.append(c["email"])
     return ", ".join(p for p in parts if p)
+
+
+def first(s, n=150):
+    """First sentence, capped, for summary tables."""
+    s = str(s or "").strip()
+    m = re.match(r"(.+?[.;])(\s|$)", s)
+    out = m.group(1) if m else s
+    return out if len(out) <= n else out[:n].rsplit(" ", 1)[0] + "…"
 
 
 def e(s):
@@ -125,7 +168,7 @@ def card(i):
     q = str(i.get("simreal_qualifies", "")).lower()
     rows = [("What you get", e(i.get("what_you_get"))), ("Eligibility", e(i.get("eligibility"))),
             ("Timing", e(i.get("timing"))), ("How to apply", link(i.get("how_to_apply"))),
-            ("Why it fits", e(i.get("fit_why")))]
+            ("Why it fits", e(i.get("fit_why"))), ("Duke angle", e(i.get("duke_angle")))]
     cs = [c for c in i.get("contacts") or [] if not (blank(c.get("name")) and blank(c.get("email")))]
     if cs:
         lines = []
@@ -150,13 +193,26 @@ def write_pdf(items, contacts):
     top = [i for i in items if i.get("fit") == "High" and str(i.get("simreal_qualifies", "")).lower() in ("yes", "likely")
            and i["status_key"] in ("open", "rolling", "upcoming")]
     start = "".join(f"<tr><td><b>{e(i['name'])}</b><br><span class='muted'>{e(i.get('org'))}</span></td>"
-                    f"<td>{e(i.get('what_you_get'))}</td><td>{e(i.get('timing'))}</td><td>{link(i.get('how_to_apply'))}</td></tr>"
+                    f"<td>{e(first(i.get('what_you_get')))}</td><td>{e(first(i.get('timing'), 110))}</td></tr>"
                     for i in top)
     sections = []
     for seg in SEGMENTS + ["Other"]:
         seg_items = [i for i in items if (i.get("segment") if i.get("segment") in SEGMENTS else "Other") == seg]
-        if seg_items:
-            sections.append(f"<h2>{e(seg)} · {len(seg_items)}</h2>" + "".join(card(i) for i in seg_items))
+        main_items = [i for i in seg_items if i.get("fit") != "Low"]
+        low = [i for i in seg_items if i.get("fit") == "Low"]
+        if not seg_items:
+            continue
+        block = f"<h2>{e(seg)} · {len(seg_items)}</h2>" + "".join(card(i) for i in main_items)
+        if low:
+            block += (f"<h3>Lower fit · {len(low)}</h3><table class='sum'><tr><th>Program</th><th>What you get</th><th>Why lower fit</th></tr>"
+                      + "".join(f"<tr><td><b>{e(i['name'])}</b><br><span class='muted'>{e(i.get('org'))} · qualifies: "
+                                f"{e(i.get('simreal_qualifies'))}</span></td><td>{e(first(i.get('what_you_get')))}</td><td>{e(first(i.get('fit_why')))}</td></tr>"
+                                for i in low) + "</table>")
+        sections.append(block)
+    dates = json.load(open(KEY_DATES, encoding="utf-8")) if KEY_DATES.exists() else []
+    dates_html = ("<h2>Key dates</h2><table class='sum'><tr><th>Date</th><th>Program</th><th>Note</th><th>Who applies</th></tr>"
+                  + "".join(f"<tr><td><b>{e(d['date'])}</b></td><td>{e(d['program'])}</td><td>{e(d['note'])}</td><td>{e(d['who'])}</td></tr>"
+                            for d in dates) + "</table>") if dates else ""
     ctab = "".join(f"<tr><td><b>{e(c['name'])}</b><br><span class='muted'>{e(c['role'])}</span></td><td>{e(c['org'])}</td>"
                    f"<td>{e(c['email']) or '<span class=muted>not published</span>'}</td><td>{link(c['profile_url'])}</td></tr>"
                    for c in contacts)
@@ -167,6 +223,7 @@ def write_pdf(items, contacts):
 :root {{ --ink:#1b2430; --muted:#5b6675; --line:#dfe3e8; --blue:#00539B; --high:#1a7f4b; --med:#b7791f; --low:#8a94a3; }}
 body {{ font-family: "DejaVu Sans", Arial, sans-serif; color: var(--ink); font-size: 9pt; line-height: 1.42; background:#fff; margin:0; }}
 h1 {{ color: var(--blue); font-size: 20pt; margin: 0 0 2pt; }}
+h3 {{ color: var(--muted); font-size: 10.5pt; margin: 10pt 0 5pt; break-after: avoid; }}
 h2 {{ color: var(--blue); font-size: 13pt; border-bottom: 2px solid var(--blue); padding-bottom: 2pt; margin: 16pt 0 8pt; break-after: avoid; }}
 .sub, .muted {{ color: var(--muted); }}
 .facts {{ display:flex; gap:8pt; margin:8pt 0; }}
@@ -204,8 +261,9 @@ a {{ color: var(--blue); text-decoration: none; }}
 <li><b>Status</b> is as of {today}. Deadlines change every cycle; "rolling" means applications are taken year-round.</li>
 <li><b>Contacts</b> are listed only when the organization or the person published them. Emails were never guessed or taken from data-broker sites.</li>
 </ul>
+{dates_html}
 <h2>Start here · {len(top)}</h2>
-<table class="sum"><tr><th>Program</th><th>What you get</th><th>Timing</th><th>Apply</th></tr>{start}</table>
+<table class="sum"><tr><th>Program</th><th>What you get</th><th>Timing</th></tr>{start}</table>
 {''.join(sections)}
 <h2>Contacts · {len(contacts)}</h2>
 <table class="sum"><tr><th>Name</th><th>Organization</th><th>Email</th><th>Profile</th></tr>{ctab}</table>
