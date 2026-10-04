@@ -1,0 +1,871 @@
+[
+  {
+    "name": "NC IDEA SEED grant",
+    "org": "NC IDEA (Durham-based private foundation)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "$50,000 non-dilutive grant plus mentorship, programming and structured guidance. Aimed at early-stage companies with a proven concept that plan to raise venture capital within two years or reach $2M+ annual revenue within five years. A company can apply to MICRO or SEED in a cycle, not both.",
+    "eligibility": "Requires an NC company: headquartered in NC with the majority of corporate operations in NC, registered with a state with a federal EIN, founder(s) residing in NC, and identified as an NC company in all public materials. No US-citizenship ownership rule was found in search results.",
+    "simreal_qualifies": "unclear",
+    "timing": "Two cycles a year. Spring 2026 deadline was 23 Feb 2026 (21 semi-finalists named Mar 2026). Fall 2026 deadline was 24 Aug 2026 (info-session webinar 13 Jul 2026). Spring 2027 dates were not found; going by the 2026 pattern, expect a deadline around late Feb 2027.",
+    "status": "closed (Fall 2026); Spring 2027 upcoming, dates unconfirmed",
+    "how_to_apply": "https://ncidea.org/nc-idea-seed/",
+    "fit": "High",
+    "fit_why": "This is the largest equity-free startup grant in NC, and SimReal is in its venture-track target group. It is only reachable if SimReal is headquartered in NC (e.g. Durham, where Amaris is based) and the NC-residency rule for founders is met.",
+    "contacts": [
+      {
+        "name": "Thom Ruhe",
+        "role": "President & CEO, NC IDEA",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://kenaninstitute.unc.edu/people/thom-ruhe/"
+      }
+    ],
+    "sources": [
+      "https://ncidea.org/nc-idea-seed/ (search snippet)",
+      "https://ncidea.org/spring-2026-grant-cycle/ (search snippet)",
+      "https://ncidea.org/fall-2026-grant-cycle/ (search snippet)",
+      "https://www.wncbusiness.com/2026/03/23/567351/nc-idea-selects-21-semi-finalists-from-across-the-state-in-spring-2026-seed-grant-cycle (search snippet)",
+      "https://ncidea.org/wp-content/uploads/2026/07/Fall-2026-Grants-Info-Session-Slide-Deck-for-Website.pdf (search snippet)",
+      "https://ncidea.org/comparison-of-grant-eligibility/ (search snippet)",
+      "https://www.crunchbase.com/person/thom-ruhe (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "NC IDEA MICRO grant",
+    "org": "NC IDEA",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "$10,000 non-dilutive grant to validate and advance an idea, plus mentorship and programming. Paid as 75% on signing the grant agreement and 25% two months later.",
+    "eligibility": "Requires an NC company: headquartered in NC with the majority of corporate operations in NC, registered with a state with a federal EIN, founder(s) residing in NC, and identified as an NC company in all public materials.",
+    "simreal_qualifies": "unclear",
+    "timing": "Same two cycles a year as SEED. Fall 2026 MICRO recipients have been selected and applications are closed. Spring 2027 dates unconfirmed.",
+    "status": "closed (Fall 2026); Spring 2027 upcoming, dates unconfirmed",
+    "how_to_apply": "https://ncidea.org/nc-idea-micro/",
+    "fit": "Medium",
+    "fit_why": "Easier to win than SEED but a fifth of the money, and it has the same NC-HQ and founder-residency rule. SEED is the better target for a venture-track AI company.",
+    "contacts": [
+      {
+        "name": "Thom Ruhe",
+        "role": "President & CEO, NC IDEA",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://kenaninstitute.unc.edu/people/thom-ruhe/"
+      }
+    ],
+    "sources": [
+      "https://ncidea.org/nc-idea-micro/ (search snippet)",
+      "https://ncidea.org/comparison-of-grant-eligibility/ (search snippet)",
+      "https://ncidea.org/frequently-asked-questions/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "NC IDEA ECOSYSTEM grant",
+    "org": "NC IDEA",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Grants to partner organizations that support entrepreneurs across NC (the latest reported cycle funded 18 recipients from 79 applicants). It does not fund startups directly.",
+    "eligibility": "Ecosystem-support organizations, not individual companies.",
+    "simreal_qualifies": "no",
+    "timing": "A past cycle took applications until 5 Dec. The 2026-27 cycle dates were not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://ncidea.org/program/ecosystem/",
+    "fit": "Low",
+    "fit_why": "SimReal is not eligible. Listed only for completeness: a Duke student club or Triangle nonprofit could use it. Note that a separate NC IDEA 'LAUNCH' grant did not appear in any 2026 search result.",
+    "contacts": [],
+    "sources": [
+      "https://ncidea.org/program/ecosystem/ (search snippet)",
+      "https://ncidea.org/press-release/nc-idea-accepting-grant-applications-for-ecosystem-grant-program-through-december-5th/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "NC Tweener Fund, powered by NC IDEA",
+    "org": "NC IDEA / Triangle Tweener Investment Fund",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "Equity investment. NC IDEA signed a Strategic Investor Relationship Agreement with the Triangle Tweener Investment Fund, which was renamed the 'NC Tweener Fund, Powered by NC IDEA'. Check sizes and terms were not found. No separate fund called 'NC IDEA Ventures' was found; this appears to be NC IDEA's investing arm.",
+    "eligibility": "Not verified. Probably NC companies, given the NC IDEA link.",
+    "simreal_qualifies": "unclear",
+    "timing": "Rolling (assumed for a fund; not confirmed).",
+    "status": "unconfirmed",
+    "how_to_apply": "https://ncidea.org/press-release/nc-idea-and-triangle-tweener-fund-form-strategic-investor-relationship-rebranding-as-nc-tweener-fund-powered-by-nc-idea/",
+    "fit": "Low",
+    "fit_why": "The terms and thesis are unverified. Ask about it in conversations with NC IDEA rather than applying directly.",
+    "contacts": [],
+    "sources": [
+      "https://ncidea.org/press-release/nc-idea-and-triangle-tweener-fund-form-strategic-investor-relationship-rebranding-as-nc-tweener-fund-powered-by-nc-idea/ (search snippet)",
+      "https://www.wral.com/business/technology/thom-ruhe-10-year-nc-idea-foundation-north-carolina/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "RIoT Accelerator Program (RAP)",
+    "org": "NC IDEA (RAP moved over from RIoT / Wireless Research Center in Feb 2026)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A 12-week hybrid accelerator with industry partnerships, an engineering prototyping lab and links to an industry consortium of 80+ companies across the IoT technology stack. Equity terms were not confirmed in 2026 results.",
+    "eligibility": "Early-stage tech startups, especially IoT and connected hardware. Cohorts run from an anchor site (Triangle, Eastern NC or Northern Virginia) in hybrid format. No NC-entity rule was found.",
+    "simreal_qualifies": "likely",
+    "timing": "Spring 2026 cohort (RAP Wilson): applications closed 20 Feb 2026; programme ran 31 Mar to 24 Jun 2026. In Feb 2026 RAP and key staff moved to NC IDEA, while the Wireless Research Center launched RIoT Labs for dual-use and defence tech. The next cohort's dates were not found.",
+    "status": "upcoming, dates unconfirmed",
+    "how_to_apply": "https://riot.org/startup-accelerator/",
+    "fit": "Low",
+    "fit_why": "Built for IoT and hardware. SimReal's software and AI-data product is a weak match. RIoT Labs' dual-use focus might fit if SimReal pursues defence evaluation work.",
+    "contacts": [],
+    "sources": [
+      "https://riot.org/startup-accelerator/ (search snippet)",
+      "https://ncidea.org/press-release/nc-idea-and-the-wireless-research-center-announce-joint-venture-at-february-3rd-event/ (search snippet)",
+      "https://www.wral.com/news/local/ncidea-riot-wrc-join-startup-accelerator-february-2026/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "One North Carolina Small Business Program: SBIR/STTR Matching Funds",
+    "org": "NC Department of Commerce (Board of Science, Technology & Innovation)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "A state grant matching a federal SBIR/STTR Phase I award. Under the FY2026 solicitation it covered 50% of the federal award, up to $75,000 (plus $25,000 extra for Hurricane Helene-affected counties). FY2026 budget was $1,876,560, about 25 matching grants. On 3 Sep 2026 the state announced grants to 46 small businesses.",
+    "eligibility": "An NC small business that has already won a federal Phase I SBIR/STTR award and keeps the majority of corporate operations in NC for at least 12 months after the grant. It therefore inherits the federal 51% US-ownership rule.",
+    "simreal_qualifies": "no",
+    "timing": "FY2026 window closed 30 Jun 2026 (or when funds ran out). The FY2026-27 Matching solicitation was reported released about 14 Sep 2026; deadline about 30 Jun 2027 or until funds run out.",
+    "status": "open (FY2027 solicitation; verify on the Commerce site)",
+    "how_to_apply": "https://www.commerce.nc.gov/grants-incentives/technology-funds/one-north-carolina-small-business-program",
+    "fit": "Low",
+    "fit_why": "Only relevant once SimReal is an NC-based, majority US-owned company holding a federal Phase I award. That chain is unlikely in the near term.",
+    "contacts": [],
+    "sources": [
+      "https://www.commerce.nc.gov/oncsbpmatchingsolicitationfy2026final/download?attachment= (search snippet)",
+      "https://www.commerce.nc.gov/2026-one-north-carolina-small-business-awards (search snippet)",
+      "https://governor.nc.gov/news/press-releases/2026/09/03/state-awards-grants-46-small-businesses-accelerate-technology-commercialization (search snippet)",
+      "https://www.commerce.nc.gov/news/press-releases/2025/12/16/funding-now-available-technology-development-through-north-carolina-small-business-program-grants (search snippet)",
+      "https://www.bwcoconsulting.com/fod/nc-sbir-sttr-phase-i-incentive-funds-program-fy-2027 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "One North Carolina Small Business Program: SBIR/STTR Phase I Incentive Funds",
+    "org": "NC Department of Commerce (Board of Science, Technology & Innovation)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Reimburses up to $12,000 of the cost of preparing a federal Phase I SBIR/STTR proposal (consultants, technical writing, market research, related travel). Rates are 75% of documented costs in Tier 1-2 counties and 50% in Tier 3 counties. The FY2026-27 pool was reported at $210,000.",
+    "eligibility": "An NC small business that has submitted a qualifying federal Phase I SBIR/STTR proposal. The proposal itself must meet federal eligibility, including the 51% US-ownership rule.",
+    "simreal_qualifies": "no",
+    "timing": "FY2026-27 Incentive solicitation reported released 14 Sep 2026. It covers Phase I proposals submitted 1 Jul 2026 to 30 Jun 2027.",
+    "status": "open (per consultant summary; verify on the Commerce site)",
+    "how_to_apply": "https://www.commerce.nc.gov/grants-incentives/technology-funds/one-north-carolina-small-business-program",
+    "fit": "Low",
+    "fit_why": "Small, and usable only if SimReal becomes an eligible NC-based SBIR applicant. Worth claiming if that ever happens.",
+    "contacts": [],
+    "sources": [
+      "https://commerce.nc.gov/oncsbpincentivesolicitationfy2026finalpdf/download?attachment= (search snippet)",
+      "https://www.ebhoward.com/north-carolina-startups-can-get-12k-to-offset-sbir-sttr-proposal-prep-costs/ (search snippet)",
+      "https://www.bwcoconsulting.com/fod/nc-sbir-sttr-phase-i-incentive-funds-program-fy-2027 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "NCInnovation commercialization grants",
+    "org": "NCInnovation",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Grants and support services for university researchers taking research past proof of concept towards market. Portfolio: $37M across 47 projects after a $7.9M round for nine projects. Focus areas are agriculture, energy, healthcare, infrastructure and advanced manufacturing.",
+    "eligibility": "University researchers at NC research universities, not startups. Whether Duke (a private university) researchers qualify was not verified.",
+    "simreal_qualifies": "no",
+    "timing": "A pilot grant program was announced. 2026-27 deadlines were not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://ncinnovation.org/grants-overview/",
+    "fit": "Low",
+    "fit_why": "It funds university research projects in non-AI sectors, not founder-led startups.",
+    "contacts": [
+      {
+        "name": "Michelle Bolas",
+        "role": "President & CEO, NCInnovation",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://ncinnovation.org/grants-overview/ (search snippet)",
+      "https://ncinnovation.org/media/ncinnovation-just-the-facts/ (search snippet)",
+      "https://www.ncinnovation.org/ncinnovation-approves-seven-point-nine-million-for-nine-university-projects-expands-statewide-portfolio-to-37-million-across-47-projects (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "NC Biotechnology Center loans and grants",
+    "org": "NC Biotechnology Center (NCBiotech)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Life-sciences only. Small Business Research Loan: $150K-$350K. Strategic Growth Loan: $350K-$650K, needing an equal or larger equity match. Also grants such as the Innovation Impact Grant. FY2026 total: 141 awards, $7.4M.",
+    "eligibility": "NC companies doing life-sciences R&D or manufacturing. No programme for non-biotech software or AI was found.",
+    "simreal_qualifies": "no",
+    "timing": "Rolling and periodic; not relevant.",
+    "status": "open (life sciences only)",
+    "how_to_apply": "https://www.ncbiotech.org/funding/grants",
+    "fit": "Low",
+    "fit_why": "SimReal is not a life-sciences company.",
+    "contacts": [],
+    "sources": [
+      "https://www.ncbiotech.org/funding/company-funding/small-business-research-loan (search snippet)",
+      "https://www.ncbiotech.org/funding/company-funding/strategic-growth-loan (search snippet)",
+      "https://www.ncbiotech.org/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "NC SBTDC SBIR/STTR counseling and workshops",
+    "org": "NC Small Business and Technology Development Center (SBTDC)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Course / training",
+    "what_you_get": "Free SBIR/STTR advice. Includes a two-day SBIR/STTR Proposal Development Series run with First Flight (1 and 8 Jun 2026, RTP), a six-stop no-cost statewide hybrid 'Road Tour' of workshops (Dec-Feb), and guidance after the 2025-26 lapse ('how to apply right now').",
+    "eligibility": "NC small businesses and entrepreneurs. The federal SBIR ownership rules apply to any resulting proposal.",
+    "simreal_qualifies": "unclear",
+    "timing": "Road Tour runs Dec-Feb each year (Dec 2026 to Feb 2027 expected but not confirmed). The proposal series ran Jun 2026.",
+    "status": "upcoming",
+    "how_to_apply": "https://sbtdc.org/site/sbir-sttr-funding",
+    "fit": "Medium",
+    "fit_why": "A free way to find out whether SimReal's cap table or a US restructure could qualify for SBIR/STTR before spending effort on it.",
+    "contacts": [],
+    "sources": [
+      "https://sbtdc.org/site/sbir-sttr-funding (search snippet)",
+      "https://sbtdc.org/blog/the-sbir-sttr-lapse-is-over-how-to-apply-right-now (search snippet)",
+      "https://sbtdc.org/blog/sbir-program-update-march-2026 (search snippet)",
+      "https://www.ncbiotech.org/events/sbirsttr-hybrid-road-tour-wilmington (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "American Underground (coworking, community, FCAT Fellowship)",
+    "org": "American Underground (Durham; Capitol Broadcasting Company)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Network / community",
+    "what_you_get": "Durham's long-running startup hub ('Startup Hub of the South'). It moved back to American Tobacco Campus (Bays 9-10), with a grand opening in June 2026 and programming from 18 Jun. Offers coworking, events and community. Its FCAT Fellowship gives fellows a 12-month all-access coworking membership plus in-person full-day workshops in Durham (listed 17 Jun to 27 Aug). Membership fees apply; no equity.",
+    "eligibility": "Coworking is open to paying members. Fellowship criteria were not found.",
+    "simreal_qualifies": "likely",
+    "timing": "Coworking is rolling. The FCAT Fellowship ran summer 2026; 2027 dates unconfirmed.",
+    "status": "rolling (coworking); fellowship unconfirmed",
+    "how_to_apply": "https://americanunderground.com/fcat/",
+    "fit": "High",
+    "fit_why": "It is in downtown Durham, minutes from Duke. It would give Amaris a credible Triangle base and address and fast access to local founders and investors. It also strengthens an NC-HQ case for NC IDEA.",
+    "contacts": [
+      {
+        "name": "Laura Zabinski",
+        "role": "Executive Director, American Underground (per 2026 reporting)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://americanunderground.com/fcat/ (search snippet)",
+      "https://www.wral.com/business/american-underground-returns-american-tobacco-campus-june-2026/ (search snippet)",
+      "https://americantobacco.co/american-underground-returns-to-american-tobacco-campus/ (search snippet)",
+      "https://www.wral.com/business/american-underground-coworking-american-tobacco-november-2025/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Launch Powered by KPMG accelerator",
+    "org": "Launch Chapel Hill (Town of Chapel Hill / UNC / KPMG partnership)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Accelerator / incubator",
+    "what_you_get": "An equity-free accelerator that describes itself as AI-enabled. Launch takes no equity, and the program is open to founders with or without a UNC affiliation. Summer accelerators are separate and need at least one UNC-student founder; a student international trip program to European ecosystems ran Jun-Jul 2026.",
+    "eligibility": "Open to all innovators for the KPMG, Fall and Spring accelerators. No NC-entity or ownership rule was found.",
+    "simreal_qualifies": "likely",
+    "timing": "Cohort 4: applications closed 31 Jul 2026; program 14 Sep to 20 Oct 2026. Cohort 3 began Mar 2026, so expect a spring 2027 cohort (dates unconfirmed).",
+    "status": "upcoming (next cohort dates unconfirmed)",
+    "how_to_apply": "https://www.launchchapelhill.com/kpmg-accelerator (application form: https://www.tfaforms.com/443844)",
+    "fit": "High",
+    "fit_why": "Equity-free, AI-themed, open to non-UNC founders and about 20 minutes from Duke. It is one of the few Triangle accelerators SimReal can join without restructuring.",
+    "contacts": [
+      {
+        "name": "Emil Runge",
+        "role": "Executive Director, Launch Chapel Hill (appointed Jan 2025)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://innovate.unc.edu/emil-runge-joins-launch-chapel-hill-as-new-director/"
+      }
+    ],
+    "sources": [
+      "https://www.launchchapelhill.com/kpmg-accelerator (search snippet)",
+      "https://grepbeat.com/2026/03/10/launch-kpmg-accelerator-kicks-off-third-cohort-in-chapel-hill/ (search snippet)",
+      "https://innovate.unc.edu/emil-runge-joins-launch-chapel-hill-as-new-director/ (search snippet)",
+      "https://grepbeat.com/2026/07/17/launch-chapel-hill-showcases-inaugural-international-accelerator-cohort/ (search snippet)",
+      "https://innovate.unc.edu/inside-launch-chapel-hills-student-summer-accelerators/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "First Flight Venture Center (RTP incubator and SBIR assistance)",
+    "org": "First Flight Venture Center (FFVC)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Accelerator / incubator",
+    "what_you_get": "An RTP incubator founded in 1991. Offers pre-accelerator and accelerator cohorts, help with grants and SBIR/STTR, mentor networks, prototyping facilities and investor-readiness work. It holds SBA FAST funding (up to $125K) to deliver SBIR/STTR outreach and help, especially for underrepresented and rural applicants, and co-runs the SBTDC proposal series.",
+    "eligibility": "Early-stage tech companies. SBIR help is most useful to SBIR-eligible (US-majority-owned) firms. Detailed entry criteria were not found.",
+    "simreal_qualifies": "unclear",
+    "timing": "Rolling incubation. SBIR workshops seasonal (Jun 2026 series; Dec-Feb Road Tour).",
+    "status": "rolling",
+    "how_to_apply": "https://www.ffvcnc.org/",
+    "fit": "Medium",
+    "fit_why": "It is the Triangle's main source of SBIR know-how. That matters only if SimReal can meet federal ownership rules, and its deep-tech, hardware-leaning tenants are a looser match for an AI-data company.",
+    "contacts": [
+      {
+        "name": "Krista Covey",
+        "role": "President & CEO, First Flight Venture Center (appointed 2020; current status not reconfirmed in 2026)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      },
+      {
+        "name": "Balaji Vasudevan",
+        "role": "Director of Programs, First Flight Venture Center",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://launch.ffvcnc.org/staff-directory"
+      }
+    ],
+    "sources": [
+      "https://wraltechwire.com/2020/04/22/first-flight-venture-center-in-rtp-names-new-president/ (search snippet)",
+      "https://launch.ffvcnc.org/staff-directory (search snippet)",
+      "https://www.ffvcnc.org/202425-fast-program (search snippet)",
+      "https://www.rtp.org/company/first-flight-venture-center/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Raleigh Founded (formerly HQ Raleigh)",
+    "org": "Raleigh Founded",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Network / community",
+    "what_you_get": "Community coworking at four Raleigh sites (Warehouse, Gateway, Capital Club, Centennial) with networking events, workshops and mentoring. Membership fees; no equity. HQ Raleigh was renamed Raleigh Founded, so they are one organisation.",
+    "eligibility": "Paying members.",
+    "simreal_qualifies": "yes",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://thisisraleigh.com/places/raleigh-founded-coworking-community/ (operator site URL not verified)",
+    "fit": "Low",
+    "fit_why": "It is in Raleigh, not Durham, and offers coworking and community rather than funding. American Underground is the better base for a Duke founder.",
+    "contacts": [],
+    "sources": [
+      "https://thisisraleigh.com/places/raleigh-founded-coworking-community/ (search snippet)",
+      "https://thisisraleigh.com/coworking-space-in-raleigh/ (search snippet)",
+      "https://www.instagram.com/raleighfounded/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "CED Venture Connect 2027 (pitch showcase and investor conference)",
+    "org": "CED (Council for Entrepreneurial Development)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Network / community",
+    "what_you_get": "The largest investor-facing startup conference in the Southeast. Selected companies present to investors. Tracks include Software Innovation and Next-Gen Hardware & Deep Tech. VC26 (24-25 Mar 2026, DPAC Durham) had 100+ presenting companies.",
+    "eligibility": "Scaling startups chosen through a pitch application. Whether out-of-state or non-US companies qualify was not verified.",
+    "simreal_qualifies": "unclear",
+    "timing": "Venture Connect 2027: 23-24 Mar 2027. For 2026, pitch applications closed before founders were told of next steps by mid-Feb, so 2027 applications probably open in late 2026 or January 2027 (unconfirmed).",
+    "status": "upcoming",
+    "how_to_apply": "https://cednc.org/venture-connect/pitch/",
+    "fit": "High",
+    "fit_why": "It is held in Durham and has a Software Innovation track, and it is the single densest room of Triangle and Southeast investors. That makes it a strong showcase for SimReal's seed raise.",
+    "contacts": [
+      {
+        "name": "Alex Bloom",
+        "role": "CEO, CED (effective 1 Jan 2026)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cednc.org/ced-announces-leadership-transition/"
+      }
+    ],
+    "sources": [
+      "https://cednc.org/event/venture-connect-2027/ (search snippet)",
+      "https://cednc.org/venture-connect/pitch/ (search snippet)",
+      "https://grepbeat.com/2026/03/27/ceds-venture-connect-2026-two-packed-days-at-dpac/ (search snippet)",
+      "https://cednc.org/ced-announces-leadership-transition/ (search snippet)",
+      "https://cednc.org/ced-welcomes-new-ceo-enters-next-phase-of-growth/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "CED Connections to Capital, mentoring and GRO Incubator",
+    "org": "CED (Council for Entrepreneurial Development)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Fellowship / program",
+    "what_you_get": "CED introduces high-growth companies to investors that fit their profile ('Connections to Capital'). Also offers founder mentoring, a Mentor Matching Program (help with hires, customers, pricing and fundraising timing) and the GRO Incubator.",
+    "eligibility": "CED partner companies; membership or partnership terms not verified.",
+    "simreal_qualifies": "unclear",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://cednc.org/",
+    "fit": "Medium",
+    "fit_why": "Curated investor introductions in the Triangle would complement a Venture Connect application. Costs and terms are unknown.",
+    "contacts": [
+      {
+        "name": "Alex Bloom",
+        "role": "CEO, CED (effective 1 Jan 2026)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cednc.org/ced-announces-leadership-transition/"
+      }
+    ],
+    "sources": [
+      "https://cednc.org/ceds-connections-to-capital-service-expands-with-new-hire/ (search snippet)",
+      "https://cednc.org/2025-impact-report/ (search snippet)",
+      "https://supportedly.com/programs/the-council-for-entrepreneurial-development/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Raleigh-Durham Startup Week (RDSW)",
+    "org": "Raleigh-Durham Startup Week",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Network / community",
+    "what_you_get": "An annual free startup week of events. RDSW26 (Apr 2026) included a Founder's Clinic, a 'Bad Pitches' session and investor open houses, such as Bullhouse's launch.",
+    "eligibility": "Open to the public.",
+    "simreal_qualifies": "yes",
+    "timing": "RDSW26 was April 2026; RDSW27 dates unconfirmed (probably spring 2027).",
+    "status": "upcoming, dates unconfirmed",
+    "how_to_apply": "See GrepBeat coverage; official site URL not verified",
+    "fit": "Medium",
+    "fit_why": "A cheap way for Amaris to meet Triangle founders and investors in one week.",
+    "contacts": [],
+    "sources": [
+      "https://grepbeat.com/2026/04/16/whats-new-at-rdsw26-climate-tech-day-bad-pitches-the-founders-clinic-and-so-much-more/ (search snippet)",
+      "https://grepbeat.com/2026/04/30/a-giant-grepmalgamation-of-rdsw-recaps-and-insights/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Bullhouse (Durham founder hub and micro-checks)",
+    "org": "Bullhouse Ventures",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "First checks of $5K-$10K (described as $5,000 angel checks) plus deal-by-deal SPVs of up to $100K. Portfolio founders get free coworking, a podcast and video studio, a conference room and a PO box. The space is designed for a cohort of 10-15 full-time founders.",
+    "eligibility": "Early-stage startups, focused on fintech, sports tech, health tech, defence tech and martech. Founders work from the Durham space.",
+    "simreal_qualifies": "likely",
+    "timing": "Launched Apr 2026 at Raleigh-Durham Startup Week. Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://bullhouseventures.com/",
+    "fit": "Medium",
+    "fit_why": "Small money but a free Durham base. SimReal's Xitadel trading environment gives a fintech angle that matches the stated thesis.",
+    "contacts": [
+      {
+        "name": "Austin Armstrong",
+        "role": "Co-founder, Bullhouse",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://x.com/SocialtyPro"
+      },
+      {
+        "name": "Austin Carroll",
+        "role": "Co-founder, Bullhouse",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://grepbeat.com/2026/06/02/durhamsbullhouse-to-support-local-founders-with-coworking-cash-more/ (search snippet)",
+      "https://hypepotamus.com/startup-news/bullhouse-durham-startup-hub-investment/ (search snippet)",
+      "https://www.wral.com/business/technology/bullhouse-for-founders-by-founders-april-2026/ (search snippet)",
+      "https://heydurham.com/news/bullhouse-opens-as-a-home-base-for-triangle-founders (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Innovate Durham",
+    "org": "City of Durham and Durham County",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Fellowship / program",
+    "what_you_get": "A 16-week program in which startups pilot products or services with a Durham city or county department, with access to staff, data and facilities.",
+    "eligibility": "Companies with products relevant to local government. Detailed criteria not found.",
+    "simreal_qualifies": "unclear",
+    "timing": "2026-27 cohort timing not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://www.durhamnc.gov/3165/Innovate-Durham",
+    "fit": "Low",
+    "fit_why": "Built for govtech pilots. RL environments for LLM post-training have little use for a city department.",
+    "contacts": [],
+    "sources": [
+      "https://www.durhamnc.gov/3165/Innovate-Durham (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Durham Rising / Wocstar Academy",
+    "org": "Durham County, NC IDEA, Knox St. Studios, Wocstar Capital",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Accelerator / incubator",
+    "what_you_get": "Durham Rising is a joint Durham County initiative. Its Wocstar Academy is an eight-week VC-backed incubator on business development and cash flow. Separate county reporting describes $5,000 awards to Durham entrepreneurs.",
+    "eligibility": "Durham entrepreneurs. Wocstar is oriented to women-of-colour founders (based on the Wocstar name; criteria not verified).",
+    "simreal_qualifies": "unclear",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found",
+    "fit": "Low",
+    "fit_why": "A small-business and cash-flow focus. Eligibility depends on founder demographics and residence that were not verified.",
+    "contacts": [],
+    "sources": [
+      "https://startupproject.org/ecosystems/raleigh-durham/ (search snippet)",
+      "https://www.cbs17.com/news/local-news/durham-county-news/durham-entrepreneurs-receive-5000-each-to-boost-business-through-county-initiative/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Black Wall Street Homecoming",
+    "org": "Black Wall Street Homecoming (Durham)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Network / community",
+    "what_you_get": "A multi-day Durham gathering celebrating Black entrepreneurship. Past editions included a pitch competition, panels, office hours and a founder exchange program, historically with Google for Entrepreneurs.",
+    "eligibility": "Focused on Black founders.",
+    "simreal_qualifies": "unclear",
+    "timing": "Only 2015-2018 editions appear in results. No 2026 or 2027 dates were found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://bwshomecoming.com/",
+    "fit": "Low",
+    "fit_why": "Current activity is unverified, and fit depends on founder demographics.",
+    "contacts": [],
+    "sources": [
+      "https://bwshomecoming.com/improving-access-to-connections-and-capital-black-wall-street-announces-bws-homecoming/ (search snippet)",
+      "https://wraltechwire.com/2018/09/21/black-founders-exchange-program-returns-to-durham-during-black-wall-street-homecoming/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Triangle Angel Partners (TAP)",
+    "org": "Triangle Angel Partners",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "Angel equity at seed and Series A from a member group of executives, PhDs, entrepreneurs and professional investors (founded 2011, Chapel Hill). Per aggregator sources, finalists pitch to the full accredited-investor membership at monthly dinner meetings after a screening committee and panel.",
+    "eligibility": "Strong preference for NC and Research Triangle companies. Expects an MVP plus early customer validation or pilot revenue, a deck, an executive summary and 3-year projections (aggregator-reported).",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling, with monthly meetings.",
+    "status": "rolling",
+    "how_to_apply": "https://www.sparkxyz.io/applications/1235 (TAP application on Spark XYZ)",
+    "fit": "Medium",
+    "fit_why": "The most structured local angel route for a seed round. The NC preference favours a Durham-based setup.",
+    "contacts": [],
+    "sources": [
+      "https://www.sparkxyz.io/applications/1235 (search snippet)",
+      "https://startupguide.wraltechwire.com/venture-capital-angel-groups-to-pitch/ (search snippet)",
+      "https://thestartupverse.com/vc-directory/firms/triangle-angel-partners (search snippet)",
+      "https://tracxn.com/d/venture-capital/triangle-angel-partners/__kSxrdOHdWPIZX1lxGoTTOiOAmIKiibCi3VEVuieiJ_g (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Carolina Angel Network (CAN)",
+    "org": "UNC-Chapel Hill (Innovate Carolina with Kenan-Flagler and UNC School of Law)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "Angel advice and equity investment for UNC-affiliated ventures raising $100K-$3M at seed or Series A.",
+    "eligibility": "The company must have a founder or executive who is UNC faculty, staff, a student, an alum or a parent, and must be for-profit. Duke affiliation does not count.",
+    "simreal_qualifies": "no",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://www.carolinaangelnetwork.com/for-entrepreneurs",
+    "fit": "Low",
+    "fit_why": "SimReal has no UNC affiliation that we know of. Duke's own angel network belongs to the Duke segment.",
+    "contacts": [],
+    "sources": [
+      "https://innovate.unc.edu/carolina-angel-network-year-one/ (search snippet)",
+      "https://www.carolinaangelnetwork.com/for-entrepreneurs (search snippet)",
+      "https://www.carolinaangelnetwork.com/membership-agreement (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Investors' Circle NC (impact angel network)",
+    "org": "Investors' Circle",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "An impact-focused angel network. Its NC local network historically held monthly pitch meetings for high-growth, high-impact companies, hosted at Hutchison PLLC in Raleigh.",
+    "eligibility": "High-impact enterprises (impact thesis).",
+    "simreal_qualifies": "unclear",
+    "timing": "Only dated sources were found; no 2026 activity.",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found (no current application route verified)",
+    "fit": "Low",
+    "fit_why": "The NC chapter may no longer be active, and SimReal is not an impact company.",
+    "contacts": [],
+    "sources": [
+      "https://www.3blmedia.com/news/investors-circle-going-beyond-pitch (search snippet)",
+      "https://startupguide.wraltechwire.com/venture-capital-angel-groups-to-pitch/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Bull City Venture Partners (BCVP)",
+    "org": "Bull City Venture Partners (Durham)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "VC equity. Often the first institutional investor, leading pre-seed, seed and Series A rounds in B2B software and tech-enabled businesses (aggregators cite $1M-$5M checks). It also runs 'Founders First', a half-day event where founders meet capital partners and operators.",
+    "eligibility": "B2B software and tech-enabled companies, mainly in the Southeast. No formal entity rule was found.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling. Founders First event dates not found.",
+    "status": "rolling",
+    "how_to_apply": "https://www.bcvp.com/founders-first (fund website; no public deck-submission form verified)",
+    "fit": "High",
+    "fit_why": "SimReal sells B2B to AI labs, and a Durham-based seed lead suits a company anchored at Duke.",
+    "contacts": [],
+    "sources": [
+      "https://www.bcvp.com/founders-first (search snippet)",
+      "https://superscout.co/investor/bull-city-venture-partners (search snippet)",
+      "https://www.openvc.app/fund/BCVP%20Bull%20City%20Venture%20Partners (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "IDEA Fund Partners",
+    "org": "IDEA Fund Partners (Durham)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "Seed and early-stage VC equity in technology companies. IDEA Fund IV launched Jan 2023 with a narrower geographic focus and an aim to back more diverse entrepreneurs. It often co-invests with Front Porch Venture Partners.",
+    "eligibility": "Seed and early-stage tech, Southeast focus.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "Fund website (URL not verified in this research); public profile: https://x.com/ideafund",
+    "fit": "Medium",
+    "fit_why": "A Durham seed fund investing in tech. Its thesis on AI infrastructure is unverified.",
+    "contacts": [],
+    "sources": [
+      "https://startupintros.com/orgs/idea-fund-partners (search snippet)",
+      "https://directory.ncbiotech.org/company/idea-fund-partners (search snippet)",
+      "https://x.com/ideafund?lang=en (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Front Porch Venture Partners",
+    "org": "Front Porch Venture Partners",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "VC equity. It co-invests with IDEA Fund Partners and joined Lucid Bots' $20M Series B in Mar 2026. Stage and check size were not verified.",
+    "eligibility": "Not verified.",
+    "simreal_qualifies": "unclear",
+    "timing": "Rolling (assumed).",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found",
+    "fit": "Low",
+    "fit_why": "Too little verified information. It appears to invest later than SimReal's current stage.",
+    "contacts": [],
+    "sources": [
+      "https://tracxn.com/d/venture-capital/idea-fund-partners/__6E2cDcSjESQtN75EKKnhFJPsV1vag6pqAtuQzT_AX-8 (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Cofounders Capital",
+    "org": "Cofounders Capital (Cary, NC)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "Seed equity from Fund III, a $50M fund for B2B software at seed stage with a special focus on NC. Checks of $500K-$2M; partners are former founders and help with Triangle recruiting.",
+    "eligibility": "B2B software companies in the Southeast, especially NC.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling. Active (3 new investments in the 12 months to Aug 2026).",
+    "status": "rolling",
+    "how_to_apply": "https://cofounderscapital.com",
+    "fit": "High",
+    "fit_why": "Its B2B software thesis and NC focus match a Durham-anchored SimReal seed round.",
+    "contacts": [],
+    "sources": [
+      "https://www.ellty.com/blog/north-carolina-investors (search snippet)",
+      "https://altss.com/profile/cofounders-capital (search snippet)",
+      "https://tracxn.com/d/venture-capital/cofounders-capital/__a1cgo-grwrKlN-nyfebvF0GZtoYIuOxqvGrh3q-898Q (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Hutton (requested; not identified)",
+    "org": "Unidentified",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: equity",
+    "what_you_get": "No Triangle investor named 'Hutton' could be identified from public search results. Searches returned unrelated firms such as EF Hutton.",
+    "eligibility": "Unknown.",
+    "simreal_qualifies": "unclear",
+    "timing": "Unknown.",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found",
+    "fit": "Low",
+    "fit_why": "Not verified. The founders should confirm the exact firm name before outreach.",
+    "contacts": [],
+    "sources": [
+      "https://startupguide.wraltechwire.com/venture-capital-angel-groups-to-pitch/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "NSF SBIR/STTR Phase I (America's Seed Fund), Artificial Intelligence topic",
+    "org": "US National Science Foundation",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Phase I up to $305,000 non-dilutive and equity-free; Phase II up to $1.25M. Fast-Track is available, plus a new Strategic Breakthrough tier (about $30M). Solicitation NSF 26-510 deploys $250M in total. The AI topic covers deep-learning AI systems that are safe, reliable, robust to adversaries, privacy-preserving and efficient.",
+    "eligibility": "Federal SBIR/STTR eligibility: a US-located for-profit small business (fewer than 500 employees) that is more than 50% (commonly stated as 51%) owned by US citizens or permanent residents; NSF also excludes firms majority-owned by multiple VC/PE/hedge funds. If SimReal's Cambridge/LSE co-founders are not US citizens or green-card holders and together hold more than 50%, SimReal is NOT eligible, whatever entity it forms. A US entity (e.g. a Delaware C-corp) is needed in any case. A three-page Project Pitch must be invited before a full proposal (at most 2 pitches per company per 12 months).",
+    "simreal_qualifies": "unclear",
+    "timing": "SBIR/STTR authority lapsed Oct 2025 and was reauthorized in spring 2026 through 30 Sep 2031 (one source dates it to 13 Apr 2026, another to March 2026). NSF relaunched on 28 May 2026; Project Pitches reopened 2 Jun 2026. Full-proposal deadlines: 27 Jul 2026 (passed), 4 Nov 2026, 4 Mar 2027.",
+    "status": "open",
+    "how_to_apply": "https://seedfund.nsf.gov/ (Project Pitch); solicitation: https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation",
+    "fit": "Medium",
+    "fit_why": "RL environments and verifiers fit the AI topic's 'safe, reliable, robust' language, and $305K equity-free is large. But SimReal is ineligible unless more than 50% is owned by US citizens or green-card holders through a US entity. The founders must check their cap table first.",
+    "contacts": [],
+    "sources": [
+      "https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation (search snippet)",
+      "https://seedfund.nsf.gov/apply/full-proposal/ (search snippet)",
+      "https://entrepreneur.nyu.edu/blog/2026/04/15/sbir-sttr/ (search snippet)",
+      "https://grantedai.com/news/nsf-sbir-sttr-250m-2026-05-31 (search snippet)",
+      "https://www.bwcoconsulting.com/fod/nsfsbir (search snippet)",
+      "https://grantedai.com/grants/nsf-sbir-sttr-artificial-intelligence-topic-national-science-foundation-b79d0489 (search snippet)",
+      "https://sbirgrantwriters.com/sbir-blog-sbir-sttr-reauthorization-2026 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "STTR with Duke University as research partner",
+    "org": "Federal STTR agencies (NSF, DoD, DOE and others) with Duke as partner",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "The same Phase I and II amounts as the agency's SBIR (NSF Phase I up to $305K; AFWERX STTR Phase I up to $110K). The startup does at least 40% of the work and a US nonprofit research institution such as Duke does at least 30%; the remaining 30% can go to either.",
+    "eligibility": "Federal SBIR/STTR eligibility: a US-located for-profit small business (fewer than 500 employees) that is more than 50% (commonly stated as 51%) owned by US citizens or permanent residents; NSF also excludes firms majority-owned by multiple VC/PE/hedge funds. If SimReal's Cambridge/LSE co-founders are not US citizens or green-card holders and together hold more than 50%, SimReal is NOT eligible, whatever entity it forms. A US entity (e.g. a Delaware C-corp) is needed in any case. Also needs a US research-institution partner (Duke qualifies as a US nonprofit university) and a signed IP and rights agreement between the company and the institution. Duke's own STTR procedures were not found.",
+    "simreal_qualifies": "unclear",
+    "timing": "Follows each agency's calendar (NSF: 4 Nov 2026, 4 Mar 2027).",
+    "status": "open",
+    "how_to_apply": "Via the agency (e.g. https://seedfund.nsf.gov/) with a Duke faculty collaborator and Duke's sponsored-research or technology-transfer office",
+    "fit": "Medium",
+    "fit_why": "Amaris's Duke tie makes a Duke faculty collaborator realistic, and a Duke partner strengthens an AI-evaluation proposal. But the US-ownership rule applies in the same way as for SBIR.",
+    "contacts": [],
+    "sources": [
+      "https://www.darpa.mil/work-with-us/communities/small-business/sbir-sttr-overview (search snippet)",
+      "https://grantsights.com/blog/sttr-research-partner-guide (search snippet)",
+      "https://legalclarity.org/sttr-program-eligibility-partnering-and-application/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "DoD / AFWERX SBIR/STTR (Open Topic)",
+    "org": "US Department of the Air Force (AFWERX) / DoD SBIR",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "AFWERX Open Topic Phase I: up to $75K (SBIR) or $110K (STTR) for a 3-month feasibility study. The aim is a signed Customer Memorandum leading to Phase II. Later stages include STRATFI and TACFI.",
+    "eligibility": "Federal SBIR/STTR eligibility: a US-located for-profit small business (fewer than 500 employees) that is more than 50% (commonly stated as 51%) owned by US citizens or permanent residents; NSF also excludes firms majority-owned by multiple VC/PE/hedge funds. If SimReal's Cambridge/LSE co-founders are not US citizens or green-card holders and together hold more than 50%, SimReal is NOT eligible, whatever entity it forms. A US entity (e.g. a Delaware C-corp) is needed in any case. DoD also screens for foreign ownership and influence.",
+    "simreal_qualifies": "unclear",
+    "timing": "New solicitations were frozen during the Oct 2025-Mar 2026 lapse. Release AFWERX 26.1 has been reported. Exact 2026-27 open windows were not confirmed from official sources.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://afwerx.com/get-funded/ and DoD topics: https://www.dodsbirsttr.mil/topics-app/",
+    "fit": "Low",
+    "fit_why": "Small Phase I amounts, the strictest foreign-ownership scrutiny and a defence customer requirement. Worth considering only if Xitadel-style environments find a defence user.",
+    "contacts": [],
+    "sources": [
+      "https://afwerx.com/get-funded/ (search snippet)",
+      "https://www.getcada.com/insights/afwerx-sbir-guide (search snippet)",
+      "https://grantedai.com/grants/afwerx-26-1-sbir-phase-i-open-topic-department-of-the-air-force-ae121eb6 (search snippet)",
+      "https://www.dodsbirsttr.mil/topics-app/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "DOE SBIR/STTR (incl. Genesis Mission AI-for-science topics)",
+    "org": "US Department of Energy",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Phase I grants. A Genesis Mission release (opened 22 Jul 2026) planned about 40 Phase I awards across four AI-for-science topics (e.g. AI for biotech design and autonomous labs).",
+    "eligibility": "Federal SBIR/STTR eligibility: a US-located for-profit small business (fewer than 500 employees) that is more than 50% (commonly stated as 51%) owned by US citizens or permanent residents; NSF also excludes firms majority-owned by multiple VC/PE/hedge funds. If SimReal's Cambridge/LSE co-founders are not US citizens or green-card holders and together hold more than 50%, SimReal is NOT eligible, whatever entity it forms. A US entity (e.g. a Delaware C-corp) is needed in any case.",
+    "simreal_qualifies": "unclear",
+    "timing": "Genesis Phase I release opened 22 Jul 2026 (closing date not confirmed). A broader FY2027 Phase I release was expected in fall 2026. The FY26 Phase II opportunity closed 2 Oct 2026.",
+    "status": "upcoming",
+    "how_to_apply": "DOE Office of Science SBIR/STTR Programs Office (official URL not verified in this research; see sources)",
+    "fit": "Low",
+    "fit_why": "The topics are science-domain AI rather than LLM post-training data. Ownership rules apply as for SBIR.",
+    "contacts": [],
+    "sources": [
+      "https://grantedai.com/blog/doe-genesis-mission-sbir-sttr-phase-i-fy26-40-awards-four-topic-areas-biotech-quantum-materials-autonomous-labs-147-million-phase-ii-strategy-2026 (search snippet)",
+      "https://grantedai.com/blog/sbir-sttr-deadlines-calendar-2026 (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "NIST SBIR Phase I",
+    "org": "US National Institute of Standards and Technology",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Phase I SBIR awards on NIST technical topics, which include artificial intelligence, cybersecurity, advanced manufacturing, quantum and bioscience. The FY2026 award size was not confirmed.",
+    "eligibility": "Federal SBIR/STTR eligibility: a US-located for-profit small business (fewer than 500 employees) that is more than 50% (commonly stated as 51%) owned by US citizens or permanent residents; NSF also excludes firms majority-owned by multiple VC/PE/hedge funds. If SimReal's Cambridge/LSE co-founders are not US citizens or green-card holders and together hold more than 50%, SimReal is NOT eligible, whatever entity it forms. A US entity (e.g. a Delaware C-corp) is needed in any case.",
+    "simreal_qualifies": "unclear",
+    "timing": "FY2026 NOFO deadline was 1 Apr 2026 (closed). The FY2027 NOFO was not yet found; NIST runs one round a year.",
+    "status": "closed (FY2026); FY2027 upcoming, unconfirmed",
+    "how_to_apply": "NIST SBIR NOFO (official URL not verified in this research; see sources)",
+    "fit": "Low",
+    "fit_why": "NIST's AI measurement and evaluation focus overlaps with verifiers, but there is one round a year and SimReal is likely ineligible on ownership.",
+    "contacts": [],
+    "sources": [
+      "https://grantedai.com/grants/fy-2026-nist-small-business-innovation-research-sbir-program-phase-i-national-institute-of-standards-and-tech-e860c05d (search snippet)",
+      "https://grantedai.com/grants/national-institute-of-standards-and-technology-nist-sbir-program-national-institute-of-standards-and-tech-6fb5f516 (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "ACC InVenture Prize 2027",
+    "org": "Atlantic Coast Conference (ACC) Academic Consortium; Duke selects its team",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Competition / prize",
+    "what_you_get": "Non-dilutive cash prizes: $15,000 first place, $10,000 second, $5,000 People's Choice ($30,000 total). It is a televised and streamed pitch final with high visibility.",
+    "eligibility": "Each ACC university (Duke included) sends one team. Teams may include only full-time, degree-seeking undergraduates or recent graduates within one year of graduation. No entity rule.",
+    "simreal_qualifies": "likely",
+    "timing": "Faculty representative application due 23 Jan 2027. Student team representative application due 30 Jan 2027. Pitch video due 17 Feb 2027. Finals 16-17 Mar 2027, hosted by the University of Notre Dame. Duke's internal selection date was not found.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.accinventureprize.com/rules (apply through Duke's internal selection)",
+    "fit": "High",
+    "fit_why": "Amaris is a Duke undergraduate, so SimReal can compete for Duke's single slot. Prize money is equity-free with no NC or US entity rule. Check whether non-Duke co-founders can be on the pitching team.",
+    "contacts": [],
+    "sources": [
+      "https://www.accinventureprize.com/rules (search snippet)",
+      "https://www.accinventureprize.com/prizes (search snippet)",
+      "https://www.theaccac.org/inventure-prize (search snippet)",
+      "https://ece.gatech.edu/news/2023/12/duke-university-virginia-and-georgia-tech-win-big-acc-inventure-prize (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "NC Small Business Center Network Startup Showdown",
+    "org": "NC Community College System, Small Business Center Network (SBCN)",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Competition / prize",
+    "what_you_get": "$60,000 in startup funding plus mentoring and training. Prizes: $30,000 first, $20,000 second, $10,000 third. Winners are chosen by combined judging and public vote (voting opened 1 Sep 2026).",
+    "eligibility": "NC entrepreneurs with a new business concept not formally established before the first class night (12 May 2026 in the 2026 edition).",
+    "simreal_qualifies": "no",
+    "timing": "2026 (first edition): applications 1 Mar to 7 Apr 2026; public voting from 1 Sep 2026. 2027 edition unconfirmed.",
+    "status": "closed (2026); 2027 unconfirmed",
+    "how_to_apply": "https://www.nccommunitycolleges.edu/sbcnstartupshowdown/",
+    "fit": "Low",
+    "fit_why": "Limited to not-yet-established NC businesses. SimReal already operates and is not NC-registered. No statewide 'NC Entrepreneurship Center' competition was found.",
+    "contacts": [],
+    "sources": [
+      "https://www.nccommunitycolleges.edu/sbcnstartupshowdown/ (search snippet)",
+      "https://www.prnewswire.com/news-releases/public-voting-opens-sept-1-for-the-north-carolina-small-business-center-networks-inaugural-startup-showdown-302847601.html (search snippet)",
+      "https://www.ednc.org/9-1-2026-vote-now-to-pick-the-winner-of-the-inaugural-small-business-center-startup-showdown-through-the-ncccs/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Carolina Case Challenge (UNC Kenan-Flagler)",
+    "org": "UNC Kenan-Flagler Business School",
+    "segment": "Research Triangle, NC and federal",
+    "category": "Competition / prize",
+    "what_you_get": "Cash prizes for first to third place in an undergraduate business case competition, split evenly between team members. It is not a startup pitch competition. UNC's 'Carolina Challenge' venture competition did not appear in 2026 results.",
+    "eligibility": "Enrolled undergraduates from any accredited college (at most one senior per team). The UNC qualifier is for UNC students only.",
+    "simreal_qualifies": "unclear",
+    "timing": "2026 edition: 9-11 Apr 2026 at UNC. 2027 dates not found.",
+    "status": "upcoming, dates unconfirmed",
+    "how_to_apply": "https://carolinacasechallenge.events.kenan-flagler.unc.edu/website/91456/home/",
+    "fit": "Low",
+    "fit_why": "A case competition for students, not funding for SimReal. Amaris could enter as an individual, but it does not advance the company.",
+    "contacts": [],
+    "sources": [
+      "https://carolinacasechallenge.events.kenan-flagler.unc.edu/website/91456/home/ (search snippet)",
+      "https://carolinacasechallenge.events.kenan-flagler.unc.edu/website/91456/ccc2026-2/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  }
+]
