@@ -1,0 +1,653 @@
+[
+  {
+    "name": "DukeGEN (Duke Global Entrepreneurship Network)",
+    "org": "DukeGEN (alumni-volunteer network, linked to Duke I&E)",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "Access to a large Duke entrepreneur network: about 9,500 members by one listing, and 13,000 claimed in a speaker bio. Started in 2008. Historically ran 30+ events a year: an Elevator Pitch Competition, the Duke Start-Up Challenge, a Startup Speaker Series, Startup Showcases and multi-city networking events. Alumni volunteers ran networking events about three times a year for alumni, students, faculty and staff. The only city chapter found is Seattle, where Chris Haberle is listed as co-chair. No London chapter or DukeGEN-branded 2025-26 event was found. Duke I&E's regional events (see separate item) now seem to fill this role. The search found no separate 'Duke Entrepreneurs Network'; the name seems to refer to DukeGEN or the Duke I&E Network.",
+    "eligibility": "Open to Duke students, faculty, staff, alumni, parents and friends of Duke.",
+    "simreal_qualifies": "yes",
+    "timing": "No 2026-27 DukeGEN-branded events found. Historically, networking events ran three times a year.",
+    "status": "unconfirmed",
+    "how_to_apply": "Join and follow the network at https://sites.google.com/view/dukegen and https://www.linkedin.com/company/dukegen",
+    "fit": "Medium",
+    "fit_why": "A large Duke founder and investor audience that suits warm intros. Activity looks low, so use Duke I&E events for live programming.",
+    "contacts": [
+      {
+        "name": "Chris Haberle",
+        "role": "DukeGEN Seattle chapter co-chair (per his public profile snippet; whether the role is current is not verified)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://www.linkedin.com/in/chrishaberle/"
+      },
+      {
+        "name": "Howie Rhee",
+        "role": "DukeGEN co-founder in 2008, with T. Reid Lewis and Jon Fjeld (current role not verified)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "http://blog.dukegen.com/2009/02/blurb-about-duke-global.html"
+      }
+    ],
+    "sources": [
+      "https://sites.google.com/view/dukegen (search snippet)",
+      "https://sites.google.com/view/dukegen/networking-events (search snippet)",
+      "https://www.crunchbase.com/organization/duke-global-entrepreneurship-network (search snippet)",
+      "https://www.linkedin.com/company/dukegen (search snippet)",
+      "http://blog.dukegen.com/2009/02/blurb-about-duke-global.html (search snippet)",
+      "https://www.linkedin.com/in/chrishaberle/ (search snippet)",
+      "https://test.connectpreneur.org/presenters (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "DukeGEN Startup Showcase (New York / San Francisco)",
+    "org": "DukeGEN",
+    "segment": "Duke networks and student funds",
+    "category": "Competition / prize",
+    "what_you_get": "A chance to pitch to a panel of Duke alumni judges and investors, plus networking with Duke alumni in entrepreneurship. DukeGEN picked about six Duke-founded startups per showcase and held showcases every year in NYC and SF. The last ones confirmed are the 19th (NYC, 10 Dec 2018, at Yext) and the 18th (SF, 20 Jun 2018, WeWork Embarcadero). Past winners include Ello Raw and Swell Energy.",
+    "eligibility": "Startups founded by Dukies (Duke-affiliated founders).",
+    "simreal_qualifies": "likely",
+    "timing": "No showcase after 2018 was found, and no 2026-27 date.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://sites.google.com/view/dukegen/startup-showcase (check whether it has been revived; otherwise use the Duke I&E events below)",
+    "fit": "Medium",
+    "fit_why": "The format is ideal (Duke investors in NYC and SF), but the series may be dormant.",
+    "contacts": [],
+    "sources": [
+      "https://sites.google.com/view/dukegen/startup-showcase (search snippet)",
+      "https://alumni.duke.edu/events/19th-dukegen-startup-showcase-new-york (search snippet)",
+      "https://www.squadup.com/events/11th-dukegen-startup-showcase-san-francisco (search snippet)",
+      "https://www.squadup.com/events/the-17th-dukegen-newyork (search snippet)",
+      "https://impact.entrepreneurship.duke.edu/duke-gen/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke I&E regional networking events (NYC Networking Night, other cities) via Duke Alumni events",
+    "org": "Duke Innovation & Entrepreneurship / Duke Alumni Association",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "In-person networking with Duke alumni and parents who are founders, investors and operators. One example is the Duke I&E NYC Networking Night hosted at Primary Venture Partners (386 Park Ave S, NYC), with a reception, a program and then more networking. Another is a Duke I&E Philadelphia Networking Event (18 Sep 2025) for Duke alumni and parents in innovation and entrepreneurship, with remarks from Duke I&E leadership. The Duke Alumni Association events calendar also lists Duke I&E programs such as Startup Sprint. No Duke entrepreneurship event in London was found.",
+    "eligibility": "Duke alumni, parents, students and community members. A current Duke undergraduate co-founder qualifies.",
+    "simreal_qualifies": "yes",
+    "timing": "Recurring regional events. No 2026-27 dates were confirmed in search; check the alumni.duke.edu events calendar.",
+    "status": "rolling",
+    "how_to_apply": "Register on https://alumni.duke.edu/events/duke-ie-nyc-networking-night and watch https://alumni.duke.edu/get-involved/groups and the Duke I&E events pages",
+    "fit": "High",
+    "fit_why": "The NYC events are hosted at VC offices with Duke investors attending. This is the most active current version of the DukeGEN networking model.",
+    "contacts": [
+      {
+        "name": "Kelley Downey",
+        "role": "Event contact listed for Duke I&E events (per search snippet of Duke Alumni event page)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://alumni.duke.edu/events/duke-ie-nyc-networking-night"
+      }
+    ],
+    "sources": [
+      "https://alumni.duke.edu/events/duke-ie-nyc-networking-night (search snippet)",
+      "https://entrepreneurship.duke.edu/event/duke-ie-philadelphia-networking-event-09-18-2025/ (search snippet)",
+      "https://alumni.duke.edu/events/duke-ie-startup-sprint (search snippet)",
+      "https://alumni.duke.edu/get-involved/groups (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Towerview Ventures (Alumni Ventures' Duke fund)",
+    "org": "Alumni Ventures",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "Venture investment from Alumni Ventures' fund for Duke alumni and friends. It invests in companies with a Duke connection through founders, team members or advisors. It co-invests alongside lead VCs; cited co-investors include a16z, Sequoia and Y Combinator. It reaches a community of 21k+ Duke alumni and friends. Check size was not published in any source found.",
+    "eligibility": "Startups anywhere with a Duke connection (founder, team member or advisor). Usually takes part alongside a lead investor.",
+    "simreal_qualifies": "yes",
+    "timing": "Rolling. Best approached once a seed lead or term sheet is in place, since Towerview co-invests alongside leads.",
+    "status": "rolling",
+    "how_to_apply": "https://www.av.vc/funds/towerview (Towerview page). A scheduling page is at https://www.av.vc/funds/towerview/tvv-calendly, but its audience is unconfirmed and may be investors. The fund is also on LinkedIn at https://www.linkedin.com/company/towerview-ventures",
+    "fit": "High",
+    "fit_why": "SimReal's Duke undergraduate co-founder meets the Duke-connection test, and Towerview can fill out the seed round alongside a lead.",
+    "contacts": [
+      {
+        "name": "Greg Baker (Fuqua '91)",
+        "role": "Managing Partner, Alumni Ventures (since 2017); runs Towerview Ventures",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://superscout.co/investor/towerview-ventures"
+      },
+      {
+        "name": "Ali Byrd (Duke '95)",
+        "role": "Described as Managing Partner of Towerview Ventures in an Alumni Ventures Medium profile (date not verified; may be a former role)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://medium.com/@alumniventures/meet-ali-byrd-95-managing-partner-of-towerview-ventures-33424fd01ff0"
+      }
+    ],
+    "sources": [
+      "https://info.av.vc/towerview-ventures/landing (search snippet)",
+      "https://www.av.vc/funds/towerview (search snippet)",
+      "https://superscout.co/investor/towerview-ventures (search snippet)",
+      "https://www.av.vc/funds/towerview/tvv-calendly (search snippet)",
+      "https://medium.com/@alumniventures/meet-ali-byrd-95-managing-partner-of-towerview-ventures-33424fd01ff0 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Capital Partners: alumni investor members and Duke Innovation Fund co-investment (brief; main program covered elsewhere)",
+    "org": "Duke Capital Partners (Duke University)",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "Access to an angel platform of 200+ accredited Duke-affiliated investor members (alumni, faculty, parents) and a co-investment fund, the Duke Innovation Fund. Members have invested $75M+ in 60+ companies, including $12M+ in FY24. A later snippet reports $105M across 65+ companies, FY25 investments of $21.9M across 23 financings, and an average initial investment of $500K-$2M. DCP has co-invested with Sequoia, Kleiner Perkins, Google and Amazon. It also runs about 40 student Associates in a 2-year program.",
+    "eligibility": "A founder, executive or board member must be a Duke alumnus, faculty member, staff member, student or parent.",
+    "simreal_qualifies": "yes",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "https://dukecapitalpartners.duke.edu/entrepreneurs/",
+    "fit": "High",
+    "fit_why": "Amaris, a current Duke student, makes SimReal eligible, and DCP members syndicate alongside the fund at seed.",
+    "contacts": [],
+    "sources": [
+      "https://dukecapitalpartners.duke.edu/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/news/10-years-60-startups-105-million-and-counting-duke-capital-partners-leads-the-way-in-alumni-investing/ (search snippet)",
+      "https://today.duke.edu/2025/03/10-years-60-startups-105-million-and-counting-duke-capital-partners-leads-way-alumni (search snippet)",
+      "https://dukecapitalpartners.duke.edu/investors/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/students/ (search snippet)",
+      "https://www.undergradvc.com/programs/duke-capital-partners (search snippet)",
+      "https://dukecapitalpartners.duke.edu/team/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Entrepreneurial Leaders Network (ELN)",
+    "org": "Duke I&E + Duke Office for Translation & Commercialization (with support from Duke Capital Partners)",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "A cohort of 10-15 Duke students and alumni that meets over a year for virtual and in-person programming. Members get ongoing access to opportunities from Duke I&E, OTC, Pratt and Triangle ventures, plus Duke IP spinout opportunities and introductions to Duke founders who need executives. The 2026 cohort added 15 members, bringing the network to nearly 100. Sectors include AI.",
+    "eligibility": "Duke alumni and students committed to founding or leading an innovation-driven startup.",
+    "simreal_qualifies": "likely",
+    "timing": "The 2026 cohort has been announced. No application date for the next cohort was found.",
+    "status": "upcoming",
+    "how_to_apply": "https://entrepreneurship.duke.edu/duke-eln/",
+    "fit": "Medium",
+    "fit_why": "A Duke-credentialed peer and investor network. Its spinout and executive-talent focus is less central to a seed raise.",
+    "contacts": [],
+    "sources": [
+      "https://entrepreneurship.duke.edu/story/duke-eln-announces-new-cohort-2026/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-eln/ (search snippet)",
+      "https://entrepreneurship.duke.edu/story/eln-2025-cohort (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Experts in Entrepreneurship (volunteer office hours)",
+    "org": "Duke Innovation & Entrepreneurship",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "Weekly 1:1 office hours with volunteer experts who give advice and ad hoc support to Duke alumni and students.",
+    "eligibility": "Duke alumni and students.",
+    "simreal_qualifies": "yes",
+    "timing": "Weekly, ongoing.",
+    "status": "rolling",
+    "how_to_apply": "https://entrepreneurship.duke.edu/duke-experts-entrepreneurship/",
+    "fit": "Medium",
+    "fit_why": "Free expert time for fundraising and go-to-market advice, which can lead to warm intros.",
+    "contacts": [],
+    "sources": [
+      "https://entrepreneurship.duke.edu/duke-experts-entrepreneurship/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Venture Community (DVC) - NYC Meetup",
+    "org": "Duke Venture Community (independent)",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "A private, independent NYC community (648 members on Meetup) for Duke students, alumni and employees interested in entrepreneurship. It runs events every few weeks: idea incubation, demo events, panels, speakers and happy hours.",
+    "eligibility": "Duke students, alumni and employees from any school.",
+    "simreal_qualifies": "yes",
+    "timing": "No 2026-27 events confirmed.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://www.meetup.com/dukevc/",
+    "fit": "Low",
+    "fit_why": "A small NYC Duke community. Current activity is unverified.",
+    "contacts": [],
+    "sources": [
+      "https://www.meetup.com/dukevc/ (search snippet)",
+      "https://mpd.medium.com/launching-duke-venture-community-b0b9394d3fa8 (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Duke Women's Impact Network (WIN) / Duke women-in-business networks",
+    "org": "Duke University",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "No founder-funding or entrepreneurship program from Duke WIN or a Duke Women in Business group was found. One snippet describes Duke WIN as part of Duke's university development office, a philanthropy network. For women-founder support, Duke I&E's general programs (Melissa & Doug Entrepreneurs, ELN, Startup Sprint) came up instead.",
+    "eligibility": "Not verified.",
+    "simreal_qualifies": "unclear",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found. Use Duke I&E programs: https://entrepreneurship.duke.edu/experiences-and-programs/",
+    "fit": "Low",
+    "fit_why": "No entrepreneurship or funding offering was confirmed.",
+    "contacts": [],
+    "sources": [
+      "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)",
+      "https://entrepreneurship.duke.edu/programs/startup-sprint/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Fuqua Entrepreneurship & Venture Capital Club (EVCC) and Fuqua alumni networking",
+    "org": "Duke Fuqua School of Business",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "An MBA club that connects alumni, entrepreneurs and VCs through networking events, panels, seminars and brainstorming lunches, with links to the Research Triangle and Silicon Valley. Fuqua also runs alumni networking (fuqua.duke.edu/alumni/work/networking) and a Duke MBA Private Capital Club. This can be a channel to speak, recruit MBA interns or meet alumni VCs.",
+    "eligibility": "Members are Fuqua MBA students. Outside startups take part as speakers, partners or recruiters.",
+    "simreal_qualifies": "unclear",
+    "timing": "Runs through the academic year.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://sites.google.com/a/fuqua.duke.edu/evcc/Home/prospective-students (leadership at https://sites.google.com/a/fuqua.duke.edu/evcc/Home/cabinet); https://www.fuqua.duke.edu/alumni/work/networking",
+    "fit": "Low",
+    "fit_why": "Indirect value, mainly MBA talent and alumni-VC intros. There is no funding.",
+    "contacts": [],
+    "sources": [
+      "https://sites.google.com/a/fuqua.duke.edu/evcc/Home/prospective-students (search snippet)",
+      "https://sites.google.com/a/fuqua.duke.edu/evcc/Home/cabinet (search snippet)",
+      "https://www.fuqua.duke.edu/alumni/work/networking (search snippet)",
+      "https://www.dukefuquaprivatecapital.com/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Duke Venture Group (DVG) - undergraduate VC organization / scout program",
+    "org": "Duke Venture Group (student-run)",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "Visibility with VC firms that use DVG for sourcing and diligence. Each semester DVG writes due-diligence reports and market research for partner VCs; named partners include Duke I&E, Duke Capital Partners, Straylight Capital, Techstars, Red Bike Capital and Maven Ventures. Superscout lists DVG as Duke's scout program. As a Duke undergraduate, Amaris could also join as an analyst, though that may create a conflict of interest.",
+    "eligibility": "Members must be Duke undergraduates. Startups can be sourced or presented through members.",
+    "simreal_qualifies": "likely",
+    "timing": "Recruits each semester (6-8 week analyst curriculum). Exact 2026-27 dates not found.",
+    "status": "rolling",
+    "how_to_apply": "https://www.dukeventuregroup.org/ ; contact via contact@dukeventuregroup.com",
+    "fit": "Medium",
+    "fit_why": "Student-run, but its partner firms (Straylight, Techstars, Red Bike and others) are potential seed investors reachable via a Duke-undergraduate warm path.",
+    "contacts": [
+      {
+        "name": "Nate Goldin",
+        "role": "Founder & President (as listed on DVG team page; may be outdated)",
+        "email": "contact@dukeventuregroup.com",
+        "email_source": "https://www.dukeventuregroup.com/team (search snippet) - generic org inbox",
+        "profile_url": "https://www.dukeventuregroup.com/team"
+      },
+      {
+        "name": "Diego Keller",
+        "role": "Co-Founder & Executive Vice President (as listed on DVG team page)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://www.dukeventuregroup.com/team"
+      },
+      {
+        "name": "Sam Elkin",
+        "role": "Co-Founder & Executive Vice President (as listed on DVG team page)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://www.dukeventuregroup.com/team"
+      },
+      {
+        "name": "Terrence Ware",
+        "role": "Co-Founder & Vice President of Finance (as listed on DVG team page)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://www.dukeventuregroup.com/team"
+      }
+    ],
+    "sources": [
+      "https://www.dukeventuregroup.org/ (search snippet)",
+      "https://www.dukeventuregroup.com/team (search snippet)",
+      "https://superscout.co/program/duke-venture-group (search snippet)",
+      "https://entrepreneurship.duke.edu/resource/duke-venture-group/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Investment Club",
+    "org": "Duke Investment Club (student-run)",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "A student investing club at dukeiclub.org. The search found no venture or startup-investing program.",
+    "eligibility": "Duke students.",
+    "simreal_qualifies": "unclear",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://www.dukeiclub.org/",
+    "fit": "Low",
+    "fit_why": "No startup funding or venture activity was confirmed.",
+    "contacts": [],
+    "sources": [
+      "https://www.dukeiclub.org/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Superscout Duke hub (directory of scout programs at Duke)",
+    "org": "Superscout",
+    "segment": "Duke networks and student funds",
+    "category": "Network / community",
+    "what_you_get": "A directory of VC scout and student-fund programs available at Duke: Duke Venture Group, Rise of the Rest Seed Fund Fellowship, Front Row Ventures Student Fund, Alicorn Ventures Scout Program, Campus Founders Fund, Rough Draft Ventures Student Fund and E2MC Ventures Fellowship. Use it to find campus scouts who can refer SimReal.",
+    "eligibility": "Directory open to anyone. Each program has its own rules.",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing.",
+    "status": "rolling",
+    "how_to_apply": "https://superscout.co/hub/duke",
+    "fit": "Low",
+    "fit_why": "A mapping tool for scout warm paths rather than capital itself.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/hub/duke (search snippet)",
+      "https://superscout.co/program/campus-founders-fund (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "BlueRidge Ventures (pre-seed AI fund sourcing from Duke alumni)",
+    "org": "BlueRidge Ventures",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "Investment from a $3M pre-seed (and seed, per one listing) fund. It backs AI-native, sector-agnostic US founders, sourced from Duke alumni and the Research Triangle venture community. It appears on a VC Lab list of emerging funds (July 2026), which suggests it was still raising from LPs then.",
+    "eligibility": "AI-native US founders at pre-seed/seed with Duke or Triangle ties.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling. Fund status (whether it has closed) unconfirmed.",
+    "status": "rolling",
+    "how_to_apply": "No public founder application form found. The fund is listed at https://decilepro.com/access/blueridgeventures; contact the founder directly.",
+    "fit": "Medium",
+    "fit_why": "Its AI and Duke-alumni thesis matches SimReal, but it is a small pre-seed fund, so checks will be small, and the US-founder focus may matter given the UK-based co-founders.",
+    "contacts": [
+      {
+        "name": "Nikhil Mittal",
+        "role": "Founder & Investment Lead, BlueRidge Ventures",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://decilepro.com/access/blueridgeventures"
+      }
+    ],
+    "sources": [
+      "https://decilepro.com/access/blueridgeventures (search snippet)",
+      "https://govclab.com/2026/07/23/emerging-venture-capital-funds-to-invest-in/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Contrary (Venture Partner program - Duke campus presence)",
+    "org": "Contrary",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "A warm referral path to Contrary, a venture firm. Its student Venture Partner program recruits 20-30 students a year from top campuses to find early-stage founders. Contrary's published classes include Duke students: Tejas Sukesh (Class of 2026) and Brian Mason (Class of 2025). Earlier classes include Conner Aldrich and Ayush Jain (2024) and Luke Qin and Rachel Ji (2021). Founder-facing check sizes were not verified in this search.",
+    "eligibility": "Contrary invests in early-stage startups. Venture Partners refer founders, and a Duke founder can get a referral.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling.",
+    "status": "rolling",
+    "how_to_apply": "Warm intro via a Duke Venture Partner, or apply via https://contrary.com",
+    "fit": "Medium",
+    "fit_why": "Contrary backs young, technical founders. Duke scouts give a direct referral route, though terms are unverified.",
+    "contacts": [
+      {
+        "name": "Tejas Sukesh",
+        "role": "Contrary Venture Partner, Class of 2026 (Duke) - as listed by Contrary",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://contrary.com/blog/class-of-2026"
+      },
+      {
+        "name": "Brian Mason",
+        "role": "Contrary Venture Partner, Class of 2025 (Duke undergrad, math) - as listed by Contrary",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://contrary.com/blog/class-of-2025"
+      }
+    ],
+    "sources": [
+      "https://contrary.com/blog/class-of-2026 (search snippet)",
+      "https://contrary.com/blog/class-of-2025 (search snippet)",
+      "https://contrary.com/blog/class-of-2024 (search snippet)",
+      "https://contrarycap.com/content/contrarys-class-of-2021 (search snippet)",
+      "https://superscout.co/program/contrary-capital (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Dorm Room Fund (Philly & Southeast team covers Duke)",
+    "org": "Dorm Room Fund (First Round-founded, student-run)",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "Investment from a student-run VC that backs startups founded by college students and recent graduates in the US and Canada. It closed a new $50M fund (about 4x the previous one), and about 60 student investors a year make decisions across about 30 campuses. It has financed 400+ student founders across 250+ startups. Its Philly & Southeast team covers North Carolina, including Duke. Check size was not verified in this search.",
+    "eligibility": "Founders who are current students or recent graduates (US and Canada).",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling for founders. The student investment-partner application closed on 17 Sep.",
+    "status": "rolling",
+    "how_to_apply": "https://www.dormroomfund.com/ (founder pitch). Partner recruiting is at https://join.dormroomfund.com/",
+    "fit": "High",
+    "fit_why": "SimReal has a current Duke undergraduate and recent-graduate co-founders, which is exactly DRF's mandate, and DRF has a newly enlarged fund.",
+    "contacts": [],
+    "sources": [
+      "https://www.dormroomfund.com/ (search snippet)",
+      "https://join.dormroomfund.com/ (search snippet)",
+      "https://fundmomentum.vc/blog/dorm-room-fund-50m-student-led-ai-fund-2026 (search snippet)",
+      "https://www.boringbusinessnerd.com/post/investing-at-dorm-room-fund-with-christina-liang (search snippet)",
+      "https://www.dormroomfund.com/our-team (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Rough Draft Ventures / GC Venture Fellows (General Catalyst)",
+    "org": "General Catalyst",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "Up to $25K for student-led teams, plus a community of peers, mentors, alumni and investors. The fund is student-run and powered by General Catalyst, now reframed as GC Venture Fellows. It has backed 150+ startups. Superscout lists the 'Rough Draft Ventures Student Fund' among programs available at Duke, but no named Duke partner was found.",
+    "eligibility": "Student-led teams.",
+    "simreal_qualifies": "likely",
+    "timing": "Not confirmed for 2026-27.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://superscout.co/program/rough-draft-ventures ; GC Venture Fellows on LinkedIn: https://www.linkedin.com/company/rough-draft-ventures",
+    "fit": "Medium",
+    "fit_why": "A small check, but a General Catalyst relationship is valuable for a seed raise. Whether the program still runs needs checking.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/program/rough-draft-ventures (search snippet)",
+      "https://superscout.co/program/rough-draft-ventures-fellowship-gc-venture-fellows (search snippet)",
+      "https://superscout.co/hub/duke (search snippet)",
+      "https://www.linkedin.com/company/rough-draft-ventures (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Pear VC (Pear Fellows campus scouts / PearX accelerator)",
+    "org": "Pear VC",
+    "segment": "Duke networks and student funds",
+    "category": "Accelerator / incubator",
+    "what_you_get": "PearX, Pear's pre-seed accelerator, fed by Pear Fellows: student scouts on campuses (undergrad, MBA, PhD) who can influence checks of up to $25k. Pear says about 50% of its portfolio has student-founder origins. No Duke-specific fellow or ambassador was found.",
+    "eligibility": "PearX targets pre-seed companies. Pear Fellows are students.",
+    "simreal_qualifies": "likely",
+    "timing": "PearX ran W26 and S26 cycles. A 2027 cycle is not yet confirmed. The 2025-26 Pear Fellows application closed 10 Aug 2025.",
+    "status": "upcoming",
+    "how_to_apply": "https://pear.vc/how-we-invest/ ; PearX apps (most recent post): https://pear.vc/pearx-s26-applications/",
+    "fit": "Medium",
+    "fit_why": "A strong AI and student-founder accelerator, but it skews pre-seed and Bay Area, and there is no Duke channel.",
+    "contacts": [],
+    "sources": [
+      "https://superscout.co/investor/pear-vc (search snippet)",
+      "https://superscout.co/program/pear-fellows (search snippet)",
+      "https://pear.vc/pearx-s26-applications/ (search snippet)",
+      "https://pear.vc/pearx-w26-apps-now-open/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "a16z speedrun (accelerator) and speedrun Alpha Fellowship",
+    "org": "Andreessen Horowitz",
+    "segment": "Duke networks and student funds",
+    "category": "Accelerator / incubator",
+    "what_you_get": "Speedrun is a 12-week accelerator with investment of up to $1M and perks/credits that one article puts at $5M. The Alpha Fellowship, for students and recent grads, gives a $20k equity-free grant, eligibility for up to $250K investment, or placement at a portfolio company. No Duke campus ambassador was found.",
+    "eligibility": "Speedrun: early-stage startups, full-time commitment. Alpha: students and recent-grad technical talent, pre-idea or pre-team.",
+    "simreal_qualifies": "likely",
+    "timing": "SR007 runs 27 Jul-11 Oct 2026, with Demo Day on 6 Oct 2026. SR008 runs late Jan-Apr 2027 in SF, with a priority application window of 12 Oct-1 Nov 2026. Applications are rolling, reviewed in 4-6 weeks.",
+    "status": "upcoming",
+    "how_to_apply": "https://speedrun.a16z.com/apply (Alpha: https://speedrun.a16z.com/alpha)",
+    "fit": "High",
+    "fit_why": "The SR008 priority window opens on 12 Oct 2026. It brings a16z capital plus a demo day full of investors. Speedrun's games/consumer focus is broader than infra, so the fit depends on positioning.",
+    "contacts": [],
+    "sources": [
+      "https://a16z.com/applications-for-a16z-speedrun-sr007-are-now-open/ (search snippet)",
+      "https://speedrun.a16z.com/apply (search snippet)",
+      "https://speedrun.a16z.com/faq (search snippet)",
+      "https://speedrun.a16z.com/alpha (search snippet)",
+      "https://x.com/speedrun/status/2024198415580643473 (search snippet)",
+      "https://fenado.ai/articles/a16z-speedrun-opens-applications-for-highly-selective-2026-cohort-offering-up-to-1m-investment-and-5m-in-credits (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Neo Scholars / Neo Residency",
+    "org": "Neo",
+    "segment": "Duke networks and student funds",
+    "category": "Fellowship / program",
+    "what_you_get": "Neo Scholars: a $40,000 equity-free grant for college students who excel at computer science, with mentorship, community trips and guaranteed Neo Residency admission if they start a company. Neo Residency: a $750,000 uncapped SAFE plus participation rights up to 5% ownership. No Duke-specific scout or ambassador was found.",
+    "eligibility": "Scholars: North America only; undergraduates graduating Winter 2026 or later, strong in CS. Residency: startup teams.",
+    "simreal_qualifies": "unclear",
+    "timing": "The 2026 Scholars deadline was 14 Jun 2026 (closed). The next cycle is likely spring/summer 2027 but unconfirmed.",
+    "status": "closed",
+    "how_to_apply": "https://neo.com/apply ; https://neo.com/scholars",
+    "fit": "Medium",
+    "fit_why": "Residency money is meaningful, but Scholars is an individual CS-student award and Amaris is the COO, so eligibility is uncertain.",
+    "contacts": [],
+    "sources": [
+      "https://neo.com/apply (search snippet)",
+      "https://neo.com/scholars (search snippet)",
+      "https://hub.causo.ai/guides/how-to-apply-to-neo-accelerator-2026 (search snippet)",
+      "https://www.awardscholar.com/scholarship/fellowship-us-neo-scholars (search snippet)",
+      "https://neo.substack.com/p/meet-the-2025-neo-scholars (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Z Fellows",
+    "org": "Z Fellows",
+    "segment": "Duke networks and student funds",
+    "category": "Fellowship / program",
+    "what_you_get": "A one-week program in San Francisco with $10,000 (investment at a $1B valuation cap, converting at the next priced round; participation without money is also possible) and mentors from OpenAI, Airbnb, Stripe, Notion and others. No Duke presence found.",
+    "eligibility": "Technical builders of any age, including college students.",
+    "simreal_qualifies": "likely",
+    "timing": "Cohorts run roughly every other month.",
+    "status": "rolling",
+    "how_to_apply": "https://www.zfellows.com/",
+    "fit": "Low",
+    "fit_why": "The money is small and suits an earlier stage than a seed raise. The network is the main benefit.",
+    "contacts": [],
+    "sources": [
+      "https://www.zfellows.com/ (search snippet)",
+      "https://hub.causo.ai/guides/how-to-apply-to-z-fellows-2026 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Soma Capital Fellowship (Soma Fellows)",
+    "org": "Soma Capital",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "$100K-$1M on uncapped SAFEs (per Superscout listing) for exceptional technical founders and student builders. No Duke campus scout was found.",
+    "eligibility": "Technical founders and student builders.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling. Soma has invited past applicants to send updates.",
+    "status": "rolling",
+    "how_to_apply": "https://programs.somacap.com/fellows",
+    "fit": "Medium",
+    "fit_why": "Meaningful uncapped-SAFE capital for a technical team, but no Duke channel.",
+    "contacts": [],
+    "sources": [
+      "https://programs.somacap.com/fellows (search snippet)",
+      "https://superscout.co/program/soma-capital-fellowship (search snippet)",
+      "https://x.com/Soma_Capital/status/2024143115322347840 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Afore Capital (campus scouts)",
+    "org": "Afore Capital",
+    "segment": "Duke networks and student funds",
+    "category": "Funding: equity",
+    "what_you_get": "No Duke campus scout or student program was found for Afore. Terms were not verified in this search.",
+    "eligibility": "Not verified.",
+    "simreal_qualifies": "unclear",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "Not found in search; approach directly via Afore's website.",
+    "fit": "Low",
+    "fit_why": "No Duke channel was found, and the program details are unverified.",
+    "contacts": [],
+    "sources": [
+      "https://www.joinleland.com/library/a/top-ten-venture-capital-fellowships (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Duke Startup Showcase (Duke I&E pitch event; may overlap Duke I&E segment)",
+    "org": "Duke Innovation & Entrepreneurship",
+    "segment": "Duke networks and student funds",
+    "category": "Competition / prize",
+    "what_you_get": "Non-dilutive prizes and exposure at a showcase. In 2026 the prize pool was $110K-$115.5K. 88 applicants and 35-36 student ventures presented, and the top undergraduate venture (Helian) won a $30K grand prize. Held at Fuqua.",
+    "eligibility": "At least one founder must be a current Duke student, able to take part in person from January to April.",
+    "simreal_qualifies": "likely",
+    "timing": "The 2027 showcase is 8 Apr 2027, 4-7pm, at Fuqua. Applications open in January. The 2026 deadline was 19 Jan.",
+    "status": "upcoming",
+    "how_to_apply": "https://entrepreneurship.duke.edu/startup-support/duke-startup-showcase/",
+    "fit": "High",
+    "fit_why": "Amaris, a current Duke undergraduate, makes SimReal eligible. The $30K top prize is non-dilutive, and the event has an investor and Duke-network audience.",
+    "contacts": [],
+    "sources": [
+      "https://cednc.org/event/duke-startup-showcase-2027/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/duke-startup-showcase/ (search snippet)",
+      "https://entrepreneurship.duke.edu/programs/duke-startup-showcase/duke-startup-showcase-current-students/ (search snippet)",
+      "https://grepbeat.com/2026/04/10/duke-ies-2026-startup-showcase-features-35-startups-and-115-5k-in-prizes/ (search snippet)",
+      "https://today.duke.edu/2026/04/concept-center-stage (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "NGEN Student Entrepreneurship Conference (Durham)",
+    "org": "NGEN (501(c)(3) intercollegiate entrepreneurship org) with Research Triangle Park",
+    "segment": "Duke networks and student funds",
+    "category": "Competition / prize",
+    "what_you_get": "A full-day conference with keynotes, pitch showcases of student ventures, and networking with student founders, startup leaders and industry. It draws students from Duke, UNC, NC State and other NC universities. Promoted on Duke Career Hub.",
+    "eligibility": "Student founders and builders from NC universities.",
+    "simreal_qualifies": "likely",
+    "timing": "Friday 23 Oct 2026 at Frontier RTP, 800 Park Offices Dr, Durham, NC.",
+    "status": "upcoming",
+    "how_to_apply": "https://www.ngennetwork.org/ (see Duke Career Hub post: https://careerhub.students.duke.edu/blog/2026/09/21/connect-build-explore-ngen-student-entrepreneurship-conference/)",
+    "fit": "Medium",
+    "fit_why": "Soon and local to Duke, with a pitch showcase. The audience is mostly students, with fewer seed investors.",
+    "contacts": [],
+    "sources": [
+      "https://careerhub.students.duke.edu/blog/2026/09/21/connect-build-explore-ngen-student-entrepreneurship-conference/ (search snippet)",
+      "https://www.ngennetwork.org/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Venture Capital Investment Competition (VCIC) at Duke",
+    "org": "Duke Innovation & Entrepreneurship (resource listing)",
+    "segment": "Duke networks and student funds",
+    "category": "Competition / prize",
+    "what_you_get": "Duke I&E lists VCIC as a resource and held a VCIC kickoff on 8 Oct 2025. How startups take part (for example, as companies pitched to student VC teams) was not verified in this search.",
+    "eligibility": "Not verified for startups.",
+    "simreal_qualifies": "unclear",
+    "timing": "The 2025 kickoff was 8 Oct 2025. The 2026-27 cycle presumably starts in the fall but is unconfirmed.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/resource/venture-capital-investment-competition-vcic/",
+    "fit": "Low",
+    "fit_why": "The startup role and investor exposure are unverified.",
+    "contacts": [],
+    "sources": [
+      "https://entrepreneurship.duke.edu/resource/venture-capital-investment-competition-vcic/ (search snippet)",
+      "https://entrepreneurship.duke.edu/event/vcic-kickoff-10-08-2025-0/ (search snippet)"
+    ],
+    "confidence": "Low"
+  }
+]
