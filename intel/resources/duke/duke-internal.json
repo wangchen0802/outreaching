@@ -1,0 +1,934 @@
+[
+  {
+    "name": "John Shen Duke Startup Showcase (successor to the Duke Startup Challenge)",
+    "org": "Duke Innovation & Entrepreneurship (Duke I&E)",
+    "segment": "Duke programs",
+    "category": "Competition / prize",
+    "what_you_get": "Live pitch competition for more than $110,000 in non-dilutive prize money (2026: two $30,000 grand prizes, one for the top undergraduate-led venture (Helian, an AI regulatory-QMS startup) and one for the top graduate/professional-led venture (Toilemetry)). GrepBeat put the 2026 prize pool at $115.5K. Judge feedback in Feb-Mar pitch rounds, an expo table at the April showcase, and visibility with 500+ Duke community members. The Frank Borchardt Undergraduate Prize Fund ($20K) is awarded at this event (see separate entry). Note: the old 'Duke Startup Challenge' appears only as archive pages; searches for it return the Showcase, which seems to have replaced it (inference, not confirmed by Duke).",
+    "eligibility": "Startup, venture or promising idea from any industry and any stage. At least one founder must be a current Duke student. Founders must be able to take part in person from January to April. SimReal qualifies because Amaris (co-founder/COO) is a current Duke undergrad. The pitch would need to be made by her, in person in Durham.",
+    "simreal_qualifies": "yes",
+    "timing": "2026 cycle: applications due Jan 19; live pitch rounds Feb-Mar; finals Apr 9, 2026 (88 applicants, 36 presented). The 2027 cycle is expected to follow the same Jan-Apr pattern, but the 2027 dates have not been published (unconfirmed).",
+    "status": "upcoming (2027 cycle expected to open January 2027; dates unconfirmed)",
+    "how_to_apply": "https://entrepreneurship.duke.edu/programs/duke-startup-showcase/duke-startup-showcase-current-students/ (apply via Airtable with Duke NetID single sign-on)",
+    "fit": "High",
+    "fit_why": "Eligibility only needs one Duke student founder, the money is non-dilutive (up to $30K grand prize plus the $20K Borchardt undergrad prize), and AI B2B ventures won in 2026.",
+    "contacts": [
+      {
+        "name": "Jamie N. Jones, PhD",
+        "role": "Director, Duke Innovation & Entrepreneurship; Associate Professor of the Practice of Management, Fuqua (former Executive Director, Fuqua CEI)",
+        "email": "jamie.j@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/jamie-jones/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/jamie-jones/"
+      },
+      {
+        "name": "Amy Linnane",
+        "role": "Managing Director, Programs (profile page titled 'Managing Director, Co-Curricular Programs'), Duke I&E; runs all co-curricular programming incl. Melissa & Doug Entrepreneurs",
+        "email": "amy.linnane@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/amy-linnane/ and https://careerhub.students.duke.edu/people/amy-linnane/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/amy-linnane/"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/programs/duke-startup-showcase/duke-startup-showcase-current-students/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/duke-startup-showcase/ (search snippet)",
+      "https://today.duke.edu/2026/04/concept-center-stage (search snippet)",
+      "https://entrepreneurship.duke.edu/story/duke-startup-showcase-2026-finalists/ (search snippet)",
+      "https://grepbeat.com/2026/04/10/duke-ies-2026-startup-showcase-features-35-startups-and-115-5k-in-prizes/ (search snippet)",
+      "https://impact.entrepreneurship.duke.edu/startup-challenge/ (search snippet)",
+      "https://sites.google.com/site/dukestartupchallengeorg/history (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Frank Borchardt Undergraduate Prize Fund",
+    "org": "Duke I&E (gift of Duke alum David Cummings)",
+    "segment": "Duke programs",
+    "category": "Competition / prize",
+    "what_you_get": "$20,000 in grant money each year for the top undergraduate entrepreneurs at Duke. Awarded at the annual Duke Startup Showcase in spring. Non-dilutive.",
+    "eligibility": "Top Duke undergraduate entrepreneurs, selected through the Startup Showcase. SimReal: likely. Amaris is an undergrad founder. It is not confirmed whether a venture whose other co-founders are non-Duke graduates counts as 'undergraduate-led'. The 2026 Showcase split ventures into undergraduate-led and graduate/professional-led tracks.",
+    "simreal_qualifies": "likely",
+    "timing": "Awarded at the spring Showcase (Apr 9 in 2026). The 2027 date is unconfirmed. Entry is through the Showcase application (Jan 19 deadline in 2026).",
+    "status": "upcoming (via 2027 Showcase; unconfirmed)",
+    "how_to_apply": "Apply to the Duke Startup Showcase: https://entrepreneurship.duke.edu/programs/duke-startup-showcase/duke-startup-showcase-current-students/",
+    "fit": "High",
+    "fit_why": "$20K non-dilutive for undergrad-led ventures, entered through the same Showcase application.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)",
+      "https://today.duke.edu/2026/02/student-ventures-solve-real-world-problems (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Melissa & Doug Entrepreneurs",
+    "org": "Duke I&E (sponsored by Melissa Bernstein '87 and Doug Bernstein)",
+    "segment": "Duke programs",
+    "category": "Accelerator / incubator",
+    "what_you_get": "Duke's premier year-long accelerator and leadership program for student founders (9 months, Aug-Apr, non-credit, in person). Includes a $5K grant for eligible ventures (Duke I&E funding page), executive coaching, mentorship from Duke alumni, parents and community members, travel experiences, and one-on-one time with sponsor Melissa Bernstein '87. Third-party site UndergradVC reports up to $10,000 ($5K initial plus $5K follow-on); Duke has not confirmed this.",
+    "eligibility": "Current Duke students actively working on a venture. Revenue is not required. Applicants must be in good academic standing and commit to the in-person 9-month program. Highly selective: up to 15 interviewed for about 10 spots. SimReal: likely. The program admits the student founder (Amaris), not the company. She would need to remain enrolled through the program year.",
+    "simreal_qualifies": "likely",
+    "timing": "The 2026-27 cohort started with a welcome workshop in August 2026, and applications for it are closed. Interviews are held in mid-May. The 2027-28 cycle will presumably open in spring 2027, but no date has been published (unconfirmed).",
+    "status": "closed (2026-27); next cycle upcoming, unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/experiences-programs/melissa-doug-entrepreneurs/",
+    "fit": "High",
+    "fit_why": "Amaris is eligible, and the program bundles a grant, executive coaching and Duke alumni/investor network, but the earliest entry is the 2027-28 cohort.",
+    "contacts": [
+      {
+        "name": "Amy Linnane",
+        "role": "Managing Director, Programs (profile page titled 'Managing Director, Co-Curricular Programs'), Duke I&E; runs all co-curricular programming incl. Melissa & Doug Entrepreneurs",
+        "email": "amy.linnane@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/amy-linnane/ and https://careerhub.students.duke.edu/people/amy-linnane/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/amy-linnane/"
+      },
+      {
+        "name": "Melissa C. Smith",
+        "role": "Senior Program Coordinator, Duke I&E",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://entrepreneurship.duke.edu/staff/"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/experiences-programs/melissa-doug-entrepreneurs/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)",
+      "https://interdisciplinary.duke.edu/news/accelerate-your-venture-through-melissa-doug-entrepreneurs/ (search snippet)",
+      "https://www.undergradvc.com/programs/duke-melissa-doug-entrepreneurs (search snippet)",
+      "https://entrepreneurship.duke.edu/profile/amy-linnane/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Seed Stage Startup Award",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Up to $25,000 in non-dilutive funding plus a dedicated mentor support team.",
+    "eligibility": "Full-time Duke student who has completed New Ventures: Deliver (I&E 396), shows ongoing traction and market validation, and will stay enrolled at Duke for at least one more year. SimReal: unclear. It qualifies only if Amaris has completed, or completes, New Ventures Deliver and has at least one more year at Duke.",
+    "simreal_qualifies": "unclear",
+    "timing": "No deadline found. It follows completion of New Ventures Deliver.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (ask entrepreneurship@duke.edu for the cycle)",
+    "fit": "High",
+    "fit_why": "It is the largest I&E grant for current students. SimReal's traction (Xitadel) fits the 'market validation' bar if Amaris takes the course path.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      },
+      {
+        "name": "Jamie N. Jones, PhD",
+        "role": "Director, Duke Innovation & Entrepreneurship; Associate Professor of the Practice of Management, Fuqua (former Executive Director, Fuqua CEI)",
+        "email": "jamie.j@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/jamie-jones/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/jamie-jones/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-student-startup-support/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "New Ventures course sequence (I&E 385 Discover, I&E 395 Develop, I&E 396 Deliver)",
+    "org": "Duke I&E (originated in Fuqua's New Venture courses)",
+    "segment": "Duke programs",
+    "category": "Course / training",
+    "what_you_get": "A for-credit venture-building course sequence. New Ventures: Deliver (I&E 396, cross-listed MMS 396) is the advanced capstone. Completing it is a prerequisite for the $25K Seed Stage Startup Award, and it earns preference for the Interplay Fellowship.",
+    "eligibility": "Duke students. New Ventures Deliver is for entrepreneurs who passed the evaluation in New Ventures Develop and have early revenue or evidence of product-market fit. SimReal: likely. Amaris can enroll if she clears the Develop evaluation.",
+    "simreal_qualifies": "likely",
+    "timing": "Semester offerings and prerequisites were not found in searches. Check the Duke course registration system for Spring 2027.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/courses-certificates/undergraduate-courses/ ; https://markets.duke.edu/courses/new-ventures-deliver",
+    "fit": "High",
+    "fit_why": "The course is the gateway to the $25K Seed Stage Award, and Amaris could work on SimReal for credit.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://markets.duke.edu/courses/new-ventures-deliver (search snippet)",
+      "https://entrepreneurship.duke.edu/courses-certificates/undergraduate-certificate/courses-requirements/ (search snippet)",
+      "https://entrepreneurship.duke.edu/courses-certificates/undergraduate-courses/ (search snippet)",
+      "https://entrepreneurship.duke.edu/story/teaching-entrepreneurship-learning-what-matters/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Interplay Fellows",
+    "org": "Duke I&E (funded by a $1M gift from Interplay, a NYC startup ecosystem)",
+    "segment": "Duke programs",
+    "category": "Fellowship / program",
+    "what_you_get": "A one-time non-dilutive award of up to $40,000, paid in two instalments 6 months apart, so a graduating student founder can work on the startup full time. One fellow per year so far: John Xu '25 (Alleviate Health) in 2025 and Adam Berthold MBA '26 (Deep Marine Innovations) in 2026.",
+    "eligibility": "Graduating Duke students from any degree program pursuing a for-profit or non-profit venture. Preference goes to students with demonstrated financial need and high Duke I&E engagement (e.g., Melissa & Doug Entrepreneurs, New Ventures courses). SimReal: unclear. It qualifies only in the year Amaris graduates and goes full time on SimReal. Her class year is not known.",
+    "simreal_qualifies": "unclear",
+    "timing": "Awarded around graduation (spring). No 2027 deadline was found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/resource/interplay-fellows/",
+    "fit": "High",
+    "fit_why": "At $40K it is the largest Duke non-dilutive award for an individual founder, but only if Amaris graduates (e.g., May 2027) and commits full time.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/resource/interplay-fellows/ (search snippet)",
+      "https://entrepreneurship.duke.edu/story/2026-interplay-fellows-award-recipient/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-student-startup-funding/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Duke Student Startup Funding (micro-grants)",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Non-dilutive awards of $500, with at most 10 per semester. Example uses: website build, hosting, customer discovery, app development.",
+    "eligibility": "All current Duke students. Priority goes to students engaged with Duke I&E programs, first-time recipients, and past recipients who completed the post-award survey. SimReal qualifies through Amaris.",
+    "simreal_qualifies": "yes",
+    "timing": "Awarded each semester. No specific deadline was found.",
+    "status": "rolling (per semester; unconfirmed)",
+    "how_to_apply": "https://entrepreneurship.duke.edu/duke-student-startup-funding/",
+    "fit": "Medium",
+    "fit_why": "Easy to get and non-dilutive, but $500 is small next to a seed round. It also builds the I&E engagement record that other awards prefer.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/duke-student-startup-funding/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "LAUNCH for Early-Stage Founders",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Accelerator / incubator",
+    "what_you_get": "Up to $1,000 in non-dilutive funding each semester. Also bi-weekly cohort meetups (every other Wednesday, starting in September), expert-led sessions on building, pitching and scaling, early access to visiting VCs and Duke alumni investors, and an invitation to Founders Weekend.",
+    "eligibility": "By invitation only, for early-stage Duke student founders. SimReal: unclear. Amaris would need an invitation from Duke I&E.",
+    "simreal_qualifies": "unclear",
+    "timing": "Cohort meetups start in September. Whether a 2026-27 cohort is running, or still accepts members, is unconfirmed.",
+    "status": "unconfirmed (invitation-only)",
+    "how_to_apply": "https://entrepreneurship.duke.edu/startup-support/launch-early-stage-founders/ (ask Duke I&E about an invitation)",
+    "fit": "Medium",
+    "fit_why": "Early access to visiting VCs and Duke alumni investors helps a live seed raise. The cash is small.",
+    "contacts": [
+      {
+        "name": "Amy Linnane",
+        "role": "Managing Director, Programs (profile page titled 'Managing Director, Co-Curricular Programs'), Duke I&E; runs all co-curricular programming incl. Melissa & Doug Entrepreneurs",
+        "email": "amy.linnane@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/amy-linnane/ and https://careerhub.students.duke.edu/people/amy-linnane/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/amy-linnane/"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/startup-support/launch-early-stage-founders/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Alison Bernstein Venture Activation Fund",
+    "org": "Duke I&E (gift of Alison Bernstein P'26, P'27, P'30)",
+    "segment": "Duke programs",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Support for Duke student founders to access tools, expertise and professional services for their ventures. Amount not found.",
+    "eligibility": "Duke student founders. Detailed criteria not found. SimReal: likely, through Amaris.",
+    "simreal_qualifies": "likely",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/startup-support/funding/ (ask entrepreneurship@duke.edu)",
+    "fit": "Medium",
+    "fit_why": "It could pay for professional services (e.g., legal/accounting for the seed round), but its size and terms are unknown.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)",
+      "https://entrepreneurship.duke.edu/profile/alison-bernstein-p26-p27/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Capital Partners (formerly Duke Angel Network)",
+    "org": "Duke University (part of the Office for Translation & Commercialization since 2022)",
+    "segment": "Duke programs",
+    "category": "Funding: equity",
+    "what_you_get": "Equity investment from Duke's official early-stage venture arm. Average initial investment is $500K-$2M in Seed and Series A rounds, and it also syndicates to Duke-affiliated member investors. In 10 years it has backed about 60 startups with a roughly $105M portfolio. It is industry-agnostic, but avoids long exit cycles and extremely capital-intensive industries.",
+    "eligibility": "A founder, executive or board member must be a Duke alum, faculty, staff, student or parent. The company must be raising seed or Series A equity of $1M-$20M, or syndicating a later-stage round with an institutional lead. It must be headquartered, legally structured, or have a significant presence in the US. Ideally it has an MVP and early validation (revenue or signed pilots). SimReal: likely, since Amaris is a current Duke student and co-founder. It must confirm a US entity or significant US presence and a raise of at least $1M.",
+    "simreal_qualifies": "likely",
+    "timing": "Deal review is on a rolling basis.",
+    "status": "rolling / open",
+    "how_to_apply": "Submit via Seraf from https://dukecapitalpartners.duke.edu/entrepreneurs/ (an application form is also hosted at https://www.sparkxyz.io/applications/1177)",
+    "fit": "High",
+    "fit_why": "It is the only Duke entity that writes seed checks. SimReal meets the Duke-affiliation test through Amaris, and a $1M+ seed round is in range.",
+    "contacts": [
+      {
+        "name": "Duke Capital Partners inbox",
+        "role": "Generic inbox (2812 Erwin Rd Suite 406, Durham NC 27705)",
+        "email": "dukecapitalpartners@duke.edu",
+        "email_source": "https://dukecapitalpartners.duke.edu/contact-2/ (search snippet) (search restricted to dukecapitalpartners.duke.edu)",
+        "profile_url": "https://dukecapitalpartners.duke.edu/contact-2/"
+      },
+      {
+        "name": "Kurt Schmidt",
+        "role": "Managing Director, Duke Capital Partners (since 2019)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://dukecapitalpartners.duke.edu/about/"
+      },
+      {
+        "name": "Daniel Luo",
+        "role": "Assistant Director, Duke Capital Partners",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://dukecapitalpartners.duke.edu/departments/operating-team/"
+      },
+      {
+        "name": "Dr. Cary Ritter",
+        "role": "Senior Assistant Director, Duke Capital Partners",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://dukecapitalpartners.duke.edu/departments/operating-team/"
+      },
+      {
+        "name": "Dave Neal",
+        "role": "Venture Partner, Duke Capital Partners",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://dukecapitalpartners.duke.edu/departments/operating-team/"
+      },
+      {
+        "name": "Stephanie Seghers",
+        "role": "Senior Program Coordinator, Duke Capital Partners",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://dukecapitalpartners.duke.edu/departments/operating-team/"
+      }
+    ],
+    "sources": [
+      "https://dukecapitalpartners.duke.edu/faqs/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/entrepreneurs/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/contact-2/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/news/duke-angel-network-is-now-duke-capital-partners/ (search snippet)",
+      "https://numbers.otc.duke.edu/blog/2022/10/21/duke-capital-partners-joins-the-office-for-translation-commercialization/ (search snippet)",
+      "https://dukecapitalpartners.duke.edu/about/ (search snippet)",
+      "https://dukemag.duke.edu/stories/investing-relationships (search snippet)",
+      "https://today.duke.edu/2025/03/10-years-60-startups-105-million-and-counting-duke-capital-partners-leads-way-alumni (search snippet)",
+      "https://dukecapitalpartners.duke.edu/departments/operating-team/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Duke Capital Partners Associate Program",
+    "org": "Duke Capital Partners",
+    "segment": "Duke programs",
+    "category": "Network / community",
+    "what_you_get": "A two-year training program in which Duke trainees run due diligence on the roughly 1,000 opportunities DCP sees each year, covering sourcing, diligence and closing. More than 130 associates have been trained.",
+    "eligibility": "Duke trainees, typically graduate students. SimReal: no; this is a student job, not support for a company. Associates are a warm path into DCP's deal flow.",
+    "simreal_qualifies": "no",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://dukecapitalpartners.duke.edu/about/",
+    "fit": "Low",
+    "fit_why": "Not funding, but current associates are useful Duke contacts during DCP diligence.",
+    "contacts": [
+      {
+        "name": "Duke Capital Partners inbox",
+        "role": "Generic inbox",
+        "email": "dukecapitalpartners@duke.edu",
+        "email_source": "https://dukecapitalpartners.duke.edu/contact-2/ (search snippet)",
+        "profile_url": "https://dukecapitalpartners.duke.edu/contact-2/"
+      }
+    ],
+    "sources": [
+      "https://dukecapitalpartners.duke.edu/news/student-associate-spotlight-sanjeev-chauhan/ (search snippet)",
+      "https://dukemag.duke.edu/stories/investing-relationships (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Law Start-Up Ventures Clinic (SUVC)",
+    "org": "Duke University School of Law",
+    "segment": "Duke programs",
+    "category": "Legal / IP / services",
+    "what_you_get": "Free legal advice and representation from supervised law students for entrepreneurs and seed/early-stage ventures. Covers company formation, founder equity and vesting, shareholder agreements, IP protection and licensing, commercialization strategy and operational issues.",
+    "eligibility": "North Carolina entrepreneurs with a specific legal matter, who come from Duke's campus, the Triangle and across NC. Ventures should not yet have raised significant outside capital. Clients are selected on their ability to afford market-rate counsel and the clinic's teaching needs. SimReal: unclear. The Duke-campus founder helps, but SimReal must count as an NC client, and a priced seed round may take it out of scope.",
+    "simreal_qualifies": "unclear",
+    "timing": "Applications go live about one month before each semester (August and January). Applications were open for Fall 2026. Spring 2027 intake is expected around December 2026 (inferred from the stated pattern).",
+    "status": "open (Fall 2026) / upcoming (Spring 2027)",
+    "how_to_apply": "https://law.duke.edu/startupventures/ (online application)",
+    "fit": "Medium",
+    "fit_why": "Free help with founder vesting, IP assignment and SAFE/seed documents would save money before the round closes, if SimReal is accepted as an NC client.",
+    "contacts": [
+      {
+        "name": "Bryan McGann",
+        "role": "Clinical Professor of Law; Director, Start-Up Ventures Clinic and Program in Law & Entrepreneurship",
+        "email": "bryan.mcgann@duke.edu",
+        "email_source": "https://law.duke.edu/fac/mcgann (search snippet)",
+        "profile_url": "https://law.duke.edu/fac/mcgann"
+      },
+      {
+        "name": "SUVC clinic inbox",
+        "role": "Generic clinic inbox (phone 919-613-7169)",
+        "email": "suvc@law.duke.edu",
+        "email_source": "https://law.duke.edu/startupventures/contactus/ (search snippet)",
+        "profile_url": "https://law.duke.edu/startupventures/contactus/"
+      }
+    ],
+    "sources": [
+      "https://law.duke.edu/startupventures/about/ (search snippet)",
+      "https://law.duke.edu/startupventures (search snippet)",
+      "https://law.duke.edu/sites/default/files/clinics/start-up/SUVC-FAQ-2024.pdf (search snippet)",
+      "https://law.duke.edu/news/start-ventures-clinic-developing-dreams (search snippet)",
+      "https://law.duke.edu/fac/mcgann (search snippet)",
+      "https://law.duke.edu/startupventures/contactus/ (search snippet)",
+      "https://entrepreneurship.duke.edu/startup-support/funding/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Office for Translation & Commercialization (OTC)",
+    "org": "Duke University",
+    "segment": "Duke programs",
+    "category": "Legal / IP / services",
+    "what_you_get": "Protects Duke-owned IP, licenses technology, launches Duke spinouts and connects researchers to translational funding. Programs include the Gilhuly Accelerator Fund ($10K-$100K grants to help Duke inventors bring ideas to market), Duke New Venture Fellows (MBA students working on Duke spinouts), the Triangle Universities Startup Workshop and the Duke Technology Commercialization Bootcamp. It also houses Duke Capital Partners. About 125 active startups, 11 new in FY25.",
+    "eligibility": "Built around Duke inventors and Duke-owned IP. SimReal: no for the IP and licensing programs, since it has no Duke IP. It is relevant only as the home of Duke Capital Partners and, optionally, to confirm that no Duke IP claim exists (advisable diligence, not a finding).",
+    "simreal_qualifies": "no",
+    "timing": "Not applicable / not found.",
+    "status": "n/a for SimReal",
+    "how_to_apply": "https://otc.duke.edu/",
+    "fit": "Low",
+    "fit_why": "SimReal has no Duke IP. OTC matters only through Duke Capital Partners and its startup workshops.",
+    "contacts": [],
+    "sources": [
+      "https://otc.duke.edu/categories/resources (search snippet)",
+      "https://www.dukevertices.org/blog/dukes-office-of-translation-and-commercialization-turning-ideas-into-reality (search snippet)",
+      "https://research.duke.edu/innovation/ (search snippet)",
+      "https://numbers.otc.duke.edu/blog/2022/10/21/duke-capital-partners-joins-the-office-for-translation-commercialization/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Innovation Co-Lab Innovation Grants (and Roots workshops)",
+    "org": "Duke OIT Innovation Co-Lab",
+    "segment": "Duke programs",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Small seed grants (supported projects average under $1,000) plus one-on-one mentorship, mainly for materials, equipment and components. They cannot pay for stipends, housing, travel, consultants, contract labor, food or entertainment. The Co-Lab's Roots program offers free hands-on tech workshops, live and self-paced, open to anyone at Duke. No grant named 'Ignition' was found.",
+    "eligibility": "Duke students with individual or team extracurricular projects, independent-study projects, or pre-entrepreneurial projects from zero to prototype. SimReal: likely through Amaris, but the grants target prototype-stage projects.",
+    "simreal_qualifies": "likely",
+    "timing": "Rolling, with no fixed deadline.",
+    "status": "rolling",
+    "how_to_apply": "https://colab.duke.edu/grants/",
+    "fit": "Low",
+    "fit_why": "The grants are sub-$1K, for physical materials, and aimed at pre-startup projects. That does little for an AI company raising seed.",
+    "contacts": [
+      {
+        "name": "Michael Faber",
+        "role": "Assistant Director, Duke Innovation Co-Lab",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://colab.duke.edu/about/"
+      }
+    ],
+    "sources": [
+      "https://colab.duke.edu/grants/ (search snippet)",
+      "https://oit.duke.edu/service/innovation-co-labs-roots-program/ (search snippet)",
+      "https://colab.duke.edu/about/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Christensen Family Center for Innovation (CFCI) - Pratt founder support",
+    "org": "Pratt School of Engineering",
+    "segment": "Duke programs",
+    "category": "Fellowship / program",
+    "what_you_get": "Coaching, mentorship and programs for Duke students and alumni building technology ventures: 1:1 coaching, Founders Fridays (monthly open mentoring for student founders, Spring 2026), Duke Product Lab, Pratt Founders, A. James Clark Scholars, and Baquerizo Innovation Grants (see separate entry).",
+    "eligibility": "Duke students and alumni building tech products. Whether non-Pratt students can join every offering is not confirmed. SimReal: likely through Amaris.",
+    "simreal_qualifies": "likely",
+    "timing": "Founders Fridays ran monthly in Spring 2026. The 2026-27 schedule was not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://cfci.pratt.duke.edu/ ; https://pratt.duke.edu/academics/undergrad/entrepreneurship/",
+    "fit": "Medium",
+    "fit_why": "Free technical-product coaching and engineering-founder network suit an AI/RL infrastructure company, though no direct seed money.",
+    "contacts": [
+      {
+        "name": "Steven McClelland",
+        "role": "Executive Director, Christensen Family Center for Innovation",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cfci.pratt.duke.edu/people/"
+      },
+      {
+        "name": "Adria Dunbar",
+        "role": "Managing Director, Christensen Family Center for Innovation (oversees Duke Product Lab and Pratt Founders)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cfci.pratt.duke.edu/people/adria-dunbar-2/"
+      },
+      {
+        "name": "Anna Wilson",
+        "role": "Executive in Residence and Director of Product Lab, CFCI",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cfci.pratt.duke.edu/people/"
+      }
+    ],
+    "sources": [
+      "https://pratt.duke.edu/academics/undergrad/entrepreneurship/ (search snippet)",
+      "https://cfci.pratt.duke.edu/ (search snippet)",
+      "https://cfci.pratt.duke.edu/people/adria-dunbar-2/ (search snippet)",
+      "https://cfci.pratt.duke.edu/staff-and-student-page/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Baquerizo Innovation Grant (BIG) / CFCI GoBig awards",
+    "org": "Pratt School of Engineering - CFCI (funded by the Baquerizo Family)",
+    "segment": "Duke programs",
+    "category": "Funding: non-dilutive",
+    "what_you_get": "Sources disagree on the amounts. One Duke page says up to $20,000 is awarded each year to student-led startups as one-year grants for prototyping and testing. The CFCI GoBig page lists $1,000-$2,000 grants for Duke undergraduates building innovative tech solutions to societal problems, which can reimburse project expenses.",
+    "eligibility": "Duke undergraduate and graduate students. For GoBig, teams must be nominated by advising faculty and complete digital check-ins. Proposals should promise transformative, positive impact on people's lives. SimReal: unclear. It needs a faculty nominator and a social-impact framing.",
+    "simreal_qualifies": "unclear",
+    "timing": "No deadline found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://cfci.pratt.duke.edu/gobig/ ; https://engen.duke.edu/baquerizo-innovation-grant",
+    "fit": "Low",
+    "fit_why": "The awards are small, need faculty nomination and an impact framing, and mainly fund prototypes.",
+    "contacts": [
+      {
+        "name": "Adria Dunbar",
+        "role": "Managing Director, CFCI",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://cfci.pratt.duke.edu/people/adria-dunbar-2/"
+      }
+    ],
+    "sources": [
+      "https://cfci.pratt.duke.edu/gobig/ (search snippet)",
+      "https://engen.duke.edu/baquerizo-innovation-grant (search snippet)",
+      "https://pratt.duke.edu/academics/undergrad/entrepreneurship/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Duke Engineering Entrepreneurship Program (DEEP)",
+    "org": "Duke Biomedical Engineering (Pratt)",
+    "segment": "Duke programs",
+    "category": "Fellowship / program",
+    "what_you_get": "One year of salary support through the first year of a new venture, plus an entrepreneurial advising team, a workshop series (founder stories, IP), BRiDGE 'Just in Time' seminars and pitch-deck preparation.",
+    "eligibility": "Aimed at graduates of Biomedical Engineering doctoral programs starting companies based on their research. SimReal: no.",
+    "simreal_qualifies": "no",
+    "timing": "Application deadline reported as Nov 13, 2026.",
+    "status": "open (closes Nov 13, 2026) - not applicable to SimReal",
+    "how_to_apply": "https://bme.duke.edu/impact/translation/deep/",
+    "fit": "Low",
+    "fit_why": "Limited to BME PhD research ventures.",
+    "contacts": [],
+    "sources": [
+      "https://bme.duke.edu/impact/translation/deep/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Ronald & Carrie Ludwig Duke in Silicon Valley",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Course / training",
+    "what_you_get": "A month-long summer course in which students live in the Bay Area: guest speakers from startups and tech companies, lectures, case studies and simulations on design thinking, prototyping, strategy, negotiation, venture financing, team dynamics and ethics. A separate 'Duke in NYC' entrepreneurship program was not found in searches.",
+    "eligibility": "Duke students (application through Duke I&E/Global Education). SimReal: no direct company benefit, but Amaris personally could attend.",
+    "simreal_qualifies": "likely",
+    "timing": "Info sessions for Summer 2026 were held Dec 4, 2025. Summer 2027 sessions are likely around Dec 2026 (inferred; unconfirmed).",
+    "status": "upcoming (Summer 2027 cycle; unconfirmed)",
+    "how_to_apply": "https://entrepreneurship.duke.edu/programs/duke-silicon-valley/",
+    "fit": "Low",
+    "fit_why": "It is a credit course, not company support, though the month in the Bay Area could produce investor meetings.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/duke-in-silicon-valley/ (search snippet)",
+      "https://entrepreneurship.duke.edu/programs/duke-silicon-valley/ (search snippet)",
+      "https://experiences.duke.edu/event/duke-silicon-valley-summer-2026-info-session-12-04-2025/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke I&E Summer Startup Sprint",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Course / training",
+    "what_you_get": "A free six-week virtual sprint on Zoom, Wednesdays 11:00-12:30 ET, covering customer discovery, problem definition, competition analysis, assumption testing, team building and an action plan. No stipend was found.",
+    "eligibility": "Open to the whole Duke community, including incoming students, current students and alumni. SimReal: yes through Amaris, but the content is idea-stage.",
+    "simreal_qualifies": "yes",
+    "timing": "The 2025 sprint began May 21. Summer 2027 dates were not found.",
+    "status": "upcoming (Summer 2027; unconfirmed)",
+    "how_to_apply": "https://entrepreneurship.duke.edu/programs/summer-startup-sprint/",
+    "fit": "Low",
+    "fit_why": "SimReal is already past the idea stage this sprint covers.",
+    "contacts": [
+      {
+        "name": "Josh Cohen (MBA '07)",
+        "role": "Director of MBA Entrepreneurship Programs and Startup Recruiting, Duke I&E (runs Startup Sprint, Innovators' Spark, ELN application process)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/programs/summer-startup-sprint/ (search snippet)",
+      "https://oie.duke.edu/event/duke-ie-startup-sprint-fast-track-your-idea-impact-05-21-2025/ (search snippet)",
+      "https://entrepreneurship.duke.edu/programs/startup-sprint/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "I&E+ summer experiential program",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Fellowship / program",
+    "what_you_get": "A 10-week summer program that pairs teams of two Duke students with partner startups or local organizations to work on strategic projects using innovation and entrepreneurship methods.",
+    "eligibility": "Duke students are the participants. Partner organizations are described as 'local'. SimReal: unclear. It might host an I&E+ team as a partner startup, but it is not local and the selection criteria were not found.",
+    "simreal_qualifies": "unclear",
+    "timing": "Summer. 2027 timing not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/story/students-learn-lessons-startups-life-inaugural-ie-program/ (ask Duke I&E about hosting)",
+    "fit": "Low",
+    "fit_why": "At most a source of two free summer student analysts. It is not funding.",
+    "contacts": [
+      {
+        "name": "Amy Linnane",
+        "role": "Managing Director, Programs (profile page titled 'Managing Director, Co-Curricular Programs'), Duke I&E; runs all co-curricular programming incl. Melissa & Doug Entrepreneurs",
+        "email": "amy.linnane@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/amy-linnane/ and https://careerhub.students.duke.edu/people/amy-linnane/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/amy-linnane/"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/story/students-learn-lessons-startups-life-inaugural-ie-program/ (search snippet)",
+      "https://interdisciplinary.duke.edu/news/summer-innovation-and-entrepreneurship-through-ie/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke Entrepreneurial Leaders Network (ELN)",
+    "org": "Duke I&E (with OTC and Pratt)",
+    "segment": "Duke programs",
+    "category": "Network / community",
+    "what_you_get": "A selective network of about 100 members (15 inducted in 2026, spanning AI, health tech, deep tech and life sciences). Members get ongoing access to opportunities from Duke I&E, OTC, Pratt and Triangle ventures, invitations to explore Duke IP spinouts, and introductions to Duke founders who need executive talent.",
+    "eligibility": "Duke alumni and current students in their final year who are committed to founding or leading an innovation-driven startup. SimReal: unclear. Amaris qualifies only in her final year, or after she graduates.",
+    "simreal_qualifies": "unclear",
+    "timing": "Annual cohort (2026 cohort announced). The next application window was not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/duke-eln/",
+    "fit": "Medium",
+    "fit_why": "It connects Amaris to high-caliber Duke founders and operators, useful for hiring and investor introductions, once she is in her final year.",
+    "contacts": [
+      {
+        "name": "Josh Cohen (MBA '07)",
+        "role": "Director of MBA Entrepreneurship Programs and Startup Recruiting, Duke I&E (runs Startup Sprint, Innovators' Spark, ELN application process)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/story/duke-eln-announces-new-cohort-2026/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-eln/ (search snippet)"
+    ],
+    "confidence": "High"
+  },
+  {
+    "name": "Duke I&E founder advising hub (Startup Fest, Founders Weekend, staff advising)",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Network / community",
+    "what_you_get": "Duke's central front door for student founders. Duke I&E runs the funding programs above (over $329,000 in non-dilutive prizes and student-founder support funds in FY25), Startup Fest at the start of each semester, Founders Weekend (for LAUNCH founders) and staff advising. No dedicated 'Entrepreneurship Week' was found in searches.",
+    "eligibility": "Duke students, alumni and community. SimReal: yes through Amaris.",
+    "simreal_qualifies": "yes",
+    "timing": "Ongoing. Startup Fest is held at the start of each semester.",
+    "status": "open / ongoing",
+    "how_to_apply": "https://entrepreneurship.duke.edu/startup-support/ ; email entrepreneurship@duke.edu",
+    "fit": "High",
+    "fit_why": "One conversation with I&E staff can route SimReal to the Showcase, Seed Stage Award, LAUNCH, the Bernstein fund and Duke Capital Partners at once.",
+    "contacts": [
+      {
+        "name": "Jamie N. Jones, PhD",
+        "role": "Director, Duke Innovation & Entrepreneurship; Associate Professor of the Practice of Management, Fuqua (former Executive Director, Fuqua CEI)",
+        "email": "jamie.j@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/jamie-jones/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/jamie-jones/"
+      },
+      {
+        "name": "Amy Linnane",
+        "role": "Managing Director, Programs (profile page titled 'Managing Director, Co-Curricular Programs'), Duke I&E; runs all co-curricular programming incl. Melissa & Doug Entrepreneurs",
+        "email": "amy.linnane@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/amy-linnane/ and https://careerhub.students.duke.edu/people/amy-linnane/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/amy-linnane/"
+      },
+      {
+        "name": "Josh Cohen (MBA '07)",
+        "role": "Director of MBA Entrepreneurship Programs and Startup Recruiting, Duke I&E (runs Startup Sprint, Innovators' Spark, ELN application process)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      },
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/startup-support/ (search snippet)",
+      "https://entrepreneurship.duke.edu/about/impact-2025/ (search snippet)",
+      "https://entrepreneurship.duke.edu/story/startup-fest-kicking-semester/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-ie-director-jamie-jones-every-duke-student-is-an-innovator/ (search snippet)",
+      "https://dukechronicle.com/article/duke-university-startup-culture-innovation-and-entrepeneurship-idea-product-seed-risk-reward-drop-out-venture-capital-20260225 (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Fuqua Center for Entrepreneurship and Innovation (CEI) and Fuqua venture programs (incl. Summer E-ternship Awards)",
+    "org": "Duke Fuqua School of Business",
+    "segment": "Duke programs",
+    "category": "Fellowship / program",
+    "what_you_get": "Fuqua's home for entrepreneurship. The New Venture courses (Discover/Develop/Deliver) and the Program for Entrepreneurs (P4E, up to 18 course credits for working on a startup) came out of CEI. The Fuqua Summer E-ternship Awards give grants of up to $6,000 for founders and up to $4,000 for non-market-rate startup internships. Fuqua entrepreneurship is now heavily integrated with Duke I&E: Jamie Jones, formerly CEI Executive Director, now directs Duke I&E, and the MBA kickoffs are run by I&E.",
+    "eligibility": "Mainly MBA students. No undergraduate-eligible Fuqua venture funding was found. SimReal: no, unless an MBA student joins the founding team.",
+    "simreal_qualifies": "no",
+    "timing": "The Fall 2026 MBA entrepreneurship kickoff was Sep 1, 2026. E-ternship timing was not found.",
+    "status": "n/a for SimReal (MBA-focused)",
+    "how_to_apply": "https://centers.fuqua.duke.edu/cei/index.html ; https://entrepreneurship.duke.edu/mba-funding-opportunities/",
+    "fit": "Low",
+    "fit_why": "Its funding is for MBA students. Fuqua's network is reachable through Duke I&E anyway.",
+    "contacts": [
+      {
+        "name": "Jamie N. Jones, PhD",
+        "role": "Director, Duke Innovation & Entrepreneurship; Associate Professor of the Practice of Management, Fuqua (former Executive Director, Fuqua CEI)",
+        "email": "jamie.j@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/profile/jamie-jones/ (search snippet)",
+        "profile_url": "https://entrepreneurship.duke.edu/profile/jamie-jones/"
+      },
+      {
+        "name": "Howie Rhee",
+        "role": "Listed as Managing Director, CEI in search results (date unverified; may be outdated)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      },
+      {
+        "name": "Josh Cohen (MBA '07)",
+        "role": "Director of MBA Entrepreneurship Programs and Startup Recruiting, Duke I&E (runs Startup Sprint, Innovators' Spark, ELN application process)",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "not found"
+      }
+    ],
+    "sources": [
+      "https://centers.fuqua.duke.edu/cei/index.html (search snippet)",
+      "https://www.fuqua.duke.edu/faculty/jamie-jones (search snippet)",
+      "https://entrepreneurship.duke.edu/story/teaching-entrepreneurship-learning-what-matters/ (search snippet)",
+      "https://centers.fuqua.duke.edu/cei/students/extracurricular/index.html (search snippet)",
+      "https://entrepreneurship.duke.edu/mba-funding-opportunities/ (search snippet)",
+      "https://entrepreneurship.duke.edu/event/mba-entrepreneurship-fuqua-kickoff-09-01-2026/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "Duke Deep Tech (Sanford School) - AI/semiconductors/quantum network",
+    "org": "Duke Sanford School of Public Policy",
+    "segment": "Duke programs",
+    "category": "Network / community",
+    "what_you_get": "An interdisciplinary effort bridging research, industry and policy in semiconductors, AI, quantum computing, climate finance and cybersecurity. It hosts founder events such as 'From Duke to OpenAI-Backed Startup: Meet Endex AI CEO Tarun Amasa' (Mar 25, 2026). It is co-led by Ronnie Chatterji, who is OpenAI's chief economist. Not a funder.",
+    "eligibility": "Duke community events. SimReal: likely through Amaris for attendance and networking.",
+    "simreal_qualifies": "likely",
+    "timing": "Event-based. The 2026-27 calendar was not found.",
+    "status": "ongoing",
+    "how_to_apply": "https://deeptech.duke.edu/",
+    "fit": "Medium",
+    "fit_why": "Its AI-industry network, including the OpenAI link and the Endex founder (an AI-for-finance company like SimReal), is relevant to an RL-environments startup.",
+    "contacts": [
+      {
+        "name": "David Hoffman",
+        "role": "Professor of the Practice, Sanford School; Managing Director, Duke Deep Tech",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://deeptech.duke.edu/staff/"
+      },
+      {
+        "name": "Ronnie Chatterji",
+        "role": "Fuqua professor; co-leads Duke Deep Tech; OpenAI chief economist",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://deeptech.duke.edu/staff/"
+      },
+      {
+        "name": "Merritt Cahoon",
+        "role": "Deep Tech Program Coordinator",
+        "email": "not found",
+        "email_source": "not found",
+        "profile_url": "https://deeptech.duke.edu/profile/merritt-cahoon/"
+      }
+    ],
+    "sources": [
+      "https://deeptech.duke.edu/staff/ (search snippet)",
+      "https://deeptech.duke.edu/profile/merritt-cahoon/ (search snippet)",
+      "https://deeptech.duke.edu/event/duke-openai-backed-startup-meet-endex-ai-ceo-tarun-amasa-03-25-2026/ (search snippet)",
+      "https://today.duke.edu/2025/03/duke-partners-openai-other-universities-find-best-uses-ai-research (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "Duke campus AI suite (ChatGPT Edu, Microsoft Copilot, DukeGPT, Anthropic Claude pay-as-you-go)",
+    "org": "Duke OIT / Provost's AI initiative",
+    "segment": "Duke programs",
+    "category": "Credits / perks",
+    "what_you_get": "Individual-use AI tools for students: free ChatGPT access (OpenAI pilot, later ChatGPT Edu), Microsoft Copilot, DukeGPT, and paid consumption-based Claude access under Duke's Anthropic license (Aug 2026). These are personal and academic tools, not startup credits. No Duke-specific startup cloud/AI credit program (AWS, Google Cloud, OpenAI or Anthropic credits through Duke I&E) was found. Searches of Duke I&E funding and support pages surfaced none.",
+    "eligibility": "Duke students, faculty and staff, for university use. SimReal: no, as a company perk.",
+    "simreal_qualifies": "no",
+    "timing": "Fall 2026 tools are live.",
+    "status": "open (personal use only)",
+    "how_to_apply": "https://oit.duke.edu/news/updated-duke-ai-tools-and-upcoming-webinars-fall-2026/",
+    "fit": "Low",
+    "fit_why": "It is not company compute. Startup credits will have to come from vendor startup programs or VC/accelerator partners.",
+    "contacts": [],
+    "sources": [
+      "https://dukechronicle.com/article/duke-university-leans-into-artificial-intelligence-ai-here-are-free-tools-university-offers-chatgpt-dukegpt-gateway-claude-20260814 (search snippet)",
+      "https://dukechronicle.com/article/duke-university-partners-with-anthropic-offers-pay-as-you-go-claude-subscriptions-artificial-intelligence-ai-chatgpt-copilot-20260818 (search snippet)",
+      "https://oit.duke.edu/news/updated-duke-ai-tools-and-upcoming-webinars-fall-2026/ (search snippet)"
+    ],
+    "confidence": "Medium"
+  },
+  {
+    "name": "I&E Undergraduate Certificate",
+    "org": "Duke I&E",
+    "segment": "Duke programs",
+    "category": "Course / training",
+    "what_you_get": "An undergraduate certificate in Innovation & Entrepreneurship, which includes the New Ventures course pathway. Detailed requirements were not retrieved.",
+    "eligibility": "Duke undergraduates. SimReal: Amaris personally, not the company.",
+    "simreal_qualifies": "likely",
+    "timing": "Not found.",
+    "status": "unconfirmed",
+    "how_to_apply": "https://entrepreneurship.duke.edu/education/undergrad-certificate/",
+    "fit": "Low",
+    "fit_why": "An academic credential, though its courses overlap with the New Ventures path to the Seed Stage Award.",
+    "contacts": [
+      {
+        "name": "Duke I&E general inbox",
+        "role": "Generic program inbox (Duke Innovation & Entrepreneurship, 100 Fuqua Drive, Durham NC 27708)",
+        "email": "entrepreneurship@duke.edu",
+        "email_source": "https://entrepreneurship.duke.edu/resource/seed-stage-startup-award/ (search snippet) (search restricted to entrepreneurship.duke.edu)",
+        "profile_url": "https://entrepreneurship.duke.edu/"
+      }
+    ],
+    "sources": [
+      "https://entrepreneurship.duke.edu/education/undergrad-certificate/ (search snippet)",
+      "https://entrepreneurship.duke.edu/courses-certificates/undergraduate-certificate/current-students/ (search snippet)"
+    ],
+    "confidence": "Low"
+  },
+  {
+    "name": "InCube residential incubator",
+    "org": "Duke (student entrepreneurial residential program)",
+    "segment": "Duke programs",
+    "category": "Accelerator / incubator",
+    "what_you_get": "A historical Duke entrepreneurial living community. Tatiana Birgisson developed the Mati beverage there. No current program page, cohort or application was found.",
+    "eligibility": "Not found. SimReal: unclear.",
+    "simreal_qualifies": "unclear",
+    "timing": "Not found.",
+    "status": "unconfirmed (no current information found; may be inactive)",
+    "how_to_apply": "not found",
+    "fit": "Low",
+    "fit_why": "There is no evidence it currently operates.",
+    "contacts": [],
+    "sources": [
+      "https://today.duke.edu/series/studententrepreneurs (search snippet)",
+      "https://www.cbs17.com/news/special-reports/incubator-at-duke-university-empowering-startups-entrepreneurial-dreams/ (search snippet)"
+    ],
+    "confidence": "Low"
+  }
+]
