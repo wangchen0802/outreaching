@@ -1,0 +1,352 @@
+{
+ "people": [
+  {
+   "name": "Wes Barton",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Third Prime",
+   "title_2026": "Co-Founder & General Partner",
+   "location": "Nashville, TN",
+   "still_active_2026": "yes",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/wes-barton (search snippet)",
+    "https://investorconnect.org/investor-connect-wes-barton-of-third-prime/ (search snippet)",
+    "https://www.teknovation.biz/one-of-two-managing-partners-at-third-prime-returns-to-the-region/ (search snippet)",
+    "https://f4.fund/firms/third-prime (search snippet)"
+   ],
+   "duke_degree": "J.D., Duke University School of Law (undergrad: Western Kentucky University 1999)",
+   "duke_grad_year": 2002,
+   "grad_year_basis": "stated: J.D. from Duke Law in 2002",
+   "duke_sources": [
+    "https://investorconnect.org/investor-connect-wes-barton-of-third-prime/ (search snippet)",
+    "https://signal.nfx.com/investors/wes-barton (search snippet)",
+    "https://gnpca.org/wes-barton (search snippet)"
+   ],
+   "stage_focus": "Seed; often leads; typical checks $1M-$5M",
+   "sectors": "Fintech, proptech",
+   "bio": "Co-founder and General Partner of Third Prime, a seed fund backing fintech and proptech companies. Previously ~9 years at Trimaran Capital Partners, investment banking at Bank of America and M&A law at Skadden. Moved to Nashville during COVID.",
+   "relevant_investments": "Limited (enterprise banking across crypto and fiat): Third Prime co-led $18.5M seed with North Island Ventures, The House Fund and Collab+Currency; extended seed reported Sep 2026. Third Prime made 9 new investments in the prior 12 months (2025 profile).",
+   "investment_sources": [
+    "https://cryptorank.io/insights/deals/limited-extended-seed-2026-09-25 (search snippet)",
+    "https://www.kucoin.com/news/flash/limited-completes-18-5m-seed-round-led-by-third-prime-and-others (search snippet)",
+    "https://www.thesaasnews.com/news/limited-raises-18-5m-seed/ (search snippet)",
+    "https://f4.fund/firms/third-prime (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/wes-barton-35a8455/",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "High",
+   "fit_reason": "Decision-making GP at a seed fund focused on fintech that led/co-led a crypto-and-fiat banking seed round in 2026.",
+   "hook": "Your fund Third Prime co-led Limited's $18.5M seed this year; we build Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+   "hook_sources": [
+    "https://cryptorank.io/insights/deals/limited-extended-seed-2026-09-25 (search snippet)"
+   ],
+   "confidence": "High"
+  },
+  {
+   "name": "Shaan Puri",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Shaan's All Access Fund (AngelList rolling fund) / Angel investor",
+   "title_2026": "Angel investor and rolling-fund manager; co-founder & chairman, Milk Road; podcast host (My First Million)",
+   "location": "San Francisco, CA",
+   "still_active_2026": "yes",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/shaan-puri (search snippet)",
+    "https://sacra.com/p/shaan-puri-myfirstmillion-interview/ (search snippet)",
+    "https://www.vcsheet.com/who/shaan-puri (search snippet)",
+    "https://www.crunchbase.com/person/shaan-puri (search snippet)"
+   ],
+   "duke_degree": "Bachelor's (Biology and Chemistry), Duke University",
+   "duke_grad_year": 2010,
+   "grad_year_basis": "stated on bio pages (2010); Duke calendar listing for a 2014 talk says 'He graduated from Duke 4 years ago'",
+   "duke_sources": [
+    "https://calendar.duke.edu/show?fq=id:CAL-8a0870ee-48dba843-0148-e6165a07-000055cedemobedework@mysite.edu (search snippet)",
+    "https://www.michelegargiulo.com/blog/shaan-puri-biography-my-first-million (search snippet)"
+   ],
+   "stage_focus": "Angel and rolling fund; seed through Series A angel checks; ~20-25 investments a year",
+   "sectors": "Generalist tech, consumer, internet",
+   "bio": "Duke graduate (2010) who angel-invests about 20-25 startups a year and raised a $4M+ AngelList rolling fund from his podcast and Twitter audience. Co-hosts My First Million; co-founder and chairman of Milk Road.",
+   "relevant_investments": "Gumloop (Series A, Jan 2025, $17M); Viktor (Series A, May 2026, $75M); Hone Health (Series A, Jan 2025); earlier seed: Forum (Nov 2023). Sector of Viktor not verified.",
+   "investment_sources": [
+    "https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)",
+    "https://tracxn.com/d/people/shaan-puri/__Mii6DHoQCTTsGnrv7vbm_7l6yQVyAL5AsK_FjAt_QC0 (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "Very active generalist angel with own capital and a rolling fund, 2025-2026 deals verified; no verified AI-infra or trading focus, and recent tracked checks are Series A.",
+   "hook": "You turned your podcast audience into a $4M rolling fund after Duke; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.",
+   "hook_sources": [
+    "https://sacra.com/p/shaan-puri-myfirstmillion-interview/ (search snippet)"
+   ],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Zach Perret",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Angel investor (CEO & Co-Founder, Plaid)",
+   "title_2026": "CEO & Co-Founder, Plaid; angel investor",
+   "location": "not found",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://www.crunchbase.com/person/zach-perret (search snippet)",
+    "https://www.clay.com/dossier/plaid-ceo (search snippet)"
+   ],
+   "duke_degree": "B.S., Chemistry and Biology, Duke University",
+   "duke_grad_year": null,
+   "grad_year_basis": "Year not stated in any captured snippet. Treated as pre-2018 from career: he co-founded Plaid and was already listed among top fintech CEOs in 2021 (thefinancialtechnologyreport.com). Verify the year before outreach.",
+   "duke_sources": [
+    "https://www.clay.com/dossier/plaid-ceo (search snippet)",
+    "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet)"
+   ],
+   "stage_focus": "Angel checks, seed through Series B",
+   "sectors": "Fintech, enterprise applications",
+   "bio": "Co-founder and CEO of Plaid with a Duke B.S. in Chemistry and Biology. Angel investor in 12 companies focused on fintech and enterprise applications.",
+   "relevant_investments": "Fragment (seed, Jul 2024); Comulate (Series B, Feb 2025). 12 companies total per Tracxn.",
+   "investment_sources": [
+    "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet)",
+    "https://tracxn.com/d/people/zachary-perret/__9A5YE7AlJbdc4YibrNG56K6Z6aPPsjpCaBjBIXQwcQE (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "Fintech-infrastructure founder who angel-invests in fintech, but activity is small (12 deals) and the latest verified check (Feb 2025) is a Series B; no 2026 deal found.",
+   "hook": "You co-founded Plaid and angel-invested in Fragment and Comulate; we're a Duke-linked quant team building Xitadel, an RL trading environment for LLM post-training.",
+   "hook_sources": [
+    "https://www.crunchbase.com/person/zach-perret (search snippet)",
+    "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet)"
+   ],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Danny Hadar",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Jibe Ventures",
+   "title_2026": "Co-Founder & Managing Partner",
+   "location": "London Area, United Kingdom",
+   "still_active_2026": "yes",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/danny-hadar (search snippet)",
+    "https://finder.startupnationcentral.org/investor_page/jibe-ventures (search snippet)",
+    "https://tracxn.com/d/venture-capital/jibe-ventures/__KX8QyQlcZd8bis1Ei-S99ihYQbGWtYe5VeLk27nLFOY (search snippet)",
+    "https://www.linkedin.com/in/dannyhadar/ (search snippet)"
+   ],
+   "duke_degree": "MBA, Duke University Fuqua School of Business",
+   "duke_grad_year": 2007,
+   "grad_year_basis": "stated: Fuqua MBA 2005-2007",
+   "duke_sources": [
+    "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)",
+    "https://angel.co/p/danny-hadar (search snippet)"
+   ],
+   "stage_focus": "Pre-seed, seed, seed+; earlier personal angel checks $25K-$200K",
+   "sectors": "Israeli founders; AI, cybersecurity, healthcare, fintech, enterprise",
+   "bio": "Fuqua MBA (2007) who co-founded Jibe Ventures in 2020 to back Israeli founders at pre-seed and seed. Before that, a serial entrepreneur and angel with 20+ seed investments including Snyk and Bonobo, and a managing director at Fosun RZ Capital.",
+   "relevant_investments": "Jibe: led Fabrix Security $8M seed (Sep 2025); Notch.cx $7M seed (Oct 2025); 6 investments in 2025 and 3 by Mar 2026. Personal angel: Snyk (early seed, year not stated).",
+   "investment_sources": [
+    "https://tracxn.com/d/venture-capital/jibe-ventures/__KX8QyQlcZd8bis1Ei-S99ihYQbGWtYe5VeLk27nLFOY (search snippet)",
+    "https://signal.nfx.com/investors/danny-hadar (search snippet)",
+    "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/dannyhadar/",
+   "x_url": "https://x.com/dannyhadar",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "Decision-making MP at an active pre-seed/seed fund investing in AI and cyber, but the fund backs Israeli founders, which SimReal is not.",
+   "hook": "You co-founded Jibe Ventures after a Fuqua MBA and an early check into Snyk; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.",
+   "hook_sources": [
+    "https://finder.startupnationcentral.org/investor_page/jibe-ventures (search snippet)",
+    "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)"
+   ],
+   "confidence": "High"
+  },
+  {
+   "name": "Adam Besvinick",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Looking Glass Capital",
+   "title_2026": "Founder & Managing Partner",
+   "location": "New York, NY",
+   "still_active_2026": "yes",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/adam-besvinick (search snippet)",
+    "https://www.crunchbase.com/person/adam-besvinick (search snippet)",
+    "https://theorg.com/org/lookingglass/org-chart/adam-besvinick (search snippet)",
+    "https://lookingglass.vc/team/ (search snippet)"
+   ],
+   "duke_degree": "B.A., Public Policy Studies, Duke University (cum laude); MBA Harvard Business School",
+   "duke_grad_year": 2009,
+   "grad_year_basis": "stated: graduated cum laude from Duke in 2009",
+   "duke_sources": [
+    "https://theorg.com/org/lookingglass/org-chart/adam-besvinick (search snippet)",
+    "https://signal.nfx.com/investors/adam-besvinick (search snippet)"
+   ],
+   "stage_focus": "Pre-seed and seed; leads or co-leads; initial checks $300K-$400K",
+   "sectors": "Health, climate, empowerment (mission-driven founders)",
+   "bio": "Duke public-policy graduate (2009) and HBS MBA who founded Looking Glass Capital in 2020, a New York pre-seed/seed fund that aims to be the 'first yes'. Earlier an angel via the Looking Glass Syndicate, at Anchorage Capital and Deep Fork Capital, and a Jefferies telecom banker.",
+   "relevant_investments": "Trially AI (seed, Sep 2025); Titan Intake (seed, May 2025); led Simuhealth $1.9M pre-seed (Dec 2025); Kaavio (pre-seed, May 2026). No fintech or trading deals found.",
+   "investment_sources": [
+    "https://tracxn.com/d/venture-capital/looking-glass-capital/__6UpEtA-vjkZBBSQUN-BKir2k_Uk25js2MnnOHnPZUcw (search snippet)",
+    "https://pitchbook.com/profiles/investor/454782-70 (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found (fund site lookingglass.vc)",
+   "linkedin_url": "https://www.linkedin.com/in/besvinick/",
+   "x_url": "https://x.com/LookingGlassCap",
+   "personal_site": "https://lookingglass.vc",
+   "fit": "Low",
+   "fit_reason": "Active pre-seed lead with 2025-2026 deals, but the thesis is health, climate and empowerment, not AI infrastructure or fintech.",
+   "hook": "You founded Looking Glass to be the first yes for founders and led Simuhealth's pre-seed in 2025; we're a Duke-linked quant team building RL environments for LLM post-training.",
+   "hook_sources": [
+    "https://investorconnect.org/investor-connect-adam-besvinick-of-looking-glass-capital/ (search snippet)",
+    "https://tracxn.com/d/venture-capital/looking-glass-capital/__6UpEtA-vjkZBBSQUN-BKir2k_Uk25js2MnnOHnPZUcw (search snippet)"
+   ],
+   "confidence": "High"
+  },
+  {
+   "name": "Ashley Brasier",
+   "include": false,
+   "exclude_reason": "No verified angel deal in 2025-2026; latest named deal is boam.ai seed (Dec 2022). Signal lists her as an active angel ($10K-$100K), so recheck if a recent deal turns up.",
+   "firm": "Angel investor (Faire)",
+   "title_2026": "Head of AI Enablement & Principal PM, Faire; angel investor and advisor",
+   "location": "not found",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/ashley-brasier (search snippet)",
+    "https://www.linkedin.com/in/ashleybrasier/ (search snippet)"
+   ],
+   "duke_degree": "B.A., Duke University (MBA Stanford GSB 2018)",
+   "duke_grad_year": 2012,
+   "grad_year_basis": "stated: B.A. 2012",
+   "duke_sources": [
+    "https://www.crunchbase.com/person/ashley-brasier (search snippet)",
+    "https://signal.nfx.com/investors/ashley-brasier (search snippet)"
+   ],
+   "stage_focus": "Pre-seed and seed; $10K-$100K, sweet spot $50K",
+   "sectors": "Consumer internet, enterprise",
+   "bio": "Duke B.A. (2012) and Stanford MBA, now leading AI enablement at Faire after roles at Lightspeed, Thumbtack and Bain. Lists herself as an angel investor and advisor.",
+   "relevant_investments": "boam.ai (seed, Dec 2022); CleanCo (seed, Jan 2020). No 2025-2026 deal found.",
+   "investment_sources": [
+    "https://startupintros.com/people/ashley-brasier (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/ashleybrasier/",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "AI-enablement operator angel in enterprise, but no recent verified checks.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Shep Moyle",
+   "include": false,
+   "exclude_reason": "Long-time angel and Duke Capital Partners investor, but no named deals found and Duke degree type/year not stated in snippets.",
+   "firm": "Angel investor; Senior Lecturing Fellow, Duke I&E (Fuqua)",
+   "title_2026": "Senior Lecturing Fellow, Duke Innovation & Entrepreneurship; angel investor",
+   "location": "Durham, NC",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)",
+    "https://sellsidegroup.com/leadership/shep-moyle (search snippet)"
+   ],
+   "duke_degree": "Duke alumnus (former Duke Alumni Association president and trustee; 2018 Charles A. Dukes Award); degree not stated",
+   "duke_grad_year": null,
+   "grad_year_basis": "not stated",
+   "duke_sources": [
+    "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)"
+   ],
+   "stage_focus": "Angel",
+   "sectors": "Digital retail, e-commerce, consumer",
+   "bio": "Scaled family business Shindigz into a major party-supplies e-retailer, has angel-invested for 30+ years, and invests through Duke Capital Partners. Teaches entrepreneurship at Duke.",
+   "relevant_investments": "none found",
+   "investment_sources": [],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/shep-moyle-13b37a43/",
+   "x_url": "https://x.com/shepmoyle",
+   "personal_site": "",
+   "fit": "Low",
+   "fit_reason": "Consumer/e-commerce background; no AI or fintech deals found.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Dylan Smith",
+   "include": false,
+   "exclude_reason": "Duke economics graduate and Box co-founder/CFO; angel record is thin (4 companies) with the latest deal in Jan 2023, so no 2025-2026 activity.",
+   "firm": "Box",
+   "title_2026": "Co-Founder & CFO, Box",
+   "location": "not found",
+   "still_active_2026": "no",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://www.box.com/events/cards/resource/57781?resource_id=DylanSmith-57781 (search snippet)"
+   ],
+   "duke_degree": "B.A., Economics, Duke University",
+   "duke_grad_year": null,
+   "grad_year_basis": "not stated; co-founded Box in 2005 while in college",
+   "duke_sources": [
+    "https://en.wikipedia.org/wiki/Dylan_Smith_(businessman) (search snippet)"
+   ],
+   "stage_focus": "Occasional angel",
+   "sectors": "Enterprise applications, enterprise infrastructure",
+   "bio": "Co-founded Box with Aaron Levie in 2005 while at Duke and is its CFO. Has angel-invested in four companies.",
+   "relevant_investments": "Inscribe (Series B, Jan 2023); Judicata (angel, 2012). No 2025-2026 deal found.",
+   "investment_sources": [
+    "https://tracxn.com/d/people/dylan-smith/__FhHVuMGojwZrJJP5PYVf32Mh1e_Kgr9YtF_HApRi8SI (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Low",
+   "fit_reason": "Infrequent angel with no recent activity.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  }
+ ],
+ "checked_not_qualifying": [
+  "Jeremy Cotter (AngelList syndicate lead who 'studied at Duke'; degree/year unverified; YouRise fund is brain-health focused, no AI-infra/fintech deals found)",
+  "David Cheong (Duke B.A.; was Antler's head of executive talent, joined Brunswick Group in 2024 as partner for senior hiring; not investing)",
+  "Bill Clerico (not Duke: Boston College CS; Convective Capital is wildfire tech)",
+  "Willa Townsend (T'15 B'23; former DCP associate now at Thrive Capital; not a seed decision-maker, no own angel deals found)",
+  "Shayon Saleh (former DCP Lead MBA Associate turned DCP investor member; recent MBA, no named deals)",
+  "Will Tonelli (Duke '23; too recent; AIN Ventures fellow)",
+  "Sanyin Siang (Duke Coach K Center ED tagged as angel on CB Insights; Duke degree and deals not verified, not searched further)"
+ ],
+ "searches_used": 45,
+ "coverage_notes": "Duke Capital Partners 'Investor Spotlight' searches surfaced only people already known (Deb Liu, Ruby Grewal, Trevor Kiviat). Fetching dukecapitalpartners.duke.edu and venture.angellist.com is blocked. Searches on angel groups (Triangle Angel Partners, Carolina Angel Network, Golden Seeds, 37 Angels, Pipeline Angels, NY Angels, Band of Angels, Keiretsu, Tech Coast Angels, Hyde Park Angels, Atlanta Tech Angels, Gaingels) and women-angel searches named no Duke alumni in snippets. Signal NFX and vcsheet searches mostly returned known people. Productive routes: a site search of AngelList syndicates (Hadar, Besvinick, Cotter), vcsheet (Wes Barton) and memory-prompted operator angels (Shaan Puri, Zach Perret). Open items: Zach Perret's Duke graduation year, and Shaan Puri's 2026 deal sectors."
+}

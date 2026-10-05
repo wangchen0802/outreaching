@@ -1,0 +1,184 @@
+{
+ "people": [
+  {
+   "name": "Shaan Puri",
+   "include": true,
+   "exclude_reason": "",
+   "firm": "Shaan's All Access Fund (rolling fund) / Angel investor",
+   "title_2026": "Founder / GP, All Access Fund; angel investor; co-founder and chairman, Milk Road",
+   "location": "San Francisco, CA (per investor-database snippet; not independently confirmed)",
+   "still_active_2026": "yes",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://signal.nfx.com/investors/shaan-puri (search snippet)",
+    "https://sacra.com/p/shaan-puri-myfirstmillion-interview/ (search snippet)",
+    "https://www.crunchbase.com/person/shaan-puri (search snippet)",
+    "https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)"
+   ],
+   "duke_degree": "BS Biology (minor in Chemistry), Duke University",
+   "duke_grad_year": 2010,
+   "grad_year_basis": "Bio pages state he attended Duke 2006-2010 and graduated with a BS in Biology in 2010; no official Duke page seen.",
+   "duke_sources": [
+    "https://www.michelegargiulo.com/blog/shaan-puri-biography-my-first-million (search snippet)",
+    "https://businessmenstory.com/shaan-puri/ (search snippet)",
+    "https://www.openalmanac.org/w/founders-inc/shaan-puri (search snippet)"
+   ],
+   "stage_focus": "Angel and rolling-fund checks; Tracxn lists 2025 participation in Series A rounds",
+   "sectors": "Generalist: enterprise applications, fintech, health, AI tools (Tracxn sector tags)",
+   "bio": "Duke BS Biology (2010). Former CEO of Bebo, which Twitch acquired; co-host of My First Million and co-founder/chairman of Milk Road. Runs Shaan's All Access Fund, a rolling fund raised off his podcast audience; Tracxn lists 2025 angel deals in Gumloop, Hone Health and Superpower.",
+   "relevant_investments": "Gumloop (AI workflow/agent automation), Series A, Jan 2025 (per Tracxn). Other 2025 deals are health (Hone Health, Superpower). No trading or quant deals found.",
+   "investment_sources": [
+    "https://tracxn.com/d/people/shaan-puri/__Mii6DHoQCTTsGnrv7vbm_7l6yQVyAL5AsK_FjAt_QC0 (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "Active Duke-alum angel and rolling-fund GP with 2025 AI-tooling exposure (Gumloop). Overall a generalist with a heavy consumer and health tilt, with no trading or ML-infra focus.",
+   "hook": "You backed Gumloop's 2025 round to put AI agents to work; we build the RL environments and verifiers that make the models behind such agents reliably expert, starting with trading.",
+   "hook_sources": [
+    "https://tracxn.com/d/people/shaan-puri/__Mii6DHoQCTTsGnrv7vbm_7l6yQVyAL5AsK_FjAt_QC0 (search snippet)"
+   ],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Lyndsay Lyle",
+   "include": false,
+   "exclude_reason": "No verified angel or seed checks in 2025-26. Skyline Capital is a family office (Ketchum, ID). The only seed deals found (Traini, May 2024; XRUN, June 2022, PitchBook snippet) may belong to a different 'Skyline Capital'.",
+   "firm": "Skyline Capital (family office)",
+   "title_2026": "Managing Partner",
+   "location": "Ketchum, Idaho (firm location)",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://www.spurfoundation.org/lyndsay-lyle (search snippet)",
+    "https://www.linkedin.com/in/lyndsay-lyle-15a7602/ (search snippet)",
+    "https://pitchbook.com/profiles/investor/431677-27 (search snippet)"
+   ],
+   "duke_degree": "BS Biology, Duke University (Trinity); MBA Harvard Business School",
+   "duke_grad_year": 2003,
+   "grad_year_basis": "Duke I&E International Women's Day 2024 spotlight names her 'Lyndsay Lyle '03'.",
+   "duke_sources": [
+    "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+    "https://www.spurfoundation.org/lyndsay-lyle (search snippet)"
+   ],
+   "stage_focus": "Family office investing in public and private high-growth technology companies; some seed deals attributed to a 'Skyline Capital'",
+   "sectors": "Technology (generalist)",
+   "bio": "Duke BS Biology '03 and HBS MBA. Managing Partner of Skyline Capital, a family office investing in high-growth tech businesses. Formerly YouTube's Director of User Operations, with earlier roles at Google, Williams-Sonoma and BCG. Sits on Duke's Board of Visitors and is a Trinity Board member and DTech Alumnae Executive Sponsor.",
+   "relevant_investments": "none found",
+   "investment_sources": [
+    "https://pitchbook.com/profiles/investor/431677-27 (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/lyndsay-lyle-15a7602/",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Low",
+   "fit_reason": "Duke-engaged decision maker at a tech-focused family office, but no AI, data, fintech or recent seed activity verified.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Gautam Bazaz",
+   "include": false,
+   "exclude_reason": "No named angel or seed deals found for 2025-26. Current public role is mainly health-sector convening (Global Health Forum CEO).",
+   "firm": "Amarnath Partners",
+   "title_2026": "Founder & Managing Partner (CEO)",
+   "location": "Philadelphia, PA",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://www.crunchbase.com/person/gautam-bazaz (search snippet)",
+    "https://www.globehealer.com/team/gautam-bazaz-mba/ (search snippet)",
+    "https://www.amarnathpartners.com/ (search snippet)"
+   ],
+   "duke_degree": "MBA, Duke Fuqua",
+   "duke_grad_year": 2009,
+   "grad_year_basis": "A Duke Capital Partners page lists him as 'Gautam Bazaz MBA'09' (the exact DCP page was not shown in the result).",
+   "duke_sources": [
+    "https://dukecapitalpartners.duke.edu/ (search snippet)",
+    "https://www.globehealer.com/team/gautam-bazaz-mba/ (search snippet)"
+   ],
+   "stage_focus": "Unclear; described as an investor and adviser to entrepreneurs",
+   "sectors": "Health, technology, financial",
+   "bio": "Fuqua MBA '09 and Carnegie Mellon graduate. Founder of Amarnath Partners, a Philadelphia investment and advisory firm. Described as an experienced investor in health, technology and financial companies, previously at Vanguard, J.P. Morgan and Booz Allen. Also CEO of Global Health Forum.",
+   "relevant_investments": "none found",
+   "investment_sources": [],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/gautam-bazaz/",
+   "x_url": "https://x.com/gautambazaz",
+   "personal_site": "https://www.amarnathpartners.com/",
+   "fit": "Low",
+   "fit_reason": "Health-centred investor/adviser with no verified early-stage AI or fintech checks.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Low"
+  },
+  {
+   "name": "Shep Moyle",
+   "include": false,
+   "exclude_reason": "Duke degree type and year not stated in the sources seen, and no named 2025-26 angel deals. Focus is e-commerce and retail, which is off-angle.",
+   "firm": "Angel investor",
+   "title_2026": "Senior Lecturing Fellow, Duke Fuqua I&E program; angel investor",
+   "location": "Durham, NC",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)",
+    "https://sellsidegroup.com/leadership/shep-moyle (search snippet)",
+    "https://www.moylepartners.com/wp-content/uploads/2022/08/Shep-Moyle.pdf (search snippet)"
+   ],
+   "duke_degree": "Duke alumnus (former President of the Duke Alumni Association and Duke Trustee); degree not stated in the sources seen",
+   "duke_grad_year": null,
+   "grad_year_basis": "Not found",
+   "duke_sources": [
+    "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)"
+   ],
+   "stage_focus": "Angel",
+   "sectors": "E-commerce, retail, CPG",
+   "bio": "Angel investor for over 30 years, an investor in Duke Capital Partners and a former Duke Angel Network member. Grew the family business Shindigz into a major party-supplies retailer. Teaches entrepreneurship at Fuqua and has served as a Duke Trustee and President of the Duke Alumni Association.",
+   "relevant_investments": "none found",
+   "investment_sources": [],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/shep-moyle-13b37a43/",
+   "x_url": "https://x.com/shepmoyle",
+   "personal_site": "",
+   "fit": "Low",
+   "fit_reason": "Consumer and e-commerce angel; no AI, data or fintech deals found.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Low"
+  }
+ ],
+ "checked_not_qualifying": [
+  "Jack Altman (Princeton '11, not Duke; now a Benchmark GP after Alt Capital) - https://en.wikipedia.org/wiki/Jack_Altman_(investor) (search snippet)",
+  "Tomasz Tunguz (Theory Ventures; Dartmouth, not Duke) - https://www.crunchbase.com/person/tomasz-tunguz (search snippet)",
+  "Casey Caruso (Topology Ventures; Lehigh and Harvard, not Duke) - https://cointelegraph.com/news/ex-paradigm-casey-caruso-laucnhes-vc-topology (search snippet)",
+  "Sarah Smith (Sarah Smith Fund solo GP; Stanford GSB and UW-Madison, not Duke) - https://signal.nfx.com/investors/sarah-smith (search snippet)",
+  "Alana Goyal (Basecase Capital; Columbia, not Duke) - https://www.linkedin.com/in/alanagoyal/ (search snippet)",
+  "Nasir Qadree (Zeal Capital Partners; Hampton University, not Duke) - https://www.kauffmanfellows.org/fellows/nasir-qadree (search snippet)",
+  "Steven Rosenblatt (Oceans Ventures; University of Michigan, no Duke link) - https://signal.nfx.com/investors/steven-rosenblatt (search snippet)",
+  "Rohit Bodas (Propel Venture Partners; Kellogg MBA, no Duke link found) - https://www.bloomberg.com/profile/person/19134931 (search snippet)",
+  "Gordon Tsui (Root and Shoot Ventures; no Duke link found) - https://signal.nfx.com/investors/gordon-tsui (search snippet)",
+  "John Vrionis (Unusual Ventures; Harvard/Chicago/Stanford, not Duke) - https://www.unusual.vc/team/john-vrionis/ (search snippet)",
+  "Eric Paley and David Frankel (Founder Collective; Dartmouth/HBS and Wits/HBS, not Duke) - https://en.wikipedia.org/wiki/Founder_Collective (search snippet)",
+  "Bobby Sharma ('95, Law '98; Bluestone Equity Partners is sports/media private equity, not seed) - https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)",
+  "Charles Ayres (Duke BA; Trilantic Capital Partners, buyout PE) - https://en.wikipedia.org/wiki/Charles_Ayres (search snippet)",
+  "Ian Li ('11 BME; VP at 1315 Capital, healthcare growth equity, not a decision-making seed role) - https://dukecapitalpartners.duke.edu/ (search snippet)",
+  "Max Hodak (BME '12; founder/CEO of Science Corp, no angel activity surfaced) - https://dukecapitalpartners.duke.edu/ (search snippet)",
+  "Tony Chen (Fuqua MBA student blog, 2021; graduated after 2018) - https://blogs.fuqua.duke.edu/duke-mba/2021/05/27/tony-chen/leveraging-my-fuqua-network-landed-me-a-career-in-venture-capital (search snippet)",
+  "Ruya Ventures (Rick Hao), Tenzin Seldon, Fellows Fund (Alex Ren, JC Mao, Lucas Sheiner), LDV Capital (Evan Nisselson): came up in Duke-keyword searches, but no Duke degree appeared in the snippets; not pursued"
+ ],
+ "searches_used": 45,
+ "coverage_notes": "Angle: Duke-alum emerging managers, solo GPs and micro-VC / pre-seed funds. This space looks largely covered already. Almost every generic Duke + fund-launch query (solo GP, debut fund, first close, Signal NFX, VC Lab, Kauffman, Fuqua and Duke Law GP, Duke I&E news, the DCP investor spotlights, the IWD 2024 Duke women list) returned only known people: Kevin King, the Front Porch trio, Greg Baker, Jason Fernandez, Grant Newlin, Lori Cashman, Cassie Young, Katelyn Donnelly, Kerstin Dittmar, Lindy Fishburne, Lisa Blau, Sydney Thomas, Logan Allin, Ted Wang, David Beisel, Dan Levitan, Salman Azhar, Deb Liu, Sergey Khusnetdinov, Nikhil Mittal (BlueRidge) and Ruby Grewal. Name checks on well-known AI and fintech solo GPs and emerging managers (Altman, Tunguz, Caruso, Sarah Smith, Goyal, Qadree, Rosenblatt) all turned out non-Duke. WebFetch was blocked for signal.nfx.com, entrepreneurship.duke.edu, masters.pratt.duke.edu and en.wikipedia.org, so everything rests on search snippets. Leads not resolved: (1) the Duke Pratt MEng FinTech advisory board page (https://masters.pratt.duke.edu/fintech/advisory-board/) likely lists Duke fintech investors but could not be read; (2) Packy McCormick (Not Boring Capital), Ross Fubini (XYZ VC) and Nik Milanovic (Fintech Fund) were searched together but the result was inconclusive, so their schools are unverified and they are NOT ruled out; (3) Harry Landis (Clara Vista Partners / TIA Ventures) and Vee Zhu appeared in a Duke/Fuqua result but were not checked. The 45-call budget includes one call rejected by the API for a disallowed domain; two calls also ran several internal sub-searches."
+}

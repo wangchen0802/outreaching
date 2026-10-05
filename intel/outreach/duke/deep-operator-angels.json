@@ -1,0 +1,529 @@
+{
+  "people": [
+    {
+      "name": "Naveen Rao",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (also co-founder & CEO, Unconventional AI)",
+      "title_2026": "Co-founder & CEO, Unconventional AI; angel investor",
+      "location": "not verified",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://yespress.io/naveen-rao (search snippet)",
+        "https://siliconvalleyinvestclub.com/companies/unconventional/team/naveen-rao/ (search snippet)",
+        "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/ (search snippet)",
+        "https://www.cbinsights.com/investor/naveen-rao (search snippet)"
+      ],
+      "duke_degree": "BS, Electrical Engineering and Computer Science (Pratt)",
+      "duke_grad_year": 1997,
+      "grad_year_basis": "Stated: BS in EE and CS from Duke in 1997",
+      "duke_sources": [
+        "https://yespress.io/naveen-rao (search snippet)",
+        "https://aiwiki.ai/wiki/naveen_rao (search snippet)"
+      ],
+      "stage_focus": "Angel, seed (latest angel check a seed round, Jan 2026)",
+      "sectors": "AI compute and infrastructure, AI for science/biology",
+      "bio": "Co-founded Nervana (sold to Intel for over $400M) and MosaicML (acquired by Databricks for $1.3B, where he became VP of Generative AI). In 2025 he launched Unconventional AI, which disclosed a $475M seed led by Lightspeed and a16z in December 2025. He has made six angel investments.",
+      "relevant_investments": "Topos Bio (seed, Jan 8 2026; angel); 6 angel investments in total per CB Insights snippet",
+      "investment_sources": [
+        "https://www.cbinsights.com/investor/naveen-rao (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "High",
+      "fit_reason": "Built two AI-training infrastructure companies (Nervana, MosaicML) and writes angel seed checks as recently as Jan 2026; he knows the model-training and post-training stack SimReal sells into.",
+      "hook": "You built MosaicML to make training large models cheaper and more efficient; we build RL environments and verifiers that make post-training those models measurably better, starting with trading.",
+      "hook_sources": [
+        "https://yespress.io/naveen-rao (search snippet)",
+        "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/ (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Howie Liu",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (co-founder & CEO, Airtable)",
+      "title_2026": "Co-founder & CEO, Airtable; angel investor",
+      "location": "not verified",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://signal.nfx.com/investors/howie-liu (search snippet)",
+        "https://www.clay.com/dossier/airtable-ceo (search snippet)",
+        "https://www.taskade.com/blog/history-of-airtable (search snippet)"
+      ],
+      "duke_degree": "BS, Mechanical Engineering and Public Policy (attended 2005-2009)",
+      "duke_grad_year": 2009,
+      "grad_year_basis": "Stated: attended Duke 2005-2009",
+      "duke_sources": [
+        "https://www.clay.com/dossier/airtable-ceo (search snippet)",
+        "https://yespress.io/howie-liu (search snippet)"
+      ],
+      "stage_focus": "Angel, seed to Series B",
+      "sectors": "AI infrastructure and AI applications, software",
+      "bio": "Co-founder and CEO of Airtable, a unicorn serving over 450,000 organizations, which launched its Superagent AI agent in January 2026. Signal lists him as an angel; he has backed 17 startups, mostly AI and software, including Fireworks AI and Decagon.",
+      "relevant_investments": "Sundial (Series A, Jul 2025); Fireworks AI (Series B, Jul 2024); Decagon (Series A, Jun 2024); Galileo AI (seed, Feb 2024)",
+      "investment_sources": [
+        "https://siliconvalleyinvestclub.com/investors/howie-liu/ (search snippet)",
+        "https://signal.nfx.com/investors/howie-liu (search snippet)",
+        "https://www.boringbusinessnerd.com/investor/howie-liu (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "High",
+      "fit_reason": "Personal angel checks into AI infrastructure (Fireworks AI) and AI agents/apps, with a verified deal in July 2025; his own company is now shipping AI agents.",
+      "hook": "You backed Fireworks AI and Decagon as an angel; we build RL environments and verifiers that make LLMs better at expert work after pre-training, starting with trading.",
+      "hook_sources": [
+        "https://siliconvalleyinvestclub.com/investors/howie-liu/ (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Zach Perret",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Mischief (early-stage VC) / Plaid",
+      "title_2026": "Co-founder & CEO, Plaid; co-founder & Managing Director, Mischief",
+      "location": "San Francisco (Mischief and Plaid base)",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://signal.nfx.com/investors/zach-perret (search snippet)",
+        "https://startupintros.com/orgs/mischief (search snippet)",
+        "https://www.axios.com/plaids-ceo-vc-fund-e70287f2-eac0-43cd-8b3f-b7b76b871266.html (search snippet)",
+        "https://www.crunchbase.com/person/zach-perret (search snippet)"
+      ],
+      "duke_degree": "BS, Physics and Chemistry",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: worked as a Bain associate (where he met co-founder William Hockey) before co-founding Plaid in about 2012-13",
+      "duke_sources": [
+        "https://www.crunchbase.com/person/zach-perret (search snippet)",
+        "https://www.clay.com/dossier/plaid-ceo (search snippet)",
+        "https://en.wikipedia.org/wiki/William_Hockey (search snippet)"
+      ],
+      "stage_focus": "Pre-seed and seed ($1-5M via Mischief); personal angel checks seed to Series B",
+      "sectors": "Fintech, enterprise software, healthcare software, climate/energy",
+      "bio": "Co-founder and CEO of Plaid. In 2021 he co-founded Mischief with Lauren Farleigh, a San Francisco fund writing $1-5M checks into pre-seed and seed software companies; Signal lists him as its Managing Director. He also angel-invests personally across fintech and enterprise software.",
+      "relevant_investments": "Lassie (Jun 3 2026); Comulate (Series B, Feb 2025); Fragment (seed, Jul 2024); SentiLink; Metronome",
+      "investment_sources": [
+        "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet)",
+        "https://pitchbook.com/profiles/investor/266394-07 (search snippet)",
+        "https://www.areteindex.com/angels/zachary-perret/ (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found (Mischief pitch inbox not verified)",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "https://zachperret.com",
+      "fit": "High",
+      "fit_reason": "Fintech-infrastructure founder who runs a pre-seed/seed software fund and is still investing in 2026; a trading-model environment sits squarely in his fintech domain.",
+      "hook": "You co-founded Plaid and back pre-seed software through Mischief; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+      "hook_sources": [
+        "https://startupintros.com/orgs/mischief (search snippet)",
+        "https://www.crunchbase.com/person/zach-perret (search snippet)"
+      ],
+      "confidence": "High"
+    },
+    {
+      "name": "Shaan Puri",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Shaan's All Access Fund (rolling fund) / angel investor",
+      "title_2026": "Angel investor; Chairman and co-founder, Milk Road",
+      "location": "San Francisco",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://signal.nfx.com/investors/shaan-puri (search snippet)",
+        "https://www.crunchbase.com/person/shaan-puri (search snippet)",
+        "https://squirge.com/how-shaan-puri-raised-over-2-5-million-for-his-first-venture-fund-in-21-days-with-a-tweet-6/ (search snippet)"
+      ],
+      "duke_degree": "Bachelor's, Biology and Chemistry",
+      "duke_grad_year": 2010,
+      "grad_year_basis": "Stated: graduated from Duke in 2010",
+      "duke_sources": [
+        "https://www.michelegargiulo.com/blog/shaan-puri-biography-my-first-million (search snippet)",
+        "https://businessmenstory-com.stackstaging.com/shaan-puri/ (search snippet)"
+      ],
+      "stage_focus": "Angel and rolling fund; seed to Series A",
+      "sectors": "Generalist: AI tools, fintech, consumer health, crypto",
+      "bio": "Duke 2010 graduate and serial founder, co-founder and Chairman of crypto newsletter Milk Road. He invests through Shaan's All Access Fund, a rolling fund, and as an angel, averaging about 20-25 startup investments a year.",
+      "relevant_investments": "Gumloop (Series A, Jan 10 2025); Superpower (Series A, Apr 23 2025); Hone Health (Series A, Jan 28 2025)",
+      "investment_sources": [
+        "https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)",
+        "https://www.cbinsights.com/investor/shaan-puri (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "High-volume generalist angel with 2025 AI-tool and fintech exposure; not specialised in AI infrastructure, and no 2026 deal was verified.",
+      "hook": "You invested in Gumloop's Series A in January 2025; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+      "hook_sources": [
+        "https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Howard Lerman",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (Wonder Inventions; founder & CEO, Roam)",
+      "title_2026": "Founder, CEO and Chief Inventor, Roam; angel investor",
+      "location": "Miami Beach, FL",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://signal.nfx.com/investors/howard-lerman (search snippet)",
+        "https://www.crunchbase.com/person/howard-lerman (search snippet)",
+        "https://www.evalyze.ai/investors/howard-lerman (search snippet)"
+      ],
+      "duke_degree": "Bachelor's",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: co-founded Yext in 2006 (later CEO of the public company) after his Duke bachelor's",
+      "duke_sources": [
+        "https://www.evalyze.ai/investors/howard-lerman (search snippet)",
+        "https://www.crunchbase.com/person/howard-lerman (search snippet)"
+      ],
+      "stage_focus": "Pre-seed and seed mostly; checks $100K-$5M",
+      "sectors": "AI, enterprise applications, consumer internet, media, audio tech",
+      "bio": "Co-founder and former CEO of Yext, now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. As an angel he writes $100K-$5M checks, mostly pre-seed and seed, and has made 13 investments.",
+      "relevant_investments": "Orchard Robotics (Series A, Sep 3 2025); AI listed among his pre-seed/seed sectors; no named AI-infra deal found",
+      "investment_sources": [
+        "https://www.evalyze.ai/investors/howard-lerman (search snippet)",
+        "https://tracxn.com/d/people/howard-lerman/__t7qbL_2XDrbETzujJW6pLQZoCzDVxI-C8JkzpOjZrLw (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "Large-check pre-seed/seed operator-angel with AI in scope and a September 2025 deal; no named AI-infrastructure or fintech deal found.",
+      "hook": "You put $12M of your own money into Roam and still write pre-seed and seed checks; we build RL environments and verifiers for LLM post-training, starting with trading.",
+      "hook_sources": [
+        "https://alejandrocremades.com/howard-lerman/ (search snippet)",
+        "https://www.evalyze.ai/investors/howard-lerman (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Doug Higgins",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "359 Capital (formerly Sapphire Sport)",
+      "title_2026": "Co-founder and Board Partner, 359 Capital",
+      "location": "Park City, Utah",
+      "still_active_2026": "yes",
+      "decision_maker": "unclear",
+      "role_sources": [
+        "https://www.359capital.com/ (search snippet)",
+        "https://aventure.vc/news/2025-11-10-sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum (search snippet)",
+        "https://www.findfunding.vc/359-capital (search snippet)",
+        "https://www.linkedin.com/in/rdoughiggins/ (search snippet)"
+      ],
+      "duke_degree": "BA (Kellogg MBA separately)",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: co-founded Sapphire Ventures and invested in LinkedIn, DocuSign and Square before their IPOs, long after his Duke BA",
+      "duke_sources": [
+        "https://www.359capital.com/ (search snippet)",
+        "https://www.findfunding.vc/359-capital (search snippet)"
+      ],
+      "stage_focus": "Seed to Series C; $1M-$10M checks",
+      "sectors": "AI applications, prosumer tools, next-gen media, digital commerce, gaming, social, wellness",
+      "bio": "Co-founder of Sapphire Ventures and of 359 Capital, the November 2025 spin-out and rebrand of Sapphire Sport, which closed a $181M Fund II (about $300M AUM). The firm writes $1-10M seed-to-Series C checks; it has backed Perplexity, Beehiiv and Tonal. His title is Board Partner.",
+      "relevant_investments": "359 Capital/Sapphire Sport: Perplexity (AI search), Beehiiv; personal: LinkedIn, DocuSign, Square (earlier, at Sapphire)",
+      "investment_sources": [
+        "https://aventure.vc/news/2025-11-10-sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum (search snippet)",
+        "https://www.findfunding.vc/359-capital (search snippet)",
+        "https://www.359capital.com/ (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "New $181M fund that writes seed checks and lists AI applications as a focus; but he is a 'Board Partner', so decision rights are unclear, and the thesis leans media and consumer.",
+      "hook": "You co-founded 359 Capital, which backed Perplexity; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+      "hook_sources": [
+        "https://www.findfunding.vc/359-capital (search snippet)",
+        "https://www.359capital.com/ (search snippet)"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "name": "Luis von Ahn",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (co-founder & CEO, Duolingo)",
+      "title_2026": "Co-founder & CEO, Duolingo; angel investor",
+      "location": "not verified",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/luis-von-ahn (search snippet)",
+        "https://www.cbinsights.com/investor/luis-von-ahn (search snippet)"
+      ],
+      "duke_degree": "BS, Mathematics",
+      "duke_grad_year": 2000,
+      "grad_year_basis": "Stated: bachelor's in mathematics from Duke in 2000",
+      "duke_sources": [
+        "https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet)"
+      ],
+      "stage_focus": "Angel",
+      "sectors": "E-learning, music, mobility apps",
+      "bio": "Co-founder and CEO of Duolingo; founded reCAPTCHA, which Google bought in 2009, and devised CAPTCHA in 2000 while a Duke student. He has made six angel investments, most recently in February 2026.",
+      "relevant_investments": "none found in AI/data/fintech; angel deals: Desquare (angel, Feb 16 2026), Gridwise, Trala",
+      "investment_sources": [
+        "https://www.cbinsights.com/investor/luis-von-ahn (search snippet)",
+        "https://www.angelbacked.co/investor/luis-von-ahn (search snippet)",
+        "https://pitchbook.com/profiles/investor/235267-39 (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Low",
+      "fit_reason": "Active angel in 2026, but his small portfolio is in edtech and music, not AI infrastructure or fintech.",
+      "hook": "You devised CAPTCHA while studying at Duke; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.",
+      "hook_sources": [
+        "https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Brad Lightcap",
+      "include": false,
+      "exclude_reason": "No personal 2025-2026 angel/seed checks found: one personal angel deal (Klarity Series A, Jan 2022); the OpenAI Startup Fund he managed is corporate capital. Left OpenAI in Aug 2026 to 'start something new' (details undisclosed). Worth re-checking if the new venture is a fund.",
+      "firm": "Undisclosed new venture (ex-OpenAI)",
+      "title_2026": "Former COO / special projects lead, OpenAI (left Aug 2026)",
+      "location": "San Francisco",
+      "still_active_2026": "no",
+      "decision_maker": "unclear",
+      "role_sources": [
+        "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving (search snippet)",
+        "https://dealroom.co/news/144533-openai-coo-brad-lightcap-exits-after-nine-years-to-start-his-own-venture/ (search snippet)",
+        "https://www.vcsheet.com/who/brad-lightcap (search snippet)"
+      ],
+      "duke_degree": "Degrees in Economics and History",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: J.P. Morgan analyst, then joined Dropbox in 2013",
+      "duke_sources": [
+        "https://www.insead.edu/bio/brad-lightcap (search snippet)",
+        "https://www.crunchbase.com/person/brad-lightcap (search snippet)"
+      ],
+      "stage_focus": "n/a (corporate fund: pre-seed to Series B AI)",
+      "sectors": "AI",
+      "bio": "Joined OpenAI after YC Continuity and Dropbox; became COO and managed the OpenAI Startup Fund. Moved to special projects in April 2026 and announced on August 11, 2026 that he was leaving to start a new venture.",
+      "relevant_investments": "Klarity (Series A, Jan 2022; personal angel)",
+      "investment_sources": [
+        "https://www.vcsheet.com/who/brad-lightcap (search snippet)",
+        "https://angelmatch.io/investors/brad-lightcap (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "https://www.linkedin.com/in/bradlightcap/",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "Ideal domain fit (OpenAI operations), but no personal early-stage check activity is verified.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Jason Robins",
+      "include": false,
+      "exclude_reason": "Active angel (27 investments), but the latest verified deal is Kidsy seed (Mar 2024); no 2025-2026 check found.",
+      "firm": "DraftKings",
+      "title_2026": "Co-founder, CEO & Chairman, DraftKings",
+      "location": "not verified",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/jason-robins (search snippet)",
+        "https://tracxn.com/d/people/jason-robins/__LwpvoLopftKJj0cnSSopYOHZK7zCG0PpPHuzRRNxP3A (search snippet)"
+      ],
+      "duke_degree": "Degree in Economics and Computer Science",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: co-founded DraftKings in 2012 after his Duke degree",
+      "duke_sources": [
+        "https://www.crunchbase.com/person/jason-robins (search snippet)",
+        "https://www.prweb.com/releases/The_Top_100_Duke_Alumni_in_Technology_of_2021/prweb18254817.htm (search snippet)"
+      ],
+      "stage_focus": "Angel, seed",
+      "sectors": "Fintech, sports tech, gaming, collectibles",
+      "bio": "Co-founder, CEO and Chairman of DraftKings. An angel with 27 investments, including Digits, Extend, Grow Credit and Jackpot.com, and a venture advisor at Impellent Ventures.",
+      "relevant_investments": "Digits (fintech/accounting), Extend, Grow Credit (fintech); Kidsy (seed, Mar 2024)",
+      "investment_sources": [
+        "https://www.cbinsights.com/investor/jason-robins (search snippet)",
+        "https://www.valuewalk.com/net-worth/jason-robins/ (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "https://x.com/JasonDRobins",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "Fintech angel with a quant-adjacent background (sports betting), but no deal since 2024 was verified.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Aaron Patzer",
+      "include": false,
+      "exclude_reason": "No 2025-2026 angel activity found; the latest verified angel deal is Carbon Health (Series A, 2017). A 'Fjord Ventures managing partner' attribution conflicts with Fjord being a Laguna Hills biotech VC, so it is unconfirmed.",
+      "firm": "Vital (founder & CEO)",
+      "title_2026": "Founder & CEO, Vital",
+      "location": "not verified",
+      "still_active_2026": "unclear",
+      "decision_maker": "unclear",
+      "role_sources": [
+        "https://startupintros.com/people/aaron-patzer (search snippet)",
+        "https://tracxn.com/d/people/aaron-patzer/__JG1UulOHWzzChO0eSGScXhCdxS5cKPxNFJBjYlPU0bA (search snippet)"
+      ],
+      "duke_degree": "Bachelor's (Duke); MS EE Princeton",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: founded Mint in 2006",
+      "duke_sources": [
+        "https://en.wikipedia.org/wiki/Aaron_Patzer (search snippet)",
+        "https://startupintros.com/people/aaron-patzer (search snippet)"
+      ],
+      "stage_focus": "Angel (historic)",
+      "sectors": "Fintech, health tech",
+      "bio": "Founded Mint in 2006 and sold it to Intuit for $170M in 2009; now founder and CEO of Vital, AI software for hospital emergency departments. Past angel deals include Gusto, Carbon Health and Honest Dollar.",
+      "relevant_investments": "Gusto, Honest Dollar (fintech; historic); Carbon Health (Series A, 2017)",
+      "investment_sources": [
+        "https://signal.nfx.com/investors/aaron-patzer (search snippet)",
+        "https://tracxn.com/d/people/aaron-patzer/__JG1UulOHWzzChO0eSGScXhCdxS5cKPxNFJBjYlPU0bA (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "Fintech founder, but angel activity looks dormant.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Ben Hamner",
+      "include": false,
+      "exclude_reason": "Angel deals found (Marimo, Predibase, Coiled), but none dated 2025-2026; he is now running his own startup, Sumble (Series A mid-2025).",
+      "firm": "Sumble (co-founder)",
+      "title_2026": "Co-founder, Sumble",
+      "location": "not verified",
+      "still_active_2026": "unclear",
+      "decision_maker": "unclear",
+      "role_sources": [
+        "https://digidai.github.io/2025/11/23/ben-hamner-sumble-kaggle-ai-sales-intelligence-deep-analysis/ (search snippet)",
+        "https://www.crunchbase.com/person/ben-hamner (search snippet)"
+      ],
+      "duke_degree": "BSE, Biomedical Engineering, Electrical Engineering and Math (Pratt)",
+      "duke_grad_year": null,
+      "grad_year_basis": "Certain from career: co-founded Kaggle in 2010 and was CTO 2011-2022",
+      "duke_sources": [
+        "https://www.crunchbase.com/person/ben-hamner (search snippet)",
+        "https://www.datacouncil.ai/speakers/ben-hamner (search snippet)"
+      ],
+      "stage_focus": "Angel (seed/Series A)",
+      "sectors": "ML tooling, data infrastructure",
+      "bio": "Co-founder and CTO of Kaggle (2011-2022, acquired by Google). Now co-founder of Sumble, which raised a $30M Series A led by Canaan in mid-2025. Angel investments include Marimo, Predibase and Coiled.",
+      "relevant_investments": "Predibase, Coiled (seed), Marimo (ML/data tooling; dates not in snippets)",
+      "investment_sources": [
+        "https://www.crunchbase.com/person/ben-hamner (search snippet)",
+        "https://www.crunchbase.com/funding_round/coiled-seed--4ba205f1 (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "not found",
+      "x_url": "not found",
+      "personal_site": "not found",
+      "fit": "High",
+      "fit_reason": "Ideal ML-tooling fit, but no recent check is verified.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Tarun Thakur",
+      "include": false,
+      "exclude_reason": "Self-described 'Angel Investor and Advisor' since 2020, but no named deals were found; criterion 2 is unverified.",
+      "firm": "Veza",
+      "title_2026": "Co-founder & CEO, Veza (being acquired by ServiceNow)",
+      "location": "not verified",
+      "still_active_2026": "unclear",
+      "decision_maker": "unclear",
+      "role_sources": [
+        "https://veza.com/team/tarun-thakur/ (search snippet)",
+        "https://www.linkedin.com/in/tarunthakur/ (search snippet)",
+        "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)"
+      ],
+      "duke_degree": "MBA, Strategy and Marketing (Fuqua)",
+      "duke_grad_year": 2010,
+      "grad_year_basis": "Stated: 'MBA '10' in Duke I&E network news",
+      "duke_sources": [
+        "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)",
+        "https://veza.com/team/tarun-thakur/ (search snippet)"
+      ],
+      "stage_focus": "Angel (unspecified)",
+      "sectors": "Data security, identity, infrastructure software",
+      "bio": "Co-founder and CEO of Veza, an identity and authorization security company that ServiceNow is acquiring for over $1B; previously founder and CEO of Datos IO. Lists angel investing and advising since February 2020.",
+      "relevant_investments": "none found",
+      "investment_sources": [],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "not found",
+      "linkedin_url": "https://www.linkedin.com/in/tarunthakur/",
+      "x_url": "https://x.com/thakurtarun",
+      "personal_site": "not found",
+      "fit": "Medium",
+      "fit_reason": "Data-infrastructure founder with a pending exit, but no verified checks.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    }
+  ],
+  "checked_not_qualifying": [
+    "Adam Blitzer (Duke BS Public Policy 2002, Pardot co-founder, now Datadog COO; only 1 angel investment found, none dated 2025-2026)",
+    "Scot Wingo (ChannelAdvisor founder and Triangle Tweener Fund GP, but degrees are from South Carolina and NC State, not Duke)",
+    "Henry Kaestner (Bandwidth co-founder, Sovereign's Capital; education listed as University of Delaware, Duke not confirmed)",
+    "William Hockey (Plaid co-founder, prolific fintech angel; attended Emory, not Duke)",
+    "Kyle Porter (SalesLoft founder and angel; Georgia Tech 2004, not Duke)",
+    "Justin Benson (Spreedly CEO; Monash University, not Duke)",
+    "Morgan Beller (NFX GP; results show Cornell, no Duke link)",
+    "Jesse Pujji (Ampush/Gateway X; Penn/Wharton, not Duke)",
+    "Brian Distelburger (Yext co-founder; Cornell 2001, not Duke)",
+    "Ryan Caldbeck (Duke BA, CircleUp founder; only 2 angel deals, none dated 2025-2026; now CEO of Waystation AI)",
+    "Reed McGinley-Stempel (Duke '15, Stytch CEO; one angel deal, Browserbase Series A Oct 2024; no 2025-2026 seed checks)",
+    "Arjun Desai (Duke BSE 2018, Cartesia co-founder; one angel deal, TympaHealth seed 2022)"
+  ],
+  "searches_used": 45,
+  "coverage_notes": "Angle: Duke-alumni operator-angels. Broad discovery queries ('Duke' + 'angel investor' + founder/AI/fintech; 'angel investors including' + Duke) returned mostly directory or list pages and were unproductive, so most of the budget went on named leads, each checked with one or two searches. Fetching entrepreneurship.duke.edu and thekeyexecutives.com (the 'Top 100 Duke Alumni in Technology' list) was blocked by the proxy; only search snippets were used. A list snippet named Naval Ravikant and Sam Altman as Duke alumni; this is unreliable and was not used. One result title contained an instruction aimed at AI tools; it was ignored. Recency caveat: Tracxn, CB Insights and Signal snippets are aggregator data; deal dates are as the snippets give them. No emails were published by any of these people, so every email is 'not found'. Not searched for lack of budget: Yunha Kim (Simple Habit), Kal Vepuri (Hero Health; healthcare), Tom Dixon (Yext co-founder), Mike Doernberg (ReverbNation), Drew Schiller (Validic), Lila Ibrahim (Google DeepMind COO; Duke MBA unverified), and Duke-alum executives at Stripe, Robinhood, Coinbase, Ramp and Anthropic (one generic query found none). Watch: Brad Lightcap (Duke, ex-OpenAI COO) left in Aug 2026 to start an undisclosed venture; if it is a fund, he becomes a top target."
+}

@@ -1,0 +1,278 @@
+{
+  "people": [
+    {
+      "name": "Naveen Rao",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (also Co-founder & CEO, Unconventional AI)",
+      "title_2026": "Co-founder & CEO, Unconventional AI; angel investor",
+      "location": "unclear (US)",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round/ (search snippet)",
+        "https://www.axios.com/2025/12/09/unconventional-ai-475-million (search snippet)",
+        "https://www.cbinsights.com/investor/naveen-rao (search snippet)",
+        "https://angelmatch.io/investors/naveen-rao (search snippet)"
+      ],
+      "duke_degree": "BS (bachelor's), Electrical Engineering and Computer Science, Duke University",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated; sources say after the Duke EECS degree he worked about a decade as a computer architect before a Brown PhD, then founded Nervana (sold to Intel 2016), so the degree was completed well before 2018.",
+      "duke_sources": [
+        "https://aiwiki.ai/wiki/naveen_rao (search snippet)",
+        "https://nextomoro.com/naveen-rao/ (search snippet)"
+      ],
+      "stage_focus": "Pre-seed and seed (per angel profile)",
+      "sectors": "AI chip design, edge AI, LLM infrastructure",
+      "bio": "Duke EECS graduate who founded Nervana Systems (acquired by Intel) and MosaicML (acquired by Databricks for about $1.3B). In 2025 he founded Unconventional AI, which raised a $475M seed led by a16z and Lightspeed. Angel profiles list about six investments, the latest a January 2026 seed.",
+      "relevant_investments": "Cleanlab (ML data-quality tooling; listed as a portfolio exit, Jan 2026); Topos Bio (seed, Jan 8 2026); aggregator lists focus on AI chips, edge AI and LLM infra. Also put $10M of his own money into Unconventional AI's 2025 seed (own company).",
+      "investment_sources": [
+        "https://www.cbinsights.com/investor/naveen-rao (search snippet)",
+        "https://angelmatch.io/investors/naveen-rao (search snippet)",
+        "https://finance.yahoo.com/news/unconventional-ai-confirms-massive-475m-002416708.html (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "",
+      "fit": "High",
+      "fit_reason": "Built MosaicML (LLM training infrastructure) and angel-invests in AI chips, edge AI and LLM infrastructure at pre-seed and seed, with a January 2026 deal on record. This is a close match for RL environments and verifiers for post-training.",
+      "hook": "You built MosaicML and backed Cleanlab; we build RL environments and verifiers for LLM post-training, including a trading environment that lifted an open model's performance 12% on unseen market data.",
+      "hook_sources": [
+        "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/ (search snippet)",
+        "https://www.cbinsights.com/investor/naveen-rao (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Zach Perret",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (Co-founder & CEO, Plaid; co-founded the Mischief venture fund with Lauren Farleigh)",
+      "title_2026": "Co-founder & CEO, Plaid; angel investor",
+      "location": "unclear (Plaid is San Francisco-based)",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/zach-perret (search snippet)",
+        "https://pitchbook.com/profiles/investor/266394-07 (search snippet)",
+        "https://www.axios.com/2021/05/17/plaids-ceo-vc-fund (search snippet)",
+        "https://fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26 (search snippet)"
+      ],
+      "duke_degree": "BS, Physics and Chemistry, Duke University",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated in the snippets. The Duke BS came before his Bain associate role and his co-founding of Plaid, which Visa agreed to buy in January 2020 (Forbes), so it was certainly completed before 2018.",
+      "duke_sources": [
+        "https://pitchbook.com/profiles/investor/266394-07 (search snippet)",
+        "https://www.crunchbase.com/person/zach-perret (search snippet)",
+        "https://www.forbes.com/sites/jeffkauflin/2020/01/14/meet-the-four-under-30s-behind-visas-53-billion-acquisition-of--plaid/ (search snippet)"
+      ],
+      "stage_focus": "Angel and seed (Mischief fund); also personal checks into Series A rounds",
+      "sectors": "Fintech, enterprise software, data/infra; also healthcare, energy and climate",
+      "bio": "Duke physics and chemistry graduate who co-founded Plaid and is its CEO; Plaid raised $575M at a $6B valuation in 2025. He is an active angel with about 37 investments, and in 2021 he set up the Mischief venture fund with Lauren Farleigh.",
+      "relevant_investments": "Fragment, Goldsky, One Footprint, Comulate, UserHub, Ansa, YO Protocol (seed-stage personal or Mischief deals, years not given); SentiLink and Metronome (angel portfolio); Lassie Series A (June 2026, personal participation).",
+      "investment_sources": [
+        "https://www.cbinsights.com/investor/mischief-1 (search snippet)",
+        "https://www.areteindex.com/angels/zachary-perret/ (search snippet)",
+        "https://pitchbook.com/profiles/investor/266394-07 (search snippet)",
+        "https://fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26 (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "",
+      "fit": "High",
+      "fit_reason": "A fintech-infrastructure founder whose angel portfolio is heavy on fintech, data and dev-infra (Fragment, Goldsky, Footprint, SentiLink, Metronome), with personal investing on record in 2026. The snippets do not date his seed-stage checks to 2025-26: the 2026 deal on record is a Series A.",
+      "hook": "You co-founded Plaid and back fintech infrastructure like Fragment and Goldsky; we build Xitadel, an RL trading environment that lifted an open model's trading performance 12% on unseen market data.",
+      "hook_sources": [
+        "https://www.crunchbase.com/person/zach-perret (search snippet)",
+        "https://www.cbinsights.com/investor/mischief-1 (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Namita Thapar",
+      "include": true,
+      "exclude_reason": "",
+      "firm": "Angel investor (Shark Tank India); Executive Director, Emcure Pharmaceuticals",
+      "title_2026": "Executive Director, Emcure Pharmaceuticals; Shark Tank India investor",
+      "location": "India",
+      "still_active_2026": "yes",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://en.wikipedia.org/wiki/Namita_Thapar (search snippet)",
+        "https://sharktank-india.com/namita-thapar/ (search snippet)",
+        "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+      ],
+      "duke_degree": "MBA, Duke University Fuqua School of Business",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated in the snippets. She has been a senior Emcure executive and Shark Tank India investor since its first season (2021), so a pre-2018 MBA is very likely but not proven by a source. Check the Wikipedia page before relying on it.",
+      "duke_sources": [
+        "https://en.wikipedia.org/wiki/Namita_Thapar (search snippet)",
+        "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+      ],
+      "stage_focus": "Early-stage angel (Shark Tank India deals)",
+      "sectors": "Healthcare, food, consumer products, lifestyle, education, some tech",
+      "bio": "Chartered accountant with a Fuqua MBA and an executive at Emcure Pharmaceuticals. She has been an investor on every season of Shark Tank India and has backed more than 100 startups across healthcare, food, consumer and lifestyle brands.",
+      "relevant_investments": "none found (portfolio is mainly consumer and health brands such as Bummer, Skippi Ice Pops, Beyond Water)",
+      "investment_sources": [
+        "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)",
+        "https://www.tryfundable.ai/investor/namita-thapar (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "",
+      "fit": "Low",
+      "fit_reason": "A prolific, active angel, but in Indian consumer and health brands; no AI, fintech or quant deals found.",
+      "hook": "You have backed more than 100 founders as a Shark Tank India investor; we are Duke-linked quants building RL environments that teach LLMs to trade.",
+      "hook_sources": [
+        "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Aaron Patzer",
+      "include": false,
+      "exclude_reason": "Duke degree confirmed and he has an angel profile, but no 2025-26 angel or seed deal was found; the latest dated deal in the snippets is Shen.AI (pre-seed, Oct 2020). A 'Fjord Ventures' managing-partner label in aggregators looks like a mix-up with a life-sciences firm.",
+      "firm": "Founder & CEO, Vital; angel investor",
+      "title_2026": "Founder & CEO, Vital (per aggregator profiles)",
+      "location": "San Francisco, CA / Auckland, NZ (per aggregator)",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/aaron-patzer (search snippet)",
+        "https://startupintros.com/people/aaron-patzer (search snippet)",
+        "https://signal.nfx.com/investors/aaron-patzer (search snippet)"
+      ],
+      "duke_degree": "BS, Computer Science, Computer Engineering and Electrical Engineering, Duke University",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated; born 1980 and founded Mint (acquired by Intuit in 2009) after a Princeton MSEE, so the Duke degree was well before 2018.",
+      "duke_sources": [
+        "https://en.wikipedia.org/wiki/Aaron_Patzer (search snippet)"
+      ],
+      "stage_focus": "Seed / pre-seed (historical)",
+      "sectors": "Fintech, health tech, consumer software",
+      "bio": "Duke engineering graduate who founded Mint.com (acquired by Intuit in 2009), then Fountain and the health app Vital. Aggregators list 16 angel investments, including Gusto, Carbon Health and Shen.AI.",
+      "relevant_investments": "Gusto, Honest Dollar (fintech; years not given); Shen.AI (pre-seed, 2020)",
+      "investment_sources": [
+        "https://startupintros.com/people/aaron-patzer (search snippet)",
+        "https://pitchbook.com/profiles/investor/106344-64 (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "https://angel.co/p/apatzer (angel profile, search result)",
+      "fit": "Medium",
+      "fit_reason": "Fintech founder-angel and a natural fit if he is still active, but no recent activity is verified.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Jason Robins",
+      "include": false,
+      "exclude_reason": "Duke Econ/CS graduate and an angel with 27 investments, but the latest dated deal found is Kidsy (seed, Mar 2024); no 2025-26 deal was verified.",
+      "firm": "Co-founder & CEO, DraftKings; angel investor",
+      "title_2026": "Co-founder & CEO, DraftKings",
+      "location": "Boston, MA",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/jason-robins (search snippet)",
+        "https://pitchbook.com/profiles/investor/107443-09 (search snippet)"
+      ],
+      "duke_degree": "BA, Economics and Computer Science, Duke University",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated; he co-founded DraftKings in 2011 after leaving a corporate job (CNBC 2018), so the degree was before 2018.",
+      "duke_sources": [
+        "https://www.crunchbase.com/person/jason-robins (search snippet)",
+        "https://www.cnbc.com/2018/05/30/draftkings-ceo-jason-robins-quit-day-job-for-a-successful-start-up.html (search snippet)"
+      ],
+      "stage_focus": "Seed (historical)",
+      "sectors": "Sports, gaming, collectibles, fintech",
+      "bio": "Duke economics and CS graduate who co-founded DraftKings in 2011 and is its CEO. Aggregators list 27 angel investments, including Jackpot.com, WAX, Grow Credit and Sports Innovation Lab.",
+      "relevant_investments": "Grow Credit (fintech, year not given); Kidsy (seed, Mar 2024)",
+      "investment_sources": [
+        "https://tracxn.com/d/people/jason-robins/__LwpvoLopftKJj0cnSSopYOHZK7zCG0PpPHuzRRNxP3A (search snippet)",
+        "https://pitchbook.com/profiles/investor/107443-09 (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "",
+      "fit": "Medium",
+      "fit_reason": "A data- and odds-driven operator-angel who backs some fintech, but recent activity is unverified.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Medium"
+    },
+    {
+      "name": "Ravi Trivedi",
+      "include": false,
+      "exclude_reason": "Fuqua MBA and angel/seed investor (Srijan Capital), but no dated 2025-26 deal was found; India/Singapore-based with a SaaS and consumer-internet focus.",
+      "firm": "Srijan Capital (founder/managing partner); CEO, PushEngage",
+      "title_2026": "Founder & CEO, PushEngage; founder, Srijan Capital (per aggregators)",
+      "location": "India (Singapore fintech angel lists also include him)",
+      "still_active_2026": "unclear",
+      "decision_maker": "yes",
+      "role_sources": [
+        "https://www.crunchbase.com/person/ravi-trivedi (search snippet)",
+        "https://tracxn.com/d/people/ravi-trivedi/__TSsPeN4j4FFiqaFNDDtfnC99jzd1195v1LSq9wngwUY (search snippet)"
+      ],
+      "duke_degree": "MBA, Duke University Fuqua School of Business",
+      "duke_grad_year": null,
+      "grad_year_basis": "Year not stated; 22+ years of experience, including earlier roles as an equity analyst at Banc of America Securities and principal at Southeast Interactive Technology, so the degree was before 2018.",
+      "duke_sources": [
+        "https://indialeadersforsocialsector.com/ravi-trivedi/ (search snippet)",
+        "https://shizune.co/investors/fintech-angel-investors-singapore (search snippet)"
+      ],
+      "stage_focus": "Seed / angel",
+      "sectors": "SaaS, mobile, consumer internet, some fintech",
+      "bio": "Fuqua MBA with a master's in CS from IISc Bangalore. Founded Srijan Capital and runs PushEngage; 7 angel investments and 2 exits per aggregators.",
+      "relevant_investments": "2 fintech investments (Singapore) per aggregator; names and years not given",
+      "investment_sources": [
+        "https://shizune.co/investors/fintech-angel-investors-singapore (search snippet)"
+      ],
+      "email": "not found",
+      "email_source": "",
+      "other_contact": "",
+      "linkedin_url": "",
+      "x_url": "",
+      "personal_site": "",
+      "fit": "Low",
+      "fit_reason": "Small, mostly SaaS and consumer portfolio with no confirmed recent activity.",
+      "hook": "",
+      "hook_sources": [],
+      "confidence": "Low"
+    }
+  ],
+  "checked_not_qualifying": [
+    "Bill Clerico (WePay founder, angel; BS Boston College, no Duke degree)",
+    "Tristan Handy (dbt Labs; University of Maryland and UNC Kenan-Flagler, not Duke)",
+    "Kuo-Yi Lim (Monk's Hill Ventures, Singapore; MIT degrees, not Duke)",
+    "Bart Stephens (Blockchain Capital; Princeton BA; brother Brad Stephens is already known)",
+    "Tim Chen (NerdWallet CEO, angel; Stanford, not Duke)",
+    "Aneesh Varma (Aire/London fintech angel; Lehigh, not Duke)",
+    "Lachy Groom (ex-Stripe super-angel; no Duke link)",
+    "Joey Santoro (Fei Protocol; Duke CS 2019, after cutoff)",
+    "Justin Dangel (Duke A.B. '97, CEO of Subquadratic; raising, no angel activity found)",
+    "Shrawan Saraogi (Singapore fintech; Fuqua MBA 2019, after cutoff)",
+    "Cristobal Conde (fintech angel on Signal; no Duke degree found)",
+    "Jeffrey Tiong (PatSnap, Singapore; Duke link only in an aggregator snippet, no angel activity found)",
+    "Ming Liao (Duke PhD per Chinese blog; 'investor and mentor', no seed deals or Duke verification found)",
+    "Craig Messinger (Virtu Vice Chairman on Duke FinTech advisory board; no Duke degree or angel activity found)"
+  ],
+  "searches_used": 45,
+  "coverage_notes": "Generic queries ('Duke' + Citadel/Jane Street/D. E. Shaw/hedge fund/quant + 'angel investor', Duke Capital Partners committee, AngelList syndicates, solo-GP funds) returned only Duke Capital Partners pages and no individuals. All finds came from checking specific names. Of 13 name checks, most were not Duke (Clerico, Handy, Kuo-Yi Lim, Bart Stephens, Tim Chen, Varma). International: London and Hong Kong searches found no Duke-degree angels. Singapore/India produced Namita Thapar (included, low fit) and Ravi Trivedi (excluded). A Chinese-language query gave only unreliable alumni lists. The Duke FinTech MEng started in 2019, so its graduates fail the 2018 cutoff; its advisory board (Logan Allin known, Christina Qi, Craig Messinger, Kate Sampson known) gave no new qualifying names. duke.edu pages are blocked by the proxy. Worth one more search each: Aaron Patzer and Jason Robins (Duke-confirmed angels missing only a 2025-26 dated deal), Max Hodak (Duke BME, Science Corp), Cassie Kozyrkov (Duke graduate degrees per memory, unsearched), and Mischief fund's current deals for Perret."
+}
