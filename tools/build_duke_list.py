@@ -297,7 +297,9 @@ def write_md(rows, excluded):
     out += ["## How this was built", "",
             "- Discovery: three rounds of web search across about 20 angles (Duke networks and boards, rankings, "
             "Bay Area / East Coast / Southeast firms, fintech, AI-infra and crypto funds, Fuqua and Duke Law "
-            "alumni, women-led and emerging funds, Asia). The last round found no new qualifying names.",
+            "alumni, women-led and emerging funds, Asia), then a deeper seed/angel pass on four more angles "
+            "(operator-angels, angel networks and syndicates, emerging managers, quant/fintech/international) "
+            "that added 10 people.",
             "- Verification: one agent per batch checked the Duke degree and year, the 2026 role, stage, deals and "
             "contacts; a separate fact-checker then tried to refute each record with its own searches.",
             "- Gaps: Duke I&E, Fuqua and most fund websites block direct access from this environment, so evidence "

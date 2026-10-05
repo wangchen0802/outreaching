@@ -79,16 +79,16 @@ Mark Kraynak is a Founding Partner at Acrew Capital, which he co-founded in 2019
 - Site: https://mark-kraynak.medium.com/ and Forbes contributor page https://www.forbes.com/sites/markkraynak/ (search snippets)
 - **Already in pipeline:** acrew-capital (contact: Asad Khaliq)
 
-### 6. Naveen Rao, Co-founder & CEO, Unconventional AI; angel investor, Angel investor (also Co-founder & CEO, Unconventional AI)
+### 6. Naveen Rao, Angel investor; Co-founder & CEO, Unconventional AI, Angel investor
 
-*Duke BS (bachelor's), Electrical Engineering and Computer Science, Duke University (year not published) · Confidence: High*
+*Duke BS EECS (year not published) · Confidence: High*
 
-Duke EECS graduate who co-founded Nervana Systems (acquired by Intel in 2016) and MosaicML (acquired by Databricks for $1.3B in 2023). In 2025 he founded Unconventional AI, which raised a $475M seed led by a16z and Lightspeed. As an angel he backed Cleanlab's seed and Topos Bio's January 2026 seed.
+Angel investor in AI chips, edge AI and LLM infrastructure at pre-seed and seed, and co-founder and CEO of Unconventional AI, which raised a $475M seed in December 2025. He previously co-founded Nervana Systems, acquired by Intel, and MosaicML, acquired by Databricks for $1.3B. His angel checks include Cleanlab and Topos Bio.
 
 - **Stage:** Pre-seed and seed (per angel profile)
 - **Relevant deals:** Topos Bio (AI foundation model for drug discovery): angel in the $10.5M seed led by Boldstart, Threshold and Neo, Jan 2026. Cleanlab (ML data-quality tooling): angel in the $5M seed led by Bain Capital Ventures (c. 2022). Also put $10M of his own money into his own company Unconventional AI's $475M seed (Dec 2025).
 - **Why them:** Built MosaicML (LLM training infrastructure) and angel-invests in AI chips, edge AI and LLM infrastructure at pre-seed and seed, with a January 2026 deal on record. This is a close match for RL environments and verifiers for post-training.
-- **Hook:** You built MosaicML and backed Cleanlab; we build RL environments and verifiers for LLM post-training, including a trading environment that lifted an open model's performance 12% on unseen market data.
+- **Hook:** You co-founded MosaicML and backed Cleanlab's seed; we build RL environments, verifiers and expert data for LLM post-training, including a trading environment that lifted an open model's performance 12% on unseen market data.
 - Email: not published
 
 ### 7. Steve Pagliuca, Founder & CEO, PagsGroup
@@ -104,43 +104,42 @@ Steve Pagliuca is founder and CEO of PagsGroup, his single-LP family investment 
 - Email: not published
 - Fund route: 'Get in Touch' section on the official site https://www.pagsgroup.com/ (no published inbox)
 
-### 8. Wes Barton, Co-Founder & General Partner, Third Prime
+### 8. Wes Barton, Co-founder & General Partner, Third Prime
 
-*Duke J.D., Duke University School of Law (undergrad: Western Kentucky University 1999) (2002) · Confidence: High*
+*Duke JD, Duke Law '02 · Confidence: High*
 
-Co-founder and General Partner of Third Prime, a Nashville seed fund backing fintech and proptech companies. Before that he spent a decade in private equity and hedge funds at Trimaran / Trian, and earlier was a TMT investment banker at Bank of America and an M&A lawyer at Skadden.
+Co-founder and General Partner of Third Prime, a Nashville seed fund that backs fintech and proptech companies. The fund co-led the $18.5M seed of Limited, which offers enterprise banking across crypto and fiat. He previously spent a decade at Trimaran and Trian, after roles at Bank of America and Skadden.
 
 - **Stage:** Seed; often leads or co-leads; check sizes reported variously ($250K-$3M per VC Sheet, $1M-$5M per another profile)
 - **Relevant deals:** Limited (enterprise banking across crypto and fiat): Third Prime co-led $18.5M seed with North Island Ventures, The House Fund and Collab+Currency; extended seed reported Sep 2026. Third Prime made 9 new investments in the prior 12 months (2025 profile).
 - **Why them:** Decision-making GP at a seed fund focused on fintech that led/co-led a crypto-and-fiat banking seed round in 2026.
-- **Hook:** Your fund Third Prime co-led Limited's $18.5M seed this year; we build Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.
+- **Hook:** You co-founded Third Prime, which co-led Limited's $18.5M seed in crypto-and-fiat banking; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.
 - Email: not published
 - LinkedIn: https://www.linkedin.com/in/wes-barton-35a8455/
 
-### 9. Zach Perret, Co-founder & CEO, Plaid; co-founder, Mischief (Lauren Farleigh is Managing Director); angel investor, Mischief (early-stage VC) / Plaid
+### 9. Zach Perret, Co-founder, Mischief; Co-founder & CEO, Plaid, Mischief
 
-*Duke BS, Physics and Chemistry (year not published) · Confidence: High*
+*Duke BS Physics and Chemistry (year not published) · Confidence: High*
 
-Co-founder and CEO of Plaid. In 2021 he co-created Mischief with Lauren Farleigh, a San Francisco seed fund ($30M Fund I, $80M Fund II) that writes $1-3M initial checks into founder-driven software startups. He also angel-invests personally, most recently in Lassie's Series A (June 2026).
+Co-founder and CEO of Plaid and co-founder, with Lauren Farleigh, of Mischief, a San Francisco seed fund that writes $1-3M initial checks into founder-driven software startups. Mischief led Hamming.ai's $3.8M seed in AI voice-agent testing, and he angel-invested in Lassie's Series A in June 2026.
 
 - **Stage:** Seed via Mischief ($1-3M initial checks, often leads); personal angel checks from seed to Series B
 - **Relevant deals:** Personal angel: Lassie (Series A, $35M led by a16z, Jun 2026); Comulate (Series B, Feb 2025); Fragment (seed, Jul 2024). Mischief (co-founded fund): led Hamming.ai's $3.8M seed (AI voice-agent testing, Dec 2024); Polar $9.86M seed and DataLane (2025, led by Farleigh).
 - **Why them:** Fintech-infrastructure founder who runs a pre-seed/seed software fund and is still investing in 2026; a trading-model environment sits squarely in his fintech domain.
-- **Hook:** You co-founded Plaid and the seed fund Mischief; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.
+- **Hook:** You co-founded Plaid and Mischief, which led Hamming.ai's seed in AI voice-agent testing; we build verifiers and RL environments for finance, where Xitadel lifted an open model's trading performance 12% on unseen market data.
 - Email: not published
-- Fund route: not found (Mischief pitch inbox not verified)
 - Site: https://zachperret.com
 
-### 10. Howie Liu, Co-founder & CEO, Airtable; angel investor, Angel investor (co-founder & CEO, Airtable)
+### 10. Howie Liu, Angel investor; Co-founder & CEO, Airtable, Angel investor
 
-*Duke BS, Mechanical Engineering and Public Policy (attended 2005-2009) (2009) · Confidence: Medium*
+*Duke BS Mechanical Engineering and Public Policy '09 · Confidence: Medium*
 
-Co-founder and CEO of Airtable, which serves more than 500,000 organizations and on January 27, 2026 launched Superagent, its first standalone product in 13 years. As an angel he has backed Fireworks AI and Decagon (2024) and Sundial's Series A (July 2025).
+Angel investor in AI infrastructure and applications, and co-founder and CEO of Airtable, which serves more than 500,000 organizations and launched Superagent, its first standalone product in 13 years, in January 2026. His angel checks include Fireworks AI, Decagon and Galileo AI in 2024 and Sundial's Series A in July 2025.
 
 - **Stage:** Angel, seed to Series B
 - **Relevant deals:** Sundial (AI analytics; angel in $16M Series A / $23M total led by DJ Patil, Jul 2025); Fireworks AI (Series A Mar 2024 and Series B Jul 2024); Decagon (angel in Series A, Jun 2024); Galileo AI (seed, Feb 2024)
 - **Why them:** Personal angel checks into AI infrastructure (Fireworks AI) and AI agents/apps, with a verified deal in July 2025; his own company is now shipping AI agents.
-- **Hook:** You backed Fireworks AI, Decagon and, in 2025, Sundial as an angel; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.
+- **Hook:** You angel-invested in Fireworks AI and Decagon in 2024 and Sundial in 2025; we build the RL environments and verifiers that post-train LLMs for expert work, starting with trading.
 - Email: not published
 
 ### 11. Kevin King, Co-founder & General Partner, 53 Stations
@@ -173,16 +172,16 @@ Mark Peter Davis is Managing Partner of Interplay, a New York firm founded in 20
 
 ## Medium fit (30)
 
-### 13. Danny Hadar, Co-Founder & Managing Partner, Jibe Ventures
+### 13. Danny Hadar, Co-founder & Managing Partner, Jibe Ventures
 
-*Duke MBA, Duke University Fuqua School of Business (2007) · Confidence: High*
+*Duke MBA, Fuqua '07 · Confidence: High*
 
-Fuqua MBA (2007) who co-founded Jibe Ventures with Assaf Jacobi in 2020 to back Israeli founders at seed. Before that he was a serial entrepreneur, a venture partner at Peregrine Ventures (2012-17) and an angel with 20+ seed investments including Snyk and Bonobo; Crunchbase also lists him as a managing director at Fosun RZ Capital.
+Co-founder and Managing Partner of Jibe Ventures, which he started with Assaf Jacobi in 2020 to back Israeli founders at pre-seed and seed. In 2025 Jibe led Fabrix Security's $8M seed. Earlier he was a venture partner at Peregrine Ventures and an angel with 20+ seed investments, including Snyk.
 
 - **Stage:** Pre-seed, seed, seed+; earlier personal angel checks $25K-$200K
 - **Relevant deals:** Jibe: led Fabrix Security $8M seed (Sep 2025); led Modulight Biotherapeutics $12.2M seed with LocalGlobe (Nov 2025); ZyG $58M seed (Mar 2026); Notch.cx $30M Series A (Mar 2026). Personal angel (earlier years): Snyk, Bonobo (acq. Salesforce), Geoforce (acq. LLR).
 - **Why them:** Decision-making MP at an active pre-seed/seed fund investing in AI and cyber, but the fund backs Israeli founders, which SimReal is not.
-- **Hook:** You co-founded Jibe Ventures after a Fuqua MBA and an early check into Snyk; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.
+- **Hook:** You were a seed angel in Snyk and co-founded Jibe, which led Fabrix Security's $8M seed; we build verifiers and RL environments for LLM post-training, starting with trading.
 - Email: not published
 - LinkedIn: https://www.linkedin.com/in/dannyhadar/
 - X: https://x.com/dannyhadar
@@ -216,16 +215,16 @@ Gregg Bordes is co-founder and Managing Partner of Front Porch Venture Partners,
 - Fund route: Pitch form: https://www.frontporchvp.com/contact/ (asks for stage and pitch deck)
 - LinkedIn: https://www.linkedin.com/in/greggbordes/
 
-### 16. Howard Lerman, Founder, CEO and Chief Inventor, Roam; angel investor, Angel investor (Wonder Inventions; founder & CEO, Roam)
+### 16. Howard Lerman, Angel investor; Founder & CEO, Roam, Angel investor
 
-*Duke Bachelor's (History) (2002) · Confidence: High*
+*Duke Bachelor's, History '02 · Confidence: High*
 
-Duke 2002 graduate who co-founded Yext in 2006 and was its CEO; now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. In September 2025 he joined Orchard Robotics' $22M Series A as an angel.
+Angel investor, mostly at pre-seed and seed, and founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. He co-founded Yext in 2006 and was its CEO. In September 2025 he joined Orchard Robotics' $22M Series A.
 
 - **Stage:** Pre-seed and seed mostly; checks $100K-$5M
 - **Relevant deals:** Orchard Robotics (AI farm-data and robotics; angel in the $22M Series A led by Quiet Capital and Shine Capital, Sep 2025); no named AI-infra or fintech deal found
 - **Why them:** Large-check pre-seed/seed operator-angel with AI in scope and a September 2025 deal; no named AI-infrastructure or fintech deal found.
-- **Hook:** You backed Orchard Robotics' AI farm-data platform in 2025 after self-funding Roam with $12M; we build RL environments and verifiers for LLM post-training, starting with trading.
+- **Hook:** You backed Orchard Robotics' $22M Series A in AI farm data and robotics; we build RL environments, verifiers and expert data for LLM post-training, starting with trading.
 - Email: not published
 
 ### 17. Joe Mancini, Co-founder & General Partner, Front Porch Venture Partners
@@ -487,16 +486,16 @@ Sergey Khusnetdinov is Founder and Managing Partner of Ga^3in Ventures, a New Yo
 - LinkedIn: https://www.linkedin.com/today/author/husnetdinov
 - Site: Fuqua alumni Q&A: https://www.fuqua.duke.edu/alumni/connect/alumni-q-a/sergey-khusnetdinov (search snippet)
 
-### 35. Shaan Puri, Founder / GP, Shaan's All Access Fund (rolling fund); angel investor; co-host, My First Million, Shaan's All Access Fund (rolling fund) / Angel investor
+### 35. Shaan Puri, Founder & GP; angel investor; co-host, My First Million, Shaan's All Access Fund
 
-*Duke BS Biology (minor in Chemistry), Duke University (2010) · Confidence: Medium*
+*Duke BS Biology '10 · Confidence: Medium*
 
-Duke BS Biology (2010). Former acting CEO of Bebo, which Twitch acquired in 2019; co-host of My First Million; co-founded the crypto newsletter Milk Road and sold it to Bitfo in 2022. Runs Shaan's All Access Fund, a rolling fund first raised via a tweet, and angel-invested in Gumloop (2025) and Viktor (2026).
+Founder and GP of Shaan's All Access Fund, a rolling fund targeting pre-seed and seed, and co-host of My First Million. He was acting CEO of Bebo, acquired by Twitch in 2019, and co-founded the crypto newsletter Milk Road. As an angel he backed Gumloop's 2025 Series A.
 
 - **Stage:** Fund targets pre-seed and seed (average check ~$150K per aggregator); his named 2025-26 angel checks are in Series A rounds
 - **Relevant deals:** Gumloop (AI workflow automation): angel in the $17M Series A led by Nexus, Jan 2025. Viktor (AI): Series A (~$75M), May 2026, per Tracxn. Health: Hone Health, Superpower. No 2025-26 seed-stage deal named; no trading or quant deals.
 - **Why them:** Active Duke-alum angel and rolling-fund GP with 2025 AI-tooling exposure (Gumloop). Overall a generalist with a heavy consumer and health tilt, with no trading or ML-infra focus.
-- **Hook:** You backed Gumloop's 2025 round to put AI agents to work; we build the RL environments and verifiers that make the models behind such agents reliably expert, starting with trading.
+- **Hook:** You backed Gumloop's $17M Series A in AI workflow automation; we build RL environments and verifiers that post-train the models behind such tools for expert work, starting with trading.
 - Email: not published
 
 ### 36. William Crowder, Co-founder & Managing Partner, Aperture Venture Capital
@@ -600,16 +599,16 @@ Lisa Burton O'Toole invests at HearstLab, Hearst's early-stage arm backing women
 
 ### 43. Adam Besvinick, Founder & Managing Partner, Looking Glass Capital
 
-*Duke B.A., Public Policy Studies, Duke University (cum laude); MBA Harvard Business School (2009) · Confidence: High*
+*Duke BA Public Policy Studies '09 · Confidence: High*
 
-Duke public-policy graduate (2009, cum laude) and HBS MBA (2013) who founded Looking Glass Capital, a New York pre-seed/seed fund that aims to be the 'first yes'. Earlier he was an investor at Anchorage Capital (2017-19) and Deep Fork Capital, and a Jefferies telecom banker (2009-11).
+Founder and Managing Partner of Looking Glass Capital, a New York pre-seed and seed fund that aims to be the 'first yes' for mission-driven founders in health, climate and empowerment. Looking Glass co-led Simuhealth's $2.62M pre-seed in December 2025. He was previously an investor at Anchorage Capital and Deep Fork Capital.
 
 - **Stage:** Pre-seed and seed; leads or co-leads; initial checks $300K-$400K
 - **Relevant deals:** Co-led (with Parade Ventures) Simuhealth's $2.62M pre-seed (Dec 8 2025); Trially AI (seed, Sep 2025); Titan Intake (seed, May 2025); Kaavio (pre-seed, May 2026). No fintech or trading deals found.
 - **Why them:** Active pre-seed lead with 2025-2026 deals, but the thesis is health, climate and empowerment, not AI infrastructure or fintech.
-- **Hook:** You founded Looking Glass to be the first yes for founders and co-led Simuhealth's pre-seed in 2025; we're a Duke-linked quant team building RL environments for LLM post-training.
+- **Hook:** You founded Looking Glass to be founders' first yes and co-led Simuhealth's $2.62M pre-seed; we're quants building RL environments and verifiers for LLM post-training, starting with trading.
 - Email: not published
-- Fund route: not found (fund site lookingglass.vc)
+- Fund route: Fund site: lookingglass.vc
 - LinkedIn: https://www.linkedin.com/in/besvinick/
 - X: https://x.com/Besvinick
 - Site: https://lookingglass.vc
@@ -766,16 +765,16 @@ Lisa Blau is a Founding Partner of Able Partners, the New York early-stage consu
 - Email: not published
 - Fund route: info@ablepartners.nyc (general inbox on https://ablepartners.nyc/)
 
-### 55. Namita Thapar, Executive Director, Emcure Pharmaceuticals; Shark Tank India investor, Angel investor (Shark Tank India); Executive Director, Emcure Pharmaceuticals
+### 55. Namita Thapar, Shark Tank India investor; Executive Director, Emcure Pharmaceuticals, Angel investor
 
-*Duke MBA (Daytime MBA), Duke University Fuqua School of Business (2001) · Confidence: High*
+*Duke MBA, Fuqua '01 · Confidence: High*
 
-Chartered accountant and 2001 Fuqua Daytime MBA who spent six years at Guidant in the US before returning to Emcure Pharmaceuticals, where she is Executive Director. A shark on every season of Shark Tank India, including season 5 (2026), she has backed more than 100 startups.
+Executive Director of Emcure Pharmaceuticals and a shark on every season of Shark Tank India, backing mostly consumer and health brands. She has backed more than 100 startups, including NeoSapien, an AI-native wearable, in January 2025. Earlier she spent six years at Guidant in the US.
 
 - **Stage:** Early-stage angel (Shark Tank India deals)
 - **Relevant deals:** NeoSapien (AI-native wearable; Rs 80 lakh for 4% on Shark Tank India S4, Jan 2025), the closest to AI; other 2025 deals (Crunchbase): Symbionic, The Bear House, COGRAD, Boba Bhai, Tikitoro, Aquapeya, FAE Beauty (Jan-Mar 2025); otherwise consumer and health brands
 - **Why them:** A prolific, active angel, but in Indian consumer and health brands; no AI, fintech or quant deals found.
-- **Hook:** You are a Fuqua MBA ('01) who backed NeoSapien's AI wearable on Shark Tank India; we are Duke-linked quants building RL environments that teach LLMs to trade.
+- **Hook:** You backed NeoSapien's AI-native wearable on Shark Tank India; we build RL environments and verifiers that train LLMs for expert work, starting with trading.
 - Email: not published
 
 ### 56. Paul Straub, Co-founder & Managing Partner, Wireframe Ventures
@@ -905,16 +904,16 @@ Lori Cashman is Founder and General Partner of Visible Ventures, an early-stage 
 - LinkedIn: https://www.linkedin.com/in/lori-cashman/
 - X: https://x.com/visiblevc_
 
-### 65. Luis von Ahn, Co-founder & CEO, Duolingo; angel investor, Angel investor (co-founder & CEO, Duolingo)
+### 65. Luis von Ahn, Angel investor; Co-founder & CEO, Duolingo, Angel investor
 
-*Duke BS, Mathematics (2000) · Confidence: Medium*
+*Duke BS Mathematics '00 · Confidence: Medium*
 
-Co-founder and CEO of Duolingo and founder of reCAPTCHA, which Google bought in 2009. After his 2000 Duke math degree he co-developed CAPTCHA with Manuel Blum at Carnegie Mellon. In February 2026 he invested in Swedish digital-signage software firm Desquare.
+Co-founder and CEO of Duolingo and an angel investor in e-learning, music and mobility apps. He founded reCAPTCHA, which Google bought in 2009, and co-developed CAPTCHA with Manuel Blum at Carnegie Mellon. In February 2026 he invested in Desquare, a Swedish digital-signage software firm.
 
 - **Stage:** Angel
 - **Relevant deals:** none found in AI/data/fintech; Desquare AB (Designage digital-signage CMS, Sweden; invested Feb 2026 through a Swedish consortium led by Martin Norstrom, terms undisclosed), Gridwise, Trala
 - **Why them:** Active angel in 2026, but his small portfolio is in edtech and music, not AI infrastructure or fintech.
-- **Hook:** You took a Duke math degree and then co-created CAPTCHA at Carnegie Mellon; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.
+- **Hook:** You co-developed CAPTCHA at Carnegie Mellon and sold reCAPTCHA to Google; we build the verifiers and expert data that teach LLMs expert work, starting with trading.
 - Email: not published
 
 ### 66. Nikin Shah, Co-founder & General Partner, Front Porch Venture Partners
@@ -1003,7 +1002,7 @@ Melinda French Gates is founder of Pivotal Ventures, which invests mainly as an 
 
 ## How this was built
 
-- Discovery: three rounds of web search across about 20 angles (Duke networks and boards, rankings, Bay Area / East Coast / Southeast firms, fintech, AI-infra and crypto funds, Fuqua and Duke Law alumni, women-led and emerging funds, Asia). The last round found no new qualifying names.
+- Discovery: three rounds of web search across about 20 angles (Duke networks and boards, rankings, Bay Area / East Coast / Southeast firms, fintech, AI-infra and crypto funds, Fuqua and Duke Law alumni, women-led and emerging funds, Asia), then a deeper seed/angel pass on four more angles (operator-angels, angel networks and syndicates, emerging managers, quant/fintech/international) that added 10 people.
 - Verification: one agent per batch checked the Duke degree and year, the 2026 role, stage, deals and contacts; a separate fact-checker then tried to refute each record with its own searches.
 - Gaps: Duke I&E, Fuqua and most fund websites block direct access from this environment, so evidence is mostly search-result snippets. A firm with no Duke hit is not proof that none of its partners went to Duke. Class years are given only when a source states them.
 
