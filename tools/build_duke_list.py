@@ -68,7 +68,7 @@ def apply_corrections(rec, rv):
     for c in rv.get("corrections") or []:
         val = c["value"]
         if c["field"] == "duke_grad_year":
-            m = re.search(r"\d{4}", val or "")
+            m = re.search(r"\d{4}", str(val or ""))
             val = int(m.group()) if m else None
         rec[c["field"]] = val
         rec["check_notes"] = (rec.get("check_notes", "") + f" | {c['field']}: {c['evidence']}").strip(" |")

@@ -1,0 +1,1286 @@
+[
+ {
+  "batch": [
+   "Wes Barton",
+   "Shaan Puri",
+   "Zach Perret",
+   "Danny Hadar",
+   "Adam Besvinick",
+   "Naveen Rao",
+   "Howie Liu",
+   "Howard Lerman",
+   "Doug Higgins",
+   "Luis von Ahn",
+   "Namita Thapar",
+   "Ashley Brasier",
+   "Shep Moyle",
+   "Dylan Smith",
+   "Lyndsay Lyle",
+   "Gautam Bazaz",
+   "Brad Lightcap",
+   "Jason Robins",
+   "Aaron Patzer",
+   "Ben Hamner",
+   "Tarun Thakur",
+   "Ravi Trivedi"
+  ],
+  "enriched": {
+   "people": [
+    {
+     "name": "Wes Barton",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Third Prime",
+     "title_2026": "Co-Founder & General Partner",
+     "location": "Nashville, TN",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/wes-barton (search snippet)",
+      "https://investorconnect.org/investor-connect-wes-barton-of-third-prime/ (search snippet)",
+      "https://www.teknovation.biz/one-of-two-managing-partners-at-third-prime-returns-to-the-region/ (search snippet)",
+      "https://f4.fund/firms/third-prime (search snippet)"
+     ],
+     "duke_degree": "J.D., Duke University School of Law (undergrad: Western Kentucky University 1999)",
+     "duke_grad_year": 2002,
+     "grad_year_basis": "stated: J.D. from Duke Law in 2002",
+     "duke_sources": [
+      "https://investorconnect.org/investor-connect-wes-barton-of-third-prime/ (search snippet)",
+      "https://signal.nfx.com/investors/wes-barton (search snippet)",
+      "https://gnpca.org/wes-barton (search snippet)"
+     ],
+     "stage_focus": "Seed; often leads; typical checks $1M-$5M",
+     "sectors": "Fintech, proptech",
+     "bio": "Co-founder and General Partner of Third Prime, a seed fund backing fintech and proptech companies. Previously ~9 years at Trimaran Capital Partners, investment banking at Bank of America and M&A law at Skadden. Moved to Nashville during COVID.",
+     "relevant_investments": "Limited (enterprise banking across crypto and fiat): Third Prime co-led $18.5M seed with North Island Ventures, The House Fund and Collab+Currency; extended seed reported Sep 2026. Third Prime made 9 new investments in the prior 12 months (2025 profile).",
+     "investment_sources": [
+      "https://cryptorank.io/insights/deals/limited-extended-seed-2026-09-25 (search snippet)",
+      "https://www.kucoin.com/news/flash/limited-completes-18-5m-seed-round-led-by-third-prime-and-others (search snippet)",
+      "https://www.thesaasnews.com/news/limited-raises-18-5m-seed/ (search snippet)",
+      "https://f4.fund/firms/third-prime (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/wes-barton-35a8455/",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "High",
+     "fit_reason": "Decision-making GP at a seed fund focused on fintech that led/co-led a crypto-and-fiat banking seed round in 2026.",
+     "hook": "Your fund Third Prime co-led Limited's $18.5M seed this year; we build Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://cryptorank.io/insights/deals/limited-extended-seed-2026-09-25 (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "Shaan Puri",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Shaan's All Access Fund (rolling fund) / Angel investor",
+     "title_2026": "Founder / GP, All Access Fund; angel investor; co-founder and chairman, Milk Road",
+     "location": "San Francisco, CA (per investor-database snippet; not independently confirmed)",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/shaan-puri (search snippet)",
+      "https://sacra.com/p/shaan-puri-myfirstmillion-interview/ (search snippet)",
+      "https://www.crunchbase.com/person/shaan-puri (search snippet)",
+      "https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)"
+     ],
+     "duke_degree": "BS Biology (minor in Chemistry), Duke University",
+     "duke_grad_year": 2010,
+     "grad_year_basis": "Bio pages state he attended Duke 2006-2010 and graduated with a BS in Biology in 2010; no official Duke page seen.",
+     "duke_sources": [
+      "https://www.michelegargiulo.com/blog/shaan-puri-biography-my-first-million (search snippet)",
+      "https://businessmenstory.com/shaan-puri/ (search snippet)",
+      "https://www.openalmanac.org/w/founders-inc/shaan-puri (search snippet)"
+     ],
+     "stage_focus": "Angel and rolling-fund checks; Tracxn lists 2025 participation in Series A rounds",
+     "sectors": "Generalist: enterprise applications, fintech, health, AI tools (Tracxn sector tags)",
+     "bio": "Duke BS Biology (2010). Former CEO of Bebo, which Twitch acquired; co-host of My First Million and co-founder/chairman of Milk Road. Runs Shaan's All Access Fund, a rolling fund raised off his podcast audience; Tracxn lists 2025 angel deals in Gumloop, Hone Health and Superpower.",
+     "relevant_investments": "Gumloop (AI workflow/agent automation), Series A, Jan 2025 (per Tracxn). Other 2025 deals are health (Hone Health, Superpower). No trading or quant deals found.",
+     "investment_sources": [
+      "https://tracxn.com/d/people/shaan-puri/__Mii6DHoQCTTsGnrv7vbm_7l6yQVyAL5AsK_FjAt_QC0 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "Active Duke-alum angel and rolling-fund GP with 2025 AI-tooling exposure (Gumloop). Overall a generalist with a heavy consumer and health tilt, with no trading or ML-infra focus.",
+     "hook": "You backed Gumloop's 2025 round to put AI agents to work; we build the RL environments and verifiers that make the models behind such agents reliably expert, starting with trading.",
+     "hook_sources": [
+      "https://tracxn.com/d/people/shaan-puri/__Mii6DHoQCTTsGnrv7vbm_7l6yQVyAL5AsK_FjAt_QC0 (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Zach Perret",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Mischief (early-stage VC) / Plaid",
+     "title_2026": "Co-founder & CEO, Plaid; co-founder & Managing Director, Mischief",
+     "location": "San Francisco (Mischief and Plaid base)",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/zach-perret (search snippet)",
+      "https://startupintros.com/orgs/mischief (search snippet)",
+      "https://www.axios.com/plaids-ceo-vc-fund-e70287f2-eac0-43cd-8b3f-b7b76b871266.html (search snippet)",
+      "https://www.crunchbase.com/person/zach-perret (search snippet)"
+     ],
+     "duke_degree": "BS, Physics and Chemistry",
+     "duke_grad_year": null,
+     "grad_year_basis": "Certain from career: worked as a Bain associate (where he met co-founder William Hockey) before co-founding Plaid in about 2012-13",
+     "duke_sources": [
+      "https://www.crunchbase.com/person/zach-perret (search snippet)",
+      "https://www.clay.com/dossier/plaid-ceo (search snippet)",
+      "https://en.wikipedia.org/wiki/William_Hockey (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed ($1-5M via Mischief); personal angel checks seed to Series B",
+     "sectors": "Fintech, enterprise software, healthcare software, climate/energy",
+     "bio": "Co-founder and CEO of Plaid. In 2021 he co-founded Mischief with Lauren Farleigh, a San Francisco fund writing $1-5M checks into pre-seed and seed software companies; Signal lists him as its Managing Director. He also angel-invests personally across fintech and enterprise software.",
+     "relevant_investments": "Lassie (Jun 3 2026); Comulate (Series B, Feb 2025); Fragment (seed, Jul 2024); SentiLink; Metronome",
+     "investment_sources": [
+      "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet)",
+      "https://pitchbook.com/profiles/investor/266394-07 (search snippet)",
+      "https://www.areteindex.com/angels/zachary-perret/ (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found (Mischief pitch inbox not verified)",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "https://zachperret.com",
+     "fit": "High",
+     "fit_reason": "Fintech-infrastructure founder who runs a pre-seed/seed software fund and is still investing in 2026; a trading-model environment sits squarely in his fintech domain.",
+     "hook": "You co-founded Plaid and back pre-seed software through Mischief; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://startupintros.com/orgs/mischief (search snippet)",
+      "https://www.crunchbase.com/person/zach-perret (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "Danny Hadar",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Jibe Ventures",
+     "title_2026": "Co-Founder & Managing Partner",
+     "location": "London Area, United Kingdom",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/danny-hadar (search snippet)",
+      "https://finder.startupnationcentral.org/investor_page/jibe-ventures (search snippet)",
+      "https://tracxn.com/d/venture-capital/jibe-ventures/__KX8QyQlcZd8bis1Ei-S99ihYQbGWtYe5VeLk27nLFOY (search snippet)",
+      "https://www.linkedin.com/in/dannyhadar/ (search snippet)"
+     ],
+     "duke_degree": "MBA, Duke University Fuqua School of Business",
+     "duke_grad_year": 2007,
+     "grad_year_basis": "stated: Fuqua MBA 2005-2007",
+     "duke_sources": [
+      "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)",
+      "https://angel.co/p/danny-hadar (search snippet)"
+     ],
+     "stage_focus": "Pre-seed, seed, seed+; earlier personal angel checks $25K-$200K",
+     "sectors": "Israeli founders; AI, cybersecurity, healthcare, fintech, enterprise",
+     "bio": "Fuqua MBA (2007) who co-founded Jibe Ventures in 2020 to back Israeli founders at pre-seed and seed. Before that, a serial entrepreneur and angel with 20+ seed investments including Snyk and Bonobo, and a managing director at Fosun RZ Capital.",
+     "relevant_investments": "Jibe: led Fabrix Security $8M seed (Sep 2025); Notch.cx $7M seed (Oct 2025); 6 investments in 2025 and 3 by Mar 2026. Personal angel: Snyk (early seed, year not stated).",
+     "investment_sources": [
+      "https://tracxn.com/d/venture-capital/jibe-ventures/__KX8QyQlcZd8bis1Ei-S99ihYQbGWtYe5VeLk27nLFOY (search snippet)",
+      "https://signal.nfx.com/investors/danny-hadar (search snippet)",
+      "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/dannyhadar/",
+     "x_url": "https://x.com/dannyhadar",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "Decision-making MP at an active pre-seed/seed fund investing in AI and cyber, but the fund backs Israeli founders, which SimReal is not.",
+     "hook": "You co-founded Jibe Ventures after a Fuqua MBA and an early check into Snyk; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.",
+     "hook_sources": [
+      "https://finder.startupnationcentral.org/investor_page/jibe-ventures (search snippet)",
+      "https://aringo.com/mba-admission-consultant-danny-hadar/ (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "Adam Besvinick",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Looking Glass Capital",
+     "title_2026": "Founder & Managing Partner",
+     "location": "New York, NY",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/adam-besvinick (search snippet)",
+      "https://www.crunchbase.com/person/adam-besvinick (search snippet)",
+      "https://theorg.com/org/lookingglass/org-chart/adam-besvinick (search snippet)",
+      "https://lookingglass.vc/team/ (search snippet)"
+     ],
+     "duke_degree": "B.A., Public Policy Studies, Duke University (cum laude); MBA Harvard Business School",
+     "duke_grad_year": 2009,
+     "grad_year_basis": "stated: graduated cum laude from Duke in 2009",
+     "duke_sources": [
+      "https://theorg.com/org/lookingglass/org-chart/adam-besvinick (search snippet)",
+      "https://signal.nfx.com/investors/adam-besvinick (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed; leads or co-leads; initial checks $300K-$400K",
+     "sectors": "Health, climate, empowerment (mission-driven founders)",
+     "bio": "Duke public-policy graduate (2009) and HBS MBA who founded Looking Glass Capital in 2020, a New York pre-seed/seed fund that aims to be the 'first yes'. Earlier an angel via the Looking Glass Syndicate, at Anchorage Capital and Deep Fork Capital, and a Jefferies telecom banker.",
+     "relevant_investments": "Trially AI (seed, Sep 2025); Titan Intake (seed, May 2025); led Simuhealth $1.9M pre-seed (Dec 2025); Kaavio (pre-seed, May 2026). No fintech or trading deals found.",
+     "investment_sources": [
+      "https://tracxn.com/d/venture-capital/looking-glass-capital/__6UpEtA-vjkZBBSQUN-BKir2k_Uk25js2MnnOHnPZUcw (search snippet)",
+      "https://pitchbook.com/profiles/investor/454782-70 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found (fund site lookingglass.vc)",
+     "linkedin_url": "https://www.linkedin.com/in/besvinick/",
+     "x_url": "https://x.com/LookingGlassCap",
+     "personal_site": "https://lookingglass.vc",
+     "fit": "Low",
+     "fit_reason": "Active pre-seed lead with 2025-2026 deals, but the thesis is health, climate and empowerment, not AI infrastructure or fintech.",
+     "hook": "You founded Looking Glass to be the first yes for founders and led Simuhealth's pre-seed in 2025; we're a Duke-linked quant team building RL environments for LLM post-training.",
+     "hook_sources": [
+      "https://investorconnect.org/investor-connect-adam-besvinick-of-looking-glass-capital/ (search snippet)",
+      "https://tracxn.com/d/venture-capital/looking-glass-capital/__6UpEtA-vjkZBBSQUN-BKir2k_Uk25js2MnnOHnPZUcw (search snippet)"
+     ],
+     "confidence": "High"
+    },
+    {
+     "name": "Naveen Rao",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Angel investor (also Co-founder & CEO, Unconventional AI)",
+     "title_2026": "Co-founder & CEO, Unconventional AI; angel investor",
+     "location": "unclear (US)",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round/ (search snippet)",
+      "https://www.axios.com/2025/12/09/unconventional-ai-475-million (search snippet)",
+      "https://www.cbinsights.com/investor/naveen-rao (search snippet)",
+      "https://angelmatch.io/investors/naveen-rao (search snippet)"
+     ],
+     "duke_degree": "BS (bachelor's), Electrical Engineering and Computer Science, Duke University",
+     "duke_grad_year": null,
+     "grad_year_basis": "Year not stated; sources say after the Duke EECS degree he worked about a decade as a computer architect before a Brown PhD, then founded Nervana (sold to Intel 2016), so the degree was completed well before 2018.",
+     "duke_sources": [
+      "https://aiwiki.ai/wiki/naveen_rao (search snippet)",
+      "https://nextomoro.com/naveen-rao/ (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed (per angel profile)",
+     "sectors": "AI chip design, edge AI, LLM infrastructure",
+     "bio": "Duke EECS graduate who founded Nervana Systems (acquired by Intel) and MosaicML (acquired by Databricks for about $1.3B). In 2025 he founded Unconventional AI, which raised a $475M seed led by a16z and Lightspeed. Angel profiles list about six investments, the latest a January 2026 seed.",
+     "relevant_investments": "Cleanlab (ML data-quality tooling; listed as a portfolio exit, Jan 2026); Topos Bio (seed, Jan 8 2026); aggregator lists focus on AI chips, edge AI and LLM infra. Also put $10M of his own money into Unconventional AI's 2025 seed (own company).",
+     "investment_sources": [
+      "https://www.cbinsights.com/investor/naveen-rao (search snippet)",
+      "https://angelmatch.io/investors/naveen-rao (search snippet)",
+      "https://finance.yahoo.com/news/unconventional-ai-confirms-massive-475m-002416708.html (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "High",
+     "fit_reason": "Built MosaicML (LLM training infrastructure) and angel-invests in AI chips, edge AI and LLM infrastructure at pre-seed and seed, with a January 2026 deal on record. This is a close match for RL environments and verifiers for post-training.",
+     "hook": "You built MosaicML and backed Cleanlab; we build RL environments and verifiers for LLM post-training, including a trading environment that lifted an open model's performance 12% on unseen market data.",
+     "hook_sources": [
+      "https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/ (search snippet)",
+      "https://www.cbinsights.com/investor/naveen-rao (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Howie Liu",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Angel investor (co-founder & CEO, Airtable)",
+     "title_2026": "Co-founder & CEO, Airtable; angel investor",
+     "location": "not verified",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/howie-liu (search snippet)",
+      "https://www.clay.com/dossier/airtable-ceo (search snippet)",
+      "https://www.taskade.com/blog/history-of-airtable (search snippet)"
+     ],
+     "duke_degree": "BS, Mechanical Engineering and Public Policy (attended 2005-2009)",
+     "duke_grad_year": 2009,
+     "grad_year_basis": "Stated: attended Duke 2005-2009",
+     "duke_sources": [
+      "https://www.clay.com/dossier/airtable-ceo (search snippet)",
+      "https://yespress.io/howie-liu (search snippet)"
+     ],
+     "stage_focus": "Angel, seed to Series B",
+     "sectors": "AI infrastructure and AI applications, software",
+     "bio": "Co-founder and CEO of Airtable, a unicorn serving over 450,000 organizations, which launched its Superagent AI agent in January 2026. Signal lists him as an angel; he has backed 17 startups, mostly AI and software, including Fireworks AI and Decagon.",
+     "relevant_investments": "Sundial (Series A, Jul 2025); Fireworks AI (Series B, Jul 2024); Decagon (Series A, Jun 2024); Galileo AI (seed, Feb 2024)",
+     "investment_sources": [
+      "https://siliconvalleyinvestclub.com/investors/howie-liu/ (search snippet)",
+      "https://signal.nfx.com/investors/howie-liu (search snippet)",
+      "https://www.boringbusinessnerd.com/investor/howie-liu (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "High",
+     "fit_reason": "Personal angel checks into AI infrastructure (Fireworks AI) and AI agents/apps, with a verified deal in July 2025; his own company is now shipping AI agents.",
+     "hook": "You backed Fireworks AI and Decagon as an angel; we build RL environments and verifiers that make LLMs better at expert work after pre-training, starting with trading.",
+     "hook_sources": [
+      "https://siliconvalleyinvestclub.com/investors/howie-liu/ (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Howard Lerman",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Angel investor (Wonder Inventions; founder & CEO, Roam)",
+     "title_2026": "Founder, CEO and Chief Inventor, Roam; angel investor",
+     "location": "Miami Beach, FL",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/howard-lerman (search snippet)",
+      "https://www.crunchbase.com/person/howard-lerman (search snippet)",
+      "https://www.evalyze.ai/investors/howard-lerman (search snippet)"
+     ],
+     "duke_degree": "Bachelor's",
+     "duke_grad_year": null,
+     "grad_year_basis": "Certain from career: co-founded Yext in 2006 (later CEO of the public company) after his Duke bachelor's",
+     "duke_sources": [
+      "https://www.evalyze.ai/investors/howard-lerman (search snippet)",
+      "https://www.crunchbase.com/person/howard-lerman (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed mostly; checks $100K-$5M",
+     "sectors": "AI, enterprise applications, consumer internet, media, audio tech",
+     "bio": "Co-founder and former CEO of Yext, now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. As an angel he writes $100K-$5M checks, mostly pre-seed and seed, and has made 13 investments.",
+     "relevant_investments": "Orchard Robotics (Series A, Sep 3 2025); AI listed among his pre-seed/seed sectors; no named AI-infra deal found",
+     "investment_sources": [
+      "https://www.evalyze.ai/investors/howard-lerman (search snippet)",
+      "https://tracxn.com/d/people/howard-lerman/__t7qbL_2XDrbETzujJW6pLQZoCzDVxI-C8JkzpOjZrLw (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "Medium",
+     "fit_reason": "Large-check pre-seed/seed operator-angel with AI in scope and a September 2025 deal; no named AI-infrastructure or fintech deal found.",
+     "hook": "You put $12M of your own money into Roam and still write pre-seed and seed checks; we build RL environments and verifiers for LLM post-training, starting with trading.",
+     "hook_sources": [
+      "https://alejandrocremades.com/howard-lerman/ (search snippet)",
+      "https://www.evalyze.ai/investors/howard-lerman (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Doug Higgins",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "359 Capital (formerly Sapphire Sport)",
+     "title_2026": "Co-founder and Board Partner, 359 Capital",
+     "location": "Park City, Utah",
+     "still_active_2026": "yes",
+     "decision_maker": "unclear",
+     "role_sources": [
+      "https://www.359capital.com/ (search snippet)",
+      "https://aventure.vc/news/2025-11-10-sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum (search snippet)",
+      "https://www.findfunding.vc/359-capital (search snippet)",
+      "https://www.linkedin.com/in/rdoughiggins/ (search snippet)"
+     ],
+     "duke_degree": "BA (Kellogg MBA separately)",
+     "duke_grad_year": null,
+     "grad_year_basis": "Certain from career: co-founded Sapphire Ventures and invested in LinkedIn, DocuSign and Square before their IPOs, long after his Duke BA",
+     "duke_sources": [
+      "https://www.359capital.com/ (search snippet)",
+      "https://www.findfunding.vc/359-capital (search snippet)"
+     ],
+     "stage_focus": "Seed to Series C; $1M-$10M checks",
+     "sectors": "AI applications, prosumer tools, next-gen media, digital commerce, gaming, social, wellness",
+     "bio": "Co-founder of Sapphire Ventures and of 359 Capital, the November 2025 spin-out and rebrand of Sapphire Sport, which closed a $181M Fund II (about $300M AUM). The firm writes $1-10M seed-to-Series C checks; it has backed Perplexity, Beehiiv and Tonal. His title is Board Partner.",
+     "relevant_investments": "359 Capital/Sapphire Sport: Perplexity (AI search), Beehiiv; personal: LinkedIn, DocuSign, Square (earlier, at Sapphire)",
+     "investment_sources": [
+      "https://aventure.vc/news/2025-11-10-sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum (search snippet)",
+      "https://www.findfunding.vc/359-capital (search snippet)",
+      "https://www.359capital.com/ (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "Medium",
+     "fit_reason": "New $181M fund that writes seed checks and lists AI applications as a focus; but he is a 'Board Partner', so decision rights are unclear, and the thesis leans media and consumer.",
+     "hook": "You co-founded 359 Capital, which backed Perplexity; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+     "hook_sources": [
+      "https://www.findfunding.vc/359-capital (search snippet)",
+      "https://www.359capital.com/ (search snippet)"
+     ],
+     "confidence": "Low"
+    },
+    {
+     "name": "Luis von Ahn",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Angel investor (co-founder & CEO, Duolingo)",
+     "title_2026": "Co-founder & CEO, Duolingo; angel investor",
+     "location": "not verified",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.crunchbase.com/person/luis-von-ahn (search snippet)",
+      "https://www.cbinsights.com/investor/luis-von-ahn (search snippet)"
+     ],
+     "duke_degree": "BS, Mathematics",
+     "duke_grad_year": 2000,
+     "grad_year_basis": "Stated: bachelor's in mathematics from Duke in 2000",
+     "duke_sources": [
+      "https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet)"
+     ],
+     "stage_focus": "Angel",
+     "sectors": "E-learning, music, mobility apps",
+     "bio": "Co-founder and CEO of Duolingo; founded reCAPTCHA, which Google bought in 2009, and devised CAPTCHA in 2000 while a Duke student. He has made six angel investments, most recently in February 2026.",
+     "relevant_investments": "none found in AI/data/fintech; angel deals: Desquare (angel, Feb 16 2026), Gridwise, Trala",
+     "investment_sources": [
+      "https://www.cbinsights.com/investor/luis-von-ahn (search snippet)",
+      "https://www.angelbacked.co/investor/luis-von-ahn (search snippet)",
+      "https://pitchbook.com/profiles/investor/235267-39 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "Low",
+     "fit_reason": "Active angel in 2026, but his small portfolio is in edtech and music, not AI infrastructure or fintech.",
+     "hook": "You devised CAPTCHA while studying at Duke; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.",
+     "hook_sources": [
+      "https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Namita Thapar",
+     "include": true,
+     "exclude_reason": "",
+     "firm": "Angel investor (Shark Tank India); Executive Director, Emcure Pharmaceuticals",
+     "title_2026": "Executive Director, Emcure Pharmaceuticals; Shark Tank India investor",
+     "location": "India",
+     "still_active_2026": "yes",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://en.wikipedia.org/wiki/Namita_Thapar (search snippet)",
+      "https://sharktank-india.com/namita-thapar/ (search snippet)",
+      "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+     ],
+     "duke_degree": "MBA, Duke University Fuqua School of Business",
+     "duke_grad_year": null,
+     "grad_year_basis": "Year not stated in the snippets. She has been a senior Emcure executive and Shark Tank India investor since its first season (2021), so a pre-2018 MBA is very likely but not proven by a source. Check the Wikipedia page before relying on it.",
+     "duke_sources": [
+      "https://en.wikipedia.org/wiki/Namita_Thapar (search snippet)",
+      "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+     ],
+     "stage_focus": "Early-stage angel (Shark Tank India deals)",
+     "sectors": "Healthcare, food, consumer products, lifestyle, education, some tech",
+     "bio": "Chartered accountant with a Fuqua MBA and an executive at Emcure Pharmaceuticals. She has been an investor on every season of Shark Tank India and has backed more than 100 startups across healthcare, food, consumer and lifestyle brands.",
+     "relevant_investments": "none found (portfolio is mainly consumer and health brands such as Bummer, Skippi Ice Pops, Beyond Water)",
+     "investment_sources": [
+      "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)",
+      "https://www.tryfundable.ai/investor/namita-thapar (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "A prolific, active angel, but in Indian consumer and health brands; no AI, fintech or quant deals found.",
+     "hook": "You have backed more than 100 founders as a Shark Tank India investor; we are Duke-linked quants building RL environments that teach LLMs to trade.",
+     "hook_sources": [
+      "https://startuptalky.com/namita-thapar-funded-startups/ (search snippet)"
+     ],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Ashley Brasier",
+     "include": false,
+     "exclude_reason": "No verified angel deal in 2025-2026; latest named deal is boam.ai seed (Dec 2022). Signal lists her as an active angel ($10K-$100K), so recheck if a recent deal turns up.",
+     "firm": "Angel investor (Faire)",
+     "title_2026": "Head of AI Enablement & Principal PM, Faire; angel investor and advisor",
+     "location": "not found",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://signal.nfx.com/investors/ashley-brasier (search snippet)",
+      "https://www.linkedin.com/in/ashleybrasier/ (search snippet)"
+     ],
+     "duke_degree": "B.A., Duke University (MBA Stanford GSB 2018)",
+     "duke_grad_year": 2012,
+     "grad_year_basis": "stated: B.A. 2012",
+     "duke_sources": [
+      "https://www.crunchbase.com/person/ashley-brasier (search snippet)",
+      "https://signal.nfx.com/investors/ashley-brasier (search snippet)"
+     ],
+     "stage_focus": "Pre-seed and seed; $10K-$100K, sweet spot $50K",
+     "sectors": "Consumer internet, enterprise",
+     "bio": "Duke B.A. (2012) and Stanford MBA, now leading AI enablement at Faire after roles at Lightspeed, Thumbtack and Bain. Lists herself as an angel investor and advisor.",
+     "relevant_investments": "boam.ai (seed, Dec 2022); CleanCo (seed, Jan 2020). No 2025-2026 deal found.",
+     "investment_sources": [
+      "https://startupintros.com/people/ashley-brasier (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/ashleybrasier/",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "AI-enablement operator angel in enterprise, but no recent verified checks.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Shep Moyle",
+     "include": false,
+     "exclude_reason": "Long-time angel and Duke Capital Partners investor, but no named deals found and Duke degree type/year not stated in snippets.",
+     "firm": "Angel investor; Senior Lecturing Fellow, Duke I&E (Fuqua)",
+     "title_2026": "Senior Lecturing Fellow, Duke Innovation & Entrepreneurship; angel investor",
+     "location": "Durham, NC",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)",
+      "https://sellsidegroup.com/leadership/shep-moyle (search snippet)"
+     ],
+     "duke_degree": "Duke alumnus (former Duke Alumni Association president and trustee; 2018 Charles A. Dukes Award); degree not stated",
+     "duke_grad_year": null,
+     "grad_year_basis": "not stated",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/profile/shep-moyle/ (search snippet)"
+     ],
+     "stage_focus": "Angel",
+     "sectors": "Digital retail, e-commerce, consumer",
+     "bio": "Scaled family business Shindigz into a major party-supplies e-retailer, has angel-invested for 30+ years, and invests through Duke Capital Partners. Teaches entrepreneurship at Duke.",
+     "relevant_investments": "none found",
+     "investment_sources": [],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/shep-moyle-13b37a43/",
+     "x_url": "https://x.com/shepmoyle",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "Consumer/e-commerce background; no AI or fintech deals found.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Dylan Smith",
+     "include": false,
+     "exclude_reason": "Duke economics graduate and Box co-founder/CFO; angel record is thin (4 companies) with the latest deal in Jan 2023, so no 2025-2026 activity.",
+     "firm": "Box",
+     "title_2026": "Co-Founder & CFO, Box",
+     "location": "not found",
+     "still_active_2026": "no",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.box.com/events/cards/resource/57781?resource_id=DylanSmith-57781 (search snippet)"
+     ],
+     "duke_degree": "B.A., Economics, Duke University",
+     "duke_grad_year": null,
+     "grad_year_basis": "not stated; co-founded Box in 2005 while in college",
+     "duke_sources": [
+      "https://en.wikipedia.org/wiki/Dylan_Smith_(businessman) (search snippet)"
+     ],
+     "stage_focus": "Occasional angel",
+     "sectors": "Enterprise applications, enterprise infrastructure",
+     "bio": "Co-founded Box with Aaron Levie in 2005 while at Duke and is its CFO. Has angel-invested in four companies.",
+     "relevant_investments": "Inscribe (Series B, Jan 2023); Judicata (angel, 2012). No 2025-2026 deal found.",
+     "investment_sources": [
+      "https://tracxn.com/d/people/dylan-smith/__FhHVuMGojwZrJJP5PYVf32Mh1e_Kgr9YtF_HApRi8SI (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "Infrequent angel with no recent activity.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Lyndsay Lyle",
+     "include": false,
+     "exclude_reason": "No verified angel or seed checks in 2025-26. Skyline Capital is a family office (Ketchum, ID). The only seed deals found (Traini, May 2024; XRUN, June 2022, PitchBook snippet) may belong to a different 'Skyline Capital'.",
+     "firm": "Skyline Capital (family office)",
+     "title_2026": "Managing Partner",
+     "location": "Ketchum, Idaho (firm location)",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.spurfoundation.org/lyndsay-lyle (search snippet)",
+      "https://www.linkedin.com/in/lyndsay-lyle-15a7602/ (search snippet)",
+      "https://pitchbook.com/profiles/investor/431677-27 (search snippet)"
+     ],
+     "duke_degree": "BS Biology, Duke University (Trinity); MBA Harvard Business School",
+     "duke_grad_year": 2003,
+     "grad_year_basis": "Duke I&E International Women's Day 2024 spotlight names her 'Lyndsay Lyle '03'.",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/spotlighting-innovative-duke-women-for-internationalwomensday-2024/ (search snippet)",
+      "https://www.spurfoundation.org/lyndsay-lyle (search snippet)"
+     ],
+     "stage_focus": "Family office investing in public and private high-growth technology companies; some seed deals attributed to a 'Skyline Capital'",
+     "sectors": "Technology (generalist)",
+     "bio": "Duke BS Biology '03 and HBS MBA. Managing Partner of Skyline Capital, a family office investing in high-growth tech businesses. Formerly YouTube's Director of User Operations, with earlier roles at Google, Williams-Sonoma and BCG. Sits on Duke's Board of Visitors and is a Trinity Board member and DTech Alumnae Executive Sponsor.",
+     "relevant_investments": "none found",
+     "investment_sources": [
+      "https://pitchbook.com/profiles/investor/431677-27 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/lyndsay-lyle-15a7602/",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "Duke-engaged decision maker at a tech-focused family office, but no AI, data, fintech or recent seed activity verified.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Gautam Bazaz",
+     "include": false,
+     "exclude_reason": "No named angel or seed deals found for 2025-26. Current public role is mainly health-sector convening (Global Health Forum CEO).",
+     "firm": "Amarnath Partners",
+     "title_2026": "Founder & Managing Partner (CEO)",
+     "location": "Philadelphia, PA",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.crunchbase.com/person/gautam-bazaz (search snippet)",
+      "https://www.globehealer.com/team/gautam-bazaz-mba/ (search snippet)",
+      "https://www.amarnathpartners.com/ (search snippet)"
+     ],
+     "duke_degree": "MBA, Duke Fuqua",
+     "duke_grad_year": 2009,
+     "grad_year_basis": "A Duke Capital Partners page lists him as 'Gautam Bazaz MBA'09' (the exact DCP page was not shown in the result).",
+     "duke_sources": [
+      "https://dukecapitalpartners.duke.edu/ (search snippet)",
+      "https://www.globehealer.com/team/gautam-bazaz-mba/ (search snippet)"
+     ],
+     "stage_focus": "Unclear; described as an investor and adviser to entrepreneurs",
+     "sectors": "Health, technology, financial",
+     "bio": "Fuqua MBA '09 and Carnegie Mellon graduate. Founder of Amarnath Partners, a Philadelphia investment and advisory firm. Described as an experienced investor in health, technology and financial companies, previously at Vanguard, J.P. Morgan and Booz Allen. Also CEO of Global Health Forum.",
+     "relevant_investments": "none found",
+     "investment_sources": [],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/gautam-bazaz/",
+     "x_url": "https://x.com/gautambazaz",
+     "personal_site": "https://www.amarnathpartners.com/",
+     "fit": "Low",
+     "fit_reason": "Health-centred investor/adviser with no verified early-stage AI or fintech checks.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Low"
+    },
+    {
+     "name": "Brad Lightcap",
+     "include": false,
+     "exclude_reason": "No personal 2025-2026 angel/seed checks found: one personal angel deal (Klarity Series A, Jan 2022); the OpenAI Startup Fund he managed is corporate capital. Left OpenAI in Aug 2026 to 'start something new' (details undisclosed). Worth re-checking if the new venture is a fund.",
+     "firm": "Undisclosed new venture (ex-OpenAI)",
+     "title_2026": "Former COO / special projects lead, OpenAI (left Aug 2026)",
+     "location": "San Francisco",
+     "still_active_2026": "no",
+     "decision_maker": "unclear",
+     "role_sources": [
+      "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving (search snippet)",
+      "https://dealroom.co/news/144533-openai-coo-brad-lightcap-exits-after-nine-years-to-start-his-own-venture/ (search snippet)",
+      "https://www.vcsheet.com/who/brad-lightcap (search snippet)"
+     ],
+     "duke_degree": "Degrees in Economics and History",
+     "duke_grad_year": null,
+     "grad_year_basis": "Certain from career: J.P. Morgan analyst, then joined Dropbox in 2013",
+     "duke_sources": [
+      "https://www.insead.edu/bio/brad-lightcap (search snippet)",
+      "https://www.crunchbase.com/person/brad-lightcap (search snippet)"
+     ],
+     "stage_focus": "n/a (corporate fund: pre-seed to Series B AI)",
+     "sectors": "AI",
+     "bio": "Joined OpenAI after YC Continuity and Dropbox; became COO and managed the OpenAI Startup Fund. Moved to special projects in April 2026 and announced on August 11, 2026 that he was leaving to start a new venture.",
+     "relevant_investments": "Klarity (Series A, Jan 2022; personal angel)",
+     "investment_sources": [
+      "https://www.vcsheet.com/who/brad-lightcap (search snippet)",
+      "https://angelmatch.io/investors/brad-lightcap (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/bradlightcap/",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "Medium",
+     "fit_reason": "Ideal domain fit (OpenAI operations), but no personal early-stage check activity is verified.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Jason Robins",
+     "include": false,
+     "exclude_reason": "Duke Econ/CS graduate and an angel with 27 investments, but the latest dated deal found is Kidsy (seed, Mar 2024); no 2025-26 deal was verified.",
+     "firm": "Co-founder & CEO, DraftKings; angel investor",
+     "title_2026": "Co-founder & CEO, DraftKings",
+     "location": "Boston, MA",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.crunchbase.com/person/jason-robins (search snippet)",
+      "https://pitchbook.com/profiles/investor/107443-09 (search snippet)"
+     ],
+     "duke_degree": "BA, Economics and Computer Science, Duke University",
+     "duke_grad_year": null,
+     "grad_year_basis": "Year not stated; he co-founded DraftKings in 2011 after leaving a corporate job (CNBC 2018), so the degree was before 2018.",
+     "duke_sources": [
+      "https://www.crunchbase.com/person/jason-robins (search snippet)",
+      "https://www.cnbc.com/2018/05/30/draftkings-ceo-jason-robins-quit-day-job-for-a-successful-start-up.html (search snippet)"
+     ],
+     "stage_focus": "Seed (historical)",
+     "sectors": "Sports, gaming, collectibles, fintech",
+     "bio": "Duke economics and CS graduate who co-founded DraftKings in 2011 and is its CEO. Aggregators list 27 angel investments, including Jackpot.com, WAX, Grow Credit and Sports Innovation Lab.",
+     "relevant_investments": "Grow Credit (fintech, year not given); Kidsy (seed, Mar 2024)",
+     "investment_sources": [
+      "https://tracxn.com/d/people/jason-robins/__LwpvoLopftKJj0cnSSopYOHZK7zCG0PpPHuzRRNxP3A (search snippet)",
+      "https://pitchbook.com/profiles/investor/107443-09 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Medium",
+     "fit_reason": "A data- and odds-driven operator-angel who backs some fintech, but recent activity is unverified.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Aaron Patzer",
+     "include": false,
+     "exclude_reason": "Duke degree confirmed and he has an angel profile, but no 2025-26 angel or seed deal was found; the latest dated deal in the snippets is Shen.AI (pre-seed, Oct 2020). A 'Fjord Ventures' managing-partner label in aggregators looks like a mix-up with a life-sciences firm.",
+     "firm": "Founder & CEO, Vital; angel investor",
+     "title_2026": "Founder & CEO, Vital (per aggregator profiles)",
+     "location": "San Francisco, CA / Auckland, NZ (per aggregator)",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.crunchbase.com/person/aaron-patzer (search snippet)",
+      "https://startupintros.com/people/aaron-patzer (search snippet)",
+      "https://signal.nfx.com/investors/aaron-patzer (search snippet)"
+     ],
+     "duke_degree": "BS, Computer Science, Computer Engineering and Electrical Engineering, Duke University",
+     "duke_grad_year": null,
+     "grad_year_basis": "Year not stated; born 1980 and founded Mint (acquired by Intuit in 2009) after a Princeton MSEE, so the Duke degree was well before 2018.",
+     "duke_sources": [
+      "https://en.wikipedia.org/wiki/Aaron_Patzer (search snippet)"
+     ],
+     "stage_focus": "Seed / pre-seed (historical)",
+     "sectors": "Fintech, health tech, consumer software",
+     "bio": "Duke engineering graduate who founded Mint.com (acquired by Intuit in 2009), then Fountain and the health app Vital. Aggregators list 16 angel investments, including Gusto, Carbon Health and Shen.AI.",
+     "relevant_investments": "Gusto, Honest Dollar (fintech; years not given); Shen.AI (pre-seed, 2020)",
+     "investment_sources": [
+      "https://startupintros.com/people/aaron-patzer (search snippet)",
+      "https://pitchbook.com/profiles/investor/106344-64 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "https://angel.co/p/apatzer (angel profile, search result)",
+     "fit": "Medium",
+     "fit_reason": "Fintech founder-angel and a natural fit if he is still active, but no recent activity is verified.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Ben Hamner",
+     "include": false,
+     "exclude_reason": "Angel deals found (Marimo, Predibase, Coiled), but none dated 2025-2026; he is now running his own startup, Sumble (Series A mid-2025).",
+     "firm": "Sumble (co-founder)",
+     "title_2026": "Co-founder, Sumble",
+     "location": "not verified",
+     "still_active_2026": "unclear",
+     "decision_maker": "unclear",
+     "role_sources": [
+      "https://digidai.github.io/2025/11/23/ben-hamner-sumble-kaggle-ai-sales-intelligence-deep-analysis/ (search snippet)",
+      "https://www.crunchbase.com/person/ben-hamner (search snippet)"
+     ],
+     "duke_degree": "BSE, Biomedical Engineering, Electrical Engineering and Math (Pratt)",
+     "duke_grad_year": null,
+     "grad_year_basis": "Certain from career: co-founded Kaggle in 2010 and was CTO 2011-2022",
+     "duke_sources": [
+      "https://www.crunchbase.com/person/ben-hamner (search snippet)",
+      "https://www.datacouncil.ai/speakers/ben-hamner (search snippet)"
+     ],
+     "stage_focus": "Angel (seed/Series A)",
+     "sectors": "ML tooling, data infrastructure",
+     "bio": "Co-founder and CTO of Kaggle (2011-2022, acquired by Google). Now co-founder of Sumble, which raised a $30M Series A led by Canaan in mid-2025. Angel investments include Marimo, Predibase and Coiled.",
+     "relevant_investments": "Predibase, Coiled (seed), Marimo (ML/data tooling; dates not in snippets)",
+     "investment_sources": [
+      "https://www.crunchbase.com/person/ben-hamner (search snippet)",
+      "https://www.crunchbase.com/funding_round/coiled-seed--4ba205f1 (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "not found",
+     "x_url": "not found",
+     "personal_site": "not found",
+     "fit": "High",
+     "fit_reason": "Ideal ML-tooling fit, but no recent check is verified.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Tarun Thakur",
+     "include": false,
+     "exclude_reason": "Self-described 'Angel Investor and Advisor' since 2020, but no named deals were found; criterion 2 is unverified.",
+     "firm": "Veza",
+     "title_2026": "Co-founder & CEO, Veza (being acquired by ServiceNow)",
+     "location": "not verified",
+     "still_active_2026": "unclear",
+     "decision_maker": "unclear",
+     "role_sources": [
+      "https://veza.com/team/tarun-thakur/ (search snippet)",
+      "https://www.linkedin.com/in/tarunthakur/ (search snippet)",
+      "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)"
+     ],
+     "duke_degree": "MBA, Strategy and Marketing (Fuqua)",
+     "duke_grad_year": 2010,
+     "grad_year_basis": "Stated: 'MBA '10' in Duke I&E network news",
+     "duke_sources": [
+      "https://entrepreneurship.duke.edu/duke-ie-network/duke-ie-network-news/ (search snippet)",
+      "https://veza.com/team/tarun-thakur/ (search snippet)"
+     ],
+     "stage_focus": "Angel (unspecified)",
+     "sectors": "Data security, identity, infrastructure software",
+     "bio": "Co-founder and CEO of Veza, an identity and authorization security company that ServiceNow is acquiring for over $1B; previously founder and CEO of Datos IO. Lists angel investing and advising since February 2020.",
+     "relevant_investments": "none found",
+     "investment_sources": [],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "not found",
+     "linkedin_url": "https://www.linkedin.com/in/tarunthakur/",
+     "x_url": "https://x.com/thakurtarun",
+     "personal_site": "not found",
+     "fit": "Medium",
+     "fit_reason": "Data-infrastructure founder with a pending exit, but no verified checks.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Medium"
+    },
+    {
+     "name": "Ravi Trivedi",
+     "include": false,
+     "exclude_reason": "Fuqua MBA and angel/seed investor (Srijan Capital), but no dated 2025-26 deal was found; India/Singapore-based with a SaaS and consumer-internet focus.",
+     "firm": "Srijan Capital (founder/managing partner); CEO, PushEngage",
+     "title_2026": "Founder & CEO, PushEngage; founder, Srijan Capital (per aggregators)",
+     "location": "India (Singapore fintech angel lists also include him)",
+     "still_active_2026": "unclear",
+     "decision_maker": "yes",
+     "role_sources": [
+      "https://www.crunchbase.com/person/ravi-trivedi (search snippet)",
+      "https://tracxn.com/d/people/ravi-trivedi/__TSsPeN4j4FFiqaFNDDtfnC99jzd1195v1LSq9wngwUY (search snippet)"
+     ],
+     "duke_degree": "MBA, Duke University Fuqua School of Business",
+     "duke_grad_year": null,
+     "grad_year_basis": "Year not stated; 22+ years of experience, including earlier roles as an equity analyst at Banc of America Securities and principal at Southeast Interactive Technology, so the degree was before 2018.",
+     "duke_sources": [
+      "https://indialeadersforsocialsector.com/ravi-trivedi/ (search snippet)",
+      "https://shizune.co/investors/fintech-angel-investors-singapore (search snippet)"
+     ],
+     "stage_focus": "Seed / angel",
+     "sectors": "SaaS, mobile, consumer internet, some fintech",
+     "bio": "Fuqua MBA with a master's in CS from IISc Bangalore. Founded Srijan Capital and runs PushEngage; 7 angel investments and 2 exits per aggregators.",
+     "relevant_investments": "2 fintech investments (Singapore) per aggregator; names and years not given",
+     "investment_sources": [
+      "https://shizune.co/investors/fintech-angel-investors-singapore (search snippet)"
+     ],
+     "email": "not found",
+     "email_source": "",
+     "other_contact": "",
+     "linkedin_url": "",
+     "x_url": "",
+     "personal_site": "",
+     "fit": "Low",
+     "fit_reason": "Small, mostly SaaS and consumer portfolio with no confirmed recent activity.",
+     "hook": "",
+     "hook_sources": [],
+     "confidence": "Low"
+    }
+   ]
+  },
+  "review": {
+   "reviews": [
+    {
+     "name": "Wes Barton",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "bio",
+       "value": "Co-founder and General Partner of Third Prime, a Nashville seed fund backing fintech and proptech companies. Before that he spent a decade in private equity and hedge funds at Trimaran / Trian, and earlier was a TMT investment banker at Bank of America and an M&A lawyer at Skadden.",
+       "evidence": "Snippets say he 'spent a decade as a private equity and hedge fund professional at Trimaran / Trian' (not ~9 years at Trimaran Capital Partners), was a technology investment banker at Bank of America (TMT Group) and an M&A lawyer at Skadden, and that Third Prime is in Nashville: https://www.vcsheet.com/who/wesley-barton (search snippet); https://signal.nfx.com/investors/wes-barton (search snippet). The 'moved to Nashville during COVID' detail was not re-verified, so it is dropped."
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "stated: J.D. from Duke Law in 2002 (per earlier investorconnect snippet); also certain from career, since he was an M&A lawyer at Skadden before a decade at Trimaran / Trian and then co-founding Third Prime.",
+       "evidence": "https://signal.nfx.com/investors/wes-barton (search snippet); https://www.vcsheet.com/who/wesley-barton (search snippet)"
+      },
+      {
+       "field": "stage_focus",
+       "value": "Seed; often leads or co-leads; check sizes reported variously ($250K-$3M per VC Sheet, $1M-$5M per another profile)",
+       "evidence": "https://www.vcsheet.com/who/wesley-barton (search snippet) gives $250K-$3M."
+      }
+     ],
+     "notes": "The Duke Law J.D. is confirmed by Signal/LinkedIn snippets (J.D., Corporate Law, Duke University School of Law; B.S. Accounting, WKU). The Limited deal is confirmed: an $18.5M seed co-led by Third Prime, North Island Ventures, The House Fund and Collab+Currency, announced Sep 28 2026 (https://cryptorank.io/insights/deals/limited-extended-seed-2026-09-25 (search snippet); https://www.kucoin.com/news/flash/limited-completes-18-5m-seed-round-led-by-third-prime-and-others (search snippet)), so 'this year' in the hook is correct. ZoomInfo/RocketReach show a masked email; per the rules it was not used. Location: Nashville is confirmed."
+    },
+    {
+     "name": "Shaan Puri",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "title_2026",
+       "value": "Founder / GP, Shaan's All Access Fund (rolling fund); angel investor; co-host, My First Million",
+       "evidence": "Milk Road was sold to Bitfo in Dec 2022, 10 months after launch, and Puri joined Bitfo's board. He is no longer 'co-founder and chairman, Milk Road' in an operating sense: https://theygotacquired.com/content/milk-road-acquired-by-bitfo/ (search snippet); https://twitter.com/ShaanVP/status/1603544644477800448 (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Duke BS Biology (2010). Former acting CEO of Bebo, which Twitch acquired in 2019; co-host of My First Million; co-founded the crypto newsletter Milk Road and sold it to Bitfo in 2022. Runs Shaan's All Access Fund, a rolling fund first raised via a tweet, and angel-invested in Gumloop (2025) and Viktor (2026).",
+       "evidence": "Duke 2010 and Bebo/Twitch 2019: https://www.creatorlab.fm/shaan-puri-my-first-million/ (search snippet), https://www.timstodz.com/p/shaan-puri (search snippet). Milk Road sale: https://theygotacquired.com/content/milk-road-acquired-by-bitfo/ (search snippet). Fund raised via a tweet: https://squirge.com/how-shaan-puri-raised-over-2-5-million-for-his-first-venture-fund-in-21-days-with-a-tweet-6/ (search snippet). Viktor: https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Gumloop (AI workflow automation): angel in the $17M Series A led by Nexus, Jan 2025. Viktor (AI): Series A (~$75M), May 2026, per Tracxn. Health: Hone Health, Superpower. No 2025-26 seed-stage deal named; no trading or quant deals.",
+       "evidence": "https://blog.gumloop.com/gumloops-17m-series-a/ (search snippet) (angels including Shaan Puri); https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet) (Viktor, Series A, May 2026)"
+      },
+      {
+       "field": "stage_focus",
+       "value": "Fund targets pre-seed and seed (average check ~$150K per aggregator); his named 2025-26 angel checks are in Series A rounds",
+       "evidence": "https://seedtable.com/investors/shaan-puri (search snippet); https://tracxn.com/d/people/shaan-puri/___rK8VG98G3o2CXt96iaTIdvsLK63vF3bLwGFT4zlI8s (search snippet)"
+      }
+     ],
+     "notes": "Duke BS 2010 is confirmed by several bio snippets (no official Duke page). Criterion 2 holds via the angel route: Gumloop (Jan 2025, named in Gumloop's own announcement) and Viktor (May 2026, Tracxn only). Both are Series A rounds, not seed, so the activity is real but not seed-stage. The hook is accurate. Location 'San Francisco' comes from aggregators only."
+    },
+    {
+     "name": "Zach Perret",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "title_2026",
+       "value": "Co-founder & CEO, Plaid; co-founder, Mischief (Lauren Farleigh is Managing Director); angel investor",
+       "evidence": "Snippets describe Lauren Farleigh as 'the Managing Director and co-founder of Mischief ... launched alongside Plaid CEO Zach Perret', and say Mischief was co-created by Farleigh and Perret in 2021; recent Mischief leads are credited to Farleigh: https://startupintros.com/orgs/mischief-venture-capital (search snippet); https://www.vcsheet.com/who/lauren-farleigh (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Co-founder and CEO of Plaid. In 2021 he co-created Mischief with Lauren Farleigh, a San Francisco seed fund ($30M Fund I, $80M Fund II) that writes $1-3M initial checks into founder-driven software startups. He also angel-invests personally, most recently in Lassie's Series A (June 2026).",
+       "evidence": "https://startupintros.com/orgs/mischief-venture-capital (search snippet); https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet); https://www.fiercehealthcare.com/health-tech/fierce-healthcare-fundraising-tracker-26 (search snippet)"
+      },
+      {
+       "field": "stage_focus",
+       "value": "Seed via Mischief ($1-3M initial checks, often leads); personal angel checks from seed to Series B",
+       "evidence": "https://startupintros.com/orgs/mischief-venture-capital (search snippet) ($1-3M initial checks, not $1-5M)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Personal angel: Lassie (Series A, $35M led by a16z, Jun 2026); Comulate (Series B, Feb 2025); Fragment (seed, Jul 2024). Mischief (co-founded fund): led Hamming.ai's $3.8M seed (AI voice-agent testing, Dec 2024); Polar $9.86M seed and DataLane (2025, led by Farleigh).",
+       "evidence": "https://tracxn.com/d/people/zach-perret/__uQZfSdJAGSDDGdLeEfk9nCelN0K46VKQ5RVvpquyKE4 (search snippet); https://www.vcaonline.com/news/2024121807/hamming-ai-announces-3-8-million-seed-led-by-mischief/ (search snippet); https://startupintros.com/orgs/mischief-venture-capital (search snippet)"
+      },
+      {
+       "field": "hook",
+       "value": "You co-founded Plaid and the seed fund Mischief; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.",
+       "evidence": "His role at Mischief is co-founder, and Farleigh runs day-to-day investing; 'back pre-seed software through Mischief' overstates both the stage and his hands-on role. https://startupintros.com/orgs/mischief-venture-capital (search snippet)"
+      }
+     ],
+     "notes": "The Duke degree is certain from career (Duke, then Bain, then Plaid c. 2012-13). Criterion 2 holds via a named personal angel check in 2026 (Lassie, Series A), plus Mischief, a seed fund he co-founded that was active in 2025. His decision-making role inside Mischief is unclear, but he decides his own angel checks, so decision_maker stays 'yes'. 'Lassie' is a Series A, not a seed deal."
+    },
+    {
+     "name": "Danny Hadar",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "relevant_investments",
+       "value": "Jibe: led Fabrix Security $8M seed (Sep 2025); led Modulight Biotherapeutics $12.2M seed with LocalGlobe (Nov 2025); ZyG $58M seed (Mar 2026); Notch.cx $30M Series A (Mar 2026). Personal angel (earlier years): Snyk, Bonobo (acq. Salesforce), Geoforce (acq. LLR).",
+       "evidence": "https://startupintros.com/orgs/jibe-ventures (search snippet); https://www.crunchbase.com/person/danny-hadar (search snippet). The earlier 'Notch.cx $7M seed (Oct 2025)' was not re-verified; Notch.cx's Mar 2026 round is a $30M Series A."
+      },
+      {
+       "field": "bio",
+       "value": "Fuqua MBA (2007) who co-founded Jibe Ventures with Assaf Jacobi in 2020 to back Israeli founders at seed. Before that he was a serial entrepreneur, a venture partner at Peregrine Ventures (2012-17) and an angel with 20+ seed investments including Snyk and Bonobo; Crunchbase also lists him as a managing director at Fosun RZ Capital.",
+       "evidence": "https://www.crunchbase.com/person/danny-hadar (search snippet); https://startupintros.com/orgs/jibe-ventures (search snippet)"
+      },
+      {
+       "field": "location",
+       "value": "Tel Aviv, Israel",
+       "evidence": "Fact-check notes: Jibe Ventures and Hadar appear Tel Aviv-based, not London (search snippets)"
+      }
+     ],
+     "notes": "The Duke MBA is confirmed (Crunchbase: MBA from Duke University). The 2007 year rests on the aringo.com snippet; the career (venture partner from 2012) is consistent. Criterion 2 is solid: Jibe led seed rounds in Sep and Nov 2025 and was in a Mar 2026 seed. LOCATION: snippets place him in Tel Aviv, Israel (https://www.crunchbase.com/person/danny-hadar (search snippet); https://www.gritt.io/investor/danny-hadar-8a62b01/ (search snippet)), not 'London Area, UK'. Location is not an allowed correction field, so this is flagged here. The current hook is accurate. An optional stronger hook: 'You co-founded Jibe Ventures, which led Fabrix Security's $8M seed in 2025; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.'"
+    },
+    {
+     "name": "Adam Besvinick",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "relevant_investments",
+       "value": "Co-led (with Parade Ventures) Simuhealth's $2.62M pre-seed (Dec 8 2025); Trially AI (seed, Sep 2025); Titan Intake (seed, May 2025); Kaavio (pre-seed, May 2026). No fintech or trading deals found.",
+       "evidence": "Simuhealth's round was $2.62M and co-led by Looking Glass Capital and Parade Ventures, not a $1.9M round Looking Glass led alone: https://betakit.com/simuhealth-raises-2-6-million-pre-seed-to-modernize-healthcare-training/ (search snippet); https://www.startupecosystem.ca/news/simuhealth-secures-2-6m-to-enhance-healthcare-training-across-north-america/ (search snippet)"
+      },
+      {
+       "field": "hook",
+       "value": "You founded Looking Glass to be the first yes for founders and co-led Simuhealth's pre-seed in 2025; we're a Duke-linked quant team building RL environments for LLM post-training.",
+       "evidence": "Co-led with Parade Ventures: https://betakit.com/simuhealth-raises-2-6-million-pre-seed-to-modernize-healthcare-training/ (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Duke public-policy graduate (2009, cum laude) and HBS MBA (2013) who founded Looking Glass Capital, a New York pre-seed/seed fund that aims to be the 'first yes'. Earlier he was an investor at Anchorage Capital (2017-19) and Deep Fork Capital, and a Jefferies telecom banker (2009-11).",
+       "evidence": "https://theorg.com/org/lookingglass/org-chart/adam-besvinick (search snippet); https://about.me/adambesvinick (search snippet); https://www.crunchbase.com/person/adam-besvinick (search snippet). A profile snippet dates his Looking Glass role from May 2019, which conflicts with 'founded in 2020', so the founding year is dropped."
+      },
+      {
+       "field": "x_url",
+       "value": "https://x.com/Besvinick",
+       "evidence": "Personal X profile in results: https://x.com/Besvinick (search snippet) (x.com/LookingGlassCap is the fund account)."
+      }
+     ],
+     "notes": "Duke BA 2009 (cum laude, Public Policy) is confirmed. Criterion 2 is confirmed by the Dec 2025 co-led pre-seed. ZoomInfo/ContactOut/SignalHire email hits were ignored per the rules. Fit 'Low' stands (health/climate thesis)."
+    },
+    {
+     "name": "Naveen Rao",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "relevant_investments",
+       "value": "Topos Bio (AI foundation model for drug discovery): angel in the $10.5M seed led by Boldstart, Threshold and Neo, Jan 2026. Cleanlab (ML data-quality tooling): angel in the $5M seed led by Bain Capital Ventures (c. 2022). Also put $10M of his own money into his own company Unconventional AI's $475M seed (Dec 2025).",
+       "evidence": "https://hitconsultant.net/2026/01/08/topos-bio-emerges-from-stealth-to-tackle-disordered-proteins/ (search snippet); https://hlth.com/insights/news/topos-bio-raises-10-5m-seed-to-target-undruggable-proteins-in-alzheimer-s-and-cancer-2026-01-09 (search snippet); https://cleanlab.ai/blog/learn/announcing-cleanlab-studio/ (search snippet). 'Cleanlab ... portfolio exit, Jan 2026' was not supported and is removed."
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Year not stated; after the Duke BSEE he did graduate study at Stanford in 1997-98, then chip-design roles and a Brown PhD (2011), so the Duke degree was completed by about 1997.",
+       "evidence": "https://www.humanx.co/us/speakers/naveen-rao (search snippet); https://nextomoro.com/naveen-rao/ (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Duke EECS graduate who co-founded Nervana Systems (acquired by Intel in 2016) and MosaicML (acquired by Databricks for $1.3B in 2023). In 2025 he founded Unconventional AI, which raised a $475M seed led by a16z and Lightspeed. As an angel he backed Cleanlab's seed and Topos Bio's January 2026 seed.",
+       "evidence": "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round/ (search snippet); https://hitconsultant.net/2026/01/08/topos-bio-emerges-from-stealth-to-tackle-disordered-proteins/ (search snippet); https://cleanlab.ai/blog/learn/announcing-cleanlab-studio/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "The Duke degree is certain from career (before Stanford grad study in 1997), and a 2026 named seed angel check is confirmed by press (Topos Bio, Jan 2026)."
+      }
+     ],
+     "notes": "The hook ('built MosaicML and backed Cleanlab') is supported by the Cleanlab seed announcement listing him as an angel. An aggregator lists his location as San Diego (https://askforfunding.com/investor/naveen-rao-angel-investor (search snippet)); location is not a correction field."
+    },
+    {
+     "name": "Howie Liu",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "relevant_investments",
+       "value": "Sundial (AI analytics; angel in $16M Series A / $23M total led by DJ Patil, Jul 2025); Fireworks AI (Series A Mar 2024 and Series B Jul 2024); Decagon (angel in Series A, Jun 2024); Galileo AI (seed, Feb 2024)",
+       "evidence": "Sundial: https://www.businesswire.com/news/home/20250708725493/en/Sundial-Raises-$23M-to-Redefine-Data-informed-Decisions-with-AI (search snippet) and https://www.finsmes.com/2025/07/sundial-raises-16m-in-series-a-funding.html (search snippet) list Howie Liu among backers; Decagon: https://decagon.ai/resources/series-a (search snippet); Fireworks: https://siliconangle.com/2024/07/11/fireworks-ai-raises-52m-led-sequoia-522m-valuation/ (search snippet) and https://startupintros.com/orgs/fireworks-ai (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Co-founder and CEO of Airtable, which serves more than 500,000 organizations and on January 27, 2026 launched Superagent, its first standalone product in 13 years. As an angel he has backed Fireworks AI and Decagon (2024) and Sundial's Series A (July 2025).",
+       "evidence": "Old bio said 'over 450,000 organizations'; current reporting says more than 500,000: https://builtin.com/articles/airtable-launches-superagent-20260128 (search snippet), https://www.vktr.com/digital-workplace/airtable-debuts-superagent-a-multi-agent-ai-research-platform/ (search snippet). The '17 startups' count was aggregator-only and is dropped. Deals as in relevant_investments."
+      },
+      {
+       "field": "hook",
+       "value": "You backed Fireworks AI, Decagon and, in 2025, Sundial as an angel; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+       "evidence": "Original hook (Fireworks AI, Decagon) is supported (https://decagon.ai/resources/series-a (search snippet); https://siliconangle.com/2024/07/11/fireworks-ai-raises-52m-led-sequoia-522m-valuation/ (search snippet)); adding the verified 2025 deal makes it current (https://www.businesswire.com/news/home/20250708725493/en/Sundial-Raises-$23M-to-Redefine-Data-informed-Decisions-with-AI (search snippet))."
+      }
+     ],
+     "notes": "Duke 2009 BS (Mech. Eng. and Public Policy) not contradicted; it rests on the record's clay.com and yespress.io snippets. The only 2025-26 personal check found is Sundial (July 2025), an angel check into a Series A rather than a seed round. It still counts as an own-money angel check under the brief, but there is no named 2026 deal, so still_active_2026 stays 'unclear'. The Hyperagent 'Founding 500' program (2026) gives $20K of inference credits to founders. Those are Airtable product credits, not equity checks, so they do not count as seed investing. Signal lists his check range as $5K-$50K."
+    },
+    {
+     "name": "Howard Lerman",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "duke_degree",
+       "value": "Bachelor's (History)",
+       "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet): 'graduated from Duke University in 2002, where he studied history'"
+      },
+      {
+       "field": "duke_grad_year",
+       "value": 2002,
+       "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet)"
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: graduated from Duke in 2002 (Wikipedia)",
+       "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "Orchard Robotics (AI farm-data and robotics; angel in the $22M Series A led by Quiet Capital and Shine Capital, Sep 2025); no named AI-infra or fintech deal found",
+       "evidence": "https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet) and https://igrownews.com/orchard-robotics-latest-news/ (search snippet) name 'Howard Lerman, founder of Yext and Roam' among investors; Tracxn dates it 03-Sep-2025 (https://tracxn.com/d/people/howard-lerman/__t7qbL_2XDrbETzujJW6pLQZoCzDVxI-C8JkzpOjZrLw (search snippet))"
+      },
+      {
+       "field": "bio",
+       "value": "Duke 2002 graduate who co-founded Yext in 2006 and was its CEO; now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. In September 2025 he joined Orchard Robotics' $22M Series A as an angel.",
+       "evidence": "Duke 2002 and Yext 2006: https://en.wikipedia.org/wiki/Howard_Lerman (search snippet); Roam $12M: https://alejandrocremades.com/howard-lerman/ (search snippet) (from the record); Orchard: https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet). The '$100K-$5M checks, mostly pre-seed and seed' and '13 investments' figures come only from the evalyze.ai aggregator and are dropped from the bio."
+      },
+      {
+       "field": "hook",
+       "value": "You backed Orchard Robotics' AI farm-data platform in 2025 after self-funding Roam with $12M; we build RL environments and verifiers for LLM post-training, starting with trading.",
+       "evidence": "The original hook's 'still write pre-seed and seed checks' rests only on an aggregator, and the one verified 2025 deal is a Series A. Sources: https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet); https://alejandrocremades.com/howard-lerman/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "The Duke year is now stated (2002), and the Sep 2025 angel deal is confirmed by press (GeekWire)."
+      }
+     ],
+     "notes": "Qualifies: Duke 2002 is stated, and he made a named own-money angel check in Sep 2025 (Orchard Robotics, Series A). There is no named 2026 deal, so still_active_2026 stays 'unclear'. Not re-verified: the 'Miami Beach, FL' location, the '$12M of his own money' figure (from the record's alejandrocremades.com snippet) and the aggregator check-size range. The degree subject ('history') comes from a search-summary snippet of Wikipedia."
+    },
+    {
+     "name": "Doug Higgins",
+     "verdict": "reject",
+     "reject_reason": "No evidence he makes investment decisions: TechCrunch names Michael Spirito as 359 Capital's managing partner and Higgins as 'board partner and co-founder'; the fund's recent deals are Series A and later.",
+     "corrections": [
+      {
+       "field": "decision_maker",
+       "value": "unclear",
+       "evidence": "TechCrunch (Nov 10, 2025) lists Michael Spirito as 359 Capital's 'co-founder and managing partner', and Doug Higgins as 'board partner and co-founder' alongside partners David Hartwig and Rico Mallozzi: https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet). No source says Higgins sits on the investment committee or led a 2025-26 deal; at most firms a 'Board Partner' is a senior advisory title."
+      },
+      {
+       "field": "bio",
+       "value": "Co-founder of Sapphire Ventures, where he invested in LinkedIn, DocuSign, Paytm and Square, and co-founder and Board Partner of 359 Capital, which spun out of Sapphire Sport in November 2025 with a $181M Fund II and about $300M AUM. Michael Spirito is managing partner.",
+       "evidence": "https://www.359capital.com/ (search snippet) (co-founded 359 Capital fka Sapphire Sport in 2018; Sapphire Ventures investments LinkedIn, DocuSign, Paytm, Square; Duke BA, Kellogg MBA); https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet). The Perplexity, Beehiiv and Tonal portfolio claims come from the findfunding.vc aggregator only; I did not re-verify them, so they are dropped."
+      },
+      {
+       "field": "hook",
+       "value": "You co-founded Sapphire Ventures and 359 Capital, which spun out in 2025 with a $181M fund; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+       "evidence": "https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet); https://www.359capital.com/ (search snippet). The Perplexity link in the original hook rests only on findfunding.vc."
+      },
+      {
+       "field": "relevant_investments",
+       "value": "359 Capital: Highlight AI (Series A participation, latest per Tracxn, 2026); Perplexity and Beehiiv per findfunding.vc (unverified); personal (Sapphire Ventures era): LinkedIn, DocuSign, Paytm, Square",
+       "evidence": "https://tracxn.com/d/venture-capital/359capital/__zOIx9e0Afg-bNqCvEz9SsVr9uDTAJQ8uB_A5STYGFME (search snippet) (3 investments in 2026; most recent Highlight AI Series A); https://www.359capital.com/ (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "Low",
+       "evidence": "Kept Low: decision rights unverified, and the firm's recent activity is Series A (seed-to-Series C mandate)."
+      }
+     ],
+     "notes": "Borderline. Duke BA (year not stated) is certain from his career: Robertson Stephens and Lucasfilm, then Sapphire Ventures co-founder, with 'three decades' in tech investing. Criterion 2 is not established. His title is Board Partner, not GP or managing partner. The managing partner is Michael Spirito, and Hartwig and Mallozzi are Partners. 359 Capital is a seed-to-Series C sports/media/consumer fund whose most recent deal is a Series A. Higgins is not proven to be a non-decision-maker, so I keep him with Low confidence instead of rejecting. The caller may reasonably drop him or move him to a 'warm intro to Spirito' path."
+    },
+    {
+     "name": "Luis von Ahn",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "bio",
+       "value": "Co-founder and CEO of Duolingo and founder of reCAPTCHA, which Google bought in 2009. After his 2000 Duke math degree he co-developed CAPTCHA with Manuel Blum at Carnegie Mellon. In February 2026 he invested in Swedish digital-signage software firm Desquare.",
+       "evidence": "The record said he 'devised CAPTCHA in 2000 while a Duke student'; that is wrong. CAPTCHA was co-coined with his mentor Manuel Blum at Carnegie Mellon, where he did his PhD (2005): https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet). Desquare: https://www.sixteen-nine.net/2026/02/16/duolingo-co-founder-luis-von-ahn-invests-in-swedish-cms-designage/ (search snippet)"
+      },
+      {
+       "field": "hook",
+       "value": "You took a Duke math degree and then co-created CAPTCHA at Carnegie Mellon; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.",
+       "evidence": "The original hook ('devised CAPTCHA while studying at Duke') is false. CAPTCHA was developed at CMU with Manuel Blum: https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet), https://www.cmu.edu/engage/news-stories/news/cmu-alumnus-luis-von-ahn-gamified-language-learning-and-revolutionized (search snippet)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "none found in AI/data/fintech; Desquare AB (Designage digital-signage CMS, Sweden; invested Feb 2026 through a Swedish consortium led by Martin Norstrom, terms undisclosed), Gridwise, Trala",
+       "evidence": "https://www.sixteen-nine.net/2026/02/16/duolingo-co-founder-luis-von-ahn-invests-in-swedish-cms-designage/ (search snippet); https://invidis.com/news/2026/02/new-money-for-nordic-cms-desquare-attracts-star-investors/ (search snippet)"
+      }
+     ],
+     "notes": "Duke BS Mathematics 2000 is confirmed (Wikipedia). The 2026 check is real: Desquare, Feb 2026. But it was an undisclosed-size stake in an established Nordic signage-software company, made through a consortium led by Martin Norstrom. Aggregators call it 'angel', but it is not clearly seed-stage. It still counts as an own-money private investment, so confidence stays Medium and fit Low. Gridwise and Trala are from the record's aggregator sources; I did not re-check them."
+    },
+    {
+     "name": "Namita Thapar",
+     "verdict": "correct",
+     "reject_reason": "",
+     "corrections": [
+      {
+       "field": "duke_degree",
+       "value": "MBA (Daytime MBA), Duke University Fuqua School of Business",
+       "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet) and https://www.fuqua.duke.edu/pharma-executive-discusses-bridging-cultures-disciplines (search snippet): a 2001 graduate of Fuqua's Daytime MBA program"
+      },
+      {
+       "field": "duke_grad_year",
+       "value": 2001,
+       "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet)"
+      },
+      {
+       "field": "grad_year_basis",
+       "value": "Stated: 2001 graduate of Fuqua's Daytime MBA program (Fuqua website)",
+       "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet)"
+      },
+      {
+       "field": "relevant_investments",
+       "value": "NeoSapien (AI-native wearable; Rs 80 lakh for 4% on Shark Tank India S4, Jan 2025), the closest to AI; other 2025 deals (Crunchbase): Symbionic, The Bear House, COGRAD, Boba Bhai, Tikitoro, Aquapeya, FAE Beauty (Jan-Mar 2025); otherwise consumer and health brands",
+       "evidence": "https://www.businesstoday.in/technology/news/story/neosapien-unveils-an-ai-native-wearable-secures-rs-80-lakh-shark-tank-investment-460910-2025-01-15 (search snippet); https://india.entrepreneur.com/news-and-trends/neosapien-secures-inr-80-lakhs-on-shark-tank-india-4-for-ai/485509 (search snippet); https://www.crunchbase.com/person/namita-thapar/person_overview_investor/timeline (search snippet)"
+      },
+      {
+       "field": "bio",
+       "value": "Chartered accountant and 2001 Fuqua Daytime MBA who spent six years at Guidant in the US before returning to Emcure Pharmaceuticals, where she is Executive Director. A shark on every season of Shark Tank India, including season 5 (2026), she has backed more than 100 startups.",
+       "evidence": "Fuqua 2001: https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet); Guidant six years: https://www.penguin.co.uk/authors/296043/namita-thapar (search snippet); Season 5 (Jan 5-Mar 17, 2026) shark: https://en.wikipedia.org/wiki/Shark_Tank_India_season_5 (search snippet); 100+ companies: https://www.crunchbase.com/person/namita-thapar/person_overview_investor/timeline (search snippet); chartered accountant per the record's Wikipedia source."
+      },
+      {
+       "field": "hook",
+       "value": "You are a Fuqua MBA ('01) who backed NeoSapien's AI wearable on Shark Tank India; we are Duke-linked quants building RL environments that teach LLMs to trade.",
+       "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet); https://www.businesstoday.in/technology/news/story/neosapien-unveils-an-ai-native-wearable-secures-rs-80-lakh-shark-tank-investment-460910-2025-01-15 (search snippet)"
+      },
+      {
+       "field": "confidence",
+       "value": "High",
+       "evidence": "The MBA year is now stated by Fuqua itself, and a named 2025 deal (NeoSapien) is in the press."
+      }
+     ],
+     "notes": "Qualifies. Fuqua Daytime MBA 2001 is stated on Fuqua's site. Named 2025 checks include NeoSapien (Jan 2025, BusinessToday and Entrepreneur India) and others in Crunchbase's timeline. She was a shark in season 5 (Jan-Mar 2026), but no named season-5 deal was found. Shark Tank on-air deals do not always close; the NeoSapien deal was reported as secured. Fit stays Low: the portfolio is Indian consumer and health brands, and NeoSapien is the only AI-adjacent deal."
+    }
+   ]
+  }
+ }
+]

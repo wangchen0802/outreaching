@@ -2,11 +2,11 @@
 
 These are Duke alumni (any Duke degree finished in 2018 or earlier) who make investment decisions at angel, pre-seed, seed or Series A investors, as of October 2026. Each person was found by a web sweep, checked against public sources, and then reviewed by a separate fact-checker. Full columns and sources are in `duke-alumni-investors.csv`.
 
-- **61 investors**: 8 high fit, 27 medium, 26 low (high = backs seed or Series A AI infrastructure, data, dev tools, fintech or quant).
+- **71 investors**: 12 high fit, 30 medium, 29 low (high = backs seed or Series A AI infrastructure, data, dev tools, fintech or quant).
 - **Personal email published**: 8. Everyone else is reached through the fund's official route, LinkedIn or a warm Duke intro. Emails were never guessed from a pattern or taken from data-broker sites.
 - **Already in the SimReal pipeline** means the fund is in `lists/investors.csv` with a different contact. Choose one person per fund.
 
-## High fit (8)
+## High fit (12)
 
 ### 1. Cassie Young, General Partner, Primary Venture Partners
 
@@ -79,7 +79,19 @@ Mark Kraynak is a Founding Partner at Acrew Capital, which he co-founded in 2019
 - Site: https://mark-kraynak.medium.com/ and Forbes contributor page https://www.forbes.com/sites/markkraynak/ (search snippets)
 - **Already in pipeline:** acrew-capital (contact: Asad Khaliq)
 
-### 6. Steve Pagliuca, Founder & CEO, PagsGroup
+### 6. Naveen Rao, Co-founder & CEO, Unconventional AI; angel investor, Angel investor (also Co-founder & CEO, Unconventional AI)
+
+*Duke BS (bachelor's), Electrical Engineering and Computer Science, Duke University (year not published) · Confidence: High*
+
+Duke EECS graduate who co-founded Nervana Systems (acquired by Intel in 2016) and MosaicML (acquired by Databricks for $1.3B in 2023). In 2025 he founded Unconventional AI, which raised a $475M seed led by a16z and Lightspeed. As an angel he backed Cleanlab's seed and Topos Bio's January 2026 seed.
+
+- **Stage:** Pre-seed and seed (per angel profile)
+- **Relevant deals:** Topos Bio (AI foundation model for drug discovery): angel in the $10.5M seed led by Boldstart, Threshold and Neo, Jan 2026. Cleanlab (ML data-quality tooling): angel in the $5M seed led by Bain Capital Ventures (c. 2022). Also put $10M of his own money into his own company Unconventional AI's $475M seed (Dec 2025).
+- **Why them:** Built MosaicML (LLM training infrastructure) and angel-invests in AI chips, edge AI and LLM infrastructure at pre-seed and seed, with a January 2026 deal on record. This is a close match for RL environments and verifiers for post-training.
+- **Hook:** You built MosaicML and backed Cleanlab; we build RL environments and verifiers for LLM post-training, including a trading environment that lifted an open model's performance 12% on unseen market data.
+- Email: not published
+
+### 7. Steve Pagliuca, Founder & CEO, PagsGroup
 
 *Duke BA '77 · Confidence: High*
 
@@ -92,7 +104,46 @@ Steve Pagliuca is founder and CEO of PagsGroup, his single-LP family investment 
 - Email: not published
 - Fund route: 'Get in Touch' section on the official site https://www.pagsgroup.com/ (no published inbox)
 
-### 7. Kevin King, Co-founder & General Partner, 53 Stations
+### 8. Wes Barton, Co-Founder & General Partner, Third Prime
+
+*Duke J.D., Duke University School of Law (undergrad: Western Kentucky University 1999) (2002) · Confidence: High*
+
+Co-founder and General Partner of Third Prime, a Nashville seed fund backing fintech and proptech companies. Before that he spent a decade in private equity and hedge funds at Trimaran / Trian, and earlier was a TMT investment banker at Bank of America and an M&A lawyer at Skadden.
+
+- **Stage:** Seed; often leads or co-leads; check sizes reported variously ($250K-$3M per VC Sheet, $1M-$5M per another profile)
+- **Relevant deals:** Limited (enterprise banking across crypto and fiat): Third Prime co-led $18.5M seed with North Island Ventures, The House Fund and Collab+Currency; extended seed reported Sep 2026. Third Prime made 9 new investments in the prior 12 months (2025 profile).
+- **Why them:** Decision-making GP at a seed fund focused on fintech that led/co-led a crypto-and-fiat banking seed round in 2026.
+- **Hook:** Your fund Third Prime co-led Limited's $18.5M seed this year; we build Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.
+- Email: not published
+- LinkedIn: https://www.linkedin.com/in/wes-barton-35a8455/
+
+### 9. Zach Perret, Co-founder & CEO, Plaid; co-founder, Mischief (Lauren Farleigh is Managing Director); angel investor, Mischief (early-stage VC) / Plaid
+
+*Duke BS, Physics and Chemistry (year not published) · Confidence: High*
+
+Co-founder and CEO of Plaid. In 2021 he co-created Mischief with Lauren Farleigh, a San Francisco seed fund ($30M Fund I, $80M Fund II) that writes $1-3M initial checks into founder-driven software startups. He also angel-invests personally, most recently in Lassie's Series A (June 2026).
+
+- **Stage:** Seed via Mischief ($1-3M initial checks, often leads); personal angel checks from seed to Series B
+- **Relevant deals:** Personal angel: Lassie (Series A, $35M led by a16z, Jun 2026); Comulate (Series B, Feb 2025); Fragment (seed, Jul 2024). Mischief (co-founded fund): led Hamming.ai's $3.8M seed (AI voice-agent testing, Dec 2024); Polar $9.86M seed and DataLane (2025, led by Farleigh).
+- **Why them:** Fintech-infrastructure founder who runs a pre-seed/seed software fund and is still investing in 2026; a trading-model environment sits squarely in his fintech domain.
+- **Hook:** You co-founded Plaid and the seed fund Mischief; we built Xitadel, a trading RL environment that lifted an open model's trading performance 12% on unseen market data.
+- Email: not published
+- Fund route: not found (Mischief pitch inbox not verified)
+- Site: https://zachperret.com
+
+### 10. Howie Liu, Co-founder & CEO, Airtable; angel investor, Angel investor (co-founder & CEO, Airtable)
+
+*Duke BS, Mechanical Engineering and Public Policy (attended 2005-2009) (2009) · Confidence: Medium*
+
+Co-founder and CEO of Airtable, which serves more than 500,000 organizations and on January 27, 2026 launched Superagent, its first standalone product in 13 years. As an angel he has backed Fireworks AI and Decagon (2024) and Sundial's Series A (July 2025).
+
+- **Stage:** Angel, seed to Series B
+- **Relevant deals:** Sundial (AI analytics; angel in $16M Series A / $23M total led by DJ Patil, Jul 2025); Fireworks AI (Series A Mar 2024 and Series B Jul 2024); Decagon (angel in Series A, Jun 2024); Galileo AI (seed, Feb 2024)
+- **Why them:** Personal angel checks into AI infrastructure (Fireworks AI) and AI agents/apps, with a verified deal in July 2025; his own company is now shipping AI agents.
+- **Hook:** You backed Fireworks AI, Decagon and, in 2025, Sundial as an angel; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.
+- Email: not published
+
+### 11. Kevin King, Co-founder & General Partner, 53 Stations
 
 *Duke BS Economics & Mathematics '06 · Confidence: Medium*
 
@@ -105,7 +156,7 @@ Kevin King is Co-founder and General Partner of 53 Stations, the $190M early-sta
 - Email: not published
 - Fund route: info@53stations.com (general inquiries) or contact form https://www.53stations.com/contact
 
-### 8. Mark Peter Davis, Managing Partner, Interplay
+### 12. Mark Peter Davis, Managing Partner, Interplay
 
 *Duke BA Economics and History (year not published) · Confidence: Medium*
 
@@ -120,9 +171,23 @@ Mark Peter Davis is Managing Partner of Interplay, a New York firm founded in 20
 - LinkedIn: https://www.linkedin.com/in/markpeterdavis/
 - Site: https://mpd.medium.com (Medium blog, search snippet); podcast 'Innovation with Mark Peter Davis' (https://podcasts.apple.com/us/podcast/innovation-with-mark-peter-davis/id1548136934)
 
-## Medium fit (27)
+## Medium fit (30)
 
-### 9. Greg Baker, Executive Partner, Alumni Ventures
+### 13. Danny Hadar, Co-Founder & Managing Partner, Jibe Ventures
+
+*Duke MBA, Duke University Fuqua School of Business (2007) · Confidence: High*
+
+Fuqua MBA (2007) who co-founded Jibe Ventures with Assaf Jacobi in 2020 to back Israeli founders at seed. Before that he was a serial entrepreneur, a venture partner at Peregrine Ventures (2012-17) and an angel with 20+ seed investments including Snyk and Bonobo; Crunchbase also lists him as a managing director at Fosun RZ Capital.
+
+- **Stage:** Pre-seed, seed, seed+; earlier personal angel checks $25K-$200K
+- **Relevant deals:** Jibe: led Fabrix Security $8M seed (Sep 2025); led Modulight Biotherapeutics $12.2M seed with LocalGlobe (Nov 2025); ZyG $58M seed (Mar 2026); Notch.cx $30M Series A (Mar 2026). Personal angel (earlier years): Snyk, Bonobo (acq. Salesforce), Geoforce (acq. LLR).
+- **Why them:** Decision-making MP at an active pre-seed/seed fund investing in AI and cyber, but the fund backs Israeli founders, which SimReal is not.
+- **Hook:** You co-founded Jibe Ventures after a Fuqua MBA and an early check into Snyk; we're a Duke-linked quant team building RL environments and verifiers for LLM post-training.
+- Email: not published
+- LinkedIn: https://www.linkedin.com/in/dannyhadar/
+- X: https://x.com/dannyhadar
+
+### 14. Greg Baker, Executive Partner, Alumni Ventures
 
 *Duke MBA, Fuqua '91 · Confidence: High*
 
@@ -137,7 +202,7 @@ Greg Baker is an Executive Partner at Alumni Ventures and runs Towerview Venture
 - LinkedIn: https://www.linkedin.com/in/gregebaker/
 - Site: https://www.av.vc/people/greg-baker (official AV bio, search snippet); https://techoptimist.vc/people/greg-baker (AV podcast page, search snippet)
 
-### 10. Gregg Bordes, Co-founder & Managing Partner, Front Porch Venture Partners
+### 15. Gregg Bordes, Co-founder & Managing Partner, Front Porch Venture Partners
 
 *Duke MBA, Fuqua '12 · Confidence: High*
 
@@ -151,7 +216,19 @@ Gregg Bordes is co-founder and Managing Partner of Front Porch Venture Partners,
 - Fund route: Pitch form: https://www.frontporchvp.com/contact/ (asks for stage and pitch deck)
 - LinkedIn: https://www.linkedin.com/in/greggbordes/
 
-### 11. Joe Mancini, Co-founder & General Partner, Front Porch Venture Partners
+### 16. Howard Lerman, Founder, CEO and Chief Inventor, Roam; angel investor, Angel investor (Wonder Inventions; founder & CEO, Roam)
+
+*Duke Bachelor's (History) (2002) · Confidence: High*
+
+Duke 2002 graduate who co-founded Yext in 2006 and was its CEO; now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. In September 2025 he joined Orchard Robotics' $22M Series A as an angel.
+
+- **Stage:** Pre-seed and seed mostly; checks $100K-$5M
+- **Relevant deals:** Orchard Robotics (AI farm-data and robotics; angel in the $22M Series A led by Quiet Capital and Shine Capital, Sep 2025); no named AI-infra or fintech deal found
+- **Why them:** Large-check pre-seed/seed operator-angel with AI in scope and a September 2025 deal; no named AI-infrastructure or fintech deal found.
+- **Hook:** You backed Orchard Robotics' AI farm-data platform in 2025 after self-funding Roam with $12M; we build RL environments and verifiers for LLM post-training, starting with trading.
+- Email: not published
+
+### 17. Joe Mancini, Co-founder & General Partner, Front Porch Venture Partners
 
 *Duke MBA, Fuqua '12 · Confidence: High*
 
@@ -164,7 +241,7 @@ Joe Mancini is Co-founder and General Partner of Front Porch Venture Partners, a
 - Email: not published
 - Fund route: Pitch/contact form: https://www.frontporchvp.com/contact/
 
-### 12. Katelyn Donnelly, Founder & Managing Partner, Avalanche VC
+### 18. Katelyn Donnelly, Founder & Managing Partner, Avalanche VC
 
 *Duke BA Economics & Political Science '08 · Confidence: High*
 
@@ -179,7 +256,7 @@ Katelyn Donnelly is Founder and Managing Partner of Avalanche VC, a solo-GP pre-
 - LinkedIn: https://www.linkedin.com/in/katelyndonnelly/
 - Site: https://katelyndonnelly.com/
 
-### 13. Marc Andrusko, Partner, Oak HC/FT
+### 19. Marc Andrusko, Partner, Oak HC/FT
 
 *Duke Undergraduate degree, magna cum laude (year not published) · Confidence: High*
 
@@ -194,7 +271,7 @@ Marc Andrusko has been a Partner at Oak HC/FT since March 2026, focused on early
 - LinkedIn: https://www.linkedin.com/in/marc-andrusko-4680ab25/
 - X: https://x.com/mandrusko1
 
-### 14. Rob Go, Co-founder & Partner, NextView Ventures
+### 20. Rob Go, Co-founder & Partner, NextView Ventures
 
 *Duke BS Economics '01 · Confidence: High*
 
@@ -210,7 +287,7 @@ Rob Go is co-founder and Partner of NextView Ventures, a Boston and New York see
 - X: https://x.com/robgo
 - Site: https://robgo.org/ (search snippet); https://robgo.medium.com/ (search snippet)
 
-### 15. Thomas D. Lehrman, Co-founder & Managing Partner, Teamworthy Ventures
+### 21. Thomas D. Lehrman, Co-founder & Managing Partner, Teamworthy Ventures
 
 *Duke BA (year not published) · Confidence: High*
 
@@ -223,7 +300,7 @@ Thomas Lehrman is co-founder and Managing Partner of Teamworthy Ventures, which 
 - Email: not published
 - Fund route: investors@teamworthy.com (Teamworthy's pitch and investor-relations inbox)
 
-### 16. W. Bradford (Brad) Stephens, Co-founder & Managing Partner, Blockchain Capital
+### 22. W. Bradford (Brad) Stephens, Co-founder & Managing Partner, Blockchain Capital
 
 *Duke BA Economics '98 · Confidence: High*
 
@@ -236,7 +313,7 @@ Brad Stephens is Co-founder and Managing Partner of Blockchain Capital, which he
 - Email: not published
 - Fund route: contact@blockchaincapital.com (official inbox for pitch decks)
 
-### 17. Will Bumpus, Partner, Westbound Equity Partners
+### 23. Will Bumpus, Partner, Westbound Equity Partners
 
 *Duke BA Psychology and Asian & Middle Eastern Studies '09 · Confidence: High*
 
@@ -249,7 +326,7 @@ Will Bumpus is a Partner at Westbound Equity Partners, a Los Angeles early-stage
 - Email: not published
 - Fund route: Pitch form with deck upload: https://westboundequity.com/contact-us/
 
-### 18. Blake Byers, Founder, Byers Capital
+### 24. Blake Byers, Founder, Byers Capital
 
 *Duke BS Biomedical Engineering, Pratt · BS Economics (year not published) · Confidence: Medium*
 
@@ -264,7 +341,7 @@ Blake Byers is founder of Byers Capital, a San Francisco family office he starte
 - X: https://x.com/byersblake
 - Site: https://www.byerscap.com/
 
-### 19. David Cummings, Founder & CEO, Atlanta Ventures
+### 25. David Cummings, Founder & CEO, Atlanta Ventures
 
 *Duke BS Economics (year not published) · Confidence: Medium*
 
@@ -279,7 +356,7 @@ David Cummings is founder and CEO of Atlanta Ventures, a venture studio and earl
 - LinkedIn: https://www.linkedin.com/in/davidcummings/
 - Site: https://davidcummings.org/ (search snippet)
 
-### 20. Deb Liu, Co-founder & angel investor, Ember AI
+### 26. Deb Liu, Co-founder & angel investor, Ember AI
 
 *Duke BSE Civil Engineering, Pratt '98 · Confidence: Medium*
 
@@ -294,7 +371,7 @@ Deb Liu is co-founder of Ember AI, an enterprise back-office AI startup, and a D
 - LinkedIn: https://www.linkedin.com/in/deborahliu/
 - Site: https://debliu.com/
 
-### 21. Jason Fernandez, General Partner, Creci Ventures
+### 27. Jason Fernandez, General Partner, Creci Ventures
 
 *Duke MBA, Fuqua '08 · Confidence: Medium*
 
@@ -308,7 +385,7 @@ Jason Fernandez is General Partner of Creci Ventures, an Austin seed-to-Series A
 - Fund route: Creci site https://www.creciventures.com/; Quake site www.quakecapital.com (no pitch inbox or form seen)
 - LinkedIn: https://www.linkedin.com/in/jason-r-fernandez/
 
-### 22. Jeremy Levine, Partner, Bessemer Venture Partners
+### 28. Jeremy Levine, Partner, Bessemer Venture Partners
 
 *Duke BS Computer Science & Economics '95 · Confidence: Medium*
 
@@ -323,7 +400,7 @@ Jeremy Levine is a Partner at Bessemer Venture Partners in New York, where he ha
 - LinkedIn: https://www.linkedin.com/in/jeremyl/
 - **Already in pipeline:** bessemer (contact: Janelle Teng Wade)
 
-### 23. Kent Ho, Founder & General Partner, S28 Capital
+### 29. Kent Ho, Founder & General Partner, S28 Capital
 
 *Duke BA Economics (year not published) · Confidence: Medium*
 
@@ -336,7 +413,7 @@ Kent Ho is Founder and General Partner of S28 Capital, a San Francisco fund foun
 - Email: not published
 - Fund route: community@S28Capital.com (inbox on s28capital.com; may be a general community address)
 
-### 24. Lawson DeVries, Managing General Partner, Grotech Ventures
+### 30. Lawson DeVries, Managing General Partner, Grotech Ventures
 
 *Duke MBA, Fuqua (year not published) · Confidence: Medium*
 
@@ -349,7 +426,7 @@ Lawson DeVries is Managing General Partner of Grotech Ventures, an early-stage f
 - Email: ldevries@grotech.com (published at https://www.grotech.com/team/lawson-devries and https://www.grotech.com/team (search snippet; two separate searches limited to grotech.com both returned this address))
 - Fund route: info@grotech.com (Grotech's general inbox)
 
-### 25. Mengxi Lu, Angel investor; Co-founder & CEO, Kanmon, Angel investor
+### 31. Mengxi Lu, Angel investor; Co-founder & CEO, Kanmon, Angel investor
 
 *Duke Master of Engineering Management '12 · Confidence: Medium*
 
@@ -365,7 +442,7 @@ Mengxi Lu is co-founder and CEO of Kanmon, which lets vertical software and mark
 - X: https://twitter.com/mengxi
 - Site: https://mengxi.lu/
 
-### 26. Robert Ravanshenas, Investment Partner, Maven Ventures
+### 32. Robert Ravanshenas, Investment Partner, Maven Ventures
 
 *Duke BS Economics '15 · Confidence: Medium*
 
@@ -379,7 +456,7 @@ Robert Ravanshenas is an Investment Partner at seed-stage consumer-tech firm Mav
 - Fund route: hello@mavenventures.com (Maven's Get in Touch inbox; send business, vision, team, traction and deck; mutual intro preferred)
 - LinkedIn: https://www.linkedin.com/in/robrav/
 
-### 27. Scott Raney, Managing Director, Redpoint Ventures
+### 33. Scott Raney, Managing Director, Redpoint Ventures
 
 *Duke BS Electrical Engineering, Pratt '91 · Confidence: Medium*
 
@@ -395,7 +472,7 @@ Scott Raney is a Managing Director at Redpoint Ventures, which he joined in 2000
 - Site: https://medium.com/@sraney (search snippet)
 - **Already in pipeline:** redpoint (contact: Jordan Segall)
 
-### 28. Sergey Khusnetdinov, Founder & Managing Partner, Ga^3in Ventures
+### 34. Sergey Khusnetdinov, Founder & Managing Partner, Ga^3in Ventures
 
 *Duke MBA (Cross Continent), Fuqua '13 · Confidence: Medium*
 
@@ -410,7 +487,19 @@ Sergey Khusnetdinov is Founder and Managing Partner of Ga^3in Ventures, a New Yo
 - LinkedIn: https://www.linkedin.com/today/author/husnetdinov
 - Site: Fuqua alumni Q&A: https://www.fuqua.duke.edu/alumni/connect/alumni-q-a/sergey-khusnetdinov (search snippet)
 
-### 29. William Crowder, Co-founder & Managing Partner, Aperture Venture Capital
+### 35. Shaan Puri, Founder / GP, Shaan's All Access Fund (rolling fund); angel investor; co-host, My First Million, Shaan's All Access Fund (rolling fund) / Angel investor
+
+*Duke BS Biology (minor in Chemistry), Duke University (2010) · Confidence: Medium*
+
+Duke BS Biology (2010). Former acting CEO of Bebo, which Twitch acquired in 2019; co-host of My First Million; co-founded the crypto newsletter Milk Road and sold it to Bitfo in 2022. Runs Shaan's All Access Fund, a rolling fund first raised via a tweet, and angel-invested in Gumloop (2025) and Viktor (2026).
+
+- **Stage:** Fund targets pre-seed and seed (average check ~$150K per aggregator); his named 2025-26 angel checks are in Series A rounds
+- **Relevant deals:** Gumloop (AI workflow automation): angel in the $17M Series A led by Nexus, Jan 2025. Viktor (AI): Series A (~$75M), May 2026, per Tracxn. Health: Hone Health, Superpower. No 2025-26 seed-stage deal named; no trading or quant deals.
+- **Why them:** Active Duke-alum angel and rolling-fund GP with 2025 AI-tooling exposure (Gumloop). Overall a generalist with a heavy consumer and health tilt, with no trading or ML-infra focus.
+- **Hook:** You backed Gumloop's 2025 round to put AI agents to work; we build the RL environments and verifiers that make the models behind such agents reliably expert, starting with trading.
+- Email: not published
+
+### 36. William Crowder, Co-founder & Managing Partner, Aperture Venture Capital
 
 *Duke MBA, Fuqua '99 · Confidence: Medium*
 
@@ -423,7 +512,7 @@ William Crowder is Co-founder and Managing Partner of Aperture Venture Capital, 
 - Email: not published
 - Fund route: Contact page https://aperturevc.com/contact/ (no pitch inbox listed); team page https://aperturevc.com/personnel/william-crowder/
 
-### 30. Amit Mehra, General Partner, Borderless Capital
+### 37. Amit Mehra, General Partner, Borderless Capital
 
 *Duke MBA, Fuqua (year not published) · Confidence: Low*
 
@@ -438,7 +527,7 @@ Amit Mehra is a General Partner at Borderless Capital, where he manages investme
 - LinkedIn: https://www.linkedin.com/in/aamehra/
 - X: https://x.com/amitm_eth
 
-### 31. Ashley Flucas, Founder & General Partner, Flucas Ventures
+### 38. Ashley Flucas, Founder & General Partner, Flucas Ventures
 
 *Duke BA Political Science '08 · Confidence: Low*
 
@@ -453,7 +542,7 @@ Ashley Flucas is founder and solo GP of Flucas Ventures, an AngelList syndicate 
 - LinkedIn: https://www.linkedin.com/in/asflucas/
 - Site: https://flucasvc.com (named in the same snippet)
 
-### 32. Jason Freedman, General Partner, Peak State Ventures
+### 39. Jason Freedman, General Partner, Peak State Ventures
 
 *Duke BA Public Policy & Economics '02 · Confidence: Low*
 
@@ -466,7 +555,7 @@ Jason Freedman is a General Partner at Peak State Ventures, which invests from s
 - Email: not published
 - Fund route: info@peakstate.vc (Peak State's general inbox); team page https://peakstate.vc/team/jason-freedman/
 
-### 33. Pamir Gelenbe, Founder & Managing Partner, Libertus Capital
+### 40. Pamir Gelenbe, Founder & Managing Partner, Libertus Capital
 
 *Duke BSc Electrical Engineering (year not published) · Confidence: Low*
 
@@ -480,7 +569,7 @@ Pamir Gelenbe is Founder and Managing Partner of Libertus Capital, a London-base
 - Fund route: No fund pitch inbox found; personal profile https://about.me/pamirgelenbe
 - Site: https://about.me/pamirgelenbe (search snippet)
 
-### 34. Padowithz "Pad" Alce, Angel investor; Founding Partner, AI Patent Law, Angel investor, Duke Capital Partners
+### 41. Padowithz "Pad" Alce, Angel investor; Founding Partner, AI Patent Law, Angel investor, Duke Capital Partners
 
 *Duke LLM Law & Entrepreneurship, Duke Law '11 · Confidence: Medium*
 
@@ -495,7 +584,7 @@ Pad Alce is founding partner of AI Patent Law, a Charlotte-based AI and machine-
 - LinkedIn: https://www.linkedin.com/in/padowithzalce/
 - Site: https://www.aipatentlaw.com/
 
-### 35. Lisa Burton O'Toole, Executive Director, HearstLab
+### 42. Lisa Burton O'Toole, Executive Director, HearstLab
 
 *Duke BSE Mechanical Engineering, Pratt '07 · Confidence: Low*
 
@@ -507,9 +596,25 @@ Lisa Burton O'Toole invests at HearstLab, Hearst's early-stage arm backing women
 - **Hook:** You took AdMass through HearstLab's program before joining to invest in women-led data and technology startups; we're a seed-stage data company supplying RL environments and expert data to Surge AI and AfterQuery.
 - Email: not published
 
-## Low fit (26)
+## Low fit (29)
 
-### 36. Ali Behbahani, Partner & Co-Head of Healthcare, NEA
+### 43. Adam Besvinick, Founder & Managing Partner, Looking Glass Capital
+
+*Duke B.A., Public Policy Studies, Duke University (cum laude); MBA Harvard Business School (2009) · Confidence: High*
+
+Duke public-policy graduate (2009, cum laude) and HBS MBA (2013) who founded Looking Glass Capital, a New York pre-seed/seed fund that aims to be the 'first yes'. Earlier he was an investor at Anchorage Capital (2017-19) and Deep Fork Capital, and a Jefferies telecom banker (2009-11).
+
+- **Stage:** Pre-seed and seed; leads or co-leads; initial checks $300K-$400K
+- **Relevant deals:** Co-led (with Parade Ventures) Simuhealth's $2.62M pre-seed (Dec 8 2025); Trially AI (seed, Sep 2025); Titan Intake (seed, May 2025); Kaavio (pre-seed, May 2026). No fintech or trading deals found.
+- **Why them:** Active pre-seed lead with 2025-2026 deals, but the thesis is health, climate and empowerment, not AI infrastructure or fintech.
+- **Hook:** You founded Looking Glass to be the first yes for founders and co-led Simuhealth's pre-seed in 2025; we're a Duke-linked quant team building RL environments for LLM post-training.
+- Email: not published
+- Fund route: not found (fund site lookingglass.vc)
+- LinkedIn: https://www.linkedin.com/in/besvinick/
+- X: https://x.com/Besvinick
+- Site: https://lookingglass.vc
+
+### 44. Ali Behbahani, Partner & Co-Head of Healthcare, NEA
 
 *Duke Bachelor's degrees in Biomedical Engineering, Electrical Engineering & Chemistry (year not published) · Confidence: High*
 
@@ -522,7 +627,7 @@ Ali Behbahani is a Partner and co-head of healthcare at NEA, which he joined in 
 - Email: not published
 - Fund route: No founder pitch inbox found; ask him for an intro to NEA's technology partners
 
-### 37. Dan Levitan, Co-founder & General Partner, Maveron
+### 45. Dan Levitan, Co-founder & General Partner, Maveron
 
 *Duke BA '79 · Confidence: High*
 
@@ -537,7 +642,7 @@ Dan Levitan is Co-founder and General Partner of Maveron, the consumer-focused v
 - X: https://x.com/Levitan
 - Site: https://maveronvc.substack.com (Maveron's Substack, search snippet)
 
-### 38. Doug Brown, Co-founder & Managing Partner, Dental Innovation Alliance
+### 46. Doug Brown, Co-founder & Managing Partner, Dental Innovation Alliance
 
 *Duke BS '78 · MBA, Fuqua '84 · Confidence: High*
 
@@ -551,7 +656,7 @@ Doug Brown is Co-founder and Managing Partner of Dental Innovation Alliance, whi
 - Fund route: inquiries@dialliance.com or the inquiry form at https://www.dialliance.com/contact-us
 - LinkedIn: https://www.linkedin.com/in/doug-brown-7b6b7a32/
 
-### 39. Gonzalo Costa, Co-founder & General Partner, NXTP Ventures
+### 47. Gonzalo Costa, Co-founder & General Partner, NXTP Ventures
 
 *Duke MBA, Fuqua '01 · Confidence: High*
 
@@ -564,7 +669,7 @@ Based in Buenos Aires, Gonzalo Costa co-founded NXTP Ventures in 2011 and is a G
 - Email: not published
 - Fund route: info@nxtp.vc (general inbox, https://www.nxtp.vc/contact)
 
-### 40. Jeff Terrell, Managing Partner, Arboretum Ventures
+### 48. Jeff Terrell, Managing Partner, Arboretum Ventures
 
 *Duke MBA, Fuqua '13 · Confidence: High*
 
@@ -577,7 +682,7 @@ Jeff Terrell is Managing Partner at Arboretum Ventures, an early-stage healthcar
 - Fund route: Investment Opportunity Form: https://www.arboretumvc.com/contact/
 - LinkedIn: https://www.linkedin.com/in/jeff-terrell-a515a24/
 
-### 41. Jim Scheinman, Founding Managing Partner, Maven Ventures
+### 49. Jim Scheinman, Founding Managing Partner, Maven Ventures
 
 *Duke BS Neuropsychology, Trinity '88 · Confidence: High*
 
@@ -593,7 +698,7 @@ Jim Scheinman is Founding Managing Partner of Maven Ventures, a Silicon Valley s
 - X: https://x.com/jimscheinman
 - Site: https://jimscheinman.com (search snippet)
 
-### 42. John Tough, Co-founder & Managing Partner, Energize Capital
+### 50. John Tough, Co-founder & Managing Partner, Energize Capital
 
 *Duke BS (year not published) · Confidence: High*
 
@@ -607,7 +712,7 @@ John Tough co-founded Energize Capital, a Chicago firm investing in energy-trans
 - Fund route: Contact form on his blog johntough.com (invites Energize inquiries); team page https://energizecap.com/team/john-tough
 - Site: https://johntough.com/ ('Tough CAPITAL' blog with an Energize Capital page; search snippet)
 
-### 43. Kathryn Minshew, Operating Partner & Angel investor, XFactor Ventures
+### 51. Kathryn Minshew, Operating Partner & Angel investor, XFactor Ventures
 
 *Duke BA Political Science & French '08 · Confidence: High*
 
@@ -622,7 +727,7 @@ Kathryn Minshew is an angel investor and Operating Partner at XFactor Ventures, 
 - LinkedIn: https://www.linkedin.com/in/kathryn-minshew/
 - Site: https://www.kminshew.com/
 
-### 44. Kerry Rupp, General Partner, True Wealth Ventures
+### 52. Kerry Rupp, General Partner, True Wealth Ventures
 
 *Duke BA Biology '93 · Confidence: High*
 
@@ -635,7 +740,7 @@ Kerry Rupp has been general partner at Austin-based True Wealth Ventures since 2
 - Fund route: Pitch form: https://truewealthvc.com/share-your-big-idea/ (contact page: https://truewealthvc.com/contact-us/)
 - LinkedIn: https://www.linkedin.com/in/kerryrupp/
 
-### 45. Lindy Morris Fishburne, Founding Managing Partner, Breakout Ventures
+### 53. Lindy Morris Fishburne, Founding Managing Partner, Breakout Ventures
 
 *Duke BA Cultural & Physical Anthropology '92 · Confidence: High*
 
@@ -648,7 +753,7 @@ Lindy Morris Fishburne is founding managing partner of Breakout Ventures, whose 
 - Email: not published
 - Fund route: contact@breakout.vc (general inbox on https://breakout.vc/contact)
 
-### 46. Lisa Blau, Founding Partner, Able Partners
+### 54. Lisa Blau, Founding Partner, Able Partners
 
 *Duke BA '97 · Confidence: High*
 
@@ -661,7 +766,19 @@ Lisa Blau is a Founding Partner of Able Partners, the New York early-stage consu
 - Email: not published
 - Fund route: info@ablepartners.nyc (general inbox on https://ablepartners.nyc/)
 
-### 47. Paul Straub, Co-founder & Managing Partner, Wireframe Ventures
+### 55. Namita Thapar, Executive Director, Emcure Pharmaceuticals; Shark Tank India investor, Angel investor (Shark Tank India); Executive Director, Emcure Pharmaceuticals
+
+*Duke MBA (Daytime MBA), Duke University Fuqua School of Business (2001) · Confidence: High*
+
+Chartered accountant and 2001 Fuqua Daytime MBA who spent six years at Guidant in the US before returning to Emcure Pharmaceuticals, where she is Executive Director. A shark on every season of Shark Tank India, including season 5 (2026), she has backed more than 100 startups.
+
+- **Stage:** Early-stage angel (Shark Tank India deals)
+- **Relevant deals:** NeoSapien (AI-native wearable; Rs 80 lakh for 4% on Shark Tank India S4, Jan 2025), the closest to AI; other 2025 deals (Crunchbase): Symbionic, The Bear House, COGRAD, Boba Bhai, Tikitoro, Aquapeya, FAE Beauty (Jan-Mar 2025); otherwise consumer and health brands
+- **Why them:** A prolific, active angel, but in Indian consumer and health brands; no AI, fintech or quant deals found.
+- **Hook:** You are a Fuqua MBA ('01) who backed NeoSapien's AI wearable on Shark Tank India; we are Duke-linked quants building RL environments that teach LLMs to trade.
+- Email: not published
+
+### 56. Paul Straub, Co-founder & Managing Partner, Wireframe Ventures
 
 *Duke MBA, Fuqua '05 · Confidence: High*
 
@@ -676,7 +793,7 @@ Paul Straub co-founded Wireframe Ventures, a Mill Valley seed-stage fund backing
 - LinkedIn: https://www.linkedin.com/in/paulstraub/
 - X: https://twitter.com/pstraub
 
-### 48. Sydney Thomas, Founder & General Partner, Symphonic Capital
+### 57. Sydney Thomas, Founder & General Partner, Symphonic Capital
 
 *Duke BA Public Policy '10 · Confidence: High*
 
@@ -690,7 +807,7 @@ Sydney Thomas is Founder and General Partner of Symphonic Capital, a pre-seed fu
 - Fund route: hi@symphonic.vc (pitches and inquiries; https://www.symphoniccapital.com/how-we-work)
 - Site: https://www.symphoniccapital.com/newsletter (fund newsletter)
 
-### 49. Todd Pietri, Co-founder & Co-Managing Partner, Activate Venture Partners
+### 58. Todd Pietri, Co-founder & Co-Managing Partner, Activate Venture Partners
 
 *Duke BA English (year not published) · Confidence: High*
 
@@ -703,7 +820,7 @@ Todd Pietri is Co-founder and Co-Managing Partner of Activate Venture Partners, 
 - Email: not published
 - Fund route: info@activatevp.com (Activate's general inbox); site https://activatevp.com/
 
-### 50. Carmichael Roberts, Co-founder & Managing Partner, Material Impact
+### 59. Carmichael Roberts, Co-founder & Managing Partner, Material Impact
 
 *Duke BS Organic Chemistry '90 · PhD Organic Chemistry '95 · Confidence: Medium*
 
@@ -716,7 +833,7 @@ Carmichael Roberts co-founded and is Managing Partner of Boston-based Material I
 - Email: not published
 - Fund route: info@materialimpact.com (Material Impact's general inbox)
 
-### 51. David Lamond, Managing Partner, Lamond Ventures
+### 60. David Lamond, Managing Partner, Lamond Ventures
 
 *Duke BA History, Trinity '97 · JD, Duke Law '06 · Confidence: Medium*
 
@@ -729,7 +846,7 @@ David Lamond is Managing Partner of Lamond Ventures, investing personal and fami
 - Email: not published
 - LinkedIn: https://www.linkedin.com/in/david-lamond-b7338915b/
 
-### 52. John Glushik, Managing Director, HG Ventures
+### 61. John Glushik, Managing Director, HG Ventures
 
 *Duke BS Mechanical Engineering & Materials Science, Pratt '90 · Confidence: Medium*
 
@@ -743,7 +860,7 @@ John Glushik has been a Managing Director of HG Ventures, The Heritage Group's c
 - Fund route: Warm intro preferred; HG asks founders to connect on LinkedIn and reviews cold outreach with clear sector fit: https://hgventures.com/approach/
 - LinkedIn: https://www.linkedin.com/in/johnglushik/
 
-### 53. Josh Felser, Co-founder & Managing Partner, Climactic
+### 62. Josh Felser, Co-founder & Managing Partner, Climactic
 
 *Duke BA Political Science & Economics '86 · MBA, Fuqua '90 · Confidence: Medium*
 
@@ -758,7 +875,7 @@ Josh Felser is Co-founder and Managing Partner of Climactic, a seed climate-tech
 - LinkedIn: https://www.linkedin.com/in/joshfelser/
 - Site: Climactic Podcast: https://www.climactic.vc/podcasts/climactic-podcast (search snippet)
 
-### 54. Lia Cromwell, Partner, UpWest
+### 63. Lia Cromwell, Partner, UpWest
 
 *Duke BA Public Policy, Economics & Spanish '15 · Confidence: Medium*
 
@@ -773,7 +890,7 @@ Lia Cromwell is a Partner at UpWest in Tel Aviv, where she leads the Israel inve
 - LinkedIn: https://www.linkedin.com/in/liacromwell/
 - Site: https://medium.com/@lmcromwell
 
-### 55. Lori Cashman, Founder & General Partner, Visible Ventures
+### 64. Lori Cashman, Founder & General Partner, Visible Ventures
 
 *Duke BA '94 · Confidence: Medium*
 
@@ -788,7 +905,19 @@ Lori Cashman is Founder and General Partner of Visible Ventures, an early-stage 
 - LinkedIn: https://www.linkedin.com/in/lori-cashman/
 - X: https://x.com/visiblevc_
 
-### 56. Nikin Shah, Co-founder & General Partner, Front Porch Venture Partners
+### 65. Luis von Ahn, Co-founder & CEO, Duolingo; angel investor, Angel investor (co-founder & CEO, Duolingo)
+
+*Duke BS, Mathematics (2000) · Confidence: Medium*
+
+Co-founder and CEO of Duolingo and founder of reCAPTCHA, which Google bought in 2009. After his 2000 Duke math degree he co-developed CAPTCHA with Manuel Blum at Carnegie Mellon. In February 2026 he invested in Swedish digital-signage software firm Desquare.
+
+- **Stage:** Angel
+- **Relevant deals:** none found in AI/data/fintech; Desquare AB (Designage digital-signage CMS, Sweden; invested Feb 2026 through a Swedish consortium led by Martin Norstrom, terms undisclosed), Gridwise, Trala
+- **Why them:** Active angel in 2026, but his small portfolio is in edtech and music, not AI infrastructure or fintech.
+- **Hook:** You took a Duke math degree and then co-created CAPTCHA at Carnegie Mellon; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.
+- Email: not published
+
+### 66. Nikin Shah, Co-founder & General Partner, Front Porch Venture Partners
 
 *Duke MBA, Fuqua '12 · Confidence: Medium*
 
@@ -799,7 +928,7 @@ Nikin Shah is Co-founder and General Partner of Front Porch Venture Partners, a 
 - Email: not published
 - Fund route: Pitch/contact form: https://www.frontporchvp.com/contact/
 
-### 57. Salman Azhar, General Partner, Azimuth Opportunity Fund
+### 67. Salman Azhar, General Partner, Azimuth Opportunity Fund
 
 *Duke MS Computer Science '90 · PhD Computer Science '94 · Confidence: Medium*
 
@@ -814,7 +943,7 @@ Salman Azhar is General Partner of Azimuth Opportunity Fund, which buys pre-IPO 
 - LinkedIn: https://www.linkedin.com/in/salmanazhar
 - X: https://x.com/sazhar
 
-### 58. Squire Servance, Founder & Managing Partner, Syridex Bio
+### 68. Squire Servance, Founder & Managing Partner, Syridex Bio
 
 *Duke JD, Duke Law '08 · MBA, Fuqua '08 · Confidence: Medium*
 
@@ -828,7 +957,7 @@ Squire Servance is Founder & Managing Partner of Syridex Bio, a Princeton life-s
 - Fund route: Firm site https://www.syridexbio.com/about-us/; no pitch inbox published
 - Site: https://www.squireservance.com (search snippet)
 
-### 59. Camille Samuels, Partner, Venrock
+### 69. Camille Samuels, Partner, Venrock
 
 *Duke Bachelor's, Biology '93 · Confidence: Low*
 
@@ -839,7 +968,7 @@ Camille Samuels is a partner at Venrock, the venture firm that began as the Rock
 - Email: not published
 - Fund route: Contact page https://www.venrock.com/contact/; business plans go to the relevant investment team (technology or healthcare).
 
-### 60. Jared Weinstein, Founder, Overton
+### 70. Jared Weinstein, Founder, Overton
 
 *Duke BA Public Policy '02 · Confidence: Low*
 
@@ -852,7 +981,7 @@ Jared Weinstein runs Overton, his Birmingham, Alabama investing vehicle, backing
 - Email: not published
 - LinkedIn: https://www.linkedin.com/in/jared-weinstein-3b22b538/
 
-### 61. Melinda French Gates, Founder, Pivotal Ventures
+### 71. Melinda French Gates, Founder, Pivotal Ventures
 
 *Duke BS Computer Science & Economics '86 · MBA, Fuqua '87 · Confidence: Low*
 
@@ -882,22 +1011,30 @@ Melinda French Gates is founder of Pivotal Ventures, which invests mainly as an 
 
 | Name | Firm | Reason |
 |---|---|---|
+| Aaron Patzer | Founder & CEO, Vital; angel investor | Duke degree confirmed and he has an angel profile, but no 2025-26 angel or seed deal was found; the latest dated deal in the snippets is Shen.AI (pre-seed, Oct 2020). A 'Fjord Ventures' managing-partner label in aggregators looks like a mix-up with a life-sciences firm. |
 | Adam Carson | JPMorgan Chase (Chase Digital Assets); formerly Point72 Ventures | fact-check: Fails criterion 2. He stepped down as Point72 Ventures Partner in January 2025, was an advisor until February 2026, and since January 2026 has headed Chase Digital Assets at JPMorgan Chase, which is an operating role. He is no longer a VC decision maker. This is the 'moved to an operating role' case. |
 | Adelina Dasso | Accion Impact Management (Accion Digital Transformation Fund) | Fails criterion 3: she invests growth equity in established financial institutions through the Accion Digital Transformation Fund, not at angel, pre-seed, seed or Series A. No evidence she invests through Accion Venture Lab or as an angel. |
 | Ali Byrd | Resonance Companies (operator role); formerly Towerview Ventures / Alumni Ventures | Fails criterion 2. He left Towerview Ventures in 2020 (LinkedIn snippet: Founding MP 2018-2020) and in 2026 is an operating executive (Chief Value Officer, Resonance Companies), with no evidence he leads investments or angel-invests now. |
+| Ashley Brasier | Angel investor (Faire) | No verified angel deal in 2025-2026; latest named deal is boam.ai seed (Dec 2022). Signal lists her as an active angel ($10K-$100K), so recheck if a recent deal turns up. |
 | Ashwin Ramachandran | Dragonfly (Dragonfly Capital Partners) | His Duke degree was completed in 2019, after the 2018 cutoff. Duke Computer Science's '2019 Graduation: Degrees Conferred' page lists him among the BS/BA recipients with Computer Science as first major at the May 12, 2019 commencement. |
 | Barry Myers | Pappas Capital (also Duke University faculty) | Fails criterion 2: he is a Senior Venture Partner, and the only portfolio roles found are board-observer seats (Aer Therapeutics, Tune Therapeutics; earlier Gentis, TYRX). Nothing shows him leading investments. Pappas Capital invests only in life sciences, so SimReal is outside its mandate. No personal angel investing was found. His Duke degrees (MD/PhD 1991, MBA 2004) do meet criterion 1. |
+| Ben Hamner | Sumble (co-founder) | Angel deals found (Marimo, Predibase, Coiled), but none dated 2025-2026; he is now running his own startup, Sumble (Series A mid-2025). |
 | Bill Quintenz | No QED Investors affiliation found. The Duke bio matches Brian Quintenz (former CFTC Commissioner; ex-a16z crypto Global Head of Policy) | Identity and role not supported: nothing links a 'Bill Quintenz' to QED Investors, and QED's 2026 partner list does not include him. The matching Duke credentials belong to Brian Quintenz, a former regulator and policy executive who now serves on boards (SUI Group, Kalshi). He is not a key decision maker at a seed or Series A fund. |
 | Blake Goodner |  | Duke T'96, but a hedge-fund manager (public markets), no early-stage vehicle |
+| Brad Lightcap | Undisclosed new venture (ex-OpenAI) | No personal 2025-2026 angel/seed checks found: one personal angel deal (Klarity Series A, Jan 2022); the OpenAI Startup Fund he managed is corporate capital. Left OpenAI in Aug 2026 to 'start something new' (details undisclosed). Worth re-checking if the new venture is a fund. |
 | Cari Coats | Accendo Leadership Advisory Group (co-founder & managing partner); board director, venVelo and FireSpring Fund | Not shown to be a 2026 investment decision maker. She is co-founder and managing partner of Accendo Leadership Advisory Group (an advisory firm, not a fund) and a board director of the venVelo and FireSpring early-stage funds. No source shows her leading or approving investments or angel investing herself; venVelo's managing director is listed as Jonathan Molayem. No 2025-2026 activity was found. |
 | Chris Ryan | Moelis Asset Management (New York); co-founder of Crossbeam Venture Partners, a seed/Series A venture joint venture of Moelis Asset Management and Treville Capital Group (formerly CoVenture) | Fails criterion 3. Archean Capital Partners is a GP-seeding vehicle that anchors first-time private-equity firms, and Moelis Asset Management does private credit and PE. No evidence was found of angel, pre-seed, seed or Series A startup investing; Signal's fintech pre-seed tag is unsupported by any deal. |
 | Chulmin Lee |  | Fuqua MBA 2001, but VIG Partners (Korea) is private equity |
 | David Thacker | Google DeepMind (formerly Greylock) | Fails criterion 2. He left the Greylock GP role and is listed as VP Product at Google DeepMind (since 2024 per a search summary), with Greylock showing him only as a Venture Partner. There is no evidence he leads investments or angel invests in 2026. |
+| Doug Higgins | 359 Capital (formerly Sapphire Sport) | fact-check: No evidence he makes investment decisions: TechCrunch names Michael Spirito as 359 Capital's managing partner and Higgins as 'board partner and co-founder'; the fund's recent deals are Series A and later. |
+| Dylan Smith | Box | Duke economics graduate and Box co-founder/CFO; angel record is thin (4 companies) with the latest deal in Jan 2023, so no 2025-2026 activity. |
 | Elle Leemay Chen | Reciprocal Ventures | Two criteria cannot be supported: (1) the Duke graduation year is unknown, so a degree completed in 2018 or earlier is unconfirmed; (2) her title is Venture Partner with no evidence that she leads investments, and her 2026 status is unverified. The search budget ran out before these could be checked. |
 | Eric Savage | Unitus Capital (Bangalore investment bank) | Fails criteria 2 and 3: his role is investment banking and advisory at Unitus Capital, with no evidence that he personally makes seed or Series A equity investment decisions in 2026. India impact focus; sector mismatch. |
 | Fred Ehrsam | Paradigm (also co-founder & CEO of Nudge) | fact-check: No longer an active investing decision maker: Paradigm's team page lists him as 'Co-Founder & Senior Advisor' and he is Co-Founder & CEO of Nudge (neurotech). |
+| Gautam Bazaz | Amarnath Partners | No named angel or seed deals found for 2025-26. Current public role is mainly health-sector convening (Global Health Forum CEO). |
 | Grant Newlin |  | Fuqua MBA student in 2021, so graduated after 2018 |
 | Henry Yin |  | Duke Law alumnus, corporate lawyer at Loeb & Loeb, not an investor |
+| Jason Robins | Co-founder & CEO, DraftKings; angel investor | Duke Econ/CS graduate and an angel with 27 investments, but the latest dated deal found is Kidsy (seed, Mar 2024); no 2025-26 deal was verified. |
 | Joanna Rees | West Global (brand and strategy firm; formerly West venture studio) | Criteria 2 and 3 not supported: in 2026 she is Executive Chairman of a brand and strategy firm, with no evidence of an active early-stage fund or of personal seed or Series A investments in 2025-2026. Consumer focus is a sector mismatch. |
 | Joe Wu | MFund (Crunchbase lists it as closed) / Magic Capital (co-founded with Colin Huang and Hongyu Zhang) | Criterion 2 cannot be supported: Crunchbase lists MFund as closed, and no 2025-2026 investments, fund news or current role were found for Magic Capital. His focus is also Chinese internet companies. His Duke degree (Fuqua MBA '04) does qualify. |
 | Juan Pablo Cappello |  | Duke AB 1989, venture lawyer (Private Advising Group), not an investor |
@@ -905,6 +1042,7 @@ Melinda French Gates is founder of Pivotal Ventures, which invests mainly as an 
 | Kerstin Dittmar |  | Duke '06, but L2 Point Management does late-stage structured investments |
 | Kip Frey | HG Ventures (corporate venture arm of The Heritage Group) | fact-check: No longer a decision maker: his LinkedIn title is now 'Senior Advisor, New Ventures, at The Heritage Group'; John Glushik took over as Managing Director of HG Ventures in 2023. |
 | Kurt Schmidt | Duke Capital Partners (formerly Duke Angel Network); also Triangle Angel Partners and 7BC Venture Capital | Criterion 1 cannot be supported. The official bio confirms he attended Duke Law, but no source found gives the degree type or the year he completed it, so 'Duke degree completed 2018 or earlier' is unverified. Every other criterion holds and he is a strong institutional route: DCP's mandate fits SimReal through its Duke COO. Recommend a manual check of his Duke Law degree and year (e.g. his LinkedIn), then include as a priority contact if it is confirmed. |
+| Lyndsay Lyle | Skyline Capital (family office) | No verified angel or seed checks in 2025-26. Skyline Capital is a family office (Ketchum, ID). The only seed deals found (Traini, May 2024; XRUN, June 2022, PitchBook snippet) may belong to a different 'Skyline Capital'. |
 | Matt McIlwain | Madrona Venture Group | No Duke degree. Madrona's official team profile lists his education as Dartmouth College (undergraduate), a Harvard Business School MBA and a master's in public policy from Harvard Kennedy School, with no Duke degree. The Duke claim in the discovery record came from a podcast-description snippet and looks wrong. |
 | Meranee Phing Naaman |  | Duke '98, but The Riverside Company is private equity / buyout |
 | Michelle Egger |  | Duke MBA '20 (after 2018); XFactor Ventures investment partner |
@@ -913,10 +1051,13 @@ Melinda French Gates is founder of Pivotal Ventures, which invests mainly as an 
 | Nikhil Mittal | BlueRidge Ventures | The year of his Duke Fuqua MBA could not be found, and sources only say he 'attended' Fuqua, so a degree completed in 2018 or earlier is not confirmed. Also, his LinkedIn headline still shows EY, so BlueRidge may be a side role. He is a strong-fit lead worth a manual check of the Fuqua year. |
 | Phillip Graham | Pappas Capital | Fuqua MBA year not found, so the 2018 cutoff cannot be confirmed. He is a Principal with only board-observer roles and no evidence of leading investments. Pappas Capital invests only in life sciences. |
 | Ravi Gupta | Sequoia Capital (Partner). Also co-founder and Co-CEO of Ithaca Holdco / Ithaca Holdings since December 2025. | fact-check: Criterion 3 fails: he does not invest at angel, pre-seed, seed or Series A. He joined Sequoia in January 2020 as a partner on the growth team (TechCrunch 2019-08-28 'Instacart CFO Ravi Gupta to exit for Sequoia Capital' and Instacart bio, search snippets). NFX Signal lists his check range as $10M-$200M with a $25M sweet spot, and his known deals (Faire, Remote, Meter, Ramp, Fireblocks, Sierra) are growth-stage (https://signal.nfx.com/investors/ravi-gupta, search snippet). Since December 2025 his main job has been Co-Founder and Co-CEO of Ithaca Holdco, a $1B+ vehicle to acquire and modernize an existing company, which is buyout-style rather than early-stage investing (Yahoo Finance and Bloomberg 2026-03-10, search snippets). No seed or Series A deal led by him was found. |
+| Ravi Trivedi | Srijan Capital (founder/managing partner); CEO, PushEngage | Fuqua MBA and angel/seed investor (Srijan Capital), but no dated 2025-26 deal was found; India/Singapore-based with a SaaS and consumer-internet focus. |
 | Ruby Grewal | Duke Capital Partners (Investor Member, angel); Immunovant (operating role) | Her active angel investing in 2025-2026 cannot be verified (the DCP spotlight is undated). Her current role is a biopharma operating job (CSO, Immunovant, per LinkedIn snippet), and her stated angel focus is biotech, a sector mismatch. |
 | Scott Weiner | SW Consulting (formerly Pappas Capital/Pappas Ventures and Amzak Health) | He has left Pappas Capital, and after a stint at Amzak Health he now runs SW Consulting, a life-science advisory firm. That means he is no longer a fund decision maker (fails criterion 2), and he invested only in life sciences. |
 | Shaurya Aggarwal | Lightspeed Venture Partners | Fails criterion 3: his role is in Lightspeed's Growth practice and no angel, seed or Series A activity was found. His Duke graduation year is also unconfirmed. Useful at most as a Duke warm route to Lightspeed's seed team. |
+| Shep Moyle | Angel investor; Senior Lecturing Fellow, Duke I&E (Fuqua) | Long-time angel and Duke Capital Partners investor, but no named deals found and Duke degree type/year not stated in snippets. |
 | Sima Sistani |  | Duke T'01, operator (Houseparty, WeightWatchers); no fund or documented angel activity found |
+| Tarun Thakur | Veza | Self-described 'Angel Investor and Advisor' since 2020, but no named deals were found; criterion 2 is unverified. |
 | Ted Wang | ICONIQ Growth (per snippets); formerly Cowboy Ventures | No evidence that he holds an early-stage decision-making role in 2026. Snippets say he left Cowboy Ventures and is now a Partner at ICONIQ Growth, which is growth-only. He also moved into executive coaching (Stoked Advisors, announced around 2022). His Duke class year is not stated |
 | Tim Schulte |  | Duke BA; Council Capital is healthcare PE/growth and his role is portfolio operations, not deal lead |
 | Todd Creech |  | Fuqua alumnus, but HealthQuest Capital is healthcare growth equity |

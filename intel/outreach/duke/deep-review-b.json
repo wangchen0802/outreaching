@@ -1,0 +1,259 @@
+{
+ "reviews": [
+  {
+   "name": "Howie Liu",
+   "verdict": "correct",
+   "reject_reason": "",
+   "corrections": [
+    {
+     "field": "relevant_investments",
+     "value": "Sundial (AI analytics; angel in $16M Series A / $23M total led by DJ Patil, Jul 2025); Fireworks AI (Series A Mar 2024 and Series B Jul 2024); Decagon (angel in Series A, Jun 2024); Galileo AI (seed, Feb 2024)",
+     "evidence": "Sundial: https://www.businesswire.com/news/home/20250708725493/en/Sundial-Raises-$23M-to-Redefine-Data-informed-Decisions-with-AI (search snippet) and https://www.finsmes.com/2025/07/sundial-raises-16m-in-series-a-funding.html (search snippet) list Howie Liu among backers; Decagon: https://decagon.ai/resources/series-a (search snippet); Fireworks: https://siliconangle.com/2024/07/11/fireworks-ai-raises-52m-led-sequoia-522m-valuation/ (search snippet) and https://startupintros.com/orgs/fireworks-ai (search snippet)"
+    },
+    {
+     "field": "bio",
+     "value": "Co-founder and CEO of Airtable, which serves more than 500,000 organizations and on January 27, 2026 launched Superagent, its first standalone product in 13 years. As an angel he has backed Fireworks AI and Decagon (2024) and Sundial's Series A (July 2025).",
+     "evidence": "Old bio said 'over 450,000 organizations'; current reporting says more than 500,000: https://builtin.com/articles/airtable-launches-superagent-20260128 (search snippet), https://www.vktr.com/digital-workplace/airtable-debuts-superagent-a-multi-agent-ai-research-platform/ (search snippet). The '17 startups' count was aggregator-only and is dropped. Deals as in relevant_investments."
+    },
+    {
+     "field": "hook",
+     "value": "You backed Fireworks AI, Decagon and, in 2025, Sundial as an angel; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+     "evidence": "Original hook (Fireworks AI, Decagon) is supported (https://decagon.ai/resources/series-a (search snippet); https://siliconangle.com/2024/07/11/fireworks-ai-raises-52m-led-sequoia-522m-valuation/ (search snippet)); adding the verified 2025 deal makes it current (https://www.businesswire.com/news/home/20250708725493/en/Sundial-Raises-$23M-to-Redefine-Data-informed-Decisions-with-AI (search snippet))."
+    }
+   ],
+   "notes": "Duke 2009 BS (Mech. Eng. and Public Policy) not contradicted; it rests on the record's clay.com and yespress.io snippets. The only 2025-26 personal check found is Sundial (July 2025), an angel check into a Series A rather than a seed round. It still counts as an own-money angel check under the brief, but there is no named 2026 deal, so still_active_2026 stays 'unclear'. The Hyperagent 'Founding 500' program (2026) gives $20K of inference credits to founders. Those are Airtable product credits, not equity checks, so they do not count as seed investing. Signal lists his check range as $5K-$50K."
+  },
+  {
+   "name": "Howard Lerman",
+   "verdict": "correct",
+   "reject_reason": "",
+   "corrections": [
+    {
+     "field": "duke_degree",
+     "value": "Bachelor's (History)",
+     "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet): 'graduated from Duke University in 2002, where he studied history'"
+    },
+    {
+     "field": "duke_grad_year",
+     "value": 2002,
+     "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet)"
+    },
+    {
+     "field": "grad_year_basis",
+     "value": "Stated: graduated from Duke in 2002 (Wikipedia)",
+     "evidence": "https://en.wikipedia.org/wiki/Howard_Lerman (search snippet)"
+    },
+    {
+     "field": "relevant_investments",
+     "value": "Orchard Robotics (AI farm-data and robotics; angel in the $22M Series A led by Quiet Capital and Shine Capital, Sep 2025); no named AI-infra or fintech deal found",
+     "evidence": "https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet) and https://igrownews.com/orchard-robotics-latest-news/ (search snippet) name 'Howard Lerman, founder of Yext and Roam' among investors; Tracxn dates it 03-Sep-2025 (https://tracxn.com/d/people/howard-lerman/__t7qbL_2XDrbETzujJW6pLQZoCzDVxI-C8JkzpOjZrLw (search snippet))"
+    },
+    {
+     "field": "bio",
+     "value": "Duke 2002 graduate who co-founded Yext in 2006 and was its CEO; now founder and CEO of Roam, a virtual HQ for distributed teams that he funded with $12M of his own money. In September 2025 he joined Orchard Robotics' $22M Series A as an angel.",
+     "evidence": "Duke 2002 and Yext 2006: https://en.wikipedia.org/wiki/Howard_Lerman (search snippet); Roam $12M: https://alejandrocremades.com/howard-lerman/ (search snippet) (from the record); Orchard: https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet). The '$100K-$5M checks, mostly pre-seed and seed' and '13 investments' figures come only from the evalyze.ai aggregator and are dropped from the bio."
+    },
+    {
+     "field": "hook",
+     "value": "You backed Orchard Robotics' AI farm-data platform in 2025 after self-funding Roam with $12M; we build RL environments and verifiers for LLM post-training, starting with trading.",
+     "evidence": "The original hook's 'still write pre-seed and seed checks' rests only on an aggregator, and the one verified 2025 deal is a Series A. Sources: https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/ (search snippet); https://alejandrocremades.com/howard-lerman/ (search snippet)"
+    },
+    {
+     "field": "confidence",
+     "value": "High",
+     "evidence": "The Duke year is now stated (2002), and the Sep 2025 angel deal is confirmed by press (GeekWire)."
+    }
+   ],
+   "notes": "Qualifies: Duke 2002 is stated, and he made a named own-money angel check in Sep 2025 (Orchard Robotics, Series A). There is no named 2026 deal, so still_active_2026 stays 'unclear'. Not re-verified: the 'Miami Beach, FL' location, the '$12M of his own money' figure (from the record's alejandrocremades.com snippet) and the aggregator check-size range. The degree subject ('history') comes from a search-summary snippet of Wikipedia."
+  },
+  {
+   "name": "Doug Higgins",
+   "verdict": "correct",
+   "reject_reason": "",
+   "corrections": [
+    {
+     "field": "decision_maker",
+     "value": "unclear",
+     "evidence": "TechCrunch (Nov 10, 2025) lists Michael Spirito as 359 Capital's 'co-founder and managing partner', and Doug Higgins as 'board partner and co-founder' alongside partners David Hartwig and Rico Mallozzi: https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet). No source says Higgins sits on the investment committee or led a 2025-26 deal; at most firms a 'Board Partner' is a senior advisory title."
+    },
+    {
+     "field": "bio",
+     "value": "Co-founder of Sapphire Ventures, where he invested in LinkedIn, DocuSign, Paytm and Square, and co-founder and Board Partner of 359 Capital, which spun out of Sapphire Sport in November 2025 with a $181M Fund II and about $300M AUM. Michael Spirito is managing partner.",
+     "evidence": "https://www.359capital.com/ (search snippet) (co-founded 359 Capital fka Sapphire Sport in 2018; Sapphire Ventures investments LinkedIn, DocuSign, Paytm, Square; Duke BA, Kellogg MBA); https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet). The Perplexity, Beehiiv and Tonal portfolio claims come from the findfunding.vc aggregator only; I did not re-verify them, so they are dropped."
+    },
+    {
+     "field": "hook",
+     "value": "You co-founded Sapphire Ventures and 359 Capital, which spun out in 2025 with a $181M fund; we build RL environments and verifiers that make LLMs better at expert work, starting with trading.",
+     "evidence": "https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/ (search snippet); https://www.359capital.com/ (search snippet). The Perplexity link in the original hook rests only on findfunding.vc."
+    },
+    {
+     "field": "relevant_investments",
+     "value": "359 Capital: Highlight AI (Series A participation, latest per Tracxn, 2026); Perplexity and Beehiiv per findfunding.vc (unverified); personal (Sapphire Ventures era): LinkedIn, DocuSign, Paytm, Square",
+     "evidence": "https://tracxn.com/d/venture-capital/359capital/__zOIx9e0Afg-bNqCvEz9SsVr9uDTAJQ8uB_A5STYGFME (search snippet) (3 investments in 2026; most recent Highlight AI Series A); https://www.359capital.com/ (search snippet)"
+    },
+    {
+     "field": "confidence",
+     "value": "Low",
+     "evidence": "Kept Low: decision rights unverified, and the firm's recent activity is Series A (seed-to-Series C mandate)."
+    }
+   ],
+   "notes": "Borderline. Duke BA (year not stated) is certain from his career: Robertson Stephens and Lucasfilm, then Sapphire Ventures co-founder, with 'three decades' in tech investing. Criterion 2 is not established. His title is Board Partner, not GP or managing partner. The managing partner is Michael Spirito, and Hartwig and Mallozzi are Partners. 359 Capital is a seed-to-Series C sports/media/consumer fund whose most recent deal is a Series A. Higgins is not proven to be a non-decision-maker, so I keep him with Low confidence instead of rejecting. The caller may reasonably drop him or move him to a 'warm intro to Spirito' path."
+  },
+  {
+   "name": "Luis von Ahn",
+   "verdict": "correct",
+   "reject_reason": "",
+   "corrections": [
+    {
+     "field": "bio",
+     "value": "Co-founder and CEO of Duolingo and founder of reCAPTCHA, which Google bought in 2009. After his 2000 Duke math degree he co-developed CAPTCHA with Manuel Blum at Carnegie Mellon. In February 2026 he invested in Swedish digital-signage software firm Desquare.",
+     "evidence": "The record said he 'devised CAPTCHA in 2000 while a Duke student'; that is wrong. CAPTCHA was co-coined with his mentor Manuel Blum at Carnegie Mellon, where he did his PhD (2005): https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet). Desquare: https://www.sixteen-nine.net/2026/02/16/duolingo-co-founder-luis-von-ahn-invests-in-swedish-cms-designage/ (search snippet)"
+    },
+    {
+     "field": "hook",
+     "value": "You took a Duke math degree and then co-created CAPTCHA at Carnegie Mellon; we build verifiers and expert data that teach LLMs to do expert work, starting with trading.",
+     "evidence": "The original hook ('devised CAPTCHA while studying at Duke') is false. CAPTCHA was developed at CMU with Manuel Blum: https://en.wikipedia.org/wiki/Luis_von_Ahn (search snippet), https://www.cmu.edu/engage/news-stories/news/cmu-alumnus-luis-von-ahn-gamified-language-learning-and-revolutionized (search snippet)"
+    },
+    {
+     "field": "relevant_investments",
+     "value": "none found in AI/data/fintech; Desquare AB (Designage digital-signage CMS, Sweden; invested Feb 2026 through a Swedish consortium led by Martin Norstrom, terms undisclosed), Gridwise, Trala",
+     "evidence": "https://www.sixteen-nine.net/2026/02/16/duolingo-co-founder-luis-von-ahn-invests-in-swedish-cms-designage/ (search snippet); https://invidis.com/news/2026/02/new-money-for-nordic-cms-desquare-attracts-star-investors/ (search snippet)"
+    }
+   ],
+   "notes": "Duke BS Mathematics 2000 is confirmed (Wikipedia). The 2026 check is real: Desquare, Feb 2026. But it was an undisclosed-size stake in an established Nordic signage-software company, made through a consortium led by Martin Norstrom. Aggregators call it 'angel', but it is not clearly seed-stage. It still counts as an own-money private investment, so confidence stays Medium and fit Low. Gridwise and Trala are from the record's aggregator sources; I did not re-check them."
+  },
+  {
+   "name": "Namita Thapar",
+   "verdict": "correct",
+   "reject_reason": "",
+   "corrections": [
+    {
+     "field": "duke_degree",
+     "value": "MBA (Daytime MBA), Duke University Fuqua School of Business",
+     "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet) and https://www.fuqua.duke.edu/pharma-executive-discusses-bridging-cultures-disciplines (search snippet): a 2001 graduate of Fuqua's Daytime MBA program"
+    },
+    {
+     "field": "duke_grad_year",
+     "value": 2001,
+     "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet)"
+    },
+    {
+     "field": "grad_year_basis",
+     "value": "Stated: 2001 graduate of Fuqua's Daytime MBA program (Fuqua website)",
+     "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet)"
+    },
+    {
+     "field": "relevant_investments",
+     "value": "NeoSapien (AI-native wearable; Rs 80 lakh for 4% on Shark Tank India S4, Jan 2025), the closest to AI; other 2025 deals (Crunchbase): Symbionic, The Bear House, COGRAD, Boba Bhai, Tikitoro, Aquapeya, FAE Beauty (Jan-Mar 2025); otherwise consumer and health brands",
+     "evidence": "https://www.businesstoday.in/technology/news/story/neosapien-unveils-an-ai-native-wearable-secures-rs-80-lakh-shark-tank-investment-460910-2025-01-15 (search snippet); https://india.entrepreneur.com/news-and-trends/neosapien-secures-inr-80-lakhs-on-shark-tank-india-4-for-ai/485509 (search snippet); https://www.crunchbase.com/person/namita-thapar/person_overview_investor/timeline (search snippet)"
+    },
+    {
+     "field": "bio",
+     "value": "Chartered accountant and 2001 Fuqua Daytime MBA who spent six years at Guidant in the US before returning to Emcure Pharmaceuticals, where she is Executive Director. A shark on every season of Shark Tank India, including season 5 (2026), she has backed more than 100 startups.",
+     "evidence": "Fuqua 2001: https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet); Guidant six years: https://www.penguin.co.uk/authors/296043/namita-thapar (search snippet); Season 5 (Jan 5-Mar 17, 2026) shark: https://en.wikipedia.org/wiki/Shark_Tank_India_season_5 (search snippet); 100+ companies: https://www.crunchbase.com/person/namita-thapar/person_overview_investor/timeline (search snippet); chartered accountant per the record's Wikipedia source."
+    },
+    {
+     "field": "hook",
+     "value": "You are a Fuqua MBA ('01) who backed NeoSapien's AI wearable on Shark Tank India; we are Duke-linked quants building RL environments that teach LLMs to trade.",
+     "evidence": "https://fuqua.duke.edu/student-network/alumni-ambassadors/namita-thapar (search snippet); https://www.businesstoday.in/technology/news/story/neosapien-unveils-an-ai-native-wearable-secures-rs-80-lakh-shark-tank-investment-460910-2025-01-15 (search snippet)"
+    },
+    {
+     "field": "confidence",
+     "value": "High",
+     "evidence": "The MBA year is now stated by Fuqua itself, and a named 2025 deal (NeoSapien) is in the press."
+    }
+   ],
+   "notes": "Qualifies. Fuqua Daytime MBA 2001 is stated on Fuqua's site. Named 2025 checks include NeoSapien (Jan 2025, BusinessToday and Entrepreneur India) and others in Crunchbase's timeline. She was a shark in season 5 (Jan-Mar 2026), but no named season-5 deal was found. Shark Tank on-air deals do not always close; the NeoSapien deal was reported as secured. Fit stays Low: the portfolio is Indian consumer and health brands, and NeoSapien is the only AI-adjacent deal."
+  }
+ ],
+ "reinstated": [
+  {
+   "name": "Jason Robins",
+   "include": false,
+   "exclude_reason": "Re-checked with 3 searches (Oct 2026): no 2025 or 2026 angel/seed check or fund found. Tracxn, CB Insights and the Crunchbase investor timeline still show Kidsy (seed, Mar 29, 2024) as his latest deal, and no 2025-26 press release names him as an investor.",
+   "firm": "Co-founder & CEO, DraftKings; angel investor",
+   "title_2026": "Co-founder & CEO, DraftKings",
+   "location": "Boston, MA",
+   "still_active_2026": "unclear",
+   "decision_maker": "yes",
+   "role_sources": [
+    "https://www.crunchbase.com/person/jason-robins (search snippet)",
+    "https://pitchbook.com/profiles/investor/107443-09 (search snippet)",
+    "https://www.crunchbase.com/person/jason-robins/person_overview_investor/timeline (search snippet)"
+   ],
+   "duke_degree": "BA, Economics and Computer Science, Duke University",
+   "duke_grad_year": null,
+   "grad_year_basis": "Year not stated; he co-founded DraftKings in 2011 after leaving a corporate job (CNBC 2018), so the degree was before 2018.",
+   "duke_sources": [
+    "https://www.crunchbase.com/person/jason-robins (search snippet)",
+    "https://www.cnbc.com/2018/05/30/draftkings-ceo-jason-robins-quit-day-job-for-a-successful-start-up.html (search snippet)"
+   ],
+   "stage_focus": "Seed (historical)",
+   "sectors": "Sports, gaming, collectibles, fintech",
+   "bio": "Duke economics and CS graduate who co-founded DraftKings in 2011 and is its CEO. Aggregators list 27 angel investments, including Jackpot.com, WAX, Grow Credit and Sports Innovation Lab.",
+   "relevant_investments": "Grow Credit (fintech, year not given); Kidsy (seed, Mar 2024)",
+   "investment_sources": [
+    "https://tracxn.com/d/people/jason-robins/__LwpvoLopftKJj0cnSSopYOHZK7zCG0PpPHuzRRNxP3A (search snippet)",
+    "https://pitchbook.com/profiles/investor/107443-09 (search snippet)",
+    "https://www.crunchbase.com/person/jason-robins/person_overview_investor/timeline (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "",
+   "linkedin_url": "",
+   "x_url": "",
+   "personal_site": "",
+   "fit": "Medium",
+   "fit_reason": "A data- and odds-driven operator-angel who backs some fintech, but recent activity is unverified.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  },
+  {
+   "name": "Brad Lightcap",
+   "include": false,
+   "exclude_reason": "Re-checked with 3 searches (Oct 2026): the post-OpenAI venture is still undisclosed. Reports say only that it will address 'challenges emerging as AI enters its next phase' and that he will 'share more soon'. Nothing describes it as a fund. No personal 2025-26 angel/seed checks found; the latest personal deal is still Klarity (Series A, Jan 2022). His OpenAI Startup Fund role was corporate capital. Re-check once the venture is named.",
+   "firm": "Undisclosed new venture (ex-OpenAI)",
+   "title_2026": "Former COO / special projects lead, OpenAI (left Aug 2026)",
+   "location": "San Francisco",
+   "still_active_2026": "no",
+   "decision_maker": "unclear",
+   "role_sources": [
+    "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving (search snippet)",
+    "https://dealroom.co/news/144533-openai-coo-brad-lightcap-exits-after-nine-years-to-start-his-own-venture/ (search snippet)",
+    "https://www.vcsheet.com/who/brad-lightcap (search snippet)",
+    "https://www.bloomberg.com/news/articles/2026-08-11/openai-executive-brad-lightcap-leaves-to-start-something-new (search snippet)",
+    "https://www.citybiz.co/article/887442/openai-coo-brad-lightcap-to-depart-launch-new-venture/ (search snippet)",
+    "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo (search snippet)"
+   ],
+   "duke_degree": "Degrees in Economics and History",
+   "duke_grad_year": null,
+   "grad_year_basis": "Certain from career: J.P. Morgan analyst, then joined Dropbox in 2013",
+   "duke_sources": [
+    "https://www.insead.edu/bio/brad-lightcap (search snippet)",
+    "https://www.crunchbase.com/person/brad-lightcap (search snippet)"
+   ],
+   "stage_focus": "n/a (corporate fund: pre-seed to Series B AI)",
+   "sectors": "AI",
+   "bio": "Joined OpenAI after YC Continuity and Dropbox; became COO and managed the OpenAI Startup Fund. Moved to special projects in April 2026 and announced on August 11, 2026 that he was leaving to start a new venture.",
+   "relevant_investments": "Klarity (Series A, Jan 2022; personal angel)",
+   "investment_sources": [
+    "https://www.vcsheet.com/who/brad-lightcap (search snippet)",
+    "https://angelmatch.io/investors/brad-lightcap (search snippet)",
+    "https://www.cbinsights.com/investor/brad-lightcap (search snippet)"
+   ],
+   "email": "not found",
+   "email_source": "",
+   "other_contact": "not found",
+   "linkedin_url": "https://www.linkedin.com/in/bradlightcap/",
+   "x_url": "not found",
+   "personal_site": "not found",
+   "fit": "Medium",
+   "fit_reason": "Ideal domain fit (OpenAI operations), but no personal early-stage check activity is verified.",
+   "hook": "",
+   "hook_sources": [],
+   "confidence": "Medium"
+  }
+ ],
+ "searches_used": 22
+}
