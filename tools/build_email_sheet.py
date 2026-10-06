@@ -33,6 +33,8 @@ from openpyxl.utils import get_column_letter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FOUND = ROOT / "intel" / "investors" / "emails-found.json"
+# Later sweeps (crypto VCs, the rest of the tech list) have no checker pass; a code check stands in for it.
+FOUND_MORE = ROOT / "intel" / "investors" / "emails-found-2.json"
 OUT = ROOT / "collateral" / "SimReal-投资人邮箱.xlsx"
 OUT_CSV = ROOT / "collateral" / "SimReal-投资人邮箱.csv"
 MERGE_CSV = ROOT / "collateral" / "SimReal-邮件合并.csv"
@@ -50,6 +52,19 @@ HEAD_FILL = PatternFill("solid", fgColor="111110")
 BODY_FONT = Font(name="Arial", size=10)
 WRAP = Alignment(wrap_text=True, vertical="top")
 INBOX = re.compile(r"^(pitch|seed|deals|submit|apply|embed|aistart|ventures|build|strategicvc|bp|bpchina|invest|founders|startups|plan)@", re.I)
+
+
+def site_of(text):
+    m = re.search(r"https?://(?:www\.)?([^/\s（(]+)", text or "")
+    return m.group(1).lower() if m else ""
+
+
+def same_site(email, url, domain):
+    """True when the address sits on the firm's own domain, or on the domain of the page that published it."""
+    host = email.lower().split("@")[-1]
+    root = lambda d: ".".join(d.split(".")[-2:])  # noqa: E731
+    sites = {root(d) for d in (domain, site_of(url)) if d}
+    return root(host) in sites
 
 
 def kind_of(email, owner_is_person):
@@ -115,6 +130,15 @@ def main(targets_path):
                 if c is None or not c["keep"] or e["email"].lower() not in (e.get("snippet") or "").lower():
                     continue
                 add(r["name"], e["email"], c["kind"], e["owner"], e["url"], e["snippet"], "这次搜索")
+    rejected = 0
+    if FOUND_MORE.exists():
+        for r in json.loads(FOUND_MORE.read_text(encoding="utf-8"))["results"]:
+            want = (info.get(r["name"]) or {}).get("domain", "")
+            for e in r.get("emails") or []:
+                if same_site(e["email"], e.get("url", ""), want) and e["email"].lower() in (e.get("snippet") or "").lower():
+                    add(r["name"], e["email"], e["kind"], e["owner"], e["url"], e["snippet"], "这次搜索")
+                else:
+                    rejected += 1
 
     rows.sort(key=lambda r: (KIND_RANK.get(r["kind"], 3), r["name"].lower()))
     cols = [("序号", 6), ("名称", 26), ("类别", 10), ("地区", 18), ("邮箱", 32), ("邮箱类型", 10), ("邮箱属于", 20),
@@ -125,8 +149,9 @@ def main(targets_path):
     have = {r["name"] for r in rows}
     missing = [t for t in targets if t["name"] not in have]
     searched = set()
-    if FOUND.exists():
-        searched = {r["name"] for r in json.loads(FOUND.read_text(encoding="utf-8"))["results"] if r.get("searched")}
+    for path in (FOUND, FOUND_MORE):
+        if path.exists():
+            searched |= {r["name"] for r in json.loads(path.read_text(encoding="utf-8"))["results"] if r.get("searched")}
     wb = Workbook()
     wb.remove(wb.active)
     sheet(wb, "邮箱", cols, table)
@@ -162,7 +187,8 @@ def main(targets_path):
         w = csv.writer(f)
         w.writerow([c for c, _ in cols])
         w.writerows(table)
-    print(f"wrote {OUT.relative_to(ROOT)}: {len(rows)} emails for {len(have)} targets ({personal} personal), {len(missing)} without")
+    print(f"wrote {OUT.relative_to(ROOT)}: {len(rows)} emails for {len(have)} targets ({personal} personal), {len(missing)} without; "
+          f"{rejected} later-sweep addresses failed the site check")
 
 
 def openers():
