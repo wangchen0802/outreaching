@@ -2371,7 +2371,7 @@
 "name": "BGV (Benhamou Global Ventures)",
 "kind": "VC",
 "region": "美国（Palo Alto）",
-"domain": "",
+"domain": "bgv.com",
 "prio": 2,
 "lists": [
 "硅谷VC"
@@ -8521,6 +8521,875 @@
 "prio": 3,
 "lists": [
 "审批页"
+],
+"known": []
+},
+{
+"name": "a16z crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "a16zcrypto.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Multicoin Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "multicoin.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Dragonfly",
+"kind": "区块链 VC",
+"region": "",
+"domain": "dragonfly.xyz",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Framework Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "framework.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Placeholder",
+"kind": "区块链 VC",
+"region": "",
+"domain": "placeholder.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "1kx",
+"kind": "区块链 VC",
+"region": "",
+"domain": "1kx.network",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Variant",
+"kind": "区块链 VC",
+"region": "",
+"domain": "variant.fund",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "YZi Labs (formerly Binance Labs)",
+"kind": "区块链 VC",
+"region": "",
+"domain": "yzilabs.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "OKX Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "okx.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Jump Crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "jumpcrypto.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Galaxy Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "galaxy.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Digital Currency Group",
+"kind": "区块链 VC",
+"region": "",
+"domain": "dcg.co",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Hashed",
+"kind": "区块链 VC",
+"region": "",
+"domain": "hashed.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Animoca Brands",
+"kind": "区块链 VC",
+"region": "",
+"domain": "animocabrands.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "The Spartan Group",
+"kind": "区块链 VC",
+"region": "",
+"domain": "spartangroup.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Delphi Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "delphiventures.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Mechanism Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "mechanism.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Robot Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "robvc.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "North Island Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "northisland.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Castle Island Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "castleisland.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Lightspeed Faction",
+"kind": "区块链 VC",
+"region": "",
+"domain": "lightspeedfaction.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Archetype",
+"kind": "区块链 VC",
+"region": "",
+"domain": "archetype.fund",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Bain Capital Crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "baincapitalcrypto.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Union Square Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "usv.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "HashKey Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "hashkey.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "IOSG Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "iosg.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "SevenX Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "7x.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Foresight Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "foresightventures.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Maven 11",
+"kind": "区块链 VC",
+"region": "",
+"domain": "maven11.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Fabric Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "fabric.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Arrington Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "arringtoncapital.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "ParaFi Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "parafi.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Standard Crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "standardcrypto.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Nascent",
+"kind": "区块链 VC",
+"region": "",
+"domain": "nascent.xyz",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Volt Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "volt.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Alliance DAO",
+"kind": "区块链 VC",
+"region": "",
+"domain": "alliance.xyz",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Outlier Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "outlierventures.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Kenetic Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "kenetic.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Amber Group",
+"kind": "区块链 VC",
+"region": "",
+"domain": "ambergroup.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "GSR",
+"kind": "区块链 VC",
+"region": "",
+"domain": "gsr.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Wintermute Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "wintermute.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "DWF Labs",
+"kind": "区块链 VC",
+"region": "",
+"domain": "dwf-labs.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Gate Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "gate.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "KuCoin Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "kucoin.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Circle Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "circle.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Greenfield Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "greenfieldcapital.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Big Brain Holdings",
+"kind": "区块链 VC",
+"region": "",
+"domain": "bigbrain.holdings",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Folius Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "folius.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Hashkey / NGC Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "ngc.fund",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Sino Global Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "sinoglobalcapital.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Lemniscap",
+"kind": "区块链 VC",
+"region": "",
+"domain": "lemniscap.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Fenbushi Capital US",
+"kind": "区块链 VC",
+"region": "",
+"domain": "fenbushi.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Chapter One",
+"kind": "区块链 VC",
+"region": "",
+"domain": "chapterone.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Accomplice",
+"kind": "区块链 VC",
+"region": "",
+"domain": "accomplice.co",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "6th Man Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "6thman.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Road Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "road.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Shima Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "shima.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Mirana Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "mirana.xyz",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Portal Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "portal.vc",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Superscrypt",
+"kind": "区块链 VC",
+"region": "",
+"domain": "superscrypt.xyz",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Tribe Capital Crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "tribecap.co",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Eden Block",
+"kind": "区块链 VC",
+"region": "",
+"domain": "edenblock.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Borderless Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "borderless.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Morningstar Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "morningstar.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Avalanche Foundation / Blizzard Fund",
+"kind": "区块链 VC",
+"region": "",
+"domain": "avax.network",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Solana Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "solana.ventures",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Polygon Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "polygon.technology",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Near Foundation",
+"kind": "区块链 VC",
+"region": "",
+"domain": "near.foundation",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Aptos Ventures",
+"kind": "区块链 VC",
+"region": "",
+"domain": "aptosfoundation.org",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Sui Foundation",
+"kind": "区块链 VC",
+"region": "",
+"domain": "sui.io",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Ethereum Foundation (grants)",
+"kind": "区块链 VC",
+"region": "",
+"domain": "ethereum.org",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Protocol Labs (PL Ventures)",
+"kind": "区块链 VC",
+"region": "",
+"domain": "protocol.ai",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Cyber Fund",
+"kind": "区块链 VC",
+"region": "",
+"domain": "cyber.fund",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "A Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "acapital.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Gumi Cryptos Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "gumi-cryptos.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "L1 Digital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "l1d.ch",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Crypto.com Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "crypto.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Republic Crypto",
+"kind": "区块链 VC",
+"region": "",
+"domain": "republic.com",
+"prio": 1,
+"lists": [
+"区块链 VC"
+],
+"known": []
+},
+{
+"name": "Tioga Capital",
+"kind": "区块链 VC",
+"region": "",
+"domain": "tioga.capital",
+"prio": 1,
+"lists": [
+"区块链 VC"
 ],
 "known": []
 }

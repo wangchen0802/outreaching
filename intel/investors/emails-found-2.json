@@ -1,0 +1,1570 @@
+{
+ "results": [
+  {
+   "name": "a16z crypto",
+   "searched": true,
+   "emails": [],
+   "note": "No pitch address in results; only crypto-jobs@a16z.com (careers, skipped). CSX accelerator uses an application."
+  },
+  {
+   "name": "Paradigm",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@paradigm.xyz",
+     "kind": "机构通用",
+     "owner": "Paradigm",
+     "snippet": "General Inquiries: info@paradigm.xyz",
+     "url": "https://www.paradigm.xyz/contact"
+    }
+   ],
+   "note": "Contact page also lists office addresses sf@/nyc@/dc@paradigm.xyz and coworking@ (not recorded); press@ skipped."
+  },
+  {
+   "name": "Polychain Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only camille@polychain.org surfaced, as the contact in the jobs-board privacy policy (jobs.polychain.capital); not a pitch address, not recorded."
+  },
+  {
+   "name": "Pantera Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "pitch@panteracapital.com",
+     "kind": "机构投递",
+     "owner": "Pantera Capital",
+     "snippet": "Send white papers and investment opportunities to: pitch@panteracapital.com",
+     "url": "https://panteracapital.com/contact/"
+    }
+   ],
+   "note": "invest@ (capital formation), ir@ and press@ skipped as LP/press addresses."
+  },
+  {
+   "name": "Multicoin Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@multicoin.capital",
+     "kind": "机构通用",
+     "owner": "Multicoin Capital",
+     "snippet": "General inquiries: hello@multicoin.capital",
+     "url": "https://multicoin.capital/contact/"
+    }
+   ],
+   "note": "legal@ skipped."
+  },
+  {
+   "name": "Electric Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@electriccapital.com",
+     "kind": "机构投递",
+     "owner": "Electric Capital",
+     "snippet": "General Contact Email: info@electriccapital.com. This is the main email address for founders building frontier technologies who want to get in touch with Electric Capital.",
+     "url": "https://www.electriccapital.com/contact/"
+    }
+   ],
+   "note": "Result also showed mc@electriccapital.com with no stated purpose; not recorded."
+  },
+  {
+   "name": "Dragonfly",
+   "searched": true,
+   "emails": [],
+   "note": "Pitches go through the contact form at dragonfly.xyz/contact (topic 'Pitch'). The only email in results was obfuscated ([email protected]) on the jobs privacy policy."
+  },
+  {
+   "name": "Framework Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@framework.ventures",
+     "kind": "机构投递",
+     "owner": "Framework Ventures",
+     "snippet": "For Founders: hello@framework.ventures",
+     "url": "https://www.framework.ventures/contact"
+    }
+   ],
+   "note": "investorrelations@ (LPs), adam@ (press) and legal@ skipped."
+  },
+  {
+   "name": "Placeholder",
+   "searched": true,
+   "emails": [],
+   "note": "Only shelly@placeholder.vc (General Manager, contact in the jobs-board privacy policy) surfaced; not an investor or pitch address, not recorded."
+  },
+  {
+   "name": "1kx",
+   "searched": true,
+   "emails": [],
+   "note": "No email address in results."
+  },
+  {
+   "name": "Variant",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@variant.fund",
+     "kind": "机构通用",
+     "owner": "Variant",
+     "snippet": "To reach out and share your ideas or what you're building, you can contact Variant at info [at] variant.fund",
+     "url": "https://variant.fund/"
+    }
+   ],
+   "note": "Published as 'info [at] variant.fund' (spelled out, not guessed). The Founder Fellowship pitch address was obfuscated in results and is not recorded. The summary did not name the exact page; the homepage is the best match."
+  },
+  {
+   "name": "Haun Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only media@haun.co and privacy@haun.co surfaced (both skipped)."
+  },
+  {
+   "name": "Coinbase Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget). Coinbase Ventures takes pitches through an online form."
+  },
+  {
+   "name": "YZi Labs (formerly Binance Labs)",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget). Takes applications through a portal."
+  },
+  {
+   "name": "OKX Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "ventures@okx.com",
+     "kind": "机构投递",
+     "owner": "OKX Ventures",
+     "snippet": "To reach OKX Ventures, you can email ventures@okx.com.",
+     "url": "https://www.okx.com/en-us/ventures"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "Jump Crypto",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Galaxy Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Digital Currency Group",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Hashed",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@hashed.com",
+     "kind": "机构通用",
+     "owner": "Hashed",
+     "snippet": "their contact email is contact@hashed.com, and they are based in Seoul and San Francisco",
+     "url": "https://www.hashed.com/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "Animoca Brands",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "The Spartan Group",
+   "searched": true,
+   "emails": [
+    {
+     "email": "kelvin.koh@spartangroup.io",
+     "kind": "个人公开",
+     "owner": "Kelvin Koh (co-founder & partner)",
+     "snippet": "You can contact Spartan Group via email at kelvin.koh@spartangroup.io.",
+     "url": "https://jobs.spartangroup.io/privacy-policy"
+    }
+   ],
+   "note": "The firm publishes it on its own jobs-board privacy policy page. It is the co-founder's address but is not labelled as a pitch inbox. ir@spartangroup.io (fund investors) skipped."
+  },
+  {
+   "name": "Delphi Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only legal@ and operations@delphiventures.io surfaced (both skipped). No pitch email found."
+  },
+  {
+   "name": "Mechanism Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@mechanism.capital",
+     "kind": "机构通用",
+     "owner": "Mechanism Capital",
+     "snippet": "Mechanism Capital's contact email is contact@mechanism.capital.",
+     "url": "https://www.mechanism.capital/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "Robot Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "No email address in results."
+  },
+  {
+   "name": "Hack VC",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@hack.vc",
+     "kind": "机构通用",
+     "owner": "Hack VC",
+     "snippet": "You can contact Hack VC at contact@hack.vc for inquiries and business submissions.",
+     "url": "https://www.hack.vc/"
+    }
+   ],
+   "note": "The summary did not name the exact page (it may be the terms page); the homepage is the best match."
+  },
+  {
+   "name": "North Island Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@northisland.ventures",
+     "kind": "机构通用",
+     "owner": "North Island Ventures",
+     "snippet": "North Island Ventures' contact email is info@northisland.ventures.",
+     "url": "https://northisland.ventures/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "Castle Island Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@castleisland.vc",
+     "kind": "机构投递",
+     "owner": "Castle Island Ventures",
+     "snippet": "For pitching or entrepreneurship inquiries, you can email them at info@castleisland.vc.",
+     "url": "https://castleisland.vc/"
+    }
+   ],
+   "note": "jobs@ skipped."
+  },
+  {
+   "name": "Blockchain Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@blockchaincapital.com",
+     "kind": "机构投递",
+     "owner": "Blockchain Capital",
+     "snippet": "For founders with pitch materials, you can contact Blockchain Capital at contact@blockchaincapital.com.",
+     "url": "https://www.blockchaincapital.com/contact-us"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "Lightspeed Faction",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Archetype",
+   "searched": true,
+   "emails": [
+    {
+     "email": "ash@archetype.fund",
+     "kind": "个人公开",
+     "owner": "Ash Egan (founder & GP)",
+     "snippet": "You can contact Archetype Management LLC via email at ash@archetype.fund.",
+     "url": "https://jobs.archetype.fund/privacy-policy"
+    }
+   ],
+   "note": "The firm publishes it on its own jobs-board privacy policy page. It is the founder's address but is not labelled as a pitch inbox."
+  },
+  {
+   "name": "Bain Capital Crypto",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Union Square Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@usv.com",
+     "kind": "机构通用",
+     "owner": "Union Square Ventures",
+     "snippet": "Email: info@usv.com",
+     "url": "https://www.usv.com/"
+    }
+   ],
+   "note": "The summary did not name the exact page; the homepage is the best match. See also 'The Guide To Meeting USV' (usv.com/the-guide-to-meeting-usv/)."
+  },
+  {
+   "name": "HashKey Capital",
+   "searched": true,
+   "emails": [],
+   "note": "All addresses in results were obfuscated ([email protected]), including the general/partnerships one. Nothing recorded."
+  },
+  {
+   "name": "IOSG Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "kickstarter@iosg.vc",
+     "kind": "机构投递",
+     "owner": "IOSG Ventures (Kickstarter program)",
+     "snippet": "For Kickstarter program inquiries, you can contact kickstarter@iosg.vc",
+     "url": "https://kickstarter.iosg.vc/"
+    }
+   ],
+   "note": "The main pitch inbox (summary + pitch deck/white paper) was obfuscated ([email protected]) and is not recorded. kickstarter@ is for IOSG's early-stage builder program. yiping@iosg.vc (AI Design Partner Program) not recorded."
+  },
+  {
+   "name": "SevenX Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "The search returned no results; there was no budget left to retry."
+  },
+  {
+   "name": "Foresight Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "admin@foresightventures.com",
+     "kind": "机构通用",
+     "owner": "Foresight Ventures",
+     "snippet": "For general inquiries, you can reach Foresight Ventures at admin@foresightventures.com",
+     "url": "https://www.foresightventures.com/"
+    }
+   ],
+   "note": "media@ skipped."
+  },
+  {
+   "name": "Maven 11",
+   "searched": true,
+   "emails": [],
+   "note": "No email address in results (the site uses a contact option)."
+  },
+  {
+   "name": "Fabric Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "x@fabric.vc",
+     "kind": "机构通用",
+     "owner": "Fabric Ventures",
+     "snippet": "For Open Web Ecosystems, seed investment funds, or other partnerships, you can reach out via x@fabric.vc",
+     "url": "https://old.fabric.vc/"
+    }
+   ],
+   "note": "ir@fabric.vc also appeared ('For any questions please email ir@fabric.vc') but is most likely investor relations, so it is not recorded. The source page for x@ is most likely old.fabric.vc."
+  },
+  {
+   "name": "CoinFund",
+   "searched": true,
+   "emails": [
+    {
+     "email": "projects@coinfund.io",
+     "kind": "机构投递",
+     "owner": "CoinFund",
+     "snippet": "For project materials, send an email to projects@coinfund.io.",
+     "url": "https://www.coinfund.io/team"
+    },
+    {
+     "email": "hello@coinfund.io",
+     "kind": "机构通用",
+     "owner": "CoinFund",
+     "snippet": "CoinFund's main contact phone is (646) 934-6177 and email is hello@coinfund.io.",
+     "url": "https://www.coinfund.io/team"
+    },
+    {
+     "email": "rishin@coinfund.io",
+     "kind": "个人公开",
+     "owner": "Rishin (CoinFund)",
+     "snippet": "for projects at the intersection of AI and web3, you can reach out to rishin@coinfund.io or jake@coinfund.io.",
+     "url": "https://coinfund.io/open-neural-networks-the-intersection-of-ai-and-web3/"
+    },
+    {
+     "email": "jake@coinfund.io",
+     "kind": "个人公开",
+     "owner": "Jake (CoinFund)",
+     "snippet": "for projects at the intersection of AI and web3, you can reach out to rishin@coinfund.io or jake@coinfund.io.",
+     "url": "https://coinfund.io/open-neural-networks-the-intersection-of-ai-and-web3/"
+    }
+   ],
+   "note": "general@coinfund.io ('all other inquiries') also listed; ir@ and jobs@ skipped. The personal addresses come from an older CoinFund blog post about AI x web3. The summary did not name the exact page for projects@/hello@."
+  },
+  {
+   "name": "Arrington Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@arringtoncapital.com",
+     "kind": "机构通用",
+     "owner": "Arrington Capital",
+     "snippet": "General Inquiries: info@arringtoncapital.com",
+     "url": "https://www.arringtoncapital.com/blog/official-arrington-capital-communication-channels/"
+    }
+   ],
+   "note": "contact@arringtoncapital.com (labelled 'general operations') not recorded. press@ and investors@ (LP inquiries) skipped. Source page is most likely the 'Official Arrington Capital Communication Channels' post."
+  },
+  {
+   "name": "ParaFi Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@parafi.com",
+     "kind": "机构通用",
+     "owner": "ParaFi Capital",
+     "snippet": "ParaFi Capital's contact email is info@parafi.com.",
+     "url": "https://parafi.com/"
+    }
+   ],
+   "note": "legal@ skipped."
+  },
+  {
+   "name": "Standard Crypto",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget)."
+  },
+  {
+   "name": "Nascent",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@nascent.xyz",
+     "kind": "机构通用",
+     "owner": "Nascent",
+     "snippet": "General Contact Email: Email Nascent at hello@nascent.xyz",
+     "url": "https://www.nascent.xyz/contact"
+    }
+   ],
+   "note": "admin@nascent.xyz (jobs-board privacy contact) not recorded."
+  },
+  {
+   "name": "Volt Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@volt.capital",
+     "kind": "机构通用",
+     "owner": "Volt Capital",
+     "snippet": "hello@volt.capital (for general inquiries and feedback)",
+     "url": "https://volt.capital/contact"
+    }
+   ],
+   "note": "alec@volt.capital also surfaced with no stated role; not recorded."
+  },
+  {
+   "name": "Alliance DAO",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget). Alliance takes founders through an application."
+  },
+  {
+   "name": "Outlier Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched (35-search budget). Outlier takes founders through program applications."
+  },
+  {
+   "name": "Kenetic Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Generic search returned only aggregators (OpenVC, Datanyze, Firstbase, privateequitylist, prospeo); no address from kenetic.capital itself."
+  },
+  {
+   "name": "Amber Group",
+   "searched": true,
+   "emails": [],
+   "note": "Domain-restricted search (ambergroup.io) referenced a general contact, an Amber Labs contact and media contacts, but every address was obfuscated as '[email protected]' in the result, so nothing could be recorded. Not retried (budget)."
+  },
+  {
+   "name": "GSR",
+   "searched": true,
+   "emails": [
+    {
+     "email": "gsr@gsr.io",
+     "kind": "机构通用",
+     "owner": "GSR",
+     "snippet": "The general contact email is gsr@gsr.io",
+     "url": "https://www.gsr.io/contact-us"
+    }
+   ],
+   "note": "Domain-restricted search on gsr.io; the top result was the 'Get in Touch' contact page. Skipped recruiting@, markets@ (OTC), dpo@ (privacy). Venture team (Quynh Ho, Edward Anderson) named but no personal addresses shown. Site also has a contact form."
+  },
+  {
+   "name": "Wintermute Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Search returned only aggregators/job boards (privateequitylist, shizune, pitchbook, altss); no official ventures address shown. Not retried (budget)."
+  },
+  {
+   "name": "DWF Labs",
+   "searched": true,
+   "emails": [],
+   "note": "Only press@dwf-labs.com shown (skipped: press). Ventures pitches go via the form at https://www.dwf-labs.com/ventures."
+  },
+  {
+   "name": "Gate Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Search returned aggregators and unrelated 'Gate' funds; Gate Labs mention pointed to a support address that was obfuscated and is a product support inbox anyway. Not retried (budget)."
+  },
+  {
+   "name": "KuCoin Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "kci@flashdot.com",
+     "kind": "机构投递",
+     "owner": "KuCoin Ventures",
+     "snippet": "You can reach out via email at kci@flashdot.com or Twitter. This email is specifically mentioned on the KuCoin Ventures official website as their contact method.",
+     "url": "https://www.kucoin.com/kucoin-ventures"
+    }
+   ],
+   "note": "Address is on the flashdot.com domain (Flashdot is KuCoin's parent company), shown on KuCoin's own KuCoin Ventures page. KuCoin warns of scam emails; staff use @kucoin.com / @corp.kucoin.com / @flsdex.com."
+  },
+  {
+   "name": "Circle Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Greenfield Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "gm@greenfieldcapital.com",
+     "kind": "机构投递",
+     "owner": "Greenfield Capital",
+     "snippet": "For founders and investors: gm@greenfieldcapital.com",
+     "url": "https://greenfield.xyz/contact/"
+    },
+    {
+     "email": "info@greenfieldcapital.com",
+     "kind": "机构通用",
+     "owner": "Greenfield Capital",
+     "snippet": "For other inquiries: info@greenfieldcapital.com",
+     "url": "https://greenfield.xyz/contact/"
+    }
+   ],
+   "note": "Shown from the firm's contact page on greenfield.xyz (addresses use the greenfieldcapital.com domain). Skipped media@, event@, jobs@."
+  },
+  {
+   "name": "Big Brain Holdings",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@bigbrain.holdings",
+     "kind": "机构投递",
+     "owner": "Big Brain Holdings",
+     "snippet": "Their inquiries email is hello@bigbrain.holdings",
+     "url": "https://www.bigbrain.holdings/"
+    }
+   ],
+   "note": "Site says founders building next-gen tech should get in touch (Contact Us)."
+  },
+  {
+   "name": "Folius Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "lfg@folius.ventures",
+     "kind": "机构投递",
+     "owner": "Folius Ventures",
+     "snippet": "lfg@folius.ventures - for deal inquiries and other business matters",
+     "url": "https://www.folius.ventures/"
+    }
+   ],
+   "note": "jason@folius.ventures also listed but labelled for media and other inquiries (skipped: media)."
+  },
+  {
+   "name": "Hashkey / NGC Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "invest@ngc.fund",
+     "kind": "机构投递",
+     "owner": "NGC Ventures",
+     "snippet": "To pitch NGC Ventures, you can contact them at invest@ngc.fund.",
+     "url": "https://ngc.fund/contact"
+    }
+   ],
+   "note": "invest@ here is labelled for founder pitches, not LPs, so it was kept."
+  },
+  {
+   "name": "Sino Global Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@sinoglobalcapital.com",
+     "kind": "机构通用",
+     "owner": "Sino Global Capital",
+     "snippet": "the contact email for Sino Global Capital is info@sinoglobalcapital.com.",
+     "url": "https://www.sinoglobalcapital.com/contact-us/"
+    }
+   ],
+   "note": "General inbox from the firm's Contact Us page."
+  },
+  {
+   "name": "Lemniscap",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@lemniscap.com",
+     "kind": "机构通用",
+     "owner": "Lemniscap",
+     "snippet": "Lemniscap's contact email is info@lemniscap.com.",
+     "url": "https://careers.lemniscap.com/"
+    }
+   ],
+   "note": "Domain-restricted search; results were the firm's own careers subdomain (careers.lemniscap.com). The exact page carrying the address was not identified in the summary."
+  },
+  {
+   "name": "Collab+Currency",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@collabcurrency.com",
+     "kind": "机构通用",
+     "owner": "Collab+Currency",
+     "snippet": "Contact Email: info@collabcurrency.com",
+     "url": "https://www.collabcurrency.com/contact/"
+    }
+   ],
+   "note": "General inbox; result set included the firm's Contact page."
+  },
+  {
+   "name": "Fenbushi Capital US",
+   "searched": true,
+   "emails": [
+    {
+     "email": "projects@fenbushi.vc",
+     "kind": "机构通用",
+     "owner": "Fenbushi Capital",
+     "snippet": "Fenbushi Capital's contact email is projects@fenbushi.vc.",
+     "url": "https://fenbushi.vc/"
+    }
+   ],
+   "note": "Shown as the firm's contact email; the 'projects@' name suggests project submissions but the result gave no explicit label."
+  },
+  {
+   "name": "Chapter One",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hi@chapterone.com",
+     "kind": "机构通用",
+     "owner": "Chapter One",
+     "snippet": "The primary email to contact Chapter One is hi@chapterone.com",
+     "url": "https://chapterone.com/contact"
+    }
+   ],
+   "note": "ir@chapterone.com also listed (skipped: investor relations). GP is Jeff Morris Jr.; no personal address shown."
+  },
+  {
+   "name": "Accomplice",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@accomplice.co",
+     "kind": "机构通用",
+     "owner": "Accomplice",
+     "snippet": "General Contact Email: hello@accomplice.co",
+     "url": "https://accomplice.co/"
+    }
+   ],
+   "note": "Firm says it prefers warm introductions or personalized notes over cold outreach."
+  },
+  {
+   "name": "Distributed Global",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@distributedglobal.com",
+     "kind": "机构通用",
+     "owner": "Distributed Global",
+     "snippet": "their contact email is info@distributedglobal.com",
+     "url": "https://distributedglobal.com/"
+    }
+   ],
+   "note": "General inbox from the firm's homepage."
+  },
+  {
+   "name": "6th Man Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "join@6thman.ventures",
+     "kind": "机构通用",
+     "owner": "6th Man Ventures",
+     "snippet": "Contact email: join@6thman.ventures",
+     "url": "https://6thman.ventures/"
+    }
+   ],
+   "note": "Search summary placed it under 'For Pitches/Inquiries', but the address name ('join@') may also be used for hiring. The exact on-site label was not shown."
+  },
+  {
+   "name": "Road Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Domain-restricted search (road.capital) returned no results. Not retried (budget)."
+  },
+  {
+   "name": "Shima Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only the homepage and jobs-board pages were returned; no address shown."
+  },
+  {
+   "name": "Mirana Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@mirana.tech",
+     "kind": "机构通用",
+     "owner": "Mirana Ventures",
+     "snippet": "Mirana Ventures' contact email is contact@mirana.tech.",
+     "url": "https://www.mirana.xyz/"
+    }
+   ],
+   "note": "Shown via a domain-restricted search on mirana.xyz (the address uses mirana.tech). The results included the Terms and Privacy pages, so this may be a legal/privacy contact rather than a pitch inbox. The exact page was not identified."
+  },
+  {
+   "name": "Portal Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "The site mentions reaching them by email or Urbit handle, but no address was shown in the result."
+  },
+  {
+   "name": "Superscrypt",
+   "searched": true,
+   "emails": [],
+   "note": "No address shown (only a placeholder phone number)."
+  },
+  {
+   "name": "Tribe Capital Crypto",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@tribecap.co",
+     "kind": "机构通用",
+     "owner": "Tribe Capital",
+     "snippet": "The contact email for Tribe Capital is hello@tribecap.co.",
+     "url": "https://tribecap.co/"
+    }
+   ],
+   "note": "Shown via a domain-restricted search on tribecap.co, whose results included crypto.tribecap.co. The exact page was not identified."
+  },
+  {
+   "name": "Eden Block",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@edenblock.com",
+     "kind": "机构通用",
+     "owner": "Eden Block",
+     "snippet": "Eden Block's contact email is info@edenblock.com.",
+     "url": "https://www.edenblock.com/contact-us"
+    }
+   ],
+   "note": "The firm also has a funding page at edenblock.com/funding."
+  },
+  {
+   "name": "Borderless Capital",
+   "searched": true,
+   "emails": [],
+   "note": "borderless.capital in the input appears to be a different organization (a health/longevity investment initiative of Borderless Healthcare Group), not the crypto VC. It only shows a registration form. The input domain is likely wrong."
+  },
+  {
+   "name": "Morningstar Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "No address shown; results were the homepage, blog and community platform."
+  },
+  {
+   "name": "Avalanche Foundation / Blizzard Fund",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Solana Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only the homepage was returned; no address shown."
+  },
+  {
+   "name": "Polygon Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Near Foundation",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Aptos Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Sui Foundation",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Ethereum Foundation (grants)",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Protocol Labs (PL Ventures)",
+   "searched": true,
+   "emails": [],
+   "note": "Only research@protocol.ai (PL Research), rfp@protocol.ai (research RFP grants) and legalrequests@ were shown. None is a venture pitch inbox, so none was recorded. No PL Ventures-specific address was found."
+  },
+  {
+   "name": "Cyber Fund",
+   "searched": true,
+   "emails": [
+    {
+     "email": "m@cyber.fund",
+     "kind": "机构通用",
+     "owner": "cyber.Fund",
+     "snippet": "cyber.Fund's general contact email is m@cyber.fund.",
+     "url": "http://company.cyber.fund/"
+    },
+    {
+     "email": "info@cyber.fund",
+     "kind": "机构通用",
+     "owner": "cyber.Fund",
+     "snippet": "General Inquiries & Complaints: You can contact them via email at info@cyber.fund",
+     "url": "https://cyber.fund/terms"
+    }
+   ],
+   "note": "Decentralized-AI founders are directed to the form at https://cyber.fund/contact. legal@ was skipped. The page for m@ is inferred from the result set (company.cyber.fund), and info@ likely comes from the Terms page."
+  },
+  {
+   "name": "A Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only the homepage, team and portfolio pages were returned; no address shown."
+  },
+  {
+   "name": "Gumi Cryptos Capital",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@gumi-cryptos.com",
+     "kind": "机构通用",
+     "owner": "gumi Cryptos Capital",
+     "snippet": "gumi Cryptos Capital's contact email is info@gumi-cryptos.com.",
+     "url": "https://www.gumi-cryptos.com/"
+    }
+   ],
+   "note": "The exact page was not identified, and the result set included the Privacy Policy. Funding goes through an application process described at https://blog.gumi-cryptos.com/vc/getting-funded-by-gumi-cryptos."
+  },
+  {
+   "name": "L1 Digital",
+   "searched": true,
+   "emails": [],
+   "note": "Domain-restricted search (l1d.ch) returned no results."
+  },
+  {
+   "name": "Crypto.com Capital",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Republic Crypto",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search budget exhausted; foundations/large corporates deprioritized as they typically use application forms rather than pitch inboxes."
+  },
+  {
+   "name": "Tioga Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Pitch decks go through the contact form at https://tioga.capital/contact/. No address was shown."
+  },
+  {
+   "name": "Sholto Douglas",
+   "searched": true,
+   "emails": [],
+   "note": "No published address found; results were unrelated namesakes and generic Anthropic support pages."
+  },
+  {
+   "name": "224 Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only privateequitylist (aggregator) profile; new fund (Aug 2026, Shaun Johnson; Yann LeCun and Oriol Vinyals as partners). No official address in results."
+  },
+  {
+   "name": "Aaron Levie",
+   "searched": true,
+   "emails": [],
+   "note": "Results only about his own 2005 cold email to Mark Cuban; no published address for him."
+  },
+  {
+   "name": "Activate",
+   "searched": true,
+   "emails": [],
+   "note": "Activate (Aakrit Vaish / Pratyush Choudhury, India AI fund). Pitching is via the submission form at letsactivate.ai; no email shown."
+  },
+  {
+   "name": "Alt Capital",
+   "searched": true,
+   "emails": [],
+   "note": "No pitch address in results (only Jack Altman's blog post and aggregator profiles). Dealroom news says Jack Altman joined Benchmark after raising $275M for Alt Capital; check this before outreach."
+  },
+  {
+   "name": "AltaIR Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Summary showed ri@altair.vc, but it came from aggregator pages (openvc/roundfunded/superscout), not altair.vc, so it is not recorded. Results say pitching is through the deck form on altair.vc."
+  },
+  {
+   "name": "AMD Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Official amd.com/en/ventures has a Contact section; no email in results. Other hits were email-format/broker pages, which were ignored."
+  },
+  {
+   "name": "AME Cloud Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only broker/aggregator pages (LeadIQ, Kando) with redacted personal addresses; no official address."
+  },
+  {
+   "name": "Amjad Masad",
+   "searched": true,
+   "emails": [],
+   "note": "Only aggregator profiles (Round Funded, Signal, CB Insights); no self-published address."
+  },
+  {
+   "name": "Andrej Karpathy",
+   "searched": true,
+   "emails": [],
+   "note": "karpathy.ai is his site, but no address showed in results. A summary says he prefers X or email; the only email-bearing hit was a broker (finalscout), which was ignored."
+  },
+  {
+   "name": "Anorak Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Greg Castle; only conference/aggregator pages, no address."
+  },
+  {
+   "name": "Antigravity Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Daniel Ha and Gadi Borovich; no contact email in results (aggregators only)."
+  },
+  {
+   "name": "Aravind Srinivas",
+   "searched": true,
+   "emails": [],
+   "note": "No published address; results were press coverage and aggregator profiles."
+  },
+  {
+   "name": "Array Ventures (Array.VC)",
+   "searched": true,
+   "emails": [
+    {
+     "email": "arraydeals@array.vc",
+     "kind": "机构投递",
+     "owner": "Array Ventures (Shruti Gandhi)",
+     "snippet": "Founders can email arraydeals@array.vc if they know anyone starting a company and looking for $1.5-2M checks.",
+     "url": "https://shrutigandhi.substack.com/p/array-vc-exciting-reads-industry"
+    }
+   ],
+   "note": "Address appears in GP Shruti Gandhi's own Array VC newsletter on shrutigandhi.substack.com, in several posts (also /p/array-vc-exciting-reads-investments). It took a second, exact-address search to confirm the source."
+  },
+  {
+   "name": "Artis Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Site is av.co (submit through the website). The general email was redacted and came from ContactOut, a broker, so it is not recorded."
+  },
+  {
+   "name": "Assaf Rappaport",
+   "searched": true,
+   "emails": [],
+   "note": "Only paywalled aggregator profiles (AngelBacked, Round Funded); no self-published address."
+  },
+  {
+   "name": "B Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only email-format and aggregator pages (Clay, openvc); a pattern guess is not allowed, so nothing recorded."
+  },
+  {
+   "name": "BAG Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Only email-format and broker pages (bagvc.com patterns); nothing recorded."
+  },
+  {
+   "name": "Base10 Advancement Initiative",
+   "searched": true,
+   "emails": [],
+   "note": "Summary showed purpose@base10.vc plus partner addresses (ade@, tj@), but they came from aggregators (superscout/privateequitylist/shizune/bitscale), not base10.vc, so they are not recorded and still need checking on base10.vc."
+  },
+  {
+   "name": "Basecase Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Alana Goyal (Base Case Capital); aggregators only, no address."
+  },
+  {
+   "name": "Batch Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Robin Choy (founded 2024); no contact email in results."
+  },
+  {
+   "name": "Bee Partners",
+   "searched": true,
+   "emails": [],
+   "note": "Only openvc deck-submission guidance (login needed); no email."
+  },
+  {
+   "name": "BGV (Benhamou Global Ventures)",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@bgv.com",
+     "kind": "机构通用",
+     "owner": "Benhamou Global Ventures (BGV)",
+     "snippet": "hello@bgv.com is the contact email for Benhamou Global Ventures, located at 1600 El Camino Real, Suite 280, Menlo Park, CA 94025.",
+     "url": "https://benhamouglobalventures.com/team_member_type/advisory-operating-partner"
+    }
+   ],
+   "note": "First search showed hello@bgv.com without a clear source. A second, exact-address search showed it on official benhamouglobalventures.com pages (also /?p=11051, /?p=11058). General inbox, not labelled pitch-only."
+  },
+  {
+   "name": "Bling Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Ben Ling; email was redacted and only from aggregators (Round Funded); nothing recorded."
+  },
+  {
+   "name": "Blumberg Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Results showed pitchnight@blumbergcapital.com, but it was for a 2014 pitch-night event and came from a third-party page (newventuresbc.com), so it is not recorded."
+  },
+  {
+   "name": "BNY",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: large bank or strategic investor with no startup pitch inbox; deprioritised under the 35-search cap."
+  },
+  {
+   "name": "Breakpoint Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only phone and address (4115 Lomita Lane, Dallas) from filing aggregators; no email."
+  },
+  {
+   "name": "Browder Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Joshua Browder solo-GP fund; no published pitch address in results."
+  },
+  {
+   "name": "Bullpen Capital",
+   "searched": true,
+   "emails": [],
+   "note": "Only aggregator and broker pages (ContactOut, prospeo); no official address."
+  },
+  {
+   "name": "BY Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Could not identify the firm; results were generic."
+  },
+  {
+   "name": "Calibrate Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Site is calibratevc.com; no email in results (aggregators only)."
+  },
+  {
+   "name": "Cambridge Capital Group",
+   "searched": true,
+   "emails": [],
+   "note": "A Cambridge Network item showed a Directors address (redacted) for investors who want to join the network. It is not a founder pitch inbox, so nothing recorded. Site: cambridgecapitalgroup.co.uk."
+  },
+  {
+   "name": "Canaan Partners",
+   "searched": true,
+   "emails": [],
+   "note": "Summary showed hello@canaan.com, but it came from aggregators (superscout/openvc/firstbase), not canaan.com, so it is not recorded and needs checking."
+  },
+  {
+   "name": "Cervin Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "Summary showed taylor@cervin.com, but it came from aggregators (vcsheet/angelbacked), not cervin.com, so it is not recorded."
+  },
+  {
+   "name": "Chan Zuckerberg Initiative",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Charlie Songhurst",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Cherry Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Cherubic Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Chris Manning",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Chris Re",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Cisco Investments",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Clear Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Cleo Ventures",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Coatue",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "CoinFund",
+   "searched": false,
+   "emails": [],
+   "note": "Not searched: 35-search cap reached."
+  },
+  {
+   "name": "Compound",
+   "searched": true,
+   "emails": [],
+   "note": "官网（compound.vc）结果里主联系邮箱显示为 [email protected]（被遮蔽）；聚合站（OpenVC/pitchwise/privateequitylist）称 info@compound.vc，但未见官方来源，按规则不记录。compound.vc/grants 上有 grants@compound.vc，仅用于 Compound Reverie 科研资助项目，不是融资投递邮箱，未记录。用了2次搜索。"
+  },
+  {
+   "name": "Concept Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "用了2次搜索（含限定 concept.vc 域名），未找到官方公开邮箱；聚合站说通过官网提交。"
+  },
+  {
+   "name": "Conception X",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@conceptionx.org",
+     "kind": "机构通用",
+     "owner": "Conception X",
+     "snippet": "To contact Conception X, you can email info@conceptionx.org.",
+     "url": "https://www.conceptionx.org/contact"
+    },
+    {
+     "email": "hello@conceptionx.org",
+     "kind": "机构通用",
+     "owner": "Conception X",
+     "snippet": "Alternatively, you can reach them at The XCHG, 22 Bishopsgate, London, EC2N 4AJ, or email hello@conceptionx.org.",
+     "url": "https://www.conceptionx.org/contact"
+    }
+   ],
+   "note": "这是面向 PhD 创始人的创业项目（Venture Scientist 100），不是传统 VC。第一次搜索没命中，第二次限定官网域名后找到。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Contrary",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱。结果里只有 prospeo 的“email format”页面（推测格式），按规则忽略。"
+  },
+  {
+   "name": "Cooley",
+   "searched": false,
+   "emails": [],
+   "note": "律师事务所，不是投资方；为节省搜索次数没有搜。"
+  },
+  {
+   "name": "Coral Capital",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱（结果多为聚合站）。"
+  },
+  {
+   "name": "Cosmos Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱；只有 privateequitylist（聚合站，邮箱被遮蔽）。名称有歧义（有一家在 Austin 的 Cosmos Ventures）。"
+  },
+  {
+   "name": "Counterpart Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱。"
+  },
+  {
+   "name": "Counterview Capital",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱；官网似乎是 counterview.vc。"
+  },
+  {
+   "name": "Cowboy Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@cowboy.vc",
+     "kind": "机构投递",
+     "owner": "Cowboy Ventures",
+     "snippet": "To pitch Cowboy Ventures, you can email Hello@Cowboy.vc. They review and try to respond to every cold inbound.",
+     "url": "https://www.cowboy.vc/how-we-work"
+    }
+   ],
+   "note": "搜索限定在 cowboy.vc 官网。摘要没有指明具体页面，URL 是最可能的那页（how-we-work）。按规则跳过了媒体邮箱 inquiries@cowboy.vc。caroline@ 只用于医疗健康项目。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Craft Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "官网结果里没有投递邮箱（只看到一个被遮蔽的招聘板邮箱）。"
+  },
+  {
+   "name": "Crosslink Capital",
+   "searched": true,
+   "emails": [],
+   "note": "官网联系页只列出 ir@crosslinkcapital.com，属于 IR/投资者关系邮箱，按规则跳过。"
+  },
+  {
+   "name": "CRV",
+   "searched": true,
+   "emails": [],
+   "note": "官网结果里没有投递邮箱（只有办公室电话）；CRV 建议找人引荐。"
+  },
+  {
+   "name": "Databricks Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "官网结果里只有 startupchallenge@databricks.com，用于 Databricks 创业大赛（Generative AI / Built-On 赛事），不是 Databricks Ventures 的融资投递邮箱，未记录。"
+  },
+  {
+   "name": "Day One Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱（结果里的 contactout 是数据商，已忽略）。"
+  },
+  {
+   "name": "DCBuilder (Worldcoin, angel)",
+   "searched": true,
+   "emails": [],
+   "note": "未找到本人公开发布的邮箱（结果只有数据库/聚合站）。"
+  },
+  {
+   "name": "DCVC (Data Collective)",
+   "searched": true,
+   "emails": [],
+   "note": "官网只有 press@dcvc.com（媒体邮箱，已跳过）。"
+  },
+  {
+   "name": "Deepwater Asset Management",
+   "searched": true,
+   "emails": [],
+   "note": "官网结果里没有邮箱（只有电话 612-865-0578）。"
+  },
+  {
+   "name": "DFF Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱（结果多为 vcsheet/privateequitylist）。"
+  },
+  {
+   "name": "Distributed Global",
+   "searched": false,
+   "emails": [],
+   "note": "受搜索次数上限限制，没有搜（排序靠后，信息不足）。"
+  },
+  {
+   "name": "DNX Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "官网有一个 form_20-2_21-3_request@dnx.vc，用途标注为“信息索取”（看起来是法定文件索取用，不是投递邮箱），未记录。融资中的初创公司应使用官网表单：dnx.vc/usfund/contact。"
+  },
+  {
+   "name": "Dream Ventures VC",
+   "searched": false,
+   "emails": [],
+   "note": "受搜索次数上限限制，没有搜（唯一已知的“域名”是 linkedin.com）。"
+  },
+  {
+   "name": "DST Global",
+   "searched": true,
+   "emails": [
+    {
+     "email": "info@dst-global.com",
+     "kind": "机构通用",
+     "owner": "DST Global",
+     "snippet": "For inquiries please contact: info@dst-global.com",
+     "url": "https://dst-global.com/"
+    }
+   ],
+   "note": "和 Eight Capital 合并在一次搜索里（同时限定两个官网域名）。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Duke Angel Network (Duke Capital Partners)",
+   "searched": true,
+   "emails": [
+    {
+     "email": "dukecapitalpartners@duke.edu",
+     "kind": "机构通用",
+     "owner": "Duke Capital Partners",
+     "snippet": "Email Address: dukecapitalpartners@duke.edu",
+     "url": "https://dukecapitalpartners.duke.edu/contact/"
+    }
+   ],
+   "note": "Duke Angel Network 现已更名为 Duke Capital Partners。旧邮箱 dukeangelnetwork@duke.edu（在 dukeangelnetwork.duke.edu/contact）已是旧址，未记录。只投资与杜克大学有关联的初创公司。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Dynamic",
+   "searched": false,
+   "emails": [],
+   "note": "受搜索次数上限限制，没有搜（名称太模糊，没有域名）。"
+  },
+  {
+   "name": "Earlybird Venture Capital",
+   "searched": true,
+   "emails": [],
+   "note": "这次搜索同时限定了 earlybird.com、elaia.com、eqtventures.com；摘要没有指明具体页面，最可能是 contact-us。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "East Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "官网只给出 media@east.vc（媒体邮箱，已跳过）。投递请用 east.vc/contact-us 的表单（可上传 pitch deck）。"
+  },
+  {
+   "name": "Eclipse",
+   "searched": true,
+   "emails": [
+    {
+     "email": "admin@eclipse.vc",
+     "kind": "机构通用",
+     "owner": "Eclipse",
+     "snippet": "general email admin@eclipse.vc",
+     "url": "https://eclipse.vc/"
+    },
+    {
+     "email": "seth@eclipse.vc",
+     "kind": "个人公开",
+     "owner": "Seth（Eclipse 合伙人，交通方向）",
+     "snippet": "If you're building in the transportation space or want to discuss an idea, you can reach out to Seth at seth@eclipse.vc.",
+     "url": "https://eclipse.vc/blog/investing-in-technology-for-a-new-era-of-transit/"
+    }
+   ],
+   "note": "搜索限定在 eclipse.vc 官网。admin@ 的具体页面在摘要中没有标明（可能是网站页脚）。kaitlyn@eclipse.vc 出现在一篇关于招聘企业销售负责人的博客里，不是投递邮箱，未记录。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Eight Capital Management",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@eightcapital.com",
+     "kind": "机构通用",
+     "owner": "Eight Capital",
+     "snippet": "hello@eightcapital.com",
+     "url": "https://www.eightcapital.com/investors"
+    }
+   ],
+   "note": "和 DST Global 合并搜索。同一处还有 ir@eightcapital.com（用于获取 deck 和数据室，面向 LP），已跳过。hello@ 是在面向 LP 的页面上找到的，作为通用邮箱使用。这个网站的业务是在 Demo Day 前投资 YC 种子轮。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Elaia",
+   "searched": true,
+   "emails": [],
+   "note": "官网结果里只有 investor@elaia.com（标注为面向投资者/LP）和 press@elaia.com（媒体），均按规则跳过。联系页：elaia.com/contact。"
+  },
+  {
+   "name": "Emad Mostaque",
+   "searched": true,
+   "emails": [],
+   "note": "有一条摘要给出 emad@stability.ai，但来源不是他本人或官方页面（维基百科/无关网站），而且他已在2024年3月离开 Stability AI，未记录。"
+  },
+  {
+   "name": "Emerson Collective",
+   "searched": true,
+   "emails": [],
+   "note": "做过一次合并搜索（限定 emersoncollective.com/engineeringcapital.com/ensemble.vc），没有找到 Emerson 的邮箱。"
+  },
+  {
+   "name": "Engineering Capital",
+   "searched": true,
+   "emails": [],
+   "note": "官网说最好的联系方式是共同熟人引荐，没有公开邮箱。"
+  },
+  {
+   "name": "Ensemble VC",
+   "searched": true,
+   "emails": [],
+   "note": "注意：Ensemble 的联系页写明，通用联系表单不是提交项目的地方。rooney@ 是幕僚长的邮箱，不是投递邮箱，请谨慎使用。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Entrepreneur First",
+   "searched": true,
+   "emails": [],
+   "note": "官网（joinef.com）结果里的邮箱都被遮蔽成 [email protected]（申请支持/隐私），无法记录；通过 apply.joinef.com 申请。"
+  },
+  {
+   "name": "Entrepreneur First (EF) San Francisco",
+   "searched": true,
+   "emails": [],
+   "note": "和 Entrepreneur First 共用同一次搜索，没有可记录的邮箱。"
+  },
+  {
+   "name": "EQT Ventures",
+   "searched": true,
+   "emails": [
+    {
+     "email": "hello@eqtventures.com",
+     "kind": "机构通用",
+     "owner": "EQT Ventures",
+     "snippet": "EQT Ventures, which partners with founders building Generation-Defining Companies, can be reached at hello@eqtventures.com.",
+     "url": "https://stories.eqtventures.com/"
+    }
+   ],
+   "note": "来自合并搜索（限定 elaia.com/eqtventures.com/fifty.vc/every.to）。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Erik Voorhees",
+   "searched": true,
+   "emails": [],
+   "note": "未找到本人公开发布的邮箱。"
+  },
+  {
+   "name": "Every",
+   "searched": true,
+   "emails": [],
+   "note": "做过一次合并搜索（限定 every.to），没有找到联系邮箱。"
+  },
+  {
+   "name": "Factorial Capital",
+   "searched": false,
+   "emails": [],
+   "note": "没有单独搜。可能和 Factorial Funds 是同一家，但未核实，所以没有套用 contact@factorialfunds.com。"
+  },
+  {
+   "name": "Factorial Funds",
+   "searched": true,
+   "emails": [
+    {
+     "email": "contact@factorialfunds.com",
+     "kind": "机构通用",
+     "owner": "Factorial Funds",
+     "snippet": "Factorial Funds' contact email is contact@factorialfunds.com",
+     "url": "https://www.factorialfunds.com/"
+    }
+   ],
+   "note": "搜索限定在 factorialfunds.com 官网；摘要没有指明具体页面（可能是首页/页脚）。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Factory",
+   "searched": false,
+   "emails": [],
+   "note": "受搜索次数上限限制，没有搜（名称太模糊，没有域名）。"
+  },
+  {
+   "name": "Fifty Years",
+   "searched": true,
+   "emails": [],
+   "note": "未找到官方公开邮箱（结果里只有 anymailfinder 的推测格式）；合并搜索里也没有 fifty.vc 的结果。"
+  },
+  {
+   "name": "Finian Tan",
+   "searched": true,
+   "emails": [
+    {
+     "email": "admin@vickersventure.com",
+     "kind": "机构通用",
+     "owner": "Vickers Venture Partners（Finian Tan 的机构）",
+     "snippet": "Contact Email: admin@vickersventure.com",
+     "url": "https://www.vickersventure.com/contact"
+    }
+   ],
+   "note": "这是 Vickers 官网上的机构邮箱，不是 Finian Tan 的个人邮箱。Vickers 提醒：只有 vickersventure.com 是官方渠道。（snippet 为 WebSearch 结果摘要原文，网页本身无法打开核对）"
+  },
+  {
+   "name": "Firestreak Ventures",
+   "searched": true,
+   "emails": [],
+   "note": "有一条摘要说“通过 firestreak.com 的表单提交，或把 deck 发到 walter@kortschak.com”，但结果里只有聚合站（PEI、CB Insights、superscout、dealroom 等），没有官方页面，未记录。"
+  }
+ ],
+ "dropped": {
+  "caroline@cowboy.vc": "只管医疗方向",
+  "rooney@ensemble.vc": "幕僚长，官网说联系表单不收 BP",
+  "info@earlybird.com": "摘要没说明是 Earlybird 自己的地址"
+ }
+}
