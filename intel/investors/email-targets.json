@@ -1,0 +1,8527 @@
+[
+{
+"name": "01 Advisors (01A)",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "01a.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "776",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "8VC",
+"kind": "VC",
+"region": "美国（Austin (HQ) / San Francisco office）",
+"domain": "8vc.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "A* (A-Star)",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "a-star.co",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Abstract Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Accel",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "accel.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Acrew Capital",
+"kind": "VC",
+"region": "美国（San Francisco / Palo Alto）",
+"domain": "acrewcapital.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Adam D'Angelo",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Adam French",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "houghtonstreet.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Addition",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "AI Grant",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "aigrant.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Air Street Capital",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "airstreet.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": [
+"nathan@airstreet.com"
+]
+},
+{
+"name": "AIX Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / Palo Alto）",
+"domain": "aixventures.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Alex Atallah",
+"kind": "天使",
+"region": "US (未核实具体城市)",
+"domain": "openrouter.ai",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Altos Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "altos.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Amplify Partners",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "amplifypartners.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Andreessen Horowitz (a16z)",
+"kind": "VC",
+"region": "美国（Menlo Park（另有 San Francisco 办公室））",
+"domain": "a16z.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Antler Singapore",
+"kind": "加速器",
+"region": "海外（新加坡）",
+"domain": "antler.co",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Bain Capital Ventures (BCV)",
+"kind": "VC",
+"region": "美国（San Francisco / Palo Alto（总部 Boston））",
+"domain": "baincapitalventures.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Balaji Srinivasan",
+"kind": "天使",
+"region": "Network School（东南亚）/ Singapore，具体城市未核实",
+"domain": "balajis.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Basis Set Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Benchmark",
+"kind": "VC",
+"region": "美国（San Francisco（Woodside 起家））",
+"domain": "benchmark.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Bessemer Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park（湾区主要投资办公室））",
+"domain": "bvp.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Bezos Expeditions",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "BoxGroup",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "boxgroup.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Brendan Foody",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "mercor.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Chemistry",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "chemistry.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Chris Mairs",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "chu.cam.ac.uk",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Conviction",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "conviction.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"embed@conviction.com",
+"sarah@conviction.com"
+]
+},
+{
+"name": "Cory Levy",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "zfellows.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Datadog",
+"kind": "战略投资",
+"region": "海外（美国）",
+"domain": "datadoghq.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Deb Liu",
+"kind": "Duke校友",
+"region": "US（城市未核实）",
+"domain": "",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Decibel",
+"kind": "VC",
+"region": "美国（San Francisco (另有 Boston 办公室)）",
+"domain": "decibel.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Dell Technologies Capital",
+"kind": "CVC",
+"region": "美国（Palo Alto）",
+"domain": "delltechnologiescapital.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"delltechcapital@dell.com"
+]
+},
+{
+"name": "Deviation Capital（原 Two Sigma Ventures）",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "deviation.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Dheeraj Pandey",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "devrev.ai",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "DRW Venture Capital",
+"kind": "VC",
+"region": "海外（美国，芝加哥）",
+"domain": "drw.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Duke Capital Partners (formerly Duke Angel Network)",
+"kind": "Duke校友",
+"region": "Durham, NC（会员遍布全美，含硅谷）",
+"domain": "dukecapitalpartners.duke.edu",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Duke Innovation Fund",
+"kind": "Duke校友",
+"region": "Durham, NC",
+"domain": "",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Dwarkesh Patel",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "dwarkesh.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Dylan Patel",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "semianalysis.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Edward Lando",
+"kind": "天使",
+"region": "US",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Elad Gil",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "blog.eladgil.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Emergence Capital",
+"kind": "VC",
+"region": "美国（San Francisco / San Mateo）",
+"domain": "emcap.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Eniac Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / New York）",
+"domain": "eniac.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"pitch@eniac.vc"
+]
+},
+{
+"name": "Episode 1 Ventures",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "episode1.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Erik Bernhardsson",
+"kind": "天使",
+"region": "New York, US",
+"domain": "erikbern.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Essence VC",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Exceptional Capital",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "exceptionalcap.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Felicis",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "felicis.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Fellows Fund",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Foundation Capital",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "foundationcap.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Founders Fund",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "foundersfund.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "FPV Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "fpvventures.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Fusion Fund",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "fusionfund.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"info@fusionfund.com"
+]
+},
+{
+"name": "General Catalyst",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park (总部 Cambridge, MA)）",
+"domain": "generalcatalyst.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"seed@generalcatalyst.com"
+]
+},
+{
+"name": "Gobi Partners GBA (Alibaba Entrepreneurs Fund GP)",
+"kind": "VC",
+"region": "海外（香港）",
+"domain": "gobi.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Gokul Rajaram",
+"kind": "天使",
+"region": "San Francisco Bay Area, US",
+"domain": "gokulrajaram.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Golden Gate Ventures",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "goldengate.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Gradient (formerly Gradient Ventures)",
+"kind": "VC",
+"region": "美国（Palo Alto（城市未核实））",
+"domain": "gradient.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Gradient Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "gradient.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Granite Asia",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "graniteasia.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Greenfield Partners",
+"kind": "VC",
+"region": "海外（以色列/美国）",
+"domain": "greenfield-growth.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Greylock",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "greylock.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "GV",
+"kind": "CVC",
+"region": "美国（Mountain View）",
+"domain": "gv.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Hannah Leach",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Heavybit",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "heavybit.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Hermann Hauser",
+"kind": "Cambridge校友",
+"region": "Cambridge / London, UK",
+"domain": "amadeuscapital.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "HF0",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "hf0.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "HKIC",
+"kind": "VC",
+"region": "海外（香港）",
+"domain": "hkic.org.hk",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Homebrew",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "homebrew.co",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Houghton Street Ventures",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "houghtonstreet.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "HRT Ventures",
+"kind": "战略投资",
+"region": "海外（美国）",
+"domain": "hudsonrivertrading.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": [
+"strategicvc@hudson-trading.com"
+]
+},
+{
+"name": "Ian Livingstone（Keycard CEO）",
+"kind": "天使",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "IMC Strategic Investments",
+"kind": "战略投资",
+"region": "海外（荷兰/美国）",
+"domain": "imc.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Immad Akhund",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "mercury.com",
+"prio": 1,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Index Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（与 London 双总部））",
+"domain": "indexventures.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Insight Partners",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "insightpartners.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Intel Capital",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "intelcapital.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Iterative",
+"kind": "加速器",
+"region": "海外（新加坡）",
+"domain": "iterative.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Ivan Burazin",
+"kind": "天使",
+"region": "未确认",
+"domain": "daytona.io",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Jane Street",
+"kind": "战略投资",
+"region": "海外（美国，纽约）",
+"domain": "janestreet.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Jeff Dean",
+"kind": "天使",
+"region": "Mountain View, CA, USA",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Joshua Browder",
+"kind": "天使",
+"region": "USA (British-born)",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Jump Capital",
+"kind": "VC",
+"region": "海外（美国，芝加哥）",
+"domain": "jumpcap.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Khosla Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "khoslaventures.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Kindred Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "kindredventures.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"hello@kindredventures.com"
+]
+},
+{
+"name": "Kleiner Perkins",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "kleinerperkins.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Laude Ventures",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area）",
+"domain": "laude.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"hello@laude.vc"
+]
+},
+{
+"name": "Leonis Capital",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Liam Fedus",
+"kind": "天使",
+"region": "San Francisco Bay Area, US",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Lightspeed",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "lsvp.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Lightspeed Venture Partners",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Lux Capital",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park 办公室（总部 New York））",
+"domain": "luxcapital.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"info@luxcapital.com"
+]
+},
+{
+"name": "Madrona",
+"kind": "VC",
+"region": "海外（美国，西雅图）",
+"domain": "madrona.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": [
+"vivek@madrona.com"
+]
+},
+{
+"name": "Matt Clifford",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "joinef.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Mayfield",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "mayfield.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"aistart@mayfield.com"
+]
+},
+{
+"name": "Menlo Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "menlovc.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"deedy@menlovc.com"
+]
+},
+{
+"name": "Modern Technical Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Nat Friedman & Daniel Gross（NFDG / AI Grant）",
+"kind": "天使",
+"region": "海外（美国）",
+"domain": "nfdg.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Nathan Benaich",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "airstreet.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Neo",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "neo.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "NFX",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "nfx.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Noam Brown",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "noambrown.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "NVIDIA（NVentures）",
+"kind": "战略投资",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "OpenAI Startup Fund",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "openai.fund",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Openspace Ventures",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "openspacecapital.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Patrick Collison",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "patrickcollison.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Paul Graham",
+"kind": "天使",
+"region": "England, UK",
+"domain": "paulgraham.com",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Peak XV Partners (Surge)",
+"kind": "加速器",
+"region": "海外（新加坡）",
+"domain": "surge.peakxv.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Pear VC",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "pear.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Pebblebed",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area（据已知））",
+"domain": "pebblebed.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Point72 Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "p72.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Radical Ventures",
+"kind": "VC",
+"region": "美国（Toronto（总部）/ San Francisco）",
+"domain": "radical.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Rahul Vohra",
+"kind": "Cambridge校友",
+"region": "San Francisco, US",
+"domain": "superhuman.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Redpoint",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "redpoint.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Root Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "root.vc",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "S32",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "s32.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Samsung NEXT",
+"kind": "CVC",
+"region": "美国（Mountain View / San Francisco（未核实））",
+"domain": "samsungnext.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Saul Klein",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "localglobe.vc",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Scribble Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "scribble.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Sequoia Capital",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "sequoiacap.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Sholto Douglas",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Siraj Khaliq",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "atomico.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Sky9 Capital",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "sky9capital.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "South Park Commons",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "southparkcommons.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Spiros Xanthos",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "resolve.ai",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Standard Capital",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "standardcap.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Suranga Chandratillake",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "balderton.com",
+"prio": 1,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Susa Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Susquehanna International Group (SIG)",
+"kind": "战略投资",
+"region": "海外（美国，费城）",
+"domain": "sig.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "SV Angel",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "svangel.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Tau Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "The House Fund",
+"kind": "VC",
+"region": "美国（Berkeley）",
+"domain": "thehousefund.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": [
+"build@thehouse.fund"
+]
+},
+{
+"name": "The Raine Group",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "raine.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Theory Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "theory.ventures",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Thrive Capital",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "thrivecap.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Tower Research Ventures",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "tower-research.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": [
+"ventures@tower-research.com"
+]
+},
+{
+"name": "Unusual Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "unusual.vc",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Valkyrie",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "valkyrie.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Vanara Capital",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Vertex Ventures Southeast Asia & India",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "vertexventures.sg",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Wavemaker Partners",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "wavemakerpartners.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Wing VC",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "wing.vc",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": [
+"chris@wing.vc"
+]
+},
+{
+"name": "Wing Venture Capital",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "WorldQuant Ventures",
+"kind": "VC",
+"region": "海外（美国，康涅狄格）",
+"domain": "worldquantventures.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Y Combinator",
+"kind": "加速器",
+"region": "美国（San Francisco（另有Mountain View））",
+"domain": "ycombinator.com",
+"prio": 1,
+"lists": [
+"硅谷VC",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Yash Patil",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 1,
+"lists": [
+"天使名单",
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "Zero Shot Fund",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Zetta Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "zettavp.com",
+"prio": 1,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "字节跳动投资部",
+"kind": "战略投资",
+"region": "海外（香港）",
+"domain": "bytedance.com",
+"prio": 1,
+"lists": [
+"非大陆总表",
+"审批页"
+],
+"known": []
+},
+{
+"name": "11.2 Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "112capital.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "1517 Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "1517fund.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "186 Ventures",
+"kind": "VC",
+"region": "海外（美国，波士顿）",
+"domain": "186ventures.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "1984 Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "20VC",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "224 Ventures",
+"kind": "VC",
+"region": "海外（待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "468 Capital",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "468cap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "500 Global",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "A91 Partners",
+"kind": "VC",
+"region": "海外（印度，孟买）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Aaron Levie",
+"kind": "天使",
+"region": "San Francisco Bay Area, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "ACME Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Activate",
+"kind": "VC",
+"region": "海外（印度，待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Afore Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "afore.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "AI Fund",
+"kind": "其他",
+"region": "美国（Palo Alto）",
+"domain": "aifund.ai",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "AI Seed",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "aiseedfund.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Aidan Gomez",
+"kind": "天使",
+"region": "Toronto, Canada (未核实)",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Alchemist Accelerator",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "alchemistaccelerator.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Aleph",
+"kind": "VC",
+"region": "海外（以色列，特拉维夫）",
+"domain": "aleph.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Alt Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "AltaIR Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "altair.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "AMD Ventures",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "AME Cloud Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "amecloudventures.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Amino Capital",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "aminocapital.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": [
+"bp@aminocapital.com"
+]
+},
+{
+"name": "Amity Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "amity.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Amjad Masad",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "replit.com",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Andrej Karpathy",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "karpathy.ai",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Andrew Williamson",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "cic.vc",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Anorak Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Antigravity Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "antigravity.capital",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Aravind Srinivas",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Array Ventures (Array.VC)",
+"kind": "micro-VC/solo GP",
+"region": "美国（Palo Alto（据已知））",
+"domain": "array.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Arthur Hayes",
+"kind": "天使",
+"region": "Asia (未核实具体城市)",
+"domain": "maelstrom.fund",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Artis Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Assaf Rappaport",
+"kind": "天使",
+"region": "Tel Aviv, Israel / New York, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "B Capital",
+"kind": "VC",
+"region": "美国（San Francisco 办公室（总部 Los Angeles，据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Backed VC",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "backed.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "BAG Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Balderton Capital",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "balderton.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Base10 Advancement Initiative",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "base10.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Base10 Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "base10.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Basecase Capital",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Batch Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "batch.ventures",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Battery Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park（总部 Boston））",
+"domain": "battery.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Bee Partners",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Berkeley SkyDeck",
+"kind": "加速器",
+"region": "美国（Berkeley）",
+"domain": "skydeck.berkeley.edu",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BGV (Benhamou Global Ventures)",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Bling Capital",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Bloomberg Beta",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "bloombergbeta.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Blumberg Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "blumbergcapital.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BNY",
+"kind": "战略投资",
+"region": "海外（美国，纽约）",
+"domain": "bny.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Boost VC",
+"kind": "加速器",
+"region": "美国（San Mateo）",
+"domain": "boost.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Breakpoint Capital",
+"kind": "VC",
+"region": "海外（美国，达拉斯）",
+"domain": "breakpointcap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Browder Capital",
+"kind": "天使",
+"region": "海外（美国；Tracxn 记为夏洛特，创始人 Joshua Browder 常驻湾区）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Bullpen Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BY Ventures",
+"kind": "VC",
+"region": "海外（待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Caffeinated Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Calibrate Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cambridge Angels",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "cambridgeangels.com",
+"prio": 2,
+"lists": [
+"校友",
+"非大陆总表"
+],
+"known": [
+"info@cambridgeangels.net"
+]
+},
+{
+"name": "Cambridge Capital Group",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cambridge Innovation Capital (CIC)",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "cic.vc",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Canaan Partners",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "canaan.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cassie Young",
+"kind": "Duke校友",
+"region": "New York, NY",
+"domain": "primary.vc",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Cervin Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Chan Zuckerberg Initiative",
+"kind": "其他",
+"region": "海外（美国，加州雷德伍德城）",
+"domain": "chanzuckerberg.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Charlie Songhurst",
+"kind": "天使",
+"region": "London, UK (未核实)",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Cherry Ventures",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "cherry.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cherubic Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / Taipei）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Chris Manning",
+"kind": "天使",
+"region": "Stanford, US",
+"domain": "nlp.stanford.edu",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Chris Re",
+"kind": "天使",
+"region": "Stanford, US",
+"domain": "cs.stanford.edu",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cisco Investments",
+"kind": "CVC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Clear Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Clem Delangue",
+"kind": "天使",
+"region": "USA（城市未确认）",
+"domain": "huggingface.co",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cleo Ventures",
+"kind": "VC",
+"region": "海外（法国，巴黎）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Coatue",
+"kind": "成长期基金",
+"region": "美国（Menlo Park（总部 New York））",
+"domain": "coatue.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "CoinFund",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Collab+Currency",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "collabcurrency.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Compound",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "compound.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Concept Ventures",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "concept.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Conception X",
+"kind": "加速器",
+"region": "海外（英国，伦敦）",
+"domain": "conceptionx.org",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Contrary",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "contrary.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cooley",
+"kind": "其他",
+"region": "海外（美国，帕洛阿尔托）",
+"domain": "cooley.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Coral Capital",
+"kind": "VC",
+"region": "海外（日本，东京）",
+"domain": "coralcap.co",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cosmos Ventures",
+"kind": "VC",
+"region": "海外（美国）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Costanoa Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "costanoa.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Counterpart Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "counterpart.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Counterview Capital",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Cowboy Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "cowboy.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Craft Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "craftventures.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Creandum",
+"kind": "VC",
+"region": "海外（瑞典，斯德哥尔摩）",
+"domain": "creandum.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Crosslink Capital",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park）",
+"domain": "crosslinkcapital.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "CRV",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "crv.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Daniel Gross",
+"kind": "天使",
+"region": "海外（美国，湾区）",
+"domain": "dcgross.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Databricks Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "databricks.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "David Hornik",
+"kind": "Cambridge校友",
+"region": "Silicon Valley (SF Bay Area), US",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Day One Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "DCBuilder (Worldcoin, angel)",
+"kind": "天使",
+"region": "海外（具体所在地未核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "DCM Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "dcm.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "DCVC (Data Collective)",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "dcvc.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Deepwater Asset Management",
+"kind": "VC",
+"region": "海外（美国，明尼阿波利斯）",
+"domain": "deepwatermgmt.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Defy.vc",
+"kind": "VC",
+"region": "美国（Woodside）",
+"domain": "defy.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "DFF Ventures",
+"kind": "VC",
+"region": "海外（欧洲，荷兰，待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Distributed Global",
+"kind": "VC",
+"region": "海外（未确认）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "DNX Ventures",
+"kind": "VC",
+"region": "美国（San Mateo）",
+"domain": "dnx.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dorm Room Fund",
+"kind": "加速器",
+"region": "美国（San Francisco (First Round 旗下，学生运营)）",
+"domain": "dormroomfund.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Draper Associates",
+"kind": "VC",
+"region": "美国（San Mateo）",
+"domain": "draper.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dream Ventures VC",
+"kind": "VC",
+"region": "海外（美国，拉斯维加斯）",
+"domain": "linkedin.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "DST Global",
+"kind": "VC",
+"region": "海外（全球，多地办公）",
+"domain": "dst-global.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Duke Angel Network (Duke Capital Partners)",
+"kind": "天使网络",
+"region": "美国（北卡罗来纳州 Durham；对公司所在地的要求未确认）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Dynamic",
+"kind": "其他",
+"region": "海外（美国，未核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Earlybird Venture Capital",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "earlybird.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "East Ventures",
+"kind": "VC",
+"region": "海外（新加坡/印尼）",
+"domain": "east.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Eclipse",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "eclipse.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Eight Capital Management",
+"kind": "VC",
+"region": "海外（美国，康涅狄格州诺沃克）",
+"domain": "eightcapital.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Elaia",
+"kind": "VC",
+"region": "海外（法国，巴黎）",
+"domain": "elaia.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Emad Mostaque",
+"kind": "天使",
+"region": "London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Emerson Collective",
+"kind": "其他",
+"region": "美国（Palo Alto）",
+"domain": "emersoncollective.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Engineering Capital",
+"kind": "VC",
+"region": "海外（美国，硅谷）",
+"domain": "engineeringcapital.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Ensemble VC",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "ensemble.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Entrepreneur First",
+"kind": "加速器",
+"region": "海外（英国，伦敦）",
+"domain": "joinef.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Entrepreneur First (EF) San Francisco",
+"kind": "加速器",
+"region": "美国（San Francisco (总部 London)）",
+"domain": "joinef.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "EQT Ventures",
+"kind": "VC",
+"region": "海外（瑞典，斯德哥尔摩）",
+"domain": "eqtventures.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Erik Voorhees",
+"kind": "天使",
+"region": "US",
+"domain": "venice.ai",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Every",
+"kind": "其他",
+"region": "海外（美国，纽约）",
+"domain": "every.to",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Factorial Capital",
+"kind": "VC",
+"region": "海外（美国，纽约布鲁克林）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Factorial Funds",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "factorialfunds.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Factory",
+"kind": "VC",
+"region": "海外（美国，未核实具体城市）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Fifty Years",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Finian Tan",
+"kind": "Cambridge校友",
+"region": "Singapore",
+"domain": "vickersventure.com",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Firestreak Ventures",
+"kind": "VC",
+"region": "海外（美国，科罗拉多州阿斯彭）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "First Round Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "firstround.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Firstminute Capital",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "firstminute.capital",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Floodgate",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "floodgate.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Fly Ventures",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "fly.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Flying Fish",
+"kind": "VC",
+"region": "海外（美国，西雅图）",
+"domain": "flyingfish.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Foothill Ventures",
+"kind": "VC",
+"region": "美国（Bay Area（城市未核实））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Footwork",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "footwork.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Forum Ventures",
+"kind": "加速器",
+"region": "美国（San Francisco / New York）",
+"domain": "forumvc.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Founders Inc",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "f.inc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Freestyle Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "freestyle.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "FT Partners",
+"kind": "其他",
+"region": "海外（美国，旧金山）",
+"domain": "ftpartners.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Fuel Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "George Robson",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "GGV Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山湾区）",
+"domain": "notablecap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "GitHub Fund",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Global Founders Capital",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "globalfounders.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "GoAhead Ventures",
+"kind": "VC",
+"region": "美国（Bay Area（城市未核实））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Google AI Futures Fund",
+"kind": "CVC",
+"region": "美国（Mountain View）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Greenoaks Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "greenoaks.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Greycroft",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "greycroft.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Guillermo Rauch",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "rauchg.com",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Harrison Chase",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "langchain.com",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Haystack",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "haystack.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Headline",
+"kind": "VC",
+"region": "美国（San Francisco (另有 Berlin 等)）",
+"domain": "headline.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "HOF Capital",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "hofvc.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Howie Liu",
+"kind": "Duke校友",
+"region": "San Francisco, CA",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "HuggingFund by Factorial",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "factorialcap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Hustle Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco / Palo Alto (远程为主)）",
+"domain": "hustlefund.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "HV Fund",
+"kind": "战略投资",
+"region": "海外（德国，慕尼黑；日立 CVC，在美国设有团队）",
+"domain": "hitachi-ventures.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Ian Hogarth",
+"kind": "Cambridge校友",
+"region": "London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "ICONIQ (ICONIQ Growth)",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "iconiqcapital.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "IDEO CoLab Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Idris Mokhtarzada",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Illia Polosukhin",
+"kind": "天使",
+"region": "未核实",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Illuminate Ventures",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area（具体城市未核实））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Inception Studio",
+"kind": "加速器",
+"region": "海外（美国，湾区）",
+"domain": "inceptionstudio.org",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Initialized Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "initialized.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Innovation Endeavors",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Inovia Capital",
+"kind": "VC",
+"region": "海外（加拿大）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Insignia Ventures Partners",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "insignia.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Inspired Capital",
+"kind": "VC",
+"region": "海外（美国，纽约）",
+"domain": "inspiredcapital.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "IQ Capital",
+"kind": "Cambridge校友",
+"region": "Cambridge / London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "IRIS",
+"kind": "VC",
+"region": "海外（法国，巴黎）",
+"domain": "iris.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Jack Dorsey",
+"kind": "天使",
+"region": "海外（美国）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Jackson Square Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Jason Calacanis",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Javelin Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Jeremy Levine",
+"kind": "Duke校友",
+"region": "New York, NY",
+"domain": "bvp.com",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Joe Lallouz",
+"kind": "天使",
+"region": "New York, US (unverified)",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "John Schulman",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "joschu.net",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Juniper Ventures",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "juniperventures.xyz",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "K9 Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Kakao Ventures",
+"kind": "VC",
+"region": "海外（韩国，首尔）",
+"domain": "kakao.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Karim Atiyeh",
+"kind": "天使",
+"region": "New York, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Kevin Hartz",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Kevin Lin",
+"kind": "天使",
+"region": "San Francisco Bay Area, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Kevin Weil",
+"kind": "天使",
+"region": "San Francisco Bay Area, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Khazanah Nasional",
+"kind": "其他",
+"region": "海外（马来西亚，吉隆坡）",
+"domain": "khazanah.com.my",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Kima Ventures",
+"kind": "VC",
+"region": "海外（法国，巴黎）",
+"domain": "kima.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Kyle Vogt",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "La Famiglia",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "lafamiglia.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Lachy Groom",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Larry Summers",
+"kind": "天使",
+"region": "海外（美国，马萨诸塞州剑桥）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Latitude Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山，待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "LAUNCH (Jason Calacanis)",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "launch.co",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "LDVP",
+"kind": "VC",
+"region": "海外（美国，帕洛阿尔托）",
+"domain": "ldvp.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Lee Fixel",
+"kind": "Duke校友",
+"region": "New York, NY",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "LG Technology Ventures",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Liquid 2 Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "liquid2.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "LocalGlobe",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "localglobe.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Logan Kilpatrick",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Long Journey Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "LSE Generate",
+"kind": "LSE校友",
+"region": "London, UK（全球校友分会）",
+"domain": "linkedin.com",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Lukas Biewald",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "M12 (Microsoft's Venture Fund)",
+"kind": "CVC",
+"region": "美国（San Francisco 办公室（总部 Redmond））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Magarac Venture Partners (existing investor)",
+"kind": "VC",
+"region": "海外（美国，匹兹堡）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Marcus Abramovitch",
+"kind": "天使",
+"region": "未找到",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Mati Staniszewski",
+"kind": "天使",
+"region": "London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Matrix (Matrix Partners US)",
+"kind": "VC",
+"region": "美国（San Francisco（另有 Boston））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Matthew Prince",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Mighty Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Monk's Hill Ventures",
+"kind": "VC",
+"region": "海外（新加坡）",
+"domain": "monkshill.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Moonfire Ventures",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "moonfire.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Moonshots Capital",
+"kind": "VC",
+"region": "海外（美国，洛杉矶）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Motier Ventures",
+"kind": "VC",
+"region": "海外（法国，巴黎）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Moxxie Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Mozilla Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Nat Friedman",
+"kind": "天使",
+"region": "海外（美国，旧金山湾区）",
+"domain": "nat.org",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Naval Ravikant",
+"kind": "天使",
+"region": "SF Bay Area, USA",
+"domain": "nav.al",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "NEA (New Enterprise Associates)",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "nea.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Neil Mehta",
+"kind": "LSE校友",
+"region": "San Francisco, CA",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Neo Ventures",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "neo.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Neotribe Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Nepenthe Capital",
+"kind": "VC",
+"region": "海外（美国，库比蒂诺）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Next Ladder Ventures",
+"kind": "其他",
+"region": "海外（美国）",
+"domain": "nextladder.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Nexus Venture Partners",
+"kind": "VC",
+"region": "美国（Menlo Park（美国办公室））",
+"domain": "nexusvp.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Norrsken VC",
+"kind": "VC",
+"region": "海外（瑞典，斯德哥尔摩）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Northside Ventures",
+"kind": "VC",
+"region": "海外（加拿大，多伦多）",
+"domain": "northsideventures.medium.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Northzone",
+"kind": "VC",
+"region": "海外（瑞典/英国）",
+"domain": "northzone.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Norwest (Norwest Venture Partners)",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "nvp.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Notable Capital（原 GGV Capital US）",
+"kind": "VC",
+"region": "美国（San Francisco / Menlo Park）",
+"domain": "notablecap.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Nova Global",
+"kind": "VC",
+"region": "海外（美国，旧金山，待核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "NVentures（NVIDIA 风投部门）",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "nvidia.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Oak HC/FT",
+"kind": "VC",
+"region": "海外（美国，康涅狄格州格林威治）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Obvious Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "obvious.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Octopus Ventures",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Ofir Ehrlich",
+"kind": "天使",
+"region": "US / Israel",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Olivier Pomel",
+"kind": "天使",
+"region": "New York, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Omega Venture Partners",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "One Way Ventures",
+"kind": "VC",
+"region": "海外（美国，波士顿）",
+"domain": "onewayvc.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Operator Collective",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "operatorcollective.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Orange Collective",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Pareto Holdings",
+"kind": "天使",
+"region": "海外（美国，迈阿密）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Partech",
+"kind": "VC",
+"region": "美国（San Francisco（创始办公室）/ Paris）",
+"domain": "partechpartners.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Peter Cowley",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Peter Thiel",
+"kind": "天使",
+"region": "海外（美国，洛杉矶/迈阿密）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Phosphor Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "phosphorcap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Pieter Abbeel",
+"kind": "天使",
+"region": "Berkeley, USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Pioneer Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "pioneerfund.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Playfair Capital",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "playfair.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Playground Global",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "playground.global",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Plug and Play",
+"kind": "加速器",
+"region": "海外（美国，加州桑尼维尔）",
+"domain": "plugandplaytechcenter.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Plug and Play Tech Center",
+"kind": "加速器",
+"region": "美国（Sunnyvale）",
+"domain": "plugandplaytechcenter.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Plural",
+"kind": "VC",
+"region": "海外（英国/爱沙尼亚）",
+"domain": "plural.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Point Nine",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "pointnine.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "PreAngel（硅谷华人科技网络）",
+"kind": "天使网络",
+"region": "美国（硅谷）/ 中国",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Precursor Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "precursorvc.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Premise VC",
+"kind": "VC",
+"region": "海外（美国，旧金山湾区）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Princeville Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Project Ventures",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Prosperity7 Ventures（Aramco）",
+"kind": "CVC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "prosperity7vc.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Prosus Ventures",
+"kind": "战略投资",
+"region": "海外（荷兰，阿姆斯特丹；印度团队很活跃）",
+"domain": "prosus.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Protocol Labs",
+"kind": "战略投资",
+"region": "海外（美国，旧金山；远程团队）",
+"domain": "protocol.ai",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "QBE Ventures",
+"kind": "战略投资",
+"region": "海外（澳大利亚，悉尼）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Qualcomm Ventures",
+"kind": "CVC",
+"region": "美国（Santa Clara / San Diego（总部））",
+"domain": "qualcommventures.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Quiet Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Race Capital",
+"kind": "micro-VC/solo GP",
+"region": "美国（Palo Alto / San Francisco（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Raj Gokal",
+"kind": "天使",
+"region": "United States",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Reach Capital",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area）",
+"domain": "reachcap.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Redpoint Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "redpoint.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Refactor Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Renegade Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Resolute Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ridge Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "ridge.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Robinhood Ventures",
+"kind": "其他",
+"region": "海外（美国，门洛帕克）",
+"domain": "robinhood.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Rocketeer Management",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Rocketship.vc",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "rocketship.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Roon (pseudonymous)",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Runa Capital",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知）/ 欧洲）",
+"domain": "runacap.com",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ryan Merket",
+"kind": "天使",
+"region": "US (city not verified)",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "S28 Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SaaStr Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（Palo Alto（未核实））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Salesforce Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Samsung",
+"kind": "战略投资",
+"region": "海外（韩国，首尔）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Sandberg Bernthal Venture Partners",
+"kind": "VC",
+"region": "海外（美国，加州）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Sandeep Nailwal",
+"kind": "天使",
+"region": "未确认",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Scale Angels Fund",
+"kind": "天使",
+"region": "海外（美国，旧金山湾区）",
+"domain": "scaleangelsfund.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Scale Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SciFi VC",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Script Capital",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "script.capital",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Seaplane Ventures",
+"kind": "VC",
+"region": "海外（美国，奥斯汀）",
+"domain": "seaplaneventures.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Seedcamp",
+"kind": "VC",
+"region": "海外（英国，伦敦）",
+"domain": "seedcamp.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Seldon Lab",
+"kind": "加速器",
+"region": "海外（美国，旧金山）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Seven Stars",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "sevenstars.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "SGInnovate",
+"kind": "其他",
+"region": "海外（新加坡）",
+"domain": "sginnovate.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Shaan Puri",
+"kind": "Duke校友",
+"region": "US（未核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Shawn Wang (swyx)",
+"kind": "天使",
+"region": "USA",
+"domain": "swyx.io",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Shayon Saleh",
+"kind": "Duke校友",
+"region": "未找到",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Shivani Mitra (Nous Research, angel)",
+"kind": "天使",
+"region": "海外（美国，具体城市未核实）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Shrug Capital",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SID Venture Partners",
+"kind": "VC",
+"region": "海外（乌克兰）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Sierra Ventures",
+"kind": "VC",
+"region": "美国（San Mateo）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SignalFire",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Siqi Chen",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Slow Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Snowflake Ventures",
+"kind": "CVC",
+"region": "美国（San Mateo（公司无正式HQ））",
+"domain": "snowflake.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Soma Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "somacap.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Sozo Ventures",
+"kind": "成长期基金",
+"region": "美国（Palo Alto）",
+"domain": "sozoventures.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Spark Capital",
+"kind": "VC",
+"region": "美国（San Francisco（另有Boston/NYC））",
+"domain": "sparkcapital.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Speedinvest",
+"kind": "VC",
+"region": "海外（奥地利，维也纳）",
+"domain": "speedinvest.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "StepStone Group",
+"kind": "资管/对冲",
+"region": "海外（美国，纽约）",
+"domain": "stepstonegroup.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Stone Bridge Ventures",
+"kind": "VC",
+"region": "海外（韩国，首尔）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Storm Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Streamlined Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Striker Venture Partners",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Superangel",
+"kind": "VC",
+"region": "海外（爱沙尼亚，塔林）",
+"domain": "superangel.io",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Sutter Hill Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Swish Ventures",
+"kind": "VC",
+"region": "海外（以色列，特拉维夫）",
+"domain": "swish.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Tallwoods Capital",
+"kind": "其他",
+"region": "海外（美国，佛罗里达州迈阿密海滩）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Tarun Chitra",
+"kind": "天使",
+"region": "US (未核实具体城市)",
+"domain": "x.com",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Team Ignite Ventures",
+"kind": "VC",
+"region": "海外（美国，北加州）",
+"domain": "teamignite.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Team8",
+"kind": "VC",
+"region": "海外（以色列，特拉维夫）",
+"domain": "team8.vc",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Tekton Ventures",
+"kind": "VC",
+"region": "海外（美国，旧金山；另有巴黎办公室）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "The Hive",
+"kind": "其他",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Theo Browne",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "t3.gg",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Thiel Fellowship",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "thielfellowship.org",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Thomas Wolf",
+"kind": "天使",
+"region": "France",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Thomvest Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（另有Toronto））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "TLV Partners",
+"kind": "VC",
+"region": "海外（以色列，特拉维夫）",
+"domain": "tlv.partners",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Together Fund",
+"kind": "VC",
+"region": "海外（印度/美国）",
+"domain": "together.fund",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Tommy Stadlen",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "giant.vc",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Topology Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Towerview Ventures (Alumni Ventures)",
+"kind": "Duke校友",
+"region": "US（Alumni Ventures）",
+"domain": "av.vc",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Toyota Ventures",
+"kind": "CVC",
+"region": "美国（Los Altos / San Francisco（未核实））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Translink Capital",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Transpose Platform Management",
+"kind": "其他",
+"region": "海外（美国，休斯顿；Crunchbase 记为旧金山）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Tribe Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Tristan Handy",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 2,
+"lists": [
+"天使名单",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "True Ventures",
+"kind": "VC",
+"region": "美国（San Francisco / Palo Alto）",
+"domain": "trueventures.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Twenty Two Ventures",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "UC Investments（加州大学投资办公室）",
+"kind": "其他",
+"region": "海外（美国，加州奥克兰）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Uncork Capital",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Unshackled Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Valor Equity Partners",
+"kind": "VC",
+"region": "海外（美国，芝加哥）",
+"domain": "valorep.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Vanagon Ventures",
+"kind": "VC",
+"region": "海外（德国，慕尼黑）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Vela Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Venrock",
+"kind": "VC",
+"region": "美国（Palo Alto（另有NYC/Boston））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Veronika Kapustina",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "",
+"prio": 2,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Version One Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（另有Vancouver））",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Vertex Ventures US",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Village Global",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "villageglobal.vc",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Visionaries Club",
+"kind": "VC",
+"region": "海外（德国，柏林）",
+"domain": "visionariesclub.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Walden International",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "waldenintl.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Weekend Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（未核实））",
+"domain": "weekend.fund",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "WestBridge Capital",
+"kind": "VC",
+"region": "海外（印度，班加罗尔 / 美国硅谷 / 毛里求斯）",
+"domain": "westbridgecap.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "WestWave Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "White Star Capital",
+"kind": "VC",
+"region": "海外（加拿大/美国/英国/法国多地）",
+"domain": "whitestarcapital.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Worklife Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "worklife.vc",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "XYZ Venture Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Y Combinator Continuity",
+"kind": "VC",
+"region": "海外（美国，旧金山）",
+"domain": "ycombinator.com",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Z Fellows",
+"kind": "加速器",
+"region": "美国（San Francisco（未核实））",
+"domain": "zfellows.com",
+"prio": 2,
+"lists": [
+"硅谷VC",
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "Zero Shot（OpenAI 校友 VC 基金）",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "大湾区共同家园基金",
+"kind": "",
+"region": "中国香港",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "金涌投资（弘毅投资旗下）",
+"kind": "战略投资",
+"region": "中国香港（港股上市平台）",
+"domain": "",
+"prio": 2,
+"lists": [
+"非大陆总表"
+],
+"known": []
+},
+{
+"name": "137 Ventures",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Accel-KKR",
+"kind": "成长期基金",
+"region": "美国（Menlo Park）",
+"domain": "accel-kkr.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Akkadian Ventures",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Allegis Capital",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Alsop Louie Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "alsop-louie.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Altimeter Capital",
+"kind": "成长期基金",
+"region": "美国（Menlo Park）",
+"domain": "altimeter.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Anton Osika",
+"kind": "天使",
+"region": "Stockholm, Sweden",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Applied Ventures",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "appliedventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ashish Vaswani",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "August Capital",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "augustcap.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Autotech Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "autotechvc.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "AV8 Ventures",
+"kind": "CVC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Avra",
+"kind": "成长期基金",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ballistic Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Baseline Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Benedict Evans",
+"kind": "Cambridge校友",
+"region": "London, UK（据已知；Crunchbase 记为 San Francisco，需核实）",
+"domain": "ben-evans.com",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Better Tomorrow Ventures (BTV)",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "btv.vc",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Better Ventures",
+"kind": "VC",
+"region": "美国（Oakland）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Blockchain Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "blockchain.capital",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BlueRun Ventures",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BMW i Ventures",
+"kind": "CVC",
+"region": "美国（Mountain View）",
+"domain": "bmwiventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Bob Muglia",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Bow Capital",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Breakout Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Brendan McCord",
+"kind": "天使",
+"region": "USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Brick & Mortar Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Builders VC",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "builders.vc",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "BV百度风投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "baidu-venture.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "Cambrian Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cambridge Enterprise Ventures",
+"kind": "Cambridge校友",
+"region": "Cambridge, UK",
+"domain": "enterprise.cam.ac.uk",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Cantos",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Canvas Ventures",
+"kind": "VC",
+"region": "美国（Portola Valley / San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "CapitalG",
+"kind": "成长期基金",
+"region": "美国（San Francisco / Mountain View）",
+"domain": "capitalg.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Capricorn Investment Group",
+"kind": "其他",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Carmichael Roberts",
+"kind": "Duke校友",
+"region": "Boston, MA",
+"domain": "",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Celesta Capital",
+"kind": "VC",
+"region": "美国（Menlo Park / Mountain View（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cendana Capital",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "cendanacapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Chris Ré",
+"kind": "天使",
+"region": "Stanford, CA, USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Christopher Manning",
+"kind": "天使",
+"region": "Stanford, CA, USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Citi Ventures",
+"kind": "CVC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cleo Capital",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Coinbase Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco / Remote）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Comcast Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "comcastventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Commerce Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Congruent Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Cota Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Crescent Cove",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dan Levitan",
+"kind": "Duke校友",
+"region": "Seattle, WA / San Francisco, CA",
+"domain": "maveron.com",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "David Ha",
+"kind": "天使",
+"region": "Tokyo, Japan",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "David Rubenstein",
+"kind": "Duke校友",
+"region": "Washington, DC",
+"domain": "",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Designer Fund",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "designerfund.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dimension",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "dimensioncap.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dolby Family Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "dolbyfamilyventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Dragoneer Investment Group",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "dragoneer.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Draper University (Hero Training)",
+"kind": "加速器",
+"region": "美国（San Mateo）",
+"domain": "draperuniversity.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ecosystem Integrity Fund",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Electric Capital",
+"kind": "VC",
+"region": "美国（Palo Alto / San Francisco）",
+"domain": "electriccapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Expa",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "expa.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Fenox Venture Capital",
+"kind": "VC",
+"region": "美国（San Jose）",
+"domain": "fenox.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Fin Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "fin.capital",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Flourish Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "flourishventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Forerunner",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "forerunnerventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Founder Institute",
+"kind": "加速器",
+"region": "美国（Palo Alto）",
+"domain": "fi.co",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Fred Ehrsam",
+"kind": "Duke校友",
+"region": "San Francisco, CA",
+"domain": "paradigm.xyz",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "FundersClub",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "fundersclub.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Future Value Capital",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "futurevaluecapital.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "Galvanize Climate Solutions",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "galvanizeclimate.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Glynn Capital",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "glynncapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Goodwater Capital",
+"kind": "VC",
+"region": "美国（Burlingame）",
+"domain": "goodwatercap.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "GreatPoint Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "greatpointventures.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Greenoaks",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Hack VC",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "hack.vc",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Harley Finkelstein",
+"kind": "天使",
+"region": "Ottawa, Canada",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Harpoon Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Haun Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "haun.co",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Honda Xcelerator Ventures",
+"kind": "CVC",
+"region": "美国（Mountain View）",
+"domain": "hondaxcelerator.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Howard Morgan",
+"kind": "天使",
+"region": "US",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "HP Tech Ventures",
+"kind": "CVC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Hyundai CRADLE",
+"kind": "CVC",
+"region": "美国（Mountain View）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Icon Ventures",
+"kind": "成长期基金",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "IDG资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "idgcapital.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "Impact America Fund",
+"kind": "VC",
+"region": "美国（Oakland）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "In-Q-Tel (IQT)",
+"kind": "CVC",
+"region": "美国（Menlo Park（总部 Arlington, VA））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "IndieBio (SOSV)",
+"kind": "加速器",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Industry Ventures",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Intuitive Ventures",
+"kind": "CVC",
+"region": "美国（Sunnyvale）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Inventus Capital Partners",
+"kind": "VC",
+"region": "美国（Palo Alto（主要投资印度））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "IVP (Institutional Venture Partners)",
+"kind": "成长期基金",
+"region": "美国（Menlo Park / San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "JAZZ Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Jeff Lawson",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "JetBlue Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco Bay Area（具体城市未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Joe Cross",
+"kind": "LSE校友",
+"region": "未找到",
+"domain": "",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Joel Hellermark",
+"kind": "天使",
+"region": "Stockholm, Sweden",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Jonathan Seeber",
+"kind": "Duke校友",
+"region": "Washington, DC",
+"domain": "",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Josh Buckley",
+"kind": "天使",
+"region": "San Francisco, US",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Juan Benet",
+"kind": "天使",
+"region": "US (未核实)",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Kaiser Permanente Ventures",
+"kind": "CVC",
+"region": "美国（Oakland）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Kapor Capital",
+"kind": "VC",
+"region": "美国（Oakland）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Keiretsu Forum",
+"kind": "其他",
+"region": "美国（Lafayette（East Bay））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Kip Frey",
+"kind": "Duke校友",
+"region": "未核实",
+"domain": "hgventures.com",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "KIP中国",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "KKR (Technology Growth)",
+"kind": "成长期基金",
+"region": "美国（Menlo Park / San Francisco（总部 New York））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Lam Capital (Lam Research)",
+"kind": "CVC",
+"region": "美国（Fremont）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Learn Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Light Street Capital",
+"kind": "成长期基金",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Linse Capital",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Lucy Guo",
+"kind": "天使",
+"region": "United States",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Mainsail Partners",
+"kind": "成长期基金",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Marc Boiron",
+"kind": "天使",
+"region": "未找到",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Mark Florman",
+"kind": "LSE校友",
+"region": "London, UK",
+"domain": "markflorman.com",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Matter Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Maven Ventures",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area（具体城市未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Maveron",
+"kind": "VC",
+"region": "美国（San Francisco（另有 Seattle））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Max Junestrand",
+"kind": "天使",
+"region": "Stockholm, Sweden",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Melinda French Gates",
+"kind": "Duke校友",
+"region": "Seattle, WA",
+"domain": "pivotalventures.org",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Mercor co-founders (Brendan Foody, Adarsh Hiremath, Surya Midha)",
+"kind": "天使",
+"region": "San Francisco, USA",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Meritech Capital",
+"kind": "成长期基金",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Merus Capital",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Mission Bay Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Momenta",
+"kind": "战略投资",
+"region": "国内（苏州）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "Monolith 砺思资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "monolithmgt.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@monolithmgt.com"
+]
+},
+{
+"name": "Montage Ventures",
+"kind": "VC",
+"region": "美国（San Francisco Bay Area（具体城市未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "MS&AD Ventures",
+"kind": "CVC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Mubadala Capital Ventures",
+"kind": "其他",
+"region": "美国（San Francisco 办公室（总部 Abu Dhabi））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "NewView Capital",
+"kind": "成长期基金",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Next47",
+"kind": "CVC",
+"region": "美国（Palo Alto）",
+"domain": "next47.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Neythri Futures Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco Bay Area（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "NGP Capital",
+"kind": "VC",
+"region": "美国（Palo Alto（美国）/ Helsinki）",
+"domain": "ngpcap.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Northgate Capital",
+"kind": "其他",
+"region": "美国（Danville（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "NTT DOCOMO Ventures",
+"kind": "CVC",
+"region": "美国（Palo Alto（美国办公室））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Okta Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "okta.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Omidyar Network",
+"kind": "其他",
+"region": "美国（Redwood City）",
+"domain": "omidyar.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "OVO Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（Palo Alto（另有 San Francisco 地址，第三方数据））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Owl Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "owlvc.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Pantera Capital",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "panteracapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Paradigm",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "paradigm.xyz",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Paul Tudor Jones",
+"kind": "天使",
+"region": "US",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "PayPal Ventures",
+"kind": "CVC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Pegasus Tech Ventures",
+"kind": "VC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "PivotNorth Capital",
+"kind": "VC",
+"region": "美国（Palo Alto（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Plexo Capital",
+"kind": "其他",
+"region": "美国（San Francisco Bay Area（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Polychain Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "polychain.capital",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Presidio Ventures（住友商事）",
+"kind": "CVC",
+"region": "美国（Santa Clara（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Prologis Ventures",
+"kind": "CVC",
+"region": "美国（San Francisco）",
+"domain": "prologis.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Propel Venture Partners",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "propel.vc",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Quest Venture Partners",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Rakuten Capital / Rakuten Ventures",
+"kind": "CVC",
+"region": "美国（San Mateo（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Rebel Fund",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco（据已知））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ribbit Capital",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "ribbitcap.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Riverwood Capital",
+"kind": "成长期基金",
+"region": "美国（Menlo Park）",
+"domain": "riverwoodcapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Robert Bosch Venture Capital",
+"kind": "CVC",
+"region": "美国（Sunnyvale（美国办公室）/ Stuttgart）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Robert Leshner",
+"kind": "天使",
+"region": "US (未核实具体城市)",
+"domain": "x.com",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Samsung Catalyst Fund",
+"kind": "CVC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Sapphire Ventures",
+"kind": "成长期基金",
+"region": "美国（Palo Alto（另有Austin/SF））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Schematic Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Scrum Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Sebastian Siemiatkowski",
+"kind": "天使",
+"region": "Stockholm, Sweden",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "SemperVirens",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "ServiceNow Ventures",
+"kind": "CVC",
+"region": "美国（Santa Clara）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Sherry Coutu",
+"kind": "LSE校友",
+"region": "Cambridge / London, UK",
+"domain": "",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Shield Capital",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Sofinnova Investments",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SoftBank Vision Fund",
+"kind": "成长期基金",
+"region": "美国（San Carlos（美国办公室））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "SoGal Ventures",
+"kind": "micro-VC/solo GP",
+"region": "美国（San Francisco / New York（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Spero Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "StartX (StartX Fund)",
+"kind": "加速器",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Steffen Tjerrild",
+"kind": "天使",
+"region": "London, UK",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Steve Pagliuca",
+"kind": "Duke校友",
+"region": "Boston, MA",
+"domain": "baincapital.com",
+"prio": 3,
+"lists": [
+"校友"
+],
+"known": []
+},
+{
+"name": "Sway Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Taavet Hinrikus",
+"kind": "天使",
+"region": "London, UK / Tallinn, Estonia",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "TCV",
+"kind": "成长期基金",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "TDK Ventures",
+"kind": "CVC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ten Eleven Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Tenaya Capital",
+"kind": "成长期基金",
+"region": "美国（Palo Alto / Menlo Park（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "TIME Ventures",
+"kind": "其他",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Tri Dao",
+"kind": "天使",
+"region": "Princeton, NJ / SF Bay Area, USA",
+"domain": "tridao.me",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "TriplePoint Capital",
+"kind": "其他",
+"region": "美国（Menlo Park）",
+"domain": "triplepointcapital.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "U.S. Venture Partners (USVP)",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "usvp.com",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Ulu Ventures",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "UpHonest Capital",
+"kind": "VC",
+"region": "美国（Palo Alto（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Vamos Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Victor Riparbelli",
+"kind": "天使",
+"region": "London, UK",
+"domain": "",
+"prio": 3,
+"lists": [
+"天使名单"
+],
+"known": []
+},
+{
+"name": "Walden Catalyst Ventures",
+"kind": "VC",
+"region": "美国（San Francisco（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Webb Investment Network",
+"kind": "VC",
+"region": "美国（Silicon Valley（具体城市未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Western Technology Investment (WTI)",
+"kind": "其他",
+"region": "美国（San Jose（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Westly Group",
+"kind": "VC",
+"region": "美国（Menlo Park）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Wildcat Venture Partners",
+"kind": "VC",
+"region": "美国（Palo Alto）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Wireframe Ventures",
+"kind": "VC",
+"region": "美国（San Francisco）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Workday Ventures",
+"kind": "CVC",
+"region": "美国（Pleasanton）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Yamaha Motor Ventures",
+"kind": "CVC",
+"region": "美国（Palo Alto（未核实））",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "Zoom Ventures",
+"kind": "CVC",
+"region": "美国（San Jose）",
+"domain": "",
+"prio": 3,
+"lists": [
+"硅谷VC"
+],
+"known": []
+},
+{
+"name": "三七互娱",
+"kind": "战略投资",
+"region": "国内（广州）",
+"domain": "37wan.net",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "东方富海",
+"kind": "VC",
+"region": "国内（深圳）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "中关村科学城基金",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "中国电信",
+"kind": "战略投资",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "九坤创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "ubiquantpartners.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "云锋基金",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "yfc.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "五源资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "5ycap.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "今日资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "创新工场",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "chuangxin.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "北京亦庄产业升级基金",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "北京市人工智能产业投资基金",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "华方资本",
+"kind": "VC",
+"region": "国内",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "华映资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "meridiancapital.com.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "君联资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "legendcapital.com.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "启明创投",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "qimingvc.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@qimingvc.com"
+]
+},
+{
+"name": "国方创新",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "天际资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "奇绩创坛",
+"kind": "加速器",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "尖晶资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "spinelcapital.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "峰瑞资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "freesvc.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "建投投资",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "德联资本",
+"kind": "VC",
+"region": "国内",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "明势资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "future-cap.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@future-cap.com"
+]
+},
+{
+"name": "智谱 Z基金",
+"kind": "战略投资",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "清新资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "freshcapital.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "滴滴",
+"kind": "战略投资",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "琥珀资本",
+"kind": "VC",
+"region": "国内（未确认城市）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "真格基金",
+"kind": "天使",
+"region": "国内（北京）",
+"domain": "zhenfund.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "红杉中国",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "hongshan.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bpchina@hongshan.com"
+]
+},
+{
+"name": "线性资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@linear.vc"
+]
+},
+{
+"name": "经纬创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "matrixpartners.com.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "美团龙珠",
+"kind": "战略投资",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "耀途资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "glory-ventures.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@glory-ventures.com"
+]
+},
+{
+"name": "联想创投",
+"kind": "战略投资",
+"region": "国内（北京）",
+"domain": "capital.lenovo.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "蓝驰创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "lanchivc.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "蚂蚁集团",
+"kind": "战略投资",
+"region": "国内（杭州）",
+"domain": "antgroup.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "赛富",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "saifpartners.com.cn",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "辰韬资本",
+"kind": "VC",
+"region": "国内（上海）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "金沙江创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "gsrventureschina.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "锦秋基金",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"soil@jinqiucapital.com"
+]
+},
+{
+"name": "顺为资本",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "shunwei.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"deals@shunwei.com"
+]
+},
+{
+"name": "高榕创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "gaorongvc.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": [
+"bp@gaorongvc.com"
+]
+},
+{
+"name": "高瓴创投",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+},
+{
+"name": "鼎晖投资",
+"kind": "VC",
+"region": "国内（北京）",
+"domain": "cdhfund.com",
+"prio": 3,
+"lists": [
+"审批页"
+],
+"known": []
+}
+]
