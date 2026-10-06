@@ -42,6 +42,8 @@ URL = re.compile(r"https?://[^\s;，；、）)\]]+")
 BROKERS = re.compile(r"rocketreach|zoominfo|apollo\.io|contactout|signalhire|lusha|hunter\.io|snov\.io|leadiq|clearbit|adapt\.io|"
                      r"theorg\.com|email-format|emailformat|getemail|voilanorbert|anymailfinder", re.I)
 SKIP_LOCAL = re.compile(r"^(press|media|careers|jobs|privacy|legal|compliance|ir|investors|investor-relations|recruiting|noreply|no-reply)@", re.I)
+# Addresses found on these pages serve another purpose (privacy requests, terms), not pitches.
+OFF_PAGE = re.compile(r"privacy|terms|legal|cookie|gdpr", re.I)
 KIND_RANK = {"个人公开": 0, "机构投递": 1, "机构通用": 2}
 HEAD_FONT = Font(name="Arial", bold=True, color="FFFFFF")
 HEAD_FILL = PatternFill("solid", fgColor="111110")
@@ -71,7 +73,7 @@ def main(targets_path):
 
     def add(name, email, kind, owner, source, quote, origin, contact=""):
         e = email.strip().strip(".").lower()
-        if e in seen or "simreal" in e or SKIP_LOCAL.match(e) or BROKERS.search(source or ""):
+        if e in seen or "simreal" in e or SKIP_LOCAL.match(e) or BROKERS.search(source or "") or OFF_PAGE.search(source or ""):
             return
         seen.add(e)
         t = info.get(name, {})
@@ -122,20 +124,27 @@ def main(targets_path):
 
     have = {r["name"] for r in rows}
     missing = [t for t in targets if t["name"] not in have]
+    searched = set()
+    if FOUND.exists():
+        searched = {r["name"] for r in json.loads(FOUND.read_text(encoding="utf-8"))["results"] if r.get("searched")}
     wb = Workbook()
     wb.remove(wb.active)
     sheet(wb, "邮箱", cols, table)
-    sheet(wb, "还没找到", [("名称", 28), ("类别", 10), ("地区", 20), ("官网域名", 22), ("在哪些名单里", 26)],
-          [[t["name"], t["kind"], t["region"], t["domain"], "、".join(t["lists"])] for t in missing])
+    missing.sort(key=lambda t: (t["name"] not in searched, t["prio"], t["name"].lower()))
+    sheet(wb, "还没找到", [("名称", 28), ("状态", 16), ("类别", 10), ("地区", 20), ("官网域名", 22), ("在哪些名单里", 26)],
+          [[t["name"], "搜过，没有公开邮箱" if t["name"] in searched else "还没搜", t["kind"], t["region"], t["domain"],
+            "、".join(t["lists"])] for t in missing])
 
     personal = sum(1 for r in rows if r["kind"] == "个人公开")
     ws = wb.create_sheet("说明")
     notes = [
         f"共 {len(rows)} 个邮箱，覆盖 {len(have)} 家机构或个人：本人公开 {personal} 个，机构投递 / 通用邮箱 {len(rows) - personal} 个。"
-        f"'还没找到'列了其余 {len(missing)} 家。",
+        f"'还没找到'列了其余 {len(missing)} 家：搜过但没有公开邮箱的 {sum(1 for t in missing if t['name'] in searched)} 家，"
+        f"还没搜的 {sum(1 for t in missing if t['name'] not in searched)} 家（这一轮搜索额度只够优先的 240 家）。",
         "只收本人或所在机构自己公开发布的地址（官网、官方文档、本人主页、本人帖子），每个都有来源链接和搜索结果里的原文。"
         "没有按格式猜（比如 名字@基金.com），也没有用 RocketReach、ZoomInfo、Apollo、Hunter 等数据网站；这类来源一律剔除。",
-        "这次是在搜索结果的摘要里找的（本环境打不开基金官网），每个地址都由第二个调研员检查过来源；发之前可以点开来源链接再确认一次。",
+        "'出自'为'这次搜索'的地址，是从搜索结果的摘要里找到的（本环境打不开基金官网），由第二个调研员检查过来源，"
+        "剔除了 press@、privacy@、careers@、LP 询问等非投资用途的邮箱。摘要有时会转述网页，所以发之前请点开来源链接确认一次，个人邮箱尤其要确认。",
         "写法：机构邮箱在第一句写明请转交哪位合伙人；本人邮箱直接写给本人。",
         "没有邮箱的：天使多数可以在 X 上私信（见《天使与硅谷VC名单》的 X 列）；基金可以用官网表单或熟人引荐。",
         "导入 Google 表格：drive.google.com → 新建 → 文件上传 → 右键 → 打开方式 → Google 表格。",

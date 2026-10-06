@@ -1,20 +1,127 @@
 ﻿First name,Email,Company,Opener
+Nick,nick@1517fund.com,1517 Fund,
+Harry,harry@thetwentyminutevc.com,20VC,
+Aidan,hello@aidangomez.ca,Aidan Gomez,"You angel-invested in PhnyX Lab's 2025 seed; we're a UK-trained maths team (LSE and Cambridge) building RL environments and agent data, at $7M ARR three weeks in."
 Nathan,nathan@airstreet.com,Air Street Capital,"Your State of AI Report tracks the shift to RL post-training, and Air Street backs AI-first companies from seed; we're building for that shift, starting with finance."
+Alchemist,ido@alchemistaccelerator.com,Alchemist Accelerator,
+Shayan,shayan@chemistry.vc,Chemistry,"You led Datacurve's Series A to take on Scale in coding data; we're building the finance equivalent, with quant experts and verifiable trading environments."
 Sarah,sarah@conviction.com,Conviction,Conviction led Trajectory's seed for continual learning in May; we build the finance environments where that kind of learning gets scored against real outcomes.
+Dwarkesh,dwarkesh@dwarkeshpatel.com,Dwarkesh Patel,"You backed Mechanize and pressed Dario on why labs are building RL environments; we build them for finance, where rewards come from real market outcomes."
+Gordon,gordon@emcap.com,Emergence Capital,"Emergence joined Arga's seed to give enterprise agents resettable practice environments; we build the same kind of environments for finance, from month-end close to trading."
+Joe,joe@emcap.com,Emergence Capital,"Emergence joined Arga's seed to give enterprise agents resettable practice environments; we build the same kind of environments for finance, from month-end close to trading."
+Erik,mail@erikbern.com,Erik Bernhardsson,"You're an angel in Proximal, which just came out of stealth at $200M+ annualized revenue selling coding data to labs; SimReal builds RL environments and data infra in the same lane and is already at $7M ARR."
+Timothy,tim@essencevc.fund,Essence VC,
+Alex,alex@fellows.fund,Fellows Fund,
+JC,jc@fellows.fund,Fellows Fund,
+Lucas,lucas@fellows.fund,Fellows Fund,
+Neiman,nmathew@greylock.com,Greylock,
+Mor,mchen@greylock.com,Greylock,
+Shreya,shreya@greylock.com,Greylock,
+Jason,jason@greylock.com,Greylock,
+Howard,hting@greylock.com,Greylock,
+Hunter,hunter@homebrew.co,Homebrew,"Homebrew backed Datacurve's Series A for frontier coding data; we're doing the same for finance, with quant founders and our own expert network."
+Satya,satya@homebrew.co,Homebrew,"Homebrew backed Datacurve's Series A for frontier coding data; we're doing the same for finance, with quant founders and our own expert network."
+Hsu,hsuken@iterative.vc,Iterative,"Iterative co-led i10X's pre-seed in January 2026; we're quant founders building executable finance RL environments and verifiers for LLM post-training, and we're raising our seed."
+Matt,matt@iterative.vc,Iterative,"Iterative co-led i10X's pre-seed in January 2026; we're quant founders building executable finance RL environments and verifiers for LLM post-training, and we're raising our seed."
+Nola,nola@lsvp.com,Lightspeed,You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.
+Dana,dana@lsvp.com,Lightspeed,You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.
 Vivek,vivek@madrona.com,Madrona,"You co-led Gray Swan's Series A after hearing a chorus of praise from frontier labs; we sell those same labs RL environments and verifiers, starting with finance."
 Deedy,deedy@menlovc.com,Menlo Ventures,"Your July map counted 50+ companies selling data and RL environments to labs, with most revenue in four players; we're a finance-specialist entrant with quant founders and our own experts."
+James,james@nfx.com,NFX,
+Noam,noam@openai.com,Noam Brown,"You backed Deeptune's RL training gyms in March; SimReal builds RL environments for trading, where self-improvement can be verified, and Xitadel already shows it on Qwen."
+Patrick,patrick@collison.ie,Patrick Collison,"You backed Mechanize's seed, and Google has since brought its team into DeepMind; we build RL environments for finance and accounting, close to Stripe's own domain."
+Ilian,ilian@pear.vc,Pear VC,"Pear backed Vals AI from seed through its a16z-led Series A as professional-task evals took off; we build RL environments and verifiers for finance tasks, one step past evaluation."
+Margarita,margarita@pear.vc,Pear VC,"Pear backed Vals AI from seed through its a16z-led Series A as professional-task evals took off; we build RL environments and verifiers for finance tasks, one step past evaluation."
+Ana,ana@pear.vc,Pear VC,"Pear backed Vals AI from seed through its a16z-led Series A as professional-task evals took off; we build RL environments and verifiers for finance tasks, one step past evaluation."
+Daniel,daniel@radical.vc,Radical Ventures,Radical led Prime Intellect's $130M Series A to give companies a frontier-lab training stack; we supply finance environments for that kind of stack to train on.
+Rahul,rahul@superhuman.com,Rahul Vohra,"You started an ML PhD at Cambridge before building Superhuman; SimReal's three 21-year-old founders, one a Cambridge maths undergrad, build RL environments and agent data, and we'd value you as an angel."
+Royi,royi.benyossef@samsungnext.com,Samsung NEXT,
+Stephanie,zhan@sequoiacap.com,Sequoia Capital,"Sequoia has backed Fleet's enterprise RL environments since the seed; we go deeper on finance, with quant founders, expert data and trading environments scored by real markets."
+Sonya,sonya@sequoiacap.com,Sequoia Capital,"Sequoia has backed Fleet's enterprise RL environments since the seed; we go deeper on finance, with quant founders, expert data and trading environments scored by real markets."
+Bryce,bkam@sequoiacap.com,Sequoia Capital,"Sequoia has backed Fleet's enterprise RL environments since the seed; we go deeper on finance, with quant founders, expert data and trading environments scored by real markets."
+Tomasz,tt@theory.ventures,Theory Ventures,
 Chris,chris@wing.vc,Wing VC,"Your RL environments piece argued verification, not model capability, is what makes automation durable; verifiers are the core of what we build for finance."
+500 Global team,vietnam@500.co,500 Global,
+ACME Capital team,funding@acme.vc,ACME Capital,
+Afore Capital team,ideastorealityfund@afore.vc,Afore Capital,
+Alchemist Accelerator team,admissions@alchemistaccelerator.com,Alchemist Accelerator,
+Alchemist Accelerator team,crucible@alchemistaccelerator.com,Alchemist Accelerator,
+Alchemist Accelerator team,chicago@alchemistaccelerator.com,Alchemist Accelerator,
 Amino Capital team,bp@aminocapital.com,Amino Capital,
+Amity Ventures team,founders@amity.vc,Amity Ventures,
+Andreessen Horowitz team,sr-apps@a16z.com,Andreessen Horowitz,"Your Deeptune post argued the next decade of AI progress comes from better environments, not just better datasets; we build those environments for finance, scored by real markets."
+Andreessen Horowitz team,collegetalent@a16z.com,Andreessen Horowitz,"Your Deeptune post argued the next decade of AI progress comes from better environments, not just better datasets; we build those environments for finance, scored by real markets."
+BoxGroup team,hello@boxgroup.com,BoxGroup,"BoxGroup joined Arga's seed for enterprise agent sandboxes in August; we build the finance counterpart, with trading and month-end close environments."
+Cassie Young team,founders@primary.vc,Cassie Young,"As a Duke grad on Duke's I&E board who backs B2B founders at Primary, you may like SimReal: a Duke co-founder and paying B2B agent-data orders three weeks in."
 Conviction team,embed@conviction.com,Conviction,Could you pass this to Sarah Guo? Conviction led Trajectory's seed for continual learning in May; we build the finance environments where that kind of learning gets scored against real outcomes.
+DCM Ventures team,hello@dcm.com,DCM Ventures,
+Decibel team,founders@decibel.vc,Decibel,"You co-led Veris AI's seed as the environment layer enterprise AI was missing; we build that layer for finance, where agent outcomes settle against real markets."
+Draper Associates team,deals@draper.vc,Draper Associates,
 Eniac Ventures team,pitch@eniac.vc,Eniac Ventures,Could you pass this to Hadley Harris? Eniac joined Origin Lab's seed to turn game worlds into AI training data; we turn financial markets into RL environments for the same labs.
+Episode 1 Ventures team,weseeyou@episode1.com,Episode 1 Ventures,"You led Poindexter Labs' seed as it signed a frontier lab directly; we sell the same labs expert data and RL environments, built by Cambridge and LSE quants."
 General Catalyst team,seed@generalcatalyst.com,General Catalyst,"Could you pass this to Yuri Sagalov? You led Arga's seed and argued that repeatable sandboxes matter even more for agents; we've built that for finance, where outcomes settle in real markets."
+Granite Asia team,nextgen@graniteasia.com,Granite Asia,"You lead Granite Asia's seed-to-Series A investing across AI and fintech; we sit at that intersection, building finance RL environments, verifiers and expert data for LLM post-training."
+Heavybit team,membership@heavybit.com,Heavybit,
+HKIC team,investment@hkic.org.hk,HKIC,HKIC has made AI a core theme of its HK$62 billion mandate; we build finance RL environments and expert data and could anchor that work in Hong Kong.
 HRT Ventures team,strategicvc@hudson-trading.com,HRT Ventures,"HRT Ventures joined Vals AI's Series A in August; we build trading RL environments, and our founders come from the same quant world."
+IMC Strategic Investments team,imcinvestments@imc.com,IMC Strategic Investments,"IMC Strategic Investments backs trading infrastructure like Paradigm and McKay Brothers; we build AI training environments on market data, a new layer of that stack."
+Khosla Ventures team,kv@khoslaventures.com,Khosla Ventures,
 Mayfield team,aistart@mayfield.com,Mayfield,"Could you pass this to Vijay Reddy? Mayfield backed Bespoke Labs on the view that agents depend on data, environments and evaluation; we build all three for finance, from trading to month-end close."
+Neo team,accelerator@neo.com,Neo,
+OpenAI Startup Fund team,hello@openai.fund,OpenAI Startup Fund,
+Openspace Ventures team,ideas@openspacecapital.com,Openspace Ventures,Openspace joined Eunice's $8M round this March for AI due diligence on alternative assets; we build the finance environments and verifiers used to train and test models for that kind of work.
+Scribble Ventures team,hello@scribble.vc,Scribble Ventures,Scribble led Proximal's round for long-horizon coding RL environments with fuzzy verifiers; we build the same kind of verified environments for trading and accounting.
+Standard Capital team,apply@standardcap.com,Standard Capital,"You led HUD's Series A, where domain experts build RL environments and sell them to labs; we're building that for finance with our own expert network."
 The House Fund team,build@thehouse.fund,The House Fund,Could you pass this to Jeremy Fiance? The House Fund backed Veris AI's seed for simulated environments that train enterprise agents; we build those environments for finance.
 Tower Research Ventures team,ventures@tower-research.com,Tower Research Ventures,Could you pass this to Jared Young? TRV has been hosting AI x Wall Street and AI-agent events for the trading world; we're ex-quants building RL environments that train agents on real market data.
+Wavemaker Partners team,pitchsea@wavemaker.vc,Wavemaker Partners,"Wavemaker led ChemT's seed in June to bring AI to biomanufacturing; we apply the same thesis to finance, building RL environments and verifiers that make models useful to domain experts."
+01 Advisors team,hello@01a.com,01 Advisors,
+1517 Fund team,info@1517fund.com,1517 Fund,
+468 Capital team,contact@468cap.com,468 Capital,
+776 team,contact@sevensevensix.com,776,"You led Deeptune's seed and then watched Mercor buy it for its RL environments; we're building that category for finance, with verifiers checked against real market data."
+A* team,hello@a-star.co,A*,
+ACME Capital team,info@acme.vc,ACME Capital,
+Adam French team,info@houghtonstreet.com,Adam French,"As an LSE statistics grad who co-founded Scalable Capital and now chairs Houghton Street Ventures, you know what quant-trained LSE founders can build, and our LSE Maths co-founder is ex-Citadel."
+AI Grant team,support@aigrant.org,AI Grant,
+Alchemist Accelerator team,team@alchemistaccelerator.com,Alchemist Accelerator,
+Alchemist Accelerator team,info@alchemistaccelerator.com,Alchemist Accelerator,
+Andreessen Horowitz team,sr-team@a16z.com,Andreessen Horowitz,"Your Deeptune post argued the next decade of AI progress comes from better environments, not just better datasets; we build those environments for finance, scored by real markets."
+Antler Singapore team,embark@antler.co,Antler Singapore,You've said you'd rather back founders with deep domain expertise than new AI coding startups; we're four quants turning trading and accounting expertise into RL environments and verifiers for LLMs.
+Arthur Hayes team,info@maelstromglobal.com,Arthur Hayes,"Maelstrom led Bio Protocol's seed and backed YeagerAI, so you're already funding AI at the edge of crypto; I was employee #1 at a $1.5B stablecoin unicorn, and we've built a trading RSI product on IMC's data."
 Cambridge Angels team,info@cambridgeangels.net,Cambridge Angels,"SimReal, co-founded by a current Cambridge maths undergrad and already delivering agent and expert data orders, would like to present to Cambridge Angels members."
+Collab+Currency team,info@collabcurrency.com,Collab+Currency,
+Cory Levy team,team@zfellows.com,Cory Levy,"You were one of micro1's first investors back in 2022 and followed on in its 2025 Series A; we're three 21-year-old undergrads in the same expert-data market, at $7M ARR three weeks in."
+Costanoa Ventures team,info@costanoa.vc,Costanoa Ventures,
+Decibel team,hello@decibel.vc,Decibel,"You co-led Veris AI's seed as the environment layer enterprise AI was missing; we build that layer for finance, where agent outcomes settle against real markets."
+Defy.vc team,hello@defy.vc,Defy.vc,
 Dell Technologies Capital team,delltechcapital@dell.com,Dell Technologies Capital,"Could you pass this to Daniel Docter? DTC backed Prime Intellect on the belief that intelligence should be owned, not rented; we build the RL environments companies need to train their own models, starting with finance."
+Duke Capital Partners team,dukecapitalpartners@duke.edu,Duke Capital Partners,"SimReal's co-founder is a current Duke student (ex-Millennium), which puts us squarely in DCP's Duke-affiliated mandate."
+Dwarkesh Patel team,hello@dwarkeshpatel.com,Dwarkesh Patel,"You backed Mechanize and pressed Dario on why labs are building RL environments; we build them for finance, where rewards come from real market outcomes."
+Episode 1 Ventures team,info@episode1.com,Episode 1 Ventures,"You led Poindexter Labs' seed as it signed a frontier lab directly; we sell the same labs expert data and RL environments, built by Cambridge and LSE quants."
+Fellows Fund team,ai@fellows.fund,Fellows Fund,
 Fusion Fund team,info@fusionfund.com,Fusion Fund,Could you pass this to Lu Zhang? You led AgileRL's seed calling reinforcement learning the gold standard of AI training; we build the finance environments and verifiers that make RL work outside the lab.
+Golden Gate Ventures team,hello@goldengate.vc,Golden Gate Ventures,You led The Librarian's seed and called it one of the few AI launches that changes how people work; we build the finance RL environments and verifiers that make assistants reliable for professionals.
+Granite Asia team,contact@graniteasia.com,Granite Asia,"You lead Granite Asia's seed-to-Series A investing across AI and fintech; we sit at that intersection, building finance RL environments, verifiers and expert data for LLM post-training."
+Greenfield Partners team,info@greenfield-growth.com,Greenfield Partners,"You led Patronus's Series B arguing simulations are becoming essential for AI to learn; we build simulation environments where outcomes settle in real markets, starting with trading."
+HKIC team,enquiry@hkic.org.hk,HKIC,HKIC has made AI a core theme of its HK$62 billion mandate; we build finance RL environments and expert data and could anchor that work in Hong Kong.
+Iterative team,hello@iterative.vc,Iterative,"Iterative co-led i10X's pre-seed in January 2026; we're quant founders building executable finance RL environments and verifiers for LLM post-training, and we're raising our seed."
 Kindred Ventures team,hello@kindredventures.com,Kindred Ventures,"Could you pass this to Kanyi Maqubela? Kindred led Scorecard's seed to test AI agents across thousands of simulated scenarios; we build the environments and verifiers that train those agents, starting with finance."
 Laude Ventures team,hello@laude.vc,Laude Ventures,"Could you pass this to Andy Konwinski? Laude described backing Arena as turning research-driven evaluation into AI infrastructure; we're doing that for finance, where models are scored by real market outcomes."
+Leonis Capital team,partners@leoniscap.com,Leonis Capital,
+Lightspeed team,us-reception@lsvp.com,Lightspeed,You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.
+Lightspeed team,mp-reception@lsvp.com,Lightspeed,You led Origin Lab's seed arguing frontier AI needs data grounded in interactive environments; financial markets are the interactive environment we build for.
 Lux Capital team,info@luxcapital.com,Lux Capital,"Could you pass this to Grace Isford? Lux backed Applied Compute twice as enterprises start training their own models; we supply the RL environments and expert data those runs need, starting with finance and accounting."
+NFX team,qed@nfx.com,NFX,
+Peak XV Partners team,contactus@peakxv.com,Peak XV Partners,"Surge 11 backed finance-AI teams like OnFinance and Finster; we build what sits upstream of such products: executable finance RL environments, verifiers and expert data, from a quant founding team."
+Point72 Ventures team,ideas@p72.vc,Point72 Ventures,You co-lead Point72 Ventures' AI investing and technical diligence; we're ex-Citadel and Millennium quants building RL environments that train AI agents on real market data.
+Radical Ventures team,aifounders@radical.vc,Radical Ventures,Radical led Prime Intellect's $130M Series A to give companies a frontier-lab training stack; we supply finance environments for that kind of stack to train on.
+Root Ventures team,hello@root.vc,Root Ventures,
+Saul Klein team,hello@phoenixcourt.co,Saul Klein,"LocalGlobe backs founders at the very first cheque, and SimReal, co-founded by a current Cambridge maths undergrad, is three weeks old and already delivering agent and expert data orders."
+Sky9 Capital team,info@sky9capital.com,Sky9 Capital,"You led ProducerAI's seed in 2023 before Google acquired it; we're quant founders building executable finance RL environments, verifiers and expert data, and we're raising our seed."
+Tau Ventures team,contact@tauventures.com,Tau Ventures,
+Thrive Capital team,info@thrivecap.com,Thrive Capital,Thrive is reported to be leading Irregular's new round for testing frontier models in controlled environments; we build controlled environments for finance.
+Unusual Ventures team,info@unusual.vc,Unusual Ventures,
+Vertex Ventures Southeast Asia & India team,vvsea_communications@vertexventures.com,Vertex Ventures Southeast Asia & India,"You led FORMAS.AI's pre-seed, noting AI is moving to integrated platforms with fine-tuning; we build finance RL environments and verifiers that feed that post-training loop."
+Wavemaker Partners team,info@wavemaker.vc,Wavemaker Partners,"Wavemaker led ChemT's seed in June to bring AI to biomanufacturing; we apply the same thesis to finance, building RL environments and verifiers that make models useful to domain experts."
+Wing Venture Capital team,hello@wing.vc,Wing Venture Capital,
+WorldQuant Ventures team,info@worldquantventures.com,WorldQuant Ventures,WorldQuant Ventures backs early-stage companies with a focus on data and finance; we're quants building RL environments and verifiers that train AI on financial tasks.
