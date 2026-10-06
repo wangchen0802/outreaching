@@ -54,3 +54,12 @@ Amaris 是 Duke 在读本科生，下面这些资源都是因为她能拿到的�
 - `lists/duke-funding-and-support.csv`（每项一行）、`lists/duke-contacts.csv`（联系人，邮箱只收官方公开的）。
 - 两条硬门槛：北卡的 NC IDEA 等要求公司总部在北卡；联邦 SBIR/STTR 要求美国公司且 50% 以上股份由美国公民或绿卡持有人持有。
 - 原始调研在 `intel/resources/duke/`，`tools/build_duke_support.py` 重建。
+
+## Duke 校友目录私信（Amaris 发送）
+
+给名单上每位 Duke 校友投资人写好的校友目录表单内容，共 74 条（71 位 + 3 位待核实毕业年份）。
+
+- `collateral/SimReal-Duke-alumni-messages.pdf`：每人一块，写明要勾的选项、第 3 栏「为什么联系你」的个性化内容和发送备注；第 2 栏自我介绍所有人相同，只换名字。
+- `lists/duke-alumni-messages.csv`：同样内容，第 2 栏已按人填好名字，方便复制。
+- SimReal 的事实只用 Charles 投资人邮件里的说法；校友的事实只用名单里核实过的。Duke 网站条款禁止未经请求的商业推销，所以每条都是向校友请教融资建议和引荐，不是硬推销。
+- `tools/build_duke_messages.py` 重建；原始文案在 `intel/outreach/duke/messages/`。

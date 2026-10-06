@@ -1,0 +1,304 @@
+[
+ {
+  "rank": "1",
+  "name": "Cassie Young",
+  "first_name": "Cassie",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Your Primary page says you're looking for founders in fintech and enterprise AI, and you lead seed rounds there. That's where we sit: we sell agent and expert data to AI labs, and our trading product Xitadel, built with IMC's data, significantly improves Qwen-3.8-27B's market making. Could I get 15 minutes of your advice on our seed round, or a sense of whether it fits Primary? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "2",
+  "name": "David Beisel",
+  "first_name": "David",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "NextView, the seed firm you co-founded after studying economics at Duke, backed Skyfall AI's continual reinforcement learning platform in a July seed round. That deal sits right next to our work: SimReal builds RL environments and recursive self-improvement for future AI, and Xitadel, our first trading product, has reached a verifiable level of RSI. Would 15 minutes work for your advice on our seed round, or a quick read on whether it could fit NextView? calendly.com/business-simreal/30min",
+  "note_for_sender": "Same fund as Rob Go (rank 20); pick one person per fund. Beisel's Skyfall AI angle is the closer fit."
+ },
+ {
+  "rank": "3",
+  "name": "Jake Flomenberg",
+  "first_name": "Jake",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You took a Duke triple major in ECE, computer science and economics, and this year you co-led Gray Swan AI's $40M Series A at Wing. Our work sits next to that: we deliver agent and expert data for AI labs, and those orders took us to $7M ARR in our first 3 weeks. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Wing? calendly.com/business-simreal/30min",
+  "note_for_sender": "Gray Swan (his 2026 deal) is listed as an RL environment vendor, so keep SimReal framed as complementary, not a competitor."
+ },
+ {
+  "rank": "4",
+  "name": "Logan Allin",
+  "first_name": "Logan",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Fin Capital names enterprise AI and wealth and capital markets among its focus areas, and you've stayed close to Duke through the FinTech advisory board. That's our overlap: Xitadel, our first trading RSI product, is built with IMC's data and significantly improves Qwen-3.8-27B's market making and trading abilities. Could you spare 15 minutes to advise us on our seed round, or tell us whether it might fit Fin Capital? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "5",
+  "name": "Mark Kraynak",
+  "first_name": "Mark",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You paired electrical engineering and English at Duke Pratt, and in March you spoke for Acrew when it led Reclaim Security's $20M Series A. Data is the common thread with us: SimReal builds data infrastructure for AI and reached $7M ARR in 3 weeks from agent and expert data orders. Would you have 15 minutes for advice on our seed round, or a view on whether it fits Acrew? calendly.com/business-simreal/30min",
+  "note_for_sender": "Fund already in the SimReal pipeline via Asad Khaliq (Acrew Capital); pick one person per fund."
+ },
+ {
+  "rank": "6",
+  "name": "Naveen Rao",
+  "first_name": "Naveen",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Between your EECS degree at Duke, co-founding MosaicML and your angel check into Cleanlab's seed, training infrastructure and data quality are home turf for you. We build RL environments and recursive self-improvement for future AI, and our first trading product, Xitadel, has reached a verifiable level of RSI. Would you have 15 minutes to share advice on our seed round, and would you consider a small angel check? calendly.com/business-simreal/30min",
+  "note_for_sender": "Founder-CEO (Unconventional AI) and angel; keep the ask light."
+ },
+ {
+  "rank": "7",
+  "name": "Steve Pagliuca",
+  "first_name": "Steve",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You serve on Duke's Board of Trustees, and through PagsGroup you co-led the seed round of Liquid AI, an MIT spinoff building new foundation models. We're a 3-week-old neolab building RL environments and recursive self-improvement for future AI, and agent and expert data orders already have us at $7M ARR. I'd value 15 minutes of your advice on our seed round, including whether it could fit PagsGroup. calendly.com/business-simreal/30min",
+  "note_for_sender": "PagsGroup writes large, growth-leaning checks; a seed round may sit below its usual size."
+ },
+ {
+  "rank": "8",
+  "name": "Wes Barton",
+  "first_name": "Wes",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You co-founded Third Prime after Duke Law, and your team just co-led Limited's $18.5M seed in crypto-and-fiat banking. We're building the AI side of that world: Xitadel, our trading RSI product built with IMC's data, significantly improves Qwen-3.8-27B's market making and trading. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Third Prime? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "9",
+  "name": "Zach Perret",
+  "first_name": "Zach",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You studied physics and chemistry at Duke, co-founded Plaid, and still write angel checks, including into Lassie's Series A in June. We're three 21-year-old undergrads with backgrounds at Citadel, Jane Street and Millennium, and we shipped 7 products in SimReal's first 2 weeks. Could I get 15 minutes of your advice on our seed round, and ask whether you'd consider a small angel check? calendly.com/business-simreal/30min",
+  "note_for_sender": "Founder-CEO; keep the ask light. Lauren Farleigh runs Mischief's investing day to day, so this asks for a personal angel check."
+ },
+ {
+  "rank": "10",
+  "name": "Howie Liu",
+  "first_name": "Howie",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Your angel checks into Fireworks AI and Decagon, plus Airtable's launch of Superagent this year, put you close to the AI agent stack. Agent data is a core part of our business: agent and expert data orders took SimReal to $7M ARR in its first 3 weeks. As a fellow Blue Devil, would you have 15 minutes to share advice on our seed round, and would you consider a small angel check? calendly.com/business-simreal/30min",
+  "note_for_sender": "Founder-CEO (Airtable) and angel; keep the ask light."
+ },
+ {
+  "rank": "11",
+  "name": "Kevin King",
+  "first_name": "Kevin",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You studied math and economics at Duke, worked at Goldman Sachs and Windhorse Capital, and now invest across fintech and AI at 53 Stations. Xitadel, our first trading RSI product, sits in that overlap: built with IMC's data, it significantly improves Qwen-3.8-27B's market making and trading abilities. If you have 15 minutes, I'd welcome your advice on our seed round and your view on whether 53 Stations might be a fit. calendly.com/business-simreal/30min",
+  "note_for_sender": "His Duke class year ('06) is not fully confirmed, so the message leaves it out."
+ },
+ {
+  "rank": "12",
+  "name": "Mark Peter Davis",
+  "first_name": "Mark",
+  "reasons": [
+   "Professional connections or referrals",
+   "Networking",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Founding the Duke Venture Community makes you a natural first call for a Duke founder, and Interplay backs fintech and AI companies at seed and Series A, including Knot. SimReal is 3 weeks old and already at $7M ARR from the agent and expert data orders we're delivering. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Interplay? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "13",
+  "name": "Danny Hadar",
+  "first_name": "Danny",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "From your Fuqua MBA to angel checks in companies like Snyk to co-founding Jibe, which led Fabrix Security's $8M seed in 2025, you've spent years at the earliest stage. SimReal, a neolab building RL environments and recursive self-improvement for future AI, reached $7M ARR in its first 3 weeks. I know Jibe backs Israeli founders, so I'd mainly value 15 minutes of advice on our seed round and any investors you'd suggest we meet. calendly.com/business-simreal/30min",
+  "note_for_sender": "Jibe backs Israeli founders and SimReal is not an Israeli team, so the ask is advice and introductions, not a Jibe check."
+ },
+ {
+  "rank": "14",
+  "name": "Greg Baker",
+  "first_name": "Greg",
+  "reasons": [
+   "Professional connections or referrals",
+   "Networking",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You earned your MBA at Fuqua and now run Towerview Ventures, Alumni Ventures' fund for Duke-connected companies, and SimReal is Duke-connected through me, its COO. We're a 3-week-old neolab building data infrastructure and RL environments for future AI, already at $7M ARR from agent and expert data orders. Could you spare 15 minutes to tell us how SimReal should apply or be considered for Towerview as we raise our seed? calendly.com/business-simreal/30min",
+  "note_for_sender": "Towerview co-invests alongside a lead VC, so SimReal will need a lead investor first."
+ },
+ {
+  "rank": "15",
+  "name": "Gregg Bordes",
+  "first_name": "Gregg",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Front Porch grew out of your Fuqua MBA class, where you met your co-founders, and the firm now backs Southeast fintech and enterprise software. On the fintech side, Xitadel, our first trading RSI product, is built with IMC's data and significantly improves Qwen-3.8-27B's market making and trading abilities. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Front Porch? calendly.com/business-simreal/30min",
+  "note_for_sender": "Same fund as Joe Mancini (rank 17); pick one person per fund. Front Porch invests directly only in Southeast startups."
+ },
+ {
+  "rank": "16",
+  "name": "Howard Lerman",
+  "first_name": "Howard",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "After studying history at Duke, you co-founded Yext, now run Roam, and joined Orchard Robotics' $22M Series A as an angel in September 2025. We're three 21-year-old undergrads, and SimReal shipped 7 products in its first 2 weeks. Would you have 15 minutes for advice on our seed round, and would you consider a small angel check? calendly.com/business-simreal/30min",
+  "note_for_sender": "Founder-CEO (Roam) and angel; keep the ask light."
+ },
+ {
+  "rank": "17",
+  "name": "Joe Mancini",
+  "first_name": "Joe",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Front Porch's Founder Pulse Survey in September asked Southeast founders about AI and the capital environment, and you co-founded the firm with two classmates from your Fuqua Daytime MBA. Here's one AI data point for that picture: SimReal is 3 weeks old and at $7M ARR from agent and expert data orders. Could I get 15 minutes of your advice on our seed round, and a sense of whether Front Porch could be a fit? calendly.com/business-simreal/30min",
+  "note_for_sender": "Same fund as Gregg Bordes (rank 15); pick one person per fund. The record suggests Mancini as the tech-side partner. Front Porch invests directly only in Southeast startups."
+ },
+ {
+  "rank": "18",
+  "name": "Katelyn Donnelly",
+  "first_name": "Katelyn",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "Your Duke economics honors thesis was on time-zone arbitrage in Vanguard international index funds, and Avalanche now invests in how people learn, earn and own. Trading links us too: Xitadel, our first trading RSI product, is built with IMC's data and significantly improves Qwen-3.8-27B's market making and trading. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Avalanche? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "19",
+  "name": "Marc Andrusko",
+  "first_name": "Marc",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You studied public policy and markets and management at Duke, worked in interest rate sales and trading at Goldman, and now list capital markets as a thesis area at Oak HC/FT. Xitadel, our first trading RSI product, is built with IMC's data and has reached a verifiable level of RSI in trading. Would 15 minutes work for your advice on our seed round, or a view on whether Oak HC/FT ever invests this early? calendly.com/business-simreal/30min",
+  "note_for_sender": "Oak HC/FT invests at early and growth stages; seed is less typical."
+ },
+ {
+  "rank": "20",
+  "name": "Rob Go",
+  "first_name": "Rob",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You co-founded NextView after a Duke economics degree and time at Spark Capital, and its seed focus includes both fintech and AI. In our first 3 weeks, SimReal reached $7M ARR from agent and expert data orders. Could you spare 15 minutes to advise us on our seed round, or tell us whether it might fit NextView? calendly.com/business-simreal/30min",
+  "note_for_sender": "Same fund as David Beisel (rank 2); pick one person per fund. Beisel's Skyfall AI angle is the closer fit."
+ },
+ {
+  "rank": "21",
+  "name": "Thomas D. Lehrman",
+  "first_name": "Thomas",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "After Duke, Yale Law and Tiger Management, you co-founded GLG, the expert network, and now back founders from pre-seed onward at Teamworthy. Expert knowledge is central to us as well: expert data and agent data orders have taken SimReal to $7M ARR in its first 3 weeks. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Teamworthy? calendly.com/business-simreal/30min",
+  "note_for_sender": ""
+ },
+ {
+  "rank": "22",
+  "name": "W. Bradford (Brad) Stephens",
+  "first_name": "Brad",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "After studying economics at Duke, you co-founded Blockchain Capital with your brother Bart, and the firm has backed Coinbase, Circle and Tether. Our overlap is trading: Xitadel, our first trading RSI product, is built with IMC's data and significantly improves Qwen-3.8-27B's market making and trading abilities. Would you have 15 minutes to share advice on our seed round, or tell us whether trading-focused AI could ever fit Blockchain Capital? calendly.com/business-simreal/30min",
+  "note_for_sender": "Blockchain Capital is crypto-only and no AI deals were found; expect advice rather than a check."
+ },
+ {
+  "rank": "23",
+  "name": "Will Bumpus",
+  "first_name": "Will",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You went from Duke to M&A at Perella Weinberg, then to Headspace, and now back early-stage founders at Westbound, which closed its $100M Fund II in 2024. Our early traction: 3 weeks in, SimReal is at $7M ARR from agent and expert data orders. Could I ask for 15 minutes of advice on our seed round, and your view on whether it could fit Westbound? calendly.com/business-simreal/30min",
+  "note_for_sender": "Westbound backs underrepresented founders; his own sector interests may be sustainability, food tech and education rather than finance."
+ },
+ {
+  "rank": "24",
+  "name": "Blake Byers",
+  "first_name": "Blake",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "At GV you backed Robinhood early, years after studying biomedical engineering and economics at Duke. That makes trading our natural link: Xitadel, our trading RSI product built with IMC's data, significantly improves Qwen-3.8-27B's market making and trading abilities. Would you have 15 minutes to share advice on our seed round, or tell us whether it could fit Byers Capital? calendly.com/business-simreal/30min",
+  "note_for_sender": "Byers Capital mostly invests at Series A and B; seed appetite is unverified."
+ },
+ {
+  "rank": "25",
+  "name": "David Cummings",
+  "first_name": "David",
+  "reasons": [
+   "Professional connections or referrals",
+   "Other"
+  ],
+  "other_text": "Advice on my startup's seed round",
+  "why": "You started Hannon Hill while still a Duke student, went on to co-found Pardot, and were the lead investor in Calendly. We're student founders too: three 21-year-old undergrads who shipped 7 products in SimReal's first 2 weeks. Since Atlanta Ventures focuses on the Southeast, would you have 15 minutes to share advice on our seed round, and would you consider a small angel check? calendly.com/business-simreal/30min",
+  "note_for_sender": "Founder-CEO of Atlanta Ventures, which focuses on Atlanta and the Southeast; a personal angel check is the realistic ask."
+ }
+]
