@@ -1,0 +1,597 @@
+{
+  "firms": [
+    {
+      "firm": "Jump Crypto / Jump Capital",
+      "parent": "Jump Trading Group",
+      "type": "加密做市/交易",
+      "arm": "Jump Crypto (digital-asset investing); Jump Capital (separate VC firm, Fund VIII $350M for enterprise AI infra & security)",
+      "hq": "Chicago, IL, US",
+      "region": "North America (US)",
+      "evidence": "Jump Crypto co-led $7.5M seed for web3-AI firm Raiinmaker (2024, The Block). Jump Crypto took a major stake in Securitize (May 2025) and joined KGeN's $13.5M strategic round (Sep 2025). Jump Capital closed $350M Fund VIII for AI infra/security and led Standard Kernel ($20M) and Compa ($35M).",
+      "aiDeals": "Raiinmaker (web3 AI, seed co-lead); Standard Kernel (automated GPU software, $20M lead); Compa (AI compensation, $35M lead); Fund VIII theses include autonomous data engineering, agent governance and distributed inference",
+      "partner": "Not confirmed in searches (Jump Capital partner names were not checked)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "This is a quant-trading parent whose VC arm has a new AI-infra fund focused on data engineering and agents. It would understand RL trading environments and expert data. Get an intro through the ex-Jane Street/Citadel network.",
+      "confidence": "high",
+      "sources": [
+        "https://www.theblock.co/post/285900/jump-capital-7-5-million-seed-round-web3-ai-firm-raiinmaker",
+        "https://www.kucoin.com/news/flash/jump-capital-closes-350m-fund-viii-for-enterprise-ai-infrastructure-and-security",
+        "https://www.itiger.com/news/1107379290",
+        "https://seedtable.com/investors/jump-capital/portfolio"
+      ]
+    },
+    {
+      "firm": "Wintermute Ventures",
+      "parent": "Wintermute Trading Ltd",
+      "type": "加密做市/交易",
+      "arm": "Wintermute Ventures + Wintermute Construct accelerator ($200K per team, follow-on up to $1M)",
+      "hq": "London, UK",
+      "region": "Europe (UK)",
+      "evidence": "Led Zerion's $12.3M Series B (2022, ForkLog). Invested in UnblockPay's seed (Mar 2026, Caplight). Reports ~600 companies reviewed and ~4% funded in 2025, mostly pre-seed/seed leads (MEXC News). Launched the Construct accelerator.",
+      "aiDeals": "Velocity Series A (Jul 2026), per aifunding.me and unverified; the portfolio is otherwise web3 infra and trading platforms",
+      "partner": "Evgeny Gaevoy (founder & CEO, Wintermute)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "https://www.wintermute.com/construct",
+      "fit": "B",
+      "why": "Leads seed rounds and has a trading-desk DNA. The stablecoin and crypto-market angle (CEO ex-#1 at a stablecoin company) is the hook. Its thesis is crypto-native, so Xitadel needs an on-chain or crypto-trading framing.",
+      "confidence": "high",
+      "sources": [
+        "https://forklog.com/en/zerion-fintech-startup-raises-12-3-million-from-wintermute-ventures-and-other-investors/amp",
+        "https://www.caplight.com/investor/wintermute-ventures",
+        "https://www.mexc.com/news/434003",
+        "https://www.wintermute.com/construct",
+        "https://www.wintermute.com/insights/news/announcements/wintermute-launches-construct",
+        "https://aifunding.me/investors/wintermute"
+      ]
+    },
+    {
+      "firm": "GSR",
+      "parent": "GSR Markets (SC Ventures is a strategic shareholder at ~$1B valuation)",
+      "type": "加密做市/交易",
+      "arm": "GSR balance-sheet / strategic investments (no separately branded VC arm confirmed)",
+      "hq": "Global (offices incl. London, Singapore, New York); HQ not confirmed in searches",
+      "region": "Global (Europe/Asia/US)",
+      "evidence": "Led the funding round for Libeara, a tokenization firm incubated by SC Ventures (Ledger Insights, ~2025). Participated in Cap Labs' $8M seed (Apr 2025). Spent $57M acquiring Autonomous and Architech.",
+      "aiDeals": "None found; deals are tokenization, RWA and stablecoin infrastructure",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "Invests at seed in stablecoin and tokenization infrastructure, which matches the CEO's stablecoin background. No AI deals, so Xitadel would be a stretch thesis.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.ledgerinsights.com/stancharts-sc-ventures-invests-in-crypto-market-maker-gsr/",
+        "https://tangem.com/en/news/investments/23437-sc-ventures-invests-in-gsr-1b-crypto-market-maker-deal/",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "firm": "Amber Group",
+      "parent": "Amber Group",
+      "type": "加密做市/交易",
+      "arm": "Amber Group strategic investments",
+      "hq": "Singapore",
+      "region": "Asia – Singapore",
+      "evidence": "Strategic investor in the Series A of K25.ai, an AI-native prediction-market platform, at a $200M post-money valuation (Pulse2; year likely 2026, not confirmed in snippet). $10M Series A in Irys (Aug 2025). Seedtable lists 34 portfolio companies.",
+      "aiDeals": "K25.ai (AI-native prediction markets, Series A)",
+      "partner": "Michael Wu (co-founder & CEO): general knowledge, not verified in this search set",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "An Asia crypto trading firm that has recently backed an AI-plus-markets company (K25.ai). A trading self-improvement environment fits that pattern. Its rounds skew strategic and later-stage.",
+      "confidence": "medium",
+      "sources": [
+        "https://pulse2.com/k25-ai-secures-series-a-investment-from-amber-group-and-valuation-doubles-to-200-million/",
+        "https://seedtable.com/investors/amber-group"
+      ]
+    },
+    {
+      "firm": "DWF Labs",
+      "parent": "DWF Labs (DWF group)",
+      "type": "加密做市/交易",
+      "arm": "DWF Labs investments + $20M AI Agent Fund",
+      "hq": "Not confirmed in searches (multi-office)",
+      "region": "Global",
+      "evidence": "Launched a $20M AI Agent Fund for web3 AI-agent projects (Dec 2024, dwf-labs.com and Investing.com). It offers up to $100K in cloud credits, and DWF's Telegram says the fund is still open for applications.",
+      "aiDeals": "$20M AI Agent Fund (autonomous AI agents, web3)",
+      "partner": "Andrei Grachev (Managing Partner): general knowledge, not verified in this search set",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "Application referenced in https://www.dwf-labs.com/news/486-dwf-labs-launches-20-million-ai-agent-fund-to-accelerate-innovation-in-autonomous-ai-technologies (exact form URL not confirmed)",
+      "fit": "C",
+      "why": "It has an explicit AI-agent fund, but the fund is token-centric (web3 projects) and comes with market-making strings attached. That is a poor match for an equity seed in an RL-env/data company, and there is reputational risk.",
+      "confidence": "high",
+      "sources": [
+        "https://www.dwf-labs.com/news/486-dwf-labs-launches-20-million-ai-agent-fund-to-accelerate-innovation-in-autonomous-ai-technologies",
+        "https://investing.com/news/cryptocurrency-news/exclusive-dwf-labs-launches-20-million-ai-agent-fund-3763017",
+        "https://t.me/s/dwflabs/998"
+      ]
+    },
+    {
+      "firm": "DRW Venture Capital (DRW / Cumberland)",
+      "parent": "DRW Holdings (Cumberland is DRW's crypto arm)",
+      "type": "加密做市/交易",
+      "arm": "DRW Venture Capital (fintech & enterprise tech; first checks $1M–$5M+, seed to late stage)",
+      "hq": "Chicago, IL, US",
+      "region": "North America (US)",
+      "evidence": "DRW is listed in TensorZero's $7.3M seed (Aug 2025). DRW VC is listed in Alpaca's Series D (Jan 2026), Crossover Markets' $31M Series B (Mar 2026) and Digital Asset's $135M strategic round (Jun 2025).",
+      "aiDeals": "TensorZero (open-source LLM infra / optimization, seed 2025)",
+      "partner": "Kimberly Trautmann (Partner, DRW Venture Capital); Don Wilson (DRW founder/CEO)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "https://drw.com/vc (VC page; no form confirmed)",
+      "fit": "A",
+      "why": "A prop-trading VC that writes seed checks and has backed LLM infrastructure (TensorZero) plus market-structure fintech. It also has crypto depth through Cumberland, so it can assess both Xitadel and the RL-env/data business.",
+      "confidence": "medium",
+      "sources": [
+        "https://drw.com/vc",
+        "https://rblt.com/fintech-summit-biography/kimberly-trautmann",
+        "https://seedtable.com/investors/drw/portfolio",
+        "https://dropstab.com/investors/drw-venture-capital",
+        "https://www.drw.com/about/don-wilson/"
+      ]
+    },
+    {
+      "firm": "QCP Capital",
+      "parent": "QCP Capital",
+      "type": "加密做市/交易",
+      "arm": "QCP Capital early-stage investments",
+      "hq": "Singapore",
+      "region": "Asia – Singapore",
+      "evidence": "Strategic investor in Perceptron AI (Jul 2026) and Talos's Series B extension (Jan 2026), per Caplight. Caplight lists ~58 portfolio companies.",
+      "aiDeals": "Perceptron AI (strategic, Jul 2026)",
+      "partner": "Darius Sit (co-founder; angel-profile check $50K–$1M, pre-seed/seed, crypto/dev tools/fintech per Evalyze)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A Singapore crypto options and derivatives desk that has recently made an AI deal, and its co-founder writes seed-size checks. Fits as a strategic angle in an Asia syndicate.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.caplight.com/investor/qcp",
+        "https://www.evalyze.ai/investors/darius-sit"
+      ]
+    },
+    {
+      "firm": "Galaxy Ventures",
+      "parent": "Galaxy Digital",
+      "type": "加密做市/交易",
+      "arm": "Galaxy Ventures (Fund I, final close >$175M in 2025)",
+      "hq": "New York, NY, US",
+      "region": "North America (US)",
+      "evidence": "Galaxy Ventures Fund I had its final close above $175M (2025) after a $113M initial close. The firm has backed 120+ companies. aifunding.me lists Galaxy Ventures as leading a $33M seed (Jun 2026) and names Ornn, a GPU-compute futures exchange, as an AI holding; neither claim is independently confirmed.",
+      "aiDeals": "Ornn (compute futures exchange), per aifunding.me; low confidence",
+      "partner": "Will Nuelle and Mike Giampapa (General Partners, Galaxy Ventures)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "https://ventures.galaxy.com/ (site; form not confirmed)",
+      "fit": "B",
+      "why": "An active early-stage crypto and fintech fund with a trading-desk parent. AI-x-markets deals like Ornn suggest openness to a trading self-improvement environment, but the core thesis is crypto.",
+      "confidence": "medium",
+      "sources": [
+        "https://ventures.galaxy.com/",
+        "https://s201.q4cdn.com/407453138/files/doc_news/Galaxy-Announces-Final-Close-of-Oversubscribed-Galaxy-Ventures-Fund-I-at-Over-175M-2025.pdf",
+        "https://www.theblock.co/post/307450/michael-novogratzs-galaxy-secures-113-million-for-crypto-focused-venture-fund",
+        "https://aifunding.me/investors/galaxy-ventures",
+        "https://pulse2.com/ornn-5-7-million-seed-funding-raised-for-launching-compute-futures-exchange"
+      ]
+    },
+    {
+      "firm": "B2C2",
+      "parent": "SBI Holdings (Japan, ~90% owner)",
+      "type": "加密做市/交易",
+      "arm": "B2C2 balance-sheet strategic investments",
+      "hq": "London, UK",
+      "region": "Europe (UK); parent in Asia – Japan",
+      "evidence": "Investor in BLIFE Protocol's $7M round (Dec 2024) and CoinFLEX's $10M round (Aug 2019), per DefiLlama and crypto-fundraising.info.",
+      "aiDeals": "None found",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Invests only occasionally and strategically in crypto. No AI or data deals.",
+      "confidence": "medium",
+      "sources": [
+        "https://defillama.com/raises/b2c2",
+        "https://crypto-fundraising.info/funds/b2c2/"
+      ]
+    },
+    {
+      "firm": "FalconX",
+      "parent": "FalconX",
+      "type": "加密做市/交易",
+      "arm": "Corporate strategic investments / M&A",
+      "hq": "San Mateo, CA, US",
+      "region": "North America (US)",
+      "evidence": "Invested in Arbelos Markets' $28M seed (led by Dragonfly), then acquired Arbelos in Jan 2025 (Finance Magnates).",
+      "aiDeals": "None found",
+      "partner": "Raghu Yarlagadda (co-founder & CEO)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Investments are strategic and lead toward acquisition, with no active seed program. It is more relevant as a potential customer or data partner than as an investor.",
+      "confidence": "medium",
+      "sources": [
+        "https://financemagnates.com/cryptocurrency/crypto-prime-broker-falconx-to-acquire-derivatives-startup-arbelos-markets/amp",
+        "https://en.wikipedia.org/wiki/FalconX"
+      ]
+    },
+    {
+      "firm": "Kronos Research",
+      "parent": "Kronos Research",
+      "type": "加密做市/交易",
+      "arm": "Proxima Investments (formerly Kronos Ventures), funded with Kronos proprietary capital",
+      "hq": "Taipei, Taiwan",
+      "region": "Asia – Taiwan",
+      "evidence": "Seed in Bitlayer (Mar 2024), pre-seed in Nubila (Jul 2024) and seed in Pudgy Penguins (May 2023), per Seedtable. Focuses on seed and Series A web3 rounds.",
+      "aiDeals": "Nubila (DePIN weather and data network, pre-seed)",
+      "partner": "Hank Huang (CEO): general knowledge, not verified in this search set",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A quant HFT shop that funds seed rounds from proprietary capital. Its quant culture suits RL trading environments, but the portfolio is web3-only.",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/kronos-research/portfolio",
+        "https://pitchbook.com/profiles/investor/1441038-43",
+        "https://altss.com/profile/kronos-ventures"
+      ]
+    },
+    {
+      "firm": "Auros",
+      "parent": "Auros",
+      "type": "加密做市/交易",
+      "arm": "Auros venture arm (target >$50M over two years)",
+      "hq": "Hong Kong / Singapore (HQ not confirmed)",
+      "region": "Asia – Hong Kong/Singapore",
+      "evidence": "Launched a venture arm to deploy over $50M into digital-asset companies (DealStreetAsia). Auros raised $17M led by Vivienne Court with Optiver alumni. CB Insights lists Auros alongside Hyperithm's Series B-II (Aug 2025), but whether Auros invested is ambiguous.",
+      "aiDeals": "None found",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "An HFT market maker with Optiver DNA and a stated venture program, but no named seed deals were confirmed and it has no AI track record.",
+      "confidence": "low",
+      "sources": [
+        "https://dealstreetasia.com/stories/crypto-firm-auros-launches-venture-arm-403130",
+        "https://financefeeds.com/auros-raises-17m-to-strengthen-lp-and-market-making-business-in-crypto/",
+        "https://www.cbinsights.com/company/hyperithm/financials"
+      ]
+    },
+    {
+      "firm": "Selini Capital",
+      "parent": "Selini Capital",
+      "type": "加密做市/交易",
+      "arm": "Selini Capital venture investing (alongside systematic trading and liquidity provision)",
+      "hq": "Not confirmed in searches",
+      "region": "Global",
+      "evidence": "Seed and pre-seed investments in Cambrian Network and Enhanced Labs (early 2026), per Caplight and CB Insights. ~95 portfolio companies.",
+      "aiDeals": "None at firm level confirmed. Founder Jordi Alexander made an angel investment in TrueNorth (Jun 2025).",
+      "partner": "Jordi Alexander (Founder & CIO)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A systematic-trading firm that does high-volume seed investing, and its founder is an active angel. It fits a crypto-trading or Xitadel angle as a small strategic check.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.caplight.com/investor/selini-capital",
+        "https://www.cbinsights.com/investor/selini-capital",
+        "https://www.cbinsights.com/investor/jordi-alexander"
+      ]
+    },
+    {
+      "firm": "Laser Digital (Nomura)",
+      "parent": "Nomura Holdings",
+      "type": "加密做市/交易",
+      "arm": "Laser Digital Ventures",
+      "hq": "Zurich, Switzerland",
+      "region": "Europe (Switzerland); parent in Asia – Japan",
+      "evidence": "Led KAIO's seed (Jul 2025). Co-invested in Turtle Club (May 2025) and Axelar (Mar 2025), per Seedtable. Participated in Cap Labs' $8M seed (Apr 2025). Invested in WebN Group (CMS).",
+      "aiDeals": "None found; deals are tokenization, DeFi and infra",
+      "partner": "Jez Mohideen (CEO, Laser Digital)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A bank-backed venture arm that leads seed rounds in institutional crypto and stablecoin infrastructure. The CEO's stablecoin pedigree is the hook, and Nomura gives a Japan/Asia distribution angle.",
+      "confidence": "high",
+      "sources": [
+        "https://seedtable.com/investors/laser-digital",
+        "https://www.theblock.co/amp/post/171700/banking-giant-nomura-launches-crypto-vc-unit",
+        "https://ledgerinsights.com/nomura-digital-assets-venture-laser/",
+        "https://cms.law/en/gbr/publication/cms-advises-laser-digital-on-webn-group-investment",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "firm": "Presto Labs",
+      "parent": "Presto Labs",
+      "type": "加密做市/交易",
+      "arm": "Presto Labs venture investments (pre-seed to Series A)",
+      "hq": "Singapore (Korean-founded; Seoul presence)",
+      "region": "Asia – Singapore/South Korea",
+      "evidence": "$1M strategic investment in Telos for a SNARKtor-powered L2 (CryptoSlate press release, 2023).",
+      "aiDeals": "None found",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "A quant HFT firm that makes some small strategic checks. It is a better customer prospect for RL environments or expert data than a lead investor.",
+      "confidence": "medium",
+      "sources": [
+        "https://cryptoslate.com/press-releases/telos-secures-1m-in-funding-from-presto-labs-to-develop-snarktor-powered-l2-and-snarktor-labs/",
+        "https://thevc.kr/prestolabs",
+        "https://www.caplight.com/investor/prestolabs"
+      ]
+    },
+    {
+      "firm": "Kenetic Capital",
+      "parent": "Kenetic",
+      "type": "加密做市/交易",
+      "arm": "Kenetic Capital (web3 family office / trading & investment)",
+      "hq": "Central, Hong Kong",
+      "region": "Asia – Hong Kong",
+      "evidence": "CB Insights lists Kenetic investing in PlaysOut (Mar 2025) and TradeFioor (May 2025). It invests in equity and tokens from pre-seed to Series B.",
+      "aiDeals": "None confirmed",
+      "partner": "Jehan Chu (co-founder & managing partner): general knowledge, not verified in this search set",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "An active Hong Kong web3 seed investor, but its focus is gaming and crypto apps with no AI or quant-tooling thesis.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.cbinsights.com/investor/kenetic-capital",
+        "https://startupim.com/investor/kenetic"
+      ]
+    },
+    {
+      "firm": "Hyperithm",
+      "parent": "Hyperithm",
+      "type": "加密做市/交易",
+      "arm": "Hyperithm (digital-asset management/trading with venture portfolio, 50+ investments)",
+      "hq": "Seoul, South Korea / Tokyo, Japan (not confirmed in searches)",
+      "region": "Asia – South Korea/Japan",
+      "evidence": "CB Insights describes 50+ investments and lists a $9.5M Series B-II (Aug 2025) with Polychain, VanEck and YZi Labs. Hyperithm's role in that round is ambiguous.",
+      "aiDeals": "None found",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "An Asian crypto trading and asset manager with a venture book. Its thesis is web3 with no AI focus, and the evidence is thin.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cbinsights.com/company/hyperithm/financials",
+        "https://hub.waveup.com/funds/hyperithm"
+      ]
+    },
+    {
+      "firm": "Flow Traders Capital",
+      "parent": "Flow Traders",
+      "type": "加密做市/交易",
+      "arm": "Flow Traders Capital (CVC, initial €50M; themes: platform, data, connectivity)",
+      "hq": "Amsterdam, Netherlands",
+      "region": "Europe (Netherlands); APAC offices not confirmed in searches",
+      "evidence": "Participated in OpenYield (Nov 2024), Cap Labs' $8M seed (Apr 2025), TVL Capital's $5M seed (Jun 2026, led by Framework) and Pharos's $44M Series A (Apr 2026). Portfolio includes Elwood, Ondo, bloXroute and D2X.",
+      "aiDeals": "None explicitly AI; 'data' is a stated theme",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A trading-firm CVC that writes seed checks and has an explicit 'data' theme. Expert trading data and environments map onto that. Most of its portfolio is crypto market infrastructure.",
+      "confidence": "medium",
+      "sources": [
+        "https://siliconcanals.com/amsterdams-flow-traders-vc-unit/",
+        "https://defillama.com/raises/flow-traders",
+        "https://seedtable.com/investors/flow-traders",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "firm": "Optiver (incl. Optiver APAC)",
+      "parent": "Optiver Holding BV",
+      "type": "亚洲交易",
+      "arm": "Optiver Principal Strategic Investments (PSI): fintech, IT infrastructure, digital assets",
+      "hq": "Amsterdam, Netherlands (APAC hub: Sydney)",
+      "region": "Global; APAC – Australia (Sydney)",
+      "evidence": "Took an equity stake in Eden Block, an AI- and crypto-focused VC firm, for early-stage exposure (Bloomberg, 20 Apr 2026). The PSI team launched in Oct 2021 (Business Wire). Portfolio includes Paradigm, MEMX, Digital Asset, McKay Brothers, Sharegain and Equiduct.",
+      "aiDeals": "Eden Block (AI/crypto VC firm stake, 2026)",
+      "partner": "Michael Lepa (Head of Technology Ecosystem & Innovation; PSI US lead, Chicago)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "https://www.optiver.com/about-us/principal-strategic-investments/ (PSI page; form not confirmed)",
+      "fit": "B",
+      "why": "A top market maker newly seeking AI exposure. PSI is strategic and infra-focused, so it is a fit as a strategic co-investor or design partner for Xitadel rather than a seed lead.",
+      "confidence": "high",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-04-20/optiver-steps-toward-ai-crypto-startup-exposure-with-vc-stake",
+        "https://www.optiver.com/about-us/principal-strategic-investments/",
+        "https://www.businesswire.com/news/home/20211013005516/en",
+        "https://www.thebigwhale.io/peoples/michael-lepa"
+      ]
+    },
+    {
+      "firm": "IMC Trading (incl. IMC APAC)",
+      "parent": "IMC",
+      "type": "亚洲交易",
+      "arm": "IMC strategic investments (no branded VC arm confirmed)",
+      "hq": "Amsterdam, Netherlands (also Chicago; APAC: Sydney)",
+      "region": "Global; APAC – Australia (Sydney)",
+      "evidence": "Invested in SpectrAxe's Series A with SIG and CTC (Apr 2025), Cap Labs' $8M seed (Apr 2025) and Brazil's A5X exchange (Jan 2025), per StartupIntros.",
+      "aiDeals": "None found",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Xitadel is already built with IMC's data, and IMC writes strategic checks, including at seed (Cap Labs). This is the warmest strategic-investor path.",
+      "confidence": "medium",
+      "sources": [
+        "https://startupintros.com/orgs/imc",
+        "https://www.imc.com/eu/news"
+      ]
+    },
+    {
+      "firm": "SIG Asia Investments (海纳亚洲创投基金)",
+      "parent": "Susquehanna International Group (SIG)",
+      "type": "亚洲交易",
+      "arm": "SIG Asia Investments / SIG China",
+      "hq": "Shanghai / Beijing / Hong Kong",
+      "region": "Asia – Mainland China (中国大陆) / Hong Kong",
+      "evidence": "SIG China was Mobvoi's largest external shareholder (~17%, as of 2023). It was an early ByteDance investor (Wikipedia). CB Insights maintains an active SIG Asia Investments investor profile.",
+      "aiDeals": "Mobvoi (AI voice/LLM, ~17% stake)",
+      "partner": "Not confirmed in searches",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "The VC arm of an options market maker with deep AI investing in Asia, so it understands trading environments. The portfolio is China-centric, and US/China cross-border constraints apply for a US seed.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.cbinsights.com/investor/sig-asia-investments",
+        "https://cryptobriefing.com/asian-ai-investors-openai-spacex-funding/",
+        "https://en.wikipedia.org/wiki/Susquehanna_International_Group"
+      ]
+    },
+    {
+      "firm": "九坤投资 Ubiquant (九坤创投)",
+      "parent": "九坤投资 Ubiquant Investment",
+      "type": "中国量化",
+      "arm": "九坤创投 Ubiquant Ventures: AI, robotics, aerospace, consumer electronics; early-stage, incubation and fund-of-funds",
+      "hq": "Beijing, China",
+      "region": "Asia – Mainland China (中国大陆)",
+      "evidence": "九坤创投 participated in 星动纪元 (Robot Era)'s ¥1B round led by 诚通基金 (Jul 2026, cnfin and wallstreetcn). Ubiquant was a co-investor in Rino.ai's Series B extension (Dec 2025, Caplight).",
+      "aiDeals": "星动纪元 Robot Era (embodied AI); Rino.ai (AI)",
+      "partner": "Not confirmed in searches (九坤创投 was founded by Ubiquant's founder)",
+      "email": "",
+      "emailSource": "No firm-published pitch email found in searches; none guessed",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "A quant fund with a dedicated AI venture arm, so it gets RL and trading environments immediately. The portfolio is RMB and China-focused, and backing a US AI startup raises CFIUS and outbound-investment friction.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.cnfin.com/gs-lb/detail/20260710/4438341_1.html",
+        "https://wallstreetcn.com/articles/3776271",
+        "https://www.caplight.com/investor/ubiquant",
+        "https://www.tryfundable.ai/investor/jiu-kun-chuang-tou",
+        "https://www.ubiquant.com/website/en"
+      ]
+    }
+  ],
+  "noEvidence": [
+    {
+      "firm": "Cumberland (DRW)",
+      "note": "Investing runs through DRW Venture Capital (see the DRW entry). No separate Cumberland venture deals were found."
+    },
+    {
+      "firm": "Keyrock",
+      "note": "Searches found only Keyrock raising money (Series C at $1.1B led by SC Ventures, 2026), not investing in startups. https://crypto.jobs/news/keyrock-raises-series-c-at-1-1b-valuation-led-by-standard-chartered-s-sc-ventures"
+    },
+    {
+      "firm": "Flowdesk",
+      "note": "Only Flowdesk's own $102M Series B (2025) was found; no outbound startup investments. https://seedtable.com/companies/flowdesk/funding-rounds/series-b-2025-03"
+    },
+    {
+      "firm": "Folkvang",
+      "note": "Hong Kong crypto quant market maker; CB Insights shows only an inbound Alameda investment and no venture deals. https://www.cbinsights.com/company/folkvang"
+    },
+    {
+      "firm": "Portofino Technologies",
+      "note": "Ex-Citadel Securities founders (useful intro angle) and $50M raised from Valar/Coatue (2022); no outbound investments found. https://www.theblock.co/post/170285/ex-citadel-securities-employees-raise-50-million-for-crypto-market-maker-portofino-technologies"
+    },
+    {
+      "firm": "Gravity Team",
+      "note": "No venture deals found; searches returned unrelated 'Gravity' startups."
+    },
+    {
+      "firm": "Efficient Frontier",
+      "note": "Tel Aviv-based (not Asia) crypto market maker; only inbound funding found (Alameda 2021, Collider 2018). https://app.dealroom.co/companies/efrontier"
+    },
+    {
+      "firm": "Caladan",
+      "note": "Singapore crypto market maker (ex-Virtu/Citadel founders, formerly AlphaLab Capital); no named venture deal found. https://www.malaymail.com/news/money/mediaoutreach/2024/10/02/caladan-announces-options-and-structured-products-desk/331067"
+    },
+    {
+      "firm": "Orbit Markets",
+      "note": "Searches returned no investment activity."
+    },
+    {
+      "firm": "Abra",
+      "note": "Abra Capital Management (2024) is an RIA running crypto SMAs, not a venture arm; no startup deals found. https://www.abra.com/?p=1518"
+    },
+    {
+      "firm": "GSR Ventures (金沙江创投)",
+      "note": "Name collision: this is a Beijing generalist VC (managing partner Zhu Xiaohu 朱啸虎) unrelated to GSR Markets. It is reportedly raising a $350M AI fund, and its US business is now Informed Ventures; route it to the generalist-VC list. https://pulse2.com/gsr-ventures-350-million-fund-reportedly-planned-by-rednote-backer/"
+    },
+    {
+      "firm": "Matrixport (Matrixport Ventures)",
+      "note": "Singapore crypto financial-services firm; searches found only its own 2021 $100M Series C and no recent venture deals. https://www.theblock.co/linked/113201/matrixport-100-million-series-c-1-billion-valuation"
+    },
+    {
+      "firm": "幻方 High-Flyer",
+      "note": "Mainland China (Hangzhou). No external VC activity; it funds DeepSeek in-house and built the 萤火 AI clusters. https://m.thepaper.cn/newsDetail_forward_29988888"
+    },
+    {
+      "firm": "明汯 Minghong",
+      "note": "Mainland China (Shanghai). No VC deals found; partner 解环宇's 玖思科技 builds finance AI; founder 裘慧明 is ex-Millennium (intro angle). https://wallstreetcn.com/articles/3647961"
+    },
+    {
+      "firm": "灵均 Lingjun",
+      "note": "Mainland China. No VC deals found; chairman 蔡枚杰 founded 点富科技 (AI for family health), an incubation rather than venture investing. https://wallstreetcn.com/articles/3647961"
+    },
+    {
+      "firm": "衍复 Yanfu",
+      "note": "Mainland China (Shanghai). No VC deals found; founder 高亢 is an ex-锐天 partner (MIT physics/CS). https://wallstreetcn.com/articles/3647961"
+    },
+    {
+      "firm": "锐天 Ruitian",
+      "note": "Mainland China (Shanghai). No VC deals found; GM 徐晓波 is ex-Citadel (intro angle). https://wallstreetcn.com/articles/3647961"
+    },
+    {
+      "firm": "致诚卓远",
+      "note": "Mainland China. Searches returned no startup-investing evidence."
+    },
+    {
+      "firm": "金戈量锐",
+      "note": "Mainland China. Searches returned no startup-investing evidence."
+    },
+    {
+      "firm": "宽德 Wanderer",
+      "note": "Mainland China. Searches returned no startup-investing evidence."
+    },
+    {
+      "firm": "黑翼 Black Wing",
+      "note": "Mainland China. No VC deals; only a Peking University lecture by CIO 邹倚天 on AI in asset management. https://econ.pku.edu.cn/xkzy/jrxx/xkdt2/xkdtzs/383500.htm"
+    },
+    {
+      "firm": "念空 Ningkong (extra)",
+      "note": "Mainland China. Founder 王啸 set up AllMind, an LLM research company; this is a spin-out, not venture investing. https://wallstreetcn.com/articles/3647961"
+    },
+    {
+      "firm": "Tibra",
+      "note": "Asia – Australia (Sydney). Searches returned no venture or strategic startup investments."
+    },
+    {
+      "firm": "Eclipse Trading",
+      "note": "Asia – Hong Kong. Searches returned no venture or strategic startup investments."
+    },
+    {
+      "firm": "Grasshopper",
+      "note": "Asia – Singapore prop firm with no outside investors; launched an asset-management fund, not a VC arm. Founder John Lin mentors at Chinaccelerator. https://financeasia.com/article/grasshopper-asset-management-launches-first-fund/493304"
+    }
+  ]
+}

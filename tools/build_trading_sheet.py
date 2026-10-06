@@ -56,6 +56,28 @@ def key(name):
     return re.sub(r"[^a-z0-9一-鿿]+", "", name)
 
 
+# First word of a firm's name -> one key per trading house, so its fund, VC arm and trading desk merge.
+ALIAS = {"susquehanna": "sig", "hudson": "hrt", "jane": "janestreet", "flow": "flowtraders", "chicago": "ctc",
+         "bam": "balyasny", "two": "deviation", "kronos": "kronos"}
+
+
+def canon(name):
+    """One key per trading house ("Jump Crypto / Jump Capital", "Jump Trading" -> "jump"); SIG Asia stays apart."""
+    words = re.findall(r"[a-z0-9]+", re.sub(r"[（(].*?[)）]", " ", name or "").lower())
+    if not words:
+        return key(name)
+    if words[:2] == ["sig", "asia"]:
+        return "sigasia"
+    if words[:2] == ["d", "e"]:
+        return "deshaw"
+    return ALIAS.get(words[0], words[0])
+
+
+def flat(record):
+    """Researchers sometimes return a list where text is expected; join those so every cell is text."""
+    return {k: v if k == "sources" or not isinstance(v, list) else "；".join(str(x) for x in v) for k, v in record.items()}
+
+
 def clean_email(value, source):
     """The published, pitch-usable addresses in a field; empty when the source is a broker."""
     if BROKERS.search(source or "") or BROKERS.search(value or ""):
@@ -69,7 +91,7 @@ def known_emails():
     if EMAILS.exists():
         with open(EMAILS, encoding="utf-8-sig") as f:
             for r in csv.DictReader(f):
-                out.setdefault(key(r["名称"]), []).append((r["邮箱"], r["来源链接"]))
+                out.setdefault(canon(r["名称"]), []).append((r["邮箱"], r["来源链接"]))
     return out
 
 
@@ -77,24 +99,30 @@ def main():
     firms, people, none = [], [], []
     for path in sorted(SRC.glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
-        firms += data.get("firms", [])
-        people += data.get("people", [])
-        none += data.get("noEvidence", [])
+        firms += [flat(f) for f in data.get("firms", [])]
+        people += [flat(p) for p in data.get("people", [])]
+        none += [flat(n) for n in data.get("noEvidence", [])]
     known = known_emails()
 
-    seen, rows = set(), []
-    for f in sorted(firms, key=lambda f: (FIT_RANK.get(f.get("fit"), 3), f["firm"].lower())):
-        k = key(f.get("arm") or f["firm"])
+    seen, rows = {}, []
+    for f in sorted(firms, key=lambda f: (FIT_RANK.get(f.get("fit"), 3), f.get("confidence") != "high", f["firm"].lower())):
+        k = canon(f["firm"])
         if k in seen:
+            # The same house from another sweep: keep the best-rated record, add this one's sources to it.
+            extra = [u for u in (f.get("sources") or []) if u not in seen[k]["sources"]]
+            seen[k]["sources"] += extra
             continue
-        seen.add(k)
+        f["sources"] = list(f.get("sources") or [])
+        seen[k] = f
+    for f in seen.values():
+        k = canon(f["firm"])
         emails = clean_email(f.get("email"), f.get("emailSource"))
         sources = [f.get("emailSource", "")] * len(emails)
-        for e, src in known.get(key(f["firm"]), []) + known.get(key(f.get("arm") or ""), []):
+        for e, src in known.get(k, []):
             if e not in emails:
                 emails.append(e)
                 sources.append(src)
-        rows.append([f.get("fit", ""), f.get("arm") or f["firm"], f.get("parent", ""), f.get("type", ""),
+        rows.append([f.get("fit", ""), f["firm"], f.get("arm") or "", f.get("type", ""),
                      f.get("region") or f.get("hq", ""), f.get("evidence", ""), f.get("aiDeals", ""),
                      f.get("partner") or "未找到", "\n".join(emails) or "未找到", "\n".join(s for s in sources if s),
                      f.get("pitchForm") or "", f.get("why", ""), CONF.get(f.get("confidence"), ""),
@@ -107,7 +135,7 @@ def main():
              "\n".join(clean_email(p.get("email"), p.get("emailSource"))) or "未找到", p.get("why", ""),
              CONF.get(p.get("confidence"), ""), "\n".join((p.get("sources") or [])[:5])] for i, p in enumerate(people, 1)]
 
-    cols = [("序号", 6), ("匹配度", 7), ("投资方（投资部门）", 26), ("母公司", 20), ("类型", 14), ("地区", 16),
+    cols = [("序号", 6), ("匹配度", 7), ("交易公司 / 基金", 26), ("投资部门和方式", 34), ("类型", 14), ("地区", 16),
             ("投资证据", 44), ("投过的 AI / 数据 / 金融科技公司", 44), ("负责人", 26), ("公开邮箱", 30),
             ("邮箱来源", 36), ("投递表单", 30), ("为什么适合", 40), ("把握", 6), ("来源", 50)]
     wb = Workbook()

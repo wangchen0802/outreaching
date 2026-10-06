@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "asOf": "2026-10-06",
+    "method": "WebSearch result snippets only (40 searches); no pages opened. No published pitch emails surfaced in any snippet, so every email is null. Nothing is pattern-guessed. Where the only source for a claim is a database or aggregator profile (cbinsights, caplight, altss, startupintros, crypto-fundraising.info, aifunding.me, thebigwhale), confidence is lowered.",
+    "scope": "Proprietary trading, HFT and market-making firms that are not crypto-native. Crypto-native firms (Wintermute, GSR, Cumberland, Jump Crypto, etc.) are excluded."
+  },
+  "firms": [
+    {
+      "firm": "Tower Research Capital",
+      "parent": "Tower Research Capital",
+      "type": "高频/自营",
+      "arm": "Tower Research Ventures (TRV)",
+      "hq": "New York, NY",
+      "evidence": "TRV led the $2M pre-seed round of CaseBlink, an AI legal-tech startup, in March 2025. TRV's page says it invests from incubation to seed and has led seed rounds in Guard Owl, Assembli and CaseBlink.",
+      "aiDeals": [
+        "CaseBlink (AI legal tech), led $2M pre-seed, 2025",
+        "Guard Owl, seed led by TRV (year not in snippet)",
+        "Assembli, seed led by TRV (year not in snippet)"
+      ],
+      "partner": "Jared Young, Director of Venture Capital, leads the venture business. The team also includes Pietro Decio and Andrew McKinzie (tower-research.com/ventures).",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "Invests from incubation to seed and focuses on AI/ML, fintech and developer infrastructure. It leads pre-seed rounds, so a 3-week-old company fits its stage. TRV is also hiring a 'Staff AI Engineer - Tower Research Ventures', which shows an AI build focus. The HFT DNA matches founders from Jane Street, Citadel and Millennium. One of the two closest matches to the SimReal brief.",
+      "confidence": "high",
+      "sources": [
+        "https://www.thesaasnews.com/news/caseblink-raises-2m-in-pre-seed-round",
+        "https://tower-research.com/ventures/",
+        "https://tower-research.com/trv",
+        "https://www.builtinnyc.com/job/staff-ai-engineer-tower-research-ventures/7601926"
+      ]
+    },
+    {
+      "firm": "Hudson River Trading",
+      "parent": "Hudson River Trading (HRT)",
+      "type": "高频/做市",
+      "arm": "No public announcement of a branded arm turned up. Deals are made under the name 'Hudson River Trading'. One aggregator calls the venture entity 'HRT Technology'; that name is unverified. The 'HRT Ventures' name from the brief was not confirmed in any snippet.",
+      "hq": "New York, NY",
+      "evidence": "HRT took part in Gray Swan's $40M Series A (AI security), co-led by Wing VC and Madrona and announced in June 2026.",
+      "aiDeals": [
+        "Gray Swan (AI security / red-teaming for frontier labs), Series A, 2026",
+        "Olix ($312M round; year not in snippet; cbinsights)",
+        "Polaris Electro-Optics Series B (year not in snippet; cbinsights)"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "An AI-heavy HFT firm that is writing checks into frontier-AI tooling (Gray Swan) alongside top VCs. A trading RL environment and agent data are directly relevant to how HRT works. There is no public head or pitch channel, so the founders would need a warm intro, likely through ex-colleagues.",
+      "confidence": "medium",
+      "sources": [
+        "https://fintech.global/2026/06/01/gray-swan-raises-40m-to-secure-ai-at-the-frontier/",
+        "https://technical.ly/entrepreneurship/gray-swan-ai-security-40m-series-a/",
+        "https://www.cbinsights.com/company/hudson-river-trading",
+        "https://altss.com/profile/hrt-technology"
+      ]
+    },
+    {
+      "firm": "Jump Trading",
+      "parent": "Jump Trading Group",
+      "type": "高频/自营",
+      "arm": "Jump Capital. It is an independent VC firm backed by Jump Trading's founders, founded in 2012 by Mike McMahon and Sach Chitnis. Jump Crypto is a separate crypto arm and is excluded here.",
+      "hq": "Chicago, IL",
+      "evidence": "Raised a $350M Fund VIII aimed at AI investments in 2026. It led a $35M round for Compa and a $20M round for Standard Kernel (GPU software), and has invested in TrueFoundry.",
+      "aiDeals": [
+        "Compa (AI compensation), led $35M (2025-26 per fund coverage)",
+        "Standard Kernel (automated GPU kernel software), led $20M (2025-26)",
+        "TrueFoundry (AI infrastructure)",
+        "$350M Fund VIII targeting enterprise AI infrastructure and security, 2026"
+      ],
+      "partner": "Saurabh Sharma, General Partner; leads tech infrastructure, intelligent software and decentralized networks. Peter Johnson, Partner; fintech and insurtech.",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "Invests at pre-seed through Series A with $1-4M first checks. The new fund is explicitly aimed at AI infrastructure, and the firm knows trading through Jump. Saurabh Sharma, a former quant algo trader who covers AI infrastructure, is the natural partner to approach.",
+      "confidence": "high",
+      "sources": [
+        "https://feature.theinformation.com/articles/jump-capital-raises-350-million-fund-ai-investments",
+        "https://www.itiger.com/news/1107379290",
+        "https://www.kucoin.com/news/flash/jump-capital-closes-350m-fund-viii-for-enterprise-ai-infrastructure-and-security",
+        "https://jumpcap.com/",
+        "https://polsky.uchicago.edu/people/saurabh-sharma/",
+        "https://www.kauffmanfellows.org/fellows/peter-johnson"
+      ]
+    },
+    {
+      "firm": "DRW",
+      "parent": "DRW Holdings",
+      "type": "自营/做市",
+      "arm": "DRW Venture Capital",
+      "hq": "Chicago, IL (540 W Madison St)",
+      "evidence": "Co-led Digital Asset's $135M strategic round with Tradeweb (2025). Participated in the Crossover Markets Series B ($31M, March 2026) and the Databento Series B (March 2026).",
+      "aiDeals": [
+        "Databento (market-data platform), Series B, 2026",
+        "Alpaca (brokerage API), $150M Series D",
+        "TRM Labs (blockchain intelligence), $70M Series C",
+        "Talos (institutional trading tech), $105M Series B"
+      ],
+      "partner": "Kim (Kimberly) Trautmann, Head / Partner of DRW Venture Capital",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "B",
+      "why": "Stage-agnostic with $1-5M+ first checks, and lists AI/ML and data analytics among its focus areas. In practice the portfolio leans toward market structure and crypto infrastructure. A trading self-improvement environment built on real market data is plausible, but less core than for TRV, Jump or XTX. One snippet points pitches to DRWVC.com / drw.com/vc; no form was verified.",
+      "confidence": "high",
+      "sources": [
+        "https://drw.com/vc",
+        "https://www.drw.com/updates/insights/drw-venture-capital-what-gives-us-our-edge",
+        "https://chatwithtraders.com/video/the-trading-powerhouse-directing-profits-into-vc-kim-trautmann",
+        "https://www.caplight.com/investor/drw",
+        "https://www.trysignalbase.com/news/funding/virtu-financial-secures-31"
+      ]
+    },
+    {
+      "firm": "Susquehanna International Group (SIG)",
+      "parent": "Susquehanna International Group",
+      "type": "做市/自营",
+      "arm": "Susquehanna Growth Equity (SGE; US and Israel growth stage). SIG Venture Capital / SIG Asia Investments (Asia; Hong Kong and Singapore). Susquehanna Private Capital. SIG also invests directly from the balance sheet.",
+      "hq": "Bala Cynwyd, PA",
+      "evidence": "SIG took part in Deccan AI's $25M Series A, led by A91 Partners, in March 2026 (TechCrunch, 2026-03-25). Deccan AI supplies post-training data, expert feedback and reinforcement learning environments to labs including Google DeepMind. SIG also invested in SpectrAxe (FX options venue) alongside IMC and CTC.",
+      "aiDeals": [
+        "Deccan AI (post-training data, RL environments, evals), Series A, 2026",
+        "SIG Venture Capital lists AI, fintech and enterprise software among its Asia focus areas (350+ companies)"
+      ],
+      "partner": "Amir Goldman, the first employee of SIG's US venture/growth group and the founding leader of Susquehanna Growth Equity (buyoutsinsider). No named head of SIG's direct AI investing was found.",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "SIG has already backed a direct comparable: Deccan AI sells RL environments and expert data, which is the same category as SimReal. That shows SIG has conviction on the thesis. A trading-specific environment from ex-Jane Street, Citadel and Millennium founders could be pitched as a complement. Risk: SIG may see SimReal as overlapping its Deccan position. SGE itself is growth stage (Series B+), so approach the SIG team that did the Deccan deal.",
+      "confidence": "high",
+      "sources": [
+        "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce",
+        "https://india.entrepreneur.com/news-and-trends/deccan-ai-bags-usd-25-mn-in-series-a-round-led-by-a91/503689",
+        "https://www.buyoutsinsider.com/sig-launches-venture-program/",
+        "https://en.wikipedia.org/wiki/Susquehanna_International_Group",
+        "https://hub.waveup.com/funds/sig-china-sig-asia-investments"
+      ]
+    },
+    {
+      "firm": "IMC Trading",
+      "parent": "IMC",
+      "type": "做市/高频",
+      "arm": "IMC Investments (also listed as IMC Strategic Investments)",
+      "hq": "Amsterdam, Netherlands (major hub in Chicago)",
+      "evidence": "Strategic investment in Clear Street (prime broker), announced February 2023. Co-led Talos' $45M Series B extension (January 2026). Invested in SpectrAxe (with SIG and CTC) and in Cap Labs' $8M seed round.",
+      "aiDeals": [
+        "Talos (institutional trading tech), Series B extension, 2026",
+        "Clear Street (prime brokerage tech), 2023",
+        "Cap Labs (stablecoin infrastructure), seed"
+      ],
+      "partner": "Osi Lilian (IMC Investments Co-Lead; former IMC Chicago CFO) and Jurjen Koksma (IMC Investments Co-Lead and Global Head of Business Strategy), per imc.com",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "SimReal's Xitadel is already built with IMC's data, so a relationship exists. IMC Investments says it targets early-stage ventures in trading, technology and quant research. Its deals are mostly strategic and later-stage, but the data partnership makes a strategic seed check plausible.",
+      "confidence": "high",
+      "sources": [
+        "https://www.businesswire.com/news/home/20230213005614/en/Clear-Street-Welcomes-IMC-as-a-Strategic-Investor",
+        "https://www.imc.com/imc-investments/",
+        "https://www.imc.com/eu/strategic-investments",
+        "https://www.caplight.com/investor/imc-investments"
+      ]
+    },
+    {
+      "firm": "Optiver",
+      "parent": "Optiver",
+      "type": "做市",
+      "arm": "Principal Strategic Investments (PSI), launched October 2021",
+      "hq": "Amsterdam, Netherlands",
+      "evidence": "Led the $21M strategic round in BMLL Technologies (October 2024). Also led the MEMX Options round, made a Series B investment in A5X (Brazilian exchange), and took part in Digital Asset's $135M round (2025).",
+      "aiDeals": [
+        "BMLL Technologies (market data and analytics), led $21M, 2024"
+      ],
+      "partner": "Michael Lepa, Head of Technology Ecosystem & Innovation and PSI (and PSI US Lead), per thebigwhale.io profile",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "B",
+      "why": "PSI makes strategic investments tied to market structure, data and venues rather than early AI. A trading-agent environment and market data could interest it as a strategic or data partner, but seed-stage AI is not its pattern.",
+      "confidence": "high",
+      "sources": [
+        "https://www.optiver.com/psi",
+        "https://www.taylorwessing.com/de/insights-and-events/news/media-centre/press-releases/2024/10/leading-data-and-analytics-provider-bmll-secures-$21-million-strategic-investment",
+        "https://optiver.com/optiver-invests-in-brazilian-derivatives-exchange-a5x/",
+        "https://prod-www.optiver.com/insights/news/optiver-leads-investment-round-in-memx-options-exchange/",
+        "https://www.hedgeweek.com/optiver-launches-principal-strategic-investments/",
+        "https://www.thebigwhale.io/peoples/michael-lepa"
+      ]
+    },
+    {
+      "firm": "Citadel Securities",
+      "parent": "Citadel Securities (separate from the Citadel hedge fund)",
+      "type": "做市",
+      "arm": "No venture arm; makes direct strategic investments",
+      "hq": "Miami, FL",
+      "evidence": "$400M strategic investment in Crypto.com (July 2026). $200M in Kraken (November 2025). Co-led Ripple's $500M round (November 2025). Backer of Digital Asset (Canton) and participant in Alpaca's $150M Series D.",
+      "aiDeals": [],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Its deals are large, late-stage and focused on market infrastructure and crypto; no AI or seed deals were found. The founders' Citadel network could still open a door.",
+      "confidence": "high",
+      "sources": [
+        "https://www.theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation",
+        "https://www.dlnews.com/articles/markets/citadel-securities-fuels-kraken-as-crypto-firms-raise-253-million-usd/",
+        "https://blockworks.com/sequoia-and-paradigm-invest-1-15b-in-citadel-securities/"
+      ]
+    },
+    {
+      "firm": "Jane Street",
+      "parent": "Jane Street Group",
+      "type": "做市/自营",
+      "arm": "No branded venture arm; makes strategic and balance-sheet investments",
+      "hq": "New York, NY",
+      "evidence": "Led Antithesis' $105M Series A (2025); Jane Street is both an investor in and a customer of Antithesis. Co-led a seed investment in Numerata, an AI software-development tools company, with CoreWeave (Business Wire, 2025-11-28).",
+      "aiDeals": [
+        "Numerata (AI-powered software development tools), seed with CoreWeave, 2025",
+        "Antithesis (autonomous software testing), led $105M Series A, 2025",
+        "Thinking Machines Lab, $2B round, 2025",
+        "Etched (AI chips), including Series C, 2026",
+        "CoreWeave, about $1B equity alongside about $6B compute commitment (reported 2026)",
+        "Anthropic stake (reported)"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "The most active prop-firm investor in AI. It writes seed checks (Numerata) and leads rounds (Antithesis) in companies it also buys from. The founders are ex-Jane Street, and an RL/agent environment for trading is directly relevant to Jane Street's own use of AI. There is no public pitch channel, so this needs a warm intro through alumni.",
+      "confidence": "high",
+      "sources": [
+        "https://www.vcnewsdaily.com/Antithesis/venture-capital-funding/vttgwgkjrb",
+        "https://www.businesswire.com/news/home/20251128623459/en",
+        "https://www.sidley.com/en/newslanding/newsannouncements/2026/07/sidley-represents-jane-street-in-its-investments-in-ai-chip-maker-etched",
+        "https://aiweekly.co/alerts/jane-streets-ai-blitz-revealed-6b-coreweave-compute-commitment-1b-equity-stake",
+        "https://rupakghose.substack.com/p/jane-street-goes-to-silicon-valley"
+      ]
+    },
+    {
+      "firm": "Virtu Financial",
+      "parent": "Virtu Financial Inc. (NASDAQ: VIRT)",
+      "type": "做市/高频",
+      "arm": "No venture arm; makes direct strategic investments",
+      "hq": "New York, NY",
+      "evidence": "Participated in Crossover Markets' $31M Series B, led by Tradeweb (March 2026). Invested in BridgePort's $3.2M pre-seed/seed round, led by Further Ventures (July 2025). Took part in ErisX's Series B (2019).",
+      "aiDeals": [],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Its strategic deals are in market structure and venues. It has written a seed check (BridgePort), but no AI or data deals were found.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.trysignalbase.com/news/funding/virtu-financial-secures-31",
+        "https://www.cbinsights.com/investor/virtu-financial"
+      ]
+    },
+    {
+      "firm": "Flow Traders",
+      "parent": "Flow Traders Ltd. (Euronext: FLOW)",
+      "type": "做市",
+      "arm": "Flow Traders Capital, a corporate VC unit set up in July 2022 with a €50M initial commitment",
+      "hq": "Amsterdam, Netherlands",
+      "evidence": "Invested in Utexo's seed round (March 2026) and Cap Labs' $8M seed round (alongside IMC). Portfolio includes Elwood, Ondo, bloXroute, D2X and Pyth, plus strategic stakes in MEMX and RFQ-Hub.",
+      "aiDeals": [
+        "375ai (decentralized AI/edge data network), 2025-26 (seedtable)"
+      ],
+      "partner": "Not identified. Thomas Spitz is Group CEO (from September 2025).",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Its themes are platform, data and connectivity, and most deals are in digital-asset infrastructure. There is a small AI-data angle (375ai), but it is a weak match for RL environments.",
+      "confidence": "high",
+      "sources": [
+        "https://flowtraders.com/news/flow-traders-establishes-a-dedicated-corporate-venture-capital-unit/",
+        "https://globalventuring.com/corporate/flow-traders-corporate-vc-arm/",
+        "https://seedtable.com/investors/flow-traders",
+        "https://www.globenewswire.com/news-release/2025/04/24/3067077/0/en/Flow-Traders-Leadership-Update.html"
+      ]
+    },
+    {
+      "firm": "XTX Markets",
+      "parent": "XTX Markets",
+      "type": "做市/高频",
+      "arm": "XTX Ventures. It invests only in early-stage companies with machine learning as a core technology.",
+      "hq": "London, UK",
+      "evidence": "XTX Markets co-led Arkera's $4M round with Alan Howard. Other XTX Ventures investments include Oriole Networks, WealthKernel (Series A), Graide, InvenireX, Turbine and Iomed. Checks are $0.5-5M from late seed to Series A.",
+      "aiDeals": [
+        "Turbine (AI cell simulation for drug discovery), board seat",
+        "Iomed (medical-record AI platform), board seat",
+        "Oriole Networks (photonic networking for AI data centers)",
+        "Arkera (ML-driven market intelligence), led $4M round"
+      ],
+      "partner": "Gabriele Papievyte, Head of Ventures at XTX Ventures (joined August 2023, promoted to lead the unit)",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "A",
+      "why": "A dedicated ML-only fund run by a top market maker, investing from late seed to Series A with $0.5-5M checks. Its site says 'If you're leveraging AI to solve meaningful problems, we would like to hear from you' (xtxmarkets.com/ventures). An RL trading environment plus agent data is squarely in scope, though a 3-week-old company may sit before their usual 'late-seed' entry point.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xtxmarkets.com/ventures",
+        "https://fxnewsgroup.com/forex-news/institutional/market-maker-xtx-unveils-venture-capital-arm/",
+        "https://globalventuring.com/corporate/people/papievyte-to-lead-xtx-ventures/",
+        "https://qz.com/1923323/xtx-makes-venture-capital-investments-in-machine-learning-firms"
+      ]
+    },
+    {
+      "firm": "Akuna Capital",
+      "parent": "Akuna Capital",
+      "type": "做市/自营",
+      "arm": "No named arm; invests directly from the balance sheet",
+      "hq": "Chicago, IL",
+      "evidence": "Database listings show it as an investor in crypto rounds, including a September 2022 $40M round alongside QCP Capital and 10T Holdings. Other listed deals: Optimal Market Technologies (April 2026), LogicInk (February 2024) and Virtual Beings (November 2023). The company name for the 2022 round was not in the snippet.",
+      "aiDeals": [],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Its deals are occasional and mostly crypto or market-tech, with no AI focus and no arm or contact.",
+      "confidence": "low",
+      "sources": [
+        "https://crypto-fundraising.info/funds/akuna-capital/",
+        "https://startupintros.com/orgs/akuna-capital",
+        "https://signal.nfx.com/firms/akuna-capital"
+      ]
+    },
+    {
+      "firm": "PEAK6",
+      "parent": "PEAK6 Investments",
+      "type": "自营/做市",
+      "arm": "PEAK6 Strategic Capital (since 2015). It invests from permanent capital, independent of fundraising cycles.",
+      "hq": "Chicago, IL",
+      "evidence": "PEAK6 ventures and investments include Zogo (2021), Apex Crypto (2018) and Evil Geniuses (2019). It backed an unnamed Austin-based AI startup's $100M Series A on 2026-07-14 (aifunding.me listing).",
+      "aiDeals": [
+        "Unnamed Austin AI startup, $100M Series A, 2026 (aggregator; company not named in snippet)",
+        "Strategic Capital lists Artificial Intelligence as its first investment category"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "B",
+      "why": "Its strategic-capital site leads with AI, and the firm is patient permanent capital with options market-making roots. However, the AI deals found are larger rounds and no named AI seed deal was found.",
+      "confidence": "medium",
+      "sources": [
+        "https://peak6.com/peak6-strategic-capital/",
+        "https://en.wikipedia.org/wiki/Peak6",
+        "https://aifunding.me/investors/peak6"
+      ]
+    },
+    {
+      "firm": "Chicago Trading Company (CTC)",
+      "parent": "Chicago Trading Company",
+      "type": "做市",
+      "arm": "CTC Venture Capital, founded 2021",
+      "hq": "Chicago, IL",
+      "evidence": "Invested in BMLL Technologies' $21M round, led by Optiver (October 2024). Invested in SpectrAxe (FX options) with IMC and SIG. Database listings show ProphetX (July 2026) and Pico (April 2026); 21 investments in total.",
+      "aiDeals": [
+        "BMLL Technologies (market data and analytics), 2024"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "B",
+      "why": "An active corporate VC at an options market maker with a fintech and market-data focus, writing early-stage checks. It could value a trading-agent environment, but has no AI deals found.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.taylorwessing.com/de/insights-and-events/news/media-centre/press-releases/2024/10/leading-data-and-analytics-provider-bmll-secures-$21-million-strategic-investment",
+        "https://www.cbinsights.com/investor/ctc-venture-capital",
+        "https://pitchbook.com/profiles/investor/680397-85",
+        "https://www.caplight.com/investor/imc-investments"
+      ]
+    },
+    {
+      "firm": "Belvedere Trading",
+      "parent": "Belvedere Trading",
+      "type": "做市",
+      "arm": "No named arm; makes direct strategic investments (about 5 deals listed)",
+      "hq": "Chicago, IL",
+      "evidence": "Participated in Databento's $10M Series A1 alongside Clear Street and Lightscape Partners (October 2024).",
+      "aiDeals": [
+        "Databento (market data API), Series A1, 2024"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "It makes occasional strategic data deals but has no program or contact.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.caplight.com/investor/belvederetrading",
+        "https://www.pitchbook.com/profiles/investor/144844-39"
+      ]
+    },
+    {
+      "firm": "GTS",
+      "parent": "GTS (Global Trading Systems)",
+      "type": "做市/高频",
+      "arm": "No named arm; makes direct strategic investments",
+      "hq": "New York, NY",
+      "evidence": "Database listings show GTS in ElectronX's Series A (November 2025). It is an investor in ClearList alongside Tudor Global Trading, and took an ownership stake in Wavelength Capital Management.",
+      "aiDeals": [],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Its deals are in market structure and venues, with no AI deals found.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.cbinsights.com/investor/gts",
+        "https://www.hedgeweek.com/gts-acquires-stake-systematic-investment-firm-wavelength-capital-management/"
+      ]
+    },
+    {
+      "firm": "Simplex Trading",
+      "parent": "Simplex Trading",
+      "type": "做市",
+      "arm": "Simplex Ventures",
+      "hq": "Chicago, IL",
+      "evidence": "Simplex Ventures exists to back financial-industry companies; Kate Kitto was hired as its Principal in March 2022. No named portfolio deal appeared in the snippets.",
+      "aiDeals": [],
+      "partner": "Kate Kitto, Principal, Simplex Ventures (Business Wire, 2022). Erik Swanson is CEO of Simplex Trading.",
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "Has a dedicated fintech venture arm at an options market maker, but its activity and AI interest are unverified.",
+      "confidence": "low",
+      "sources": [
+        "https://www.businesswire.com/news/home/20220309005197/en/Kate-Kitto-Hired-as-Principal-of-Simplex-Ventures"
+      ]
+    },
+    {
+      "firm": "Geneva Trading",
+      "parent": "Geneva Trading",
+      "type": "自营",
+      "arm": "No named arm",
+      "hq": "Chicago, IL",
+      "evidence": "Database listing shows an investment in Kairos' seed round (February 2026).",
+      "aiDeals": [],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "The only evidence is a single seed deal from a database listing; there is no program, AI thesis or contact.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cbinsights.com/investor/geneva-trading"
+      ]
+    },
+    {
+      "firm": "DV Trading",
+      "parent": "DV Group",
+      "type": "自营/做市",
+      "arm": "No named arm",
+      "hq": "Chicago, IL / New York, NY",
+      "evidence": "An investor named 'DV' took part in RWX's $12M Series A (an AI-driven software-engineering dev cloud) led by Hyde Park Venture Partners. Whether that 'DV' is DV Trading is unconfirmed. Caplight also lists DV Trading as an investor.",
+      "aiDeals": [
+        "RWX (AI dev cloud), Series A (year not in snippet; 'DV' attribution unconfirmed)"
+      ],
+      "partner": null,
+      "email": null,
+      "emailSource": null,
+      "pitchForm": null,
+      "fit": "C",
+      "why": "The evidence is ambiguous and there is no venture program.",
+      "confidence": "low",
+      "sources": [
+        "https://www.caplight.com/investor/dvtrading"
+      ]
+    }
+  ],
+  "noEvidence": [
+    {"firm": "Old Mission Capital", "note": "Searches returned only Old Mission Bank; no startup investments by the Chicago market maker were found."},
+    {"firm": "Wolverine Trading", "note": "No startup or venture deals found; its investing (Wolverine Asset Management) is in listed securities."},
+    {"firm": "Five Rings", "note": "No startup investments found; privately funded prop firm."},
+    {"firm": "Radix Trading", "note": "No startup investments found; privately funded and takes no outside capital (radixtrading.co)."},
+    {"firm": "Headlands Technologies", "note": "No startup investments found; privately funded (headlandstech.com)."},
+    {"firm": "Maven Securities", "note": "No startup investments found. 'Maven Ventures' (Silicon Valley consumer VC) and 'Maven 11' (crypto) are unrelated."},
+    {"firm": "Da Vinci Trading", "note": "No startup investments found; Amsterdam prop house."},
+    {"firm": "Qube Research & Technologies", "note": "Seeds external hedge-fund managers (e.g. $200M to Jerpoint Capital), not startups (hedgeweek)."},
+    {"firm": "G-Research", "note": "No startup or venture investments found."},
+    {"firm": "Squarepoint Capital", "note": "No startup or venture investments found."},
+    {"firm": "Tibra", "note": "No startup or venture investments found; Australian prop/HFT firm."},
+    {"firm": "Eclipse Trading", "note": "No startup investments found. The Bloomberg 'Eclipse bets on startups' story is about Eclipse Ventures, which is unrelated."},
+    {"firm": "Vatic Labs", "note": "No startup investments found; NY quant firm building autonomous trading agents (possible customer or partner, not investor)."}
+  ]
+}

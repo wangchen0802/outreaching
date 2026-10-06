@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "asOf": "2026-10-06",
+    "method": "WebSearch only (40 searches); websites not opened. Deal facts come from search-result snippets and may need a click-through check. No emails were found that a firm or person published themselves, so every email field is empty. No data-broker sources (ContactOut, Clay, Apollo, etc.) were used, even where they appeared in results.",
+    "typeNote": "The type field is kept as given in the schema for every row. Rows marked 'prop/market-maker' in parent are trading firms, not hedge funds. They were added because they are active startup investors."
+  },
+  "firms": [
+    {
+      "firm": "Deviation Capital (formerly Two Sigma Ventures)",
+      "parent": "Two Sigma (spun out; formal access arrangement to Two Sigma's technical experts)",
+      "type": "量化/多策略对冲基金",
+      "arm": "Deviation Capital: independent early-stage VC, about $2B AUM, Seed/Series A, technical founders building data- and compute-native companies",
+      "hq": "New York (plus a new San Francisco office)",
+      "evidence": "Spinout of Two Sigma Ventures completed and announced in May 2026. Deviation took over the existing TSV funds (~$2B AUM). The platform was incubated inside Two Sigma for 14 years.",
+      "aiDeals": "Portfolio named in the 2026 launch release: Etched (AI chips), Xaira (AI drug discovery), Kalshi, WHOOP, Remote, Gameto. Deal years were not in the snippets.",
+      "partner": "Colin Beirne (founder of TSV); Dusan Perovic (data science x life sciences); Sidney Costabile (capital markets); Jonathan Golden (ex-NEA, leads SF office)",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Seed/Series A, data- and compute-native thesis, and continued access to Two Sigma's AI/quant experts. A natural lead or co-lead for RL environments and expert data with a trading angle.",
+      "confidence": "high",
+      "sources": [
+        "https://www.vcaonline.com/news/2026050421/deviation-capital-launches-with-2b-aum-following-spinout-from-two-sigma/",
+        "https://www.streetinsider.com/Business+Wire/Deviation+Capital+Launches+with+%242B+AUM+Following+Spinout+from+Two+Sigma/26422101.html",
+        "https://pulse2.com/deviation-capital-launches-with-2-billion-in-aum-following-spinout-from-two-sigma/",
+        "https://incubatorlist.com/deviation-capital"
+      ]
+    },
+    {
+      "firm": "WorldQuant Ventures",
+      "parent": "WorldQuant (private investment vehicle of founder Igor Tulchinsky)",
+      "type": "量化/多策略对冲基金",
+      "arm": "WorldQuant Ventures LLC (founded 2014): pre-seed, seed and Series A in data, AI/ML, fintech, analytics, quantum and space",
+      "hq": "Old Greenwich, CT / New York",
+      "evidence": "Active early-stage investor. Anchored AngelList's $25M Early Stage Quant Fund. 2026 deals listed by Seedtable.",
+      "aiDeals": "Broccoli AI Series A (co-investor, Jul 2026); Applecart Series C (Jan 2026); anchor LP in AngelList Early Stage Quant Fund ($25M close)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Quant-founder money that writes pre-seed and seed checks in AI and data. Strong thesis match for a trading self-improvement environment.",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/worldquant-ventures/portfolio",
+        "https://seedtable.com/investors/worldquant-ventures",
+        "https://angellist.com/blog/early-stage-quant-fund",
+        "https://www.caplight.com/investor/worldquantventures"
+      ]
+    },
+    {
+      "firm": "Point72 Ventures / Point72 Hyperscale",
+      "parent": "Point72 (Steve Cohen); also parent of Cubist",
+      "type": "量化/多策略对冲基金",
+      "arm": "Point72 Ventures (since 2016, invests only Cohen's capital, seed to pre-IPO in AI, fintech, defense and enterprise). Point72 Hyperscale ($600M AI-assisted private-equity buyout fund). Both sit under Point72 Private Investments, led by Dan Gwak.",
+      "hq": "Stamford, CT / New York",
+      "evidence": "Has invested more than $800M across scores of startups. Leads AI seed rounds. Hyperscale makes majority buyouts, not venture.",
+      "aiDeals": "Pokee AI $12M seed, led (Jun 2025); Envive AI Series A (May 2025); PolyAI Series D (Dec 2025); Smack Technologies seed lead, then $32M Series A participation (Mar 2026); Overland AI Series B (Feb 2026); Hook Series A (Feb 2026)",
+      "partner": "Sri Chandrasekar (AI investing partner, per NFX Signal profile); Dan Gwak (head of Point72 Private Investments)",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Leads AI seed rounds, has a trading-firm parent and a deep quant network (including Cubist). Hyperscale is not relevant because it does buyouts.",
+      "confidence": "high",
+      "sources": [
+        "https://www.geekwire.com/tag/point72/",
+        "https://www.cbinsights.com/investor/point72-ventures",
+        "https://f4.fund/firms/point72-ventures",
+        "https://signal.nfx.com/investors/sri-chandrasekar",
+        "https://www.privatebankerinternational.com/news/steve-cohens-point72-rakes-in-600m-for-ai-assisted-private-equity-fund/",
+        "https://www.themiddlemarket.com/news-analysis/steve-cohens-point72-raises-600m-for-pe-fund"
+      ]
+    },
+    {
+      "firm": "D. E. Shaw Ventures",
+      "parent": "D. E. Shaw & Co.",
+      "type": "量化/多策略对冲基金",
+      "arm": "D. E. Shaw Ventures (private and growth investments)",
+      "hq": "New York",
+      "evidence": "Made eight private investments in 2026 so far, including frontier-lab mega-rounds (Arnold & Porter deal announcements).",
+      "aiDeals": "Anthropic $30B Series G, co-lead (Feb 2026); Anthropic $65B Series H (closed May 28, 2026); OpenAI $122B Series C (closed Mar 31, 2026); Ramp $750M Series F (2026); ThreatLocker $190M Series F (2026)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Very strong AI conviction but evidence shows only late-stage mega-rounds. A seed check is unlikely; possible strategic or alumni intro.",
+      "confidence": "high",
+      "sources": [
+        "https://www.arnoldporter.com/en/perspectives/news/2026/05/arnold-porter-advises-d-e-shaw-ventures-on-openai-anthropic-investments",
+        "https://arnoldporter.com/en/perspectives/news/2026/06/arnold-porter-advises-d-e-shaw-ventures-in-anthropics-latest-65b-financing",
+        "https://www.bloomberg.com/news/videos/2026-02-12/d-e-shaw-founders-fund-among-anthropic-deal-backers-video",
+        "https://seedtable.com/investors/de-shaw-ventures/portfolio"
+      ]
+    },
+    {
+      "firm": "Millennium Management",
+      "parent": "Millennium (Izzy Englander)",
+      "type": "量化/多策略对冲基金",
+      "arm": "New ~$5B private-markets fund (about $3B external plus capital from the firm and Englander), reported Oct 2025 with launch planned for 2026",
+      "hq": "New York",
+      "evidence": "Bloomberg (Oct 30, 2025) reports a $5B private-markets vehicle. CB Insights lists startup deals, not independently verified: UMA seed (Dec 2025), Hammerspace Series B (Apr 2025), Caris Life Sciences (Apr 2025). Note: 'Millennium Technology Value Partners' (Mistral investor) is an unrelated VC; do not conflate.",
+      "aiDeals": "Hammerspace Series B (Apr 2025, AI data infrastructure; CB Insights listing, unverified)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Founder alumni link (ex-Millennium). The private-markets push is new, but there is no clear seed-AI program.",
+      "confidence": "low",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2025-10-30/millennium-raising-5-billion-to-target-private-market-bets",
+        "https://news.bgov.com/securities-law/millennium-raising-5-billion-to-target-private-market-bets",
+        "https://www.cbinsights.com/company/millennium-management/financials"
+      ]
+    },
+    {
+      "firm": "Citadel / Citadel Securities",
+      "parent": "Citadel (Ken Griffin)",
+      "type": "量化/多策略对冲基金",
+      "arm": "No dedicated VC arm found; strategic investments only",
+      "hq": "Miami",
+      "evidence": "Citadel Securities co-founded and backed EDX Markets, announced Sep 2022 and launched Jun 2023, alongside Fidelity, Schwab, Sequoia, Paradigm and Virtu. In Aug 2026 Griffin/Citadel struck a rescue deal with the AI hedge fund Situational Awareness, which is not a startup.",
+      "aiDeals": "None at startup stage found. Situational Awareness deal (Aug 2026) is a hedge-fund transaction.",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Alumni link (ex-Citadel founder), but no venture program. Only plausible as a strategic or data partner.",
+      "confidence": "medium",
+      "sources": [
+        "https://decrypt.co/109607/charles-schwab-citadel-fidelity-edx-crypto-exchange?amp=1",
+        "https://www.business-standard.com/amp/companies/news/new-crypto-exchange-backed-by-citadel-securities-fidelity-goes-live-123062000691_1.html",
+        "https://www.thestar.com.my/tech/tech-news/2026/08/01/with-situational-awareness-ai-deal-citadel039s-griffin-rides-to-the-rescue-again"
+      ]
+    },
+    {
+      "firm": "BAM Corner Point (Atlas Growth LP)",
+      "parent": "Balyasny Asset Management",
+      "type": "量化/多策略对冲基金",
+      "arm": "BAM Corner Point: first dedicated venture fund, Atlas Growth LP (~$350M target, raising since Jan 2025), growth-stage enterprise tech covering AI, data infrastructure, healthtech and cyber",
+      "hq": "Chicago",
+      "evidence": "Hedgeweek and PE Wire report the fund raise and the GPs. Other BAM private activity found is biotech PIPEs in early 2026 (Relmada, Sensei).",
+      "aiDeals": "No named Corner Point AI deal found in searches",
+      "partner": "Rashmi Gopinath (ex-B Capital GP, ex-M12, ex-Intel Capital); Kristin Baker Spohn (ex-CRV GP)",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Thesis overlaps (AI and data infrastructure), but the fund is growth-stage. Keep for a later round.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.hedgeweek.com/hedge-fund-balyasny-targeting-350m-for-first-venture-fund/",
+        "https://www.privateequitywire.co.uk/hedge-fund-balyasny-targeting-350m-for-first-venture-fund/"
+      ]
+    },
+    {
+      "firm": "Winton Ventures",
+      "parent": "Winton Group",
+      "type": "量化/多策略对冲基金",
+      "arm": "Winton Ventures (founded 2015): corporate VC in cyber, energy and data-science health",
+      "hq": "London",
+      "evidence": "13 rounds across 8 companies. Most recent new deal found: CyberSmart Series B ($15M, Feb 23, 2023).",
+      "aiDeals": "Tessian (ML email security, acquired by Proofpoint 2024); Ripjar (data intelligence); Panaseer; BlueVoyant; Exonar; Tokamak Energy",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Data-science DNA, but activity looks dormant since 2023 and the thesis is not RL or trading.",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/winton-ventures/portfolio",
+        "https://seedtable.com/investors/winton-ventures",
+        "https://funding.tech.eu/investors/Winton%20Ventures"
+      ]
+    },
+    {
+      "firm": "Marshall Wace",
+      "parent": "Marshall Wace",
+      "type": "量化/多策略对冲基金",
+      "arm": "Private and growth investing from fund balance sheets; hired a team for private blockchain investments in 2022",
+      "hq": "London",
+      "evidence": "Growth rounds in 2021-22: Turtlemint $120M Series E, OfBusiness $325M Series G, Vayana Network $38M Series C. Draig Therapeutics Series B (Jul 2026). Bloomberg 2022-05-05 reports the blockchain-investments hire.",
+      "aiDeals": "None AI-specific found",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Late-stage only; no seed-AI evidence.",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/marshall-wace",
+        "https://www.bloomberg.com/news/articles/2022-05-05/marshall-wace-makes-hire-to-focus-on-blockchain-investments"
+      ]
+    },
+    {
+      "firm": "BH Digital",
+      "parent": "Brevan Howard",
+      "type": "量化/多策略对冲基金",
+      "arm": "BH Digital (launched 2021): digital-asset division covering liquid tokens to seed-stage venture",
+      "hq": "London / Abu Dhabi / Jersey",
+      "evidence": "Co-led Berachain's $100M Series B with Framework (Apr 2024). Superstate Series B (Jan 22, 2026).",
+      "aiDeals": "None AI-specific found; crypto-focused",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Active venture writer, but its mandate is crypto. Relevant only if Xitadel has an on-chain or crypto-trading angle.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.benzinga.com/markets/cryptocurrency/24/04/38221888/berachain-raises-100m-in-funding-surpassing-earlier-expectations",
+        "https://www.cbinsights.com/investor/bh-digital",
+        "https://seedtable.com/investors/brevan-howard/portfolio",
+        "https://blockworks.com/news/brevan-howard-scores-largest-crypto-hedge-fund-launch-ever"
+      ]
+    },
+    {
+      "firm": "Schonfeld Strategic Advisors",
+      "parent": "Schonfeld",
+      "type": "量化/多策略对冲基金",
+      "arm": "Opportunistic private and late-stage investing; no dedicated VC arm found",
+      "hq": "New York",
+      "evidence": "Bolt Series E (Jan 2022), Inxeption Series E lead (Jan 2022), Innovaccer $150M Series E (Dec 2021). CB Insights also lists a Sarda Capital seed round (Jan 12, 2026); details unclear.",
+      "aiDeals": "Innovaccer (healthcare AI/data) Series E (Dec 2021)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Late-stage and sporadic.",
+      "confidence": "low",
+      "sources": [
+        "https://voice.lapaas.com/startup/schonfeld-strategic-advisors/funding/",
+        "https://www.cbinsights.com/company/sarda-capital/financials",
+        "https://www.caplight.com/investor/schonfeld"
+      ]
+    },
+    {
+      "firm": "Susquehanna International Group (SIG)",
+      "parent": "SIG (Jeff Yass, Arthur Dantchik); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "SIG direct and venture investing (Susquehanna growth/venture entities)",
+      "hq": "Bala Cynwyd, PA",
+      "evidence": "Participated in Deccan AI's $25M Series A, led by A91 (Mar 2026). Deccan provides post-training data, evaluation and RL environments to labs including Google DeepMind. SIG also invested in SpectrAxe's Series A (FX options venue, Apr 2025) with IMC and CTC.",
+      "aiDeals": "Deccan AI Series A (Mar 2026): RL environments and expert post-training data, almost exactly SimReal's category; SpectrAxe Series A (Apr 2025)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Has already backed an RL-environment and expert-data company in 2026, and is a quant trading firm. Its strongest thesis match on this list.",
+      "confidence": "high",
+      "sources": [
+        "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce",
+        "https://india.entrepreneur.com/news-and-trends/deccan-ai-bags-usd-25-mn-in-series-a-round-led-by-a91/503689",
+        "https://letsdatascience.com/news/deccan-ai-raises-25m-to-provide-post-training-services-8152c13a",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "firm": "Jump Capital",
+      "parent": "Jump Trading (co-founded by Paul Gurinas and Bill DiSomma); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Jump Capital (since 2012): independent VC backed by Jump founders. Fund VIII is $350M for enterprise AI infrastructure and security, with $1-4M initial checks.",
+      "hq": "Chicago (expanded New York presence)",
+      "evidence": "Closed $350M Fund VIII in Jul 2026, targeted at AI.",
+      "aiDeals": "Compa Series B (Jan 26, 2026); Standard Kernel (GPU software); TrueFoundry (AI infra platform)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "Fresh AI-focused fund, a check size that fits seed, and a trading-firm network.",
+      "confidence": "high",
+      "sources": [
+        "https://www.kucoin.com/news/flash/jump-capital-closes-350m-fund-viii-for-enterprise-ai-infrastructure-and-security",
+        "https://cryptorank.io/news/feed/jump-capital-lp-raise-2026-07-29",
+        "https://www.itiger.com/news/1107379290",
+        "https://f4.fund/firms/jump-capital",
+        "https://en.wikipedia.org/wiki/Jump_Trading"
+      ]
+    },
+    {
+      "firm": "DRW Venture Capital (DRW VC)",
+      "parent": "DRW (Don Wilson); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "DRW Venture Capital: fintech and enterprise tech, pre-seed to growth",
+      "hq": "Chicago",
+      "evidence": "Seed and pre-seed deals in 2025. Portfolio includes Crusoe, Talos and OpenFin.",
+      "aiDeals": "TensorZero $7.3M seed (Aug 19, 2025; LLM infra); Rowan $3.3M seed, led by DRW (AI platform, Chicago); Mantic pre-seed (Aug 27, 2025); Crusoe (AI cloud)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "https://drw.com/vc (VC page; whether it has a submission form was not verified)",
+      "fit": "A",
+      "why": "Leads AI seeds, has a trading parent, and has an AI-compute angle (Crusoe, and Wilson's Compute Exchange).",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/drw/portfolio",
+        "https://drw.com/vc",
+        "https://hub.waveup.com/funds/drw-venture-capital",
+        "https://www.cbinsights.com/company/drw-trading-group/financials"
+      ]
+    },
+    {
+      "firm": "Tower Research Ventures (TRV)",
+      "parent": "Tower Research Capital (Mark Gorton); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Tower Research Ventures: balance-sheet VC that leads incubation, pre-seed, seed and Series A in deep tech, AI/ML, crypto, fintech and dev infra",
+      "hq": "New York",
+      "evidence": "Leads early rounds from Tower's balance sheet with a wide mandate.",
+      "aiDeals": "Procurement Sciences AI (Nov 2025); Atomic Canyon (May 2025); CaseBlink (Mar 2025); Coplay (Nov 2024)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "https://tower-research.com/ventures/ (whether it has a submission form was not verified)",
+      "fit": "A",
+      "why": "Leads pre-seed and seed AI/ML deals from an HFT firm's balance sheet. A good lead candidate.",
+      "confidence": "medium",
+      "sources": [
+        "https://tower-research.com/ventures/",
+        "https://tower-research.com/trv",
+        "https://f4.fund/firms/tower-research-ventures",
+        "https://en.wikipedia.org/wiki/Tower_Research_Capital"
+      ]
+    },
+    {
+      "firm": "XTX Ventures",
+      "parent": "XTX Markets (Alex Gerko); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "XTX Ventures (since 2017): backs technical founders with deep AI/ML expertise and offers XTX's ML and quant research as value-add",
+      "hq": "London",
+      "evidence": "About 77-79 investments since 2017 with 8 exits. XTX also gave $9.2M to an AI-for-math fund (Dec 2024).",
+      "aiDeals": "Kopa.ai (agentic AI, e-commerce); Ethos (AI expert network); Lucida Medical (AI diagnostics); Proxima Fusion; SPhotonix (deal years not in snippets)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "A",
+      "why": "An AI/ML-founder thesis backed by an ML-heavy market maker. Its AI expert-network deal (Ethos) is adjacent to expert data.",
+      "confidence": "medium",
+      "sources": [
+        "https://f4.fund/firms/xtx-ventures",
+        "https://www.bloomberg.com/news/articles/2024-12-05/billionaire-gerko-s-xtx-gives-millions-to-make-ai-better-at-math"
+      ]
+    },
+    {
+      "firm": "Jane Street",
+      "parent": "Jane Street; prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Balance-sheet private AI investing; no named VC arm",
+      "hq": "New York",
+      "evidence": "Private AI portfolio reported at about $20B, anchored by Anthropic. $1B equity investment plus $6B compute commitment with CoreWeave (Apr 2026).",
+      "aiDeals": "Thinking Machines Lab $2B seed (2025); Anthropic stake; CoreWeave $1B equity (Apr 2026); Nscale Series C (Mar 9, 2026); Etched $800M round, lead (Jun 30, 2026)",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "Founder alumni link (ex-Jane Street) and heavy AI conviction, but checks are huge. Best approached via alumni or as a strategic customer.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.itiger.com/news/1143655255",
+        "https://aiweekly.co/alerts/jane-streets-ai-blitz-revealed-6b-coreweave-compute-commitment-1b-equity-stake",
+        "https://aifunding.me/insights/jane-street-ai-portfolio-analysis",
+        "https://rupakghose.substack.com/p/jane-street-goes-to-silicon-valley"
+      ]
+    },
+    {
+      "firm": "IMC Trading",
+      "parent": "IMC; prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Strategic investments; no named VC arm found",
+      "hq": "Amsterdam / Chicago",
+      "evidence": "Strategic investor in Talos's $45M Series B extension (Jan 2026, ~$1.5B valuation). SpectrAxe Series A with SIG and CTC (Apr 2025).",
+      "aiDeals": "None AI-specific found; Talos (Jan 2026) and SpectrAxe (Apr 2025) are market infrastructure",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "B",
+      "why": "Already provides data for Xitadel, so a strategic check is a natural extension, and IMC makes strategic startup investments.",
+      "confidence": "medium",
+      "sources": [
+        "https://fintechfutures.com/venture-capital-funding/talos-secures-45m-series-b-extension",
+        "https://www.aap.com.au/aapreleases/cision20260129ae73659",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "firm": "Optiver",
+      "parent": "Optiver; prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Equity stake in the AI/crypto VC Eden Block (Apr 2026), used for early-stage exposure",
+      "hq": "Amsterdam",
+      "evidence": "Bloomberg (Apr 20, 2026): Optiver took a stake in Eden Block to gain exposure to AI and crypto startups.",
+      "aiDeals": "Indirect only, through Eden Block",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Indirect route; pitch Eden Block with an Optiver angle.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-04-20/optiver-steps-toward-ai-crypto-startup-exposure-with-vc-stake",
+        "https://news.bgov.com/crypto/optiver-steps-toward-ai-crypto-startup-exposure-with-vc-stake"
+      ]
+    },
+    {
+      "firm": "Hudson River Trading (HRT)",
+      "parent": "HRT; prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Strategic investments (as HRT Technology)",
+      "hq": "New York",
+      "evidence": "HRT Technology joined EDX Markets' 2023 funding round as a strategic investor.",
+      "aiDeals": "None confirmed with a source",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Only occasional strategic investing.",
+      "confidence": "low",
+      "sources": [
+        "https://fintech.global/2023/06/21/edx-markets-takes-fintech-world-by-storm-with-successful-funding-round/"
+      ]
+    },
+    {
+      "firm": "Virtu Financial",
+      "parent": "Virtu (Vincent Viola, Doug Cifu); prop/market-maker",
+      "type": "量化/多策略对冲基金",
+      "arm": "Strategic investments",
+      "hq": "New York",
+      "evidence": "Founding investor in EDX Markets (announced 2022, launched Jun 2023).",
+      "aiDeals": "None found",
+      "partner": "",
+      "email": "",
+      "emailSource": "",
+      "pitchForm": "",
+      "fit": "C",
+      "why": "Strategic market-structure investing only.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.business-standard.com/amp/companies/news/new-crypto-exchange-backed-by-citadel-securities-fidelity-goes-live-123062000691_1.html",
+        "https://decrypt.co/109607/charles-schwab-citadel-fidelity-edx-crypto-exchange?amp=1"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Igor Tulchinsky",
+      "background": "Founder of WorldQuant",
+      "role": "Principal behind WorldQuant Ventures (his private investment vehicle)",
+      "base": "Connecticut / New York",
+      "investments": "Through WorldQuant Ventures: Broccoli AI Series A (Jul 2026); Applecart Series C (Jan 2026); anchor LP in AngelList's $25M Early Stage Quant Fund",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "Quant founder whose vehicle writes pre-seed and seed checks in AI and data.",
+      "confidence": "medium",
+      "sources": [
+        "https://seedtable.com/investors/worldquant-ventures",
+        "https://angellist.com/blog/early-stage-quant-fund",
+        "https://www.institutionalinvestor.com/article/b16fwn3bw3jjq6/the-fintech-finance-40-igor-tulchinsky-and-steve-lau"
+      ]
+    },
+    {
+      "name": "Steve Cohen",
+      "background": "Founder of Point72 / SAC",
+      "role": "Sole capital source of Point72 Ventures; significant investor in Point72 Hyperscale",
+      "base": "Stamford, CT / New York",
+      "investments": "Through Point72 Ventures (his own money only): Pokee AI seed lead (Jun 2025), Smack Technologies seed lead (Series A Mar 2026), Overland AI Series B (Feb 2026); more than $800M deployed overall",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "His capital is Point72 Ventures, which leads AI seed rounds. Pitch through the fund.",
+      "confidence": "high",
+      "sources": [
+        "https://www.themiddlemarket.com/news-analysis/steve-cohens-point72-raises-600m-for-pe-fund",
+        "https://www.geekwire.com/tag/point72/",
+        "https://www.cbinsights.com/investor/point72-ventures"
+      ]
+    },
+    {
+      "name": "Colin Beirne",
+      "background": "Founded Two Sigma Ventures inside Two Sigma (~14 years)",
+      "role": "Partner, Deviation Capital (spun out of Two Sigma, 2026)",
+      "base": "New York",
+      "investments": "Deviation/TSV portfolio: Etched, Xaira, Kalshi, WHOOP, Remote, Gameto (named in May 2026 launch release)",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "Quant-firm alumnus running a $2B seed/Series A fund for data- and compute-native companies.",
+      "confidence": "high",
+      "sources": [
+        "https://www.vcaonline.com/news/2026050421/deviation-capital-launches-with-2b-aum-following-spinout-from-two-sigma/",
+        "https://pulse2.com/deviation-capital-launches-with-2-billion-in-aum-following-spinout-from-two-sigma/"
+      ]
+    },
+    {
+      "name": "Don Wilson",
+      "background": "Founder and CEO of DRW (founded 1992), ex-CME options trader",
+      "role": "Founder-investor; DRW Venture Capital; co-founder and investor in market-structure startups",
+      "base": "Chicago",
+      "investments": "Co-founded or invested in Digital Asset (board seat), Eris Innovations, ErisX, Climate Vault, Silicon Data and Compute Exchange (AI compute markets). Blueprint Series A (Oct 28, 2025, per CB Insights). DRW VC portfolio includes Crusoe, Talos and OpenFin.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "Personally builds and backs AI-compute and market-structure startups. A trading-environment product speaks to him directly.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.sramanamitra.com/?p=127339",
+        "https://www.cbinsights.com/company/don-wilson/financials",
+        "https://en.wikipedia.org/wiki/DRW_Trading_Group",
+        "https://leadforsociety.uchicago.edu/bio/don-wilson/"
+      ]
+    },
+    {
+      "name": "Jeff Yass and Arthur Dantchik",
+      "background": "Co-founders of Susquehanna International Group (SIG)",
+      "role": "Principals of SIG, which invests directly in startups",
+      "base": "Bala Cynwyd, PA",
+      "investments": "Firm-level: SIG in Deccan AI Series A (RL environments and post-training data, Mar 2026) and SpectrAxe Series A (Apr 2025). No personal angel deals by Yass or Dantchik surfaced in searches.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "SIG backed an RL-environment and data peer in 2026. Approach through SIG's investing team rather than personally.",
+      "confidence": "low",
+      "sources": [
+        "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce",
+        "https://startupintros.com/orgs/imc"
+      ]
+    },
+    {
+      "name": "Paul Gurinas and Bill DiSomma",
+      "background": "Co-founders and co-CEOs of Jump Trading (founded 1999), ex-CME pit traders",
+      "role": "Co-founded Jump Capital (2012) with Sach Chitnis and Michael McMahon; backers of the fund",
+      "base": "Chicago",
+      "investments": "Through Jump Capital: Fund VIII $350M for AI (Jul 2026); Compa Series B (Jan 2026); Standard Kernel; TrueFoundry. Personal angel deals not surfaced.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "Their VC has a fresh AI fund with $1-4M first checks.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.binance.com/en/square/post/116740",
+        "https://en.wikipedia.org/wiki/Jump_Trading",
+        "https://www.kucoin.com/news/flash/jump-capital-closes-350m-fund-viii-for-enterprise-ai-infrastructure-and-security"
+      ]
+    },
+    {
+      "name": "Mark Gorton",
+      "background": "Founder of Tower Research Capital (1998)",
+      "role": "Founder of the firm whose balance sheet funds Tower Research Ventures",
+      "base": "New York",
+      "investments": "Through TRV: Procurement Sciences AI (Nov 2025), Atomic Canyon (May 2025), CaseBlink (Mar 2025), Coplay (Nov 2024). Personal angel deals not surfaced.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "A",
+      "why": "TRV leads pre-seed and seed AI/ML rounds.",
+      "confidence": "medium",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tower_Research_Capital",
+        "https://tower-research.com/ventures/",
+        "https://f4.fund/firms/tower-research-ventures"
+      ]
+    },
+    {
+      "name": "Alex Gerko",
+      "background": "Founder of XTX Markets",
+      "role": "Founder of the firm behind XTX Ventures; AI-for-math philanthropist",
+      "base": "London",
+      "investments": "Through XTX Ventures (since 2017): Kopa.ai, Ethos, Lucida Medical, Proxima Fusion, SPhotonix. XTX gave $9.2M to an AI-for-mathematicians fund (Dec 2024). No personal angel deals surfaced.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "B",
+      "why": "Strong interest in AI and math reasoning, with a venture arm. Approach through XTX Ventures.",
+      "confidence": "medium",
+      "sources": [
+        "https://f4.fund/firms/xtx-ventures",
+        "https://www.bloomberg.com/news/articles/2024-12-05/billionaire-gerko-s-xtx-gives-millions-to-make-ai-better-at-math",
+        "https://cryptobriefing.com/xtx-markets-gerko-record-earnings-2025/"
+      ]
+    },
+    {
+      "name": "Greg Jensen",
+      "background": "Co-CIO of Bridgewater Associates; leads Bridgewater's AIA Labs (ML-run fund launched 2024)",
+      "role": "Personal angel in frontier AI",
+      "base": "Westport, CT",
+      "investments": "Committed his own money to OpenAI's first funding round; wrote one of the first checks into Anthropic (per Fortune, Jul 2024)",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "B",
+      "why": "A macro-quant leader who backs AI early and builds ML trading agents. Xitadel is directly relevant to AIA Labs.",
+      "confidence": "high",
+      "sources": [
+        "https://fortune.com/2024/07/01/bridgewater-2-billion-fund-machine-learning-decision-making-openai-anthropic-perplexity",
+        "https://hedgeweek.com/bridgewater-launches-2bn-machine-learning-driven-fund"
+      ]
+    },
+    {
+      "name": "Tarun Chitra",
+      "background": "D. E. Shaw Research (2011-16), Vatic Labs quant R&D (2016-18); founder and CEO of Gauntlet (simulation-based DeFi risk)",
+      "role": "Managing partner, Robot Ventures (co-founded 2019 with Robert Leshner); active angel",
+      "base": "New York",
+      "investments": "Robot Ventures and angel portfolio (crypto/DeFi focus). ETHZilla PIPE (Jul 29, 2025, per CB Insights).",
+      "x": "@tarunchitra",
+      "email": "",
+      "emailSource": "",
+      "fit": "B",
+      "why": "A quant and simulation-environment builder who invests early. Likely to understand agent self-improvement environments for trading.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.theblock.co/profile/350206/tarun-chitra",
+        "https://signal.nfx.com/investors/tarun-chitra",
+        "https://www.cbinsights.com/investor/tarun-chitra",
+        "https://iq.wiki/wiki/robot-ventures.md"
+      ]
+    },
+    {
+      "name": "Rashmi Gopinath",
+      "background": "Ex-B Capital GP, ex-M12 (Microsoft) MD, ex-Intel Capital",
+      "role": "Co-lead of BAM Corner Point / Atlas Growth LP (Balyasny's first venture fund)",
+      "base": "San Francisco Bay Area",
+      "investments": "Led B Capital investments in Labelbox (AI training data), DataRobot, FalconX, Starburst, Clari and others (years not in snippets)",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "B",
+      "why": "Backed an AI-data company (Labelbox) and now invests multi-strat hedge-fund capital. Her fund is growth-stage, so better for a later round.",
+      "confidence": "medium",
+      "sources": [
+        "https://ai-infra-summit.com/node/17135",
+        "https://www.hedgeweek.com/hedge-fund-balyasny-targeting-350m-for-first-venture-fund/"
+      ]
+    },
+    {
+      "name": "Jeff Bezos",
+      "background": "Former senior vice president at D. E. Shaw (pre-Amazon)",
+      "role": "Principal, Bezos Expeditions (family office)",
+      "base": "Miami / Seattle",
+      "investments": "Perplexity $73.6M Series B (Jan 2024) and follow-on (Apr 2024); Figure AI (Feb 2024); Physical Intelligence $400M round (Nov 2024); Physical Intelligence and Unconventional AI (2025)",
+      "x": "@JeffBezos",
+      "email": "",
+      "emailSource": "",
+      "fit": "C",
+      "why": "A D. E. Shaw alumnus who is a heavy AI investor, but he backs mega-rounds and is hard to reach at seed.",
+      "confidence": "high",
+      "sources": [
+        "https://datacommons.dealroom.co/news/feed/bezos-invests-in-ai-start-up-perplexity",
+        "https://www.benzinga.com/markets/24/08/40161467/jeff-bezos-is-putting-his-money-behind-ai-meet-the-unicorns-earning-his-dollars",
+        "https://nbcchicago.com/news/business/money-report/jeff-bezos-family-office-is-making-big-investments-in-ai/3510028",
+        "https://businessinsider.nl/jeff-bezos-just-made-his-latest-bet-in-the-ai-robotics-space-here-are-the-6-startups-hes-backed-so-far/"
+      ]
+    },
+    {
+      "name": "Alan Howard",
+      "background": "Co-founder of Brevan Howard",
+      "role": "Personal angel (crypto-heavy); backer of BH Digital",
+      "base": "Switzerland (became Swiss resident)",
+      "investments": "About 40 crypto projects, including FTX, Bitpanda, Polygon, Ledn, Block.one and Copper. Arkera £4M round (AI investment-intelligence fintech, Apr 2018). In 2025 he shopped Copper and Bitpanda stakes to fund BH Digital.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "C",
+      "why": "An active personal angel, but his recent focus is crypto and consolidating into BH Digital.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.blockworks.com/news/hedge-fund-billionaire-alan-howard-is-still-backing-crypto-startups",
+        "https://www.bnnbloomberg.ca/billionaire-alan-howard-shops-his-own-crypto-stakes-to-grow-brevan-howard-digital-1.2029701",
+        "https://www.uktech.news/news/investment-news/ai-investment-startup-arkera-gets-4m-to-continue-developing-its-platform-20180405",
+        "https://fortune.com/2018/03/14/alan-howard-brevan-howard-cryptocurrency-blockchain"
+      ]
+    },
+    {
+      "name": "David Siegel",
+      "background": "Co-founder and co-chairman of Two Sigma",
+      "role": "Angel investor (about 7 investments per CB Insights)",
+      "base": "New York",
+      "investments": "Lumen Bioscience Series C (Jun 20, 2025). No AI-specific angel deal surfaced.",
+      "x": "",
+      "email": "",
+      "emailSource": "",
+      "fit": "C",
+      "why": "Limited and mostly non-AI angel activity. Two Sigma's venture capital now sits with Deviation.",
+      "confidence": "low",
+      "sources": [
+        "https://www.cbinsights.com/investor/david-siegel"
+      ]
+    }
+  ],
+  "noEvidence": [
+    {"firm": "Man Group", "note": "Only manager stakes found (Westport, Parallel, Asteria, 5:15 Capital seed) plus WOM Chile debt; no venture or startup equity program."},
+    {"firm": "Bridgewater Associates (firm level)", "note": "AIA Labs uses OpenAI, Anthropic and Perplexity models but no firm venture investing was found; see Greg Jensen under people."},
+    {"firm": "AQR Capital Management", "note": "Not covered by a dedicated search (40-search cap); no venture or startup investing known."},
+    {"firm": "Renaissance Technologies", "note": "Not covered by a dedicated search (40-search cap); no venture or startup investing known."},
+    {"firm": "Graham Capital Management", "note": "Search returned only Graham Partners (an unrelated PE firm); nothing for Graham Capital."},
+    {"firm": "Capula Investment Management", "note": "No startup or venture investments surfaced."},
+    {"firm": "GSA Capital", "note": "No startup or venture investments surfaced."},
+    {"firm": "Qube Research & Technologies", "note": "Only an aggregator mention of one undisclosed seed investment (Feb 2026); not verifiable."},
+    {"firm": "ExodusPoint", "note": "No startup or venture investments surfaced; only fundraising news."},
+    {"firm": "Verition Fund Management", "note": "Only biotech private placements (Frequency Therapeutics, Georgiamune) via Caplight; no AI or tech venture."},
+    {"firm": "Squarepoint Capital", "note": "No outbound startup investing surfaced (the only result was about Squarepoint receiving financing)."},
+    {"firm": "Cubist Systematic Strategies", "note": "Point72's systematic arm with no separate venture activity; use Point72 Ventures."},
+    {"firm": "Engineers Gate", "note": "No startup or venture investments surfaced."},
+    {"firm": "PDT Partners", "note": "No startup or venture investments surfaced."},
+    {"firm": "John Overdeck (Two Sigma)", "note": "No personal angel or AI startup deals surfaced; activity is philanthropic (Overdeck Family Foundation)."},
+    {"firm": "Vincent Viola (Virtu)", "note": "No personal startup or AI angel deals surfaced; holdings are Virtu, Florida Panthers and a regional bank."},
+    {"firm": "Ken Griffin (Citadel), personal", "note": "Family office reportedly does VC, but no named personal startup deal surfaced; the Situational Awareness deal (Aug 2026) is a hedge fund."}
+  ]
+}
