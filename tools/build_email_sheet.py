@@ -140,7 +140,7 @@ def main(targets_path):
     notes = [
         f"共 {len(rows)} 个邮箱，覆盖 {len(have)} 家机构或个人：本人公开 {personal} 个，机构投递 / 通用邮箱 {len(rows) - personal} 个。"
         f"'还没找到'列了其余 {len(missing)} 家：搜过但没有公开邮箱的 {sum(1 for t in missing if t['name'] in searched)} 家，"
-        f"还没搜的 {sum(1 for t in missing if t['name'] not in searched)} 家（这一轮搜索额度只够优先的 240 家）。",
+        f"还没搜的 {sum(1 for t in missing if t['name'] not in searched)} 家（这一轮的搜索额度只够排在前面的 {len(searched)} 家）。",
         "只收本人或所在机构自己公开发布的地址（官网、官方文档、本人主页、本人帖子），每个都有来源链接和搜索结果里的原文。"
         "没有按格式猜（比如 名字@基金.com），也没有用 RocketReach、ZoomInfo、Apollo、Hunter 等数据网站；这类来源一律剔除。",
         "'出自'为'这次搜索'的地址，是从搜索结果的摘要里找到的（本环境打不开基金官网），由第二个调研员检查过来源，"
