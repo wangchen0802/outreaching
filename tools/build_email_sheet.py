@@ -13,6 +13,8 @@ Sheets:
 - 邮箱: one row per address;
 - 还没找到: targets with no address yet, with the best other channel;
 - 说明.
+Also writes collateral/SimReal-邮件合并.csv for Gmail mail merge (non-mainland rows only): First name, Email,
+Company, Opener (the sourced one-line hook for that investor; a fund inbox gets "Could you pass this to ...").
 
 Needs openpyxl.
 
@@ -33,6 +35,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FOUND = ROOT / "intel" / "investors" / "emails-found.json"
 OUT = ROOT / "collateral" / "SimReal-投资人邮箱.xlsx"
 OUT_CSV = ROOT / "collateral" / "SimReal-投资人邮箱.csv"
+MERGE_CSV = ROOT / "collateral" / "SimReal-邮件合并.csv"
+MAINLAND = re.compile(r"^(国内|中国大陆)")
 EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 URL = re.compile(r"https?://[^\s;，；、）)\]]+")
 BROKERS = re.compile(r"rocketreach|zoominfo|apollo\.io|contactout|signalhire|lusha|hunter\.io|snov\.io|leadiq|clearbit|adapt\.io|"
@@ -143,12 +147,49 @@ def main(targets_path):
         for cell in r:
             cell.alignment = Alignment(wrap_text=True, vertical="top")
 
+    write_merge(rows)
     wb.save(OUT)
     with open(OUT_CSV, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow([c for c, _ in cols])
         w.writerows(table)
     print(f"wrote {OUT.relative_to(ROOT)}: {len(rows)} emails for {len(have)} targets ({personal} personal), {len(missing)} without")
+
+
+def openers():
+    """Sourced one-line hooks per investor name, from the approval page, the angel list and the alumni list."""
+    hooks = {}
+    with open(ROOT / "lists" / "investors.csv", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            if r["语言"] == "en" and r["钩子"]:
+                hooks[r["名称"]] = r["钩子"]
+    for name in ("angels.json", "alumni.json"):
+        path = ROOT / "intel" / "investors" / name
+        if path.exists():
+            for a in json.loads(path.read_text(encoding="utf-8")):
+                if a.get("keep", True) and a.get("opener"):
+                    hooks.setdefault(a["name"], a["opener"])
+    return hooks
+
+
+def write_merge(rows):
+    hooks = openers()
+    with open(MERGE_CSV, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["First name", "Email", "Company", "Opener"])
+        for r in rows:
+            if MAINLAND.match(r["region"] or "") or re.search(r"[\u4e00-\u9fff]", r["name"]):
+                continue
+            company = re.split(r"[（(]", r["name"])[0].strip()
+            hook = hooks.get(r["name"], "")
+            if r["kind"] == "个人公开":
+                first = (r["owner"] or "").split()[0] if r["owner"] else "there"
+            else:
+                first = company + " team"
+                contact = r.get("contact") or ""
+                if contact and not contact.startswith("未找到"):
+                    hook = f"Could you pass this to {contact}? " + hook
+            w.writerow([first, r["email"], company, hook.strip()])
 
 
 def sheet(wb, title, cols, rows):
