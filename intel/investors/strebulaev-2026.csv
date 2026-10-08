@@ -1,0 +1,101 @@
+rank,firm,score,top_deal,certainty,domain
+1,Sequoia Capital,10158,DoorDash,清楚,sequoiacap.com
+2,Andreessen Horowitz (a16z),8293,Databricks,清楚,a16z.com
+3,Accel,4576,Scale AI,清楚,accel.com
+4,DST Global,4445,Kuaishou,清楚,dst-global.com
+5,Tiger Global Management,4364,Coinbase,清楚,tigerglobal.com
+6,Index Ventures,4267,Figma,清楚,indexventures.com
+7,Lightspeed Venture Partners,3811,Mistral AI,清楚,lsvp.com
+8,Thrive Capital,3698,OpenAI,清楚,thrivecap.com
+9,Founders Fund,3626,Ramp,清楚,foundersfund.com
+10,ICONIQ,3011,Snowflake,清楚,iconiqcapital.com
+11,Kleiner Perkins,2987,Figma,清楚,kleinerperkins.com
+12,NEA (New Enterprise Associates),2834,Robinhood,清楚,nea.com
+13,Greylock,2819,Figma,清楚,greylock.com
+14,Benchmark,2693,Sierra,待确认（logo 看不清，按代表投资推断）,benchmark.com
+15,Bessemer Venture Partners,2540,Perplexity,清楚,bvp.com
+16,Khosla Ventures,2348,OpenAI,清楚,khoslaventures.com
+17,General Catalyst,1978,Athelas,清楚,generalcatalyst.com
+18,Ribbit Capital,1636,Robinhood,清楚,ribbitcap.com
+19,Parkway Venture Capital,1619,Figure,清楚,
+20,General Atlantic,1460,ByteDance,清楚,generalatlantic.com
+21,Notable Capital,1440,HashiCorp,清楚,notablecap.com
+22,IVP (Institutional Venture Partners),1439,Perplexity,清楚,ivp.com
+23,（被遮挡，无法辨认）,1302,Klarna,待确认,
+24,Altimeter Capital,1251,Snowflake,清楚,altimeter.com
+25,Mayfield,1247,HashiCorp,清楚,mayfield.com
+26,Sutter Hill Ventures,1224,Snowflake,清楚,shv.com
+27,OrbiMed,1153,AbCellera,清楚,orbimed.com
+28,Insight Partners,1143,Checkout.com,清楚,insightpartners.com
+29,Coatue,1093,OpenAI,清楚,coatue.com
+30,Spark Capital,1039,Perch,清楚,sparkcapital.com
+31,SV Angel,985,Sierra,清楚,svangel.com
+32,Battery Ventures,961,Braze,清楚,battery.com
+33,Bedrock Capital,935,OpenAI,清楚,
+34,Paradigm,897,Fireblocks,清楚,paradigm.xyz
+35,Oak HC/FT,891,CareBridge（看不清）,清楚,oakhcft.com
+36,Atlas Venture,852,Akero Therapeutics,清楚,atlasventure.com
+37,Venrock,843,Devoted Health,清楚,venrock.com
+38,Meritech Capital,842,Flock Safety,清楚,meritechcapital.com
+39,Norwest Venture Partners,835,Vast,清楚,nvp.com
+40,CRV,821,Reflection AI,较清楚（红色圆形 logo）,crv.com
+41,Bain Capital Ventures,817,Crusoe,清楚,baincapitalventures.com
+42,（V 字 logo，可能是 Vy Capital）,816,xAI,待确认,
+43,Menlo Ventures,798,Anthropic,清楚,menlovc.com
+44,Greenoaks,794,Coupang,清楚,greenoaks.com
+45,（无法辨认）,724,Verkada,待确认,
+46,8VC,687,Chaos Industries,清楚,8vc.com
+47,TCV,680,Toast,清楚,tcv.com
+48,（可能是 Lux Capital）,670,Ramp,待确认,
+49,ARCH Venture Partners,654,Sana Biotechnology,清楚,archventure.com
+50,Union Square Ventures (USV),609,Coinbase,清楚,usv.com
+51,Matrix,551,Fivetran,清楚,matrix.vc
+52,Factorial Funds,541,xAI,清楚,
+53,Sapphire Ventures,536,Auth0,清楚,sapphireventures.com
+54,Valor Equity Partners,532,Anduril,清楚,valorep.com
+55,U.S. Venture Partners (USVP),514,Inari Medical,清楚,usvp.com
+56,Disruptive (Disruptive Technology Advisers),494,Groq,较清楚,
+57,Future Ventures,476,xAI,清楚,future.ventures
+58,Madrona,466,Snowflake,清楚,madrona.com
+59,Amplify Partners,457,Runway,较清楚,amplifypartners.com
+60,2468 Ventures（按 logo 文字）,453,Anthropic,待确认,
+61,Versant Ventures,449,RayzeBio,清楚,versantventures.com
+62,Revolution,434,Sportradar,清楚,revolution.com
+63,True Ventures,419,Peloton,清楚,trueventures.com
+64,Addition,414,Alchemy,清楚,addition.com
+65,TeleSoft（按 logo 文字）,408,SHEIN,待确认,
+66,Caffeinated Capital,402,Saronic,清楚,
+67,DCVC,397,CoreWeave,较清楚,dcvc.com
+68,（带翅膀的 logo，无法辨认）,395,W 开头的公司（看不清）,待确认,
+69,FirstMark Capital,389,Ro,清楚,firstmark.com
+70,Flybridge,384,FalconX,清楚,flybridge.com
+71,Playground Global,383,Relativity,清楚,playground.global
+72,Bolt,367,Bobbie,较清楚,bolt.io
+73,venBio,362,Akero Therapeutics,清楚,venbio.com
+74,Felicis,359,Canva,清楚,felicis.com
+75,Sofinnova Investments,353,Spark Therapeutics,清楚,
+76,Pantera Capital,351,Alchemy,清楚,panteracapital.com
+77,Initialized Capital,347,Coinbase,清楚,initialized.com
+78,F-Prime Capital,340,Sana Biotechnology,清楚,fprimecapital.com
+79,（无法辨认）,329,Oseberg,待确认,
+80,Wing Venture Capital,311,Snowflake,清楚,wing.vc
+81,Tidemark,311,ServiceTitan,清楚,
+82,Scale Venture Partners,310,（看不清）,清楚,scalevp.com
+83,Canaan Partners,305,W 开头的公司（看不清）,清楚,canaan.com
+84,Multicoin Capital,303,Fuse,较清楚,multicoin.capital
+85,Primary Venture Partners,287,Etched,清楚,primary.vc
+86,Maverick Ventures,284,Coupang,清楚,
+87,NeoTribe Ventures,281,BillionToOne,清楚,
+88,HOF Capital,276,Revolut,清楚,
+89,Two Sigma Ventures,274,Remote,清楚,
+90,Gradient Ventures,274,Opendoor,清楚,
+91,Third Rock Ventures,274,MyoKardia,清楚,thirdrockventures.com
+92,Greycroft,266,Pie Insurance,清楚,greycroft.com
+93,Craft Ventures,261,ClickUp,清楚,craftventures.com
+94,Goodwater Capital,259,Coupang,清楚,goodwatercap.com
+95,Polychain Capital,256,Move Industries,清楚,polychain.capital
+96,（CV 开头，可能是 Curative Ventures）,256,Instil Bio,待确认,
+97,Haun Ventures,254,Bridge,清楚,haun.co
+98,（圆形 logo，无法辨认）,253,AlphaSense,待确认,
+99,CAVU Venture Partners,250,Poppi,较清楚,
+100,Zigg Capital,245,Metropolis,清楚,
