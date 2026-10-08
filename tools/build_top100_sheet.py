@@ -40,9 +40,10 @@ def main():
     notes = wb.create_sheet("说明")
     for line in [
         "来源：2026 Strebulaev-Jackson Venture Ranking（美国前 100 家 VC），按截图逐行转录；分数和代表投资照抄图中数字。",
-        "辨认把握：清楚 = logo 文字可读；较清楚 = logo 可辨但有点糊；待确认 = logo 太小或被遮挡，按代表投资推断或暂时空着。",
+        "辨认把握：清楚 = logo 文字可读；较清楚 = logo 可辨但有点糊；已核实 = 看不清的 logo 已用公开的排名转载（f4.fund、The VC Corner、Rothschild）对上；"
+        "较可能 = 证据吻合但没找到排名原文；待确认 = 还没查到，括号里是最可能的候选。",
         "官网域名只填了有把握的，供 Apollo 匹配公司用；空着的直接按名称搜。",
-        "SimReal-Top100VC-Apollo导入.csv 只含已辨认的机构（Company Name, Website 两列），可以在 Apollo 里用 CSV 导入批量查公司。",
+        "SimReal-Top100VC-Apollo导入.csv 收了除'待确认'以外的机构（Company Name, Website 两列），可以在 Apollo 里用 CSV 导入批量查公司；'待确认'的几家可以按括号里的候选名单独搜。",
     ]:
         notes.append([line])
     notes.column_dimensions["A"].width = 110

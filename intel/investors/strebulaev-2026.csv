@@ -12,7 +12,7 @@ rank,firm,score,top_deal,certainty,domain
 11,Kleiner Perkins,2987,Figma,清楚,kleinerperkins.com
 12,NEA (New Enterprise Associates),2834,Robinhood,清楚,nea.com
 13,Greylock,2819,Figma,清楚,greylock.com
-14,Benchmark,2693,Sierra,待确认（logo 看不清，按代表投资推断）,benchmark.com
+14,Benchmark,2693,Sierra,已核实（f4.fund、Rothschild 均列第 14）,benchmark.com
 15,Bessemer Venture Partners,2540,Perplexity,清楚,bvp.com
 16,Khosla Ventures,2348,OpenAI,清楚,khoslaventures.com
 17,General Catalyst,1978,Athelas,清楚,generalcatalyst.com
@@ -21,7 +21,7 @@ rank,firm,score,top_deal,certainty,domain
 20,General Atlantic,1460,ByteDance,清楚,generalatlantic.com
 21,Notable Capital,1440,HashiCorp,清楚,notablecap.com
 22,IVP (Institutional Venture Partners),1439,Perplexity,清楚,ivp.com
-23,（被遮挡，无法辨认）,1302,Klarna,待确认,
+23,Dragoneer Investment Group,1302,Klarna,已核实（The VC Corner 列 Dragoneer 第 23）,dragoneer.com
 24,Altimeter Capital,1251,Snowflake,清楚,altimeter.com
 25,Mayfield,1247,HashiCorp,清楚,mayfield.com
 26,Sutter Hill Ventures,1224,Snowflake,清楚,shv.com
@@ -40,13 +40,13 @@ rank,firm,score,top_deal,certainty,domain
 39,Norwest Venture Partners,835,Vast,清楚,nvp.com
 40,CRV,821,Reflection AI,较清楚（红色圆形 logo）,crv.com
 41,Bain Capital Ventures,817,Crusoe,清楚,baincapitalventures.com
-42,（V 字 logo，可能是 Vy Capital）,816,xAI,待确认,
+42,（可能是 Vy Capital）,816,xAI,待确认（xAI 的第三家；logo 是 V 字，没找到排名原文）,
 43,Menlo Ventures,798,Anthropic,清楚,menlovc.com
 44,Greenoaks,794,Coupang,清楚,greenoaks.com
-45,（无法辨认）,724,Verkada,待确认,
+45,First Round Capital,724,Verkada,已核实（f4.fund 列第 45；logo 是方括号）,firstround.com
 46,8VC,687,Chaos Industries,清楚,8vc.com
 47,TCV,680,Toast,清楚,tcv.com
-48,（可能是 Lux Capital）,670,Ramp,待确认,
+48,Lux Capital,670,Ramp,已核实（f4.fund 列第 48）,luxcapital.com
 49,ARCH Venture Partners,654,Sana Biotechnology,清楚,archventure.com
 50,Union Square Ventures (USV),609,Coinbase,清楚,usv.com
 51,Matrix,551,Fivetran,清楚,matrix.vc
@@ -58,15 +58,15 @@ rank,firm,score,top_deal,certainty,domain
 57,Future Ventures,476,xAI,清楚,future.ventures
 58,Madrona,466,Snowflake,清楚,madrona.com
 59,Amplify Partners,457,Runway,较清楚,amplifypartners.com
-60,2468 Ventures（按 logo 文字）,453,Anthropic,待确认,
+60,2468 Ventures,453,Anthropic,较可能（logo 文字清楚，Tracxn 显示投过 Anthropic，没找到排名原文）,
 61,Versant Ventures,449,RayzeBio,清楚,versantventures.com
 62,Revolution,434,Sportradar,清楚,revolution.com
 63,True Ventures,419,Peloton,清楚,trueventures.com
 64,Addition,414,Alchemy,清楚,addition.com
-65,TeleSoft（按 logo 文字）,408,SHEIN,待确认,
+65,（可能是 IDG Capital）,408,SHEIN,待确认（早期投资 SHEIN、红底白字 logo；没找到排名原文）,
 66,Caffeinated Capital,402,Saronic,清楚,
 67,DCVC,397,CoreWeave,较清楚,dcvc.com
-68,（带翅膀的 logo，无法辨认）,395,W 开头的公司（看不清）,待确认,
+68,（无法辨认）,395,W 开头的公司（看不清）,待确认（没查到）,
 69,FirstMark Capital,389,Ro,清楚,firstmark.com
 70,Flybridge,384,FalconX,清楚,flybridge.com
 71,Playground Global,383,Relativity,清楚,playground.global
@@ -77,7 +77,7 @@ rank,firm,score,top_deal,certainty,domain
 76,Pantera Capital,351,Alchemy,清楚,panteracapital.com
 77,Initialized Capital,347,Coinbase,清楚,initialized.com
 78,F-Prime Capital,340,Sana Biotechnology,清楚,fprimecapital.com
-79,（无法辨认）,329,Oseberg,待确认,
+79,Houston Ventures,329,Oseberg,已核实（f4.fund 列第 79）,
 80,Wing Venture Capital,311,Snowflake,清楚,wing.vc
 81,Tidemark,311,ServiceTitan,清楚,
 82,Scale Venture Partners,310,（看不清）,清楚,scalevp.com
@@ -94,8 +94,8 @@ rank,firm,score,top_deal,certainty,domain
 93,Craft Ventures,261,ClickUp,清楚,craftventures.com
 94,Goodwater Capital,259,Coupang,清楚,goodwatercap.com
 95,Polychain Capital,256,Move Industries,清楚,polychain.capital
-96,（CV 开头，可能是 Curative Ventures）,256,Instil Bio,待确认,
+96,Curative Ventures,256,Instil Bio,较可能（Instil Bio 最大股东，logo 文字吻合；没找到排名原文）,
 97,Haun Ventures,254,Bridge,清楚,haun.co
-98,（圆形 logo，无法辨认）,253,AlphaSense,待确认,
+98,（可能是 Innovation Endeavors）,253,AlphaSense,待确认（领投过 AlphaSense B 轮；没找到排名原文）,
 99,CAVU Venture Partners,250,Poppi,较清楚,
 100,Zigg Capital,245,Metropolis,清楚,
