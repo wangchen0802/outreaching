@@ -1,0 +1,2371 @@
+{
+ "rows": [
+  {
+   "rank": 1,
+   "firm": "Sequoia Capital",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late / Public",
+   "core": "美国早期（种子/A轮）是交易核心，另有成长基金和常青基金持有后期与上市公司",
+   "seedVehicle": "Sequoia Arc（pre-seed/seed 公司建设项目，每期约10–15家）",
+   "check": "Arc 首笔约 $500K–$1M、约10%股权（第三方报道，官方称条款逐案而定）",
+   "leads": "领投为主",
+   "sectors": "AI、AI基础设施、企业软件、金融科技、消费、医疗；加密少量",
+   "seedFit": "A",
+   "note": "种子轮可直接找美国合伙人；截至2026年9月底官网未显示新一期 Arc 开放申请，需关注官网",
+   "confidence": "medium",
+   "sources": [
+    "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026",
+    "https://superscout.co/program/sequoia-arc",
+    "https://www.sequoiacap.com"
+   ]
+  },
+  {
+   "rank": 2,
+   "firm": "Andreessen Horowitz (a16z)",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "core": "多阶段平台：早期交易数量多，资金大头在成长期和 AI 基础设施",
+   "seedVehicle": "a16z speedrun（加速器，每年两期，已投250+家）",
+   "check": "speedrun：前期 $500K 换10%（SAFE），18个月内下一轮再投 $500K，合计最高 $1M",
+   "leads": "领投为主",
+   "sectors": "AI、AI基础设施、企业软件、金融科技、加密（a16z crypto）、生物/医疗、国防（American Dynamism）、游戏",
+   "seedFit": "A",
+   "note": "SR007 将于2026-10-11结束，需在官网确认 SR008 的申请时间；种子轮也可直接找 AI/infra 或 fintech 团队",
+   "confidence": "high",
+   "sources": [
+    "https://a16z.com/applications-for-a16z-speedrun-sr007-are-now-open/",
+    "https://a16z.com/a16z-speedrun-application-winter-spring-2026/"
+   ]
+  },
+  {
+   "rank": 3,
+   "firm": "Accel",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "core": "以 Series A 早期领投为核心，另设 Accel Leaders 成长基金投后期",
+   "seedVehicle": "Accel Atoms（印度/东南亚 pre-seed 项目；2026年 Atoms AI 期与 Google AI Futures Fund 合作）",
+   "check": "Atoms 标准额 $250K（无估值上限可转债）；Atoms AI 期最高 $2M；美国种子轮金额未确认",
+   "leads": "领投为主",
+   "sectors": "AI、企业软件/SaaS、网络安全、金融科技、消费；加密少量",
+   "seedFit": "A",
+   "note": "Atoms 主要面向印度创始人，美国团队应直接找 Accel US 谈种子/A轮",
+   "confidence": "medium",
+   "sources": [
+    "https://news.ventureintelligence.com/private-equity/accel-expands-pre-seed-program-with-2-new-tracks:-accel-atoms-ai,-atoms-x",
+    "https://www.incorpx.io/grants/accel-atoms-ai-cohort-2026-pre-seed-scaling-program-312",
+    "https://www.accel.com"
+   ]
+  },
+  {
+   "rank": 4,
+   "firm": "DST Global",
+   "stages": "Series B / Growth / Late（偶尔以跟投方参与 Seed / Series A）",
+   "core": "后期成长轮，偏好估值 $1B+ 的互联网/AI 公司",
+   "seedVehicle": "无",
+   "check": "约 $50–100M（第三方数据，未经官方确认）",
+   "leads": "领投/跟投都做",
+   "sectors": "消费互联网、AI、金融科技、企业软件",
+   "seedFit": "C",
+   "note": "2026年有跟投种子/A轮的记录（如 Gradium、Tsuga），但都不是领投，3周大的公司很难进入其视野",
+   "confidence": "medium",
+   "sources": [
+    "https://www.caplight.com/investor/dst-global",
+    "https://www.briter.co/companies/dst-global-partners",
+    "https://www.premieralts.com/investors/dst-global"
+   ]
+  },
+  {
+   "rank": 5,
+   "firm": "Tiger Global Management",
+   "stages": "Seed（极少）/ Series A / Series B / Growth / Late / Public",
+   "core": "成长期私募股权和二级市场；PIP 15 过半交易在 A/B 轮，PIP 17 缩至约 $2.2B 并放缓投资节奏",
+   "seedVehicle": "无（合伙人承诺 $1B 作为 LP 投给其他种子基金，不是直投项目）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "互联网、企业软件、金融科技、AI、消费",
+   "seedFit": "C",
+   "note": "2026年已转向少而精的打法，新投项目很少，种子轮不在优先之列",
+   "confidence": "medium",
+   "sources": [
+    "https://news.crunchbase.com/venture/report-tiger-global-seed-investing-better-tomorrow-ventures/",
+    "https://www.startupresearcher.com/news/tiger-global-seeks-2-2-billion-for-new-fund-warning-of-ai-bubble",
+    "https://hedgefundalpha.com/news/tiger-global-pip-17-investor-letter/"
+   ]
+  },
+  {
+   "rank": 6,
+   "firm": "Index Ventures",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "Series A/B 早期风投加成长基金（成长基金合计 $2.2B），覆盖欧洲、英国、以色列和美国",
+   "seedVehicle": "Index 种子基金（$400M，2026年7–8月宣布，专投首轮机构融资）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI、AI基础设施、网络安全、金融科技、医疗、企业软件、消费",
+   "seedFit": "A",
+   "note": "刚募完 $400M 专项种子基金，并明确表示加码 AI，是种子轮的优先目标",
+   "confidence": "high",
+   "sources": [
+    "https://pulse2.com/index-ventures-raises-3-5-billion-across-new-seed-venture-and-growth-funds/",
+    "https://sifted.eu/articles/index-ventures-2bn-raise-ai",
+    "https://dealroom.co/news/142415-index-ventures-raises-2b-in-fresh-capital-lifting-total-to-3-5b-across-s/"
+   ]
+  },
+  {
+   "rank": 7,
+   "firm": "Lightspeed Venture Partners",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "多阶段：早期 A 轮加成长期，近年大额押注 AI 模型公司（Mistral、Anthropic 等）",
+   "seedVehicle": "Lightspeed seed（种子直投业务，未确认有独立品牌项目）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI、AI基础设施、企业软件、网络安全、金融科技、消费；加密少量",
+   "seedFit": "A",
+   "note": "有长期做种子轮的传统，AI/infra 方向投得活跃，可直接找企业或 AI 方向的合伙人",
+   "confidence": "medium",
+   "sources": [
+    "https://lsvp.com"
+   ]
+  },
+  {
+   "rank": 8,
+   "firm": "Thrive Capital",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "大额集中押注后期 AI（OpenAI 等）；2024年募资 $5B，其中 $1B 为早期基金",
+   "seedVehicle": "无（有早期基金，但没有命名的种子项目）",
+   "check": "约 $500K–$50M+（第三方数据）",
+   "leads": "领投为主",
+   "sectors": "AI（基础模型和应用）、金融科技、企业软件、医疗、消费",
+   "seedFit": "B",
+   "note": "有早期基金，但种子轮挑得很严、出手少，更常见于 A 轮及以后的重仓",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/thrive-capital",
+    "https://finder.techleap.nl/news/note/thrive-capital-raises-5-billion-to-invest-in-ai",
+    "https://www.tryfundable.ai/investor/thrive-capital"
+   ]
+  },
+  {
+   "rank": 9,
+   "firm": "Founders Fund",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "早期风投基金加 FF Growth 成长基金，集中押注硬核技术",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI、国防/硬科技、航天、金融科技（Ramp）、加密、生物科技",
+   "seedFit": "A",
+   "note": "偏好逆共识、技术壁垒高的项目，RL 环境和自我改进模型的叙事契合度高",
+   "confidence": "medium",
+   "sources": [
+    "https://foundersfund.com"
+   ]
+  },
+  {
+   "rank": 10,
+   "firm": "ICONIQ",
+   "stages": "Seed（个别）/ Series A（个别）/ Series B / Growth / Late",
+   "core": "ICONIQ Growth 以 B 轮及以后的成长期为主，2025年投入 AI 超 $3B",
+   "seedVehicle": "无",
+   "check": "成长期约 $5M–$200M（各来源不一致）；早期金额更小，具体未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件/SaaS、AI、网络安全、金融科技",
+   "seedFit": "B",
+   "note": "近年开始选择性投 AI 种子轮（如 Grotto AI、Whirl AI），但限于极高确信度的项目，常规从 B 轮进入",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/iconiq-growth",
+    "https://iconiq.com/llms.txt",
+    "https://www.eaglerockcfo.com/blog/venture-capital-firms/iconiq-review"
+   ]
+  },
+  {
+   "rank": 11,
+   "firm": "Kleiner Perkins",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "2026年3月募资 $3.5B：KP22 早期基金 $1B（种子+A轮），KP Select IV 成长基金 $2.5B",
+   "seedVehicle": "KP22 早期基金直投种子轮；KP Fellows 是学生实习项目，不是投资工具",
+   "check": "未确认（第三方称早期基金 $500K–$5M，未证实）",
+   "leads": "领投为主",
+   "sectors": "AI（两只基金都以 AI 为主线）、企业软件、金融科技、医疗、硬科技",
+   "seedFit": "A",
+   "note": "新的 $1B 早期基金明确投种子和 A 轮，AI 方向全力投入，适合优先接触",
+   "confidence": "high",
+   "sources": [
+    "https://valueaddvc.com/blog/kleiner-perkins-raises-35-billion-across-two-new-ai-funds",
+    "https://pipelineroad.com/news/20260325-kleiner-perkins-raises-1b-early-stage-and-2-5b-growth-funds-"
+   ]
+  },
+  {
+   "rank": 12,
+   "firm": "NEA (New Enterprise Associates)",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "多阶段：科技类早期 A/B 轮加成长期，医疗/生物科技占比也很大",
+   "seedVehicle": "无（直投种子轮，未确认有独立品牌项目）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、AI、金融科技（Robinhood）、医疗/生物科技、消费",
+   "seedFit": "B",
+   "note": "会做种子轮，但近年 AI 种子轮的领投案例未经搜索核实，建议找科技早期合伙人",
+   "confidence": "medium",
+   "sources": [
+    "https://www.nea.com"
+   ]
+  },
+  {
+   "rank": 13,
+   "firm": "Greylock",
+   "stages": "Pre-seed / Seed / Series A / Series B",
+   "core": "Greylock 17（$1B）专投 Pre-seed、Seed、Series A 的企业和消费软件",
+   "seedVehicle": "Greylock Edge（面向 pre-idea / pre-seed / seed 创始人的公司建设项目）",
+   "check": "未确认（Edge 融资方式灵活，可用 SAFE 或定价轮）",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI、AI基础设施、网络安全、消费",
+   "seedFit": "A",
+   "note": "专注最早期的企业 AI/infra，Edge 很适合刚成立的团队",
+   "confidence": "high",
+   "sources": [
+    "https://greylock.com/blog/announcing-greylock-17/",
+    "https://techcrunch.com/2023/10/03/greylock-1b-venture-capital-founders-program/amp/",
+    "https://hub.causo.ai/guides/how-to-apply-to-greylock-edge-2026"
+   ]
+  },
+  {
+   "rank": 14,
+   "firm": "Benchmark",
+   "stages": "Seed / Series A / Series B（少量）",
+   "core": "小而精的合伙人团队，以领投 Series A 为核心",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI（Sierra、LangChain）、企业软件、消费、市场平台",
+   "seedFit": "B",
+   "note": "主做 A 轮，偶尔领投优质种子轮（如 LangChain），需要合伙人本人高度认可",
+   "confidence": "medium",
+   "sources": [
+    "https://www.benchmark.com"
+   ]
+  },
+  {
+   "rank": 15,
+   "firm": "Bessemer Venture Partners",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "core": "约70%的投资在种子和 A 轮；2026年9月新募 $5.75B（$1.75B 投种子/早期，$4B 投成长期）",
+   "seedVehicle": "无（早期基金直投种子轮，未确认有独立品牌项目）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI 原生公司（2022年以来投了260+家）、AI基础设施、云/企业软件、网络安全、金融科技、医疗",
+   "seedFit": "A",
+   "note": "新募了 $1.75B 种子/早期资金，AI 投资非常活跃，是种子轮的优先目标",
+   "confidence": "high",
+   "sources": [
+    "https://pulse2.com/bessemer-venture-partners-raises-5-75-billion/",
+    "https://cryptobriefing.com/bessemer-raises-6b-ai-investments/"
+   ]
+  },
+  {
+   "rank": 16,
+   "firm": "Khosla Ventures",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "以早期为主；2026年正募至多 $5.5B，大部分投早期 AI",
+   "seedVehicle": "Khosla Ventures Seed Fund（约 $1B 在募；前身 Seed F 约 $400M）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI（OpenAI 早期投资人）、AI基础设施、医疗/生物、气候/能源、硬科技",
+   "seedFit": "A",
+   "note": "种子基金常做唯一的机构投资人，喜欢大胆的技术押注，与 RL/自我改进模型方向很契合",
+   "confidence": "high",
+   "sources": [
+    "https://techfundingnews.com/openais-early-backer-khosla-ventures-targets-largest-fund-ever-at-5-5b-with-most-going-to-early-stage-ai-startups/",
+    "https://dealroom.co/news/141179-khosla-ventures-targets-record-5-5b-fund-most-for-early-stage-ai/"
+   ]
+  },
+  {
+   "rank": 17,
+   "firm": "General Catalyst",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "多阶段平台，资金大头在成长期和医疗转型；早期团队也做种子轮",
+   "seedVehicle": "GC seed（早期团队直投，未确认有独立品牌项目）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI、医疗健康（重仓）、金融科技、国防/全球韧性、企业软件、气候",
+   "seedFit": "A",
+   "note": "早期团队覆盖 AI 和金融科技，种子轮可直接接触",
+   "confidence": "medium",
+   "sources": [
+    "https://www.generalcatalyst.com"
+   ]
+  },
+  {
+   "rank": 18,
+   "firm": "Ribbit Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "以 A 轮到 B+ 轮的金融科技为主",
+   "seedVehicle": "无",
+   "check": "未确认（第三方数据从 $500K 到 $100M+ 不等，差异很大）",
+   "leads": "领投/跟投都做",
+   "sectors": "金融科技、加密/数字资产、AI 原生金融产品、消费金融",
+   "seedFit": "B",
+   "note": "SimReal 的自我改进交易模型与其金融科技/加密主线高度契合，种子轮会选择性参与",
+   "confidence": "medium",
+   "sources": [
+    "https://privateequitylist.com/investors/ribbit-capital",
+    "https://superscout.co/investor/ribbit-capital",
+    "https://vcbeast.com/vc-firms/ribbit-capital"
+   ]
+  },
+  {
+   "rank": 19,
+   "firm": "Parkway Venture Capital",
+   "stages": "Series A / Series B / Growth（自称投早期到成长期，是否做 Seed 未确认）",
+   "core": "成长期深科技大额投资（2025年9月领投 Figure AI $1B C轮，投后估值 $39B）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "深科技：AI、仿真、量子、复杂工程/机器人",
+   "seedFit": "B",
+   "note": "规模较小的深科技基金，AI/仿真方向与 RL 环境契合，但种子轮参与情况未确认；2025年与 Arcapita 建立战略合作",
+   "confidence": "low",
+   "sources": [
+    "https://www.caplight.com/investor/parkway-venture-capital",
+    "https://theaiinsider.tech/2025/01/21/parkway-venture-capital-enters-into-a-strategic-partnership-with-arcapita/",
+    "https://seedtable.com/investors/parkway-venture-capital"
+   ]
+  },
+  {
+   "rank": 20,
+   "firm": "General Atlantic",
+   "stages": "Growth / Late / Public",
+   "core": "全球成长期股权投资",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "科技、金融服务、医疗、消费、气候（BeyondNetZero）",
+   "seedFit": "C",
+   "note": "纯成长期投资机构，不适合种子轮",
+   "confidence": "medium",
+   "sources": [
+    "https://www.generalatlantic.com"
+   ]
+  },
+  {
+   "rank": 21,
+   "firm": "Notable Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "以 Series A/B 为主（原 GGV Capital 美国团队，2024年3月拆分独立）",
+   "seedVehicle": "无",
+   "check": "约 $5M–$50M（第三方数据，各来源不一致）",
+   "leads": "领投/跟投都做",
+   "sectors": "云/基础设施、企业软件、网络安全、AI、消费、金融科技",
+   "seedFit": "B",
+   "note": "会做种子轮但以 A/B 轮为主，infra 方向契合度不错",
+   "confidence": "medium",
+   "sources": [
+    "https://signal.nfx.com/firms/notable-capital",
+    "https://fundcomb.com/funds/notable-capital",
+    "https://www.cgaa.org/article/notable-capital-ggv"
+   ]
+  },
+  {
+   "rank": 22,
+   "firm": "IVP (Institutional Venture Partners)",
+   "stages": "Series B / Growth / Late",
+   "core": "成长期，B 轮后段到 IPO 前",
+   "seedVehicle": "无",
+   "check": "通常 $20M+（第三方数据）",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、AI（Perplexity）、消费、金融科技",
+   "seedFit": "C",
+   "note": "纯成长期投资机构，不适合种子轮，可留到 B 轮以后再接触",
+   "confidence": "medium",
+   "sources": [
+    "https://superscout.co/investor/ivp",
+    "https://www.bloombergquint.com/markets/ivp-raises-1-8-billion-fund-for-growth-stage-startups",
+    "https://seedtable.com/investors/ivp"
+   ]
+  },
+  {
+   "rank": 23,
+   "firm": "Dragoneer Investment Group",
+   "stages": "Growth / Late / Public",
+   "core": "后期大额集中持仓（2025年12月募 $4.3B 第七期，每期约15家）",
+   "seedVehicle": "无",
+   "check": "未确认（通常为数亿美元级别）",
+   "leads": "领投/跟投都做",
+   "sectors": "AI（OpenAI、Anthropic、Helsing）、企业软件、金融科技、消费互联网",
+   "seedFit": "C",
+   "note": "只投已验证产品市场契合的后期公司，不做种子轮",
+   "confidence": "high",
+   "sources": [
+    "https://finder.techleap.nl/news/feed/dragoneer-raises-4-3b-for-seventh-vc-fund-amid-slow-fundraising-year",
+    "https://aiwiki.ai/wiki/dragoneer"
+   ]
+  },
+  {
+   "rank": 24,
+   "firm": "Altimeter Capital",
+   "stages": "Series B / Growth / Late / Public（偶尔 Series A）",
+   "core": "公开市场加后期成长轮的跨阶段投资",
+   "seedVehicle": "无",
+   "check": "未确认（第三方数据从 $1M 到 $25M 不等，相互矛盾）",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件/云、AI、消费互联网、金融科技",
+   "seedFit": "C",
+   "note": "以后期和上市公司投资为主；有第三方称其做 pre-seed/seed，但信息互相矛盾，可信度低",
+   "confidence": "low",
+   "sources": [
+    "https://privateequitylist.com/investors/altimeter-capital",
+    "https://vcbeast.com/claim/altimeter"
+   ]
+  },
+  {
+   "rank": 25,
+   "firm": "Mayfield",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "core": "从公司孵化起投（inception），以种子/A 轮为核心",
+   "seedVehicle": "Mayfield AI Garage（$100M，面向打造 AI teammates 的湾区创始人）",
+   "check": "AI Garage 每个团队最高 $5M，另含6个月津贴",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI（AI teammates/agent）、AI基础设施、网络安全、工程生物",
+   "seedFit": "A",
+   "note": "AI Garage 要求创始人在湾区，适合非常早期的 AI 团队",
+   "confidence": "high",
+   "sources": [
+    "https://www.mayfield.com/mayfield-ai-garage-100m-builder-initiative-for-founders-building-ai-teammates/",
+    "https://techcrunch.com/2024/09/04/mayfield-allocates-100m-to-ai-incubator-modeled-after-its-entrepreneur-in-residence-program"
+   ]
+  },
+  {
+   "rank": 26,
+   "firm": "Sutter Hill Ventures",
+   "stages": "Seed / Series A / Series B",
+   "core": "早期（种子/A），以内部孵化并长期持有企业软件/基础设施公司为特色",
+   "seedVehicle": "无（以内部孵化为主，无命名种子项目）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "企业软件、数据/云基础设施（AI infra 相关）、安全、存储/硬件；不以金融科技、加密、生物科技为主",
+   "seedFit": "B",
+   "note": "以自孵化项目著称（Snowflake、Pure Storage），外部陌生接触成功率偏低，可试但别抱太高期望",
+   "confidence": "medium",
+   "sources": [
+    "https://signal.nfx.com/firms/sutter-hill-ventures",
+    "https://altss.com/profile/sutter-hill-ventures",
+    "https://venturecapitalarchive.com/venture-funds/sutter-hill-ventures-shv-com"
+   ]
+  },
+  {
+   "rank": 27,
+   "firm": "OrbiMed",
+   "stages": "Series A / Series B / Growth / Late / Public",
+   "core": "医疗健康私募风投 + 公开市场（含特许权/信贷），偶有早期孵化",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "生物科技、制药、医疗器械、医疗服务；不投 AI/金融科技/加密",
+   "seedFit": "C",
+   "note": "纯医疗健康投资机构，与 SimReal 方向不符，可跳过",
+   "confidence": "medium",
+   "sources": [
+    "https://www.orbimed.com"
+   ]
+  },
+  {
+   "rank": 28,
+   "firm": "Insight Partners",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "成长期软件公司（ScaleUp，B 轮及以后）及收购；近年也频繁领投 AI A 轮",
+   "seedVehicle": "无",
+   "check": "未确认（第三方称 $10M 起；2026 年领投的 AI A 轮多在 $13–25M 规模）",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI、网络安全、金融科技、数据基础设施",
+   "seedFit": "B",
+   "note": "以成长期软件为主，偶有种子；近两年 AI A 轮很活跃，3 周公司种子轮不是首选",
+   "confidence": "medium",
+   "sources": [
+    "https://neuronfeed.com/investors/insight-partners",
+    "https://superscout.co/investor/insight-partners",
+    "https://aiwiki.ai/wiki/insight_partners/raw"
+   ]
+  },
+  {
+   "rank": 29,
+   "firm": "Coatue",
+   "stages": "Seed / Series A / Series B / Growth / Late / Public",
+   "core": "成长期/后期私募 + 公开市场对冲基金（全周期交叉投资），早期仅零星",
+   "seedVehicle": "未确认（仅第三方资料称有早期团队 Coatue Ventures）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI（含 AI infra）、企业软件、消费互联网、金融科技",
+   "seedFit": "C",
+   "note": "AI 大额后期投资者（OpenAI 等），对 3 周公司的种子轮基本不现实",
+   "confidence": "medium",
+   "sources": [
+    "https://vcbeast.com/claim/coatue-ventures",
+    "https://aifunding.me/insights/coatue-ai-portfolio-analysis",
+    "https://theaiinsider.tech/2024/11/05/coatue-raising-1b-to-power-next-generation-of-ai-innovators/"
+   ]
+  },
+  {
+   "rank": 30,
+   "firm": "Spark Capital",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "早期为主（合伙人称约 3/4 交易为早期，A 轮领投为核心），另有成长基金",
+   "seedVehicle": "无当前命名项目（2009 年曾推出 Start@Spark，现状未确认）",
+   "check": "未确认（第三方称种子/A 约 $1–15M）",
+   "leads": "领投为主",
+   "sectors": "消费互联网、企业软件、AI（领投过 Anthropic C 轮）、金融科技、媒体",
+   "seedFit": "B",
+   "note": "以 A 轮领投为主、也做种子，AI 有布局，值得接触",
+   "confidence": "medium",
+   "sources": [
+    "https://vcbeast.com/vc-firms/spark-capital",
+    "https://vator.tv/news/show/2009-03-25-spark-capital-starts-seed-stage-investing",
+    "https://techcrunch.com/2013/02/25/boston-based-vc-firm-and-early-twitter-investor-spark-capital-raises-450m-for-fourth-fund"
+   ]
+  },
+  {
+   "rank": 31,
+   "firm": "SV Angel",
+   "stages": "Seed / Series B / Growth / Late",
+   "core": "种子轮小额跟投（Seed Fund），另有 Growth Fund 投 B 轮及以后",
+   "seedVehicle": "SV Angel Seed Fund（本身即种子基金）；另有 Growth Fund",
+   "check": "约 $200K（第三方据其 FAQ）；2018 年曾称 $25K–$100K",
+   "leads": "跟投为主",
+   "sectors": "广泛科技：AI、企业软件、消费、金融科技、加密",
+   "seedFit": "A",
+   "note": "明确不领投、小额跟投，适合作为种子轮补位/背书投资人，硅谷人脉极强",
+   "confidence": "high",
+   "sources": [
+    "https://f4.fund/firms/sv-angel",
+    "https://techcrunch.com/2016/11/23/sv-angel-raises-53m-for-its-latest-seed-investment-fund/",
+    "https://techcrunch.com/2018/06/01/sv-angel-says-it-wont-be-raising-another-fund-from-outside-investors"
+   ]
+  },
+  {
+   "rank": 32,
+   "firm": "Battery Ventures",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "企业软件与基础设施的成长期/后期及控股收购，早期占比较小",
+   "seedVehicle": "无",
+   "check": "未确认（第三方称种子 $1–5M）",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、AI/数据基础设施、网络安全、开发者工具、工业科技",
+   "seedFit": "B",
+   "note": "多阶段软件基金（Battery XV 2026 年 2 月 $3.25B），做早期但以 A 轮及以后为主",
+   "confidence": "medium",
+   "sources": [
+    "https://www.eaglerockcfo.com/blog/venture-capital-firms/battery-ventures-review",
+    "https://neuronfeed.com/investors/battery-ventures",
+    "https://www.siliconreport.com/venture/battery-ventures"
+   ]
+  },
+  {
+   "rank": 33,
+   "firm": "Bedrock Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "官网称\"invests early\"，集中下注，也做后期与二级份额",
+   "seedVehicle": "无",
+   "check": "未确认（第三方称 $5–10M）",
+   "leads": "领投/跟投都做",
+   "sectors": "AI（投过 OpenAI）、金融科技、国防/航天、企业软件、Web3",
+   "seedFit": "B",
+   "note": "Geoff Lewis 创立（洛杉矶/奥斯汀），AI 与金融科技都覆盖，可接触",
+   "confidence": "medium",
+   "sources": [
+    "https://bedrockcap.com/geoff-lewis",
+    "https://whisperlist.draftboard.com/vc/e8c8f4c2-1545-4540-8814-94b21488bead/geoff-lewis-bedrock",
+    "https://vcbeast.com/investors/geoff-lewis"
+   ]
+  },
+  {
+   "rank": 34,
+   "firm": "Paradigm",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "加密/区块链各阶段（含代币）；2026 年 7 月 $1.2B 新基金扩展至 AI 与机器人",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "加密/Web3、DeFi/交易基础设施；2026 年起新增 AI、机器人等前沿科技",
+   "seedFit": "B",
+   "note": "自进化交易模型与加密交叉点契合度高；AI 是新方向，可重点接触",
+   "confidence": "high",
+   "sources": [
+    "https://www.theblock.co/post/407617/paradigm-raises-1-2-billion-fourth-fund-crypto-ai-robotics",
+    "https://cryptobriefing.com/paradigm-ai-robotics-expansion/",
+    "https://aiweekly.co/alerts/paradigm-raises-12b-third-fund-expands-from-crypto-into-ai"
+   ]
+  },
+  {
+   "rank": 35,
+   "firm": "Oak HC/FT",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "医疗健康与金融科技的 A 轮到成长期",
+   "seedVehicle": "无",
+   "check": "未确认（第三方说法从 $1–10M 到 $10–50M 不等）",
+   "leads": "领投为主",
+   "sectors": "医疗健康、金融科技（支付、保险科技、金融基础设施）",
+   "seedFit": "B",
+   "note": "金融科技是双主线之一，但偏 A/B 轮，种子可试",
+   "confidence": "medium",
+   "sources": [
+    "https://venturecapitalarchive.com/venture-funds/oak-hc-ft-oakhcft-com",
+    "https://superscout.co/investor/oak-hc-ft",
+    "https://vcbeast.com/claim/oak-hc-ft"
+   ]
+  },
+  {
+   "rank": 36,
+   "firm": "Atlas Venture",
+   "stages": "Seed / Series A / Series B",
+   "core": "生物科技种子与 A 轮，多为自身创立/孵化的公司",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "生物科技/药物研发（纯生物医药）",
+   "seedFit": "C",
+   "note": "纯生物科技，与 AI/金融方向不符",
+   "confidence": "medium",
+   "sources": [
+    "https://www.atlasventure.com"
+   ]
+  },
+  {
+   "rank": 37,
+   "firm": "Venrock",
+   "stages": "Seed / Series A / Series B / Growth / Public",
+   "core": "科技与医疗健康早期（种子/A），另有医疗公开市场/交叉基金",
+   "seedVehicle": "无",
+   "check": "未确认（第三方称 $5–10M）",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI、网络安全、国防、医疗健康/生物科技、金融科技",
+   "seedFit": "B",
+   "note": "科技+医疗双线早期机构，最新 $650M 基金覆盖 AI 与国防，可接触",
+   "confidence": "medium",
+   "sources": [
+    "https://mindmaps.femtech.health/firms/3480",
+    "https://hub.waveup.com/funds/venrock",
+    "https://privateequitylist.com/investors/venrock"
+   ]
+  },
+  {
+   "rank": 38,
+   "firm": "Meritech Capital",
+   "stages": "Growth / Late / Public",
+   "core": "后期成长型软件（C 轮后至 IPO 前后）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、AI、网络安全、消费互联网",
+   "seedFit": "C",
+   "note": "纯后期成长基金，不投种子，可跳过",
+   "confidence": "medium",
+   "sources": [
+    "https://www.meritechcapital.com"
+   ]
+  },
+  {
+   "rank": 39,
+   "firm": "Norwest Venture Partners",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "早期风投与成长股权并重（2024 年 $3B 基金，总管理 $15.5B）",
+   "seedVehicle": "无",
+   "check": "未确认（第三方称起点约 $1M）",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、AI、金融科技/商业服务、消费、医疗健康",
+   "seedFit": "B",
+   "note": "多阶段大基金，2026 年领投多笔 AI A/B 轮；种子不是主业",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Norwest_Venture_Partners",
+    "https://foundersuite.com/firms/norwest-venture-partners",
+    "https://neuronfeed.com/investors/norwest"
+   ]
+  },
+  {
+   "rank": 40,
+   "firm": "CRV",
+   "stages": "Seed / Series A",
+   "core": "美国种子与 A 轮（CRV XX $750M，2025 年 8 月关闭，只投种子/A，2024 年退还后期基金资金）",
+   "seedVehicle": "无独立项目（主基金本身即种子/A 基金）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "企业软件/开发者工具、消费、AI（作为横向能力）、金融科技、网络安全",
+   "seedFit": "A",
+   "note": "已彻底回归种子/A 领投，阶段正对口，优先接触",
+   "confidence": "high",
+   "sources": [
+    "https://pulse2.com/crv-750-million-fund-closed-to-lead-seed-and-series-a-rounds",
+    "https://inforcapital.com/funds/crv-20th-flagship-fund/",
+    "https://www.everythingstartups.com/vc-funds/crv"
+   ]
+  },
+  {
+   "rank": 41,
+   "firm": "Bain Capital Ventures",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "core": "孵化+种子到成长全阶段，近年重心为 AI 应用与 AI infra、金融科技",
+   "seedVehicle": "BCV Labs（Palo Alto 的 AI 孵化空间）",
+   "check": "种子约 $1M 起，成长期最高约 $100M（第三方）",
+   "leads": "领投/跟投都做",
+   "sectors": "AI 应用、AI 基础设施、金融科技、商业、网络安全、医疗、物理 AI",
+   "seedFit": "A",
+   "note": "AI infra + 金融科技双强（投过 Crusoe），BCV Labs 专做 AI 孵化，强烈推荐",
+   "confidence": "high",
+   "sources": [
+    "https://cms.baincapitalventures.com/insight/bain-capital-ventures-reimagined",
+    "https://bitscale.ai/directory/bain-capital-ventures-bcv",
+    "https://www.newsbytesapp.com/news/business/bain-capital-ventures-unveils-16b-fund-to-back-ai-startups/tldr"
+   ]
+  },
+  {
+   "rank": 42,
+   "firm": "（可能是 Vy Capital）",
+   "stages": "Series B / Growth / Late",
+   "core": "迪拜集中型投资机构，重仓少数平台型公司的成长/后期（参与 xAI B、C 轮），也做二级",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "互联网、软件、AI、前沿科技",
+   "seedFit": "C",
+   "note": "身份待确认；若为 Vy Capital，则是团队极小的成长期集中基金，几乎不投 3 周早期公司",
+   "confidence": "low",
+   "sources": [
+    "https://www.foundersuite.com/firms/vy-capital",
+    "https://www.tryfundable.ai/investor/vy-capital",
+    "https://app.mergerlinks.com/transactions/2024-05-26-xai"
+   ]
+  },
+  {
+   "rank": 43,
+   "firm": "Menlo Ventures",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "core": "早期到成长（A/B 为主），AI 重仓（Anthropic）",
+   "seedVehicle": "Anthology Fund（与 Anthropic 合作，$100M，投 Pre-seed 到 A 轮）",
+   "check": "Anthology：$100K 起 + $25K Anthropic 模型额度",
+   "leads": "领投/跟投都做",
+   "sectors": "AI/AI infra、企业软件、网络安全、金融科技、医疗、消费",
+   "seedFit": "A",
+   "note": "Anthology Fund 可在线申请、尽调较轻，适合 3 周 AI 公司直接申请",
+   "confidence": "high",
+   "sources": [
+    "https://techcrunch.com/2024/07/17/menlo-ventures-and-anthropic-team-up-on-a-100m-ai-fund",
+    "https://aiwiki.ai/wiki/menlo_ventures"
+   ]
+  },
+  {
+   "rank": 44,
+   "firm": "Greenoaks",
+   "stages": "Growth / Late",
+   "core": "少量高集中度的成长期大额押注并长期持有（首支基金曾早期重仓 Coupang）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "消费互联网、企业软件、AI（2023 年起大额投 AI，如 Scale AI、Databricks）",
+   "seedFit": "C",
+   "note": "成长期集中投资，不做种子，可跳过",
+   "confidence": "medium",
+   "sources": [
+    "https://aiwiki.ai/wiki/greenoaks_capital"
+   ]
+  },
+  {
+   "rank": 45,
+   "firm": "First Round Capital",
+   "stages": "Pre-seed / Seed / Series A",
+   "core": "种子轮领投（Fund X 约 $500M，2025 年 9 月）",
+   "seedVehicle": "本身即种子基金（Fund X）",
+   "check": "未确认（第三方称首投约 $0.5–10M，平均约 $3.5M）",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI、金融科技、消费、医疗",
+   "seedFit": "A",
+   "note": "顶级种子领投机构，阶段完全对口，新基金刚募完，优先接触",
+   "confidence": "high",
+   "sources": [
+    "https://finder.techleap.nl/news/feed/first-round-capital-launches-500m-fund-x",
+    "https://elev-x.com/news-insights/article-first-round-capital-review/",
+    "https://www.roundfunded.com/en/vc/first-round-capital"
+   ]
+  },
+  {
+   "rank": 46,
+   "firm": "8VC",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "core": "种子到 A 轮为主，并通过 8VC Build 自建公司",
+   "seedVehicle": "8VC Build（孵化/自建公司）",
+   "check": "未确认（第三方称 $0.5–15M）",
+   "leads": "领投/跟投都做",
+   "sectors": "国防、物流/供应链、金融科技、医疗健康、AI、企业软件、生命科学",
+   "seedFit": "A",
+   "note": "Joe Lonsdale 创立（奥斯汀），AI 与金融科技都投，种子活跃，值得接触",
+   "confidence": "medium",
+   "sources": [
+    "https://www.startuphub.ai/startups/8vc.md",
+    "https://venturecapitalarchive.com/venture-funds/8vc-8vc-com",
+    "https://vcbeast.com/claim/8vc"
+   ]
+  },
+  {
+   "rank": 47,
+   "firm": "TCV",
+   "stages": "Growth / Late / Public",
+   "core": "成长期大额投资（软件、金融科技、消费互联网）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "金融科技、企业软件、消费互联网/媒体",
+   "seedFit": "C",
+   "note": "纯成长期基金，不投种子，可跳过",
+   "confidence": "medium",
+   "sources": [
+    "https://www.tcv.com"
+   ]
+  },
+  {
+   "rank": 48,
+   "firm": "Lux Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "深科技早期（孵化/种子/A）为主，Lux Ventures IX $1.5B（2026 年 1 月）",
+   "seedVehicle": "无命名种子基金（第三方提到 Lux Labs 支持学术研究转化）",
+   "check": "未确认（第三方称 $100K–$100M）",
+   "leads": "领投为主",
+   "sectors": "AI（Hugging Face、Runway、Together AI）、国防/航天、制造、生物科技/医疗、金融科技（Ramp）",
+   "seedFit": "A",
+   "note": "AI 与深科技早期领投，偏好研究型团队，RL 环境方向较契合",
+   "confidence": "medium",
+   "sources": [
+    "https://ecosistemastartup.com/?p=55835",
+    "https://www.aiwiki.ai/wiki/lux_capital",
+    "https://superscout.co/investor/lux-capital"
+   ]
+  },
+  {
+   "rank": 49,
+   "firm": "ARCH Venture Partners",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "生物科技公司从零创立并大额早期投资",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "生物科技、生命科学、医疗",
+   "seedFit": "C",
+   "note": "纯生物科技，与 SimReal 方向不符，可跳过",
+   "confidence": "medium",
+   "sources": [
+    "https://www.archventure.com"
+   ]
+  },
+  {
+   "rank": 50,
+   "firm": "Union Square Ventures (USV)",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "种子与 A 轮（Core 基金），另有 Opportunity 基金跟进后期、Climate 基金",
+   "seedVehicle": "无独立项目（Core 基金即种子/A 基金）",
+   "check": "未确认（第三方多称 $1–6M）",
+   "leads": "领投/跟投都做",
+   "sectors": "加密/Web3（2021 基金预计约 30%）、金融科技、AI、气候、消费网络",
+   "seedFit": "A",
+   "note": "种子/A 为主，加密与金融科技积累深（Coinbase），交易+AI 方向值得接触",
+   "confidence": "medium",
+   "sources": [
+    "https://www.theblock.co/news/deals/2021-01-26-union-square-ventures-crypto-2021-fund-92652",
+    "https://discover.cretech.com/news/usv-closes-on-450m-for-new-funds-adds-two-partners",
+    "https://vcbeast.com/claim/union-square-ventures"
+   ]
+  },
+  {
+   "rank": 51,
+   "firm": "Matrix",
+   "stages": "Pre-seed / Seed / Series A",
+   "core": "Seed / Series A（从 idea 阶段到 A 轮）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI/前沿技术、企业软件/B2B、金融科技、基础设施、半导体、消费、医疗科技",
+   "seedFit": "A",
+   "note": "老牌早期基金（1977，现品牌为 Matrix），常领投种子/A 轮，应用 AI 是重点方向，2026 年仍在投种子轮",
+   "confidence": "medium",
+   "sources": [
+    "https://startupim.com/investor/matrix-partners/raw",
+    "https://www.pitchbook.com/profiles/investor/11237-50"
+   ]
+  },
+  {
+   "rank": 52,
+   "firm": "Factorial Funds",
+   "stages": "Series A / Series B / Growth / Late（个别目录列有 Seed，未确认）",
+   "core": "Growth / Late（头部 AI 公司的后期轮）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "AI 价值链、云/数据基础设施、机器人、高速增长软件",
+   "seedFit": "B",
+   "note": "Sol Bier（前 Cruise）2021 年创立，Fund II $2 亿由现代/起亚做锚定 LP，投过 Anthropic/xAI/Perplexity/Mistral；注意不要和布鲁克林的种子基金 Factorial Capital 搞混",
+   "confidence": "medium",
+   "sources": [
+    "https://www.vcaonline.com/news/2025052024/factorial-funds-launches-second-fund-with-200-million/",
+    "https://foundersuite.com/firms/factorial-funds",
+    "https://www.everythingstartups.com/vc-funds/factorial-funds"
+   ]
+  },
+  {
+   "rank": 53,
+   "firm": "Sapphire Ventures",
+   "stages": "Series B / Growth / Late",
+   "core": "扩张期（B 轮到 IPO 前）",
+   "seedVehicle": "无",
+   "check": "未确认（第三方估算差异大，约 $2M–$50M）",
+   "leads": "未确认",
+   "sectors": "企业软件、AI/ML 基础设施、数据分析、安全",
+   "seedFit": "C",
+   "note": "从 SAP 拆分出来的成长期基金，自称已在 60 家 AI 公司投了 $24 亿，但只投已有 PMF 的公司，不适合种子轮",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/sapphire-ventures",
+    "https://www.descubre.vc/sapphire-ventures"
+   ]
+  },
+  {
+   "rank": 54,
+   "firm": "Valor Equity Partners",
+   "stages": "Seed / Series A（Valor Siren Ventures）/ Series B / Growth / Late",
+   "core": "Growth / Late（主基金）",
+   "seedVehicle": "Valor Siren Ventures（早期基金，聚焦食品/零售科技/可持续，不投 AI）",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "主基金：后期科技（航天、国防、AI、电动车）；VSV：食品、零售科技、可持续",
+   "seedFit": "C",
+   "note": "主基金只做成长/后期；唯一的早期基金 VSV 聚焦食品和零售，和 AI 种子轮不对口",
+   "confidence": "medium",
+   "sources": [
+    "https://www.businesswire.com/news/home/20220713005232/en/Valor-Siren-Ventures-II-Closes-595M-Fund",
+    "https://pitchbook.com/profiles/fund/16582-42F",
+    "https://www.buyoutsinsider.com/valor-equity-returns-to-market-with-fifth-flagship-targets-1-25-bln-2/"
+   ]
+  },
+  {
+   "rank": 55,
+   "firm": "U.S. Venture Partners (USVP)",
+   "stages": "Seed（选择性）/ Series A / Series B",
+   "core": "Series A / Series B（以领投为主）",
+   "seedVehicle": "无",
+   "check": "未确认（第三方 $1M–$10M 不等）",
+   "leads": "领投为主",
+   "sectors": "网络安全、企业/云软件、消费/电商、医疗（器械、生物、医疗 IT）",
+   "seedFit": "B",
+   "note": "策略是领投 A/B 轮，种子轮只偶尔做；近年医疗器械比重较大，和 AI 交易/数据方向关联较弱",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/u-s-venture-partners-usvp",
+    "https://en.wikipedia.org/wiki/U.S._Venture_Partners",
+    "https://privateequitylist.com/investors/us-venture-partners-usvp"
+   ]
+  },
+  {
+   "rank": 56,
+   "firm": "Disruptive (Disruptive Technology Advisers)",
+   "stages": "Growth / Late",
+   "core": "后期/成长期（逐单募资，每年约 6 笔）",
+   "seedVehicle": "无",
+   "check": "未确认（单笔通常很大，如 Groq 一轮承诺超 $3 亿）",
+   "leads": "领投/跟投都做",
+   "sectors": "后期科技，包括 AI 芯片（Groq）",
+   "seedFit": "C",
+   "note": "Alex Davis 在达拉斯创立，按单个项目募资，只投后期头部公司，不做种子",
+   "confidence": "high",
+   "sources": [
+    "https://f4.fund/firms/disruptive",
+    "https://review.brunswickgroup.com/article/disruptive-ceo-alex-davis/",
+    "https://news.bloomberglaw.com/private-equity/ai-chip-startup-groq-nears-600-million-fundraising-deal"
+   ]
+  },
+  {
+   "rank": 57,
+   "firm": "Future Ventures",
+   "stages": "Seed / Series A",
+   "core": "Seed / 早期",
+   "seedVehicle": "无（主基金本身就投种子和早期）",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "深科技、航天、机器人、能源/气候、食品农业、生命科学、AI",
+   "seedFit": "B",
+   "note": "Jurvetson 和 Saenko 的基金，已连续三期各 $2 亿，主投种子/早期；但偏硬科技，AI 交易/数据方向不是核心",
+   "confidence": "high",
+   "sources": [
+    "https://techcrunch.com/2023/04/12/talking-with-future-ventures-about-its-new-fund-ai-hype-and-siri-sucking",
+    "https://techcrunch.com/?p=1784340",
+    "https://www.deep-tech-week.com/organizations/future-ventures"
+   ]
+  },
+  {
+   "rank": 58,
+   "firm": "Madrona",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth（Acceleration Fund）",
+   "core": "Seed / Series A",
+   "seedVehicle": "Madrona Venture Labs（孵化工作室，做 Pre-seed/Seed）",
+   "check": "未确认（第三方：历史种子平均约 $4.25M）",
+   "leads": "领投为主",
+   "sectors": "AI/智能应用、云与 AI 基础设施、企业软件、AI+生物",
+   "seedFit": "A",
+   "note": "西雅图头部早期基金，主力是种子/A 轮，AI 是核心方向；偏好太平洋西北地区的项目",
+   "confidence": "medium",
+   "sources": [
+    "https://hub.waveup.com/funds/madrona-venture-group",
+    "https://vcbeast.com/vc-firms/madrona-venture-labs",
+    "https://pulse2.com/madrona-venture-labs-11-million-fifth-fund-ai-companies/amp/"
+   ]
+  },
+  {
+   "rank": 59,
+   "firm": "Amplify Partners",
+   "stages": "Seed / Series A",
+   "core": "Seed / Series A",
+   "seedVehicle": "无",
+   "check": "第三方：约 $1M–$10M（种子轮常见约 $3M）",
+   "leads": "领投为主",
+   "sectors": "AI 基础设施、开发者工具、数据/MLOps、安全；Amplify Bio（计算生物）",
+   "seedFit": "A",
+   "note": "2025 年新募约 $9 亿（Fund 6 / 6 Select / Amplify Bio），专投技术型创始人和 AI 基础设施，和 RL 环境方向高度契合",
+   "confidence": "high",
+   "sources": [
+    "https://www.startuphub.ai/investors/amplify-partners",
+    "https://news.crunchbase.com/news/qa-with-amplify-partners-regarding-its-200m-fund-iii",
+    "https://www.evalyze.ai/investors/barr-yaron"
+   ]
+  },
+  {
+   "rank": 60,
+   "firm": "2468 Ventures",
+   "stages": "未确认",
+   "core": "未确认",
+   "seedVehicle": "未确认",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "未确认",
+   "seedFit": "C",
+   "note": "搜索没找到叫这个名字的机构，也没有它投 Anthropic 的记录，可能是榜单识别错误，建议核对原图",
+   "confidence": "low",
+   "sources": []
+  },
+  {
+   "rank": 61,
+   "firm": "Versant Ventures",
+   "stages": "Seed / Series A / Series B（以自建生物公司为主）",
+   "core": "早期生物科技公司孵化与 A/B 轮",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "生物科技/新药研发（只投生物）",
+   "seedFit": "C",
+   "note": "纯生物医药基金，不投 AI 软件",
+   "confidence": "medium",
+   "sources": [
+    "https://www.versantventures.com"
+   ]
+  },
+  {
+   "rank": 62,
+   "firm": "Revolution",
+   "stages": "Seed（Rise of the Rest）/ Series A（Revolution Ventures）/ Growth（Revolution Growth）",
+   "core": "未确认（三支基金并行：种子、早期 <$10M、成长期 ≥$10M）",
+   "seedVehicle": "Rise of the Rest Seed Fund（只投硅谷/纽约/波士顿以外的公司）",
+   "check": "Revolution Ventures <$10M；Revolution Growth ≥$10M；Rise of the Rest 第三方称 $100K–$1M",
+   "leads": "未确认",
+   "sectors": "消费科技、金融科技、医疗、教育、体育/媒体",
+   "seedFit": "B",
+   "note": "Steve Case 的基金；种子基金只投三大科技中心以外的公司，SimReal 如果在湾区或纽约就不符合",
+   "confidence": "medium",
+   "sources": [
+    "https://techcrunch.com/2019/10/28/revolution-closes-its-second-rise-of-the-rest-fund-with-150-million/",
+    "https://vcbeast.com/vc-firms/revolution-rise-of-the-rest",
+    "https://hub.waveup.com/funds/revolutions-rise-of-the-rest-seed-fund"
+   ]
+  },
+  {
+   "rank": 63,
+   "firm": "True Ventures",
+   "stages": "Pre-seed / Seed / Series A",
+   "core": "Seed",
+   "seedVehicle": "无（主基金本身就投种子）",
+   "check": "第三方/旧报道：种子 $1M–$3M，Pre-seed 约 $500K–$1M",
+   "leads": "领投为主",
+   "sectors": "AI 原生应用、企业软件、消费硬件/消费互联网、医疗",
+   "seedFit": "A",
+   "note": "典型的种子基金，首投后目标持股约 20–25%，近年重点投 AI 原生的早期公司",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/true-ventures",
+    "https://techcrunch.com/2016/08/25/true-ventures-just-closed-its-fifth-fund-with-310-million",
+    "https://vcbeast.com/claim/true-ventures"
+   ]
+  },
+  {
+   "rank": 64,
+   "firm": "Addition",
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "core": "Growth（第三方称约 2/3 资金投成长期）",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "AI、金融科技、加密（Alchemy、Chainalysis）、网络安全、SaaS、深科技、医疗、能源",
+   "seedFit": "B",
+   "note": "Lee Fixel（前 Tiger）的多阶段基金，种子到成长期都投，但资金主要在后期；AI、金融科技、加密都在覆盖范围",
+   "confidence": "medium",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lee_Fixel",
+    "https://eu.techcrunch.com/2023/06/14/lee-fixel-addition-fund/",
+    "https://golden.com/wiki/Addition_Ventures-W4ZANRR"
+   ]
+  },
+  {
+   "rank": 65,
+   "firm": "（可能是 IDG Capital）",
+   "stages": "Seed / Series A / Series B / Growth / Late（主要在中国）",
+   "core": "中国早期至成长期科技与消费公司",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "TMT/科技、消费、医疗、先进制造（以中国市场为主）",
+   "seedFit": "C",
+   "note": "身份未确认（由 SHEIN 推测）；IDG 资本主要投中国公司，美国 AI 种子轮可能性低；未搜索验证",
+   "confidence": "low",
+   "sources": [
+    "https://en.wikipedia.org/wiki/IDG_Capital"
+   ]
+  },
+  {
+   "rank": 66,
+   "firm": "Caffeinated Capital",
+   "stages": "Pre-seed / Seed / Series A（也做后续轮跟投）",
+   "core": "Seed",
+   "seedVehicle": "无（主基金本身就投种子）",
+   "check": "未确认（第三方数据差异大，约 $300K–$5M）",
+   "leads": "未确认",
+   "sectors": "企业软件、AI、国防科技（Saronic）",
+   "seedFit": "A",
+   "note": "Raymond Tonsing 的种子基金，2025 年在募第五期，目标 $4 亿（当时已募 $1.6 亿）；合伙人 Varun Gupta 曾在 Affirm 负责数据科学/ML",
+   "confidence": "high",
+   "sources": [
+    "https://techcrunch.com/2025/01/22/raymond-tonsings-caffeinated-capital-seeks-400m-for-fifth-fund/",
+    "https://mercury.com/investor-database/raymond-tonsing",
+    "https://hub.waveup.com/funds/caffeinated-capital"
+   ]
+  },
+  {
+   "rank": 67,
+   "firm": "DCVC",
+   "stages": "Seed / Series A / Series B / Growth（后期主要跟投自己的组合）",
+   "core": "Seed / Series A",
+   "seedVehicle": "无（DCVC Bio 是单独的生物基金）",
+   "check": "未确认（第三方 $1M–$25M 不等）",
+   "leads": "领投/跟投都做",
+   "sectors": "深科技、应用 AI、计算基础设施、网络安全、地理空间、气候；DCVC Bio 做生物",
+   "seedFit": "A",
+   "note": "深科技种子/A 轮基金，早期投过 CoreWeave，看重 AI 基础设施和硬核技术",
+   "confidence": "medium",
+   "sources": [
+    "https://wellfound.com/company/data-collective",
+    "https://www.deep-tech-week.com/organizations/dcvc-fund",
+    "https://www.caplight.com/investor/dcvc-data-collective"
+   ]
+  },
+  {
+   "rank": 68,
+   "firm": "（无法辨认）",
+   "stages": "未确认",
+   "core": "未确认",
+   "seedVehicle": "未确认",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "未确认",
+   "seedFit": "C",
+   "note": "榜单上的机构名无法辨认，需人工核对原图后再查",
+   "confidence": "low",
+   "sources": []
+  },
+  {
+   "rank": 69,
+   "firm": "FirstMark Capital",
+   "stages": "Seed / Series A / Series B（第三方另列 Pre-seed）",
+   "core": "Seed / Series A",
+   "seedVehicle": "无",
+   "check": "第三方：$250K–$10M",
+   "leads": "领投为主",
+   "sectors": "企业软件、AI/数据、消费、金融科技、医疗（Ro）",
+   "seedFit": "A",
+   "note": "纽约头部早期基金，主力是种子/A 轮；合伙人 Matt Turck 长期关注 AI/数据领域",
+   "confidence": "medium",
+   "sources": [
+    "https://vcbeast.com/claim/firstmark",
+    "https://venturecapitalarchive.com/venture-funds/firstmark-capital-firstmark-com",
+    "https://www.evalyze.ai/investors/rick-heitzmann"
+   ]
+  },
+  {
+   "rank": 70,
+   "firm": "Flybridge",
+   "stages": "Pre-seed / Seed",
+   "core": "Seed",
+   "seedVehicle": "Next Wave（Pre-seed 独立合伙人网络）",
+   "check": "种子 $1M–$3M（官网 FAQ）",
+   "leads": "领投为主",
+   "sectors": "AI 优先、金融科技（FalconX）、加密、企业软件、医疗",
+   "seedFit": "A",
+   "note": "2025 年 9 月发布第七期 $1 亿种子基金，AI 优先，常领投或联合领投，非常对口",
+   "confidence": "high",
+   "sources": [
+    "https://www.flybridge.com/faqs",
+    "https://parse.gl/brands/flybridge-com",
+    "https://www.everythingstartups.com/vc-funds/flybridge"
+   ]
+  },
+  {
+   "rank": 71,
+   "firm": "Playground Global",
+   "stages": "Seed / Series A / Series B",
+   "core": "Seed / Series A",
+   "seedVehicle": "无",
+   "check": "首投 $1M–$20M",
+   "leads": "领投为主",
+   "sectors": "深科技：AI 算力/芯片、机器人、自动化、量子、能源、生物工程",
+   "seedFit": "B",
+   "note": "偏好硬科技和物理世界技术，喜欢领投并拿董事席位；纯软件 AI 交易/数据方向不太对口",
+   "confidence": "medium",
+   "sources": [
+    "https://venturecapitaljournal.com/playground-global-collects-410m-for-third-fund",
+    "https://superscout.co/investor/playground-global",
+    "https://incubatorlist.com/programs/playground-global"
+   ]
+  },
+  {
+   "rank": 72,
+   "firm": "Bolt",
+   "stages": "Pre-seed / Seed",
+   "core": "Pre-seed / Seed",
+   "seedVehicle": "无（主基金本身就投 Pre-seed/种子）",
+   "check": "第三方：首投约 $200K–$1M",
+   "leads": "领投为主",
+   "sectors": "软硬件结合、消费硬件、IoT、机器人、健康硬件",
+   "seedFit": "C",
+   "note": "只投硬件早期项目（Fund III 约 $8200 万），和纯软件 AI 不对口；部分资料称已停止新投资，活跃度存疑",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/bolt",
+    "https://kruzeconsulting.com/blog/featured-service-bolt-venture-capital",
+    "https://superscout.co/investor/bolt"
+   ]
+  },
+  {
+   "rank": 73,
+   "firm": "venBio",
+   "stages": "Series A / Series B / Late / Public",
+   "core": "生物医药 A/B 轮及上市公司",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "生物科技/新药研发（只投生物）",
+   "seedFit": "C",
+   "note": "纯生物医药基金，不投 AI 软件",
+   "confidence": "medium",
+   "sources": [
+    "https://www.venbio.com"
+   ]
+  },
+  {
+   "rank": 74,
+   "firm": "Felicis",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "core": "Seed / Series A（约九成首投在这两个阶段）",
+   "seedVehicle": "无独立种子基金（主基金 Fund X 直接投种子；Felicis Fellows 是学生人才项目，不是投资项目）",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "AI（约 70% 组合是 AI 原生公司）、基础设施、安全、医疗、金融科技",
+   "seedFit": "A",
+   "note": "2025 年 6 月募集 $9 亿 Fund X，常领投或联合领投种子/A 轮，AI 是重中之重，非常对口",
+   "confidence": "high",
+   "sources": [
+    "https://www.bloomberg.com/news/videos/2025-06-13/felicis-ventures-raises-its-largest-fund-video",
+    "https://superscout.co/investor/felicis",
+    "https://aifunding.me/insights/felicis-ai-portfolio-analysis"
+   ]
+  },
+  {
+   "rank": 75,
+   "firm": "Sofinnova Investments",
+   "stages": "Series B / Late / Public（生物医药 crossover）",
+   "core": "后期/crossover 轮及上市公司",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "生物科技/新药研发（只投生物）",
+   "seedFit": "C",
+   "note": "美国生物医药后期/crossover 基金（注意和巴黎的 Sofinnova Partners 区分），不投 AI",
+   "confidence": "medium",
+   "sources": [
+    "https://www.sofinnova.com"
+   ]
+  },
+  {
+   "rank": 76,
+   "firm": "Pantera Capital",
+   "stages": "Seed / Series A / Series B / Growth / Public（流动代币）",
+   "core": "加密股权与早期代币（种子到早期为主，另有流动代币策略）",
+   "seedVehicle": "Pantera Early-Stage Token Fund（早期代币基金，非股权种子计划）",
+   "check": "未确认（第三方称约$5M，未经一手来源证实）",
+   "leads": "领投/跟投都做",
+   "sectors": "加密/区块链、Web3基础设施、DeFi；涉及AI×加密",
+   "seedFit": "B",
+   "note": "顶级加密基金，种子很活跃但只看crypto；SimReal需有链上/加密交易角度才匹配",
+   "confidence": "medium",
+   "sources": [
+    "https://panteracapital.com/?p=243",
+    "https://pitchbook.com/profiles/company/60945-31",
+    "https://theblock.co/post/291035/jshubnell@theblock.co",
+    "https://community.vega.xyz/t/we-raised-5-million-in-a-seed-round-led-by-pantera-capital/71"
+   ]
+  },
+  {
+   "rank": 77,
+   "firm": "Initialized Capital",
+   "stages": "Pre-seed / Seed / Series A（跟进，靠opportunity fund）",
+   "core": "种子轮（产品市场匹配前的软件公司）",
+   "seedVehicle": "无（本身即种子基金）",
+   "check": "$1M–$4M（第三方资料）",
+   "leads": "领投为主",
+   "sectors": "AI、金融科技、企业SaaS、基础设施、市场平台、加密",
+   "seedFit": "A",
+   "note": "Coinbase早期投资人，专做种子且偏好领投；AI+fintech方向高度契合",
+   "confidence": "medium",
+   "sources": [
+    "https://superscout.co/investor/initialized-capital",
+    "https://www.bloombergquint.com/markets/initialized-capital-raises-700-million-launches-2-new-funds",
+    "https://www.caplight.com/investor/initialized-capital-management"
+   ]
+  },
+  {
+   "rank": 78,
+   "firm": "F-Prime Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "早期（种子到A轮）为主，生命科学与科技两条线",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "生物科技/医疗为主，另有科技线：金融科技、企业软件、前沿科技",
+   "seedFit": "B",
+   "note": "富达关联基金，生物科技占大头；科技线做金融科技/企业软件早期，可找科技团队",
+   "confidence": "medium",
+   "sources": [
+    "https://fprimecapital.com"
+   ]
+  },
+  {
+   "rank": 79,
+   "firm": "Houston Ventures",
+   "stages": "Series A / Series B / Growth（自称早期至成长期；种子未确认）",
+   "core": "能源与工业科技早期至成长期",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "能源科技、工业科技、油气数据软件",
+   "seedFit": "C",
+   "note": "休斯顿能源/工业科技基金（领投Oseberg A轮），与AI/交易赛道不符",
+   "confidence": "medium",
+   "sources": [
+    "https://foundersuite.com/firms/houston-ventures",
+    "https://siliconbayounews.com/tag/oseberg/",
+    "https://www.caplight.com/investor/houven"
+   ]
+  },
+  {
+   "rank": 80,
+   "firm": "Wing Venture Capital",
+   "stages": "Seed / Series A（领投为主），后续轮跟进",
+   "core": "种子与A轮，企业AI与数据平台",
+   "seedVehicle": "无",
+   "check": "$5M–$20M（第三方资料，常见约$10M）",
+   "leads": "领投为主",
+   "sectors": "企业AI、AI基础设施、数据平台、企业软件",
+   "seedFit": "A",
+   "note": "Snowflake早期投资人，专注AI优先技术栈，领投种子/A轮，非常契合",
+   "confidence": "medium",
+   "sources": [
+    "https://superscout.co/investor/wing-venture-capital",
+    "https://privateequitylist.com/investor/wing-venture-capital",
+    "https://en.wikipedia.org/wiki/Wing_Venture_Capital"
+   ]
+  },
+  {
+   "rank": 81,
+   "firm": "Tidemark",
+   "stages": "Series B / Growth / Late",
+   "core": "成长期股权（B轮至Pre-IPO）",
+   "seedVehicle": "无",
+   "check": "$20M–$150M（第三方资料）",
+   "leads": "未确认",
+   "sectors": "垂直SaaS、企业软件",
+   "seedFit": "C",
+   "note": "成长期垂直SaaS基金，不做种子",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/tidemark",
+    "https://foundersuite.com/firms/tidemark",
+    "https://pitchbook.com/profiles/investor/463466-89"
+   ]
+  },
+  {
+   "rank": 82,
+   "firm": "Scale Venture Partners",
+   "stages": "Series A / Series B（后续轮跟进）",
+   "core": "A/B轮领投，要求已有首批客户",
+   "seedVehicle": "无",
+   "check": "$5M–$50M（官网FAQ）",
+   "leads": "领投为主",
+   "sectors": "AI、B2B软件、垂直软件、开发者工具、基础设施、安全",
+   "seedFit": "B",
+   "note": "约80%的A/B轮由其领投，但要有付费客户；种子阶段可先建立关系",
+   "confidence": "high",
+   "sources": [
+    "https://www.scalevp.com/frequently-asked-questions",
+    "https://www.caplight.com/investor/scale-venture-partners",
+    "https://news.crunchbase.com/venture/scale-venture-partners-raises-400-million-fund-vi-launches-scale-studio-beta/"
+   ]
+  },
+  {
+   "rank": 83,
+   "firm": "Canaan Partners",
+   "stages": "Seed / Series A / Series B / Growth（老项目加注）",
+   "core": "种子与早期（Fund XIII $650M 主基金）",
+   "seedVehicle": "无（主基金直接做种子）",
+   "check": "种子$1M–$5M；整体$1M–$20M（第三方资料）",
+   "leads": "领投/跟投都做",
+   "sectors": "企业软件、金融科技基础设施、前沿科技（AI/机器人）、消费、医疗/生物科技",
+   "seedFit": "A",
+   "note": "老牌早期基金，Fund XIII明确投种子，金融科技+AI都在范围内",
+   "confidence": "medium",
+   "sources": [
+    "https://www.citybiz.co/article/401981/canaan-raises-850m-for-fund-xiii/",
+    "https://f4.fund/firms/canaan-partners"
+   ]
+  },
+  {
+   "rank": 84,
+   "firm": "Multicoin Capital",
+   "stages": "Seed / Series A / Series B / Growth / Public（流动代币）",
+   "core": "加密项目早期股权/代币 + 流动代币对冲基金",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "仅加密：DePIN、DeFi、Solana生态",
+   "seedFit": "B",
+   "note": "纯加密基金，只有在SimReal做链上/加密交易时才有可能",
+   "confidence": "medium",
+   "sources": [
+    "https://multicoin.capital"
+   ]
+  },
+  {
+   "rank": 85,
+   "firm": "Primary Venture Partners",
+   "stages": "Pre-seed / Seed（后续轮跟进）",
+   "core": "领投Pre-seed与种子轮（Fund V $625M，2026年2月）",
+   "seedVehicle": "无（本身即种子基金）",
+   "check": "平均$5M–$10M（Fund V）",
+   "leads": "领投为主",
+   "sectors": "金融服务、垂直AI、基础设施与算力、网络安全、医疗、消费、工业",
+   "seedFit": "A",
+   "note": "纽约种子领投基金，投过Etched，设有金融服务和AI基础设施专属合伙人，高度契合",
+   "confidence": "high",
+   "sources": [
+    "https://finance.yahoo.com/news/primary-ventures-raises-healthy-625m-140000268.html",
+    "https://techfundingnews.com/primary-ventures-625m-fund-v-seed-nationwide/",
+    "https://pulse2.com/primary-venture-partners-launches-625-million-fund-v/"
+   ]
+  },
+  {
+   "rank": 86,
+   "firm": "Maverick Ventures",
+   "stages": "Seed / Series A / Series B",
+   "core": "种子至B轮，常见约$5M",
+   "seedVehicle": "无",
+   "check": "$1M–$15M（第三方，常见约$5M）",
+   "leads": "领投为主",
+   "sectors": "医疗健康、软件、深科技；部分资料含AI、金融科技",
+   "seedFit": "B",
+   "note": "Maverick Capital的创投部门（Coupang为母公司投资），常领投并占董事席位，偏医疗/软件",
+   "confidence": "medium",
+   "sources": [
+    "https://venturecapitalarchive.com/venture-funds/maverick-ventures-usa-maverickventures-com",
+    "https://www.everythingstartups.com/vc-funds/maverick-ventures",
+    "https://www.caplight.com/investor/maverick-ventures-1"
+   ]
+  },
+  {
+   "rank": 87,
+   "firm": "NeoTribe Ventures",
+   "stages": "Pre-seed / Seed / Series A / Series B（Ignite Fund）",
+   "core": "Pre-seed至A轮",
+   "seedVehicle": "无（Ignite Fund为B轮+基金）",
+   "check": "$500K–$10M（第三方资料）",
+   "leads": "领投/跟投都做",
+   "sectors": "AI/机器学习、数据科学、企业软件、医疗（BillionToOne）",
+   "seedFit": "A",
+   "note": "Kittu Kolluri创立，硅谷早期基金，明确偏AI/ML，2026年6月仍在领投种子",
+   "confidence": "medium",
+   "sources": [
+    "https://superscout.co/investor/neotribe-ventures",
+    "https://www.caplight.com/investor/neotribe-ventures",
+    "https://dev.seedtable.com/investors/neotribe-ventures"
+   ]
+  },
+  {
+   "rank": 88,
+   "firm": "HOF Capital",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "core": "多阶段，种子/A轮较多，另有成长期机会投资",
+   "seedVehicle": "无",
+   "check": "$500K–$10M（第三方资料）",
+   "leads": "未确认",
+   "sectors": "AI、金融科技（Revolut）、生物科技、前沿科技",
+   "seedFit": "A",
+   "note": "纽约多阶段基金（AUM超$5B），做种子且关注AI/金融科技",
+   "confidence": "medium",
+   "sources": [
+    "https://www.abana.co/news/abana-welcomes-new-member-hof-capital/",
+    "https://www.premieralts.com/investors/hof-capital/deals",
+    "https://www.tryfundable.ai/investor/hof-capital"
+   ]
+  },
+  {
+   "rank": 89,
+   "firm": "Two Sigma Ventures",
+   "stages": "Seed / Series A / Series B",
+   "core": "领投A轮为主",
+   "seedVehicle": "无（内部做种子，未见独立品牌）",
+   "check": "A轮$5M–$10M（官网FAQ）",
+   "leads": "领投为主",
+   "sectors": "AI/ML、数据科学、计算机视觉，跨行业（含金融科技）",
+   "seedFit": "A",
+   "note": "量化巨头Two Sigma的创投部门，AI/数据驱动，与交易模型方向天然契合",
+   "confidence": "high",
+   "sources": [
+    "https://twosigmaventures.com/faq",
+    "https://news.bloomberglaw.com/private-equity/two-sigma-raises-288-million-for-data-focused-venture-fund"
+   ]
+  },
+  {
+   "rank": 90,
+   "firm": "Gradient Ventures",
+   "stages": "Pre-seed / Seed",
+   "core": "AI公司Pre-seed与种子",
+   "seedVehicle": "无（本身即AI种子基金，Fund V $220M，2026年3月）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI、AI基础设施（Lambda、CentML）、AI应用",
+   "seedFit": "A",
+   "note": "已从Google独立，现名Gradient（Google为LP），AI专属种子基金，首选",
+   "confidence": "high",
+   "sources": [
+    "https://globalventuring.com/corporate/information-technology/google-backed-vc-gradient-launches-220m-al-seed-fund/?format=md",
+    "https://www.vcaonline.com/news/2026031722/gradient-raises-220m-fifth-fund-to-seed-next-generation-of-ai-founders/",
+    "https://pulse2.com/gradient-220-million-raised-for-ai-seed-fund/amp/"
+   ]
+  },
+  {
+   "rank": 91,
+   "firm": "Third Rock Ventures",
+   "stages": "Seed / Series A / Series B（自孵化公司）",
+   "core": "自建生物科技公司并出资A轮",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "仅生物科技/生命科学",
+   "seedFit": "C",
+   "note": "生物科技公司孵化器，不投AI软件",
+   "confidence": "medium",
+   "sources": [
+    "https://www.thirdrockventures.com"
+   ]
+  },
+  {
+   "rank": 92,
+   "firm": "Greycroft",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "种子至A轮为主，另有成长基金",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "AI、金融科技/保险科技（Pie Insurance）、企业软件、消费",
+   "seedFit": "A",
+   "note": "纽约/洛杉矶老牌早期基金，种子活跃，覆盖AI与金融科技",
+   "confidence": "medium",
+   "sources": [
+    "https://www.greycroft.com"
+   ]
+  },
+  {
+   "rank": 93,
+   "firm": "Craft Ventures",
+   "stages": "Pre-seed / Seed / Series A / Series B",
+   "core": "种子与A轮约各占记录投资18%，覆盖至B轮",
+   "seedVehicle": "无",
+   "check": "未确认（第三方数据冲突，$50K–$50M）",
+   "leads": "领投/跟投都做",
+   "sectors": "SaaS、AI（Replit等）、金融科技、市场平台、加密",
+   "seedFit": "A",
+   "note": "David Sacks联合创立，种子/A轮均做，AI+金融科技契合",
+   "confidence": "medium",
+   "sources": [
+    "https://incubatorlist.com/programs/craft-ventures",
+    "https://vcbeast.com/claim/craft-ventures",
+    "https://aifunding.me/investors/craft-ventures"
+   ]
+  },
+  {
+   "rank": 94,
+   "firm": "Goodwater Capital",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "仅消费科技，约60%资金投早期/种子",
+   "seedVehicle": "无",
+   "check": "$1M–$50M（第三方，A/B轮常见约$10M）",
+   "leads": "领投/跟投都做",
+   "sectors": "仅消费科技（含消费金融科技）",
+   "seedFit": "C",
+   "note": "只投消费科技（Coupang），B2B的AI/数据业务不匹配；交易产品若面向散户可一试",
+   "confidence": "medium",
+   "sources": [
+    "https://techcrunch.com/2023/07/25/exclusive-goodwater-capital-snags-1b-across-two-new-funds-despite-broader-cooling-interest-in-consumer-tech",
+    "https://foundersuite.com/firms/goodwater-capital",
+    "https://superscout.co/investor/goodwater"
+   ]
+  },
+  {
+   "rank": 95,
+   "firm": "Polychain Capital",
+   "stages": "Seed / Series A / Series B / Growth / Public（流动代币）",
+   "core": "加密协议早期股权/代币",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "仅加密：L1/L2基础设施（Move Industries）、DeFi、AI×加密",
+   "seedFit": "B",
+   "note": "顶级加密基金，种子活跃但需加密原生角度",
+   "confidence": "medium",
+   "sources": [
+    "https://polychain.capital"
+   ]
+  },
+  {
+   "rank": 96,
+   "firm": "Curative Ventures",
+   "stages": "Series A / Series B",
+   "core": "生物科技早期，常深度参与运营",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "未确认",
+   "sectors": "仅生物科技（细胞疗法等）",
+   "seedFit": "C",
+   "note": "达拉斯生物科技投资方（Instil Bio），与AI赛道无关",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/curative-ventures",
+    "https://pitchbook.com/profiles/fund/16452-10F"
+   ]
+  },
+  {
+   "rank": 97,
+   "firm": "Haun Ventures",
+   "stages": "Seed / Series A / Series B / Growth（早期基金+后期基金）",
+   "core": "加密早期（2026年新募$1B，早期与后期各约$500M）",
+   "seedVehicle": "无（早期基金，无独立品牌计划）",
+   "check": "未确认",
+   "leads": "领投/跟投都做",
+   "sectors": "加密/区块链为主，扩展至AI Agent、金融科技、另类资产",
+   "seedFit": "B",
+   "note": "Katie Haun创立，新基金明确扩展到AI Agent和“金融新前沿”，可从交易角度切入",
+   "confidence": "medium",
+   "sources": [
+    "https://www.theblock.co/post/399902/crypto-vc-haun-ventures-raises-1-billion-fund-investing-blockchain-ai",
+    "https://www.odaily.news/en/newsflash/479383"
+   ]
+  },
+  {
+   "rank": 98,
+   "firm": "（可能是 Innovation Endeavors）",
+   "stages": "Pre-seed / Seed / Series A（后续轮跟进）",
+   "core": "种子与A轮（Fund V约$630M，2024年1月，偏Pre-seed/种子）",
+   "seedVehicle": "无",
+   "check": "$1M–$15M（第三方资料，有冲突）",
+   "leads": "领投/跟投都做",
+   "sectors": "AI/智能软件、计算基础设施、物理经济、医疗、气候",
+   "seedFit": "A",
+   "note": "Eric Schmidt创立，投过AlphaSense，故识别可信；种子AI/基础设施契合",
+   "confidence": "medium",
+   "sources": [
+    "https://privateequitylist.com/investors/innovation-endeavors",
+    "https://incubatorlist.com/innovation-endeavors"
+   ]
+  },
+  {
+   "rank": 99,
+   "firm": "CAVU Venture Partners",
+   "stages": "Seed / Series A / Series B / Growth",
+   "core": "消费品牌（食品饮料、美妆、宠物、健康）",
+   "seedVehicle": "无",
+   "check": "未确认（第三方估计约$1M–$30M）",
+   "leads": "领投为主",
+   "sectors": "仅消费品/CPG品牌（Poppi）",
+   "seedFit": "C",
+   "note": "现名CAVU Consumer Partners，专投消费品牌，与AI无关",
+   "confidence": "medium",
+   "sources": [
+    "https://f4.fund/firms/cavu-consumer-partners",
+    "https://superscout.co/investor/cavu-consumer-partners",
+    "https://privateequitylist.com/investor/cavu-venture-partners"
+   ]
+  },
+  {
+   "rank": 100,
+   "firm": "Zigg Capital",
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth（少量）",
+   "core": "房地产/建筑科技早期",
+   "seedVehicle": "无",
+   "check": "未确认",
+   "leads": "领投为主",
+   "sectors": "仅房地产科技、建筑科技、零售科技",
+   "seedFit": "C",
+   "note": "纽约房地产科技专属基金（$100M），赛道不符",
+   "confidence": "medium",
+   "sources": [
+    "https://venturecapitalarchive.com/venture-funds/zigg-capital-ziggcap-com",
+    "https://startupim.com/investor/zigg-capital",
+    "https://www.tryfundable.ai/investor/zigg-capital"
+   ]
+  }
+ ],
+ "verified": [
+  {
+   "rank": 1,
+   "firm": "Sequoia Capital",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late / Public",
+   "seedVehicle": "Sequoia Arc（pre-seed/seed 公司建设项目，每期约10–15家）",
+   "seedFit": "A",
+   "note": "未发现反证：Sequoia 美国早期团队仍做种子轮，Arc 项目存在；新一期 Arc 的开放时间需看官网（本轮未额外搜索）",
+   "sources": [
+    "https://hub.causo.ai/guides/how-to-apply-to-sequoia-arc-2026",
+    "https://superscout.co/program/sequoia-arc",
+    "https://www.sequoiacap.com"
+   ]
+  },
+  {
+   "rank": 2,
+   "firm": "Andreessen Horowitz (a16z)",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "a16z speedrun（加速器，每年两期，已投250+家）",
+   "seedFit": "A",
+   "note": "未发现反证：speedrun 存在，a16z 2025 年还领投了 Periodic Labs 等 AI 公司的种子轮；SR008 申请时间需看官网",
+   "sources": [
+    "https://a16z.com/applications-for-a16z-speedrun-sr007-are-now-open/",
+    "https://a16z.com/a16z-speedrun-application-winter-spring-2026/",
+    "https://axis-intelligence.com/ai-startup-funding-2025-2-billion-rounds/"
+   ]
+  },
+  {
+   "rank": 3,
+   "firm": "Accel",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "Accel Atoms（印度/东南亚 pre-seed 项目；2026年 Atoms AI 期与 Google AI Futures Fund 合作）",
+   "seedFit": "A",
+   "note": "未发现反证；Atoms 主要面向印度创始人，美国团队应直接找 Accel US 谈种子轮或 A 轮",
+   "sources": [
+    "https://news.ventureintelligence.com/private-equity/accel-expands-pre-seed-program-with-2-new-tracks:-accel-atoms-ai,-atoms-x",
+    "https://www.incorpx.io/grants/accel-atoms-ai-cohort-2026-pre-seed-scaling-program-312",
+    "https://www.accel.com"
+   ]
+  },
+  {
+   "rank": 6,
+   "firm": "Index Ventures",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "Index 种子基金（$400M，2026年7月31日前后宣布；上一期为2024年的 $300M Origin 种子基金）",
+   "seedFit": "A",
+   "note": "已核实：2026年7月底新募 $400M 种子基金、$900M 风投基金，并给成长基金追加 $700M（总额到 $2.2B），重点投 AI 时代创始人",
+   "sources": [
+    "https://pulse2.com/index-ventures-raises-3-5-billion-across-new-seed-venture-and-growth-funds/",
+    "https://vestbee.com/insights/articles/index-ventures-closes-2-b",
+    "https://www.startbase.de/news/index-ventures-sammelt-35-milliarden-us-dollar-fuer-neue-seed-venture-und-growth-fonds-ein/",
+    "https://sifted.eu/articles/index-ventures-2bn-raise-ai"
+   ]
+  },
+  {
+   "rank": 7,
+   "firm": "Lightspeed Venture Partners",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "Lightspeed seed（种子直投业务，未确认有独立品牌项目）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）；种子轮由早期团队直接投，可找企业软件或 AI 方向的合伙人",
+   "sources": [
+    "https://lsvp.com"
+   ]
+  },
+  {
+   "rank": 9,
+   "firm": "Founders Fund",
+   "ok": false,
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "无",
+   "seedFit": "B",
+   "note": "降为 B：搜索没找到 2025–2026 年 FF 领投种子轮的公开报道；它能投种子但数量少、挑剔，资金重心在 A 轮以后和 FF Growth，可作为次优先目标",
+   "sources": [
+    "https://foundersfund.com",
+    "https://www.roundfunded.com/blogs/top-seed-vc-funds-2026"
+   ]
+  },
+  {
+   "rank": 11,
+   "firm": "Kleiner Perkins",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "KP22 早期基金直投种子轮；KP Fellows 是学生实习项目，不是投资工具",
+   "seedFit": "A",
+   "note": "已核实 2026-03-24 宣布 KP22 早期基金 $1B 和 KP Select IV 约 $2.5B；但公告只写“early-stage AI”，没有写明是否投种子，种子轮靠 KP 一贯做法推断",
+   "sources": [
+    "https://www.gunder.com/en/news-insights/client-news/kleiner-perkins-announces-new-funds-totaling-dollar35-billion",
+    "https://valueaddvc.com/blog/kleiner-perkins-raises-35-billion-across-two-new-ai-funds",
+    "https://pipelineroad.com/news/20260325-kleiner-perkins-raises-1b-early-stage-and-2-5b-growth-funds-"
+   ]
+  },
+  {
+   "rank": 13,
+   "firm": "Greylock",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B",
+   "seedVehicle": "Greylock Edge（面向 pre-idea / pre-seed / seed 创始人的公司建设项目）",
+   "seedFit": "A",
+   "note": "未发现反证：Greylock 17 专投 pre-seed、种子和 A 轮，Edge 项目存在",
+   "sources": [
+    "https://greylock.com/blog/announcing-greylock-17/",
+    "https://techcrunch.com/2023/10/03/greylock-1b-venture-capital-founders-program/amp/",
+    "https://hub.causo.ai/guides/how-to-apply-to-greylock-edge-2026"
+   ]
+  },
+  {
+   "rank": 15,
+   "firm": "Bessemer Venture Partners",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "无（早期基金直投种子轮，未确认有独立品牌项目）",
+   "seedFit": "A",
+   "note": "已核实：2026年9月一次性募完 $5.75B，其中 $1.75B 投种子/早期（有报道称覆盖 pre-seed 到 A 轮），$4B 投成长期，AI 是首要方向",
+   "sources": [
+    "https://pulse2.com/bessemer-venture-partners-raises-5-75-billion/",
+    "https://www.startupresearcher.com/news/bessemer-venture-partners-closes-5-75-billion-fund",
+    "https://cryptobriefing.com/bessemer-raises-6b-ai-investments/"
+   ]
+  },
+  {
+   "rank": 16,
+   "firm": "Khosla Ventures",
+   "ok": false,
+   "stages": "Seed / Series A / Series B / Growth",
+   "seedVehicle": "Khosla Ventures 种子系列基金（新一期约 $1B，据 Bloomberg 报道仍在募集，未正式宣布；“Seed F 约 $400M”无法核实，已删除）",
+   "seedFit": "A",
+   "note": "种子轮活跃属实；但新基金（种子 $1B + 早期 $2B + 机会基金 $2.5B，合计至多 $5.5B）只是 Bloomberg 报道的在募计划，金额可能变化",
+   "sources": [
+    "https://techfundingnews.com/openais-early-backer-khosla-ventures-targets-largest-fund-ever-at-5-5b-with-most-going-to-early-stage-ai-startups/",
+    "https://dealroom.co/news/141179-khosla-ventures-targets-record-5-5b-fund-most-for-early-stage-ai/"
+   ]
+  },
+  {
+   "rank": 17,
+   "firm": "General Catalyst",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "GC seed（早期团队直投，未确认有独立品牌项目）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）；早期团队覆盖 AI 和金融科技，种子轮可直接联系",
+   "sources": [
+    "https://www.generalcatalyst.com"
+   ]
+  },
+  {
+   "rank": 19,
+   "firm": "Parkway Venture Capital",
+   "ok": false,
+   "stages": "Seed / Series A / Series B / Growth（第三方称以 Seed/A 为主，但查到的领投多为 A 轮及以后）",
+   "seedVehicle": "无",
+   "seedFit": "B",
+   "note": "更正：第三方资料（f4、Superscout）称它投种子和 A 轮，但能查到的领投是 Figure AI（A 轮、C 轮）和 Hark（2026年5月 A 轮），种子轮实际很少；2019 年成立，规模小",
+   "sources": [
+    "https://f4.fund/firms/parkway",
+    "https://superscout.co/investor/parkway-venture-capital",
+    "https://www.caplight.com/investor/parkway-venture-capital"
+   ]
+  },
+  {
+   "rank": 24,
+   "firm": "Altimeter Capital",
+   "ok": true,
+   "stages": "Series B / Growth / Late / Public（偶尔 Series A）",
+   "seedVehicle": "无",
+   "seedFit": "C",
+   "note": "维持 C：以后期和上市公司投资为主，第三方说它做种子轮的数据互相矛盾，不可信",
+   "sources": [
+    "https://privateequitylist.com/investors/altimeter-capital",
+    "https://vcbeast.com/claim/altimeter"
+   ]
+  },
+  {
+   "rank": 25,
+   "firm": "Mayfield",
+   "ok": false,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "seedVehicle": "AI Start（$250M 种子基金，2023年7月推出，是 Mayfield 第一只种子基金，专投 AI-first 创始人，首笔 $1–4M）；另有 AI Garage（$100M 孵化项目，面向湾区做 AI teammates 的团队，每队最高 $5M）",
+   "seedFit": "A",
+   "note": "补充：原表漏了更对口的 AI Start 种子基金（合伙人 Vijay Reddy 专门负责），种子轮应优先走 AI Start",
+   "sources": [
+    "https://www.businesswire.com/news/home/20230720038405/en",
+    "https://pulse2.com/mayfield-250-million-ai-start-seed-fund-launches/",
+    "https://www.mayfield.com/mayfield-ai-garage-100m-builder-initiative-for-founders-building-ai-teammates/",
+    "https://techcrunch.com/2024/09/04/mayfield-allocates-100m-to-ai-incubator-modeled-after-its-entrepreneur-in-residence-program"
+   ]
+  },
+  {
+   "rank": 31,
+   "firm": "SV Angel",
+   "ok": false,
+   "stages": "Seed / Series B / Growth / Late",
+   "seedVehicle": "无独立对外种子基金（2018年起不再向外部 LP 募种子基金，种子投资继续做）；另有 SV Angel Growth I（$269.4M）和 Growth II（$330M，2025年1月），投 B 轮及以后",
+   "seedFit": "A",
+   "note": "更正种子工具：所谓“Seed Fund”有一家咨询博客说约 $200K/家，但没有找到 2016 年后新募种子基金的记录；仍是小额跟投的种子投资人",
+   "sources": [
+    "https://techcrunch.com/2018/06/01/sv-angel-says-it-wont-be-raising-another-fund-from-outside-investors",
+    "https://www.dakota.com/fundraising-news/san-francisco-vc-sv-angel-raises-330m-for-sophomore-growth-fund",
+    "https://www.eaglerockcfo.com/blog/venture-capital-firms/sv-angel-review",
+    "https://techcrunch.com/2016/11/23/sv-angel-raises-53m-for-its-latest-seed-investment-fund/"
+   ]
+  },
+  {
+   "rank": 40,
+   "firm": "CRV",
+   "ok": true,
+   "stages": "Seed / Series A",
+   "seedVehicle": "无独立项目（主基金本身即种子/A 基金）",
+   "seedFit": "A",
+   "note": "未发现反证：CRV XX $750M（2025年8月）专投种子和 A 轮",
+   "sources": [
+    "https://pulse2.com/crv-750-million-fund-closed-to-lead-seed-and-series-a-rounds",
+    "https://inforcapital.com/funds/crv-20th-flagship-fund/",
+    "https://www.everythingstartups.com/vc-funds/crv"
+   ]
+  },
+  {
+   "rank": 41,
+   "firm": "Bain Capital Ventures",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "seedVehicle": "BCV Labs（Palo Alto 的 AI 孵化器和技术社区，每年一期 AI fellows，提供约 $1M 算力额度，融资条款灵活）",
+   "seedFit": "A",
+   "note": "已核实 BCV Labs 存在：首年孵化了6家 AI infra/agent 公司，并领投 Contextual AI $20M 种子轮等",
+   "sources": [
+    "https://baincapitalventures.com/insight/bcv-labs-is-an-ai-incubator-and-technical-community-in-silicon-valley/",
+    "https://news.crunchbase.com/ai/bain-capital-launches-bcv-labs-startup-venture/",
+    "https://baincapitalventures.com/insight/our-first-year-in-review-bcv-labs/"
+   ]
+  },
+  {
+   "rank": 42,
+   "firm": "（可能是 Vy Capital）",
+   "ok": true,
+   "stages": "Series B / Growth / Late",
+   "seedVehicle": "无",
+   "seedFit": "C",
+   "note": "维持 C：身份仍待确认；如果是 Vy Capital，它是只投成长期的集中型基金，不投刚成立的公司",
+   "sources": [
+    "https://www.foundersuite.com/firms/vy-capital",
+    "https://www.tryfundable.ai/investor/vy-capital",
+    "https://app.mergerlinks.com/transactions/2024-05-26-xai"
+   ]
+  },
+  {
+   "rank": 43,
+   "firm": "Menlo Ventures",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth / Late",
+   "seedVehicle": "Anthology Fund（与 Anthropic 合作，$100M，投 Pre-seed 到 A 轮）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）；Anthology Fund 可在线申请",
+   "sources": [
+    "https://techcrunch.com/2024/07/17/menlo-ventures-and-anthropic-team-up-on-a-100m-ai-fund",
+    "https://aiwiki.ai/wiki/menlo_ventures"
+   ]
+  },
+  {
+   "rank": 45,
+   "firm": "First Round Capital",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A",
+   "seedVehicle": "本身即种子基金（Fund X）",
+   "seedFit": "A",
+   "note": "未发现反证：2026 年的种子投资人榜单里仍把 First Round 列为头部种子基金",
+   "sources": [
+    "https://finder.techleap.nl/news/feed/first-round-capital-launches-500m-fund-x",
+    "https://www.roundfunded.com/blogs/top-seed-vc-funds-2026",
+    "https://www.roundfunded.com/en/vc/first-round-capital"
+   ]
+  },
+  {
+   "rank": 46,
+   "firm": "8VC",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "seedVehicle": "8VC Build（孵化/自建公司）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://www.startuphub.ai/startups/8vc.md",
+    "https://venturecapitalarchive.com/venture-funds/8vc-8vc-com",
+    "https://vcbeast.com/claim/8vc"
+   ]
+  },
+  {
+   "rank": 48,
+   "firm": "Lux Capital",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth",
+   "seedVehicle": "无命名种子基金（第三方提到 Lux Labs 支持学术研究转化）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）；Lux 偏好研究型团队，RL 环境方向比较契合",
+   "sources": [
+    "https://ecosistemastartup.com/?p=55835",
+    "https://www.aiwiki.ai/wiki/lux_capital",
+    "https://superscout.co/investor/lux-capital"
+   ]
+  },
+  {
+   "rank": 50,
+   "firm": "Union Square Ventures (USV)",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth",
+   "seedVehicle": "无独立项目（Core 基金即种子/A 基金）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://www.theblock.co/news/deals/2021-01-26-union-square-ventures-crypto-2021-fund-92652",
+    "https://discover.cretech.com/news/usv-closes-on-450m-for-new-funds-adds-two-partners",
+    "https://vcbeast.com/claim/union-square-ventures"
+   ]
+  },
+  {
+   "rank": 51,
+   "firm": "Matrix",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://startupim.com/investor/matrix-partners/raw",
+    "https://www.pitchbook.com/profiles/investor/11237-50"
+   ]
+  },
+  {
+   "rank": 58,
+   "firm": "Madrona",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth（Acceleration Fund）",
+   "seedVehicle": "Madrona Venture Labs（孵化工作室，做 Pre-seed/Seed）",
+   "seedFit": "A",
+   "note": "未发现反证；Madrona Venture Labs 是独立运营的工作室，偏好太平洋西北地区的项目",
+   "sources": [
+    "https://hub.waveup.com/funds/madrona-venture-group",
+    "https://vcbeast.com/vc-firms/madrona-venture-labs",
+    "https://pulse2.com/madrona-venture-labs-11-million-fifth-fund-ai-companies/amp/"
+   ]
+  },
+  {
+   "rank": 59,
+   "firm": "Amplify Partners",
+   "ok": true,
+   "stages": "Seed / Series A",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://www.startuphub.ai/investors/amplify-partners",
+    "https://news.crunchbase.com/news/qa-with-amplify-partners-regarding-its-200m-fund-iii",
+    "https://www.evalyze.ai/investors/barr-yaron"
+   ]
+  },
+  {
+   "rank": 60,
+   "firm": "2468 Ventures",
+   "ok": false,
+   "stages": "Pre-seed / Seed（选择性跟进 Series A）",
+   "seedVehicle": "无（本身即 pre-seed/种子基金）",
+   "seedFit": "A",
+   "note": "更正：这家机构确实存在，是 Pankaj Kedia 2021 年创立的圣地亚哥单 GP 基金，主投 AI/深科技的 pre-seed 和种子轮（含金融科技），以跟投为主；有资料称它早期投过 Anthropic、OpenAI、CoreWeave，但各来源说法不一",
+   "sources": [
+    "https://f4.fund/firms/2468-ventures",
+    "https://altss.com/profile/2468-ventures",
+    "https://www.caplight.com/investor/2468ventures"
+   ]
+  },
+  {
+   "rank": 63,
+   "firm": "True Ventures",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A",
+   "seedVehicle": "无（主基金本身就投种子）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://f4.fund/firms/true-ventures",
+    "https://techcrunch.com/2016/08/25/true-ventures-just-closed-its-fifth-fund-with-310-million",
+    "https://vcbeast.com/claim/true-ventures"
+   ]
+  },
+  {
+   "rank": 65,
+   "firm": "（可能是 IDG Capital）",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth / Late（主要在中国）",
+   "seedVehicle": "无",
+   "seedFit": "C",
+   "note": "维持 C：身份未确认；IDG 资本主要投中国公司，投美国 AI 种子轮的可能性低",
+   "sources": [
+    "https://en.wikipedia.org/wiki/IDG_Capital"
+   ]
+  },
+  {
+   "rank": 66,
+   "firm": "Caffeinated Capital",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A（也做后续轮跟投）",
+   "seedVehicle": "无（主基金本身就投种子）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://techcrunch.com/2025/01/22/raymond-tonsings-caffeinated-capital-seeks-400m-for-fifth-fund/",
+    "https://mercury.com/investor-database/raymond-tonsing",
+    "https://hub.waveup.com/funds/caffeinated-capital"
+   ]
+  },
+  {
+   "rank": 67,
+   "firm": "DCVC",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth（后期主要跟投自己的组合）",
+   "seedVehicle": "无（DCVC Bio 是单独的生物基金）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://wellfound.com/company/data-collective",
+    "https://www.deep-tech-week.com/organizations/dcvc-fund",
+    "https://www.caplight.com/investor/dcvc-data-collective"
+   ]
+  },
+  {
+   "rank": 68,
+   "firm": "（无法辨认）",
+   "ok": true,
+   "stages": "未确认",
+   "seedVehicle": "未确认",
+   "seedFit": "C",
+   "note": "无法核查：需要先人工核对榜单原图上的机构名",
+   "sources": []
+  },
+  {
+   "rank": 69,
+   "firm": "FirstMark Capital",
+   "ok": true,
+   "stages": "Seed / Series A / Series B（第三方另列 Pre-seed）",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://vcbeast.com/claim/firstmark",
+    "https://venturecapitalarchive.com/venture-funds/firstmark-capital-firstmark-com",
+    "https://www.evalyze.ai/investors/rick-heitzmann"
+   ]
+  },
+  {
+   "rank": 70,
+   "firm": "Flybridge",
+   "ok": true,
+   "stages": "Pre-seed / Seed",
+   "seedVehicle": "Next Wave（由4只 pre-seed 基金组成的独立合伙人网络，单笔 $50K–$250K，每年40+笔；其中 Next Wave NYC 专投纽约 AI 原生应用和 AI 开发者平台）",
+   "seedFit": "A",
+   "note": "已核实：官网 FAQ 写明主投 pre-seed 和种子轮，种子单笔 $1M–$3M，pre-seed 通过 Next Wave 投",
+   "sources": [
+    "https://www.flybridge.com/faqs",
+    "https://www.flybridge.com/next-wave",
+    "https://flybridge.com/ideas/announcements/next-wave-nyc-launch"
+   ]
+  },
+  {
+   "rank": 74,
+   "firm": "Felicis",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "seedVehicle": "无独立种子基金（主基金 Fund X 直接投种子；Felicis Fellows 是学生人才项目，不是投资项目）",
+   "seedFit": "A",
+   "note": "未发现反证：2025年9月与 a16z 共同领投 Periodic Labs $300M 种子轮，确实在投 AI 种子轮",
+   "sources": [
+    "https://www.bloomberg.com/news/videos/2025-06-13/felicis-ventures-raises-its-largest-fund-video",
+    "https://superscout.co/investor/felicis",
+    "https://axis-intelligence.com/ai-startup-funding-2025-2-billion-rounds/"
+   ]
+  },
+  {
+   "rank": 77,
+   "firm": "Initialized Capital",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A（跟进，靠opportunity fund）",
+   "seedVehicle": "无（本身即种子基金）",
+   "seedFit": "A",
+   "note": "未发现反证：2025年12月仍在投种子轮（Guide Labs）；Garry Tan 离开后由 Brett Gibson 管理，2025 年未见新基金",
+   "sources": [
+    "https://superscout.co/investor/initialized-capital",
+    "https://www.cbinsights.com/investor/brett-gibson",
+    "https://mail.humanx.co/speakers/brett-gibson"
+   ]
+  },
+  {
+   "rank": 80,
+   "firm": "Wing Venture Capital",
+   "ok": true,
+   "stages": "Seed / Series A（领投为主），后续轮跟进",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://superscout.co/investor/wing-venture-capital",
+    "https://privateequitylist.com/investor/wing-venture-capital",
+    "https://en.wikipedia.org/wiki/Wing_Venture_Capital"
+   ]
+  },
+  {
+   "rank": 83,
+   "firm": "Canaan Partners",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth（老项目加注）",
+   "seedVehicle": "无（主基金直接做种子）",
+   "seedFit": "A",
+   "note": "已核实：Canaan XIII（$650M，2023年宣布，总募资 $850M）专投种子和 A 轮；2026年6月仍在跟投种子轮（HeyMilo AI），之后未见新基金",
+   "sources": [
+    "https://pulse2.com/canaan-closes-850-million-for-xiii-fund-and-growth-acceleration/amp/",
+    "https://www.caplight.com/investor/canaan",
+    "https://f4.fund/firms/canaan-partners"
+   ]
+  },
+  {
+   "rank": 85,
+   "firm": "Primary Venture Partners",
+   "ok": true,
+   "stages": "Pre-seed / Seed（后续轮跟进）",
+   "seedVehicle": "无（本身即种子基金）",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://finance.yahoo.com/news/primary-ventures-raises-healthy-625m-140000268.html",
+    "https://techfundingnews.com/primary-ventures-625m-fund-v-seed-nationwide/",
+    "https://pulse2.com/primary-venture-partners-launches-625-million-fund-v/"
+   ]
+  },
+  {
+   "rank": 87,
+   "firm": "NeoTribe Ventures",
+   "ok": false,
+   "stages": "Seed / Series A / Series B（Ignite Fund）",
+   "seedVehicle": "无（Ignite Fund 投 B 轮及以后）",
+   "seedFit": "B",
+   "note": "更正：“2026年6月仍在领投种子”查无实据，能查到的2026年交易只有1月参与 Ventaris Surgical $30M A 轮；管理规模约 $450–480M，正在募第三期基金",
+   "sources": [
+    "https://raising.fi/venture-capitalist/neotribe-ventures",
+    "https://www.vcsheet.com/fund/neotribe-ventures",
+    "https://www.caplight.com/investor/neotribe-ventures"
+   ]
+  },
+  {
+   "rank": 88,
+   "firm": "HOF Capital",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B / Growth",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://www.abana.co/news/abana-welcomes-new-member-hof-capital/",
+    "https://www.premieralts.com/investors/hof-capital/deals",
+    "https://www.tryfundable.ai/investor/hof-capital"
+   ]
+  },
+  {
+   "rank": 89,
+   "firm": "Two Sigma Ventures",
+   "ok": false,
+   "stages": "Seed / Series A / Series B（以领投 A 轮为主）",
+   "seedVehicle": "无",
+   "seedFit": "B",
+   "note": "降为 B：官网 FAQ 说主要领投 A 轮（$5–10M），种子轮是次要业务；最新基金是2020年的 Fund III（$288M），之后未见新基金，2026年也没查到领投种子的记录",
+   "sources": [
+    "https://twosigmaventures.com/faq",
+    "https://www.vcaonline.com/news/2020012221/two-sigma-ventures-announces-the-close-of-two-sigma-ventures-iii-lp-a-288m-venture-capital-fund-to-back-data-driven-startups/",
+    "https://seedtable.com/investors/two-sigma-ventures/portfolio"
+   ]
+  },
+  {
+   "rank": 90,
+   "firm": "Gradient Ventures",
+   "ok": true,
+   "stages": "Pre-seed / Seed",
+   "seedVehicle": "无（本身即AI种子基金，Fund V $220M，2026年3月）",
+   "seedFit": "A",
+   "note": "已核实：2026年3月17日 Business Wire 宣布 $220M 第五期种子基金，领投过 Lambda、CentML、Krea、Writer 等公司的种子轮",
+   "sources": [
+    "https://www.businesswire.com/news/home/20260317890946/en/Gradient-Raises-$220M-Fifth-Fund-To-Seed-Next-Generation-of-AI-Founders",
+    "https://globalventuring.com/corporate/information-technology/google-backed-vc-gradient-launches-220m-al-seed-fund/?format=md",
+    "https://pulse2.com/gradient-220-million-raised-for-ai-seed-fund/amp/"
+   ]
+  },
+  {
+   "rank": 92,
+   "firm": "Greycroft",
+   "ok": true,
+   "stages": "Seed / Series A / Series B / Growth",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://www.greycroft.com"
+   ]
+  },
+  {
+   "rank": 93,
+   "firm": "Craft Ventures",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A / Series B",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://incubatorlist.com/programs/craft-ventures",
+    "https://vcbeast.com/claim/craft-ventures",
+    "https://aifunding.me/investors/craft-ventures"
+   ]
+  },
+  {
+   "rank": 98,
+   "firm": "（可能是 Innovation Endeavors）",
+   "ok": true,
+   "stages": "Pre-seed / Seed / Series A（后续轮跟进）",
+   "seedVehicle": "无",
+   "seedFit": "A",
+   "note": "未发现反证（本轮未额外搜索）",
+   "sources": [
+    "https://privateequitylist.com/investors/innovation-endeavors",
+    "https://incubatorlist.com/innovation-endeavors"
+   ]
+  }
+ ]
+}
