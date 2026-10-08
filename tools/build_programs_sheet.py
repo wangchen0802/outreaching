@@ -64,6 +64,36 @@ def top100_names():
     return names + ["a16z"]
 
 
+# Programs the sweep returned twice under different names -> one key.
+SAME_AS = {"a16zcryptocryptostartupaccelerator": "a16zcryptocsx"}
+
+
+def program_key(name):
+    """"Seedcamp（pre-seed / seed 投资申请）" and "Seedcamp" -> "seedcamp"."""
+    key = re.sub(r"[^a-z0-9]+", "", re.sub(r"[（(].*?[)）]", " ", name.lower()))
+    return SAME_AS.get(key, key)
+
+
+def dedupe(programs):
+    """One record per program: the best-rated one (confidence, then more sources), with the others' sources added."""
+    best = {}
+    order = {"high": 0, "medium": 1, "low": 2}
+    for p in sorted(programs, key=lambda p: (order.get(p.get("confidence"), 3), -len(p.get("sources") or []))):
+        k = program_key(p["program"]) or p["program"]
+        if k in best:
+            best[k]["sources"] += [u for u in (p.get("sources") or []) if u not in best[k]["sources"]]
+            continue
+        p["sources"] = list(p.get("sources") or [])
+        best[k] = p
+    return list(best.values())
+
+
+def run_by(operator, top):
+    """Whether a top-100 firm runs the program; "非 Founders Fund 运营" names the firm without it being the operator."""
+    text = re.sub(r"非[^，,；;）)]*", " ", (operator or "").lower())
+    return any(t.search(text) for t in top)
+
+
 def status_rank(status):
     s = status or ""
     for i, word in enumerate(("开放中", "滚动", "即将开放", "未确认", "已截止")):
@@ -100,14 +130,18 @@ def main():
     dates.TODAY = TODAY
     programs = data["programs"]
     for p in programs:
+        # "deadline" (when set, even empty) overrides the date parsed from "timing", which can pick up a start date.
         p["_deadline"] = "" if "已截止" in (p.get("status") or "") or "停办" in (p.get("status") or "") \
-            else dates.next_deadline(p.get("timing", ""))
-    live = [p for p in programs if p.get("keep", True) and "停办" not in (p.get("status") or "")]
-    gone = [p for p in programs if p not in live]
+            else p["deadline"] if "deadline" in p else dates.next_deadline(p.get("timing", ""))
+    kept = dedupe([p for p in programs if p.get("keep", True)])
+    live = [p for p in kept if "停办" not in (p.get("status") or "")]
+    # Dropped as a duplicate of another entry: not a closed program, so left out of the "已停办" sheet.
+    gone = [p for p in programs if not p.get("keep", True) and "重复" not in (p.get("verifyNote") or "")] + \
+        [p for p in kept if p not in live]
     live.sort(key=lambda p: (status_rank(p.get("status")), p["_deadline"] or "9999", FIT_RANK.get(p.get("fit"), 3),
                              p["program"].lower()))
     top = [re.compile(r"\b" + re.escape(n) + r"\b") for n in top100_names()]
-    from_top = [p for p in live if any(t.search((p.get("operator") or "").lower()) for t in top)]
+    from_top = [p for p in live if run_by(p.get("operator"), top)]
 
     wb = Workbook()
     wb.remove(wb.active)
@@ -116,7 +150,7 @@ def main():
     sheet(wb, "已停办或核实不了", [("项目", 30), ("主办方", 22), ("原因", 70), ("来源", 50)],
           [[p["program"], p.get("operator", ""), p.get("verifyNote") or p.get("status", ""), "\n".join((p.get("sources") or [])[:3])]
            for p in gone])
-    sheet(wb, "没有孵化项目的VC", [("机构", 40)], [[n] for n in sorted(set(data.get("noProgram", [])))])
+    sheet(wb, "没有孵化项目的VC", [("机构和说明", 100)], [[n] for n in sorted(set(data.get("noProgram", [])))])
 
     soon = [p for p in live if p["_deadline"] and p["_deadline"] <= (TODAY + dt.timedelta(days=45)).isoformat()]
     ws = wb.create_sheet("说明")
