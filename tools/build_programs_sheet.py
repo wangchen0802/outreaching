@@ -58,7 +58,10 @@ def top100_names():
             name = re.sub(r"^（(?:可能是\s*)?|）$", "", r["firm"]).split(" (")[0].strip().lower()
             if name and "无法辨认" not in name and "（" not in name:
                 names.append(name)
-    return names
+                short = re.sub(r"(\s+(capital|ventures?|partners|management|investment group|venture partners))+$", "", name)
+                if short != name and len(short) > 3:
+                    names.append(short)
+    return names + ["a16z"]
 
 
 def status_rank(status):
